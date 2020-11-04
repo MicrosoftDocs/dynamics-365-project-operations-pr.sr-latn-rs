@@ -9,11 +9,11 @@ ms.service: dynamics-365-customerservice
 ms.reviewer: kfend
 ms.author: rumant
 ms.openlocfilehash: 64d2fd9bab9452d71e8cd194fbab70edadf00b93
-ms.sourcegitcommit: a2c3cd49a3b667b8b5edaa31788b4b9b1f728d78
+ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
 ms.translationtype: HT
 ms.contentlocale: sr-Latn-RS
-ms.lasthandoff: 09/28/2020
-ms.locfileid: "3896298"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4083504"
 ---
 # <a name="project-quote-key-concepts"></a>Ključni koncepti ponuda za projekat
 
@@ -78,7 +78,7 @@ Pogodbe sa više klijenata nastaju kada postoji više klijenata kojima se faktur
 
 ## <a name="invoice-schedules"></a>Rasporedi za fakturisanje
 
-Rasporedi za fakturisanje su specifični za svaku stavku ponude i takođe su opcionalni. Rasporedi za fakturisanje se kreiraju na osnovu određenih datuma početka i završetka i učestalosti fakturisanja. Rasporedi za fakturisanje se koriste u fazi ugovora kada se konfiguriše automatski postupak kreiranja fakture. U fazi ponude, rasporedi su opcionalni. Kada se rasporedi za fakturisanje kreiraju u fazi **Ponuda**, oni se kopiraju u ugovor o projektu koji se kreira kada se ponuda za projekat ostvari.
+Rasporedi za fakturisanje su specifični za svaku stavku ponude i takođe su opcionalni. Rasporedi za fakturisanje se kreiraju na osnovu određenih datuma početka i završetka i učestalosti fakturisanja. Rasporedi za fakturisanje se koriste u fazi ugovora kada se konfiguriše automatski postupak kreiranja fakture. U fazi ponude, rasporedi su opcionalni. Kada se rasporedi za fakturisanje kreiraju u fazi **Ponuda** , oni se kopiraju u ugovor o projektu koji se kreira kada se ponuda za projekat ostvari.
 
 ## <a name="changes-from-dynamics-365-sales-quote"></a>Promene iz Dynamics 365 Sales ponude:
 

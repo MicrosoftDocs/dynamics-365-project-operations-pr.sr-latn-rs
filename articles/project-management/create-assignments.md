@@ -9,11 +9,11 @@ ms.service: dynamics-365-customerservice
 ms.reviewer: kfend
 ms.author: ruhercul
 ms.openlocfilehash: 20eb3880b17fb1f765ad79bd720520b0c8004c0a
-ms.sourcegitcommit: a0f80d024a5d3112a39781815bd31d0c05ddaf6f
+ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
 ms.translationtype: HT
 ms.contentlocale: sr-Latn-RS
-ms.lasthandoff: 09/30/2020
-ms.locfileid: "3906309"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4083493"
 ---
 # <a name="create-resource-assignments"></a>Kreiranje dodela resursa
 
@@ -29,15 +29,15 @@ Kada kreirate generičkog člana tima dodeljivanjem zadatka, kreirate rezervisan
 
 1. Na mreži Raspored za zadatak, izaberite ikonu resursa u ćeliji **Resurs**.
 2. Unesite ime koje će služiti kao ime čuvara mesta resursa. Na primer, Menadžer programa.
-3. Izaberite **Kreiraj**, pa u polju **Brzo kreiranje člana projektnog tima** podesite ulogu za generički resurs.
+3. Izaberite **Kreiraj** , pa u polju **Brzo kreiranje člana projektnog tima** podesite ulogu za generički resurs.
 4. Dodeljujte zadatke po potrebi u ovaj resurs čuvara mesta izborom resursa u **biraču resursa** za zadatak. Resursi su navedeni u okviru opcije **Članovi tima**.
-5. Kada završite sa dodeljivanjem generičkog resursa, izaberite generički resurs na kartici **Tim**, a zatim izaberite **Generiši potrebu** da biste kreirali potrebu za resursom za generički resurs.
+5. Kada završite sa dodeljivanjem generičkog resursa, izaberite generički resurs na kartici **Tim** , a zatim izaberite **Generiši potrebu** da biste kreirali potrebu za resursom za generički resurs.
 6. Izaberite stavku **Rezerviši** za generički resurs, a zatim koristite tabelu rasporeda da biste pronašli i rezervisali stvarni resurs. Možete i da prosledite zahtev za ispunjenje od strane menadžera resursa.
 7. Kada se generički resurs u potpunosti ispuni (delimično ispunjenje zahteva za resursom neće rezultirati dodeljivanjem resursa) sa imenovanim resursom, generički resurs se uklanja iz tima. Zadaci zadatka za generički resurs dodeljuju se imenovanom resursu koji je ispunio zahtev za resursom generičkog resursa.
 
 ## <a name="assign-a-named-resource-from-the-list-of-all-bookable-resources"></a>Dodela imenovanog resursa sa liste svih resursa koji mogu da se rezervišu
 
-Možete da koristite polje za pretragu u **biraču resursa** da pretražite sve aktivne resurse koji mogu da se rezervišu i dodelite ih zadatku čvora lista. Resursi dodeljeni na ovaj način dodaju se u tim bez ikakvih rezervacija. To je slično dodavanju člana tima i odluci da izaberete **Nijedno** kao metodu dodele. Resurs se prikazuje na karticama **Tim**, **Dodela resursa** i **Usaglašenost** kao resurs samo sa dodelama i sa nedostatkom rezervacije. Rezervišete ih ako želite da koristite njihovu dostupnost.
+Možete da koristite polje za pretragu u **biraču resursa** da pretražite sve aktivne resurse koji mogu da se rezervišu i dodelite ih zadatku čvora lista. Resursi dodeljeni na ovaj način dodaju se u tim bez ikakvih rezervacija. To je slično dodavanju člana tima i odluci da izaberete **Nijedno** kao metodu dodele. Resurs se prikazuje na karticama **Tim** , **Dodela resursa** i **Usaglašenost** kao resurs samo sa dodelama i sa nedostatkom rezervacije. Rezervišete ih ako želite da koristite njihovu dostupnost.
 
 1. Iz mreže zadataka, sa table ili vremenske ose idite na ćeliju **Dodeljeno**.
 2. U polju za pretragu počnite da kucate ime. Prikazuju se rezultati pretrage za ime u **biraču resursa** u okviru opcije **Drugi resursi**.

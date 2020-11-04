@@ -8,14 +8,16 @@ ms.topic: article
 ms.service: dynamics-365-customerservice
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: ffb89a954b8af9d726c64cceeafca638c3393130
-ms.sourcegitcommit: fd8ea1779db2bb39a428f459ae3293c4fd785572
+ms.openlocfilehash: ea7f0a8207fc78914783f5b9c919b3243a0bb5a4
+ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
 ms.translationtype: HT
 ms.contentlocale: sr-Latn-RS
-ms.lasthandoff: 10/06/2020
-ms.locfileid: "3965875"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4083456"
 ---
 # <a name="manage-multiple-customers-on-project-based-quote-lines"></a>Upravljanje sa više klijenata u stavkama ponude zasnovane na projektu
+
+_**Odnosi se na:** Project Operations za scenarije zasnovane na resursima / bez zaliha_
 
 Stavke ponude zasnovane na projektu podržavaju scenarije gde svaka stavka ponude ima listu klijenata koji je plaćaju. Ova lista klijenata na stavci ponude zasnovane na projektu može biti ista kao lista klijenata na ponudi. Možete i da promenite listu klijenata da bude drugačija. Da bi se kreirao eventualni ugovor za projekat kada se ostvari ponuda za projekat, lista klijenata na stavci ponude zasnovane na projektu se kopira u odgovarajući predmet ugovora zasnovan na projektu. Klijenti na osnovu ponude zasnovane na projektu kopiraju se u ugovor za projekat.
 
@@ -31,11 +33,11 @@ Sledeća tabela prikazuje polja u zapisu klijenta stavke ponude u stavci ponude 
 
 | Polje | Lokacija | Opis i smernice | Posledični uticaj |
 | --- | --- | --- | --- |
-| **Poslovni kontakt** | Mreža za uređivanje na kartici **Klijenti stavke ponude**, glavni obrazac i obrazac za brzo kreiranje za klijenta na stavci ponude. | Navodi sve aktivne naloge. Ovo polje se zaključava nakon kreiranja zapisa. Ako treba da ažurirate polje, izbrišite i ponovo napravite zapis. Ako ste evidentirali bilo koju stvarnu vrednost, ne možete izbrisati zapis. | Kada odaberete poslovni kontakt sa glavne liste poslovnih kontakata koji želite da dodate, klijent na stavci ponude se takođe dodaje kao klijent na ponudi. Klijenti na stavkama ponude kopiraju se u klijente na predmetima ugovora kada se ponuda ostvari. |
-| **Procenat deljenja naplate** | Mreža za uređivanje na kartici **Klijenti stavke ponude**, glavni obrazac i obrazac za brzo kreiranje za klijenta na stavci ponude. | Predstavlja procenat svake nenaplaćene prodajne transakcije koja će biti pripisana ovom klijentu stavke ponude. | Kopira se u klijente predmeta ugovora za projekat. |
-| **Ograničenje koje ne sme da se prekorači** | Mreža za uređivanje na kartici **Klijenti stavke ponude**, glavni obrazac i obrazac za brzo kreiranje za klijenta na stavci ponude. | Označava da li postoji ugovoreno ograničenje ili gornje ograničenje ukupnog iznosa koji će se fakturisati ovom klijentu za ovu stavku ponude. | Kopira se u klijente predmeta ugovora o projektu kada se ponuda ostvari. |
-| **Preduzeće-vlasnik** | Mreža za uređivanje na kartici **Klijenti stavke ponude**, glavni obrazac i obrazac za brzo kreiranje za klijenta na stavci ponude, | Pravno lice u kojem je klijent podešen u modulu **Upravljanje projektima i računovodstvo**. Ovo polje je samo za čitanje i postavljeno je za preduzeće-vlasnika same ponude. Lista klijenata koje treba dodati u polju **Poslovni kontakt** već je filtrirana u listu iz preduzeća-vlasnika u modulu **Upravljanje projektima i računovodstvo** usluge Project Operations. | Preduzeće-vlasnik se izjednačava sa pojmom pravnog lica. Svi troškovi i prihodi koji nastaju od ovog projekta evidentiraju se u glavnoj knjizi preduzeća-vlasnika. |
-| **Da li se zaokružuje** | Mreža za uređivanje na kartici **Klijenti stavke ponude**, glavni obrazac i obrazac za brzo kreiranje za klijenta na stavci ponude. | Označava da li je ovaj klijent podrazumevani klijent za zaokruživanje za ovu stavku ponude zasnovane na projektu. | Kopira se u klijente ugovora o projektu kada se ponuda ostvari. |
+| **Poslovni kontakt** | Mreža za uređivanje na kartici **Klijenti stavke ponude** , glavni obrazac i obrazac za brzo kreiranje za klijenta na stavci ponude. | Navodi sve aktivne naloge. Ovo polje se zaključava nakon kreiranja zapisa. Ako treba da ažurirate polje, izbrišite i ponovo napravite zapis. Ako ste evidentirali bilo koju stvarnu vrednost, ne možete izbrisati zapis. | Kada odaberete poslovni kontakt sa glavne liste poslovnih kontakata koji želite da dodate, klijent na stavci ponude se takođe dodaje kao klijent na ponudi. Klijenti na stavkama ponude kopiraju se u klijente na predmetima ugovora kada se ponuda ostvari. |
+| **Procenat deljenja naplate** | Mreža za uređivanje na kartici **Klijenti stavke ponude** , glavni obrazac i obrazac za brzo kreiranje za klijenta na stavci ponude. | Predstavlja procenat svake nenaplaćene prodajne transakcije koja će biti pripisana ovom klijentu stavke ponude. | Kopira se u klijente predmeta ugovora za projekat. |
+| **Ograničenje koje ne sme da se prekorači** | Mreža za uređivanje na kartici **Klijenti stavke ponude** , glavni obrazac i obrazac za brzo kreiranje za klijenta na stavci ponude. | Označava da li postoji ugovoreno ograničenje ili gornje ograničenje ukupnog iznosa koji će se fakturisati ovom klijentu za ovu stavku ponude. | Kopira se u klijente predmeta ugovora o projektu kada se ponuda ostvari. |
+| **Preduzeće-vlasnik** | Mreža za uređivanje na kartici **Klijenti stavke ponude** , glavni obrazac i obrazac za brzo kreiranje za klijenta na stavci ponude, | Pravno lice u kojem je klijent podešen u modulu **Upravljanje projektima i računovodstvo**. Ovo polje je samo za čitanje i postavljeno je za preduzeće-vlasnika same ponude. Lista klijenata koje treba dodati u polju **Poslovni kontakt** već je filtrirana u listu iz preduzeća-vlasnika u modulu **Upravljanje projektima i računovodstvo** usluge Project Operations. | Preduzeće-vlasnik se izjednačava sa pojmom pravnog lica. Svi troškovi i prihodi koji nastaju od ovog projekta evidentiraju se u glavnoj knjizi preduzeća-vlasnika. |
+| **Da li se zaokružuje** | Mreža za uređivanje na kartici **Klijenti stavke ponude** , glavni obrazac i obrazac za brzo kreiranje za klijenta na stavci ponude. | Označava da li je ovaj klijent podrazumevani klijent za zaokruživanje za ovu stavku ponude zasnovane na projektu. | Kopira se u klijente ugovora o projektu kada se ponuda ostvari. |
 
 ## <a name="edit-billing-split-percentages"></a>Uređivanje procenata podele naplate
 

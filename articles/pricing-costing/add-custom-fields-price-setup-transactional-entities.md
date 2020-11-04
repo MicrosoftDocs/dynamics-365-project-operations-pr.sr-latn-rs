@@ -7,7 +7,6 @@ ms.date: 09/18/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-customerservice
-ms.technology: ''
 audience: Application User
 ms.reviewer: kfend
 ms.search.scope: ''
@@ -18,12 +17,12 @@ ms.search.industry: Service industries
 ms.author: suvaidya
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: a27bfe881fdb6431941fa860d279e3e7b526f623
-ms.sourcegitcommit: a2c3cd49a3b667b8b5edaa31788b4b9b1f728d78
+ms.openlocfilehash: e589465eb98723b3b49c5d96e263eb3abf15eb2c
+ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
 ms.translationtype: HT
 ms.contentlocale: sr-Latn-RS
-ms.lasthandoff: 09/28/2020
-ms.locfileid: "3898323"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4083620"
 ---
 # <a name="add-required-custom-fields-to-price-setup-and-transactional-entities"></a>Dodavanje obaveznih prilagođenih polja u podešavanje cena i entitete transakcije
 
@@ -39,35 +38,35 @@ Nakon kreiranja prilagođenih polja i entiteta, sledeći korak jeste da podešav
 ### <a name="option-set-based-custom-pricing-dimensions"></a>Prilagođene dimenzije za određivanje cena zasnovane na skupu opcija
 Kada je prilagođena dimenzija za određivanje cena zasnovana na skupu opcija, dodajte je kao polje u ključne entitete. U sledećoj proceduri, **Radna lokacija resursa** i **Radno vreme resursa** koriste se kao dimenzije za određivanje cena zasnovane na skupu opcija. One prvo moraju da se dodaju kao polja u entitete za određivanje cena **Cena uloge** i **Provizija na cenu uloge**.
 
-1. U odeljku Projektne radnje izaberite **Podešavanja** > **Rešenja**, a zatim dvaput kliknite na **\<your organization name> dimenzije za određivanje cena**. 
+1. U odeljku Projektne radnje izaberite **Podešavanja** > **Rešenja** , a zatim dvaput kliknite na **\<your organization name> dimenzije za određivanje cena**. 
 2. U levom oknu za navigaciju istraživača rešenja izaberite **Entiteti > Cena uloge**.
 3. Razvijte entitet **Cena uloge** i izaberite opciju **Polja**.
 4. Izaberite **Novo** da biste kreirali novo polje pod nazivom **Radna lokacija resursa** i izaberite **Skup opcija** kao tip polja. 
-5. Izaberite **Koristi postojeći skup opcija**, pa skup opcija **Radna lokacija resursa**, a zatim izaberite **Sačuvaj**.
+5. Izaberite **Koristi postojeći skup opcija** , pa skup opcija **Radna lokacija resursa** , a zatim izaberite **Sačuvaj**.
 6. Ponovite korake 1-5 da biste dodali ovo polje u entitet **Provizija na cenu uloge**. 
 7. Ponovite korake 1-5 za skup opcija **Radno vreme resursa**.
 
 > [!IMPORTANT]
 > Kada dodate polje u više od jednog entiteta, koristite isto ime polja u svim entitetima. 
 
-U fazama prodaje i procene projekta, procena radnih napora koji su neophodni da bi se dovršio **lokalni** posao i posao **na lokaciji** ako se koriste **Standardno radno vreme** i **Prekovremeno radno vreme**, koriste se za procenu vrednost ponude/projekta. Polja **Radna lokacija resursa** i **Radno vreme resursa** će biti dodati u entitete procena **Detalj stavke ponude**, **Detalji predmeta ugovora**, **Član projektnog tima** i **Stavka procene**.
+U fazama prodaje i procene projekta, procena radnih napora koji su neophodni da bi se dovršio **lokalni** posao i posao **na lokaciji** ako se koriste **Standardno radno vreme** i **Prekovremeno radno vreme** , koriste se za procenu vrednost ponude/projekta. Polja **Radna lokacija resursa** i **Radno vreme resursa** će biti dodati u entitete procena **Detalj stavke ponude** , **Detalji predmeta ugovora** , **Član projektnog tima** i **Stavka procene**.
 
-1. U odeljku Projektne radnje izaberite **Podešavanja** > **Rešenja**, a zatim dvaput kliknite na **\<your organization name> dimenzije za određivanje cena**. 
+1. U odeljku Projektne radnje izaberite **Podešavanja** > **Rešenja** , a zatim dvaput kliknite na **\<your organization name> dimenzije za određivanje cena**. 
 2. U levom oknu za navigaciju istraživača rešenja izaberite **Entiteti > Detalj stavke ponude**.
 3. Razvijte entitet **Detalj stavke ponude** i izaberite **Polja**.
 4. Izaberite **Novo** da biste kreirali novo polje pod nazivom **Radna lokacija resursa** i izaberite tip polja **Skup opcija**. 
-5. Izaberite **Koristi postojeći skup opcija** i **Radna lokacija resursa**, a zatim izaberite **Sačuvaj**.
-6. Ponovite korake 1-5 da biste dodali ovo polje u entitete **Detalj predmeta ugovora za projekat**, **Član projektnog tima** i **Stavka procene**.
+5. Izaberite **Koristi postojeći skup opcija** i **Radna lokacija resursa** , a zatim izaberite **Sačuvaj**.
+6. Ponovite korake 1-5 da biste dodali ovo polje u entitete **Detalj predmeta ugovora za projekat** , **Član projektnog tima** i **Stavka procene**.
 7. Ponovite korake 1-6 za skup opcija **Radno vreme resursa**. 
 
-Za isporuku i fakturisanje, cena dovršenog posla treba da bude precizno određena da biste izabrali da li je obavljen **lokalno** ili **na lokaciji**, kao i da li je dovršen uz opciju **Standardno radno vreme** ili **Prekovremeno** u delu Stvarne vrednosti projekta. Polja **Radna lokacija resursa** i **Radno vreme resursa** treba da dodate u entitete **Stavka vremena**, **Stvarna vrednost**, **Detalj stavke fakture** i **Stavka u glavnoj knjizi**.
+Za isporuku i fakturisanje, cena dovršenog posla treba da bude precizno određena da biste izabrali da li je obavljen **lokalno** ili **na lokaciji** , kao i da li je dovršen uz opciju **Standardno radno vreme** ili **Prekovremeno** u delu Stvarne vrednosti projekta. Polja **Radna lokacija resursa** i **Radno vreme resursa** treba da dodate u entitete **Stavka vremena** , **Stvarna vrednost** , **Detalj stavke fakture** i **Stavka u glavnoj knjizi**.
 
-1. Izaberite **Podešavanja** > **Rešenja**, a zatim dvaput kliknite na **\<your organization name> dimenzije za određivanje cena**.
+1. Izaberite **Podešavanja** > **Rešenja** , a zatim dvaput kliknite na **\<your organization name> dimenzije za određivanje cena**.
 2. U levom oknu za navigaciju istraživača rešenja izaberite **Entiteti > Stavka vremena**.
-3. Razvijte entitet **Detalj stavke ponude**, a zatim izaberite **Polja**.
+3. Razvijte entitet **Detalj stavke ponude** , a zatim izaberite **Polja**.
 4. Izaberite **Novo** da biste kreirali novo polje pod nazivom **Radna lokacija resursa** i izaberite **Skup opcija** kao tip polja. 
-5. Izaberite **Koristi postojeći skup opcija**, pa skup opcija **Radna lokacija resursa**, a zatim izaberite **Sačuvaj**.
-6. Ponovite korake 1-5 da biste dodali ovo polje u entitete **Stvarna vrednost**, **Detalj stavke fakture** i **Stavka u glavnoj knjizi**.
+5. Izaberite **Koristi postojeći skup opcija** , pa skup opcija **Radna lokacija resursa** , a zatim izaberite **Sačuvaj**.
+6. Ponovite korake 1-5 da biste dodali ovo polje u entitete **Stvarna vrednost** , **Detalj stavke fakture** i **Stavka u glavnoj knjizi**.
 7. Ponovite korake 1-6 za skup opcija **Radno vreme resursa**. 
 
 Ovim se dovršava promena šeme potrebna za prilagođene dimenzije zasnovane na skupu opcija.
@@ -76,7 +75,7 @@ Ovim se dovršava promena šeme potrebna za prilagođene dimenzije zasnovane na 
 
 Kada je prilagođena dimenzija za određivanje cena entitet, treba da dodate 1:N odnose između entiteta dimenzije i ključnih entiteta. Koristeći primer standardne pozicije gore, bilo bi razumno očekivati da svakom zaposlenom bude dodeljena standardna pozicija. Stoga će vam trebati 1: N odnos između standardne pozicije i resursa koji može da se rezerviše, ili N:1 odnos ako je kreiran iz resursa koji se može rezervisati u standardnu poziciju.
 
-1. U odeljku Projektne radnje izaberite **Podešavanja** > **Rešenja**, a zatim dvaput kliknite na **\<your organization name> dimenzije za određivanje cena**. 
+1. U odeljku Projektne radnje izaberite **Podešavanja** > **Rešenja** , a zatim dvaput kliknite na **\<your organization name> dimenzije za određivanje cena**. 
 2. U levom oknu za navigaciju istraživača rešenja izaberite **Entiteti > Standardna pozicija**.
 3. Proširite entitet **Standardna pozicija** i izaberite **1:N odnos**.
 4. Izaberite **Novo** da biste kreirali novu 1:N relaciju pod nazivom **Između standardne pozicije i resursa koji može da se rezerviše**. Unesite potrebne informacije, a zatim izaberite **Sačuvaj**.
@@ -95,11 +94,11 @@ U fazama prodaje i procene projekta, da bi se odredila cena ponude/projekta, za 
 - **Član projektnog tima**
 - **Stavka procene**
 
-5. Ponovite korake 1-5 da biste kreirali 1:N odnose između stavke **Standardna pozicija** i **Detalj stavke ponude**, **Detalj predmeta ugovora za projekat**, **Član projektnog tima** i **Stavka procene**.
+5. Ponovite korake 1-5 da biste kreirali 1:N odnose između stavke **Standardna pozicija** i **Detalj stavke ponude** , **Detalj predmeta ugovora za projekat** , **Član projektnog tima** i **Stavka procene**.
 
-  U fazama isporuke i fakturisanja, cena obavljenog posla svake standardne pozicije mora biti precizno određena u delu Stvarne vrednosti projekta. To znači da treba da postoje 1:N odnosi između stavke **Standardna pozicija** i sledećih entiteta: **Stavka vremena**, **Stvarna vrednost**, **Detalj stavke fakture** i **Stavka u glavnoj knjizi**.
+  U fazama isporuke i fakturisanja, cena obavljenog posla svake standardne pozicije mora biti precizno određena u delu Stvarne vrednosti projekta. To znači da treba da postoje 1:N odnosi između stavke **Standardna pozicija** i sledećih entiteta: **Stavka vremena** , **Stvarna vrednost** , **Detalj stavke fakture** i **Stavka u glavnoj knjizi**.
 
-6. Ponovite korake 1-6 da biste kreirali 1:N odnose između stavke **Standardna pozicija** i sledećih entiteta: **Stavka vremena**, **Stvarna vrednost**, **Detalj stavke fakture** i **Stavka u glavnoj knjizi**.
+6. Ponovite korake 1-6 da biste kreirali 1:N odnose između stavke **Standardna pozicija** i sledećih entiteta: **Stavka vremena** , **Stvarna vrednost** , **Detalj stavke fakture** i **Stavka u glavnoj knjizi**.
 
 ### <a name="set-up-dimension-value-defaulting-using-the-mappings-features-of-the-platform"></a>Podešavanje podrazumevane vrednosti dimenzije pomoću funkcija mapiranja u okviru platforme
 Za stavku vremena, bilo bi od pomoći da sistem kao podrazumevanu vrednost podesi standardnu poziciju za stavku vremena iz resursa koji se može rezervisati i koji evidentira stavku vremena. Koristite sledeće korake da biste dodali mapiranja polja za 1:N odnos između entiteta **Resurs koji se može rezervisati** i **Stavka vremena**.

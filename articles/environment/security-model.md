@@ -8,12 +8,12 @@ ms.topic: article
 ms.service: dynamics-365-customerservice
 ms.reviewer: kfend
 ms.author: stsporen
-ms.openlocfilehash: ffcfa8a9c8e31c5665acd3c3919fa90d36a3f3ca
-ms.sourcegitcommit: a2c3cd49a3b667b8b5edaa31788b4b9b1f728d78
+ms.openlocfilehash: e875d1765b5038e60830d626abb5bcd61749ece1
+ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
 ms.translationtype: HT
 ms.contentlocale: sr-Latn-RS
-ms.lasthandoff: 09/28/2020
-ms.locfileid: "3896748"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4083465"
 ---
 # <a name="security-model"></a>Model bezbednosti
 
@@ -36,10 +36,11 @@ Izložene mogućnosti usluge Project Operations uključuju sledeće uloge:
 
 
 Microsoft Project za veb uključuje sledeće uloge:
-| Uloga                          | Opis                                                                                                          | Scope |                                                       
-|-------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-----|
-| Korisnik projekta | Korisnik koji sarađuje u programu Project koji može da kreira sopstvene projekte i pregleda sve projekte koji se dele sa njim.| Korisnik|
-| Projektni sistem | Uloga koja se koristi za kontekst aplikacije. Klijenti ne bi trebalo da koriste ovu sistemsku ulogu. | Globalni|
+
+| Uloga           | Opis                                                                                                        | Scope  |
+|----------------|--------------------------------------------------------------------------------------------------------------------|--------|
+| Korisnik projekta   | Korisnik koji sarađuje u programu Project   koji može da kreira sopstvene projekte i pregleda sve projekte koji se dele sa   njim. | Korisnik   |
+| Projektni sistem | Uloga koja se koristi za kontekst   aplikacije. Klijenti ne bi trebalo da koriste ovu sistemsku ulogu.                                    | Globalni |
 
 ## <a name="security-enforcement"></a>Provođenje bezbednosti
 Radnje koje se izvode na nivou projekta izvode se u kontekstu prijavljenog korisnika. To znači da je za kreiranje, otvaranje ili brisanje projekta od korisnika potrebno da ima pristup dostupan u CDS-u. Pristup CDS-u se može odobriti putem bilo kog od mogućih mehanizama uključenih u platformu. Na primer, korisnik sa većim opsegom može pristupiti projektu ili ako je izvršena eksplicitna akcija deljenja projekta koja korisniku odobrava pristup.
@@ -56,6 +57,8 @@ Grupe omogućavaju zajednički rad na dozvolama projekta i pratećim artefaktima
 Usluga Project Operations ne kreira grupu implicitnom akcijom, već samo eksplicitnom akcijom pritiska grupa.
 
 Pretraga članova grupe u dijalogu **Upravljanje grupama** ograničena je na one koji su postavljeni kao deo bezbednosne grupe okruženja. Više informacija potražite u članku [Kontrola korisničkog pristupa okruženjima: bezbednosne grupe i licence](https://docs.microsoft.com/power-platform/admin/control-user-access).
+
+![Grupni režim](./media/groupsmode.png)
 
 1. Projekat se kreira i njegov vlasnik je korisnik koji ga je kreirao.
 2. Vlasnik projekta je obavešten o timu.

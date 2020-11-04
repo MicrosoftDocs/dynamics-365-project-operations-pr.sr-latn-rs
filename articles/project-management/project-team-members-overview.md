@@ -9,11 +9,11 @@ ms.service: dynamics-365-customerservice
 ms.reviewer: kfend
 ms.author: ruhercul
 ms.openlocfilehash: f4941803c657fab55ee2702d9f58d6e333592889
-ms.sourcegitcommit: 56c42d7f5995a674426a1c2a81bae897dceb391c
+ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
 ms.translationtype: HT
 ms.contentlocale: sr-Latn-RS
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3908537"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4083471"
 ---
 # <a name="project-team-members"></a>Članovi projektnog tima
 
@@ -47,16 +47,16 @@ Sledeća tabela navodi ključne atribute člana projektnog tima.
 
 Iz mreže članova tima mogu se preduzeti sledeće radnje:
 
-- **Rezervacija**: Za organizacije koje izvršavaju korišćenje metodologije hibridnih rezervacija, radnja rezervacije će omogućiti korisnicima da rezervišu imenovani resurs na osnovu zahteva koji se generišu od generičkog člana tima
-- **Generisanje zahteva**: Ova radnja generiše zahtev.
-- **Navođenje obrasca**: Omogućava menadžerima projekata da prilagode konture zahtevanih resursa na detaljnom nivou. Menadžeri projekata mogu se prilagoditi specifičnim potrebama projekta u slučajevima kada podrazumevana distribucija ne odgovara.
-- **Prosleđivanje zahteva**: Za organizacije koje koriste centralnu metodologiju rezervacije.
-- **Uređivanje**: Atributi člana tima mogu se uređivati, uključujući organizacionu jedinicu, ulogu i naziv položaja.
-- **Održavanje rezervacija**: Kada je potrebno ažuriranje rezervacija resursa, održavanje rezervacija omogućava menadžeru projekta da prilagodi:
+- **Rezervacija** : Za organizacije koje izvršavaju korišćenje metodologije hibridnih rezervacija, radnja rezervacije će omogućiti korisnicima da rezervišu imenovani resurs na osnovu zahteva koji se generišu od generičkog člana tima
+- **Generisanje zahteva** : Ova radnja generiše zahtev.
+- **Navođenje obrasca** : Omogućava menadžerima projekata da prilagode konture zahtevanih resursa na detaljnom nivou. Menadžeri projekata mogu se prilagoditi specifičnim potrebama projekta u slučajevima kada podrazumevana distribucija ne odgovara.
+- **Prosleđivanje zahteva** : Za organizacije koje koriste centralnu metodologiju rezervacije.
+- **Uređivanje** : Atributi člana tima mogu se uređivati, uključujući organizacionu jedinicu, ulogu i naziv položaja.
+- **Održavanje rezervacija** : Kada je potrebno ažuriranje rezervacija resursa, održavanje rezervacija omogućava menadžeru projekta da prilagodi:
 
     - Pokreni
     - Završetak
     - Ukupna dodela angažovanja
 
-- **Novo**: Pored dodavanja resursa direktno iz rasporeda, menadžeri projekta mogu da dodaju nove imenovane ili generičke članove tima iz mreže članova tima.
-- **Brisanje**: Odabirom jednog ili više članova tima, menadžer projekta može izbrisati resurse koji više neće učestvovati u projektu. Brisanjem člana tima izbrisaće se i svi pridruženi zadaci resursa i otkazati sve postojeće rezervacije.
+- **Novo** : Pored dodavanja resursa direktno iz rasporeda, menadžeri projekta mogu da dodaju nove imenovane ili generičke članove tima iz mreže članova tima.
+- **Brisanje** : Odabirom jednog ili više članova tima, menadžer projekta može izbrisati resurse koji više neće učestvovati u projektu. Brisanjem člana tima izbrisaće se i svi pridruženi zadaci resursa i otkazati sve postojeće rezervacije.

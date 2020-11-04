@@ -9,11 +9,11 @@ ms.service: dynamics-365-customerservice
 ms.reviewer: kfend
 ms.author: ruhercul
 ms.openlocfilehash: ab39d7e5dc2d8c01ed49ca0f1a4d1691aaf15637
-ms.sourcegitcommit: 396e0fea2f1598a5313cb0128eca4fe0bb5aade9
+ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
 ms.translationtype: HT
 ms.contentlocale: sr-Latn-RS
-ms.lasthandoff: 10/05/2020
-ms.locfileid: "3961936"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4083428"
 ---
 # <a name="define-resource-calendars"></a>Definisanje kalendara resursa
 
@@ -41,5 +41,5 @@ Svaki resurs koji može da se rezerviše koji radi na projektu mora imati kalend
 
 1. U meniju **Resursi** izaberite **Resursi**.
 2. Iz prikaza mreže izaberite do 25 **resursa koji mogu dase rezervišu** da biste ih ažurirali.
-3. Izaberite**Podesi kalendar** i pojaviće se dijalog sa listom dostupnih predložaka radnog vremena.
+3. Izaberite **Podesi kalendar** i pojaviće se dijalog sa listom dostupnih predložaka radnog vremena.
 4. Izaberite predložak koji želite da koristite, a zatim izaberite dugme **Primeni**.

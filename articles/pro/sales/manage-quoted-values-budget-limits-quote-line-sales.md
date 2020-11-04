@@ -9,11 +9,11 @@ ms.service: dynamics-365-customerservice
 ms.reviewer: kfend
 ms.author: rumant
 ms.openlocfilehash: a409d1e378afe97de7fb6c77cf3ad6703661bdff
-ms.sourcegitcommit: 56c42d7f5995a674426a1c2a81bae897dceb391c
+ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
 ms.translationtype: HT
 ms.contentlocale: sr-Latn-RS
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3908541"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4083510"
 ---
 # <a name="project-based-quote-lines-pro"></a>Stavke ponude zasnovane na projektu (Pro)
 
@@ -36,7 +36,7 @@ Sledeća tabela pruža informacije o poljima na kartici **Opšti podaci** stavke
 | +Ime | Naziv stavke ponude koja bi trebalo da vam pomogne da identifikujete diskretnu komponentu ponude koja se procenjuje. | Kopira se u predmet ugovora o projektu koji se kreira iz ove stavke ponude kada se ponuda ostvari. |
 | Način naplate | U ponudi kreiranoj iz mogućnosti za poslovanje, ova vrednost se kopira iz odgovarajućeg polja u stavci mogućnosti za poslovanje. Ovo polje obuhvata dva glavna modela ugovaranja koje podržava Dynamics 365 Project Operations:</br>- Fiksna cena</br>- Vreme i materijal.| Ovo polje se kopira u predmet ugovora o projektu koji se kreira iz ove stavke ponude kada se ponuda ostvari. |
 | Project | Koristite ovo opcionalno polje za identifikovanje projekta koji će se koristiti za izvođenje radova pri ovom angažovanju. Kada se projekat mapira u stavku ponude, to pomaže u postavljanju naplativih zadataka, kao i u donošenju procene zasnovane na projektu u stavci ponude kao detalje stavke ponude. Kada projekat nije mapiran u stavku ponude zasnovanu na projektu, procenu treba kreirati ručno kreiranjem svakog detalja stavke ponude. | Ovo polje se kopira u predmet ugovora o projektu koji se kreira iz ove stavke ponude kada se ponuda ostvari.|
-| Obuhvaćeni zadaci | Označava da li se ova stavka ponude koristi za sve ili neke projektne zadatke za izabrani projekat. Ovo polje podložno uređivanju ima sledeće moguće vrednosti:</br>- Svi projektni zadaci</br>- Samo izabrani projektni zadaci</br>Prazna vrednost u ovom polju je ekvivalentna opciji **Svi projektni zadaci**. | Kada je na stranici projekta izabrana opcija **Samo izabrani projektni zadaci**, kartica **Postavljanje zadatka za obračun** omogućava vam da izaberete određene zadatke da biste ih povezali sa ovom stavkom ponude. Ovo polje se kopira u predmet ugovora o projektu koji se kreira iz ove stavke ponude kada se ponuda ostvari. |
+| Obuhvaćeni zadaci | Označava da li se ova stavka ponude koristi za sve ili neke projektne zadatke za izabrani projekat. Ovo polje podložno uređivanju ima sledeće moguće vrednosti:</br>- Svi projektni zadaci</br>- Samo izabrani projektni zadaci</br>Prazna vrednost u ovom polju je ekvivalentna opciji **Svi projektni zadaci**. | Kada je na stranici projekta izabrana opcija **Samo izabrani projektni zadaci** , kartica **Postavljanje zadatka za obračun** omogućava vam da izaberete određene zadatke da biste ih povezali sa ovom stavkom ponude. Ovo polje se kopira u predmet ugovora o projektu koji se kreira iz ove stavke ponude kada se ponuda ostvari. |
 | Sadrži vreme | Zastavica **Da**/**Ne** označava da li će vremenske transakcije ili troškovi rada na izabranom projektu biti uključeni u procenu ove stavke ponude. Vrednost **Ne** označava da vremenske transakcije ili troškovi rada na izabranom projektu neće biti uključeni u procenu ove stavke ponude. Vrednost **Da** označava da će vremenske transakcije ili troškovi rada na izabranom projektu biti uključeni u procenu ove stavke ponude. | Ovo polje se kopira u predmet ugovora o projektu koji se kreira iz ove stavke ponude kada se ponuda ostvari. |
 | Sadrži trošak | Zastavica **Da**/**Ne** označava da li će cene troškova na izabranom projektu biti uključene u procenu ove stavke ponude. Vrednost **Ne** označava da cena troška neće biti uključena u procenu ove stavke ponude. Vrednost **Da** označava da će cena troška biti uključena u procenu ove stavke ponude. | Ovo polje se kopira u predmet ugovora o projektu koji se kreira iz ove stavke ponude kada se ponuda ostvari. |
 | Sadrži nadoknadu | Zastavica **Da**/**Ne** označava da li će naknade na izabranom projektu biti uključene u procenu ove stavke ponude. Vrednost **Ne** označava da naknade neće biti uključene u procenu ove stavke ponude. Vrednost **Da** označava da će naknade biti uključene u procenu ove stavke ponude. | Ovo polje se kopira u predmet ugovora o projektu koji se kreira iz ove stavke ponude kada se ponuda ostvari. |
@@ -49,15 +49,15 @@ Sledeća tabela pruža informacije o poljima na kartici **Opšti podaci** stavke
 
 ## <a name="validation-rules-for-fields-on-the-general-tab-of-project-based-quote-lines"></a>Pravila za validaciju za polja na kartici Opšti podaci stavki ponude zasnovanih na projektu
 
-**1. pravilo**: Ako je polje **Uključeni zadaci** prazno ili ako je podešeno na **Svi projektni zadaci**, projekat je uključen u stavku ponude.
+**1. pravilo** : Ako je polje **Uključeni zadaci** prazno ili ako je podešeno na **Svi projektni zadaci** , projekat je uključen u stavku ponude.
 
-**2. pravilo**: Ako je polje **Uključeni zadaci** prazno ili ako je postavljeno na **Svi projektni zadaci**, projekat i određena klasa transakcija mogu biti uključeni samo u jednu stavku ponude zasnovane na projektu.
+**2. pravilo** : Ako je polje **Uključeni zadaci** prazno ili ako je postavljeno na **Svi projektni zadaci** , projekat i određena klasa transakcija mogu biti uključeni samo u jednu stavku ponude zasnovane na projektu.
 
-**3. pravilo**: Ako je polje **Uključeni zadaci** postavljeno na **Samo izabrani projektni zadaci**, projekat i određena klasa transakcija mogu biti uključeni u više stavki ponude zasnovane na projektu.
+**3. pravilo** : Ako je polje **Uključeni zadaci** postavljeno na **Samo izabrani projektni zadaci** , projekat i određena klasa transakcija mogu biti uključeni u više stavki ponude zasnovane na projektu.
 
-**4. pravilo**: Ako mogućnost za poslovanje ima više ponuda, mogu postojati stavke ponude iz različitih ponuda koje se odnose na isti projekat i uključuju istu klasu transakcije.
+**4. pravilo** : Ako mogućnost za poslovanje ima više ponuda, mogu postojati stavke ponude iz različitih ponuda koje se odnose na isti projekat i uključuju istu klasu transakcije.
 
-**5. pravilo**: Ako ponude ne pripadaju istoj mogućnosti za poslovanje, ne mogu da uključuju isti projekat i klasu transakcije.
+**5. pravilo** : Ako ponude ne pripadaju istoj mogućnosti za poslovanje, ne mogu da uključuju isti projekat i klasu transakcije.
 
 <table border="0" cellspacing="0" cellpadding="0">
     <tbody>

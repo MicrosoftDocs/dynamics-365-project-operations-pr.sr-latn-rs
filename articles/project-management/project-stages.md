@@ -7,7 +7,6 @@ ms.date: 09/18/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-customerservice
-ms.technology: ''
 audience: Application User
 ms.reviewer: kfend
 ms.search.scope: ''
@@ -18,12 +17,12 @@ ms.search.industry: Service industries
 ms.author: suvaidya
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: b11c67ebd21fdf423eeae2db8154f26787c2e64f
-ms.sourcegitcommit: a2c3cd49a3b667b8b5edaa31788b4b9b1f728d78
+ms.openlocfilehash: 554ad63bc44cbe5a1fe91eb47fedbb74bbedd4b6
+ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
 ms.translationtype: HT
 ms.contentlocale: sr-Latn-RS
-ms.lasthandoff: 09/28/2020
-ms.locfileid: "3897963"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4083707"
 ---
 # <a name="project-stages"></a>Faze projekta
 
@@ -46,11 +45,11 @@ Kada kreirate projekat, faza projekta se podešava na **Novo**. Ako je projekat 
 
 ## <a name="quote"></a>Ponuda
 
-Kada povežete projekat sa ponudom ili ga kreirate iz ponude, faza projekta se podešava na **Ponuda**, a procenjeni datum početka i završetka se ažuriraju. Dok je projekat je u fazi **ponude**, kartica **Prodaja** na stranici **Entitet projekta** prikazuje detalje ponude.
+Kada povežete projekat sa ponudom ili ga kreirate iz ponude, faza projekta se podešava na **Ponuda** , a procenjeni datum početka i završetka se ažuriraju. Dok je projekat je u fazi **ponude** , kartica **Prodaja** na stranici **Entitet projekta** prikazuje detalje ponude.
 
 ## <a name="plan"></a>Plan
 
-Kada vam bude odobrena ponuda povezana sa projektom i kada se projekat prebaci u fazu **ugovora**, faza projekta se ažurira na **Plan**. Dok je projekat u fazi **plana**, na stranici **Entitet projekta** se prikazuju detalji ugovora.
+Kada vam bude odobrena ponuda povezana sa projektom i kada se projekat prebaci u fazu **ugovora** , faza projekta se ažurira na **Plan**. Dok je projekat u fazi **plana** , na stranici **Entitet projekta** se prikazuju detalji ugovora.
 
 ## <a name="deliver"></a>Isporuka
 
@@ -58,7 +57,7 @@ Kada je projektni plan završen, a vi ste spremni za početak projekta, menadže
 
 ## <a name="complete"></a>Dovršeno 
 
-Kada je posao za projekat završen, menadžer projekta može da ažurira fazu na **Dovršeno**. Ažuriranjem faze projekta na **Dovršeno**, menadžer projekta pokazuje da je posao završen 100%, ali da je projekat i dalje otvoren tako da se mogu evidentirati bilo kakve stavke vremena ili troškova na čekanju.
+Kada je posao za projekat završen, menadžer projekta može da ažurira fazu na **Dovršeno**. Ažuriranjem faze projekta na **Dovršeno** , menadžer projekta pokazuje da je posao završen 100%, ali da je projekat i dalje otvoren tako da se mogu evidentirati bilo kakve stavke vremena ili troškova na čekanju.
 
 ## <a name="close"></a>Zatvori
 

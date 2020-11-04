@@ -9,11 +9,11 @@ ms.service: dynamics-365-customerservice
 ms.reviewer: kfend
 ms.author: ruhercul
 ms.openlocfilehash: c8ac11d45c1d28967eaf5d76b326950ebd0c8eb3
-ms.sourcegitcommit: 56c42d7f5995a674426a1c2a81bae897dceb391c
+ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
 ms.translationtype: HT
 ms.contentlocale: sr-Latn-RS
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3908527"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4083433"
 ---
 # <a name="edit-a-resource-requirement"></a>Uređivanje potrebe za resursom
 
@@ -36,4 +36,4 @@ Kao menadžer projekta, izvršite sledeće korake da biste uredili zahtev za res
 
 ## <a name="edit-resource-assignment-contours"></a>Uređivanje kontura dodeljivanja resursa
 
-Pored uređivanja detalja zahteva za resursima, menadžer projekta može da ažurira pojedinačne konture zahteva za resursima koristeći funkcionalnost **Navedi obrazac**. Kada izaberete **Navedi obrazac**, otvoriće se stranica i možete videti konture na vremenskoj skali dana, nedelje ili meseca. Svaka kontura se može podesiti za vreme početka, vreme završetka i ukupno angažovanje u datom periodu.
+Pored uređivanja detalja zahteva za resursima, menadžer projekta može da ažurira pojedinačne konture zahteva za resursima koristeći funkcionalnost **Navedi obrazac**. Kada izaberete **Navedi obrazac** , otvoriće se stranica i možete videti konture na vremenskoj skali dana, nedelje ili meseca. Svaka kontura se može podesiti za vreme početka, vreme završetka i ukupno angažovanje u datom periodu.

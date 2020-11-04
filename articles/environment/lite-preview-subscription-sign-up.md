@@ -3,17 +3,17 @@ title: Prijavite se za pretplatu na pregled
 description: Ova tema pruža informacije o tome kako da se pretplatite i primenite uslugu Project Operations Lite – od pogodbe do profakture.
 author: sigitac
 manager: Annbe
-ms.date: 10/02/2020
+ms.date: 10/07/2020
 ms.topic: article
 ms.service: dynamics-365-customerservice
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: a9c1432e8971eeb7918e23e00be9989294335f49
-ms.sourcegitcommit: b9d8bf00239815f31686e9b28998ac684fd2fca4
+ms.openlocfilehash: 5342466f308ab62a9f73a85fbd838d7c33bb1f47
+ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
 ms.translationtype: HT
 ms.contentlocale: sr-Latn-RS
-ms.lasthandoff: 10/02/2020
-ms.locfileid: "3949049"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4083443"
 ---
 # <a name="sign-up-for-a-preview-subscription-for-lite-deployment--deal-to-proforma-invoicing"></a>Prijavite se za pretplatu na verziju za pregled za laganu primenu – od pogodbe do profakture
 
@@ -26,98 +26,67 @@ Ova tema objašnjava kako da se pretplatite na partnersku ponudu za verziju za p
 
 - Dobićete e-poruku sa pozivom da učestvujete u pregledu. Možete zatražiti verziju za pregled na [Project Operations veb-lokaciji](https://dynamics.microsoft.com/en-us/project-operations/overview/).
 - Korisnik koji primeni verziju za pregled mora da ima globalna administratorska prava u Azure zakupcu.
-- Korisniku koji primeni verziju za pregled trebaće telefonski broj i važeća kreditna kartica. Tokom registracije, neće biti naplaćivanja sa kartice tokom šest meseci. Posle šest meseci morate da otkažete pretplatu. 
 - Pregledajte sve uslove i odredbe.
 
 ## <a name="subscribe"></a>Pretplati se
 
 Kada dobijete [zahtev za pregled](https://forms.office.com/FormsPro/Pages/ResponsePage.aspx?id=v4j5cvGGr0GRqy180BHbR56j8lZs0FdAvwT75_WNFyxUMkRDV1NYQU5TNjE2VjhKOVBUNVg2R0s1NC4u) odobrenje, dobićete dve ponude od kompanije Microsoft e-poštom. Ove ponude vam omogućavaju da primenite verziju za pregled usluge Project Operations:
 
-- Probna verzija za pregled usluge Dynamics 365 Customer Service – kôd za jednokratnu upotrebu
-- Dynamics 365 Project Operations – probna verzija za pregled
+- Dynamics 365 Project Operations (CRM) – Probna verzija za pregled
+- Office 365 Project Operations – Probna verzija za pregled
 
-### <a name="dynamics-365-customer-service-paid-offer"></a>Dynamics 365 Customer Service, ponuda koja se plaća
+> [!IMPORTANT]
+> Samo jedna osoba, administrator zakupca, u organizaciji treba da izvršava ovaj zadatak. Ako niste pretplatnik na ovo izdanje, sačekajte dok se vaša organizacija ne registruje i ne primite svoje korisničke akreditive.
 
-1. Koristeći prozor pregledača InPrivate/Incognito, iskoristite kôd za prvu ponudu za Dynamics 365 Customer Service. Da biste se prijavili za Customer Service, trebaće vam:
+### <a name="dynamics-365-project-operations-crm---preview-trial"></a>Dynamics 365 Project Operations (CRM) – Probna verzija za pregled 
 
-- Broj telefona
-- Kreditna kartica. Kada se registrujete, neće biti naplaćivanja sa kartice tokom šest meseci. Posle šest meseci morate da otkažete pretplatu.
-- Pregledajte sve uslove i odredbe.
+Pre nego što započnete, uverite se da ste prijavljeni u pregledač sa korisničkim poslovnim nalogom u zakupcu gde želite pregled usluge Project Operations.
 
-2. Navedite svoje kontakt podatke.
+1. Iskoristite prvu šifru ponude, **Dynamics 365 Project Operations (CRM) – Probna verzija za pregled** njenim lepljenjem u URL pregledača.
 
-![Informacije o kontaktu](./media/1ContactInformation.png)
+![Iskoristite ponudu](./media/16RedeemFirstOfferNew.png)
 
-3. Navedite detalje o novom zakupcu.
+2. Potvrdite porudžbinu.
+![Potvrdite porudžbinu](./media/17ConfirmOrderNew.png)
 
-![Kreiranje ID-a korisnika](./media/2CreateUserID.png)
+Videćete da je ponuda za potvrdu uspešno iskorišćena.
 
-4. Potvrdite svoj identitet, sačuvajte novi ID korisnika, a zatim izaberite **Podesi**.
+![Potvrda](./media/18OrderConfirmationNew.png)
 
-![Sačuvajte informacije](./media/3SaveInfo.png)
+### <a name="office-365-project-operations---preview-trial"></a>Office 365 Project Operations – Probna verzija za pregled
 
-5. Dovršite registraciju kreditne kartice i pregledajte sve uslove i odredbe. 
-
-![Popuna kreditne kartice](./media/4CompleteCreditCard.png)
-
-![Odjavljivanje kreditne kartice](./media/5CreditCardCheckout.png)
-
-![Čuvanje porudžbine](./media/6SaveOrder.png)
-
-![Potvrda kreditne kartice](./media/7Confirmation.png)
-
-## <a name="cancel-the-dynamics-365-customer-service-enterprise-offer"></a>Otkazivanje ponude usluge Dynamics 365 Customer Service za velika preduzeća
-
-Ponuda usluge Dynamics 365 Customer Service za velika preduzeća se pruža besplatno na šest meseci. Ponuda će se obnoviti po punoj ceni na kraju šestomesečnog perioda. Da biste otkazali pre datuma obnavljanja, izvršite sledeća uputstva. 
-
-> [!NOTE]
-> Kada dovršite ove korake, više nećete moći da koristite Project Operations okruženje za javni pregled.
-
-1. Idite na [portal za administraciju](https://admin.microsoft.com/) i u delu **Naplata** izaberite**Vaši proizvodi**.
-
-![Portal za administraciju, stranica Vaši proizvodi](./media/8AdminPortal.png)
-
-2. Izaberite **Ponuda usluge Dynamics 365 Customer Service za velika preduzeća**.
-
-![Otkazivanje pretplate](./media/9CancelSubscription.png)
-
-3. Izaberite **Podešavanja** > **Radnje** > **Otkaži pretplatu**.
-4. Na obrascu **Otkazivanje pretplate**, unesite informacije u obavezna polja.
-5. Izaberite **Otkaži** > **Pretplata.**
-
-### <a name="dynamics-365-project-operations--preview-trial"></a>Dynamics 365 Project Operations – Probna verzija za pregled
-
-1. Iskoristite drugu ponudu, Probna verzija usluge Dynamics 365 Project Operations, sa URL-om navedenim u e-poruci dobrodošlice.
-
-![Iskoristite 2. ponudu](./media/10RedeemOffer2.png)
-
-2. Proverite da li ste prijavljeni kao korisnik koji pripada istoj organizaciji koja je pretplaćena pomoću prvog koda ponude, a zatim nastavite sa iskorišćavanjem ponude. 
-3. Izaberite **Da, dodaj na moj nalog**.
-
-![Dodajte na nalog](./media/11AddToAccount.png)
-
-![Ekran „Isprobaj odmah“](./media/12TryNow.png)
-
-![Detalji porudžbine](./media/13Confirmation.png)
+Ponovite iste korake kao kod prve šifre ponude. Obavezno dodajte drugu šifru ponude koristeći isti korisnički nalog koji je korišćen sa prvom šifrom ponude.
 
 ## <a name="assign-licenses"></a>Dodeljivanje licenci
 
 > [!IMPORTANT]
-> Trebaće vam administrativni pristup Office 365 portalu vaše organizacije da biste izvršili sledeće korake.
+> Trebaće vam administrativni pristup Microsoft 365 portalu vaše organizacije da biste izvršili sledeće korake.
+
 
 1. Idite u [Microsoft 365 centar administracije](https://portal.office.com/) da dodelite licence svojim korisnicima.
 
 ![Početna stranica centra administracije](./media/14AdminPortal.png)
 
-2. Na stranici **Aktivni korisnici**, izaberite korisnike kojima želite da dodelite licencu.
+2. Na stranici **Aktivni korisnici** , izaberite korisnike kojima želite da dodelite licencu.
 
 ![Dodeljivanje licenci](./media/15AssignLicenses.png)
 
-3. Proverite da li su izabrane licence za **Customer Service Enterprise** i **Project Operations**, pa izaberite **Sačuvaj promene**.
+3. Proverite da li su izabrane licence za **Dynamics 365 Project Operations (CRM) verziju za pregled** i **Office 365 Project Operations – verziju za pregled**. 
+4. Izaberite **Sačuvaj promene**.
 
 ## <a name="create-a-new-cds-environment"></a>Napravite novo CDS okruženje
 
-Obezbedite novo okruženje za primenu usluge Project Operations CDS prateći uputstva u temi [Model primene CDS-a](lite-deployment.md).
+1. Obezbedite novo okruženje za primenu usluge Project Operations CDS prateći uputstva u temi [Model primene CDS-a](lite-deployment.md). Kada odaberete tip okruženja, obavezno koristite **probnu verziju (zasnovano na pretplati)**.
+![Novo okruženje](./media/19CreateEnvironment.png)
+
+2. Izaberite podešavanje **Omogućite Dynamics 365 aplikacije** i ostavite **Automatski primeni ove aplikacije** prazno.  
+3. Izaberite **Sačuvaj** da biste kreirali okruženje.
+
+![Dodaj bazu podataka](./media/20CreateEnvironment1.png)
+
+4. Nakon kreiranja okruženja, instalirajte rešenje **Microsoft Dynamics 365 Project Operations**. 
+
+![Instaliranje rešenja](./media/21InstallSolution.png)
 
 ## <a name="install-a-cds-configuration-and-setup-demo-data"></a>Instaliranje CDS konfiguracije i podešavanje demo podataka
 

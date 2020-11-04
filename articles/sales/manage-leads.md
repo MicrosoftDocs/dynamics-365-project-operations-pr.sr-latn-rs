@@ -9,11 +9,11 @@ ms.service: dynamics-365-customerservice
 ms.reviewer: kfend
 ms.author: rumant
 ms.openlocfilehash: a10be42f4ae1ecc8ae5613ed8fdc669304e0ec72
-ms.sourcegitcommit: a2c3cd49a3b667b8b5edaa31788b4b9b1f728d78
+ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
 ms.translationtype: HT
 ms.contentlocale: sr-Latn-RS
-ms.lasthandoff: 09/28/2020
-ms.locfileid: "3898638"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4083438"
 ---
 # <a name="manage-leads"></a>Upravljanje potencijalnim klijentima
 
@@ -23,7 +23,7 @@ Potencijalnim klijentima zasnovanim na projektu moguće je upravljati i kvalifik
 
 ## <a name="project-sales-leads"></a>Potencijalni klijenti u projektu
 
-U odeljku **Prodaja**, u levom oknu za navigaciju, otvorite stranicu liste **Potencijalni klijenti** da biste videli listu svih zapisa o potencijalnim klijentima u sistemu. Prikazana lista potencijalnih klijenata je zasnovana na poslu i drugim tipovima potencijalnih klijenata koje možete kreirati ako imate i Dynamics 365 Sales ili Dynamics 365 Field Service aplikacije.
+U odeljku **Prodaja** , u levom oknu za navigaciju, otvorite stranicu liste **Potencijalni klijenti** da biste videli listu svih zapisa o potencijalnim klijentima u sistemu. Prikazana lista potencijalnih klijenata je zasnovana na poslu i drugim tipovima potencijalnih klijenata koje možete kreirati ako imate i Dynamics 365 Sales ili Dynamics 365 Field Service aplikacije.
 
 Možete da kreirate filtrirani prikaz da biste videli samo potencijalne klijente zasnovane na projektu kreiranjem filtera u vrednosti **Tip**. Na primer, možete izabrati da se prikazuju samo potencijalni klijenti zasnovani na poslu.
 
@@ -53,7 +53,7 @@ Potencijalni klijenti koji imaju vrednost **Tip** postavljenu na **Zasnovan na p
 
 - Potencijalni klijent koji koristi polje **Preduzeće** od potencijalnog klijenta.
 - Zapis kontakta povezan sa poslovnim kontaktom na osnovu vrednosti u poljima **Ime** i **Prezime** potencijalnog klijenta.
-- Mogućnost za poslovanje zasnovana na projektu koja ima polje **Tip** postavljeno na &quot;**Zasnovano na poslu**.
+- Mogućnost za poslovanje zasnovana na projektu koja ima polje **Tip** postavljeno na **Zasnovano na poslu**.
 
 Za detaljnije informacije o kvalifikovanim potencijalnim klijentima, pogledajte članak [Kvalifikovanje ili konvertovanje potencijalnih klijenata](https://docs.microsoft.com/dynamics365/sales-enterprise/qualify-lead-convert-opportunity-sales).
 

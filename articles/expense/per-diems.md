@@ -9,11 +9,11 @@ ms.service: dynamics-365-customerservice
 ms.reviewer: kfend
 ms.author: suvaidya
 ms.openlocfilehash: 7d1c4ac7781cb711e2cc0d09606d422b4dd554f3
-ms.sourcegitcommit: 56c42d7f5995a674426a1c2a81bae897dceb391c
+ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
 ms.translationtype: HT
 ms.contentlocale: sr-Latn-RS
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3908542"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4083454"
 ---
 # <a name="per-diems"></a>Dnevnice
 
@@ -26,8 +26,8 @@ Dnevnica je nadoknada koja se isplaćuje radniku koji putuje zbog posla. U uprav
 
 1. Da biste dodali lokacije za dnevnice, idite na **Podešavanje** > **Proračuni i šifre** > **Lokacije za dnevnice**.
 2. Za svaku od gore dodatih lokacija izaberite iznos dnevnice i valutu koja važi između određenog datuma početka i završetka za hotel, obroke i ostale troškove. Stope dnevnica i valute su konfigurisane u odeljku **Podešavanje** > **Proračuni i šifre** > **Dnevnice**.
-3. Na stranici **Lokacije za dnevnice**, konfigurišite nivoe iznosa dnevnica. Nivoi iznosa dnevnica omogućavaju vam da definišete procentualnu podelu dnevne nadoknade za hotel, obroke i druge troškove. 
+3. Na stranici **Lokacije za dnevnice** , konfigurišite nivoe iznosa dnevnica. Nivoi iznosa dnevnica omogućavaju vam da definišete procentualnu podelu dnevne nadoknade za hotel, obroke i druge troškove. 
 4. Da biste odredili smanjenje procenta obroka za doručak, ručak ili večeru, ažurirajte polja na stranici **Parametri upravljanja troškovima** na kartici **Dnevnice**. 
     
 ## <a name="submit-expenses-using-per-diem"></a>Prosleđivanje troškova korišćenjem dnevnica
-Da biste prosledili troškove koristeći dnevnice, koristite kategoriju troška **Dnevnica** kada kreirate izveštaj o troškovima. Unesite **početni datum dnevnice**, **krajnji datum dnevnice** i **lokaciju dnevnice**. Iznos će se izračunati na osnovu iznosa dnevnice za izabranu lokaciju, a smanjenje obroka na osnovu nivoa dnevnica.
+Da biste prosledili troškove koristeći dnevnice, koristite kategoriju troška **Dnevnica** kada kreirate izveštaj o troškovima. Unesite **početni datum dnevnice** , **krajnji datum dnevnice** i **lokaciju dnevnice**. Iznos će se izračunati na osnovu iznosa dnevnice za izabranu lokaciju, a smanjenje obroka na osnovu nivoa dnevnica.

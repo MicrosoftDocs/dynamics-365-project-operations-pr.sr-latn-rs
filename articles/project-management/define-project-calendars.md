@@ -7,7 +7,6 @@ ms.date: 09/18/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-customerservice
-ms.technology: ''
 audience: Application User
 ms.reviewer: kfend
 ms.search.scope: ''
@@ -18,12 +17,12 @@ ms.search.industry: Service industries
 ms.author: ruhercul
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: 1d44a2d0d8c13fb9e93b9a6da15fb3a7ce8d764c
-ms.sourcegitcommit: a2c3cd49a3b667b8b5edaa31788b4b9b1f728d78
+ms.openlocfilehash: 774399f2c02d8434c9c042c3a9f995792893bfce
+ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
 ms.translationtype: HT
 ms.contentlocale: sr-Latn-RS
-ms.lasthandoff: 09/28/2020
-ms.locfileid: "3898025"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4083754"
 ---
 # <a name="define-project-calendars"></a>Definisanje kalendara projekata
 
@@ -43,8 +42,8 @@ Da biste kreirali raspored projekta, kreirajte predložak kalendara projekta koj
   - Raspored posla za jedan dan
   - Odstupanje u vremenu
 
-4. Izaberite **Novi sedmični raspored**, a zatim podesite opcije za ovaj raspored resursa. Možete podesiti periodični sedmični raspored, parametre sata u danu, prekid poslovnih aktivnosti i još mnogo toga.
-5. Podesite opseg datuma, izaberite **Sačuvaj**, a zatim izaberite **Zatvori**. 
+4. Izaberite **Novi sedmični raspored** , a zatim podesite opcije za ovaj raspored resursa. Možete podesiti periodični sedmični raspored, parametre sata u danu, prekid poslovnih aktivnosti i još mnogo toga.
+5. Podesite opseg datuma, izaberite **Sačuvaj** , a zatim izaberite **Zatvori**. 
 6. Vratite se na stranicu liste **Resursi** i odaberite resurs za koji ste odredili radno vreme. 
 7. Izaberite **Podesite kalendar kao** da podesite radni predložak. 
 8. U dijalog **Radni predložak** unesite ime radnog predloška, a zatim izaberite **Primeni**. 

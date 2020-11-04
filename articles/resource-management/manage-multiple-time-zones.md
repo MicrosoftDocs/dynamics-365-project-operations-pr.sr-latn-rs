@@ -9,11 +9,11 @@ ms.service: dynamics-365-customerservice
 ms.reviewer: kfend
 ms.author: ruhercul
 ms.openlocfilehash: 27f58f0dacc3404119a719547ad374629c740740
-ms.sourcegitcommit: 396e0fea2f1598a5313cb0128eca4fe0bb5aade9
+ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
 ms.translationtype: HT
 ms.contentlocale: sr-Latn-RS
-ms.lasthandoff: 10/05/2020
-ms.locfileid: "3961938"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4083518"
 ---
 # <a name="manage-time-zones"></a>Upravljanje vremenskim zonama
 
@@ -22,7 +22,7 @@ _**Odnosi se na:** Project Operations za resurs/scenarije koji nisu zasnovani na
 
 ## <a name="projects"></a>Projekti
 
-Kada se projekat kreira, njegova vremenska zona se zasniva na vremenskoj zoni definisanoj u predlošku radnog sata koji se primenjuje. Na obrascu **Projekat**, datumi su uvek relativni u odnosu na vremensku zonu korisnika koji je prijavljen na svakoj kartici, osim kartice **Zadatak**. Kada pregledate strukturne analize posla, datumi će se uvek prikazivati u vremenskoj zoni projekta.
+Kada se projekat kreira, njegova vremenska zona se zasniva na vremenskoj zoni definisanoj u predlošku radnog sata koji se primenjuje. Na obrascu **Projekat** , datumi su uvek relativni u odnosu na vremensku zonu korisnika koji je prijavljen na svakoj kartici, osim kartice **Zadatak**. Kada pregledate strukturne analize posla, datumi će se uvek prikazivati u vremenskoj zoni projekta.
 
 ## <a name="tasks"></a>Zadaci
 
@@ -30,7 +30,7 @@ Kada se zadatak kreira, vreme početka, vreme završetka i broj sati na dan kont
 
 ## <a name="manage-resources-with-time-zones"></a>Upravljanje resursima pomoću vremenskih zona
 
-Za tačne i predvidljive rezultate prilikom upotrebe **produženja rezervacije**, postoje dva ključna preduslova koja moraju biti ispunjena:  
+Za tačne i predvidljive rezultate prilikom upotrebe **produženja rezervacije** , postoje dva ključna preduslova koja moraju biti ispunjena:  
 
 - Korisnik mora da konfiguriše vremensku zonu svog uređaja tako da odgovara vremenskoj zoni definisanoj u sistemskim **podešavanjima personalizacije**.
  
@@ -57,7 +57,7 @@ Sledeća tabela prikazuje:
 |Resurs C  |  ![Kalendar resursa C](media/reconcile-assignments-08.png) |
 |Resurs D  | ![Kalendar resursa D](media/reconcile-assignments-09.png)  |
  
-Kada odete na prikaz **Usaglašavanje**, prikazuju se dodele resursa i pridruženi nedostaci rezervacija.
+Kada odete na prikaz **Usaglašavanje** , prikazuju se dodele resursa i pridruženi nedostaci rezervacija.
 
 ![Prikaz usklađivanja pre produžetka](media/reconcile-assignments-10.png)
 

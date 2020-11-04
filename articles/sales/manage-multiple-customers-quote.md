@@ -9,17 +9,17 @@ ms.service: dynamics-365-customerservice
 ms.reviewer: kfend
 ms.author: rumant
 ms.openlocfilehash: 8b1d9284c063e34e34ec6525072a1f8f860116b6
-ms.sourcegitcommit: 56c42d7f5995a674426a1c2a81bae897dceb391c
+ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
 ms.translationtype: HT
 ms.contentlocale: sr-Latn-RS
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3908544"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4083434"
 ---
 # <a name="manage-multiple-customers-on-project-quotes"></a>Upravljanje sa više klijenata u ponudama za projekat
 
 _**Odnosi se na:** Project Operations za resurs/scenarije koji nisu zasnovani na zalihama, laganu primenu – od pogodbe do profakture_
 
-Ponude za projekte podržavaju scenario kada predlog uključuje više klijenata koji će finansirati pogodbu. Na kartici **Rezime** ponude nalazi se polje **Potencijalni klijent**, koje identifikuje primarnog klijenta u pogodbi. Drugi klijenti za pogodbu mogu se podesiti na kartici **Klijenti** ponude za projekat.
+Ponude za projekte podržavaju scenario kada predlog uključuje više klijenata koji će finansirati pogodbu. Na kartici **Rezime** ponude nalazi se polje **Potencijalni klijent** , koje identifikuje primarnog klijenta u pogodbi. Drugi klijenti za pogodbu mogu se podesiti na kartici **Klijenti** ponude za projekat.
 
 Svi klijenti ponude na kartici **Klijenti** ponude za projekat podrazumevano su klijenti stavke ponude u svakoj **novoj** stavci ponude zasnovane na projektu kreiranoj za ponudu. Sve postojeće stavke ponude zasnovane na projektu neće naslediti nove zapise klijenata ponude kreirane nakon njih.
 
@@ -29,7 +29,7 @@ Klijenti ponude i klijenti stavke ponude mogu da se dodaju, ažuriraju ili briš
 
 Klijent naveden na kartici **Rezime** ponude za projekat kao potencijalni klijent je primarni klijent ponude. Ako pokušate da izbrišete primarnog klijenta sa liste klijenata u ponudi, dobićete grešku da primarni zapis klijenta u ponudi ne može da se izbriše.
 
-Primarni klijent ne bi trebalo da se ažurira sa liste klijenata na ponudi. Međutim, na primarnog klijenta možete uticati promenom potencijalnog klijenta na kartici **Rezime** ponude. Kada se ovo polje ažurira na **rezimeu ponude**, novoizabrani potencijalni klijent se dodaje kao novi klijent ponude sa postavljenom zastavicom **Primarni**. Stari potencijalni klijent i dalje će biti klijent na ponudi.
+Primarni klijent ne bi trebalo da se ažurira sa liste klijenata na ponudi. Međutim, na primarnog klijenta možete uticati promenom potencijalnog klijenta na kartici **Rezime** ponude. Kada se ovo polje ažurira na **rezimeu ponude** , novoizabrani potencijalni klijent se dodaje kao novi klijent ponude sa postavljenom zastavicom **Primarni**. Stari potencijalni klijent i dalje će biti klijent na ponudi.
 
 ## <a name="create-update-or-delete-a-quote-customer-record"></a>Kreiranje, ažuriranje ili brisanje zapisa klijenta ponude
 

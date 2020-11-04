@@ -3,17 +3,17 @@ title: Obezbeđenje novog okruženja
 description: Ova tema pruža informacije o načinu obezbeđenja novog Project Operations okruženja.
 author: sigitac
 manager: Annbe
-ms.date: 10/02/2020
+ms.date: 10/07/2020
 ms.topic: article
 ms.service: dynamics-365-customerservice
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 45700371c50e3b5a840df45fc24fa8a5b4584b61
-ms.sourcegitcommit: 87b7a8d793c19c50f3765b8d788cde24a6a0ca24
+ms.openlocfilehash: a43b947207b6d4276ef27ec996713bf3883e7906
+ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
 ms.translationtype: HT
 ms.contentlocale: sr-Latn-RS
-ms.lasthandoff: 10/02/2020
-ms.locfileid: "3949379"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4083467"
 ---
 # <a name="provision-a-new-environment"></a>Obezbeđenje novog okruženja
 
@@ -26,28 +26,28 @@ Ova tema pruža informacije o načinu obezbeđenja novog Dynamics 365 Project Op
 Koristite sledeće korake da omogućite Project Operations automatizovani tok obezbeđivanja za vaš LCS projekat.
 
 1. Idite na [LCS](https://lcs.dynamics.com/v2) i izaberite pločicu **Pregled upravljanja funkcijama**.
-2. U listi **Funkcija pregleda** izaberite **Projektne operacije** i izaberite **Omogućena funkcija pregleda** kako bi se omogućila usluga Project Operations.
+2. Na listi **Funkcija pregleda** izaberite **Project Operations Feature** i izaberite **Omogućena funkcija pregleda** kako bi se omogućila usluga Project Operations.
 
 > [!NOTE]
 > Ovaj korak se izvodi samo jednom po LCS projektu.
 
 ## <a name="provision-a-project-operations-environment"></a>Obezbeđivanje Project Operations okruženja
 
-1. Otvori novu primenu Dynamics 365 Finance [demo okruženja](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/deployment/deploy-demo-environment) ili [sandbox/proizvodnog okruženja](https://docs.microsoft.com/edynamics365/fin-ops-core/dev-itpro/deployment/deployenvironment-newinfrastructure). 
+1. Otvori novu primenu Dynamics 365 Finance [demo okruženja](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/deployment/deploy-demo-environment) ili [sandbox/proizvodnog okruženja](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/deployment/deployenvironment-newinfrastructure). 
 2. Prođite kroz čarobnjak **Obezbeđivanje okruženja**. 
 
 > [!IMPORTANT]
 > Uverite se da je izabrana verzija aplikacije 10.0.13 ili novija.
 
 3. Da biste obezbedili Project Operations, u delu **Napredna podešavanja** izaberite **Common Data Service**. 
-4. Omogućite **Common Data Service podešavanje** birajući **Da**, a zatim unesite podatke u obavezna polja:
+4. Omogućite **Common Data Service podešavanje** birajući **Da** , a zatim unesite podatke u obavezna polja:
 
   - +Ime
   - Region
   - Jezik
   - Valuta
  
-5. U polju **Common Data Service predložak**, izaberite **Project Operations** 
+5. U polju **Common Data Service predložak** , izaberite **Project Operations** 
 
 6. Izaberite vrstu okruženja za vašu primenu. Probno vreme zasnovano na pretplati omogućiće vam da primenite CDS okruženje na 30 dana. 
 
@@ -76,7 +76,7 @@ Project Operations zahteva Finance okruženje sa verzijom aplikacije **10.0.13 (
 
 Možda ćete morati da primenite ispravke kvaliteta u svom Finance okruženju da biste dobili ovu verziju.
 
-1. U LCS-u, na stranici **Detalji okruženja**, u odeljku **Dostupne ispravke** izaberite **Prikaži ispravku**.
+1. U LCS-u, na stranici **Detalji okruženja** , u odeljku **Dostupne ispravke** izaberite **Prikaži ispravku**.
 
 ![Prikaz ispravki](./media/5ViewUpdates.png)
 
@@ -84,7 +84,7 @@ Možda ćete morati da primenite ispravke kvaliteta u svom Finance okruženju da
 
 ![Sačuvaj paket](./media/6SavePackage.png)
 
-3. Kliknite na **Izaberi sve**, a zatim izaberite **Sačuvaj paket**.
+3. Kliknite na **Izaberi sve** , a zatim izaberite **Sačuvaj paket**.
 
 ![Pregledajte i sačuvajte ispravke](./media/7ReviewAndSaveUpdates.png)
 
@@ -111,7 +111,7 @@ Servisiranje okruženja će potrajati neko vreme. Po završetku, okruženje će 
 ## <a name="establish-a-dual-write-connection"></a>Uspostavite vezu sa dvostrukim upisivanjem 
 
 1. U svom LCS projektu idite na stranicu **Detalji okruženja**.
-2. U odeljku **Common Data Service informacije o okruženju**, izaberite **Poveži sa uslugom CDS za aplikacije**.
+2. U odeljku **Common Data Service informacije o okruženju** , izaberite **Poveži sa uslugom CDS za aplikacije**.
 3. Kada se povezivanje završi, ponovo izaberite **Poveži sa uslugom CDS za aplikacije**. Bićete preusmereni na dvostruko upisivanje u usluzi Finance.
 
 ![Povezivanje sa uslugom CDS](./media/12LinktoCDS.png)
@@ -120,7 +120,7 @@ Servisiranje okruženja će potrajati neko vreme. Po završetku, okruženje će 
 
 ![Primena rešenja](./media/13ApplySolutions.png)
 
-5. Izaberite oba rešenja, **Dynamics 365 Finance and Operations mapa entiteta za dvostruko upisivanje** i **Dynamics 365 Project Operations mape entiteta dvostrukog upisivanja**, a zatim izaberite **Primeni**.
+5. Izaberite oba rešenja, **Dynamics 365 Finance and Operations mapa entiteta za dvostruko upisivanje** i **Dynamics 365 Project Operations mape entiteta dvostrukog upisivanja** , a zatim izaberite **Primeni**.
 
 ![Potvrda rešenja](./media/14ConfirmSolutions.png)
 
@@ -142,7 +142,7 @@ Kada se entiteti primene, sva raspoloživa mapiranja se navode u okruženju.
 
 ![Parametri radnog okvira](./media/17FrameworkParameters.png)
 
-3. Na stranici **Podešavanja entiteta**, izaberite **Osveži listu entiteta**.
+3. Na stranici **Podešavanja entiteta** , izaberite **Osveži listu entiteta**.
 
 ![Osveži listu entiteta](./media/18RefreshEntityList.png)
 
@@ -153,7 +153,7 @@ Osvežavanje će trajati približno 20 minuta. Dobićete upozorenje kada se zavr
 ## <a name="run-project-operations-dual-write-maps"></a>Pokrenite Project Operations mape dvostrukog upisivanja
 
 1. U svom LCS projektu idite na stranicu **Detalji okruženja**.
-2. U odeljku **Common Data Service informacije o okruženju**, izaberite **Poveži sa uslugom CDS za aplikacije.** Kada izaberete vezu, bićete preusmereni na listu entiteta u mapiranjima.
+2. U odeljku **Common Data Service informacije o okruženju** , izaberite **Poveži sa uslugom CDS za aplikacije.** Kada izaberete vezu, bićete preusmereni na listu entiteta u mapiranjima.
 3. Pokrenite mape kao što je opisano u sledećoj tabeli. Uverite se da sledite navedeni redosled.
 
 | **Mapa entiteta** | **Osvežavanje entiteta** | **Početna sinhronizacija** | **Master za početnu sinhronizaciju** | **Preduslovi za pokretanje** | **Početna sinhronizacija preduslova** |
@@ -165,18 +165,19 @@ Osvežavanje će trajati približno 20 minuta. Dobićete upozorenje kada se zavr
 | **Entitet integracije za odnose transakcija projekta (msdyn\_transactionconnections)** | No | No | Nije primenjivo | No | Nije primenjivo |
 | **Project Operations kontrolne tačke predmeta ugovora o integraciji (msdyn\_contractlinesscheduleofvalues)** | No | No | Nije primenjivo | No | Nije primenjivo |
 | **Project Operations entitet integracije za procene troškova (msdyn\_estimateslines)** | No | No | Nije primenjivo | No | Nije primenjivo |
-| **Project Operations entitet integracije za procene sati (msdyn\_resourceassignments)** | No | No | Nije primenjivo | No | Nije primenjivo |
+| **Project Operations entitet izvoza kategorija troškova projekta (msdyn\_expensecategories)** | No | No | Nije primenjivo | No | Nije primenjivo |
 | **Project Operations entitet izvoza troškova integracije projekta (msdyn\_expenses)** | Da | No | Nije primenjivo | No | Nije primenjivo |
 | **Project Operations entitet integracije za procene sati (msdyn\_resourceassignments)** | Da | No | Nije primenjivo | No | Nije primenjivo |
 
+
 4. Da biste osvežili entitet, izaberite naziv mape, a zatim izaberite **Osveži entitete**. 
-5. Nastavite sa izvođenjem mape nakon završetka osvežavanja.
+
 
 ![Osvežavanje mape](./media/20RefreshMapping.png)
 
-Pre nego što omogućite sledeću mapu, proverite da li je mapa u tabeli u stanju **Pokrenuta**. Pokretanje mapa sa većim brojem preduslova može potrajati.
+5. Kada se osvežavanje završi, pokrenite mapu. Pre nego što omogućite sledeću mapu, proverite da li je mapa u tabeli u stanju **Pokrenuta**. Pokretanje mapa sa većim brojem preduslova može potrajati.
 
-Da biste pokrenuli mapu sa preduslovima, omogućite preklopno dugme **Prikaži povezane mape entiteta**. Ako tabela pokazuje da **Početna sinhronizacija preduslova** ima vrednost **Ne**, proverite da li je zastavica **Početna sinhronizacija** **isključena** u svim mapama preduslova pre nego što je pokrenete.
+Da biste pokrenuli mapu sa preduslovima, omogućite preklopno dugme **Prikaži povezane mape entiteta**. Ako tabela pokazuje da **Početna sinhronizacija preduslova** ima vrednost **Ne** , proverite da li je zastavica **Početna sinhronizacija** **isključena** u svim mapama preduslova pre nego što je pokrenete.
 
 ![Pokretanje mape](./media/21RunMap.png)
 

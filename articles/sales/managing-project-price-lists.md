@@ -7,7 +7,6 @@ ms.date: 09/18/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-customerservice
-ms.technology: ''
 audience: Application User
 ms.reviewer: kfend
 ms.search.scope: ''
@@ -18,12 +17,12 @@ ms.search.industry: Service industries
 ms.author: suvaidya
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: d09a0dd8234641ca106c37a38d1d721dfb07236c
-ms.sourcegitcommit: a2c3cd49a3b667b8b5edaa31788b4b9b1f728d78
+ms.openlocfilehash: 1a69cf51ca8cde8260f4136cf1b2e936f99b112a
+ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
 ms.translationtype: HT
 ms.contentlocale: sr-Latn-RS
-ms.lasthandoff: 09/28/2020
-ms.locfileid: "3898683"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4083806"
 ---
 # <a name="project-price-lists"></a>Cenovnici projekta
 
@@ -35,16 +34,16 @@ Dynamics 365 Project Operations proširuje entitet cenovnika u usluzi Dynamics 3
 
 Cenovnik sadrži informacije koje obezbeđuje četiri različita entiteta:
 
-- **Cenovnik**: ovaj entitet skladišti informacije o kontekstu, valuti, datumu stupanja na snagu i jedinici vremena za vreme određivanja cena. Kontekst prikazuje da li su u cenovniku izražene stope troškova ili prodajne stope. 
-- **Valuta**: ovaj entitet skladišti valutu cena u cenovniku. 
-- **Datum**: ovaj entitet se koristi kada sistem pokuša da unese podrazumevanu cenu za transakciju. Izabran je cenovnik sa datumom stupanja na snagu koji obuhvata datum transakcije. Ako se pronađe više od jednog cenovnika, koji su na snazi na datum transakcije i koji su priloženi sa povezanom ponudom, ugovorom ili organizacionom jedinicom, onda nijedna cena nije podešena kao podrazumevana. 
-- **Vreme**: ovaj entitet skladišti jedinicu vremena za koju su izražene cene, kao što cene po danu ili satu. 
+- **Cenovnik** : ovaj entitet skladišti informacije o kontekstu, valuti, datumu stupanja na snagu i jedinici vremena za vreme određivanja cena. Kontekst prikazuje da li su u cenovniku izražene stope troškova ili prodajne stope. 
+- **Valuta** : ovaj entitet skladišti valutu cena u cenovniku. 
+- **Datum** : ovaj entitet se koristi kada sistem pokuša da unese podrazumevanu cenu za transakciju. Izabran je cenovnik sa datumom stupanja na snagu koji obuhvata datum transakcije. Ako se pronađe više od jednog cenovnika, koji su na snazi na datum transakcije i koji su priloženi sa povezanom ponudom, ugovorom ili organizacionom jedinicom, onda nijedna cena nije podešena kao podrazumevana. 
+- **Vreme** : ovaj entitet skladišti jedinicu vremena za koju su izražene cene, kao što cene po danu ili satu. 
 
 Entitet cenovnika ima tri povezane tabele u kojima se skladište cene:
 
-  - **Cena uloge**: ova tabela skladišti cenu za kombinaciju uloge i vrednosti organizacione jedinice i koristi se za podešavanje cena zasnovanih na ulogama za ljudske resurse.
-  - **Cena kategorije transakcije**: ova tabela skladišti cene po kategoriji transakcije i koristi se za podešavanje cena po kategorijama troškova.
-  - **Stavka cenovnika**: ova tabela skladišti cene za proizvode u katalogu.
+  - **Cena uloge** : ova tabela skladišti cenu za kombinaciju uloge i vrednosti organizacione jedinice i koristi se za podešavanje cena zasnovanih na ulogama za ljudske resurse.
+  - **Cena kategorije transakcije** : ova tabela skladišti cene po kategoriji transakcije i koristi se za podešavanje cena po kategorijama troškova.
+  - **Stavka cenovnika** : ova tabela skladišti cene za proizvode u katalogu.
  
 Cenovnik je cenovna karta. Cenovna karta je kombinacija entiteta cenovnika i srodnih redova u tabelama Cena uloge, Cena kategorije transakcije i Stavke cenovnika.
 
@@ -54,15 +53,15 @@ Termin *Uloga resursa* odnosi se na skup veština, kompetencija i certifikacije 
 
 Vreme ljudskih resursa se nudi na osnovu uloge koju resurs ima na određenom projektu. Za vreme ljudskih resursa, troškovi i naplata se zasnivaju na ulozi resursa. Vreme može biti izraženo cenom u bilo kojoj jedinici u grupi jedinica **Vreme**.
 
-**Vreme** grupe jedinica kreira se kada instalirate Project Operations. Podrazumevana jedinica je **Čas**. Ne možete izbrisati, preimenovati niti urediti atribute grupe jedinica **Vreme** niti **Čas**. Međutim, možete da dodate druge jedinice u grupu jedinica **Vreme**. Ako pokušate da izbrišete grupu jedinica **Vreme** ili jedinicu **Čas**, možete uzrokovati otkazivanja poslovne logike.
+**Vreme** grupe jedinica kreira se kada instalirate Project Operations. Podrazumevana jedinica je **Čas**. Ne možete izbrisati, preimenovati niti urediti atribute grupe jedinica **Vreme** niti **Čas**. Međutim, možete da dodate druge jedinice u grupu jedinica **Vreme**. Ako pokušate da izbrišete grupu jedinica **Vreme** ili jedinicu **Čas** , možete uzrokovati otkazivanja poslovne logike.
  
 ## <a name="transaction-categories-and-expense-categories"></a>Kategorije transakcija i troškova
 
 Troškove putovanja i drugi troškovi koje ostvaruju projektni konsultanti se naplaćuju klijentu. Određivanje cena kategorija troškova se završava pomoću cenovnika. Avionski i hotelski troškovi, kao i troškovi iznajmljivanja automobila su primeri kategorija troškova. Svaka stavka cenovnika za troškove određuje cenu za određenu kategoriju troškova. Sledeće tri metode se koriste za određivanje kategorija troškova:
 
-- **Po ceni**: iznos troškova se naplaćuje klijentu, a provizija se ne naplaćuje.
-- **Procenat provizije**: procenat u odnosu na stvarnu vrednost troškova se naplaćuje klijentu. 
-- **Cena po jedinici**: cena naplate se podešava za svaku jedinicu kategorije troškova. Iznos koji se naplaćuje klijentu se izračunava na osnovu broja jedinica troškova koje konsultant prijavi. Kilometraža koristi metod određivanja cena po jedinici. Na primer, kategorija troškova za kilometražu može se konfigurisati za 30 američkih dolara (USD) dnevno ili 2 USD po milji. Kada konsultant prijavi kilometražu za projekat, taj iznos za naplatu se izračunava na osnovu broja milja koji je prijavio konsultant.
+- **Po ceni** : iznos troškova se naplaćuje klijentu, a provizija se ne naplaćuje.
+- **Procenat provizije** : procenat u odnosu na stvarnu vrednost troškova se naplaćuje klijentu. 
+- **Cena po jedinici** : cena naplate se podešava za svaku jedinicu kategorije troškova. Iznos koji se naplaćuje klijentu se izračunava na osnovu broja jedinica troškova koje konsultant prijavi. Kilometraža koristi metod određivanja cena po jedinici. Na primer, kategorija troškova za kilometražu može se konfigurisati za 30 američkih dolara (USD) dnevno ili 2 USD po milji. Kada konsultant prijavi kilometražu za projekat, taj iznos za naplatu se izračunava na osnovu broja milja koji je prijavio konsultant.
  
 ## <a name="project-sales-pricing-and-overrides"></a>Formiranje cena i njihova zamena za prodaju u okviru projekta
 

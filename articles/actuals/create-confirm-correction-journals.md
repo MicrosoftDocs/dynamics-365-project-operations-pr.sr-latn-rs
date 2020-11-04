@@ -7,7 +7,6 @@ ms.date: 09/18/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-customerservice
-ms.technology: ''
 audience: Application User
 ms.reviewer: kfend
 ms.search.scope: ''
@@ -18,12 +17,12 @@ ms.search.industry: Service industries
 ms.author: suvaidya
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: 274f99527804b0db81b26201a22eb5a8cbe86c9a
-ms.sourcegitcommit: a2c3cd49a3b667b8b5edaa31788b4b9b1f728d78
+ms.openlocfilehash: 855593df1ea14827f06961dda5b4becd2fa75c18
+ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
 ms.translationtype: HT
 ms.contentlocale: sr-Latn-RS
-ms.lasthandoff: 09/28/2020
-ms.locfileid: "3896973"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4083577"
 ---
 # <a name="create-and-confirm-correction-journals"></a>Kreiranje i potvrda dnevnika sa ispravkama
 
@@ -37,7 +36,7 @@ Da biste dovršili procedure u ovoj temi, trebaće vam dozvole administratora.
 
 Obavite sledeće korake da biste ispravili pojedinačne ili višestruke stavke za projekat.
 
-1. U oblasti **Prodaja** izaberite **Transakcije**, a zatim izaberite **Odobreno vreme**. 
+1. U oblasti **Prodaja** izaberite **Transakcije** , a zatim izaberite **Odobreno vreme**. 
 
 2. Na listi **Odobreno vreme** pronađite i izaberite jednu odobrenu stavku vremena ili više njih da biste ih ispravili. Možete koristiti filter da biste pronašli povezane stavke. Na primer, možete da filtrirate ID projekta i da izaberete sve odobrene stavke vremena sa tim ID-om projekta.
 
@@ -54,9 +53,9 @@ Obavite sledeće korake da biste ispravili pojedinačne ili višestruke stavke z
 
 7. Ako se ispravke pojave kako se očekuje, izaberite **Potvrdi**. U dijalogu izaberite **U redu**.
 
-8. Vratite se na oblast **Prodaja**, izaberite **Projekti**, a zatim otvorite projekat za koji ste upravo ažurirali stavke vremena. 
+8. Vratite se na oblast **Prodaja** , izaberite **Projekti** , a zatim otvorite projekat za koji ste upravo ažurirali stavke vremena. 
 
-9. Na stranici **Projekti**, na kartici **Stvarne vrednosti**, pogledajte promene koje ste izvršili. 
+9. Na stranici **Projekti** , na kartici **Stvarne vrednosti** , pogledajte promene koje ste izvršili. 
 
 > [!NOTE]
 > Ako kartica **Aktuelno** nije vidljiva, izaberite **Povezano** > **Stvarne vrednosti**.  
@@ -70,11 +69,11 @@ Na primer, na sledećoj slici postoje dve stavke čija je količina 8,00 a koje 
 
 Obavite sledeće korake da biste ispravili jednu stavku troškova ili više njih. 
 
-1. U oblasti **Prodaja** u levom oknu za navigaciju, u okviru **Transakcije**, izaberite **Odobreni troškovi**.
+1. U oblasti **Prodaja** u levom oknu za navigaciju, u okviru **Transakcije** , izaberite **Odobreni troškovi**.
 
 2. Na listi **Odobreni troškovi** izaberite projekat koji želite da ispravite, a zatim izaberite **Ispravi stavke**. Kreira se novi dnevnik ispravki sa dodeljenom vrstom **Ispravka troška**. 
 
-3. Na stranici **Novi dnevnik** unesite **Opis** za ispravku a na kartici **Ispravka troška**, u odeljku **Nove vrednosti za troškove**, izaberite polja podataka koja želite da ispravite za odabrane stavke troška. Na primer, možete da dodelite trošak drugom **Projektu** ili da ispravite stavku **Kategorija troška**, **Datum troška** ili **Resurs koji može da se rezerviše**.
+3. Na stranici **Novi dnevnik** unesite **Opis** za ispravku a na kartici **Ispravka troška** , u odeljku **Nove vrednosti za troškove** , izaberite polja podataka koja želite da ispravite za odabrane stavke troška. Na primer, možete da dodelite trošak drugom **Projektu** ili da ispravite stavku **Kategorija troška** , **Datum troška** ili **Resurs koji može da se rezerviše**.
 
 4. Izaberite **Pregled**. U dijalogu izaberite **U redu**. 
 
@@ -87,6 +86,6 @@ Obavite sledeće korake da biste ispravili jednu stavku troškova ili više njih
 
 7. Nakon što potvrdite dnevnik ispravki, vratite se na projekat ili projekte koje ste ažurirali da biste pogledali svoje izmene.  
 
-8. Na stranici projekta, na kartici **Aktuelno**, pregledajte **Vezani prikaz stvarnih vrednosti**. Navedene su izvorne stavke i ispravljene stavke. Sledeća slika prikazuje izvorne iznose stavke troška i odgovarajuće ispravljene iznose stavke troška. 
+8. Na stranici projekta, na kartici **Aktuelno** , pregledajte **Vezani prikaz stvarnih vrednosti**. Navedene su izvorne stavke i ispravljene stavke. Sledeća slika prikazuje izvorne iznose stavke troška i odgovarajuće ispravljene iznose stavke troška. 
 
 

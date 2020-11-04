@@ -7,7 +7,6 @@ ms.date: 09/23/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-customerservice
-ms.technology: ''
 ms.search.form: ''
 audience: Application User
 ms.reviewer: kfend
@@ -16,12 +15,12 @@ ms.search.region: ''
 ms.author: shylaw
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 3185c80c792dfe537f4974fa276eafbd16813131
-ms.sourcegitcommit: a2c3cd49a3b667b8b5edaa31788b4b9b1f728d78
+ms.openlocfilehash: 0c1955198e98a3d8499f51c669478cd422b957e6
+ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
 ms.translationtype: HT
 ms.contentlocale: sr-Latn-RS
-ms.lasthandoff: 09/28/2020
-ms.locfileid: "3897063"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4083582"
 ---
 # <a name="expense-using-mobile"></a>Obračun troškova pomoću mobilnih uređaja
 
@@ -106,13 +105,13 @@ Preuzmite i instalirajte Dynamics 365 Unified Ops aplikaciju za mobilne uređaje
 3. Izaberite **Snimite fotografiju** ili **Odaberite sliku**.
 4. Pratite jedan od sledećih koraka:
 
-   - Ako ste izabrali **Snimite fotografiju**, pratite ove korake:
+   - Ako ste izabrali **Snimite fotografiju** , pratite ove korake:
 
       1. Bićete preusmereni na kameru na svom mobilnom uređaju, tako da možete da fotografišete priznanicu. 
       2. Kada završite sa fotografisanjem, izaberite **U redu** da biste prihvatili fotografiju.
       3. Opcionalno: unesite naziv fotografije i unesite beleške.
 
-    - Ako ste izabrali **Odaberite sliku**, pratite ove korake:
+    - Ako ste izabrali **Odaberite sliku** , pratite ove korake:
 
         1. Izaberite sliku sa liste.
         2. Opcionalno: unesite naziv slike i unesite beleške.
@@ -131,8 +130,8 @@ Preuzmite i instalirajte Dynamics 365 Unified Ops aplikaciju za mobilne uređaje
 8. Izaberite **Snimite fotografiju** ili **Odaberite sliku**.
 9. Pratite jedan od sledećih koraka:
 
-    - Ako ste izabrali **Snimite fotografiju**, bićete preusmereni na kameru na svom mobilnom uređaju, tako da možete da fotografišete priznanicu. Kada završite sa fotografisanjem, izaberite **U redu** da biste prihvatili fotografiju.
-    - Ako ste izabrali **Odaberite sliku**, izaberite sliku sa liste.
+    - Ako ste izabrali **Snimite fotografiju** , bićete preusmereni na kameru na svom mobilnom uređaju, tako da možete da fotografišete priznanicu. Kada završite sa fotografisanjem, izaberite **U redu** da biste prihvatili fotografiju.
+    - Ako ste izabrali **Odaberite sliku** , izaberite sliku sa liste.
 
 10. Izaberite **Gotovo**.
 
@@ -145,7 +144,7 @@ Preuzmite i instalirajte Dynamics 365 Unified Ops aplikaciju za mobilne uređaje
     
 3. Izaberite izveštaj o troškovima da biste videli detalje o troškovima za njega.
 4. Izaberite trošak da biste videli detalje za njega. Podaci koji se prikazuju kao trošak uključuju sve detalje o priznanici, gostu i detaljima.
-5. Vratite se na stranicu **Izveštaj o troškovima**, izaberite da biste odobrili ili odbili izveštaj o troškovima.
+5. Vratite se na stranicu **Izveštaj o troškovima** , izaberite da biste odobrili ili odbili izveštaj o troškovima.
 6. Unesite komentare uz odobrenje.
 7. Izaberite **Gotovo**.
 
@@ -167,60 +166,60 @@ Preuzmite i instalirajte Dynamics 365 Unified Ops aplikaciju za mobilne uređaje
 14. Izaberite valutu troška. Videćete listu šifara valuta koje su učitane u vašu aplikaciju za korišćenje van mreže. Podrazumevano se učitava 400 valuta, ali programer može promeniti ovaj broj. Za više informacija, programeri bi trebalo da pogledaju članak [Mobilna platforma](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/mobile-apps/platform/mobile-platform-getting-started). Ako vaša valuta nije na listi, izaberite **Pretraga** da biste obavili pretragu na mreži. Pretražujte po valuti ili se prebacite na pretragu po nazivu.
 15. Izaberite **Gotovo**.
 16. Da biste dodali više detalja trošku, izaberite **Dodajte više detalja**. Dostupna polja zavise od konfiguracije upravljanja troškovima vaše kompanije.
-17. Ako politika kompanije zahteva potvrdu o trošku, izaberite **Priznanice**, a zatim sledite ove korake:
+17. Ako politika kompanije zahteva potvrdu o trošku, izaberite **Priznanice** , a zatim sledite ove korake:
 
     1. Izaberite **Snimite priznanicu** ili **Priložite priznanicu**.
     2. Pratite jedan od sledećih koraka:
 
-        - Ako ste izabrali **Snimite priznanicu**, pratite ove korake:
+        - Ako ste izabrali **Snimite priznanicu** , pratite ove korake:
 
             1. Izaberite **Snimite fotografiju** ili **Odaberite sliku**.
             2. Pratite jedan od sledećih koraka:
 
-                - Ako ste izabrali **Snimite fotografiju**, pratite ove korake:
+                - Ako ste izabrali **Snimite fotografiju** , pratite ove korake:
 
                     1. Bićete preusmereni na kameru na svom mobilnom uređaju, tako da možete da fotografišete priznanicu. Kada završite sa fotografisanjem, izaberite **U redu** da biste prihvatili fotografiju.
                     2. Opcionalno: unesite naziv fotografije i unesite beleške.
 
-                - Ako ste izabrali **Odaberite sliku**, pratite ove korake:
+                - Ako ste izabrali **Odaberite sliku** , pratite ove korake:
 
                     1. Izaberite sliku sa liste.
                     2. Opcionalno: unesite naziv slike i unesite beleške.
 
             3.  Izaberite **Gotovo**.
 
-        - Ako ste izabrali **Priložite priznanicu**, pratite ove korake:
+        - Ako ste izabrali **Priložite priznanicu** , pratite ove korake:
 
             1.  Izaberite jednu ili više slika na listi.
             2.  Izaberite **Gotovo**.
 
     3. Izaberite dugme **Nazad** za povratak na detalje o troškovima.
 
-18. Ako politika kompanije zahteva gosta za trošak, izaberite **Gosti**, a zatim sledite ove korake:
+18. Ako politika kompanije zahteva gosta za trošak, izaberite **Gosti** , a zatim sledite ove korake:
 
-    1. Izaberite **Gost**, **Prethodni gosti** ili **Saradnici**.
+    1. Izaberite **Gost** , **Prethodni gosti** ili **Saradnici**.
     2. Pratite jedan od sledećih koraka:
 
-        - Ako ste izabrali **Gost**, pratite ove korake:
+        - Ako ste izabrali **Gost** , pratite ove korake:
 
             1. Unesite ime za gosta.
             2. Opcionalno: unesite organizaciju i/ili zemlju gosta.
             3. Opcionalno: unesite poziciju za gosta.
             4. Izaberite **Gotovo**.
 
-        - Ako ste izabrali **Prethodni gosti**, pratite ove korake:
+        - Ako ste izabrali **Prethodni gosti** , pratite ove korake:
 
             1. Izaberite jednog ili više prethodnih gostiju na listi. Videćete listu prethodnih gostiju koje ste dodali u prethodne izveštaje o troškovima koji su učitani u vašu aplikaciju za korišćenje van mreže. Podrazumevano se učitava 50 stavki, ali programer može promeniti ovaj broj. Za više informacija, programeri bi trebalo da pogledaju članak [Mobilna platforma](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/mobile-apps/platform/mobile-platform-getting-started). Ako vaš prethodni gost nije na listi, izaberite **Pretraga** da biste obavili pretragu na mreži. Pretražujte po imenu ili pređite na pretragu po organizaciji, zemlji ili poziciji.
             2. Izaberite **Gotovo**.
 
-        - Ako ste izabrali **Saradnici**, pratite ove korake:
+        - Ako ste izabrali **Saradnici** , pratite ove korake:
 
             1. Izaberite jednog ili više saradnika na listi. Videćete listu saradnika koji su učitani u vašu aplikaciju za korišćenje van mreže. Podrazumevano se učitava 50 stavki, ali programer može promeniti ovaj broj. Za više informacija, programeri bi trebalo da pogledaju članak [Mobilna platforma](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/mobile-apps/platform/mobile-platform-getting-started). Ako vaš saradnik nije na listi, izaberite **Pretraga** da biste obavili pretragu na mreži. Pretražujte po imenu ili pređite na pretragu po kompaniji ili poziciji.
             2. Izaberite **Gotovo**.
 
     3. Izaberite dugme **Nazad** za povratak na detalje o troškovima.
 
-19. Ako politika kompanije zahteva podelu troška, izaberite **Podela**, a zatim sledite ove korake:
+19. Ako politika kompanije zahteva podelu troška, izaberite **Podela** , a zatim sledite ove korake:
 
     1. Izaberite prvi datum za podelu.
     2. Izaberite **Dodajte podelu**.

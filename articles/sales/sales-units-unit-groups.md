@@ -7,7 +7,6 @@ ms.date: 09/18/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-customerservice
-ms.technology: ''
 audience: Application User
 ms.reviewer: kfend
 ms.search.scope: ''
@@ -18,12 +17,12 @@ ms.search.industry: Service industries
 ms.author: suvaidya
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: ea5399368214a293ca7c10fabf21d82407b5c76f
-ms.sourcegitcommit: a2c3cd49a3b667b8b5edaa31788b4b9b1f728d78
+ms.openlocfilehash: 345a4f38ad0bc5acddb90cfd8cb3e92154e46513
+ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
 ms.translationtype: HT
 ms.contentlocale: sr-Latn-RS
-ms.lasthandoff: 09/28/2020
-ms.locfileid: "3898773"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4083703"
 ---
 # <a name="units-and-unit-groups"></a>Jedinice i grupe jedinica
 
@@ -43,7 +42,7 @@ Da biste dovršili korake u ovoj temi, uverite se da vam je dodeljena uloga Admi
 ## <a name="add-units-to-a-unit-group"></a>Dodavanje jedinica u grupu jedinica
 
 1. Otvorite grupu jedinica i na kartici **Povezano** izaberite **Jedinice**. Videćete da je primarna jedinica već dodata.
-2. Izaberite **Dodaj novu jedinicu** i na stranici **Brzo kreiranje: jedinica**, u polju **Naziv**, unesite naziv jedinice.
+2. Izaberite **Dodaj novu jedinicu** i na stranici **Brzo kreiranje: jedinica** , u polju **Naziv** , unesite naziv jedinice.
 3. U polju **Količina** unesite količinu koju želite da jedinica sadrži. Na primer, ako kutija sadrži dva komada, unesite „2“. 
 4. U polju **Osnovna jedinica** izaberite osnovnu jedinicu da biste uspostavili najnižu mernu jedinicu za jedinicu. Na primer, možete odabrati „Komad“.
-5. Izaberite **Sačuvaj**:
+5. Izaberite **Sačuvaj** :

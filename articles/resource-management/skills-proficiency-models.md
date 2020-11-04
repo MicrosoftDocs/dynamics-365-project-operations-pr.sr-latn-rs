@@ -9,11 +9,11 @@ ms.service: dynamics-365-customerservice
 ms.reviewer: kfend
 ms.author: ruhercul
 ms.openlocfilehash: 4c814754e68b3a1a8bf8784434d45010bf8d0123
-ms.sourcegitcommit: 56c42d7f5995a674426a1c2a81bae897dceb391c
+ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
 ms.translationtype: HT
 ms.contentlocale: sr-Latn-RS
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3908529"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4083497"
 ---
 # <a name="skills-and-certifications"></a>Veštine i certifikati
 _**Odnosi se na:** Project Operations za resurs/scenarije koji nisu zasnovani na zalihama, laganu primenu – od pogodbe do profakture_
@@ -32,7 +32,7 @@ Dodavanje karakteristika zahtevima za resursima omogućava vam dokumentovanje zn
 
 1. U glavnom meniju izaberite **Resursi** > **Resursi koji mogu da se rezervišu**. Otvara se stranica **Aktivni resursi koji mogu da se rezervišu** i možete videti listu svih raspoloživih resursa u sistemu.
 2. Iz liste izaberite naziv resursa koji može da se rezerviše.
-3. U odeljku **Project Service**, izaberite **+Dodaj zapis o karakteristikama resursa koji može da se rezerviše**.
+3. U odeljku **Project Service** , izaberite **+Dodaj zapis o karakteristikama resursa koji može da se rezerviše**.
 4. U iskačućem prozoru koji se otvori, pronađite i izaberite potrebne karakteristike i dodajte **Vrednost ocene** za resurs.
 5. Izaberite stavku **Sačuvaj i zatvori**.
 
@@ -40,6 +40,6 @@ Dodavanje karakteristika zahtevima za resursima omogućava vam dokumentovanje zn
 
 1. U mreži članova tima pronađite i dvaput kliknite na generičkog člana tima sa karakteristikama koje treba ažurirati.
 2. U delu **Detalji člana projektnog tima** izaberite karticu **Zahtev za resursima**.
-3. U podformi **Veštine**, izaberite **+ Dodaj novu karakteristiku zahteva.**
+3. U podformi **Veštine** , izaberite **+ Dodaj novu karakteristiku zahteva.**
 4. U oknu za brzo kreiranje pronađite i odaberite potrebne karakteristike i dodajte **Vrednost ocene**.
 5. Izaberite stavku **Sačuvaj i zatvori**.
