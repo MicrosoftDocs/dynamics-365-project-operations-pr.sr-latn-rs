@@ -8,18 +8,19 @@ ms.topic: article
 ms.service: dynamics-365-customerservice
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 1a94862d5a024eb1630f33c0c96699e8b4b49bf2
-ms.sourcegitcommit: b9d8bf00239815f31686e9b28998ac684fd2fca4
+ms.openlocfilehash: b9af6c71b61840f4ffdf2892d8e7e5bbf0f8df67
+ms.sourcegitcommit: 91ad491e94a421f256a378b0f4b26ed48c67bc93
 ms.translationtype: HT
 ms.contentlocale: sr-Latn-RS
-ms.lasthandoff: 10/02/2020
-ms.locfileid: "3949055"
+ms.lasthandoff: 10/22/2020
+ms.locfileid: "4096639"
 ---
 # <a name="apply-project-operations-demo-data-to-a-finance-cloud-hosted-environment"></a>Primena Project Operations demo podataka na Finance okruženje koje se hostuje u oblaku
 
 _**Odnosi se na:** Project Operations za scenarije zasnovane na resursima / bez zaliha_
 
->[Važno] Ova tema je primenljiva je samo na Microsoft Dynamics 365 Finance verzije 10.0.13 i može se izvoditi samo u okruženju koje hostuje u oblaku. Dovršite korake u ovoj temi **PRE NEGO ŠTO** primenite ispravke kvaliteta na okruženje.
+> [!IMPORTANT]
+> Ova tema je primenljiva je samo na Microsoft Dynamics 365 Finance verzije 10.0.13 i može se izvoditi samo u okruženju koje se hostuje u oblaku. Dovršite korake u ovoj temi **PRE NEGO ŠTO** primenite ispravke kvaliteta na okruženje.
 
 1. U svom LCS projektu, otvorite stranicu **Detalji okruženja**. Primetite da sadrži detalje potrebne za povezivanje sa okolinom pomoću protokola udaljene radne površine (RDP).
 
@@ -45,7 +46,7 @@ Prvi skup istaknutih akreditiva su akreditivi lokalnog naloga i sadrže hipervez
 
 6. U pregledaču objekata, izaberite **Baze podataka** i pronađite **AXDB**. Bazu podataka ćete zameniti novom bazom podataka koja se nalazi u [centru za preuzimanje](https://download.microsoft.com/download/1/a/3/1a314bd2-b082-4a87-abdc-1ba26c92b63d/ProjOpsDemoDataFOGARelease.zip). 
 7. Kopirajte zip datoteku u VM u koji ste udaljeno povezani i raspakujte zip sadržaj.
-8. U programu SQL Server Management Studio kliknite desnim tasterom miša na **AxDB**, a zatim izaberite **Zadaci** > **Vraćanje** > **Baza podataka**.
+8. U programu SQL Server Management Studio kliknite desnim tasterom miša na **AxDB** , a zatim izaberite **Zadaci** > **Vraćanje** > **Baza podataka**.
 
 ![Vraćanje baze podataka](./media/5RestoreDatabase.png)
 
@@ -53,7 +54,7 @@ Prvi skup istaknutih akreditiva su akreditivi lokalnog naloga i sadrže hipervez
 
 ![Izvorni uređaji](./media/6SourceDevice.png)
 
-10. Izaberite **Opcije**, a zatim izaberite **Prepiši postojeću bazu podataka** i **Zatvorite postojeće veze sa odredišnom bazom podataka**. 
+10. Izaberite **Opcije** , a zatim izaberite **Prepiši postojeću bazu podataka** i **Zatvorite postojeće veze sa odredišnom bazom podataka**. 
 11. Izaberite **U redu**.
 
 ![Vraćanje podešavanja](./media/7RestoreSetting.png)
