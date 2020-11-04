@@ -7,7 +7,6 @@ ms.date: 09/18/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-customerservice
-ms.technology: ''
 audience: Application User
 ms.reviewer: kfend
 ms.search.scope: ''
@@ -18,22 +17,22 @@ ms.search.industry: Service industries
 ms.author: suvaidya
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: e14da1c07d5b697de6caf1b9041c30581ecff102
-ms.sourcegitcommit: a2c3cd49a3b667b8b5edaa31788b4b9b1f728d78
+ms.openlocfilehash: b31e702cc15bbb3937e8c4b305064212f63ce919
+ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
 ms.translationtype: HT
 ms.contentlocale: sr-Latn-RS
-ms.lasthandoff: 09/28/2020
-ms.locfileid: "3898098"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4083748"
 ---
-# <a name="corrected-invoices"></a>Korigovane fakture
+# <a name="corrected-invoices"></a><span data-ttu-id="4f64a-103">Korigovane fakture</span><span class="sxs-lookup"><span data-stu-id="4f64a-103">Corrected invoices</span></span>
 
-_**Odnosi se na:** Project Operations za resurs/scenarije koji nisu zasnovani na zalihama, laganu primenu – od pogodbe do profakture_
+<span data-ttu-id="4f64a-104">_**Odnosi se na:** Project Operations za scenarije zasnovane na resursima / bez zaliha_</span><span class="sxs-lookup"><span data-stu-id="4f64a-104">_**Applies To:** Project Operations for resource/non-stocked based scenarios_</span></span>
 
-Potvrđene fakture se mogu uređivati. Kada uredite potvrđnu fakturu, kreira se radna verzija korigovane fakture. Pošto je pretpostavka da želite da stornirate sve transakcije i količine iz originalne fakture, ova korigovana faktura uključuje sve transakcije iz originalne fakture, a sve količine na njoj su nula (0).
+<span data-ttu-id="4f64a-105">Potvrđene fakture se mogu uređivati.</span><span class="sxs-lookup"><span data-stu-id="4f64a-105">Confirmed invoices can be edited.</span></span> <span data-ttu-id="4f64a-106">Kada uredite potvrđnu fakturu, kreira se radna verzija korigovane fakture.</span><span class="sxs-lookup"><span data-stu-id="4f64a-106">When you edit a confirmed invoice, a draft of the corrected invoice is created.</span></span> <span data-ttu-id="4f64a-107">Pošto je pretpostavka da želite da stornirate sve transakcije i količine iz originalne fakture, ova korigovana faktura uključuje sve transakcije iz originalne fakture, a sve količine na njoj su nula (0).</span><span class="sxs-lookup"><span data-stu-id="4f64a-107">Because the assumption is that you want to reverse all the transactions and quantities from the original invoice, the corrected invoice includes all the transactions from the original invoice, and all the quantities on it are zero (0).</span></span>
 
-Kada neke transakcije ne zahtevaju korekciju, možete ih ukloniti iz radne verzije korigovane fakture. Da biste stornirali ili opozvali samo delimičnu količinu, možete urediti polje Količina u detaljima stavke. Ako otvorite detalj stavke fakture, možete videti količinu originalne fakture. Zatim možete da uredite količinu trenutne fakture tako da bude manja ili veća od količine originalne fakture.
+<span data-ttu-id="4f64a-108">Kada neke transakcije ne zahtevaju korekciju, možete ih ukloniti iz radne verzije korigovane fakture.</span><span class="sxs-lookup"><span data-stu-id="4f64a-108">When transactions don't require correction, you can remove them from the draft corrective invoice.</span></span> <span data-ttu-id="4f64a-109">Da biste stornirali ili opozvali samo delimičnu količinu, možete urediti polje Količina u detaljima stavke.</span><span class="sxs-lookup"><span data-stu-id="4f64a-109">To reverse or return only a partial quantity, you can edit the Quantity field on the line detail.</span></span> <span data-ttu-id="4f64a-110">Ako otvorite detalj stavke fakture, možete videti količinu originalne fakture.</span><span class="sxs-lookup"><span data-stu-id="4f64a-110">If you open the invoice line detail, you can see the original invoice quantity.</span></span> <span data-ttu-id="4f64a-111">Zatim možete da uredite količinu trenutne fakture tako da bude manja ili veća od količine originalne fakture.</span><span class="sxs-lookup"><span data-stu-id="4f64a-111">You can then edit the current invoice quantity so that it's less than or more than the original invoice quantity.</span></span>
 
-Kada potvrdite korigovanu fakturu, stornira se originalna stvarna vrednosti naplaćene prodaje i kreira se nova stvarna vrednost naplaćene prodaje. Ako je količina smanjena, razlika će dovesti do toga da se kreira i nova stvarna vrednost nenaplaćene prodaje. Na primer, ako je originalna naplaćena prodaja bila za osam sati, a detalj stavke korigovane fakture ima manju količinu od šest sati, stornira se prvobitna naplaćena stavka prodaje i kreiraju se dve nove stvarne vrednosti:
+<span data-ttu-id="4f64a-112">Kada potvrdite korigovanu fakturu, stornira se originalna stvarna vrednosti naplaćene prodaje i kreira se nova stvarna vrednost naplaćene prodaje.</span><span class="sxs-lookup"><span data-stu-id="4f64a-112">When you confirm a corrective invoice, the original billed sales actual is reversed, and a new billed sales actual is created.</span></span> <span data-ttu-id="4f64a-113">Ako je količina smanjena, razlika će dovesti do toga da se kreira i nova stvarna vrednost nenaplaćene prodaje.</span><span class="sxs-lookup"><span data-stu-id="4f64a-113">If the quantity was reduced, the difference will cause a new unbilled sales actual to be created too.</span></span> <span data-ttu-id="4f64a-114">Na primer, ako je originalna naplaćena prodaja bila za osam sati, a detalj stavke korigovane fakture ima manju količinu od šest sati, stornira se prvobitna naplaćena stavka prodaje i kreiraju se dve nove stvarne vrednosti:</span><span class="sxs-lookup"><span data-stu-id="4f64a-114">For example, if the original billed sale was for eight hours, and the corrected invoice line detail has a reduced quantity of six hours, the original billed sales line is revered and two new actuals are created:</span></span>
 
-- Stvarna vrednosti naplaćene prodaje za šest sati.
-- Stvarna vrednosti nenaplaćene prodaje za preostala dva sata. Ova transakcija može biti naplaćena kasnije ili označena kao nenaplativa, u zavisnosti od pregovora sa klijentom.
+- <span data-ttu-id="4f64a-115">Stvarna vrednosti naplaćene prodaje za šest sati.</span><span class="sxs-lookup"><span data-stu-id="4f64a-115">A billed sales actual for six hours.</span></span>
+- <span data-ttu-id="4f64a-116">Stvarna vrednosti nenaplaćene prodaje za preostala dva sata.</span><span class="sxs-lookup"><span data-stu-id="4f64a-116">An unbilled sales actual for the remaining two hours.</span></span> <span data-ttu-id="4f64a-117">Ova transakcija može biti naplaćena kasnije ili označena kao nenaplativa, u zavisnosti od pregovora sa klijentom.</span><span class="sxs-lookup"><span data-stu-id="4f64a-117">This transaction can either be billed later or marked as non-chargeable, depending on the negotiations with the customer.</span></span>

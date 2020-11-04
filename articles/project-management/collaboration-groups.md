@@ -9,18 +9,18 @@ ms.service: dynamics-365-customerservice
 ms.reviewer: kfend
 ms.author: ruhercul
 ms.openlocfilehash: 58868694987688e279e717d1f7acaf3fd9514770
-ms.sourcegitcommit: b9d8bf00239815f31686e9b28998ac684fd2fca4
+ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
 ms.translationtype: HT
 ms.contentlocale: sr-Latn-RS
-ms.lasthandoff: 10/02/2020
-ms.locfileid: "3949054"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4083439"
 ---
-# <a name="collaboration-with-office-groups"></a>Saradnja sa Office grupama
+# <a name="collaboration-with-office-groups"></a><span data-ttu-id="d4f6e-103">Saradnja sa Office grupama</span><span class="sxs-lookup"><span data-stu-id="d4f6e-103">Collaboration with Office Groups</span></span>
 
-_**Odnosi se na:** Project Operations za resurs/scenarije koji nisu zasnovani na zalihama, laganu primenu – od pogodbe do profakture_
+<span data-ttu-id="d4f6e-104">_**Odnosi se na:** Project Operations za resurs/scenarije koji nisu zasnovani na zalihama, laganu primenu – od pogodbe do profakture_</span><span class="sxs-lookup"><span data-stu-id="d4f6e-104">_**Applies To:** Project Operations for resource/non-stocked based scenarios, Lite deployment - deal to proforma invoicing_</span></span>
 
-Office grupe vam omogućavaju da delite projekat sa ostalim članovima tima u usluzi Common Data Service. Kada dodate korisnike u grupu, vlasništvo nad projektom se prenosi na grupu. Svi korisnici će imati dozvolu za uređivanje projekta. Korisnici takođe mogu videti projekat ako je administrator dodelio privilegije. Ovi korisnici neće biti prikazani u grupi.
+<span data-ttu-id="d4f6e-105">Office grupe vam omogućavaju da delite projekat sa ostalim članovima tima u usluzi Common Data Service.</span><span class="sxs-lookup"><span data-stu-id="d4f6e-105">Office Groups allow you to share a project with other team members in the Common Data Service.</span></span> <span data-ttu-id="d4f6e-106">Kada dodate korisnike u grupu, vlasništvo nad projektom se prenosi na grupu.</span><span class="sxs-lookup"><span data-stu-id="d4f6e-106">When you add users to the group, project ownership transfers to the group.</span></span> <span data-ttu-id="d4f6e-107">Svi korisnici će imati dozvolu za uređivanje projekta.</span><span class="sxs-lookup"><span data-stu-id="d4f6e-107">All users will have edit permission on the project.</span></span> <span data-ttu-id="d4f6e-108">Korisnici takođe mogu videti projekat ako je administrator dodelio privilegije.</span><span class="sxs-lookup"><span data-stu-id="d4f6e-108">Users may also see the project if privileges have been granted by the administrator.</span></span> <span data-ttu-id="d4f6e-109">Ovi korisnici neće biti prikazani u grupi.</span><span class="sxs-lookup"><span data-stu-id="d4f6e-109">These users won't be displayed in the group.</span></span>
 
 > [!NOTE] 
-> Korisnici se dodaju u grupu samo ako pritisnete **Grupe** i dodate ih. Ovo se razlikuje od ponašanja projekta za veb. 
+> <span data-ttu-id="d4f6e-110">Korisnici se dodaju u grupu samo ako pritisnete **Grupe** i dodate ih.</span><span class="sxs-lookup"><span data-stu-id="d4f6e-110">Users are only added to the group if you press **Groups** and add them.</span></span> <span data-ttu-id="d4f6e-111">Ovo se razlikuje od ponašanja projekta za veb.</span><span class="sxs-lookup"><span data-stu-id="d4f6e-111">This is different to the behaviour of Project for the Web.</span></span> 
 

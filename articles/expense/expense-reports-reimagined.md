@@ -7,7 +7,6 @@ ms.date: 10/01/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-customerservice
-ms.technology: ''
 ms.search.form: ''
 audience: Application User
 ms.reviewer: kfend
@@ -16,66 +15,66 @@ ms.search.region: ''
 ms.author: suvaidya
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: cd0d415b9cc85bac91de8fb9427da290ae0c6108
-ms.sourcegitcommit: a2c3cd49a3b667b8b5edaa31788b4b9b1f728d78
+ms.openlocfilehash: 47c1bce0c886897b295a3c1a355f4db843c4b73a
+ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
 ms.translationtype: HT
 ms.contentlocale: sr-Latn-RS
-ms.lasthandoff: 09/28/2020
-ms.locfileid: "3897153"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4083646"
 ---
-# <a name="expense-reports-reimagined"></a>Ponovno osmišljeni izveštaji o troškovima
+# <a name="expense-reports-reimagined"></a><span data-ttu-id="c09ed-103">Ponovno osmišljeni izveštaji o troškovima</span><span class="sxs-lookup"><span data-stu-id="c09ed-103">Expense reports reimagined</span></span>
 
-Unos izveštaja o troškovima redizajniran je kako bi se pojednostavio postupak i smanjilo vreme potrebno za popunu izveštaja. Evo glavnih komponenti novog iskustva sa troškovima:
+<span data-ttu-id="c09ed-104">Unos izveštaja o troškovima redizajniran je kako bi se pojednostavio postupak i smanjilo vreme potrebno za popunu izveštaja.</span><span class="sxs-lookup"><span data-stu-id="c09ed-104">Expense report entry has been redesigned to simplify the process and reduce the time needed to complete a report.</span></span> <span data-ttu-id="c09ed-105">Evo glavnih komponenti novog iskustva sa troškovima:</span><span class="sxs-lookup"><span data-stu-id="c09ed-105">Here are the major components of the new expense experience:</span></span>
 
-- Novi radni prostor za upravljanje troškovima koji vam omogućava pristup troškovima vašeg delegata.
-- Novo iskustvo podudaranja priznanica kako bi se bolje prikazale priznanice na nivou zaglavlja i pojednostavio postupak povezivanja računa sa stavkama troškova.
-- Nova mreža samo za čitanje koja vam omogućava da vidite mnogo više stavki troškova i dodatne kolone podataka. Sada možete videti sve razdvojene i podeljene stavke, zajedno sa nadređenim troškovima.
-- Pojednostavljeno okno za uređivanje troškova.
-- Redizajnirane poruke o greškama, upozorenjima i smernicama kako bi se obezbedio tačan kontekst i razumevanje problema i kako se to može rešiti. Uklonili smo nekoliko poruka koje su se pojavljivale pre nego što su korisnici mogli da izvrše svoje zadatke i reše probleme.
-- Nova stranica za navođenje obaveznih polja, opcionalnih polja i polja koja ne bi trebalo da budu uključena. Ova stranica pomaže u smanjenju broja polja koja se moraju postaviti.
-- Novi izgled i utisak za izveštaje o troškovima, tako da izveštaji više ne izgledaju kao da su dizajnirani za računovođe.
+- <span data-ttu-id="c09ed-106">Novi radni prostor za upravljanje troškovima koji vam omogućava pristup troškovima vašeg delegata.</span><span class="sxs-lookup"><span data-stu-id="c09ed-106">A new expense management workspace that lets you access your delegate's expenses.</span></span>
+- <span data-ttu-id="c09ed-107">Novo iskustvo podudaranja priznanica kako bi se bolje prikazale priznanice na nivou zaglavlja i pojednostavio postupak povezivanja računa sa stavkama troškova.</span><span class="sxs-lookup"><span data-stu-id="c09ed-107">A new receipt matching experience to better show header-level receipts and simplify the process of attaching receipts to expense lines.</span></span>
+- <span data-ttu-id="c09ed-108">Nova mreža samo za čitanje koja vam omogućava da vidite mnogo više stavki troškova i dodatne kolone podataka.</span><span class="sxs-lookup"><span data-stu-id="c09ed-108">A new read-only grid that lets you view many more expense lines and additional columns of data.</span></span> <span data-ttu-id="c09ed-109">Sada možete videti sve razdvojene i podeljene stavke, zajedno sa nadređenim troškovima.</span><span class="sxs-lookup"><span data-stu-id="c09ed-109">You can now see all itemized and split lines, together with their parent expenses.</span></span>
+- <span data-ttu-id="c09ed-110">Pojednostavljeno okno za uređivanje troškova.</span><span class="sxs-lookup"><span data-stu-id="c09ed-110">A simplified pane for editing expenses.</span></span>
+- <span data-ttu-id="c09ed-111">Redizajnirane poruke o greškama, upozorenjima i smernicama kako bi se obezbedio tačan kontekst i razumevanje problema i kako se to može rešiti.</span><span class="sxs-lookup"><span data-stu-id="c09ed-111">Redesigned error, warning, and policy messages to provide the correct context and understanding of the issue and how to resolve it.</span></span> <span data-ttu-id="c09ed-112">Uklonili smo nekoliko poruka koje su se pojavljivale pre nego što su korisnici mogli da izvrše svoje zadatke i reše probleme.</span><span class="sxs-lookup"><span data-stu-id="c09ed-112">We have removed several of the messages that appeared before users could complete their tasks and address the issues.</span></span>
+- <span data-ttu-id="c09ed-113">Nova stranica za navođenje obaveznih polja, opcionalnih polja i polja koja ne bi trebalo da budu uključena.</span><span class="sxs-lookup"><span data-stu-id="c09ed-113">A new page to specify required fields, optional fields, and the fields that should not be included.</span></span> <span data-ttu-id="c09ed-114">Ova stranica pomaže u smanjenju broja polja koja se moraju postaviti.</span><span class="sxs-lookup"><span data-stu-id="c09ed-114">This page helps to reduce the number of fields that must be set.</span></span>
+- <span data-ttu-id="c09ed-115">Novi izgled i utisak za izveštaje o troškovima, tako da izveštaji više ne izgledaju kao da su dizajnirani za računovođe.</span><span class="sxs-lookup"><span data-stu-id="c09ed-115">A new look and feel for expense reports, so that the reports no longer seem as though they were designed for accounting personas.</span></span>
 
-Da biste uključili novo iskustvo, koristite radni prostor **Upravljanje funkcijama** da biste uključili funkciju **Ponovno osmišljeni izveštaji o troškovima**. Kada uključite ovu funkciju, dešavaju se sledeće radnje:
+<span data-ttu-id="c09ed-116">Da biste uključili novo iskustvo, koristite radni prostor **Upravljanje funkcijama** da biste uključili funkciju **Ponovno osmišljeni izveštaji o troškovima**.</span><span class="sxs-lookup"><span data-stu-id="c09ed-116">To turn on the new experience, use the **Feature management** workspace to turn on the **Expense reports reimagined** feature.</span></span> <span data-ttu-id="c09ed-117">Kada uključite ovu funkciju, dešavaju se sledeće radnje:</span><span class="sxs-lookup"><span data-stu-id="c09ed-117">When you turn on this feature, the following actions occur:</span></span>
 
-- Postojeći radni prostor za troškove se zamenjuje novim radnim prostorom.
-- Dodata je nova stavka menija za vidljivost polja troškova.
-- Ne uklanjaju se postojeće stavke menija za izveštaje o troškovima (postojeća stranica) ili polja izveštaja o troškovima.
-- Tokovi posla i sva odobrenja vas i dalje vode na postojeću stranicu sa izveštajima o troškovima.
+- <span data-ttu-id="c09ed-118">Postojeći radni prostor za troškove se zamenjuje novim radnim prostorom.</span><span class="sxs-lookup"><span data-stu-id="c09ed-118">The existing expense workspace is replaced with the new workspace.</span></span>
+- <span data-ttu-id="c09ed-119">Dodata je nova stavka menija za vidljivost polja troškova.</span><span class="sxs-lookup"><span data-stu-id="c09ed-119">A new menu item for expense field visibility is added.</span></span>
+- <span data-ttu-id="c09ed-120">Ne uklanjaju se postojeće stavke menija za izveštaje o troškovima (postojeća stranica) ili polja izveštaja o troškovima.</span><span class="sxs-lookup"><span data-stu-id="c09ed-120">No existing menu items for expense reports (the existing page) or expense report fields are removed.</span></span>
+- <span data-ttu-id="c09ed-121">Tokovi posla i sva odobrenja vas i dalje vode na postojeću stranicu sa izveštajima o troškovima.</span><span class="sxs-lookup"><span data-stu-id="c09ed-121">Workflows and any approvals still take you to the existing expense reports page.</span></span>
 
-## <a name="getting-started-video-for-new-users"></a>Video sa prvim koracima za nove korisnike
+## <a name="getting-started-video-for-new-users"></a><span data-ttu-id="c09ed-122">Video sa prvim koracima za nove korisnike</span><span class="sxs-lookup"><span data-stu-id="c09ed-122">Getting started video for new users</span></span>
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RE2Y7gO]
 
-Video [Iskustvo troškova u usluzi Dynamics 365 for Finance and Operations](https://youtu.be/Ocy-MsTvEE0) (prikazan gore) uključen je u [Finance and Operations plejlistu](https://www.youtube.com/playlist?list=PLcakwueIHoT_SYfIaPGoOhloFoCXiUSyW) dostupnu na YouTube-u.
+<span data-ttu-id="c09ed-123">Video [Iskustvo troškova u usluzi Dynamics 365 for Finance and Operations](https://youtu.be/Ocy-MsTvEE0) (prikazan gore) uključen je u [Finance and Operations plejlistu](https://www.youtube.com/playlist?list=PLcakwueIHoT_SYfIaPGoOhloFoCXiUSyW) dostupnu na YouTube-u.</span><span class="sxs-lookup"><span data-stu-id="c09ed-123">The [Expense experience in Dynamics 365 for Finance and Operations](https://youtu.be/Ocy-MsTvEE0) video (shown above) is included in the [Finance and Operations playlist](https://www.youtube.com/playlist?list=PLcakwueIHoT_SYfIaPGoOhloFoCXiUSyW) available on YouTube.</span></span>
 
-## <a name="new-features"></a>Nove funkcije
+## <a name="new-features"></a><span data-ttu-id="c09ed-124">Nove funkcije</span><span class="sxs-lookup"><span data-stu-id="c09ed-124">New features</span></span>
 
-| Nova funkcija | Opis |
+| <span data-ttu-id="c09ed-125">Nova funkcija</span><span class="sxs-lookup"><span data-stu-id="c09ed-125">New feature</span></span> | <span data-ttu-id="c09ed-126">Opis</span><span class="sxs-lookup"><span data-stu-id="c09ed-126">Description</span></span> |
 |---|----|
-| Vidljivost polja troškova | Nova stranica za podešavanje omogućava vam da odredite koja polja treba da budu onemogućena za organizaciju, koja polja treba da budu obavezna i koja se polja preporučuju. |
-| Obavezna polja | Nova jednostavna konfiguracija omogućava vam da napravite neka polja obavezna bez upotrebe okvira smernica. |
-| Opcionalna polja | Dodata je druga stranica za opcionalna polja. Na taj način se zaposleni neće osećati kao da moraju da postave polja, ali polja su i dalje lako dostupna. |
-| Dodajte nepriložene priznanice | Mogućnost dodavanja nepriloženih priznanica u izveštaj o troškovima vidljivija je iz radnog prostora i u izveštaju o troškovima. |
-| Poboljšana razmena poruka | Postoji bolja vidljivost stavki troškova koje sadrže upozorenja ili greške. |
-| Smanjivanje broja poruka na traci sa porukama| Smanjen je broj Infolog poruka i učinjen je napor da se u mnogim slučajevima spreči pojavljivanje dupliranih poruka. |
-| Grupisane zajedničke radnje | Interfejs je očišćen dodavanjem novog dugmeta radnji za većinu uobičajenih radnji na nivou stavke i dodatkom dugmeta sa tri tačke (...) za zaglavlje i druge manje učestale radnje. |
-| Novi radni prostor za povećanje vidljivosti | Novi radni prostor objedinjuje funkcije i veze koje korisnicima omogućavaju prelazak na različita područja. |
-| Dodavanje postojećih troškova i priznanica tokom kreiranja troškova | Kada kreirate izveštaje o troškovima, možete da dodate sve ili izabrane troškove i priznanice. |
-| Kalkulator deviznih kurseva | Dodat je kalkulator deviznih kurseva koji vam omogućava izračunavanje deviznog kursa za viševalutne transakcije iz svog džepa. |
-| Sačuvajte i dodajte nove stavke troškova | Dugmad **Sačuvaj** i **Novo** su dostupna kada se unose novi troškovi, što vam pomaže da brzo unesete stavke troškova. |
-| Bolja vidljivost na podeljene i razvrstane stavke | Razvrstane i podeljene stavke dodaju se direktno na listu troškova radi veće vidljivosti i pomoći će vam da lako utvrdite da li postoje greške. |
-| Prikažite priznanice tokom razvrstavanja | Možete prikazivati priznanice tokom razvrstavanja. |
+| <span data-ttu-id="c09ed-127">Vidljivost polja troškova</span><span class="sxs-lookup"><span data-stu-id="c09ed-127">Expense field visibility</span></span> | <span data-ttu-id="c09ed-128">Nova stranica za podešavanje omogućava vam da odredite koja polja treba da budu onemogućena za organizaciju, koja polja treba da budu obavezna i koja se polja preporučuju.</span><span class="sxs-lookup"><span data-stu-id="c09ed-128">A new setup page lets you specify which fields should be disabled for an organization, which fields should be required, and which fields are recommended.</span></span> |
+| <span data-ttu-id="c09ed-129">Obavezna polja</span><span class="sxs-lookup"><span data-stu-id="c09ed-129">Required fields</span></span> | <span data-ttu-id="c09ed-130">Nova jednostavna konfiguracija omogućava vam da napravite neka polja obavezna bez upotrebe okvira smernica.</span><span class="sxs-lookup"><span data-stu-id="c09ed-130">New simple configuration lets you make some fields required without having to use the policy framework.</span></span> |
+| <span data-ttu-id="c09ed-131">Opcionalna polja</span><span class="sxs-lookup"><span data-stu-id="c09ed-131">Optional fields</span></span> | <span data-ttu-id="c09ed-132">Dodata je druga stranica za opcionalna polja.</span><span class="sxs-lookup"><span data-stu-id="c09ed-132">A second page for optional fields is added.</span></span> <span data-ttu-id="c09ed-133">Na taj način se zaposleni neće osećati kao da moraju da postave polja, ali polja su i dalje lako dostupna.</span><span class="sxs-lookup"><span data-stu-id="c09ed-133">In this way, employees won't feel as if they must set the fields, but the fields are still easily accessible.</span></span> |
+| <span data-ttu-id="c09ed-134">Dodajte nepriložene priznanice</span><span class="sxs-lookup"><span data-stu-id="c09ed-134">Add unattached receipts</span></span> | <span data-ttu-id="c09ed-135">Mogućnost dodavanja nepriloženih priznanica u izveštaj o troškovima vidljivija je iz radnog prostora i u izveštaju o troškovima.</span><span class="sxs-lookup"><span data-stu-id="c09ed-135">The ability to add unattached receipts to expense report is more visible from the workspace and on the expense report.</span></span> |
+| <span data-ttu-id="c09ed-136">Poboljšana razmena poruka</span><span class="sxs-lookup"><span data-stu-id="c09ed-136">Improved messaging</span></span> | <span data-ttu-id="c09ed-137">Postoji bolja vidljivost stavki troškova koje sadrže upozorenja ili greške.</span><span class="sxs-lookup"><span data-stu-id="c09ed-137">There is better visibility into expense lines that have warnings or errors.</span></span> |
+| <span data-ttu-id="c09ed-138">Smanjivanje broja poruka na traci sa porukama</span><span class="sxs-lookup"><span data-stu-id="c09ed-138">Reduction in messages in the message bar</span></span>| <span data-ttu-id="c09ed-139">Smanjen je broj Infolog poruka i učinjen je napor da se u mnogim slučajevima spreči pojavljivanje dupliranih poruka.</span><span class="sxs-lookup"><span data-stu-id="c09ed-139">The number of Infolog messages was decreased, and an effort was made to prevent duplicate messages from appearing in many cases.</span></span> |
+| <span data-ttu-id="c09ed-140">Grupisane zajedničke radnje</span><span class="sxs-lookup"><span data-stu-id="c09ed-140">Grouped together common actions</span></span> | <span data-ttu-id="c09ed-141">Interfejs je očišćen dodavanjem novog dugmeta radnji za većinu uobičajenih radnji na nivou stavke i dodatkom dugmeta sa tri tačke (...) za zaglavlje i druge manje učestale radnje.</span><span class="sxs-lookup"><span data-stu-id="c09ed-141">The interface was cleaned up with the addition of a new actions button for most of the common line-level actions and the addition of an ellipsis button (...) for header and other less frequent actions.</span></span> |
+| <span data-ttu-id="c09ed-142">Novi radni prostor za povećanje vidljivosti</span><span class="sxs-lookup"><span data-stu-id="c09ed-142">New workspace to increase visibility</span></span> | <span data-ttu-id="c09ed-143">Novi radni prostor objedinjuje funkcije i veze koje korisnicima omogućavaju prelazak na različita područja.</span><span class="sxs-lookup"><span data-stu-id="c09ed-143">A new workspace unifies features and links that let users move to different areas.</span></span> |
+| <span data-ttu-id="c09ed-144">Dodavanje postojećih troškova i priznanica tokom kreiranja troškova</span><span class="sxs-lookup"><span data-stu-id="c09ed-144">Add existing expenses and receipts during expense creation</span></span> | <span data-ttu-id="c09ed-145">Kada kreirate izveštaje o troškovima, možete da dodate sve ili izabrane troškove i priznanice.</span><span class="sxs-lookup"><span data-stu-id="c09ed-145">When you create expense reports, you can add all or selected expenses and receipts.</span></span> |
+| <span data-ttu-id="c09ed-146">Kalkulator deviznih kurseva</span><span class="sxs-lookup"><span data-stu-id="c09ed-146">Exchange rate calculator</span></span> | <span data-ttu-id="c09ed-147">Dodat je kalkulator deviznih kurseva koji vam omogućava izračunavanje deviznog kursa za viševalutne transakcije iz svog džepa.</span><span class="sxs-lookup"><span data-stu-id="c09ed-147">An exchange rate calculator is added that lets you calculate the exchange rate for out-of-pocket multicurrency transactions.</span></span> |
+| <span data-ttu-id="c09ed-148">Sačuvajte i dodajte nove stavke troškova</span><span class="sxs-lookup"><span data-stu-id="c09ed-148">Save and add new expense lines</span></span> | <span data-ttu-id="c09ed-149">Dugmad **Sačuvaj** i **Novo** su dostupna kada se unose novi troškovi, što vam pomaže da brzo unesete stavke troškova.</span><span class="sxs-lookup"><span data-stu-id="c09ed-149">**Save** and **New** buttons are available when new expenses are entered, to help you quickly enter expense lines.</span></span> |
+| <span data-ttu-id="c09ed-150">Bolja vidljivost na podeljene i razvrstane stavke</span><span class="sxs-lookup"><span data-stu-id="c09ed-150">Better visibility into split and itemized lines</span></span> | <span data-ttu-id="c09ed-151">Razvrstane i podeljene stavke dodaju se direktno na listu troškova radi veće vidljivosti i pomoći će vam da lako utvrdite da li postoje greške.</span><span class="sxs-lookup"><span data-stu-id="c09ed-151">Itemized and split lines are added directly to the list of expenses to increase visibility and help you easily determine whether there are any errors.</span></span> |
+| <span data-ttu-id="c09ed-152">Prikažite priznanice tokom razvrstavanja</span><span class="sxs-lookup"><span data-stu-id="c09ed-152">Show receipts during itemization</span></span> | <span data-ttu-id="c09ed-153">Možete prikazivati priznanice tokom razvrstavanja.</span><span class="sxs-lookup"><span data-stu-id="c09ed-153">Receipts can be shown during itemization.</span></span> |
 
-Početno izdanje se fokusira na scenarije unosa troškova. Svaki prikaz izveštaja o troškovima ili scenario odobravanja i dalje će koristiti postojeću stranicu za unos troškova.
+<span data-ttu-id="c09ed-154">Početno izdanje se fokusira na scenarije unosa troškova.</span><span class="sxs-lookup"><span data-stu-id="c09ed-154">The initial release is focused on expense entry scenarios.</span></span> <span data-ttu-id="c09ed-155">Svaki prikaz izveštaja o troškovima ili scenario odobravanja i dalje će koristiti postojeću stranicu za unos troškova.</span><span class="sxs-lookup"><span data-stu-id="c09ed-155">Any expense report review or approval scenario will continue to use the existing expense entry page.</span></span>
 
-Sledeće funkcije su prisutne na postojećoj stranici, ali još uvek nisu na novoj. Te funkcije će biti ponovo predstavljene tokom sledećih nekoliko izdanja:
+<span data-ttu-id="c09ed-156">Sledeće funkcije su prisutne na postojećoj stranici, ali još uvek nisu na novoj.</span><span class="sxs-lookup"><span data-stu-id="c09ed-156">The following features are present on the existing page but aren't yet present on the new page.</span></span> <span data-ttu-id="c09ed-157">Te funkcije će biti ponovo predstavljene tokom sledećih nekoliko izdanja:</span><span class="sxs-lookup"><span data-stu-id="c09ed-157">These features will be reintroduced over the next several releases:</span></span>
 
-- Odobrenja
-- Odobrenja za dugovanja i mogućnost uređivanja računovodstva
-- Više ulaznih tačaka
-- Integracija zahteva za putovanje
-- Entitet podataka za vidljivost polja troškova
-- Stavka za dnevnice
-- Tok posla na nivou stavke
-- Prelazna podrška davaocu odobrenja
-- Napredno razvrstavanje
+- <span data-ttu-id="c09ed-158">Odobrenja</span><span class="sxs-lookup"><span data-stu-id="c09ed-158">Approvals</span></span>
+- <span data-ttu-id="c09ed-159">Odobrenja za dugovanja i mogućnost uređivanja računovodstva</span><span class="sxs-lookup"><span data-stu-id="c09ed-159">Accounts payable approvals and the ability to edit the accounting</span></span>
+- <span data-ttu-id="c09ed-160">Više ulaznih tačaka</span><span class="sxs-lookup"><span data-stu-id="c09ed-160">Multiple entry points</span></span>
+- <span data-ttu-id="c09ed-161">Integracija zahteva za putovanje</span><span class="sxs-lookup"><span data-stu-id="c09ed-161">Travel requisition integration</span></span>
+- <span data-ttu-id="c09ed-162">Entitet podataka za vidljivost polja troškova</span><span class="sxs-lookup"><span data-stu-id="c09ed-162">Data entity for expense field visibility</span></span>
+- <span data-ttu-id="c09ed-163">Stavka za dnevnice</span><span class="sxs-lookup"><span data-stu-id="c09ed-163">Entry for per-diem expenses</span></span>
+- <span data-ttu-id="c09ed-164">Tok posla na nivou stavke</span><span class="sxs-lookup"><span data-stu-id="c09ed-164">Line-level workflow</span></span>
+- <span data-ttu-id="c09ed-165">Prelazna podrška davaocu odobrenja</span><span class="sxs-lookup"><span data-stu-id="c09ed-165">Interim approver support</span></span>
+- <span data-ttu-id="c09ed-166">Napredno razvrstavanje</span><span class="sxs-lookup"><span data-stu-id="c09ed-166">Advanced itemization</span></span>
