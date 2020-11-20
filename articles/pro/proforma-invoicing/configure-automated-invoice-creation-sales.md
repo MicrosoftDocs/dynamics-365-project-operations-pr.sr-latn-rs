@@ -1,22 +1,22 @@
 ---
-title: Konfigurisanje automatskog kreiranja predračuna
+title: Konfigurisanje automatskog kreiranja fakture – jednostavno
 description: Ova tema pruža informacije o konfigurisanju automatskog kreiranja predračuna.
 author: rumant
 manager: Annbe
 ms.date: 10/13/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: e146dd510b3795d52d164fc6acf8e5400ba11310
-ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
+ms.openlocfilehash: 0ce9cb9090c44762f370bf8d574d179077b6a821
+ms.sourcegitcommit: 625878bf48ea530f3381843be0e778cebbbf1922
 ms.translationtype: HT
 ms.contentlocale: sr-Latn-RS
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4083489"
+ms.lasthandoff: 10/30/2020
+ms.locfileid: "4176583"
 ---
-# <a name="configure-automated-proforma-invoice-creation"></a>Konfigurisanje automatskog kreiranja predračuna
-
+# <a name="configure-automatic-invoice-creation---lite"></a>Konfigurisanje automatskog kreiranja fakture – jednostavno
+ 
 _**Odnosi se na:** Jednostavna primena – od pogodbe do profakture_
 
 Možete da konfigurišete automatsko kreiranje faktura u programu Dynamics 365 Project Operations. Sistem kreira nacrt predračuna na osnovu rasporeda faktura za svaki ugovor o projektu i predmet ugovora. Rasporedi faktura se konfigurišu na nivou predmeta ugovora. Svaka linija ugovora može imati različit raspored faktura ili isti raspored faktura može biti uključen u svaki red ugovora.
@@ -48,27 +48,27 @@ Rasporedi faktura definisani za svaku od ove dve stavke porudžbina izgledaju ka
 
 U ovom primeru, kada se pokreće automatsko fakturisanje:
 
-- **4. oktobar ili bilo koji datum pre** : Za ovaj ugovor se ne generiše faktura jer tabela **Raspored faktura** za svaki od ovih predmeta ugovora ne poziva 4. oktobar, nedelju kao datum pokretanja fakture.
-- **5. oktobar, ponedeljak** : Jedna faktura se generiše za:
+- **4. oktobar ili bilo koji datum pre**: Za ovaj ugovor se ne generiše faktura jer tabela **Raspored faktura** za svaki od ovih predmeta ugovora ne poziva 4. oktobar, nedelju kao datum pokretanja fakture.
+- **5. oktobar, ponedeljak**: Jedna faktura se generiše za:
 
     - Prototip rada koji uključuje kontrolnu tačku, ako je označena kao **Spremno za fakturisanje**.
     - Rad primene koji uključuje sve vremenske transakcije kreirane pre datuma preseka transakcije 4. oktobra, nedelja, označene kao **Spremno za fakturisanje**.
     - Nastali troškovi koji uključuju sve transakcije troškova kreirane pre datuma preseka transakcije 4. oktobra, nedelja, označene kao **Spremno za fakturisanje**.
   
-- **6. oktobar ili bilo koji datum pre 19. oktobra** : Za ovaj ugovor se ne generiše faktura jer tabela **Raspored faktura** za svaki od ovih predmeta ugovora ne poziva 6. oktobar niti bilo koji datum pre 19. oktobra kao datum pokretanja fakture.
-- **19. oktobar, ponedeljak** : Jedna faktura se generiše za rad primene koji uključuje sve vremenske transakcije kreirane pre datuma preseka transakcije 18. oktobra, nedelja, označene kao **Spremno za fakturisanje**.
-- **2. novembar, ponedeljak** : Jedna faktura se generiše za:
+- **6. oktobar ili bilo koji datum pre 19. oktobra**: Za ovaj ugovor se ne generiše faktura jer tabela **Raspored faktura** za svaki od ovih predmeta ugovora ne poziva 6. oktobar niti bilo koji datum pre 19. oktobra kao datum pokretanja fakture.
+- **19. oktobar, ponedeljak**: Jedna faktura se generiše za rad primene koji uključuje sve vremenske transakcije kreirane pre datuma preseka transakcije 18. oktobra, nedelja, označene kao **Spremno za fakturisanje**.
+- **2. novembar, ponedeljak**: Jedna faktura se generiše za:
 
     - Rad primene koji uključuje sve vremenske transakcije kreirane pre datuma preseka transakcije 1. novembra, nedelja, označene kao **Spremno za fakturisanje**.
     - Nastali troškovi koji uključuju sve transakcije troškova kreirane pre datuma preseka transakcije 1. novembra, nedelja, označene kao **Spremno za fakturisanje**.
 
-- **3. novembar, utorak** : Jedna faktura se generiše za prototip rada koji uključuje kontrolnu tačku za 12.000 USD, ako je označena kao **Spremno za fakturisanje**.
+- **3. novembar, utorak**: Jedna faktura se generiše za prototip rada koji uključuje kontrolnu tačku za 12.000 USD, ako je označena kao **Spremno za fakturisanje**.
 
 ## <a name="configure-automatic-invoicing"></a>Konfigurišite automatsko fakturisanje
 
 Dovršite sledeće korake da biste konfigurisali automatsko pokretanje faktura.
 
-1. U odeljku **Project Operations** , idite na **Podešavanja** > **Podešavanje periodične fakture**.
+1. U odeljku **Project Operations**, idite na **Podešavanja** > **Podešavanje periodične fakture**.
 2. Kreirajte grupni posao i imenujte ga **Kreiranje faktura u usluzi Project Operations**. Naziv grupnog posla mora da sadrži reči „kreiranje faktura“.
 3. U polju **Tip posla** izaberite **Nijedan**. Podrazumevano se polja **Dnevna učestalost** i **Je aktivna** podešavaju na **Da**.
 4. Izaberite **Pokreni tok posla**. U dijalogu **Pronalaženje zapisa** ćete videti tri toka posla:
@@ -77,15 +77,15 @@ Dovršite sledeće korake da biste konfigurisali automatsko pokretanje faktura.
 - ProcessRunner
 - UpdateRoleUtilization
 
-5. Izaberite **ProcessRunCaller** , a zatim **Dodaj**.
+5. Izaberite **ProcessRunCaller**, a zatim **Dodaj**.
 6. U sledećem dijalogu izaberite **U redu**. Tok posla **Hibernacija** prati tok posla **Proces**. 
 
 > [!NOTE]
-> Možete izabrati i **ProcessRunner** u koraku 5. Nakon toga, kada izaberete **U redu** , tok posla **Proces** će biti praćen tokom posla **Hibernacija**.
+> Možete izabrati i **ProcessRunner** u koraku 5. Nakon toga, kada izaberete **U redu**, tok posla **Proces** će biti praćen tokom posla **Hibernacija**.
 
 Tokovi posla **ProcessRunCaller** i **ProcessRunner** kreiraju fakture. **ProcessRunCaller** poziva **ProcessRunner**. **ProcessRunner** je tok posla koji zapravo kreira fakture. Tok posla prolazi kroz sve predmete ugovora za koje se moraju kreirati fakture i kreira fakture za te predmete. Da bi odredio predmete ugovora za koje fakture moraju biti kreirane, posao traži datume pokretanja fakture za predmete ugovora. Ako predmeti ugovora koji pripadaju jednom ugovoru imaju isti datum pokretanja fakture, transakcije se kombinuju u jednu fakturu koja ima dve stavke fakture. Ako ne postoje transakcije za koje treba kreirati fakture, posao preskače kreiranje fakture.
 
-Nakon što se **ProcessRunner** pokrene, on poziva **ProcessRunCaller** , obezbeđuje vreme završetka i zatvara se. **ProcessRunCaller** zatim pokreće tajmer koji će biti pokrenut tokom perioda od 24 časa od određenog vremena završetka. Na kraju tajmera **ProcessRunCaller** se zatvara.
+Nakon što se **ProcessRunner** pokrene, on poziva **ProcessRunCaller**, obezbeđuje vreme završetka i zatvara se. **ProcessRunCaller** zatim pokreće tajmer koji će biti pokrenut tokom perioda od 24 časa od određenog vremena završetka. Na kraju tajmera **ProcessRunCaller** se zatvara.
 
 Posao grupne obrade za kreiranje faktura je periodični posao. Ako se ova grupna obrada pokreće više puta, kreira se više instanci posla i izazivaju greške. Zbog toga bi trebalo samo jednom da pokrenete grupnu obradu i da je ponovo pokrenete samo ako prestane da radi.
 

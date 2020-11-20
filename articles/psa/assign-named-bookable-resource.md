@@ -3,7 +3,7 @@ title: Rezervisanje imenovanih resursa koje je moguće rezervisati za projektni 
 description: Ova tema pruža informacije o tome kako da rezervišete imenovane resurse za projektne timove i dodeljujete ih zadacima.
 author: JohnPBurrows
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 11/28/2018
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: defc92e701ae6baf9d54f41dca123a09ef834c35
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 0300c494a3294b26e2de6bbfa1dd50a76bb72651
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: sr-Latn-RS
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4083699"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4130190"
 ---
 # <a name="book-named-bookable-resources-to-a-project-team-and-assign-tasks"></a>Rezervisanje imenovanih resursa koje je moguće rezervisati za projektni tim i dodeljivanje zadataka 
 
@@ -32,7 +32,7 @@ ms.locfileid: "4083699"
 Možete da dodate imenovani resurs u projektni tim tako što ćete ga direktno rezervisati za tim. Da biste to uradili, obavite sledeće korake.
 
 1. U aplikaciji Project Service Automation idite na **Projekat** i otvorite projekat za koji rezervišete resurse.
-2. Na stranici **Projekat** , na kartici **Tim** kliknite na **Novo**. 
+2. Na stranici **Projekat**, na kartici **Tim** kliknite na **Novo**. 
 
 ![Dodavanje člana tima na kartici Tim](media/RM-how-to-1.png)
 

@@ -3,7 +3,7 @@ title: Kreiranje stavki vremena
 description: Ova tema pruža informacije o tome kako da kreirate stavke vremena.
 author: rumant
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 05/20/2019
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 878413a24baa340b745a045a6991a63a00851c8b
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: d8c87f0fd2cc021bb9088d0fac73ccd52980a905
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: sr-Latn-RS
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4083671"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4131306"
 ---
 # <a name="create-time-entries"></a>Kreiranje stavki vremena
 
@@ -41,7 +41,7 @@ Sledite ove korake za kreiranje stavke vremena.
 4. U polju **Projektni zadatak** pronađite zadatak za ovu stavku.
 
     > [!NOTE]
-    > Ako kreirate stavku vremena za zadatak koji nije dodeljen korisniku, u polju **Projektni zadatak** izaberite dugme **Pretraži** , odaberite **Promeni prikaz** , a zatim **Svi aktivni zadaci projekta** da biste videli listu svih zadataka.
+    > Ako kreirate stavku vremena za zadatak koji nije dodeljen korisniku, u polju **Projektni zadatak** izaberite dugme **Pretraži**, odaberite **Promeni prikaz**, a zatim **Svi aktivni zadaci projekta** da biste videli listu svih zadataka.
 
 5. Unesite opis, ako je potreban opis, a zatim izaberite **Sačuvaj i zatvori**.
 
@@ -58,7 +58,7 @@ Nakon kreiranja nekoliko stavki vremena, možete ih kopirati da biste grupno kre
 
 1. Na stranici **Stavke vremena** izaberite **Kopiraj nedelju**.
 2. U grupi polja **Iz perioda** u poljima **Datum početka** i **Datum završetka** definišite opseg datuma iz kojeg treba kopirati stavke vremena.
-3. U grupi polja **U period** , u okviru polja **Datum početka** , odredite datum za koji ćete kreirati stavke vremena.
+3. U grupi polja **U period**, u okviru polja **Datum početka**, odredite datum za koji ćete kreirati stavke vremena.
 4. Izaberite **Kopiraj** da biste kreirali kopiju stavki vremena koja odgovara danu u nedelji koji je naveden u grupi polja **U period**. Na primer, stavka vremena za ponedeljak iz prošle nedelje se kopira u ponedeljak one sedmice koja je navedena u grupi polja **U period**.
 
 ## <a name="import-data-for-time-entries"></a>Uvoz podataka za stavke vremena

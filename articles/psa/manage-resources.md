@@ -3,7 +3,7 @@ title: Upravljanje resursima
 description: Ova tema pruža informacije o tome kako možete da upravljate resursima.
 author: ruhercul
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 05/13/2019
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 5b34ad66750dba9459d551a2527c13111196511e
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 548595e3951f824e1c79a641d3f336e381fcaaf9
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: sr-Latn-RS
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4083781"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4132350"
 ---
 # <a name="manage-resources"></a>Upravljanje resursima
 
@@ -44,7 +44,7 @@ Menadžeri projekata mogu koristiti kontrolnu tablu za upravitelje resursima za 
 
 ### <a name="add-a-team-member-directly-to-a-project"></a>Dodavanje člana tima direktno u projekat
 
-Da biste direktno dodali člana tima u projekat, na stranici **Projekti** , na kartici **Tim** odaberite **Novi**. Pojaviće se dijalog **Brzo kreiranje člana projektnog tima**. U ovom dijalogu možete izvršiti ove zadatke:
+Da biste direktno dodali člana tima u projekat, na stranici **Projekti**, na kartici **Tim** odaberite **Novi**. Pojaviće se dijalog **Brzo kreiranje člana projektnog tima**. U ovom dijalogu možete izvršiti ove zadatke:
 
 - **Rezervisanje imenovanog resursa** - U polju **Resurs koji može da se rezerviše** odaberite ime resursa. Zatim izaberite ulogu, podesite period i izaberite način dodeljivanja. Imenovani resurs koji ste odabrali dodaje se projektu upotrebom odabranog načina dodele i kalendara resursa.
 - **Dodavanje generičkog resursa** - Ostavite polje **Resurs koji može da se rezerviše** prazno, a zatim odaberite ulogu, podesite period i izaberite željeni način dodeljivanja. U tim se dodaje generički resurs kao čuvar mesta koji sadrži obrazac potražnje koji se koristi za rezervisanje imenovanih resursa za tim. Zahtev se postavlja prema kalendaru projekta.
@@ -60,11 +60,11 @@ Sledite ove korake da biste naveli potrebne veštine generičkog resursa za prog
 
     ![Generički resurs rezervisan za tim](media/Resource-Management-image9.png)
 
-2. U prikazu **Svi članovi tima** , u koloni **Potreba za resursom** izaberite vezu da dodate potrebne veštine za generički resurs.
+2. U prikazu **Svi članovi tima**, u koloni **Potreba za resursom** izaberite vezu da dodate potrebne veštine za generički resurs.
 
     ![Veza zahteva](media/Resource-Management-image10.png)
 
-3. Na stranici **Potreba za resursom** koja se pojavljuje u mreži **Veštine** odaberite tri tačke ( **...** ), a zatim izaberite **Dodaj novu karakteristiku zahteva** da dodate potrebne veštine za programera.
+3. Na stranici **Potreba za resursom** koja se pojavljuje u mreži **Veštine** odaberite tri tačke (**...**), a zatim izaberite **Dodaj novu karakteristiku zahteva** da dodate potrebne veštine za programera.
 
     ![Komanda za dodavanje nove karakteristike zahteva](media/Resource-Management-image11.png)
 
@@ -76,7 +76,7 @@ Sledite ove korake da biste naveli potrebne veštine generičkog resursa za prog
 
     ![Dugme za rezervisanje na stranici Potreba za resursom](media/Resource-Management-image13.png)
 
-    Takođe možete odabrati generički resurs u mreži **Svi članovi tima** , a zatim izabrati **Rezerviši**.
+    Takođe možete odabrati generički resurs u mreži **Svi članovi tima**, a zatim izabrati **Rezerviši**.
 
     ![Dugme za rezervaciju iznad mreže Svi članovi tima](media/Resource-Management-image14.png)
 

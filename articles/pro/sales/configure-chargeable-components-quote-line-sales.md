@@ -1,21 +1,21 @@
 ---
-title: Konfigurišite naplative komponente stavke ponude
+title: Konfigurišite naplative komponente stavke ponude – jednostavno
 description: Ova tema pruža informacije o podešavanju naplativih i nenaplativih komponenata na liniji ponude zasnovanoj na projektu.
 author: rumant
 manager: Annbe
 ms.date: 10/13/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: e0b64d7edb21df127bf7544f044de7f3c496dfe3
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: b5d751ecd66975135c4afd5f18e896251ff34990
+ms.sourcegitcommit: 625878bf48ea530f3381843be0e778cebbbf1922
 ms.translationtype: HT
 ms.contentlocale: sr-Latn-RS
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4083701"
+ms.lasthandoff: 10/30/2020
+ms.locfileid: "4177123"
 ---
-# <a name="configure-the-chargeable-components-of-a-quote-line"></a>Konfigurišite naplative komponente stavke ponude
+# <a name="configure-the-chargeable-components-of-a-quote-line---lite"></a>Konfigurišite naplative komponente stavke ponude – jednostavno
 
 _**Odnosi se na:** Jednostavna primena – od pogodbe do profakture_
 
@@ -34,7 +34,7 @@ Podskup uključenih komponenti može se označiti kao naplativ pomoću polja **T
 
 Komponente koje se naplaćuju mogu se definisati na zadacima, ulogama i kategorijama transakcija.
 
-Naplativost je definisana na zadacima za liniju ponude i odnosi se na sve klase transakcija uključene u tu liniju. Ako je polje **Uključi zadatke** prazno ili postavljeno na **Čitav projekat** , kartica **Zadaci koji se naplaćuju** neće biti dostupna.
+Naplativost je definisana na zadacima za liniju ponude i odnosi se na sve klase transakcija uključene u tu liniju. Ako je polje **Uključi zadatke** prazno ili postavljeno na **Čitav projekat**, kartica **Zadaci koji se naplaćuju** neće biti dostupna.
 
 Naplativost je definisana u ulogama za liniju ponude i odnosi se samo na klasu transakcija **Vreme**. Ako je polje **Uključi vreme** postavljeno na **Ne** na liniji ponude projekta, kartica **Uloge koje se naplaćuju** neće biti dostupna.
 
@@ -44,21 +44,21 @@ Naplativost je definisana u kategorijama transakcija za liniju ponude i odnosi s
 
 Projektni zadatak može biti naplativ ili nenaplativ u kontekstu određene linije ponude zasnovane na projektu, što omogućava sledeće podešavanje:
 
-Ako linija ponude zasnovana na projektu uključuje **Vreme** i zadatak **T1** , zadatak je povezan sa linijom ponude kao naplativ. Ako postoji druga linija ponude koja uključuje **Troškove** , zadatak **T1** na liniji ponude možete povezati kao nenaplativ. Rezultat je da je sve vreme evidentirano u zadatku naplativo, a svi troškovi evidentirani u zadatku nenaplativi.
+Ako linija ponude zasnovana na projektu uključuje **Vreme** i zadatak **T1**, zadatak je povezan sa linijom ponude kao naplativ. Ako postoji druga linija ponude koja uključuje **Troškove**, zadatak **T1** na liniji ponude možete povezati kao nenaplativ. Rezultat je da je sve vreme evidentirano u zadatku naplativo, a svi troškovi evidentirani u zadatku nenaplativi.
 
-Tip naplate zadatka može se konfigurisati na kartici **Zadaci koji se naplaćuju** na liniju ponude zasnovane na projektu ažuriranjem polja **Tip obračuna** na podformi **Zadaci linije ponude**. Možete i da ažurirate tip naplate za projektni zadatak u polju **Tip obračuna** na podformi podešavanja obračuna zadatka za projekat koji prikazuje linije ponude povezane sa zadatkom.
+Tip naplate zadatka može se konfigurisati na kartici **Naplativi zadaci** stavke ponude zasnovane na projektu ažuriranjem polja **Tip naplate** na podformi **Zadaci stavke ponude**. Pored toga, možete da ažurirate tip naplate za projektni zadatak u polju **Tip naplate** na podformi zadatka Postavljanje obračuna projekta koje prikazuje stavke ponude povezane sa zadatkom.
 
 ### <a name="update-a-role-to-be-chargeable-or-non-chargeable"></a>Ažurirajte ulogu da bude naplativa ili nenaplativa
 
 Uloga može biti naplativa ili nenaplativa u kontekstu određene linije ponude zasnovane na projektu.
 
-Tip naplate uloge može se konfigurisati na kartici **Uloge koje se naplaćuju** na liniji ponude ažuriranjem polja **Tip obračuna** na podformi **Uloge koje se naplaćuju**.
+Tip naplate uloge se može konfigurisati na kartici **Naplativi zadaci** stavke ponude zasnovane na projektu ažuriranjem polja **Tip naplate** na podformi **Zadaci stavke ponude**.
 
 ### <a name="update-a-transaction-category-to-be-chargeable-or-non-chargeable"></a>Ažurirajte kategoriju transakcija da bude naplativa ili nenaplativa
 
 Kategorija transakcija može biti naplativa ili nenaplativa na određenoj liniji ponude.
 
-Tip naplate transakcije može se konfigurisati na kartici **Kategorije koje se naplaćuju** na liniji ponude ažuriranjem polja **Tip obračuna** na podformi **Kategorije koje se naplaćuju**.
+Tip naplate transakcije se može konfigurisati na kartici **Naplative kategorije** stavke ponude zasnovane na projektu ažuriranjem polja **Tip naplate** na podformi **Naplative kategorije**.
 
 ### <a name="resolve-chargeability"></a>Rešite naplativost
 Procena ili stvarna vrednost kreirana za vreme smatraće se naplativom samo ako je **Vreme** uključeno u predmet ugovora i ako su **Zadatak** i **Uloga** konfigurisani kao naplativi na liniji ponude.

@@ -3,7 +3,7 @@ title: Organizacione jedinice
 description: Ova tema pruža informacije o organizacionim jedinicama u aplikaciji Dynamics 365 Project Service Automation.
 author: rumant
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 03/04/2019
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 454d9a4c4d139f493adf4604f8ba40a0211f0eec
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 755eee6ab9993c72ff1db46e0993527ac0826bfe
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: sr-Latn-RS
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4083692"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4130640"
 ---
 # <a name="organizational-units"></a>Organizacione jedinice 
 
@@ -50,7 +50,7 @@ Pored toga, postoji atribut organizacione jedinice u entitetu Resurs. Svaki resu
 
 Organizaciona jedinica ima dve uloge u aplikaciji PSA:
 
-- **Ugovorna jedinica** – organizaciona jedinica koja predstavlja grupu ili odeljenje preduzeća koje je prvenstveno odgovorno za povećanje prodaje i upravljanje isporukom posla i usluga klijentu. Ugovornu jedinicu identifikujete u polju **Ugovorna jedinica** u odeljku zaglavlja stranice **Mogućnost za poslovanje** , **Ponuda** , **Ugovor o projektu** i **Projekat**.
+- **Ugovorna jedinica** – organizaciona jedinica koja predstavlja grupu ili odeljenje preduzeća koje je prvenstveno odgovorno za povećanje prodaje i upravljanje isporukom posla i usluga klijentu. Ugovornu jedinicu identifikujete u polju **Ugovorna jedinica** u odeljku zaglavlja stranice **Mogućnost za poslovanje**, **Ponuda**, **Ugovor o projektu** i **Projekat**.
 - **Jedinica za obezbeđivanje resursa** – organizaciona jedinica kojoj resurs pripada ili kojoj je dodeljen. Ova organizaciona jedinica može da obezbedi svoje resurse za neke uloge u izjavama o radu i projektima koji su u vlasništvu ugovorne jedinice.
 
 > ![Jedinice ugovaranja i jedinice za obezbeđivanje resursa](media/advanced-1.png)

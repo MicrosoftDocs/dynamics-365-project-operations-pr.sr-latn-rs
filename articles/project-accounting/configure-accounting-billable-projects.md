@@ -5,15 +5,15 @@ author: sigitac
 manager: Annbe
 ms.date: 10/01/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 32031742b1a9580b9ebdbaf6952a998733be5e8f
-ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
+ms.openlocfilehash: 47bb5671c7b80c0e96f3f65e9c4d25f6da8184a5
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: sr-Latn-RS
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4083494"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4131990"
 ---
 # <a name="configure-accounting-for-billable-projects"></a>Konfigurisanje računovodstva za naplative projekte
 
@@ -21,8 +21,8 @@ _**Odnosi se na:** Project Operations za resurs/scenarije koji nisu zasnovani na
 
 Dynamics 365 Project Operations podržava razne računovodstvene opcije za naplative projekte koji uključuju vreme i materijal i transakcije sa fiksnom cenom.
 
-- **Transakcije vremena i materijala** : Ove transakcije se fakturišu kako posao napreduje na osnovu potrošnje sati, troškova, stavki ili naknada na projektu. Ovi troškovi transakcija mogu se povezati sa prihodom od svake transakcije, a projekat se fakturiše kako posao napreduje. Prihod od projekta takođe može nastati u trenutku kada dođe do transakcije. Tokom fakturisanja, prihod se prepoznaje i, ako je primenljivo, obračunati prihod se stornira.
-- **Transakcije sa fiksnom cenom** : Ove transakcije se fakturišu prema rasporedu naplate koji se zasniva na projektnom ugovoru. Prihod za transakcije sa fiksnom cenom može se prepoznati pri fakturisanju ili izračunavati i knjižiti periodično, u skladu sa metodama **Završen ugovor** ili **Procenat završenosti**.
+- **Transakcije vremena i materijala**: Ove transakcije se fakturišu kako posao napreduje na osnovu potrošnje sati, troškova, stavki ili naknada na projektu. Ovi troškovi transakcija mogu se povezati sa prihodom od svake transakcije, a projekat se fakturiše kako posao napreduje. Prihod od projekta takođe može nastati u trenutku kada dođe do transakcije. Tokom fakturisanja, prihod se prepoznaje i, ako je primenljivo, obračunati prihod se stornira.
+- **Transakcije sa fiksnom cenom**: Ove transakcije se fakturišu prema rasporedu naplate koji se zasniva na projektnom ugovoru. Prihod za transakcije sa fiksnom cenom može se prepoznati pri fakturisanju ili izračunavati i knjižiti periodično, u skladu sa metodama **Završen ugovor** ili **Procenat završenosti**.
 
 Projekat se smatra naplativim kada je povezan sa jednim ili više predmeta ugovora. Predmet ugovora o projektu definiše za sebe koji način obračuna i vrste transakcija su dozvoljeni.
 
@@ -45,47 +45,47 @@ Dovršite sledeće korake da biste kreirali novi profil troškova i prihoda proj
 3. U polje **Naziv** unesite naziv i kratak opis profila.
 4. U polju **Način obračuna** izaberite **Vreme i materijal** ili **Fiksna cena**.
 5. Proširite brzu karticu **Glavna knjiga**. Polja na ovoj kartici definišu računovodstvene principe koji se koriste kada se projektne transakcije knjiže u glavnu knjigu pomoću Project Operations dnevnika integracije, a zatim fakturišu kroz predlog fakture za projekat.
-6. Izaberite odgovarajuće informacije u sledećim poljima na brzoj kartici **Glavna knjiga** :
+6. Izaberite odgovarajuće informacije u sledećim poljima na brzoj kartici **Glavna knjiga**:
 
-    - **Knjiženje troškova – sat** :
+    - **Knjiženje troškova – sat**:
 
-       - *Bez glavne knjige* : Troškovi transakcija vremena neće biti knjiženi u glavnu knjigu kada se knjiži Project Operations dnevnik integracije. Međutim, računovođa može naknadno knjižiti troškove pomoću funkcije „Knjiženje troškova“.
-       - **Bilans** : Troškovi transakcija vremena biće zaduženi na tipu računa glavne knjige *Prihod u toku – Vrednost troškova* i odobreni na *računu za raspodelu zarada* u podešavanju knjiženja u glavnu knjigu. Računovođa će koristiti funkciju „Knjiženje troškova“ da bi periodično premeštao ovaj trošak sa bilansnog računa na račun dobitka i gubitka.
-       - **Dobitak i gubitak** : Prilikom knjiženja Project Operations dnevnika integracije, troškovi transakcija vremena zadužiće se na tipu računa glavne knjige *Trošak* a odobriće se na *računu za raspodelu zarada* definisanom na kartici **Trošak** na stranici **Podešavanje knjiženja u glavnu knjigu** ( **Upravljanje projektima i računovodstvo** \> **Podešavanje** \> **Knjiženje** \> **Podešavanje knjiženja u glavnu knjigu** ). Ovo je najčešće podešavanje za transakcije vremena i materijala.
-        - *Nikad u glavnu knjigu* : Troškovi transakcija vremena nikada neće biti knjiženi u glavnu knjigu.
+       - *Bez glavne knjige*: Troškovi transakcija vremena neće biti knjiženi u glavnu knjigu kada se knjiži Project Operations dnevnik integracije. Međutim, računovođa može naknadno knjižiti troškove pomoću funkcije „Knjiženje troškova“.
+       - **Bilans**: Troškovi transakcija vremena biće zaduženi na tipu računa glavne knjige *Prihod u toku – Vrednost troškova* i odobreni na *računu za raspodelu zarada* u podešavanju knjiženja u glavnu knjigu. Računovođa će koristiti funkciju „Knjiženje troškova“ da bi periodično premeštao ovaj trošak sa bilansnog računa na račun dobitka i gubitka.
+       - **Dobitak i gubitak**: Prilikom knjiženja Project Operations dnevnika integracije, troškovi transakcija vremena zadužiće se na tipu računa glavne knjige *Trošak* a odobriće se na *računu za raspodelu zarada* definisanom na kartici **Trošak** na stranici **Podešavanje knjiženja u glavnu knjigu** (**Upravljanje projektima i računovodstvo** \> **Podešavanje** \> **Knjiženje** \> **Podešavanje knjiženja u glavnu knjigu**). Ovo je najčešće podešavanje za transakcije vremena i materijala.
+        - *Nikad u glavnu knjigu*: Troškovi transakcija vremena nikada neće biti knjiženi u glavnu knjigu.
 
-    - **Knjiženje troškova – trošak** :
+    - **Knjiženje troškova – trošak**:
 
-         - **Bilans** : Pri knjiženju Project Operations dnevnika integracije, cena transakcije troškova zadužiće se na tipu računa glavne knjige *Prihod u toku – Vrednost troškova* kao što je definisano na kartici **Trošak** na stranici **Podešavanje knjiženja u glavnu knjigu** i odobriće se na računu za prebijanje dugovanja na stavci u glavnoj knjizi. Podrazumevani računi za prebijanje dugovanja i potraživanja za troškove su definisani u odeljku **Upravljanje projektima i računovodstvo** > **Podešavanje** \> **Knjiženje** \> **Podrazumevani račun za prebijanje dugovanja i potraživanja za troškove**. Računovođa će koristiti funkciju **Knjiženje troškova** da bi periodično premeštao ovaj trošak sa bilansnog računa na račun dobitka i gubitka.
-        - **Dobitak i gubitak** : Pri knjiženju Project Operations dnevnika integracije, cena transakcije troškova zadužiće tip računa glavne knjige *Trošak* kao što je definisano na kartici **Trošak** na stranici **Podešavanje knjiženja u glavnu knjigu** i odobriće se na računu za prebijanje dugovanja i potraživanja na stavci u glavnoj knjizi. Podrazumevani računi za prebijanje dugovanja i potraživanja za troškove su definisani u odeljku **Upravljanje projektima i računovodstvo** \> **Podešavanje** \> **Knjiženje** \> **Podrazumevani račun za prebijanje dugovanja i potraživanja za troškove**.
+         - **Bilans**: Pri knjiženju Project Operations dnevnika integracije, cena transakcije troškova zadužiće se na tipu računa glavne knjige *Prihod u toku – Vrednost troškova* kao što je definisano na kartici **Trošak** na stranici **Podešavanje knjiženja u glavnu knjigu** i odobriće se na računu za prebijanje dugovanja na stavci u glavnoj knjizi. Podrazumevani računi za prebijanje dugovanja i potraživanja za troškove su definisani u odeljku **Upravljanje projektima i računovodstvo** > **Podešavanje** \> **Knjiženje** \> **Podrazumevani račun za prebijanje dugovanja i potraživanja za troškove**. Računovođa će koristiti funkciju **Knjiženje troškova** da bi periodično premeštao ovaj trošak sa bilansnog računa na račun dobitka i gubitka.
+        - **Dobitak i gubitak**: Pri knjiženju Project Operations dnevnika integracije, cena transakcije troškova zadužiće tip računa glavne knjige *Trošak* kao što je definisano na kartici **Trošak** na stranici **Podešavanje knjiženja u glavnu knjigu** i odobriće se na računu za prebijanje dugovanja i potraživanja na stavci u glavnoj knjizi. Podrazumevani računi za prebijanje dugovanja i potraživanja za troškove su definisani u odeljku **Upravljanje projektima i računovodstvo** \> **Podešavanje** \> **Knjiženje** \> **Podrazumevani račun za prebijanje dugovanja i potraživanja za troškove**.
        
-    - **O fakturisanju poslovnog kontakta** :
+    - **O fakturisanju poslovnog kontakta**:
 
-        - **Bilans** : Prilikom knjiženja predloga projektne fakture, transakcija na računu (kontrolna tačka za naplatu) biće odobrena na tipu računa glavne knjige *Fakturisani prihod u toku – na računu* kao što je definisano na kartici **Prihod** na stranici **Podešavanje knjiženja u glavnu knjigu** i zadužena na računu bilansa klijenta.
-         - **Dobitak i gubitak** : Prilikom knjiženja predloga projektne fakture, transakcija na računu (kontrolna tačka za naplatu) biće odobrena na tipu računa glavne knjige *Fakturisani prihod – na računu* kao što je definisano na kartici **Prihod** na stranici **Podešavanje knjiženja u glavnu knjigu** i zadužena na računu bilansa klijenta. Računi bilansa klijenata definisani su u odeljku **Potraživanja** \> **Podešavanje** \> **Profili knjiženja klijenata**.
+        - **Bilans**: Prilikom knjiženja predloga projektne fakture, transakcija na računu (kontrolna tačka za naplatu) biće odobrena na tipu računa glavne knjige *Fakturisani prihod u toku – na računu* kao što je definisano na kartici **Prihod** na stranici **Podešavanje knjiženja u glavnu knjigu** i zadužena na računu bilansa klijenta.
+         - **Dobitak i gubitak**: Prilikom knjiženja predloga projektne fakture, transakcija na računu (kontrolna tačka za naplatu) biće odobrena na tipu računa glavne knjige *Fakturisani prihod – na računu* kao što je definisano na kartici **Prihod** na stranici **Podešavanje knjiženja u glavnu knjigu** i zadužena na računu bilansa klijenta. Računi bilansa klijenata definisani su u odeljku **Potraživanja** \> **Podešavanje** \> **Profili knjiženja klijenata**.
 
-   Kada definišete profile knjiženja za metode obračuna vremena i materijala, imate mogućnost prikupljanja prihoda po vrsti transakcije (sat, trošak i naknada). Ako je opcija **Pripadajući prihod** podešena na **Da** , nenaplaćene prodajne transakcije u Project Operations dnevniku integracije će se evidentirati u glavnu knjigu. Vrednost prodaje se zadužuje na računu **Prihod u toku – nalog vrednosti prodaje** i odobrena na računu **Pripisani prihod – vrednost prodaje** koji je podešen na stranici **Podešavanje knjiženja u glavnu knjigu** , na kartici **Prihod**. 
+   Kada definišete profile knjiženja za metode obračuna vremena i materijala, imate mogućnost prikupljanja prihoda po vrsti transakcije (sat, trošak i naknada). Ako je opcija **Pripadajući prihod** podešena na **Da**, nenaplaćene prodajne transakcije u Project Operations dnevniku integracije će se evidentirati u glavnu knjigu. Vrednost prodaje se zadužuje na računu **Prihod u toku – nalog vrednosti prodaje** i odobrena na računu **Pripisani prihod – vrednost prodaje** koji je podešen na stranici **Podešavanje knjiženja u glavnu knjigu**, na kartici **Prihod**. 
   
   > [!NOTE]
   > Opcija **Pripadajući prihod** je dostupna samo kada se odgovarajući tip transakcije **Trošak** knjiži na računu dobitka i gubitka.
     
 7. Proširite brzu karticu **Procena**. Polja na ovoj kartici definišu podešavanja proračuna za procene prihoda sa fiksnom cenom. Polja na ovoj kartici važe samo za profile troškova i prihoda projekta sa metodom naplate **Fiksna cena**.
-8. Izaberite odgovarajuće informacije u sledećim poljima na brzoj kartici **Procena** :
+8. Izaberite odgovarajuće informacije u sledećim poljima na brzoj kartici **Procena**:
 
-    - **Princip korišćen za proračun završetka projekta** :
+    - **Princip korišćen za proračun završetka projekta**:
 
-        - **Završen ugovor** : Usklađivanje troškova i prepoznavanje prihoda se dešava tek na kraju projekta. Troškovi se odražavaju kao prihod u toku u bilansu dok se projekat ne završi.
-        - **Procenat dovršenosti** : Obračunati prihod se izračunava i knjiži u glavnu knjigu svakog perioda na osnovu procenta dovršenosti projekta. Postoji više metoda za izračunavanje procenta završetka. Ove metode mogu biti automatske na osnovu konfiguracije ili ručne.
-        - **Bez prihoda u toku** : Ovo podešavanje se koristi za projekte sa fiksnom cenom sa kratkim vremenskim rasponom i tamo gde se faktura i troškovi javljaju u istom periodu. U ovom slučaju, vrednost polja **Fakturisanje na računu** na brzoj kartici **Glavna knjiga** se automatski postavlja na **Dobitak i gubitak** kako bi se osiguralo prepoznavanje prihoda prilikom fakturisanja. Proces procene prihoda se neće koristiti za ovaj profil troškova i prihoda projekta.
+        - **Završen ugovor**: Usklađivanje troškova i prepoznavanje prihoda se dešava tek na kraju projekta. Troškovi se odražavaju kao prihod u toku u bilansu dok se projekat ne završi.
+        - **Procenat dovršenosti**: Obračunati prihod se izračunava i knjiži u glavnu knjigu svakog perioda na osnovu procenta dovršenosti projekta. Postoji više metoda za izračunavanje procenta završetka. Ove metode mogu biti automatske na osnovu konfiguracije ili ručne.
+        - **Bez prihoda u toku**: Ovo podešavanje se koristi za projekte sa fiksnom cenom sa kratkim vremenskim rasponom i tamo gde se faktura i troškovi javljaju u istom periodu. U ovom slučaju, vrednost polja **Fakturisanje na računu** na brzoj kartici **Glavna knjiga** se automatski postavlja na **Dobitak i gubitak** kako bi se osiguralo prepoznavanje prihoda prilikom fakturisanja. Proces procene prihoda se neće koristiti za ovaj profil troškova i prihoda projekta.
 
-    - **Princip podudaranja** : Ovo polje određuje kako će izračunata vrednost prodaje (obračunati prihod) biti knjižena u glavnu knjigu.
+    - **Princip podudaranja**: Ovo polje određuje kako će izračunata vrednost prodaje (obračunati prihod) biti knjižena u glavnu knjigu.
 
-        - Korišćenjem principa **Vrednost prodaje** , sistem će izračunati prodajnu vrednost tako što će podudarati troškove i prihod, a zatim će je knjižiti kao jedan iznos.
-        - Korišćenjem principa **Proizvodnja i dobitak** , sistem će vrednost prodaje podeliti na ostvarene troškove i izračunati dobitak. Ti podaci se knjiže zasebno.
+        - Korišćenjem principa **Vrednost prodaje**, sistem će izračunati prodajnu vrednost tako što će podudarati troškove i prihod, a zatim će je knjižiti kao jedan iznos.
+        - Korišćenjem principa **Proizvodnja i dobitak**, sistem će vrednost prodaje podeliti na ostvarene troškove i izračunati dobitak. Ti podaci se knjiže zasebno.
 
-    - **Predlošci troškova** : Dozvolite grupisanje projektnih transakcija na osnovu tipa transakcije i kategorije projekta i definišite pravila izračunavanja procenta završetka za ove grupe.
-    - **Šifre perioda** : Definišite učestalost izračunavanja procene prihoda za dati profil troškova i prihoda projekta.
-    - **Kategorije za procenu** : Koristi se za knjiženje vrednosti prodaje (obračunati prihod) u transakcijama projekta. Prvo konfigurišite namensku kategoriju projekata za tip transakcije **Nadoknada** , a zatim podesite zastavicu **Procena** za ovu kategoriju projekta. Zatim, u zavisnosti od izabranog principa podudaranja, odaberite ovu kategoriju projekta u vrednosti **Prodaja** ili polju **Dobitak** u profilu troškova i prihoda projekta.
+    - **Predlošci troškova**: Dozvolite grupisanje projektnih transakcija na osnovu tipa transakcije i kategorije projekta i definišite pravila izračunavanja procenta završetka za ove grupe.
+    - **Šifre perioda**: Definišite učestalost izračunavanja procene prihoda za dati profil troškova i prihoda projekta.
+    - **Kategorije za procenu**: Koristi se za knjiženje vrednosti prodaje (obračunati prihod) u transakcijama projekta. Prvo konfigurišite namensku kategoriju projekata za tip transakcije **Nadoknada**, a zatim podesite zastavicu **Procena** za ovu kategoriju projekta. Zatim, u zavisnosti od izabranog principa podudaranja, odaberite ovu kategoriju projekta u vrednosti **Prodaja** ili polju **Dobitak** u profilu troškova i prihoda projekta.
 
 ### <a name="sample-configurations-for-project-cost-and-revenue-profiles"></a>Primeri konfiguracija za profile troškova i prihoda projekta
 

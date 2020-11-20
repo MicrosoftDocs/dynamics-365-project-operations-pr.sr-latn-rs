@@ -1,21 +1,21 @@
 ---
-title: Predmeti mogućnosti za poslovanje zasnovani na proizvodu
+title: Stavke mogućnosti za poslovanje zasnovane na proizvodu – jednostavno
 description: Ova tema pruža informacije o stavkama predmeta mogućnosti za poslovanje zasnovanim na proizvodu u usluzi Project Operations.
 author: rumant
 manager: Annbe
 ms.date: 10/01/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 17ffcf8dc94d42102115281d281d6b553cf1fa17
-ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
+ms.openlocfilehash: fd32bedb94cf36f706c112a845f342d9dde19805
+ms.sourcegitcommit: 625878bf48ea530f3381843be0e778cebbbf1922
 ms.translationtype: HT
 ms.contentlocale: sr-Latn-RS
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4083506"
+ms.lasthandoff: 10/30/2020
+ms.locfileid: "4176357"
 ---
-# <a name="product-based-opportunity-lines"></a>Predmeti mogućnosti za poslovanje zasnovani na proizvodu
+# <a name="product-based-opportunity-lines---lite"></a>Stavke mogućnosti za poslovanje zasnovane na proizvodu – jednostavno
 
 _**Odnosi se na:** Jednostavna primena – od pogodbe do profakture_
 
@@ -25,4 +25,4 @@ Stavke zasnovane na proizvodima mogu biti artikli iz kataloga ili ručno dodati 
 
 Jedan koncept o predmetima mogućnosti za poslovanje zasnovanim na proizvodu koji je specifičan za mogućnosti za poslovanje zasnovane na projektima jeste **Budžet klijenta**. Koristite ovo polje za praćenje iznosa koji je klijent spreman da plati za stavku porudžbine.
 
-Ako je metoda prihoda rezimea mogućnosti za poslovanje postavljena na **Sistemski izračunato** , vrednosti budžeta klijenata u stavkama zasnovanim na proizvodu i projektu se sabiraju kako bi se izračunao procenjeni prihod.
+Ako je metoda prihoda rezimea mogućnosti za poslovanje postavljena na **Sistemski izračunato**, vrednosti budžeta klijenata u stavkama zasnovanim na proizvodu i projektu se sabiraju kako bi se izračunao procenjeni prihod.

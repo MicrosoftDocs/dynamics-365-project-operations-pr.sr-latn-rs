@@ -5,15 +5,15 @@ author: rumant
 manager: Annbe
 ms.date: 10/05/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: d726ab09da0e502da99191f7e7469c47f79b6e7c
-ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
+ms.openlocfilehash: 871d323136cd982bd48ed9aa2b9c34017951d2d8
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: sr-Latn-RS
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4083472"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4130730"
 ---
 # <a name="map-projects-and-tasks-to-a-project-based-quote-line"></a>Mapiranje projekata i zadataka na stavku ponude zasnovane na projektu
 
@@ -48,7 +48,7 @@ Stranica **Projekat** pruža optimalno iskustvo za povezivanje zadataka sa stavk
 5. Na stranici **Projekat** izaberite karticu **Obračun zadataka**.
 6. U drugoj mreži, koja se odnosi na podešavanje obračuna za određeni zadatak, izaberite jedan ili više zadataka, a zatim izaberite **Povezivanje stavki ponude**.
 7. Na stranici dijaloga koja se pojavi, izaberite stavku ponude koja prikazuje stavke ponude zasnovane na projektu u ponudi.
-8. U polju **Tip obračuna** , naznačite da li su ovi zadaci naplativi ili nenaplativi.
+8. U polju **Tip obračuna**, naznačite da li su ovi zadaci naplativi ili nenaplativi.
 9. Označite polje za potvrdu da biste naznačili da li povezivanje treba da sadrži podređene zadatke izabranih zadataka. Ako označite to polje, povezaćete podređene zadatke izabranih zadataka sa stavkom ponude.
 10. Izaberite **U redu** da biste zatvorili dijalog.
 
@@ -57,13 +57,13 @@ Stranica **Projekat** pruža optimalno iskustvo za povezivanje zadataka sa stavk
 Projektne zadatke možete povezati sa stavkama ponude sa kartice **Zadaci koji se naplaćuju** na stranici **Ponuda**.
 
 >[!NOTE]
->Optimalno mesto za povezivanje projektnih zadataka sa stavkama ponude je na kartici **Obračun zadataka** na stranici **Projekat**. Ako povežete zadatke sa kartice **Zadaci koji se naplaćuju** na stranici **Stavka ponude** , svaki projekat morate ručno povezati.
+>Optimalno mesto za povezivanje projektnih zadataka sa stavkama ponude je na kartici **Obračun zadataka** na stranici **Projekat**. Ako povežete zadatke sa kartice **Zadaci koji se naplaćuju** na stranici **Stavka ponude**, svaki projekat morate ručno povezati.
 
 1. Na kartici **Opšti podaci** stavke ponude zasnovane na projektu, proverite da li je izabran projekat u polju **Projekat**.
 2. U polju **Uključeni zadaci** izaberite **Samo izabrani zadaci**.
 3. Sačuvajte stavku ponude zasnovanu na projektu. Kada se obrazac osveži, prikazaće se kartica **Zadaci koji se naplaćuju**.
-4. Na kartici **Zadaci koji se naplaćuju** , izaberite **Dodaj zadatak stavke ponude**.
-5. Na stranici **Zadatak stavke ponude** , u polju **Zadaci** izaberite zadatak i u polju **Tip obračuna** izaberite **Sačuvaj**. 
+4. Na kartici **Zadaci koji se naplaćuju**, izaberite **Dodaj zadatak stavke ponude**.
+5. Na stranici **Zadatak stavke ponude**, u polju **Zadaci** izaberite zadatak i u polju **Tip obračuna** izaberite **Sačuvaj**. 
 6. Zatvorite stranicu. Izabrani zadatak je sada povezan sa stavkom ponude.
 
 ## <a name="disassociate-tasks-from-projectbased-quote-lines"></a>Prekidanje veze zadataka sa stavkama ponude zasnovanim na projektu
@@ -84,7 +84,7 @@ Ovaj metod pruža optimalno iskustvo za prekidanje veze zadataka sa stavkama pon
 
 Vezu projektnih zadataka sa stavkama ponude takođe možete prekinuti sa kartice **Zadaci koji se naplaćuju** na stranici **Ponuda**.
 
-1. Na kartici **Zadaci koji se naplaćuju** , izaberite **Izbriši zadatak stavke ponude**.
+1. Na kartici **Zadaci koji se naplaćuju**, izaberite **Izbriši zadatak stavke ponude**.
 2. Izaberite **U redu**. Poruka upozorenja vas obaveštava da ako uklonite ovo povezivanje, sve stvarne vrednosti prethodno evidentirane u zadatku mogu da se opozovu. 
 3. Izaberite **U redu** da bi se nastavilo i uklanjalo povezivanje između zadatka i stavke ponude zasnovane na projektu.
 

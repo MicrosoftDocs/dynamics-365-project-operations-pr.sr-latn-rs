@@ -3,7 +3,7 @@ title: Omogućavanje funkcija aplikacije Project Finder Mobile
 description: Kako da omogućite funkcije aplikacije Project Finder Mobile za aplikaciju Project Service
 author: JohnPBurrows
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 8/03/2018
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 749c5682dc2e639843a0a8a085fe8af65502d433
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: af267b5adc48b6edec57de196f91e338c058558c
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: sr-Latn-RS
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4083587"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4132980"
 ---
 # <a name="enable-project-finder-mobile-app-features-project-service"></a>Omogućavanje funkcija aplikacije Project Finder Mobile (Project Service)
 
@@ -42,7 +42,7 @@ Vaši resursi mogu da koriste aplikaciju Project Finder Mobile na telefonu uz [!
   
 2. Kliknite na postavku parametara koje želite da koristite da biste omogućili funkcije aplikacije Project Finder Mobile.  
   
-3. U oblasti **Opšti podaci** , postavite **Zahtevi u pogledu resursa vidljivi resursima** na **Da**.  
+3. U oblasti **Opšti podaci**, postavite **Zahtevi u pogledu resursa vidljivi resursima** na **Da**.  
   
 4. Podesite **Dozvoli da resursi osveže veštine** na **Da**.  
   

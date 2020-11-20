@@ -3,7 +3,7 @@ title: Kreirajte ponudu za projekat
 description: Kako da kreirate ponudu za projekat u aplikaciji Project Service
 author: ruhercul
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 8/03/2018
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: efa18faffc6b5e97e8fbc21352688874d07e906f
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 5a28bafed6fa76e21e3edb890da04f105b2b2a3c
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: sr-Latn-RS
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4083688"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4133160"
 ---
 # <a name="create-a-project-quote-project-service"></a>Kreiranje ponude za projekat (Project Service)
 
@@ -31,7 +31,7 @@ ms.locfileid: "4083688"
 
 Kreiranje ponude je slično kreiranju mogućnosti za poslovanje. Dok je mogućnost za poslovanje za interne informacije, ponuda je ono što šaljete potencijalnim klijentima. Možete da napravite jednu ponudu ili više njih za svaku mogućnost za poslovanje. Kada kreirate ponudu da biste je poslali potencijalnom klijentu, uđite na **Predloži** fazu projekta.  
   
-1. Da biste kreirali ponudu iz mogućnosti za poslovanje, idite na **Project Service > Mogućnosti za poslovanje** , a zatim izaberite mogućnost za poslovanje za koju želite da kreirate ponudu.  
+1. Da biste kreirali ponudu iz mogućnosti za poslovanje, idite na **Project Service > Mogućnosti za poslovanje**, a zatim izaberite mogućnost za poslovanje za koju želite da kreirate ponudu.  
   
 2. Kliknite na dugme **Sledeća faza** sa desne strane trake procesa, a zatim izaberite postojeću ponudu ili kliknite na dugme **Kreiraj** za kreiranje nove ponude.  
   
@@ -45,7 +45,7 @@ Kreiranje ponude je slično kreiranju mogućnosti za poslovanje. Dok je mogućno
   
 7. Kliknite na dugme **Sačuvaj** u donjem desnom uglu ekrana kada završite sa unošenjem promena.  
   
-8. Kada budete spremni da pošaljete ponudu klijentu, kliknite na dugme **Više** (...) kliknite na dugme **Pokreni izveštaj** , a zatim kliknite na dugme **Ponudi**. Sačuvajte izveštaj kao [!INCLUDE[pn_ms_Word_short](../includes/pn-ms-word-short.md)] dokument, uredite kako je neophodno i pošaljite ponudu klijentu.  
+8. Kada budete spremni da pošaljete ponudu klijentu, kliknite na dugme **Više** (...) kliknite na dugme **Pokreni izveštaj**, a zatim kliknite na dugme **Ponudi**. Sačuvajte izveštaj kao [!INCLUDE[pn_ms_Word_short](../includes/pn-ms-word-short.md)] dokument, uredite kako je neophodno i pošaljite ponudu klijentu.  
   
 9. Ako klijent prihvati ponudu, kliknite na dugme **Zatvori kao ostvareno** na vrhu na ekrana **Ponuda**. Ako klijent želi da promenite neke stavke, sledite ceo ovaj proces ponovo da kreirate novu ponudu. Ako klijent odluči da trenutno neće da koristi vaše usluge, kliknite na dugme **Zatvori kao neostvareno** na vrhu ekrana **Ponude**.  
   

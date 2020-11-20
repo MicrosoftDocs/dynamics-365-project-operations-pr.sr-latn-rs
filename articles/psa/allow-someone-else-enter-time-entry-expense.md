@@ -3,7 +3,7 @@ title: Dozvolite nekome drugom da unosi vaše unose vremena ili troškova
 description: Kako da dozvolite drugima da unose vaše vreme ili troškove u uslugu Project Service
 author: revathiMuthiah
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 7/31/2018
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: f56fae115b383d66a59cbcb08fffe95c83c83e17
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 50c54e73cf4898ce525492b8ef7c8b8cf6dc36cd
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: sr-Latn-RS
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4083553"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4130402"
 ---
 # <a name="allow-someone-else-to-enter-your-time-entry-or-expense-project-service"></a>Dozvolite nekom drugom da unosi vaše vreme ili troškove u sistemu (Project Service)
 
@@ -37,13 +37,13 @@ Podesite delegata kako biste dozvolili nekome drugome da unosi vremena ili troš
   
 2.  Na komandnoj traci kliknite na dugme **Novo**.  
   
-3. **Ime** : Unesite ime za zapis.  
+3. **Ime**: Unesite ime za zapis.  
   
-4. **Tip** : Izaberite da li delegat može da unosi vremena ili troškove u vaše ime.  
+4. **Tip**: Izaberite da li delegat može da unosi vremena ili troškove u vaše ime.  
   
-5. **Delegat** : Izaberite ime osobe za koju želite da bude delegat.  
+5. **Delegat**: Izaberite ime osobe za koju želite da bude delegat.  
   
-6. **Datumi početka i završetka** : Odaberite datume kada delegiranje počinje i završava se.  
+6. **Datumi početka i završetka**: Odaberite datume kada delegiranje počinje i završava se.  
   
 7.  Kada završite, izaberite **Sačuvaj i zatvori**.  
   
@@ -55,7 +55,7 @@ Podesite delegata kako biste dozvolili nekome drugome da unosi vremena ili troš
   
 3.  Na komandnoj traci kliknite na stavku **Deaktiviraj**.  
   
-4.  U dijalogu **Potvrda deaktivacije** , kliknite na **Deaktiviraj**.  
+4.  U dijalogu **Potvrda deaktivacije**, kliknite na **Deaktiviraj**.  
   
 ## <a name="enter-time-for-someone-else"></a>Unos vremena za nekog drugog  
   

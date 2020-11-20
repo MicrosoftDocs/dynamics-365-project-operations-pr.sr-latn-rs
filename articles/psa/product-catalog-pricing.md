@@ -3,7 +3,7 @@ title: Formiranje cena za katalog proizvoda
 description: Ova tema pruža informacije o tome kako funkcionišu cene u katalogu proizvoda u aplikaciji Dynamics 365 Project Service Automation (PSA).
 author: rumant
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 03/07/2019
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: e6d9266cfee996b68608c99f77d1b0c053985b3d
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 11f1d237be4540a64f1854fbed4e5c72ebbce18d
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: sr-Latn-RS
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4083611"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4132305"
 ---
 # <a name="product-catalog-pricing"></a>Formiranje cena za katalog proizvoda 
 
@@ -46,11 +46,11 @@ PSA podržava različite opcije zaokruživanja kada su cene konfigurisane kao fu
 
 > ![Dodavanje proizvoda iz kataloga u različite cenovnike.](media/basic-guide-16.png)
 
-Kada kreirate novi prilagođeni cenovnik za ponudu, izborom **Kreiranje prilagođenih cena** na stranici **Ponuda za projekat** , PSA pravi kopiju cenovnika i polje **Entitet** u zaglavlju novog cenovnika podešava na **Prodajni entitet**. Naziv novog cenovnika se dodaje uz naziv ponude i vremensku oznaku. Takođe možete da koristite ime novog cenovnika i naziv ponude u prilagođenim tokovima posla da pokrenete dodatni pregled i odobrenja za ponude koje koriste prilagođene cene.
+Kada kreirate novi prilagođeni cenovnik za ponudu, izborom **Kreiranje prilagođenih cena** na stranici **Ponuda za projekat**, PSA pravi kopiju cenovnika i polje **Entitet** u zaglavlju novog cenovnika podešava na **Prodajni entitet**. Naziv novog cenovnika se dodaje uz naziv ponude i vremensku oznaku. Takođe možete da koristite ime novog cenovnika i naziv ponude u prilagođenim tokovima posla da pokrenete dodatni pregled i odobrenja za ponude koje koriste prilagođene cene.
 
  
 ## <a name="default-product-price-list"></a>Podrazumevani cenovnik proizvoda
-Svaki zapis klijenta ima polje **Podrazumevani cenovnik** , gde možete odrediti cenovnik koji odgovara valuti klijenta. U aplikaciji PSA, podrazumevana vrednost se automatski ne unosi u ovo polje. Kada postoji prilagođeni ugovor o cenama sa određenim klijentom, ovo polje možete koristiti da biste povezali cenovnik sa tim klijentom.
+Svaki zapis klijenta ima polje **Podrazumevani cenovnik**, gde možete odrediti cenovnik koji odgovara valuti klijenta. U aplikaciji PSA, podrazumevana vrednost se automatski ne unosi u ovo polje. Kada postoji prilagođeni ugovor o cenama sa određenim klijentom, ovo polje možete koristiti da biste povezali cenovnik sa tim klijentom.
 
 Entiteti Mogućnost za poslovanje, Ponuda i Ugovor o projektu koriste sledeći redosled za unošenje podrazumevanih cenovnika proizvoda. Isti redosled se koristi za cenovnike projekata.
 

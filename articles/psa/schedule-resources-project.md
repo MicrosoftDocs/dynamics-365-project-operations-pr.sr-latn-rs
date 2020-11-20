@@ -3,7 +3,7 @@ title: Planirajte resurse za projekat
 description: Kako da planirate resurse za projekat u aplikaciji Project Service
 author: JohnPBurrows
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 8/03/2018
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: db69348aac96cbfaaa865228c9230cbda4b1e784
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 1479bf920be897a6ee3498aada7a6c36692a01fc
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: sr-Latn-RS
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4083786"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4132169"
 ---
 # <a name="schedule-resources-for-a-project-project-service"></a>Planiranje resursa za projekat (Project Service)
 
@@ -31,7 +31,7 @@ ms.locfileid: "4083786"
 
 Možete da proverite dostupnost resursa da biste dobili ukupan prikaz toga koliko su rezervisani resursi ili možete filtrirati prikaz prema veštinama, timu, lokaciji i ostalim opcijama.  
   
-Tabla rasporeda prikazuje listu resursa i njihovu dostupnost. Izaberite režim prikaza za prikazivanje dostupnosti prema **Satima** , **Danima** , **Nedelji** ili **Mesecu**.  
+Tabla rasporeda prikazuje listu resursa i njihovu dostupnost. Izaberite režim prikaza za prikazivanje dostupnosti prema **Satima**, **Danima**, **Nedelji** ili **Mesecu**.  
   
 Pre nego što možete da koristite tabelu rasporeda, važno je da je podesite. Više informacija potražite u odeljku [Konfigurišite tablu rasporeda (Field Service ili Project Service Automation)](https://docs.microsoft.com/dynamics365/field-service/configure-schedule-board).
   
@@ -52,7 +52,7 @@ Ako koristite stariju verziju, za dostupnost resursa pogledajte [Prikaz dostupno
 1.  Na listi **Zahtev za rezervaciju** kliknite desnim tasterom miša na nezakazanu rezervaciju i izaberite jedno od sledećeg:  
   
 - Odaberite **Pronađi dostupnost – Trenutni resursi** da biste pronašli dostupan resurs sa liste na tabli rasporeda.  
-- Odaberite **Pronađi dostupnost – Svi resursi** , da biste pronašli dostupan resurs u resursima u sistemu  
+- Odaberite **Pronađi dostupnost – Svi resursi**, da biste pronašli dostupan resurs u resursima u sistemu  
    > [!NOTE]
    >  Kada to uradite, filteri će prikazati opcije za izabrani zahtev za rezervaciju.  
   
@@ -61,7 +61,7 @@ Ako koristite stariju verziju, za dostupnost resursa pogledajte [Prikaz dostupno
 
 ## <a name="book-a-resource-using-the-daily-view-and-find-whos-under-booked"></a>Rezervišite resurs pomoću dnevnog prikaza i pronađite ko nema dovoljno rezervacija
   
-1.  Na tabeli rasporeda, izaberite **Režim prikaza** , a zatim izaberite **Dani**.  
+1.  Na tabeli rasporeda, izaberite **Režim prikaza**, a zatim izaberite **Dani**.  
   
     Ovo prikazuje prikaza koordinatne mreže koliko je sati resurs rezervisan po danu i kojim danima je slobodan.  
   

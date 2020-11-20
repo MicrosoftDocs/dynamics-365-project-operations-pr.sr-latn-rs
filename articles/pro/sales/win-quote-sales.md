@@ -1,21 +1,21 @@
 ---
-title: Zatvaranje ponuda
+title: Zatvaranje ponude – jednostavno
 description: Ova tema pruža informacije o zatvaranju ponude u usluzi Project Operations.
 author: rumant
 manager: Annbe
 ms.date: 10/01/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: cc3b2cdeb1ac46b7d927c1f96e94e9154d3eebf8
-ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
+ms.openlocfilehash: 5ad206232d616cdbdc83e2a17b9177cfb98ffda9
+ms.sourcegitcommit: 625878bf48ea530f3381843be0e778cebbbf1922
 ms.translationtype: HT
 ms.contentlocale: sr-Latn-RS
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4083501"
+ms.lasthandoff: 10/30/2020
+ms.locfileid: "4175728"
 ---
-# <a name="close-quotes"></a>Zatvaranje ponuda 
+# <a name="close-a-quote---lite"></a>Zatvaranje ponude – jednostavno
 
 _**Odnosi se na:** Jednostavna primena – od pogodbe do profakture_
 

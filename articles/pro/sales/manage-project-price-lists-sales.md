@@ -1,21 +1,21 @@
 ---
-title: Upravljanje cenovnicima projekata u ponudama za projekat
+title: Upravljanje cenovnicima projekata u ponudama za projekat – jednostavno
 description: Ova tema pruža informacije o radu sa cenovnicima za projekat u ponudama. (Sales)
 author: rumant
 manager: Annbe
 ms.date: 10/01/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 4013d2e8cc0d2329f824a17484ee6f4a054a390e
-ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
+ms.openlocfilehash: 2ff830c63f7acf4cc23ac75d44afa9c3553b8724
+ms.sourcegitcommit: 625878bf48ea530f3381843be0e778cebbbf1922
 ms.translationtype: HT
 ms.contentlocale: sr-Latn-RS
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4083503"
+ms.lasthandoff: 10/30/2020
+ms.locfileid: "4175998"
 ---
-# <a name="manage-project-price-lists-on-project-quotes-sales"></a>Upravljanje cenovnicima projekata u ponudama za projekat (Prodaja)
+# <a name="manage-project-price-lists-on-project-quotes---lite"></a>Upravljanje cenovnicima projekata u ponudama za projekat – jednostavno
 
 _**Odnosi se na:** Jednostavna primena – od pogodbe do profakture_
 
@@ -49,7 +49,7 @@ Cenovnici projekta se mogu podesiti na podrazumevane vrednosti u ponudi projekta
 
 1. Idite na **Podešavanja** > **Opšti podaci** > **Parametri**.
 2. Na stranici liste **Aktivni parametri** pronađite zapis i dvaput kliknite da biste ga otvorili. 
-3. Na stranici **Parametri** , izaberite karticu **Cenovnik**. Videćete da se prikazuje lista podrazumevanih cenovnika. Ovo je lista standardnih troškova i prodajnih cenovnika. Ako imate ovde povezan prodajni cenovnik za svaku valutu u kojoj prodajete, obezbediće se da ovaj prodajni cenovnik bude podrazumevan za bilo koju ponudu koju kreirate za klijente koji obavljaju transakcije u toj valuti.
+3. Na stranici **Parametri**, izaberite karticu **Cenovnik**. Videćete da se prikazuje lista podrazumevanih cenovnika. Ovo je lista standardnih troškova i prodajnih cenovnika. Ako imate ovde povezan prodajni cenovnik za svaku valutu u kojoj prodajete, obezbediće se da ovaj prodajni cenovnik bude podrazumevan za bilo koju ponudu koju kreirate za klijente koji obavljaju transakcije u toj valuti.
 
 ### <a name="set-up-customer-specific-project-price-lists"></a>Podešavanje cenovnika projekta specifičnog za klijenta
 
@@ -57,7 +57,7 @@ Cenovnici projekata specifični za klijenta takođe se mogu podesiti kada ste sa
 
 Da biste podesili cenovnik projekta specifičan za klijenta, izvršite sledeće korake.
 
-1. U oblasti **Prodaja** , izaberite **Klijenti**.
+1. U oblasti **Prodaja**, izaberite **Klijenti**.
 2. U listi aktivnih poslovnih kontakata, odaberite i otvorite zapis klijenta za kojeg imate poseban cenovnik.
 3. Na kartici **Cenovnik projekta** možete kreirati novo povezivanje cenovnika da biste dobili cenovnik projekta koji je specifičan za ovog klijenta.
 
@@ -65,5 +65,5 @@ Da biste podesili cenovnik projekta specifičan za klijenta, izvršite sledeće 
 
 Kada imate organizacione i korisničke podrazumevane cenovnike projekata, vaše ponude za projekte automatski će se kreirati sa tim povezivanjima cenovnika projekata. Međutim, u određenim slučajevima, možda ćete morati da kreirate prilagođene cene za određenu ponudu za projekat. 
 
-1. U delu **Ponuda za projekat** , na kartici **Cenovnik projekta** , u podformi verifikujte da nije izabran nijedan određeni zapis o cenovniku.
+1. U delu **Ponuda za projekat**, na kartici **Cenovnik projekta**, u podformi verifikujte da nije izabran nijedan određeni zapis o cenovniku.
 2. Izaberite **Kreiranje prilagođenih cena**. Ovim ćete napraviti kopije svih standardnih cenovnika koji su trenutno povezani sa ponudom i povezati ove kopije sa ponudom. Ukloniće se postojeća povezivanja sa standardnim cenovnicima. Tada prodavac može započeti uređivanje cena na ovim kopijama. Ove promenjene cene će se primenjivati samo na ovu ponudu za projekat.

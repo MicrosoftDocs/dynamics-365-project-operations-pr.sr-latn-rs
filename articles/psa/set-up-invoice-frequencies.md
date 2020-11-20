@@ -3,7 +3,7 @@ title: Podesite učestalosti fakturisanja
 description: Kako da podesite učestalost fakturisanja u aplikaciji Project Service
 author: rumant
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 8/03/2018
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 18fb4e6968612adb1c946650c829174286c5f3cd
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 2739db966b332db35e383589e06e023ff156ed45
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: sr-Latn-RS
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4083796"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4132064"
 ---
 # <a name="set-up-invoice-frequencies-project-service"></a>Podešavanje učestalosti fakturisanja (Project Service)
 
@@ -35,15 +35,15 @@ Učestalost faktura [!INCLUDE[pn_project_service_auto](../includes/pn-project-se
   
 2.  Kliknite na dugme **Novo**.  
   
-3.  U oblasti **Opšti podaci** , unesite ime za učestalost fakturisanja u **Ime**.  
+3.  U oblasti **Opšti podaci**, unesite ime za učestalost fakturisanja u **Ime**.  
   
-4.  U opciji **Period** izaberite **Mesečno** , **Dvosedmično** ili **Sedmično**.  
+4.  U opciji **Period** izaberite **Mesečno**, **Dvosedmično** ili **Sedmično**.  
   
 5.  Ako ste naveli period od svakog meseca ili svake dve sedmice, u **Dani za pokretanje** izaberite **Dan perioda** da fakturišete navedenog dana perioda (da li radni dan ili vikend) ili izaberite **Radni dan perioda** da fakturišete na naznačeni dan perioda.  
   
-6.  Ako ste naveli mesečni period **Pokreće se mesečno** , izaberite broj puta mesečno koji želite da pokrenete fakturu.  
+6.  Ako ste naveli mesečni period **Pokreće se mesečno**, izaberite broj puta mesečno koji želite da pokrenete fakturu.  
   
-7.  U okviru oblasti **Detalji o učestalosti fakture** , promenite detalje dana ili radnog dana kako je potrebno da biste se uverili da će se faktura pokretati tačnog dana ili radnog dana perioda koji ste naveli.  
+7.  U okviru oblasti **Detalji o učestalosti fakture**, promenite detalje dana ili radnog dana kako je potrebno da biste se uverili da će se faktura pokretati tačnog dana ili radnog dana perioda koji ste naveli.  
   
 8.  Kada završite, kliknite na dugme **Sačuvaj** u donjem desnom uglu ekrana.  
   

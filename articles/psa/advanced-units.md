@@ -3,7 +3,7 @@ title: Grupe jedinica i jedinice
 description: Ova tema pruža informacije o grupama jedinica i jedinicama.
 author: rumant
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 03/05/2019
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 78f154856acf796f408491c5873cb29da8ac55bb
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 58ce821d11d729f6e2c33e5a50344458e395db4d
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: sr-Latn-RS
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4083596"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4130595"
 ---
 # <a name="unit-groups-and-units"></a>Grupe jedinica i jedinice
 
@@ -33,16 +33,16 @@ Grupe jedinica i jedinice su osnovni entiteti u sistemu Microsoft Dynamics 365. 
 
 Evo nekoliko primera jedinica i grupa jedinica:
  
-- **Grupa jedinica** : Razdaljina 
-    - **Jedinice** : Milja, kilometar itd.
-- **Grupa jedinica** : Vreme
-    - **Jedinice** : Čas, dan, sedmica i tako dalje. 
+- **Grupa jedinica**: Razdaljina 
+    - **Jedinice**: Milja, kilometar itd.
+- **Grupa jedinica**: Vreme
+    - **Jedinice**: Čas, dan, sedmica i tako dalje. 
 
 Kada podesite više jedinica u grupi jedinica, morate podesiti i faktor konverzije između njih tako što ćete označiti prvu jedinicu koju ste podesili kao podrazumevanu ili primarnu jedinicu za grupu jedinica. 
 
-Na primer, u grupi jedinica **Vreme** , ako podesite **Čas** kao prvu jedinicu, sistem određuje **Čas** kao podrazumevanu jedinicu. Ako je **Dan** sledeća jedinica koju podesite, morate podesiti faktor konverzije za jedinicu **Dan** na **Čas.** Ako zatim dodate treću jedinicu **Sedmica** , morate da podesite faktor konverzije za jedinicu **Sedmica** u odnosu na **Dan** ili **Čas**. 
+Na primer, u grupi jedinica **Vreme**, ako podesite **Čas** kao prvu jedinicu, sistem određuje **Čas** kao podrazumevanu jedinicu. Ako je **Dan** sledeća jedinica koju podesite, morate podesiti faktor konverzije za jedinicu **Dan** na **Čas.** Ako zatim dodate treću jedinicu **Sedmica**, morate da podesite faktor konverzije za jedinicu **Sedmica** u odnosu na **Dan** ili **Čas**. 
 
-Sledeća slika prikazuje primer podešavanja jedinice **Dan** , pri čemu polje **Količina** prikazuje broj časova u danu, i **Sedmica** , gde polje **Količina** prikazuje broj dana u nedelji.
+Sledeća slika prikazuje primer podešavanja jedinice **Dan**, pri čemu polje **Količina** prikazuje broj časova u danu, i **Sedmica**, gde polje **Količina** prikazuje broj dana u nedelji.
 
 > ![Grupa jedinica: stranica sa informacijama](media/advanced-2.png)
 
@@ -52,7 +52,7 @@ Dynamics 365 Project Service Automation koristi jedinice i grupe jedinica za obr
 
 Za troškove, svaka kategorija troška ima podrazumevanu grupu jedinica i jedinicu. Ove vrednosti se unose kao podrazumevane vrednosti u stavkama cenovnika za kategorije troškova. 
 
-Na primer, imate kategoriju troška koja se zove **Kilometraža**. Ona ima grupu jedinica pod nazivom **Razdaljina** i podrazumevanu jedinicu koja se zove **Kilometar**. Ako podesite grupu jedinica **Rastojanje** tako da ima dve jedinice ( **Milja** i **Kilometar** ), možete podesiti dve cene za kategoriju **Kilometraža** za jedan cenovnik: cena po milji i ceni po kilometru.
+Na primer, imate kategoriju troška koja se zove **Kilometraža**. Ona ima grupu jedinica pod nazivom **Razdaljina** i podrazumevanu jedinicu koja se zove **Kilometar**. Ako podesite grupu jedinica **Rastojanje** tako da ima dve jedinice (**Milja** i **Kilometar**), možete podesiti dve cene za kategoriju **Kilometraža** za jedan cenovnik: cena po milji i ceni po kilometru.
 
 | Kategorija troška  | Grupa jedinica  | Jedinica      | Način određivanja cena  | Cena po jedinici  |
 |-------------------|---------------|-----------|-------------------|-------------------|
@@ -72,17 +72,17 @@ Stavke procene za polje **Vreme za ponudu** mogu se izraziti u bilo kojoj jedini
 Sledeći primer prikazuje kako PSA koristi grupu jedinica, jedinice i faktore konverzije.
 - Jedinice
 
-   - **Grupa jedinica** : Vreme 
-   - **Jedinice** : čas 
+   - **Grupa jedinica**: Vreme 
+   - **Jedinice**: čas 
     
     - **Dan** - Faktor konverzije: 8 časova       
     - **Sedmica** - Faktor konverzije: 40 časova  
         
 - Podešavanje cenovnika za projekat A:
 
-    - **Naziv** : Prodajne cene u UK za 2016 
-    - **Podrazumevana jedinica vremena** : dan 
-    - **Valuta** : GBP
+    - **Naziv**: Prodajne cene u UK za 2016 
+    - **Podrazumevana jedinica vremena**: dan 
+    - **Valuta**: GBP
 
 | Uloga      | Grupa jedinica | Jedinica | Organizaciona jedinica | Cena   |
 |-----------|------------|------|---------------------|---------|
@@ -109,4 +109,4 @@ U nekim zemljama ili regionima postoji zakonski uslov da se stope naplate podeš
 Ne. Procena rasporeda je trenutno ograničena na časove i ne može se promeniti.
 
 ### <a name="can-units-and-unit-groups-be-edited-deleted-and-added"></a>Da li jedinice i grupe jedinica mogu da se uređuju, brišu i dodaju?
-Da. Sa izuzetkom grupa jedinica **Vreme** i **Čas** , sve jedinice mogu da se brišu ili uređuju i mogu da se dodaju nove jedinice. U aplikaciji PSA nije moguće izbrisati grupu jedinica **Vreme** i **Čas**. Međutim, one mogu da se ažuriraju prevedenim tekstom za polje **Ime**.
+Da. Sa izuzetkom grupa jedinica **Vreme** i **Čas**, sve jedinice mogu da se brišu ili uređuju i mogu da se dodaju nove jedinice. U aplikaciji PSA nije moguće izbrisati grupu jedinica **Vreme** i **Čas**. Međutim, one mogu da se ažuriraju prevedenim tekstom za polje **Ime**.

@@ -3,7 +3,7 @@ title: Instaliranje probnih podataka
 description: Ova tema pruža informacije o instaliranju uzoraka podataka u usluzi Project Service Automation.
 ms.custom: dyn365-projectservice
 ms.date: 11/08/2018
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.suite: ''
 applies_to: Dynamics 365 Project Service Automation
@@ -11,12 +11,12 @@ author: ruhercul
 ms.author: ruhercul
 search.audienceType: IT Pro, Developer
 search.app: ''
-ms.openlocfilehash: 46dbd8d125396baa97537ea5d11c47864558c113
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 3c9cca7aa9d85bb38e48820b361ba07923ceddbd
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: sr-Latn-RS
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4083645"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4132440"
 ---
 # <a name="sample-data-installation-for-the-project-service-application"></a>Instaliranje probnih podataka za aplikaciju Project Service
 
@@ -43,15 +43,15 @@ Najnoviji paket **demo** podataka je:
 Ovi paketi probnih podataka su dostupni samo na engleskom jeziku.
 
 > [!IMPORTANT]
-> **Ne postoji način da deinstalirate probne podatke.** Trebalo bi da instalirate ove paket samo u sistemima za demonstraciju, procenu, obuku ili testiranje. Takođe, imajte na umu da instaliranje pojedinačnog paketa, pa naknadno instaliranje drugog pojedinačnog paketa nije podržano. (Drugim rečima, ne možete da instalirate **FSMasterData** , a nakon njega **PSMasterData** ili obrnuto.) Ako smatrate da će vam u nekom trenutku u budućnosti biti potrebni probni podaci za obe aplikacije, trebalo bi da instalirate paket **v902FPSMasterData**.
+> **Ne postoji način da deinstalirate probne podatke.** Trebalo bi da instalirate ove paket samo u sistemima za demonstraciju, procenu, obuku ili testiranje. Takođe, imajte na umu da instaliranje pojedinačnog paketa, pa naknadno instaliranje drugog pojedinačnog paketa nije podržano. (Drugim rečima, ne možete da instalirate **FSMasterData**, a nakon njega **PSMasterData** ili obrnuto.) Ako smatrate da će vam u nekom trenutku u budućnosti biti potrebni probni podaci za obe aplikacije, trebalo bi da instalirate paket **v902FPSMasterData**.
 
 Kada instalirate neki od paketa probnih podataka, proces instalacije vrši sledeće radnje:
 
 - Kreira ili podešava podrazumevane parametre za korišćenje programa Project Service, Field Service ili obe aplikacije (ako je primenjivo).
 
-- Uvozi probne podatke aplikacija, kao što su resursi koji mogu da se rezervišu, uloge specifične za aplikacije, prodajni i cenovnici troškova, organizacione jedinice, zapisi prodajnog procesa i ostali entiteti radi prikaza ključnih mogućnosti.  
+- Uvozi probne podatke aplikacija, kao što su resursi koji mogu da se rezervišu, uloge specifične za aplikacije, prodajni i cenovnici troškova, organizacione jedinice, zapisi prodajnog procesa i ostali entiteti radi prikaza ključnih mogućnosti.  
 
-Sa paketom **demo podataka** , dobijate sve navedeno i dodatne transakcione podatke, kao što su radni nalozi i projekti.
+Sa paketom **demo podataka**, dobijate sve navedeno i dodatne transakcione podatke, kao što su radni nalozi i projekti.
 
 Da li se pitate koje mogućnosti možete da demonstrirate sa probnim podacima? Pogledajte fiktivni scenario kompanije Fabrikam Robotics u okviru [tehničkih beleški](#technical-notes).
 
@@ -80,7 +80,7 @@ Protokom instalacije pretpostavlja sledeće o vašoj ciljnoj instanci (organizac
 
 Morate da pokrenete program za instaliranje na računaru sa nedavnom verzijom operativnog sistema Windows (poželjno Windows 10).
 
-Trebalo bi da planirate da računar ostane povezan sa mrežom i da instalacija traje do oko **sat vremena** za podatke za **podešavanje/referencu**. (Instalacija obično traje oko 30 minuta za **FPSMasterData** , koja uključuje probne podataka za obe aplikacije.) Za **FPSDemoData** , instalacija će potrajati oko **3 časa**.
+Trebalo bi da planirate da računar ostane povezan sa mrežom i da instalacija traje do oko **sat vremena** za podatke za **podešavanje/referencu**. (Instalacija obično traje oko 30 minuta za **FPSMasterData**, koja uključuje probne podataka za obe aplikacije.) Za **FPSDemoData**, instalacija će potrajati oko **3 časa**.
 
 Računar bi trebalo da ima isključenu funkciju čuvara ekrana. U suprotnom, akreditivi sesije za instalaciju mogu biti izgubljeni kada se aktivira čuvar ekrana (osim ako sesiju zadržite aktivnom sve vreme).
 
@@ -114,13 +114,13 @@ Paket **FPSDemoData** zahteva šest korisnika, dok paketi **FPSMasterData** zaht
 
 Da biste kreirali ili konfigurisali korisnike, idite na opciju **Postavke** > **Bezbednost** > **Korisnici** i postupite na sledeći način:
 
-1. Podesite UserFullname="Spencer Low" sa korisničkim imenom „spencerl“ ( **mala slova** ) za uloge menadžera projekta i menadžera vežbe.
+1. Podesite UserFullname="Spencer Low" sa korisničkim imenom „spencerl“ (**mala slova**) za uloge menadžera projekta i menadžera vežbe.
 
-2. Izaberite korisnika **Spencer Low** , a zatim izaberite **Upravljaj ulogama**. Pronađite i izaberite ulogu **Administrator sistema** , a zatim izaberite **U redu** da biste odobrili puna prava administratora za korisnika Spencer Low. Ovaj korak je neophodan kako biste osigurali da se probni zapisi kreiraju sa vlasništvom ispravnog korisnika i stoga pravilno popune prikaze.
+2. Izaberite korisnika **Spencer Low**, a zatim izaberite **Upravljaj ulogama**. Pronađite i izaberite ulogu **Administrator sistema**, a zatim izaberite **U redu** da biste odobrili puna prava administratora za korisnika Spencer Low. Ovaj korak je neophodan kako biste osigurali da se probni zapisi kreiraju sa vlasništvom ispravnog korisnika i stoga pravilno popune prikaze.
 
-3. Iz preuzetog paketa, potrebno je da ispravite datoteku za mapiranje podataka sa e-adresama konteksta podrazumevanog korisnika. Da biste to uradili, otvorite **PkgFolder** , a zatim pronađite i otvorite datoteku **ImportUserMapFile.xml** u Beležnici (ili programu Visual Studio ili drugom XML uređivaču). Podesite polje **DefaultUserToMapTo =** na e-adresu korisnika Spencer Low.
+3. Iz preuzetog paketa, potrebno je da ispravite datoteku za mapiranje podataka sa e-adresama konteksta podrazumevanog korisnika. Da biste to uradili, otvorite **PkgFolder**, a zatim pronađite i otvorite datoteku **ImportUserMapFile.xml** u Beležnici (ili programu Visual Studio ili drugom XML uređivaču). Podesite polje **DefaultUserToMapTo =** na e-adresu korisnika Spencer Low.
 
-4. Ako ne koriste Spencer Low sa korisničkim imenom **spencerl** , potrebno je da ispravite dodatnu datoteku. Otvorite datoteku **DemoDataPreImportConfig.xml** , a zatim pronađite oznaku **userstocreateandconfigure**. Ažurirajte oznaku **\<login\>** korisničkim imenom korisnika Sava Simić. Za dodatne detalje, pogledajte [tehničke napomene](#technical-notes).
+4. Ako ne koriste Spencer Low sa korisničkim imenom **spencerl**, potrebno je da ispravite dodatnu datoteku. Otvorite datoteku **DemoDataPreImportConfig.xml**, a zatim pronađite oznaku **userstocreateandconfigure**. Ažurirajte oznaku **\<login\>** korisničkim imenom korisnika Sava Simić. Za dodatne detalje, pogledajte [tehničke napomene](#technical-notes).
 
 ## <a name="create-or-configure-users---demo-data-package"></a>Kreiranje ili konfigurisanje korisnika – paket demo podataka
 
@@ -138,14 +138,14 @@ Paket demo podataka zahteva šest korisnika. Da bi se paket instalirao ispravno,
   
 2. U svrhu uvoza demo podataka, dodelite šest korisnika iznad uloge Administratora kako bi se probni zapisi uvezli ispravno. 
 
-3. Otvorite **PkgFolder** , a zatim pronađite i otvorite **ImportUserMapFile.xml**. Ažurirajte polja **Novo=** za e-adrese odgovarajućih korisnika u sistemu.
+3. Otvorite **PkgFolder**, a zatim pronađite i otvorite **ImportUserMapFile.xml**. Ažurirajte polja **Novo=** za e-adrese odgovarajućih korisnika u sistemu.
 
    > [!div class="mx-imgBorder"]
    > ![Snimak ekrana UserMapFile](media/sample-data-7.png)
 
-4. Ako korisnik punog imena "Spencer Low" ima ID korisnika različit od **"spencerl"** , tada treba da ažurirate dodatnu datoteku. Otvorite datoteku **DemoDataPreImportConfig.xml** , a zatim pronađite oznaku **userstocreateandconfigure**. Ažurirajte oznaku **\<login\>** oznakom loginId (pazite na velika i mala slova). 
+4. Ako korisnik punog imena "Spencer Low" ima ID korisnika različit od **"spencerl"**, tada treba da ažurirate dodatnu datoteku. Otvorite datoteku **DemoDataPreImportConfig.xml**, a zatim pronađite oznaku **userstocreateandconfigure**. Ažurirajte oznaku **\<login\>** oznakom loginId (pazite na velika i mala slova). 
 
-5. Kalendar prvog korisnika (u oznaci **userstocreateandconfigure** ) koristi se za popunjavanje radnog vremena svih resursa koji mogu da se rezervišu za uvoz demo podataka. Idite na **Podešavanja** > **Bezbednost** > **Korisnici** , pronađite korisnika "Spencer Low" pretraga i otvorite opciju "Radno vreme". Unesite postojeće radno vreme birajući opciju **Ceo periodični sedmični raspored od početka do kraj**. Uverite se da je **Radno vreme podešeno na 8:00–17:00 (9 časova), od ponedeljka do petka i sa vremenskom zonom podešenom na pacifičko vreme (SAD i Kanada)**. To je potrebno da bi se tabele projekta i rasporeda prikazivale kao što se očekuje.
+5. Kalendar prvog korisnika (u oznaci **userstocreateandconfigure**) koristi se za popunjavanje radnog vremena svih resursa koji mogu da se rezervišu za uvoz demo podataka. Idite na **Podešavanja** > **Bezbednost** > **Korisnici**, pronađite korisnika "Spencer Low" pretraga i otvorite opciju "Radno vreme". Unesite postojeće radno vreme birajući opciju **Ceo periodični sedmični raspored od početka do kraj**. Uverite se da je **Radno vreme podešeno na 8:00–17:00 (9 časova), od ponedeljka do petka i sa vremenskom zonom podešenom na pacifičko vreme (SAD i Kanada)**. To je potrebno da bi se tabele projekta i rasporeda prikazivale kao što se očekuje.
 
 **Preporuka:** Razmotrite da sada kreirate rezervnu kopiju vaše organizacije u slučaju da treba da se vratite na polaznu tačku ukoliko nešto krene naopako tokom instalacije probnih podataka. Za još informacija pogledajte [Pravljenje rezervnih kopija i vraćanje instanci](https://docs.microsoft.com/dynamics365/customer-engagement/admin/backup-restore-instances).
 
@@ -213,11 +213,11 @@ Pronađite sledeću vrednost, a zatim promenite podešavanja iz vrednosti tačno
 
 Ova promena prouzrokuje da program za instaliranje zaobilazi neke važne bezbednosne provere, uključujući:
 
-- Potvrdu da ne postoji više od jednog aktivnog zapisa **Organizaciona jedinica** , a zatim ga preimenuje u **Fabrikam US**.
+- Potvrdu da ne postoji više od jednog aktivnog zapisa **Organizaciona jedinica**, a zatim ga preimenuje u **Fabrikam US**.
 
 - Potvrdu da ne postoji više od jednog aktivnog zapisa **Radni predložak**.
 
-- Potvrdu da ne postoji više od jednog aktivnog zapisa **Parametar projekta** , a zatim preimenuje taj zapis u **Parametri**.
+- Potvrdu da ne postoji više od jednog aktivnog zapisa **Parametar projekta**, a zatim preimenuje taj zapis u **Parametri**.
 
 ### <a name="configuration-components"></a>Komponente konfiguracije
 
@@ -241,7 +241,7 @@ Postoji određeni broj drugih komponenti konfiguracije u ovoj datoteci za konfig
 
 ### <a name="fabrikam-robotics-fictitious-scenario"></a>Fabrikam Robotics fiktivni scenario
 
-Paketi sa probnim podacima referenci za Field Service i Project Service instaliraju **rešenje Fabrikam Manufacturing Master Data (v3.0.0.0)** , zajedno sa otprilike 4000 zapisa i približno 40 različitih entiteta. Zasebni paketi probnih podataka za programe Field Service ili Project Service sadrže podskup **v902FPSMasterData** probnih podataka za tu aplikaciju. Paket **demo podataka** instalira **rešenje Fabrikam Manufacturing Demo Data (v3.0.0.7)** sa približno 22.000 zapisa u 148 entiteta.
+Paketi sa probnim podacima referenci za Field Service i Project Service instaliraju **rešenje Fabrikam Manufacturing Master Data (v3.0.0.0)**, zajedno sa otprilike 4000 zapisa i približno 40 različitih entiteta. Zasebni paketi probnih podataka za programe Field Service ili Project Service sadrže podskup **v902FPSMasterData** probnih podataka za tu aplikaciju. Paket **demo podataka** instalira **rešenje Fabrikam Manufacturing Demo Data (v3.0.0.7)** sa približno 22.000 zapisa u 148 entiteta.
 
 Fiktivno preduzeće Fabrikam Robotics je proizvođač robota za linije za sklapanje elektronskih uređaja i poznato je po kvalitetu proizvoda, inovaciji i dobroj korisničkoj službi, uključujući planiranje instalacija, primenu i usluge tekućeg održavanja. Fabrikam ima sedište u SAD (Fabrikam US) i ima servisne operacije zasnovane na projektima u Francuskoj, Indiji, Ujedinjenom Kraljevstvu i Švajcarskoj.
 
@@ -291,7 +291,7 @@ Podrazumevano, svi resursi koji mogu da se rezervišu imaju kalendar sa podrazum
 
 Ako morate da promenite radno vreme za probne resurse koji mogu da se rezervišu, idite u opciju **Universal Resource Scheduling** > **Planiranje** > **Resursi**.
 
-Izaberite korisnika (na primer, Spencer Low) i promenite radno vreme za zaposlenog Spencer na radno vreme koje želite da primenite na više korisnika. Idite na stavku **Universal Resource Scheduling** > **Podešavanja** > **Predlošci radnog vremena** i uredite zapis **Podrazumevani predložak rada**. U polju **Resurs predloška** , izaberite korisnika sa radnim vremenom koje želite da primenite na druge resurse. Idite na **Universal Resource Scheduling** > **Planiranje** > **Resursi** > **Aktivni resursi koji mogu da se rezervišu**. Izaberite resurse koje želite da promenite, a zatim izaberite **Postavi kalendar**. Na padajućoj listi **Predložak rada** izaberite predložak **Podrazumevano radno vreme** ili drugi predložak sa ispravnim resursom za predložak. Kada odete na tabelu rasporeda, trebalo bi da možete da vidite da resursi sada imaju ispravljeno radno vreme.
+Izaberite korisnika (na primer, Spencer Low) i promenite radno vreme za zaposlenog Spencer na radno vreme koje želite da primenite na više korisnika. Idite na stavku **Universal Resource Scheduling** > **Podešavanja** > **Predlošci radnog vremena** i uredite zapis **Podrazumevani predložak rada**. U polju **Resurs predloška**, izaberite korisnika sa radnim vremenom koje želite da primenite na druge resurse. Idite na **Universal Resource Scheduling** > **Planiranje** > **Resursi** > **Aktivni resursi koji mogu da se rezervišu**. Izaberite resurse koje želite da promenite, a zatim izaberite **Postavi kalendar**. Na padajućoj listi **Predložak rada** izaberite predložak **Podrazumevano radno vreme** ili drugi predložak sa ispravnim resursom za predložak. Kada odete na tabelu rasporeda, trebalo bi da možete da vidite da resursi sada imaju ispravljeno radno vreme.
 
 > [!div class="mx-imgBorder"]
 > ![Snimak ekrana aktivnih resursa koji mogu da se rezervišu](media/sample-data-6.png)

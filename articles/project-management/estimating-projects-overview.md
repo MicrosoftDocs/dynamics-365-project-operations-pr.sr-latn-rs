@@ -5,15 +5,15 @@ author: ruhercul
 manager: AnnBe
 ms.date: 10/06/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.openlocfilehash: 8e7ee4888a907b9d8c3ce06c1597f6b05be84477
-ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
+ms.openlocfilehash: d35be82563515adbba2c22402a751ed3daca8f83
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: sr-Latn-RS
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4083469"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4131585"
 ---
 # <a name="estimate-projects-overview"></a>Pregled procene projekata
 
@@ -74,7 +74,7 @@ Ako ste u detalj stavke ponude dodali prilagođeno polje i želite da sistem une
 2. Izaberite **Pretraga** i potražite dodatnu komponentu za ažuriranje.
 3. Izaberite dodatnu komponentu, a zatim na glavnoj stranici kliknite na **Izaberi**.
 4. Izaberite korak dodatne komponente za ažuriranje, kliknite desnim tasterom miša, a zatim izaberite **Ažuriraj**.
-5. U dijalogu **Ažuriranje postojećeg koraka** , u polju **Atributi filtriranja** , izaberite dugme sa tri tačke ( **...** ):
+5. U dijalogu **Ažuriranje postojećeg koraka**, u polju **Atributi filtriranja**, izaberite dugme sa tri tačke (**...**):
 6. U dijalogu **Izbor atributa** potvrdite izbor u poljima za prilagođene atribute.
 7. Izaberite **U redu** da zatvorite dijalog, a zatim izaberite **Ažuriraj korak**.
 8. Ponovite korake od 1 do 7 za drugu dodatnu komponentu.

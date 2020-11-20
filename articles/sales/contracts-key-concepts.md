@@ -1,21 +1,21 @@
 ---
-title: Ključni koncepti – ugovori za projekat
+title: Ugovori za projekat – Ključni koncepti
 description: Ova tema pruža informacije o ključnim konceptima ugovora za projekat u usluzi Project Operations.
 author: rumant
 manager: Annbe
 ms.date: 10/07/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 4ab43a9de6b27f0f0e9b8cbe6ea8b613ce81e08d
-ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
+ms.openlocfilehash: 24b3fcd74e4167ba419e12c890a119d22c54c99a
+ms.sourcegitcommit: 625878bf48ea530f3381843be0e778cebbbf1922
 ms.translationtype: HT
 ms.contentlocale: sr-Latn-RS
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4083516"
+ms.lasthandoff: 10/30/2020
+ms.locfileid: "4175548"
 ---
-# <a name="key-concepts---project-contracts"></a>Ključni koncepti – ugovori za projekat
+# <a name="project-contracts---key-concepts"></a>Ugovori za projekat – Ključni koncepti
 
 _**Odnosi se na:** Project Operations za scenarije zasnovane na resursima / bez zaliha_
 

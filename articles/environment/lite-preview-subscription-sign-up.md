@@ -1,21 +1,21 @@
 ---
-title: Prijavite se za pretplatu na pregled
+title: Prijavljivanje za pretplatu na pregled – jednostavno
 description: Ova tema pruža informacije o tome kako da se pretplatite i primenite uslugu Project Operations Lite – od pogodbe do profakture.
 author: sigitac
 manager: Annbe
 ms.date: 10/07/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 5342466f308ab62a9f73a85fbd838d7c33bb1f47
-ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
+ms.openlocfilehash: 6f4360b7febab57b97df0776ef9148d2a38f16a7
+ms.sourcegitcommit: 625878bf48ea530f3381843be0e778cebbbf1922
 ms.translationtype: HT
 ms.contentlocale: sr-Latn-RS
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4083443"
+ms.lasthandoff: 10/30/2020
+ms.locfileid: "4175908"
 ---
-# <a name="sign-up-for-a-preview-subscription-for-lite-deployment--deal-to-proforma-invoicing"></a>Prijavite se za pretplatu na verziju za pregled za laganu primenu – od pogodbe do profakture
+# <a name="sign-up-for-a-preview-subscription---lite"></a>Prijavljivanje za pretplatu na pregled – jednostavno 
 
 Ova tema objašnjava kako da se pretplatite na partnersku ponudu za verziju za pregled i primenite uslugu Dynamics 365 Project Operations Lite u jednostavnoj primeni – od pogodbe do profakture.
 
@@ -67,7 +67,7 @@ Ponovite iste korake kao kod prve šifre ponude. Obavezno dodajte drugu šifru p
 
 ![Početna stranica centra administracije](./media/14AdminPortal.png)
 
-2. Na stranici **Aktivni korisnici** , izaberite korisnike kojima želite da dodelite licencu.
+2. Na stranici **Aktivni korisnici**, izaberite korisnike kojima želite da dodelite licencu.
 
 ![Dodeljivanje licenci](./media/15AssignLicenses.png)
 
