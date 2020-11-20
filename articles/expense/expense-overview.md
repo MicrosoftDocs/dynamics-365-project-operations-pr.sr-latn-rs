@@ -5,41 +5,41 @@ author: stsporen
 manager: AnnBe
 ms.date: 10/06/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: stsporen
-ms.openlocfilehash: 6da831fef5dba060b8019d7689645405c7ebdbed
-ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
+ms.openlocfilehash: 6c5ef2a45e8141bda38baf3eaf0a403d6db95e48
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: sr-Latn-RS
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4083460"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4122854"
 ---
-# <a name="expense-home-page"></a><span data-ttu-id="54251-103">Početna stranica troškova</span><span class="sxs-lookup"><span data-stu-id="54251-103">Expense home page</span></span>
+# <a name="expense-home-page"></a><span data-ttu-id="ae833-103">Početna stranica troškova</span><span class="sxs-lookup"><span data-stu-id="ae833-103">Expense home page</span></span>
 
-<span data-ttu-id="54251-104">_**Odnosi se na:** Project Operations za resurs/scenarije koji nisu zasnovani na zalihama, laganu primenu – od pogodbe do profakture_</span><span class="sxs-lookup"><span data-stu-id="54251-104">_**Applies To:** Project Operations for resource/non-stocked based scenarios, Lite deployment - deal to proforma invoicing_</span></span>
+<span data-ttu-id="ae833-104">_**Odnosi se na:** Project Operations za resurs/scenarije koji nisu zasnovani na zalihama, laganu primenu – od pogodbe do profakture_</span><span class="sxs-lookup"><span data-stu-id="ae833-104">_**Applies To:** Project Operations for resource/non-stocked based scenarios, Lite deployment - deal to proforma invoicing_</span></span>
 
 
-<span data-ttu-id="54251-105">Dynamics 365 Project Operations podržava mogućnost obrade troškova.</span><span class="sxs-lookup"><span data-stu-id="54251-105">Dynamics 365 Project Operations supports the ability to process expenses.</span></span> <span data-ttu-id="54251-106">Obrada troškova se odvija sa projektima ili bez njih korišćenjem prilagodljivog toka posla smernica, kategorija transakcija i odobrenja.</span><span class="sxs-lookup"><span data-stu-id="54251-106">Expense processing occurs with or without projects by using a customizable workflow of policies, transaction categories, and approvals.</span></span>
+<span data-ttu-id="ae833-105">Dynamics 365 Project Operations podržava mogućnost obrade troškova.</span><span class="sxs-lookup"><span data-stu-id="ae833-105">Dynamics 365 Project Operations supports the ability to process expenses.</span></span> <span data-ttu-id="ae833-106">Obrada troškova se odvija sa projektima ili bez njih korišćenjem prilagodljivog toka posla smernica, kategorija transakcija i odobrenja.</span><span class="sxs-lookup"><span data-stu-id="ae833-106">Expense processing occurs with or without projects by using a customizable workflow of policies, transaction categories, and approvals.</span></span>
 
-<span data-ttu-id="54251-107">U usluzi Project Operations postoje dva podržana modela primene za troškove:</span><span class="sxs-lookup"><span data-stu-id="54251-107">In Project Operations, there are two supported deployment models for Expense:</span></span> 
+<span data-ttu-id="ae833-107">U usluzi Project Operations postoje dva podržana modela primene za troškove:</span><span class="sxs-lookup"><span data-stu-id="ae833-107">In Project Operations, there are two supported deployment models for Expense:</span></span> 
 
-- <span data-ttu-id="54251-108">**Potpuno** : Potpuna primena je dostupna za **Project Operations za scenarije zasnovane na resursima / bez zaliha** ili **Project Operations za scenarije zasnovane na nalogu za proizvodnju**.</span><span class="sxs-lookup"><span data-stu-id="54251-108">**Full** : Full deployment is available for **Project Operations for resource/non-stocked based scenarios** or **Project Operations for production order based scenarios**.</span></span>
-- <span data-ttu-id="54251-109">**Osnovno** : Osnovna primena je dostupna za **Project Operations za scenarije zasnovane na resursima / bez zaliha** i **Jednostavna primena – od pogodbe do profakture**.</span><span class="sxs-lookup"><span data-stu-id="54251-109">**Basic** : Basic deployment is available for **Project Operations for resource/non-stocked based scenarios** and **Lite deployment – deal to proforma invoicing**.</span></span>
+- <span data-ttu-id="ae833-108">**Potpuno**: Potpuna primena je dostupna za **Project Operations za scenarije zasnovane na resursima / bez zaliha** ili **Project Operations za scenarije zasnovane na nalogu za proizvodnju**.</span><span class="sxs-lookup"><span data-stu-id="ae833-108">**Full**: Full deployment is available for **Project Operations for resource/non-stocked based scenarios** or **Project Operations for production order based scenarios**.</span></span>
+- <span data-ttu-id="ae833-109">**Osnovno**: Osnovna primena je dostupna za **Project Operations za scenarije zasnovane na resursima / bez zaliha** i **Jednostavna primena – od pogodbe do profakture**.</span><span class="sxs-lookup"><span data-stu-id="ae833-109">**Basic**: Basic deployment is available for **Project Operations for resource/non-stocked based scenarios** and **Lite deployment – deal to proforma invoicing**.</span></span>
 
-## <a name="full"></a><span data-ttu-id="54251-110">Pun</span><span class="sxs-lookup"><span data-stu-id="54251-110">Full</span></span> 
-<span data-ttu-id="54251-111">Potpuna primena troškova obezbeđuje potpuno sprovođenje smernica, što obuhvata mogućnost kreiranja smernica, kao što su:</span><span class="sxs-lookup"><span data-stu-id="54251-111">Full Expense deployment provides a complete policy enforcement which includes the ability to create policies, such as:</span></span>
+## <a name="full"></a><span data-ttu-id="ae833-110">Pun</span><span class="sxs-lookup"><span data-stu-id="ae833-110">Full</span></span> 
+<span data-ttu-id="ae833-111">Potpuna primena troškova obezbeđuje potpuno sprovođenje smernica, što obuhvata mogućnost kreiranja smernica, kao što su:</span><span class="sxs-lookup"><span data-stu-id="ae833-111">Full Expense deployment provides a complete policy enforcement which includes the ability to create policies, such as:</span></span>
 
-  - <span data-ttu-id="54251-112">Ograničenja kategorija troškova</span><span class="sxs-lookup"><span data-stu-id="54251-112">Expense category limits</span></span>
-  - <span data-ttu-id="54251-113">Putovanje</span><span class="sxs-lookup"><span data-stu-id="54251-113">Travel</span></span>
-  - <span data-ttu-id="54251-114">Dnevnica</span><span class="sxs-lookup"><span data-stu-id="54251-114">Per diem</span></span>
-  - <span data-ttu-id="54251-115">Uvozi kreditnih kartica</span><span class="sxs-lookup"><span data-stu-id="54251-115">Credit card imports</span></span>
-  - <span data-ttu-id="54251-116">Optičko prepoznavanje znakova priznanice</span><span class="sxs-lookup"><span data-stu-id="54251-116">Receipt optical character recognition</span></span>
+  - <span data-ttu-id="ae833-112">Ograničenja kategorija troškova</span><span class="sxs-lookup"><span data-stu-id="ae833-112">Expense category limits</span></span>
+  - <span data-ttu-id="ae833-113">Putovanje</span><span class="sxs-lookup"><span data-stu-id="ae833-113">Travel</span></span>
+  - <span data-ttu-id="ae833-114">Dnevnica</span><span class="sxs-lookup"><span data-stu-id="ae833-114">Per diem</span></span>
+  - <span data-ttu-id="ae833-115">Uvozi kreditnih kartica</span><span class="sxs-lookup"><span data-stu-id="ae833-115">Credit card imports</span></span>
+  - <span data-ttu-id="ae833-116">Optičko prepoznavanje znakova priznanice</span><span class="sxs-lookup"><span data-stu-id="ae833-116">Receipt optical character recognition</span></span>
 
-## <a name="basic"></a><span data-ttu-id="54251-117">Osnovno</span><span class="sxs-lookup"><span data-stu-id="54251-117">Basic</span></span> 
-<span data-ttu-id="54251-118">Scenarij primene osnovnih troškova vam omogućava samo evidentiranje osnovnih troškova u odnosu na projekat.</span><span class="sxs-lookup"><span data-stu-id="54251-118">Basic Expense deployment scenario only allows you to record basic expenses against a project.</span></span> 
+## <a name="basic"></a><span data-ttu-id="ae833-117">Osnovno</span><span class="sxs-lookup"><span data-stu-id="ae833-117">Basic</span></span> 
+<span data-ttu-id="ae833-118">Scenarij primene osnovnih troškova vam omogućava samo evidentiranje osnovnih troškova u odnosu na projekat.</span><span class="sxs-lookup"><span data-stu-id="ae833-118">Basic Expense deployment scenario only allows you to record basic expenses against a project.</span></span> 
 
-<span data-ttu-id="54251-119">Za više informacija, pogledajte [Unos troškova (jednostavno)](basic-expense.md)</span><span class="sxs-lookup"><span data-stu-id="54251-119">For more information, see [Expense entry (lite)](basic-expense.md)</span></span>
+<span data-ttu-id="ae833-119">Za više informacija, pogledajte [Unos troškova (jednostavno)](basic-expense.md)</span><span class="sxs-lookup"><span data-stu-id="ae833-119">For more information, see [Expense entry (lite)](basic-expense.md)</span></span>
 
-## <a name="determine-your-expense-deployment"></a><span data-ttu-id="54251-120">Odredite svoju primenu troškova</span><span class="sxs-lookup"><span data-stu-id="54251-120">Determine your Expense deployment</span></span>
-<span data-ttu-id="54251-121">Da biste utvrdili da li pokrećete primenu upravljanja osnovnim troškovima, proverite da li se URL adresa završava sa **.crm.dynamics.com**.</span><span class="sxs-lookup"><span data-stu-id="54251-121">To determine if you're running the Basic Expense management deployment, verify that the address URL ends with **.crm.dynamics.com**.</span></span> 
+## <a name="determine-your-expense-deployment"></a><span data-ttu-id="ae833-120">Odredite svoju primenu troškova</span><span class="sxs-lookup"><span data-stu-id="ae833-120">Determine your Expense deployment</span></span>
+<span data-ttu-id="ae833-121">Da biste utvrdili da li pokrećete primenu upravljanja osnovnim troškovima, proverite da li se URL adresa završava sa **.crm.dynamics.com**.</span><span class="sxs-lookup"><span data-stu-id="ae833-121">To determine if you're running the Basic Expense management deployment, verify that the address URL ends with **.crm.dynamics.com**.</span></span> 
