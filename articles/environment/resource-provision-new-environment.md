@@ -3,17 +3,17 @@ title: Obezbeđenje novog okruženja
 description: Ova tema pruža informacije o načinu obezbeđenja novog Project Operations okruženja.
 author: sigitac
 manager: Annbe
-ms.date: 10/07/2020
+ms.date: 10/26/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: a43b947207b6d4276ef27ec996713bf3883e7906
-ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
+ms.openlocfilehash: 044a942a068b33318b98041cc94944d90c1d63c3
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: sr-Latn-RS
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4083467"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4121190"
 ---
 # <a name="provision-a-new-environment"></a>Obezbeđenje novog okruženja
 
@@ -40,14 +40,14 @@ Koristite sledeće korake da omogućite Project Operations automatizovani tok ob
 > Uverite se da je izabrana verzija aplikacije 10.0.13 ili novija.
 
 3. Da biste obezbedili Project Operations, u delu **Napredna podešavanja** izaberite **Common Data Service**. 
-4. Omogućite **Common Data Service podešavanje** birajući **Da** , a zatim unesite podatke u obavezna polja:
+4. Omogućite **Common Data Service podešavanje** birajući **Da**, a zatim unesite podatke u obavezna polja:
 
   - +Ime
   - Region
   - Jezik
   - Valuta
  
-5. U polju **Common Data Service predložak** , izaberite **Project Operations** 
+5. U polju **Common Data Service predložak**, izaberite **Project Operations** 
 
 6. Izaberite vrstu okruženja za vašu primenu. Probno vreme zasnovano na pretplati omogućiće vam da primenite CDS okruženje na 30 dana. 
 
@@ -76,7 +76,7 @@ Project Operations zahteva Finance okruženje sa verzijom aplikacije **10.0.13 (
 
 Možda ćete morati da primenite ispravke kvaliteta u svom Finance okruženju da biste dobili ovu verziju.
 
-1. U LCS-u, na stranici **Detalji okruženja** , u odeljku **Dostupne ispravke** izaberite **Prikaži ispravku**.
+1. U LCS-u, na stranici **Detalji okruženja**, u odeljku **Dostupne ispravke** izaberite **Prikaži ispravku**.
 
 ![Prikaz ispravki](./media/5ViewUpdates.png)
 
@@ -84,7 +84,7 @@ Možda ćete morati da primenite ispravke kvaliteta u svom Finance okruženju da
 
 ![Sačuvaj paket](./media/6SavePackage.png)
 
-3. Kliknite na **Izaberi sve** , a zatim izaberite **Sačuvaj paket**.
+3. Kliknite na **Izaberi sve**, a zatim izaberite **Sačuvaj paket**.
 
 ![Pregledajte i sačuvajte ispravke](./media/7ReviewAndSaveUpdates.png)
 
@@ -111,7 +111,7 @@ Servisiranje okruženja će potrajati neko vreme. Po završetku, okruženje će 
 ## <a name="establish-a-dual-write-connection"></a>Uspostavite vezu sa dvostrukim upisivanjem 
 
 1. U svom LCS projektu idite na stranicu **Detalji okruženja**.
-2. U odeljku **Common Data Service informacije o okruženju** , izaberite **Poveži sa uslugom CDS za aplikacije**.
+2. U odeljku **Common Data Service informacije o okruženju**, izaberite **Poveži sa uslugom CDS za aplikacije**.
 3. Kada se povezivanje završi, ponovo izaberite **Poveži sa uslugom CDS za aplikacije**. Bićete preusmereni na dvostruko upisivanje u usluzi Finance.
 
 ![Povezivanje sa uslugom CDS](./media/12LinktoCDS.png)
@@ -120,7 +120,7 @@ Servisiranje okruženja će potrajati neko vreme. Po završetku, okruženje će 
 
 ![Primena rešenja](./media/13ApplySolutions.png)
 
-5. Izaberite oba rešenja, **Dynamics 365 Finance and Operations mapa entiteta za dvostruko upisivanje** i **Dynamics 365 Project Operations mape entiteta dvostrukog upisivanja** , a zatim izaberite **Primeni**.
+5. Izaberite oba rešenja, **Dynamics 365 Finance and Operations mapa entiteta za dvostruko upisivanje** i **Dynamics 365 Project Operations mape entiteta dvostrukog upisivanja**, a zatim izaberite **Primeni**.
 
 ![Potvrda rešenja](./media/14ConfirmSolutions.png)
 
@@ -142,7 +142,7 @@ Kada se entiteti primene, sva raspoloživa mapiranja se navode u okruženju.
 
 ![Parametri radnog okvira](./media/17FrameworkParameters.png)
 
-3. Na stranici **Podešavanja entiteta** , izaberite **Osveži listu entiteta**.
+3. Na stranici **Podešavanja entiteta**, izaberite **Osveži listu entiteta**.
 
 ![Osveži listu entiteta](./media/18RefreshEntityList.png)
 
@@ -153,7 +153,7 @@ Osvežavanje će trajati približno 20 minuta. Dobićete upozorenje kada se zavr
 ## <a name="run-project-operations-dual-write-maps"></a>Pokrenite Project Operations mape dvostrukog upisivanja
 
 1. U svom LCS projektu idite na stranicu **Detalji okruženja**.
-2. U odeljku **Common Data Service informacije o okruženju** , izaberite **Poveži sa uslugom CDS za aplikacije.** Kada izaberete vezu, bićete preusmereni na listu entiteta u mapiranjima.
+2. U odeljku **Common Data Service informacije o okruženju**, izaberite **Poveži sa uslugom CDS za aplikacije.** Kada izaberete vezu, bićete preusmereni na listu entiteta u mapiranjima.
 3. Pokrenite mape kao što je opisano u sledećoj tabeli. Uverite se da sledite navedeni redosled.
 
 | **Mapa entiteta** | **Osvežavanje entiteta** | **Početna sinhronizacija** | **Master za početnu sinhronizaciju** | **Preduslovi za pokretanje** | **Početna sinhronizacija preduslova** |
@@ -177,7 +177,7 @@ Osvežavanje će trajati približno 20 minuta. Dobićete upozorenje kada se zavr
 
 5. Kada se osvežavanje završi, pokrenite mapu. Pre nego što omogućite sledeću mapu, proverite da li je mapa u tabeli u stanju **Pokrenuta**. Pokretanje mapa sa većim brojem preduslova može potrajati.
 
-Da biste pokrenuli mapu sa preduslovima, omogućite preklopno dugme **Prikaži povezane mape entiteta**. Ako tabela pokazuje da **Početna sinhronizacija preduslova** ima vrednost **Ne** , proverite da li je zastavica **Početna sinhronizacija** **isključena** u svim mapama preduslova pre nego što je pokrenete.
+Da biste pokrenuli mapu sa preduslovima, omogućite preklopno dugme **Prikaži povezane mape entiteta**. Ako tabela pokazuje da **Početna sinhronizacija preduslova** ima vrednost **Ne**, proverite da li je zastavica **Početna sinhronizacija** **isključena** u svim mapama preduslova pre nego što je pokrenete.
 
 ![Pokretanje mape](./media/21RunMap.png)
 
@@ -185,4 +185,10 @@ Da biste pokrenuli mapu sa preduslovima, omogućite preklopno dugme **Prikaži p
 
 ![Sve mape su pokrenute](./media/22AllMapsRunning.png)
 
-Vaše Project Operations okruženje je sada obezbeđeno i konfigurisano.
+
+## <a name="apply-configuration-data-in-cds-for-project-operations-optional"></a>Primena podataka o konfiguraciji u usluzi CDS za Project Operations (opcionalno)
+
+Ako ste primenili demo podatke na Finance okruženje, pogledajte članak [Podešavanje i primena podataka o konfiguraciji u usluzi Common Data Service za Project Operations](resource-apply-pro-setup-config-data.md) za primenu demo podataka na CDS okruženje.
+
+
+Vaše Project Operations okruženje je sada obezbeđeno i konfigurisano. 

@@ -3,7 +3,7 @@ title: Šta je novo ili promenjeno u izdanju 18 ispravke za Project Service Auto
 description: U ovoj temi date su funkcije i ispravke koje su dostupne u izdanju 18 ispravke za Project Service Automation verzije 3.
 author: ruhercul
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom: dyn365-projectservice
 ms.date: 04/27/2020
 ms.topic: article
@@ -17,12 +17,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 1d7ea200531dd24d56a829f879e3a2532a9b38dc
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 3a6d3ee21ecf742b2253132f3d3cc1cb2b57af75
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: sr-Latn-RS
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4083534"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4119885"
 ---
 # <a name="project-service-automation-update-release-18-v3"></a>Project Service Automation izdanje ispravke 18, u verziji 3
 
@@ -36,7 +36,7 @@ U ovoj temi date su funkcije koje su nove ili su promenjene u rešenju Project S
 
 **Vreme i trošak**
 
-- Popravljeno: tokovi **Opoziv** , **Zahtev** i **Otkaži odobrenje** izbacuju izuzetke sa nejasnim porukama o greškama.
+- Popravljeno: tokovi **Opoziv**, **Zahtev** i **Otkaži odobrenje** izbacuju izuzetke sa nejasnim porukama o greškama.
 - Popravljeno: Kada **Otkaži odobrenje** ne uspe za trošak, ne izbacuje se relevantna greška izuzetka.
 - Popravljeno: Mreža stavke vremena pogrešno obrađuje neradne dane u Australiji nakon prebacivanja letnjeg vremena (DST) u oktobru.
 - Popravljeno: Nepravilna logika podrazumevanih vrednosti sprečava podnošenje troškova.
@@ -60,4 +60,4 @@ U ovoj temi date su funkcije koje su nove ili su promenjene u rešenju Project S
 
 **Sales**
 
-- Popravljeno: Kada se stavke vremena ponovo odobre ( **Odobri > Otkaži >** Ponovo odobri), kreira se duplikat nenaplative stvarne vrednosti.
+- Popravljeno: Kada se stavke vremena ponovo odobre (**Odobri > Otkaži >** Ponovo odobri), kreira se duplikat nenaplative stvarne vrednosti.

@@ -3,7 +3,7 @@ title: Šta je novo ili promenjeno u izdanju 16 ispravke Project Service Automat
 description: U ovoj temi date su funkcije i ispravke koje su dostupne u izdanju 16 ispravke za Project Service Automation verzije 3.
 author: ruhercul
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom: dyn365-projectservice
 ms.date: 02/18/2020
 ms.topic: article
@@ -17,12 +17,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: f277d23e3fb0517f072e51f6f80f855479ab8189
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 2c93d34b61001b7755d426539ac384641a7bc9da
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: sr-Latn-RS
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4083539"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4121595"
 ---
 # <a name="project-service-automation-update-release-16-v3"></a>Project Service Automation izdanje ispravke 16, u verziji 3
 
@@ -56,7 +56,7 @@ U ovoj temi date su funkcije i ispravke koje su nove ili su promenjene u rešenj
 
     -   Ispravljeno: kada se ukloni projekat mapiran na predmetu ugovora i mapira se novi projekat, stvarni zapisi o novom projektu nisu bili preispitivani na osnovu pravila za obračun i cena definisanih na liniji ugovora. Ovo je ispravljeno u ovom izdanju. Cene i stvarni zapisi projekta koji je skoro mapiran će biti opozvani, pa ponovo kreirani ispravno na osnovu pravila o cenama i naplatama iz predmeta ugovora. Kao posledica ovoga, stvarni zapisi o projektu koji nije mapiran će takođe biti ponovo procenjeni, pa ponovo kreirani.
 
-    -   Fiksno: dodata je dodatna provera u stavku procene, u polje **Iznos** , kako bi se osiguralo da se nulte vrednosti ne zadržavaju.
+    -   Fiksno: dodata je dodatna provera u stavku procene, u polje **Iznos**, kako bi se osiguralo da se nulte vrednosti ne zadržavaju.
 
     -   Fiksno: kada se na projektu ažurira trenutno stanje, u glavni obrazac projekta se dodaje dugme za osvežavanje kako bi se korisnicima omogućilo da ponovo sinhronizuju trenutno stanje.
 

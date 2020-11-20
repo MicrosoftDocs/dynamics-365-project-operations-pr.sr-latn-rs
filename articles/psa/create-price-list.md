@@ -3,7 +3,7 @@ title: Kreiranje cenovnika
 description: Kako da kreirate cenovnik u aplikaciji Project Service
 author: rumant
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 8/03/2018
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: bf75286fd1837e27a9b6053ccb21b60771ee197d
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 08d93ad86d782922df6b22370749628ddbdc0718
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: sr-Latn-RS
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4083616"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4122045"
 ---
 # <a name="create-a-price-list-project-service"></a>Kreiranje cenovnika (Project Service)
 
@@ -39,15 +39,15 @@ Cenovnici se oslanjaju na uloge i kategorije troškova, tako da, pre nego što k
   
 2.  Kliknite na dugme **Novo**.  
   
-3.  U opciji **Kontekst** , izaberite da li je ovaj cenovnik za **Trošak** , **Kupovinu** ili **Prodaju**.  
+3.  U opciji **Kontekst**, izaberite da li je ovaj cenovnik za **Trošak**, **Kupovinu** ili **Prodaju**.  
   
 4.  U opciji **Ime** unesite ime za cenovnik.  
   
 5.  U opciji **Valuta** izaberite valutu koju ćete da koristite za naplatu ili uspostavljanje troškova.  
   
-6.  U opciji **Jedinica za vreme** , navedite vremenski period na koji se cena primenjuje, kao što su dan ili čas.  
+6.  U opciji **Jedinica za vreme**, navedite vremenski period na koji se cena primenjuje, kao što su dan ili čas.  
   
-7.  Popunite polja **Datum početka** , **Datum završetka** i **Opis** , a po potrebi.  
+7.  Popunite polja **Datum početka**, **Datum završetka** i **Opis**, a po potrebi.  
   
 8.  Kliknite na dugme **Sačuvaj** za kreiranje zapisa tako da možete da nastavite ga uređujete.  
   

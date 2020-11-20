@@ -6,7 +6,7 @@ manager: AnnBe
 ms.date: 09/16/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 audience: Application User
 ms.reviewer: kfend
 ms.search.scope: ''
@@ -17,12 +17,12 @@ ms.search.industry: ''
 ms.author: kfend
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: 8e1001144bf5347ba1c170cdeae494deef6c2d9c
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 7fce84c9cc1f9c1beda73f403c052f779d10559f
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: sr-Latn-RS
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4083549"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4120830"
 ---
 # <a name="dynamics-365-project-operations"></a>Dynamics 365 Project Operations
 
@@ -32,7 +32,7 @@ Microsoft Dynamics 365 Project Operations povezuje timove za prodaju, resurse, u
 -   **Prodaja je omogućena** da biste osvojili više pogodbi i ubrzali prodajni ciklus brzim i tačnim ponudama, fleksibilnim cenama i lakim prelazima od procene ka izvršenju.
 -   **Obezbeđivanje resursa je podešeno za optimizaciju** korišćenja resursa usklađivanjem pravih ljudi, sa pravim veštinama, uz prave projekte. To poboljšava kvalitet i pomaže zadržavanju najuspešnijih učesnika.
 -   **Menadžeri projekata mogu ubrzati** isporuku projekata sa vrhunskim, ugrađenim upravljanjem projektima koje koristi poznate, jednostavne mogućnosti programa Microsoft Project.
--   **Članovi tima mogu da poboljšaju produktivnost** , saradnju i vidljivost uz integraciju u Microsoft Teams, kao i da prijavljuju vreme i troškove sa bilo kog mesta.
+-   **Članovi tima mogu da poboljšaju produktivnost**, saradnju i vidljivost uz integraciju u Microsoft Teams, kao i da prijavljuju vreme i troškove sa bilo kog mesta.
 -   **Finansije mogu pojednostaviti računovodstvo projekata** sa upravljanjem praćenja vremena i troškova, obračunom troškova projekata, budžetiranjem, fakturisanjem, priznavanjem prihoda, usklađivanjem i vidljivošću ključnih pokazatelja stanja poslovanja.
 
 Usluga Project Operations je moćna sama po sebi, ali naši klijenti kojima su potrebne dodatne mogućnosti mogu da je prošire iz sistema Dynamics 365. To uključuje Marketing, Ljudske resurse, Customer Service i još mnogo toga. Bez obzira da li želite dodatnu funkcionalnost neke druge Dynamics 365 aplikacije ili da je dodate na prilagođenu aplikaciju izgrađenu u usluzi Power Apps, sve funkcioniše zajedno i onako kako očekujete, jer dele zajedničke temelje bezbednog, privatnog i usklađenog rešenja isporučenog u oblaku.

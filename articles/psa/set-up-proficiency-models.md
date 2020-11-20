@@ -3,7 +3,7 @@ title: Podešavanje modela stručnosti
 description: Kako da podesite modele stručnosti u aplikaciji Project Service
 author: JohnPBurrows
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 8/03/2018
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 653b7eef12c57203fbc6853e97d3be43bdb85b9d
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 2d13d5bbfd43ef88ec2f285357ee26a2a87db870
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: sr-Latn-RS
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4083797"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4122995"
 ---
 # <a name="set-up-proficiency-models-project-service"></a>Podešavanje modela stručnosti (Project Service)
 
@@ -35,7 +35,7 @@ Sada da ste dodali veštine za projekte klijenata, potrebno je da ocenite vešti
   
 2.  Da biste prikazali ili uredili podrazumevani model stručnosti, kliknite na **Podrazumevani model ocena** sa liste ili da biste kreirali novi model stručnosti kliknite na dugme **Novi**.  
   
-3.  Ako kreirate novi model stručnosti, popunite polja u oblasti **Opšte** , a zatim kliknite na dugme **Sačuvaj** za kreiranje zapisa tako da možete da nastavite ga uređujete. Kada kreirate sopstveni model stručnosti, imajte u vidu da su viši brojevi bolji.  
+3.  Ako kreirate novi model stručnosti, popunite polja u oblasti **Opšte**, a zatim kliknite na dugme **Sačuvaj** za kreiranje zapisa tako da možete da nastavite ga uređujete. Kada kreirate sopstveni model stručnosti, imajte u vidu da su viši brojevi bolji.  
   
      Na primer, ako prikazujete ili uređujete podrazumevani model ocena, videćete sledeće nivoe stručnosti u **Vrednosti ocena**.  
   

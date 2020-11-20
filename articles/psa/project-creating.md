@@ -3,7 +3,7 @@ title: Rasporedi projekata
 description: Ova tema pruža informacije o tome kako da kreirate raspored.
 author: ruhercul
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 3/01/2019
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 9a6b27050a19d8a7f2ed35f74b42bb4f371ad069
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: bad7a8712057b60d202c37cc75ea68bf04fd4cc9
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: sr-Latn-RS
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4083615"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4123259"
 ---
 # <a name="project-schedules"></a>Rasporedi projekata 
 
@@ -83,12 +83,12 @@ Dugmad **Premesti nagore** i **Premesti nadole** menjaju položaj zadatka unutar
 
 Mreža **Raspored** je potpuno dostupna i može se koristiti sa čitačima ekrana kao što su Narrator, JAWS ili NVDA. Kroz oblast mreže možete se kretati pomoću tastera sa strelicama (kao u programu Microsoft Excel), možete koristiti taster Tab da biste se kretali kroz interaktivne elemente korisničkog interfejsa, a pomoću tastera sa strelicom nadole, tastera Enter ili razmaknice možete da izaberete i pozovete padajuće menije. Zaglavlja kolona su takođe interaktivna. Možete da sakrijete i prikažete kolone, koristite tastere Tab i strelice da biste se kretali kroz zaglavlja kolona, kao i dugmad za radnje na traci sa alatkama. Pored toga, možete da koristite sledeće prečice na tastaturi:
 
-- **Osveži** : ALT+SHIFT+F5
-- **Dodaj** : ALT+SHIFT+Insert
-- **Izbriši** : ALT+SHIFT+Delete
-- **Pomeri nagore/nadole** : ALT+SHIFT+strelice nagore/nadole
-- **Uvuci/izvuci** : ALT_SHIFT+strelice nalevo/nadesno
-- **Razvij/skupi hijerarhije** : ALT+SHIFT+tasteri plus/minus
+- **Osveži**: ALT+SHIFT+F5
+- **Dodaj**: ALT+SHIFT+Insert
+- **Izbriši**: ALT+SHIFT+Delete
+- **Pomeri nagore/nadole**: ALT+SHIFT+strelice nagore/nadole
+- **Uvuci/izvuci**: ALT_SHIFT+strelice nalevo/nadesno
+- **Razvij/skupi hijerarhije**: ALT+SHIFT+tasteri plus/minus
 
 ## <a name="task-attributes"></a>Atributi zadatka
 
@@ -98,19 +98,19 @@ Ime zadatka opisuje posao koji mora da se dovrši. U aplikaciji PSA, atributi ko
  
 ### <a name="schedule-attributes"></a>Zakazivanje atributa
 
-Atributi **Aktivnosti** , **Datum početka** , **Datum završetka** i **Trajanje** definišu raspored za zadatak.
+Atributi **Aktivnosti**, **Datum početka**, **Datum završetka** i **Trajanje** definišu raspored za zadatak.
 
 U dodatne atribute rasporeda spadaju:
 
-- **Sati aktivnosti** : Unesite procenu sati potrebnih za ispunjavanje zadatka. 
-- **Trajanje** : Navedite broj radnih dana koji su potrebni za dovršavanje zadatka.
+- **Sati aktivnosti**: Unesite procenu sati potrebnih za ispunjavanje zadatka. 
+- **Trajanje**: Navedite broj radnih dana koji su potrebni za dovršavanje zadatka.
 - **ID rasporeda** : Ovaj automatski generisan ID koristi se za naručivanje zadataka u hijerarhiji. Zavisni elementi između zadataka upravljaju stvarnim redosledom kojim se zadaci obavljaju.
  
 ### <a name="staffing-attributes"></a>Atributi zaposlenih
 
 Atributima angažovanja se pristupa u polju **Resursi** u rasporedu. Možete potražiti postojeći resurs ili kliknite na **Kreiraj** i u oknu **Brzo kreiranje** dodajte člana projektnog tima kao novi resurs.
 
-Polja **Uloga** , **Jedinica za obezbeđivanje resursa** i **Naziv pozicije** se koriste za opisivanje potreba za angažovanjem resursa na zadatku. Ovi atributi angažovanja zajedno sa rasporedom zadataka koriste se za pronalaženje dostupnih resursa za obavljanje ovog zadatka.
+Polja **Uloga**, **Jedinica za obezbeđivanje resursa** i **Naziv pozicije** se koriste za opisivanje potreba za angažovanjem resursa na zadatku. Ovi atributi angažovanja zajedno sa rasporedom zadataka koriste se za pronalaženje dostupnih resursa za obavljanje ovog zadatka.
 
 **Uloga** - Navedite vrstu resursa koji je potreban za izvršavanje zadatka.
 
@@ -134,7 +134,7 @@ Režim zadatka određuje zakazivanje zadataka čvora lista. PSA podržava dva re
 
 ### <a name="auto-scheduling"></a>Automatsko zakazivanje 
  
-Kada je režim zadatka podešen na **Automatsko zakazivanje** , mehanizam za zakazivanje zadataka koristi pravila rasporeda za atribute zadataka radi utvrđivanja rasporeda zadatka:
+Kada je režim zadatka podešen na **Automatsko zakazivanje**, mehanizam za zakazivanje zadataka koristi pravila rasporeda za atribute zadataka radi utvrđivanja rasporeda zadatka:
 
 #### <a name="scheduling-rules"></a>Pravila zakazivanja
 

@@ -3,7 +3,7 @@ title: Formiranje cena za projekat
 description: Ova tema pruža informacije o načinu formiranja cena u aplikaciji Dynamics 365 Project Service Automation.
 author: rumant
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 03/11/2019
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: b319f9be9fd72ac99ce6012b6baffde812e3077d
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 88b791a1eb90d2aad67adba69169eab2c49c1318
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: sr-Latn-RS
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4083777"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4120785"
 ---
 # <a name="project-pricing"></a>Formiranje cena za projekat 
 
@@ -56,7 +56,7 @@ Termin *Uloga resursa* odnosi se na skup veština, kompetencija i certifikacije 
 
 Vreme ljudskih resursa se obično nudi na osnovu uloge koju resurs ima na određenom projektu. Za vreme ljudskih resursa, PSA podržava troškove i naplatu koji se zasnivaju na ulozi resursa. Vreme može biti izraženo cenom u bilo kojoj jedinici u grupi jedinica **Vreme**.
 
-Grupa jedinica **Vreme** se kreira kada se instalira PSA. Podrazumevana jedinica je **Čas**. Ne možete izbrisati, preimenovati niti urediti atribute grupe jedinica **Vreme** niti **Čas**. Međutim, možete da dodate druge jedinice u grupu jedinica **Vreme**. Ako pokušate da izbrišete grupu jedinica **Vreme** ili jedinicu **Čas** , možete uzrokovati otkazivanja poslovne logike aplikacije PSA.
+Grupa jedinica **Vreme** se kreira kada se instalira PSA. Podrazumevana jedinica je **Čas**. Ne možete izbrisati, preimenovati niti urediti atribute grupe jedinica **Vreme** niti **Čas**. Međutim, možete da dodate druge jedinice u grupu jedinica **Vreme**. Ako pokušate da izbrišete grupu jedinica **Vreme** ili jedinicu **Čas**, možete uzrokovati otkazivanja poslovne logike aplikacije PSA.
 
 > ![Konfigurisanje cena po ulozi](media/basic-guide-13.png)
  

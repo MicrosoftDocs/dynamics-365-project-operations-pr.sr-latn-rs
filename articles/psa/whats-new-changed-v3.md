@@ -2,7 +2,7 @@
 title: Šta je novo ili promenjeno u aplikaciji Project Service Automation verzije 3
 description: U ovoj temi date su informacije o tome šta je novo i šta se promenilo u rešenju Project Service Automation verzije 3.
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 11/28/2018
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 0c198a0fd293008b73422f3f60ea023f918e0ddc
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 46cbbc3ff3b0efcecd3cba30b265a782f6cdcf60
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: sr-Latn-RS
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4083542"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4120020"
 ---
 # <a name="whats-new-or-changed-in-project-service-automation-version-3"></a>Šta je novo ili promenjeno u aplikaciji Project Service Automation verzije 3
 [!INCLUDE[cc-applies-to-psa-app-1x-2x](../includes/cc-applies-to-psa-app-1x-2x.md)]
@@ -94,7 +94,7 @@ Procene su podeljene na dve kartice, **Dodela resursa** i **Procene**. Kartica *
 
 ![Kartica sa dodelama resursa prikazuje procene napora i dodele resursa za zadatke](media/resource-assignments-tab-02.png)
 
-Kartica **Procene** prikazuje iznose troškova i prodaje za dodele resursa. Iznosi su samo za čitanje. Cene troškova i prodaje sada se formiraju iz dodela članova tima u rasporedu. To znači da ako imate zadatak bez ikakve dodele, zadatak će se prikazati u okviru nedodeljene grupe. To takođe znači da bez **uloge** , koja predstavlja podrazumevanu dimenziju određivanja cena, neće biti procenjenih troškova ni prodaje ako imate klijenta ili ugovor/ponudu povezanu sa projektom. 
+Kartica **Procene** prikazuje iznose troškova i prodaje za dodele resursa. Iznosi su samo za čitanje. Cene troškova i prodaje sada se formiraju iz dodela članova tima u rasporedu. To znači da ako imate zadatak bez ikakve dodele, zadatak će se prikazati u okviru nedodeljene grupe. To takođe znači da bez **uloge**, koja predstavlja podrazumevanu dimenziju određivanja cena, neće biti procenjenih troškova ni prodaje ako imate klijenta ili ugovor/ponudu povezanu sa projektom. 
 
 ![Kartica Procene koja prikazuje iznose troškova i prodaje](media/estimates-tab-03.png)
   
@@ -192,7 +192,7 @@ Platforma Common Data Service ne podržava da jedan korisnik lažno predstavlja 
 Prilagođavanje vam omogućava da dodate **Resurs koji može da se rezerviše** kako biste kreirali i uređivali iskustava, što će omogućiti korisniku da deluje kao delegat menjajući polje **Rezervacija resursa** na drugog korisnika za koga je potrebno evidentirati stavke vremena i troškova. Sledeći koraci pokrivaju delegiranje stavki vremena i troškova. Iste informacije se odnose i na delegiranje stavke troška. 
  
 1.  Osigurajte da delegirani korisnik ima globalni sigurnosni pristup projektima i projektnim zadacima. 
-1.  Pošto polje **Resurs koji može da se rezerviše** , u okviru entiteta **Stavka vremena** nije prikazano na stranici **Brzo kreiranje** , morate da ga dodate.
+1.  Pošto polje **Resurs koji može da se rezerviše**, u okviru entiteta **Stavka vremena** nije prikazano na stranici **Brzo kreiranje**, morate da ga dodate.
 
     – ili –
 
@@ -207,7 +207,7 @@ Prilagođavanje vam omogućava da dodate **Resurs koji može da se rezerviše** 
 1.  Kada kreirate stavku vremena na stranici za brzo kreiranje, unesite detalje projekta i projektnog zadatka, a zatim odaberite korisnika u polju **Resurs koji može da se rezerviše** za koga treba da se evidentiraju stavke vremena. 
 2.  Podrazumevana vrednost ovog polja je prijavljeni korisnik. Međutim, s obzirom da je korisnik zamenio ovo polje, sada se stavka vremena kreira za odabrani **Resurs koji može da se rezerviše**.
 3.  Kada prosledite stavke vremena koje ste kreirali za ove zapise, stavke će se staviti u red za davaoca odobrenja u projektu onako kako se očekuje. 
-4.  Kada opozovete stavke vremena kreirane za drugog korisnika, stavke vremena će se vratiti u status **Radna verzija** , a polje **Resurs koji može da se rezerviše** će biti podešeno na drugog korisnika. 
+4.  Kada opozovete stavke vremena kreirane za drugog korisnika, stavke vremena će se vratiti u status **Radna verzija**, a polje **Resurs koji može da se rezerviše** će biti podešeno na drugog korisnika. 
 5.  Opcionalno, možete preći na prilagođeni prikaz da biste filtrirali stavke vremena kreirane za drugog korisnika. 
  
 ### <a name="limitations"></a>Ograničenja

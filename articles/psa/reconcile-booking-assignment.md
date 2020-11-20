@@ -3,7 +3,7 @@ title: Usaglašavanje resursa i dodela
 description: Ova tema pruža informacije o stvarnim vrednostima.
 author: ruhercul
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 11/27/2019
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 7ca6f4bb69322db08c413e076860e2ee9fdcc412
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: f5255b4aa2c6c8b7fa7320da2e10b2ed23a88fdd
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: sr-Latn-RS
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4083626"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4120470"
 ---
 # <a name="reconcile-bookings-and-assignments"></a>Usaglašavanje resursa i dodela
 
@@ -35,7 +35,7 @@ Zbog labave povezanosti rezervacija za projekat i dodela zadataka, kartica **Usa
 
 Za svakog imenovanog člana tima, kartica **Usaglašenost** prikazuje rezervacije i dodele sve do nivoa dodele pojedinačnog zadatka. Prikazuje sate u ćelijama koji mogu predstavljati vremenske periode, od meseci, pa sve do dana.
 
-U polju **Vremenska skala** možete da odaberete **Mesec** , **Nedelja** ili **Dan**. Podrazumevano je izabrana opcija **Nedelja**. Međutim, podrazumevanu vrednost možete promeniti klikom na dugme **Podešavanja**. Kada se kartica **Usaglašenost** otvori, prikazuje trenutni datum, ali pomoću kontrole kalendara možete se kretati napred ili nazad u vremenu. Kada projekat ima datum početka koji je u budućnosti, kartica prikazuje taj datum kada je otvorena. Kontrola kalendara takođe ima opcije pomoću kojih možete preći na datum početka i završetka projekta.
+U polju **Vremenska skala** možete da odaberete **Mesec**, **Nedelja** ili **Dan**. Podrazumevano je izabrana opcija **Nedelja**. Međutim, podrazumevanu vrednost možete promeniti klikom na dugme **Podešavanja**. Kada se kartica **Usaglašenost** otvori, prikazuje trenutni datum, ali pomoću kontrole kalendara možete se kretati napred ili nazad u vremenu. Kada projekat ima datum početka koji je u budućnosti, kartica prikazuje taj datum kada je otvorena. Kontrola kalendara takođe ima opcije pomoću kojih možete preći na datum početka i završetka projekta.
 
 Možete koristiti kontrole razvijanja za svaki resurs da biste prikazali detalje rezervacija tog resursa. Takođe možete proširiti dodele svakog resursa do nivoa pojedinačnog zadatka.
 
@@ -47,9 +47,9 @@ U dnu kartice **Usaglašenost** prikazuje se ukupni neto iznos za projekat, a ka
 > [!NOTE]
 > Legenda ovih pojava može da bude skrivena kako bi se ostavilo više prostora za mrežu. U ovom slučaju, legendu možete učiniti vidljivom ako kliknete na dugme **Podešavanja**.
 
-U nekim slučajevima, kada je polje **Vremenska skala** podešeno na nivo viši od **dana** , razlike se mogu izračunati kao 0 (nula). Na primer, na nivou **meseca** , neto razlika za resurs može biti 0 (nula) što bi značilo da su rezervacije jednake dodelama. Međutim, ako gledate nivo **nedelje** , možda ćete videti da postoje dodele od 0 (nula) sati i rezervacije od 40 sati u prvoj nedelji meseca, kao i dodele od 40 sati i rezervacije od 0 (nula) sati u drugoj nedelji meseca. Iako je ukupan broj rezervacija i dodela za mesec jednak, razlikuju se po nedeljama.
+U nekim slučajevima, kada je polje **Vremenska skala** podešeno na nivo viši od **dana**, razlike se mogu izračunati kao 0 (nula). Na primer, na nivou **meseca**, neto razlika za resurs može biti 0 (nula) što bi značilo da su rezervacije jednake dodelama. Međutim, ako gledate nivo **nedelje**, možda ćete videti da postoje dodele od 0 (nula) sati i rezervacije od 40 sati u prvoj nedelji meseca, kao i dodele od 40 sati i rezervacije od 0 (nula) sati u drugoj nedelji meseca. Iako je ukupan broj rezervacija i dodela za mesec jednak, razlikuju se po nedeljama.
 
-Kada pregledate više nivoe vremena, kartica **Usaglašenost** prikazuje indikator ćelija koji će vas obavestiti da postoje razlike na nižim nivoima vremena. Na primer, na sledećoj ilustraciji, indikator ćelije se pojavljuje u ćeliji za mesec oktobar 2018. za resurs koji se zove Srebrenka Radić. Stoga možete videti da, iako su rezervacije i dodele resursa jednake kada su objedine na nivou **meseca** , ne podudaraju se na nižim nivoima.
+Kada pregledate više nivoe vremena, kartica **Usaglašenost** prikazuje indikator ćelija koji će vas obavestiti da postoje razlike na nižim nivoima vremena. Na primer, na sledećoj ilustraciji, indikator ćelije se pojavljuje u ćeliji za mesec oktobar 2018. za resurs koji se zove Srebrenka Radić. Stoga možete videti da, iako su rezervacije i dodele resursa jednake kada su objedine na nivou **meseca**, ne podudaraju se na nižim nivoima.
 
 ![Neusaglašene rezervacije i dodele na mesečnom nivou](media/reconcile-assignments-01.JPG)
 

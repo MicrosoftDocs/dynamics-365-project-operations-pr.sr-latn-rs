@@ -5,15 +5,15 @@ author: stsporen
 manager: Annbe
 ms.date: 10/05/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: stsporen
-ms.openlocfilehash: 37994422e9146765076fdbb77f5c763b4f1d0802
-ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
+ms.openlocfilehash: 14c6914cf9b5fb52e7554e51604e79f0920064df
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: sr-Latn-RS
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4083440"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4123845"
 ---
 # <a name="approvals-overview"></a>Pregled odobrenja
 
@@ -27,7 +27,7 @@ Kada kreirate i pošaljete stavku vremena ili troškova, kreira se stavka za odo
 ## <a name="approve-an-entry"></a>Odobravanje stavke
 Obrazac **Odobrenja** vam omogućava da se prebacujete između različitih prikaza kako biste mogli da vidite različite vrste odobrenja.
   
-1. Idite na obrazac **Odobrenja** i izaberite **Troškovi** , **Vreme** ili **Opozivi**.
+1. Idite na obrazac **Odobrenja** i izaberite **Troškovi**,**Vreme** ili **Opozivi**.
 2. Pregledajte svako odobrenje i izaberite ona koja želite da odobrite.
 3. Izaberite **Odobri** da biste odobrili izabrane stavke.
 Sistem će obraditi ove stavke i kreirati stvarne podatke ili rezervaciju.

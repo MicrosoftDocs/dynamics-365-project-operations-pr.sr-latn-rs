@@ -5,15 +5,15 @@ author: rumant
 manager: Annbe
 ms.date: 10/20/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: ec77f3911a460b96414a61bc44ea254f1b7da660
-ms.sourcegitcommit: f8edff6422b82fdf2cea897faa6abb51e2c0c3c8
+ms.openlocfilehash: bec6afe04a705d4f55ac3a7de93a64b47021fbb4
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: sr-Latn-RS
-ms.lasthandoff: 10/21/2020
-ms.locfileid: "4088083"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4122360"
 ---
 # <a name="manage-the-billing-backlog"></a>Upravljanje zaostalim naplatama
 
@@ -23,9 +23,9 @@ Dynamics 365 Project Operations ima dva namenska prikaza koji će vam pomoći da
 
 ## <a name="fixed-price-milestones"></a>Kontrolne tačke fiksne cene
 
-Ovaj prikaz navodi sve kontrolne tačke sa fiksnom cenom u svim predmetima projektnih ugovora u sistemu. Jednu ili više kontrolnih tačaka možete označiti kao **Spremno za fakturisanje** ili **Nije spremno za fakturisanje** iz ovog prikaza. Kada obeležite kontrolnu tačku kao **Spremno za fakturisanje** , ona postaje dostupna za radnu verziju fakture.
+Ovaj prikaz navodi sve kontrolne tačke sa fiksnom cenom u svim predmetima projektnih ugovora u sistemu. Jednu ili više kontrolnih tačaka možete označiti kao **Spremno za fakturisanje** ili **Nije spremno za fakturisanje** iz ovog prikaza. Kada obeležite kontrolnu tačku kao **Spremno za fakturisanje**, ona postaje dostupna za radnu verziju fakture.
 
-Kada predmeti ugovora sa više klijenata imaju način naplate sa fiksnom cenom, stvara se jedna kontrolna tačka za svakog kupca na predmetu ugovora. Korisnik kreira kontrolnu tačku i ona se interno deli na zapise o kontrolnim tačkama specifične za klijenta, u skladu sa podelom procenata naplate definisanom za svakog klijenta u predmetu ugovora. U prikazu **Kontrolne tačke fiksne cene** videćete pojedinačne zapise kontrolnih tačaka specifične za klijenta. Svaki od ovih zapisa kontrolnih tačaka može se označiti kao **Spremno za fakturisanje** nezavisno od ovog prikaza. Kada se jedna ili više povezanih kontrolnih tačaka razdvoji kao **Spremno za fakturisanje** , zaglavlje se pomera u status **U toku** iz **Nije započeto**. Kada su fakturisane sve podele kontrolnih tačaka, status kontrolne tačke zaglavlja postaje **Završeno**.
+Kada predmeti ugovora sa više klijenata imaju način naplate sa fiksnom cenom, stvara se jedna kontrolna tačka za svakog kupca na predmetu ugovora. Korisnik kreira kontrolnu tačku i ona se interno deli na zapise o kontrolnim tačkama specifične za klijenta, u skladu sa podelom procenata naplate definisanom za svakog klijenta u predmetu ugovora. U prikazu **Kontrolne tačke fiksne cene** videćete pojedinačne zapise kontrolnih tačaka specifične za klijenta. Svaki od ovih zapisa kontrolnih tačaka može se označiti kao **Spremno za fakturisanje** nezavisno od ovog prikaza. Kada se jedna ili više povezanih kontrolnih tačaka razdvoji kao **Spremno za fakturisanje**, zaglavlje se pomera u status **U toku** iz **Nije započeto**. Kada su fakturisane sve podele kontrolnih tačaka, status kontrolne tačke zaglavlja postaje **Završeno**.
 
 Kontrolna tačka u radnoj verziji fakture prikazana je u ovom prikazu sa statusom naplate **Kreirana je faktura za klijenta**. Kada se potvrdi radna verzija fakture, status naplate na ovom zapisu ažurira se na **Faktura je proknjižena**. Ažuriranje ove vrednosti statusa pomoću prilagođenog koda se ne preporučuje. Project Operations neće pravilno funkcionisati ako se ove vrednosti statusa ažuriraju prilagođenim kodom.
 

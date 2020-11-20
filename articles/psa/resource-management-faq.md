@@ -3,7 +3,7 @@ title: Najčešća pitanja o upravljanju resursima
 description: Ova tema nudi odgovore na najčešća pitanja o upravljanju resursima.
 author: ruhercul
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 03/28/2019
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 395aa57d73e5d4a0c9c827c79bf4e7ef229c3981
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 38d9509768323a5a1d78683a2e65ade241adc65f
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: sr-Latn-RS
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4083791"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4120155"
 ---
 # <a name="resource-management-faq"></a>Najčešća pitanja o upravljanju resursima
 
@@ -47,7 +47,7 @@ Nakon rezervisanja resursa, izaberite **Održavanje rezervacija** da unesete pro
 
 ## <a name="what-resources-types-does-project-service-automation-support"></a>Koje vrste resursa podržava Project Service Automation?
 
-**Korisnik** i **Kontakt** su jedine vrste resursa koje podržava Dynamics 365 Project Service Automation. Iako možete da kreirate druge vrste resursa (na primer, **Oprema** i **Grupa** ), nijedan slučaj njihovog kompletnog korišćenja nije podržan.
+**Korisnik** i **Kontakt** su jedine vrste resursa koje podržava Dynamics 365 Project Service Automation. Iako možete da kreirate druge vrste resursa (na primer, **Oprema** i **Grupa**), nijedan slučaj njihovog kompletnog korišćenja nije podržan.
 
 ## <a name="what-is-the-difference-between-an-assignment-and-a-booking"></a>Koja je razlika između dodele i rezervacije?
 

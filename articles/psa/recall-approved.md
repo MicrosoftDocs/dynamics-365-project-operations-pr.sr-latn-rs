@@ -3,7 +3,7 @@ title: Opozivanje odobrenih stavki vremena ili troškova
 description: Ova tema pruža informacije o tome kako se opozivaju prethodno odobreno vreme ili transakcija troškova.
 author: rumant
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom: ''
 ms.author: rumant
 ms.date: 03/08/2019
@@ -17,12 +17,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 7bacd70881a6c463cc449a365173da5338a3d3fc
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 102da39d5940874a8e1f4220437ecdf386a7187b
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: sr-Latn-RS
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4083627"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4120560"
 ---
 # <a name="recall-approved-time-or-expense-entries"></a>Opozivanje odobrenih stavki vremena ili troškova
 
@@ -62,11 +62,11 @@ Sledite ove korake da biste odobrili ili odbacili zahtev za opoziv.
 1. Idite na **Projekti** \> **Moj posao** \> **Odobrenja**.
 2. Na stranici liste **Odobrenja** promenite prikaz na **Opozovi zahteve za odobrenja**. Prikazuje se lista prosleđenih zahteva za opoziv.
 3. Izaberite jednu ili više stavki, a zatim **Odobri** ili **Odbaci**.
-4. Ako ste izabrali **Odobri** , dobijate poruku upozorenja koja objašnjava efekat odobrenja. Izaberite **U redu** da biste potvrdili operaciju. Zahtev za opoziv je odobren.
+4. Ako ste izabrali **Odobri**, dobijate poruku upozorenja koja objašnjava efekat odobrenja. Izaberite **U redu** da biste potvrdili operaciju. Zahtev za opoziv je odobren.
 
     –ili–
 
-    Ako ste izabrali **Odbaci** , zahtev za opoziv je odbijen.
+    Ako ste izabrali **Odbaci**, zahtev za opoziv je odbijen.
 
 > [!NOTE]
 > Kao i u slučaju zahtevanja opoziva, kada se opoziv odobri, sistem proverava da li ima bilo kakvih aktivnosti fakturisanja u stavkama vremena ili troškova. Ako je stavka već fakturisana ili je u radnoj verziji fakture, davalac odobrenja će dobiti poruku o grešci u kojoj stoji da se opoziv vremena ili troška ne može odobriti jer je već fakturisan.
@@ -77,7 +77,7 @@ Kada se odobrenje opozove, postoji i operativni i finansijski uticaj.
 
 ### <a name="operational-impact"></a>Operativni uticaj
 
-Ako je zahtev za opoziv odobren, zapis odobrenja označava se kao **Odbačen**. Status stavke se menja u **Vraćena** ili **Odbačena** , u zavisnosti da li je to stavka vremena ili troškova.
+Ako je zahtev za opoziv odobren, zapis odobrenja označava se kao **Odbačen**. Status stavke se menja u **Vraćena** ili **Odbačena**, u zavisnosti da li je to stavka vremena ili troškova.
 
 Član projektnog tima može pregledati stavke, uređivati i zatim ponovo prosleđivati stavke ili ih u potpunosti brisati.
 
@@ -90,7 +90,7 @@ Ako se zahtev za opoziv odobri, odgovarajuće stvarne vrednosti troškova i prod
 - Polje **Status poravnanja** se ažurira na **Poravnato**.
 - Polje **Status naplate** se ažurira na **Otkazano**.
 
-Zatim, stavke storniranja se kreiraju u tabeli Stvarne vrednosti. Da bi sistem kreirao stavke storniranja, kopira vrednosti polja iz originalnih stvarnih vrednosti. Jedine vrednosti koje se ne kopiraju su vrednosti količine. Umesto toga, ove vrednosti se storniraju. Stornirane stvarne vrednosti se kreiraju za stvarne vrednosti **Troškovi** i **Nenaplaćena prodaja**. Polje **Status poravnanja** u storniranim stvarnim vrednostima je podešeno na **Ne može da se poravna** , a polje **Status naplate** na **Otkazano**. Zbog ovih izmena, evidentirana potrošnja za projekat i preostali prihod od projekta više neće uzimati u obzir iznose koje ove stvarne vrednosti predstavljaju.
+Zatim, stavke storniranja se kreiraju u tabeli Stvarne vrednosti. Da bi sistem kreirao stavke storniranja, kopira vrednosti polja iz originalnih stvarnih vrednosti. Jedine vrednosti koje se ne kopiraju su vrednosti količine. Umesto toga, ove vrednosti se storniraju. Stornirane stvarne vrednosti se kreiraju za stvarne vrednosti **Troškovi** i **Nenaplaćena prodaja**. Polje **Status poravnanja** u storniranim stvarnim vrednostima je podešeno na **Ne može da se poravna**, a polje **Status naplate** na **Otkazano**. Zbog ovih izmena, evidentirana potrošnja za projekat i preostali prihod od projekta više neće uzimati u obzir iznose koje ove stvarne vrednosti predstavljaju.
 
 Ako se zahtev za opoziv odbaci, nema finansijskog uticaja na projekat.
 

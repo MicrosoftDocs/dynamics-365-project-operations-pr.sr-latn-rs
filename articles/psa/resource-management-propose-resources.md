@@ -3,7 +3,7 @@ title: Predlaganje resursa za projekte
 description: Ova tema pruža informacije o predlaganju resursa za projekte.
 author: ruhercul
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 03/28/2019
@@ -18,19 +18,19 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 18d7dcd95806841c952ea621ec65b513ef614958
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 1fcb8d1d40286cf5cbb23338f93b072ae5bed70d
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: sr-Latn-RS
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4083799"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4120200"
 ---
 # <a name="propose-project-resources"></a>Predlaganje resursa za projekte
 
 Menadžeri resursa mogu da predlože resurs menadžeru projekata korišćenjem zahteva za resurs.
 
 1. Iz mreže zahteva ili samog zahteva izaberite **Pronađi resurse**.
-2. Na stranici **Pomoćnik za zakazivanje** izaberite resurs, a zatim u oknu **Kreiranje rezervacije resursa** , u polju **Status rezervacije** , izaberite **Rezerviši**.
+2. Na stranici **Pomoćnik za zakazivanje** izaberite resurs, a zatim u oknu **Kreiranje rezervacije resursa**, u polju **Status rezervacije**, izaberite **Rezerviši**.
 
     ![Predloženi resurs je izabran](media/Resource-Management-image62.png)
 
@@ -82,7 +82,7 @@ Zbog toga što je prikaz **Ukupna iskorišćenost resursa** zasnovana na tabeli 
 
 Mreža zahteva da podesite ciljnu ukupnu iskorišćenost za ulogu ili pojedinačni resurs. Da biste to podesili, idite na stavku **Resursi** \> **Uloge resursa**.
 
-Uz to, svakom resursu koji se može rezervisati mora se dodeliti podrazumevana uloga. Idite na **Resursi** \> **Resursi**. Na kartici **Project Service** potvrdite da je definisana uloga resursa i da je polje **Je podrazumevano** za tu ulogu podešeno na **Da**. Ako **Je podrazumevano = Ne** , možete dodati dodatne uloge. Uloga gde **Je podrazumevano = Da** koristi se za procenu ukupne iskorišćenosti resursa u odnosu na ciljnu iskorišćenost za tu ulogu.
+Uz to, svakom resursu koji se može rezervisati mora se dodeliti podrazumevana uloga. Idite na **Resursi** \> **Resursi**. Na kartici **Project Service** potvrdite da je definisana uloga resursa i da je polje **Je podrazumevano** za tu ulogu podešeno na **Da**. Ako **Je podrazumevano = Ne**, možete dodati dodatne uloge. Uloga gde **Je podrazumevano = Da** koristi se za procenu ukupne iskorišćenosti resursa u odnosu na ciljnu iskorišćenost za tu ulogu.
 
 ![Podrazumevani skup uloga](media/Resource-Management-image67.png)
 

@@ -5,15 +5,15 @@ author: stsporen
 manager: AnnBe
 ms.date: 10/06/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: stsporen
-ms.openlocfilehash: 746d5d9ff56222e7d6b9b6e264db75d5814365c7
-ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
+ms.openlocfilehash: 536c961593599df8e7e2986f92259b0e690eae8b
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: sr-Latn-RS
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4083464"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4121100"
 ---
 # <a name="expense-entry-lite"></a>Stavka troška (lagana verzija)
 
@@ -28,7 +28,7 @@ Za više informacija o mogućnostima troškova u usluzi Dynamics 365 Project Ope
 Možete pokriti svoje troškove kako biste ih mogli dostaviti davaocu odobrenja.
 
 1. Idite na **Troškovi** i izaberite **Novi**.
-2. Na stranici **Novi trošak** , unesite potrebne informacije o troškovima, a zatim izaberite **Sačuvaj**.
+2. Na stranici **Novi trošak**, unesite potrebne informacije o troškovima, a zatim izaberite **Sačuvaj**.
 
 ## <a name="submit-a-basic-expense"></a>Prosleđivanje osnovnog troška
 
@@ -41,7 +41,7 @@ Kada završite sa evidentiranjem svih troškova i budete li spremni da ih odobri
 
 Kada greškom prosledite trošak, možete ga opozvati. Vreme potrebno za opoziv stavke troška zavisi od faze odobrenja.  Ako davalac odobrenja još nije odobrio stavku, opoziv se može izvršiti odmah. Međutim, ako je stavka već odobrena, od davaoca odobrenja se traži da odobri opoziv i poništi transakcije.
 
-1. Idite na **Troškovi** , a zatim na listi troškova odaberite trošak koji ćete opozvati.
+1. Idite na **Troškovi**, a zatim na listi troškova odaberite trošak koji ćete opozvati.
 2. Izaberite **Opozovi**. Ako stavka troška još nije odobrena, sistem je odmah opoziva. Ako je stavka troška već odobrena, kreira se zahtev za opoziv da obavesti davaoca odobrenja da želite da stornirate trošak. Davalac odobrenja će zatim potvrditi da se storniranje može izvršiti i stavka će biti vraćena.
 
 ## <a name="delete-a-basic-expense"></a>Brisanje osnovnog troška

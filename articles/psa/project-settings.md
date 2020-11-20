@@ -3,7 +3,7 @@ title: Podešavanja projekta
 description: Ova tema pruža informacije o podešavanjima upravljanja projektima.
 author: ruhercul
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 03/01/2019
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: c9b8659f3b7ee81d2e21ef52743debd521fa9bb9
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: b2cda6bfd7f152ee948cf49fab91aed475968a09
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: sr-Latn-RS
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4083743"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4123125"
 ---
 # <a name="project-settings"></a>Podešavanja projekta
 
@@ -49,8 +49,8 @@ Da biste kreirali raspored projekta, kreirajte predložak kalendara projekta koj
 
 > ![Podešavanje opcija](media/project-13.png)
 
-4. Izaberite **Novi sedmični raspored** , a zatim podesite opcije za ovaj raspored resursa. Možete podesiti periodični sedmični raspored, parametre sata u danu, prekid poslovnih aktivnosti i još mnogo toga.
-5. Podesite opseg datuma, izaberite **Sačuvaj** , a zatim kliknite na **Zatvori**. 
+4. Izaberite **Novi sedmični raspored**, a zatim podesite opcije za ovaj raspored resursa. Možete podesiti periodični sedmični raspored, parametre sata u danu, prekid poslovnih aktivnosti i još mnogo toga.
+5. Podesite opseg datuma, izaberite **Sačuvaj**, a zatim kliknite na **Zatvori**. 
 6. Vratite se na stranicu liste **Resursi** i odaberite resurs za koji ste odredili radno vreme. 
 7. Izaberite **Podesite kalendar kao** da podesite radni predložak. 
 8. U dijalog **Radni predložak** unesite ime radnog predloška, a zatim izaberite **Primeni**. 

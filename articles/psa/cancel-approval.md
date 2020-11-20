@@ -3,7 +3,7 @@ title: Otkazivanje prethodno odobrenih stavki vremena i troškova
 description: Ova tema pruža informacije o tome kako se otkazuje odobreno vreme projekta i transakcija troškova.
 author: rumant
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 03/07/2019
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 0ea816040570cc8f6ddf3c5ec8a74ac092fc68b2
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 84fc057599dd98162320d6104ed4a7612e894ecb
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: sr-Latn-RS
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4083755"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4123350"
 ---
 # <a name="cancel-previously-approved-time-or-expense-entries"></a>Otkazivanje prethodno odobrenih stavki vremena ili troškova
 
@@ -46,7 +46,7 @@ Kada se odobrenje otkaže, postoji i operativni i finansijski uticaj.
 
 ### <a name="operational-impact"></a>Operativni uticaj
 
-Što se tiče operacija, kada se odobrenje otkaže, status zapisa će biti vraćen na **Radna verzija** , a odobravanje se više ne pojavljuje u prikazu **Moja poslednja odobravanja**. Umesto toga, otkazano odobrenje se pojavljuje u prikazu **Stavke vremena za odobrenje** ili **Stavke troškova za odobrenje** , u zavisnosti od toga da li se radi o stavci vremena ili stavci troškova. Pored toga, status povezane stavke vremena ili troškova se menja u **Prosleđeno** , tako da povezana stavka odgovara odobrenjima koja imaju status **Radna verzija**.
+Što se tiče operacija, kada se odobrenje otkaže, status zapisa će biti vraćen na **Radna verzija**, a odobravanje se više ne pojavljuje u prikazu **Moja poslednja odobravanja**. Umesto toga, otkazano odobrenje se pojavljuje u prikazu **Stavke vremena za odobrenje** ili **Stavke troškova za odobrenje**, u zavisnosti od toga da li se radi o stavci vremena ili stavci troškova. Pored toga, status povezane stavke vremena ili troškova se menja u **Prosleđeno**, tako da povezana stavka odgovara odobrenjima koja imaju status **Radna verzija**.
 
 Kao davalac odobrenja, možete da uređujete neka od polja odobravanja koja imaju status **Radna verzija**. Ova polja obuhvataju stavke **Vrsta naplate** i **Naplativi sati za stavke vremena**. Nakon što unesete promene, možete ponovo da odobrite zapis. Druga mogućnost je da odbacite stavku. Ako odbacite odobravanje stavke vremena, status stavke će biti promenjen u **Vraćena**. Ako odbacite odobravanje stavke troškova, status stavke će biti promenjen u **Odbačena**. Sa funkcionalne strane, i vraćene i odbačene stavke se ponašaju isto kao stavka koja ima status **Radna verzija**. Član projektnog tima može da unese sve potrebne promene u stavku, a zatim da je ponovo prosledi na odobravanje ili da u potpunosti izbriše stavku.
 
@@ -57,6 +57,6 @@ Postoji i finansijski uticaj na projekat kada se odobrenje otkaže. Prvo, odgova
 - Status poravnanja se podešava na **Poravnato**.
 - Status naplate se podešava na **Otkazano**.
 
-Zatim, stavke storniranja se kreiraju u tabeli Stvarne vrednosti. Da bi sistem kreirao stavke storniranja, kopira vrednosti polja iz originalnih stvarnih vrednosti. Jedine vrednosti koje se ne kopiraju su vrednosti količine. Umesto toga, ove vrednosti se storniraju. Stornirane stvarne vrednosti se kreiraju za stvarne vrednosti **Troškovi** i **Nenaplaćena prodaja**. Polje **Status poravnanja** u storniranim stvarnim vrednostima je podešeno na **Ne može da se poravna** , a status naplate na **Otkazano**.
+Zatim, stavke storniranja se kreiraju u tabeli Stvarne vrednosti. Da bi sistem kreirao stavke storniranja, kopira vrednosti polja iz originalnih stvarnih vrednosti. Jedine vrednosti koje se ne kopiraju su vrednosti količine. Umesto toga, ove vrednosti se storniraju. Stornirane stvarne vrednosti se kreiraju za stvarne vrednosti **Troškovi** i **Nenaplaćena prodaja**. Polje **Status poravnanja** u storniranim stvarnim vrednostima je podešeno na **Ne može da se poravna**, a status naplate na **Otkazano**.
 
 Nakon ovih izmena, iznos koji se evidentira kao potrošen za projekat i preostali prihodi od projekta više neće uzimati u obzir iznose koje ove stvarne vrednosti predstavljaju.

@@ -3,7 +3,7 @@ title: Korišćenje tabele rasporeda za rezervisanje resursa za projekte
 description: Ova tema pruža informacije o tome kako da rezervišete resurse.
 author: ruhercul
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 03/28/2019
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: fa7e34b12f3767e89cc13ddde930e5c9f8ebc565
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: ac3438da6bae45683d9eb2dee3544dff862e3ddd
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: sr-Latn-RS
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4083802"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4120245"
 ---
 # <a name="use-the-schedule-board-to-book-project-resources"></a>Korišćenje tabele rasporeda za rezervisanje resursa za projekte
 
@@ -32,7 +32,7 @@ Pored toga što možete rezervisati resurse za projekat u okviru projekta, može
 Da biste mogli da rezervišete u tabeli rasporeda, morate da kreirate ili generišete potrebe za resursima. Pratite ove korake da biste kreirali potrebe za resursima u tabeli rasporeda.
 
 1. Ako je okno **Potrebe za rezervacijama** na dnu stranice skupljeno, izaberite kontrolu za proširenje da biste ga proširili.
-2. U oknu **Potrebe za rezervacijama** , na kartici **Projekat** izaberite potrebu da rezervišete.
+2. U oknu **Potrebe za rezervacijama**, na kartici **Projekat** izaberite potrebu da rezervišete.
 
     ![Zahtev je izabran na kartici Projekat](media/Resource-Management-image73.png)
 
@@ -42,7 +42,7 @@ Da biste mogli da rezervišete u tabeli rasporeda, morate da kreirate ili generi
 
     ![Kreiranje okna za rezervaciju resursa za odabrani resurs koji može da se rezerviše](media/Resource-Management-image74.png)
 
-6. Dok je zahtev izabran u oknu **Kreiranje rezervacije resursa** , izaberite jednu ili više ćelija resursa da biste kreirali rezervaciju.
+6. Dok je zahtev izabran u oknu **Kreiranje rezervacije resursa**, izaberite jednu ili više ćelija resursa da biste kreirali rezervaciju.
 
     ![Više ćelija je izabrano za resurs](media/Resource-Management-image75.png)
 

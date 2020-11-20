@@ -3,7 +3,7 @@ title: Pratite tok projekta i troškove
 description: Kako da pratite napredak projekta i troškova u aplikaciji Project Service
 author: ruhercul
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 8/03/2018
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 8cc0b0ca69258455296dd99de8a5ecf675abe81c
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: ede8902a29bed224d7934a79e30f8c7e7fb9023b
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: sr-Latn-RS
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4083668"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4121910"
 ---
 # <a name="track-project-progress-and-cost-project-service"></a>Praćenje napredak projekta i troškova (Project Service)
 

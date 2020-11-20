@@ -5,15 +5,15 @@ author: sigitac
 manager: Annbe
 ms.date: 10/21/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: c0e02ef2d17bf49209369f7adad681d9a5981e2a
-ms.sourcegitcommit: 91ad491e94a421f256a378b0f4b26ed48c67bc93
+ms.openlocfilehash: 5d2bb415362a088e01253fbe54f9f06569b4a921
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: sr-Latn-RS
-ms.lasthandoff: 10/22/2020
-ms.locfileid: "4096769"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4122900"
 ---
 # <a name="configure-project-operations-integration-per-legal-entity"></a>Konfigurisanje integracije za Project Operations po pravnom licu 
 
@@ -26,13 +26,13 @@ Ova tema vas vodi kroz korake potrebne za konfigurisanje usluge Dynamics 365 Pro
 Dovršite sledeće korake da biste omogućili potrebne funkcije.
 
 1. U usluzi Dynamics 365 Finance idite na radni prostor **Upravljanje podacima**.
-2. U odeljku **Lista funkcija** , pronađite i omogućite sledeće funkcije:
+2. U odeljku **Lista funkcija**, pronađite i omogućite sledeće funkcije:
   
     - **Omogućite više predmeta ugovora za projekat**
     - **Omogućite Project Operations u usluzi Dynamics 365 Customer Engagement**
 
 > [!NOTE]
-> Ako ne vidite **Ključne funkcije** , proverite da li vaša verzija usluge Finance ispunjava minimalni zahtev za verziju (verzija aplikacije 10.0.13 sa primenjenim svim ispravkama kvaliteta ili novija). Izaberite **Proveri da li ima ažuriranja** da biste osvežili listu funkcija.
+> Ako ne vidite **Ključne funkcije**, proverite da li vaša verzija usluge Finance ispunjava minimalni zahtev za verziju (verzija aplikacije 10.0.13 sa primenjenim svim ispravkama kvaliteta ili novija). Izaberite **Proveri da li ima ažuriranja** da biste osvežili listu funkcija.
 
 ## <a name="define-the-project-operations-deployment-scenario-for-a-legal-entity"></a>Definišite scenario primene usluge Project Operations za pravno lice
 
@@ -48,6 +48,6 @@ Project Operations možete da omogućite u usluzi Dynamics 365 Customer Engageme
 
 Svako pravno lice koje koristi Project Operations u usluzi Dynamics 365 Customer Engagement mora da ima skup podrazumevanih parametara. Ovi parametri su konfigurisani na kartici **Project Operations** na stranici **Upravljanje projektom i računovodstveni parametri**. Parametri su:
 
-  - **Podrazumevane vrednosti tipova obračuna** : Project Operations koristi fiksni skup podrazumevanih zadataka tipa naplate koji se moraju mapirati sa svojstvima stavki usluge Finance. Napravite zapis za svaku vrstu obračuna: **Nije navedeno** , **Naplativo** , **Nenaplativo** , **Besplatno** i **Nije dostupno**.
-  - **Podrazumevane kategorije projekata** : Izaberite podrazumevane kategorije projekata koje će se koristiti za svaku vrstu transakcije. Ove podrazumevane vrednosti će se koristiti u **Project Operations dnevniku integracije** i u procenama gde nije navedena kategorija transakcije za stvarni projekat.
-  - **Prognoze** : Izaberite model prognoze koji će se koristiti za procenu vremena i troškova.
+  - **Podrazumevane vrednosti tipova obračuna**: Project Operations koristi fiksni skup podrazumevanih zadataka tipa naplate koji se moraju mapirati sa svojstvima stavki usluge Finance. Napravite zapis za svaku vrstu obračuna: **Nije navedeno**, **Naplativo**, **Nenaplativo**, **Besplatno** i **Nije dostupno**.
+  - **Podrazumevane kategorije projekata**: Izaberite podrazumevane kategorije projekata koje će se koristiti za svaku vrstu transakcije. Ove podrazumevane vrednosti će se koristiti u **Project Operations dnevniku integracije** i u procenama gde nije navedena kategorija transakcije za stvarni projekat.
+  - **Prognoze**: Izaberite model prognoze koji će se koristiti za procenu vremena i troškova.

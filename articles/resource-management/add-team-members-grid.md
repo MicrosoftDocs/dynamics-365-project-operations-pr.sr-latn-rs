@@ -5,15 +5,15 @@ author: ruhercul
 manager: AnnBe
 ms.date: 10/01/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.openlocfilehash: 0f975d295b4c0ccef9827767beabd32ffd761faa
-ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
+ms.openlocfilehash: de73dac28046ec98ed201e129be6511f894223fd
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: sr-Latn-RS
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4083458"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4121550"
 ---
 # <a name="add-team-members-from-the-team-member-grid"></a>Dodavanje članova tima iz mreže članova tima
 
@@ -21,9 +21,9 @@ _**Odnosi se na:** Project Operations za resurs/scenarije koji nisu zasnovani na
 
 Dynamics 365 Project Operations uključuje kontrolnu tablu menadžera resursa koja pruža vizuelni pregled potražnje i ukupne iskorišćenosti resursa u celoj organizaciji. Možete koristiti grafikone na ovoj kontrolnoj tabli da biste vizualizovali sledeće informacije:
 
-- **Potražnja za resursima** : Grafikon **Aktivni zahtevi za resursima** prikazuje resurse koji su prosleđeni. Resursi se objedinjuju po ulozi ili projektu.
-- **Neprosleđena potražnja za resursima** : Grafikon **Nedodeljena potražnja za resursima** prikazuje sve zahteve za resursima koji nisu prosleđeni. Ovaj grafikon pomaže menadžerima resursa da pogledaju potražnju koja nije čvrsta i koja može biti prosleđena putem zahteva za resurse.
-- **Naplativa ukupna iskorišćenost tokom prošle sedmice** : Grafikon **Ukupna iskorišćenost prema ulozi** prikazuje procenat stvarne ukupne iskorišćenosti prema ulogama u organizaciji u odnosu na ciljanu naplativu ukupnu iskorišćenost po ulozi.
+- **Potražnja za resursima**: Grafikon **Aktivni zahtevi za resursima** prikazuje resurse koji su prosleđeni. Resursi se objedinjuju po ulozi ili projektu.
+- **Neprosleđena potražnja za resursima**: Grafikon **Nedodeljena potražnja za resursima** prikazuje sve zahteve za resursima koji nisu prosleđeni. Ovaj grafikon pomaže menadžerima resursa da pogledaju potražnju koja nije čvrsta i koja može biti prosleđena putem zahteva za resurse.
+- **Naplativa ukupna iskorišćenost tokom prošle sedmice**: Grafikon **Ukupna iskorišćenost prema ulozi** prikazuje procenat stvarne ukupne iskorišćenosti prema ulogama u organizaciji u odnosu na ciljanu naplativu ukupnu iskorišćenost po ulozi.
 
     > [!NOTE]
     > Da bi grafikon **Ukupna iskorišćenost prema ulozi** bio dostupan, kreirajte posao koji pokreće tok posla **UpdateRoleUtilization**. Ovaj periodičan posao se pokreće svakih sedam dana kako bi se izračunala naplativa ukupna iskorišćenost za prethodnih sedam dana. Rezultati se objedinjuju po ulogama.
@@ -34,11 +34,11 @@ Menadžeri projekata mogu koristiti kontrolnu tablu za menadžere resursa koji �
 
 ### <a name="add-a-team-member-directly-to-a-project"></a>Dodavanje člana tima direktno u projekat
 
-Da biste direktno dodali člana tima u projekat, u obrascu **Projekti** , na kartici **Tim** izaberite **Novi**. Pojaviće se dijalog **Brzo kreiranje člana projektnog tima**. U ovom dijalogu možete izvršiti ove zadatke:
+Da biste direktno dodali člana tima u projekat, u obrascu **Projekti**, na kartici **Tim** izaberite **Novi**. Pojaviće se dijalog **Brzo kreiranje člana projektnog tima**. U ovom dijalogu možete izvršiti ove zadatke:
 
-- **Rezervisanje imenovanog resursa** : U polju **Resurs koji može da se rezerviše** izaberite ime resursa. Zatim izaberite ulogu, podesite period i izaberite način dodeljivanja. Imenovani resurs koji ste odabrali dodaje se projektu upotrebom odabranog načina dodele i kalendara resursa.
-- **Dodavanje generičkog resursa** : Ostavite polje **Resurs koji može da se rezerviše** prazno, a zatim izaberite ulogu, podesite period i izaberite željeni način dodeljivanja. Generički resurs se dodaje timu kao čuvar mesta. Rezervisano mesto sadrži obrazac potražnje koji se koristi za rezervisanje imenovanih resursa u timu. Zahtev se postavlja prema kalendaru projekta.
-- **Dodavanje imenovanog resursa u tim bez trošenja kapaciteta resursa** : U polju **Resurs koji može da se rezerviše** izaberite resurs. Izaberite period, a zatim izaberite **Nijedan** kao način dodeljivanja. Resurs se dodaje u tim, ali kapacitet resursa se ne troši rezervacijom.
+- **Rezervisanje imenovanog resursa**: U polju **Resurs koji može da se rezerviše** izaberite ime resursa. Zatim izaberite ulogu, podesite period i izaberite način dodeljivanja. Imenovani resurs koji ste odabrali dodaje se projektu upotrebom odabranog načina dodele i kalendara resursa.
+- **Dodavanje generičkog resursa**: Ostavite polje **Resurs koji može da se rezerviše** prazno, a zatim izaberite ulogu, podesite period i izaberite željeni način dodeljivanja. Generički resurs se dodaje timu kao čuvar mesta. Rezervisano mesto sadrži obrazac potražnje koji se koristi za rezervisanje imenovanih resursa u timu. Zahtev se postavlja prema kalendaru projekta.
+- **Dodavanje imenovanog resursa u tim bez trošenja kapaciteta resursa**: U polju **Resurs koji može da se rezerviše** izaberite resurs. Izaberite period, a zatim izaberite **Nijedan** kao način dodeljivanja. Resurs se dodaje u tim, ali kapacitet resursa se ne troši rezervacijom.
 
 ### <a name="book-a-team-member-to-fulfill-resource-requirements-for-a-generic-resource"></a>Rezervisanje člana tima radi ispunjavanja potrebe za generičkim resursom
 
@@ -46,13 +46,13 @@ U usluzi Project Operations možete rezervisati generički resurs za projektni t
 
 Obavite sledeće korake da biste naveli potrebne veštine generičkog resursa za programera.
 
-1. U obrascu **Projekti** , na kartici **Tim** , izaberite **Novi** da biste rezervisali generički resurs.
-2. U prikazu **Svi članovi tima** , u koloni **Potreba za resursom** izaberite vezu da dodate potrebne veštine za generički resurs.
-3. U obrascu **Zahtev za resursom** , u mreži **Veštine** izaberite tri tačke ( **...** ), a zatim izaberite **Dodaj novu karakteristiku zahteva** da biste dodali potrebne veštine za programera.
-4. U obrascu dijaloga **Brzo kreiranje: Karakteristike zahteva** , u polju **Karakteristike** izaberite željenu veštinu.
+1. U obrascu **Projekti**, na kartici **Tim**, izaberite **Novi** da biste rezervisali generički resurs.
+2. U prikazu **Svi članovi tima**, u koloni **Potreba za resursom** izaberite vezu da dodate potrebne veštine za generički resurs.
+3. U obrascu **Zahtev za resursom**, u mreži **Veštine** izaberite tri tačke (**...**), a zatim izaberite **Dodaj novu karakteristiku zahteva** da biste dodali potrebne veštine za programera.
+4. U obrascu dijaloga **Brzo kreiranje: Karakteristike zahteva**, u polju **Karakteristike** izaberite željenu veštinu.
 5. U polju **Vrednost ocene** izaberite nivo stručnosti za ovu veštinu. 
 6. U polju **Zahtev za resursom** podesite zahtev da biste obezbedili izvorne resurse iz organizacionih jedinica ili čak imenovanih resursa. Kada završite, izaberite **Sačuvaj**.
-7. U obrascu **Zahtev za resursom** izaberite **Rezerviši** da biste ispunili zahtev za resursom. Takođe možete odabrati generički resurs u mreži **Svi članovi tima** , a zatim izabrati **Rezerviši**.
+7. U obrascu **Zahtev za resursom** izaberite **Rezerviši** da biste ispunili zahtev za resursom. Takođe možete odabrati generički resurs u mreži **Svi članovi tima**, a zatim izabrati **Rezerviši**.
 
     > [!NOTE]
     > U ovom primeru, postoji 40 zahtevanih sati, ali nema stvarno rezervisanih sati, jer generički resursi nemaju rezervacije. Pored toga, nema dodeljenih sati, jer je generički resurs dodat direktno u tim umesto da je dodat korišćenjem dodele zadatka.
@@ -61,9 +61,9 @@ Obavite sledeće korake da biste naveli potrebne veštine generičkog resursa za
 
    Neki od najčešće korišćenih filtera su:
 
-    - **Karakteristike uz ocenu** : Filtrirajte po veštinama, certifikacijama i drugim kvalitetima resursa, pored ocena stručnosti.
-    - **Uloge** : Filtrirajte prema podrazumevanim ulogama koje su dodeljene resursima koji mogu da se rezervišu.
-    - **Organizacione jedinice** : Filtrirajte resurse koji mogu da se rezervišu prema organizacionim jedinicama kojima su dodeljeni.
+    - **Karakteristike uz ocenu**: Filtrirajte po veštinama, certifikacijama i drugim kvalitetima resursa, pored ocena stručnosti.
+    - **Uloge**: Filtrirajte prema podrazumevanim ulogama koje su dodeljene resursima koji mogu da se rezervišu.
+    - **Organizacione jedinice**: Filtrirajte resurse koji mogu da se rezervišu prema organizacionim jedinicama kojima su dodeljeni.
 
 8. Ako niste zadovoljni rezultatima inicijalne pretrage zahteva, možete promeniti kriterijume filtriranja. Proširite okno **Prikaz filtera** sa leve strane, a zatim izaberite **Pretraži** da biste pronašli dodatne resurse. Da biste promenili način sortiranja rezultata, izaberite **Sortiraj**.
 9. Odaberite resurse u skladu sa potražnjom koja je navedena u zahtevu, kao što je naznačeno u vrhu mreže. Možete izbrisati izbor ćelija u mreži i ostaviti otvoren kapacitet resursa. Samo jedan resurs može biti izabran kao rezervisan u određenom trenutku.
@@ -77,7 +77,7 @@ Obavite sledeće korake da biste naveli potrebne veštine generičkog resursa za
 
 U usluzi Project Operations možete da kreirate zadatke i da im onda dodelite generičke resurse. Potražnja za resursima potom može biti predstavljena čuvarima mesta dok procenjujete svoj raspored i finansijske pokazatelje. Zatim možete da generišete potrebe za generičkim resursima i ispunite ih.
 
-1. U obrascu **Projekti** , na kartici **Raspored** izaberite **Dodaj** da kreirate zadatak.
+1. U obrascu **Projekti**, na kartici **Raspored** izaberite **Dodaj** da kreirate zadatak.
 2. U polju **Resursi** izaberite simbol **birača resursa**. Pojavljuje se birač resursa i pokazuje postojeće članove tima za projekat.
 3. Unesite ime novog generičkog resursa, a zatim izaberite **Kreiraj**.
 4. U dijalogu **Brzo kreiranje člana projektnog tima** koji se pojavljuje, u polju **Uloga** odaberite ulogu generičkog resursa. 
@@ -104,16 +104,16 @@ Stoga je u tim scenarijima menadžer projekta odgovoran za raščlanjivanje viš
 
 Kada kreira zahtev za resursom, menadžer projekta ili menadžer resursa možda će možda morati da izmeni detalje kako bi precizirao kriterijume za pretragu kada se koristi tabela rasporeda. Da biste uredili potrebu za resursom, sledite ove korake.
 
-1. U obrascu **Projekti** , na kartici **Tim** , izaberite vezu ka bilo kom zahtevu za generički resurs.
+1. U obrascu **Projekti**, na kartici **Tim**, izaberite vezu ka bilo kom zahtevu za generički resurs.
 2. U obrascu **Zahtev za resursima** koji se pojavi, unesite potrebne podatke o polju
 
-   U obrascu **Zahtev za resursima** , menadžer projekta ili menadžer resursa takođe mogu da definišu veštine, uloge, željene opcije resursa i željenu organizacionu jedinicu.
+   U obrascu **Zahtev za resursima**, menadžer projekta ili menadžer resursa takođe mogu da definišu veštine, uloge, željene opcije resursa i željenu organizacionu jedinicu.
 
 ### <a name="update-resource-bookings-after-they-are-booked-on-a-project"></a>Ažuriranje rezervacija resursa nakon njihovog rezervisanja za projekat
 
 Nakon što dodate generički ili imenovani resurs u projektni tim, možete promeniti rezervacije resursa.
 
-1. U obrascu **Projekti** , na kartici **Tim** , izaberite člana tima, a zatim izaberite **Održavanje rezervacija**.
+1. U obrascu **Projekti**, na kartici **Tim**, izaberite člana tima, a zatim izaberite **Održavanje rezervacija**.
  
    Pojavljuje se tabela rasporeda i prikazuje rezervacije člana projektnog tima. Proširite evidenciju člana tima da biste videli sate koji su rezervisani za ovaj projekat i druge projekte koji troše kapacitet člana tima.
 
@@ -130,10 +130,10 @@ Možete promeniti bilo koji podrazumevani ili prilagođeni status rezervacije.
 
 Sledeći statusi su uvršteni u Project Operations:
 
-- **Otkazano** : Otkazuje rezervaciju resursa i oslobađa kapacitet resursa.
-- **Fiksna rezervacija** : Troši kapacitet resursa. Rezervacija obično ima ovaj status kada otvorite stranicu **Održavanje rezervacija** na mreži **Svi članovi tima** u obrascu **Projekti**.
-- **Uslovna rezervacija** : Dodaje resurs u tim, ali ne troši njegov kapacitet. Ovaj status ukazuje na to da je resurs rezervisan za potencijalni rad, ali još uvek ima kapacitet ako je potreban na drugim poslovima. S obzirom na ukupnu dostupnost resursa, uslovne rezervacije imaju drugačiji status od fiksnih rezervacija.
-- **Predložen** : Predstavlja predlog menadžera resursa ili menadžera projekta za resurs. Predlozi ne troše kapacitet resursa i resurs se ne dodaje projektnom timu. Da bi rezervacija resursa za tim bila fiksna, menadžer projekta mora da prihvati predlog.
+- **Otkazano**: Otkazuje rezervaciju resursa i oslobađa kapacitet resursa.
+- **Fiksna rezervacija**: Troši kapacitet resursa. Rezervacija obično ima ovaj status kada otvorite stranicu **Održavanje rezervacija** na mreži **Svi članovi tima** u obrascu **Projekti**.
+- **Uslovna rezervacija**: Dodaje resurs u tim, ali ne troši njegov kapacitet. Ovaj status ukazuje na to da je resurs rezervisan za potencijalni rad, ali još uvek ima kapacitet ako je potreban na drugim poslovima. S obzirom na ukupnu dostupnost resursa, uslovne rezervacije imaju drugačiji status od fiksnih rezervacija.
+- **Predložen**: Predstavlja predlog menadžera resursa ili menadžera projekta za resurs. Predlozi ne troše kapacitet resursa i resurs se ne dodaje projektnom timu. Da bi rezervacija resursa za tim bila fiksna, menadžer projekta mora da prihvati predlog.
 
 ### <a name="submit-resource-requests"></a>Prosleđivanje zahteva za resursom
 
@@ -163,7 +163,7 @@ Možete pogledati predloženi resurs zajedno sa vizuelizacijom efekta rezervacij
 
 Ponekad menadžer projekta mora zameniti rezervisanog člana tima za projekat.
 
-1. U obrascu **Projekti** , na kartici **Tim** , izaberite resurs kojem je potrebna zamena, a zatim izaberite **Održavanje rezervacija**.
+1. U obrascu **Projekti**, na kartici **Tim**, izaberite resurs kojem je potrebna zamena, a zatim izaberite **Održavanje rezervacija**.
 2. Proširite resurs za pregled projekata kojima je dodeljen.
 3. Kliknite desnim tasterom miša na projekat, a zatim izaberite **Zamena resursa**.
 4. Ako znate resurs koji želite da zamenite trenutnim resursom, izaberite ili unesite ime, a zatim izaberite **Ponovo dodeli**.
@@ -190,8 +190,8 @@ Kartica takođe prikazuje ukupni neto iznos projekta, zajedno sa kolonom za ukup
 
 Kartica za svaki resurs izračunava razliku između rezervacija člana tima i ukupnog broja dodeljenih zadataka člana tima. U idealnom slučaju, ta razlika bi trebalo da bude 0 (nula). Drugim rečima, ne bi trebalo da postoji razlika između rezervacija i dodela. Razlike su obojene i zasenčene kako bi se skrenula pažnja na dve pojave:
 
-- **Nedostatak rezervacija** : Nastaje kada resurs ima više dodela nego rezervacija. Budući da ovaj kapacitet nije rezervisan, menadžer projekta može da koriguje tu pojavu proširivanjem rezervacija resursa kako bi pokrio nedostatak.
-- **Prekomerne rezervacije** : Nastaje kada je resurs rezervisan za projekat, ali nije dodeljen zadacima. Ta pojava može biti prihvatljiva u slučajevima kada je resurs rezervisan za projekat pre dodele zadatka. Međutim, u drugim slučajevima se ne planira dodeljivanje resursa zadacima. U tim slučajevima, menadžer projekta treba da razmotri otkazivanje rezervacija resursa, tako da kapacitet može da se koristi za drugi projekat.
+- **Nedostatak rezervacija**: Nastaje kada resurs ima više dodela nego rezervacija. Budući da ovaj kapacitet nije rezervisan, menadžer projekta može da koriguje tu pojavu proširivanjem rezervacija resursa kako bi pokrio nedostatak.
+- **Prekomerne rezervacije**: Nastaje kada je resurs rezervisan za projekat, ali nije dodeljen zadacima. Ta pojava može biti prihvatljiva u slučajevima kada je resurs rezervisan za projekat pre dodele zadatka. Međutim, u drugim slučajevima se ne planira dodeljivanje resursa zadacima. U tim slučajevima, menadžer projekta treba da razmotri otkazivanje rezervacija resursa, tako da kapacitet može da se koristi za drugi projekat.
 
 U nekim slučajevima, kada pregledate vreme na višem nivou od nivoa dana, npr. na mesečnom nivou, možda ćete videti neto razliku koja je nula za resurs. Drugim rečima, rezervacije = dodele. Međutim, ako pregledate vreme na nivou nedelje, možda ćete videti da postoje dodele od nula sati i rezervacije od 40 sati u prvoj nedelji, ali dodele od 40 sati i rezervacije od nula sati u drugoj nedelji. Sve u svemu, rezervacije i dodele se usklađuju, ali se razlikuju od jedne do druge nedelje.
 
