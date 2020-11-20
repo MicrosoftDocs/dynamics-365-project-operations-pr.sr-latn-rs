@@ -5,15 +5,15 @@ author: rumant
 manager: Annbe
 ms.date: 10/09/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 8c0fe18b33207f73848709b99334f64aadc7867a
-ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
+ms.openlocfilehash: fda8fee6dcf55126077fb6b8c502ee9dada9b44c
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: sr-Latn-RS
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4083496"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4125600"
 ---
 # <a name="import-estimates-for-a-project-to-a-project-based-quote-line"></a>Uvoz procena za projekat u stavku ponude zasnovanu na projektu
 
@@ -23,7 +23,7 @@ _**Odnosi se na:** Project Operations za scenarije zasnovane na resursima / bez 
 Ako se projekat kreira tokom faze pretprodaje, možete izabrati uvoz finansijske procene iz projekta u stavku ponude zasnovanu na projektu.
 
 1. Uverite se da stavka ponude zasnovana na projektu sadrži informacije o projektu u polju **Projekat**.
-2. Na kartici **Detalji stavke ponude** , izaberite **Uvoz iz procene projekta**.
+2. Na kartici **Detalji stavke ponude**, izaberite **Uvoz iz procene projekta**.
 3. Na stranici dijaloga koja se otvori, izaberite jednu od sledećih opcija rezimiranja:
 
   - **Klasa transakcije**
@@ -31,7 +31,7 @@ Ako se projekat kreira tokom faze pretprodaje, možete izabrati uvoz finansijske
   - **Uloga** 
   - **Projektni zadatak**
 
-Na osnovu vašeg izbora, kopira se procena iz projekta za sve klase transakcija koje su uključene u ovu stavku ponude. Da biste proverili koje su klase transakcija uključene, izaberite karticu **Opšti podaci** u stavci ponude zasnovanoj na projektu i proverite vrednosti za **Uključi vreme** , **Uključi troškove** i **Uključi naknade**.
+Na osnovu vašeg izbora, kopira se procena iz projekta za sve klase transakcija koje su uključene u ovu stavku ponude. Da biste proverili koje su klase transakcija uključene, izaberite karticu **Opšti podaci** u stavci ponude zasnovanoj na projektu i proverite vrednosti za **Uključi vreme**, **Uključi troškove** i **Uključi naknade**.
 
 Kada uvezete procene, sistem će podrazumevano odrediti cene na osnovu projektnih cenovnika koji su priloženi uz ponudu i vrste fakturisanja postavljene u stavci ponude zasnovane na projektu. Ako je uloga ili kategorija podešena u stavci ponude zasnovanoj na projektu kao nenaplativa, uvezena stavka procene postaviće se kao nenaplativa i neće se dodati u navedenu vrednost stavke ponude.
 

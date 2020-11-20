@@ -3,7 +3,7 @@ title: Kreirajte organizacione jedinice
 description: Kako da kreirate organizacione jedinice u aplikaciji Project Service
 author: JohnPBurrows
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 8/03/2018
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 4c653f5bd066fd174c8fb0996820628c1b281519
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: ebb00b9838773560404a9e3f7a19cc83408d7889
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: sr-Latn-RS
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4083629"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4125105"
 ---
 # <a name="create-organizational-units-project-service"></a>Kreirajte organizacione jedinice (Project Service)
 
@@ -38,11 +38,11 @@ Vaše preduzeće verovatno organizuje svoje konsultantsko poslovanje prema geogr
   
 2.  Kliknite na dugme **Novo**.  
   
-3.  U okviru **Opšte** oblasti, unesite ime organizacione jedinice u **Ime** , a zatim popunite druga polja kako je potrebno.  
+3.  U okviru **Opšte** oblasti, unesite ime organizacione jedinice u **Ime**, a zatim popunite druga polja kako je potrebno.  
   
 4.  Kliknite na dugme **Sačuvaj** za kreiranje zapisa tako da možete da nastavite ga uređujete.  
   
-5.  U okviru opcije **Cenovnici troškova** , kliknite na **+** da biste dodali cenovnik. Ovde možete da dodate samo cenovnike sa kontekstom **Trošak**.  
+5.  U okviru opcije **Cenovnici troškova**, kliknite na **+** da biste dodali cenovnik. Ovde možete da dodate samo cenovnike sa kontekstom **Trošak**.  
   
 6.  U polju **Ime** kliknite na dugme **Pretraga** i izaberite cenovnik koji želite da učinite dostupnim za ovu organizacionu jedinicu. Nastavite dodavanje cenovnika po potrebi.  
   

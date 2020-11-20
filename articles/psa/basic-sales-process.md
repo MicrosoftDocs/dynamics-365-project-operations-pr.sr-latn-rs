@@ -3,7 +3,7 @@ title: Procesi prodaje
 description: Ova tema pruža informacije o osnovnim procesima prodaje.
 author: rumant
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 03/01/2019
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: f09b30fe6d842faaf896cb97f44b060ec4049213
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 38e02018e46943f53680babd12c7bede0a5d19de
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: sr-Latn-RS
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4083694"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4129335"
 ---
 # <a name="sales-processes"></a>Procesi prodaje
 
@@ -46,7 +46,7 @@ Vrednost prodaje se može procenjivati na osnovu projekata koji su prethodno isp
 
 Možete da kreirate procenu visokog nivoa za ponudu. Na kraju, ova procena na visokom nivou biće zamenjena detaljnijom procenom koja se zasniva na planu projekta koji se kreira korišćenjem standardizovanih predložaka projekta. Ovi predlošci pomažu pri izradi rasporeda i određivanju novčanih vrednosti za ponudu i njene komponente (stavke ponude). 
 
-Možete kreirati više ponuda za projekat i grupisati ih pod jednim tipom entiteta sa mogućnošću za poslovanje. Na kraju, jedna od tih ponuda je označena kao **Zatvorena kao dobijena** , a kreira se ugovor o projektu ili izjava o radu. Ugovor o projektu čuva ugovorenu vrednost za svaku komponentu (predmet ugovora) koju klijent prihvati za isporuku. Izjava o radu se obično kreira kao Microsoft Word dokument. Sve fakture koje se šalju klijentu u toku isporuke projekta upućuju na ugovor o projektu ili izjavu o radu.
+Možete kreirati više ponuda za projekat i grupisati ih pod jednim tipom entiteta sa mogućnošću za poslovanje. Na kraju, jedna od tih ponuda je označena kao **Zatvorena kao dobijena**, a kreira se ugovor o projektu ili izjava o radu. Ugovor o projektu čuva ugovorenu vrednost za svaku komponentu (predmet ugovora) koju klijent prihvati za isporuku. Izjava o radu se obično kreira kao Microsoft Word dokument. Sve fakture koje se šalju klijentu u toku isporuke projekta upućuju na ugovor o projektu ili izjavu o radu.
 
 Takođe možete da kreirate alternativne ponude pod jednim tipom entiteta mogućnosti za poslovanje ili da podesite sistem tako da se kreira ugovor o projektu kada dobijete ponudu. U tom slučaju, možete priložiti Word dokument koji predstavlja izjavu o radu u zapis ugovora o projektu.
 
@@ -70,12 +70,12 @@ Ovih šest faza predstavljaju ševroni (\>) koje birate da proširite u svakom t
  
 Vaša organizacija može da koristi različite entitete za predstavljanje iste pogodbe tokom svog razvoja. Početkom procesa prodaje, pogodbu predstavlja entitet Mogućnost za poslovanje. Kako vreme prolazi i pojavljuje se više detalja, možda ćete koristiti procene visokog nivoa da biste kreirali jednu ili više ponuda. Ako jednu od ovih ponuda pregledaju interno zainteresovani i zainteresovani na strani klijenta, entitet ponude predstavlja pogodbu. Nakon što klijent prihvati ponudu, ugovor o projektu ili izjava o radu predstavlja pogodbu. Da bi podržali ovo ponašanje, tokovi poslovnih procesa su strukturirani tako da je svaka faza u procesu povezana sa drugom tabelom baze podataka.
 
-Fazu **Kvalifikovanje** u procesu prodaje može da podrži entitet mogućnosti za poslovanje. Faze **Procena** i **Interna revizija** može da podržava entitet Ponuda. Faze **Ugovor** , **Isporuka** i **Zatvaranje** može da podrži entitet ugovora o projektu.
+Fazu **Kvalifikovanje** u procesu prodaje može da podrži entitet mogućnosti za poslovanje. Faze **Procena** i **Interna revizija** može da podržava entitet Ponuda. Faze **Ugovor**, **Isporuka** i **Zatvaranje** može da podrži entitet ugovora o projektu.
 
 Dok pomerate pogodbe kroz faze, od vas će se zatražiti da kreirate odgovarajući zapis entiteta koji će vam pomoći i voditi vas kroz proces. Faze mogu biti uslovne. Na primer, ako zahtevate internu reviziju ponude samo ako ponuda koristi prilagođeni cenovnik, taj uslov možete da konfigurišete u odgovarajućoj fazi poslovnog procesa. Faza **Interna revizija** se zatim prikazuje samo za ponude koje koriste prilagođeni cenovnik. Za sve ostale ponude i pogodbe, fazu **Procena** prati faza **Ugovor**.
 
 > [!NOTE]
-> PSA ima određene stranice za entitete Mogućnost za poslovanje, Ponuda, Porudžbina i Faktura. Za ove entitete morate kreirati Project Service mogućnosti za poslovanje, ponude, porudžbine i fakture pomoću stranica sa informacijama o projektima. Ako koristite drugu stranicu za kreiranje zapisa, nećete moći da otvorite zapis sa stranice sa **informacijama o projektu**. Ako želite da otvorite zapis sa stranice sa **informacijama o projektu** , morate da izbrišete zapis i da ga ponovo kreirate koristeći stranicu sa **informacijama o projektu**. Na stranici sa **informacijama o projektu** , poslovna logika za svaki od ovih tipova entiteta osigurava da je polje **Tip** zapisa ispravno podešeno, a svi obavezni koncepti pravilno pokrenuti.
+> PSA ima određene stranice za entitete Mogućnost za poslovanje, Ponuda, Porudžbina i Faktura. Za ove entitete morate kreirati Project Service mogućnosti za poslovanje, ponude, porudžbine i fakture pomoću stranica sa informacijama o projektima. Ako koristite drugu stranicu za kreiranje zapisa, nećete moći da otvorite zapis sa stranice sa **informacijama o projektu**. Ako želite da otvorite zapis sa stranice sa **informacijama o projektu**, morate da izbrišete zapis i da ga ponovo kreirate koristeći stranicu sa **informacijama o projektu**. Na stranici sa **informacijama o projektu**, poslovna logika za svaki od ovih tipova entiteta osigurava da je polje **Tip** zapisa ispravno podešeno, a svi obavezni koncepti pravilno pokrenuti.
 
 > ![Informacije o projektu za novu porudžbinu](media/basic-guide-4.png)
  
@@ -87,7 +87,7 @@ Iako proces prodaje u aplikaciji PSA koristi osnovne mogućnosti prodajnog proce
 - **Zatvaranje ponude kao izgubljene ili dobijene** – u aplikaciji PSA, kada je ponuda za projekat zatvorena kao dobijena ili izgubljena, mogućnost za poslovanje ostaje otvorena. Sve ostale ponude za mogućnost za poslovanje se zatvaraju kao izgubljene. U usluzi Sales, kada je ponuda zatvorena kao dobijena ili izgubljena, od korisnika se traži da preduzme radnju za mogućnost za poslovanje. U zavisnosti od korisničkog unosa, osnovna mogućnost za poslovanje je možda zatvorena ili je otvorena.
 
 ## <a name="tracking-revisions-to-quotes-and-project-plans-in-the-sales-cycle"></a>Praćenje revizija ponuda i planova projekta u ciklusu prodaje
-U aplikaciji PSA, ne možete da pratite revizije ponude. Umesto toga, morate označiti postojeću ponudu kao **Zatvorena kao izgubljena** , a zatim kreirati novu ponudu. Možete kopirati ponudu ili klonirati ponudu zasnovanu na projektu koristeći PSA.
+U aplikaciji PSA, ne možete da pratite revizije ponude. Umesto toga, morate označiti postojeću ponudu kao **Zatvorena kao izgubljena**, a zatim kreirati novu ponudu. Možete kopirati ponudu ili klonirati ponudu zasnovanu na projektu koristeći PSA.
 
 ## <a name="tracking-comments-and-approvals-of-quotes-and-project-contracts"></a>Praćenje komentara za ponude i odobrenja ponuda i projektnih ugovora
 Redigovanjima i odobrenjima ponuda i ugovora o projektima možete da upravljate pomoću Zida za zapise i objava. Vaša organizacija može da kreira prilagođene tokove posla i dodatne komponente za dodeljivanje, preusmeravanje i eskaliranje obaveštenja o radnim stavkama pregleda i odobrenja, kao i da upravlja njima.

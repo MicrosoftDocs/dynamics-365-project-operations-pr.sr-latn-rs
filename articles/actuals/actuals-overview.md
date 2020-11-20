@@ -6,7 +6,7 @@ manager: AnnBe
 ms.date: 09/16/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 audience: Application User
 ms.reviewer: kfend
 ms.search.scope: ''
@@ -16,12 +16,12 @@ ms.search.region: ''
 ms.search.industry: ''
 ms.author: rumant
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: 93a945ffbe9c6dd998456b506b95e717ab8fbab7
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 13c429763fa805fae5324e4dcf1bf7669e842281
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: sr-Latn-RS
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4083570"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4126334"
 ---
 # <a name="actuals"></a>Trenutno stanje 
 
@@ -45,7 +45,7 @@ Kada se prosleđena stavka vremena poveže sa projektom koji se mapiran na predm
 
 Logika za kreiranje podrazumevanih cena se nalazi u stavci u glavnoj knjizi. Vrednosti polja iz stavke vremena kopiraju se u stavku u glavnoj knjizi. Ove vrednosti uključuju datum transakcije, predmet ugovora na koji je projekat mapiran i valutu koja je rezultat odgovarajućeg cenovnika.
 
-Polja koja utiču na podrazumevano određivanje cena, kao što su **Uloga** i **Organizaciona jedinica** , koriste se za utvrđivanje odgovarajuće cene u stavci u glavnoj knjizi. Na stavku vremena možete dodati prilagođeno polje. Ako želite da se vrednost polja širi na stvarne vrednosti, kreirajte polje u entitetu Stvarne vrednosti i upotrebite mapiranja polja da biste kopirali polje iz stavke vremena u stvarnu vrednost.
+Polja koja utiču na podrazumevano određivanje cena, kao što su **Uloga** i **Organizaciona jedinica**, koriste se za utvrđivanje odgovarajuće cene u stavci u glavnoj knjizi. Na stavku vremena možete dodati prilagođeno polje. Ako želite da se vrednost polja širi na stvarne vrednosti, kreirajte polje u entitetu Stvarne vrednosti i upotrebite mapiranja polja da biste kopirali polje iz stavke vremena u stvarnu vrednost.
 
 ## <a name="journal-lines-and-basic-expense-submission"></a>Prosleđivanje stavki u glavnoj knjizi i osnovnih troškova
 

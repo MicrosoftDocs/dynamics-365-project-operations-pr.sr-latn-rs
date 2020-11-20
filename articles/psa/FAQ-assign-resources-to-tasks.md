@@ -3,7 +3,7 @@ title: Dodeljivanje resursa zadatku
 description: Ova tema pruža informacije o tome kako dodeliti resurse zadacima.
 author: ruhercul
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 9/27/2019
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 77f13d1e96b76dfea241fbf7a67d5676582f0235
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: b7aef799ec4b90d602a6f3641cbac06264664f00
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: sr-Latn-RS
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4083769"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4125150"
 ---
 # <a name="assign-a-resource-to-a-task"></a>Dodeljivanje resursa zadatku
 
@@ -35,7 +35,7 @@ Resurs možete da dodate u projektni tim, a zatim da dodeljujete resurs zadacima
 
 1. Na kartici **Član tima** dodajte novog člana tima tako što ćete izabrati **Novi**. 
 
-2. Otvara se tabla za **brzo kreiranje člana tima** , gde možete da izaberete ime resursa koji može da se rezerviše i podesite ulogu. 
+2. Otvara se tabla za **brzo kreiranje člana tima**, gde možete da izaberete ime resursa koji može da se rezerviše i podesite ulogu. 
 
     Izaberite jedan od sledećih načina dodele za rezervaciju resursa:
 
@@ -58,11 +58,11 @@ Kada kreirate generičkog člana tima preko dodele zadatka, kreirate čuvar mest
 
 2. Unesite ime koje će služiti kao ime čuvara mesta resursa. Na primer, Menadžer programa.
 
-3. Izaberite **Kreiraj** , pa u polju **Brzo kreiranje člana projektnog tima** podesite ulogu za generički resurs.
+3. Izaberite **Kreiraj**, pa u polju **Brzo kreiranje člana projektnog tima** podesite ulogu za generički resurs.
 
 4. Možete da nastavite sa dodelom zadataka u ovaj resurs čuvara mesta izborom resursa u **biraču resursa** za zadatak. Oni su navedeni u okviru opcije **Članovi tima**.
 
-5. Kada završite sa dodeljivanjem generičkog resursa, izaberite generički resurs na kartici **Tim** , a zatim izaberite **Generiši potrebu** da biste kreirali potrebu za resursom za generički resurs.
+5. Kada završite sa dodeljivanjem generičkog resursa, izaberite generički resurs na kartici **Tim**, a zatim izaberite **Generiši potrebu** da biste kreirali potrebu za resursom za generički resurs.
 
 6. Izaberite opciju **Rezerviši** za generički resurs. Zatim možete da koristite tabelu rasporeda da biste pronašli i rezervisali pravi resurs. Možete i da prosledite zahtev za ispunjenje od strane menadžera resursa.
 

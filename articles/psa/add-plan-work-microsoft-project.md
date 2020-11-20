@@ -3,7 +3,7 @@ title: Koristite programski dodatak Project Service za planiranje vašeg rada u 
 description: Ova tema pruža informacije o dodavanju, konfigurisanju i korišćenju programskog dodatka Microsoft Project u programu Microsoft Project Service.
 author: ruhercul
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 04/06/2019
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 1d988419ae5a9d57532902d2553cd7de147e27c1
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 6bc74442866caccc02e53afc913a55aab81f9629
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: sr-Latn-RS
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4083710"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4129695"
 ---
 # <a name="use-the-project-service-automation-add-in-to-plan-your-work-in-microsoft-project"></a>Koristite programski dodatak Project Service Automation za planiranje vašeg rada u programu Microsoft Project
 
@@ -70,7 +70,7 @@ ms.locfileid: "4083710"
 
 1.  Otvorite projekat i kliknite na traku **Zadatak**.  
 
-2.  Kliknite na meni **Gantogram** , a zatim izaberite **Lista resursa**.  
+2.  Kliknite na meni **Gantogram**, a zatim izaberite **Lista resursa**.  
 
 3.  Na listu resursa kliknite na dugme u padajućem meniju **Uloga resursa za Project Service** i odaberite ulogu za Project Service Automation.  
 
@@ -80,7 +80,7 @@ ms.locfileid: "4083710"
 
 2.  Na ekranu **Rezervacija resursa** izaberite resurs koji želite da koristite za projekat.  
 
-3.  Kliknite na dugme **Rezerviši** , a zatim na **U redu**.  
+3.  Kliknite na dugme **Rezerviši**, a zatim na **U redu**.  
 
 ## <a name="publish-your-project"></a>Objavite vaš projekat  
 Kada se planiranje projekta završi, sledeći korak je uvoz i objavljivanje projekta u funkciji [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)].  
@@ -141,9 +141,9 @@ Projekat će se uvesti u funkciju [!INCLUDE[pn_project_service_auto](../includes
 
 3. U dijalogu **Omogući otvaranje u programu [!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)]** izaberite **Da** ili **Ne**.  
 
-   - Ako kliknete na **Da** , moći ćete da izaberete dugme **Otvori u programu [!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)]** u rešenju Project Service Automation, da pokrenete [!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)] i učitate datoteku projekta iz SharePoint biblioteke dokumenata.  
+   - Ako kliknete na **Da**, moći ćete da izaberete dugme **Otvori u programu [!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)]** u rešenju Project Service Automation, da pokrenete [!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)] i učitate datoteku projekta iz SharePoint biblioteke dokumenata.  
 
-   - Ako kliknete na **Ne** , veza za dugme **Otvori u programu [!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)]** neće raditi.  
+   - Ako kliknete na **Ne**, veza za dugme **Otvori u programu [!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)]** neće raditi.  
 
 4. [!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)] datoteku možete da pronađete u funkciji [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)] u okviru opcije **Dokumenti** za određeni [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)] projekat.  
 
@@ -155,9 +155,9 @@ Projekat će se uvesti u funkciju [!INCLUDE[pn_project_service_auto](../includes
 
 3. U dijalogu **Omogući otvaranje u programu [!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)]** izaberite **Da** ili **Ne**.  
 
-   - Ako kliknete na **Da** , moći ćete da izaberete dugme **Otvori u programu [!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)]** u rešenju Project Service Automation, da pokrenete [!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)] i učitate datoteku projekta iz SharePoint biblioteke dokumenata.  
+   - Ako kliknete na **Da**, moći ćete da izaberete dugme **Otvori u programu [!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)]** u rešenju Project Service Automation, da pokrenete [!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)] i učitate datoteku projekta iz SharePoint biblioteke dokumenata.  
 
-   - Ako kliknete na **Ne** , veza za dugme **Otvori u programu [!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)]** neće raditi.  
+   - Ako kliknete na **Ne**, veza za dugme **Otvori u programu [!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)]** neće raditi.  
 
 4. [!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)] datoteku možete da pronađete u funkciji [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)] u okviru opcije **Dokumenti** za određeni [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)] projekat.  
 

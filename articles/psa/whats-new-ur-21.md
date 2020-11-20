@@ -3,7 +3,7 @@ title: Šta je novo ili promenjeno u izdanju 21 ispravke za Project Service Auto
 description: U ovoj temi date su funkcije i ispravke koje su dostupne u izdanju 21 ispravke za Project Service Automation u verziji 3.
 author: ruhercul
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom: dyn365-projectservice
 ms.date: 06/19/2020
 ms.topic: article
@@ -17,12 +17,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: e8a15d5f723da528640c62c1892bac0d801c2bee
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 799be481c365e82e8ffb59ba242e30378644008b
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: sr-Latn-RS
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4083531"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4126725"
 ---
 # <a name="project-service-automation-update-release-21-v3"></a>Project Service Automation izdanje ispravke 21, u verziji 3
 
@@ -54,7 +54,7 @@ Popravljeni su sledeći problemi:
 
 Popravljeni su sledeći problemi:
 
-- Mreže obrasca za **Projekat** ( **Dodela resursa** , **Zadatak** , prikaz **Sravnjenje** , **Procene troškova** ) se mogu uređivati čak i kada projekat nije aktivan.
+- Mreže obrasca za **Projekat** (**Dodela resursa**, **Zadatak**, prikaz **Sravnjenje**, **Procene troškova**) se mogu uređivati čak i kada projekat nije aktivan.
 - Duplirani klijenti se ne mogu objediniti sa klijentima koji su povezani sa potvrđenim ugovorima za projekat.
 - Kada se doda resurs koji nema važeći kalendar, sistem ne vraća poruku o grešci prilagođenu korisniku.
 - Dugme **Dodaj zadatak** na mreži zadataka je omogućeno kada je projekat povezan na **programski dodataka za Microsoft Project**.
@@ -68,10 +68,10 @@ Uneta su sledeća poboljšanja:
 
 Popravljeni su sledeći problemi:
 
-- **Ukupna prodajna cena** je nula (0) za **Kategoriju** , mada **Uloga** ima ukupnu prodajnu cenu koja nije nula.
+- **Ukupna prodajna cena** je nula (0) za **Kategoriju**, mada **Uloga** ima ukupnu prodajnu cenu koja nije nula.
 - Klijenti ne mogu da menjaju vrednost polja **Status fakture** na **Spremno za fakturisanje** kada neki drugi prilagođeni proces ažurira dodatno polje.
 - Dugme **Osveži stavke fakture** može da kreira više dupliranih stavki ako se više puta izaberu.
-- Dugme **Ažuriraj cene** ne radi na podobrascu **Cene uloga** u obrascu **Brzi pregled**.
+- Dugme **Ažuriraj cene** ne radi na podformi **Cene uloga** u obrascu **Brzi prikaz**.
 - Logika **Rešenje prodajnog cenovnika** nepravilno rukuje vremenskim zonama, što rezultira pogrešnim odabirom cenovnika.
 - **Ukupni stvarni trošak** projekta se može isključiti jednim delom nakon što se odobri jedna stavka vremena.
 - Logika **Rešenje cena** ne daje poruku o grešci prilagođenu korisniku ako **Vraćena cena uloge** nema vrednosti u poljima **'Primarna jedinica'** i **'Cena u osnovnoj jedinici'**.

@@ -5,15 +5,15 @@ author: ruhercul
 manager: AnnBe
 ms.date: 10/01/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.openlocfilehash: c998addbbdbbea8fe69c95f65e58a24146f394c8
-ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
+ms.openlocfilehash: f159ecac53b824ef208221bb14958923fb5da63b
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: sr-Latn-RS
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4083431"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4127383"
 ---
 # <a name="project-tracking-overview"></a>Pregled praćenja projekata
 
@@ -25,10 +25,10 @@ Potreba da se prati napredak u odnosu na raspored razlikuje se od delatnosti do 
 
 Prikaz **Praćenje angažovanja** prati napredak zadataka u rasporedu upoređujući stvarne sate angažovanja utrošene na zadatku sa planiranim satima angažovanja na zadatku. Dynamics 365 Project Operations koristi sledeće formule za izračunavanje metrika za praćenje:
 
-- **Procenat napretka** : Stvarno vreme angažovanja do danas ÷ Procena pri završetku (EAC) 
-- **Procena do završetka (ETC)** : Planirano angažovanje – Stvarno vreme angažovanja do danas 
-- **EAC** : Preostalo angažovanje + Stvarno vreme angažovanja do danas 
-- **Odstupanje od projektovanog angažovanja** : Planirano angažovanje – EAC
+- **Procenat napretka**: Stvarno vreme angažovanja do danas ÷ Procena pri završetku (EAC) 
+- **Procena do završetka (ETC)**: Planirano angažovanje – Stvarno vreme angažovanja do danas 
+- **EAC**: Preostalo angažovanje + Stvarno vreme angažovanja do danas 
+- **Odstupanje od projektovanog angažovanja**: Planirano angažovanje – EAC
 
 Project Operations prikazuje projekciju odstupanja od angažovanja na zadatku. Ako je EAC veći od planiranog angažovanja, predviđa se da će zadatak oduzeti više vremena nego što je prvobitno planirano i kasniće. Ako je EAC manji od planiranog angažovanja, predviđa se da će zadatak oduzeti manje vremena nego što je prvobitno planirano i biće ispred planiranog vremena.
 
@@ -60,10 +60,10 @@ Prikaz **Praćenje troškova** upoređuje stvarne troškove potrošene na zadata
 > [!NOTE]
 > Ovaj prikaz prikazuje samo troškove rada i ne uključuje troškove iz procena troškova. Project Operations koristi sledeće formule za izračunavanje metrika za praćenje:
 
-- **Procenat ostvarenih troškova** : Stvarni troškovi do danas ÷ Procenjeni troškovi po završetku
-- **Troškovi do završetka (CTC)** : Planirani troškovi – Stvarni troškovi ostvareni do danas
-- **EAC** : Preostali troškovi + Stvarni troškovi ostvareni do danas
-- **Odstupanje od projektovanih troškova** : Planirani troškovi – EAC
+- **Procenat ostvarenih troškova**: Stvarni troškovi do danas ÷ Procenjeni troškovi po završetku
+- **Troškovi do završetka (CTC)**: Planirani troškovi – Stvarni troškovi ostvareni do danas
+- **EAC**: Preostali troškovi + Stvarni troškovi ostvareni do danas
+- **Odstupanje od projektovanih troškova**: Planirani troškovi – EAC
 
 Projekcija odstupanja od troškova je prikazana na zadatku. Ako je EAC veći od planiranih troškova, predviđa se da će zadatak koštati više nego što je prvobitno planirano. Zbog toga ima trend prekoračenja budžeta. Ako je EAC manji od planiranih troškova, predviđa se da će zadatak koštati manje nego što je prvobitno planirano. Zbog toga ima trend neiskorišćenog budžeta.
 

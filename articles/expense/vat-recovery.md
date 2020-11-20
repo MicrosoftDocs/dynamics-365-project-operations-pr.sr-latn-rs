@@ -5,15 +5,15 @@ author: suvaidya
 manager: AnnBe
 ms.date: 10/10/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: suvaidya
-ms.openlocfilehash: 2c20e4a7fa9748e03bf1729fc2f7bdbfc2f292d1
-ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
+ms.openlocfilehash: c52d5ccef681ef9d9ff767c99af6f2fd0fd6da52
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: sr-Latn-RS
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4083448"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4126140"
 ---
 # <a name="vat-recovery-in-expense-management"></a>Povraćaj PDV u upravljanju troškovima
 
@@ -21,7 +21,7 @@ _**Odnosi se na:** Project Operations za scenarije zasnovane na resursima / bez 
 
 Da bi primila povraćaj sredstava za prihvatljive transakcije poreza na dodatu vrednost (PDV), kompanija ili organizacija mora identifikovati, prikupiti, verifikovati i dostaviti tačne informacije. Ovaj proces uključuje više zadataka i, u zavisnosti od veličine vašeg preduzeća, može uključivati nekoliko zaposlenih ili uloga.
 
-Da biste povratili PDV u modulu **Upravljanje troškovima** , morate se ispuniti sledeće preduslove:
+Da biste povratili PDV u modulu **Upravljanje troškovima**, morate se ispuniti sledeće preduslove:
 
 - Šifre poreza se moraju kreirati za zemlje/regione koji su raspoređeni u kategorije troškova.
 - Grupa poreza na promet se mora kreirati za svaku šifru poreza.
@@ -41,7 +41,7 @@ Sledeći odeljci pružaju primere koji pokazuju kako zaposleni u kompaniji Conto
 
 Radmila, predstavnica prodaje kompanije Contoso sa sedištem u Sjedinjenim Državama, nedavno se vratila sa prodajnog putovanja u Ujedinjeno Kraljevstvo. Tokom putovanja, Radmila je napravila neke lične troškove za obroke sa kreditne kartice. Radmila sada mora da sačini izveštaj o troškovima kako bi uskladila troškove.
 
-Kada Radmila unese informacije u izveštaj o troškovima, ona bira **Ujedinjeno Kraljevstvo** u polju **Zemlja/region** na stranici **Uređivanje izveštaja o troškovima**. Lista grupa poreza na promet se zatim filtrira tako da prikazuje samo grupe koje se odnose na Ujedinjeno Kraljevstvo. Radmila bira grupu poreza na promet **Ujedinjeno Kraljevstvo 001** , a zatim bira grupu poreza na promet proizvoda **Obroci**. Zatim, Radmila dodaje novu transakciju za smeštaj. Budući da u Ujedinjenom Kraljevstvu postoji samo jedna grupa poreza na promet i jedna grupa poreza na promet proizvoda, ove informacije se automatski popunjavaju u Radmilinom izveštaju o troškovima.
+Kada Radmila unese informacije u izveštaj o troškovima, ona bira **Ujedinjeno Kraljevstvo** u polju **Zemlja/region** na stranici **Uređivanje izveštaja o troškovima**. Lista grupa poreza na promet se zatim filtrira tako da prikazuje samo grupe koje se odnose na Ujedinjeno Kraljevstvo. Radmila bira grupu poreza na promet **Ujedinjeno Kraljevstvo 001**, a zatim bira grupu poreza na promet proizvoda **Obroci**. Zatim, Radmila dodaje novu transakciju za smeštaj. Budući da u Ujedinjenom Kraljevstvu postoji samo jedna grupa poreza na promet i jedna grupa poreza na promet proizvoda, ove informacije se automatski popunjavaju u Radmilinom izveštaju o troškovima.
 
 Prema smernicama kompanije Contoso, svi troškovi moraju imati odgovarajuću priznanicu. Stoga, kada Radmila sačuva izveštaj o troškovima, ona dobija poruku u kojoj se navodi da mora priložiti priznanicu za svaku transakciju koju je navela u svom izveštaju o troškovima. Radmila potvrđuje da je svom izveštaju o troškovima priložila digitalnu sliku svake priznanice o transakciji, a zatim svoj izveštaj podnosi na odobrenje. Zatim šalje papirne priznanice pozadinskom timu za obradu. Ovaj tim će poslati podatke o povraćaju PDV nezavisnom dobavljaču koji podnosi međunarodne prijave za povraćaj PDV za Contoso.
 

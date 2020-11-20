@@ -2,7 +2,7 @@
 title: Kako prilagođavate tok poslovnog procesa za faze projekta?
 description: Pregled načina prilagođavanja toka poslovnog procesa za faze projekta.
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 10/11/2018
@@ -18,18 +18,18 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 2dccc33088cd9e49e7ffe609f9d9754ef33a5dba
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: a999bbffff848db7a6349df380d9ed5e73c143ab
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: sr-Latn-RS
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4083766"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4125060"
 ---
 # <a name="how-do-i-customize-the-project-stages-business-process-flow"></a>Kako prilagođavate tok poslovnog procesa za faze projekta?
 [!INCLUDE[cc-applies-to-psa-app-2-4x-9-0-platform](../includes/cc-applies-to-psa-app-2-4x-9-0-platform.md)]
 [!INCLUDE[cc-applies-to-psa-app-1x-8-2-platform](../includes/cc-applies-to-psa-app-1x-8-2-platform.md)]
 
-Postoji poznato ograničenje u ranijim verzijama aplikacije Project Service da imena faza u toku poslovnog procesa za faze projekta moraju biti potpuno ista sa očekivanim engleskim imenima ( **Quote** , **Plan** , **Close** ). U suprotnom, poslovna logika, koja se oslanja na englesko ime faze, ne radi kako je očekivano. Zato ne vidite da su poznate radnje, kao što su **Prebaci proces** ili **Uredi proces** dostupne u obrascu projekta, a prilagođavanje toka poslovnog procesa se ne podstiče. 
+Postoji poznato ograničenje u ranijim verzijama aplikacije Project Service da imena faza u toku poslovnog procesa za faze projekta moraju biti potpuno ista sa očekivanim engleskim imenima (**Quote**, **Plan**, **Close**). U suprotnom, poslovna logika, koja se oslanja na englesko ime faze, ne radi kako je očekivano. Zato ne vidite da su poznate radnje, kao što su **Prebaci proces** ili **Uredi proces** dostupne u obrascu projekta, a prilagođavanje toka poslovnog procesa se ne podstiče. 
 
 Ovo ograničenje je otklonjeno u verziji 2.4.5.48 i novijim. U ovom članku data su predložena zaobilazna rešenja ukoliko morate da prilagodite podrazumevani tok poslovnog procesa za starije verzije.  
 
@@ -38,7 +38,7 @@ Ovo ograničenje je otklonjeno u verziji 2.4.5.48 i novijim. U ovom članku data
 Tok poslovnog procesa za faze projekta sadrži poslovnu logiku koja upravlja sledećim ponašanjima u aplikaciji:
 - Kada je projekat povezan sa ponudom, kôd postavlja tok poslovnog procesa na fazu **Quote**.
 - Kada je projekat povezan sa kontaktom, kôd postavlja tok poslovnog procesa na fazu **Plan**.
-- Kada je tok poslovnog procesa napredovao do faze **Close** , zapis projekat se deaktivira. Kada je projekat deaktiviran, obrazac projekta i strukturna analiza posla (SAP) su podešeni na samo za čitanje, rezervacije imenovanog resursa se ukidaju i svi povezani cenovnici se deaktiviraju.
+- Kada je tok poslovnog procesa napredovao do faze **Close**, zapis projekat se deaktivira. Kada je projekat deaktiviran, obrazac projekta i strukturna analiza posla (SAP) su podešeni na samo za čitanje, rezervacije imenovanog resursa se ukidaju i svi povezani cenovnici se deaktiviraju.
 
 Ova poslovna logika se oslanja imena na engleskom jeziku za faze projekta. Ova zavisnost od imena na engleskom jeziku predstavlja glavni razlog zašto se ne podstiče prilagođavanje toka poslovnog procesa za faze projekta, kao i zašto ne vidite uobičajene radnje toka poslovnog procesa kao što su **Prebaci proces** ili **Uredi proces** u entitetu Projekat.
 
@@ -48,7 +48,7 @@ U aplikaciji Project Service, verzija 1.x na platformi 8.2, kada se imena faza u
 
 U aplikaciji Project Service, verzija 2.4.4.30 ili ranija na platformi 9.0, došlo je do značajne arhitektonske promene tokova poslovnih procesa, što je zahtevalo ponovno pisanje poslovne logike toka poslovnog procesa. Kao posledica toga, ako se imena faze procesa ne podudaraju sa očekivanim imenima na engleskom jeziku, primićete poruku o grešci. 
 
-Stoga, ako želite da prilagodite tok poslovnog procesa za faze projekta za entitet projekta, možete samo da dodate potpuno nove faze u podrazumevani tok poslovnog procesa za entitet projekta zadržavajući faze **Ponuda** , **Plan** i **Zatvori** nepromenjene. Ovo ograničenje osigurava da ne dobijate greške od poslovne logike koja očekuje imena na engleskom jeziku u toku poslovnog procesa.
+Stoga, ako želite da prilagodite tok poslovnog procesa za faze projekta za entitet projekta, možete samo da dodate potpuno nove faze u podrazumevani tok poslovnog procesa za entitet projekta zadržavajući faze **Ponuda**, **Plan** i **Zatvori** nepromenjene. Ovo ograničenje osigurava da ne dobijate greške od poslovne logike koja očekuje imena na engleskom jeziku u toku poslovnog procesa.
 
 U verziji 2.4.5.48 ili novijoj, poslovna logika opisana u ovom članku je uklonjena iz podrazumevanog toka poslovnog procesa za entitet projekta. Nadogradnja na tu verziju ili kasniju će vam omogućiti da prilagodite ili zamenite podrazumevani tok poslovnog procesa sopstvenim. 
 
@@ -56,12 +56,12 @@ U verziji 2.4.5.48 ili novijoj, poslovna logika opisana u ovom članku je uklonj
 
 Ako nadogradnja ne predstavlja opciju, možete da prilagodite tok poslovnog procesa za faze projekta za entitet projekta na jedan od ova dva načina:
 
-1. Dodajte dodatne faze podrazumevanoj konfiguraciji istovremeno zadržavajući engleska imena faza za opcije **Quote** , **Plan** i **Close**.
+1. Dodajte dodatne faze podrazumevanoj konfiguraciji istovremeno zadržavajući engleska imena faza za opcije **Quote**, **Plan** i **Close**.
 
 
 ![Snimak ekrana za dodavanje faza podrazumevanoj konfiguraciji](media/FAQ-Customize-BPF-1.png)
  
-2. Kreirajte sopstveni tok poslovnog procesa i neka on bude vaš primarni tok poslovnog procesa za entitet projekta, što vam omogućava da imate bilo koja imena faze po želji. Međutim, ako želite da koristite iste standardne faze projekta **Quote** , **Plan** i **Close** , potrebno je da izvršite još neka prilagođavanja koja se pokreću na osnovu vaših prilagođenih imena za faze. Složenija logika se nalazi u zatvaranju projekta, koju i dalje možete da pokrećete prostim deaktiviranjem zapisa projekta.
+2. Kreirajte sopstveni tok poslovnog procesa i neka on bude vaš primarni tok poslovnog procesa za entitet projekta, što vam omogućava da imate bilo koja imena faze po želji. Međutim, ako želite da koristite iste standardne faze projekta **Quote**, **Plan** i **Close**, potrebno je da izvršite još neka prilagođavanja koja se pokreću na osnovu vaših prilagođenih imena za faze. Složenija logika se nalazi u zatvaranju projekta, koju i dalje možete da pokrećete prostim deaktiviranjem zapisa projekta.
 
 ![BPF prilagođavanje](media/FAQ-Customize-BPF-2.png)
 
@@ -81,7 +81,7 @@ Postupite na sledeći način da biste kreirali sopstveni tok poslovnog procesa z
 
   ![Kreiraj proces](media/FAQ-Customize-BPF-3.png)
 
-2. Koristite dizajner procesa za kreiranje željenih imena za faze. Ako želite istu funkcionalnost kao podrazumevane faze za stavke **Quote** , **Plan** i **Close** , moraćete da je kreirate na osnovu imena za faze prilagođenog toka poslovnog procesa.
+2. Koristite dizajner procesa za kreiranje željenih imena za faze. Ako želite istu funkcionalnost kao podrazumevane faze za stavke **Quote**, **Plan** i **Close**, moraćete da je kreirate na osnovu imena za faze prilagođenog toka poslovnog procesa.
 
    ![Snimak ekrana dizajnera procesa koji se koristi za prilagođavanje BPF](media/FAQ-Customize-BPF-4.png) 
 

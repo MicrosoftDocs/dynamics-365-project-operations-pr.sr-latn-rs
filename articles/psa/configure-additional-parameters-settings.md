@@ -3,7 +3,7 @@ title: Konfigurisanje podešavanja dodatnih parametara
 description: Kako da konfigurišete podešavanja dodatnih parametara u usluzi Project Service
 author: JohnPBurrows
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 8/03/2018
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 24a4fe83471da916fb91cfe20e739279c08d8e5e
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 5ce7ffd635b10689c8295d9349966450f11282d1
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: sr-Latn-RS
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4083580"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4129380"
 ---
 # <a name="configure-additional-parameter-settings-project-service"></a>Konfigurisanje podešavanja dodatnih parametara (Project Service)
 
@@ -54,9 +54,9 @@ Da biste podesili parametre projekta:
   
 2. Kliknite na podešavanje parametara koje želite da konfigurišete (one koje ste kreirali kada ste prvi put instalirali [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)]) ili kliknite na **Novo** da biste kreirate novi.  
   
-3. U oblasti **Opšti podaci** , podesite sve opcije za parametre projekta.  
+3. U oblasti **Opšti podaci**, podesite sve opcije za parametre projekta.  
   
-4. U oblasti **Cenovnik** kliknite na **+** da biste dodali cenovnik, izaberite cenovnik u padajućoj listi **Cenovnik parametara projekta** , a zatim kliknite na **Sačuvaj**.  
+4. U oblasti **Cenovnik** kliknite na **+** da biste dodali cenovnik, izaberite cenovnik u padajućoj listi **Cenovnik parametara projekta**, a zatim kliknite na **Sačuvaj**.  
   
 5. Kliknite na dugme **Sačuvaj** u donjem desnom uglu ekrana.  
 

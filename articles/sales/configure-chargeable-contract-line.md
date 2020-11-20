@@ -5,15 +5,15 @@ author: rumant
 manager: Annbe
 ms.date: 10/12/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: stsporen
-ms.openlocfilehash: af97904b0171618cb15d060da9bc87fcf6bbabeb
-ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
+ms.openlocfilehash: d6f67d5dc6b94148d437b3399229c1235c702c6a
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: sr-Latn-RS
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4083517"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4128715"
 ---
 # <a name="configure-chargeable-components-of-a-project-based-contract-line"></a>Konfigurišite naplative komponente za predmet ugovora zasnovan na projektu
 
@@ -35,13 +35,13 @@ Naplativost definisana u kategorijama transakcija za predmet ugovora o projektu 
 
 Uloga može biti naplativa ili nenaplativa na određenom predmetu ugovora zasnovanom na projektu.
 
-Na kartici **Uloge koje se naplaćuju** na predmetu ugovora zasnovanom na projektu, na podformi **Kategorije koje se naplaćuju** , u polju **Tip obračuna** ažurirajte tip obračuna za ulogu.
+Na kartici **Naplative uloge** predmeta ugovora zasnovanog na projektu, u podformi **Naplative kategorije**, u polju **Tip naplate** ažurirajte vrstu obračuna za ulogu.
 
 ### <a name="update-a-transaction-category-to-be-chargeable-or-non-chargeable"></a>Ažurirajte kategoriju transakcija da bude naplativa ili nenaplativa
 
 Kategorija transakcija može biti naplativa ili nenaplativa na određenom predmetu ugovora zasnovanom na projektu.
 
-Na kartici **Kategorije koje se naplaćuju** na predmetu ugovora zasnovanom na projektu, na podformi **Kategorije koje se naplaćuju** , u polju **Tip obračuna** ažurirajte tip obračuna za transakciju.
+Na kartici **Naplative kategorije** predmeta ugovora zasnovanog na projektu, u podformi **Naplative kategorije**, u polju **Tip naplate** ažurirajte vrstu obračuna za transakciju.
 
 ### <a name="resolve-chargeability"></a>Rešite naplativost
 

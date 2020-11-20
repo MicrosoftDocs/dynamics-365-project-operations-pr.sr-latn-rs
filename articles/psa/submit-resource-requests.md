@@ -3,7 +3,7 @@ title: Prosledite zahteve za resurse
 description: Kako da prosledite zahteva za resurse u aplikaciji Project Service
 author: JohnPBurrows
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 8/03/2018
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 1978a9212db25ac32ff2dc5f9050ec43fc1ccbd7
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 50f66d1157b932a91224a63d91ea2aeccc2c209f
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: sr-Latn-RS
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4083672"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4126905"
 ---
 # <a name="submit-resource-requests-project-service"></a>Slanje zahteva za resurse (Project Service)
 
@@ -41,11 +41,11 @@ Kada ste dobili ugovor za projekat, prvo ćete morati da obezbedite radnu snagu 
   
 5.  Da biste fiksno rezervisali resurs umesto toga, izaberite ulogu, a zatim kliknite na **Fiksno rezerviši**. Ovo pokazuje prikaz kalendara za sve resurse i njihovu dostupnost sa oznakama boja što pruža vizuelni prikaz statusa rezervisanja resursa. Možete uraditi nešto od sledećeg da biste optimizovali pretragu:  
   
-    -   Izaberite prikaz ili redosled sortiranja na vrhu ekrana. Takođe možete izabrati da li treba prikazati dostupnost za **Dan** , **Sedmicu** ili **Mesec** , i koristite strelice da biste prikazali prethodni ili sledeći vremenski period. Koristite okvir za pretragu da biste pronašli određeni resurs.  
+    -   Izaberite prikaz ili redosled sortiranja na vrhu ekrana. Takođe možete izabrati da li treba prikazati dostupnost za **Dan**, **Sedmicu** ili **Mesec**, i koristite strelice da biste prikazali prethodni ili sledeći vremenski period. Koristite okvir za pretragu da biste pronašli određeni resurs.  
   
     -   Kliknite na dugme **Opcije** da biste promenili šta se prikazuje. Na primer, možete da prikažete legendu koja prikazuje šemu boja za različite vrste rezervacija ili možete odabrati da prikažete samo određenu vrstu rezervacije (na primer, fiksno rezervisanje ili uslovno rezervisanje).  
   
-    -   Kliknite na dugme **Filter** za prikaz okna **Filter** , što vam omogućava da filtrirate rezultate prema organizacionoj jedinici, ulozi, veštini ili drugim atributima.  
+    -   Kliknite na dugme **Filter** za prikaz okna **Filter**, što vam omogućava da filtrirate rezultate prema organizacionoj jedinici, ulozi, veštini ili drugim atributima.  
   
     -   U kalendaru za resurs koji želite da rezervišete, izaberite vremenski period da rezervišete resurs i ili kliknite na dugme **Rezerviši** da rezervišete resurs ili **Predloži rezervaciju** da predložite rezervaciju da ga odobri podnosilac zahteva.  
   

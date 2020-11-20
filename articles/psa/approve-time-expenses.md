@@ -3,7 +3,7 @@ title: Odobravanje vremena i troškova
 description: Kako da odobrite vreme i troškove u usluzi Project Service
 author: revathiMuthiah
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 8/03/2018
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 6b5fca4ab1eb4c907c3fd6cca5e2adf79fad9590
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: ce126815dce37055fb364512a9a14c828d9b0c32
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: sr-Latn-RS
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4083758"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4127130"
 ---
 # <a name="approve-time-and-expenses-project-service"></a>Odobrenje vremena i troškova (Project Service)
 
@@ -35,7 +35,7 @@ Kada konsultanti unesu svoje vreme i troškove za projekat, treba da ih odobrite
   
 2.  Kliknite na stavku za odobrenje.  
   
-3.  Na karticama **Unosi vremena** , **Unosi troškova** i **Odsustvo/Odmor** , pregledajte svaku stavku i unesite promene ako je potrebno.  
+3.  Na karticama **Unosi vremena**, **Unosi troškova** i **Odsustvo/Odmor**, pregledajte svaku stavku i unesite promene ako je potrebno.  
   
 4.  Da biste odobrili stavku, izaberite je i kliknite na **Odobri**. Možete da izaberete i odobrite više stavki odjednom.  
   

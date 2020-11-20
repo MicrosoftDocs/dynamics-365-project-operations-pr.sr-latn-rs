@@ -3,7 +3,7 @@ title: Prilagođavanje sedmične stavke vremena
 description: Ova tema pruža informacije o tome kako implementirati prilagođena poslovna pravila koja podržavaju prakse organizacije.
 author: stsporen
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 07/09/2019
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: cc395e77e987dac062251ef87fcf8295305178e2
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 3c4a508f2a67f87302f8b81640d2031fd5d2627b
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: sr-Latn-RS
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4083667"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4127940"
 ---
 # <a name="customize-weekly-time-entry"></a>Prilagođavanje sedmične stavke vremena 
 
@@ -51,12 +51,12 @@ Odeljak **Dimenzije** ne dozvoljava unutrašnje uređivanje. Ovaj odeljak je pod
 Odeljak Trajanje prikazuje dane u nedelji kao zaglavlja kolona. Ovaj odeljak omogućava unutrašnje uređivanje. Nakon što se kreira red za stavku vremena koji ima odgovarajuće dimenzije, korisnici mogu unutra brzo uneti količinu vremena koju su utrošili za te dimenzije.
 
 ## <a name="create-a-new-time-entry"></a>Kreiranje nove stavke vremena
-Da biste kreirali novu stavku vremena u mreži stavke vremena, izaberite **Nova**. Pojaviće se dijalog **Brzo kreiranje stavke vremena**. U ovom dijalogu, korisnici mogu odabrati datum stavke vremena, a zatim uneti podatke za dimenzije **Projekat** , **Projektni zadatak** , **Uloga** i **Trajanje** u minutima, satima ili danima unosom **s** , **m** ili **d** , zajedno sa brojem. Korisnici takođe mogu uneti opis i komentare koji se mogu deliti eksterno za stavku vremena. Kada korisnici sačuvaju svoje promene, vrednosti koje su uneli za dimenzije se pojavljuju u odeljku **Dimenzije**. Informacije o trajanju koje su uneli u polje **Trajanje** se pojavljuju za datum za koji je kreirana stavka vremena.
+Da biste kreirali novu stavku vremena u mreži stavke vremena, izaberite **Nova**. Pojaviće se dijalog **Brzo kreiranje stavke vremena**. U ovom dijalogu, korisnici mogu odabrati datum stavke vremena, a zatim uneti podatke za dimenzije **Projekat**, **Projektni zadatak**, **Uloga** i **Trajanje** u minutima, satima ili danima unosom **s**, **m** ili **d**, zajedno sa brojem. Korisnici takođe mogu uneti opis i komentare koji se mogu deliti eksterno za stavku vremena. Kada korisnici sačuvaju svoje promene, vrednosti koje su uneli za dimenzije se pojavljuju u odeljku **Dimenzije**. Informacije o trajanju koje su uneli u polje **Trajanje** se pojavljuju za datum za koji je kreirana stavka vremena.
 
 Polja za pronalaženje podržavaju sistemski prikazi. Na primer, nakon što korisnik unese projekat, polje **Projektni zadatak** se podrazumevano podešava na prikaz **Kopiranje**. Da biste kreirali stavke vremena za zadatke koji nisu dodeljeni korisniku, izaberite **Promeni prikaz** u dijalogu za pretraživanje, a zatim izaberite **Svi zadaci aktivnog projekta**.
 
 ## <a name="edit-a-time-entry"></a>Uređivanje stavke vremena
-Detalji iz nekih polja na stranici za stavku vremena, kao što su **Opis** i **Spoljni komentari** , nisu prikazani u mreži sedmičnih stavki vremena. Umesto toga, u ćelijama trajanja pojavljuje se mali trouglasti indikator koji ima ove dodatne detalje. Izaberite ćeliju, a zatim izaberite **Uređivanje detalja** da biste pregledali podatke u oknu **Brzo uređivanje**. Da bi izmenili ili ažurirali detalje za određenu stavku vremena koja nije deo mreže sedmičnih stavki vremena, korisnici moraju da otvore okno **Brzo uređivanje**.
+Detalji iz nekih polja na stranici za stavku vremena, kao što su **Opis** i **Spoljni komentari**, nisu prikazani u mreži sedmičnih stavki vremena. Umesto toga, u ćelijama trajanja pojavljuje se mali trouglasti indikator koji ima ove dodatne detalje. Izaberite ćeliju, a zatim izaberite **Uređivanje detalja** da biste pregledali podatke u oknu **Brzo uređivanje**. Da bi izmenili ili ažurirali detalje za određenu stavku vremena koja nije deo mreže sedmičnih stavki vremena, korisnici moraju da otvore okno **Brzo uređivanje**.
 
 ## <a name="copy-a-time-entry-row"></a>Kopiranje reda stavke vremena
 Nakon što je kreiran prvi red stavke vremena, korisnici mogu da izaberu **Kopiraj red** da bi iskopirali ceo red u novi red. Kada se red kopira na ovaj način, dimenzije i trajanje se takođe kopiraju. Korisnici takođe mogu da izaberu **Izmeni red** da bi ažurirali vrednosti dimenzija i trajanja u odeljku **Trajanje**.
@@ -77,7 +77,7 @@ Novim stavkama vremena automatski se dodeljuje status **Radna verzija**. Kada se
 Kada davalac odobrenja odbaci stavku vremena, može da doda komentare o odbacivanju kako bi pomogao resursu da shvati razlog odbacivanja. Da biste videli komentare o odbacivanju stavke vremena, izaberite **Otvori stavku**. Komentari o odbacivanju biće prikazani na vremenskoj osi. U vremenskoj osi, resurs može da odgovori na komentare o odbacivanju pre nego što ponovo prosledi stavku.
 
 ## <a name="copy-week"></a>Kopiranje sedmice
-Nakon kreiranja nekoliko stavki vremena, korisnici mogu da izaberu **Kopiranje sedmice** da bi grupno kreirali dodatne stavke vremena. Pojavljuje se dijalog **Kopiranje**. U odeljku **Iz perioda** koristite polja **Datum početka** i **Datum završetka** za definisanje opsega datuma iz kojeg treba kopirati stavke vremena. U odeljku **U period** , u polju **Datum početka** , odredite datum za koji ćete kreirati stavke vremena. Zatim izaberite **Kopiraj**. Za određeni datum u „U“ periodu kreira se kopija stavki vremena za odgovarajući dan u nedelji u „Iz“ periodu. Na primer, stavka vremena za ponedeljak iz prošle nedelje se kopira u ponedeljak one sedmice koja je navedena kao „U“ period.
+Nakon kreiranja nekoliko stavki vremena, korisnici mogu da izaberu **Kopiranje sedmice** da bi grupno kreirali dodatne stavke vremena. Pojavljuje se dijalog **Kopiranje**. U odeljku **Iz perioda** koristite polja **Datum početka** i **Datum završetka** za definisanje opsega datuma iz kojeg treba kopirati stavke vremena. U odeljku **U period**, u polju **Datum početka**, odredite datum za koji ćete kreirati stavke vremena. Zatim izaberite **Kopiraj**. Za određeni datum u „U“ periodu kreira se kopija stavki vremena za odgovarajući dan u nedelji u „Iz“ periodu. Na primer, stavka vremena za ponedeljak iz prošle nedelje se kopira u ponedeljak one sedmice koja je navedena kao „U“ period.
 
 ## <a name="import"></a>Uvoz
 Isti osnovni postupak koristi se za uvoz iz rezervacija, dodela i razmena. Korisnici mogu odrediti opseg datuma iz kojeg se uvoze rezervacije. Zatim moraju izričito izabrati rezervacije koje treba kopirati u radne verzije stavki vremena. U prethodnom izdanju, predložene stavke vremena su se prikazivale u mreži i kalendaru i bile izgubljene prilikom osvežavanja sesije.
@@ -98,22 +98,22 @@ Morate dodati prilagođeno polje u dijalog za brzo kreiranje stavke vremena. Tak
 #### <a name="configure-the-grid-to-show-the-custom-field"></a>Konfigurisanje mreže za prikaz prilagođenog polja
 Prilagođeno polje možete da dodate na dva načina u mrežu sedmičnih stavki vremena. Prva opcija je da prilagodite prikaz **Moje sedmične stavke vremena** i dodate mu prilagođeno polje. Možete odabrati položaj i veličinu prilagođenog polja u mreži uređivanjem tih svojstava u prikazu.
 
-Druga opcija je kreiranje novog prilagođenog prikaza stavke vremena i njegovo podešavanje kao podrazumevanog prikaza. Ovaj prikaz treba da sadrži polja **Opis** i **Spoljni komentari** , pored kolona koje želite da imate na mreži. Možete odabrati položaj, veličinu i podrazumevani redosled sortiranja u mreži uređivanjem tih svojstava u prikazu. Zatim konfigurišite prilagođenu kontrolu za ovaj prikaz tako da to bude kontrola **Mreža stavke vremena**. Dodajte ovu kontrolu u prikaz i odaberite je za veb, telefon i tablet. Zatim konfigurišite parametre za mrežu sedmičnih stavki vremena. Podesite polje **Datum početka** na **msdyn_date** , podesite polje **Trajanje** na **msdyn_duration** , a **Status** na **msdyn_entrystatus**. Za podrazumevani prikaz, polje **Lista statusa samo za čitanje** je podešeno na **192350002,192350003,192350004** , polje **Tok zadataka uređenja reda** na **msdyn_timeentryrowedit** , a polje **Tok zadataka uređenja ćelije** na **msdyn_timeentryedit**. Ova polja možete prilagoditi da biste dodali ili uklonili status samo za čitanje ili koristili drugo iskustvo zasnovano na zadacima za uređivanje redova ili ćelija. Ova polja treba da budu vezana za statičku vrednost.
+Druga opcija je kreiranje novog prilagođenog prikaza stavke vremena i njegovo podešavanje kao podrazumevanog prikaza. Ovaj prikaz treba da sadrži polja **Opis** i **Spoljni komentari**, pored kolona koje želite da imate na mreži. Možete odabrati položaj, veličinu i podrazumevani redosled sortiranja u mreži uređivanjem tih svojstava u prikazu. Zatim konfigurišite prilagođenu kontrolu za ovaj prikaz tako da to bude kontrola **Mreža stavke vremena**. Dodajte ovu kontrolu u prikaz i odaberite je za veb, telefon i tablet. Zatim konfigurišite parametre za mrežu sedmičnih stavki vremena. Podesite polje **Datum početka** na **msdyn_date**, podesite polje **Trajanje** na **msdyn_duration**, a **Status** na **msdyn_entrystatus**. Za podrazumevani prikaz, polje **Lista statusa samo za čitanje** je podešeno na **192350002,192350003,192350004**, polje **Tok zadataka uređenja reda** na **msdyn_timeentryrowedit**, a polje **Tok zadataka uređenja ćelije** na **msdyn_timeentryedit**. Ova polja možete prilagoditi da biste dodali ili uklonili status samo za čitanje ili koristili drugo iskustvo zasnovano na zadacima za uređivanje redova ili ćelija. Ova polja treba da budu vezana za statičku vrednost.
 
 #### <a name="add-the-custom-field-to-the-appropriate-edit-task-flow"></a>Dodavanje prilagođenog polja u odgovarajući tok zadatka za uređivanje
 Stranice koje pružaju iskustvo zasnovano na zadacima, koje se koriste za uređivanje, možete pronaći u delu **Procesi**. Podrazumevane stranice su **Project Service – Uređivanje reda stavke vremena** i **Project Service – Uređivanje stavki vremena**. Možete da izmenite ove podrazumevan stranice ili da kreirate nove stranice koje pružaju iskustvo zasnovano na zadacima.
 
 > [!NOTE] 
-> Obe opcije će ukloniti neko unapred definisano filtriranje za entitete **Projekat** i **Projektni zadatak** , tako da će svi prikazi pronalaženja entiteta biti vidljivi. Kao unapred definisani su vidljivi samo relevantni prikazi pronalaženja.
+> Obe opcije će ukloniti neko unapred definisano filtriranje za entitete **Projekat** i **Projektni zadatak**, tako da će svi prikazi pronalaženja entiteta biti vidljivi. Kao unapred definisani su vidljivi samo relevantni prikazi pronalaženja.
 
-Morate odrediti odgovarajući tok zadataka za prilagođeno polje. Najvjerovatnije, ako ste dodali polje u mrežu, ono bi trebalo da ide u tok zadataka uređenja reda koji se koristi za polja koja se primjenjuju na celi red sa stavkama vremena. Ako prilagođeno polje ima jedinstvenu vrednost svakog dana, kao što je prilagođeno polje za **Vreme završetka** , trebalo bi da ide u tok zadataka uređenja ćelije.
+Morate odrediti odgovarajući tok zadataka za prilagođeno polje. Najvjerovatnije, ako ste dodali polje u mrežu, ono bi trebalo da ide u tok zadataka uređenja reda koji se koristi za polja koja se primjenjuju na celi red sa stavkama vremena. Ako prilagođeno polje ima jedinstvenu vrednost svakog dana, kao što je prilagođeno polje za **Vreme završetka**, trebalo bi da ide u tok zadataka uređenja ćelije.
 
-Da biste dodali prilagođeno polje u tok zadataka, prevucite element **Polje** u odgovarajuću poziciju na stranici, a zatim podesite njegova svojstva. Podesite svojstvo **Izvor** na **Stavka vremena** , a svojstvo **Polje podataka** na prilagođeno polje. Svojstvo **Polje** određuje ime za prikaz na stranici koja pruža iskustvo zasnovano na zadacima. Izaberite **Primeni** da biste sačuvali promene polja. Zatim izaberite **Ažuriraj** da biste sačuvali promene stranice.
+Da biste dodali prilagođeno polje u tok zadataka, prevucite element **Polje** u odgovarajuću poziciju na stranici, a zatim podesite njegova svojstva. Podesite svojstvo **Izvor** na **Stavka vremena**, a svojstvo **Polje podataka** na prilagođeno polje. Svojstvo **Polje** određuje ime za prikaz na stranici koja pruža iskustvo zasnovano na zadacima. Izaberite **Primeni** da biste sačuvali promene polja. Zatim izaberite **Ažuriraj** da biste sačuvali promene stranice.
 
-Da biste umesto toga koristili novu prilagođenu stranicu koja pruža iskustvo zasnovano na zadacima, kreirajte novi postupak. Podesite kategoriju na **Tok poslovnog procesa** , entitet na **Stavka vremena** , a vrstu poslovnog procesa na **Pokreni proces kao tok zadataka**. U delu **Svojstva** , svojstvo **Naziv stranice** treba da podesite na ime za prikaz na stranici. Na stranicu koja pruža iskustvo zasnovano na zadacima dodajte sva relevantna polja. Sačuvajte i aktivirajte postupak, a zatim ažurirajte svojstvo prilagođene kontrole za odgovarajući tok zadataka na vrednost **Ime** za proces.
+Da biste umesto toga koristili novu prilagođenu stranicu koja pruža iskustvo zasnovano na zadacima, kreirajte novi postupak. Podesite kategoriju na **Tok poslovnog procesa**, entitet na **Stavka vremena**, a vrstu poslovnog procesa na **Pokreni proces kao tok zadataka**. U delu **Svojstva**, svojstvo **Naziv stranice** treba da podesite na ime za prikaz na stranici. Na stranicu koja pruža iskustvo zasnovano na zadacima dodajte sva relevantna polja. Sačuvajte i aktivirajte postupak, a zatim ažurirajte svojstvo prilagođene kontrole za odgovarajući tok zadataka na vrednost **Ime** za proces.
 
 ### <a name="add-new-option-set-values"></a>Dodavanje novih vrednosti skupa opcija
-Da biste dodali vrednosti skupa opcija u unapred definisano polje, otvorite stranicu za uređivanje polja, a zatim u delu **Tip** odaberite **Uredi** pored skupa opcija. Zatim dodajte novu opciju koja ima prilagođenu oznaku i boju. Ako želite da dodate novi status stavke vremena, unapred definisano polje se zove **Status stavke** , a ne **Status**.
+Da biste dodali vrednosti skupa opcija u unapred definisano polje, otvorite stranicu za uređivanje polja, a zatim u delu **Tip** odaberite **Uredi** pored skupa opcija. Zatim dodajte novu opciju koja ima prilagođenu oznaku i boju. Ako želite da dodate novi status stavke vremena, unapred definisano polje se zove **Status stavke**, a ne **Status**.
 
 ### <a name="designate-a-new-time-entry-status-as-read-only"></a>Označavanje statusa nove stavke vremena kao samo za čitanje
 Da biste označili status nove stavke vremena kao samo za čitanje, dodajte vrednost nove stavke vremena (broj, a ne oznaku) u svojstvo **Lista statusa samo za čitanje**. Deo mreže stavke vremena koji može da se uređuje biće zaključan za redove koji imaju novi status.

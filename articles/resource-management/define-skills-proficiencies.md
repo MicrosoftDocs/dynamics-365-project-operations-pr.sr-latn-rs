@@ -6,7 +6,7 @@ manager: AnnBe
 ms.date: 09/23/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 audience: Application User
 ms.reviewer: kfend
 ms.search.scope: ''
@@ -17,12 +17,12 @@ ms.search.industry: Service industries
 ms.author: ruhercul
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: 24538ed1d610a0cae4c2badc0fd33c2f738a8338
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 8738a4743554704ef76807c81fdefcd74e668e1b
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: sr-Latn-RS
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4083524"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4124790"
 ---
 # <a name="define-skills-and-proficiencies"></a>Definisanje veština i stručnosti
 
@@ -36,9 +36,9 @@ Veštine su karakteristike resursa koje se dele između usluga Dynamics 365 Proj
 
 Veštine za resurse ocenjuju se prema modelima stručnosti. Pojedinačne ocene su u modelu stručnosti. 
 
-1. Da biste kreirali model stručnosti, idite na **Resursi** \> **Modeli stručnosti** , a zatim izaberite **Novi**.
+1. Da biste kreirali model stručnosti, idite na **Resursi** \> **Modeli stručnosti**, a zatim izaberite **Novi**.
 2. U novom modelu ocenjivanja navedite minimalnu vrednost ocenjivanja, maksimalnu vrednost ocenjivanja i entitet koji se ocenjuje.
-3. U podformi **Vrednosti ocenjivanja** možete definisati različite vrednosti ocenjivanja, od minimalne do maksimalne.
+3. U podformi **Vrednosti ocena** možete definisati različite vrednosti ocenjivanja, od minimalne do maksimalne.
 
 
-Te vrednosti ocenjivanja su prikazane u filterima **Potrebe za resursima** , **Tabela rasporeda** i **Pomoćnik za zakazivanje**.
+Te vrednosti ocenjivanja su prikazane u filterima **Potrebe za resursima**, **Tabela rasporeda** i **Pomoćnik za zakazivanje**.

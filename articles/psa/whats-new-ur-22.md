@@ -3,7 +3,7 @@ title: Šta je novo ili promenjeno u izdanju 22 ispravke za Project Service Auto
 description: U ovoj temi date su funkcije i ispravke koje su dostupne u izdanju 22 ispravke za Project Service Automation u verziji 3.
 author: ruhercul
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom: dyn365-projectservice
 ms.date: 07/28/2020
 ms.topic: article
@@ -17,12 +17,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: badd87a276d68d9959e9cca4220daf61ed570638
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 456ed68bc1d74c2c8e5d2420a3f5d1fb8e0465d6
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: sr-Latn-RS
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4083528"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4126635"
 ---
 # <a name="project-service-automation-update-release-22-v3"></a>Project Service Automation izdanje ispravke 22, u verziji 3
 
@@ -69,4 +69,4 @@ Popravljeni su sledeći problemi:
 - Poruka o grešci prilikom provere nije prikazana kada je u pretraživanju cenovnika na obrascu/entitetu „Novi cenovnik ponude za projekat“ izabran Cenovnik troškova.
 - Zatvaranje dobijene ponude ne prelazi na kreirani ugovor ako je BPF u prilogu ponude u završnoj fazi.
 - Storniranje stavke **Nenaplaćena prodaja** je povezano sa prvobitnim troškom kada se opozove unos vremena.
-- Nakon odabira dugmeta **Potvrdi** , status fakture se ne menja u **Potvrđeno** , osim ako se faktura osveži.
+- Nakon odabira dugmeta **Potvrdi**, status fakture se ne menja u **Potvrđeno**, osim ako se faktura osveži.

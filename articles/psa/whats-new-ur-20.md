@@ -3,7 +3,7 @@ title: Šta je novo ili promenjeno u Project Service Automation izdanju ispravke
 description: U ovoj temi date su funkcije i ispravke koje su dostupne u Project Service Automation izdanju ispravke 20 u verziji 3
 author: ruhercul
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom: dyn365-projectservice
 ms.date: 06/12/2020
 ms.topic: article
@@ -17,12 +17,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 12edae76dbc6de63d3e2d36058c4092f80ede77d
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: ef24c20f3fa520b25a14773a15363a0f04f98d36
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: sr-Latn-RS
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4083529"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4126770"
 ---
 # <a name="project-service-automation-update-release-20-v3"></a>Project Service Automation izdanje ispravke 20, u verziji 3
 
@@ -48,7 +48,7 @@ Popravljeni su sledeći problemi:
 
 Popravljeni su sledeći problemi:
 
-- Na obrascu **Ugovor** , dvostruki klik na **Kreiraj fakturu** kreira dve fakture za jedan stvarni zapis.
+- Na obrascu **Ugovor**, dvostruki klik na **Kreiraj fakturu** kreira dve fakture za jedan stvarni zapis.
 - U rešenju Internet Explorer 11,korisnici ne mogu da kreiraju stavke troškova.
 - Storniranje troškova i storniranje nefakturisanih stvarnih podataka o prodaji nisu povezani.
 - Dugme **Osveži stvarne troškove** na obrascu **Projekat** ne osvežava stavku **Stvarni sati za zadatak**.
@@ -59,4 +59,4 @@ Popravljeni su sledeći problemi:
 - Vrednosti za jedinicu i grupu jedinica ne postaju ispravno podrazumevano za kategorije troškova u obrascima **Detalji o predmetu ugovora** i **Detalji stavke ponude**.
 - Liste **Cena koštanja po jedinici za organizaciju** dozvoljavaju preklapanje efikasnosti datuma.
 - Korisnicima nije dozvoljeno da menjaju **OrgUnit** kada tip porudžbine nije zasnovan na radu jer će dovesti do greške izuzetka nepostojeće reference.
-- Pri pokušaju kretanja iz obrasca **Detalji stavke ponude** natrag na karticu **Ponuda** , obrazac se osvežava i prikazuje karticu **Rezime**.
+- Pri pokušaju kretanja iz obrasca **Detalji stavke ponude** natrag na karticu **Ponuda**, obrazac se osvežava i prikazuje karticu **Rezime**.

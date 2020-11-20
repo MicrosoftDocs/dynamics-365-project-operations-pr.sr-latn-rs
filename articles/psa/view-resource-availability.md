@@ -3,7 +3,7 @@ title: Prikaz dostupnosti resursa
 description: Kako da prikažete dostupnost resursa u programu Project Service
 author: JohnPBurrows
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 8/03/2018
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 18f2287eeba5df9dae150c213e2a7c88de8c7276
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 65798e1b0d675b86a73fcd6a0426407d6fe86d0b
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: sr-Latn-RS
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4083654"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4124970"
 ---
 # <a name="view-resource-availability-project-service"></a>Prikaz dostupnosti resursa (Project Service)
 
@@ -38,11 +38,11 @@ Možete da proverite dostupnost resursa da biste dobili ukupan prikaz toga kolik
 
 1. Idite na **Project Service > Dostupnost resursa**.  
 
-    Ovo pokazuje kalendarski prikaz svih resursa i njihove dostupnosti. Izaberite prikaz ili redosled sortiranja na vrhu ekrana. Takođe možete izabrati da li treba prikazati dostupnost za **Dan** , **Sedmicu** ili **Mesec** , i koristite strelice da biste prikazali prethodni ili sledeći vremenski period. Koristite okvir za pretragu da biste pronašli određeni resurs.  
+    Ovo pokazuje kalendarski prikaz svih resursa i njihove dostupnosti. Izaberite prikaz ili redosled sortiranja na vrhu ekrana. Takođe možete izabrati da li treba prikazati dostupnost za **Dan**, **Sedmicu** ili **Mesec**, i koristite strelice da biste prikazali prethodni ili sledeći vremenski period. Koristite okvir za pretragu da biste pronašli određeni resurs.  
 
 2. Kliknite na dugme **Opcije** da biste promenili šta se prikazuje. Na primer, možete da prikažete legendu koja prikazuje šemu boja za različite vrste rezervacija ili možete odabrati da prikažete samo određenu vrstu rezervacije (na primer, fiksno rezervisanje ili uslovno rezervisanje).  
 
-3. Kliknite na dugme **Filter** za prikaz okna **Filter** , što vam omogućava da filtrirate rezultate prema organizacionoj jedinici, ulozi, veštini ili drugim atributima.  
+3. Kliknite na dugme **Filter** za prikaz okna **Filter**, što vam omogućava da filtrirate rezultate prema organizacionoj jedinici, ulozi, veštini ili drugim atributima.  
 
 ### <a name="see-also"></a>Takođe pogledajte  
  [Vodič za menadžera resursa](../psa/resource-manager-guide.md)

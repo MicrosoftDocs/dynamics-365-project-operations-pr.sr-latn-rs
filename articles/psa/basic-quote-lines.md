@@ -3,7 +3,7 @@ title: Ponude i stavke ponuda
 description: Ova tema pruža informacije o ponudama i stavkama ponuda.
 author: rumant
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 3/01/2019
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: ae48c691fd855e6f22d0642965fc0c1617793368
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 509bc089e69ec234ddfdecb789c2e446286da82b
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: sr-Latn-RS
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4083695"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4129470"
 ---
 # <a name="quotes-and-quote-lines"></a>Ponude i stavke ponuda
 
@@ -35,7 +35,7 @@ U aplikaciji Dynamics 365 Project Service Automation postoje dve vrste ponuda: p
 - Ponuda za prodaju podržava aktivaciju i revizije. Ponuda za projekat ne podržava te procese.
 - Ponudi za prodaju možete priložiti više porudžbina. U ponudu za projekat možete da priložite samo jedan ugovor o projektu.
 - Možete da vam bude odobrena ponuda za prodaju i da povezana mogućnost za poslovanje ostane otvorena. Kada vam odobre ponudu za projekat, biće zatvorena povezana mogućnost za poslovanje.
-- Ponuda za prodaju ne sadrži neka polja i koncepte koji su obuhvaćeni u ponudi za projekat. U polja spadaju **Ugovorna jedinica** , **Menadžer za poslovne kontakte** i **Ime kontakta za fakturisanje**.  
+- Ponuda za prodaju ne sadrži neka polja i koncepte koji su obuhvaćeni u ponudi za projekat. U polja spadaju **Ugovorna jedinica**, **Menadžer za poslovne kontakte** i **Ime kontakta za fakturisanje**.  
 - Ponude za prodaju i ponude za projekte identifikuje i polje zasnovano na skupu opcija pod nazivom **Tip**. Za ponudu za prodaju, ovo polje ima vrednost **Zasnovano na stavci**. Za ponudu za projekat, ima vrednost **Zasnovano na radu**.
 
 Ova tema će se fokusirati na detalje ponuda projekata.
@@ -76,7 +76,7 @@ PSA podržava sve tri vrste rasporeda fakturisanja za stavke ponude sa fiksnom c
 Organizacije koje pružaju profesionalne usluge obično daju ponude klijentima i fakturišu klijentima po klasifikaciji troškova. U aplikaciji PSA, troškovi su predstavljeni sledećim klasifikacijama transakcija:
 
 - **Vreme** – ova klasifikacija predstavlja troškove rada ili vremena ljudskih resursa na projektu.
-- **Trošak** : – ova klasifikacija predstavlja sve ostale vrste troškova na projektu. Pošto troškovi mogu da budu široko klasifikovani, većina organizacija kreira podkategorije, poput putnih troškova, troškova iznajmljivanja automobila, hotelskih troškova ili kancelarijskih zaliha.
+- **Trošak**: – ova klasifikacija predstavlja sve ostale vrste troškova na projektu. Pošto troškovi mogu da budu široko klasifikovani, većina organizacija kreira podkategorije, poput putnih troškova, troškova iznajmljivanja automobila, hotelskih troškova ili kancelarijskih zaliha.
 - **Naknada** – ova klasifikacija predstavlja razne dodatne troškove, kazne i druge stavke koje se naplaćuju klijentu. 
 - **Porez** – ova klasifikacija predstavlja iznose poreza koje korisnici dodaju dok unose troškove.
 - **Stvarna transakcija** – ova klasifikacija predstavlja stvarne vrednosti iz stavki proizvoda na potvrđenoj fakturi za projekat.
@@ -91,7 +91,7 @@ Na primer, ponuda može da sadrži sledeće dve stavke ponude:
 - Srodni putni troškovi koji koriste način naplate Fiksna cena. Na primer, svi putni troškovi za primer projekta **Dynamics AX implementacija** se fakturišu po fiksnoj monetarnoj vrednosti.
 
 > [!NOTE]
-> Kombinacija klasifikacija projekta i transakcije **Vreme** , **Troškovi** i **Naknada** povezana sa stavkom ponude ili predmetom ugovora mora biti jedinstvena. Ako je ista kombinacija klase projekta i transakcije povezana sa više od jednog predmeta ugovora ili stavki ponude, PSA neće raditi ispravno.
+> Kombinacija klasifikacija projekta i transakcije **Vreme**, **Troškovi** i **Naknada** povezana sa stavkom ponude ili predmetom ugovora mora biti jedinstvena. Ako je ista kombinacija klase projekta i transakcije povezana sa više od jednog predmeta ugovora ili stavki ponude, PSA neće raditi ispravno.
 
 ## <a name="billing-types"></a>Tipovi naplate
 

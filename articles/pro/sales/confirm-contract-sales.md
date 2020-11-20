@@ -5,21 +5,21 @@ author: rumant
 manager: Annbe
 ms.date: 10/13/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: babce9c64098a9c87072786d914d2340251a8986
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 24da0887c0266d51bddcbbf8efd6f2644b6d0f4f
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: sr-Latn-RS
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4083700"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4128300"
 ---
 # <a name="confirm-a-project-contract"></a>Potvrdite ugovor za projekat
 
 _**Odnosi se na:** Project Operations za resurs/scenarije koji nisu zasnovani na zalihama, laganu primenu – od pogodbe do profakture_
 
-Ugovor za projekat u programu Dynamics 365 Project Operations može biti aktivan sa razlogom **Potvrđeno** ili zatvoren sa razlogom **Izgubljeno**. Kada potvrdite ugovor o projektu, status se ažurira sa **Radna verzija** na **Aktivno** , a razlog statusa je **Potvrđeno**. Aktivni ili zatvoreni ugovor ne može se uređivati ili ponovo otvarati. 
+Ugovor za projekat u programu Dynamics 365 Project Operations može biti aktivan sa razlogom **Potvrđeno** ili zatvoren sa razlogom **Izgubljeno**. Kada potvrdite ugovor o projektu, status se ažurira sa **Radna verzija** na **Aktivno**, a razlog statusa je **Potvrđeno**. Aktivni ili zatvoreni ugovor ne može se uređivati ili ponovo otvarati. 
 
 ### <a name="financial-impact-of-confirming-a-project-contract"></a>Finansijski uticaj potvrđivanja ugovora za projekat
 
@@ -29,7 +29,7 @@ Ograničenja koja se ne smeju premašiti, podešavanje naplativosti i utvrđivan
 
 ## <a name="close-a-project-contract-as-lost"></a>Zatvorite ugovor za projekat kao izgubljen
 
-Kada ugovor o projektu zatvorite kao izgubljen, status ugovora se ažurira na **Zatvoreno** , a razlog statusa je **Izgubljeno**. Ugovor o projektu postaje samo za čitanje. Dijalog za potvrdu se navodi pre nego što se promene dovrše jer ne možete ponovo otvoriti zatvoreni ugovor o projektu.
+Kada ugovor o projektu zatvorite kao izgubljen, status ugovora se ažurira na **Zatvoreno**, a razlog statusa je **Izgubljeno**. Ugovor o projektu postaje samo za čitanje. Dijalog za potvrdu se navodi pre nego što se promene dovrše jer ne možete ponovo otvoriti zatvoreni ugovor o projektu.
 
 Ako ugovor o projektu koji je zatvoren kao izgubljen upućuje na projekat na svojim stavkama, taj projekat je takođe označen kao zatvoren. Sve rezervacije resursa od tog dana nadalje otkazuju se. Svi nenaplaćeni stvarni troškovi prodaje na ugovoru za projekt koji već nisu na fakturi biće stornirani.
 

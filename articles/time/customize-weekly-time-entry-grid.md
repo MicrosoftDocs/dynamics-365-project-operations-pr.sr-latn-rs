@@ -5,15 +5,15 @@ author: stsporen
 manager: Annbe
 ms.date: 10/08/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: stsporen
-ms.openlocfilehash: 190ad9e1f9ced690aee953ed992bf7aa2844c3b3
-ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
+ms.openlocfilehash: d9c14f0550d4429ac794607a3fb61717566207e4
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: sr-Latn-RS
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4083479"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4124655"
 ---
 # <a name="extending-time-entries"></a>Proširenje stavki vremena
 
@@ -33,7 +33,7 @@ Produženje unosa vremena moguće je u dve oblasti:
 
 ## <a name="add-custom-time-entries-for-your-own-use"></a><a name="add"></a>Dodajte prilagođene stavke vremena za sopstvenu upotrebu
 
-Vremenski unosi su osnovni entitet koji se koristi u više scenarija. U 1. talasu iz aprila 2020. predstavljeno je osnovno rešenje TESA. TESA pruža entitet **Podešavanja** i novu bezbednosnu ulogu **Korisnik stavke vremena**. Nova polja, **msdyn_start** i **msdyn_end** , koja imaju direktnu vezu sa **msdyn_duration** , takođe su bila uključena. Novi entitet, bezbednosna uloga, i polja omogućavaju jedinstveniji pristup vremenu u više proizvoda.
+Vremenski unosi su osnovni entitet koji se koristi u više scenarija. U 1. talasu iz aprila 2020. predstavljeno je osnovno rešenje TESA. TESA pruža entitet **Podešavanja** i novu bezbednosnu ulogu **Korisnik stavke vremena**. Nova polja, **msdyn_start** i **msdyn_end**, koja imaju direktnu vezu sa **msdyn_duration**, takođe su bila uključena. Novi entitet, bezbednosna uloga, i polja omogućavaju jedinstveniji pristup vremenu u više proizvoda.
 
 
 ### <a name="time-source-entity"></a>Izvorni entitet vremena
@@ -103,28 +103,28 @@ Prilagodite prikaz **Moje sedmične stavke vremena** i dodajte mu prilagođeno p
 
 #### <a name="create-a-new-default-custom-time-entry"></a>Kreirajte novu podrazumevanu prilagođenu stavku vremena
 
-Ovaj prikaz treba da sadrži polja **Opis** i **Spoljni komentari** , pored kolona koje želite da imate na mreži. 
+Ovaj prikaz treba da sadrži polja **Opis** i **Spoljni komentari**, pored kolona koje želite da imate na mreži. 
 
 1. Odaberite položaj, veličinu i podrazumevani redosled sortiranja u mreži uređivanjem tih svojstava u prikazu. 
 2. Konfigurišite prilagođenu kontrolu za ovaj prikaz tako da to bude kontrola **Mreža stavke vremena**. 
 3. Dodajte ovu kontrolu u prikaz i odaberite je za veb, telefon i tablet. 
 4. Konfigurišite parametre za mrežu sedmičnih stavki vremena. 
-5. Podesite polje **Datum početka** na **msdyn_date** , podesite polje **Trajanje** na **msdyn_duration** , a **Status** na **msdyn_entrystatus**. 
+5. Podesite polje **Datum početka** na **msdyn_date**, podesite polje **Trajanje** na **msdyn_duration**, a **Status** na **msdyn_entrystatus**. 
 6. Za podrazumevani prikaz, polje **Lista statusa samo za čitanje** je postavljeno na **192350002,192350003,192350004**. Polje **Tok zadataka uređenja reda** je postavljeno na **msdyn_timeentryrowedit**. Polje **Tok zadataka uređenja ćelije** je postavljeno na **msdyn_timeentryedit**. 
 7. Ova polja možete prilagoditi da biste dodali ili uklonili status samo za čitanje ili koristili drugo iskustvo zasnovano na zadacima za uređivanje redova ili ćelija. Ova polja su sada vezana za statičku vrednost.
 
 
 > [!NOTE] 
-> Obe opcije će ukloniti neko unapred definisano filtriranje za entitete **Projekat** i **Projektni zadatak** , tako da će svi prikazi pronalaženja entiteta biti vidljivi. Kao unapred definisani su vidljivi samo relevantni prikazi pronalaženja.
+> Obe opcije će ukloniti neko unapred definisano filtriranje za entitete **Projekat** i **Projektni zadatak**, tako da će svi prikazi pronalaženja entiteta biti vidljivi. Kao unapred definisani su vidljivi samo relevantni prikazi pronalaženja.
 
-Odredite odgovarajući tok zadataka za prilagođeno polje. Ako ste dodali polje u mrežu, ono bi trebalo da ide u tok zadataka uređenja reda koji se koristi za polja koja se primenjuju na ceo red sa stavkama vremena. Ako prilagođeno polje ima jedinstvenu vrednost svakog dana, kao što je prilagođeno polje za **Vreme završetka** , trebalo bi da ide u tok zadataka uređenja ćelije.
+Odredite odgovarajući tok zadataka za prilagođeno polje. Ako ste dodali polje u mrežu, ono bi trebalo da ide u tok zadataka uređenja reda koji se koristi za polja koja se primenjuju na ceo red sa stavkama vremena. Ako prilagođeno polje ima jedinstvenu vrednost svakog dana, kao što je prilagođeno polje za **Vreme završetka**, trebalo bi da ide u tok zadataka uređenja ćelije.
 
-Da biste dodali prilagođeno polje u tok zadataka, prevucite element **Polje** u odgovarajuću poziciju na stranici, a zatim podesite svojstva polja. Podesite svojstvo **Izvor** na **Stavka vremena** , a svojstvo **Polje podataka** na prilagođeno polje. Svojstvo **Polje** određuje ime za prikaz na stranici koja pruža iskustvo zasnovano na zadacima. Izaberite **Primeni** da biste sačuvali promene u polju, a zatim izaberite **Ažuriraj** da biste sačuvali promene na stranici.
+Da biste dodali prilagođeno polje u tok zadataka, prevucite element **Polje** u odgovarajuću poziciju na stranici, a zatim podesite svojstva polja. Podesite svojstvo **Izvor** na **Stavka vremena**, a svojstvo **Polje podataka** na prilagođeno polje. Svojstvo **Polje** određuje ime za prikaz na stranici koja pruža iskustvo zasnovano na zadacima. Izaberite **Primeni** da biste sačuvali promene u polju, a zatim izaberite **Ažuriraj** da biste sačuvali promene na stranici.
 
-Da biste umesto toga koristili novu prilagođenu stranicu koja pruža iskustvo zasnovano na zadacima, kreirajte novi postupak. Podesite kategoriju na **Tok poslovnog procesa** , entitet na **Stavka vremena** , a vrstu poslovnog procesa na **Pokreni proces kao tok zadataka**. U delu **Svojstva** , svojstvo **Naziv stranice** treba da podesite na ime za prikaz na stranici. Na stranicu koja pruža iskustvo zasnovano na zadacima dodajte sva relevantna polja. Sačuvajte i aktivirajte proces. Ažurirajte svojstvo prilagođene kontrole za odgovarajući tok zadataka na vrednost **Ime** za proces.
+Da biste umesto toga koristili novu prilagođenu stranicu koja pruža iskustvo zasnovano na zadacima, kreirajte novi postupak. Podesite kategoriju na **Tok poslovnog procesa**, entitet na **Stavka vremena**, a vrstu poslovnog procesa na **Pokreni proces kao tok zadataka**. U delu **Svojstva**, svojstvo **Naziv stranice** treba da podesite na ime za prikaz na stranici. Na stranicu koja pruža iskustvo zasnovano na zadacima dodajte sva relevantna polja. Sačuvajte i aktivirajte proces. Ažurirajte svojstvo prilagođene kontrole za odgovarajući tok zadataka na vrednost **Ime** za proces.
 
 ### <a name="add-new-option-set-values"></a>Dodavanje novih vrednosti skupa opcija
-Da biste dodali vrednosti skupa opcija u unapred definisano polje, otvorite stranicu za uređivanje polja, a zatim u delu **Tip** odaberite **Uredi** pored skupa opcija. Dodajte novu opciju koja ima prilagođenu oznaku i boju. Ako želite da dodate novi status stavke vremena, unapred definisano polje se zove **Status stavke** , a ne **Status**.
+Da biste dodali vrednosti skupa opcija u unapred definisano polje, otvorite stranicu za uređivanje polja, a zatim u delu **Tip** odaberite **Uredi** pored skupa opcija. Dodajte novu opciju koja ima prilagođenu oznaku i boju. Ako želite da dodate novi status stavke vremena, unapred definisano polje se zove **Status stavke**, a ne **Status**.
 
 ### <a name="designate-a-new-time-entry-status-as-read-only"></a>Označavanje statusa nove stavke vremena kao samo za čitanje
 Da biste označili status nove stavke vremena kao samo za čitanje, dodajte vrednost nove stavke vremena u svojstvo **Lista statusa samo za čitanje**. Deo mreže stavke vremena koji može da se uređuje biće zaključan za redove koji imaju novi status.

@@ -3,7 +3,7 @@ title: Upravljanje projektima i rezervacijama u Office 365 kalendaru
 description: Kako da upravljate projektima i rezervacijama u Office 365 kalendaru
 author: ruhercul
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 8/03/2018
@@ -17,12 +17,12 @@ search.audienceType:
 search.app:
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: fd4119693875fb851c7bd3f34287db7d81237140
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 31ff541f5b817c29b162c38c282df8cfd866e375
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: sr-Latn-RS
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4083614"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4129065"
 ---
 # <a name="manage-projects-and-bookings-in-your-calendar-project-service"></a>Upravljanje projektima i rezervacijama u kalendaru (Project Service)
 
@@ -70,14 +70,14 @@ Prikažite lične zakazane obaveze, rezervacije projekata i posla, kao i dodele 
   
 3.  Kliknite na karticu **Sinhronizacija**.  
   
-4.  U okviru **Sinhronizacija rezervacije resursa sa programom Outlook** , označite **Sinhronizacija rezervacije resursa sa programom Outlook**.  
+4.  U okviru **Sinhronizacija rezervacije resursa sa programom Outlook**, označite **Sinhronizacija rezervacije resursa sa programom Outlook**.  
   
 ## <a name="import-your-personal-appointments-user-task"></a>Uvezite vaše lične zakazane obaveze (zadatak korisnika)  
  Možete da uvezete lične zakazane obaveze iz kalendara u prikaz unosa vremena u aplikaciji Project Service Automation.  
   
 1. Otvorite [!INCLUDE[pn_office_365](../includes/pn-office-365.md)] kalendar i kliknite na **Uvoz podataka**.  
   
-2. Na ekranu Filteri izaberite **Zakazane obaveze iz usluge Exchange** , a zatim kliknite na **Primeni**.  
+2. Na ekranu Filteri izaberite **Zakazane obaveze iz usluge Exchange**, a zatim kliknite na **Primeni**.  
   
 3. Sistem će izvući zakazane obaveze u prikazu unosa vremena kao predloženim unosima za trenutnu nedelju. Da biste dodali stavke za drugu nedelju, kliknite na dugme **Prethodno** ili **Sledeće**.  
   

@@ -6,7 +6,7 @@ manager: AnnBe
 ms.date: 09/18/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 audience: Application User
 ms.reviewer: kfend
 ms.search.scope: ''
@@ -17,12 +17,12 @@ ms.search.industry: Service industries
 ms.author: suvaidya
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: 203b8a057d8ef3b699b20c4303061e622d2a3acd
-ms.sourcegitcommit: 3a0c18823a7ad23df5aa3de272779313abe56c82
+ms.openlocfilehash: 9d3c84664f1b0701db17f0c05654e0c99bb6c640
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: sr-Latn-RS
-ms.lasthandoff: 10/20/2020
-ms.locfileid: "4083810"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4128075"
 ---
 # <a name="create-a-manual-proforma-invoice"></a>Kreiranje ručnog predračuna
 
@@ -77,14 +77,14 @@ Sledite ove korake da biste konfigurisali automatsko pokretanje faktura.
     - ProcessRunner
     - UpdateRoleUtilization
 
-5. Izaberite **ProcessRunCaller** , a zatim **Dodaj**.
+5. Izaberite **ProcessRunCaller**, a zatim **Dodaj**.
 6. U sledećem dijalogu izaberite **U redu**. Tok posla **Hibernacija** prati tok posla **Proces**.
 
-    Možete izabrati i **ProcessRunner** u koraku 5. Nakon toga, kada izaberete **U redu** , tok posla **Proces** će biti praćen tokom posla **Hibernacija**.
+    Možete izabrati i **ProcessRunner** u koraku 5. Nakon toga, kada izaberete **U redu**, tok posla **Proces** će biti praćen tokom posla **Hibernacija**.
 
 Tokovi posla **ProcessRunCaller** i **ProcessRunner** kreiraju fakture. **ProcessRunCaller** poziva **ProcessRunner**. **ProcessRunner** je tok posla koji zapravo kreira fakture. On prolazi kroz sve predmete ugovora za koje se moraju kreirati fakture i kreira fakture za te predmete. Da bi odredio predmete ugovora za koje fakture moraju biti kreirane, posao traži datume pokretanja fakture za predmete ugovora. Ako predmeti ugovora koji pripadaju jednom ugovoru imaju isti datum pokretanja fakture, transakcije se kombinuju u jednu fakturu koja ima dve stavke fakture. Ako ne postoje transakcije za koje treba kreirati fakture, posao preskače kreiranje fakture.
 
-Nakon što se **ProcessRunner** pokrene, on poziva **ProcessRunCaller** , obezbeđuje vreme završetka i zatvara se. **ProcessRunCaller** zatim pokreće tajmer koji će biti pokrenut tokom perioda od 24 časa od određenog vremena završetka. Na kraju tajmera **ProcessRunCaller** se zatvara.
+Nakon što se **ProcessRunner** pokrene, on poziva **ProcessRunCaller**, obezbeđuje vreme završetka i zatvara se. **ProcessRunCaller** zatim pokreće tajmer koji će biti pokrenut tokom perioda od 24 časa od određenog vremena završetka. Na kraju tajmera **ProcessRunCaller** se zatvara.
 
 Posao grupne obrade za kreiranje faktura je periodični posao. Ako se ova grupna obrada pokreće više puta, kreira se više instanci posla i izazivaju greške. Zbog toga bi trebalo samo jednom da pokrenete grupnu obradu i trebalo bi da je ponovo pokrenete samo ako prestane da radi.
 
@@ -99,7 +99,7 @@ Kada kreirate radnu verziju fakture za projekat, sve nenaplaćene prodajne trans
 - Uredite i prilagodite količinu i vrstu naplate.
 - U fakturu direktno dodajte vreme, trošak i naknade kao transakcije. Ovu funkciju možete koristiti ako je stavka fakture mapirana u predmet ugovora koji dozvoljava ove klase transakcija.
 
-Izaberite **Potvrdi** da biste potvrdili fakturu. Radnja potvrde ne može da se opozove. Kada izaberete **Potvrdi** , sistem podešava fakturu kao samo za čitanje i kreira stvarne vrednosti naplaćene prodaje iz svakog detalja stavke fakture za svaku stavku fakture. Ako detalj stavke fakture upućuje na stvarne vrednosti nenaplaćene prodaje, sistem takođe stornira stvarnu vrednost nenaplaćene prodaje. (Bilo koji detalj stavke fakture koji je kreiran iz stavke vremena ili troškova upućuje na stvarnu vrednost nenaplaćene prodaje.) Sistemi za integraciju glavne knjige mogu koristiti ovo storniranje da bi opozvali tekući rad na projektu u računovodstvene svrhe.
+Izaberite **Potvrdi** da biste potvrdili fakturu. Radnja potvrde ne može da se opozove. Kada izaberete **Potvrdi**, sistem podešava fakturu kao samo za čitanje i kreira stvarne vrednosti naplaćene prodaje iz svakog detalja stavke fakture za svaku stavku fakture. Ako detalj stavke fakture upućuje na stvarne vrednosti nenaplaćene prodaje, sistem takođe stornira stvarnu vrednost nenaplaćene prodaje. (Bilo koji detalj stavke fakture koji je kreiran iz stavke vremena ili troškova upućuje na stvarnu vrednost nenaplaćene prodaje.) Sistemi za integraciju glavne knjige mogu koristiti ovo storniranje da bi opozvali tekući rad na projektu u računovodstvene svrhe.
 
 ### <a name="correct-a-confirmed-invoice"></a>Ispravljanje potvrđene fakture
 

@@ -6,7 +6,7 @@ manager: AnnBe
 ms.date: 09/18/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 audience: Application User
 ms.reviewer: kfend
 ms.search.scope: ''
@@ -17,12 +17,12 @@ ms.search.industry: Service industries
 ms.author: suvaidya
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: 6b1ebdc97ec4704ba256acb521c0f2e7c474940b
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: ec2e350e0e4c28ea1c9540d70c83fdf0a75dc408
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: sr-Latn-RS
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4083687"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4128480"
 ---
 # <a name="pricing-dimensions-overview"></a>Pregled dimenzija za određivanje cena
 
@@ -35,8 +35,8 @@ Dimenzije koje se koriste u ljudskim resursima za podešavanje cena i troškova 
 
 Zbog toga postoje dve vrste vrednosti dimenzija za određivanje cena koje su dostupne:
 
-- **Skupovi opcija** : Dimenzije koje predstavljaju fiksna nabrajanja za skup vrednosti.
-- **Vrednosti zasnovane na entitetima** : Dimenzije koje mogu biti različit skup vrednosti.
+- **Skupovi opcija**: Dimenzije koje predstavljaju fiksna nabrajanja za skup vrednosti.
+- **Vrednosti zasnovane na entitetima**: Dimenzije koje mogu biti različit skup vrednosti.
 
 ## <a name="pricing-dimensions"></a>Dimenzije za određivanje cena
 
@@ -47,7 +47,7 @@ Ako je potrebno da odredite cenu ili troškove resursa pomoću dodatnih atributa
 ## <a name="pricing-human-resource-time"></a>Određivanje cene vremena ljudskog resursa
 Kako organizacija određuje cenu vremena ljudskog resursa je često značajno strateško pitanje koje direktno utiče na profitabilnost organizacije. Sarađujte sa finansijskim timovima i budite mudri kada vaša organizacija bude spremna da utvrdi kako želi da podesi stope naplate i troškova za vreme ljudskog resursa.
 
-Druga pitanja koja se tiču formiranja cena podrazumevaju da li ponovo da koristite polja ili entitete koji trenutno nisu dimenzije za određivanje cena, ali se primenjuju kao dimenzija za određivanje cena u vašoj organizaciji. Polja kao što su **Kategorija transakcije** ( **msdyn_transactioncategory** ) i **Resurs koji može da se rezerviše** ( **bookableresource** ) su primeri mogućih dimenzija. 
+Druga pitanja koja se tiču formiranja cena podrazumevaju da li ponovo da koristite polja ili entitete koji trenutno nisu dimenzije za određivanje cena, ali se primenjuju kao dimenzija za određivanje cena u vašoj organizaciji. Polja kao što su **Kategorija transakcije** (**msdyn_transactioncategory**) i **Resurs koji može da se rezerviše** (**bookableresource**) su primeri mogućih dimenzija. 
 
 Razmotrite i da li vaša dimenzija za određivanje cena treba da bude tabela ili skup opcija. Ako predviđate promene vrednosti dimenzije koje će premašiti 10 ili 12, a potrebni su vam dodatni atributi za ove vrednosti, možete da kreirate entitet, a ne skup opcija. Održavanje skupa opcija, kao što je dodavanje ili uklanjanje vrednosti, zahteva administratora ili programera, dok većina korisnika može da dodaje nove redove u tabelu.
 
