@@ -5,29 +5,29 @@ author: rumant
 manager: Annbe
 ms.date: 10/16/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 2c7d63d0cfd5c9b6dbfb65fa8c8227c7f6eeac48
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 501458510efca6434a51577aacd1f09d1a4faa25
+ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
 ms.translationtype: HT
 ms.contentlocale: sr-Latn-RS
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4083604"
+ms.lasthandoff: 10/31/2020
+ms.locfileid: "4180727"
 ---
-# <a name="set-up-bill-rates-for-labor-rate-billing"></a>Postavite stope naplate za obračun stope rada 
+# <a name="set-up-labor-bill-rates"></a>Podesite stope naplate za rad
 
 **Odnosi se na:** Project Operations za scenarije zasnovane na resursima/bez zaliha
 
 Svaki cenovnik ima skup cena uloga ili stopa rada koje stupaju na snagu za kontekst i efektivnost datuma navedenih u zaglavlju cenovnika. Stope naplate za vreme u usluzi Dynamics 365 Project Operations mogu se postaviti u samo jednoj valuti, koja je valuta u zaglavlju cenovnika.
 
 1. Da biste postavili stope naplate za rad za prodajni cenovnik, napravite cenovnik na osnovu zaglavlja cenovnika. 
-2. Na kartici **Uloga cena** , u podmreži odaberite **+ Nova cena uloge**. 
+2. Na kartici **Uloga cena**, u podmreži odaberite **+ Nova cena uloge**. 
 3. U oknu **Brzo kreiranje** unesite kombinaciju uloge i organizacione jedinice za koju treba da podesite stopu naplate.
 
    Sledeća tabela uključuje polja na kartici **Opšti podaci** i oknu **Brzo kreiranje** linije cena za ulogu koju treba imati na umu dok kreirate cene uloga na prodajnom cenovniku:
 
-    | Polje | Lokacija | Relevantnost, svrha i smernice | Posledični uticaj |
+    | Polje | Lokacija | Opis | Posledični uticaj |
     | --- | --- | --- | --- |
     | Uloga | Kartica **Opšti podaci** i okno **Brzo kreiranje** | Izaberite ulogu za koju postavljate stopu naplate. | Uloga na dolaznoj proceni ili trenutnom stanju će se podudarati sa ovom linijom kako bi se zadala stopa naplate uloge. |
     | Preduzeće koje određuje resurse | Kartica **Opšti podaci** i okno **Brzo kreiranje** | Izaberite kompaniju ili pravno lice od kojeg potiče uloga. Na primer, programer iz kompanije Fabrikam India ili programer iz kompanije Fabrikam USA. | Preduzeće koje određuje resurse na dolaznoj proceni ili trenutnom stanju će se podudarati sa ovom linijom kako bi se zadala stopa naplate uloge. |
@@ -39,7 +39,7 @@ Svaki cenovnik ima skup cena uloga ili stopa rada koje stupaju na snagu za konte
 
 ## <a name="transfer-pricing-or-set-up-bill-rates-for-resources-from-other-organizational-units-or-divisions"></a>Prenesite cene ili postavite stope naplate za resurse iz drugih organizacionih jedinica ili odeljenja 
 
-Projektne kompanije često koriste zaposlene iz različitih pravnih lica i različitih odeljenja unutar pravnog lica za rad na projektima. Projekte može izvršiti jedno pravno lice ili odeljenje, ali zaposleni ili konsultanti koji rade na projektima mogu poticati iz istog pravnog lica i odeljenja ili iz nekog drugog. Projekat bi takođe mogao da se sastoji od kombinacije ljudi iz različitih pravnih lica i odeljenja. U programu Project Operations pravno lice koje je vlasnik projekta je **Preduzeće-vlasnik** , a odeljenje koje je vlasnik isporuke je **Jedinica ugovaranja**. Sva ostala pravna lica koja pružaju resurse su **Preduzeća koja određuju resurse** , a odeljenja koja pružaju resurse su **Jedinice za određivanje resursa**. Zbog razlika u troškovima radne snage u različitim geografskim područjima i na tržištima rada širom sveta, stope naplate za rad takođe su različito postavljene za različite geografske regije.
+Projektne kompanije često koriste zaposlene iz različitih pravnih lica i različitih odeljenja unutar pravnog lica za rad na projektima. Projekte može izvršiti jedno pravno lice ili odeljenje, ali zaposleni ili konsultanti koji rade na projektima mogu poticati iz istog pravnog lica i odeljenja ili iz nekog drugog. Projekat bi takođe mogao da se sastoji od kombinacije ljudi iz različitih pravnih lica i odeljenja. U programu Project Operations pravno lice koje je vlasnik projekta je **Preduzeće-vlasnik**, a odeljenje koje je vlasnik isporuke je **Jedinica ugovaranja**. Sva ostala pravna lica koja pružaju resurse su **Preduzeća koja određuju resurse**, a odeljenja koja pružaju resurse su **Jedinice za određivanje resursa**. Zbog razlika u troškovima radne snage u različitim geografskim područjima i na tržištima rada širom sveta, stope naplate za rad takođe su različito postavljene za različite geografske regije.
 
 Na primer, programeru iz odeljenja za robotiku kompanije Fabrikam India, koji radi na američkom projektu, naplaćuje se stopa od 100 USD na sat. Programeru iz odeljenja za robotiku kompanije Fabrikam US, koji radi na američkom projektu, naplaćuje se stopa od 150 USD na sat. 
 

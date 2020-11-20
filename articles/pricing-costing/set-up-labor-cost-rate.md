@@ -5,15 +5,15 @@ author: rumant
 manager: Annbe
 ms.date: 10/12/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: d17f266b6e34fc2a2743fe19fd18b15fb992ceef
-ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
+ms.openlocfilehash: 697129b65f53359615ea537fe135d657748dd909
+ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
 ms.translationtype: HT
 ms.contentlocale: sr-Latn-RS
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4083477"
+ms.lasthandoff: 10/31/2020
+ms.locfileid: "4180614"
 ---
 # <a name="set-up-labor-cost-rates"></a>Podesite troškove rada
 
@@ -22,13 +22,13 @@ _**Odnosi se na:** Project Operations za scenarije zasnovane na resursima / bez 
 
 Svaki cenovnik ima skup stopa rada (cene uloga) koje se poklapaju sa sadržajem i efektivnošću datuma cenovnika.
 
-1. Napravite cenovnik i na kartici **Uloga cena** , u podmreži odaberite **Nova uloga**.
-2. Na stranici **Brzo kreiranje** , izaberite ulogu i organizacionu jedinicu.
+1. Kreirajte cenovnik i na kartici **Cena za ulogu**, u podformi, izaberite **Nova uloga**.
+2. Na stranici **Brzo kreiranje**, izaberite ulogu i organizacionu jedinicu.
 3. Unesite informacije u obavezna polja.
 
 Sledeća tabela uključuje neka od polja koja su važna za stvaranje stopa radne snage na cenovniku troškova.
 
-| Polje | Lokacija | Relevantnost, svrha i smernice | Posledični uticaj |
+| Polje | Lokacija | Opis | Posledični uticaj |
 | --- | --- | --- | --- |
 | Uloga | Kartica **Opšti podaci** i stranice **Brzo kreiranje** | Odaberite ulogu na koju se odnosi stopa cene. | Uloga na dolaznoj proceni ili trenutnom stanju će se podudarati sa ovom linijom kako bi se zadali troškovi uloge. |
 | Preduzeće koje određuje resurse | Kartica **Opšti podaci** i stranice **Brzo kreiranje** | Izaberite pravno lice kome je dodeljena uloga. Na primer, programer iz kompanije Fabrikam India ili programer iz kompanije Fabrikam USA. | Preduzeće koje određuje resurse na dolaznoj proceni ili trenutnom stanju će se podudarati sa ovom linijom kako bi se zadala stopa cene uloge. |
@@ -40,7 +40,7 @@ Sledeća tabela uključuje neka od polja koja su važna za stvaranje stopa radne
 
 ## <a name="transfer-pricing-and-costs-for-resources-outside-of-your-division-or-legal-entity"></a>Prenesite cene i troškove za resurse izvan vašeg odeljenja ili pravnog lica
 
-U kompanijama zasnovanim na projektima uobičajeno je da se na projektima koriste zaposleni iz različitih pravnih lica ili odeljenja. Projekat može izvršiti jedno pravno lice, ali zaposleni ili konsultanti koji rade na projektu mogu poticati iz istog pravnog lica ili iz drugog, ili može biti kombinacija oba. U programu Dynamics 365 Project Operations pravno lice koje je vlasnik projekta je **Preduzeće-vlasnik** , a odeljenje koje je vlasnik isporuke je **Jedinica ugovaranja**. Ostala pravna lica koja pružaju resurse su **Preduzeća koja određuju resurse** , a odeljenja koja pružaju resurse su **Jedinice za određivanje resursa**. U većini zemalja kompanije su dužne da osiguraju da pravno lice ili odeljenje za resurse zadužuju kompaniju koja je vlasnik i ugovornu jedinicu za korišćenje resursa.
+U kompanijama zasnovanim na projektima uobičajeno je da se na projektima koriste zaposleni iz različitih pravnih lica ili odeljenja. Projekat može izvršiti jedno pravno lice, ali zaposleni ili konsultanti koji rade na projektu mogu poticati iz istog pravnog lica ili iz drugog, ili može biti kombinacija oba. U programu Dynamics 365 Project Operations pravno lice koje je vlasnik projekta je **Preduzeće-vlasnik**, a odeljenje koje je vlasnik isporuke je **Jedinica ugovaranja**. Ostala pravna lica koja pružaju resurse su **Preduzeća koja određuju resurse**, a odeljenja koja pružaju resurse su **Jedinice za određivanje resursa**. U većini zemalja kompanije su dužne da osiguraju da pravno lice ili odeljenje za resurse zadužuju kompaniju koja je vlasnik i ugovornu jedinicu za korišćenje resursa.
 
 Na primer, korporacija Fabrikam mora da obezbedi da Fabrikam India-Robotics ima ugovorenu cenovnu kartu sa Fabrikam US-Robotics ili Fabrikam UK-Robotics.
 

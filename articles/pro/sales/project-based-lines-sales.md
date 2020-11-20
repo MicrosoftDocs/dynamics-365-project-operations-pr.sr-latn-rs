@@ -1,21 +1,21 @@
 ---
-title: Predmeti mogućnosti za poslovanje zasnovani na projektu (Pro)
+title: Stavke mogućnosti za poslovanje zasnovane na projektu – jednostavno
 description: Ova tema pruža informacije o predmetima mogućnosti za poslovanje zasnovanim na projektu. (Pro)
 author: rumant
 manager: Annbe
 ms.date: 10/01/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 1a688b9bed5a38e7b5947cbcee1e3cb8ab211e98
-ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
+ms.openlocfilehash: bba555003b76e3e87412679b274f74f68ac7203b
+ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
 ms.translationtype: HT
 ms.contentlocale: sr-Latn-RS
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4083505"
+ms.lasthandoff: 10/31/2020
+ms.locfileid: "4181033"
 ---
-# <a name="project-based-opportunity-lines-pro"></a>Predmeti mogućnosti za poslovanje zasnovani na projektu (Pro)
+# <a name="project-based-opportunity-lines---lite"></a>Stavke mogućnosti za poslovanje zasnovane na projektu – jednostavno
 
 _**Odnosi se na:** Jednostavna primena – od pogodbe do profakture_
 
@@ -25,7 +25,7 @@ Predmeti mogućnosti za poslovanje zasnovani na projektu su stavke koje će biti
 
 Ispod su polja u predmetu mogućnosti za poslovanje zasnovanom na projektu:
 
-| **Polje** | **Lokacija** | **Relevantnost, svrha i smernice** | **Posledični uticaj** |
+| **Polje** | **Lokacija** | **Opis** | **Posledični uticaj** |
 | --- | --- | --- | --- |
 | Tip proizvoda | Kartica Opšti podaci (skrivena) | Možete da izaberite neku od sledećih opcija:</br>- Usluga zasnovana na projektu (dostupna samo kada je instalirana usluga Dynamics 365 Project Operations)</br>- Proizvod (dostupan samo kada su instalirane usluge Project Operations i Dynamics 365 Sales) | Vrednost ovog polja je postavljena na **Usluga zasnovana na projektu** kada kreirate stavku mogućnosti za poslovanje zasnovanu na projektu iz mreže stavki zasnovanih na projektu u mogućnosti za poslovanje. <br> Ako promenite ili zamenite ovu vrednost, funkcionalnost projekta neće biti omogućena na stavkama zasnovanim na projektu. |
 | Mogućnost za poslovanje | Kartica Opšti podaci | Ovo polje je samo za čitanje i odnosi se na nadređeni zapis mogućnosti za poslovanje kojem pripada ova stavka. | Nema posledičnog uticaja iz ovog polja. |

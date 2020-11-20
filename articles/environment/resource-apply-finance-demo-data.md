@@ -1,21 +1,21 @@
 ---
-title: Primena Project Operations demo podataka na Finance okruženje koje se hostuje u oblaku
+title: Primena demo podataka na Finance okruženje koje se hostuje u oblaku
 description: Ova tema objašnjava kako da primenite demo podatke iz usluge Project Operations na Dynamics 365 Finance okruženje hostovano u oblaku.
 author: sigitac
 manager: Annbe
 ms.date: 10/01/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: b9af6c71b61840f4ffdf2892d8e7e5bbf0f8df67
-ms.sourcegitcommit: 91ad491e94a421f256a378b0f4b26ed48c67bc93
+ms.openlocfilehash: a7cdbd2847ce45972aadd0d1a2d4f26270727ad9
+ms.sourcegitcommit: d33ef0ae39f90fe3b0f6b4524f483e8052057361
 ms.translationtype: HT
 ms.contentlocale: sr-Latn-RS
-ms.lasthandoff: 10/22/2020
-ms.locfileid: "4096639"
+ms.lasthandoff: 11/03/2020
+ms.locfileid: "4365255"
 ---
-# <a name="apply-project-operations-demo-data-to-a-finance-cloud-hosted-environment"></a>Primena Project Operations demo podataka na Finance okruženje koje se hostuje u oblaku
+# <a name="apply-demo-data-to-a-finance-cloud-hosted-environment"></a>Primena demo podataka na Finance okruženje koje se hostuje u oblaku
 
 _**Odnosi se na:** Project Operations za scenarije zasnovane na resursima / bez zaliha_
 
@@ -46,7 +46,7 @@ Prvi skup istaknutih akreditiva su akreditivi lokalnog naloga i sadrže hipervez
 
 6. U pregledaču objekata, izaberite **Baze podataka** i pronađite **AXDB**. Bazu podataka ćete zameniti novom bazom podataka koja se nalazi u [centru za preuzimanje](https://download.microsoft.com/download/1/a/3/1a314bd2-b082-4a87-abdc-1ba26c92b63d/ProjOpsDemoDataFOGARelease.zip). 
 7. Kopirajte zip datoteku u VM u koji ste udaljeno povezani i raspakujte zip sadržaj.
-8. U programu SQL Server Management Studio kliknite desnim tasterom miša na **AxDB** , a zatim izaberite **Zadaci** > **Vraćanje** > **Baza podataka**.
+8. U programu SQL Server Management Studio kliknite desnim tasterom miša na **AxDB**, a zatim izaberite **Zadaci** > **Vraćanje** > **Baza podataka**.
 
 ![Vraćanje baze podataka](./media/5RestoreDatabase.png)
 
@@ -54,7 +54,7 @@ Prvi skup istaknutih akreditiva su akreditivi lokalnog naloga i sadrže hipervez
 
 ![Izvorni uređaji](./media/6SourceDevice.png)
 
-10. Izaberite **Opcije** , a zatim izaberite **Prepiši postojeću bazu podataka** i **Zatvorite postojeće veze sa odredišnom bazom podataka**. 
+10. Izaberite **Opcije**, a zatim izaberite **Prepiši postojeću bazu podataka** i **Zatvorite postojeće veze sa odredišnom bazom podataka**. 
 11. Izaberite **U redu**.
 
 ![Vraćanje podešavanja](./media/7RestoreSetting.png)

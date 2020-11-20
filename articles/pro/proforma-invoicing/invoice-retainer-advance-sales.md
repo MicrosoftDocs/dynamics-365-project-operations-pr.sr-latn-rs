@@ -1,21 +1,21 @@
 ---
-title: Fakturišite avansnu uplatu ili avans
+title: Fakturisanje avansne uplate ili avansa – jednostavno
 description: Ova tema pruža informacije o tome kako da fakturišete odbitak ili avans u usluzi Project Operations.
 author: rumant
 manager: Annbe
 ms.date: 10/20/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 6ed3b71d5f0ac035403de9fa213f3f45d14038e0
-ms.sourcegitcommit: f8edff6422b82fdf2cea897faa6abb51e2c0c3c8
+ms.openlocfilehash: 9013529b615026eab92177c9fd9fb84c50d66f4f
+ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
 ms.translationtype: HT
 ms.contentlocale: sr-Latn-RS
-ms.lasthandoff: 10/21/2020
-ms.locfileid: "4088081"
+ms.lasthandoff: 10/31/2020
+ms.locfileid: "4180569"
 ---
-# <a name="invoice-a-retainer-or-an-advance"></a>Fakturišite avansnu uplatu ili avans
+# <a name="invoice-a-retainer-or-an-advance---lite"></a>Fakturisanje avansne uplate ili avansa – jednostavno
 
 _**Odnosi se na:** Jednostavna primena – od pogodbe do profakture_
 
@@ -32,8 +32,8 @@ Dovršite sledeće korake da biste fakturisali odbitak ili avans.
 
 Možete kreirati odbitak ili avans direktno na fakturi.
 
-1. Na nacrtu fakture, na podmreži **Avansi i odbici** , izaberite **Novo** da biste kreirali novi odbitak ili avans. 
-2. Na stranici **Brzo kreiranje** , dodajte potrebne informacije, a zatim izaberite **Sačuvaj**. Odbitak ili avans kreira se na ugovoru o projektu koji se odnosi na fakturu. Odbitak ili avans se automatski označava kao **Spremno za fakturisanje** , a zatim se dodaje na podmrežu **Avansi i odbici** na stranici **Faktura**.
+1. Na nacrtu fakture, na podmreži **Avansi i odbici**, izaberite **Novo** da biste kreirali novi odbitak ili avans. 
+2. Na stranici **Brzo kreiranje**, dodajte potrebne informacije, a zatim izaberite **Sačuvaj**. Odbitak ili avans kreira se na ugovoru o projektu koji se odnosi na fakturu. Odbitak ili avans se automatski označava kao **Spremno za fakturisanje**, a zatim se dodaje na podmrežu **Avansi i odbici** na stranici **Faktura**.
 
 ## <a name="reconcile-an-invoiced-retainer-or-advance"></a>Sravnjenje fakturisanog odbitka ili avansa
 
@@ -43,7 +43,7 @@ Na svakoj fakturi koja se generiše za projektni ugovor koji fakturiše odbitke 
 
 To se može videti u mreži **Primenjeni odbici i avansi** na stranici **Faktura**. Sledeća tabela pruža informacije o poljima na mreži **Primenjeni odbici i avansi** na stranici **Faktura projekta**.
 
-| Polje | Lokacija | Relevantnost, svrha i smernice | Posledični uticaj |
+| Polje | Lokacija | Opis | Posledični uticaj |
 | --- | --- | --- | --- |
 | Opis | Mreža **Primenjeni odbici i avansi** na stranici **Faktura projekta** |Ovo polje samo za čitanje daje opis odbitaka ili avansa koji se koriste na ovoj fakturi. Ova vrednost ne može da se promeni na fakturi. Ova vrednost se može ažurirati na podmreži na stranici **Ugovor o projektu**. | Ovo polje se može prikazati klijentu na odštampanoj fakturi kako bi se naznačilo koji odbitak ili avans se primenjuje na fakturi. |
 | Vreme isporuke | Mreža **Primenjeni odbici i avansi** na stranici **Faktura projekta**  | Ovo polje samo za čitanje daje datum fakture odbitaka ili avansa koji se koriste na ovoj fakturi. Ova vrednost ne može da se promeni na fakturi. Ova vrednost se može ažurirati na podmreži na stranici **Ugovor o projektu**. | Ovo polje se može prikazati klijentu na odštampanoj fakturi kako bi se naznačio datum kada su odbitak ili avans prvi put fakturisani klijentu. |

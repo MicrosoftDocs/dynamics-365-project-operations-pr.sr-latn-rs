@@ -3,10 +3,10 @@ title: Pregled predloženih resursa
 description: Ova tema pruža informacije o tome kako da predložite resurse za projekte.
 author: ruhercul
 manager: AnnBe
-ms.date: 09/23/2020
+ms.date: 11/05/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 audience: Application User
 ms.reviewer: kfend
 ms.search.scope: ''
@@ -17,12 +17,12 @@ ms.search.industry: Service industries
 ms.author: ruhercul
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: ad5cbdeb5fe05e6115eb024833a8d58b626ea4c9
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 54a0924da17eac86e2fa400540e629f6d803aa35
+ms.sourcegitcommit: 14aa380759214713d9bf560f5a7f619b7f4bd5b8
 ms.translationtype: HT
 ms.contentlocale: sr-Latn-RS
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4083547"
+ms.lasthandoff: 11/05/2020
+ms.locfileid: "4401190"
 ---
 # <a name="review-proposed-resources"></a>Pregled predloženih resursa
 
@@ -31,7 +31,7 @@ _**Odnosi se na:** Project Operations za resurs/scenarije koji nisu zasnovani na
 Menadžeri resursa mogu da predlože resurs menadžeru projekata korišćenjem zahteva za resurs.
 
 1. Iz mreže zahteva ili samog zahteva izaberite **Pronađi resurse**.
-2. Na stranici **Pomoćnik za zakazivanje** izaberite resurs, a zatim u oknu **Kreiranje rezervacije resursa** , u polju **Status rezervacije** , izaberite **Rezerviši**.
+2. Na stranici **Pomoćnik za zakazivanje** izaberite resurs, a zatim u oknu **Kreiranje rezervacije resursa**, u polju **Status rezervacije**, izaberite **Rezerviši**.
 
 Dolazi do sledećih izmena statusa:
 
@@ -47,35 +47,6 @@ Kada menadžeri resursa obrađuju zahteve za resurse, mogu koristiti bilo koji o
 - Mogu da predlažu manje resursa nego što je potrebno. U ovom scenariju, kapacitet predloženog resursa je manji od zahtevanih sati koje je naveo podnosilac zahteva. Stoga, kada podnosilac zahteva prihvati predložene resurse, kreira se potreba za neispunjenim resursom da bi se evidentirala preostala potražnja.
 - Mogu da rezervišu više resursa da bi zadovoljili potražnju ako nije dostupan nijedan resurs za obavljanje posla.
 - Mogu da rezervišu manje resursa nego što je potrebno. U ovom scenariju, broj rezervisanih sati je manji od broja zahtevanih sati. Sistem vas upućuje da predložite resurse umesto rezervacija, tako da podnosilac zahteva može da proveri i prati preostalu potražnju.
-
-## <a name="billable-utilization"></a>Naplativa ukupna iskorišćenost
-
-Resursi mogu imati ciljanu naplativu ukupnu iskorišćenost. Ona je definisana kao atribut podrazumevane uloge resursa ili je podešena u zapisu pojedinačnog resursa koji se može rezervisati. Izračunavanje ukupne iskorišćenosti temelji se na stvarnim satima koje su resursi prijavili korišćenjem odobrenih stavki vremena.
-
-Sledeće formule se koriste za izračunavanje ukupne iskorišćenosti:
-
-- Naplativa ukupna iskorišćenost = naplativi stvarni sati ÷ kapacitet resursa
-- Nenaplativa ukupna iskorišćenost = Stvarno vreme sa ID-om vrste naplate = Nenaplativo, dopunsko ili nedostupno ÷ Kapacitet resursa
-- Interno = Stvarno vreme bez prodajnog ugovora ÷ Kapacitet resursa
-- Kapacitet resursa = Radno vreme resursa – Van kancelarije – Neradni dani
-
-Možete pronaći prikaz **Ukupna iskorišćenost resursa** u oknu **Resursi**.
-
-Svaka ćelija u mreži predstavlja procenat naplative ukupne iskorišćenosti resursa u nekom periodu, kao što je dan, nedelja ili mesec. Sledeće formule se koriste za bojenje ćelija:
-
-- **Zelena:** Naplativa ukupna iskorišćenost \>= ciljna ukupna iskorišćenost resursa
-- **Žuta:** ciljna ukupna iskorišćenost – 20 \<= naplativa ukupna iskorišćenost \< ciljna ukupna iskorišćenost
-- **Crvena:** naplativa ukupna iskorišćenost \< ciljna ukupna iskorišćenost – 20
-
-Zbog toga što je prikaz **Ukupna iskorišćenost resursa** zasnovana na tabeli rasporeda, za filtriranje rezultata možete koristiti mogućnosti filtriranja tabele rasporeda.
-
-Mreža zahteva da podesite ciljnu ukupnu iskorišćenost za ulogu ili pojedinačni resurs. Da biste to podesili, idite na stavku **Resursi** \> **Uloge resursa**.
-
-Uz to, svakom resursu koji se može rezervisati mora se dodeliti podrazumevana uloga. Idite na **Resursi** \> **Resursi**. Na kartici **Project Service** potvrdite da je definisana uloga resursa i da je polje **Je podrazumevano** za tu ulogu podešeno na **Da**. Ako **Je podrazumevano = Ne** , možete dodati dodatne uloge. Uloga gde **Je podrazumevano = Da** koristi se za procenu ukupne iskorišćenosti resursa u odnosu na ciljnu iskorišćenost za tu ulogu.
-
-Na kartici **Project Service** možete podesiti i pojedinačnu ciljnu ukupnu iskorišćenost za resurs. Kalkulacija ukupne iskorišćenosti zatim koristi tu ciljnu ukupnu iskorišćenost za procenu cilja resursa umesto cilja podrazumevane uloge resursa.
-
-Ukupna iskorišćenost je prikazana za resurs samo ako je taj resurs odobrio naplativo vreme tokom perioda koji je prikazan na mreži.
 
 ## <a name="resource-availability"></a>Dostupnosti resursa
 

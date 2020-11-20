@@ -1,21 +1,21 @@
 ---
-title: Avansi i ugovori zasnovani na avansnim uplatama
+title: Ugovori zasnovani na avansima i avansnim uplatama – jednostavno
 description: Ova tema pruža informacije o ugovornim modelima i napretku zasnovanim na odbitku u usluzi Project Operations.
 author: rumant
 manager: Annbe
 ms.date: 10/20/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 5ccf8ff4fa52fa6ff9fe534dfbe6736afc24ffba
-ms.sourcegitcommit: f8edff6422b82fdf2cea897faa6abb51e2c0c3c8
+ms.openlocfilehash: 912b235af5e561349fdfb481e5f5b7c5514669c3
+ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
 ms.translationtype: HT
 ms.contentlocale: sr-Latn-RS
-ms.lasthandoff: 10/21/2020
-ms.locfileid: "4088078"
+ms.lasthandoff: 10/31/2020
+ms.locfileid: "4180884"
 ---
-# <a name="advances-and-retainer-based-contracts"></a>Avansi i ugovori zasnovani na avansnim uplatama 
+# <a name="advances-and-retainer-based-contracts---lite"></a>Ugovori zasnovani na avansima i avansnim uplatama – jednostavno
 
 
 _**Odnosi se na:** Jednostavna primena – od pogodbe do profakture_
@@ -33,7 +33,7 @@ Pored periodičnog rasporeda zasnovanog na odbicima, Project Operations može za
 
 Odbitak u usluzi Project Operations nije dostupan za upotrebu dok se klijentu ne fakturiše. To pokazuju sledeća polja na podformi za avanse i odbitke.
 
-| Polje | Relevantnost, svrha i smernice | Posledični uticaj |
+| Polje | Opis | Posledični uticaj |
 | --- | --- | --- |
 | Dostupan iznos | Iznos koji je dostupan za upotrebu na zapisu odbitka ili avansa. | Dok se avans ili odbitak ne fakturiše, nije dostupan za upotrebu, što znači da će raspoloživi iznos biti nula. |
 | Iskorišćen iznos | Iznos koji se već koristi na odbitku ili avansu. | Avans ili odbitak mogu se delimično sravniti na fakturi sa stvarnim troškovima koji će imati deo koji će biti označen kao već korišćen ili potrošen. Preostali iznos avansa ili odbitka dostupan je za sravnjenje na budućoj fakturi sa stvarnim troškovima. |

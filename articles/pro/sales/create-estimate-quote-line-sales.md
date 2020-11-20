@@ -5,15 +5,15 @@ author: rumant
 manager: Annbe
 ms.date: 10/01/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 65aee7238781ac90f603e57c6d9b0b92cabd6644
-ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
+ms.openlocfilehash: 56892a134c0c739958f7f939214930631dea7420
+ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
 ms.translationtype: HT
 ms.contentlocale: sr-Latn-RS
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4083484"
+ms.lasthandoff: 10/31/2020
+ms.locfileid: "4180389"
 ---
 # <a name="estimating-a-project-based-quote-line"></a>Procena stavke ponude zasnovane na projektu
 
@@ -30,9 +30,9 @@ Da biste procenili stavku ponude zasnovanu na projektu, u stavci ponude zasnovan
 
 Da biste kreirali procenu u stavci ponude zasnovanoj na projektu, izaberite karticu **Detalj stavke ponude**. Stavka koju kreirate na ovoj kartici rezimiraće navedenu vrednost za ovu stavku ponude. 
 
-Da biste kreirali detalje stavke ponude, izaberite **+ Novi detalj stavke ponude** u podformi **Detalji stavke ponude**. Otvoriće se klizač za brzo kreiranje. Sledeća polja na obrascu **Stavka ponude** :
+Da biste kreirali detalje stavke ponude, izaberite **+ Novi detalj stavke ponude** na podformi **Detalji stavke ponude**. Otvoriće se klizač za brzo kreiranje. Sledeća polja na obrascu **Stavka ponude**:
 
-| **Polje** | **Lokacija** | **Relevantnost, svrha i smernice** | **Posledični uticaj** |
+| **Polje** | **Lokacija** | **Opis** | **Posledični uticaj** |
 | --- | --- | --- | --- |
 | Opis | Brzo kreiranje | Opis konkretne procene. | Ovo polje podrazumevano sadrži cenu iz povezane stavke ponude za cenu koja se automatski kreira. |
 | Klasa transakcije | Brzo kreiranje | Ova padajuća lista pruža klase transakcija koje su uključene u karticu **Opšti podaci** stavke ponude zasnovane na projektu.  | Ovo polje podrazumevano sadrži cenu iz povezane stavke ponude za cenu koja se automatski kreira. |
@@ -50,11 +50,11 @@ Da biste kreirali detalje stavke ponude, izaberite **+ Novi detalj stavke ponude
 
 ## <a name="update-prices-on-quote-line-details"></a>Ažuriranje cena u detaljima stavke ponude
 
-Ako ste promenili cene na cenovniku projekta koji je priložen uz ponudu ili na cenovniku troškova ugovorne jedinice, možete odabrati **Preračunaj** na stranici **Ponuda** , da osvežite cene u detaljima pojedinačnih stavki ponude kako bi odrazile ovu promenu. Kada izaberete **Preračunaj** , pojavljuje se upozorenje koje vas obaveštava da će se resetovati cene na detaljima stavke ponude za sve stavke ove ponude. Izaberite **Da** kako biste osvežili cene detalja prodaje i detalje troškova stavki ponude.
+Ako ste promenili cene na cenovniku projekta koji je priložen uz ponudu ili na cenovniku troškova ugovorne jedinice, možete odabrati **Preračunaj** na stranici **Ponuda**, da osvežite cene u detaljima pojedinačnih stavki ponude kako bi odrazile ovu promenu. Kada izaberete **Preračunaj**, pojavljuje se upozorenje koje vas obaveštava da će se resetovati cene na detaljima stavke ponude za sve stavke ove ponude. Izaberite **Da** kako biste osvežili cene detalja prodaje i detalje troškova stavki ponude.
 
 ## <a name="access-quote-line-details-for-cost"></a>Pristupite detaljima stavki ponude za cenu
 
-Na kartici **Detalji stavke ponude** , izaberite red u mreži da biste omogućili neke radnje na traci s alatkama podforme. Prva radnja na traci alata podforme kada izaberete detalj stavke ponude je **Otvori detalje cene**. Izaberite **Otvori detalje cene** da biste videli povezanu stopu troškova i iznos za ovu stavku ponude.
+Na kartici **Detalji stavke ponude** izaberite red u mreži da biste omogućili neke radnje na traci s alatkama podforme. Prva radnja na traci alata podforme kada se izabere detalj stavke ponude je **Otvori detalje cene**. Izaberite **Otvori detalje cene** da biste videli povezanu stopu troškova i iznos za ovu stavku ponude.
 
 > [!NOTE]
 > Promena vrednosti jedinice resursa, količine, datuma, uloge ili kategorije u detaljima stavke ponude za cenu promeniće odgovarajuće vrednosti detalja stavke ponude za prodaju.

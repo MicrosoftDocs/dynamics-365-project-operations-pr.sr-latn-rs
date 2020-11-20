@@ -5,15 +5,15 @@ author: rumant
 manager: Annbe
 ms.date: 10/17/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 23378b51c8324a60918ad494e7f659dbbc94e2a8
-ms.sourcegitcommit: 3a0c18823a7ad23df5aa3de272779313abe56c82
+ms.openlocfilehash: 674f4ccced3d0e3178799f60d9f95a2ec27cd153
+ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
 ms.translationtype: HT
 ms.contentlocale: sr-Latn-RS
-ms.lasthandoff: 10/20/2020
-ms.locfileid: "4083812"
+ms.lasthandoff: 10/31/2020
+ms.locfileid: "4180794"
 ---
 # <a name="create-an-invoice-schedule-on-a-project-based-contract-line"></a>Kreirajte raspored fakturisanja za predmet ugovora zasnovan na projektu 
 
@@ -29,11 +29,11 @@ Kada predmet ugovora zasnovan na projektu ima način naplate za vreme i materija
 2. Idite na evidenciju ugovora o projektu i na kartici **Rezime** u polju **Traženo vreme dostave** izaberite datum.
 3. Otvorite predmet ugovora **Vreme i materijal** za koji kreirate raspored za fakturisanje zasnovan na datumu. 
 4. Na kartici **Raspored za fakturisanje** izaberite datum početka obračuna i učestalost fakturisanja.
-5. Na podformi izaberite **Generišite raspored za fakturisanje**. Generiše se raspored za fakturisanje pomoću polja **Datum pokretanja fakturisanja** , **Datum isključivanja transakcije** i **Status pokretanja** postavljenih na sledeći način:
+5. Na podformi izaberite **Generišite raspored za fakturisanje**. Generiše se raspored za fakturisanje pomoću polja **Datum pokretanja fakturisanja**, **Datum isključivanja transakcije** i **Status pokretanja** postavljenih na sledeći način:
 
-    - **Datum pokretanja fakturisanja** : Ovaj datum se podešava na osnovu učestalosti fakturisanja.
-    - **Datum isključivanja transakcije** : Dan pre datuma pokretanja fakturisanja.
-    - **Status pokretanja** : Automatski se podešava na **Nije pokrenuto**. Kada se posao automatskog kreiranja fakture pokrene za određeni datum pokretanja fakture, ažuriraće ovo polje na **Pokretanje uspešno** ili **Pokretanje nije uspelo**.
+    - **Datum pokretanja fakturisanja**: Ovaj datum se podešava na osnovu učestalosti fakturisanja.
+    - **Datum isključivanja transakcije**: Dan pre datuma pokretanja fakturisanja.
+    - **Status pokretanja**: Automatski se podešava na **Nije pokrenuto**. Kada se posao automatskog kreiranja fakture pokrene za određeni datum pokretanja fakture, ažuriraće ovo polje na **Pokretanje uspešno** ili **Pokretanje nije uspelo**.
 
 ## <a name="create-a-fixed-price-invoice-schedule-for-a-contract-line"></a>Napravite raspored za fakturisanje za fiksnu cenu za predmet ugovora
 
@@ -47,13 +47,13 @@ Dovršite sledeće korake da biste generisali raspored fakturisanja zasnovan na 
 1. Idite na **Podešavanja** > **Učestalost fakturisanja** i podesite učestalost fakturisanja.
 2. Idite na evidenciju ugovora o projektu i na kartici **Rezime** u polju **Traženo vreme dostave** izaberite datum.
 3. Otvorite predmet ugovora **Fiksna cena** za koji pravite raspored kontrolnih tačaka. Na kartici **Kontrolne tačke fakturisanja** izaberite datum početka obračuna i učestalost fakturisanja. 
-4. Na podformi izaberite **Generišite periodične kontrolne tačke**. Raspored fakturisanja se generiše pomoću polja **Naziv kontrolne tačke** , **Datum kontrolne tačke** i **Iznos kontrolne tačke** postavljenih na sledeći način:
+4. Na podformi izaberite **Generišite periodične kontrolne tačke**. Raspored fakturisanja se generiše pomoću polja **Naziv kontrolne tačke**, **Datum kontrolne tačke** i **Iznos kontrolne tačke** postavljenih na sledeći način:
 
-    - **Naziv kontrolne tačke** : Ovaj datum se podešava na osnovu učestalosti fakturisanja.
-    - **Datum kontrolne tačke** : Ovaj datum se podešava na osnovu učestalosti fakturisanja.
-    - **Iznos kontrolne tačke** : Ovaj iznos se izračunava deljenjem iznosa ugovora u predmetu ugovora sa brojem kontrolnih tačaka, kao što je zadato učestalošću, datumom početka obračuna i datumom zahtevane isporuke.
+    - **Naziv kontrolne tačke**: Ovaj datum se podešava na osnovu učestalosti fakturisanja.
+    - **Datum kontrolne tačke**: Ovaj datum se podešava na osnovu učestalosti fakturisanja.
+    - **Iznos kontrolne tačke**: Ovaj iznos se izračunava deljenjem iznosa ugovora u predmetu ugovora sa brojem kontrolnih tačaka, kao što je zadato učestalošću, datumom početka obračuna i datumom zahtevane isporuke.
 
-    Ako predmet ugovora ima vrednost u polju **Procenjeni iznos poreza** , onda se i ovo polje jednako raspoređuje na svaku kontrolnu tačku prilikom generisanja periodičnih kontrolnih tačaka.
+    Ako predmet ugovora ima vrednost u polju **Procenjeni iznos poreza**, onda se i ovo polje jednako raspoređuje na svaku kontrolnu tačku prilikom generisanja periodičnih kontrolnih tačaka.
 
 Kontrolne tačke za obračun treba da budu jednake ugovornoj vrednosti predmeta ugovora. Ako nisu, dobićete grešku na strani **Predmet ugovora**. Grešku možete ispraviti tako što ćete proveriti da li kontrolne tačke za obračun imaju istu ukupnu vrednost kao ugovorna vrednost linije kreiranjem, uređivanjem ili brisanjem kontrolnih tačaka. Nakon izvršenih promena, osvežite stranicu da biste uklonili grešku.
 
@@ -61,10 +61,10 @@ Kontrolne tačke za obračun treba da budu jednake ugovornoj vrednosti predmeta 
 
 Možete da generišete kontrolne tačke sa fiksnom cenom ručno kada se ne dele periodično. Obavite sledeće korake da biste ručno kreirali kontrolnu tačku.
 
-1. Otvorite predmet ugovora sa fiksnom cenom za koji stvarate kontrolnu tačku i na kartici **Raspored fakturisanja** , na podmreži odaberite **+ Kreiraj novu kontrolnu tačku za predmet ugovora**. 
-2. Na stranici **Kreiranje kontrolne tačke** , unesite potrebne informacije na osnovu sledeće tabele.
+1. Otvorite predmet ugovora sa fiksnom cenom za koji stvarate kontrolnu tačku i na kartici **Raspored fakturisanja**, na podmreži odaberite **+ Kreiraj novu kontrolnu tačku za predmet ugovora**. 
+2. Na stranici **Kreiranje kontrolne tačke**, unesite potrebne informacije na osnovu sledeće tabele.
 
-| Polje | Lokacija | Relevantnost, svrha i smernice | Posledični uticaj |
+| Polje | Lokacija | Opis | Posledični uticaj |
 | --- | --- | --- | --- |
 | Naziv kontrolne tačke | Brzo kreiranje | Tekstualno polje za ime kontrolne tačke. | Ovo se prenosi na kontrolnu tačku predmeta ugovora o projektu i na fakturu. |
 | Projektni zadatak | Brzo kreiranje | Ako je kontrolna tačka vezana za projektni zadatak, pomoću ove reference možete dodati prilagođenu logiku koja je postavila status kontrolne tačke na osnovu statusa zadatka. | Aplikacija nema nikakvog posledičnog uticaja ove reference na zadatak. |

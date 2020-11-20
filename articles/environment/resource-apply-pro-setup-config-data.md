@@ -1,29 +1,39 @@
 ---
-title: Podešavanje i primena podataka o konfiguraciji u usluzi Common Data Service za Project Operations
+title: Podešavanje i primena podataka o konfiguraciji u usluzi Common Data Service
 description: Ova tema pruža informacije o tome kako da podesite i primenite podatke o konfiguraciji u usluzi Project Operations.
 author: sigitac
 manager: Annbe
-ms.date: 10/01/2020
+ms.date: 11/04/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 5e72b88a4dae1eb89859fdfd55f6d5e6ee5befcd
-ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
+ms.openlocfilehash: 7de8db5e91265c77c79f34a513bf27d9a55b789a
+ms.sourcegitcommit: 14aa380759214713d9bf560f5a7f619b7f4bd5b8
 ms.translationtype: HT
 ms.contentlocale: sr-Latn-RS
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4083453"
+ms.lasthandoff: 11/05/2020
+ms.locfileid: "4401145"
 ---
-# <a name="set-up-and-apply-configuration-data-in-the-common-data-service-for-project-operations"></a>Podešavanje i primena podataka o konfiguraciji u usluzi Common Data Service za Project Operations
+# <a name="set-up-and-apply-configuration-data-in-the-common-data-service"></a>Podešavanje i primena podataka o konfiguraciji u usluzi Common Data Service 
 
 _**Odnosi se na:** Project Operations za scenarije zasnovane na resursima / bez zaliha_
+
+## <a name="prerequisites"></a>Preduslovi
+
+Pre nego što započnete konfigurisanje podataka u usluzi Common Data Service (CDS), moraju biti ispunjeni sledeći preduslovi:
+
+1.  Obezbedite CDS okruženje i Dynamics 365 Finance okruženje za Project Operations.
+2.  Informacije o pravnom licu iz usluge Dynamics 365 Finance se dele sa CDS okruženjem. To znači da entitet **Kompanija** u CDS-u ima sledeće evidencije preduzeća:
+  - THPM
+  - USPM
+  - GBPM
 
 ## <a name="install-setup-and-configuration-data"></a>Podaci o podešavanju i konfiguraciji instaliranja
 
 1. Preuzmite, deblokirajte i raspakujte [Paket podataka za podešavanje i konfiguraciju](https://download.microsoft.com/download/1/3/4/1349369c-6209-42b7-b3b4-5be0e67cacd8/ProjOpsSampleSetupData-%20Integrated%20UR1.zip).
 2. Idite u fasciklu sa raspakovanim sadržajem i pokrenite izvršnu datoteku *DataMigrationUtility*.
-3. Na 1. stranici Common Data Service čarobnjaka za konfigurisanje migracije (CMT) izaberite **Uvezi podatke** , a zatim izaberite **Nastavi**.
+3. Na 1. stranici Common Data Service čarobnjaka za konfigurisanje migracije (CMT) izaberite **Uvezi podatke**, a zatim izaberite **Nastavi**.
 
 ![Migracija konfiguracije](./media/1ConfigurationMigration.png)
 
@@ -75,7 +85,7 @@ _**Odnosi se na:** Project Operations za scenarije zasnovane na resursima / bez 
 
 ![Otvoreno okruženje](./media/7OpenEnvironment.png)
 
-2. Idite na **Projekti** > **Resursi** , a zatim izaberite **Novo** da biste kreirali resurs koji može da se rezerviše za vašeg korisnika.
+2. Idite na **Projekti** > **Resursi**, a zatim izaberite **Novo** da biste kreirali resurs koji može da se rezerviše za vašeg korisnika.
 
 ![Resursi koji mogu da se rezervišu](./media/8BookableResources.png)
 
@@ -83,7 +93,7 @@ _**Odnosi se na:** Project Operations za scenarije zasnovane na resursima / bez 
 
 ![Novi resurs koji može da se rezerviše](./media/9NewBookableResource.png)
 
-4. Na kartici **Zakazivanje** , u polju **Kompanija** odaberite kompaniju **USPM** , a zatim izaberite **Sačuvaj**. 
+4. Na kartici **Zakazivanje**, u polju **Kompanija** odaberite kompaniju **USPM**, a zatim izaberite **Sačuvaj**. 
 
 ![Kartica „Zakazivanje“](./media/10SchedulingTab.png)
 
@@ -114,10 +124,10 @@ _**Odnosi se na:** Project Operations za scenarije zasnovane na resursima / bez 
  
 12. Ažurirajte sledeća polja:
 
- - **Podrazumevana kompanija** : USPM
- - **Podrazumevana organizaciona jedinica** : Contoso Robotics Global
- - **Učestalost fakturisanja** : Sedmi i poslednji dan
- - **Predložak radnog vremena** : Promenite na predložak koji ste kreirali.
+ - **Podrazumevana kompanija**: USPM
+ - **Podrazumevana organizaciona jedinica**: Contoso Robotics Global
+ - **Učestalost fakturisanja**: Sedmi i poslednji dan
+ - **Predložak radnog vremena**: Promenite na predložak koji ste kreirali.
 
 13. Izaberite stavku **Sačuvaj**. 
 

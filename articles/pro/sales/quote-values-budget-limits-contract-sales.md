@@ -1,21 +1,21 @@
 ---
-title: Rezime informacija o ponudi projekta (Prodaja)
+title: Rezime informacija o ponudi za projekat – jednostavno
 description: Ova tema pruža informacije o informacijama i podešavanjima koji se odnose na ponude za projekte i utiču na njih. (Sales)
 author: rumant
 manager: Annbe
 ms.date: 10/01/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: d050258ae457bb4392d5fa761442cfc7a444feb0
-ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
+ms.openlocfilehash: f16634a87780c23d699d9ad535dd5e6d4ecb895d
+ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
 ms.translationtype: HT
 ms.contentlocale: sr-Latn-RS
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4083511"
+ms.lasthandoff: 10/31/2020
+ms.locfileid: "4180973"
 ---
-# <a name="summary-information-on-a-project-quote-sales"></a>Rezime informacija o ponudi projekta (Prodaja)
+# <a name="summary-information-on-a-project-quote---lite"></a>Rezime informacija o ponudi za projekat – jednostavno
 
 _**Odnosi se na:** Jednostavna primena – od pogodbe do profakture_
 
@@ -23,7 +23,7 @@ Ovaj članak objašnjava informacije koje se odnose na ponudu za projekat. To uk
 
 Sledeća tabela navodi polja informacija rezimea o ponudi za projekt koja su jedinstvena za Dynamics 365 Project Operations ili imaju neke važne promene u ponašanju iz Dynamics 365 Sales ponuda.
 
-| **Polje** | **Lokacija** | **Relevantnost, svrha i smernice** | **Posledični uticaj** |
+| **Polje** | **Lokacija** | **Opis** | **Posledični uticaj** |
 | --- | --- | --- | --- |
 | Tip | Kartica sa rezimeom (skrivena) | Ovo polje skupa opcija ima sledeće opcije:</br>- Zasnovano na poslu (dostupno samo kada je instalirana usluga Project Operations)</br>- Zasnovano na stavci (dostupno samo kada su instalirane usluge Project Operations i Sales)</br>- Zasnovano na servisnom održavanju (dostupno kada je instalirana usluga Dynamics 365 Field Service) | Kada koristite aplikaciju Project Operations, vrednost ovog polja se automatski postavlja na opciju **Zasnovano na poslu**. To klasifikuje ponudu kao ponudu zasnovanu na projektu. Ponuda treba da se zasniva na projektu kako bi se omogućila sva proširenja i funkcije specifične za projekat. |
 | Potencijalni klijent | Kartica rezimea | Upućivanje na zapis o kompaniji klijenta ili poslovnom kontaktu. Kada se kreira ponuda iz mogućnosti za poslovanje, ovo polje se kopira iz odgovarajućeg polja u mogućnosti za poslovanje. | Valuta u ponudi za projekat se podrazumevano zasniva na valuti klijenta. Međutim, to može da se promeni pre nego što se ponuda sačuva. |
@@ -36,7 +36,7 @@ Sledeća tabela navodi polja informacija rezimea o ponudi za projekt koja su jed
 
 U nastavku su kartice i KPI-ovi dostupni na ponudi za projekt koji su jedinstveni za Project Operations ili imaju neke važne promene u ponašanju iz ponuda za prodaju:
 
-| **Polje** | **Lokacija** | **Relevantnost, svrha i smernice** |
+| **Polje** | **Lokacija** | **Opis** |
 | --- | --- | --- |
 | Analiza isplativosti | Kartica u ponudi | Kartica prikazuje sledeće metrike:</br>- Ukupni naplativi troškovi</br></br>- Ukupni nenaplativi troškovi</br>- Ukupan prihod</br>- Ukupni prihod (osnovni)</br>- Bruto marža</br>- Prilagođena bruto marža|
 | Poređenje sa očekivanjima klijenta | Kartica u ponudi | Ova kartica prikazuje sledeće metrike:</br>- Procenjeni završetak</br>- Zahtevani završetak</br>- Budžet klijenta</br>- Vrednost ponude |

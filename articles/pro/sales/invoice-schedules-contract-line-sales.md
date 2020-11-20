@@ -1,74 +1,76 @@
 ---
-title: Kreiranje rasporeda fakturisanja za predmet ugovora zasnovan na projektu
-description: Ova tema pruža informacije o kreiranju rasporeda i kontrolnih tačaka fakturisanja na predmetima ugovora.
+title: Kreiranje rasporeda fakturisanja za predmet ugovora zasnovan na projektu – jednostavno
+description: Ova tema pruža informacije o kreiranju rasporeda faktura i kontrolnih tačaka.
 author: rumant
 manager: Annbe
-ms.date: 10/17/2020
+ms.date: 10/26/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 2183b915dd2f67e03964246cb0689003e48363f7
-ms.sourcegitcommit: 3a0c18823a7ad23df5aa3de272779313abe56c82
+ms.openlocfilehash: 728a35b2b69fb63a2b20f218c250365c5068370f
+ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
 ms.translationtype: HT
 ms.contentlocale: sr-Latn-RS
-ms.lasthandoff: 10/20/2020
-ms.locfileid: "4083814"
+ms.lasthandoff: 10/31/2020
+ms.locfileid: "4180344"
 ---
-# <a name="creating-invoice-schedules-on-a-project-based-contract-line"></a>Kreiranje rasporeda fakturisanja za predmet ugovora zasnovan na projektu
+# <a name="create-invoice-schedules-on-a-project-based-contract-line---lite"></a>Kreiranje rasporeda fakturisanja za predmet ugovora zasnovan na projektu – jednostavno
 
 _**Odnosi se na:** Jednostavna primena – od pogodbe do profakture_
 
+Možete priložiti raspored fakturisanja za predmet ugovora zasnovan na projektu. Fakturisanje je dozvoljeno samo nakon dobijanja ugovora za izradu projektnog ugovora. Rasporedi faktura omogućavaju automatsko kreiranje radnih verzija faktura za predmet ugovora zasnovan na projektu. Ako planirate da fakture uvek kreirate ručno, možete preskočiti kreiranje rasporeda fakturisanja na predmetu ugovora zasnovanom na projektu ili predmetu ugovora.
 
-Možete da kreirate raspored fakturisanja za predmet ugovora zasnovan na projektu. Fakturisanje je dozvoljeno samo nakon dobijanja ugovora i kada kreirate projektni ugovor. Raspored faktura omogućava automatsko kreiranje nacrta faktura za predmet ugovora zasnovan na projektu. Ako, međutim, samo ručno kreirate fakture, možete preskočiti kreiranje rasporeda faktura na predmetima ugovora.
-
-## <a name="create-a-time-and-material-invoice-schedule-for-a-contract-line"></a>Napravite raspored za fakturisanje za vreme i materijal za predmet ugovora
+## <a name="create-a-time-and-material-invoice-schedule-for-a-project-based-contract-line"></a>Kreirajte raspored fakturisanja vremena i materijala za predmet ugovora zasnovan na projektu
 
 Kada predmet ugovora zasnovan na projektu ima način naplate za vreme i materijal, možete da kreirate raspored fakturisanja zasnovan na datumu. Da biste automatski generisali raspored za fakturisanje na osnovu datuma, izvršite sledeće korake.
 
-1. Idite na **Podešavanja** > **Učestalost fakturisanja** i podesite učestalost fakturisanja.
-2. Idite na evidenciju ugovora o projektu i na kartici **Rezime** u polju **Traženo vreme dostave** izaberite datum.
-3. Otvorite predmet ugovora **Vreme i materijal** za koji kreirate raspored za fakturisanje zasnovan na datumu. 
-4. Na kartici **Raspored za fakturisanje** izaberite datum početka obračuna i učestalost fakturisanja.
-5. Na podformi izaberite **Generišite raspored za fakturisanje**. Generiše se raspored za fakturisanje pomoću polja **Datum pokretanja fakturisanja** , **Datum isključivanja transakcije** i **Status pokretanja** postavljenih na sledeći način:
+1. Idite na **Podešavanja** > **Učestalosti faktura** da biste podesili učestalost fakturisanja.
+2. Otvorite ugovor za projekat i na kartici **Rezime**, postavite traženi datum isporuke.
+3. Otvorite predmet ugovora za vreme i materijal za koji želite da napravite raspored fakturisanja na osnovu datuma. 
+4. Na kartici **Raspored fakturisanja** izaberite datum početka obračuna i učestalost fakturisanja. 
+5. Na podformi izaberite **Generišite raspored za fakturisanje**.
 
-    - **Datum pokretanja fakturisanja** : Ovaj datum se podešava na osnovu učestalosti fakturisanja.
-    - **Datum isključivanja transakcije** : Dan pre datuma pokretanja fakturisanja.
-    - **Status pokretanja** : Automatski se podešava na **Nije pokrenuto**. Kada se posao automatskog kreiranja fakture pokrene za određeni datum pokretanja fakture, ažuriraće ovo polje na **Pokretanje uspešno** ili **Pokretanje nije uspelo**.
+    Sistem generiše raspored fakturisanja sa sledećim informacijama o polju:
 
+    - **Datum pokretanja fakturisanja** se podešava na datum na osnovu učestalosti fakturisanja.
+    - **Datum isključivanja transakcije** se postavlja na dan pre **datum pokretanja fakturisanja**.
+    - **Status pokretanja** se automatski podešava na **Nije pokrenuto**. Kada se posao automatskog kreiranja fakture pokrene za određeni **datum pokretanja fakturisanja**, ažuriraće ovo polje na **Pokretanje uspešno** ili **Pokretanje nije uspelo**.
 
-## <a name="create-a-fixed-price-invoice-schedule-for-a-contract-line"></a>Napravite raspored za fakturisanje za fiksnu cenu za predmet ugovora
+## <a name="create-a-fixed-price-invoice-schedule-for-a-project-based-contract-line"></a>Kreiranje rasporeda fakturisanja po fiksnoj ceni za predmet ugovora zasnovan na projektu
 
-Kada predmet ugovora ima način naplate Fiksno, možete da kreirate raspored za fakturisanje zasnovan na kontrolnim tačkama. Dovršite sledeće korake da biste generisali raspored fakturisanja zasnovan na kontrolnim tačakma za fiksni skup podjednako raspoređenih kontrolnih tačaka za kalendarski period.
+Kada predmet ugovora zasnovan na projektu ima metodu obračuna sa fiksnom cenom, možete da kreirate raspored fakturisanja zasnovan na kontrolnoj tački. Dovršite sledeće korake da biste automatski generisali raspored fakturisanja na osnovu kontrolnih tačaka za fiksni skup kontrolnih tačaka koje se podjednako raspoređuju za kalendarski period.
 
-1. Idite na **Podešavanja** > **Učestalost fakturisanja** i podesite učestalost fakturisanja.
-2. Idite na evidenciju ugovora o projektu i na kartici **Rezime** u polju **Traženo vreme dostave** izaberite datum.
-3. Otvorite predmet ugovora **Fiksna cena** za koji pravite raspored kontrolnih tačaka. Na kartici **Kontrolne tačke fakturisanja** izaberite datum početka obračuna i učestalost fakturisanja. 
-4. Na podformi izaberite **Generišite periodične kontrolne tačke**. Raspored fakturisanja se generiše pomoću polja **Naziv kontrolne tačke** , **Datum kontrolne tačke** i **Iznos kontrolne tačke** postavljenih na sledeći način:
+1. Idite na **Podešavanja** > **Učestalosti faktura** da biste podesili učestalost fakturisanja.
+2. Otvorite ugovor za projekat i na kartici **Rezime**, postavite traženi datum isporuke.
+3. Otvorite predmet ugovora sa fiksnom cenom na kojoj treba da napravite raspored kontrolnih tačaka. 
+4. Na kartici **Raspored fakturisanja (Kontrolne tačke fakturisanja)** izaberite datum početka obračuna i učestalost fakturisanja. 
+5. Na podformi izaberite **Generišite periodične kontrolne tačke**.
 
-    - **Naziv kontrolne tačke** : Ovaj datum se podešava na osnovu učestalosti fakturisanja.
-    - **Datum kontrolne tačke** : Ovaj datum se podešava na osnovu učestalosti fakturisanja.
-    - **Iznos kontrolne tačke** : Ovaj iznos se izračunava deljenjem iznosa ugovora u predmetu ugovora sa brojem kontrolnih tačaka, kao što je zadato učestalošću, datumom početka obračuna i datumom zahtevane isporuke.
+    Sistem generiše raspored fakturisanja sa sledećim informacijama o kontrolnim tačkama.
 
-    Ako predmet ugovora ima vrednost u polju **Procenjeni iznos poreza** , onda se i ovo polje jednako raspoređuje na svaku kontrolnu tačku prilikom generisanja periodičnih kontrolnih tačaka.
+    - **Naziv kontrolne tačke** se podešava na datum koji se diktira na osnovu učestalosti fakturisanja.
+    - **Datum kontrolne tačke** se podešava na datum koji se diktira na osnovu učestalosti fakturisanja.
+    - **Iznos kontrolne tačke** se izračunava tako što se iznos ugovora na predmetu ugovora zasnovanom na projektu podeli sa brojem kontrolnih tačaka, kako što je to diktirano učestalošću, početkom naplate i traženim datumima isporuke.
+    - Ako predmet ugovora ima vrednost u polju **Procenjeni iznos poreza**, ovo polje se takođe ravnomerno raspoređuje na svaku kontrolnu tačku prilikom generisanja periodičnih kontrolnih tačaka.
 
-Kontrolne tačke za obračun treba da budu jednake ugovornoj vrednosti predmeta ugovora. Ako nisu, dobićete grešku na strani **Predmet ugovora**. Grešku možete ispraviti tako što ćete proveriti da li kontrolne tačke za obračun imaju istu ukupnu vrednost kao ugovorna vrednost linije kreiranjem, uređivanjem ili brisanjem kontrolnih tačaka. Nakon izvršenih promena, osvežite stranicu da biste uklonili grešku.
+Kontrolne tačke za obračun bi trebalo da budu jednake ugovorenoj vrednosti predmeta ugovora zasnovanog na projektu. Ako nisu jednake, dolazi do greške. Tu grešku možete da ispravite tako što ćete proveriti da li je zbir kontrolnih tačaka za fakturisanje jednak ugovorenoj vrednosti stavke tako što ćete kreirati, izmeniti ili izbrisati kontrolne tačke. Nakon izvršenih promena, osvežite stranicu.
 
 ### <a name="manually-create-milestones"></a>Ručno kreiranje kontrolnih tačaka
 
-Možete da generišete kontrolne tačke sa fiksnom cenom ručno kada se ne dele periodično. Obavite sledeće korake da biste ručno kreirali kontrolnu tačku.
+Kontrolne tačke sa fiksnom cenom mogu se generisati ručno kada se ne dele periodično. Da biste ručno kreirali kontrolnu tačku, izvršite sledeće korake.
 
-1. Otvorite predmet ugovora sa fiksnom cenom za koji stvarate kontrolnu tačku i na kartici **Raspored fakturisanja** , na podmreži odaberite **+ Kreiraj novu kontrolnu tačku za predmet ugovora**. 
-2. Na stranici **Kreiranje kontrolne tačke** , unesite potrebne informacije na osnovu sledeće tabele.
+1. Otvorite predmet ugovora sa fiksnom cenom na kojoj želite da napravite kontrolnu tačku. 
+2. Na kartici **Raspored fakturisanja**, na podformi izaberite **+ Kreiraj novu kontrolnu tačku za predmet ugovora**.
+3. Na obrascu **Kreiranje kontrolne tačke**, unesite potrebne informacije na osnovu sledeće tabele. 
 
-| Polje | Lokacija | Relevantnost, svrha i smernice | Posledični uticaj |
+| Polje | Lokacija | Opis | Posledični uticaj |
 | --- | --- | --- | --- |
-| Naziv kontrolne tačke | Brzo kreiranje | Tekstualno polje za ime kontrolne tačke. | Ovo se prenosi na kontrolnu tačku predmeta ugovora o projektu i na fakturu. |
-| Projektni zadatak | Brzo kreiranje | Ako je kontrolna tačka vezana za projektni zadatak, pomoću ove reference možete dodati prilagođenu logiku koja je postavila status kontrolne tačke na osnovu statusa zadatka. | Aplikacija nema nikakvog posledičnog uticaja ove reference na zadatak. |
-| Datum kontrolne tačke | Brzo kreiranje | Podesite datum na koji bi postupak automatskog kreiranja fakture trebalo da traži status ove kontrolne tačke da bi se uzeo u obzir za fakturisanje. | Ovo se prenosi na kontrolnu tačku predmeta ugovora o projektu i na fakturu. |
-| Status fakture | Brzo kreiranje | Kada se kreira kontrolna tačka, ovaj status se uvek postavlja na **Nije spremno za fakturisanje** ili **Nije započeto**. | Ovo se prenosi na kontrolnu tačku predmeta ugovora o projektu i na fakturu. |
-| Iznos stavke | Brzo kreiranje | Iznos ili vrednost kontrolne tačke koja će se fakturisati klijentu. | Ovo se prenosi na kontrolnu tačku predmeta ugovora o projektu i na fakturu. |
-| Porez | Brzo kreiranje | Iznos poreza primenjen na kontrolnu tačku. | Ovo se prenosi na kontrolnu tačku predmeta ugovora o projektu i na fakturu. |
+| Naziv kontrolne tačke | Brzo kreiranje | Tekstualno polje za ime kontrolne tačke. | Ovo polje je uključeno u kontrolnu tačku predmeta ugovora za projekat i u fakturu. |
+| Projektni zadatak | Brzo kreiranje | Ako je kontrolna tačka vezana za projektni zadatak, koristite ovu referencu da biste dodali prilagođenu logiku i podesili status kontrolne tačke na osnovu statusa zadatka. | Ne postoji posledični uticaj ove reference na zadatak. |
+| Datum kontrolne tačke | Brzo kreiranje | Datum kada automatski postupak izrade fakture treba da traži status ove kontrolne tačke da bi se uzeo u obzir za fakturisanje. | Ovo je uključeno u kontrolnu tačku predmeta ugovora za projekat i u fakturu. |
+| Status fakture | Brzo kreiranje | Kada se kreira kontrolna tačka, ovaj status se uvek postavlja na **Nije spremno za fakturisanje** ili **Nije započeto**. | Ovo je uključeno u kontrolnu tačku predmeta ugovora za projekat i u fakturu. |
+| Iznos stavke | Brzo kreiranje | Iznos ili vrednost kontrolne tačke koja će se fakturisati klijentu. | Ovo polje je uključeno u kontrolnu tačku predmeta ugovora za projekat i u fakturu, |
+| Porez | Brzo kreiranje | Iznos poreza primenjen na kontrolnu tačku. | Ovo je uključeno u kontrolnu tačku predmeta ugovora za projekat i u fakturu. |
 
-3. Izaberite stavku **Sačuvaj i zatvori**.
-| Iznos reda | Brzo kreiranje | Iznos ili vrednost kontrolne tačke koja će biti fakturisana klijentu | Ovo se prenosi na kontrolnu tačku predmeta projektnog ugovora i na fakturu | | Porez | Brzo kreiranje | Iznos poreza koji će se primeniti na kontrolnu tačku | Ovo se prenosi na kontrolnu tačku predmeta projektnog ugovora i na fakturu |
+4. Izaberite stavku **Sačuvaj i zatvori**.

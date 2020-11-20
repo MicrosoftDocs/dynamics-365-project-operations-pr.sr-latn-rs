@@ -5,15 +5,15 @@ author: rumant
 manager: Annbe
 ms.date: 10/01/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 3ead79371c5ebf5801123e47dc0d24e35ae51e58
-ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
+ms.openlocfilehash: 2b69742915fe79ee59e7fdcf317000cea79c5929
+ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
 ms.translationtype: HT
 ms.contentlocale: sr-Latn-RS
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4083513"
+ms.lasthandoff: 10/31/2020
+ms.locfileid: "4180839"
 ---
 # <a name="invoice-schedules-on-project-based-quote-lines"></a>Rasporedi fakturisanja na stavkama ponude zasnovane na projektu
 
@@ -32,7 +32,7 @@ Kada je za stavku ponude zasnovane na projektu izabran način naplate „Vreme i
 3. Otvorite stavku ponude za vreme i materijal za koju vam je potrebno da kreirate raspored za fakturisanje zasnovan na datumu. 
 4. Na kartici **Raspored za fakturisanje** izaberite vrednosti u poljima **Početak obračuna** i **Učestalost fakturisanja**. 
 5. Na podformi izaberite **Generišite raspored za fakturisanje**.
-6. Aplikacija generiše raspored za fakturisanje pomoću polja **Datum pokretanja fakturisanja** , **Datum isključivanja transakcije** i **Status pokretanja** postavljenih na sledeći način:
+6. Aplikacija generiše raspored za fakturisanje pomoću polja **Datum pokretanja fakturisanja**, **Datum isključivanja transakcije** i **Status pokretanja** postavljenih na sledeći način:
 
     - **Datum pokretanja fakturisanja** se podešava na datum koji je zadat na osnovu učestalosti fakturisanja.
     - **Datum isključivanja transakcije** se postavlja na dan pre **datuma pokretanja fakturisanja**.
@@ -40,7 +40,7 @@ Kada je za stavku ponude zasnovane na projektu izabran način naplate „Vreme i
 
 ## <a name="create-a-fixed-price-invoice-schedule-for-a-project-based-quote-line"></a>Napravite raspored za fakturisanje za fiksnu cenu za stavku ponude zasnovane na projektu
 
-Kada stavka ponude zasnovane na projektu ima način naplate **Fiksno** , sistem kreira raspored za fakturisanje zasnovan na kontrolnim tačkama. Dovršite sledeće korake da biste automatski generisali ovaj raspored za fiksni skup kontrolnih tačaka koje su podjednako raspoređene za kalendarski period.
+Kada stavka ponude zasnovane na projektu ima način naplate **Fiksno**, sistem kreira raspored za fakturisanje zasnovan na kontrolnim tačkama. Dovršite sledeće korake da biste automatski generisali ovaj raspored za fiksni skup kontrolnih tačaka koje su podjednako raspoređene za kalendarski period.
 
 1. Idite na **Podešavanja** > **Učestalost fakturisanja** i podesite učestalost fakturisanja.
 2. Na stranici **Ponude** otvorite ponudu za projekat i na kartici **Rezime** podesite traženi datum isporuke.
@@ -58,9 +58,9 @@ Kada stavka ponude zasnovane na projektu ima način naplate **Fiksno** , sistem 
 
 Kontrolne tačke sa fiksnom cenom mogu se generisati i ručno kada se ne dele periodično. Da biste ručno kreirali kontrolnu tačku:
 
-Otvorite stavku ponude sa fiksnom cenom gde treba da napravite kontrolnu tačku. Na kartici **Raspored za fakturisanje** , na podformi izaberite **+ Napravi novu kontrolnu tačku u stavke ponude** i unesite potrebne informacije na osnovu sledeće tabele.
+Otvorite stavku ponude sa fiksnom cenom gde treba da napravite kontrolnu tačku. Na kartici **Raspored fakturisanja**, na podformi, izaberite **+ Napravi novu kontrolnu tačku stavke ponude** i unesite potrebne informacije na osnovu sledeće tabele.
 
-| **Polje** | **Lokacija** | **Relevantnost, svrha i smernice** | **Posledični uticaj** |
+| **Polje** | **Lokacija** | **Opis** | **Posledični uticaj** |
 | --- | --- | --- | --- |
 | Naziv kontrolne tačke | Brzo kreiranje | Naziv kontrolne tačke. | Ovo se prenosi na kontrolnu tačku predmeta ugovora o projektu i na fakturu |
 | Projektni zadatak | Brzo kreiranje | Ako je kontrolna tačka vezana za projektni zadatak, pomoću ove reference možete dodati prilagođenu logiku koja je postavila status kontrolne tačke na osnovu statusa zadatka. | Aplikacija nema nikakvog posledičnog uticaja ove reference na zadatak. |

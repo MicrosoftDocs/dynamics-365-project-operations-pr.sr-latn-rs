@@ -5,15 +5,15 @@ author: rumant
 manager: Annbe
 ms.date: 10/01/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: a10be42f4ae1ecc8ae5613ed8fdc669304e0ec72
-ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
+ms.openlocfilehash: 4c99485a1d0c54ae848e5fbed4c4590e96cba9fd
+ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
 ms.translationtype: HT
 ms.contentlocale: sr-Latn-RS
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4083438"
+ms.lasthandoff: 10/31/2020
+ms.locfileid: "4181784"
 ---
 # <a name="manage-leads"></a>Upravljanje potencijalnim klijentima
 
@@ -23,7 +23,7 @@ Potencijalnim klijentima zasnovanim na projektu moguće je upravljati i kvalifik
 
 ## <a name="project-sales-leads"></a>Potencijalni klijenti u projektu
 
-U odeljku **Prodaja** , u levom oknu za navigaciju, otvorite stranicu liste **Potencijalni klijenti** da biste videli listu svih zapisa o potencijalnim klijentima u sistemu. Prikazana lista potencijalnih klijenata je zasnovana na poslu i drugim tipovima potencijalnih klijenata koje možete kreirati ako imate i Dynamics 365 Sales ili Dynamics 365 Field Service aplikacije.
+U odeljku **Prodaja**, u levom oknu za navigaciju, otvorite stranicu liste **Potencijalni klijenti** da biste videli listu svih zapisa o potencijalnim klijentima u sistemu. Prikazana lista potencijalnih klijenata je zasnovana na poslu i drugim tipovima potencijalnih klijenata koje možete kreirati ako imate i Dynamics 365 Sales ili Dynamics 365 Field Service aplikacije.
 
 Možete da kreirate filtrirani prikaz da biste videli samo potencijalne klijente zasnovane na projektu kreiranjem filtera u vrednosti **Tip**. Na primer, možete izabrati da se prikazuju samo potencijalni klijenti zasnovani na poslu.
 
@@ -38,7 +38,7 @@ Da bi kvalifikovani potencijalni klijent automatski kreirao mogućnost za poslov
 
 Sledeća tabela uključuje važne informacije o polju za potencijalnog klijenta i kasnije posledice tih polja.
  
-| **Polje** | **Lokacija** | **Relevantnost, svrha i smernice** | **Posledični uticaj** |
+| **Polje** | **Lokacija** | **Opis** | **Posledični uticaj** |
 | --- | --- | --- | --- |
 | Tema | Kartica Opšti podaci | Ovo polje za tekst treba da sadrži kratak opis pogodbe. | Tema potencijalnog klijenta podrazumevano će biti tema mogućnosti za poslovanje, kao i naziv ponude i projektnog ugovora. |
 | Tip | Kartica Opšti podaci | Ovo polje skupa opcija ima sledeće opcije:</br>- Zasnovano na poslu (dostupno samo kada je instalirana usluga Project Operations)</br>- Zasnovano na stavci (dostupno samo kada su instalirane usluge Project Operations i Sales)</br>- Zasnovano na servisnom održavanju (dostupno kada je instalirana usluga Field Service) | Kada se vrednost ovog polja postavi na **Zasnovano na poslu** za potencijalnog klijenta, potencijalni klijent je kvalifikovan da kreira mogućnost za poslovanje zasnovanu na projektu. Od mogućnosti za poslovanje zasnovane na projektu se zahteva da omogući sva proširenja i funkcije specifične za projekat u kasnijem procesu prodaje za ovu pogodbu. |

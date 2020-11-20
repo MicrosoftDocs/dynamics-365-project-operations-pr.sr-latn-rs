@@ -1,21 +1,21 @@
 ---
-title: Polja i informacije ugovora za projekat
+title: Podešavanja ugovora za projekat – jednostavno
 description: Ova tema pruža informacije o poljima koja utiču na predmet ugovora i informacije o ugovoru koje su sažete u svim stavkama.
 author: rumant
 manager: Annbe
 ms.date: 10/20/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 082292c54682022933a4b46b856f9241078a9067
-ms.sourcegitcommit: f8edff6422b82fdf2cea897faa6abb51e2c0c3c8
+ms.openlocfilehash: 28dfb256eb75ca9484161f053969c205fcd60965
+ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
 ms.translationtype: HT
 ms.contentlocale: sr-Latn-RS
-ms.lasthandoff: 10/21/2020
-ms.locfileid: "4088080"
+ms.lasthandoff: 10/31/2020
+ms.locfileid: "4180938"
 ---
-# <a name="project-contract-fields-and-information"></a>Polja i informacije ugovora za projekat 
+# <a name="project-contract-settings---lite"></a>Podešavanja ugovora za projekat – jednostavno
 
 _**Odnosi se na:** Jednostavna primena – od pogodbe do profakture_
 
@@ -23,9 +23,9 @@ Ova tema pruža informacije o poljima koja se primenjuju na celokupan ugovor o p
 
 Sledeća tabela navodi polja u projektnom ugovoru koja su jedinstvena za Dynamics 365 Project Operations ili imaju neke važne promene u ponašanju iz ulaznih porudžbina u usluzi Dynamics 365 Sales.
 
-| Polje | Lokacija | Relevantnost, svrha i smernice | Posledični uticaj |
+| Polje | Lokacija | Opis | Posledični uticaj |
 | --- | --- | --- | --- |
-| Tip | Kartica **Rezime** (skrivena) | Ovo je polje skupa opcija sa sledećim opcijama:</br>- **Zasnovano na poslu** (Dostupno samo kada je instalirana usluga Project Operations)</br>- **Zasnovano na stavci** (dostupno samo kada su instalirane usluge Project Operations i Sales)</br>- **Zasnovano na servisnom održavanju** (Dostupno kada je instalirana usluga Dynamics 365 Field Service) | U usluzi Project Operations vrednost ovog polja podrazumevano je **Zasnovano na poslu** , a ugovor klasifikuje kao ugovor zasnovan na projektu. Ugovor treba da se zasniva na projektu kako bi se omogućila sva proširenja i funkcije specifične za projekat. |
+| Tip | Kartica **Rezime** (skrivena) | Ovo je polje skupa opcija sa sledećim opcijama:</br>- **Zasnovano na poslu** (Dostupno samo kada je instalirana usluga Project Operations)</br>- **Zasnovano na stavci** (dostupno samo kada su instalirane usluge Project Operations i Sales)</br>- **Zasnovano na servisnom održavanju** (Dostupno kada je instalirana usluga Dynamics 365 Field Service) | U usluzi Project Operations vrednost ovog polja podrazumevano je **Zasnovano na poslu**, a ugovor klasifikuje kao ugovor zasnovan na projektu. Ugovor treba da se zasniva na projektu kako bi se omogućila sva proširenja i funkcije specifične za projekat. |
 | Potencijalni klijent | Kartica **Rezime** | Upućivanje na zapis o kompaniji klijenta ili poslovnom kontaktu. Kada se kreira ugovor iz ponude, ovo polje se kopira iz odgovarajućeg polja u zapisu ponude. | Valuta u ponudi za projektni ugovor se podrazumevano zasniva na valuti klijenta. To može da se promeni pre nego što se ugovor sačuva. |
 | Menadžer za poslovne kontakte | Kartica **Rezime** | Ime menadžera poslovnog kontakta za ovu pogodbu. Kada se kreira ugovor iz ponude, ovo polje se kopira iz odgovarajućeg polja u zapisu ponude. | Menadžer poslovnog kontakta je odgovoran za upravljanje odnosom sa klijentom kroz završetak ovog projekta. Na osnovu zapisa resursa koji može da se rezerviše povezanog sa menadžerom poslovnog kontakta, ugovorna jedinica se podrazumeva iz projektnog ugovora. |
 | Jedinica ugovaranja | Kartica **Rezime** | Organizaciona jedinica koja je odgovorna za isporuku projekata povezanih sa ovim ugovorom. Kada se kreira ugovor iz ponude, ovo polje se kopira iz odgovarajućeg polja u zapisu ponude. | Jedinica ugovaranja je odeljenje preduzeća koje izvršava projekte nakon zaključenja pogodbe. Svaka ugovorna jedinica ima valutu i ona se koristi za izveštavanje o procenjenim i stvarnim troškovima nastalim tokom projekta. |
@@ -36,7 +36,7 @@ Sledeća tabela navodi polja u projektnom ugovoru koja su jedinstvena za Dynamic
 
 Sledeći KPI-jevi su dostupni na kartici **Izvršenje ugovora** projektnog ugovora.
 
-| Polje | Lokacija | Relevantnost, svrha i smernice |
+| Polje | Lokacija | Opis |
 | --- | --- | --- |
 | Vrednost ugovora | Ukupan ugovor | Ukupna vrednost projektnog ugovora. |
 | Naplaćeni iznos | Ukupan ugovor | Zbir iznosa na svim fakturama po ovom ugovoru. |
