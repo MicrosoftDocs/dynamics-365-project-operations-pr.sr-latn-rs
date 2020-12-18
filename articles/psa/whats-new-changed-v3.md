@@ -18,15 +18,17 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 46cbbc3ff3b0efcecd3cba30b265a782f6cdcf60
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: 7c57476b250a8010daff6f609ac4dcdf1ec132cf
+ms.sourcegitcommit: 573be7e36604ace82b35e439cfa748aa7c587415
 ms.translationtype: HT
 ms.contentlocale: sr-Latn-RS
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4120020"
+ms.lasthandoff: 11/25/2020
+ms.locfileid: "4642605"
 ---
 # <a name="whats-new-or-changed-in-project-service-automation-version-3"></a>Šta je novo ili promenjeno u aplikaciji Project Service Automation verzije 3
 [!INCLUDE[cc-applies-to-psa-app-1x-2x](../includes/cc-applies-to-psa-app-1x-2x.md)]
+
+[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
 
 Ova tema pruža informacije o promenama korisničkog interfejsa, funkcionalnosti i terminologije u aplikaciji Project Service Automation između verzije 2 ili verzije 1 i verzije 3.
 
@@ -37,10 +39,10 @@ Raspored projekta, koji je u prethodnim verzijama bio poznat pod nazivom struktu
 
 Raspored sada ima novu površinu za interakciju koja je i moderna i pristupačna. Međutim, osnovni mehanizam planiranja u rešenju Project Service Automation se nije promenio. Kontrolna dugmad na traci mreže rasporeda omogućavaju vam interakciju sa rasporedom slično kao i u prethodnoj verziji rešenja Project Service Automation. Dodatne promene rasporeda:
 
-- **Gantt grafikon** - Gantt grafikon više ne postoji. Nova Gannt vizuelizacija vraća se u budućoj ispravci.
-- **Zaglavlja kolona** - Zaglavlja kolona možete sakriti u mreži klikom na znak nadole pored naziva kolone. 
-- **Kolone** - Možete prikazati skrivene kolone klikom na **Dodaj kolonu**. 
-- **Kategorija transakcije** - Pronalaženje **kategorije transakcije** je dodato u mrežu rasporeda i prikazuje se podrazumevano. 
+- **Gantt grafikon** – Gantt grafikon više ne postoji. Nova Gannt vizuelizacija vraća se u budućoj ispravci.
+- **Zaglavlja kolona** – Zaglavlja kolona možete sakriti u mreži klikom na znak nadole pored naziva kolone. 
+- **Kolone** – Možete prikazati skrivene kolone klikom na **Dodaj kolonu**. 
+- **Kategorija transakcije** – Pronalaženje **kategorije transakcije** je dodato u mrežu rasporeda i prikazuje se podrazumevano. 
  
 ## <a name="project-templates"></a>Predlošci projekata
 Sledeće promene su unete u funkcionalnost predloška projekta.
@@ -137,8 +139,8 @@ Kartica **Usaglašenost** prikazuje rezervacije i sve dodele za svakog člana pr
 
 Za svaki resurs, prikaz uzima razliku između rezervacija člana tima i ukupnih dodela zadataka i prikazuje sledeće dve razlike koje se mogu javiti kod rezervacija i dodela u projektu: 
 
-- **Nedostatak rezervacija** - Nedostatak rezervacija nastaje kada resurs ima više dodela nego rezervacija. Budući da ovaj kapacitet nije rezervisan, menadžer projekta to može ispraviti tako što proširuje rezervacije resursa kako bi pokrio deficit. 
-- **Prekomerne rezervacije** - Prekomerna rezervacija nastaje kada je resurs rezervisan za projekat, ali nije dodeljen zadacima.  Ovo može biti prihvatljiva pojava, na primer ako je resurs rezervisan pre dodele zadatka. Međutim, u drugim slučajevima, možda se ne planira dodeljivanje resursa, a menadžer projekta treba razmotriti otkazivanje rezervacije resursa kako bi omogućio korišćenje kapaciteta za drugi projekat. 
+- **Nedostatak rezervacija** – Nedostatak rezervacija nastaje kada resurs ima više dodela nego rezervacija. Budući da ovaj kapacitet nije rezervisan, menadžer projekta to može ispraviti tako što proširuje rezervacije resursa kako bi pokrio deficit. 
+- **Prekomerne rezervacije** – Prekomerna rezervacija nastaje kada je resurs rezervisan za projekat, ali nije dodeljen zadacima.  Ovo može biti prihvatljiva pojava, na primer ako je resurs rezervisan pre dodele zadatka. Međutim, u drugim slučajevima, možda se ne planira dodeljivanje resursa, a menadžer projekta treba razmotriti otkazivanje rezervacije resursa kako bi omogućio korišćenje kapaciteta za drugi projekat. 
 
 Kada imate dodele zadataka za resurs bez rezervisanja (nedostatak rezervacije), možete da odaberete zbirni nedostatak rezervacije i kliknete na **Produži rezervaciju**. Odavde možete videti rezervaciju koja je potrebna da biste rešili probleme sa nedostatkom resursa i njihovom dostupnošću. 
  
@@ -172,9 +174,9 @@ U verziji 3 smo uklonili kontrolu prilagođenog kalendara i sada koristimo UC ka
 > Ograničenje kalendara je da ova kontrola ne podržava radnje za pojedinačne stavke kalendara. Na primer, nećete moći da odaberete jednu ili više stavki kalendara, kao ni da ih prosledite ili izbrišete. Klikom na stavku kalendara otvoriće se stranica **Entitet stavke vremena** za dodatne radnje. 
 
 ### <a name="extensibility"></a>Proširivost
-**Evidentiranje podataka iz prilagođenih polja samo u entitetima stavki vremena i troškova** - Stavka vremena koristi mrežu koja se može uređivati, mrežu samo za čitanje i kontrole kalendara iz platforme. Sve ove kontrole su ugrađene i zato podržavaju prilagođavanja. U rešenju Project Service Automation u verziji 3, možete dodati dodatna prilagođena polja, podesiti polja za pretraživanje i napraviti njihove rezervne kopije pomoću prilagođenih prikaza. Takođe možete podesiti prilagođenu poslovnu logiku na osnovu izabranih vrednosti u prilagođenim poljima.  
+**Evidentiranje podataka iz prilagođenih polja samo u entitetima stavki vremena i troškova** – Stavka vremena koristi mrežu koja se može uređivati, mrežu samo za čitanje i kontrole kalendara iz platforme. Sve ove kontrole su ugrađene i zato podržavaju prilagođavanja. U rešenju Project Service Automation u verziji 3, možete dodati dodatna prilagođena polja, podesiti polja za pretraživanje i napraviti njihove rezervne kopije pomoću prilagođenih prikaza. Takođe možete podesiti prilagođenu poslovnu logiku na osnovu izabranih vrednosti u prilagođenim poljima.  
 
-**Evidentirajte podatke iz prilagođenih polja u entitetu vremena i troška i prosledite ih kroz entitete koji podržavaju tok prosleđivanja i odobravanja** - Tipična obrada stavki vremena prikazana je na sledećem dijagramu.
+**Evidentirajte podatke iz prilagođenih polja u entitetu vremena i troška i prosledite ih kroz entitete koji podržavaju tok prosleđivanja i odobravanja** – Tipična obrada stavki vremena prikazana je na sledećem dijagramu.
 
 ![Obrada toka stavke vremena](media/process-time-entries-10.png)
 

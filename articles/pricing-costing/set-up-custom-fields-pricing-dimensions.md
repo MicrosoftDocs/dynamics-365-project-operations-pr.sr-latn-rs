@@ -17,12 +17,12 @@ ms.search.industry: Service industries
 ms.author: rumant
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: 67e891d8576cd92f48466929fc53fe8a4203d72d
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: 744c561d023d7ef5ed79947e69f2de8a3902fb41
+ms.sourcegitcommit: 13a4e58eddbb0f81aca07c1ff452c420dbd8a68f
 ms.translationtype: HT
 ms.contentlocale: sr-Latn-RS
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4119435"
+ms.lasthandoff: 11/30/2020
+ms.locfileid: "4650245"
 ---
 # <a name="set-up-custom-fields-as-pricing-dimensions"></a>Podešavanje prilagođenih polja kao dimenzija za određivanje cena
 
@@ -41,9 +41,15 @@ Ova tema pruža informacije o podešavanju prilagođenih dimenzija za određivan
 Da bi polje postalo dimenzija za određivanje cena, mora biti:
 
 - Kreirano kao polje u entitetima **Cena uloge** i **Provizije na cenu uloge**. Da biste saznali kako ovo da uradite, pročitajte članak [Dodavanje prilagođenih polja u podešavanje cena i entitete transakcije](add-custom-fields-price-setup-transactional-entities.md).
+
 - Kreirano kao red u tabeli **Dimenzija za određivanje cena**. Na primer, dodajte redove dimenzije za određivanje cena kao što je prikazano na sledećem grafikonu. 
 
+![Redovi dimenzija za određivanje cena zasnovanih na iznosu](media/Amt-based-PD.png)
+
 Radno vreme resursa (**msdyn_resourceworkhours**) je dodato kao dimenzija zasnovana na proviziji i da je dodato u mrežu na kartici **Dimenzija za određivanje cena zasnovana na proviziji**.
+
+![Redovi dimenzija za određivanje cena zasnovanih na proviziji](media/Markup-based-PD.png)
+
 
 > [!IMPORTANT]
 > Bilo kakva promena podataka o dimenzijama za određivanje cena u ovoj tabeli, postojeća ili nova, je prosleđena u poslovnu logiku određivanja cena tek nakon osvežavanja keša. Vreme osvežavanja keša može potrajati do 10 minuta. Iskoristite to vreme da vidite promene podrazumevane logike određivanja cena koje moraju da budu posledica promena podataka o dimenzijama za određivanje cena.

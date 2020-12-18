@@ -1,28 +1,20 @@
 ---
 title: Pregled dimenzija za određivanje cena
-description: Ova tema pruža informacije o dimenzija za određivanje cena u usluzi Dynamics 365 Project Operations.
+description: Ova tema pruža informacije o dimenzijama za određivanje cena u usluzi Dynamics 365 Project Operations.
 author: rumant
 manager: AnnBe
-ms.date: 09/18/2020
+ms.date: 11/30/2020
 ms.topic: article
 ms.prod: ''
 ms.service: project-operations
-audience: Application User
 ms.reviewer: kfend
-ms.search.scope: ''
-ms.custom: ''
-ms.assetid: ''
-ms.search.region: Global
-ms.search.industry: Service industries
-ms.author: suvaidya
-ms.dyn365.ops.version: ''
-ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: ec2e350e0e4c28ea1c9540d70c83fdf0a75dc408
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.author: rumant
+ms.openlocfilehash: 33f55976eafedd046fba952ab6381c297ab4e271
+ms.sourcegitcommit: 13a4e58eddbb0f81aca07c1ff452c420dbd8a68f
 ms.translationtype: HT
 ms.contentlocale: sr-Latn-RS
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4128480"
+ms.lasthandoff: 11/30/2020
+ms.locfileid: "4650225"
 ---
 # <a name="pricing-dimensions-overview"></a>Pregled dimenzija za određivanje cena
 
@@ -40,9 +32,21 @@ Zbog toga postoje dve vrste vrednosti dimenzija za određivanje cena koje su dos
 
 ## <a name="pricing-dimensions"></a>Dimenzije za određivanje cena
 
-Dynamics 365 Project Operations se isporučuje sa podrazumevanim skupom dimenzija za određivanje cena. Ove dimenzije za određivanje cena možete da ih vidite tako što ćete otići na **Project Operations** > **Parametri**. U zapisu parametra, na kartici **Dimenzije za određivanje cena zasnovane na iznosima** proverite da li uloga **msdyn_resourcecategory** i organizaciona jedinica resursa **msdyn_organizationalunit** imaju polja **Primenljivo na prodaju** i **Primenljivo na troškove** podešena na **Da**. Kada su ova polja omogućena, možete da podesite cenu i trošak za svaku kombinaciju uloge i organizacione jedinice.
+Dynamics 365 Project Operations obavlja isporuku pomoću podrazumevanog skupa dimenzija za određivanje cena. Ove dimenzije za određivanje cena možete da ih vidite tako što ćete otići na **Project Operations** > **Parametri**. U zapisu parametra, na kartici **Dimenzije za određivanje cena zasnovane na iznosima** proverite da li uloga **msdyn_resourcecategory** i organizaciona jedinica resursa **msdyn_organizationalunit** imaju polja **Primenljivo na prodaju** i **Primenljivo na troškove** podešena na **Da**. Kada su ova polja omogućena, možete da podesite cenu i trošak za svaku kombinaciju uloge i organizacione jedinice.
 
-Ako je potrebno da odredite cenu ili troškove resursa pomoću dodatnih atributa, možete da kreirate prilagođena polja, entitete i dimenzije.
+![Snimak ekrana Project Service parametara sa markiranom stavkom „Primenljivo na prodaju“](media/PS-OOB-parameters.png)
+
+Ako je potrebno da odredite cenu ili troškove resursa pomoću dodatnih atributa, možete da kreirate prilagođena polja, entitete i dimenzije. Pogledajte sledeći odeljak za više informacija. 
+  
+  > [!NOTE]
+  > Postupci moraju biti završeni kako bi bili navedeni.
+
+1. [Kreiranje rešenja za prilagođene dimenzije određivanja cena](../sales/create-solution-custompd.md)
+2. [Kreiranje prilagođenih polja i entiteta](create-custom-fields-entities-pricing-dimensions.md)
+3. [Dodavanje prilagođenih polja u podešavanje cena i entitete transakcije ](add-custom-fields-price-setup-transactional-entities.md)
+4. [Podešavanje prilagođenih polja kao dimenzija za određivanje cena ](set-up-custom-fields-pricing-dimensions.md)
+5. [Ažuriranje atributa dodatnih komponenti tako da uključuju nove dimenzije za određivanje cena](update-plugin-attributes-pd.md)
+
 
 ## <a name="pricing-human-resource-time"></a>Određivanje cene vremena ljudskog resursa
 Kako organizacija određuje cenu vremena ljudskog resursa je često značajno strateško pitanje koje direktno utiče na profitabilnost organizacije. Sarađujte sa finansijskim timovima i budite mudri kada vaša organizacija bude spremna da utvrdi kako želi da podesi stope naplate i troškova za vreme ljudskog resursa.

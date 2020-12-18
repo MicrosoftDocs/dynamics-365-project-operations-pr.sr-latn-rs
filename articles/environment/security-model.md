@@ -1,6 +1,6 @@
 ---
 title: Model bezbednosti
-description: Ova tema pruža informacije o modelu bezbednosti u usluzi Dynamics 365 Project Operations.
+description: U ovoj temi date su informacije o bezbednosnom modelu u usluzi Dynamics 365 Project Operations.
 author: stsporen
 manager: Annbe
 ms.date: 10/01/2020
@@ -8,18 +8,20 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: stsporen
-ms.openlocfilehash: 3fc4101d0ea4b8e2a4ba8f1d43540d57239cf402
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: b01f3d88dd021895933bc863b762f019ae50eed6
+ms.sourcegitcommit: 573be7e36604ace82b35e439cfa748aa7c587415
 ms.translationtype: HT
 ms.contentlocale: sr-Latn-RS
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4124385"
+ms.lasthandoff: 11/25/2020
+ms.locfileid: "4642920"
 ---
 # <a name="security-model"></a>Model bezbednosti
 
 _**Odnosi se na:** Project Operations za resurs/scenarije koji nisu zasnovani na zalihama, laganu primenu – od pogodbe do profakture_
 
-Microsoft Dynamics 365 Project Operations sadrži jedinstveni model bezbednosti koji omogućava poslovni model bezbednosti zasnovan na ulogama koji sarađuje sa Microsoft Office grupama. 
+[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
+
+Microsoft Dynamics 365 Project Operations sadrži jedinstveni bezbednosni model koji omogućava model poslovne bezbednosti zasnovan na ulogama koji sarađuje sa Microsoft Office grupama. 
 
 
 ## <a name="security-roles"></a>Bezbednosne uloge

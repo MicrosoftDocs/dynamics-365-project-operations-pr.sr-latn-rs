@@ -18,16 +18,17 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 8d63a1b36abe0a154c43e99738340f32f28c2f5e
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: 9bceb96153f0e9f5c0d40478baf691220de95f27
+ms.sourcegitcommit: 573be7e36604ace82b35e439cfa748aa7c587415
 ms.translationtype: HT
 ms.contentlocale: sr-Latn-RS
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4120290"
+ms.lasthandoff: 11/25/2020
+ms.locfileid: "4642695"
 ---
 # <a name="working-with-the-project-service-automation-data-model"></a>Rad sa Project Service Automation modelom podataka
 
 [!INCLUDE[cc-applies-to-psa-app-3.x](../includes/cc-applies-to-psa-app-3x.md)]
+[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
 
 Dynamics 365 Project Service Automation proširuje druge entitete aplikacija i uvodi svoje entitete u Common Data Service model podataka. Ova tema opisuje neke od entiteta sa kojima ćete se susresti u tipičnim PSA scenarijima izveštavanja.
 
@@ -45,10 +46,10 @@ PSA takođe proširuje entitet Prodaje **Stavka ponude**. Jedno polje koje PSA d
 
 PSA takođe dodaje nove entitete povezane sa ponudom u Dynamics 365 model podataka. U nastavku su navedeni neki primeri:
 
-- **Detalj stavke ponude** - Ovaj entitet sadrži detalje procene projekta u stavci ponude. Ima dva zapisa za svaku stavku ponude. Jedan zapis čuva troškove i detalje troškova stavke ponude, a drugi zapis čuva iznos prodaje i detalje prodaje stavke ponude.
-- **Raspored fakturisanja stavki ponude** - Ovaj entitet sadrži raspored naplate za stavku ponude. Ovaj raspored se generiše na osnovu učestalosti fakturiranja koja je dodeljena stavci ponude.
-- **Kontrolna tačka stavke ponude** - Ovaj entitet sadrži kontrolne tačke za naplatu za stavke ponude sa fiksnom cenom.
-- **Analitički pregled stavki ponude** - Ovaj entitet sadrži finansijske detalje u stavci ponude. Ovi detalji mogu biti korisni za izveštaje o prodaji iz ponude i procenjenih iznosa troškova po raznim dimenzijama.
+- **Detalj stavke ponude** – Ovaj entitet sadrži detalje procene projekta u stavci ponude. Ima dva zapisa za svaku stavku ponude. Jedan zapis čuva troškove i detalje troškova stavke ponude, a drugi zapis čuva iznos prodaje i detalje prodaje stavke ponude.
+- **Raspored fakturisanja stavki ponude** – Ovaj entitet sadrži raspored naplate za stavku ponude. Ovaj raspored se generiše na osnovu učestalosti fakturiranja koja je dodeljena stavci ponude.
+- **Kontrolna tačka stavke ponude** – Ovaj entitet sadrži kontrolne tačke za naplatu za stavke ponude sa fiksnom cenom.
+- **Analitički pregled stavki ponude** – Ovaj entitet sadrži finansijske detalje u stavci ponude. Ovi detalji mogu biti korisni za izveštaje o prodaji iz ponude i procenjenih iznosa troškova po raznim dimenzijama.
 
 Ostali entiteti koje PSA dodaje u ponudu su **Cenovnik projekta u stavci ponude**, **Kategorija resursa stavke ponude** i **Kategorija transakcije stavke ponude**.
 
@@ -62,9 +63,9 @@ PSA takođe proširuje entitet **Stavka ulazne porudžbine**. Među poljima koja
 
 PSA takođe dodaje nove entitete koji su dizajnirani za projektne ugovore. U nastavku su navedeni neki primeri:
 
-- **Detalj predmeta ugovora za projekat** - Ovaj entitet sadrži detalje na nivou stavke koji su sabrani u iznos predmeta ugovora. One mogu biti detaljne kao stavke porudžbina koje su generisane iz rasporeda projekata na nivou zadatka.
-- **Raspored fakturisanja za predmet ugovora** - Ovaj entitet sadrži raspored obračuna koji se generiše na osnovu učestalosti fakturisanja koja je dodeljena predmetu ugovora.
-- **Kontrolna tačka ugovora** - Ovaj entitet sadrži kontrolne tačke naplate za predmete ugovora koji imaju rok naplate sa fiksnom cenom.
+- **Detalj predmeta ugovora za projekat** – Ovaj entitet sadrži detalje na nivou stavke koji su sabrani u iznos predmeta ugovora. One mogu biti detaljne kao stavke porudžbina koje su generisane iz rasporeda projekata na nivou zadatka.
+- **Raspored fakturisanja za predmet ugovora** – Ovaj entitet sadrži raspored obračuna koji se generiše na osnovu učestalosti fakturisanja koja je dodeljena predmetu ugovora.
+- **Kontrolna tačka ugovora** – Ovaj entitet sadrži kontrolne tačke naplate za predmete ugovora koji imaju rok naplate sa fiksnom cenom.
 
 Ostali entiteti koje PSA dodaje u ugovor su **Cenovnik projekta za predmet ugovora za projekat**, **Kategorija resursa za predmet ugovora za projekat** i **Kategorija transakcije za predmet ugovora za projekat**.
 
@@ -74,11 +75,11 @@ Ostali entiteti koje PSA dodaje u ugovor su **Cenovnik projekta za predmet ugovo
 
 Entitet **Projekti** i sa njim povezani entiteti ekskluzivni su za PSA. **Projekat** je entitet najvišeg nivoa koji se koristi za evidentiranje posla i troškova poslovnih operacija. Evo liste povezanih entiteta:
 
-- **Član projektnog tima** - Ovaj entitet sadrži detalje o resursima koji mogu da se dodele i dodeljeni su projektu. Ti resursi mogu biti generički ili imenovani resursi koji mogu da se dodele i koje unosi menadžer projekta ili se generišu iz rasporeda projekta.
-- **Projektni zadatak** - Ovaj entitet sadrži zadatke koji čine plan ili raspored projekta.
-- **Dodela resursa** - Ovaj entitet sadrži dodelu zadatka za resurs koji se može rezervisati.
-- **Potreba za resursom** - Ovaj entitet sadrži potrebe za svim članovima tima sa generičkim resursima.
-- **Procena** i **Stavka procene** - Ovi entiteti imaju odnos između zaglavlja i stavke i sadrže procene troškova za projekat. Procene zadataka skladište se u entitet **Procene resursa**.
+- **Član projektnog tima** – Ovaj entitet sadrži detalje o resursima koji mogu da se dodele i dodeljeni su projektu. Ti resursi mogu biti generički ili imenovani resursi koji mogu da se dodele i koje unosi menadžer projekta ili se generišu iz rasporeda projekta.
+- **Projektni zadatak** – Ovaj entitet sadrži zadatke koji čine plan ili raspored projekta.
+- **Dodela resursa** – Ovaj entitet sadrži dodelu zadatka za resurs koji se može rezervisati.
+- **Potreba za resursom** – Ovaj entitet sadrži potrebe za svim članovima tima sa generičkim resursima.
+- **Procena** i **Stavka procene** – Ovi entiteti imaju odnos između zaglavlja i stavke i sadrže procene troškova za projekat. Procene zadataka skladište se u entitet **Procene resursa**.
 
 ![Dijagram koji prikazuje zahteve za resursom i odnose između projekata](media/PS-Reporting-image4.png "Dijagram koji prikazuje zahteve za resursom i odnose između projekata")
 
@@ -86,10 +87,10 @@ Entitet **Projekti** i sa njim povezani entiteti ekskluzivni su za PSA. **Projek
 
 Resursi projekta koriste entitete **Resurs koji se može rezervisati** iz rešenja Universal Resource Scheduling (URS) koji se dele sa drugim aplikacijama, kao što je Microsoft Dynamics 365 Field Service. Evo liste entiteta koje biste mogli koristiti prilikom izveštavanja o projektnim resursima:
 
-- **Resurs koji se može rezervisati** - Ovaj entitet predstavlja korisnika, kontakt, generički resurs, poslovni kontakt, grupu ili opremu koja se koristi u projektnom timu.
-- **Karakteristike resursa koji se može rezervisati** - Ovaj entitet uključuje veštine, certifikacije ili obrazovanje resursa. Karakteristike mogu imati vrednosti ocena koje su definisane modelom ocena.
-- **Kategorija resursa koji se može rezervisati** - Ovaj entitet predstavlja ulogu resursa koji se može rezervisati.
-- **Rezervacije resursa koji se može rezervisati** - Ovaj entitet predstavlja vreme resursa koje je rezervisano za projekte. Svaka rezervacija ima zaglavlja entiteta i entitete stavke, a svaka stavka ima status koji predstavlja status rezervacije.
+- **Resurs koji se može rezervisati** – Ovaj entitet predstavlja korisnika, kontakt, generički resurs, poslovni kontakt, grupu ili opremu koja se koristi u projektnom timu.
+- **Karakteristike resursa koji se može rezervisati** -– Ovaj entitet uključuje veštine, certifikacije ili obrazovanje resursa. Karakteristike mogu imati vrednosti ocena koje su definisane modelom ocena.
+- **Kategorija resursa koji se može rezervisati** – Ovaj entitet predstavlja ulogu resursa koji se može rezervisati.
+- **Rezervacije resursa koji se može rezervisati** – Ovaj entitet predstavlja vreme resursa koje je rezervisano za projekte. Svaka rezervacija ima zaglavlja entiteta i entitete stavke, a svaka stavka ima status koji predstavlja status rezervacije.
 
 ![Dijagram koji prikazuje odnose karakteristika resursa koji mogu da se rezervišu](media/PS-Reporting-image5.png "Dijagram koji prikazuje odnose karakteristika resursa koji mogu da se rezervišu")
 

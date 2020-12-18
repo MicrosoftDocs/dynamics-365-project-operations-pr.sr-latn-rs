@@ -3,17 +3,17 @@ title: Stavka troška (lagana verzija)
 description: Ova tema pruža informacije o tome kako raditi sa stavkom troška u jednostavnoj primeni.
 author: stsporen
 manager: AnnBe
-ms.date: 10/06/2020
+ms.date: 11/19/2020
 ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: stsporen
-ms.openlocfilehash: 536c961593599df8e7e2986f92259b0e690eae8b
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: d87094882751f0751a8d9d539fa4cdcfc6b7b0d7
+ms.sourcegitcommit: 16c442258ba24c79076cf5877a0f3c1f51a85f61
 ms.translationtype: HT
 ms.contentlocale: sr-Latn-RS
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4121100"
+ms.lasthandoff: 11/20/2020
+ms.locfileid: "4590963"
 ---
 # <a name="expense-entry-lite"></a>Stavka troška (lagana verzija)
 
@@ -36,6 +36,10 @@ Kada završite sa evidentiranjem svih troškova i budete li spremni da ih odobri
 
 1. Idite na **Troškovi** i izaberite trošak. Ili izaberite sve troškove pomoću polja za potvrdu u zaglavlju.
 2. Izaberite **Prosledi**. Sistem obrađuje odabrane stavke, a zatim kreira zahteve za odobrenje troškova.
+
+## <a name="add-an-attachment"></a>Dodajte prilog
+
+Možda ćete odobravaocu morati da dostavite dodatnu dokumentaciju o svom trošku. U vremensku osu unosa troškova možete priložiti priznanicu. Izaberite **Uredi** i u odeljku **Vremenska osa**, a zatim izaberite ikonu spajalice da biste priložili priznanicu.
 
 ## <a name="recall-a-basic-expense"></a>Opoziv osnovnog troška
 

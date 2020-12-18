@@ -1,5 +1,5 @@
 ---
-title: Kreiranje ad-hok avansne uplate za ugovor – jednostavno
+title: Kreiranje ad-hok avansne uplate za ugovor
 description: Ova tema pruža informacije o kreiranju avansa za ugovor po potrebi.
 author: rumant
 manager: Annbe
@@ -8,16 +8,16 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: a6bf02c2e2ab2f3c696b1eab1b92a20272187bf5
-ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
+ms.openlocfilehash: 790a0281f72eff5f241d11da025b5b4af643a567
+ms.sourcegitcommit: 250270409412ba4cad95fbd4c345a80d3d2b3e53
 ms.translationtype: HT
 ms.contentlocale: sr-Latn-RS
-ms.lasthandoff: 10/31/2020
-ms.locfileid: "4181379"
+ms.lasthandoff: 11/21/2020
+ms.locfileid: "4596028"
 ---
-# <a name="creating-an-ad-hoc-advance-on-a-contract---lite"></a>Kreiranje ad-hok avansne uplate za ugovor – jednostavno
+# <a name="creating-an-ad-hoc-advance-on-a-contract"></a>Kreiranje ad-hok avansne uplate za ugovor
 
-_**Odnosi se na:** Jednostavna primena – od pogodbe do profakture_
+_**Odnosi se na:** Project Operations za resurs/scenarije koji nisu zasnovani na zalihama, laganu primenu – od pogodbe do profakture_
 
 Microsoft Dynamics 365 Project Operations podržava scenarije fakturisanja koji uključuju pretplatu i avanse. Proces korišćenja **Avansa** u usluzi **Project Operations** je sličan **avansnim** ugovorima. 
 

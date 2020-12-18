@@ -8,16 +8,18 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.openlocfilehash: e0a31e71dd1e184e2e9539ecfd5f82f718a5f159
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: 815658ef66fb8083fb066f8f4d64a503580bfad2
+ms.sourcegitcommit: 573be7e36604ace82b35e439cfa748aa7c587415
 ms.translationtype: HT
 ms.contentlocale: sr-Latn-RS
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4131855"
+ms.lasthandoff: 11/25/2020
+ms.locfileid: "4642515"
 ---
 # <a name="collaboration-with-office-groups"></a>Saradnja sa Office grupama
 
 _**Odnosi se na:** Project Operations za resurs/scenarije koji nisu zasnovani na zalihama, laganu primenu – od pogodbe do profakture_
+
+[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
 
 Office grupe vam omogućavaju da delite projekat sa ostalim članovima tima u usluzi Common Data Service. Kada dodate korisnike u grupu, vlasništvo nad projektom se prenosi na grupu. Svi korisnici će imati dozvolu za uređivanje projekta. Korisnici takođe mogu videti projekat ako je administrator dodelio privilegije. Ovi korisnici neće biti prikazani u grupi.
 

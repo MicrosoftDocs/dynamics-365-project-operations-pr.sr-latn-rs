@@ -5,15 +5,16 @@ author: rumant
 manager: Annbe
 ms.date: 10/22/2020
 ms.topic: article
+ms.prod: ''
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: c97dca8685c2db7d256017cf4442416feb0e005b
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: af9baca540d89f4e5e616bdfdd6111bef29abe28
+ms.sourcegitcommit: 656a9d03f260c29e988e2ff05b6e07ae0365d6d0
 ms.translationtype: HT
 ms.contentlocale: sr-Latn-RS
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4130865"
+ms.lasthandoff: 12/04/2020
+ms.locfileid: "4672248"
 ---
 # <a name="override-project-sales-price-lists"></a>Izmena prodajnih cenovnika za projekat
 
@@ -27,7 +28,7 @@ Da biste postavili cenovnik projekata specifičan za klijenta, u oblasti **Proda
 
 1. Otvorite stranicu liste **Poslovni kontakti**.
 2. Pronađite i dvaput kliknite na zapis klijenta da biste otvorili stranicu sa detaljima o **poslovnom kontaktu**.
-3. Na kartici **Cenovnici projekta** izaberite **+ Novi cenovnik projekta^^.
+3. Na kartici **Cenovnici projekta** izaberite **+ Novi cenovnik projekta**.
 4. Na stranici **Novi cenovnik projekta**, iz padajuće liste izaberite cenovnik. Uključeni su samo cenovnici kojima je kontekst postavljen na **Prodaja** i čija valuta se podudara sa valutom poslovnog kontakta.
 5. Imenujte povezivanje, a zatim izaberite **Sačuvaj**. Kreiraće se cenovnik projekta specifičan za klijenta. Ovaj cenovnik će se koristiti za podrazumevane cene za projekat u ponudama ili ugovorima za projekat kreiranim za ovog klijenta kada datum kreiranja ponude ili ugovora za projekat spada u datum efektivnosti cenovnika.
 

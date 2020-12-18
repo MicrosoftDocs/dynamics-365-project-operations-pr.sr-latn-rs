@@ -8,12 +8,12 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 674f4ccced3d0e3178799f60d9f95a2ec27cd153
-ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
+ms.openlocfilehash: b2fbec567c07d7567f1d133fa3512496039f16a1
+ms.sourcegitcommit: 869bde007805ef255f61b03937e4a44aeef61df9
 ms.translationtype: HT
 ms.contentlocale: sr-Latn-RS
-ms.lasthandoff: 10/31/2020
-ms.locfileid: "4180794"
+ms.lasthandoff: 11/12/2020
+ms.locfileid: "4513941"
 ---
 # <a name="create-an-invoice-schedule-on-a-project-based-contract-line"></a>Kreirajte raspored fakturisanja za predmet ugovora zasnovan na projektu 
 
@@ -49,7 +49,7 @@ Dovršite sledeće korake da biste generisali raspored fakturisanja zasnovan na 
 3. Otvorite predmet ugovora **Fiksna cena** za koji pravite raspored kontrolnih tačaka. Na kartici **Kontrolne tačke fakturisanja** izaberite datum početka obračuna i učestalost fakturisanja. 
 4. Na podformi izaberite **Generišite periodične kontrolne tačke**. Raspored fakturisanja se generiše pomoću polja **Naziv kontrolne tačke**, **Datum kontrolne tačke** i **Iznos kontrolne tačke** postavljenih na sledeći način:
 
-    - **Naziv kontrolne tačke**: Ovaj datum se podešava na osnovu učestalosti fakturisanja.
+    - **Naziv prekretnice**: Učestalost fakture diktira ovaj naziv.
     - **Datum kontrolne tačke**: Ovaj datum se podešava na osnovu učestalosti fakturisanja.
     - **Iznos kontrolne tačke**: Ovaj iznos se izračunava deljenjem iznosa ugovora u predmetu ugovora sa brojem kontrolnih tačaka, kao što je zadato učestalošću, datumom početka obračuna i datumom zahtevane isporuke.
 

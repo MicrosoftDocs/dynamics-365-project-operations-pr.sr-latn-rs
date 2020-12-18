@@ -1,5 +1,5 @@
 ---
-title: Fakturisanje avansne uplate ili avansa – jednostavno
+title: Fakturišite avansnu uplatu ili avans
 description: Ova tema pruža informacije o tome kako da fakturišete odbitak ili avans u usluzi Project Operations.
 author: rumant
 manager: Annbe
@@ -8,18 +8,18 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 9013529b615026eab92177c9fd9fb84c50d66f4f
-ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
+ms.openlocfilehash: 12bf3822227badcf8c83d84d6aef6c0fdc7a972a
+ms.sourcegitcommit: 250270409412ba4cad95fbd4c345a80d3d2b3e53
 ms.translationtype: HT
 ms.contentlocale: sr-Latn-RS
-ms.lasthandoff: 10/31/2020
-ms.locfileid: "4180569"
+ms.lasthandoff: 11/21/2020
+ms.locfileid: "4596209"
 ---
-# <a name="invoice-a-retainer-or-an-advance---lite"></a>Fakturisanje avansne uplate ili avansa – jednostavno
+# <a name="invoice-a-retainer-or-an-advance"></a>Fakturisanje avansne uplate ili avansa
 
-_**Odnosi se na:** Jednostavna primena – od pogodbe do profakture_
+_**Odnosi se na:** Project Operations za resurs/scenarije koji nisu zasnovani na zalihama, laganu primenu – od pogodbe do profakture_
 
-Dynamics 365 Project Operations podržava ugovore zasnovane na odbitku i jednokratne avanse. Na ugovor o projektu možete snimiti raspored odbitaka ili jednokratni avans. Međutim, snimanje na nivou projektnog ugovora ne stavlja odmah odbitak ili avans na raspolaganje za upotrebu. Da biste koristili odbitak ili avans na fakturi koja stvarno zadužuje klijenta, mora se prvo fakturisati odbitak ili avans.
+Dynamics 365 Project Operations podržava ugovore zasnovane na avansnim uplatama i jednokratnim avansima. Na ugovor o projektu možete snimiti raspored odbitaka ili jednokratni avans. Međutim, snimanje na nivou projektnog ugovora ne stavlja odmah odbitak ili avans na raspolaganje za upotrebu. Da biste koristili odbitak ili avans na fakturi koja stvarno zadužuje klijenta, mora se prvo fakturisati odbitak ili avans.
 
 Dovršite sledeće korake da biste fakturisali odbitak ili avans.
 

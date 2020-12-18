@@ -17,16 +17,18 @@ ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2017-12-13
 ms.dyn365.ops.version: AX 7.3.0
-ms.openlocfilehash: 9e4f11ec0bb88ed0971a3d082e7ca7823fcf8453
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 0b3bc159fff25c4f6e5b1ed1b2eabbba675fb0f5
+ms.sourcegitcommit: 573be7e36604ace82b35e439cfa748aa7c587415
 ms.translationtype: HT
 ms.contentlocale: sr-Latn-RS
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4083714"
+ms.lasthandoff: 11/25/2020
+ms.locfileid: "4642650"
 ---
 # <a name="synchronize-project-contracts-and-projects-directly-from-project-service-automation-to-finance-and-operations"></a>Sinhronizovanje ugovora o projektu i projekata direktno iz usluge Project Service Automation sa uslugom Finance and Operations
 
 [!include[banner](../includes/banner.md)]
+
+[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
 
 Ova tema opisuje predložak i osnovne zadatke koji se koriste za sinhronizaciju ugovora o projektu i projekta direktno iz usluge Dynamics 365 Project Service Automation u Dynamics 365 Finance.
 
@@ -46,7 +48,7 @@ Sledeća ilustracija prikazuje kako se podaci sinhronizuju između usluga Projec
 
 ## <a name="templates-and-tasks"></a>Predlošci i zadaci
 
-Da biste pristupili dostupnim predlošcima, u Microsoft Power Apps centru administracije izaberite **Projekti** , a zatim u gornjem desnom uglu izaberite **Novi projekat** za izbor javnih predložaka.
+Da biste pristupili dostupnim predlošcima, u Microsoft Power Apps centru administracije izaberite **Projekti**, a zatim u gornjem desnom uglu izaberite **Novi projekat** za izbor javnih predložaka.
 
 Sledeći predlošci i osnovni zadaci koji se koriste za sinhronizaciju ugovora o projektu i projekata iz usluge Project Service Automation u Finance:
 
@@ -133,9 +135,9 @@ Ako morate da koristite Power Query, sledite ove smernice:
 ## <a name="template-mapping-in-data-integration"></a>Mapiranje predložaka u usluzi Data Integration
 
 > [!NOTE] 
-> Polja **CustomerReference** , **AddressCity** , **AddressCountryRegionID** , **AddressDescription** , **AddressLine1** , **AddressLine2** , **AddressState** i **AddressZipCode** nisu uključena u podrazumevano mapiranje za ugovore o projektu. Mapiranja možete dodati ako želite da se ovi podaci sinhronizuju za ugovore o projektu.
+> Polja **CustomerReference**, **AddressCity**, **AddressCountryRegionID**, **AddressDescription**, **AddressLine1**, **AddressLine2**, **AddressState** i **AddressZipCode** nisu uključena u podrazumevano mapiranje za ugovore o projektu. Mapiranja možete dodati ako želite da se ovi podaci sinhronizuju za ugovore o projektu.
 >
-> Polja **Description** , **ParentID** , **ProjectGroup** , **ProjectManagerPersonnelNumber** i **ProjectType** nisu uključena u podrazumevano mapiranje za projekte. Mapiranja možete dodati ako želite da se ovi podaci sinhronizuju za projekte.
+> Polja **Description**, **ParentID**, **ProjectGroup**, **ProjectManagerPersonnelNumber** i **ProjectType** nisu uključena u podrazumevano mapiranje za projekte. Mapiranja možete dodati ako želite da se ovi podaci sinhronizuju za projekte.
 
 Sledeće ilustracije prikazuju primere mapiranja zadataka predloška u usluzi Data Integration. Mapiranje prikazuje informacije o terenu koje će se sinhronizovati iz usluge Project Service Automation u Finance.
 
