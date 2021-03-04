@@ -17,14 +17,17 @@ search.audienceType:
 search.app:
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 0019571a1d37d3b6a503e7221db3c3b51365c236
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 00214aa2b514da71b331073cd0eeb5320c03e7d7
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: sr-Latn-RS
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4083664"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5150775"
 ---
 # <a name="use-transaction-category-as-a-pricing-dimension"></a>Korišćenje kategorije transakcije kao dimenzije određivanja cena
+
+[!include [banner](../includes/psa-now-project-operations.md)]
+
 Ova tema pokazuje kako da koristite kategorije transakcije kao dimenzije za određivanje cena. Pre nego što počnete, ako još niste kreirali rešenje sa dimenzijama za određivanje cena, moraćete da kreirate novo. Ako već imate rešenje sa dimenzijama za određivanje cena, onda možete da unesete promene u njega. Ako niste kreirali novo rešenje sa dimenzijama za određivanje cena za organizaciju, dovršite procedure u temi [Kreiranje prilagođenih polja i entiteta](create-custom-fields-entities.md).
 
 ## <a name="add-transaction-category-to-forms-and-views"></a>Dodavanje kategorije transakcije u obrasce i prikaze
@@ -47,6 +50,6 @@ Sledeća tabela predstavlja sveobuhvatnu listu unapred definisanih obrazaca i pr
 ## <a name="set-up-transaction-category-as-a-pricing-dimension"></a>Podešavanje kategorije transakcije kao dimenzije određivanja cena
 
 1. U veb interfejsu idite na **Project Service** > **Podešavanja** > **Parametri**. 
-2. Na stranici **Parametri** , na kartici **Dimenzije za određivanje cena zasnovane na iznosima** , primetićete da mreža na kartici prikazuje zapise u entitetu **Dimenzije za određivanje cena**.
+2. Na stranici **Parametri**, na kartici **Dimenzije za određivanje cena zasnovane na iznosima**, primetićete da mreža na kartici prikazuje zapise u entitetu **Dimenzije za određivanje cena**.
 3. Dodajte **Kategorija transakcije** na ovu listu i podesite polja **Primenljivo na troškove** i **Primenjivo na prodaju** na **Da**.
-4. U polju **Vrsta dimenzije** izaberite **Zasnovano na iznosu** , a zatim izaberite prioritet za stavku **Kategorija transakcije** koja je povezana sa troškovima i prodajom.
+4. U polju **Vrsta dimenzije** izaberite **Zasnovano na iznosu**, a zatim izaberite prioritet za stavku **Kategorija transakcije** koja je povezana sa troškovima i prodajom.
