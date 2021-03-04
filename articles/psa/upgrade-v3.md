@@ -2,6 +2,7 @@
 title: Činjenice koje treba uzeti u obzir prilikom nadogradnje – Microsoft Dynamics 365 Project Service Automation verzije 2.x ili 1.x na verziju 3.x
 description: Ova tema pruža informacije o činjenicama koje morate uzeti u obzir prilikom nadogradnje aplikacije Project Service Automation sa verzije 2.x ili 1.x na verziju 3.
 manager: kfend
+ms.prod: ''
 ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
@@ -17,18 +18,21 @@ search.audienceType:
 search.app:
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 3c51726f71cfd0d4be98982d6a02268d64a70b91
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: c0c1e07bacb4867254a12436cf3bff58989e117f
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: sr-Latn-RS
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4121730"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5144195"
 ---
 # <a name="upgrade-considerations---psa-version-2x-or-1x-to-version-3"></a>Činjenice koje treba uzeti u obzir prilikom nadogradnje - PSA verzije 2.x ili 1.x na verziju 3.x
+
+[!include [banner](../includes/psa-now-project-operations.md)]
+
 [!INCLUDE[cc-applies-to-psa-app-1x-2x](../includes/cc-applies-to-psa-app-1x-2x.md)]
 
 ## <a name="project-service-automation-and-field-service"></a>Project Service Automation i Field Service
-I Dynamics 365 Project Service Automation i Dynamics 365 Field Service koriste Universal Resourcing Scheduling (URS) rešenje za planiranje resursa. Ako u vašoj instanci imate i Project Service Automation i Field Service, trebalo bi da planirate nadogradnju oba rešenja na najnoviju verziju (verziju 3.x za Project Service Automation, verziju 8.x za Field Service). Nadogradnjom aplikacije Project Service Automation ili Field Service ćete instalirati najnoviju verziju rešenja URS, što znači da je neusaglašeno ponašanje moguće ako se i Project Service Automation i Field Service rešenje u istoj instanci ne nadograde na najnoviju verziju.
+I Dynamics 365 Project Service Automation i Dynamics 365 Field Service koriste Universal Resourcing Scheduling (URS) rešenje za planiranje resursa. Ako u svojoj instanci imate Project Service Automation i Field Service, nadogradite oba rešenja na najnoviju verziju. Za Project Service Automation, to je verzija 3.x. Za Field Service, to je verzija 8.x. Nadogradnjom Project Service Automation ili Field Service ćete instalirati najnoviju verziju URS-a. Ako i rešenje Project Service Automation i Field Service u istoj instanci ne nadogradite na najnoviju verziju, može doći do nekog nedoslednog ponašanja.
 
 ## <a name="resource-assignments"></a>Dodele resursa
 U aplikaciji Project Service Automation verzije 2 i 1, dodeljivanja zadataka su skladištena kao podređeni zadaci (takođe poznati kao zadaci stavke) u **entitetu zadatka** i bili su indirektno povezani sa entitetom **Dodela resursa**. Zadatak stavke je bio vidljiv u iskačućem prozoru za dodelu u okviru strukturne analiza posla (SAP).
@@ -40,9 +44,9 @@ U verziji 3 aplikacije Project Service Automation, osnovna šema dodeljivanja re
 Ove promene utiču na nadogradnju svih postojećih projekata koji imaju dodele resursa za imenovane resurse koji se mogu rezervisati i generičke resurse u timu projekta. Ova tema obezbeđuje činjenice koje treba uzeti u obzir za projekte prilikom nadogradnje na verziju 3. 
 
 ### <a name="tasks-assigned-to-named-resources"></a>Zadaci su dodeljeni imenovanim resursima
-Ako koristite osnovni entitet zadatka, zadaci u verziji 2 i 1 dozvoljavaju članovima tima da prikazuju ulogu koja nije njihova podrazumevana definisana uloga. Na primer, Dunja Nikolić, kojoj je podrazumevano dodeljena uloga menadžera programima, može biti dodeljen zadatku sa ulogom programera. U verziji 3, uloga imenovanog člana tima je uvek podrazumevana, tako da svaki zadatak koji je dodeljen Dunji Nikolić koristi njenu podrazumevanu ulogu menadžera programa.
+Ako koristite osnovni entitet zadatka, zadaci u verziji 2 i 1 dozvoljavaju članovima tima da prikazuju ulogu koja nije njihova podrazumevana definisana uloga. Na primer, Dunja Nikolić, kojoj je podrazumevano dodeljena uloga menadžera programima, može biti dodeljen zadatku sa ulogom programera. U verziji 3, uloga imenovanog člana tima je uvek podrazumevana, tako da svaki zadatak koji je dodeljen Dunji Nikolić koristi Dunjinu podrazumevanu ulogu menadžera programima.
 
-Ako ste dodelili resurs zadatku van njegove podrazumevane uloge u verziji 2 i 1, kada izvršite nadogradnju, imenovanom resursu će biti dodeljena podrazumevana uloga za sve dodele zadataka, bez obzira na dodelu uloge u verziji 2. Ovo će dovesti do razlika u izračunatim procenama u verziji 2 ili 1 u odnosu na verziju 3 zato što se procene izračunavaju na osnovu uloge resursa, a ne dodele zadatka stavke. Na primer, u verziji 2, dva zadatka je dodeljeno Pavlu Kneževiću. Uloga u zadatku stavke za 1. zadatak je programer, a za 2. zadatak menadžer programa. Pavle Knežević ima podrazumevanu ulogu menadžera programa.
+Ako ste dodelili resurs zadatku van njegove podrazumevane uloge u verziji 2 i 1, kada izvršite nadogradnju, imenovanom resursu će biti dodeljena podrazumevana uloga za sve dodele zadataka, bez obzira na dodelu uloge u verziji 2. Dodeljivanje dovodi do razlika u izračunatim procenama u verziji 2 ili 1 u odnosu na verziju 3 zato što se procene izračunavaju na osnovu uloge resursa, a ne dodele zadatka stavke. Na primer, u verziji 2, dva zadatka je dodeljeno Pavlu Kneževiću. Uloga u zadatku stavke za 1. zadatak je programer, a za 2. zadatak menadžer programa. Pavle Knežević ima podrazumevanu ulogu menadžera programa.
 
 ![Više uloga je dodeljeno jednom resursu](media/upgrade-multiple-roles-02.png)
 
@@ -56,12 +60,12 @@ Kada izvršite nadogradnju na verziju 3, zadaci stavke se zamenjuju dodelama res
 
 ![Dodele resursa](media/resource-assignment-v2-05.png)
 
-Pošto su procene zasnovane na podrazumevanoj ulozi za resurs, mogu se promeniti procene prodaje i troškova. Imajte na umu da na sledećem grafikonu više nećete videti ulogu **Programer** jer je sada uzeta iz podrazumevane uloge resursa koji može da se rezerviše.
+Pošto su procene zasnovane na podrazumevanoj ulozi za resurs, mogu se promeniti procene prodaje i troškova. Na sledećem grafikonu više nećete videti ulogu **Programer** jer je sada uzeta iz podrazumevane uloge resursa koji može da se rezerviše.
 
 ![Procena troškova za podrazumevane uloge](media/resource-assignment-cost-estimate-06.png)
 ![Procena troškova za podrazumevane uloge](media/resource-assignment-sales-estimate-07.png)
 
-Nakon nadogradnje, možete da uredite ulogu člana tima tako da bude nešto drugo od dodeljene podrazumevane uloge. Međutim, ako promenite ulogu člana tima, ona će biti promenjena u svim dodeljenim zadacima zato što članovima tima više nije dozvoljeno dodeljivati više uloga u verziji 3.
+Nakon nadogradnje, možete da uredite ulogu člana tima tako da bude nešto drugo od dodeljene podrazumevane uloge. Međutim, ako promenite ulogu člana tima, ona će biti promenjena u svim dodeljenim zadacima zato što članovima tima ne može da se dodeljuje više uloga u verziji 3.
 
 ![Ažuriranje uloge resursa](media/resource-role-assignment-08.png)
 
@@ -102,7 +106,7 @@ Organizacionu jedinicu možete videti u prikazu predviđanja.
  
 Kada se nadogradnja dovrši, organizaciona jedinica u zadatku stavke koja odgovara generičkom članu tima dodaje se tom članu, a zadatak stavke će biti uklonjen. Zbog ovoga preporučujemo da pre nadogradnje generišete ili ponovo generišete tim za svaki projekat koji sadrži generičke resurse.
 
-Za zadatke koji su dodeljeni ulozi sa organizacionom jedinicom koja se razlikuje od organizacione jedinice projekta za ugovaranje, a tim nije generisan, nadogradnja će kreirati generičkog člana tima za ulogu, ali će koristiti ugovornu jedinicu projekta za organizacionu jedinicu člana tima. Ako se vratimo na primer projekta Š, to znači da je ugovorna organizaciona jedinica Contoso US i da su zadaci testiranja projektnog plana u okviru faze implementacije dodeljeni ulozi Tehnički konsultant, a da je organizaciona jedinica dodeljena kompaniji Contoso India. Zadatak testiranja integracije, koji je dovršen nakon faze implementacije, dodeljen je ulozi Tehnički konsultant. Organizaciona jedinica Contoso US i tim nisu generisani. Nadogradnja će kreirati jednog generičkog člana tima, tehničkog konsultanta koji ima dodeljene sate za sva tri zadatka, kao i organizacionu jedinicu Contoso US, ugovornu organizacionu jedinicu projekta.   
+Za zadatke koji su dodeljeni ulozi sa organizacionom jedinicom koja se razlikuje od organizacione jedinice projekta za ugovaranje, a tim nije generisan, nadogradnja će kreirati generičkog člana tima za ulogu, ali će koristiti ugovornu jedinicu projekta za organizacionu jedinicu člana tima. Ako se vratimo na primer projekta Š, ugovornu organizacionu jedinicu Contoso US, i da su zadaci testiranja projektnog plana u okviru faze implementacije dodeljeni ulozi Tehnički konsultant, a da je organizaciona jedinica dodeljena kompaniji Contoso India. Zadatak testiranja integracije, koji je dovršen nakon faze implementacije, dodeljen je ulozi Tehnički konsultant. Organizaciona jedinica Contoso US i tim nisu generisani. Nadogradnja će kreirati jednog generičkog člana tima, tehničkog konsultanta koji ima dodeljene sate za sva tri zadatka, kao i organizacionu jedinicu Contoso US, ugovornu organizacionu jedinicu projekta.   
  
 Promena podrazumevanih vrednosti različitih organizacionih jedinica za obezbeđivanje resursa za članove tima koji nisu generisani je razlog zbog kojeg preporučujemo da pre nadogradnje generišete ili ponovo generišete tim za svaki projekat koji sadrži generičke resurse, kako se dodele organizacionih jedinica ne bi izgubile.
 

@@ -17,27 +17,29 @@ search.audienceType:
 search.app:
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 3e437fce5b9f1fb330a713788e24100a4fe02948
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 3810df9b875d017a8d639b5253b96275571898f3
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: sr-Latn-RS
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4083589"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5144656"
 ---
 # <a name="create-custom-solutions-for-pricing-dimensions"></a>Kreiranje prilagođenih rešenja za dimenzije cene
+
+[!include [banner](../includes/psa-now-project-operations.md)]
 
 > [!IMPORTANT]
 > Sve promene prilagođenih dimenzija cene treba da budu u zasebnom rešenju. Ova važna najbolja praksa pruža fleksibilnost u budućnosti za ažuriranje ili uklanjanje promena po potrebi, pomoći će pri ponovnoj upotrebi posla i olakšava prilagođavanje ovih promena drugoj instanci. Kada unesete sve potrebne promene, izvezite ovo rešenje kao **Kompletno rešenje** i uvezite ga u druge instance da biste ponovo koristili podešavanje za određivanje cena.
 
-1. Izaberite **Podešavanja** > **Rešenja** , a zatim izaberite **Novo**. 
-2. Imenujte rešenje, **\<your organization name> dimenzije za određivanje cena** , unesite preostale zahtevane informacije, a zatim izaberite **Sačuvaj**.
+1. Izaberite **Podešavanja** > **Rešenja**, a zatim izaberite **Novo**. 
+2. Imenujte rešenje, **\<your organization name> dimenzije za određivanje cena**, unesite preostale zahtevane informacije, a zatim izaberite **Sačuvaj**.
 
 > ![Kreiranje prilagođenog rešenja za dimenzije za određivanje cena](media/Creation-of-custom-pricing-dimension-solution.PNG)
   
 ## <a name="add-all-required-entities-and-related-components-to-the-pricing-dimension-solution"></a>Dodajte sve zahtevane entitete i srodne komponente u rešenje za dimenzije cene
 Moraćete da dodate sledeće Project Service entitete u rešenje za određivanje cena. Dovršite korake u ovoj proceduri da biste napravili neke važne promene šema u rešenju za određivanje cena, tako da entiteti postanu svesni novih dimenzija cene.
 
-1. Izaberite **Podešavanja** > **Rešenja** , a zatim dvaput kliknite na **\<your organization name> dimenzije za određivanje cena**. 
+1. Izaberite **Podešavanja** > **Rešenja**, a zatim dvaput kliknite na **\<your organization name> dimenzije za određivanje cena**. 
 2. U levom oknu za navigaciju istraživača rešenja izaberite **Dodaj postojeće** > **Entiteti**.
 3. U dijalogu **Komponente rešenja** izaberite sledeće entitete:
 

@@ -17,14 +17,16 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: a5a81893c4a804deb09cf33e0ac3f1a25b8bca36
-ms.sourcegitcommit: a2b810219d381716d3eedb14c4eb6cdefb5b5845
+ms.openlocfilehash: aabee3fe755e33d2c0f01a96b6f53a68957bc041
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: sr-Latn-RS
-ms.lasthandoff: 11/02/2020
-ms.locfileid: "4183560"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5143798"
 ---
 # <a name="whats-new-or-changed-in-project-service-automation-update-release-25-v3"></a>Šta je novo ili promenjeno u izdanju 25 ispravke Project Service Automation verzije 3
+
+[!include [banner](../includes/psa-now-project-operations.md)]
 
 Zadovoljstvo nam je da objavimo najnovije ažuriranje za aplikaciju Project Service Automation za Dynamics 365. Ovo izdanje uključuje neka važna poboljšanja u kvalitetu, performansama i upotrebljivosti. Ovo izdanje je kompatibilno sa uslugom Dynamics 365 9.x. Da biste ažurirali ovo izdanje, posetite stranicu sa rešenjima centra za administraciju za Dynamics 365 online kako biste instalirali ispravku. Za još informacija pogledajte članak [Instaliranje, ispravka ili uklanjanje željenog rešenja](https://docs.microsoft.com/power-platform/admin/install-remove-preferred-solution).
 

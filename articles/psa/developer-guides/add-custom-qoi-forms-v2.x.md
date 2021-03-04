@@ -16,18 +16,20 @@ search.audienceType:
 search.app:
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 57d4b9aad433af6d3e73369c76f2793f349c6965
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 31986efed81892cc5722cb8f5e292cde14d8843d
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: sr-Latn-RS
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4083774"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5144610"
 ---
 # <a name="add-new-custom-entity-forms-project-service-automation-2x"></a>Dodavanje novih obrazaca prilagođenih entiteta (Project Service Automation 2. x)
 
+[!include [banner](../../includes/psa-now-project-operations.md)]
+
 ## <a name="type-field"></a>Polje Tip 
 
-Dynamics 365 Project Service Automation se oslanja na polje **Tip** ( **msdyn\_ordertype** ) entiteta Mogućnost za poslovanje, Ponuda, Porudžbine i Faktura da bi napravila razlika između verzija ovih entiteta **zasnovanih na poslu** i onih **zasnovanih na stavci** i **usluzi**. PSA upravlja verzijama ovih entiteta zasnovanih na poslu. Veliki deo poslovne logike na klijentskoj strani i na strani servera rešenja zavisi od polja **Tip**. Zbog toga je važno da se ovo polje pokrene sa tačnom vrednošću prilikom kreiranja entiteta. Netačna vrednost može prouzrokovati nepravilna ponašanja, a neka poslovna logika neće ispravno raditi.
+Dynamics 365 Project Service Automation se oslanja na polje **Tip** (**msdyn\_ordertype**) entiteta Mogućnost za poslovanje, Ponuda, Porudžbine i Faktura da bi napravila razlika između verzija ovih entiteta **zasnovanih na poslu** i onih **zasnovanih na stavci** i **usluzi**. PSA upravlja verzijama ovih entiteta zasnovanih na poslu. Veliki deo poslovne logike na klijentskoj strani i na strani servera rešenja zavisi od polja **Tip**. Zbog toga je važno da se ovo polje pokrene sa tačnom vrednošću prilikom kreiranja entiteta. Netačna vrednost može prouzrokovati nepravilna ponašanja, a neka poslovna logika neće ispravno raditi.
 
 ## <a name="automatic-form-switching"></a>Automatsko prebacivanje obrazaca
 
@@ -37,7 +39,7 @@ Logika automatskog prebacivanja obrasca oslanja se na mapiranje između vrednost
 
 ## <a name="add-custom-forms-and-turn-on-the-form-switching-logic"></a>Dodavanje prilagođenih obrazaca i uključivanje logike promene obrasca
 
-Sledeći primer prikazuje kako se dodaje prilagođeni obrazac, **Moje informacije o projektu** , tako da funkcioniše sa mogućnostima za poslovanje zasnovanim na poslu. Isti proces se koristi za dodavanje prilagođenih obrazaca kako bi funkcionisale sa ponudama, porudžbinama i fakturama.
+Sledeći primer prikazuje kako se dodaje prilagođeni obrazac, **Moje informacije o projektu**, tako da funkcioniše sa mogućnostima za poslovanje zasnovanim na poslu. Isti proces se koristi za dodavanje prilagođenih obrazaca kako bi funkcionisale sa ponudama, porudžbinama i fakturama.
 
 Sledite ove korake da biste kreirali prilagođenu verziju obrasca **Informacije o projektu**.
 
@@ -47,7 +49,7 @@ Sledite ove korake da biste kreirali prilagođenu verziju obrasca **Informacije 
     > [!IMPORTANT]
     > Nemojte uklanjati skripte. U suprotnom, neki podaci mogu biti nepravilno pokrenuti.
 
-3. Proverite da se polje **Tip** ( **msdyn\_ordertype** ) nalazi u obrascu. 
+3. Proverite da se polje **Tip** (**msdyn\_ordertype**) nalazi u obrascu. 
 
     > [!IMPORTANT]
     > Nemojte uklanjati ovo polje. U suprotnom, skripte za pokretanja neće uspeti.

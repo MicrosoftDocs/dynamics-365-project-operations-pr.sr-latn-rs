@@ -17,14 +17,17 @@ search.audienceType:
 search.app:
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 8a5c643745d8e10887965228da7abd8f56228006
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: d9b25a768f892d83c09d37ce76291d6c8e75b1be
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: sr-Latn-RS
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4083679"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5145015"
 ---
 # <a name="use-bookable-resource-as-a-pricing-dimension"></a>Korišćenje resursa koji se može rezervisati kao dimenzije za određivanje cena
+
+[!include [banner](../includes/psa-now-project-operations.md)]
+
 Ova tema pruža informacije o korišćenju resursa koji se može rezervisati kao dimenzije za određivanje cena. Pre nego što počnete, ako još niste kreirali rešenje sa dimenzijama za određivanje cena, moraćete da kreirate novo. Ako već imate rešenje sa dimenzijama za određivanje cena, onda možete da unesete promene u njega. Ako niste kreirali novo rešenje sa dimenzijama za određivanje cena za organizaciju, dovršite procedure u temi [Kreiranje prilagođenih polja i entiteta](create-custom-fields-entities.md).
 
 ## <a name="add-bookable-resource-to-forms-and-views"></a>Dodavanje resursa koji se može rezervisati u obrasce i prikaze
@@ -48,16 +51,16 @@ Otvorite istraživač rešenja za rešenje za dimenzije određivanja cena i zati
 
 ## <a name="set-up-bookable-resource-as-a-pricing-dimension"></a>Podešavanje resursa koji se može rezervisati kao dimenzije za određivanje cena
 
-1. U veb interfejsu idite na **Project Service** > **Podešavanja** > **Parametri**. Na stranici **Parametar** , na kartici **Dimenzije za određivanje cena zasnovane na iznosima** , primetićete da mreža na kartici prikazuje zapise u entitetu dimenzija za određivanje cena. 
+1. U veb interfejsu idite na **Project Service** > **Podešavanja** > **Parametri**. Na stranici **Parametar**, na kartici **Dimenzije za određivanje cena zasnovane na iznosima**, primetićete da mreža na kartici prikazuje zapise u entitetu dimenzija za određivanje cena. 
 2. Dodajte **Resurs koji se može rezervisati** na ovu listu dimenzija za određivanje cena kao **msdyn_bookableresource**. 
 3. Naznačite kontekst u kome resurs koji može da se rezerviše funkcioniše kao dimenzija za određivanje cena i podesite vrednosti **Primenljivo na troškove** i **Primenljivo na prodaju**.
 4. U polju **Vrsta dimenzije** izaberite **Zasnovano na iznosu**. 
-5. Izaberite prioritet za troškove i prodaju za resurs koji se može rezervisati. Obično, kada ga uvrstite kao dimenziju za određivanje cena, resurs koji može da se rezerviše ima najviši prioritet, pa će njegovo podešavanje na **1** (ili **0** , zavisno od toga kako računate prioritet) obezbediti takvo ponašanje.
+5. Izaberite prioritet za troškove i prodaju za resurs koji se može rezervisati. Obično, kada ga uvrstite kao dimenziju za određivanje cena, resurs koji može da se rezerviše ima najviši prioritet, pa će njegovo podešavanje na **1** (ili **0**, zavisno od toga kako računate prioritet) obezbediti takvo ponašanje.
 
 ## <a name="set-up-pricing-dimension-field-names"></a>Podešavanje imena polja za dimenziju određivanja cena
 
 Kada se ime polja dimenzije za određivanje cena u tabeli **Cena uloge** razlikuje od imena polja u bilo kom drugom entitetu koji gde je potrebno da podrazumevano određivanje cena funkcioniše, zapis dimenzije za određivanje cena mora da bude upoznat sa različitim imenima.    
-Za resurs koji može da se rezerviše, entitet **Članovi projektnog tima** ima malo drugačije ime polja ( **msdyn_bookableresourceid** ) od onoga kako se zove u entitetu **Cena uloge** ( **msdyn_bookableresource** ). Zapis dimenzije za određivanje cena za **msydn_bookableresource** mora da bude svestan toga. 
+Za resurs koji može da se rezerviše, entitet **Članovi projektnog tima** ima malo drugačije ime polja (**msdyn_bookableresourceid**) od onoga kako se zove u entitetu **Cena uloge** (**msdyn_bookableresource**). Zapis dimenzije za određivanje cena za **msydn_bookableresource** mora da bude svestan toga. 
 1. Da biste to uradili, dvaput kliknite na red u mreži **Dimenzije za određivanje cena** da biste otvorili stranicu dimenzije polja **msdyn_bookableresource**.
 2. Na stranici dimenzije, na kartici **Povezano** kliknite na **Imena polja dimenzija za određivanje cena**.
 

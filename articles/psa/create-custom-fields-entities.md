@@ -17,14 +17,16 @@ search.audienceType:
 search.app:
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 442ff9cf2206bec307cea7ff30b9266502d8f77b
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: b9e32c8871a8986ba827f742baf4e4d5cd9dd235
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: sr-Latn-RS
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4083649"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5144880"
 ---
 # <a name="create-custom-fields-and-entities"></a>Kreiranje prilagođenih polja i entiteta 
+
+[!include [banner](../includes/psa-now-project-operations.md)]
 
 Obavite sledeće korake kada želite da kreirate prilagođeni skup opcija ili entitet na Power Apps platformi.  
 Procedure u ovoj temi bi trebalo da budu završene korišćenjem veb interfejsa aplikacije Project Service Automation (PSA).
@@ -39,7 +41,7 @@ Dimenzija određivanja cena može biti skup opcija ili entitet. I jedno i drugo 
 
 ### <a name="entity-based-dimensions"></a>Dimenzije zasnovane na entitetima
 
-1. U PSA kliknite na **Podešavanja** > **Rešenja** , a zatim dvaput kliknite na **\<your organization name> dimenzije cene**.
+1. U PSA kliknite na **Podešavanja** > **Rešenja**, a zatim dvaput kliknite na **\<your organization name> dimenzije cene**.
 2. U levom oknu za navigaciju istraživača rešenja izaberite **Entiteti**.
 3. Kliknite na **Novi** da biste kreirali novi entitet pod nazivom **Standardna pozicija**. Unesite preostale potrebne informacije, a zatim kliknite na **Sačuvaj**.
 
@@ -50,7 +52,7 @@ Dimenzija određivanja cena može biti skup opcija ili entitet. I jedno i drugo 
 Možete kreirati dve dimenzije zasnovane na skupovima opcija. Pomoću polja **Radna lokacija resursa** pratite cenu radne lokacije **Kod kuće** i **Na lokaciji** i koristite **Radno vreme resursa** sa vrednostima **Standardno** i **Prekovremeno** da biste primenili proviziju kada se posao završi.
 
 
-1. U PSA kliknite na **Podešavanja** > **Rešenja** , a zatim dvaput kliknite na **\<your organization name> dimenzije cene**. 
+1. U PSA kliknite na **Podešavanja** > **Rešenja**, a zatim dvaput kliknite na **\<your organization name> dimenzije cene**. 
 2. U levom oknu za navigaciju istraživača rešenja izaberite **Skupovi opcija**. 
 3. Kliknite na **Novo** da biste kreirali novi skup opcija, unesite preostale zahtevane informacije, a zatim kliknite na **Sačuvaj**.
 
@@ -63,7 +65,7 @@ Možete kreirati dve dimenzije zasnovane na skupovima opcija. Pomoću polja **Ra
 
 Možete ručno kreirati podatke za dimenzije zasnovane na entitetima ili korišćenjem Microsoft Excel poziva za uvoz ili usluge. Koristite korake iz ove procedure da biste kreirali dve standardne pozicije, **Inženjer sistema** i **Viši inženjer sistema** iz dimenzije zasnovane na entitetima **Standardna pozicija**. Ako je obim podataka koje želite da kreirate mali, kao u sledećem primeru, možete da koristite standardni obrazac.
 
-1. U aplikaciji PSA, kliknite na **Napredna pretraga**. Izaberite entitet **Standardna pozicija** , a zatim kliknite na **Rezultati**. Biće prikazani svi redovi u entitetu **Standardna pozicija**.
+1. U aplikaciji PSA, kliknite na **Napredna pretraga**. Izaberite entitet **Standardna pozicija**, a zatim kliknite na **Rezultati**. Biće prikazani svi redovi u entitetu **Standardna pozicija**.
 2. Kliknite na dugme **Novo**. U polje **Naziv** unesite „Inženjer sistema“, a zatim kliknite na **Sačuvaj**.
 3. Zatvorite obrazac. 
 4. Ponovite korake 1-3 da biste kreirali još jednu standardnu poziciji „Viši inženjer sistema“.
