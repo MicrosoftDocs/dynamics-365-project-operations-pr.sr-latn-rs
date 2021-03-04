@@ -1,12 +1,12 @@
 ---
-title: Koristite programski dodatak Project Service za planiranje vašeg rada u programu Microsoft Project | MicrosoftDocs
-description: Ova tema pruža informacije o dodavanju, konfigurisanju i korišćenju programskog dodatka Microsoft Project u programu Microsoft Project Service.
+title: Planiranje rada u programu Microsoft Project pomoću programskog dodatka za Project Service
+description: Ova tema pruža informacije o tome kako da koristite programski dodatak Microsoft Project u programu Microsoft Project Service.
 author: ruhercul
 manager: kfend
 ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
-ms.date: 04/06/2019
+ms.date: 01/07/2021
 ms.topic: article
 ms.author: ruhercul
 audience: Admin
@@ -18,22 +18,22 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 9556feac5481e20bde1c9624c0eccc05385eaa94
+ms.openlocfilehash: 87387ff870a7ef3ed0689f4ae38daad8cf220b46
 ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: sr-Latn-RS
 ms.lasthandoff: 02/10/2021
-ms.locfileid: "5146005"
+ms.locfileid: "5145960"
 ---
-# <a name="use-the-project-service-automation-add-in-to-plan-your-work-in-microsoft-project"></a>Koristite programski dodatak Project Service Automation za planiranje vašeg rada u programu Microsoft Project
+# <a name="plan-your-work-in-microsoft-project-with-the-project-service-add-in"></a>Planiranje rada u programu Microsoft Project pomoću programskog dodatka za Project Service
 
 [!include [banner](../includes/psa-now-project-operations.md)]
 
-[!INCLUDE[cc-applies-to-psa-app-1x-2x](../includes/cc-applies-to-psa-app-1x-2x.md)]
+[!INCLUDE[cc-applies-to-psa-app-3x](../includes/cc-applies-to-psa-app-3x.md)]
 
 [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)] vam olakšava da obavljate planiranje projekata, uključujući procene. Možete da definišete rad tako da troškovi, angažovanje i prodajna vrednost budu jasni kada konačan predlog bude prosleđen.  
 
- Sada možete da instalirate sistem [!INCLUDE[pn_ms_dyn_365_psa_for_ms_project](../includes/pn-ms-dyn-365-psa-for-ms-project.md)] i da poslove planiranja obavljate u poznatom okruženja programa [!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)]. Koristite robusne mogućnosti planiranja i upravljanja programa [!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)], a zatim ažurirajte plan projekta u programu Project Service Automation.  
+Možete da instalirate sistem [!INCLUDE[pn_ms_dyn_365_psa_for_ms_project](../includes/pn-ms-dyn-365-psa-for-ms-project.md)] i da poslove planiranja obavljate u poznatom okruženja programa [!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)]. Koristite robusne mogućnosti planiranja i upravljanja programa [!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)], a zatim ažurirajte plan projekta u programu Project Service Automation.  
 
 > [!IMPORTANT]
 > - Da biste koristili SharePoint upravljanje dokumentima za skladištenje u vašim [!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)] datotekama za [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)] projekte, vaš [!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)] administrator će morati da uključi upravljanje dokumentima. 
@@ -44,66 +44,66 @@ ms.locfileid: "5146005"
 
 1.  Iz centra za preuzimanje preuzmite programski dodatak za podržanu verziju usluge of Project Service, verzije [V2.X](https://go.microsoft.com/fwlink/?linkid=828268) ili [V3.4+](https://www.microsoft.com/download/details.aspx?id=57956).  
 
-2.  Kliknite na vezu za preuzimanje.  
+2.  Izaberite vezu za preuzimanje.  
 
-3.  Nakon preuzimanja, kliknite na **Da** da biste instalirali programski dodatak.  
+3.  Nakon preuzimanja, izaberite **Da** da biste instalirali programski dodatak.  
 
 ## <a name="configure-the-add-in"></a>Konfigurišite programski dodatak  
 
-1. Otvorite [!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)] i kliknite na karticu **Project Service**.  
+1. Otvorite [!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)] i izaberite karticu **Project Service**.  
 
-2. Kliknite na dugme **Poveži**.  
+2. Izaberite **Poveži se**.  
 
-3. Unesite svoje informacije za prijavljivanje i kliknite na dugme **Prijavi se**.  
+3. Unesite informacije za prijavljivanje, a zatim izaberite **Prijavi se**.  
 
    Sada možete početi sa korišćenjem programskog dodatka.  
 
 ## <a name="read-from-a-template"></a>Čitanje iz predloška  
  Čitajte iz predloška koji ste kreirali u funkciji [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)] i kopirali u program [!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)] da biste započeli planiranje projekta. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Kreiranje predloška za projekat (Project Service Automation)](../psa/create-project-template.md)  
 
-1.  Sa kartice **Project Service** kliknite na dugme **Čitanje** > **Predložak Project Service Automation projekta**.  
+1.  Sa kartice **Project Service** izaberite **Čitanje** > **Predložak Project Service Automation projekta**.  
 
-2.  Sa liste izaberite predložak projekta i kliknite na dugme **Otvori**.  
+2.  Sa liste izaberite predložak projekta, a zatim izaberite **Otvori**.  
 
     > [!NOTE]
     >  Podrazumevano, zadaci koji su kopirani iz predloška u projekat su podešeni kao ručno zakazani.  
 
 ## <a name="assign-pn_project_service_auto-roles-to-project-resources"></a>Dodeljivanje [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)] uloga resursima projekta  
 
-1.  Otvorite projekat i kliknite na traku **Zadatak**.  
+1.  Otvorite projekat i izaberite traku **Zadatak**.  
 
-2.  Kliknite na meni **Gantogram**, a zatim izaberite **Lista resursa**.  
+2. Izaberite meni **Gantov grafikon**, a zatim izaberite **Lista resursa**.  
 
-3.  Na listu resursa kliknite na dugme u padajućem meniju **Uloga resursa za Project Service** i odaberite ulogu za Project Service Automation.  
+3. Na listi resursa izaberite padajući meni **Uloga resursa za Project Service** i odaberite ulogu za Project Service Automation.  
 
 ## <a name="staff-your-project-with-resources"></a>Obezbedite radnu snagu za projekat pomoću resursa  
 
-1.  Na kartici „Project Service“ izaberite red i kliknite na dugme **Pronađi resurse**.  
+1.  Na kartici „Project Service“ izaberite red, pa izaberite **Pronađi resurse**.  
 
 2.  Na ekranu **Rezervacija resursa** izaberite resurs koji želite da koristite za projekat.  
 
-3.  Kliknite na dugme **Rezerviši**, a zatim na **U redu**.  
+3.  Izaberite **Rezerviši**, a zatim izaberite **U redu**.  
 
 ## <a name="publish-your-project"></a>Objavite vaš projekat  
 Kada se planiranje projekta završi, sledeći korak je uvoz i objavljivanje projekta u funkciji [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)].  
 
-Projekat će se uvesti u funkciju [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)]. Primenjuju se procesi određivanja cena i generisanja tima. Otvorite projekat u funkciji [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)] da biste videli da li su tim, procene za projekat i strukturna analiza posla generisani. U sledećoj tabeli je prikazano gde da pronađete rezultate:
+Projekat će se uvesti u funkciju [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)]. Primenjuju se procesi određivanja cena i generisanja tima. Otvorite projekat u funkciji [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)] da biste videli da li su tim, procene za projekat i strukturna analiza posla generisani. U sledećoj tabeli je prikazano gde da pronađete rezultate.
 
 
-|                                                                                          |                                                                                                                                   |
+|              Microsoft Project                                                           |                      Project Service Automation                                                                                   |
 |------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------|
 |  [!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)] **Gantogram**   | Uvozi u [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)] ekran **Strukturna analiza posla**. |
 | [!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)] **Lista resursa** |   Uvozi u [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)] ekran **Članovi projektnog tima**.   |
 |   [!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)] **Koristite upotrebu**    |    Uvozi u [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)] ekran **Procene projekta**.     |
 
 **Da biste uvozili i objavljivali projekte**  
-1. Sa kartice **Project Service** kliknite na **Objavi** > **Novi Project Service Automation projekat**.  
+1. Na kartici **Project Service** dođite do **Objavi** > **Novi Project Service Automation projekat**.  
 
-2. U dijalogu **Objavi u novi projekat u programu Project Service** unesite **Ime projekta** i izaberite **Klijent**.  
+2. U dijalogu **Objavljivanje u novi projekat u programu Project Service** unesite **Ime projekta** i izaberite **Klijent**.  
 
-3. Opcionalno označite **Poveži plan projekta sa funkcijom Project Service Automation** da biste povezali datoteku projekta plana sa funkcijom Project Service Automation.  
+3. Opcionalno izaberite **Poveži plan projekta sa funkcijom Project Service Automation** da biste povezali datoteku projekta plana sa funkcijom Project Service Automation.  
 
-4. Izaberite dugme **Objavi**.  
+4. Izaberite **Objavi**.  
 
    Povezivanje datoteke projekta sa funkcijom [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)] od datoteke projekta pravi glavnu datoteku i podešava strukturnu analizu posla u funkciji [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)] na samo za čitanje.  Da biste uneli izmene u plan projekta, potrebno je da ih napravite u programu [!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)] i da ih objavite kao ispravke za funkciju [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)].  
 
@@ -114,21 +114,21 @@ Projekat će se uvesti u funkciju [!INCLUDE[pn_project_service_auto](../includes
 
 - Opozovite vezu datoteke i uredite je direktno u funkciji Project Service. Podrazumevano, projekat koji je bio otpremljen iz programa [!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)] je zaključan i može se uređivati samo u funkciji Project. Da biste uredili datoteku u funkciji [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)], potrebno je opozvati vezu datoteke.  
 
-### <a name="edit-in-pn_microsoft_project"></a>Uređivanje u programu [!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)]  
+### <a name="edit-in-pn_microsoft_project"></a>Uredite u usluzi [!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)]  
 
-1. U glavnom meniju kliknite na **Project Service** > **Projekti**.  
+1. U glavnom meniju idite na **Project Service** > **Projekti**.  
 
 2. Sa liste projekata otvorite onaj koji ste kreirali u programu [!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)].  
 
-3. Kliknite na dugme **Otvori u programu MS Project** sa trake. To će otvoriti povezanu glavnu datoteku u programu [!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)].  
+3. Izaberite **Otvori u programu MS Project** sa trake. To će otvoriti povezanu glavnu datoteku u programu [!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)].  
 
 ### <a name="unlink-a-file-and-edit-in-pn_microsoft_project-service"></a>Raskinite vezu datoteke i uredite je u programu [!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)] Service  
 
-1. U glavnom meniju kliknite na **Project Service** > **Projekti**.  
+1. U glavnom meniju idite na **Project Service** > **Projekti**.  
 
 2. Sa liste projekata otvorite onaj koji ste kreirali u programu [!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)].  
 
-3. Kliknite na dugme **Raskini vezu sa programom MS Project** sa trake.  
+3. Izaberite **Raskini vezu sa programom MS Project** sa trake.  
 
 ## <a name="upload-a-project-file-to-sharepoint-or-office-groups"></a>Otpremanje datoteke projekta u SharePoint ili Office grupe  
  Datoteku projekta možete da otpremite u SharePoint i da je pronađete u okviru opcije „Povezani dokumenti“ za [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)] projekat.  Administrator mora da konfiguriše SharePoint upravljanje dokumentima i da ga uključite za entitet Projekat. 
@@ -137,42 +137,42 @@ Projekat će se uvesti u funkciju [!INCLUDE[pn_project_service_auto](../includes
 
 ### <a name="upload-a-file-for-sharepoint"></a>Otpremanje datoteke za SharePoint  
 
-1. U glavnom meniju kliknite na **Project Service** > **Otpremi**.  
+1. U glavnom meniju idite na **Project Service** > **Otpremi**.  
 
 2. Izaberite **U dokumenta projekta Project Service Automation**.  
 
 3. U dijalogu **Omogući otvaranje u programu [!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)]** izaberite **Da** ili **Ne**.  
 
-   - Ako kliknete na **Da**, moći ćete da izaberete dugme **Otvori u programu [!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)]** u rešenju Project Service Automation, da pokrenete [!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)] i učitate datoteku projekta iz SharePoint biblioteke dokumenata.  
+   - Ako izaberete **Da**, moći ćete da izaberete **Otvori u programu [!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)]** u rešenju Project Service Automation i da pokrenete [!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)] i učitate datoteku projekta iz SharePoint biblioteke dokumenata.  
 
-   - Ako kliknete na **Ne**, veza za dugme **Otvori u programu [!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)]** neće raditi.  
+   - Ako odaberete **Ne**, veza **Otvori u programu [!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)]** neće funkcionisati.  
 
 4. [!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)] datoteku možete da pronađete u funkciji [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)] u okviru opcije **Dokumenti** za određeni [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)] projekat.  
 
 ### <a name="upload-a-file-for-office-groups"></a>Otpremanje datoteke za Office grupe  
 
-1. U glavnom meniju kliknite na **Project Service** > **Otpremi**.  
+1. U glavnom meniju idite na **Project Service** > **Otpremi**.  
 
 2. Izaberite **U dokumenta projekta Project Service Automation**.  
 
 3. U dijalogu **Omogući otvaranje u programu [!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)]** izaberite **Da** ili **Ne**.  
 
-   - Ako kliknete na **Da**, moći ćete da izaberete dugme **Otvori u programu [!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)]** u rešenju Project Service Automation, da pokrenete [!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)] i učitate datoteku projekta iz SharePoint biblioteke dokumenata.  
+   - Ako izaberete **Da**, moći ćete da izaberete **Otvori u programu [!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)]** u rešenju Project Service Automation, pokrenete [!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)] i učitate datoteku projekta iz SharePoint biblioteke dokumenata.  
 
-   - Ako kliknete na **Ne**, veza za dugme **Otvori u programu [!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)]** neće raditi.  
+   - Ako odaberete **Ne**, veza **Otvori u programu [!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)]** neće funkcionisati.  
 
 4. [!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)] datoteku možete da pronađete u funkciji [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)] u okviru opcije **Dokumenti** za određeni [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)] projekat.  
 
 ## <a name="publish--your-project-as-a-template"></a>Objavite svoje projekte kao predložak  
- Možete da sačuvate vaš projekat i da ga ponovo upotrebite tako što ćete ga sačuvati ka predložak projekta u funkciji [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)].  Predlošci projekata su planovi projekta koji mogu ponovo da se koriste u funkciji [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)]. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Kreiranje predloška za projekat (Project Service Automation)](../psa/create-project-template.md)  
+ Možete da sačuvate vaš projekat i da ga ponovo upotrebite tako što ćete ga sačuvati ka predložak projekta u funkciji [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)]. Predlošci projekata su planovi projekta koji mogu ponovo da se koriste u funkciji [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)]. Za više informacija pogledajte [Kreiranje predloška projekta (Project Service Automation)](../psa/create-project-template.md). 
 
-1. Sa kartice **Project Service** kliknite na dugme **Objavi** > **Novi Project Service Automation šablon projekta**.  
+1. Na kartici **Project Service** dođite do **Objavi** > **Novi Project Service Automation predložak**.  
 
-2. U dijalogu **Objavi u novi projekat u predlošku Project Service** unesite **Ime predloška projekta**.  
+2. U dijalogu **Objavnjivanje u novi projekat u predlošku Project Service** unesite **Ime predloška projekta**.  
 
-3. Opcionalno označite **Poveži plan projekta sa funkcijom Project Service Automation** da biste povezali datoteku projekta sa funkcijom [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)].  
+3. Opcionalno izaberite **Poveži plan projekta sa funkcijom Project Service Automation** da biste povezali datoteku projekta funkcijom [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)].  
 
-4. Izaberite dugme **Objavi**.  
+4. Izaberite **Objavi**.  
 
 Povezivanje datoteke projekta sa funkcijom [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)] od datoteke projekta pravi glavnu datoteku i podešava strukturnu analizu posla u predlošku za [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)] na samo za čitanje.  Da biste uneli izmene u plan projekta, potrebno je da ih napravite u programu [!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)] i da ih objavite kao ispravke za funkciju [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)].
 
@@ -182,52 +182,63 @@ Kada čitate projekat iz usluge Project Service Automation, kalendar resursa nij
 
 
 ## <a name="data-synchronization"></a>Sinhronizacija podataka
+Tabele u ovom odeljku pružaju informacije o sinhronizaciji podataka entiteta između funkcije Project Service Automation i programskog dodatka Microsoft Project za računare.
 
-Sledeća tabela opisuje kako se podaci sinhronizuju između usluge Project Service Automation i programskog dodatka za računare usluge Microsoft Project.
-
-| **Entitet** | **Polje** | **Microsoft Project sa uslugom Project Service Automation** | **Project Service Automation sa uslugom Microsoft Project** |
-| --- | --- | --- | --- |
-| Projektni zadatak | Krajnji rok | ● | - |
-| Projektni zadatak | Procenjeno angažovanje | ● | - |
-| Projektni zadatak | ID MS Project klijenta | ● | - |
-| Projektni zadatak | Nadređeni zadatak | ● | - |
-| Projektni zadatak | Project | ● | - |
-| Projektni zadatak | Projektni zadatak | ● | - |
-| Projektni zadatak | Ime projektnog zadatka | ● | - |
-| Projektni zadatak | Jedinica za određivanje resursa (neodobreno u verziji 3.0) | ● | - |
-| Projektni zadatak | Zakazano trajanje | ● | - |
-| Projektni zadatak | Datum početka | ● | - |
-| Projektni zadatak | ID za SAP | ● | - |
+### <a name="project-task-entity-table"></a>Tabela entiteta projektnog zadatka
+Sledeća tabela opisuje kako se podaci entiteta projektnog zadatka sinhronizuju između usluge Project Service Automation i programskog dodatka za računare usluge Microsoft Project.
 
 | **Entitet** | **Polje** | **Microsoft Project sa uslugom Project Service Automation** | **Project Service Automation sa uslugom Microsoft Project** |
 | --- | --- | --- | --- |
-| Član tima | ID MS Project klijenta | ● | - |
-| Član tima | Ime položaja | ● | - |
-| Član tima | projekat | ● | ● |
-| Član tima | Projektni tim | ● | ● |
-| Član tima | Jedinica za određivanje resursa | - | ● |
-| Član tima | Uloga | - | ● |
+| Projektni zadatak | Krajnji rok | Synchronized | Nije sinhronizovano |
+| Projektni zadatak | Procenjeno angažovanje | Synchronized | Nije sinhronizovano |
+| Projektni zadatak | ID MS Project klijenta | Synchronized | Nije sinhronizovano |
+| Projektni zadatak | Nadređeni zadatak | Synchronized | Nije sinhronizovano |
+| Projektni zadatak | Project | Synchronized | Nije sinhronizovano |
+| Projektni zadatak | Projektni zadatak | Synchronized | Nije sinhronizovano |
+| Projektni zadatak | Ime projektnog zadatka | Synchronized | Nije sinhronizovano |
+| Projektni zadatak | Jedinica za određivanje resursa (neodobreno u verziji 3.0) | Synchronized | Nije sinhronizovano |
+| Projektni zadatak | Zakazano trajanje | Synchronized | Nije sinhronizovano |
+| Projektni zadatak | Datum početka | Synchronized | Nije sinhronizovano |
+| Projektni zadatak | ID za SAP | Synchronized | Nije sinhronizovano |
+
+### <a name="team-member-entity-table"></a>Tabela entiteta člana tima
+Sledeća tabela opisuje kako se podaci entiteta člana tima sinhronizuju između usluge Project Service Automation i Micros
+
+| **Entitet** | **Polje** | **Microsoft Project sa uslugom Project Service Automation** | **Project Service Automation sa uslugom Microsoft Project** |
+| --- | --- | --- | --- |
+| Član tima | ID MS Project klijenta | Synchronized | Nije sinhronizovano |
+| Član tima | Ime položaja | Synchronized | Nije sinhronizovano |
+| Član tima | projekat | Synchronized | Synchronized |
+| Član tima | Projektni tim | Synchronized | Synchronized |
+| Član tima | Jedinica za određivanje resursa | Nije sinhronizovano | Synchronized |
+| Član tima | Uloga | Nije sinhronizovano | Synchronized |
 | Član tima | Časovi radnog vremena | Nije sinhronizovano | Nije sinhronizovano |
 
-| **Entitet** | **Polje** | **Microsoft Project sa uslugom Project Service Automation** | **Project Service Automation sa uslugom Microsoft Project** |
-| --- | --- | --- | --- |
-| Dodela resursa | Datum „Od“ | ● | - |
-| Dodela resursa | Čas(ov)a | ● | - |
-| Dodela resursa | ID MS Project klijenta | ● | - |
-| Dodela resursa | Planirani rad | ● | - |
-| Dodela resursa | Project | ● | - |
-| Dodela resursa | Projektni tim | ● | - |
-| Dodela resursa | Dodela resursa | ● | - |
-| Dodela resursa | Zadatak | ● | - |
-| Dodela resursa | Datum „Do“ | ● | - |
+### <a name="resource-assignment-entity-table"></a>Tabela entiteta dodele resursa
+Sledeća tabela opisuje kako se podaci entiteta dodele resursa sinhronizuju između usluge Project Service Automation i Micros
 
 | **Entitet** | **Polje** | **Microsoft Project sa uslugom Project Service Automation** | **Project Service Automation sa uslugom Microsoft Project** |
 | --- | --- | --- | --- |
-| Zavisnosti projektnih zadataka | Zavisnost projektnog zadatka | ● | - |
-| Zavisnosti projektnih zadataka | Tip veze | ● | - |
-| Zavisnosti projektnih zadataka | Prethodni zadatak | ● | - |
-| Zavisnosti projektnih zadataka | Project | ● | - |
-| Zavisnosti projektnih zadataka | Sledeći zadatak | ● | - |
+| Dodela resursa | Datum „Od“ | Synchronized | Nije sinhronizovano |
+| Dodela resursa | Čas(ov)a | Synchronized | Nije sinhronizovano |
+| Dodela resursa | ID MS Project klijenta | Synchronized | Nije sinhronizovano |
+| Dodela resursa | Planirani rad | Synchronized | Nije sinhronizovano |
+| Dodela resursa | Project | Synchronized | Nije sinhronizovano |
+| Dodela resursa | Projektni tim | Synchronized | Nije sinhronizovano |
+| Dodela resursa | Dodela resursa | Synchronized | Nije sinhronizovano |
+| Dodela resursa | Zadatak | Synchronized | Nije sinhronizovano |
+| Dodela resursa | Datum „Do“ | Synchronized | Nije sinhronizovano |
 
-### <a name="see-also"></a>Takođe pogledajte  
+### <a name="project-task-dependencies-entity-table"></a>Tabela entiteta zavisnih elemenata projektnog zadatka
+Sledeća tabela opisuje kako se podaci entiteta zavisnih elemenata projektnog zadatka sinhronizuju između usluge Project Service Automation i Micros
+
+| **Entitet** | **Polje** | **Microsoft Project sa uslugom Project Service Automation** | **Project Service Automation sa uslugom Microsoft Project** |
+| --- | --- | --- | --- |
+| Zavisnosti projektnih zadataka | Zavisnost projektnog zadatka | Synchronized | Nije sinhronizovano |
+| Zavisnosti projektnih zadataka | Tip veze | Synchronized | Nije sinhronizovano |
+| Zavisnosti projektnih zadataka | Prethodni zadatak | Synchronized | Nije sinhronizovano |
+| Zavisnosti projektnih zadataka | Project | Synchronized | Nije sinhronizovano |
+| Zavisnosti projektnih zadataka | Sledeći zadatak | Synchronized | Nije sinhronizovano |
+
+### <a name="additional-resources"></a>Dodatni resursi
  [Vodič za menadžera projekta](../psa/project-manager-guide.md)

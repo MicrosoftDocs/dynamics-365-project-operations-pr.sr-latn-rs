@@ -3,6 +3,7 @@ title: Zašto se cena podrazumevano vraća na nulu u stvarnim podacima o troško
 description: Slede tri provere koje će vam olakšati da rešite zbog čega se cena podrazumevano vraća na vrednost 0 u stvarnim podacima o troškovima prodaje.
 author: rumant
 manager: kfend
+ms.prod: ''
 ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
@@ -18,14 +19,16 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 8c2270b07b6f8765a6ec1f506fe1767a1841950b
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: d4910d3727085a45036f3b438ecd69abc3e99836
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: sr-Latn-RS
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4122090"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5146320"
 ---
 # <a name="why-is-the-price-defaulting-to-zero-on-expense-sales-actuals"></a>Zašto se cena podrazumevano vraća na nulu u stvarnim podacima o troškovima prodaje?
+
+[!include [banner](../includes/psa-now-project-operations.md)]
 
 [!INCLUDE[cc-applies-to-psa-app-3.x](../includes/cc-applies-to-psa-app-3x.md)]
 
@@ -35,7 +38,7 @@ Ova najčešća pitanja se odnose na stvarne podatke o troškovima u kojima je k
 
 Pronađite projekat iz polja Projekat za stvarni podatak i idite na stranicu projekta. Zatim idite do kartice „Sales“. Na mreži Predmeti ugovora za projekat kliknite na vezu u polju Ugovor za projekat. Otvoriće se stranica Ugovor za projekat. Na stranici Ugovor za projekat, idite na karticu Cenovnik za projekat. Proverite da li je tamo priložen bar jedan cenovnik.
 
-Ako nijedan cenovnik nije priložen u mreži Cenovnici projekta za Ugovor za projekat, postupite na sledeći način:
+Ako nijedan cenovnik nije priložen u mreži Cenovnici projekta za Ugovor za projekat:
 
 - Priložite cenovnik mreži Cenovnici projekta. Cenovnik koji je ovde dozvoljeno priložiti treba da ima polje konteksta podešeno na Sales, a polje valute u cenovniku treba da se podudara sa poljem valute u Ugovoru za projekat. Nakon što ste izvršili potrebne popravke, ponovo kreirajte unos troška, odobrite ga i potvrdite da stvarni podatak o nenaplaćenoj prodaji prikazuje važeću cenu.
 - Ako imate jedan ili više priloženih cenovnika na mreži Cenovnici projekta u Ugovoru za projekat, idite na proveru broj 2.
@@ -47,7 +50,7 @@ Da bi Project Service razmotrio cenovnik za podrazumevanu cenu, taj cenovnik tre
 - Počnite od provere da datumi početka i završetka na kartici Opšti podaci za priložene cenovnike nisu prazni. Ako su datumi početka i završetka na cenovnicima identifikovanim gore prazni, izolovali ste problem. 
 - Zabeležite polje datuma početka na stvarnom podatku o trošku prodaje i proverite da li je neki od identifikovanih cenovnika primenjiv za taj datum. Na primer, datum stvarnog podatka o trošku bi trebalo da pada unutar datuma početka i završetka u cenovniku. 
     - Ako ne postoji nijedan cenovnik koji pokriva taj datum na stvarnom podatku o trošku prodaje, izolovali ste problem. Izmenite datume početka i završetka za cenovnik da biste osigurali da cenovnik pokriva datum stvarnog podatka o trošku. 
-    - Ako postoji više cenovnika koji pokrivaju taj datum na stvarnom podatku o trošku prodaje, izolovali ste problem. Ovo možete da ispravite uređivanjem datuma početka i završetka cenovnika, tako da postoji samo jedan cenovnik koji pokriva datum stvarnog podatka o trošku. 
+    - Ako postoji više cenovnika koji pokrivaju taj datum na stvarnom podatku o trošku prodaje, izolovali ste problem. Uredite datum početka i završetka cenovnika, tako da postoji samo jedan cenovnik koji pokriva datum stvarnog podatka o trošku. 
     - Ako postoji samo jedan cenovnik koji pokriva datum stvarnog podatka o trošku, pređite na proveru broj 3.
 Nakon što ste obavili potrebne popravke, ponovo kreirajte unos troška, odobrite ga i potvrdite da stvarni podatak o nenaplaćenoj prodaji prikazuje važeću cenu.
 
@@ -55,7 +58,7 @@ Nakon što ste obavili potrebne popravke, ponovo kreirajte unos troška, odobrit
 
 Ako ste uspešno dovršili proveru 1 i proveru 2, trebalo bi sada da imate samo jedan cenovnik projekta koji je primenljiv za datum stvarnog podatka o trošku prodaje. Otvorite ovaj cenovnik projekta i idite do kartice Cene kategorija. Uverite se da postoji red u mreži za navedenu kategoriju troška u stvarnom podatku o trošku.
  
-- Ako ne postoji nijedan red, onda ste izolovali problem. Kreirajte red u mreži Kategorija cene za kategoriju u stvarnom podatku o trošku. Nakon što to uradite, ponovo kreirajte unos troška, odobrite ga i potvrdite da stvarni podatak o nenaplaćenoj prodaji prikazuje važeću cenu. 
+- Ako ne postoji nijedan red, onda ste izolovali problem. Kreirajte red u mreži Kategorija cene za kategoriju u stvarnom podatku o trošku. Zatim ponovo kreirajte unos troška, odobrite ga i potvrdite da stvarni podatak o nenaplaćenoj prodaji prikazuje važeću cenu. 
 - Ako postoji red za kategoriju troška u mreži Cene kategorije, proverite da li ima važeću cenu.
 
 Da biste razumeli šta je važeća cena, koristite ove metode:

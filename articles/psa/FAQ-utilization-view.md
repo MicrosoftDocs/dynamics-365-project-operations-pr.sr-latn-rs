@@ -18,14 +18,16 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: a1d1db532c65b2a13f3cf4e1281a5987490b96df
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: 4516c562e7eaf35c5fef638183967eef5a033b11
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: sr-Latn-RS
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4122180"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5146410"
 ---
 # <a name="view-chargeable-utilization-for-resources"></a>Prikaz naplative ukupne iskorišćenosti resursa
+
+[!include [banner](../includes/psa-now-project-operations.md)]
  
 **Prikaz ukupne iskorišćenosti** na stranici **Ukupna iskorišćenost resursa u aplikaciji Project Service** prikazuje naplativu ukupnu iskorišćenost svakog resursa koji može da se rezerviše. Pošto je prikaz zasnovan na tabeli rasporeda, pronaćićete dosta istih funkcija.
 
