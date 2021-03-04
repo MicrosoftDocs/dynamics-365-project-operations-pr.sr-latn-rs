@@ -344,3 +344,6 @@ Tokom prvog meseca, konsultanti na projektu beleže ukupno 800 sati. Troškovi k
 
 
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

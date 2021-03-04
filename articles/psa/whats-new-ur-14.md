@@ -64,3 +64,6 @@ U ovoj temi date su funkcije koje su nove ili su promenjene u rešenju PSA u ver
      - Ispravljeno: ukupna prodajna cena se ne izračunava sve dok korisnik ne unese i cenu koštanja za procene troškova za projekat.
      - Ispravljeno: zatvaranje ponude kao **Osvojena** ne uspeva ako ugovorni projekat nije u statusu **Radna verzija**.
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

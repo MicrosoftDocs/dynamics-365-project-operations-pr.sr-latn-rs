@@ -53,3 +53,6 @@ Sledeća tabela predstavlja sveobuhvatnu listu unapred definisanih obrazaca i pr
 2. Na stranici **Parametri**, na kartici **Dimenzije za određivanje cena zasnovane na iznosima**, primetićete da mreža na kartici prikazuje zapise u entitetu **Dimenzije za određivanje cena**.
 3. Dodajte **Kategorija transakcije** na ovu listu i podesite polja **Primenljivo na troškove** i **Primenjivo na prodaju** na **Da**.
 4. U polju **Vrsta dimenzije** izaberite **Zasnovano na iznosu**, a zatim izaberite prioritet za stavku **Kategorija transakcije** koja je povezana sa troškovima i prodajom.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

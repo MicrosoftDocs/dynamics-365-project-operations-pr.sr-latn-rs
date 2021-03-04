@@ -135,3 +135,6 @@ Ako imate stvarne vrednosti koje su stigle nakon kreiranja fakture, možete ih u
 2. Otvorite radni verziju predračuna i na traci **Radnje** kliknite na **Osvežavanje transakcija stavki fakture**.
 
   Ovo kreira detalje o stavki fakture za sve stvarne vrednosti čiji datum je istekao i označene su kao **Spremno za fakturisanje**; ali nisu uključene u fakturu.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

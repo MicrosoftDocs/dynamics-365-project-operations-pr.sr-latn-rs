@@ -96,3 +96,6 @@ Kliknite na **Prosledi** da biste poslali vremenski raspored toku posla odobrava
 ## <a name="review-timesheets"></a>Pregledajte vremenske rasporede
 
 Lista vremenskih rasporeda koje treba pregledati dostupna je u meniju. Ova opcija je dostupna samo ako ste izabrani za davaoca odobrenja toka posla. Podržani su i zaglavlje i odobrenje linije. Odobrenje nivoa linije nudi mogućnost obeležavanja jedne ili više linija za odobrenje. Nakon pregleda informacija o vremenskom rasporedu, kliknite na **Odobri** , **Delegat** ili **Povratak** da biste nastavili tok posla.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

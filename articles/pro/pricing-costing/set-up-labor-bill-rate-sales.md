@@ -55,3 +55,6 @@ Na primer, programeru iz odeljenja za kompanije Fabrikam India koji radi na amer
     | Projektant | Fabrikam US | 150 USD |
 
 3. Priložite prodajni cenovnik, **Fabrikam US stope naplate** projektnom cenovniku projektnog ugovora ili na određeni nalog.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

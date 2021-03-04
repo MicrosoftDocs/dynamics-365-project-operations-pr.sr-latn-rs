@@ -38,3 +38,6 @@ Izaberite **Prijava** > **Prijavite se u okruženje** za navigaciju do modula **
 
 > [!NOTE]
 > Usluzi Project Operations možete pristupiti u usluzi Common Data Service i modulu **Upravljanje projektima i računovodstvo** direktno koristeći njihove odgovarajuće URL adrese. 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

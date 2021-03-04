@@ -32,3 +32,6 @@ Bilo koji projekat koji nije povezan sa ugovorom u proizvodu Dynamics 365 Projec
 Nakon što su transakcije knjižene u projekat, ako je projekat povezan sa projektnim ugovorom, sistem poništava sve akumulirane transakcije i kreira nove naplative transakcije. Transakcije koje se naplaćuju prate računovodstvena pravila definisana u odgovarajućem profilu troškova i prihoda projekta.
 
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

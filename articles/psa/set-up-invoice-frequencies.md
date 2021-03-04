@@ -51,3 +51,6 @@ Učestalost faktura [!INCLUDE[pn_project_service_auto](../includes/pn-project-se
   
 ### <a name="see-also"></a>Takođe pogledajte  
  [Konfigurisanje aplikacije Project Service](../psa/configure.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

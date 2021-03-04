@@ -50,3 +50,6 @@ Sledeća tabela navodi tipove tokova posla u kojima možete da kreirate u odeljk
 |      <strong>Zahtev za gotovinski avans</strong>      |         Kreirajte tokove odobrenja za zahteve za gotovinskim avansom.          |
 |        <strong>Povraćaj PDV-a</strong>        | Kreirajte tokove odobrenja za povraćaj poreza na dodatu vrednost (PDV).  |
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

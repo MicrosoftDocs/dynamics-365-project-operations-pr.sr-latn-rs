@@ -64,3 +64,6 @@ Ova tema pokazuje kako da podesite fakturisanje projekata između dve kompanije 
 32. U polje **Cena** unesite broj.
 33. Izaberite stavku **Sačuvaj**.
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

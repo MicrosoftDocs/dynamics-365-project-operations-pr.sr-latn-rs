@@ -44,3 +44,6 @@ Sledeća tabela prikazuje polja u zapisu klijenta stavke ponude u stavci ponude 
 Procente podele naplate možete urediti iznutra. Kada procenti podele naplate ne iznose 100%, dolazi do greške. Kada uređujete procente podele naplate, osvežite stranicu stavke ponude da biste uklonili grešku.
 
 Koristite radnju ravnomerne raspodele na podformi klijenata stavke ponude da biste dodelili podele naplate svim klijentima stavke ponude. Ako postoji faktor zaokruživanja, to će se dodati klijentu za zaokruživanje. Jedan od klijenata stavke ponude uvek je označen kao klijent za zaokruživanje, što znači da je u zapisu klijenta stavke ponude zastavica za zaokruživanje podešena na **Da**. 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

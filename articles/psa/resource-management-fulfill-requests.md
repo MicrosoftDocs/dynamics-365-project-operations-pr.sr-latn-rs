@@ -46,3 +46,6 @@ Pomoćnik za zakazivanje će se prikazati i filtrirate ga prema potrebama. Izabe
 > ![Resurs je izabran](media/Resource-Management-image61.png)
 
 Generički član tima zamenjuje se fiksno rezervisanim imenovanim resursom projektnog tima i dodelama zadataka u rasporedu projekta.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

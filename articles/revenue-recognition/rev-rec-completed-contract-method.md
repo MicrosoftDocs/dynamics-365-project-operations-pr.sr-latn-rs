@@ -90,3 +90,6 @@ Procena menja status u **Eliminisano**.
 Koristite ovu stranicu za storniranje svih eliminacija sa navedenim datumom procene i sa statusom procene **Eliminisan**. Status transakcije se menja nakon što izaberete odgovarajuća polja.
 
 Ovo takođe automatski menja status projekta u **U procesu** ako je faza projekta postavljena na dovršeno. Procenjeni status projektnog perioda se vraća na **Proknjiženo**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

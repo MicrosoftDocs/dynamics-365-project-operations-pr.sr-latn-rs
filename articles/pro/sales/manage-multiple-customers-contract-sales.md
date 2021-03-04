@@ -52,3 +52,6 @@ Klijent za ugovor može biti kreiran, ažuriran ili izbrisan iz kartice **Klijen
 Procenti podele naplate se mogu uređivati pomoću iskustva direktnog uređivanja u mreži. Kada procenti podele naplate ne budu iznosili 100 procenata, dobićete grešku. Kada uredite procente podele naplate, osvežite stranicu da biste odbacili grešku.
 
 Takođe možete izabrati **Ravnomerno raspoređivanje** na podformi **Klijenti za ugovor** da biste ravnomerno rasporedili podelu naplate na sve klijente za ugovor. Ako postoji faktor zaokruživanja, on će se dodati klijentu za zaokruživanje. Jedan od klijenata za ugovor je uvek označen kao klijent za **zaokruživanje**, što znači da je u zapisu klijenta za ugovor zastavica zaokruživanja postavljena na **Da**. To je obično primarni klijent za ugovor, ali to se može promeniti.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

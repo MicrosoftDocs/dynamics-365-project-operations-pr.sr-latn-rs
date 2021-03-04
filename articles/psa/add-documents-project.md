@@ -45,3 +45,6 @@ Držite dokumente povezane sa projektom organizovane tako što ćete ih dodati u
   
 ### <a name="see-also"></a>Takođe pogledajte  
  [Vodič za menadžera projekta](../psa/project-manager-guide.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

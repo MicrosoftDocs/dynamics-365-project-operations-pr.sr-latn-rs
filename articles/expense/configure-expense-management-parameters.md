@@ -83,3 +83,6 @@ Ova tema opisuje parametre kontrole opšteg ponašanja u upravljanju troškovima
 | Prikaz atestiranja o borbi protiv korupcije   | Izaberite ovu opciju da biste prikazali tekst o borbi protiv korupcije kada se kreira izveštaj o troškovima. Tada se mogu omogućiti određene kategorije troškova koje će zahtevati da se u izveštaju o troškovima izabere potvrda o borbi protiv korupcije. Na primer, kategorija poklona koja se odnosi na trošak državnog službenika može zahtevati da zaposleni potvrdi da trošak ispunjava smernice preduzeća koje se odnose na državne službenike. |
 | Poruka o borbi protiv korupcije za podnosioca | Unesite tekst koji treba pokazati zaposlenom koji kreira izveštaj o troškovima. Da biste uneli tekst specifičan za jezik koji će se prikazivati, na osnovu korisničkog jezika, izaberite **Prevodi**. |
 | Poruka o borbi protiv korupcije za davaoca odobrenja  | Unesite tekst koji treba pokazati davaocu odobrenja kada kreira izveštaj o troškovima. Da biste uneli tekst specifičan za jezik koji će se prikazivati, na osnovu korisničkog jezika, izaberite **Prevodi**. |
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

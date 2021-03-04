@@ -57,3 +57,6 @@ Sledeća tabela navodi ispravke za Project Operations u Dataverse okruženju ver
 | Vreme i trošak | 2034882 | Dugme **Novo** se prikazuje dva puta na komandnoj traci za stavke vremena kada je instalirana usluga Dynamics 365 Field Service. |
 | Vreme i trošak | 2056028 | Ažuriranje stranice **Uređivanje vremena** tako da uključuje stavku vremena. |
 | Vreme i trošak | 1983747 | Grafikon stavke vremena prikazuje dodatne podatke. |
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -54,3 +54,6 @@ Možete definisati radne aktivnosti i procene rasporeda pomoću polja na kartici
 ## <a name="importing-estimates-from-a-project-into-a-quote"></a>Uvoz procena iz projekta u ponudu
 
 Nakon što definišete procene projekta, možete ih uvesti u stavku ponude. Na stranici **Detalji stavke ponude** izaberite **Uvoz iz procena** na traci da biste rezimirali procene projekta prema vrsti transakcije, ulozi ili nivou zadatka.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

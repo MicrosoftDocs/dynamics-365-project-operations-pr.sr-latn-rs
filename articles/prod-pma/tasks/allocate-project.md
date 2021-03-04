@@ -44,3 +44,6 @@ Nakon dodele budžeta ili revizije budžeta, možete da pregledate iznose za dod
 10. Kada je dodela onakva kakvu želite, Kliknite na Proknjiži na stranici Budžet projekta da biste budžet ili revizije budžeta poslali u tok posla odobrenja.  
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

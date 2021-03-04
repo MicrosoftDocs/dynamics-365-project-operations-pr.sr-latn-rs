@@ -95,3 +95,6 @@ Ovaj vodič obezbeđuje informacije koje su vam potrebne da biste kreirali i upr
  [Vodič za menadžera resursa](../psa/resource-manager-guide.md)   
  [Vodič za vreme, trošak i saradnju](../psa/time-expense-collaboration-guide.md)
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -47,3 +47,6 @@ Da biste otvorili stranicu **Parametri integracije usluge Project Service Automa
 | Podrazumevane vrste naplate  | Tip naplate         | Kliknite na **Novo** da biste dodali red u kome možete da odaberete vrstu naplate za koju ćete postaviti podrazumevano svojstvo reda. Određena vrsta naplate se može izabrati samo jednom u konfiguraciji. |
 |                        | Svojstvo reda        | Izaberite podrazumevano svojstvo reda za izabranu vrstu naplate. Kada se nove procene sati, nove procene troškova ili nove stvarne vrednosti sinhronizuju iz usluge Project Service Automation, polje **Svojstvo linije** se postavlja na podrazumevanu vrednost za vrstu naplate. |
 | Zaključavanje funkcionalnosti  | Nije primenjivo       | Izaberite funkcionalnost koju ćete onemogućiti u usluzi Finance za projekte i ugovore koji potiču iz usluge Project Service Automation. Na primer, možete da isključite mogućnost uređivanja ugovora i projekata, kreiranja strukturne analize posla i unosa vremenskih rasporeda u Finance. Polja koja se odnose na računovodstvo i dalje će biti omogućena, čak i ako postanu nedostupna podešavanjem parametra. Podrazumevano je omogućena sva funkcionalnost. |
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

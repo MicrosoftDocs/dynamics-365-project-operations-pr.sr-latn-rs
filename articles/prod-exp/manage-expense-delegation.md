@@ -41,3 +41,6 @@ Kada je ključ za upravljanje funkcijama **Omogući stranicu liste delegata tro�
 Korisnik-delegat može brzo filtrirati i pretraživati postojeće izveštaje o troškovima koji su mu delegirani. Takođe može da kreira novi izveštaj o troškovima za druge korisnike izborom opcije **Novi izveštaj o troškovima**.
 
 Korisnici-delegati takođe mogu da kreiraju izveštaje o troškovima za druge zaposlene i upravljaju njima odlaskom na **Upravljanje troškovima** > **Moji troškovi** > **Izveštaji o troškovima** i izborom opcije **Otvori troškove drugog korisnika**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

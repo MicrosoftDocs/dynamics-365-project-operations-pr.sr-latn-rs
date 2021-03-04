@@ -59,3 +59,6 @@ Svaki projekat ima određeni broj članova projektnog tima. Možete odrediti koj
 3. Izaberite stavku **Sačuvaj**.
 
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

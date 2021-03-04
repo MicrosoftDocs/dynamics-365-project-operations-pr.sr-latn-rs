@@ -273,3 +273,6 @@ Naplaćeni stvarni iznos prodaje za liniju proizvoda sa količinom i iznosom koj
         </tr>
     </tbody>
 </table>
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

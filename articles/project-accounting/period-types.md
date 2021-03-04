@@ -34,3 +34,6 @@ Da biste kreirali i radili sa tipovima perioda, izvršite sledeće korake:
 4. Izaberite zapis tipa perioda, a zatim izaberite **Generiši periode** da biste kreirali periode za tip perioda. Na osnovu učestalosti perioda koju ste izabrali, možda ćete moći da odredite datum početka ili broj perioda koji treba generisati.
 5. Izaberite **Periodi** da biste pregledali generisane periode.
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

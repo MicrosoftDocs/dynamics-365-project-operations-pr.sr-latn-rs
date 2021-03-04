@@ -55,3 +55,6 @@ Kreiranje ponude je slično kreiranju mogućnosti za poslovanje. Dok je mogućno
   
 ### <a name="see-also"></a>Takođe pogledajte  
  [Vodič za menadžera za poslovne kontakte](../psa/account-manager-guide.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

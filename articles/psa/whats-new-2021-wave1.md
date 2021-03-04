@@ -43,3 +43,6 @@ Popravljeni su sledeći problemi:
 
 - Datumi završetka se automatski popunjavaju kada se kreira unos vremena ako je trajanje nula.
 - Korisnici mogu da promene zadatak u stavci vremena koja je odobrena ili podneta.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

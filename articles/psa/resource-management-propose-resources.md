@@ -113,3 +113,6 @@ Pošto Dynamics 365 Project Service Automation koristi Universal Resource Schedu
 Da biste videli više detalja o pojedinačnom resursu, kliknite desnim tasterom miša na resurs da biste otvorili karticu resursa.
 
 ![Kartica resursa](media/Resource-Management-image71.png)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

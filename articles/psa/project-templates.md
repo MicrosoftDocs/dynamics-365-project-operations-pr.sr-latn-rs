@@ -69,3 +69,6 @@ Kada kopirate više stavki procene projekata, cenovnici se ažuriraju. U cenovni
 ### <a name="copying-a-project-team"></a>Kopiranje projektnog tima
 
 Kada kopirate projektni tim iz predloška projekta u projekat, kopiraju se generički resursi, zajedno sa veštinama i stručnošću definisanim u predlošku. Dodele generičkih resursa takođe se održavaju kao u predlošku projekta. Imenovani resursi nisu podržani u predlošcima projekata.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

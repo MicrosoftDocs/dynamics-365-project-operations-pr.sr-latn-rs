@@ -93,3 +93,6 @@ Project Operations ugovori se grade na Dynamics 365 Sales ugovorima. Međutim, p
 - Project Operations ugovori imaju sopstveni obrazac i elemente korisničkog interfejsa, poslovna pravila, poslovnu logiku u dodatnim komponentama i skripte na strani klijenta koje ih čine jedinstvenim u odnosu na ugovore usluge Sales.
 
 Iz ovih razloga ne treba da koristite Sales ugovor i ugovor o projektu naizmenično.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -26,3 +26,5 @@ Zahteve za resursima definiše menadžer projekta kako bi utvrdio resurse potreb
 3.  Na kartici **Član tima** izaberite člana tima, a zatim izaberite **Generiši zahtev**.
 
 Za informacije o tome kako da izmenite zahtev za resursima, pogledajte [Ažuriranje detalja zahteva za resursima](define-resource-requirements.md) da biste izmenili zahtev za resursima.
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

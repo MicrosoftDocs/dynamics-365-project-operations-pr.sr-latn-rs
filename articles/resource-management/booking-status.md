@@ -20,3 +20,6 @@ ms.locfileid: "4514579"
 _**Odnosi se na:** Project Operations za resurs/scenarije koji nisu zasnovani na zalihama, laganu primenu – od pogodbe do profakture_
 
 Možete da koristite funkcionalnost obezbeđenu u sluzi Universal Resource Scheduling za Dynamics 365 Field Service da biste konfigurisali statuse rezervacija za svoju organizaciju. Za informacije o tome kako da dovršite ovo podešavanje, pogledajte [Podešavanje statusa rezervacije](https://docs.microsoft.com/dynamics365/field-service/set-up-booking-statuses).
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

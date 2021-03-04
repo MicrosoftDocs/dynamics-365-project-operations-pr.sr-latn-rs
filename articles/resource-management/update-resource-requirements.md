@@ -37,3 +37,5 @@ Kao menadžer projekta, izvršite sledeće korake da biste uredili zahtev za res
 ## <a name="edit-resource-assignment-contours"></a>Uređivanje kontura dodeljivanja resursa
 
 Pored uređivanja detalja zahteva za resursima, menadžer projekta može da ažurira pojedinačne konture zahteva za resursima koristeći funkcionalnost **Navedi obrazac**. Kada izaberete **Navedi obrazac**, otvoriće se stranica i možete videti konture na vremenskoj skali dana, nedelje ili meseca. Svaka kontura se može podesiti za vreme početka, vreme završetka i ukupno angažovanje u datom periodu.
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

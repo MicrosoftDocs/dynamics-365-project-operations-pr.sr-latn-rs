@@ -69,3 +69,6 @@ Da biste omogućili poboljšanje performansi planiranja resursa, izvršite slede
 
 > [!NOTE]
 > Ovo će distribuirati opšte podatke u tabeli **ResRollup** u svim kompanijama u vašem okruženju, tako da grupni posao treba pokrenuti samo u jednom pravnom licu. Ovaj grupni posao potreban je svim prikazima **Dostupnost resursa**. Ako se ovaj grupni posao ne pokrene, **ResRollup** podaci će se generisati u hodu, što može potrajati.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

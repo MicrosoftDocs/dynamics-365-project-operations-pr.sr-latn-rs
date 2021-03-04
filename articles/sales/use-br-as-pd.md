@@ -78,3 +78,6 @@ Zapis dimenzije za određivanje cena za **msydn_bookableresource** mora da bude 
 5. Dodajte **msdyn_bookableresourceid** u **Naziv polja**.
 
  ![Obrazac za novo ime polja dimenzije za određivanje cena](media/PD-fieldname-Added.png)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

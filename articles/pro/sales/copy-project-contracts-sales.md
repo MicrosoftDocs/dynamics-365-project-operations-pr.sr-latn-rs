@@ -45,3 +45,6 @@ Sledeće informacije se ne kopiraju iz **izvornog** u **ciljni ugovor**:
   - Informacije o budžetu klijenta
 
 Budući da su ove informacije vrlo specifične za svaki ugovor, ta polja i zapisi se ne kopiraju. Kopiraju se predmeti ugovora za projekte i proizvode, procene detalja predmeta ugovora i vrednosti koje ne smeju da premaše vrednost na nivou ugovora. Podrazumevane vrednosti cena i stopa troškova zavise od izbora u polju **Kopiranje određivanja cena** na stranici dijaloga **Kopiranje parametara**.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

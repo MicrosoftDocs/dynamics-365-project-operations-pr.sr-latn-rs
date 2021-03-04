@@ -94,3 +94,6 @@ Podešavanje prioriteta dimenzije pomaže da Project Service određivanje cena i
 
 - **Prioritet cene**: vrednost prioriteta cene dimenzije će ukazati na težinski faktor te dimenzije kada se podudara sa podešavanjem cena koštanja. Vrednost **Prioritet troškova** mora biti jedinstvena za sve dimenzije koje su **primenljive na troškove**.
 - **Prioritet prodaje**: vrednost prioriteta prodaje dimenzije će ukazati na težinski faktor te dimenzije kada se podudara sa podešavanjem prodajnih cena ili stopa naplate. Vrednost **prioriteta prodaje** mora biti jedinstvena za sve dimenzije koje su **primenljive na prodaju**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

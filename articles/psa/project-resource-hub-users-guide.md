@@ -105,3 +105,6 @@ Unesite svoje troškove bar sedmično – ili onoliko često koliko to menadžer
  [Pregled usluge Project Service](../psa/overview.md)   
  [Vodič za vreme, trošak i saradnju](../psa/time-expense-collaboration-guide.md)   
  
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

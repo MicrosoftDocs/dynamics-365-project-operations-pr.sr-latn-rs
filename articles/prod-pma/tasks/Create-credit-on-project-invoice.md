@@ -39,3 +39,6 @@ ms.locfileid: "4083557"
 10. Kliknite na dugme U redu. 
 
 Nakon ovog koraka, odobrenje će biti dostupno za predlog fakture.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

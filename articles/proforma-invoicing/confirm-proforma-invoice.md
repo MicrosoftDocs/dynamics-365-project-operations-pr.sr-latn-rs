@@ -198,3 +198,6 @@ Naplaćeni stvarni iznos prodaje za iznos kontrolne tačke na originalnoj kontro
         </tr>
     </tbody>
 </table>
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

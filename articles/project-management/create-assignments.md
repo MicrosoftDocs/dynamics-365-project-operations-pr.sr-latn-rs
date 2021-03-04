@@ -42,3 +42,6 @@ Možete da koristite polje za pretragu u **biraču resursa** da pretražite sve 
 1. Iz mreže zadataka, sa table ili vremenske ose idite na ćeliju **Dodeljeno**.
 2. U polju za pretragu počnite da kucate ime. Prikazuju se rezultati pretrage za ime u **biraču resursa** u okviru opcije **Drugi resursi**.
 3. Izaberite resurs koji želite da dodelite zadatku ili izaberite ime resursa u delu **Ostali resursi tima**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -52,3 +52,6 @@ Za više informacija o izveštavanju u aplikaciji PSA, pogledajte sledeće teme:
 - [Rad sa Project Service modelom podataka](reports-working-project-service-data-model.md)
 - [Kontrolne table](reports-dashboards.md)
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

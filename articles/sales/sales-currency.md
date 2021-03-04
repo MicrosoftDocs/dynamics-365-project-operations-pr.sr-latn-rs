@@ -71,3 +71,6 @@ Pre nego što započnete ovaj postupak, proverite da li vaša bezbednosna uloga 
 
 > [!IMPORTANT]
 >  Ne možete da izbrišete valute koje koriste drugi zapisi. Možete samo da ih deaktivirate. Deaktiviranjem zapisa o valuti ne uklanjaju se informacije o valuti uskladištene u postojeće zapise, kao što su mogućnosti za poslovanje ili porudžbine. Međutim, nećete moći da izaberete deaktiviranu valutu za nove transakcije.  
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

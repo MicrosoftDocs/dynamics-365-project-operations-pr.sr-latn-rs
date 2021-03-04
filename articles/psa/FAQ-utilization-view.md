@@ -101,3 +101,6 @@ Ako ne vidite naplativu ukupnu iskorišćenost, evo nekih stvari koje možete da
   - Uloge za predmet ugovora za projekat koji podržava projekat je podešena na nenaplativo.
   - Projekat nema povezani predmet ugovora.
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

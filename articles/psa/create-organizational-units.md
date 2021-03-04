@@ -52,3 +52,6 @@ Vaše preduzeće verovatno organizuje svoje konsultantsko poslovanje prema geogr
   
 ### <a name="see-also"></a>Takođe pogledajte  
  [Konfigurišite program Project Service Automation](../psa/configure.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

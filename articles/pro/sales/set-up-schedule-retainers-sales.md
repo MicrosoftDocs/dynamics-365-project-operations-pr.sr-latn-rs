@@ -32,3 +32,6 @@ Rasporedi avansa se podešavaju na stranici **Ugovor za projekat** u usluzi Dyna
 | Broj avansa za kreiranje | Kada unesete broj avansa koje treba kreirati, sistem koristi datum početka i učestalost za kreiranje broja u ovom polju. | Kada se ovo polje ručno ažurira, sistem zanemaruje vrednost u polju **Kraj rasporeda avansa** i umesto toga kreira određeni broj avansa ili akontacija. |
 | Učestalost fakturisanja | Koliko često će aplikacija kreirati avanse i akontacije. | Ova vrednost direktno utiče na broj avansa i akontacija i datume kreiranja. |
 | Ukupan iznos | Ukupan iznos je iznos koji se deli na pojedinačni avans ili avansno plaćanje koje će se kreirati. | Nema posledičnog uticaja za ovo polje. |
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

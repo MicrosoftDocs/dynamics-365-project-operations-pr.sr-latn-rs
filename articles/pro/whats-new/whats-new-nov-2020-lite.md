@@ -37,3 +37,6 @@ Sledeća tabela navodi ispravke za Project Operations u CDS okruženju verzije 4
 | Stavka vremena i brzog troška | 2047499          | Dugme **Novo** na stranici Stavka vremena otvara stranicu **Nov potpis e-pošte**.                                                                                               |
 | Stavka vremena i brzog troška | 2059859          | Otvara se neočekivani iskačući prozor prilikom kreiranja stavke troška.                                                                                                                         |
 | Drugi                        | 2044181          | [Deinstalacija PO] – Dolazi do greške „Zapis nije dostupan“ kada pokušate da deinstalirate osnovna rešenja **msdyn_ProjectServiceCore_Patch** i msdyn Project Service.        |
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

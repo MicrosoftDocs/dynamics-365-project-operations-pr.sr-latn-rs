@@ -61,3 +61,6 @@ U ovoj temi date su funkcije koje su nove ili su promenjene u rešenju Project S
     - Ispravljeno: duplirani ID-ovi objekta pronađeni na glavnom obrascu **Ugovor**.
     - Ispravljeno: logika je ispravljena kako bi kartica **Analiza ponude** bila vidljiva tako da prikazuje podešavanje metapodataka kartice.
     - Ispravljeno: računovodstveni datum na stvarnom zapisu sada potiče od datuma unosa vremena/troška, a ne od datuma odobrenja.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

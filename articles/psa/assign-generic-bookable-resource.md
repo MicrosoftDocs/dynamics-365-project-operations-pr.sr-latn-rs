@@ -59,3 +59,6 @@ Takođe možete da kliknete na vezu **Potreba za resursom** u mreži tima da bis
 
 ![Zahtev za resursima](media/RM-how-to-13.png)
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

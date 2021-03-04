@@ -102,3 +102,6 @@ Sledi kratak pregled tipičnih kontrola koje se nalaze na različitim karticama 
 **Dodaj kolonu**: Omogućava korisniku da definiše vidljive kolone u mreži. Samo unapred pripremljene kolone se mogu dodati u mreže u obrascu **Projektno planiranje**.
 
 ![Dugme „Dodaj kolonu“](media/navigation5.png)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

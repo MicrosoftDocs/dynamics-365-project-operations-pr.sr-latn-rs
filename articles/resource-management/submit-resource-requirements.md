@@ -27,3 +27,6 @@ Generisanu potrebu za resursom možete proslediti kao zahtev za resurs. Zahtev s
 Status zahteva generičkog člana tima će se promeniti u **Prosleđen**.
 
 Kada se zahtev ispuni, generički resurs se menja imenovanim resursom ako menadžer resursa ispuni zahtev rezervisanjem imenovanog resursa. U suprotnom, ako menadžer resursa predloži imenovani resurs, generički resurs ostaje u timu i status zahteva će se promeniti u **Zahteva pregled**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -30,3 +30,6 @@ Menadžer projekta može pregledati nenaplaćene prodajne transakcije koristeći
 Možete [ručno da kreirate profakturu](../proforma-invoicing/create-manual-proforma-invoice.md) ili da koristite [periodični proces](../proforma-invoicing/configure-automated-invoice-creation.md). Menadžer projekta može da [prilagodi radnu verziju profakture](../proforma-invoicing/manage-proforma-invoice.md) po potrebi, a zatim da je potvrdi.
 
 Potvrđena profaktura se šalje u modul **Upravljanje projektima i računovodstvo** u usluzi Finance. Računovođa projekta formatira i ažurira predlog fakture projekta, a zatim knjiži i štampa dokument. Proknjižene fakture projekata evidentiraju se u glavnoj knjizi, kao i u potknjigama za klijenta i projekat.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

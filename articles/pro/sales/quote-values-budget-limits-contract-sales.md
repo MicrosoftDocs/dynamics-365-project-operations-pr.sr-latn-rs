@@ -41,3 +41,6 @@ U nastavku su kartice i KPI-ovi dostupni na ponudi za projekt koji su jedinstven
 | Analiza isplativosti | Kartica u ponudi | Kartica prikazuje sledeće metrike:</br>- Ukupni naplativi troškovi</br></br>- Ukupni nenaplativi troškovi</br>- Ukupan prihod</br>- Ukupni prihod (osnovni)</br>- Bruto marža</br>- Prilagođena bruto marža|
 | Poređenje sa očekivanjima klijenta | Kartica u ponudi | Ova kartica prikazuje sledeće metrike:</br>- Procenjeni završetak</br>- Zahtevani završetak</br>- Budžet klijenta</br>- Vrednost ponude |
 | Analiza ponude | Kartica u ponudi | Ova kartica rezimira sledeće najvažnije KPI-ove za ponudu za projekat</br>- Poređenje sa očekivanjima klijenata za budžet i raspored</br>- Bruto marža</br>- Prilagođena bruto marža |
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

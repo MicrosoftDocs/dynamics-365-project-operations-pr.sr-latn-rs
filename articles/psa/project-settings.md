@@ -68,3 +68,6 @@ Svaka organizacija mora podesiti ove uloge na stranici **Aktivne kategorije resu
 ## <a name="price-lists"></a>Cenovnici
 
 Cenovnici vam omogućavaju da podesite cene koštanja i prodajne cene za uloge resursa, kategorije troškova, proizvode i druge elemente u organizaciji. Da biste mogli da podesite finansijske procene za posao koji mora da se obavi za projekat, treba da kreirate odgovarajuću listu troškova i cenovnik prodaje. U odeljku sa parametrima treba da podesite i podrazumevani cenovnik troškova i prodajni cenovnik koji se odnosi na sve projekte kreirane u organizaciji. Na stranici **Aktivni parametri projekta** proverite da li ste podesili podrazumevani cenovnik troškova i prodajni cenovnik.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

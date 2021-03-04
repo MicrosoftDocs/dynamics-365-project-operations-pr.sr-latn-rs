@@ -47,3 +47,6 @@ Ova poruka o grešci ukazuje na to da postoje zapisi cena koji su prethodno pode
 
 Kada isključite polje **Standardna pozicija** kao dimenziju za određivanje cena, a Project Service mehanizam za određivanje cena pretražuje cenu, koristiće samo vrednost **Organizaciona jedinica** iz konteksta unosa. Ako je **Organizaciona jedinica** konteksta unosa „Contoso US“, rezultat će biti neodređen jer će se oba reda podudarati. Da biste izbegli ovaj scenario, kada kreirate zapise **Cena uloge**, Project Service proverava da li je kombinacije dimenzija jedinstvena. Ako je dimenzija isključena nakon kreiranja zapisa **Cena uloge**, ovo ograničenje može da se prekrši. Zbog toga je neophodno da pre isključivanja dimenzije izbrišete sve redove **Cena uloge** i **Provizija na cenu uloge** u kojima je ta vrednost dimenzije popunjena.
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

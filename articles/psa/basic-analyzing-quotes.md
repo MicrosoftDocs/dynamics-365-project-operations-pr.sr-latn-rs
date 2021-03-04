@@ -60,3 +60,6 @@ Možete analizirati ponude i generisati grafikone za očekivanja klijenata u vez
 Analiza očekivanja klijenata u vezi sa rasporedom se vrši poređenjem najnovijeg datuma završetka detalja stavke ponude sa zahtevanim datumom isporuke za sve stavke ponude u ponudi.
 
 Analiza očekivanja klijenata u vezi sa budžetom vrši se poređenjem zbira ukupnog budžeta klijenta sa ponuđenim iznosom u svim stavkama ponude.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

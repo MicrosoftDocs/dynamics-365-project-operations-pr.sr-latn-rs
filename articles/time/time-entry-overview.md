@@ -27,3 +27,6 @@ Kada evidentiraju vreme u usluzi Project Operations, korisnici mogu pratiti bilo
 
 Za više informacija o tome kako da napravite, pošaljete ili opozovete stavku i druge alate koji će vam pomoći da popunite izveštaj, pogledajte [Ponašanje korisnika stavke vremena](ui-behavior-time.md).
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

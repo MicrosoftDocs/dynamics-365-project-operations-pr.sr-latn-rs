@@ -82,3 +82,6 @@ Resursi dodeljeni na ovaj način dodaju se u tim bez ikakvih rezervacija. To je 
 
 3. Izaberite resurs koji želite da dodelite zadatku.
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

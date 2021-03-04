@@ -63,3 +63,6 @@ Možete upotrebiti isti metod da otkažete fiksnu rezervaciju ili uslovnu rezerv
 Da biste pretvorili resurs koji je uslovno rezervisan u fiksno rezervisan na kartici projekta **Tim**, izaberite resurs, a zatim izaberite **Potvrdi**.
 
 ![Komanda za potvrdu](media/Resource-Management-image83.png)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

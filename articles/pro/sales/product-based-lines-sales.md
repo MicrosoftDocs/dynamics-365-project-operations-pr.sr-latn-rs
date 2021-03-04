@@ -28,3 +28,6 @@ Stavke zasnovane na proizvodima mogu biti artikli iz kataloga ili ručno dodati 
 
 Kada je metod prihoda rezimea mogućnosti za poslovanje **Izračunava sistem**, vrednosti budžeta klijenta u stavkama mogućnosti za poslovanje su sumirane da bi se izračunao procenjeni prihod. 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

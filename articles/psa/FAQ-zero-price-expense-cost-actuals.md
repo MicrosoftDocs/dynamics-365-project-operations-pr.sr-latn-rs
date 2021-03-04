@@ -38,3 +38,6 @@ Ova najčešća pitanja se odnose na stvarne troškove u kojima je klasa transak
 Idite na odnosnu stavku troška i uverite se da u polju stavke troška postoji iznos. Ako izvorna stavka troška nije imala popunjeno polje za iznos, onda ste izolovali problem.
  
 Da biste rešili ovaj problem, ponovo kreirajte stavku troška sa važećim iznosom i odobrite ga.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

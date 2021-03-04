@@ -55,3 +55,6 @@ Sledeći postupak je primer toka posla za upravljanje troškovima za izveštaj o
 Nakon što se ovi zahtevi provere, izveštaj o troškovima se knjiži.
 
 Nakon što se proknjiži izveštaj o troškovima, odobrava se plaćanje za izveštaj o troškovima, a zaposlenom se nadoknađuje.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

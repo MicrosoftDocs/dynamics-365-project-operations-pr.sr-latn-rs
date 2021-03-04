@@ -74,3 +74,6 @@ Pre nego što započnete konfiguraciju, morate imati Common Data Service (CDS) o
     -   Karakteristika resursa koji može da se rezerviše
 
     ![Kompletan uvoz](./media/6CompleteImport.png)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

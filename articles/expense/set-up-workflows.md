@@ -48,3 +48,6 @@ Sledeća tabela navodi tipove tokova posla u kojima možete da kreirate **Upravl
 |       <strong>Zahtev za putovanjem</strong>       |          Kreirajte tokove posla odobrenja za putne zahteve.           |
 |      <strong>Zahtev za gotovinski avans</strong>      |         Kreirajte tokove odobrenja za zahteve za gotovinskim avansom.          |
 |        <strong>Povraćaj PDV-a</strong>        | Kreirajte tokove odobrenja za povraćaj poreza na dodatu vrednost (PDV).  |
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

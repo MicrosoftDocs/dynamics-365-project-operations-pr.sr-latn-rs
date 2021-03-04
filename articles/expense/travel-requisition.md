@@ -56,3 +56,6 @@ Izaberite zahtev za putovanje koji želite da odobrite, a zatim izaberite **Tok 
 
 > [!NOTE]
 > Kada mapirate izveštaj o troškovima u odobreni zahtev za putovanje, iznos transakcije ne može biti veći od odobrenog iznosa. 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

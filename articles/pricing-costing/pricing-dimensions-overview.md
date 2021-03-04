@@ -71,3 +71,6 @@ Sledeći primer prikazuje kursne stope koje su podešene na osnovu uloge i organ
 | ----------------|-------------|----------|----------:|----------|
 | Moje preduzeće_Prva grupa ličnih dohodaka | Contoso US  |Hour | 145|USD     |
 | Moje preduzeće_druga grupa ličnih dohodaka | Contoso India |Hour|   67|USD     |
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

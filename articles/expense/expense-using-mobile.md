@@ -236,3 +236,6 @@ Preuzmite i instalirajte Dynamics 365 Unified Ops aplikaciju za mobilne uređaje
 22. Izaberite **Prosledi**.
 23. Unesite komentare za davaoca odobrenja.
 24. Izaberite **Gotovo**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

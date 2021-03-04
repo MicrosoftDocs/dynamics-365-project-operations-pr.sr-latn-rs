@@ -35,3 +35,6 @@ Sve kreirane fakture projekta su dostupne na stranici **Faktura** u odeljku **Na
 Profaktura se takođe može kreirati na stranici sa detaljima **Ugovor o projektu**. Sistem proverava da li projektni ugovor ima zaostatak **Spremno za fakturisanje** datiran pre današnjeg datuma. Od ovih ugovora sistem kreira radne verzije predračuna na osnovu broja klijenata u svakom predmetu ugovora.
 
 Kada se kreira jedan predračun, otvara se stranica **Faktura**. Ako se kreira više faktura za taj ugovor o projektu, otvara se stranica lista **Fakture** sa prikazom svih kreiranih faktura.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -32,3 +32,6 @@ Za izveštaje o troškovima možete dubinski pretražiti transakciju iz original
 Da biste dubinski pretražili originalni izveštaj o troškovima na kojem se transakcija pojavila, izaberite transakciju, a zatim izaberite **Originalni dokument**.
 
 Kada pregledate pojedinačne transakcije, možete da vidite i sve dodatne podatke koji su priloženi transakciji. Na primer, za detaljan hotelski trošak možete pogledati detaljnu listu troškova kao što su pristup Internetu, telefonski pozivi i sobna usluga.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

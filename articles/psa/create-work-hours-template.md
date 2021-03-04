@@ -65,3 +65,6 @@ Da biste mogli da pravite rasporede projekta, morate da podesite kalendar projek
   
 ### <a name="see-also"></a>Takođe pogledajte  
  [Podešavanje resursa](../psa/set-up-resources.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

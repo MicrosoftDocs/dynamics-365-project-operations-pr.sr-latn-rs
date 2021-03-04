@@ -24,3 +24,6 @@ Mogućnosti za poslovanje projekta se mogu zatvoriti kao ostvarene ili neostvare
 Neće vam biti dozvoljeno da zatvorite mogućnost za poslovanje ako su sa njom povezane bilo kakve aktivne ponude. Možete istovremeno zatvoriti sve aktivne ponude i radne verzije ponuda povezane sa mogućnošću za poslovanje. Zatim će vam biti dozvoljeno da zatvorite mogućnost za poslovanje.
 
 Za više opštih informacija o zatvaranju mogućnosti za poslovanje, pogledajte [Zatvaranje mogućnosti za poslovanje kao ostvarenih ili neostvarenih](https://docs.microsoft.com/dynamics365/sales-enterprise/close-opportunity-won-lost-sales).
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -43,3 +43,6 @@ Pored toga, ako imate prilagođene module aplikacija koji sadrže sve obrasce za
 
 ### <a name="currently-extended-time-entry-changes"></a>Trenutno promenjene proširene stavke vremena
 Kako bi se smanjio uticaj na trenutne korisnike stavke vremena, ova promena uloge je jedini suštinski zahtev koji je neophodan kako bi se i dalje koristila stavka vremena. Ako ste kreirali prilagođene prikaze ili odvojena iskustva stavki vremena, morate podesiti polja **Podešavanje stavke vremena** na ispravnu PSA vrednost.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

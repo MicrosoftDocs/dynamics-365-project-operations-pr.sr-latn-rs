@@ -68,3 +68,6 @@ Sledeći koraci vas vode kroz proces registracije dodatnih komponenti.
 
 9. Zatvorite alatku za registrovanje dodatne komponente.
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

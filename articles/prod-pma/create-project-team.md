@@ -62,3 +62,6 @@ Sledeća procedura objašnjava kako da kreirate projektni tim.
 ## <a name="monitor-project-teams"></a>Nadgledajte projektne timove
 1. Na stranici **Svi projekti** , izaberite vezu **ID projekta** za projekat **Nadogradnja XYZ faza 2**.
 2. Na brzoj kartici **Projektni tim i zakazivanje** , uverite se da su navedeni resursi projekta tačni.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

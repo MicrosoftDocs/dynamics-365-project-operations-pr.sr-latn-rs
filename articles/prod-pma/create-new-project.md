@@ -104,3 +104,6 @@ Tokom rezervacije resursa, menadžeri projekata mogu filtrirati resurse uloga ko
 
 3. Izaberite **Sačuvaj** , a zatim zatvorite stranicu.
 4. Na kartici **Kompetencije** , dodajte veštinu **Menadžment projekta** i **PMP** certifikat.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

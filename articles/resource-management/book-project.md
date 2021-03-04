@@ -66,3 +66,6 @@ Kao menadžer projekta, možda ćete morati da rezervišete resurs za projekat, 
 
 > [!NOTE]
 > Ova metoda ne kreira nikakve rezervacije za resurs. Umesto toga, dodaje resurs timu. Kada se član tima doda u projekat, menadžer projekta može koristiti održavanje rezervacija ili produžiti rezervacije da bi potrebne rezervacije dodao resursu.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

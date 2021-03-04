@@ -26,3 +26,6 @@ Office grupe vam omogućavaju da delite projekat sa ostalim članovima tima u us
 > [!NOTE] 
 > Korisnici se dodaju u grupu samo ako pritisnete **Grupe** i dodate ih. Ovo se razlikuje od ponašanja projekta za veb. 
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

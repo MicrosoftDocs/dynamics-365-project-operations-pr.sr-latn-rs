@@ -68,3 +68,6 @@ Moraćete da dodate sledeće Project Service entitete u rešenje za određivanje
 > ![Nemojte da uključujete sve povezane komponente](media/Do-not-include-required.png)
 
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

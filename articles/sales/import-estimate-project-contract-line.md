@@ -59,3 +59,6 @@ Kada korisnik izabere da rezimira po **klasi transakcije**, **kategoriji** i **z
 | Zadatak A | Avionska karta | 1.10.2020. | 4 | 400 | 1600 |
 | Zadatak B | Hotel | 1.10.2020. | 4 | 200 | 800 |
 | Zadatak C | Hotel | 1.11.2020. | 2 | 200 | 400 |
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

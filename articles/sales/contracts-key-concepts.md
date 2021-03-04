@@ -88,3 +88,6 @@ Rasporedi faktura specifični su za svaki predmet ugovora i potrebni su da bi au
 ## <a name="changes-from-dynamics-365-sales-orders"></a>Promene iz Dynamics 365 Sales porudžbina
 
 Ugovori u usluzi Project Operations se grade na osnovu porudžbina u usluzi Dynamics 365 Sales. Međutim, postoje važne razlike u funkcionalnosti. Ugovori imaju sopstveni obrazac i elemente korisničkog interfejsa, poslovna pravila, poslovnu logiku u dodatnim komponentama i skripte na strani klijenta koje ih čine jedinstvenim u odnosu na porudžbine. Iz ovih razloga ne treba da koristite Sales porudžbinu i Project Operations ugovor o projektu naizmenično.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

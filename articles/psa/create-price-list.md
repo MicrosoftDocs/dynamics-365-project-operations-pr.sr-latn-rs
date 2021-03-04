@@ -71,3 +71,6 @@ Cenovnici se oslanjaju na uloge i kategorije troškova, tako da, pre nego što k
   
 ### <a name="see-also"></a>Takođe pogledajte  
  [Konfigurišite program Project Service Automation](../psa/configure.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

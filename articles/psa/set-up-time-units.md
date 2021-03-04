@@ -47,3 +47,6 @@ Konfigurišite jedinice vremena u katalogu proizvoda koje ćete koristiti kao os
   
 ### <a name="see-also"></a>Takođe pogledajte  
  [Konfigurisanje aplikacije Project Service](../psa/configure.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

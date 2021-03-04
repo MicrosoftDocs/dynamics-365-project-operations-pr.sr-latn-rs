@@ -51,3 +51,6 @@ Svako pravno lice koje koristi Project Operations u usluzi Dynamics 365 Customer
   - **Podrazumevane vrednosti tipova obračuna**: Project Operations koristi fiksni skup podrazumevanih zadataka tipa naplate koji se moraju mapirati sa svojstvima stavki usluge Finance. Napravite zapis za svaku vrstu obračuna: **Nije navedeno**, **Naplativo**, **Nenaplativo**, **Besplatno** i **Nije dostupno**.
   - **Podrazumevane kategorije projekata**: Izaberite podrazumevane kategorije projekata koje će se koristiti za svaku vrstu transakcije. Ove podrazumevane vrednosti će se koristiti u **Project Operations dnevniku integracije** i u procenama gde nije navedena kategorija transakcije za stvarni projekat.
   - **Prognoze**: Izaberite model prognoze koji će se koristiti za procenu vremena i troškova.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

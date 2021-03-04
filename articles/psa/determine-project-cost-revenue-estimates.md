@@ -81,3 +81,6 @@ Svi troškovi koji će nastati u toku projekta koji nisu direktno u vezi sa rado
   
 ### <a name="see-also"></a>Takođe pogledajte  
  [Vodič za menadžera projekta](../psa/project-manager-guide.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

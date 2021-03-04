@@ -96,3 +96,6 @@ Da biste osigurali uspešnu nadogradnju, sledeći odnosi moraju se pravilno odr�
 
 - Svi zavisni elementi zadatka projekta moraju biti povezani sa istim projektom.
 - Zadatak ne može da ima isti zavisni element na koji se upućuje više puta.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

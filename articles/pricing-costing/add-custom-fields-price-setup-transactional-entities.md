@@ -146,3 +146,6 @@ Sledeća tabela pruža sveobuhvatnu listu unapred definisanih obrazaca i prikaza
 |  Stvarno|• Informacije<br>• Aktivne stvarne vrednosti|• Vezani prikaz stvarnih vrednosti|
 
 I prilagođena polja ćete možda morati da dodate u poslovna pravila, u zavisnosti od toga šta ste definisali. Jedan od unapred definisanih primera je za poslovno pravilo **Mogućnost uređivanja stavke vremena na osnovu statusa**. Ovo pravilo definiše polja koja treba da budu zaključana kada stavka vremena ima status koji ne može da se uređuje, npr. **Odobreno**. Dodajte polja u ovo poslovno pravilo tako da polja budu zaključana za uređivanje kada se status stavke vremena razlikuje od **Radna verzija** ili **Vraćena**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

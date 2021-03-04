@@ -153,3 +153,6 @@ Sledeće ilustracije prikazuju primere mapiranja zadataka predloška u usluzi Da
 #### <a name="project-contract-line-milestone-mapping-in-the-projects-and-contracts-psa-3x-to-dynamics---v2-template"></a>Mapiranje kontrolnih tačaka predmeta ugovora o projektu u projektima i ugovorima (iz PSA 3.x u Dynamics) – predložak verzije 2:
 
 [![Mapiranje kontrolne tačke predmeta ugovora sa predloškom verzije dva](./media/ProjectContractLineMilestoneMapping_v2.jpg)](./media/ProjectContractLineMilestoneMapping_v2.jpg)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

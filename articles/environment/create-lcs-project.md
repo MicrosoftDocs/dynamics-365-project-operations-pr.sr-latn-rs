@@ -36,3 +36,6 @@ Koristite Lifecycle Services (LCS) da biste upravljali Dynamics 365 Project Oper
 
 Koristite ovaj LCS projekat za primenu Project Operations okruženja.
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

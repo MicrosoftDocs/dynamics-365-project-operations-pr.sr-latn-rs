@@ -46,3 +46,6 @@ Kada se stavka ponude zasniva na katalogu proizvoda, možete izmeniti prodajnu c
 Ako izaberete **Izmena načina određivanja cena**, podrazumevana cena se ne postavlja. Umesto toga, morate da unesete cenu proizvoda u stavku ponude. Ako izaberete **Koristi podrazumevano**, koristi se podrazumevana prodajna cena i polje se zaključava za uređivanje.
 
 Podrazumevane prodajne cene se unose u stavke zasnovane na proizvodima u okviru ponude. Polje **Određivanje cena** se tada podešava na **Izmeni način određivanja cena** tako da možete da uredite podrazumevanu cenu u stavkama ponude. Ovo je ponašanje specifično za Project Operations pri izmeni stavki zasnovanih na proizvodima u usluzi Dynamics 365 Sales.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

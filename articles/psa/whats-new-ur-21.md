@@ -77,3 +77,6 @@ Popravljeni su sledeći problemi:
 - Logika **Rešenje prodajnog cenovnika** nepravilno rukuje vremenskim zonama, što rezultira pogrešnim odabirom cenovnika.
 - **Ukupni stvarni trošak** projekta se može isključiti jednim delom nakon što se odobri jedna stavka vremena.
 - Logika **Rešenje cena** ne daje poruku o grešci prilagođenu korisniku ako **Vraćena cena uloge** nema vrednosti u poljima **'Primarna jedinica'** i **'Cena u osnovnoj jedinici'**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

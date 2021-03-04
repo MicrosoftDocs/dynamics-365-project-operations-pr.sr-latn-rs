@@ -42,3 +42,6 @@ Kalendar ne podržava radnje za pojedinačne stavke kalendara i ne možete odabr
 ## <a name="extensibility"></a>Proširivost
 
 Na stranici **Stavke vremena** koja ima mrežu za stavke vremena, možete dodati prilagođena polja, podesiti polja za pronalaženje i kreirati prilagođene prikaze. Takođe možete podesiti prilagođenu poslovnu logiku koja se zasniva na vrednostima koje su odabrane ili unete u prilagođena polja.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

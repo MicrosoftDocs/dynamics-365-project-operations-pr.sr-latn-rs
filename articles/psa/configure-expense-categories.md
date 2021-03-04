@@ -55,3 +55,6 @@ Svaka kategorija troškova može da ima svoju grupu jedinica i jedinicu. Možete
   
 ### <a name="see-also"></a>Takođe pogledajte  
  [Konfigurišite program Project Service Automation](../psa/configure.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

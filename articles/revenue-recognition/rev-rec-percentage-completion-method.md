@@ -35,3 +35,6 @@ Da biste pregledali procene prihoda projekata sa fiksnom cenom, dovršite slede�
 
   Trošak projekta, profil prihoda, predložak troškova i kôd perioda mogu se ručno podesiti. Ako ih ne postavite ručno, vrednosti će biti podrazumevane na prvo izračunavanje procene za projekat koristeći pravila konfigurisana za profile troškova i prihoda projekta.
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -41,3 +41,6 @@ Ova tema se odnosi na sledeće komponente i verzije usluge Dynamics 365 Project 
 | **Upravljanje mogućnostima za poslovanje** | 2040713 | Ispravljena je greška skripte koja se javlja prilikom kreiranja fakture iz ugovora i kada je Field Service instaliran. |
 | **Planiranje i praćenje projekta** | 2090202 | Označena su poslovna pravila koja se više ne koriste kao **Zastarela**. |
 | **Vreme i trošak** | 2091249 | Ograničene su kontrole tako da korisnici ne mogu da promene zadatak u stavci vremena koja je podneta ili odobrena. |
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

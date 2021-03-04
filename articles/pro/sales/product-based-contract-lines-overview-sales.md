@@ -46,3 +46,6 @@ Ako se predmet ugovora temelji na katalogu proizvoda, možete izmeniti prodajnu 
 Ako polje **Cene** podesite na **Izmena načina određivanja cena**, podrazumevana cena se ne podešava. Unesite cenu za proizvod u predmetu ugovora. Ako polje postavite na **Koristi podrazumevane vrednosti**, koristi se podrazumevana prodajna cena i polje se ne može uređivati.
 
 Nakon što instalirate Project Operations, podrazumevane prodajne cene se unose u stavke zasnovane na proizvodima u okviru ugovora. Polje **Određivanje cena** se podešava na **Izmeni način određivanja cena** tako da možete da uredite podrazumevanu cenu u predmetima ugovora. Ovo je izmena ponašanja stavki zasnovanih na proizvodima specifična za Project Operations u usluzi Dynamics 365 Sales.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

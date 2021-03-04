@@ -63,3 +63,6 @@ Kada je posao za projekat završen, menadžer projekta može da ažurira fazu na
 
 Kada se sve transakcije evidentiraju za projekat, menadžer projekta može da ažurira fazu na **Zatvoreno**. U tom trenutku ne mogu se evidentirati nikakve transakcije i projekt se podešava na „samo za čitanje“.
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

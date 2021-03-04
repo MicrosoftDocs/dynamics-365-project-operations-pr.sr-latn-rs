@@ -60,3 +60,6 @@ U usluzi Dynamics 365 Project Operations, principi prepoznavanja prihoda variraj
 [Upravljanje procenama prihoda](rev-rec-completed-contract-method.md)
 
 [Metodi od troška do dovršetka](cost-complete-methods.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -57,3 +57,6 @@ Da biste modifikovali postojeću ponudu projekta, status ponude mora biti **Krei
 
 > [!NOTE]
 > Ne možete da izmenite ponudu za projekat nakon što se status promeni u **Poslato**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

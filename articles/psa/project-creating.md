@@ -149,3 +149,6 @@ Ako zadatak čvora lista nema prethodne zadatke, njegov datum početka se podraz
 ### <a name="manual-scheduling"></a>Ručno planiranje
 
 Ako pravila automatskog zakazivanja ne zadovoljavaju vaše potrebe, možete da podesite režim zadatka na **Ručno zakazano**. Podešavanje zaustavlja mehanizam za zakazivanje, pa ne može da izračuna vrednosti drugih atributa zakazivanja. Bez obzira na režim zadatka, ako za zadatke podesite prethodne zadatke, uvek utičete na datum početka zavisnog zadatka.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

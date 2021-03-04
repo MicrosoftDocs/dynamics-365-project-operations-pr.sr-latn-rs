@@ -49,3 +49,6 @@ Pomoću aplikacije Project Finder Mobile na [!INCLUDE[tn_iphone](../includes/tn-
   
 ### <a name="see-also"></a>Takođe pogledajte  
  [Vodič za vreme, trošak i saradnju](../psa/time-expense-collaboration-guide.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

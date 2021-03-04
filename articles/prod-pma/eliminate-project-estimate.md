@@ -51,3 +51,6 @@ Da bi se eliminisao projekt procene, on mora biti potpun. Sledeći koraci objaš
 5. Nakon završetka postupka eliminacije, projekat sa eliminisanom procenom prikazuje se sa negativnom vrednošću. 
 
 Ako niste nameravali da eliminišete procenu, možete da izaberete eliminisanu procenu i izaberete **Opozovi eliminaciju**.   
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

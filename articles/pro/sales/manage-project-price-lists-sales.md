@@ -67,3 +67,6 @@ Kada imate organizacione i korisničke podrazumevane cenovnike projekata, vaše 
 
 1. U delu **Ponuda za projekat**, na kartici **Cenovnik projekta**, u podformi verifikujte da nije izabran nijedan određeni zapis o cenovniku.
 2. Izaberite **Kreiranje prilagođenih cena**. Ovim ćete napraviti kopije svih standardnih cenovnika koji su trenutno povezani sa ponudom i povezati ove kopije sa ponudom. Ukloniće se postojeća povezivanja sa standardnim cenovnicima. Tada prodavac može započeti uređivanje cena na ovim kopijama. Ove promenjene cene će se primenjivati samo na ovu ponudu za projekat.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -167,3 +167,6 @@ Ako vaša kompanija posluje kao jedna jedinica koja ima jedan cenovnik troškova
 Kada se projekat kreira samostalno, podrazumevana ugovorna jedinica projekta zasniva se na korisniku koji je kreira. Taj korisnik je i podrazumevani menadžer projekata. Ako je projekat mapiran na prodajni entitet, poput ponude ili ugovora o projektu, ugovorna jedinica za projekat se onda zasniva na prodajnom entitetu. U ovom slučaju mogu se ponovo izračunati procene projekata jer se cenovnik troškova koristi za izračunavanje promena u proceni troškova ako se promeni ugovorna jedinica. Prodajni cenovnik koristi se za izračunavanje prodajnih procena koje će se promeniti tako da budu sinhronizovane sa cenovnikom projekta u ponudi.
 
 Polja **Jedinica ugovaranja** i **Valuta** za projekat su zaključana za uređivanje jer moraju biti sinhronizovana sa vrednostima u prodajnom entitetu (ponuda ili ugovor o projektu) na koji je projekat mapiran.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

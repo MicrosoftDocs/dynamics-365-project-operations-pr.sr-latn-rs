@@ -83,3 +83,6 @@ Ako morate da koristite Power Query, sledite ove smernice:
 Sledeća ilustracija prikazuje primer mapiranja zadataka predloška u integraciji podataka. Mapiranje prikazuje informacije o terenu koje će se sinhronizovati iz usluge Project Service Automation u Finance.
 
 [![Mapiranje predložaka](./media/ProjectTasksMapping.png)](./media/ProjectTasksMapping.png)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

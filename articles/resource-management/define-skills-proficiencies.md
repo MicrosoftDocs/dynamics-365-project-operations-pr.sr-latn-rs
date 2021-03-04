@@ -42,3 +42,6 @@ Veštine za resurse ocenjuju se prema modelima stručnosti. Pojedinačne ocene s
 
 
 Te vrednosti ocenjivanja su prikazane u filterima **Potrebe za resursima**, **Tabela rasporeda** i **Pomoćnik za zakazivanje**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

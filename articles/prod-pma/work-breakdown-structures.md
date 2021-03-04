@@ -316,3 +316,6 @@ Alternativno, možete i pojedinačno da ispravite greške u rasporedu klikom na 
 
 
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

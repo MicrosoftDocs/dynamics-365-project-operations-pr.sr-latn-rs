@@ -37,3 +37,6 @@ Ako želite da uključite proizvode, kao što su softverske licence, u ponude i 
   
 ### <a name="see-also"></a>Takođe pogledajte  
  [Konfigurisanje aplikacije Project Service](../psa/configure.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

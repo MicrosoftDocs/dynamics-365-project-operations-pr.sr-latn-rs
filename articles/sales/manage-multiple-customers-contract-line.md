@@ -44,3 +44,6 @@ U nastavku se nalaze polja na zapisu klijenta predmeta ugovora za predmet ugovor
 Procenti podele naplate se mogu uređivati u mreži. Kada procenti podele naplate ne budu iznosili 100 procenata, javiće se greška. Kada uredite procente podele naplate, osvežite stranicu da biste uklonili grešku.
 
 Takođe možete pokušati da izaberete **Ravnomerno rasporedi** na podformi klijenta predmeta ugovora. Ova radnja ravnomerno raspoređuje podele naplate za sve klijente predmeta ugovora. Ako postoji bilo koji faktor zaokruživanja, on će se dodati klijentu za zaokruživanje. Jedan klijent iz predmeta ugovora uvek je označen kao klijent za **zaokruživanje**, čija zastavica **Zaokruživanje** je postavljena na **Da**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -55,3 +55,6 @@ ms.locfileid: "5151495"
  [Vodič za menadžera projekta](../psa/project-manager-guide.md)   
  [Vodič za menadžera resursa](../psa/resource-manager-guide.md)   
  [Vodič za vreme, trošak i saradnju](../psa/time-expense-collaboration-guide.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

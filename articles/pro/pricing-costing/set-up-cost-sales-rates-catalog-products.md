@@ -26,3 +26,6 @@ Podešavanje cena za stavke kataloga proizvoda u usluzi Dynamics 365 Project Ope
 U usluzi Project Operations, proizvodi se ne mogu proceniti ni koristiti u projektima, tako da cene u katalogu proizvoda ne moraju da se podešavaju u cenovnicima projekata za ponude i ugovore.
 
 Koristite polje **Cena proizvoda** ponude, ugovora ili naloga da biste podesili cene u katalogu proizvoda. Ne podešavajte cene u katalogu proizvoda u cenovniku projekta. Cenovnici projekata ekskluzivni su za Project Operations. Poslovna logika specifična za aplikaciju kopira cenovnike iz ponude u ugovor. Rezultat je cenovnik projekta specifičan za ugovor. Operacija kopiranja može odložiti postupak dobijanja ponude ako projektni cenovnik na ponudi postane prevelik. Cenovnici proizvoda se ne kopiraju da bi se kreirali prilagođeni cenovnici po ugovorima. Budući da nije uključeno kopiranje, to ne utiče na performanse procesa ponude.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

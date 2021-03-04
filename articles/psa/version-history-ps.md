@@ -73,3 +73,6 @@ Za informacije o drugim ispravkama usluge Project Service, pogledajte članak [D
 >[!Note]
 > - Datumi u svim regionima, osim za Government Community Cloud (GCC), pokazuju vreme sledećeg automatskog ažuriranja. Datumi u GCC pokazuju raspoloživost verzije; u ovom trenutku ne postoji automatsko ažuriranje za ove regione.
 > - Za sve ostale regione, iako bi većina ažuriranja trebalo da bude gotova tokom zakazane noći, ažuriranja koja zahtevaju više vremena mogu se završiti noću tokom vikenda, kao što je navedeno u koloni **Zakazani datum**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

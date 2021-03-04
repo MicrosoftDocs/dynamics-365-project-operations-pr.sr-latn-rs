@@ -51,3 +51,6 @@ Menadžeri poslovnih kontakata i menadžeri projekta redovno traže resurse za p
   
 ### <a name="see-also"></a>Takođe pogledajte  
  [Vodič za menadžera resursa](../psa/resource-manager-guide.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

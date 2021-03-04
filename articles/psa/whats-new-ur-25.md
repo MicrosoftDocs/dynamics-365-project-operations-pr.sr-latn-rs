@@ -70,3 +70,6 @@ Popravljeni su sledeći problemi:
 - Poboljšano je rukovanje greškama za rešavanje problema izuzetka prazne reference generisane iz **Kopiranje projekta: Procene za HelperResource Management**.
 - **Nije spremno za fakturisanje** na stranici **Neizvršavanje naplate vremena i materijala** ne briše status naplate.
 - Ispravljena su pogrešno označena dugmad **Cene** na karticama **Cena uloge** i **Stavke kataloga**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

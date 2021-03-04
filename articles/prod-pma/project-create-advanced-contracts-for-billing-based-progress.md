@@ -103,3 +103,6 @@ Kategorije budžeta se koriste za automatsko izračunavanje iznosa faktura za pr
 8. Opcionalno: Dodelite pravilo naplate dodatnim projektima. Na brzoj kartici **Projekat** , u odeljku **Dostupni projekti** izaberite projekat, a zatim pritisnite dugme sa strelicom udesno da biste dodali projekat u odeljak **Odabrani projekti**.
 9. Opcionalno: Izračunajte procentualni iznos koji kupac zadržava od plaćanja na računu. Na brzoj kartici **Uslovi zadržavanja plaćanja** izaberite izvor finansiranja, a zatim u polju **Procenat zadržavanja** unesite procenat zadržavanja.
 10. Ponovite ove korake da biste kreirali dodatna pravila za obračun za projektni ugovor.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

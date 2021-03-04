@@ -36,3 +36,6 @@ Postoje dva načina na koje menadžer projekta može ponovo da projektuje angaž
 - Izmenite podrazumevani procenat napretka novom procenom stvarnog napretka zadatka.
 
 Svaki od ovih pristupa dovodi do toga da se ponovo izračunaju ETC, procena završetka (EAC) i procenat napretka zadatka, kao i odstupanje od projektovanog angažovanja na zadatku. EAC, ETC i procenat napretka u rezimiranim zadacima se ponovo izračunavaju i stvaraju novu projekciju odstupanja od angažovanja.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

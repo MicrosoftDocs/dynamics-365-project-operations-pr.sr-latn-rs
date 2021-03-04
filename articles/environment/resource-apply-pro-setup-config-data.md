@@ -134,3 +134,6 @@ Pre nego što započnete konfigurisanje podataka u usluzi Common Data Service (C
 13. Izaberite stavku **Sačuvaj**. 
 
 ![Ažurirani parametri projekta](./media/17UpdatedProjectParameters.png)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

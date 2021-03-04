@@ -40,3 +40,6 @@ Menadžer projekta može planirati potrebne uloge resursa za projekat. Menadžer
 7. Izaberite radnika, a zatim izaberite **Dodeli**.
 8. Proverite da li je linija za **Programera softvera 1** uklonjena za projekat **Projekat nadogradnje XYZ, faza 2**.
 9. Na kartici **Projektni tim i zakazivanje** , za projekat **Nadogradnja XYZ faza 2** proverite da li je radnik kojeg ste izabrali u prethodnom koraku dodat kao **Programer softvera**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

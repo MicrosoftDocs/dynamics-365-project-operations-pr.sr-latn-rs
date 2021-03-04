@@ -85,3 +85,6 @@ Nakon kreiranja nekoliko stavki vremena, korisnici mogu istovremeno kreirati vi≈
 
 ## <a name="import"></a>Uvoz
 Isti osnovni postupak koristi se za uvoz iz rezervacija, dodela i razmena. Mo≈æete odrediti opseg datuma rezervacija za uvoz, a zatim eksplicitno izabrati rezervacije koje bi trebalo da budu kreirane kao radne verzije stavki vremena. 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

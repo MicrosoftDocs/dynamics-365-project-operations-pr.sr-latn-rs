@@ -73,3 +73,6 @@ Možete izvršiti grupnu ponovnu procenu statusa neprekoračenja. Ponovna procen
 Da biste ponovo procenili status neprekoračenja, izaberite jednu ili više stvarnih vrednosti iz prikaza **Neizvršavanje naplate vremena i materijala** ili **Stvarne vrednosti**, a zatim izaberite **Ponovna procena statusa neprekoračenja**.
 
 Sve relevantne izabrane stvarne vrednosti sa ograničenjem neprekoračenja biće procenjene u odnosu na podešavanje ograničavanja neprekoračenja. Stvarne vrednosti koje su relevantne za ponovnu procenu statusa neprekoračenja su stvarne vrednosti nenaplaćene prodaje koje nisu fakturisane, nisu u radnoj verziji fakture i označene su kao naplative. Sve ostale izabrane stvarne vrednosti.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

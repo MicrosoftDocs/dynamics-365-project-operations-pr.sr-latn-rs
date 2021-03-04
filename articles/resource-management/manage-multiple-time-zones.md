@@ -68,3 +68,6 @@ Kada se za svaki resurs koristi funkcija proširenog rezervisanja, rezervacije s
 Primetite da bolji uvid u detalje rezervacije pokazuje razlike u vremenu početka rezervacija. Rezervacije počinju ne ranije od vremena početka konture dodele i ne ranije od raspoloživog vremena početka resursa.
 
 ![Nove rezervacije resursa na tabeli rasporeda](media/reconcile-assignments-12.png)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

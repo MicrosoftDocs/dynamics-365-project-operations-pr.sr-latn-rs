@@ -57,3 +57,6 @@ Cenovnici troškova ne podrazumevaju nijedan entitet u usluzi Project Operations
 5. Zatim sistem pregleda datum stupanja na snagu cenovnika koji se podudaraju sa datumom dolazne procene ili stvarne linije. 
 6. Ako postoji više cenovnika koji važe za datum na dolaznoj proceni ili stvarnoj vrednosti, bira se najnoviji cenovnik.
 7. Ako uz parametre projekta nisu priloženi cenovnici troškova koji se podudaraju sa valutom i datumom stupanja na snagu, sistem podrazumevano vraća stopu troškova na nulu (0) na dolaznoj proceni ili stvarnoj liniji.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

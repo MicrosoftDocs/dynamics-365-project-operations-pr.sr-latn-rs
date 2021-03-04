@@ -33,3 +33,6 @@ Spisak svih ugovora za projekat može se videti na stranici liste **Ugovori**.
 2. Izaberite **Prebacivač prikaza** (padajuća strelica pored naziva prikaza) da biste izabrali druge filtrirane prikaze. Možete da kreirate sopstvene prikaze sa prilagođenim kriterijumima filtera.
 
 Ugovori se mogu kreirati ili izbrisati sa ove stranice liste ili stranica sa detaljima.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

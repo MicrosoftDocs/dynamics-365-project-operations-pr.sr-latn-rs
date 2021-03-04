@@ -55,3 +55,6 @@ Popravljeni su sledeći problemi:
 - Izuzetak prazne reference se generiše kada se poziva dodatna komponenta **GetEstimatesForProject**.
 - **Označi kao spremno za fakturisanje** u mreži kontrolnih tačaka samo delimično ažurira atribute, osim atributa **InvoiceStatus**, koji se ažurira.
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

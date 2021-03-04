@@ -59,3 +59,6 @@ Uloge su važan deo planiranja projekta, prilikom određivanje zahteva za resurs
   
 ### <a name="see-also"></a>Takođe pogledajte  
  [Podešavanje resursa](../psa/set-up-resources.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

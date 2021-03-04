@@ -67,3 +67,6 @@ Popravljeni su sledeći problemi:
 Popravljeni su sledeći problemi:
 
 - Dupli klik na **Preuzmi sve kategorije transakcija** kreira više linija.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

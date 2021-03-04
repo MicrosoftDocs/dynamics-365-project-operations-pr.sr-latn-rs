@@ -37,3 +37,6 @@ Budući da je Radmila radila na dva odvojena projekta dok je bila u Frankfurtu, 
 |Hotel         |725 EUR              |557 EUR                        |168 EUR                          |
 |Obroci         |346 EUR              |284 EUR                        |62 EUR                           |
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -113,3 +113,6 @@ Jovanka Nikolić, programerka koja je zaposlena u preduzeću GBPM evidentira 10 
     - Odobrenje: projekat – ostvareni prihod 120 USD
 
     Sistem je sada spreman da kreira internu fakturu klijentu između preduzeća.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

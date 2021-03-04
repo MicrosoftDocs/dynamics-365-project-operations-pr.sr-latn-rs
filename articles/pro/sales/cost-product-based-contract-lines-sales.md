@@ -30,3 +30,6 @@ Kada se za proizvod iz kataloga kreira predmet ugovora zasnovan na proizvodu, tr
 Postojanje jedinične cene u predmetu ugovora zasnovanog na proizvodu omogućava različite cene za proizvod za svaku prodaju jedinice. Iako nisu uvek neophodni, postoje određeni scenariji u kojima dobavljač može sniziti troškove proizvoda za klijenta. Razmotrite sledeći scenario:
 
 Fabrikam Robotics instalira robotske ruke na proizvodnim trakama kompanije Adatum Corporation. Fabrikam pruža usluge ugradnje, ali ruke robota su iz kompanije Trey Research. Ako instalacija robotske ruke u kompaniji Adatum Corporation otvori novu industrijsku delatnost za robotske ruke kompanije Trey Research, tada bi kompanija Trey Research mogla dati poseban popust za ovaj posao kompaniji Fabrikam. U ovom slučaju, Fabrikam kreira predmet ugovora zasnovan na proizvodu za ruke robota. Za ovaj ugovor se unosi cena po jedinici. Cena se razlikuje od cene za ruke robota kompanije Trey Research.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

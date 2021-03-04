@@ -79,3 +79,6 @@ Procena ili stvarna vrednost kreirana za trošak smatraće se naplativom samo ak
 | No            | Da              | Čitav projekat | Nije moguće podesiti   | Nenaplativo | Obračun u stvarnom vremenu: **Nije dostupno**</br> Tip obračuna na stvarnom trošku: **Nenaplativo**     |
 | Da           | No               | Čitav projekat | Naplativo     | Nije moguće podesiti   | Obračun u stvarnom vremenu: **Naplativo** </br> Tip obračuna na stvarnom trošku: **Nije dostupno**        |
 | Da           | No               | Čitav projekat | Nenaplativo | Nije moguće podesiti   | Obračun u stvarnom vremenu: **Nenaplativo** </br>Tip obračuna na stvarnom trošku: **Nije   dostupno**   |
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

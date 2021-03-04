@@ -78,3 +78,6 @@ Sledeće funkcije su prisutne na postojećoj stranici, ali još uvek nisu na nov
 - Tok posla na nivou stavke
 - Prelazna podrška davaocu odobrenja
 - Napredno razvrstavanje
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

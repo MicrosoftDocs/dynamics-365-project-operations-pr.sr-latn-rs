@@ -113,3 +113,6 @@ Preuzmite i instalirajte Finance and Operations aplikaciju za mobilne uređaje:
 11. Izaberite svojstvo reda.
 12. Opcionalno: Unesite sve spoljne i interne komentare.
 13. Izaberite **Gotovo**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

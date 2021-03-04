@@ -45,3 +45,6 @@ Nakon što ste kreirali predložak radnog vremena, potrebno je da ga dodelite re
   
 ### <a name="see-also"></a>Takođe pogledajte  
  [Podešavanje resursa](../psa/set-up-resources.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

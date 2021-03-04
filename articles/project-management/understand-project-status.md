@@ -29,3 +29,6 @@ Odeljak **Status** na stranici **Entitet projekta** pruža rezime stanja ispravn
 - Polje **Komentari** omogućava menadžeru projekta da unese konkretne komentare o statusu. 
 - Polje **Datum ažuriranja statusa** nije moguće uređivati. Vrednost u ovom polju je vremenska oznaka koja pokazuje kada je status poslednji put ažuriran.
 - Polja **Performanse rasporeda** i **Performanse troškova** su podešena iz mreže za praćenje. Kada su odstupanja od rasporeda i troškova za osnovni čvor u prikazu **Praćenje angažovanja** pozitivna, ova polja se ažuriraju na **Pre plana**. Kada su odstupanja od rasporeda i troškova za osnovni čvor negativna, ova polja se podešavaju na **Zaostaje za planom**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

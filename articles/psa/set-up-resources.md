@@ -55,3 +55,6 @@ Pre nego što zahtevate ili dodelite resurse u [!INCLUDE[pn_project_service_auto
   
 ### <a name="see-also"></a>Takođe pogledajte  
  [Konfigurisanje aplikacije Project Service](../psa/configure.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

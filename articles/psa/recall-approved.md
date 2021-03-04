@@ -107,3 +107,6 @@ Sledeća ilustracija prikazuje promene koje se dešavaju za odobrene stavke vrem
 Sledeća ilustracija prikazuje promene koje se dešavaju za odobrene stavke troškova kada su opozvane.
 
 ![Promene statusa stavke troškova](media/ExpenseEntryStateTransitions.png)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

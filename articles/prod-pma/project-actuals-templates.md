@@ -140,3 +140,6 @@ Sledeće ilustracije prikazuju primere mapiranja zadataka predloška u usluzi Da
 [![Mapiranje predložaka - ažuriranje stvarnih troškova](./media/ActualsUpdateMapping.jpg)](./media/ActualsUpdateMapping.jpg)
 
 [![Mapiranje predložaka - ažuriranje transakcija](./media/TransactionConnectionsUpdate.jpg)](./media/TransactionConnectionsUpdate.jpg)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

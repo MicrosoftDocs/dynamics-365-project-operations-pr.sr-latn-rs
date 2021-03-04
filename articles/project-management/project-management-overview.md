@@ -26,3 +26,6 @@ Alatke za upravljanje projektima u usluzi Dynamics 365 Project Operations pomaž
 - Koristite procene projekata tokom procesa prodaje.
 - Predviđajte potrebe za resursima za projekte u kanalu.
 - Uspešno isporučujte projekte praćenjem napretka i troškova korišćenja.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

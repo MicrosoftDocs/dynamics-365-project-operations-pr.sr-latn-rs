@@ -67,3 +67,6 @@ Valuta detalja stavke ponude za podrazumevane vrednosti cene iz cenovnika ugovor
 Proračuni isplativosti pretvaraju iznos na detaljima stavki ponude za cenu i prodaju u osnovnu valutu okruženja kako bi se prijavila ukupna procenjena marža u ponudi.
 
 To bi moglo dovesti do grešaka u zaokruživanju valuta i promene marži zbog nedostatka efektivnih deviznih kurseva koji važe na taj datum. Koristite ove proračune na ponudama za projekte samo kao aproksimacije, a ne stvarno zakonsko ili drugo izveštavanje koje zahteva veću preciznost zaokruživanja i svest o datumu važenja za devizne kurseve.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

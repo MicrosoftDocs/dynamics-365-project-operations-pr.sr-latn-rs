@@ -57,3 +57,6 @@ Ako u mreži uloge cene ne postoji red za dimenzije obrazovanja cene na stvarnom
 
 Ako i dalje ne vidite važeću cenu u stvarnom podatku o utrošenom vremenu prodaje nakon obavljene gorenavedene tri provere, pošaljite tiket podršci. 
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

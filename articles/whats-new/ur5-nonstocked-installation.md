@@ -125,3 +125,6 @@ Sledeće ispravke bezbednosnih privilegija za entitete su potrebne kao deo ažur
  
  ![Sinhronizacija mape glavne knjige](media/DW6.png)
  
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

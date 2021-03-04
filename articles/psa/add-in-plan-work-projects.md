@@ -242,3 +242,6 @@ Sledeća tabela opisuje kako se podaci entiteta zavisnih elemenata projektnog za
 
 ### <a name="additional-resources"></a>Dodatni resursi
  [Vodič za menadžera projekta](../psa/project-manager-guide.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

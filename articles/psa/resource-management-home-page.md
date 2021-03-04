@@ -41,3 +41,6 @@ Resursi su najvažniji adut organizacije zasnovane na uslugama. Sposobnost prona
 - [Potrebe za uslovnim rezervisanjem](resource-management-softbook-requirements.md)
 - [Veštine i modeli stručnosti](resource-management-skills-proficiency.md)
 - [Najčešća pitanja o upravljanju resursima](resource-management-faq.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -40,3 +40,6 @@ Kontrolna tabla **Menadžer obuke** pruža menadžerima obuke iskustvo korišće
 ## <a name="resource-manager"></a>Menadžer resursa 
 
 Kontrolna tabla **Menadžer resursa** pruža menadžerima resursa iskustvo korišćenja grafičke kontrolne table za nadgledanje zahteva za resurse, potražnje za resursima i ukupne iskorišćenosti resursa. Takođe omogućava menadžerima resursa da dele nadgledane informacije prema različitim dimenzijama.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

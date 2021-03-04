@@ -48,3 +48,6 @@ Sledeća tabela definiše ključne koncepte koji se koriste u aplikaciji Dynamic
 | Skiciranje                    | Zadatak, zahtev ili sati za dodelu, onako kako su raščlanjeni prema dnevnoj distribuciji. Na primer, petodnevni zadatak od 40 sati može se skicirati u osam sati dnevno tokom pet dana. |
 | Prikaz usaglašenosti        | Prikaz koji prikazuje rezervacije i dodele za svakog člana projektnog tima. Ovaj prikaz omogućava menadžeru projekta da traži bilo kakvu neusklađenost između rezervacija i dodela i da preduzme korektivne mere ako dođe do bilo kakve neusklađenosti. |
 | Radni časovi                 | Entitet koji se koristi za identifikaciju kapaciteta resursa, radnog vremena i neradnih sati. Ovaj entitet se takođe naziva i kalendar resursa. |
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

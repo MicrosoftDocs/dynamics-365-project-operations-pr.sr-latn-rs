@@ -45,3 +45,6 @@ Uz to, svakom resursu koji se može rezervisati mora se dodeliti podrazumevana u
 Na kartici **Project Service** možete podesiti i pojedinačnu ciljnu ukupnu iskorišćenost za resurs. Kalkulacija ukupne iskorišćenosti zatim koristi tu ciljnu ukupnu iskorišćenost za procenu cilja resursa umesto cilja podrazumevane uloge resursa.
 
 Ukupna iskorišćenost se prikazuje za resurs samo ako je taj resurs odobrio naplativo vreme tokom perioda koji je prikazan na mreži.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

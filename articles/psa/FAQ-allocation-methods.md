@@ -71,3 +71,6 @@ Da rezimiramo, sledeći načini dodele dovode do prebukiranja ako je resurs već
 - Broj časova ravnomernog raspoređivanja
 
 Kada koristite neki od ova tri načina dodele, nećete biti obavešteni da je resurs prebukiran. Da biste ispravili prebukiranje, potrebno je da koristite tabelu rasporeda.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

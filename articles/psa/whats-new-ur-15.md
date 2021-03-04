@@ -63,3 +63,6 @@ U ovoj temi date su funkcije i ispravke koje su nove ili su promenjene u rešenj
   - Ispravljeno: više se ne dobija poruka o grešci u stavci **Pronalaženje projekta** u obrascu **Stavka ponude** kada ima preko 1000 projekata.
   - Ispravljeno: Mreža **Procene** za procene cene rada i cene troškova sada prikazuje ispravan simbol valute.
   - Ispravljeno: nakon što organizacija ažurira PSA sa izdanja ispravke 14 na izdanje ispravke 15, kartica **Raspored** se više ne pojavljuje kao prazna u obrascu **Projekat**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

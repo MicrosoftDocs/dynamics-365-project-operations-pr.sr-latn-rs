@@ -58,3 +58,6 @@ Sledeći KPI-jevi su dostupni na kartici **Izvršenje ugovora** projektnog ugovo
 | Nastali troškovi | Stavke zasnovane na proizvodu | Zbir svih stvarnih troškova evidentiranih za predmet ugovora zasnovan na projektu. |
 | Bruto marža | Stavke zasnovane na projektu | Naplaćeni iznos – Troškovi nastali do datuma/Naplaćeni iznos |
 | Očekivana marža | Stavke zasnovane na proizvodu | (Vrednost predmeta ugovora - Procenjeni troškovi za predmet ugovora) / Vrednost predmeta ugovora |
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

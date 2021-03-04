@@ -63,3 +63,6 @@ U ovoj temi date su funkcije koje su nove ili su promenjene u rešenju Project S
 **Sales**
 
 - Popravljeno: Kada se stavke vremena ponovo odobre (**Odobri > Otkaži >** Ponovo odobri), kreira se duplikat nenaplative stvarne vrednosti.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

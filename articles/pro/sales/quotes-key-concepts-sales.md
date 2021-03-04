@@ -89,3 +89,6 @@ Project Operations ponude se grade na Dynamics 365 Sales ponudama. Međutim, pos
 - Project Operations ponude imaju sopstveni obrazac i elemente korisničkog interfejsa, poslovna pravila, poslovnu logiku u dodatnim komponentama i skripte na strani klijenta koje ih čine jedinstvenim u odnosu na ponuda usluge Sales.
 
 Iz ovih razloga nije preporučljivo naizmenično koristiti Sales ponudu i Project Operations ponudu.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

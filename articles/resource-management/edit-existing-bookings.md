@@ -33,3 +33,6 @@ Na mreži **Član tima** menadžer projekta može da istakne određeni resurs i 
 ## <a name="schedule-board"></a>Tabela rasporeda
 
 U **tabeli rasporeda** menadžer resursa ima prikaz portfelja svih rezervacija u organizaciji. U ovom prikazu menadžer resursa može proširiti, skratiti ili premestiti postojeće rezervacije slično mogućnostima koje nudi **Održavanje rezervacija**. Menadžer resursa takođe može zameniti postojeće resurse dodeljene određenoj rezervaciji desnim klikom na rezervaciju i odabirom **Zameni resurs**. Menadžeri resursa takođe mogu uređivati konture postojećih rezervacija desnim klikom na rezervaciju i odabirom opcije **Uredi**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

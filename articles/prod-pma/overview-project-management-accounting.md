@@ -440,3 +440,6 @@ Nakon izračunavanja izjave, možete da vidite sledeće informacije na različit
 -   **Potrošnja** – Informacije o potrošnji sati, stavki, troškovima i transakcijama plaćanja.
 -   **Fakture** – Informacije o fakturama i fakturisanju na računu.
 -   **Satnice** – Satnice za sate koji se knjiže na račune prihoda i troškova.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

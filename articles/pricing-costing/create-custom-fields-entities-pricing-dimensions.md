@@ -77,3 +77,6 @@ Možete ručno kreirati podatke za dimenzije zasnovane na entitetima ili koriš�
 5. Ponovite korake 1-3 da biste kreirali još jednu standardnu poziciji „Viši inženjer sistema“.
 
 > ![Probni podaci za entitet Standardna pozicija](media/ST-data.png)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

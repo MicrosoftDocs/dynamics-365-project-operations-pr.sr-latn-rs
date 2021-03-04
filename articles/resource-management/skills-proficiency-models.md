@@ -43,3 +43,5 @@ Dodavanje karakteristika zahtevima za resursima omogućava vam dokumentovanje zn
 3. U podformi **Veštine**, izaberite **+ Dodaj novu karakteristiku zahteva.**
 4. U oknu za brzo kreiranje pronađite i odaberite potrebne karakteristike i dodajte **Vrednost ocene**.
 5. Izaberite stavku **Sačuvaj i zatvori**.
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

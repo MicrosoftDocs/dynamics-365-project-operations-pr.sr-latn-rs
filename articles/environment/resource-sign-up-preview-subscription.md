@@ -98,3 +98,6 @@ Sledite smernice u temi [Obezbeđenje novog okruženja](resource-provision-new-e
 
 Instalirajte podatke o podešavanju i konfiguraciji CDS kako je opisano u temi [Podesite i primenite podatke o konfiguraciji u usluzi Common Data Service](resource-apply-pro-setup-config-data.md).
 Dovršite ovaj korak tek nakon što se primeni demo okruženje usluge Finance i demo podaci u FO budu spremni.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

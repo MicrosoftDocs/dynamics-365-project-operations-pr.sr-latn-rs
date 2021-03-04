@@ -43,3 +43,6 @@ Svaki resurs koji može da se rezerviše koji radi na projektu mora imati kalend
 2. Iz prikaza mreže izaberite do 25 **resursa koji mogu dase rezervišu** da biste ih ažurirali.
 3. Izaberite **Podesi kalendar** i pojaviće se dijalog sa listom dostupnih predložaka radnog vremena.
 4. Izaberite predložak koji želite da koristite, a zatim izaberite dugme **Primeni**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

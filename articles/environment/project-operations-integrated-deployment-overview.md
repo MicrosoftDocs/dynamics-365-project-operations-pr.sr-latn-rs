@@ -43,3 +43,6 @@ Ovu primenu treba da odaberete u očekivanju da će Project Operations koristiti
 - Zahtevajte bogat mehanizam za izračunavanje poreza na promet i kursne liste na nivou preduzeća da biste generisali fakture za projekte u okruženju klijenata.
 - Sistem računovodstva projekata i priznavanja prihoda koji je usklađen sa Međunarodnim standardima finansijskog izveštavanja (IFRS).
 - Aplikacije Finance ili Supply Chain Management i integracija transakcija zasnovanih na projektima.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

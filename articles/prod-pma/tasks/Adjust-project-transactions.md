@@ -44,3 +44,6 @@ Ovaj vodič za zadatke vam pokazuje kako da prilagodite transakciju na projektu.
 13. Označite izabrani red na listi. 
 14. U polje Cena koštanja unesite broj. 
 15. Kliknite na Proknjiži. 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

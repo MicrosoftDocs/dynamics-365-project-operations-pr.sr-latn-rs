@@ -68,3 +68,6 @@ Otvorite stavku ponude sa fiksnom cenom gde treba da napravite kontrolnu tačku.
 | Status fakture | Brzo kreiranje | Kada se kreira kontrolna tačka, ovaj status se uvek postavlja na **Nije spremno za fakturisanje**. | Ovo se prenosi na kontrolnu tačku predmeta ugovora o projektu i na fakturu. |
 | Iznos stavke | Brzo kreiranje | Iznos ili vrednost kontrolne tačke koja će se fakturisati klijentu. | Ovo se prenosi na kontrolnu tačku predmeta ugovora o projektu i na fakturu. |
 | Porez | Brzo kreiranje | Iznos poreza koji će se primeniti na kontrolnu tačku. | Ovo se prenosi na kontrolnu tačku predmeta ugovora o projektu i na fakturu. |
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

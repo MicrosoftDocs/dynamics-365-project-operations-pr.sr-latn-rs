@@ -41,3 +41,6 @@ Ako klijent odobri ponudu po projektu, informacije iz ponude po projektu možete
 
 
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

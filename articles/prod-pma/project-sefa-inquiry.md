@@ -104,3 +104,6 @@ Raspored troškova istrage savezne pomoći uključuje sledeće kolone:
 - Katalog Savezne domaće pomoći
 - Priznanice
 - Rashodi
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

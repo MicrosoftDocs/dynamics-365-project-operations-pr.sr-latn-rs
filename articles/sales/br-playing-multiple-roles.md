@@ -106,3 +106,6 @@ Kada proširite red za taj zapis člana tima, na zapisu člana tima možete vide
 ### <a name="estimates-grid"></a>Mreža procena 
 
 Na mreži **Procene**, oba zadatka za isti resurs imaju različite cene. Cena dodele resursa **Zadatku A** određuje se korišćenjem vrednosti atributa **Uloga** za **Potencijalni klijent za konsultacije**. Cena dodele istog resursa **Zadatku B** određuje se korišćenjem vrednosti atributa **Uloga** za **tehničara mreže**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

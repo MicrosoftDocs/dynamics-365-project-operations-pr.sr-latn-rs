@@ -57,3 +57,6 @@ U ovoj temi date su funkcije i ispravke koje su nove ili su promenjene u rešenj
 - Ispravljeno: kada je klasa transakcije **Vreme**, **UnitGroup** ne može da se uređuje ni za jedan entitet, uključujući **QuoteLineDetails**, **JournalLine**, **InvoiceLineDetail** i **ContractLineDetails**. Međutim, **Jedinica** ne može da se uređuje samo za **JournalLine** i **InvoiceLineDetails**.
 
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

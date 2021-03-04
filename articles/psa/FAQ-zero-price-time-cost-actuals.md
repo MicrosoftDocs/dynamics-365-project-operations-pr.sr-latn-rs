@@ -66,3 +66,6 @@ Ako i dalje ne vidite važeću cenu u stvarnom podatku o ceni za utrošeno vreme
 
 
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

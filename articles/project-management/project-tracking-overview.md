@@ -80,3 +80,6 @@ Podaci za praćenje u prikazima **Praćenje aktivnosti** i **Praćenje troškova
 Polje **Opšti status projekta** je polje koje može da se uređuje i koje pokazuje opšti status projekta. Koristi kodiranje u boji, kao što su zelena, žuta i crvena, da ukaže na povećani rizik. Polje **Komentari** omogućava menadžeru projekta da unese konkretne komentare o statusu. Polje **Status ažuriran dana** nije moguće uređivati i vrednost je vremenska oznaka koja pokazuje kada je status zadnji put ažuriran.
 
 Polja **Performanse rasporeda** i **Performanse troškova** su podešena od datuma praćenja. Kada su odstupanja od rasporeda i troškova za osnovni čvor u prikazu **Praćenje angažovanja** pozitivna, možete podesiti ova polja na **Pre plana**. Kada su odstupanja od rasporeda i troškova za osnovni čvor negativna, možete ih podesiti na **Zaostaje za planom**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

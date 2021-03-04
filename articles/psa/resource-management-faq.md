@@ -54,3 +54,6 @@ Nakon rezervisanja resursa, izaberite **Održavanje rezervacija** da unesete pro
 ## <a name="what-is-the-difference-between-an-assignment-and-a-booking"></a>Koja je razlika između dodele i rezervacije?
 
 Dodele predstavljaju dodele resursa projektnim zadacima u rasporedu projekata. Resursi mogu biti stvarni ili generički resursi. Rezervacije predstavljaju fiksnu ili uslovnu raspodelu resursa za projekat. Fiksne rezervacije troše kapacitet resursa. Idealno bi bilo da se za stvarne resurse slažu rezervacije i dodele, jer se ne razlikuju. Međutim, PSA ne sprovodi ovaj dogovor. Prikaz Usaglašenost pokazuje menadžeru projekata mesta gde se rezervacije i dodele resursa ne slažu.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

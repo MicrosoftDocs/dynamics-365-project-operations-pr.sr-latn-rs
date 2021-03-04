@@ -63,3 +63,6 @@ Kada kreirate i podnesete izveštaj o troškovima za gotovinski avans koji ste v
 ### <a name="example"></a>Primer
 Planirate da putujete iz Sijetla u Njujork na konferenciju. Kreirate zahtev za gotovinski avans za 3000,00 USD na osnovu procenjene cene konferencijske karte, letova, hotela, obroka i taksija. Neće vam biti plaćeno ako menadžer ne odobri ovaj zahtev. Kada vaš menadžer odobri, tražena akontacija u iznosu od 3000 USD se uplaćuje na vaš bankovni račun. Zatim prisustvujete konferenciji. Po završetku putovanja, otkrivate da su ukupni izdaci bili samo 2790 USD. Izaberite **Gotovina** u polju **Način plaćanja** i predajte troškove za 2790,00 USD. Prosleđeni iznos troška automatski se prilagođava akontaciji od 3000 USD koja vam je pozajmljena. Sada dugujete iznos od 210,00 USD (3000,00 – 2790,00) koji možete vratiti kompaniji koristeći kategoriju troškova **Povraćaj gotovine**.
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

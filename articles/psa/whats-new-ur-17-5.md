@@ -44,3 +44,6 @@ U ovoj temi date su funkcije i ispravke koje su nove ili su promenjene za verzij
 - Ispravljeno: obrađeni neprecizni 24-časovni predlošci za radne časove koji su dodavali dodatni dan u zadacima.
 - Ispravljeno: obrađeni neprecizni +13 GMT predlošci za radne časove koji su premeštali zadatke jedan dan unapred.
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

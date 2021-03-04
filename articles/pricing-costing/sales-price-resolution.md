@@ -54,3 +54,6 @@ Nakon što se reši cenovnik prodaje, sistem dovršava sledeće korake da bi zad
     | &nbsp; | Provizija preko troškova | Primenom provizije definisane linijom cene kategorije na jediničnu stopu cene povezanog stvarnog troška |
 
 4. Ako sistem ne može da podudari vrednosti polja **Kategorija** i **Jedinica**, stopa prodaje podrazumevano je nula (0).
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

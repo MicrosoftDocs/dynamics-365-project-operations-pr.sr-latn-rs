@@ -75,3 +75,6 @@ Nakon završetka prethodnih zadataka, možete izvršiti sledeće zadatke po potr
 - Ispunite zahteve za resurse.
 - Zatražite resurse osoblja iz SAP.
 - Rezervišite resurse za projekat bez zahteva za resursima osoblja.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

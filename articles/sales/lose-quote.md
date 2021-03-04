@@ -45,3 +45,6 @@ Kada na stranici dijaloga izaberete **U redu**, sistem kreira kopiju ponude za p
 > - Referenca projekta na stavkama ponude zasnovane na projektu – Informacije o budžetu klijenta
 >
 >Budući da su ove informacije vrlo specifične za svaku ponudu, ta polja i zapisi se ne kopiraju. Kopiraju se stavke ponude za projekte i proizvode, procene detalja stavki ponude i vrednosti koje ne smeju da premaše vrednost na nivou ponude. Podrazumevane vrednosti cena i stopa troškova zavise od opcije **Kopiranje određivanja cena** izabrane na stranici dijaloga **Kopiranje parametara**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

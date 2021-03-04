@@ -70,3 +70,6 @@ Ovlašćenje je sada završeno.
 Uspešno ste povezali svoju Azure pretplatu. Sada možete da primenite Dynamics 365 Finance okruženja hostovana u oblaku.
 
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

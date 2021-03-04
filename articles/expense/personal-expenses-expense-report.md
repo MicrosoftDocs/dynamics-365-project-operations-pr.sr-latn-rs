@@ -28,3 +28,6 @@ Postoje dve metode koje možete koristiti za rad sa ličnim troškovima zaposlen
   - **Plaća preduzeće**: Vaša organizacija plaća ceo račun za kreditnu karticu preduzeća, a zatim tereti račun radnika za lične troškove.
 
 Možete odabrati metod koji vaša organizacija koristi na stranici **Parametri upravljanja troškovima**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

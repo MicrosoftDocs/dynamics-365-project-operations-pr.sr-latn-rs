@@ -160,3 +160,6 @@ Kreiranjem smernica za izveštavanje o troškovima možete da pomognete svojoj o
 - Kada smernice ističu?
 - Kakvo je pravilo smernica?
 - Kakav je ishod pravila smernica?
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

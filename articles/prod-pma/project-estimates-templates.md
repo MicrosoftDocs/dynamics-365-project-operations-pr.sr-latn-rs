@@ -170,3 +170,6 @@ Sledeće ilustracije prikazuju primere mapiranja zadataka predloška u usluzi Da
 [![Predložak mapiranja transakcija procene troškova](./media/ExpenseEstimateTransactionRelationshipsMapping.jpg)](./media/ExpenseEstimateTransactionRelationshipsMapping.jpg)
 
 [![Predložak mapiranja procena troškova](./media/ExpenseEstimatesMapping.jpg)](./media/ExpenseEstimatesMapping.jpg)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

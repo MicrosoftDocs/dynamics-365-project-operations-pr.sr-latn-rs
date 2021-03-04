@@ -60,3 +60,6 @@ Stvarne vrednosti nenaplaćene prodaje sa statusom **Neprekoračenje** čija vre
 Ako predmeti ugovora za više klijenata imaju način naplate vremena i materijala, kada se odobre vreme i troškovi, za svakog klijenta na predmetu ugovora se kreira jedna stvarna vrednost nenaplaćene prodaje, prema podeli procenta naplate definisanoj za svakog od klijenata. U prikazu **Neizvršavanje naplate vremena i materijala** videćete ove pojedinačne stvarne vrednosti nenaplaćene prodaje specifične za klijenta. Svaki od ovih zapisa nenaplaćenih stvarnih troškova prodaje može se označiti kao **Spremno za fakturisanje** nezavisno od ovog prikaza.
 
 Stvarna vrednost nenaplaćene prodaje koja se nalazi na radnoj verziji fakture prikazuje se u ovom prikazu sa statusom naplate **Faktura kreirana za klijenta**. Kada se potvrdi radna verzija fakture, status naplate na ovom zapisu ažurira se na **Faktura za klijenta je proknjižena**. Ne ažurirajte ovu vrednost statusa pomoću prilagođenog koda. Project Operations ne funkcioniše ispravno kada se ove vrednosti statusa ažuriraju sa prilagođenim kodom.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

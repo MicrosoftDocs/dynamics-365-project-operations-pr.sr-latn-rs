@@ -42,3 +42,6 @@ U ovoj temi su navedene funkcije i ispravke koje su nove ili promenjene u izdanj
 Popravljeni su sledeći problemi:
 
 - Pogoršanje performansi pretrage pomoći za zakazivanje
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

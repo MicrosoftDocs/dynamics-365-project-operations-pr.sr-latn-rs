@@ -94,3 +94,6 @@ Trenutno su podržane Sjedinjene Države.
 Finansije će kontaktirati Cognitive Services da bi izvukli podatke sa terena. Cognitive Services će zadržati kopiju vaše priznanice i do 24 sata dok traje obrada. Po završetku obrade, Cognitive Services će ukloniti priznanicu. Priznanice se i dalje čuvaju u Finansijama.
 
 Za više informacija pogledajte [Omogućite razumevanje priznanice sa novom sposobnošću prepoznavanja obrazaca](https://azure.microsoft.com/blog/enable-receipt-understanding-with-form-recognizer-s-new-capability/).
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

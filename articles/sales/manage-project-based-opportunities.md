@@ -65,3 +65,6 @@ Proces prodaje mogućnosti za poslovanje u usluzi Project Operations jeste proš
 > Ako je vaša pogodba zasnovana na projektu započela sa mogućnošću za poslovanje, poslovni proces prodaje mogućnosti za poslovanje ima prednost.
 
 Možete da uredite tok poslovnog procesa proizvoda ili da kreirate sopstvene tokove poslovnog procesa kako biste pratili svoj prodajni proces po potrebi. Za više informacija o toku poslovnog procesa pogledajte [Pregled tokova poslovnog procesa](https://docs.microsoft.com/dynamics365/customerengagement/on-premises/customize/business-process-flows-overview).
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

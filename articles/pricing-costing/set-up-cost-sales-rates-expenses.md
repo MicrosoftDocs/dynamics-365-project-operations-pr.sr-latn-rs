@@ -55,3 +55,6 @@ Kada je ovaj metod određivanja cena odabran na liniji cena kategorije koja je p
 
 ### <a name="markup-over-cost"></a>Provizija preko troškova
 Kada je ovaj metod određivanja cena odabran na liniji cena kategorije koja je povezana sa prodajnim cenovnikom, cena podrazumeva kombinaciju kategorije i jedinice samo za stvarnu vrednost troškova. Na primer, nenaplaćeni stvarni iznosi prodaje za klasu transakcije troškova. Ova jedinična cena postavlja se na nenaplaćenom stvarnom iznosu prodaje na izračunatu vrednost iz jedinične cene na stvarnom trošku za taj trošak nakon primene definisanog procenta provizije. Neplaćanje cena na osnovu troškova ne vrši se na osnovu procene troškova za troškove ili detalja o liniji ponude i ugovorne linije za troškove.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

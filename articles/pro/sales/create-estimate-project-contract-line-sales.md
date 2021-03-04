@@ -68,3 +68,6 @@ Proračuni isplativosti konvertuju iznose za detalje o predmetu ugovora za **Tro
 
 > [!NOTE]
 > Greške u zaokruživanju valuta i promenjene marže mogu se desiti zbog nedostatka efektivnih deviznih kurseva za datum. Koristite ove proračune na projektnim ugovorima samo kao približne vrednosti, a ne za stvarno zakonsko ili drugo izveštavanje koje zahteva veću preciznost zaokruživanja i svest o efektivnosti datuma za devizne kurseve.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

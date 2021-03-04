@@ -96,3 +96,6 @@ Sledite ove korake da biste kreirali prilagođenu verziju obrasca **Informacije 
     ```
 
 6. Sačuvajte, a zatim objavite prilagođavanja.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

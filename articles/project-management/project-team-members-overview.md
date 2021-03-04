@@ -60,3 +60,6 @@ Iz mreže članova tima mogu se preduzeti sledeće radnje:
 
 - **Novo**: Pored dodavanja resursa direktno iz rasporeda, menadžeri projekta mogu da dodaju nove imenovane ili generičke članove tima iz mreže članova tima.
 - **Brisanje**: Odabirom jednog ili više članova tima, menadžer projekta može izbrisati resurse koji više neće učestvovati u projektu. Brisanjem člana tima izbrisaće se i svi pridruženi zadaci resursa i otkazati sve postojeće rezervacije.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

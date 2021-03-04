@@ -97,3 +97,6 @@ U prikazu mreže i prikazu po fazama vremena možete da izaberete koja će se po
 ## <a name="expense-estimates"></a>Procene troškova
 
 Dugme **Dodajte novu procenu troškova** u prikazu mreže omogućava vam da evidentirate sve troškove koji nastaju u projektu, ali koji nisu direktno povezani sa radnom snagom. Možete zabeležiti procene troškova za određeni zadatak ili za ceo projekat. Odaberite kategorije troškova i okvirni datum kada očekujete da nastanu. Ako povezani cenovnik troškova i cenovnik prodaje imaju podrazumevane cene (ili ako su procenti provizije definisani za kategorije troškova), oni se automatski unose u stavku procene kada dođe do povezivanja.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

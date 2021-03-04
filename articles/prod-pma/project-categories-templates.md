@@ -124,3 +124,6 @@ Sledeća ilustracija prikazuje primer mapiranja zadataka predloška u usluzi Dat
 > Mapiranje prikazuje informacije o terenu koje će se sinhronizovati iz usluge Project Service Automation u Finance.
 
 [![Mapiranje usluge Project Service Automation sa Finance predloškom](./media/ProjectExpenseCategoriesToFinOpsMapping.jpg)](./media/ProjectExpenseCategoriesToFinOpsMapping.jpg)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

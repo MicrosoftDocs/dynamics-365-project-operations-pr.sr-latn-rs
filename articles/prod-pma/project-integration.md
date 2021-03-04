@@ -127,3 +127,6 @@ Da biste kreirali novu strukturnu analizu posla pomoću aplikacije Microsoft Pro
 8.  Izaberite **Kalendar** koji ćete koristiti za obezbeđivanje resursa.
 
 11. Kliknite na dugme **U redu**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -38,3 +38,6 @@ Sledeći atributi su definisani za svaku stavku troškova:
 - **Jedinična cena koštanja**: Jedinična cena koja se koristi za izračunavanje cene troškova.
 - **Jedinična prodajna cena**: Jedinična cena koja se koristi za izračunavanje prodajne cene troškova.
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -142,3 +142,6 @@ Ova tema se odnosi na sledeće komponente i verzije usluge Dynamics 365 Project 
 ## <a name="regulatory-updates"></a>Regulatorne ispravke
 
 Informacije o regulatornim ispravkama za Dynamics 365 Finance potražite u članku [Regulatorne ispravke](https://docs.microsoft.com/dynamics365/finance/localizations/regulatory-updates). Drugi način da saznate više o regulatornim ispravkama je da se prijavite na Lifecycle Services (LCS) i pregledate planirane regulatorne ispravke pomoću alatke za pretragu problema. Pretraga problema vam omogućava pretragu po zemlji, tipu funkcije i izdanju.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -98,3 +98,6 @@ Odredite najbolji model primene usluge Project Operations pomoću [upitnika za p
 
 Za ovo raspoređivanje, pogledajte članak [Prijava za pretplate na pregled](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/dev-tools/sign-up-preview-subscription?toc=/dynamics365/finance/toc.json) i [Obezbeđivanje novog okruženja](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/deployment/deploy-demo-environment?toc=/dynamics365/finance/toc.json). 
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -43,3 +43,6 @@ Izaberite ovaj tip primene da biste koristili Dynamics 365 Project Operations to
 - Mehanizam za izračunavanje poreza na promet i kursne liste na nivou preduzeća da biste generisali fakture za projekte u okruženju klijenata.
 - Sistem računovodstva projekata i priznavanja prihoda koji je usklađen sa Međunarodnim standardima finansijskog izveštavanja (IFRS).
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

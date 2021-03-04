@@ -116,3 +116,6 @@ Izaberite stavku **Rezerviši** za generički resurs, a zatim možete da koristi
 Kada generički resurs bude ispunjen imenovanim resursom, generički resurs se uklanja iz tima, a dodele zadatka iz generičkog resursa se dodeljuju imenovanom resursu koji je ispunio zahtev za resursom generičkog resursa.
  
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

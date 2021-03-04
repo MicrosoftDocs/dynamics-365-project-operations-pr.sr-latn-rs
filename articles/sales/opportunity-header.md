@@ -36,3 +36,6 @@ Sledeća tabela uključuje polja u mogućnosti za poslovanje zasnovanoj na proje
 | Jedinica ugovaranja | Kartica Opšti podaci | Organizaciona jedinica koja je odgovorna za isporuku projekta ili projekata povezanih sa ovom pogodbom. | Ugovorna jedinica je odeljenje preduzeća koje će završiti projekte nakon zaključenja pogodbe. Svaka ugovorna jedinica ima valutu i ona se koristi za izveštavanje o procenjenim i stvarnim troškovima nastalim tokom projekta. |
 
 Za sva ostala polja i odeljke na kartici **Rezime** mogućnosti za poslovanje, pogledajte [Kreiranje ili uređivanje mogućnosti za poslovanje (Prodaja i Čvorište za prodaju)](https://docs.microsoft.com/dynamics365/sales-enterprise/create-edit-opportunity-sales).
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

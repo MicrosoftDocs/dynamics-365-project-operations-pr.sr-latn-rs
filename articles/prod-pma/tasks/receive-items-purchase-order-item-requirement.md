@@ -56,3 +56,6 @@ Ovaj zadatke koristi USSI skup podataka.
 21. U polju **Prijem proizvoda** , otkucajte vrednost.
 22. Izaberite **U redu**.
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

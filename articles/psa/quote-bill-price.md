@@ -44,3 +44,6 @@ Sledeće teme pružaju više informacija o funkcionalnostima davanja ponuda, for
 - [Grupe jedinica i jedinice](advanced-units.md)
 - [Valuta sa više jedinica](advanced-currency.md)
 - [Evidentiranje stvarnih vrednosti](advanced-actuals.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

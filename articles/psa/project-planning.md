@@ -52,3 +52,6 @@ Sledeće teme pružaju informacije koje će pomoći menadžerima projekata da pr
 - [Predlošci projekata](project-templates.md)
 - [Faze projekta](project-stages.md)
 - [Podešavanja projekta](project-settings.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

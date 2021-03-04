@@ -48,3 +48,6 @@ Veštine za resurse ocenjuju se prema modelima stručnosti. Pojedinačne ocene s
 > ![Definisane su minimalne i maksimalne vrednosti ocenjivanja](media/Resource-Management-image85.png)
 
 Te vrednosti ocenjivanja su prikazane u filterima **Potrebe za resursima**, **Tabela rasporeda** i **Pomoćnik za zakazivanje**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

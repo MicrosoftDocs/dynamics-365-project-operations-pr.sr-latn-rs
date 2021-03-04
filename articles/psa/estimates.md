@@ -106,3 +106,6 @@ Ako ste u detalj stavke ponude dodali prilagođeno polje i želite da sistem une
 
 8. Ponovite korake od 1 do 7 za drugu dodatnu komponentu.
 9. Zatvorite PluginRegistrationTool.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -35,3 +35,6 @@ Resursi su najvažniji adut organizacije zasnovane na uslugama. Sposobnost prona
 
 
 Možete da obezbedite resurse za projekat pomoću tima generičkih ili imenovanih resursa u usluzi Project Operations. Možete da koristite različite metode za dodavanje i dodeljivanje članova tima, kao i za upravljanje njihovim rezervacijama i dodelama. 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

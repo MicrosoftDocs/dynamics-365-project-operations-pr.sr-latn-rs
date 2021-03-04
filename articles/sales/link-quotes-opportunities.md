@@ -56,3 +56,6 @@ Postojeća ponuda se može povezati sa mogućnošću za poslovanje. Dovršite sl
    Kada premestite mogućnost za poslovanje u ovu fazu, možete da izaberete ovu ponudu sa liste ponuda povezanih sa ovom mogućnošću za poslovanje. Izbor ove ponude ukazuje na to da napredujete sa njom.
 
    Sve ostale ponude povezane sa mogućnošću za poslovanje i dalje će biti dostupne i aktivne dok se jedna od njih ne ostvari. Proces prodaje možete da vratite u prethodnu fazu **Kvalifikovanje** i da odaberete drugu ponudu za napredovanje.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -82,3 +82,6 @@ Svojstva **Br. korisnika** i **Br. meseci** se mogu označiti kao faktori količ
 
 > ![Označavanje broja korisnika i broja meseci kao faktora kvaliteta](media/basic-guide-11.png)
  
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

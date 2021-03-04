@@ -43,3 +43,6 @@ Stvorite mesto na kome članovi tima za projekat mogu da sarađuju na dokumentim
   
 ### <a name="see-also"></a>Takođe pogledajte  
  [Vodič za menadžera projekta](../psa/project-manager-guide.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

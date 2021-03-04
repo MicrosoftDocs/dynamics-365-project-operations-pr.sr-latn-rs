@@ -107,3 +107,6 @@ Dodatne opcije su dodate u SAP radi boljeg korišćenja funkcionalnosti resursa.
     > Nećete dobiti upozorenje da je navedeni resurs sada 2, jer broj resursa ostaje 1.
 
 14. Na stranici **Strukturna analiza posla** potvrdite dodeljivanje resursa na SAP-u, a zatim izaberite **Sačuvaj**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

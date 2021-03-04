@@ -45,3 +45,6 @@ Posao grupne obrade za kreiranje faktura je periodični posao. Ako se ova grupna
 
 > [!NOTE]
 > Grupno fakturisanje se izvodi samo za predmete ugovora o projektu koji su konfigurisani prema rasporedima faktura. Predmet ugovora sa načinom naplate uz fiksnu cenu mora da ima konfigurisane kontrolne tačke. Predmet ugovora za projekat sa načinom naplate vremena i materijala treba da uspostavi raspored faktura na osnovu datuma. Isto se odnosi i na predmet ugovora zasnovan na projektu.     
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

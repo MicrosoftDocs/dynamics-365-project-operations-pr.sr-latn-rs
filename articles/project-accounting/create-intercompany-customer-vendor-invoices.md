@@ -61,3 +61,6 @@ Možete istovremeno kreirati više faktura mu okviru preduzeća za sva pravna li
 ## <a name="post-the-intercompany-vendor-invoice"></a>Knjiženje fakture dobavljača u okviru preduzeća
 
 Računovođa projekta u pravnom licu koje se zadužuje može da pregleda fakture dobavljača u okviru preduzeća na čekanju kada je proknjižena odgovarajuća faktura klijenta u okviru preduzeća. U modulu Finance, u pravnom licu koje se zadužuje, idite na **Dugovanja** > **Fakture** > **Faktura dobavljača na čekanju**. Broj fakture na čekanju podudaraće se sa brojem fakture klijenta u okviru preduzeća. Proverite da li je faktura ispravna, a zatim je proknjižite. Knjiženjem fakture dobavljača u okviru preduzeća kreiraju se potknjiga projekta i transakcija glavne knjige koji odražavaju transakcione troškove pravnog lica koje se zadužuje.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

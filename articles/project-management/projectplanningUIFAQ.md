@@ -106,3 +106,6 @@ Kada se obavi jedno ili više ažuriranja strukturne analize posla, promene na k
   - Project Operations sistem
   - Projektni sistem
   - Project Operations sistem dvostrukog upisivanja (ova uloga je potrebna ako primenjujete resurs/scenario koji nije zasnovan na zalihama usluge Project Operations.)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

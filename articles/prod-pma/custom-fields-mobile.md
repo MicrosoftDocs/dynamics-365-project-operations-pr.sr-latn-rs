@@ -429,3 +429,6 @@ Unos podrazumevane kategorije projekta u stavke vremenskog rasporeda odvija se n
 1. Aplikacija pokušava da postavi podrazumevanu kategoriju iz resursa projekta. Ova podrazumevana kategorija je podešena u metodama **getCurrentUserResource** i **getDelegatedResourcesForCurrentUser** u klasi **TSTimesheetSettingsService**.
 2. Ako podrazumevana kategorija nije navedena na nivou resursa projekta, aplikacija pokušava da je povuče iz aktivnosti projekta. Ova podrazumevana kategorija je postavljena u metodi **getActivitiesForProject** u klasi **TSTimesheetProjectService**.
 3. Ako podrazumevana kategorija nije navedena na nivou aktivnosti projekta, podrazumevana kategorija se preuzima iz parametara projekta. Ova podrazumevana kategorija se postavlja u metodi **getProjectDetailsbyRule** u klasi **TSTimesheetProjectService**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

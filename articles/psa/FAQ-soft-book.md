@@ -67,3 +67,6 @@ Kada budete spremni da promenite resurs uslovno rezervisanog člana tima u fiksn
 2. Kliknite desnim tasterom miša na rezervaciju, pa u okviru opcije **Promena statusa** izaberite **Fiksno rezerviši** \> **Fiksno**. Status rezervacije je sada **Fiksna**.
 3. Nakon zatvaranja tabele rasporeda, vratite se u projekat i otvorite karticu **Tim**, videćete da su na kartici **Tim** sati za resurs premešteni iz kolone **Uslovno rezervisani** u kolonu **Fiksno rezervisani sati**, kada ste u prikazu **Imenovani članovi tima**. Ako je resurs bio dodeljen zadacima, oni više neće prikazivati manjak rezervacija na kartici **Usaglašenost** jer su njihove rezervacije sada fiksne.
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -57,3 +57,6 @@ Ova tema opisuje kako kreirati model predviđanja za preostale budžete. Projeka
 
  
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

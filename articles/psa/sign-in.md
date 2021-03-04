@@ -56,3 +56,6 @@ Kada se prijavljujete u Dynamics 365 aplikacije, potrebno je da imate sledeće i
   
 ### <a name="see-also"></a>Takođe pogledajte  
  [Vodič za vreme, trošak i saradnju](../psa/time-expense-collaboration-guide.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -37,3 +37,6 @@ Koristite ovaj tip primene ako očekujete da Project Operations koristi puni ži
 - Integrisani sistem upravljanja projektima koji upravlja internim i naplativim projektima za rasporede i finansije od prodaje projekata do fakturisanja.
 - Nezavisno planiranje resursa za preduzeća (ERP/Sistem finansijskog računovodstva za integraciju sa uslugom Project Operations.
 - Nezavisni sistem za rad sa porezima na promet, deviznim kursevima, naknadama troškova i ne-projektnim troškovima.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

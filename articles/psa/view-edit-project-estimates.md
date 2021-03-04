@@ -45,3 +45,6 @@ Uz mogućnosti [!INCLUDE[pn_project_service_auto](../includes/pn-project-service
   
 ### <a name="see-also"></a>Takođe pogledajte  
  [Vodič za menadžera projekta](../psa/project-manager-guide.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

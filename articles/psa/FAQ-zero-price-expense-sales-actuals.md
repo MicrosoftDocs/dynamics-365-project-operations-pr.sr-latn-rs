@@ -72,3 +72,6 @@ Ako podešavanje cene za kategoriju troška nije važeće, onda ste izolovali pr
 Ako i dalje ne vidite važeću cenu u stvarnom podatku o trošku prodaje nakon obavljene gorenavedene tri provere, pošaljite tiket podršci.
 
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

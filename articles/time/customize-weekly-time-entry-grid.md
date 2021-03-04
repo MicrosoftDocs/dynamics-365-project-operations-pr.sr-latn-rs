@@ -144,3 +144,6 @@ Koristite validacije dodatnih komponenti za sve validacije za koje je potrebno v
 
 ### <a name="copying-time-entries"></a>Kopiranje stavki vremena
 Koristite prikaz **Kolone za kopiranje stavki vremena** da biste definisali listu polja za kopiranje tokom unosa vremena. **Datum** i **Trajanje** su obavezna polja i ne bi ih trebalo ukloniti iz prikaza.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

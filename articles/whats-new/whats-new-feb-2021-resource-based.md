@@ -54,3 +54,6 @@ Za više informacija o upravljanju projektima i računovodstvu u usluzi Dynamics
 ## <a name="regulatory-updates"></a>Regulatorne ispravke
 
 Za informacije o regulatornim ispravkama za Finance and Operations aplikacije, pogledajte članak [Regulatorne ispravke](https://docs.microsoft.com/dynamics365/finance/localizations/regulatory-updates). Drugi način da saznate više o regulatornim ispravkama je da se prijavite na Lifecycle Services (LCS) i pregledate planirane regulatorne ispravke pomoću alatke za pretragu problema. Pretraga problema vam omogućava pretragu po zemlji, tipu funkcije i izdanju.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

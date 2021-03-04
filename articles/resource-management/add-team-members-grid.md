@@ -200,3 +200,6 @@ Kada pregledate vreme na višim nivoima, ćelije na kartici **Usaglašenost** im
 Ako imate dodele zadataka za resurs, ali nema rezervacija, na obrascu **Projekti** na kartici **Usaglašavanje** izaberite nedostatak rezervacija, a zatim **Produži rezervaciju**. Pojavljuje se dijalog **Produženje rezervacije** i prikazuje rezervaciju koja je potrebna da se reši problem sa nedostatkom resursa. Dijalog takođe pokazuje postojeće rezervacije resursa za sve projekte ili druge entitete koji se mogu zakazivati. Ako izaberete **U redu** da biste kreirali rezervaciju za resurs, bez obzira na dostupnost tog resursa, možete prouzrokovati prekomernu rezervaciju.
 
 Menadžer projekta ili menadžer resursa tada može da koristi tabelu rasporeda kako bi upravljao bilo kojom situacijom u kojoj je resurs prekomerno rezervisan u odnosu na njegov kapacitet.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

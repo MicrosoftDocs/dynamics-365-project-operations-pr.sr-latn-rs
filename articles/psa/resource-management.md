@@ -53,3 +53,6 @@ Možete da obezbedite resurse za projekat pomoću tima generičkih ili imenovani
 - [Rezervisanje imenovanih resursa iz potrebe za resursima](book-named-resource.md)
 - [Prosleđivanje zahteva za resurs](submit-resource-request.md)
 - [Prihvatanje ili odbacivanje predloženog resursa projekta u zahtevu za resurs](accept-reject-proposed-resource.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

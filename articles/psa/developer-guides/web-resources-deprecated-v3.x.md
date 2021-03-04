@@ -538,3 +538,6 @@ Zbog novog klijentskog interfejsa i drugih promena koje su unete u Dynamics 365 
 - msdyn\_\\Vreme\\Aplikacija\\Skripte\\Prikazi\\SubmitDialog.js
 - msdyn\_\\Vreme\\Aplikacija\\Skripte\\Prikazi\\TimeEntryView.js
 - msdyn\_\\Vreme\\Moca\\Skripte\\TimeEntryRibbon.js
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

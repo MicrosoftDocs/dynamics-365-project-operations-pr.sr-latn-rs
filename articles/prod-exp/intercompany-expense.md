@@ -35,3 +35,6 @@ Da bi radnik mogao da kreira i preda troškove u okviru preduzeća, morate omogu
 
 Da biste u izveštaju o troškovima mogli da koristite poreske grupe koje su povezane sa pravnim licem koje pozajmljuje novac (izvor) umesto sa pravnim licem koje se zadužuje (odredište), morate da omogućite funkcionalnost u podešavanju poreza na promet u glavnoj knjizi. Kada je parametar **Pravno lice za knjiženje poreza u okviru preduzeća** podešen na **Izvor**, a parametar **Primeni pravila oporezivanja poreza na promet** je podešen na **Ne**, koristi se poreska kombinacija za pravno lice koje pozajmljuje novac. Kada je isti parametar postavljen na **Odredište**, koristiće se poreska kombinacija za pravno lice kojem se pozajmljuje. Za pravna lica u Sjedinjenim Državama, kada je parametar postavljen na **Izvor**, polje **Potraživanje poreza na promet** takođe mora biti konfigurisano na novoj stranici **Grupe za knjiženje glavne knjige**. Računovodstveni mehanizam će koristiti podatke iz ovog polja za računovodstveni unos u vezi sa porezom.   
 Ponašanje je dosledno za stavke troškova objavljene sa projektom ili bez njega.  
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

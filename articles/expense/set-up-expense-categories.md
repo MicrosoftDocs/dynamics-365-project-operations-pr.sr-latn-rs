@@ -61,3 +61,6 @@ Pre nego što započnete postupak podešavanja, za svaku kategoriju troškova mo
 
     - Da li je neka od potkategorija izuzeta od povraćaja poreza?
     - Koja je grupa poreza na promet proizvoda za potkategorije?
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

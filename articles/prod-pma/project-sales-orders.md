@@ -41,3 +41,6 @@ Ulazne porudžbine zasnovane na projektu možete kreirati na dva načina:
 - Idite na sam projekat. U oknu radnji izaberite **Upravljanje > Zadaci predmeta > Ulazna porudžbina**. Informacije o projektu podrazumevano se stavljaju u ulaznu porudžbinu iz projekta. Ako ugovor o projektu ima više izvora finansiranja, moraćete da izaberete izvor finansiranja da biste postavili klijenta za ulaznu porudžbinu. Ako postoji samo jedan izvor finansiranja za projekat, klijent će biti automatski podešen.
 - Idite na stranicu liste **Sve ulazne porudžbine** i kreirajte novu ulaznu porudžbinu. Za ulaznu porudžbinu ćete morati da izaberete projekat. Kada izaberete projekat, klijent će biti postavljen iz izvora finansiranja ili ćete morati izabrati izvor finansiranja ako ugovor o projektu ima više izvora finansiranja.
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

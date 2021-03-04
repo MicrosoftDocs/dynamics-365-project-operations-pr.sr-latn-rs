@@ -113,3 +113,6 @@ Kada pravno lice zajmodavac, USSI, knjiži međukompanijsku fakturu za klijenta,
 Za više informacija, pogledajte [Konfigurisanje fakturisanja međukompanijskih projekata](tasks/configure-intercompany-project-invoicing.md).
 
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

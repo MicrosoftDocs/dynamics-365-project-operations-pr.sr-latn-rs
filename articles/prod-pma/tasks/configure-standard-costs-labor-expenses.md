@@ -54,3 +54,6 @@ Ova tema objašnjava kako da postavite standardnu cenu rada i troškove projekta
 22. U polje **Cena** unesite broj. Stvarna prodajna cena, koja se primenjuje kada radnik unosi transakcije u dnevnik troškova, jeste prodajna cena sa najvišim nivoom detalja. Na primer, ako su postavljene i opšta prodajna cena i prodajna cena specifična za radnika, koristi se prodajna cena specifična za radnika.  
 23. Izaberite stavku **Sačuvaj**.
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

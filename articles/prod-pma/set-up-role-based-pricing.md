@@ -34,3 +34,6 @@ Sve cene troškova, prodaje i transfera mogu se podesiti za uloge. Dovršite sle
 1. Na stranici **Prodajna cena (sat)** , izaberite **Nova** i unesite datum stupanja na snagu.
 2. U koloni **Uloga** , izaberite ulogu.
 3. U koloni **Cene** , unesite cenu za izabranu ulogu resursa.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

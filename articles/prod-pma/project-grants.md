@@ -79,3 +79,6 @@ Bespovratnu pomoć možete kreirati unošenjem svih detalja u novi zapis ili mo�
 2. Izaberite bespovratnu pomoć za izmenu.
 3. U oknu radnje, na kartici **Bespovratna pomoć** , u grupi **Održavanje** izaberite **Uredi**.
 4. Pregledajte detalje o bespovratnoj pomoći i izvršite sve potrebne promene.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

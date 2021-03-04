@@ -81,3 +81,6 @@ Popravljeni su sledeći problemi:
 - Dugme **Osveži stvarne vrednosti** pogrešno izračunava rezimirane zadatke.
 - Dodatak za Microsoft Project: Ispravljena je greška reference „null“ ako bilo koji član tima ima praznu jedinicu za obezbeđivanje resursa.
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

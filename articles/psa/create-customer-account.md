@@ -47,3 +47,6 @@ Kreirajte nalog za svakog klijenta sa kojim radite, bilo da dajete ponudu za pro
   
 ### <a name="see-also"></a>Takođe pogledajte  
  [Vodič za menadžera za poslovne kontakte](../psa/account-manager-guide.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

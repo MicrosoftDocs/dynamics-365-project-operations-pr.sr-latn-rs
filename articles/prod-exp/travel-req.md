@@ -32,3 +32,6 @@ Vaša organizacija može zahtevati da se zahtev za putovanje podnese pre nego š
 Zahtevi za putovanje i smernice mogu se koristiti za kontrolu budžeta. Na primer, ako vaša organizacija radi na projektu sa fiksnom cenom koji zahteva putovanje, putni troškovi članova projektnog tima moraju se uklapati u budžet za projekat. Zahtevanjem da se putni troškovi odobre pre nego što nastanu, organizacija može da pomogne da projekat ostane u okviru budžeta.
 
 Možete postaviti smernice za putne zahteve na stranici **Zahtev za putovanjem**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -55,3 +55,6 @@ Mogućnosti za poslovanje su potencijalni klijenti koji su zainteresovani za ugo
   
 ### <a name="see-also"></a>Takođe pogledajte  
  [Vodič za menadžera za poslovne kontakte](../psa/account-manager-guide.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -105,3 +105,6 @@ Dynamics 365 automatski upravlja zbirnim iznosima u različitim valutama. Evo pr
 | Trošak           | Nenaplaćena prodaja   | 17. jun | Dobrilo  | Iznajmljivanje automobila           | 1 ea     | 150 EUR      | 150 EUR     | 0.94          | 159,57 USD     |
 
 Da biste izračunali ukupnu nenaplaćenu prodajnu vrednost za projekat, možete da kreirate polje zbirne vrednosti za polje **Iznos** za sve povezane nenaplaćene stvarne vrednosti prodaje. Polje zbirne vrednosti je konstrukcija sistema Dynamics 365 koja omogućava brze formule za povezane zapise.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

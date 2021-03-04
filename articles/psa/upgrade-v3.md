@@ -110,3 +110,6 @@ Za zadatke koji su dodeljeni ulozi sa organizacionom jedinicom koja se razlikuje
  
 Promena podrazumevanih vrednosti različitih organizacionih jedinica za obezbeđivanje resursa za članove tima koji nisu generisani je razlog zbog kojeg preporučujemo da pre nadogradnje generišete ili ponovo generišete tim za svaki projekat koji sadrži generičke resurse, kako se dodele organizacionih jedinica ne bi izgubile.
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

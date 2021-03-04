@@ -45,3 +45,6 @@ Da biste kreirali faktore količine iz svojstava proizvoda, sledite ove korake:
 6. Sačuvajte i zatvorite obrazac. Ponovite ove korake za sva svojstva koja ćete koristiti za izračunavanje količine za stavku ponude zasnovanu na proizvodu.
 
 Kada za proizvod kreirate stavku ponude zasnovane na proizvodu, količina stavke ponude će biti zaključana. Količina će se izračunati kao proizvod vrednosti svojstva koje ste uneli za tu stavku ponude.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

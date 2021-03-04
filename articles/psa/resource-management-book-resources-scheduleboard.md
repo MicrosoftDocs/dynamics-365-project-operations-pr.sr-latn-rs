@@ -53,3 +53,6 @@ Da biste mogli da rezervišete u tabeli rasporeda, morate da kreirate ili generi
 Zahtev je ispunjen korišćenjem izabranog resursa. U oknu **Potrebe za rezervacijama** ćete primetiti da je potreba ažurirana, a resurs se prikazuje kao rezervisan za projekat.
 
 ![Resurs je rezervisan za projekat](media/Resource-Management-image76.png)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

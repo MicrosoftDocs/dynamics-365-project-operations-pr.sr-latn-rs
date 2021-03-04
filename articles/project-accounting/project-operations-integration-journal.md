@@ -55,3 +55,6 @@ Samo se sledeći računovodstveni atributi mogu ažurirati u stavkama u glavnoj 
 Stavka u glavnoj knjizi integracije se mogu izbrisati, ali sve neobjavljene stavke će se ponovo umetnuti u dnevnik nakon ponovnog pokretanja periodičnog procesa **Uvoz iz pripremne tabele**.
 
 Kada objavite dnevnik integracije, kreiraju se transakcije potknjige i glavne knjige projekta. One se koriste u posledičnom fakturisanju klijenata, priznavanju prihoda i finansijskom izveštavanju.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

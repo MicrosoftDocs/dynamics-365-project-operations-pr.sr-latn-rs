@@ -48,3 +48,6 @@ Ako imate dodele zadataka za resurs, ali nema rezervacija, izaberite nedostatak 
 Rezervacije kreirane putem radnje **Proširi rezervaciju** su povezane sa primarnim projektnim zahtevom. Kada se pokreće proširenje, ne može se utvrditi konkretan zahtev koji se mora proširiti jer resurs može biti povezan sa više zahteva za projekat.
 
 Menadžer projekta ili menadžer resursa tada može da koristi tabelu rasporeda kako bi upravljao bilo kojom situacijom u kojoj je resurs prekomerno rezervisan u odnosu na njegov kapacitet.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

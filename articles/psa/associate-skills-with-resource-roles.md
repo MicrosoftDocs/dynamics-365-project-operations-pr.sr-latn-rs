@@ -47,3 +47,6 @@ Dok ste dodavali uloge resursa, verovatno ste već povezali neke veštine na nji
   
 ### <a name="see-also"></a>Takođe pogledajte  
  [Podešavanje resursa](../psa/set-up-resources.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

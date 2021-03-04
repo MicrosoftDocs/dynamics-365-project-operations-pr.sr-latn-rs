@@ -23,3 +23,6 @@ Dynamics 365 Project Operations uključuje logiku provere koja osigurava tačan 
 
   - Svi podržani redovi se kreiraju u povezanim tabelama, kao što su dnevnici i stvarne vrednosti.
   - Davalac odobrenja se označava kao **Davalac odobrenja za projekat** u projektu pre nego što nastavite.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

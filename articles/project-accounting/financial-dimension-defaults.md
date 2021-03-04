@@ -62,3 +62,6 @@ Projekti se kreiraju i održavaju u usluzi CDS. Atributi računovodstva za proje
 4. Podesite podrazumevane vrednosti finansijskih dimenzija. Imajte u vidu da se podrazumevane vrednosti finansijskih dimenzija uzimaju sa naloga klijenta. Ako je projekat povezan sa predmetom ugovora sa više klijenata ugovora za projekat, primarni klijent se koristi za podrazumevane finansijske dimenzije.
 
 Podrazumevane finansijske dimenzije projekta koriste se za postavljanje podrazumevanih vrednosti stavke u glavnoj knjizi za transakcije vremena, troškova i naknada u **Project Operations dnevniku integracije** i na povezanim stavkama fakture projekta.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

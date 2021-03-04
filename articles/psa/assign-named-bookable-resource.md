@@ -68,3 +68,6 @@ Možete koristiti mogućnost produženja rezervacije na kartici **Usaglašenost*
 ![Produženje rezervacije člana tima na kartici Usaglašenost resursa](media/RM-how-to-7.png)
 
 Nakon što je član tima rezervisan za projekat, možete da koristite održavanje rezervacija ili tabelu rasporeda direktno da biste upravljali rezervacijama.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

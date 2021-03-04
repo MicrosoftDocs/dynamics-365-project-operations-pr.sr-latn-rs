@@ -257,3 +257,6 @@ Sledeći grafikon se prikazuje nakon kreiranja prilagođenih cenovnika.
 
 > [!NOTE]
 > Može doći do kratkog kašnjenja od klika na **Kreiranje prilagođenih cena** do kreiranja prilagođenog cenovnika. Preporučujemo da osvežite mrežu umesto da kliknete više puta. Prilagođeni cenovnik je kreiran ako je nazivu povezanog cenovnika dodat naziv ponude ili ugovora o projektu.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

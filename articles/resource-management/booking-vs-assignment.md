@@ -26,3 +26,6 @@ Za razliku od rezervacija, dodele predstavljaju obavezivanje resursa za projektn
 Uobičajeno je da je zbir rezervacija za resurs jednak zbiru dodela resursa za jedan ili više zadataka. Međutim, Project Operations ne sprovodi ovaj dogovor. Prikaz **Usaglašenost** pokazuje menadžeru projekata mesta gde se rezervacije i dodele resursa ne slažu.
 
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

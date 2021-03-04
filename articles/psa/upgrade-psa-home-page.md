@@ -65,3 +65,6 @@ Od 1. marta 2020. klijenti aplikacije Dynamics PSA više neće moći da kreiraju
 
 > [!NOTE]
 > Da biste dobili najbolje iskustvo prilikom korišćena starije verzije Field Service i PSA aplikacija, idite na stranicu **Podešavanja sistema** i za polje **Korišćenje samo novog objedinjenog interfejsa (preporučeno)** izaberite **Ne** jer ove verzije nisu dizajnirane da budu ispravno učitane u objedinjeni interfejs klijenta. Nakon što isključite objedinjeni interfejs klijenta, ove verzije usluga Field Service i PSA možete otvoriti i pokrenuti pomoću starog veb-klijenta. 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

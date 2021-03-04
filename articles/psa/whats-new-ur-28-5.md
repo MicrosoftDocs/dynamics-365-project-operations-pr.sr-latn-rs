@@ -42,3 +42,6 @@ Popravljeni su sledeći problemi:
 
 - Pogoršanje performansi pretrage pomoći za zakazivanje
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

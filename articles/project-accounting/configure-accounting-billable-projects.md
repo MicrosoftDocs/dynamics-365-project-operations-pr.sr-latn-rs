@@ -125,3 +125,6 @@ Fiksna cena – procenat dovršenosti
 Pravila za profile troškova i prihoda projekta određuju profil troškova i prihoda projekta koji se mora koristiti prilikom obrade svih naplativih transakcija projekta. Definišite pravila odlaskom na **Upravljanje projektima i računovodstvo** \> **Podešavanje** \> **Knjiženje** \> **Pravila za profile troškova i prihoda projekta**.
 
 Pravila se mogu definisati projektnim ugovorom, projektnom grupom ili određenim projektom. Sistem će uvek prvo odabrati pravilo sa najvećom granularnošću.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

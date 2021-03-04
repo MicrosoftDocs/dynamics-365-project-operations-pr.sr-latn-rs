@@ -32,3 +32,6 @@ U aplikaciji Dynamics 365 Project Service Automation verzije 3.0, prikazi Vreme 
 Ranije su prikazi kalendara i mreže za Vreme i Trošak bili implementirani kao DHTMLX kontrole. Artefakti koji su povezani sa tom implementacijom prikaza kalendara i mreže sada su zastareli.
 
 Za kompletnu listu zastarelih resursa, pogledajte [Zastareli veb-resursi u aplikaciji Project Service Automation 3.x](web-resources-deprecated-v3.x.md).
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

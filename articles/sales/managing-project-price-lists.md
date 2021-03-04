@@ -120,3 +120,6 @@ Kao i kod stopa naplate, stope troškova za ljudske resurse se takođe podešava
     1. Cenovnik troškova koji je priložen organizacionoj jedinici.
     2. Cenovnik troškova koji je priložen Project Operations parametrima. S obzirom na to da se cenovnici troškova u mnogim različitim valutama mogu priložiti uz parametre, završava se podudaranje valute ugovorne organizacione jedinice projekta, ugovora ili ponude sa valutom cenovnika troškova.
     3. Kada su u pitanju troškovi, metodi formiranja cena „Provizija preko troškova“ i „Po ceni“ ne primenjuju se na cenovnike troškova. Čak i ako se ovi metodi određivanja cena koriste u stavkama cenovnika troškova da bi se podesili troškovi za kategoriju transakcije, sistem ih zanemaruje i ne unosi se podrazumevana cena koštanja.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

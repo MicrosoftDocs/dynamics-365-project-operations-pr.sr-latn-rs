@@ -53,3 +53,6 @@ Da biste postavili kompetencije za radnika, možete da koristite ili stranicu li
 5. U polju **Datum nivoa** , izaberite **14.1.2014**.
 6. U polje **Godine iskustva** unesite **10**.
 7. Izaberite **Sačuvaj** , a zatim zatvorite stranicu.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

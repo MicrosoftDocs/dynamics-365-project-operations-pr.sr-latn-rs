@@ -40,3 +40,6 @@ Ponekad ćete možda morati da korigujete originalne procene za zadatak. Zadatak
   
 ### <a name="see-also"></a>Takođe pogledajte  
  [Vodič za menadžera projekta](../psa/project-manager-guide.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

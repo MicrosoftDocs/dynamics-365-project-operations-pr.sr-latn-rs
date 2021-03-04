@@ -64,3 +64,6 @@ Dodajte sledeće Project Service entitete u svoje rešenje za određivanje cena 
 5.  Kada se od vas zatraži da uključite bilo koji zavisni entitet za izabrane entitete, izaberite **Ne, ne uključuj obavezne komponente.**
 
     ![Uključivanje zavisnih entiteta](./media/Do-not-include-required.png)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

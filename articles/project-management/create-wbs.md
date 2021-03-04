@@ -116,3 +116,6 @@ Režim zadatka nema uticaja na ažuriranja koja se obavljaju na datum početka i
 ## <a name="accessibility-and-keyboard-shortcuts"></a>Pristupačnost i tasterske prečice
 
 Mreža **Raspored** je potpuno dostupna i može se koristiti sa čitačima ekrana kao što su Narrator, JAWS ili NVDA. Kroz oblast mreže možete se kretati pomoću tastera sa strelicama (kao u programu Microsoft Excel), možete koristiti taster Tab da biste se kretali kroz interaktivne elemente korisničkog interfejsa, a pomoću tastera sa strelicom nadole, tastera Enter ili razmaknice možete da izaberete i otvorite padajuće menije.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

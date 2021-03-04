@@ -70,3 +70,6 @@ Možete da uvezete podatke iz rezervacija i zadataka za projekte. Kada uvezete p
 ## <a name="group-by-sort-search-and-filter-capabilities"></a>Mogućnosti grupisanja prema, sortiranja, pretrage i filtriranja
 
 Možete grupisati i filtrirati stavke vremena prema dimenzijama koje su navedene u kolonama. U polju **Grupiraj prema** odaberite dimenziju za filtriranje stavki vremena. Takođe možete sortirati zapise stavki vremena rastućim ili opadajućim redosledom koristeći strelicu za sortiranje u nazivima kolona. Pored toga, stavke možete prikazati ili sakriti tako što ćete kliknuti na dugme **Filter** u nazivu kolone, a zatim u polje **Pretraga** uneti tekst koji treba da se koristi za pretragu stavki vremena prema nazivu projekta, projektnom zadatku, stavci vremena ili resursu.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

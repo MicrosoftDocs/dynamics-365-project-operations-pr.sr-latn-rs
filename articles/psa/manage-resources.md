@@ -344,3 +344,6 @@ Ako imate dodele zadataka za resurs, ali nema rezervacija, na stranici **Projekt
 ![Dijalog Produženje rezervacije](media/Resource-Management-image58.png)
 
 Menadžer projekta ili menadžer resursa tada može da koristi tabelu rasporeda kako bi upravljao bilo kojom situacijom u kojoj je resurs prekomerno rezervisan u odnosu na njegov kapacitet.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

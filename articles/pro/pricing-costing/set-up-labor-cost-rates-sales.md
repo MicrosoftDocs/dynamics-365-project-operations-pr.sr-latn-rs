@@ -82,3 +82,6 @@ U cenovniku troškova za Fabrikam UK-Robotics stope troškova mogu se izraziti o
 | Projektant | Fabrikam UK | 115 GBP |
 
 Cenovnik troškova može da obezbedi stope rada u više valuta. Prilikom generisanja procene troškova na projektu, usluga Project Operations će pretvoriti ove stope troškova u valutu projekta i prikazati ih korisniku. Kada se odobri unos vremena i stvori stvarni trošak, stvarni trošak se određuje u valuti odgovarajuće linije cena uloge na cenovniku troškova. Stvarni troškovi vremena na jednom projektu mogu se evidentirati u više valuta. Međutim, prilikom pravljenja zbirne vrednosti ili sumiranja stvarnih troškova rada na nivou projekta, Project Operations će pretvoriti sve iznose troškova rada u valutu projekta, koju korisnik može prikazati.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

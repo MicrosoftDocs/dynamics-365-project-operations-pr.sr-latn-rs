@@ -61,3 +61,6 @@ Kada se projektni tim kopira iz izvornog projekta, kopiraju se generički resurs
 Kada se projekat kopira, iz izvornog projekta se kopiraju i stavke procene resursa i troškova. 
 
 Za informacije o tome kako programski pristupiti opciji Kopiraj projekat, pogledajte [Razvijajte predloške projekata pomoću opcije Kopiraj projekat](dev-copy-project.md).
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

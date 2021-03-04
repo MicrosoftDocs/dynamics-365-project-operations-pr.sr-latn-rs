@@ -209,3 +209,6 @@ Ako ste primenili demo podatke na Finance okruženje, pogledajte članak [Podeš
 
 
 Vaše Project Operations okruženje je sada obezbeđeno i konfigurisano. 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -57,3 +57,6 @@ Okno filtera prikazuje opcije vezane za posao, uključujući:
 -   Preduzeće koje obezbeđuje resurse
 -   Tipovi resursa
 -   Željeni resursi
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

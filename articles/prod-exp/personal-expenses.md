@@ -33,3 +33,6 @@ Postoje dve metode za rešavanje ličnih troškova radnika:
 - **Plaća kompanija** - Vaša organizacija plaća ceo račun za korporativnu kreditnu karticu, a zatim tereti račun radnika za lične troškove.
 
 Možete odabrati metod koji vaša organizacija koristi na stranici **Parametri upravljanja troškovima**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

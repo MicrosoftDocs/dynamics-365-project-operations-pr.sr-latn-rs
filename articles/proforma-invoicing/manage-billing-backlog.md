@@ -38,3 +38,6 @@ Nenaplaćeni stvarni iznosi prodaje koji imaju status **Ne treba da pređe** za 
 U slučaju predmeta ugovora sa više klijenata koje imaju način naplate za vreme i materijal, kada se odobre vreme i troškovi, za svakog klijenta na predmetu ugovora kreira se nenaplaćeni stvarni iznos prodaje prema podeli procenta naplate definisanoj za svakog klijenta na predmetu ugovora. U prikazu **Zaostale naplate vremena i materijala** videćete ove pojedinačne nenaplaćene stvarne troškove prodaje specifične za kupca. Svaki od ovih zapisa nenaplaćenih stvarnih troškova prodaje može se označiti kao **Spremno za fakturisanje** nezavisno od ovog prikaza.
 
 Nenaplaćeni stvarni iznos prodaje u radnoj verziji fakture prikazan je u ovom prikazu sa **Statusom naplate** koji ima vrednost **Kreirana je faktura za klijenta**. Kada se potvrdi radna verzija fakture, status naplate na ovom zapisu ažurira se na **Faktura za klijenta je proknjižena**. Ažuriranje ove vrednosti statusa kada je u ovom statusu pomoću prilagođenog koda se ne preporučuje. Project Operations neće pravilno funkcionisati kada se ove vrednosti statusa ažuriraju prilagođenim kodom.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

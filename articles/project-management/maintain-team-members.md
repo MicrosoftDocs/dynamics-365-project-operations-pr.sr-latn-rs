@@ -42,3 +42,6 @@ Kada to napravite izbor, resurs će biti dodat u projektni tim i dodeljen zadatk
 Možete koristiti mogućnost produženja rezervacije na kartici **Usaglašenost** ili **tabelu rasporeda** da biste rezervisali kapacitet resursa za projekat.
 
 Kada se član tima rezerviše za projekat, možete da koristite **Održavanje rezervacija** ili **tabelu rasporeda** direktno da biste upravljali rezervacijama.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -46,3 +46,6 @@ Da biste kreirali faktore količine iz svojstava proizvoda, obavite sledeće kor
 7. Ponovite korake 2–6 za sva svojstva koja će zajedno činiti količinu za predmet ugovora zasnovan na proizvodu.
 
 Kada se postave faktori količine, kada korisnik kreira predmet ugovora za ovaj proizvod, količina predmeta ugovora se zaključava. Količina se zatim izračunava kao proizvod vrednosti svojstva za taj predmet ugovora.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

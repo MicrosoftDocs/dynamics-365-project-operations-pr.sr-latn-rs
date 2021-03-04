@@ -64,3 +64,6 @@ U ovoj temi date su funkcije i ispravke koje su nove ili su promenjene u rešenj
 
     -   Fiksno: kada korisnici nadograde sa 2.X na 3.X, dozvoljavaju se projekti čija je vrednost za naziv projekta NULL.
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

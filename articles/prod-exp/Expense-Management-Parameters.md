@@ -89,3 +89,6 @@ Sledeći parametri kontrolišu opšte ponašanje u upravljanju troškovima.
 | <strong>Poruka o borbi protiv korupcije za podnosioca</strong> |                                                                                             Unesite tekst koji će biti prikazan zaposlenom prilikom kreiranja novog izveštaja o troškovima. Kliknite na dugme <strong>Prevodi</strong> da biste uneli tekst specifičan za jezik koji će se prikazivati, na osnovu korisničkog jezika.                                                                                             |
 | <strong>Poruka o borbi protiv korupcije za davaoca odobrenja</strong>  |                                                                                             Unesite tekst koji će biti prikazan davaocu odobrenja prilikom kreiranja novog izveštaja o troškovima. Kliknite na dugme <strong>Prevodi</strong> da biste uneli tekst specifičan za jezik koji će se prikazivati, na osnovu korisničkog jezika.                                                                                             |
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

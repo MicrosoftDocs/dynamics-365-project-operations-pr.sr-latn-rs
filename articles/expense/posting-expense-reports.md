@@ -31,3 +31,6 @@ Ako se troškovi u izveštaju o troškovima naplaćuju kompaniji koja nije kompa
 Da biste proknjižili izveštaj o troškovima, na stranici **Odobreni izveštaji o troškovima** izaberite izveštaj o troškovima, a zatim u oknu radnji izaberite **Knjiži**.
 
 Takođe možete istovremeno proknjižiti sve izveštaje o troškovima na listi. Izaberite sve izveštaje o troškovima, a zatim izaberite **Knjiži**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

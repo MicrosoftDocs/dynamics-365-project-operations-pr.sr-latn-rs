@@ -43,3 +43,6 @@ Sledeći dijagram ilustruje fakturisanje između preduzeća koje se odnosi na ra
 - [Konfigurisanje internog fakturisanja u okviru preduzeća](configure-intercompany-invoicing.md)
 - [Evidentiranje transakcija u okviru preduzeća](create-intercompany-transactions.md)
 - [Kreiranje internih faktura klijenta i dobavljača u okviru preduzeća](create-intercompany-customer-vendor-invoices.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

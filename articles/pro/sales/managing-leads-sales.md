@@ -72,3 +72,6 @@ Poslovni proces od potencijalnog klijenta do mogućnosti za poslovanje podržava
 | Razvij | Mogućnost za poslovanje | Razvijte mogućnost za poslovanje da biste dodali više informacija o obuhvaćenom poslu, ključnim zainteresovanim stranama i konkurenciji. |
 | Predloži | Mogućnost za poslovanje | Razvijte predlog i dobijte odobrenje od internog tima za pregled. |
 | Zatvaranje | Mogućnost za poslovanje | Ostvarite priliku da zaključite posao. |
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

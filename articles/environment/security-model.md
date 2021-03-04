@@ -81,3 +81,6 @@ Usluga Project Operations uključuje sledeće uloge:
 Više informacija o bezbednosti u usluzi Finance potražite u odeljku [Bezbednost zasnovana na ulogama](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/sysadmin/role-based-security).
 
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -62,3 +62,6 @@ Android će biti kompatibilan sa ispravkom 16 platforme, kada postane dostupna.
 13. Opcionalno: Unesite dodatne redove vremenskog rasporeda.
 
 14. Kada dovršite unos redova vremenskog rasporeda, izaberite radnju **Tok posla** \> **Prosledi** da biste prosledili vremenski raspored u proces odobravanja toka posla.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

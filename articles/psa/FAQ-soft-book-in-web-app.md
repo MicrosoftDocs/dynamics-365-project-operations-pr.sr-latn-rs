@@ -87,3 +87,6 @@ Kada budete spremni da promenite resurs uslovno rezervisanog člana tima u fiksn
 2. Kada se otvori tabela rasporeda, razvijte resurs da biste prikazali njegove rezervacije. Videćete da je rezervacija označena kao „Uslovna“.
 3. Kliknite desnim tasterom miša na rezervaciju, u okviru opcije „Promena statusa“, izaberite „Fiksno rezerviši“ i zatim „Fiksno“. Status rezervacije je sada „Fiksna“.
 4. Nakon zatvaranja tabele rasporeda, videćete da su časovi za resurs promenjeni iz „Uslovni“ u „Fiksni“ na mreži člana tima. Sada možete da dodelite resurs zadacima (ukoliko postoji usklađenost između fiksno rezervisanih časova i časova angažovanja zadatka za dodelu). Imajte u vidu da ako ste pratili korake ispunjenja generičkog resursa u stavci br. 3 iznad, kada promenite status uslovno rezervisanog resursa u fiksno rezervisani, generički član tima se uklanja iz tima.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

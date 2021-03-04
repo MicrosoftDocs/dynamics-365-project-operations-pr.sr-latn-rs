@@ -128,3 +128,6 @@ Za stavku ponude sa fiksnom cenom možete koristiti mrežu **Raspored fakturisan
 - Da biste kreirali kontrolne tačke za naplatu koje su podjednako podeljene, izaberite učestalost fakturisanja, unesite datum početka naplate u stavku ponude i izaberite **Zahtevani datum završetka** za ponudu u odeljku **Rezime** zaglavlja ponude. Zatim izaberite **Generisanje periodičnih kontrolnih tačaka** da biste kreirali podjednako podeljene kontrolne tačke zasnovane na izabranoj učestalosti fakturisanja. 
 - Da biste kreirali kontrolnu tačku naplate objedinjene sume, kreirajte kontrolnu tačku, a zatim unesite vrednost stavke ponude kao iznos za kontrolnu tačku.
 - Da biste kreirali kontrolne tačke za naplatu koje su zasnovane na specifičnim zadacima u planu projekta, kreirajte kontrolnu tačku i mapirajte je na element rasporeda projekta u korisničkom interfejsu za naplatu.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

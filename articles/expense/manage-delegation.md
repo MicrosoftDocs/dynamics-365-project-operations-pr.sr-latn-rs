@@ -39,3 +39,6 @@ Ako je ključ za upravljanje osobinama **Omogućite stranicu liste delegata tro�
 Delegat može brzo da filtrira i pretražuje postojeće izveštaje o troškovima koji su mu delegirani. Delegat takođe može brzo da izabere novi izveštaj o troškovima za druge korisnike **Novi izveštaj o troškovima**.
 
 Delegati mogu da kreiraju izveštaje o troškovima za druge zaposlene i upravljaju njima odlaskom na **Upravljanje troškovima** > **Moji troškovi** > **Izveštaji o troškovima** i izborom **Otvorite troškove drugih korisnika**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

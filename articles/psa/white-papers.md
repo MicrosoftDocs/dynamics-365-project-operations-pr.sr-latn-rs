@@ -45,3 +45,6 @@ Ove bele knjige su osmišljene tako da pruže detaljne informacije o [!INCLUDE[p
 
 ### <a name="see-also"></a>Takođe pogledajte
  [Pregled aplikacije Project Service](../psa/overview.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -66,3 +66,6 @@ Popravljeni su sledeći problemi:
 - Klijenti mogu imati smanjene performanse prilikom kreiranja projekta jer **GetBookableResourceIdFromUser** pribavlja sve kolone resursa koji mogu da se rezervišu umesto samo primarni ID.
 - Entitetu **Tip transakcije** nedostaje dodatna komponenta za prethodnu validaciju da spreči korisnike da unose **Jedinice** i **UnitGroups** koje nisu važeće za tipove transakcija.
 - Korak **Ukloni** ne radi za uvoz stavke vremena.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

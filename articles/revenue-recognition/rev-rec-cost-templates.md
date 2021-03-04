@@ -79,3 +79,6 @@ Da biste kreirale predloške troškova, sledite ove korake:
 7. Na kartici **Kategorije** izaberite kategorije projekata koje će biti uključene u red predloška troškova.
 8. Na kartici **Opšti podaci**, izaberite da li će ova linija biti uključena u procenat izračunavanja dovršenosti.
 9. Izaberite metod cene za dovršetak koji ćete koristiti pri izračunavanju procenta dovršenja.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

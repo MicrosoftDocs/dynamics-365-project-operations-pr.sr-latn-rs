@@ -38,3 +38,6 @@ Ova tema se odnosi na sledeće komponente i verzije usluge Dynamics 365 Project 
 | **Planiranje i praćenje projekta** | 2164035 | Rešeni su problemi sa funkcijom **Kopiraj projekat**. |
 | **Stavka vremena** | 2129161 | Primenjuju se stroža ograničenja kako bi se osiguralo da korisnici ne mogu promeniti i ažurirati unos vremena koji je poslat ili odobren. |
 | **Stavka vremena** | 2103572 | Odobrenje vremena za unose vremena koji se ne odnose na projekat ne sme tražiti ulogu odobravaoca projekta. |
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -48,3 +48,6 @@ Mogućnosti [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-au
  [Vodič za menadžera projekta](../psa/project-manager-guide.md)   
  [Vodič za menadžera resursa](../psa/resource-manager-guide.md)   
  [Vodič za vreme, trošak i saradnju](../psa/time-expense-collaboration-guide.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

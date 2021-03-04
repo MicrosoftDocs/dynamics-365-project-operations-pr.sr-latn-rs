@@ -47,3 +47,6 @@ Sada kada je ponude za projekat prihvaćena, vreme je za kreiranje ugovora sa kl
   
 ### <a name="see-also"></a>Takođe pogledajte  
  [Vodič za menadžera za poslovne kontakte](../psa/account-manager-guide.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

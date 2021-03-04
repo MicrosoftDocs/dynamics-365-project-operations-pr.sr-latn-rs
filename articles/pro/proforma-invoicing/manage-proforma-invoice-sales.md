@@ -144,3 +144,6 @@ Ako imate stvarne vrednosti koje su stigle nakon kreiranja fakture, možete ih u
 U usluzi Project Operations možete kreirati stavke fakture za proizvode koji se ne odnose na bilo koji projekat ili za sve projekte, zajedno sa stavkama faktura zasnovanih na projektu. Ove stavke faktura kreiraju se kao predmeti ugovora zasnovani na proizvodu i nakon što se označe kao spremni za fakturisanje, dodaju se kao stavke faktura zasnovane na proizvodu.
 
 Kada dodate stavke faktura zasnovane na proizvodu, one se više ne mogu menjati. One se, međutim, mogu izbrisati iz radne verzije predračuna.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

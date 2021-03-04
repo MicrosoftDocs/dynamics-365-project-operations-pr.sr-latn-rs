@@ -123,3 +123,6 @@ Kada radite sa entitetom **Stvarne vrednosti**, važno je da shvatite koja se tr
 Entitet **Poreklo transakcije** beleži poreklo zapisa **Stvarna vrednost**, a entitet **Veza transakcije** beleži povezane zapise za zapis **Stvarna vrednost**. Pored toga, zapis **Stvarna vrednost** sadrži reference na projekat, ugovor o projektu (porudžbinu), resurs koji se može rezervisati i klijenta.
 
 ![Dijagram koji prikazuje transakcionu vezu, poreklo i stvarne odnose](media/PS-Reporting-image6.png "Dijagram koji prikazuje transakcionu vezu, poreklo i stvarne odnose")
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

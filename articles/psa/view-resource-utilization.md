@@ -43,3 +43,6 @@ Možete da proverite korišćenje resursa da biste odredili nivoe korišćenja v
   
 ### <a name="see-also"></a>Takođe pogledajte  
  [Vodič za menadžera resursa](../psa/resource-manager-guide.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

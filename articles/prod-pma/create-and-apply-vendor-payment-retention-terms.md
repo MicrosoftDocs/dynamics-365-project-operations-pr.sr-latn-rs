@@ -65,3 +65,6 @@ Nakon što kreirate uslove zadržavanja za prodavca, možete ih primeniti na pro
 6. Ako projekat takođe ima uslove za plaćanje nakon uplate (PWP) za prodavca, unesite procenat praga za projekat u polje **Procenat PWP praga**.
 
 Uslovi zadržavanja za prodavce se takođe prikazuju na porudžbenicama koje kreirate za prodavca.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

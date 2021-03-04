@@ -49,3 +49,6 @@ Preporučujemo da koristite paket. Opcije su dostupne tokom sinhronizacije rezer
     | Datum završetka    | Unesite datum završetka procesa sinhronizacije za zbirne vrednosti kapaciteta resursa. |
 
 [![Proces sinhronizacije](./media/projectresourcing09.jpg)](./media/projectresourcing09.jpg)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

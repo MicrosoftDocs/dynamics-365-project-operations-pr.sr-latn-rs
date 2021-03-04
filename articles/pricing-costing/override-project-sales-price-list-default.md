@@ -52,3 +52,6 @@ Možete da koristite svaki od tih cenovnika i ažurirate cene rada (cena uloge) 
 U ugovoru za projekat, određivanje cena za projekat se uvek podrazumeva iz prilagođenog cenovnika sa nazivom ugovora i obeležjem datuma i vremena kreiranja koji se dodaje nazivu. To je tačno da li je ugovor kreiran kada je ponuda dobijena ili je ugovor kreiran ispočetka. Ako je potrebno, možete ukloniti ovo povezivanje sa prilagođenim cenovnikom i umesto toga pridružiti standardni cenovnik ugovoru o projektu.
 
 Kada standardni cenovnik pridružite cenovnicima projekta u ponudi ili ugovoru, sve promene cena u cenovniku uticaće na sve ponude i ugovore koji koriste taj cenovnik.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -43,3 +43,6 @@ Podesite kategorije transakcija za definisanje nadređenog skupa kategorija tro�
   
 ### <a name="see-also"></a>Takođe pogledajte  
  [Konfigurisanje aplikacije Project Service](../psa/configure.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

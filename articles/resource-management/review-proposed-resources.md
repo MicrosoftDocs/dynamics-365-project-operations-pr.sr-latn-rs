@@ -62,3 +62,6 @@ Pošto Dynamics 365 Project Operations koristi Universal Resource Scheduling meh
 
 Da biste videli više detalja o pojedinačnom resursu, kliknite desnim tasterom miša na resurs da biste otvorili karticu resursa.
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

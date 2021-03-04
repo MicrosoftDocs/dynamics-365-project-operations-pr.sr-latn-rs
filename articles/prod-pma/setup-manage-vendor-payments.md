@@ -80,3 +80,6 @@ Kada prodavac dovrši svoj posao na projektu i pošalje vam fakturu, morate preg
 2. Na stranici **Faktura prodavca sa plaćanjem nakon uplate** , u polje za pretragu unesite vrednosti da biste pronašli fakturu dobavljača koju želite da pregledate, a zatim izaberite **Pretraga**.
 3. Na brzoj kartici **Redovi faktura prodavaca** izaberite redove koje želite da promenite.
 4. Ako su ispunjeni uslovi za **Plaćanje nakon uplate** za stavku fakture, izaberite **Pusti uplatu prodavca**. Opcija **Plaćanje posle uplate** se briše, a vrednost polja **Spremno za plaćanje** se menja u **Da**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -64,3 +64,6 @@ Entiteti Mogućnost za poslovanje, Ponuda i Ugovor o projektu koriste sledeći r
 Polje **Proizvod** u stavci ponude podrazumevano navodi sve aktivne proizvode u cenovniku proizvoda za ponudu. Ako proizvod nije aktiviran ili je radna verzija proizvoda, on nije naveden, čak i ako je u cenovniku. 
 
 Stavke kataloga proizvoda dodaju se kao stavke fakture na prvoj fakturi koja je kreirana za ugovor o projektu. U radnoj verziji fakture te stavke fakture mogu se izbrisati. U tom slučaju, stavke će se pojaviti na narednoj fakturi dok se ne fakturišu ili dok se faktura ne pošalje klijentu. U aplikaciji PSA ne možete fakturisati delimičnu količinu stavke fakture za proizvod. Kada se fakturišu stavke proizvoda iz projektnog ugovora, kreiraju se stvarne vrednosti. Međutim, ove stvarne vrednosti nisu povezane sa srodnim entitetom projekta. Drugim rečima, predmeti ugovora zasnovani na proizvodima ne zavise ni od kakve upotrebe zasnovane na projektu. PSA ne prati potrošnju materijala za projekte.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

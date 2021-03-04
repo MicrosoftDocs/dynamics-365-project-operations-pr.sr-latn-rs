@@ -34,3 +34,6 @@ Prodajne cene se primenjuju jednom po pogodbi. Hijerarhija prodajnog cenovnika p
 1. Organizacija
 2. Klijent
 3. Ponuda/ugovor
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

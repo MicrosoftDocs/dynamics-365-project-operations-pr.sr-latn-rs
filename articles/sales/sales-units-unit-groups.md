@@ -46,3 +46,6 @@ Da biste dovršili korake u ovoj temi, uverite se da vam je dodeljena uloga Admi
 3. U polju **Količina** unesite količinu koju želite da jedinica sadrži. Na primer, ako kutija sadrži dva komada, unesite „2“. 
 4. U polju **Osnovna jedinica** izaberite osnovnu jedinicu da biste uspostavili najnižu mernu jedinicu za jedinicu. Na primer, možete odabrati „Komad“.
 5. Izaberite **Sačuvaj**:
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

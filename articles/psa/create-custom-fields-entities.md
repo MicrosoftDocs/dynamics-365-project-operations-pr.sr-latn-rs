@@ -73,3 +73,6 @@ Možete ručno kreirati podatke za dimenzije zasnovane na entitetima ili koriš�
 > ![Probni podaci za entitet Standardna pozicija ](media/ST-data.png)
 
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

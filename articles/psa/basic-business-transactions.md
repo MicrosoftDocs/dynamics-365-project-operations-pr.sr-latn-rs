@@ -149,3 +149,6 @@ Sledeća tabela prikazuje zapise u entitetu Veza transakcije za prethodni tok po
 | Korekcija radne verzije fakture       | GUID transakcije stavke fakture | Zamena          | msdyn_invoicelinetransaction | GUID naplaćene prodaje            | Originalno           | msdyn_actual       |
 | Potvrđivanje korekcije fakture     | GUID storniranja naplaćene prodaje    | Storniranje          | msdyn_actual                 | GUID naplaćene prodaje            | Originalno           | msdyn_actual       |
 | GUID nove nenaplaćene stvarne vrednosti prodaje | Zamena                     | msdyn_actual       | GUID naplaćene prodaje            | Originalno                     | msdyn_actual       |                    |
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

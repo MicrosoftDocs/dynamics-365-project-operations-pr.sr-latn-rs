@@ -68,3 +68,6 @@ Ovo je primer kada je potrebno više imenovanih resursa za ispunjavanje generič
 Glavna razlika u ovom scenariju je to što generički resurs ostaje u timu koji je dodeljen zadatku, a rezervisani imenovani članovi tima resursa nisu dodeljeni kao deo pozicije. Menadžer projekta može po potrebi da dodeli posao imenovanim resursima. Prikaz **Usaglašenost** može da pomogne menadžeru projekta da podeli rezervacije više resursa na zadatke za dodeljivanje. Ovo se ne radi automatski jer u svakom scenariju komplikovanijem od običnog primera datog iznad, na primer kada imate skup zadataka koji sačinjavaju zahtev, sistem mora da pretpostavi kako menadžer projekta namerava da dodeli resurse. Pošto sistem ne može da razume nameru, postoje šanse da će se pretpostavke razlikovati od predviđenih, pa će doći do netačnog ili nepredvidivog rezultata. Predvidiv ishod je da generički resurs ostaje dodeljen dok menadžer projekta namerno ne kreira dodele, uz pomoć prikaza **Usaglašenost**.
 
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

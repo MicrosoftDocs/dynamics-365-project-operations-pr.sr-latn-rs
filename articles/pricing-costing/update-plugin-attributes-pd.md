@@ -52,3 +52,6 @@ Dovršite sledeće korake da biste ažurirali i ponovo registrovali dodatne komp
 7. Izaberite **U redu** da zatvorite stranicu, a zatim izaberite **Ažuriraj korak**.
 8. Ponovite korake od 2-7 za drugu dodatnu komponentu, **PreOperationQuoteLineDetail**. Za ovu dodatnu komponentu, morate da ažurirate korak **Update of msdyn_quotelinetransaction**.
 9. Zatvorite **PluginRegistrationTool**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

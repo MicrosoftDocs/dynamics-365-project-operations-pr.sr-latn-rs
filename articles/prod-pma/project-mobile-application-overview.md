@@ -49,3 +49,6 @@ Moji vremenski rasporedi (optimizovani za mobilne uređaje) i vremenski raspored
 - [Stavka vremena projekta]( project-time-entry-mobile-workspace.md)
 - [Vremenski rasporedi projekta na mobilnom uređaju](Mobile-timesheets.md)
 - [Primenite prilagođena polja za Microsoft Dynamics 365 Project Timesheet aplikaciju za mobilne uređaje na platformama iOS i Android](custom-fields-mobile.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

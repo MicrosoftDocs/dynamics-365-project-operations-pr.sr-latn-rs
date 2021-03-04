@@ -55,3 +55,6 @@ Troškovi koji još nisu prosleđeni mogu se izbrisati. Da biste izbrisali troš
 ## <a name="see-also"></a>Takođe pogledajte
 
 - [Pregled odobrenja](../approvals/approvals-overview.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

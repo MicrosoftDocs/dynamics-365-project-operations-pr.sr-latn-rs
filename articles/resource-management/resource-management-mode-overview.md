@@ -48,3 +48,6 @@ Rezervisanje resursa direktno u projektu:
 Rezervisanje resursa iz zahteva za resursima:
 - [Dodeljivanje generičkih resursa koji se mogu rezervisati zadatku i generisanje potreba za resursima](https://docs.microsoft.com/dynamics365/project-service/assign-generic-bookable-resource)
 - [Rezervisanje imenovanih resursa iz potrebe za resursima](https://docs.microsoft.com/dynamics365/project-service/book-named-resource)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -74,3 +74,6 @@ Kada proširite red tog zapisa člana tima, na zapisu člana tima možete videti
 Kada odete na mrežu **Procene**, primetićete da obe dodele za isti resurs imaju različito određene cene.
 Cena dodele resursa zadatku A određuje se korišćenjem vrednosti atributa **Uloga** za **vođu konsultanata**. Cena dodele istog resursa zadatku B određuje se korišćenjem vrednosti atributa **Uloga** za **tehničara mreže**.
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

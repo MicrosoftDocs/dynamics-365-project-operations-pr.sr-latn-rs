@@ -124,3 +124,6 @@ Na primer, ako postoje sledeća svojstva:
 - **SKU proizvoda** 
 
 Svojstva **Br. korisnika** i **Br. meseci** se mogu označiti kao faktori količine, uređivanjem svojstava u stavci proizvoda. 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

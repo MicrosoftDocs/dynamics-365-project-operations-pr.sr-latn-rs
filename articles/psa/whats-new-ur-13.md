@@ -59,3 +59,6 @@ U ovoj temi date su funkcije koje su nove ili su promenjene u rešenju Project S
      - Ispravljeno: Dodatna dugmad za stavke **Nova mogućnost za poslovanje**, **Ponuda**, **Stavka porudžbine** i **Dodavanje proizvoda** su vidljiva u komandama za mogućnosti za poslovanje, ponude, naručivanje proizvoda i podforme za stavke zasnovane na projektu.
 
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

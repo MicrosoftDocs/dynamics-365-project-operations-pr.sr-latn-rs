@@ -143,3 +143,6 @@ Da biste pregledali fakturu pre knjiženja, obrišite znak u polju za potvrdu **
 Osim na stranici **Predlog fakture**, predlozi fakture mogu da se knjiže i pokretanjem periodičnog posla **Knjiženje predloga faktura**. Da biste pronašli ovaj posao, idite na **Upravljanje projektima i računovodstvo** > **Periodično** > **Projektne fakture** > **Knjiženje predloga faktura**.
 
 Ova stranica prikazuje sve predloge faktura koji su spremni za knjiženje. Možete da zakažete knjiženje predloga faktura odabirom stavke **Grupno**. Podesite **Parametar grupne obrade** na **Da** i podesite ponavljanje grupne obrade izborom stavke **Ponavljanje**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

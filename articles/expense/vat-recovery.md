@@ -66,3 +66,6 @@ Kada Arni bude spreman da pošalje podatke izveštaja o troškovima nezavisnom d
 Arni mora da potvrdi da su transakcije izveštaja o troškovima prihvatljive za povraćaj PDV i da su digitalne priznanice priložene uz izveštaje. Da bi započeo da obrađuje prihvatljive troškove za domaći povraćaj, Arni otvara stranicu **Povraćaj poreza na troškove** i bira izveštaj o troškovima koji zahteva verifikaciju. On proverava da li su priznanice na ime preduzeća umesto na zaposlenog. (Za povraćaj PDV, priznanice moraju da budu na ime preduzeća.) Arni zatim proverava da li su unete tačne šifre poreza na promet i poreza na promet proizvoda.
 
 Kada Arni dobije papirne priznanice, on menja status izveštaja o troškovima u **Spremno za povraćaj**. Tada može podneti prijavu za povraćaj odgovarajućem poreskom organu. U tom slučaju, odgovarajuća poreska uprava u Sjedinjenim Državama je Služba unutrašnjih prihoda (IRS).
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -55,3 +55,6 @@ Na primer, programeru iz odeljenja za robotiku kompanije Fabrikam India, koji ra
     | Projektant | Fabrikam US | Fabrikam US - Robotics | 150 USD |
 
 3. Priložite prodajni cenovnik, **Fabrikam US stope naplate** projektnom cenovniku projektnog ugovora ili na određeni nalog.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

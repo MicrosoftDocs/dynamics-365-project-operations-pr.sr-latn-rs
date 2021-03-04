@@ -53,3 +53,6 @@ Sada da ste dodali veštine za projekte klijenata, potrebno je da ocenite vešti
   
 ### <a name="see-also"></a>Takođe pogledajte  
  [Podešavanje resursa](../psa/set-up-resources.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -101,3 +101,6 @@ U sledećem primeru, Contoso Robotics USA (USPM) je pravno lice koje se zadužuj
           - **Preduzeće koje određuje resurse** = **Contoso Robotics UK**
           - **Stopa naplate** = **200 USD**
       9. Idite na **Prodaja** > **Projektni ugovori** i priložite cenovnik za **Adventure Works stope naplate** cenovniku ugovora o projektu za Adventure Works projekat.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

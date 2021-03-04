@@ -76,3 +76,6 @@ Možete da koristite jedan od sledećih metoda za kreiranje porudžbenice u upra
 
 Za više informacija pogledajte [Prijem stavki po porudžbenici iz zahteva za stavku](tasks/receive-items-purchase-order-item-requirement.md).
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

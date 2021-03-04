@@ -112,3 +112,6 @@ Ne. Procena rasporeda je trenutno ograničena na časove i ne može se promeniti
 
 ### <a name="can-units-and-unit-groups-be-edited-deleted-and-added"></a>Da li jedinice i grupe jedinica mogu da se uređuju, brišu i dodaju?
 Da. Sa izuzetkom grupa jedinica **Vreme** i **Čas**, sve jedinice mogu da se brišu ili uređuju i mogu da se dodaju nove jedinice. U aplikaciji PSA nije moguće izbrisati grupu jedinica **Vreme** i **Čas**. Međutim, one mogu da se ažuriraju prevedenim tekstom za polje **Ime**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

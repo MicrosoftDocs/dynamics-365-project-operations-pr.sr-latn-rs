@@ -35,3 +35,6 @@ Ako ugovor o projektu koji je zatvoren kao izgubljen upućuje na projekat na svo
 
 > [!NOTE]
 > U usluzi Dynamics 365 Project Operations, zatvaranje ugovora o projektu kao izgubljenog neće uticati na taj status povezane mogućnosti za poslovanje. Mogućnost za poslovanje će ostati otvorena i mora se ručno zatvoriti.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

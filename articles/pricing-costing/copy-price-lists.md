@@ -43,3 +43,6 @@ Da biste napravili kopiju cenovnika, izvršite sledeće korake.
 1. Na karticama cenovnika **Uloga**, **Kategorija** i **Stavka cenovnika**, možete izabrati **Ažuriranje cena** da biste primenili proviziju na sve cene u podformi. 
 2. Na stranici dijaloga koja se otvori, unesite proviziju. Takođe možete da unesete negativni procenat provizije da biste smanjili cene za određeni procenat. 
 3. Izaberite **U redu** na stranici dijaloga, a zatim proverite da li cene u podformi odražavaju promene koje ste uneli.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

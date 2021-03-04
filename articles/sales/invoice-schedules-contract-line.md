@@ -74,3 +74,6 @@ Možete da generišete kontrolne tačke sa fiksnom cenom ručno kada se ne dele 
 | Porez | Brzo kreiranje | Iznos poreza primenjen na kontrolnu tačku. | Ovo se prenosi na kontrolnu tačku predmeta ugovora o projektu i na fakturu. |
 
 3. Izaberite stavku **Sačuvaj i zatvori**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

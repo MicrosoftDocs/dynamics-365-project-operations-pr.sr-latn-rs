@@ -63,3 +63,6 @@ U Project Operations ne možete da pratite revizije ponude. Umesto toga, morate 
 
 ## <a name="track-comments-and-approvals-of-quotes-and-project-contracts"></a>Praćenje komentara za ponude i odobrenja ponuda i projektnih ugovora
 Redigovanjima i odobrenjima ponuda i ugovora o projektima možete da upravljate pomoću Zida za zapise i objava. Vaša organizacija može da kreira prilagođene tokove posla i dodatne komponente za dodeljivanje, preusmeravanje i eskaliranje obaveštenja o radnim stavkama pregleda i odobrenja, kao i da upravlja njima.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

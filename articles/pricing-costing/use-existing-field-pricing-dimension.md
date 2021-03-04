@@ -31,3 +31,6 @@ _**Odnosi se na:** Project Operations za resurs/scenarije koji nisu zasnovani na
 Entitet **Stvarne vrednosti** ima mnogo polja koja se mogu koristiti kao dimenzije za određivanja cena za cene zasnovane na resursima. Na primer, jedno uobičajeno polje je **Resurs koji se može rezervisati**. Manja preduzeća sa manje od 20-30 naplativih resursa mogu da otkriju da je jednostavniji pristup ako imaju stope naplate i troškova specifične za svaki resurs. Međutim, kako raste naplativa radna snaga, održavanje stopa secifičnih resursa može postati nerealno. Cena resursa i stope naplate počinju da se razlikuju kako se resursi unapređuju, stiču više iskustva ili kako usvajaju drugačiji skup veština. 
 
 Drugi primer je kategorija transakcije. Klijenti i primenjivači su koristili kategoriju transakcije da bi klasifikovali posao i pomoću polja određuju cenu i troškove na osnovu kategorije posla.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

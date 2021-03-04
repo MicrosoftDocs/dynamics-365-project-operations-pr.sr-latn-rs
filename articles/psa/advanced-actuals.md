@@ -34,3 +34,6 @@ ms.locfileid: "5145735"
 Evidentiraju se sve finansijske transakcije do kojih dolazi tokom projekta. Ove transakcije se evidentiraju kao **stvarne vrednosti**. Sledeća tabela prikazuju različite vrste stvarnih vrednosti koje se kreiraju, zavisno od toga da li je projekat zasnovan na vremenu i materijalima, projekat sa fiksnom cenom ili interni projekat, odnosno da li je u fazi predprodaje.
 
 > ![Tabela koja prikazuje kako se beleže stvarne vrednosti](media/advanced-table2.png)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

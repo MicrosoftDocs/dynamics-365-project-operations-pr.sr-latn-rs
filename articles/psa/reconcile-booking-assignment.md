@@ -101,3 +101,6 @@ Nakon što se funkcija „Produženje rezervacije“ izvrši na svakom resoru, r
 
 Međutim, bolji pogled na detalje rezervacije pokazuje razlike u vremenu početka rezervacija. Rezervacije neće početi ranije od vremena početka konture zadatka i ne ranije od raspoloživog vremena početka resursa.
  ![Nove rezervacije resursa na tabeli rasporeda](media/reconcile-assignments-12.png)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

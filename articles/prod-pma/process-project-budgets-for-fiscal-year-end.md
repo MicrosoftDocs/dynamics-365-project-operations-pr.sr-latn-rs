@@ -98,3 +98,6 @@ Kada obrađujete preostale iznose budžeta, možete da kreirate transakcije u gl
 5. Za svaki projekat koji želite da obradite odaberite opciju na početku reda za projekat. 
 6. Izaberite **Obradi** da biste preneli preostale iznose budžeta za odabrane projekte na izabranu fiskalnu godinu.
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

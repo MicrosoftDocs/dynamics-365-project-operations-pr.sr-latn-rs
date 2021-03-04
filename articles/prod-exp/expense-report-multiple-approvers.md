@@ -40,3 +40,6 @@ Ako odlučite da zahtevate više davalaca odobrenja za izveštaj o troškovima, 
 
     1. Menadžer zaposlenog odobrava izveštaj o troškovima.
     2. Vlasnik budžeta odobrava izveštaj o troškovima.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

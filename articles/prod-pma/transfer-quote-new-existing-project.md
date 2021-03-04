@@ -36,3 +36,6 @@ Da biste koristili čarobnjak, pratite sledeće korake.
 1. Idite na **Upravljanje projektima i računovodstvo** > **Ponude** > **Ponude za projekte**.
 2. Izaberite ponudu koju želite da prenesete i na kartici **Praćenje** u grupi **Modifikovanje** izaberite **Prenesi u projekat**.
 3. Pratite čarobnjak **Prenesi ponudu u projekat** za povezivanje i prenos ponude u projekat.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

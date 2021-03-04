@@ -330,3 +330,6 @@ PSA beleži finansijske transakcije koje se dešavaju tokom projekta. Ove transa
 </tr>
 </tbody>
 </table>
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

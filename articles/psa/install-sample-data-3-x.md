@@ -297,3 +297,6 @@ Izaberite korisnika (na primer, Spencer Low) i promenite radno vreme za zaposlen
 
 > [!div class="mx-imgBorder"]
 > ![Snimak ekrana aktivnih resursa koji mogu da se rezervišu](media/sample-data-6.png)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

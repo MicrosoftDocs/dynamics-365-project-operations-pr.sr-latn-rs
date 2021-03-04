@@ -68,3 +68,6 @@ Budući da rezervacije i dodele nisu čvrsto povezane, moguće je rezervisati ko
 > [!NOTE]
 > Ako premestite zadatak koji ste sami skicirali, te skice ostaju. Konture se ponovo generišu u skladu sa kalendarom projekta kako bi odrazile promene u radnom vremenu i praznicima. To je tako projektovano jer sistem ne zna nameru prvobitne skice i ne može da utvrdi da li ima smisla zadržati tu skicu u novom vremenskom periodu. Pošto rezervacije i dodele nisu povezane, rezervacije zadržavaju prvobitne skice rezervacije. U tom slučaju, moraćete da otkažete i ponovo rezervišete za konturu nove dodele.
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

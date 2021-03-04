@@ -62,3 +62,6 @@ Postoji i finansijski uticaj na projekat kada se odobrenje otkaže. Prvo, odgova
 Zatim, stavke storniranja se kreiraju u tabeli Stvarne vrednosti. Da bi sistem kreirao stavke storniranja, kopira vrednosti polja iz originalnih stvarnih vrednosti. Jedine vrednosti koje se ne kopiraju su vrednosti količine. Umesto toga, ove vrednosti se storniraju. Stornirane stvarne vrednosti se kreiraju za stvarne vrednosti **Troškovi** i **Nenaplaćena prodaja**. Polje **Status poravnanja** u storniranim stvarnim vrednostima je podešeno na **Ne može da se poravna**, a status naplate na **Otkazano**.
 
 Nakon ovih izmena, iznos koji se evidentira kao potrošen za projekat i preostali prihodi od projekta više neće uzimati u obzir iznose koje ove stvarne vrednosti predstavljaju.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -53,3 +53,6 @@ Evo nekoliko predloga koji vam mogu pomoći pri kreiranju novih smernica za upra
 ## <a name="when-to-evaluate-policies"></a>Kada se procenjuju smernice
 
 U parametrima upravljanja troškovima možete izabrati da procenite politike upravljanja troškovima kada se linija sačuva ili kada se podnese izveštaj o troškovima. Ako odlučite da procenite kada je linija sačuvana, korisnici će imati raniji uvid u ono što treba da urade da bi odjednom kompletirali svoj izveštaj o troškovima. U suprotnom, možete odložiti procenu smernica i uštedeti vreme potvrđivanjem na kraju, tokom predaje u radni tok.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

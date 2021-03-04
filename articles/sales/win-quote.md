@@ -43,3 +43,6 @@ Ako ponuda za projekat koja je zatvorena kao neostvarena ima projekat na koji se
 
 > [!NOTE]
 > U usluzi Project Operations, zatvaranje ponude kao ostvarene ili neostvarene neće uticati na status mogućnosti za poslovanje, koja će ostati otvorena sve dok se ručno ne zatvori.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

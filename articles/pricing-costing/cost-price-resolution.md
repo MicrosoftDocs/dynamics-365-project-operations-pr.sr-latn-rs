@@ -35,3 +35,6 @@ Kada se cenovnik troškova reši, sistem koristi polja **Uloga**, **Kompanija za
 Stavke procene za trošak se odnose na detalje ponude i predmeta ugovora za troškove, kao i linije procene troškova na projektu.
 
 Kada se cenovnik troškova reši, sistem koristi kombinaciju polja **Uloga** i **Jedinica za resurse** na liniji procene za trošak radi podudaranja sa linijama **Cena kategorija** u rešenom cenovniku. Ako sistem pronađe liniju cena kategorija koja ima stopu troškova za kombinaciju polja **Kategorija** i **Jedinica**, tada je ta stopa troškova podrazumevana. Ako sistem ne može da nađe podudaranje sa vrednostima **Kategorija** i **Jedinica**, ili ako je u stanju da pronađe podudarnu liniju cena kategorija, ali metoda određivanja cene nije **Cena po jedinici**, stopa troškova je podrazumevano nula (0).
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

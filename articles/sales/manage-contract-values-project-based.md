@@ -57,3 +57,6 @@ Pravilo: Projekat i određena klasa transakcija mogu biti uključeni samo u jedn
 | C1       | CL2           | P1      | No           | Da             | No          | Važeći           | Vreme i naknade za projekat P1 su uključeni u CL1. Troškovi za projekat P1 uključeni su u CL2. </br>   Nema preklapanja onoga što je uključeno u svaki predmet ugovora i stoga je važeće.  |
 | C1       | CL1           | P1      | Da          | Da             | Da         | Ne važi       | Krši pravilo. Vreme, troškovi i naknade za projekat P1 uključeni su u predmete dva ugovora.                                                                                               |
 | CL2      | CL2           | P1      | Da          | Da             | Da         | Ne važi       | Krši pravilo. Vreme, troškovi i naknade za projekat P1 uključeni su u predmete dva ugovora.                                                                                               |
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

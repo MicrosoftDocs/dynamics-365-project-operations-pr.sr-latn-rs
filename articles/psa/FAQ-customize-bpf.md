@@ -107,3 +107,6 @@ Postupite na sledeći način da biste kreirali sopstveni tok poslovnog procesa z
 
    ![Snimak ekrana izmene prikaza u entitetu Projekat](media/FAQ-Customize-BPF-8-720.png)
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

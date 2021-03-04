@@ -132,3 +132,6 @@ Treba da koristite validacije dodatnih komponenti za sve validacije za koje je p
 
 > [!IMPORTANT] 
 > Trenutno poznati problem na stranicama koje pružaju iskustvo zasnovano na zadacima sprečavaju korisnike da ispravljaju informacije i ponovo izaberu Gotovo kada ne uspe provera valjanosti dodatne komponente prilikom ažuriranja. Kao zaobilazno rešenje, podesite validacije poslovnih pravila kako biste sprečili ovu situaciju koliko je to moguće.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

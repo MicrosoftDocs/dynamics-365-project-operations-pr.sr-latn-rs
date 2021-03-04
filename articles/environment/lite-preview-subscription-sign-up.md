@@ -91,3 +91,6 @@ Ponovite iste korake kao kod prve šifre ponude. Obavezno dodajte drugu šifru p
 ## <a name="install-a-cds-configuration-and-setup-demo-data"></a>Instaliranje CDS konfiguracije i podešavanje demo podataka
 
 Instalirajte CDS konfiguraciju i podesite demo podatke prateći uputstva u temi [Primenite demo podešavanja i podataka o konfiguraciji](lite-apply-demo-setup-config-data.md).
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

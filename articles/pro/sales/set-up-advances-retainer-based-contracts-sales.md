@@ -37,3 +37,6 @@ Odbitak u usluzi Project Operations nije dostupan za upotrebu dok se klijentu ne
 | --- | --- | --- |
 | Dostupan iznos | Iznos koji je dostupan za upotrebu na zapisu odbitka ili avansa. | Dok se avans ili odbitak ne fakturiše, nije dostupan za upotrebu, što znači da će raspoloživi iznos biti nula. |
 | Iskorišćen iznos | Iznos koji se već koristi na odbitku ili avansu. | Avans ili odbitak mogu se delimično sravniti na fakturi sa stvarnim troškovima koji će imati deo koji će biti označen kao već korišćen ili potrošen. Preostali iznos avansa ili odbitka dostupan je za sravnjenje na budućoj fakturi sa stvarnim troškovima. |
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

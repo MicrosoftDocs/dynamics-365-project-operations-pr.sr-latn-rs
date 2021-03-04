@@ -117,3 +117,6 @@ Kada potvrdite korigovanu fakturu, stornira se originalna stvarna vrednosti napl
 
 - Stvarna vrednosti naplaćene prodaje za šest sati.
 - Stvarna vrednosti nenaplaćene prodaje za preostala dva sata. Ova transakcija može biti naplaćena kasnije ili označena kao nenaplativa, u zavisnosti od pregovora sa klijentom.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

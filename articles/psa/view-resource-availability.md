@@ -48,3 +48,6 @@ Možete da proverite dostupnost resursa da biste dobili ukupan prikaz toga kolik
 
 ### <a name="see-also"></a>Takođe pogledajte  
  [Vodič za menadžera resursa](../psa/resource-manager-guide.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

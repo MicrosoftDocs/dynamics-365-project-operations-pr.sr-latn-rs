@@ -48,3 +48,6 @@ U nastavku se nalazi rezime polja koja se mogu ažurirati u projektu nakon kreir
 - **Sveukupni status projekta**: Sveukupna ispravnost projekta koju obezbeđuje menadžer projekta.
 - **Komentari**: Opisivanje trenutne ispravnosti projekta koju je obezbedio menadžer projekta.
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -73,3 +73,6 @@ Kliknite na vezu u nastavku da biste saznali više o tome šta možete uraditi p
  [Vodič za menadžera za poslovne kontakte](../psa/account-manager-guide.md)   
  [Vodič za menadžera projekta](../psa/project-manager-guide.md)   
  [Vodič za menadžera resursa](../psa/resource-manager-guide.md)   
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

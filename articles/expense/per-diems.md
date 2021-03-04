@@ -31,3 +31,6 @@ Dnevnica je nadoknada koja se isplaćuje radniku koji putuje zbog posla. U uprav
     
 ## <a name="submit-expenses-using-per-diem"></a>Prosleđivanje troškova korišćenjem dnevnica
 Da biste prosledili troškove koristeći dnevnice, koristite kategoriju troška **Dnevnica** kada kreirate izveštaj o troškovima. Unesite **početni datum dnevnice**, **krajnji datum dnevnice** i **lokaciju dnevnice**. Iznos će se izračunati na osnovu iznosa dnevnice za izabranu lokaciju, a smanjenje obroka na osnovu nivoa dnevnica.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

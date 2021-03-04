@@ -55,3 +55,6 @@ Sledeće teme pružaju informacije o zadacima koje treba dovršiti kada radite n
 - [Performanse planiranja resursa za projekat](project-scheduling-performance.md)
 - [Podesite uloge na predlošcima strukturne analiza posla](set-up-roles-wbs-template.md)
 - [Ispunjavanje resursa za planirane resurse](resource-fulfillment-planned-resources.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

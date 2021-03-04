@@ -82,3 +82,6 @@ Ovo je optimalnije iskustvo za raskidanje veze zadataka sa predmetima ugovora. M
 4. Na stranici dijaloga koja se otvori, izaberite predmet ugovora iz padajućeg menija.
 5. Označite polje za potvrdu da biste naznačili da li bi povezivanje uklonilo i podređene zadatke izabranih zadataka. Označavanje polja će takođe raskinuti vezu podređenih zadataka izabranih zadataka sa predmetom ugovora.
 6. Izaberite **U redu**. Poruka upozorenja ukazuje da uklanjanje ovog povezivanja može dovesti do poništavanja stvarnih podataka prethodno zabeleženih u zadatku. Izaberite **U redu** u dijalogu upozorenja da biste uklonili vezu između zadatka i predmeta ugovora zasnovanog na projektu.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]
