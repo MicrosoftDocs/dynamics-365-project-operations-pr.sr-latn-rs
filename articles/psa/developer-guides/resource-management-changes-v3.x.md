@@ -16,20 +16,22 @@ search.audienceType:
 search.app:
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 5176d2c6b7b00d47d4aeb12f54bdb84d4b87304c
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 94f9adc67163254486387a1ce59d5d3e8e93c335
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: sr-Latn-RS
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4083771"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5148660"
 ---
 # <a name="resource-management-changes-project-service-automation-3x"></a>Promene u upravljanju resursima (Project Service Automation 3.x)
+
+[!include [banner](../../includes/psa-now-project-operations.md)]
 
 Odeljci ove teme pružaju informacije o promenama koje su izvršene u oblasti upravljanja resursima u usluzi Dynamics 365 Project Service Automation verzije 3.x.
 
 ## <a name="project-estimates"></a>Procene za projekat
 
-Umesto da se zasniva na entitetu **msdyn\_projecttask** ( **Projektni zadatak** ), procene projekata se zasnivaju na entitetu **msdyn\_resourceassignment** ( **Dodela resursa** ). Dodele resursa su postale „izvor istine“ za zakazivanje zadataka i određivanje cena zadataka.
+Umesto da se zasniva na entitetu **msdyn\_projecttask** (**Projektni zadatak**), procene projekata se zasnivaju na entitetu **msdyn\_resourceassignment** (**Dodela resursa**). Dodele resursa su postale „izvor istine“ za zakazivanje zadataka i određivanje cena zadataka.
 
 ## <a name="line-tasks"></a>Zadaci stavke
 
@@ -58,14 +60,14 @@ Sledeći primer prikazuje kako se zadatak koji se zove „Probni zadatak“ dode
 
 ## <a name="unassigned-assignment"></a>Neodeljeni zadatak
 
-U aplikaciji PSA 3.x, nedodeljeni zadatak je zadatak koji je dodeljen članu tima koji ima nultu vrednost ( **NULL** ) i resursu sa nultom vrednošću ( **NULL** ). Nedodeljeni zadaci mogu se pojaviti u nekoliko scenarija:
+U aplikaciji PSA 3.x, nedodeljeni zadatak je zadatak koji je dodeljen članu tima koji ima nultu vrednost (**NULL**) i resursu sa nultom vrednošću (**NULL**). Nedodeljeni zadaci mogu se pojaviti u nekoliko scenarija:
 
 - Ako je zadatak kreiran, ali još uvek nije dodeljen nijednom članu tima, uvek se kreira nedodeljeni zadatak. 
 - Ako se uklone svi dodeljeni korisnici iz zadatka, za taj zadatak se ponovo kreira nedodeljeni zadatak.
 
 ## <a name="scheduling-fields-on-the-project-task-entity"></a>Polja za zakazivanje u entitetu Projektni zadatak
 
-Polja u entitetu **msdyn\_projecttask** su zastarela ili premeštena u entitet **msdyn\_resourceassignment** ili se sada navode u entitetu **msdyn\_projectteam** ( **Član projektnog tima** ).
+Polja u entitetu **msdyn\_projecttask** su zastarela ili premeštena u entitet **msdyn\_resourceassignment** ili se sada navode u entitetu **msdyn\_projectteam** (**Član projektnog tima**).
 
 | Zastarelo polje u entitetu msdyn\_projecttask (projektni zadatak) | Novo polje u entitetu msdyn\_resourceassignment (dodela resursa) | Komentar |
 |---|---|---|
@@ -77,7 +79,7 @@ Polja u entitetu **msdyn\_projecttask** su zastarela ili premeštena u entitet *
 
 ## <a name="schedule-contour"></a>Zakazivanje skice
 
-Skica rasporeda se čuva u polju **Planirani rad** ( **msdyn\_plannedwork** ) svakog entiteta **Dodela resursa** ( **msdyn\_resourceassignment** ).
+Skica rasporeda se čuva u polju **Planirani rad** (**msdyn\_plannedwork**) svakog entiteta **Dodela resursa** (**msdyn\_resourceassignment**).
 
 ### <a name="structure"></a>Struktura
 
@@ -139,7 +141,7 @@ U ovom primeru, zadatak je dodeljen na dva resursa i automatski je zakazan za 36
 
 ## <a name="pricing-dimensions"></a>Dimenzije za određivanje cena
 
-U aplikaciji PSA 3.x, polja dimenzija za određivanje cena, specifična za resurse (kao što su **Uloga** i **Organizaciona jedinica** ) su uklonjeni iz entiteta **msdyn\_projecttask**. Ova polja se sada mogu preuzeti od odgovarajućeg člana projektnog tima ( **msdyn\_projectteam** ) za dodelu resursa ( **msdyn\_resourceassignment** ) kada se generišu procene projekata. Novo polje, **msdyn\_organizationalunit** , je dodato u entitet **msdyn\_projectteam**.
+U aplikaciji PSA 3.x, polja dimenzija za određivanje cena, specifična za resurse (kao što su **Uloga** i **Organizaciona jedinica**) su uklonjeni iz entiteta **msdyn\_projecttask**. Ova polja se sada mogu preuzeti od odgovarajućeg člana projektnog tima (**msdyn\_projectteam**) za dodelu resursa (**msdyn\_resourceassignment**) kada se generišu procene projekata. Novo polje, **msdyn\_organizationalunit**, je dodato u entitet **msdyn\_projectteam**.
 
 | Zastarelo polje u entitetu msdyn\_projecttask (projektni zadatak) | Polje u entitetu msdyn\_projectteam (član projektnog tima) koje se koristi umesto toga |
 |---|---|
@@ -155,12 +157,12 @@ Polja sa skicama za određivanje cena i procene su zastarela u entitetu **msdyn\
 | msdyn\_costestimatecontour | msdyn\_plannedcostcontour |
 | msdyn\_salesestimatecontour | msdyn\_plannedsalescontour |
 
-Sledeća polja su dodata u entitet **msdyn\_resourceassignment** :
+Sledeća polja su dodata u entitet **msdyn\_resourceassignment**:
 
 * msdyn\_plannedcost
 * msdyn\_plannedsales
 
-Sledeća polja za planirane, stvarne i preostale troškove i prodaju nepromenjena su u entitetu **msdyn\_projecttask** :
+Sledeća polja za planirane, stvarne i preostale troškove i prodaju nepromenjena su u entitetu **msdyn\_projecttask**:
 
 * msdyn\_plannedcost
 * msdyn\_plannedsales

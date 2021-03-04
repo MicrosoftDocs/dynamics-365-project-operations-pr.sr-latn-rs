@@ -16,14 +16,16 @@ search.audienceType:
 search.app:
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 46aab1bdce15613ce0551de5a8265b9130aa1938
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 7c63000cc9d320340dad824256e63dc445b3a921
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: sr-Latn-RS
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4083591"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5148570"
 ---
 # <a name="deprecated-web-resources-in-project-service-automation-3x"></a>Zastareli veb-resursi u aplikaciji Project Service Automation 3.x
+
+[!include [banner](../../includes/psa-now-project-operations.md)]
 
 Zbog novog klijentskog interfejsa i drugih promena koje su unete u Dynamics 365 Project Service Automation rešenje, neki od veb-resursa za rešenje se više ne koriste. Stoga su zastareli od verzije 3.0.
 

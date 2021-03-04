@@ -2,6 +2,7 @@
 title: Nadogradnja matične stranice
 description: Ova tema pokazuje gde možete pronaći važne informacije o novim i izmenjenim funkcijama u aplikaciji Dynamics 365 Project Service Automation i postupak nadogradnje na najnoviju verziju.
 manager: kfend
+ms.prod: ''
 ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
@@ -18,14 +19,16 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: fa25d069de8098c0e8788c9ebb8aa3426eec5db9
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: e30da3a5ade6d8bafcdc45801b830196841997bf
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: sr-Latn-RS
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4121775"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5150100"
 ---
 # <a name="upgrade-home-page"></a>Nadogradnja matične stranice
+
+[!include [banner](../includes/psa-now-project-operations.md)]
 
 [!INCLUDE[cc-applies-to-psa-app-1x-2x](../includes/cc-applies-to-psa-app-1x-2x.md)]
 
@@ -37,7 +40,7 @@ Od 17. maja 2019. godine, kada se izabere Project Service Automation tokom obezb
 
 ### <a name="existing-instances"></a>Postojeće instance
 
-Predhodno su klijenti koji imaju instancu aplikacije PSA verzije 2.x, a morali su da je nadograde na verziju 3.x, koja predstavlja PSA verziju zasnovanu na objedinjenom interfejsu klijenta, morali da se obrate Microsoft podršci i dostave detalje o instanci kako bi podrška mogla da omogući instancu za nadogradnju na verziju 3.x. Od 1. marta 2020. će kupci koji imaju instancu PSA verzije 2.x, a moraju da je nadograde na verziju 3.x, moći da nadograde svoje instance direktno sa portala za administraciju, a da ne moraju da se obrate Microsoft podršci.  
+Ranije su klijenti koji imaju instancu aplikacije PSA verzije 2.x i moraju je nadograditi na verziju 3.x, koja predstavlja PSA verziju zasnovanu na objedinjenom interfejsu klijenta, morali da se obrate Microsoft podršci i dostave detalje o instanci kako bi podrška mogla da omogući instancu za nadogradnju na verziju 3.x. Od 1. marta 2020. klijenti koji imaju instancu aplikacije PSA verzije 2.x i moraju da je nadograde na verziju 3.x moći će da nadograde svoje instance direktno sa portala za administraciju, bez potrebe da kontaktiraju Microsoft podršku.  
 
 > [!NOTE]
 > PSA verzije 3.x uključuje značajne promene. Razvijen je u okviru objedinjenog interfejsa kako bi pružio poboljšano korisničko iskustvo. Redizajnirana aplikacija omogućava dosledan i jedinstven korisnički interfejs i sledi principe prilagodljivog dizajna za optimalni pregled na bilo kojoj veličini ekrana ili uređaju. Došlo je i do drugih promena u celoj aplikaciji. Neke od oblasti koje su izmenjene uključuju određivanje cena, rezervisanje i dodeljivanje resursa, vremena i troškova, kao i odobrenja.
@@ -58,7 +61,7 @@ Nakon što pregledate prethodno spomenute teme i spremni ste za nadogradnju na P
 
 Od 17. maja 2019. godine, sve nove instance će kao podrazumevanog klijenta imati objedinjeni interfejs klijenta. Kako bismo obezbedili usklađenost sa ovom promenom, podrazumevano ćemo obezbediti PSA verzije 3.x i Field Service verzije 8.x jer su ove verzije dizajnirane da funkcionišu sa klijentom UCI (objedinjeni interfejs klijenta).
 
-Od 1. marta 2020. klijenti sistema Dynamics PSA više neće moći da stvaraju nova okruženja sa starijim PSA verzijama, na primer PSA verzije 2.x ili starije. Svako novo okruženje će biti PSA verzije 3.x.
+Od 1. marta 2020. klijenti aplikacije Dynamics PSA više neće moći da kreiraju novo okruženje sa starijim verzijama aplikacije PSA, na primer PSA verzije 2.x ili ranije. Svako novo okruženje će biti PSA verzije 3.x.
 
 > [!NOTE]
 > Da biste dobili najbolje iskustvo prilikom korišćena starije verzije Field Service i PSA aplikacija, idite na stranicu **Podešavanja sistema** i za polje **Korišćenje samo novog objedinjenog interfejsa (preporučeno)** izaberite **Ne** jer ove verzije nisu dizajnirane da budu ispravno učitane u objedinjeni interfejs klijenta. Nakon što isključite objedinjeni interfejs klijenta, ove verzije usluga Field Service i PSA možete otvoriti i pokrenuti pomoću starog veb-klijenta. 
