@@ -5,21 +5,22 @@ author: rumant
 manager: Annbe
 ms.date: 10/19/2020
 ms.topic: article
+ms.prod: ''
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 87ef090454b2a7ab997e7c21d8d10badc31c8235
-ms.sourcegitcommit: 625878bf48ea530f3381843be0e778cebbbf1922
+ms.openlocfilehash: 5a924de6efc377e28a20e038e7deac04616b95aa
+ms.sourcegitcommit: 2b74edd31f38410024a01124c9202a4d94464d04
 ms.translationtype: HT
 ms.contentlocale: sr-Latn-RS
-ms.lasthandoff: 10/30/2020
-ms.locfileid: "4176403"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4764520"
 ---
 # <a name="create-a-manual-proforma-invoice---lite"></a>Kreiranje ručnog predračuna – jednostavno
 
 _**Odnosi se na:** Jednostavna primena – od pogodbe do profakture_
 
-U usluzi Dynamics 365 Project Operations, predračuni se po potrebi mogu kreirati ručno. Možete ručno da kreirate predračun sa stranice lista **Ugovori o projektu** ili sa stranice sa detaljima **Ugovor o projektu**.
+U usluzi Dynamics 365 Project Operations, profakture se po potrebi mogu kreirati ručno. Možete ručno da kreirate predračun sa stranice lista **Ugovori o projektu** ili sa stranice sa detaljima **Ugovor o projektu**.
 
 ##  <a name="project-contracts-list-page"></a>Stranica liste ugovora za projekat
 
@@ -31,6 +32,6 @@ Sve kreirane fakture projekta su dostupne na stranici **Faktura** u odeljku **Na
 
 ## <a name="project-contract-details-page"></a>Stranica sa detaljima ugovora za projekat
 
-Predfaktura se takođe može kreirati sa stranice sa detaljima **Ugovor o projektu**, koja kreira fakturu za taj konkretni ugovor o projektu. Sistem proverava da projektni ugovor ima zaostatak **Spremno za fakturisanje** datiran pre današnjeg datuma. Od ovih ugovora sistem kreira radne verzije predračuna na osnovu broja klijenata u svakom predmetu ugovora.
+Profaktura se takođe može kreirati na stranici sa detaljima **Ugovor o projektu**. Sistem proverava da li projektni ugovor ima zaostatak **Spremno za fakturisanje** datiran pre današnjeg datuma. Od ovih ugovora sistem kreira radne verzije predračuna na osnovu broja klijenata u svakom predmetu ugovora.
 
-Kada se kreira jedan predračun, otvara se stranica **Faktura**. Ako je za taj ugovor o projektu kreirano više faktura, otvara se stranica liste **Fakture** sa prikazom svih kreiranih faktura.
+Kada se kreira jedan predračun, otvara se stranica **Faktura**. Ako se kreira više faktura za taj ugovor o projektu, otvara se stranica lista **Fakture** sa prikazom svih kreiranih faktura.

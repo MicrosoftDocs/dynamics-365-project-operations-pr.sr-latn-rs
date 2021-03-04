@@ -15,16 +15,14 @@ ms.search.region: Global
 ms.author: stsporen
 ms.search.validFrom: 2019-11-20
 ms.dyn365.ops.version: 10.0.8
-ms.openlocfilehash: 31c08ea264e6caec3217f4b424275495f39123e3
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 64901610144f9dfe274bd4c2294ab32659743a1a
+ms.sourcegitcommit: 9f31b33ed6e7f1b49200a407913201a1337f3401
 ms.translationtype: HT
 ms.contentlocale: sr-Latn-RS
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4083738"
+ms.lasthandoff: 01/14/2021
+ms.locfileid: "4960309"
 ---
 # <a name="expense-receipt-processing"></a>Obrada priznanica za troškove
-
-[!include [banner](../includes/banner.md)]
 
 Unos troškova je poboljšan uvođenjem obradu priznanica putem optičkog prepoznavanja znakova (OCR). Ova funkcija je dizajnirana da poboljša korisničko iskustvo prilikom kreiranja izveštaja o troškovima.
 
@@ -45,11 +43,11 @@ Da biste automatski priložili priznanice koje uključuju transakcije kreditnom 
 
 Da biste stvorili trošak ili uporedili trošak sa priznanice, izvršite sledeće korake:
 
-  1. Na izveštaju o troškovima, na kartici **Priznanice** , priložite priznanicu izborom stavke **Dodaj priznanice**.
+  1. Na izveštaju o troškovima, na kartici **Priznanice**, priložite priznanicu izborom stavke **Dodaj priznanice**.
   2. Ispod otpremljene slike priznanice videćete opcije **Kreiraj** i **Uporedi**.
 
       - Izaberite **Kreiraj** da biste kreirali ručno unete transakcije troškova i popunili vrednosti koje su izdvojene iz priznanice.
-      - Ako izaberete **Uporedi** , sistem pokušava da postojeći trošak uskladi sa priznanicom.
+      - Ako izaberete **Uporedi**, sistem pokušava da postojeći trošak uskladi sa priznanicom.
 
 ## <a name="installation"></a>Instalacija
 

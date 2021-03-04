@@ -15,15 +15,14 @@ ms.search.region: Global
 ms.author: suvaidya
 ms.search.validFrom: 2019-6-30
 ms.dyn365.ops.version: 10.0.3
-ms.openlocfilehash: f2acd9eab52629b0baeb82a399993fbc6337c722
-ms.sourcegitcommit: 13a4e58eddbb0f81aca07c1ff452c420dbd8a68f
+ms.openlocfilehash: d076c0a596940cb08433f7ee57dea54903f6078f
+ms.sourcegitcommit: 9f31b33ed6e7f1b49200a407913201a1337f3401
 ms.translationtype: HT
 ms.contentlocale: sr-Latn-RS
-ms.lasthandoff: 11/30/2020
-ms.locfileid: "4650156"
+ms.lasthandoff: 01/14/2021
+ms.locfileid: "4960264"
 ---
 # <a name="redesigned-expense-reports"></a>Redizajnirani izveštaji o troškovima
-[!include[banner](../includes/banner.md)]
 
 Unos izveštaja o troškovima redizajniran je kako bi se pojednostavio postupak dovršavanja izveštaja o troškovima i smanjilo vreme potrebno za popunu izveštaja. Evo glavnih komponenti novog iskustva sa troškovima:
 

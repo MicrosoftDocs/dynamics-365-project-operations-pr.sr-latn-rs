@@ -16,16 +16,14 @@ ms.search.region: Global
 ms.author: saraschi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: d1be96521cdb486dd5a702cded615d3e1015b364
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 49397592ea002b9da872ac1aa455719b6ca2292e
+ms.sourcegitcommit: 9f31b33ed6e7f1b49200a407913201a1337f3401
 ms.translationtype: HT
 ms.contentlocale: sr-Latn-RS
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4083622"
+ms.lasthandoff: 01/14/2021
+ms.locfileid: "4960219"
 ---
 # <a name="vat-recovery"></a>Povraćaj PDV-a 
-
-[!include [banner](../includes/banner.md)]
 
 Da bi primila povraćaj sredstava za prihvatljive transakcije poreza na dodatu vrednost (PDV), kompanija ili organizacija mora identifikovati, prikupiti, verifikovati i dostaviti tačne informacije. Ovaj proces uključuje više zadataka i, u zavisnosti od veličine vašeg preduzeća, može uključivati nekoliko zaposlenih ili uloga.
 
@@ -49,7 +47,7 @@ Sledeći odeljci pružaju primere koji pokazuju kako zaposleni u kompaniji Conto
 
 Radmila, predstavnica prodaje kompanije Contoso sa sedištem u Sjedinjenim Državama, nedavno se vratila sa prodajnog putovanja u Ujedinjeno Kraljevstvo. Tokom putovanja, napravila je neke lične troškove za obroke sa kreditne kartice. Radmila sada mora da sačini izveštaj o troškovima kako bi uskladila troškove.
 
-Kada Radmila unese informacije u izveštaj o troškovima, ona bira **Ujedinjeno Kraljevstvo** u polju **Zemlja/region** na stranici **Uređivanje izveštaja o troškovima**. Lista grupa poreza na promet se zatim filtrira tako da prikazuje samo grupe koje se odnose na Ujedinjeno Kraljevstvo. Radmila bira grupu poreza na promet **Ujedinjeno Kraljevstvo 001** , a zatim bira grupu poreza na promet proizvoda **Obroci**. Zatim, ona dodaje novu transakciju za smeštaj. Budući da u Ujedinjenom Kraljevstvu postoji samo jedna grupa poreza na promet i jedna grupa poreza na promet predmeta, ove informacije se automatski popunjavaju u Radmilinom izveštaju o troškovima.
+Kada Radmila unese informacije u izveštaj o troškovima, ona bira **Ujedinjeno Kraljevstvo** u polju **Zemlja/region** na stranici **Uređivanje izveštaja o troškovima**. Lista grupa poreza na promet se zatim filtrira tako da prikazuje samo grupe koje se odnose na Ujedinjeno Kraljevstvo. Radmila bira grupu poreza na promet **Ujedinjeno Kraljevstvo 001**, a zatim bira grupu poreza na promet proizvoda **Obroci**. Zatim, ona dodaje novu transakciju za smeštaj. Budući da u Ujedinjenom Kraljevstvu postoji samo jedna grupa poreza na promet i jedna grupa poreza na promet predmeta, ove informacije se automatski popunjavaju u Radmilinom izveštaju o troškovima.
 
 Prema smernicama kompanije Contoso, svi troškovi moraju imati odgovarajuću priznanicu. Stoga, kada Radmila sačuva izveštaj o troškovima, ona dobija poruku u kojoj se navodi da mora priložiti priznanicu za svaku transakciju koju je navela u svom izveštaju o troškovima. Radmila potvrđuje da je svom izveštaju o troškovima priložila digitalnu sliku svake priznanice o transakciji, a zatim svoj izveštaj podnosi na odobrenje. Zatim šalje papirne priznanice pozadinskom timu za obradu. Ovaj tim će poslati podatke o povraćaju PDV nezavisnom dobavljaču koji podnosi međunarodne prijave za povraćaj PDV za Contoso.
 

@@ -1,6 +1,6 @@
 ---
-title: Međukompanijski troškovi
-description: Radnik koji je zaposlen u jednom pravnom licu u organizaciji može obavljati posao za drugo pravno lice u istoj organizaciji. U ovoj situaciji možete da koristite funkciju troškova u okviru preduzeća za dodeljivanje troškova radnika pravnom licu za koje je posao izveden.
+title: Interni troškovi u okviru preduzeća
+description: Ova tema pruža informacije o načinu korišćenja troškova u okviru preduzeća za dodeljivanje troškova radnika pravnom licu za koje je posao obavljen.
 author: ShylaThompson
 manager: AnnBe
 ms.date: 05/20/2020
@@ -16,24 +16,22 @@ ms.search.region: Global
 ms.author: shylaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 0967f23e4e1f8e0431c55d4d54554e7e90e2451c
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 553ddbe622210169db8de4aa506dcf1ea1e9d5ef
+ms.sourcegitcommit: 9f31b33ed6e7f1b49200a407913201a1337f3401
 ms.translationtype: HT
 ms.contentlocale: sr-Latn-RS
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4083731"
+ms.lasthandoff: 01/14/2021
+ms.locfileid: "4960849"
 ---
 # <a name="intercompany-expenses"></a>Međukompanijski troškovi
 
-[!include [banner](../includes/banner.md)]
+Radnik koji je zaposlen u jednom pravnom licu u organizaciji može obavljati posao za drugo pravno lice u istoj organizaciji. Možete da koristite troškove u okviru preduzeća za dodeljivanje troškova radnika pravnom licu za koje je posao obavljen. Pravno lice koje zapošljava radnika naziva se pravno lice koje pozajmljuje. Pravno lice za koje radnik snosi troškove naziva se pravno lice kojem se pozajmljuje. 
 
-Radnik koji je zaposlen u jednom pravnom licu u organizaciji može obavljati posao za drugo pravno lice u istoj organizaciji. U ovoj situaciji možete da koristite funkciju troškova u okviru preduzeća za dodeljivanje troškova radnika pravnom licu za koje je posao izveden. Pravno lice koje zapošljava radnika naziva se pravno lice koje pozajmljuje. Pravno lice za koje radnik snosi troškove naziva se pravno lice kojem se pozajmljuje. 
-
-Pre nego što radnik može kreirati i podneti troškove za rad koji se obavlja za drugo pravno lice, u pravnom licu koje pozajmljuje, na stranici **Parametri upravljanja troškovima** izaberite **Omogućite stavke troškova u okviru preduzeća**. 
+Da bi radnik mogao da kreira i preda troškove u okviru preduzeća, morate omogućiti redove troškova u okviru preduzeća. Za pravno lice koje pozajmljuje novac, na stranici **Parametri upravljanja troškovima** izaberite **Omogući redove troškova u okviru preduzeća**. 
 
 ## <a name="tax-posting-for-intercompany-expenses"></a>Poresko knjiženje za međukompanijske troškove
 
 [!include [banner](../includes/banner.md)]
 
-Ako u izveštaju o troškovima želite da koristite poreske grupe koje su povezane sa pravnim licem koje pozajmljuje (izvorno pravno lice) umesto sa pravnim licem kojem se pozajmljuje (odredišno pravno lice), moraćete to da konfigurišete u podešavanju poreza na promet u glavnoj knjizi. Kada je parametar glavne knjige **Pravno lice za poresko knjiženje u okviru preduzeća** podešen na **Izvor** i opcija **Primeni pravila oporezivanja za porez na promet** podešena na **Ne** , koristiće se kombinacija poreza za pravno lice koje pozajmljuje. Kada je isti parametar postavljen na **Odredište** , koristiće se poreska kombinacija za pravno lice kojem se pozajmljuje. Za pravna lica u Sjedinjenim Državama, kada je parametar postavljen na **Izvor** , polje **Potraživanje poreza na promet** takođe mora biti konfigurisano na novoj stranici **Grupe za knjiženje glavne knjige**. Računovodstveni mehanizam će koristiti podatke iz ovog polja za računovodstveno knjiženje u vezi sa porezom.   
+Da biste u izveštaju o troškovima mogli da koristite poreske grupe koje su povezane sa pravnim licem koje pozajmljuje novac (izvor) umesto sa pravnim licem koje se zadužuje (odredište), morate da omogućite funkcionalnost u podešavanju poreza na promet u glavnoj knjizi. Kada je parametar **Pravno lice za knjiženje poreza u okviru preduzeća** podešen na **Izvor**, a parametar **Primeni pravila oporezivanja poreza na promet** je podešen na **Ne**, koristi se poreska kombinacija za pravno lice koje pozajmljuje novac. Kada je isti parametar postavljen na **Odredište**, koristiće se poreska kombinacija za pravno lice kojem se pozajmljuje. Za pravna lica u Sjedinjenim Državama, kada je parametar postavljen na **Izvor**, polje **Potraživanje poreza na promet** takođe mora biti konfigurisano na novoj stranici **Grupe za knjiženje glavne knjige**. Računovodstveni mehanizam će koristiti podatke iz ovog polja za računovodstveni unos u vezi sa porezom.   
 Ponašanje je dosledno za stavke troškova objavljene sa projektom ili bez njega.  
