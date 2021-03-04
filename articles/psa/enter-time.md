@@ -18,44 +18,46 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: b06062cf21cacedda759cc7bf7f940fc33f16bd0
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: 222488f9ec52e07f1fb17d8dba3c3b0e5342b58d
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: sr-Latn-RS
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4132890"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5149335"
 ---
-# <a name="enter-time-project-service"></a><span data-ttu-id="eb632-103">Unos vremena (Project Service)</span><span class="sxs-lookup"><span data-stu-id="eb632-103">Enter time (Project Service)</span></span>
+# <a name="enter-time-project-service"></a><span data-ttu-id="df159-103">Unos vremena (Project Service)</span><span class="sxs-lookup"><span data-stu-id="df159-103">Enter time (Project Service)</span></span>
+
+[!include [banner](../includes/psa-now-project-operations.md)]
 
 [!INCLUDE[cc-applies-to-psa-app-1x-2x](../includes/cc-applies-to-psa-app-1x-2x.md)]
 
-<span data-ttu-id="eb632-104">Unesite svoje časove bar sedmično – ili u onoliko često koliko to menadžeri zahtevaju – kako biste obezbedili da vaši klijenti ispravno dobijaju fakture i kredit.</span><span class="sxs-lookup"><span data-stu-id="eb632-104">Enter your hours at least weekly—or at the frequency requested by your managers—to ensure your clients are invoiced and you’re credited correctly.</span></span>  
+<span data-ttu-id="df159-104">Unesite svoje časove bar sedmično – ili u onoliko često koliko to menadžeri zahtevaju – kako biste obezbedili da vaši klijenti ispravno dobijaju fakture i kredit.</span><span class="sxs-lookup"><span data-stu-id="df159-104">Enter your hours at least weekly—or at the frequency requested by your managers—to ensure your clients are invoiced and you’re credited correctly.</span></span>  
   
- <span data-ttu-id="eb632-105">Ako koristite aplikaciju za veb:</span><span class="sxs-lookup"><span data-stu-id="eb632-105">If you’re using the web app:</span></span>  
+ <span data-ttu-id="df159-105">Ako koristite aplikaciju za veb:</span><span class="sxs-lookup"><span data-stu-id="df159-105">If you’re using the web app:</span></span>  
   
-1. <span data-ttu-id="eb632-106">Idite na **Project Service > Unosi vremena**.</span><span class="sxs-lookup"><span data-stu-id="eb632-106">Go to **Project Service > Time Entries**.</span></span> <span data-ttu-id="eb632-107">To će prikazati vaš kalendar.</span><span class="sxs-lookup"><span data-stu-id="eb632-107">This brings up your calendar.</span></span>  
+1. <span data-ttu-id="df159-106">Idite na **Project Service > Unosi vremena**.</span><span class="sxs-lookup"><span data-stu-id="df159-106">Go to **Project Service > Time Entries**.</span></span> <span data-ttu-id="df159-107">To će prikazati vaš kalendar.</span><span class="sxs-lookup"><span data-stu-id="df159-107">This brings up your calendar.</span></span>  
   
-2. <span data-ttu-id="eb632-108">Da biste videli kalendara za prethodnu ili sledeću sedmicu, kliknite na dugme **Prethodno** ili **Sledeće**.</span><span class="sxs-lookup"><span data-stu-id="eb632-108">To see your calendar for the previous or next week, click **Previous** or **Next**.</span></span> <span data-ttu-id="eb632-109">Kliknite na dugme **Danas** da biste se vratili na trenutnu sedmicu.</span><span class="sxs-lookup"><span data-stu-id="eb632-109">Click **Today** to get back to the current week.</span></span>  
+2. <span data-ttu-id="df159-108">Da biste videli kalendara za prethodnu ili sledeću sedmicu, kliknite na dugme **Prethodno** ili **Sledeće**.</span><span class="sxs-lookup"><span data-stu-id="df159-108">To see your calendar for the previous or next week, click **Previous** or **Next**.</span></span> <span data-ttu-id="df159-109">Kliknite na dugme **Danas** da biste se vratili na trenutnu sedmicu.</span><span class="sxs-lookup"><span data-stu-id="df159-109">Click **Today** to get back to the current week.</span></span>  
   
-3. <span data-ttu-id="eb632-110">Da biste uneli vreme, ili kliknite na dugme **Novo** ili dvaput kliknite u kalendaru u okviru dana za koji želite da unesete vreme.</span><span class="sxs-lookup"><span data-stu-id="eb632-110">To enter your time, either click **New** or double-click in the calendar under the day you want to enter time for.</span></span>  
+3. <span data-ttu-id="df159-110">Da biste uneli vreme, ili kliknite na dugme **Novo** ili dvaput kliknite u kalendaru u okviru dana za koji želite da unesete vreme.</span><span class="sxs-lookup"><span data-stu-id="df159-110">To enter your time, either click **New** or double-click in the calendar under the day you want to enter time for.</span></span>  
   
-4. <span data-ttu-id="eb632-111">Popunite polja u obrascu **Unos vremena** i kliknite na dugme **Sačuvaj**.</span><span class="sxs-lookup"><span data-stu-id="eb632-111">Fill in the fields in the **Time Entry** form and click **Save**.</span></span>  
+4. <span data-ttu-id="df159-111">Popunite polja u obrascu **Unos vremena** i kliknite na dugme **Sačuvaj**.</span><span class="sxs-lookup"><span data-stu-id="df159-111">Fill in the fields in the **Time Entry** form and click **Save**.</span></span>  
   
-5. <span data-ttu-id="eb632-112">Nastavite da unosite vreme za sedmicu.</span><span class="sxs-lookup"><span data-stu-id="eb632-112">Continue entering time for the week.</span></span> <span data-ttu-id="eb632-113">Kada završite i sve izgleda tačno, kliknite na dugme **Pošalji**.</span><span class="sxs-lookup"><span data-stu-id="eb632-113">When you’re done and everything looks correct, click **Submit**.</span></span> <span data-ttu-id="eb632-114">Menadžer će pregledati i odobriti vaše unose vremena.</span><span class="sxs-lookup"><span data-stu-id="eb632-114">A manager will review and approve your time entries.</span></span>  
+5. <span data-ttu-id="df159-112">Nastavite da unosite vreme za sedmicu.</span><span class="sxs-lookup"><span data-stu-id="df159-112">Continue entering time for the week.</span></span> <span data-ttu-id="df159-113">Kada završite i sve izgleda tačno, kliknite na dugme **Pošalji**.</span><span class="sxs-lookup"><span data-stu-id="df159-113">When you’re done and everything looks correct, click **Submit**.</span></span> <span data-ttu-id="df159-114">Menadžer će pregledati i odobriti vaše unose vremena.</span><span class="sxs-lookup"><span data-stu-id="df159-114">A manager will review and approve your time entries.</span></span>  
   
-6. <span data-ttu-id="eb632-115">Ako želite da promenite unos koji ste već podneli, izaberite unos u kalendaru, a zatim kliknite na **Opozovi**.</span><span class="sxs-lookup"><span data-stu-id="eb632-115">If you want to change an entry that you already submitted, select the entry in your calendar and then click **Recall**.</span></span>  
+6. <span data-ttu-id="df159-115">Ako želite da promenite unos koji ste već podneli, izaberite unos u kalendaru, a zatim kliknite na **Opozovi**.</span><span class="sxs-lookup"><span data-stu-id="df159-115">If you want to change an entry that you already submitted, select the entry in your calendar and then click **Recall**.</span></span>  
   
-7. <span data-ttu-id="eb632-116">Ako želite da kopirate sve stavke iz prethodne sedmice u trenutnu sedmicu, kliknite na dugme **Kopiraj iz** i izaberite sedmicu koju želite da kopirate.</span><span class="sxs-lookup"><span data-stu-id="eb632-116">If you want to copy all the entries from a previous week to the current week, click **Copy From** and select the timesheet week you want to copy.</span></span>  
+7. <span data-ttu-id="df159-116">Ako želite da kopirate sve stavke iz prethodne sedmice u trenutnu sedmicu, kliknite na dugme **Kopiraj iz** i izaberite sedmicu koju želite da kopirate.</span><span class="sxs-lookup"><span data-stu-id="df159-116">If you want to copy all the entries from a previous week to the current week, click **Copy From** and select the timesheet week you want to copy.</span></span>  
   
-8. <span data-ttu-id="eb632-117">Ako radije želite da vidite listu onoga što radite, kliknite na dugme **Mreža**.</span><span class="sxs-lookup"><span data-stu-id="eb632-117">If you’d rather see a list of what you’re working on, click **Grid**.</span></span>  
+8. <span data-ttu-id="df159-117">Ako radije želite da vidite listu onoga što radite, kliknite na dugme **Mreža**.</span><span class="sxs-lookup"><span data-stu-id="df159-117">If you’d rather see a list of what you’re working on, click **Grid**.</span></span>  
   
-   <span data-ttu-id="eb632-118">Ako koristite aplikaciju za mobilne uređaje:</span><span class="sxs-lookup"><span data-stu-id="eb632-118">If you’re using the mobile app:</span></span>  
+   <span data-ttu-id="df159-118">Ako koristite aplikaciju za mobilne uređaje:</span><span class="sxs-lookup"><span data-stu-id="df159-118">If you’re using the mobile app:</span></span>  
   
-9. <span data-ttu-id="eb632-119">Idite na **Unos Vreme** u meniju.</span><span class="sxs-lookup"><span data-stu-id="eb632-119">From the menu, go to **Time Entries**.</span></span>     <span data-ttu-id="eb632-120">Možete se prebaciti na prikaz **Dana**, **Sedmice**, ili **Meseca** ili da odete na prethodni ili sledeći vremenski period.</span><span class="sxs-lookup"><span data-stu-id="eb632-120">You can switch to **Day**, **Week**, or **Month** view, or navigate to the previous or next time period.</span></span>  
+9. <span data-ttu-id="df159-119">Idite na **Unos Vreme** u meniju.</span><span class="sxs-lookup"><span data-stu-id="df159-119">From the menu, go to **Time Entries**.</span></span>     <span data-ttu-id="df159-120">Možete se prebaciti na prikaz **Dana**, **Sedmice**, ili **Meseca** ili da odete na prethodni ili sledeći vremenski period.</span><span class="sxs-lookup"><span data-stu-id="df159-120">You can switch to **Day**, **Week**, or **Month** view, or navigate to the previous or next time period.</span></span>  
   
-10. <span data-ttu-id="eb632-121">Dodirnite **…**</span><span class="sxs-lookup"><span data-stu-id="eb632-121">Tap **…**</span></span> <span data-ttu-id="eb632-122">i dodirnite **Novo**.</span><span class="sxs-lookup"><span data-stu-id="eb632-122">and tap **New**.</span></span>  
+10. <span data-ttu-id="df159-121">Dodirnite **…**</span><span class="sxs-lookup"><span data-stu-id="df159-121">Tap **…**</span></span> <span data-ttu-id="df159-122">i dodirnite **Novo**.</span><span class="sxs-lookup"><span data-stu-id="df159-122">and tap **New**.</span></span>  
   
-11. <span data-ttu-id="eb632-123">Popunite potrebne detalje i dodirnite **Sačuvaj**.</span><span class="sxs-lookup"><span data-stu-id="eb632-123">Fill in the details as necessary and tap **Save**.</span></span>  
+11. <span data-ttu-id="df159-123">Popunite potrebne detalje i dodirnite **Sačuvaj**.</span><span class="sxs-lookup"><span data-stu-id="df159-123">Fill in the details as necessary and tap **Save**.</span></span>  
   
-### <a name="see-also"></a><span data-ttu-id="eb632-124">Takođe pogledajte</span><span class="sxs-lookup"><span data-stu-id="eb632-124">See Also</span></span>  
- [<span data-ttu-id="eb632-125">Vodič za vreme, trošak i saradnju</span><span class="sxs-lookup"><span data-stu-id="eb632-125">Time, Expense, and Collaboration Guide</span></span>](../psa/time-expense-collaboration-guide.md)
+### <a name="see-also"></a><span data-ttu-id="df159-124">Takođe pogledajte</span><span class="sxs-lookup"><span data-stu-id="df159-124">See Also</span></span>  
+ [<span data-ttu-id="df159-125">Vodič za vreme, trošak i saradnju</span><span class="sxs-lookup"><span data-stu-id="df159-125">Time, Expense, and Collaboration Guide</span></span>](../psa/time-expense-collaboration-guide.md)
