@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 6b36f671fb8d6c77446d66c41fc45837e1ee8e25
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: c86043a79d119c00a64ba5336df5b5ad69006b11
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: sr-Latn-RS
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4083749"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5288711"
 ---
 # <a name="set-up-role-based-pricing"></a>Postavite određivanje cene zasnovano na ulogama
 
@@ -31,9 +31,9 @@ ms.locfileid: "4083749"
 
 Sve cene troškova, prodaje i transfera mogu se podesiti za uloge. Dovršite sledeće korake da biste povezali cene sa određenom ulogom.
 
-1. Na stranici **Prodajna cena (sat)** , izaberite **Nova** i unesite datum stupanja na snagu.
-2. U koloni **Uloga** , izaberite ulogu.
-3. U koloni **Cene** , unesite cenu za izabranu ulogu resursa.
+1. Na stranici **Prodajna cena (sat)**, izaberite **Nova** i unesite datum stupanja na snagu.
+2. U koloni **Uloga**, izaberite ulogu.
+3. U koloni **Cene**, unesite cenu za izabranu ulogu resursa.
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -18,12 +18,12 @@ ms.search.industry: Service industries
 ms.author: andchoi
 ms.dyn365.ops.version: 7
 ms.search.validFrom: 2019-01-15
-ms.openlocfilehash: 89801696d6a2924d78c85f6e9b4281409222dbb0
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: dfd91e859244cc03b9b358b057bded79eeea0182
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: sr-Latn-RS
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4083761"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5289386"
 ---
 # <a name="project-grants"></a>Bespovratna pomoć za projekat
 
@@ -42,8 +42,8 @@ Bespovratnu pomoć možete kreirati unošenjem svih detalja u novi zapis ili mo�
 
 1. Idite na **Upravljanje projektima i računovodstvo** \> **Bespovratna pomoć** \> **Bespovratna pomoć**.
 2. Izaberite **Novo** \> **Bespovratna pomoć**.
-3. Na stranici sa detaljima o bespovratnoj pomoći, na brzoj kartici **Opšti podaci** , u polju **ID bespovratne pomoći** , unesite alfanumerički identifikator bespovratne pomoći.
-4. U polje **Naziv bespovratne pomoći** , unesite naziv bespovratne pomoći.
+3. Na stranici sa detaljima o bespovratnoj pomoći, na brzoj kartici **Opšti podaci**, u polju **ID bespovratne pomoći**, unesite alfanumerički identifikator bespovratne pomoći.
+4. U polje **Naziv bespovratne pomoći**, unesite naziv bespovratne pomoći.
 5. Upolje **Opis** dodajte detalje o novoj bespovratnoj pomoći.
 
     Većina ostalih polja na stranici nije obavezna i možete uneti onoliko podataka koliko želite.
@@ -77,7 +77,7 @@ Bespovratnu pomoć možete kreirati unošenjem svih detalja u novi zapis ili mo�
 
 1. Idite na **Upravljanje projektima i računovodstvo** \> **Bespovratna pomoć** \> **Bespovratna pomoć**.
 2. Izaberite bespovratnu pomoć za izmenu.
-3. U oknu radnje, na kartici **Bespovratna pomoć** , u grupi **Održavanje** izaberite **Uredi**.
+3. U oknu radnje, na kartici **Bespovratna pomoć**, u grupi **Održavanje** izaberite **Uredi**.
 4. Pregledajte detalje o bespovratnoj pomoći i izvršite sve potrebne promene.
 
 

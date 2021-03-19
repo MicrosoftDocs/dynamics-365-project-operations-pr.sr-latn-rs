@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 3ecf8ee588de9ec41e0b4f384110f912759ed53f
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: f2bab78628333f2d8a6996277ca3a9e63052e939
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: sr-Latn-RS
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4083566"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5289116"
 ---
 # <a name="project-resourcing-home-page"></a>Matična stranica za obezbeđivanje resursa za projekat
 
@@ -49,7 +49,7 @@ Sledeće teme pružaju informacije o zadacima koje treba dovršiti kada radite n
 - [Podešavanje resursa projekta](set-up-project-resources.md)
 - [Upravljanje kompetencijama resursa](manage-resource-competencies.md)
 - [Kreirajte novi projekat](create-new-project.md)
-- [Postavite određivanje cene zasnovano na ulogama](set-up-role-based-pricing.md)
+- [Postavite određivanje cena zasnovano na ulogama](set-up-role-based-pricing.md)
 - [Kreiranje projektnog tima](create-project-team.md)
 - [Sinhronizacija kapaciteta resursa](synchronize-resource-capacity.md)
 - [Performanse planiranja resursa za projekat](project-scheduling-performance.md)

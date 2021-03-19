@@ -18,12 +18,12 @@ ms.search.industry: Service industries
 ms.author: andchoi
 ms.dyn365.ops.version: 7
 ms.search.validFrom: 2019-01-15
-ms.openlocfilehash: e872c4a2d35cef4cddc6851615c6c4d73b4e9d9a
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: f2469c8396eb4867b435f70b046aa421552d0fa1
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: sr-Latn-RS
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4083559"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5288620"
 ---
 # <a name="set-up-and-use-pay-when-paid-vendor-payments"></a>Podesite i koristite plaćanja prodavcima nakon izvršene naplate
 
@@ -69,7 +69,7 @@ Kada knjižite fakturu od prodavca, ako je dobavljač podložan uslovima za PWP,
 
     Alternativno, otvorite postojeću porudžbenicu na stranici liste **Sve porudžbenice**.
 
-4. Na stranici **Porudžbenica** , na brzoj kartici **Redovi porudžbenica** pregledajte detalje o liniji porudžbenice za prodavca. Opcija **Plati nakon plaćanja** je automatski izabrana, a vrednost u **Procenat praga za PWP** se automatski kopira iz polja **Procenat praga za PWP** na stranici **Projekti**.
+4. Na stranici **Porudžbenica**, na brzoj kartici **Redovi porudžbenica** pregledajte detalje o liniji porudžbenice za prodavca. Opcija **Plati nakon plaćanja** je automatski izabrana, a vrednost u **Procenat praga za PWP** se automatski kopira iz polja **Procenat praga za PWP** na stranici **Projekti**.
 6. Ako ne želite da primenite uslove za PWP na prodavca za liniju porudžbenice, obrišite opciju **Plati nakon plaćanja**. U ovom slučaju, polje **Procenat praga za PWP** za liniju porudžbenice biće vraćeno na 0 (nulu).
 
 ## <a name="update-a-customer-payment-and-pay-the-vendor"></a>Ažurirajte uplatu klijenta i platite prodavcu
@@ -77,7 +77,7 @@ Kada knjižite fakturu od prodavca, ako je dobavljač podložan uslovima za PWP,
 Kada prodavac dovrši svoj posao na projektu i pošalje vam fakturu, morate pregledati status projekta i fakture klijenata da biste utvrdili da li su uslovi za PWP ispunjeni za projekat. Ako su ispunjeni uslovi za PWP za dobavljača, možete da odredite koje redove na fakturi dobavljača treba da platite na osnovu uplata klijenata za projekat. Ako odlučite da platite prodavcu iako uslovi za PWP nisu ispunjeni, možete zameniti uslove za PWP na stranici **Faktura prodavca sa plaćanjem nakon uplate**.
 
 1. Idite na **Upravljanje projektima i računovodstvo** \> **Upiti i izveštaji** \> **Upiti o zadržavanju** \> **Faktura prodavca sa plaćanjem nakon uplate**.
-2. Na stranici **Faktura prodavca sa plaćanjem nakon uplate** , u polje za pretragu unesite vrednosti da biste pronašli fakturu dobavljača koju želite da pregledate, a zatim izaberite **Pretraga**.
+2. Na stranici **Faktura prodavca sa plaćanjem nakon uplate**, u polje za pretragu unesite vrednosti da biste pronašli fakturu dobavljača koju želite da pregledate, a zatim izaberite **Pretraga**.
 3. Na brzoj kartici **Redovi faktura prodavaca** izaberite redove koje želite da promenite.
 4. Ako su ispunjeni uslovi za **Plaćanje nakon uplate** za stavku fakture, izaberite **Pusti uplatu prodavca**. Opcija **Plaćanje posle uplate** se briše, a vrednost polja **Spremno za plaćanje** se menja u **Da**.
 

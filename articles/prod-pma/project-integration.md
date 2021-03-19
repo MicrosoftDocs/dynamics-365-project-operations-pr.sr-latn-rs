@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2017-12-04
 ms.dyn365.ops.version: 7.2999999999999998
-ms.openlocfilehash: 732b72d9819fc149c4b2c783b3dc7f7eec3f0393
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: e93d23559d1f3aca9022cd97dae3b0726bb5ca05
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: sr-Latn-RS
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4083641"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5289341"
 ---
 # <a name="microsoft-project-client-integration"></a>Integracija usluge Microsoft Project Client
 
@@ -39,10 +39,10 @@ Da biste omogućili integraciju sa uslugom Microsoft Project Client, potrebno je
 
 •   Kliknite na **Konfiguriši programski dodatak za klijenta** iz odeljka **Veze** > **Podešavanje** radnog prostora.
 
-•   Kliknite na **Otvori** , a zatim kliknite na **Pokreni** kada to bude zatraženo.
+•   Kliknite na **Otvori**, a zatim kliknite na **Pokreni** kada to bude zatraženo.
 
 ## <a name="open-and-edit-an-existing-draft-work-breakdown-structure-in-microsoft-project-client"></a>Otvorite i uredite postojeću probnu verziju strukturne analize posla u programu Microsoft Project Client
-Ako projekat u usluzi Dynamics 365 Finance već ima kreiranu strukturnu analizu posla, strukturna analiza posla može se otvoriti u aplikaciji Microsoft Project Client ako je strukturna analiza posla u statusu radne verzije. Da biste otvorili stranicu **Projekat** , kliknite na vezu **Otvori u programu Microsoft Project** na kartici **Plan**. Ova stranica se takođe može otvoriti iz aplikacije Microsoft Project Client klikom na **Otvori** na kartici **Microsoft Dynamics 365**. Izaberite **Pravno lice** i **Projekat** sa liste.
+Ako projekat u usluzi Dynamics 365 Finance već ima kreiranu strukturnu analizu posla, strukturna analiza posla može se otvoriti u aplikaciji Microsoft Project Client ako je strukturna analiza posla u statusu radne verzije. Da biste otvorili stranicu **Projekat**, kliknite na vezu **Otvori u programu Microsoft Project** na kartici **Plan**. Ova stranica se takođe može otvoriti iz aplikacije Microsoft Project Client klikom na **Otvori** na kartici **Microsoft Dynamics 365**. Izaberite **Pravno lice** i **Projekat** sa liste.
 
 > [!NOTE]
 > Ako koristite Internet Explorer kao pregledač, moraćete da kliknete na **Sačuvaj** da biste je ručno otvorili sa lokacije na koju se datoteka preuzima. Ili kliknite na **Sačuvaj i otvori** da biste otvorili datoteku u programu Microsoft Project Client. Nemojte da preimenujete naziv datoteke prilikom čuvanja.
@@ -82,7 +82,7 @@ Da biste kreirali strukturnu analizu posla koristeći Microsoft Project Client, 
 
 1.  Otvorite Microsoft Project Client.
 
-2.  Na kartici **Microsoft Dynamics 365** , kliknite na **Otvori**.
+2.  Na kartici **Microsoft Dynamics 365**, kliknite na **Otvori**.
 
 3.  Izaberite **Pravno lice** za projekat.
 
@@ -99,7 +99,7 @@ Da biste kreirali novu strukturnu analizu posla pomoću aplikacije Microsoft Pro
 
 2.  Kreirajte raspored u aplikaciji Microsoft Project Client.
 
-3.  Na kartici **Microsoft Dynamics 365** , kliknite na **Sačuvaj promene** > **Zameni postojeći projekat**.
+3.  Na kartici **Microsoft Dynamics 365**, kliknite na **Sačuvaj promene** > **Zameni postojeći projekat**.
 
 4.  Izaberite **Pravno lice** za projekat.
 
@@ -114,15 +114,15 @@ Da biste kreirali novu strukturnu analizu posla pomoću aplikacije Microsoft Pro
 
 2.  Kreirajte raspored u aplikaciji Microsoft Project Client.
 
-3.  Na kartici **Microsoft Dynamics 365** , kliknite na **Sačuvaj promene** > **Sačuvaj u novi projekat**.
+3.  Na kartici **Microsoft Dynamics 365**, kliknite na **Sačuvaj promene** > **Sačuvaj u novi projekat**.
 
 4.  Izaberite **Pravno lice** za projekat.
 
-5.  Unesite **ID projekta** , ako je neophodno.
+5.  Unesite **ID projekta**, ako je neophodno.
 
 6.  Unesite **Naziv projekta**.
 
-7.  Izaberite **Tip projekta** , **Grupu projekta** i **ID ugovora o projektu**. Alternativno, možete da kreirate novi ugovor o projektu klikom na **Novo**.
+7.  Izaberite **Tip projekta**, **Grupu projekta** i **ID ugovora o projektu**. Alternativno, možete da kreirate novi ugovor o projektu klikom na **Novo**.
 
 8.  Izaberite **Kalendar** koji ćete koristiti za obezbeđivanje resursa.
 

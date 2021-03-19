@@ -18,12 +18,12 @@ ms.search.industry: Service industries
 ms.author: andchoi
 ms.dyn365.ops.version: 7
 ms.search.validFrom: 2019-01-15
-ms.openlocfilehash: 26e013ab99e9a0aeafe25916715ce0ee024df3f7
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 1f601be072e84fc04246cd55a260c8004f6fb3e5
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: sr-Latn-RS
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4083713"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5289746"
 ---
 # <a name="transfer-project-budgets-at-fiscal-year-end"></a>Prenos budžeta projekata na kraj fiskalne godine
 
@@ -36,7 +36,7 @@ Kada radite na višegodišnjem projektu, možda ćete imati preostali budžet na
 Dovršite sledeće korake da biste pregledali iznose budžeta na kraju godine za projekte, ali ne i da biste ih preneli dalje.
 
 1. Idite na **Upravljanje projektima i računovodstvo** > **Periodično** > **Budžeti** > **Prenesi budžete**. 
-2. Na stranici **Proces prenosa budžeta projekta** , na kartici **Opcije za kraj godine** , potvrdite da opcija **Prenesite preostale iznose budžeta projekta** nije omogućena.
+2. Na stranici **Proces prenosa budžeta projekta**, na kartici **Opcije za kraj godine**, potvrdite da opcija **Prenesite preostale iznose budžeta projekta** nije omogućena.
 3. Na kartici **Parametri** u polju **Godina budžeta projekta** odaberite fiskalnu godinu za koju želite da vidite preostali iznos budžeta. 
 4. U polju **Početna fiskalna godina** odaberite fiskalnu godinu za koju želite da vidite preostali iznos budžeta. 
 5. U polju **Iz modela prognoze** izaberite **Preostali budžet**. 
@@ -56,13 +56,13 @@ Kada obrađujete preostale iznose budžeta, možete da kreirate transakcije u gl
 ## <a name="carry-forward-budget-amounts-and-create-general-ledger-transactions"></a><a name="carry-forward"></a>Prenesite budžetske iznose i kreirajte transakcije iz glavne knjige
 
 1.  Izaberite **Upravljanje projektima i računovodstvo** > **Periodično** > **Budžeti** > **Prenesi budžete**. 
-2. Na stranici **Proces prenosa budžeta projekta** izaberite **Kraj godine** , a zatim omogućite **Prenesite preostale iznose budžeta projekta** i **Kreirajte unose u registru budžeta u glavnoj knjizi**. 
-3. Na kartici **Parametri** , u grupi polja **Parametri projekta** izaberite sledeće:
+2. Na stranici **Proces prenosa budžeta projekta** izaberite **Kraj godine**, a zatim omogućite **Prenesite preostale iznose budžeta projekta** i **Kreirajte unose u registru budžeta u glavnoj knjizi**. 
+3. Na kartici **Parametri**, u grupi polja **Parametri projekta** izaberite sledeće:
 
-   - **Godina budžeta projekta** : Odaberite početak fiskalne godine za koju želite da vidite preostale iznose budžeta. 
-   - **Profit i gubitak** : Kreirajte transakcije dobiti i gubitka u glavnoj knjizi. 
-   -  **WIP** : Kreirajte transakcije u toku (WIP) u glavnoj knjizi.
-   -  **Zarada** : Kreirajte transakcije raspodele zarada u glavnoj knjizi. 
+   - **Godina budžeta projekta**: Odaberite početak fiskalne godine za koju želite da vidite preostale iznose budžeta. 
+   - **Profit i gubitak**: Kreirajte transakcije dobiti i gubitka u glavnoj knjizi. 
+   -  **WIP**: Kreirajte transakcije u toku (WIP) u glavnoj knjizi.
+   -  **Zarada**: Kreirajte transakcije raspodele zarada u glavnoj knjizi. 
 
 5. U grupi polja **Glavna knjiga** navedite sledeće informacije: 
 
@@ -87,7 +87,7 @@ Kada obrađujete preostale iznose budžeta, možete da kreirate transakcije u gl
 ## <a name="carry-forward-budget-amounts-without-creating-general-ledger-transactions"></a>Prenesite budžetske iznose bez kreiranja transakcija iz glavne knjige
 
 1. Idite na **Upravljanje projektima i računovodstvo** > **Periodično** > **Budžeti** > **Prenesi budžete**.
-2. Na stranici **Proces prenosa budžeta projekta** , u polju **Opcije za kraj godine** , izaberite **Prenesite preostale iznose budžeta projekta**.
+2. Na stranici **Proces prenosa budžeta projekta**, u polju **Opcije za kraj godine**, izaberite **Prenesite preostale iznose budžeta projekta**.
 3. U grupi **Parametri** u polju **Godina budžeta projekta** odaberite fiskalnu godinu za koju želite da vidite preostale iznose budžeta.
 4. U grupi **Kopiranje iz/u** navedite sledeće informacije:
 

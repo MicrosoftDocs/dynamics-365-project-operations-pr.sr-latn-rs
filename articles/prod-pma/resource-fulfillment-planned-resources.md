@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 2d849e7bdd020b0a2f5f35a627e28434ea77e5fb
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 4200d74a18c706a492ebd0e5383d5957ce6ab6c8
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: sr-Latn-RS
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4083751"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5288801"
 ---
 # <a name="resource-fulfillment-for-planned-resources"></a>Ispunjavanje resursa za planirane resurse
 
@@ -32,14 +32,14 @@ ms.locfileid: "4083751"
 Menadžer projekta može planirati potrebne uloge resursa za projekat. Menadžer resursa će videti ove planirane resurse kao zahteve na stranici **Ispunjenje resursa** i može dodeliti stvarne resurse.
 
 1. Na stranici **Svi projekti** izaberite projekat **Nadogradnja XYZ faza 2**.
-2. Izaberite **Projekat** , a zatim izaberite **Uredi**.
-3. Na kartici **Projektni tim i raspoređivanje** , izaberite **Dodaj**.
+2. Izaberite **Projekat**, a zatim izaberite **Uredi**.
+3. Na kartici **Projektni tim i raspoređivanje**, izaberite **Dodaj**.
 4. U dijalogu **Dodavanje uloga** izaberite ulogu **Programer softvera**.
-5. Izaberite **Kreiraj** , a zatim zatvorite stranicu projekta.
-6. Na stranici **Ispunjavanje resursa** , izaberite **Programer softvera 1** za projekat **Projekat nadogradnje XYZ, faza 2**.
+5. Izaberite **Kreiraj**, a zatim zatvorite stranicu projekta.
+6. Na stranici **Ispunjavanje resursa**, izaberite **Programer softvera 1** za projekat **Projekat nadogradnje XYZ, faza 2**.
 7. Izaberite radnika, a zatim izaberite **Dodeli**.
 8. Proverite da li je linija za **Programera softvera 1** uklonjena za projekat **Projekat nadogradnje XYZ, faza 2**.
-9. Na kartici **Projektni tim i zakazivanje** , za projekat **Nadogradnja XYZ faza 2** proverite da li je radnik kojeg ste izabrali u prethodnom koraku dodat kao **Programer softvera**.
+9. Na kartici **Projektni tim i zakazivanje**, za projekat **Nadogradnja XYZ faza 2** proverite da li je radnik kojeg ste izabrali u prethodnom koraku dodat kao **Programer softvera**.
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

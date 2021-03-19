@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 634e35f7bd399d3d97659b4bd6f2f3a6dbd5839f
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: ff423e2ae2d6a2ac48196ce2784baf3606f6575b
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: sr-Latn-RS
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4083723"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5289791"
 ---
 # <a name="project-management-and-accounting-overview"></a>Pregled upravljanja projektima i računovodstvom
 
@@ -205,13 +205,13 @@ Stavke za potrošnju na projektu možete naručiti iz inventara kompanije. Alter
 
 Način na koji naručujete stavke zavisi od toga odakle ih naručujete:
 
--   Da biste naručili stavke iz inventara kompanije, morate uneti porudžbinu kao zahtev za stavku. Ako koristite stranicu **Zahtevi za stavke** , možete postaviti zahtev tako da primate stavke kao delimične isporuke. Zbog toga možete odložiti potrošnju neke količine stavki dok te stavke ne zatrebaju.
+-   Da biste naručili stavke iz inventara kompanije, morate uneti porudžbinu kao zahtev za stavku. Ako koristite stranicu **Zahtevi za stavke**, možete postaviti zahtev tako da primate stavke kao delimične isporuke. Zbog toga možete odložiti potrošnju neke količine stavki dok te stavke ne zatrebaju.
 -   Da biste naručili stavke od spoljnog dobavljača, morate da je kreirate kao narudžbenicu na stranici **Porudžbenica**.
 
 > [!NOTE] 
 > Otpremnica za narudžbenicu u vezi sa projektom ne može se otkazati ako su predmeti već označeni za pakovanje. 
 
-Sledeća tabela navodi metode naručivanja predmeta i opisuje kako se stavke troše.
+Sledeća tabela navodi metode naručivanja stavki i opisuje kako se stavke troše.
 
 | Metod            | Svrha                                                                                                                                                        | Potrošnja transakcija stavki                                                                                                                  |
 |-------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------|
@@ -232,7 +232,7 @@ Za više informacija o tome kako da obradite fakture projekta, pogledajte [Faktu
 
 ### <a name="calculate-the-cost-to-complete-a-project"></a>Izračunavanje troškova za završetak projekta
 
-Kada kreirate procenu, možete da izaberete metodu koja se koristi za izračunavanje troškova za dovršetak projekta. Izaberite metodu u polje **Cena dovršetka metode** na stranici **Napravite procenu**. Metoda koju odaberete primenjuje se odvojeno na svaku liniju troškova u proceni troškova. Dok linija ima status **Kreirano** , možete da promenite metodu koja se na njega primenjuje na stranici **Procena troškova**. 
+Kada kreirate procenu, možete da izaberete metodu koja se koristi za izračunavanje troškova za dovršetak projekta. Izaberite metodu u polje **Cena dovršetka metode** na stranici **Napravite procenu**. Metoda koju odaberete primenjuje se odvojeno na svaku liniju troškova u proceni troškova. Dok linija ima status **Kreirano**, možete da promenite metodu koja se na njega primenjuje na stranici **Procena troškova**. 
 
 Sledeća tabela opisuje metode za izračunavanje troškova za završetak projekta.
 
@@ -300,7 +300,7 @@ Na osnovu vašeg podešavanja, možete predvideti prilive novca za izabrani proj
 -   **Datum projekta:** 5. marta 2012.
 -   **Datum fakture:** 31. marta 2012. Ovaj datum se određuje na osnovu učestalosti faktura. U ovom primeru, učestalost fakture postavljate na tekući mesec. Stoga se sve transakcije koje se knjiže u mesecu martu fakturišu poslednjeg dana u mesecu.
 -   **Krajnji rok:** 14. aprila 2012. Ovaj datum se određuje na osnovu uslova plaćanja koji su postavljeni za projekat. Za ovaj primer ste odabrali uslove plaćanja od 14 dana. Stoga se datumu fakture dodaje 14 dana da bi rok dospeo 14. aprila 2012.
--   **Očekivani datum plaćanja:** 27. aprila 2012. Ovaj datum se izračunava dodavanjem broja dana u polje **Opšti broj dana u rezervi** na **Parametri upravljanja projektom i računovodstvom** na broj dana u polju **Pojedinačni broj dana u rezervi** na stranici **Ugovori o projektu** , a zatim sabiramo ukupan broj dana u polju **Krajnji rok**. Za ovaj primer ste uneli **3** u polje **Opšti broj dana u rezervi** i **10** u polje **Pojedinačni broj dana u rezervi**. Stoga se datumu fakture dodaje 13 dana da bi krajnji rok očekivanog datuma plaćanja dospeo 27. aprila 2012.
+-   **Očekivani datum plaćanja:** 27. aprila 2012. Ovaj datum se izračunava dodavanjem broja dana u polje **Opšti broj dana u rezervi** na stranici **Parametri upravljanja projektom i računovodstvom** na broj dana u polju **Pojedinačni broj dana u rezervi** na stranici **Ugovori o projektu**, a zatim sabiramo ukupan broj dana u polju **Krajnji rok**. Za ovaj primer ste uneli **3** u polje **Opšti broj dana u rezervi** i **10** u polje **Pojedinačni broj dana u rezervi**. Stoga se datumu fakture dodaje 13 dana da bi krajnji rok očekivanog datuma plaćanja dospeo 27. aprila 2012.
 
 Opšti broj dana u rezervi može ili da zameni pojedinačni broj dana u rezervi ili da mu se doda:
 
@@ -323,9 +323,9 @@ Na osnovu broja dana koji su definisani, datum plaćanja troškova može se razl
 
 Na primer, datum projekta transakcije je 5. mart 2012. godine, a postavljeni su sledeći uslovi plaćanja:
 
--   **Sati:** Tekući mesec ( **M** )
--   **Troškovi:** 14 dana ( **D14** )
--   **Stavke:** 30 dana ( **D30** )
+-   **Sati:** Tekući mesec (**M**)
+-   **Troškovi:** 14 dana (**D14**)
+-   **Stavke:** 30 dana (**D30**)
 
 Na osnovu ovih podešavanja, evo datuma plaćanja troškova za svaku vrstu transakcije:
 
@@ -364,14 +364,14 @@ Možete nadgledati troškove koje vaša organizacija snosi tokom projekta na str
 
 #### <a name="viewing-the-remaining-budgeted-amounts"></a>Pregled preostalih budžetiranih iznosa
 
-Ako je izabrana opcija **Preostali budžet** kao metoda kontrole troškova na stranici **Upravljanje projektom i računovodstveni parametri** , stranica **Kontrola troškova** izračunava troškove koji nisu knjiženi kao stvarni ili označeni kao dodeljeni. Konkretno, iznosi na kartici **Opšti podaci** u donjem oknu stranice **Kontrola troškova** izračunavaju se na sledeće načine:
+Ako je izabrana opcija **Preostali budžet** kao metoda kontrole troškova na stranici **Upravljanje projektom i računovodstveni parametri**, stranica **Kontrola troškova** izračunava troškove koji nisu knjiženi kao stvarni ili označeni kao dodeljeni. Konkretno, iznosi na kartici **Opšti podaci** u donjem oknu stranice **Kontrola troškova** izračunavaju se na sledeće načine:
 
 -   **Stvarna cena** – Ukupan iznos koji je potrošen na projekat za izabranu liniju troškova. Stvarni iznos troškova izračunava se na stranici **Ažuriranja glavne knjige**.
 -   **Dodeljeni trošak** – Dodatni iznos troškova na koje se pravno lice obavezalo da će platiti. Konkretni iznos preuzetih troškova izračunava se na stranici **Dodeljeni troškovi**.
 -   **Preostali budžet** – Iznos originalnog budžetiranog iznosa koji je i dalje dostupan za izabranu liniju troškova. Preostali iznos budžeta izračunava se na stranici **Pregled glavne knjige**.
 -   **Ukupni troškovi** – Zbir stvarnih troškova, dodeljenih troškova i preostalih iznosa budžeta.
 
-Na stranici **Kontrola troškova** , na kartici **Odstupanje** možete videti poređenje ukupnih očekivanih troškova sa originalnim budžetom. Ovo poređenje pokazuje sve razlike između ovih iznosa. Stoga možete videti gde se podaci ne podudaraju. Iznosi odstupanja izračunavaju se na sledeće načine:
+Na stranici **Kontrola troškova**, na kartici **Odstupanje** možete videti poređenje ukupnih očekivanih troškova sa originalnim budžetom. Ovo poređenje pokazuje sve razlike između ovih iznosa. Stoga možete videti gde se podaci ne podudaraju. Iznosi odstupanja izračunavaju se na sledeće načine:
 
 -   **Originalni budžet** – Iznos koji je prvobitno budžetiran za izabranu liniju troškova. Originalni iznos budžeta izračunava se na stranici **Pregled glavne knjige**.
 -   **Ukupni troškovi** – Zbir stvarnih troškova, dodeljenih troškova i preostalih iznosa budžeta, kao što je prijavljeno na kartici **Opšti podaci**.
@@ -381,14 +381,14 @@ Na stranici **Kontrola troškova** , na kartici **Odstupanje** možete videti po
 
 #### <a name="viewing-the-total-budgeted-amounts"></a>Pregled ukupnih budžetiranih iznosa
 
-Ako je izabrana opcija **Ukupan budžet** kao metoda kontrole troškova na stranici **Parametri upravljanja projektom i računovodstvom** , stranica **Kontrola troškova** izračunava stvarne troškove i ukupne troškove projekta kako bi vam pomogla da otkrijete bilo kakvu razliku između njih. Konkretno, na stranici **Kontrola troškova** , iznosi u koloni u donjem oknu kartice **Opšti podaci** izračunavaju se na sledeće načine:
+Ako je izabrana opcija **Ukupan budžet** kao metoda kontrole troškova na stranici **Parametri upravljanja projektom i računovodstvom**, stranica **Kontrola troškova** izračunava stvarne troškove i ukupne troškove projekta kako bi vam pomogla da otkrijete bilo kakvu razliku između njih. Konkretno, na stranici **Kontrola troškova**, iznosi u koloni u donjem oknu kartice **Opšti podaci** izračunavaju se na sledeće načine:
 
 -   **Ukupni budžetirani troškovi** – Ukupan iznos budžeta za izabranu liniju troškova.
 -   **Stvarni troškovi** – Ukupan iznos troškova koji je nastao u projektu do danas za izabrane linije troškova.
 -   **Dodeljeni trošak** – Ukupan iznos koji je dodeljen za izabranu liniju troškova.
 -   **Varijansa** – Razlika između zbira stvarnih i dodeljenih troškova i ukupnih troškova. Varijansa pokazuje da li se za ukupni budžet moraju navesti dodatni troškovi.
 
-Na stranici **Kontrola troškova** , na kartici **Odstupanje** možete da vidite razliku između ukupnog i originalnog budžeta tako što ćete pogledati sledeća polja:
+Na stranici **Kontrola troškova**, na kartici **Odstupanje** možete da vidite razliku između ukupnog i originalnog budžeta tako što ćete pogledati sledeća polja:
 
 -   **Originalni budžet** – Iznos koji je prvobitno budžetiran za liniju troškova. Originalni budžet se izračunava na stranici **Pregled glavne knjige**.
 -   **Ukupni budžetirani troškovi** – Ukupni troškovi koji su prvobitno budžetirani za liniju troškova. Ukupni budžetirani troškovi se izračunavaju na stranici **Pregled glavne knjige**.
@@ -414,7 +414,7 @@ Stope iskorišćenosti izračunavate na stranici **Iskorišćenost sati**. Izra�
 -   **U skladu sa svojstvom linije** – Svojstva linije određene transakcije sati određuju da li se sati računaju za naplatu ili za efikasnu iskorišćenost.
 -   **Nije uključeno** – Sati se ne uzimaju u obzir u obračunu naplativosti ili efikasne iskorišćenosti.
 
-Na stranici **Iskorišćenost sati** , pored ukupnog procenta stope iskorišćenosti za radnika ili projekat, možete videti broj sati koji su korišćeni za proračun stope iskorišćenosti za svaki od sledećih tipova sati:
+Na stranici **Ukupna iskorišćenost sati**, pored ukupnog procenta stope iskorišćenosti za radnika ili projekat, možete videti broj sati koji su korišćeni za proračun stope ukupne iskorišćenosti za svaki od sledećih tipova sati:
 
 -   **Sati koji nisu uključeni** – Ovi sati nisu uključeni u stopu iskorišćenosti radnih sati.
 -   **Uključeni sati** – Ovi sati se izračunavaju dodavanjem sati iskorišćenosti i sati opterećenja. Ovi sati su uključeni u stopu iskorišćenosti.
@@ -432,7 +432,7 @@ Možete da napravite izjavu o projektu da biste videli brzi snimak napretka proj
 -   Datum projekta / datum glavne knjige
 -   Podaci
 
-Nakon izračunavanja izjave, možete da vidite sledeće informacije na različitim karticama na stranici **Izjave o projektu** :
+Nakon izračunavanja izjave, možete da vidite sledeće informacije na različitim karticama na stranici **Izjave o projektu**:
 
 -   **Opšti podaci** – Opšte informacije o osnovnoj strukturi dobiti i gubitka projekta.
 -   **Profit i gubitak** - Informacije o obračunatom prihodu.

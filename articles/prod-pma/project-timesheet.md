@@ -18,12 +18,12 @@ ms.search.industry: Service industries
 ms.author: andchoi
 ms.dyn365.ops.version: 10
 ms.search.validFrom: 2019-01-15
-ms.openlocfilehash: b9cbd84ecb0d71a99982e158d7e0ea1e236fb369
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: db035bfd555d724f80156d0b50df7c0d0bfaff27
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: sr-Latn-RS
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4083753"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5288846"
 ---
 # <a name="project-timesheet-mobile-application"></a>Aplikacija za mobilne uređaje Project Timesheet
 
@@ -53,7 +53,7 @@ U usluzi Finance, mora da bude omogućena aplikacija za mobilne uređaje Project
 
 ## <a name="submit-a-project-timesheet"></a>Pošaljite vremenski raspored projekta
 
-U aplikaciji možete da kreirate i pošaljete vremenski raspored projekta. Novi vremenski raspored možete zasnivati na informacijama iz prethodnog vremenskog rasporeda, sačuvanim linijama ili projektnim zadacima. Ako ste određeni za delegata, možete da unesete i vremenski raspored za drugog radnika. Da biste kreirali vremenski raspored kao delegat, izaberite **Meni** , a zatim izaberite naziv resursa.
+U aplikaciji možete da kreirate i pošaljete vremenski raspored projekta. Novi vremenski raspored možete zasnivati na informacijama iz prethodnog vremenskog rasporeda, sačuvanim linijama ili projektnim zadacima. Ako ste određeni za delegata, možete da unesete i vremenski raspored za drugog radnika. Da biste kreirali vremenski raspored kao delegat, izaberite **Meni**, a zatim izaberite naziv resursa.
 
 Stranica vremenskog rasporeda stvoriće novi vremenski raspored za period vremenskog rasporeda na osnovu trenutnog datuma. Prikazaće se radna nedelja. Ako period vremenskog rasporeda pokriva više nedelja, na karticama radne nedelje možete odabrati drugu radnu nedelju.
 Ako postoji vremenski list za trenutni datum, on će biti prikazan. Ako treba da napravite novi vremenski raspored u drugom periodu vremenskog rasporeda, izaberite **Meni** a zatim izaberite **Novi vremenski raspored**.
@@ -68,21 +68,21 @@ Informacije o projektu možete uneti klikom na radnju **Dodaj vreme** ili na rad
 
 Informacije o projektu koje se prikazuju zavise od mobilnih parametara koje ste definisali na stranici **Upravljanje projektom i računovodstveni parametri**.
 
-U polju **Pravno lice** , izaberite pravno lice za koje ste izvršili posao na projektu. Polje **Pravno lice** je dostupno samo ako je za vaše pravno lice omogućena podrška za međukompanijski vremenski raspored.
+U polju **Pravno lice**, izaberite pravno lice za koje ste izvršili posao na projektu. Polje **Pravno lice** je dostupno samo ako je za vaše pravno lice omogućena podrška za međukompanijski vremenski raspored.
 
 Izaberite klijenta koji je povezan sa projektom za vremenski raspored. Za početno izdanje na platformi Android, stavka klijenta nije podržana, jer prvo morate da izaberete projekat. Ako ste prvo izabrali projekat, polje **Klijent** se popunjava automatski.
 
-U polju **Projekat** , izaberite projekat za koji unosite vreme. Polje **Klijent** se popunjava automatski.
+U polju **Projekat**, izaberite projekat za koji unosite vreme. Polje **Klijent** se popunjava automatski.
 
 Pronalaženja klijenata i projekata omogućava pretraživanje kako klijenata, tako i projekata.
 
-Po potrebi, izaberite informacije u poljima **Kategorija** , **Aktivnost** , **Svojstvo linije** , **Grupa poreza na promet** i **Grupa poreza na promet stavki**. Ta polja se mogu zameniti.
+Po potrebi, izaberite informacije u poljima **Kategorija**, **Aktivnost**, **Svojstvo linije**, **Grupa poreza na promet** i **Grupa poreza na promet stavki**. Ta polja se mogu zameniti.
 
 Polje **Svojstvo linije** će biti postavljeno na podrazumevanu vrednost, na osnovu parametara upravljanja projektom i računovodstva. Kada su parametri projekat/kategorija i kategorija/resurs omogućeni, vrednost **Svojstvo linije** će biti postavljena na podrazumevanu vrednost koju ste definisali za ovu proveru valjanosti. Kada parametri projekat/kategorija i kategorija/resurs nisu omogućeni, vrednost **Svojstvo linije** će biti podrazumevana prema polju **Omogući podrazumevano svojstvo linije** na stranici **Upravljanje projektom i računovodstveni parametri**. Vrednost **Svojstvo linije** se može izmeniti.
 
 Izaberite dan za dodavanje vremena. Unesite broj sati tokom kojih ste radili svakog dana.
 
-Da biste dodali komentare o satima koje unosite, kliknite na **Dodaj komentare** , a zatim unesite komentare za interne korisnike, korisnike klijenta ili obe grupe.
+Da biste dodali komentare o satima koje unosite, kliknite na **Dodaj komentare**, a zatim unesite komentare za interne korisnike, korisnike klijenta ili obe grupe.
 Menadžeri projekta mogu da vide interne komentare. Komentari klijenata su uključeni u fakture.
 
 Da biste liniju sačuvali kao omiljenu, označite polje za potvrdu, a zatim kliknite na **Sačuvaj kao omiljeno**.
@@ -95,7 +95,7 @@ Kliknite na **Prosledi** da biste poslali vremenski raspored toku posla odobrava
 
 ## <a name="review-timesheets"></a>Pregledajte vremenske rasporede
 
-Lista vremenskih rasporeda koje treba pregledati dostupna je u meniju. Ova opcija je dostupna samo ako ste izabrani za davaoca odobrenja toka posla. Podržani su i zaglavlje i odobrenje linije. Odobrenje nivoa linije nudi mogućnost obeležavanja jedne ili više linija za odobrenje. Nakon pregleda informacija o vremenskom rasporedu, kliknite na **Odobri** , **Delegat** ili **Povratak** da biste nastavili tok posla.
+Lista vremenskih rasporeda koje treba pregledati dostupna je u meniju. Ova opcija je dostupna samo ako ste izabrani za davaoca odobrenja toka posla. Podržani su i zaglavlje i odobrenje linije. Odobrenje nivoa linije nudi mogućnost obeležavanja jedne ili više linija za odobrenje. Nakon pregleda informacija o vremenskom rasporedu, kliknite na **Odobri**, **Delegat** ili **Povratak** da biste nastavili tok posla.
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

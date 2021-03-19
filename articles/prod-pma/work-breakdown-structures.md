@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 9d0cfcc27c69695fc6fe897e798b2831528833e6
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 9dc4575f5b4b80e257e34e21980b0516e7c546e6
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: sr-Latn-RS
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4083555"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5287975"
 ---
 # <a name="work-breakdown-structures-overview"></a>Pregled strukturne analize posla
 
@@ -98,7 +98,7 @@ Trenutno ne možete prilagoditi SAP numerisanje.
 
 **Izvlačenje zadatka** Kada izvučete zadatak, to više nije sastavni zadatak njegovog nadređenog zadatka. SAP broj ovog zadatka automatski se preračunava da bi odražavao novi nivo zadatka u hijerarhiji. Trud, troškovi i datumi prethodnog nadređenog zadatka ovog zadatka ponovo se izračunavaju kako ne bi uključili ovaj zadatak. 
 
-**Pomeranje nagore i nadole** Kad kliknete na **Pomeri nagore** i **Pomeri nadole** , menjate položaj zadatka u hijerarhiji njegovog nadređenog zadatka. Pozicija zadatka ne utiče na aktivnosti, troškove, datume niti trajanje zadatka. Međutim, SAP broj zadatka se automatski preračunava da bi odražavao novu poziciju zadatka.
+**Pomeranje nagore i nadole** Kad kliknete na **Pomeri nagore** i **Pomeri nadole**, menjate položaj zadatka u hijerarhiji njegovog nadređenog zadatka. Pozicija zadatka ne utiče na aktivnosti, troškove, datume niti trajanje zadatka. Međutim, SAP broj zadatka se automatski preračunava da bi odražavao novu poziciju zadatka.
 
 ### <a name="schedule-estimation"></a>Procena rasporeda
 
@@ -253,7 +253,7 @@ Finance koristi pravilo zarade 0:100 kada postavlja zarađenu vrednost. Prema ov
 Kada se izračunava zarađena vrednost, uzima se u obzir procenat napretka svakog zadatka. Prema pravilu zarade 0:100, za izračunavanje zarađene vrednosti na kraju tog perioda uzimaju se u obzir samo zadaci koji su završeni u datom periodu. Zarađena vrednost na projektu izračunava se za sve zadatke koji su završeni prilikom kreiranja grafikona. 
 
 > [!NOTE] 
-> Trenutno sistem za praćenje SAP nema strukture podataka za čuvanje istorijskih procenata napretka za svaki zadatak. Stoga se zarađena vrednost može prijaviti samo u trenutku obrade kocke. Redovno obrađujte kocku da biste ažurirali podatke o zarađenoj vrednosti koja se prikazuje u centru uloga. 
+> Trenutno sistem za praćenje SAP-a nema strukture podataka za čuvanje istorijskih procenata napretka za svaki zadatak. Stoga se zarađena vrednost može prijaviti samo u trenutku obrade kocke. Redovno obrađujte kocku da biste ažurirali podatke o zarađenoj vrednosti koja se prikazuje u centru uloga. 
 
 **Stvarna cena** Teorija EVM kaže da postavljanje stvarnih troškova predstavlja stopu po kojoj se novac troši na projekat. 
 

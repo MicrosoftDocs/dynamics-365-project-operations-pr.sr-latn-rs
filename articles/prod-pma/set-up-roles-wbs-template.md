@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 143f1094c653fb7ac0e026b7875aa162a3eb83f7
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 6a8363c1f94a974881df984869ee56bfc198ac5c
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: sr-Latn-RS
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4083560"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5288666"
 ---
 # <a name="set-up-roles-on-work-breakdown-structure-templates"></a>Podesite uloge na predlošcima strukturne analiza posla
 
@@ -93,14 +93,14 @@ Dodatne opcije su dodate u SAP radi boljeg korišćenja funkcionalnosti resursa.
 
     [![Određivanje datuma i zalaganja](./media/projectresourcing10.jpg)](./media/projectresourcing10.jpg)
 
-5. Izaberite red zadatka **Pokretanje** , a zatim u polju **Uloga** izaberite **Viši menadžer projekta**.
+5. Izaberite red zadatka **Pokretanje**, a zatim u polju **Uloga** izaberite **Viši menadžer projekta**.
 6. Izaberite **Objavi**.
-7. Na istoj liniji, u polju **Resurs** izaberite **Danijel Goldšmit** , a zatim izaberite **Prihvati**.
-8. Izaberite red zadatka **Planiranje** , a zatim u polju **Uloga** izaberite **Poslovni analitičar**.
-9. Izaberite **Objavi** , a zatim izaberite **Automatski generiši tim**.
+7. Na istoj liniji, u polju **Resurs** izaberite **Danijel Goldšmit**, a zatim izaberite **Prihvati**.
+8. Izaberite red zadatka **Planiranje**, a zatim u polju **Uloga** izaberite **Poslovni analitičar**.
+9. Izaberite **Objavi**, a zatim izaberite **Automatski generiši tim**.
 10. U okviru poruke koji se prikaže, izaberite **Da**.
 11. U polju **Resurs** proverite da li je vrednost **Poslovni analitičar 1**.
-12. Za resurs **Poslovni analitičar 1** , otvorite pronalaženje i izaberite **Pokreni dodelu resursa**. Zatim izaberite radnika za zadatak.
+12. Za resurs **Poslovni analitičar 1**, otvorite pronalaženje i izaberite **Pokreni dodelu resursa**. Zatim izaberite radnika za zadatak.
 13. Izaberite **Uslovno dodeljivanje** &gt; **Puni kapacitet**.
 
     > [!NOTE] 

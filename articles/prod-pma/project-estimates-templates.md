@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2016-11-28
 ms.dyn365.ops.version: AX 7.3.0
-ms.openlocfilehash: 336de474c859d30d1ec07ae34bf0c3d578faeef1
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 58e204b2c1238e00ffb16533cc82dad69fbf77a9
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: sr-Latn-RS
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4083708"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5289476"
 ---
 # <a name="synchronize-project-estimates-directly-from-project-service-automation-to-finance-and-operations"></a>Sinhronizovanje procena projekta direktno iz usluge Project Service Automation sa uslugom Finance and Operations
 
@@ -46,7 +46,7 @@ Sledeća ilustracija prikazuje kako se podaci sinhronizuju između usluga Projec
 
 ### <a name="template-and-tasks"></a>Predlošci i zadaci
 
-Da biste pristupili dostupnim predlošcima, u Microsoft Power Apps centru administracije izaberite **Projekti** , a zatim u gornjem desnom uglu izaberite **Novi projekat** za izbor javnih predložaka.
+Da biste pristupili dostupnim predlošcima, u Microsoft Power Apps centru administracije izaberite **Projekti**, a zatim u gornjem desnom uglu izaberite **Novi projekat** za izbor javnih predložaka.
 
 Sledeći predložak i osnovni zadaci koji se koriste za sinhronizaciju procena radnih sati projekta iz usluge Project Service Automation u Finance:
 
@@ -82,7 +82,7 @@ U predlošku za procenu radnog vremena projekta morate da koristite Microsoft Po
 
 Da biste ažurirali podrazumevani ID modela predviđanja u predlošku, kliknite na strelicu **Mapa** za otvaranje mapiranja. Zatim izaberite vezu **Napredni upit i filtriranje**.
 
-- Ako koristite podrazumevani predložak procene radnih sati projekta (iz PSA u Fin and Ops), izaberite **Uslov umetanja** u list **Primenjeni koraci**. U stavci **Funkcija** , zamenite **O\_forecast** nazivom ID-a modela predviđanja koji treba koristiti uz integraciju. Podrazumevani predložak sadrži ID modela predviđanja iz demo podataka.
+- Ako koristite podrazumevani predložak procene radnih sati projekta (iz PSA u Fin and Ops), izaberite **Uslov umetanja** u list **Primenjeni koraci**. U stavci **Funkcija**, zamenite **O\_forecast** nazivom ID-a modela predviđanja koji treba koristiti uz integraciju. Podrazumevani predložak sadrži ID modela predviđanja iz demo podataka.
 - Ako kreirate novi obrazac, morate dodati ovu kolonu. U usluzi Power Query izaberite **Dodaj uslovnu kolonu** i unesite naziv za novu kolonu, kao što je **ModelID**. Unesite uslov za kolonu, gde, ako Project zadatak nije bez vrednosti, onda \<enter the forecast model ID\>; u suprotnom je bez vrednosti.
 
 #### <a name="filter-out-resource-specific-records"></a>Filtriranje zapisa specifičnih za resurse
@@ -137,18 +137,18 @@ U predlošku za procenu troškova projekta morate da koristite Power Query da bi
 
 #### <a name="filter-to-include-only-expense-estimate-lines"></a>Filtrirajte da biste uključili samo linije procene troškova
 
-Predložak za procenu troškova projekta (iz PSA u Fin and Ops) ima podrazumevani filter koji uključuje samo linije troškova u integraciji. Ako kreirate sopstveni obrazac, morate dodati ovaj filter. Izaberite zadatak **Odnosi između transakcija** , a zatim kliknite na strelicu **Mapa** da biste otvorili mapiranje. Izaberite vezu **Napredni upit i filtriranje**. Filtrirajte kolonu **msdyn\_transactiontype1** kolona tako da uključuje samo **msdyn\_estimateline**.
+Predložak za procenu troškova projekta (iz PSA u Fin and Ops) ima podrazumevani filter koji uključuje samo linije troškova u integraciji. Ako kreirate sopstveni obrazac, morate dodati ovaj filter. Izaberite zadatak **Odnosi između transakcija**, a zatim kliknite na strelicu **Mapa** da biste otvorili mapiranje. Izaberite vezu **Napredni upit i filtriranje**. Filtrirajte kolonu **msdyn\_transactiontype1** kolona tako da uključuje samo **msdyn\_estimateline**.
 
 #### <a name="set-the-default-forecast-model-id"></a>Podesite podrazumevani ID modela predviđanja
 
-Da biste ažurirali podrazumevani ID modela predviđanja u predlošku, izaberite zadatak **Procene troškova** , a zatim kliknite na strelicu **Mapiraj** da biste otvorili mapiranje. Izaberite vezu **Napredni upit i filtriranje**.
+Da biste ažurirali podrazumevani ID modela predviđanja u predlošku, izaberite zadatak **Procene troškova**, a zatim kliknite na strelicu **Mapiraj** da biste otvorili mapiranje. Izaberite vezu **Napredni upit i filtriranje**.
 
-- Ako koristite podrazumevani predložak procene troškova projekta (iz PSA u Fin and Ops), u usluzi Power Query izaberite **Uslov umetanja** u odeljku **Primenjeni koraci**. U stavci **Funkcija** , zamenite **O\_forecast** nazivom ID-a modela predviđanja koji treba koristiti uz integraciju. Podrazumevani predložak sadrži ID modela predviđanja iz demo podataka.
+- Ako koristite podrazumevani predložak procene troškova projekta (iz PSA u Fin and Ops), u usluzi Power Query izaberite **Uslov umetanja** u odeljku **Primenjeni koraci**. U stavci **Funkcija**, zamenite **O\_forecast** nazivom ID-a modela predviđanja koji treba koristiti uz integraciju. Podrazumevani predložak sadrži ID modela predviđanja iz demo podataka.
 - Ako kreirate novi obrazac, morate dodati ovu kolonu. U usluzi Power Query izaberite **Dodaj uslovnu kolonu** i unesite naziv za novu kolonu, kao što je **ModelID**. Unesite uslov za kolonu, gde, ako ID linije procene nije bez vrednosti, onda \<enter the forecast model ID\>; u suprotnom je bez vrednosti.
 
 #### <a name="transform-the-billing-types"></a>Transformisanje vrsta naplate
 
-Predložak procene troškova projekta (iz PSA u Fin and Ops) uključuje uslovnu kolonu koja se koristi za transformisanje tipova naplate koji su primljeni iz usluge Project Service Automation tokom integracije. Ako kreirate sopstveni obrazac, morate dodati ovu uslovnu kolonu. Izaberite vezu **Napredni upit i filtriranje** , a zatim izaberite **Dodaj uslovnu kolonu**. Unesite ime za novu kolonu, kao što je **BillingType**. Zatim unesite sledeći uslov:
+Predložak procene troškova projekta (iz PSA u Fin and Ops) uključuje uslovnu kolonu koja se koristi za transformisanje tipova naplate koji su primljeni iz usluge Project Service Automation tokom integracije. Ako kreirate sopstveni obrazac, morate dodati ovu uslovnu kolonu. Izaberite vezu **Napredni upit i filtriranje**, a zatim izaberite **Dodaj uslovnu kolonu**. Unesite ime za novu kolonu, kao što je **BillingType**. Zatim unesite sledeći uslov:
 
 If **msdyn\_billingtype** = 192350000, then **NonChargeable**  
 else if **msdyn\_billingtype** = 192350001, then **Chargeable**  
@@ -157,7 +157,7 @@ else **NotAvailable**
 
 #### <a name="transform-the-transaction-types"></a>Transformisanje vrsta transakcija
 
-Predložak procene troškova projekta (iz PSA u Fin and Ops) uključuje uslovnu kolonu koja se koristi za transformisanje vrsta transakcija koje su primljene iz usluge Project Service Automation tokom integracije. Ako kreirate sopstveni obrazac, morate dodati ovu uslovnu kolonu. Izaberite vezu **Napredni upit i filtriranje** , a zatim izaberite **Dodaj uslovnu kolonu**. Unesite naziv za novu kolonu, kao što je **TransactionType**. Zatim unesite sledeći uslov:
+Predložak procene troškova projekta (iz PSA u Fin and Ops) uključuje uslovnu kolonu koja se koristi za transformisanje vrsta transakcija koje su primljene iz usluge Project Service Automation tokom integracije. Ako kreirate sopstveni obrazac, morate dodati ovu uslovnu kolonu. Izaberite vezu **Napredni upit i filtriranje**, a zatim izaberite **Dodaj uslovnu kolonu**. Unesite naziv za novu kolonu, kao što je **TransactionType**. Zatim unesite sledeći uslov:
 
 If **msdyn\_transactiontypecode** = 192350000, then **Cost**  
 else if **msdyn\_transactiontypecode** = 192350005, then **Sales**  

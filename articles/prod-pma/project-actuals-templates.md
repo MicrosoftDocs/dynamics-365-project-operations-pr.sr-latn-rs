@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2016-11-28
 ms.dyn365.ops.version: AX 7.3.0
-ms.openlocfilehash: cff62e739e88dc45e7c3d1ea044875f0600f2bc1
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 11ccbd64c37341b2969e10e9a737f1aa4b4a61f9
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: sr-Latn-RS
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4083712"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5289701"
 ---
 # <a name="synchronize-project-actuals-directly-from-project-service-automation-to-the-project-integration-journal-for-posting-in-finance-and-operations"></a>Sinhronizacija stvarnih vrednosti projektu direktno iz usluge Project Service Automation sa dnevnikom integracije projekta za knjiženje u usluzi Finance and Operations
 
@@ -50,7 +50,7 @@ Sledeća ilustracija prikazuje kako se podaci sinhronizuju između usluga Projec
 
 ### <a name="template-and-tasks"></a>Predlošci i zadaci
 
-Da biste pristupili dostupnim predlošcima, u Microsoft Power Apps centru administracije izaberite **Projekti** , a zatim u gornjem desnom uglu izaberite **Novi projekat** za izbor javnih predložaka.
+Da biste pristupili dostupnim predlošcima, u Microsoft Power Apps centru administracije izaberite **Projekti**, a zatim u gornjem desnom uglu izaberite **Novi projekat** za izbor javnih predložaka.
 
 Sledeći predložak i osnovni zadaci koji se koriste za sinhronizaciju stvarnih vrednosti projekta iz usluge Project Service Automation u Finance:
 
@@ -88,7 +88,7 @@ U predlošku stvarnih vrednosti projekta, morate da koristite Microsoft Power Qu
 #### <a name="contract-organizational-unit"></a>Organizaciona jedinica ugovora
 Da biste ažurirali umetnutu uslovnu kolonu u predlošku, kliknite na strelicu **Mapa** da biste otvorili mapiranje. Izaberite vezu **Napredni upit i filtriranje** da biste otvorili Power Query.
 
-- Ako koristite podrazumevani predložak stvarnih vrednosti projekta (iz PSA u Fin and Ops), u usluzi Power Query izaberite poslednji **Umetnuti uslov** u odeljku **Primenjeni koraci**. U stavci **Funkcija** , zamenite **USSI** nazivom pravnog lica koje treba koristiti sa integracijom. Dodajte dodatne uslove u stavku **Funkcija** po vašem zahtevu i ažurirajte uslov **else** iz **USMF** u ispravno pravno lice.
+- Ako koristite podrazumevani predložak stvarnih vrednosti projekta (iz PSA u Fin and Ops), u usluzi Power Query izaberite poslednji **Umetnuti uslov** u odeljku **Primenjeni koraci**. U stavci **Funkcija**, zamenite **USSI** nazivom pravnog lica koje treba koristiti sa integracijom. Dodajte dodatne uslove u stavku **Funkcija** po vašem zahtevu i ažurirajte uslov **else** iz **USMF** u ispravno pravno lice.
 - Ako kreirate novi predložak, morate dodati kolonu kako biste podržali međukompanijsko vreme i troškove. Izaberite **Dodaj uslovnu kolonu** i unesite naziv za novu kolonu, kao što je **LegalEntity**. Unesite uslov za kolonu, gde, ako **msdyn\_contractorganizationalunitid.msdyn\_ime** glasi \<organizational unit\>, onda \<enter the legal entity\>; u suprotnom je bez vrednosti.
 
 ### <a name="template-mapping-in-data-integration"></a>Mapiranje predložaka u usluzi Data Integration
