@@ -8,18 +8,18 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: stsporen
-ms.openlocfilehash: d9c14f0550d4429ac794607a3fb61717566207e4
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: f446e24f3a61914a46a552fdc38b986d8b924747
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: sr-Latn-RS
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4124655"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5277175"
 ---
 # <a name="extending-time-entries"></a>Proširenje stavki vremena
 
 _**Odnosi se na:** Project Operations za resurs/scenarije koji nisu zasnovani na zalihama, laganu primenu – od pogodbe do profakture_
 
-Dynamics 365 Project Operations uključuje prilagođenu kontrolu stavki vremena. Ova kontrola sadrži sledeće funkcije:
+Dynamics 365 Project Operations obuhvata proširivu prilagođenu kontrolu unosa vremena. Ova kontrola sadrži sledeće funkcije:
 
 - Unesite vreme horizontalno tokom nedelje
 - Ukupno po danu, redu ili nedelji

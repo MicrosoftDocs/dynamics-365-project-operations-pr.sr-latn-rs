@@ -8,12 +8,12 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: c5a8bfea5540432a62d7075443cf237571bfa4de
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: 2d1f9b29e0e9516ff78517e47694a2385c083ec7
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: sr-Latn-RS
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4118490"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5277850"
 ---
 # <a name="manage-project-based-opportunities"></a>Upravljanje mogućnostima za poslovanje zasnovanim na projektima
 
@@ -21,7 +21,7 @@ _**Odnosi se na:** Project Operations za resurs/scenarije koji nisu zasnovani na
 
 Projektne kompanije obično imaju svoje operacije isporuke raširene u više zemalja i geografskih područja. Troškovi izvršenja i isporuke projekta mogu se razlikovati u zavisnosti od toga koja lokacija ili odeljenje upravlja isporukom. Zauzvrat, ovo može uticati na marže pogodbe. Pružanje projektnih usluga obično uključuje velike količine ljudskih resursa, znatne troškove putovanja, materijalne troškove i druge troškove.
 
-Mogućnosti za poslovanje zasnovane na projektu u usluzi Dynamics 365 Project Operations dizajnirane su pomoću proširenja za Dynamics 365 Sales. Ova tema pruža detalje o različitim poljima i poslovnoj logici uključenoj u dodatnu funkcionalnost koja je potrebna kompanijama zasnovanim na projektima kako bi upravljale mogućnostima zasnovanim na projektima.
+Mogućnosti zasnovane na projektima u usluzi Dynamics 365 Project Operations dizajnirane su pomoću proširenja za Dynamics 365 Sales. Ova tema pruža detalje o različitim poljima i poslovnoj logici uključenoj u dodatnu funkcionalnost koja je potrebna kompanijama zasnovanim na projektima kako bi upravljale mogućnostima zasnovanim na projektima.
 
 ## <a name="view-all-project-based-opportunities"></a>Prikažite sve mogućnosti za poslovanje zasnovane na projektima
 

@@ -8,18 +8,18 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 47804db0144c2b0f9dee2c60518e8aba6fb27473
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: a2c752ba6395ed4bf025092219350dc245f7428f
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: sr-Latn-RS
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4124700"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5277265"
 ---
 # <a name="close-a-quote"></a>Zatvori ponudu
 
 _**Odnosi se na:** Project Operations za scenarije zasnovane na resursima / bez zaliha_
 
-Ponuda za projekat može da se zatvori kao ostvarena ili neostvarena. Budući da funkcije Aktiviranje i Revizija nisu podržane u ponudama u usluzi Microsoft Dynamics 365 Project Operations, možete zatvoriti radnu verziju ponude.
+Ponuda za projekat može da se zatvori kao ostvarena ili neostvarena. Budući da funkcije Aktiviraj i Revidiraj nisu podržane za ponude u usluzi Microsoft Dynamics 365 Project Operations, možete da zatvorite radnu verziju ponude.
 
 ## <a name="close-a-quote-as-won"></a>Zatvaranje ponude kao ostvarene
 
