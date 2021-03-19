@@ -8,12 +8,12 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: ffe3373184c8cd776bf3705fd674bedf221d9b77
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: 0021147530d1aa9f82cc54ca8c92b9977c1eea2c
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: sr-Latn-RS
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4133431"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5287255"
 ---
 # <a name="integration-journal-in-project-operations"></a>Dnevnik integracije u usluzi Project Operations
 
@@ -30,7 +30,7 @@ Zapisi u Project Operations dnevniku integracije kreiraju se periodičnim postup
 Kada se periodični proces pokrene, pronađu se sve stvarne vrednosti koje još nisu dodate u dnevnik integracije u usluzi Project Operations. Kreira se stavka u glavnoj knjizi za svaku stvarnu transakciju.
 Sistem grupiše stavke u glavnoj knjizi u zasebne dnevnike na osnovu vrednosti izabrane u polju **Jedinica perioda u dnevniku integracije u usluzi Project Operations** (**Finansije** > **Upravljanje projektima i računovodstvo** > **Podešavanje** > **Parametri upravljanja projektom i računovodstva**, kartica **Project Operations u usluzi Dynamics 365 Customer Engagement**). Moguće vrednosti za ovo polje uključuju:
 
-  - _*Dani**: Stvarne vrednosti su grupisane prema datumu transakcije. Zaseban dnevnik se kreira za svaki dan.
+  - **Dani**: Stvarne vrednosti su grupisane prema datumu transakcije. Zaseban dnevnik se kreira za svaki dan.
   - **Meseci**: Trenutno stanje je grupisano prema kalendarskom mesecu. Zaseban dnevnik se kreira za svaki mesec.
   - **Godine**: Trenutno stanje je grupisano prema kalendarskoj godini. Zaseban dnevnik se kreira za svaku godinu.
   - **Sve**: Sve transakcije trenutnog stanja su uključene u isti dnevnik integracije. Ako dnevnik nije dostupan kada se periodični proces izvodi, na primer ako je dnevnik u procesu knjiženja transakcija, kreira se novi dnevnik.

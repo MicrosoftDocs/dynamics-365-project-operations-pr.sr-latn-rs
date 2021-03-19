@@ -8,12 +8,12 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.openlocfilehash: f159ecac53b824ef208221bb14958923fb5da63b
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: 14094d603be2834dc66abff2ff1faf5e940b1ffa
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: sr-Latn-RS
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4127383"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5286625"
 ---
 # <a name="project-tracking-overview"></a>Pregled praćenja projekata
 
@@ -23,7 +23,7 @@ Potreba da se prati napredak u odnosu na raspored razlikuje se od delatnosti do 
 
 ## <a name="effort-tracking-view"></a>Prikaz za praćenje angažovanja
 
-Prikaz **Praćenje angažovanja** prati napredak zadataka u rasporedu upoređujući stvarne sate angažovanja utrošene na zadatku sa planiranim satima angažovanja na zadatku. Dynamics 365 Project Operations koristi sledeće formule za izračunavanje metrika za praćenje:
+Prikaz **Praćenje angažovanja** prati napredak zadataka u rasporedu upoređujući stvarne sate angažovanja utrošene na zadatku sa planiranim satima angažovanja na zadatku. Dynamics 365 Project Operations koristi sledeće formule za izračunavanje metrike za praćenje:
 
 - **Procenat napretka**: Stvarno vreme angažovanja do danas ÷ Procena pri završetku (EAC) 
 - **Procena do završetka (ETC)**: Planirano angažovanje – Stvarno vreme angažovanja do danas 
