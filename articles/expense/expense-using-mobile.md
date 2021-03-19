@@ -1,5 +1,5 @@
 ---
-title: Obračun troškova pomoću mobilnih uređaja
+title: Aplikacija o troškovima za mobilne uređaje
 description: Ova tema pruža informacije o mobilnom radnom prostoru za upravljanje troškovima.
 author: suvaidya
 manager: AnnBe
@@ -15,14 +15,14 @@ ms.search.region: ''
 ms.author: shylaw
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 51da574143b91df636d99f91d37470905a9b0529
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: 01df30bf48fa9118771b87363d0418eb6b49ecea
+ms.sourcegitcommit: f78087174a8512199a1bcbd7e8610bbc80e64801
 ms.translationtype: HT
 ms.contentlocale: sr-Latn-RS
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4120920"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "5499913"
 ---
-# <a name="expense-using-mobile"></a>Obračun troškova pomoću mobilnih uređaja
+# <a name="mobile-expense-app"></a>Aplikacija o troškovima za mobilne uređaje
 
 _**Odnosi se na:** Project Operations za resurs/scenarije koji nisu zasnovani na zalihama, laganu primenu – od pogodbe do profakture_
 

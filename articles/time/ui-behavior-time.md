@@ -3,17 +3,17 @@ title: Ponašanje korisničkog interfejsa za stavku vremena
 description: Ova tema pruža informacije o ponašanju korisničkog interfejsa za stavku vremena.
 author: stsporen
 manager: AnnBe
-ms.date: 10/05/2020
+ms.date: 03/03/2021
 ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: stsporen
-ms.openlocfilehash: 8719e2f9ee4867f17ed75142eca2115f61e37999
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: b552266eddc4efc1b41fc500d157239388ad219b
+ms.sourcegitcommit: f78087174a8512199a1bcbd7e8610bbc80e64801
 ms.translationtype: HT
 ms.contentlocale: sr-Latn-RS
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4124520"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "5499631"
 ---
 # <a name="time-entry-ui-behavior"></a>Ponašanje korisničkog interfejsa za stavku vremena
 
@@ -21,6 +21,19 @@ _**Odnosi se na:** Project Operations za resurs/scenarije koji nisu zasnovani na
 
 
 Mreža **Sedmična stavka vremena** je prilagođena kontrola koja sadrži dva glavna odeljka, **Dimenzije** i **Trajanje**.
+
+## <a name="keyboard-shortcuts"></a>Tasterske prečice
+| Akcija        | Prečica                  |
+|------------   |------------------------   |
+| Novi           | Alt + Shift + n           |
+| Kopiraj red      | Alt + Shift + c           |
+| Uredi stavku    | Alt + Shift + e           |
+| Uredi red      | Alt + Shift + Ctrl + e    |
+| Otvori stavku    | Alt + Shift + o           |
+| Prosleđivanje        | Alt + Shift + s           |
+| Opozovi        | Alt + Shift + r           |
+| Delete        | Alt + Shift + d           |
+| Kopiraj sedmicu     | Alt + Shift + w           |
 
 ## <a name="dimensions"></a>Dimenzije
 Odeljak **Dimenzije** prikazuje dimenzije za koje se vreme može uneti. Sledeće dimenzije su podržane kao unapred definisane:

@@ -8,19 +8,19 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: stsporen
-ms.openlocfilehash: e9d3a5d8e6e1daafac72a3b4c0380b679d1869bd
-ms.sourcegitcommit: 14aa380759214713d9bf560f5a7f619b7f4bd5b8
+ms.openlocfilehash: 2da6af3240d8e561d01b1fcd8d32b657dbac1588
+ms.sourcegitcommit: 24528bb9c0ef8898077cb3bc672daa211c0e73aa
 ms.translationtype: HT
 ms.contentlocale: sr-Latn-RS
-ms.lasthandoff: 11/05/2020
-ms.locfileid: "4401235"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "5479581"
 ---
 # <a name="determine-your-deployment-type"></a>Odredite vrstu primene
 
 _**Odnosi se na:** Project Operations za resurs/scenarije koji nisu zasnovani na zalihama, laganu primenu – od pogodbe do profakture_
 
 > [!IMPORTANT]
-> Nakon kupovine licence, počnite ovde da biste utvrdili najbolji model primene usluge Dynamics 365 Project Operations pomoću [vođenog toka instalacije](https://aka.ms/provisionprojectoperations).
+> Nakon kupovine licence, počnite ovde da biste utvrdili najbolji model primene za Dynamics 365 Project Operations pomoću [Vođenog toka instalacije](https://aka.ms/provisionprojectoperations).
 > Kada dovršite vođeni tok instalacije, bićete preusmereni na pravi portal za upravljanje da biste dovršili instalaciju. Pogledajte detalje o primeni da biste dovršili instalaciju.
 
 
@@ -31,6 +31,9 @@ Project Operations uključuje mogućnosti koje su isporučene sa uslugom Project
 
 Postojeći klijenti usluge Finance koji koriste funkcionalnost upravljanja projektima i računovodstva mogu da nastave da je koriste onakvu kakva jeste. Pogledajte [Project Operations za scenarije zasnovane na zalihama/proizvodnji](#pma).
 
+
+## <a name="deployment-regions"></a>Regioni primene
+Da biste utvrdili koji regioni podržavaju primenu usluge Project Operations, pogledajte odeljak [Geografska dostupnost za Dynamics 365 i Power Platform izveštaj](https://dynamics.microsoft.com/en-us/geographic-availability/). Izaberite **Prikaži izveštaj** i proširite odeljak **Dynamics 365 > Operations Apps > Dynamics 365 Project Operations** da biste videli podržane regione.
 
 ## <a name="deployment-types"></a>Tipovi primene
 Project Operations podržava više mogućnosti primene u skladu sa vašim zahtevima. Bez obzira na to da li ste novi ili postojeći klijent sistema Dynamics 365, Project Operations može podržati vaše potrebe.

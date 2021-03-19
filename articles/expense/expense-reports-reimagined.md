@@ -1,9 +1,9 @@
 ---
 title: Ponovno osmišljeni izveštaji o troškovima
-description: Ova tema pruža informacije o redizajniranom i ponovo osmišljenom iskustvu za unos izveštaja o troškovima.
+description: Ova tema objašnjava redizajnirano i prerađeno iskustvo za unos izveštaja o troškovima.
 author: suvaidya
 manager: AnnBe
-ms.date: 10/01/2020
+ms.date: 03/01/2021
 ms.topic: article
 ms.prod: ''
 ms.service: project-operations
@@ -15,12 +15,12 @@ ms.search.region: ''
 ms.author: suvaidya
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 18d7407681906361f3f818225efb8510ac981d98
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: aaa7dd24915982cf137b5959f2f4c244b9c1e012
+ms.sourcegitcommit: f78087174a8512199a1bcbd7e8610bbc80e64801
 ms.translationtype: HT
 ms.contentlocale: sr-Latn-RS
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4122818"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "5499733"
 ---
 # <a name="expense-reports-reimagined"></a>Ponovno osmišljeni izveštaji o troškovima
 
@@ -59,25 +59,22 @@ Video [Iskustvo troškova u usluzi Dynamics 365 for Finance and Operations](http
 | Smanjivanje broja poruka na traci sa porukama| Smanjen je broj Infolog poruka i učinjen je napor da se u mnogim slučajevima spreči pojavljivanje dupliranih poruka. |
 | Grupisane zajedničke radnje | Interfejs je očišćen dodavanjem novog dugmeta radnji za većinu uobičajenih radnji na nivou stavke i dodatkom dugmeta sa tri tačke (...) za zaglavlje i druge manje učestale radnje. |
 | Novi radni prostor za povećanje vidljivosti | Novi radni prostor objedinjuje funkcije i veze koje korisnicima omogućavaju prelazak na različita područja. |
-| Dodavanje postojećih troškova i priznanica tokom kreiranja troškova | Kada kreirate izveštaje o troškovima, možete da dodate sve ili izabrane troškove i priznanice. |
+| Dodavanje postojećih troškova i priznanica tokom kreiranja troškova | Kada kreirate izveštaje o troškovima, možete da dodate sve troškove ili da izaberete nevezane troškove. Nevezani troškovi su troškovi koji su uvezeni iz korporativnog fida kreditnih kartica ili troškovi koje je korisnik ručno kreirao, ali nisu priloženi izveštaju o troškovima.|
 | Kalkulator deviznih kurseva | Dodat je kalkulator deviznih kurseva koji vam omogućava izračunavanje deviznog kursa za viševalutne transakcije iz svog džepa. |
 | Sačuvajte i dodajte nove stavke troškova | Dugmad **Sačuvaj** i **Novo** su dostupna kada se unose novi troškovi, što vam pomaže da brzo unesete stavke troškova. |
 | Bolja vidljivost na podeljene i razvrstane stavke | Razvrstane i podeljene stavke dodaju se direktno na listu troškova radi veće vidljivosti i pomoći će vam da lako utvrdite da li postoje greške. |
 | Prikažite priznanice tokom razvrstavanja | Možete prikazivati priznanice tokom razvrstavanja. |
+| Izbor gotovinskog avansa | Izaberite jedan ili više gotovinskih avansa za ispunjavanje jedne transakcije troškova. |
+| Bilans gotovinskog avansa | Pregledajte bilans gotovinskog avansa u realnom vremenu kada kreirate unos troškova u odnosu na odobrene i plaćene gotovinske avanse. |
 
 Početno izdanje se fokusira na scenarije unosa troškova. Svaki prikaz izveštaja o troškovima ili scenario odobravanja i dalje će koristiti postojeću stranicu za unos troškova.
 
-Sledeće funkcije su prisutne na postojećoj stranici, ali još uvek nisu na novoj. Te funkcije će biti ponovo predstavljene tokom sledećih nekoliko izdanja:
+Sledeće funkcije nisu podržane u prerađenom radnom prostoru troškova:
 
-- Odobrenja
-- Odobrenja za dugovanja i mogućnost uređivanja računovodstva
-- Više ulaznih tačaka
 - Integracija zahteva za putovanje
-- Entitet podataka za vidljivost polja troškova
-- Stavka za dnevnice
-- Tok posla na nivou stavke
+- Unos troškova dnevnice
 - Prelazna podrška davaocu odobrenja
-- Napredno razvrstavanje
+- Mogućnost pregleda istorije tokova posla
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

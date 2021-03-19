@@ -1,5 +1,5 @@
 ---
-title: Podudaranje priznanice sa troškom koristeći OCR
+title: Snimite priznanicu pomoću usluge OCR
 description: Ova tema pruža informacije o obradi priznanica pomoću optičkog prepoznavanja znakova (OCR).
 author: suvaidya
 manager: AnnBe
@@ -15,14 +15,14 @@ ms.search.region: ''
 ms.author: shylaw
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 55f63c8c092942b73a55c9d86d867bca600f42e5
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: fd0cb0fb094260fa3e82d7a2f200f328a39dd7a1
+ms.sourcegitcommit: f78087174a8512199a1bcbd7e8610bbc80e64801
 ms.translationtype: HT
 ms.contentlocale: sr-Latn-RS
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4124340"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "5499868"
 ---
-# <a name="match-a-receipt-to-an-expense-using-ocr"></a>Podudaranje priznanice sa troškom koristeći OCR
+# <a name="capture-a-receipt-using-ocr"></a>Snimite priznanicu pomoću usluge OCR
 
 _**Odnosi se na:** Project Operations za resurs/scenarije koji nisu zasnovani na zalihama, laganu primenu – od pogodbe do profakture_
 
