@@ -8,12 +8,12 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: fd29a3fc9c873d46dd66a05ad100c7515177d6cd
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: 04c97429ab8ac769dd22b4127432d80de8fde937
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: sr-Latn-RS
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4130955"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5275600"
 ---
 # <a name="default-price-lists"></a>Podrazumevani cenovnici
 
@@ -21,7 +21,7 @@ _**Odnosi se na:** Project Operations za resurs/scenarije koji nisu zasnovani na
 
 ## <a name="sales-price-lists"></a>Prodajni cenovnici
 
-Svaka ponuda za projekat i ugovor u programu Dynamics 365 Project Operations sadrži podrazumevani cenovnik prodaje. 
+Svaka projektna ponuda i ugovor u usluzi Dynamics 365 Project Operations sadrži podrazumevani prodajni cenovnik. 
 
 ### <a name="price-list-default-on-project-quotes"></a>Podrazumevana vrednost cenovnika prema ponudama za projekat
 Sistem dovršava sledeći postupak da bi utvrdio koji će se cenovnik podrazumevati za ponudu za projekat:

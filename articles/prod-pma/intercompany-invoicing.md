@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 4604708dbd7c835c8df1cf48f67e645952f49774
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 76eba87e7cc78dcc14510a8fb53677d626bf204f
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: sr-Latn-RS
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4083606"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5270785"
 ---
 # <a name="intercompany-invoicing"></a>Međukompanijsko fakturisanje
 
@@ -31,7 +31,7 @@ ms.locfileid: "4083606"
 
 Ovaj članak pruža informacije i primere o međukompanijskom fakturisanju za projekte.
 
-Vaša organizacija može imati više odeljenja, podružnica i drugih pravnih lica koja međusobno prenose proizvode i usluge za projekte. Pravno lice koje pruža uslugu ili proizvod naziva se *pravno lice – zajmodavac* , a pravno lice koje prima uslugu ili proizvod naziva se *pravno lice – zajmoprimac*. 
+Vaša organizacija može imati više odeljenja, podružnica i drugih pravnih lica koja međusobno prenose proizvode i usluge za projekte. Pravno lice koje pruža uslugu ili proizvod naziva se *pravno lice – zajmodavac*, a pravno lice koje prima uslugu ili proizvod naziva se *pravno lice – zajmoprimac*. 
 
 Sledeća ilustracija prikazuje tipičan scenario kada dva pravna lica, SI FR (zajmoprimac) i SI USA (zajmodavac) dele resurse za isporuku projekta za klijenta A. Za ovaj scenario, SI FR je ugovoren da isporuči rad za klijenta A. 
 
@@ -65,20 +65,20 @@ U ovom primeru, FRSI mora biti klijent u pravnom licu USSI, a USSI mora biti pro
    |  C   |                                  U FRSI otvorite zapis prodavca koji ste upravo kreirali.                                  | U oknu radnje, na kartici <strong>Opšti podaci</strong>, u grupi <strong>Podešavanje</strong> kliknite na <strong>Međukompanijsko</strong>. Na stranici <strong>Međukompanijsko</strong>, na kartici <strong>Trgovinski odnos</strong>, podesite klizač <strong>Aktivno</strong> na <strong>Da</strong>. U polju <strong>Kompanija klijenta</strong> izaberite zapis klijenta koji ste kreirali u koraku A. |
 
 
-2. Kliknite na **Upravljanje projektima i računovodstvo** &gt; **Podešavanje** &gt; **Parametri računovodstva za upravljanje projektima** , a zatim kliknite na karticu **Međukompanijsko**. Način na koji podešavate parametre zavisi od toga da li ste pravno lice zajmoprimac ili pravno lice zajmodavac.
+2. Kliknite na **Upravljanje projektima i računovodstvo** &gt; **Podešavanje** &gt; **Parametri računovodstva za upravljanje projektima**, a zatim kliknite na karticu **Međukompanijsko**. Način na koji podešavate parametre zavisi od toga da li ste pravno lice zajmoprimac ili pravno lice zajmodavac.
    -   Ako ste pravno lice zajmoprimac, izaberite kategoriju nabavke koja bi se koristila za podudaranje faktura dobavljača koje se automatski generišu.
    -   Ako ste pravno lice zajmodavac, za svako pravno lice zajmoprimca izaberite podrazumevanu kategoriju projekta za svaku vrstu transakcije. Kategorije projekata se koriste za konfiguraciju poreza kada fakturisana kategorija u međukompanijskim transakcijama postoji samo u pravnom licu zajmoprimcu. Možete odabrati da akumulirate prihod za međukompanijske transakcije. Ovo obračunavanje vrši se kada se transakcije knjiže, a zatim se stornira kada se proknjiži međukompanijska faktura.
 
 3. Kliknite na **Upravljanje projektima i računovodstvo** &gt; **Podešavanje** &gt; **Cene** &gt; **Cena transfera**.
 4. Izaberite valutu, vrstu transakcije i model cene prenosa. Valuta koja se koristi na fakturi je valuta koja se konfiguriše u zapisu klijenta za pravno lice zajmoprimca u pravnom licu zajmodavca. Valuta se koristi za podudaranje stavki u tabeli cena transfera.
-5. Kliknite na **Glavna knjiga** &gt; **Podešavanje knjiženja** &gt; **Međukompanijsko računovodstvo** , i podesite odnos za USSI i FRSI.
+5. Kliknite na **Glavna knjiga** &gt; **Podešavanje knjiženja** &gt; **Međukompanijsko računovodstvo**, i podesite odnos za USSI i FRSI.
 
 ## <a name="example-2-create-and-post-an-intercompany-timesheet"></a>2. primer: Kreiranje i objavljivanje međukompanijskog vremenskog rasporeda
 USSI, pravno lice zajmodavac, mora da kreira i objavi vremenski raspored za projekat kompanije FRSI, pravnog lica zajmoprimca. Postoje dve ulazne tačke za korake potrebne za ovaj zadatak.
 
 | Korak | Tačka unosa                                                                       | Opis                                                                                                                                                                                       |
 |------|-----------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| A    | **Upravljanje projektima i računovodstvo** &gt; **Vremenski rasporedi** &gt; **Svi vremenski rasporedi** | Kreirajte novi vremenski raspored. U redu vremenskog rasporeda, u polju **Pravno lice** izaberite **FRSI**. U polju **ID projekta** , izaberite projekat u FRSI. Unesite sate za svaki dan u nedelji. |
+| A    | **Upravljanje projektima i računovodstvo** &gt; **Vremenski rasporedi** &gt; **Svi vremenski rasporedi** | Kreirajte novi vremenski raspored. U redu vremenskog rasporeda, u polju **Pravno lice** izaberite **FRSI**. U polju **ID projekta**, izaberite projekat u FRSI. Unesite sate za svaki dan u nedelji. |
 | B    | Stranica **Vremenski raspored**                                                                | Kada se tok posla pokrene, objavite vremenski raspored i zabeležite broj vaučera.                                                                                                               |
 
 ## <a name="example-3-create-and-post-an-intercompany-vendor-invoice"></a>3. primer: Kreiranje i objavljivanje međukompanijske fakture prodavca
@@ -87,7 +87,7 @@ USSI, pravno lice zajmodavac, mora da kreira i objavi međukompanijsku fakturu p
 | Korak | Tačka unosa                                                                                      | Opis                                                                                                                                                                                                                                                                          |
 |------|--------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | A    | **Dugovanja** &gt; **Fakture** &gt; **Otvorene fakture dobavljača** &gt; **Nova faktura dobavljača** | Kreirajte novu fakturu dobavljača i unesite usluge koje su nabavljene u ime projekta kompanije FRSI.                                                                                                                                                                                  |
-| B    | Stranica **Faktura prodavca**                                                                      | Unesite redove koji predstavljaju spoljne izvršioce usluga u ime FRSI. Na brzoj kartici **Detalji linije** , na kartici **Projekat** za red fakture, u polju **Kompanija projekta** , unesite **FRSI**. Unesite projekat i odgovarajuće informacije. Zatim proknjižite fakturu prodavca. |
+| B    | Stranica **Faktura prodavca**                                                                      | Unesite redove koji predstavljaju spoljne izvršioce usluga u ime FRSI. Na brzoj kartici **Detalji linije**, na kartici **Projekat** za red fakture, u polju **Kompanija projekta**, unesite **FRSI**. Unesite projekat i odgovarajuće informacije. Zatim proknjižite fakturu prodavca. |
 
 ## <a name="example-4-create-and-post-the-intercompany-invoice"></a>4. primer: Kreiranje i knjiženje međukompanijske fakture
 USSI, pravno lice zajmodavac, mora kreirati i proknjižiti međukompanijsku fakturu. Postoje dve ulazne tačke za korake potrebne za ovaj zadatak.
@@ -95,7 +95,7 @@ USSI, pravno lice zajmodavac, mora kreirati i proknjižiti međukompanijsku fakt
 | Korak | Tačka unosa                                                                                             | Opis                                                                                                                                      |
 |------|---------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------|
 | A    | **Upravljanje projektima i računovodstvo** &gt; **Fakture projekta** &gt; **Međukompanijska faktura klijenta**  | Kliknite na **Novo** da biste otvorili stranicu **Kreiranje međukompanijske fakture**.                                                                                  |
-| B    | **Upravljanje projektima i računovodstvo** &gt; **Fakture projekta** &gt; **Međukompanijske fakture klijenata** | Na stranici **Kreiranje međukompanijske fakture** , unesite pravno lice, navedite transakciju koju treba uključiti, a zatim kliknite na **Pretraga**. |
+| B    | **Upravljanje projektima i računovodstvo** &gt; **Fakture projekta** &gt; **Međukompanijske fakture klijenata** | Na stranici **Kreiranje međukompanijske fakture**, unesite pravno lice, navedite transakciju koju treba uključiti, a zatim kliknite na **Pretraga**. |
 | C    | **Upravljanje projektima i računovodstvo** &gt; **Fakture projekta** &gt; **Međukompanijske fakture klijenata** | Izaberite transakcije za fakturisanje ili kliknite na **Izaberi sve** da fakturišete sve transakcije sa liste, a zatim kliknite na **U redu**.                  |
 | D    | Stranica **Međukompanijska faktura**                                                                       | Prikazuje se predlog međukompanijske fakture za klijenta.                                                                                             |
 | E    | Stranica **Međukompanijska faktura**                                                                       | Kliknite na **Proknjiži**.                                                                                                                                  |

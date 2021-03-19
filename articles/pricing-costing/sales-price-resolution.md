@@ -8,18 +8,18 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 8c18dd734312b2dd147381169f5c3dc38a68a601
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: 6e89e23189fa65057d7b955897924057c440ccd8
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: sr-Latn-RS
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4119570"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5274970"
 ---
 # <a name="resolve-sales-prices-for-estimates-and-actuals"></a>Rešite prodajne cene za procene i trenutno stanje
 
 _**Odnosi se na:** Project Operations za scenarije zasnovane na resursima / bez zaliha_
 
-Kada se prodajne cene za procene i trenutno stanje reše u programu Dynamics 365 Project Operations, sistem prvo koristi datum i valutu odgovarajuće ponude ili ugovora projekta za rešavanje prodajnog cenovnika. Kada se reši cenovnik prodaje, sistem rešava stopu prodaje ili naplate.
+Kada se prodajne cene na procenama i u stvarnim podacima reše u usluzi Dynamics 365 Project Operations, sistem prvo koristi datum i valutu odgovarajuće ponude projekta ili ugovora za rešavanje cenovnika prodaje. Kada se reši cenovnik prodaje, sistem rešava stopu prodaje ili naplate.
 
 ## <a name="resolve-sales-rates-on-actual-and-estimate-lines-for-time"></a>Rešite stope prodaje na linijama trenutnog stanja i procene za vreme
 

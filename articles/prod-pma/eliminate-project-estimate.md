@@ -18,12 +18,12 @@ ms.search.industry: Service industries
 ms.author: andchoi
 ms.dyn365.ops.version: 7
 ms.search.validFrom: 2019-01-15
-ms.openlocfilehash: 8bda8a7357e883b948449b2a19bea476996dde3c
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 000eabdac41f30a6e7dd37e34b8fd91d7c51f6c4
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: sr-Latn-RS
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4083633"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5270695"
 ---
 # <a name="eliminate-a-project-estimate"></a>Eliminisanje procene za projekat
 
@@ -37,15 +37,15 @@ Da bi se eliminisao projekt procene, on mora biti potpun. Sledeći koraci objaš
 2. Na kartici **Upravljanje** izaberite **Procene** i na stranici **Procena** izaberite stranicu **Eliminisanje**.
 3. Na stranici **Eliminišite procenu** na kartici **Opšti podaci** postavite sledeće opcije:
 
-   - **Šifra perioda** : Izaberite šifru perioda da biste izabrali odgovarajuće procene projekata. 
-   - **Datum procene** : Izaberite odgovarajući datum procene za eliminisanje.
-   - **Eliminišite WIP upozorenja** : Omogućite ovu opciju da biste pružili obaveštenje kada će procena koja je povezana sa radom u toku (WIP) biti uklonjena. Kada ova opcija nije omogućena, uklanjanje se ne može nastaviti ako postoje neprocenjene transakcije. 
+   - **Šifra perioda**: Izaberite šifru perioda da biste izabrali odgovarajuće procene projekata. 
+   - **Datum procene**: Izaberite odgovarajući datum procene za eliminisanje.
+   - **Eliminišite WIP upozorenja**: Omogućite ovu opciju da biste pružili obaveštenje kada će procena koja je povezana sa radom u toku (WIP) biti uklonjena. Kada ova opcija nije omogućena, uklanjanje se ne može nastaviti ako postoje neprocenjene transakcije. 
    > [!NOTE]
-   > Ova opcija je dostupna samo kada se eliminacija primenjuje na procenjeni projekat. Nije dostupna ako koristite periodična objavljivanja. Ovo podešavanje radi sa podešavanjima na kartici **Procena** , na stranici **Parametri projekta** , u grupi polja **Dozvolite eliminaciju kada postoje neprocenjene transakcije**.
-   - **Postavite fazu na Završeno** : Omogućite ovu opciju da biste postavili fazu procene projekta na **Završeno** nakon što pokrenete eliminaciju.
-   - **Odštampajte listu procena** : Izaberite informacije koje će biti uključene kada se odštampa lista procena.
-   - **Prikaži Infolog** : Omogućite ovu opciju za prikaz Infolog-a.
-   - **Datum knjiženja** : Izaberite datum knjiženja procene u knjizi.
+   > Ova opcija je dostupna samo kada se eliminacija primenjuje na procenjeni projekat. Nije dostupna ako koristite periodična objavljivanja. Ovo podešavanje radi sa podešavanjima na kartici **Procena**, na stranici **Parametri projekta**, u grupi polja **Dozvolite eliminaciju kada postoje neprocenjene transakcije**.
+   - **Postavite fazu na Završeno**: Omogućite ovu opciju da biste postavili fazu procene projekta na **Završeno** nakon što pokrenete eliminaciju.
+   - **Odštampajte listu procena**: Izaberite informacije koje će biti uključene kada se odštampa lista procena.
+   - **Prikaži Infolog**: Omogućite ovu opciju za prikaz Infolog-a.
+   - **Datum knjiženja**: Izaberite datum knjiženja procene u knjizi.
 
 4.  Izaberite **U redu**.
 5. Nakon završetka postupka eliminacije, projekat sa eliminisanom procenom prikazuje se sa negativnom vrednošću. 

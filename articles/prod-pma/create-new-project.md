@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 727d287c571b2a64bf10b2393a87567093a420d2
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 9b29340dc88aea888ea2f5ea975eaea59d014279
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: sr-Latn-RS
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4083715"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5270740"
 ---
 # <a name="create-a-new-project"></a>Kreirajte novi projekat
 
@@ -42,10 +42,10 @@ Obavite sledeće korake da biste kreirali novi projekat.
 
 ## <a name="assign-a-resource-to-a-project"></a>Dodeljivanje resursa projektu
 
-1. Na stranici **Radnici** , na listi **Radnici** , izaberite zapis za radnika za kojeg ste prethodno podesili kompetencije i otvorite zapis radnika.
-2. U oknu radnji, na kartici **Projekat** , u grupi **Podešavanje** izaberite **Dodeli projekte**.
-3. Na stranici **Dodele projekata za validaciju resursa** , na kartici **Projekti** , u polju **Dodaj projekat izabranim projektima** , filtrirajte prema projektu **Nadogradnja XYZ faza 2**.
-4. U oknu **Preostali projekti** , izaberite projekat, a zatim izaberite dugme sa strelicom da biste ga dodali u okno **Izabrani projekti**.
+1. Na stranici **Radnici**, na listi **Radnici**, izaberite zapis za radnika za kojeg ste prethodno podesili kompetencije i otvorite zapis radnika.
+2. U oknu radnji, na kartici **Projekat**, u grupi **Podešavanje** izaberite **Dodeli projekte**.
+3. Na stranici **Dodele projekata za validaciju resursa**, na kartici **Projekti**, u polju **Dodaj projekat izabranim projektima**, filtrirajte prema projektu **Nadogradnja XYZ faza 2**.
+4. U oknu **Preostali projekti**, izaberite projekat, a zatim izaberite dugme sa strelicom da biste ga dodali u okno **Izabrani projekti**.
 
 Takođe možete da dodelite kategorije za resurs po potrebi. Tip kategorije je ili **Trošak** ili **Prihod**. Tip kategorije određuje vaša organizacija. Ako za resurs nisu dodeljene kategorije, Finance traži podrazumevanu kategoriju cena po satu za troškove i prihod.
 
@@ -65,20 +65,20 @@ Sledeći koraci pokazuju kako menadžer resursa može da postavi ulogu višeg me
     - **Opis:** Viši menadžer projekta
 
 2. Izaberite **Kreiraj**.
-3. Izaberite ulogu **Viši menadžer projekta** , a zatim izaberite **Konfiguriši karakteristike**.
-4. U polju **Tip karakteristike** , izaberite **Veština**.
-5. U polju **Dostupne karakteristike** , unesite veštinu za traženje.
-6. U polju **Tip karakteristike** , izaberite **Certifikat**.
-7. U polju **Dostupne karakteristike** , unesite tip certifikata za traženje.
+3. Izaberite ulogu **Viši menadžer projekta**, a zatim izaberite **Konfiguriši karakteristike**.
+4. U polju **Tip karakteristike**, izaberite **Veština**.
+5. U polju **Dostupne karakteristike**, unesite veštinu za traženje.
+6. U polju **Tip karakteristike**, izaberite **Certifikat**.
+7. U polju **Dostupne karakteristike**, unesite tip certifikata za traženje.
 
 ## <a name="assign-a-project-resource-to-a-project"></a>Dodeljivanje resursa projektu
 
 1. Na stranici **Svi projekti** izaberite projekat **Nadogradnja XYZ faza 2**.
-2. Na kartici **Projektni tim i raspoređivanje** , izaberite **Dodaj**.
+2. Na kartici **Projektni tim i raspoređivanje**, izaberite **Dodaj**.
 3. U polju **Uloga** izaberite **Član tima**.
 4. Izaberite **Rezerviši iz kalendara**.
 5. Na stranici **Dostupnost resursa** izaberite **Pogledajte podešavanja**.
-6. Na stranici **Prilagodite postavke prikaza** , unesite sledeće vrednosti:
+6. Na stranici **Prilagodite postavke prikaza**, unesite sledeće vrednosti:
 
     - **Format za prikaz opsega datuma:** Dan
     - **Prikaži opise dostupnosti:** Da
@@ -95,15 +95,15 @@ Tokom rezervacije resursa, menadžeri projekata mogu filtrirati resurse uloga ko
 
 **Scenario:** Odobreni projekat je započeo, a uloga višeg menadžera projekta bila je rezervisana kao planirani resurs tokom faze planiranja projekta. Menadžer resursa je sada nabavio resurs za ispunjavanje uloge višeg menadžera projekta.
 
-1. Na stranici **Lista resursa** , izaberite **Danijel Goldšmit**.
+1. Na stranici **Lista resursa**, izaberite **Danijel Goldšmit**.
 2. Na stranici **Uloga resursa** izaberite **Nova** i unesite sledeće vrednosti:
 
     - **Stupa na snagu:** Unesite trenutni datum.
     - **Isticanje:** Unesite **Nikad**.
     - **Uloga:** Unesite **Viši menadžer projekta**.
 
-3. Izaberite **Sačuvaj** , a zatim zatvorite stranicu.
-4. Na kartici **Kompetencije** , dodajte veštinu **Menadžment projekta** i **PMP** certifikat.
+3. Izaberite **Sačuvaj**, a zatim zatvorite stranicu.
+4. Na kartici **Kompetencije**, dodajte veštinu **Menadžment projekta** i **PMP** certifikat.
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

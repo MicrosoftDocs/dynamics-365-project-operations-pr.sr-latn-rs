@@ -8,18 +8,18 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: cd56b99c3ed455848edbd9ff4419afa58d782a3e
-ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
+ms.openlocfilehash: ca6c2cc8855cfed592057ca129b436450104af99
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: sr-Latn-RS
-ms.lasthandoff: 10/31/2020
-ms.locfileid: "4181559"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5274070"
 ---
 # <a name="manage-a-proforma-invoice---lite"></a>Upravljanje predračunom – jednostavno
 
 _**Odnosi se na:** Jednostavna primena – od pogodbe do profakture_
 
-U usluzi Dynamics 365 Project Operations, predračuni se grade kao dodatak fakturama u usluzi Dynamics 365 Sales. Međutim, postoje mnoge razlike u procesu fakturisanja između usluga Sales i Project Operations kada je reč o fakturisanju. Na primer, nije moguće kreirati novu fakturu na stranici **Lista faktura** u usluzi Project Operations, ali to je moguće učiniti u usluzi Sales. Ove razlike i proširenja postoje za podršku procesima fakturisanja za projekte koji se razlikuju od tipične fakture za narudžbenicu.
+U usluzi Dynamics 365 Project Operations, profakture se prave kao dodatak fakturama u usluzi Dynamics 365 Sales. Međutim, postoje mnoge razlike u procesu fakturisanja između usluga Sales i Project Operations kada je reč o fakturisanju. Na primer, nije moguće kreirati novu fakturu na stranici **Lista faktura** u usluzi Project Operations, ali to je moguće učiniti u usluzi Sales. Ove razlike i proširenja postoje za podršku procesima fakturisanja za projekte koji se razlikuju od tipične fakture za narudžbenicu.
 
 > [!IMPORTANT]
 > Zbog tih razlika, nemojte razmenjivati fakture između usluga Sales i Project Operations.

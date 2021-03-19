@@ -8,18 +8,18 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 24da0887c0266d51bddcbbf8efd6f2644b6d0f4f
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: d807d3631f40a93ec7dbd918b64c287fd4875c79
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: sr-Latn-RS
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4128300"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5273845"
 ---
 # <a name="confirm-a-project-contract"></a>Potvrdite ugovor za projekat
 
 _**Odnosi se na:** Project Operations za resurs/scenarije koji nisu zasnovani na zalihama, laganu primenu – od pogodbe do profakture_
 
-Ugovor za projekat u programu Dynamics 365 Project Operations može biti aktivan sa razlogom **Potvrđeno** ili zatvoren sa razlogom **Izgubljeno**. Kada potvrdite ugovor o projektu, status se ažurira sa **Radna verzija** na **Aktivno**, a razlog statusa je **Potvrđeno**. Aktivni ili zatvoreni ugovor ne može se uređivati ili ponovo otvarati. 
+Ugovor o projektu u usluzi Dynamics 365 Project Operations može biti aktivan uz razlog **Potvrđeno** ili zatvoren uz razlog **Izgubljeno**. Kada potvrdite ugovor o projektu, status se ažurira sa **Radna verzija** na **Aktivno**, a razlog statusa je **Potvrđeno**. Aktivni ili zatvoreni ugovor ne može se uređivati ili ponovo otvarati. 
 
 ### <a name="financial-impact-of-confirming-a-project-contract"></a>Finansijski uticaj potvrđivanja ugovora za projekat
 
@@ -34,7 +34,7 @@ Kada ugovor o projektu zatvorite kao izgubljen, status ugovora se ažurira na **
 Ako ugovor o projektu koji je zatvoren kao izgubljen upućuje na projekat na svojim stavkama, taj projekat je takođe označen kao zatvoren. Sve rezervacije resursa od tog dana nadalje otkazuju se. Svi nenaplaćeni stvarni troškovi prodaje na ugovoru za projekt koji već nisu na fakturi biće stornirani.
 
 > [!NOTE]
-> U usluzi Dynamics 365 Project Operations, zatvaranje ugovora o projektu kao izgubljenog neće uticati na taj status povezane mogućnosti za poslovanje. Mogućnost za poslovanje će ostati otvorena i mora se ručno zatvoriti.
+> U usluzi Dynamics 365 Project Operations zatvaranje projektnog ugovora kao izgubljenog neće uticati na taj status povezane mogućnosti. Mogućnost za poslovanje će ostati otvorena i mora se ručno zatvoriti.
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

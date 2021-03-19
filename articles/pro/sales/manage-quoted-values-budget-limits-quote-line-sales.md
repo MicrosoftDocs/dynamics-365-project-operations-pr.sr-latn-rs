@@ -8,12 +8,12 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: be1663c0d226fa19fe4b9df566e16d215f1fc08e
-ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
+ms.openlocfilehash: 4865c06691fba09eacf5fe6449adfaf542444520
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: sr-Latn-RS
-ms.lasthandoff: 10/31/2020
-ms.locfileid: "4181109"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5272990"
 ---
 # <a name="project-based-quote-lines-overview---lite"></a>Pregled stavki ponude zasnovane na projektu – jednostavno
 
@@ -34,7 +34,7 @@ Sledeća tabela pruža informacije o poljima na kartici **Opšti podaci** stavke
 | **Polje** | **Opis** | **Posledični uticaj** |
 | --- | --- | --- |
 | Imenuj | Naziv stavke ponude koja bi trebalo da vam pomogne da identifikujete diskretnu komponentu ponude koja se procenjuje. | Kopira se u predmet ugovora o projektu koji se kreira iz ove stavke ponude kada se ponuda ostvari. |
-| Način naplate | U ponudi kreiranoj iz mogućnosti za poslovanje, ova vrednost se kopira iz odgovarajućeg polja u stavci mogućnosti za poslovanje. Ovo polje obuhvata dva glavna modela ugovaranja koje podržava Dynamics 365 Project Operations:</br>- Fiksna cena</br>- Vreme i materijal.| Ovo polje se kopira u predmet ugovora o projektu koji se kreira iz ove stavke ponude kada se ponuda ostvari. |
+| Način naplate | U ponudi kreiranoj iz mogućnosti za poslovanje, ova vrednost se kopira iz odgovarajućeg polja u stavci mogućnosti za poslovanje. Ovo polje uključuje dva glavna modela ugovaranja koje Dynamics 365 Project Operations podržava:</br>- Fiksna cena</br>- Vreme i materijal.| Ovo polje se kopira u predmet ugovora o projektu koji se kreira iz ove stavke ponude kada se ponuda ostvari. |
 | Project | Koristite ovo opcionalno polje za identifikovanje projekta koji će se koristiti za izvođenje radova pri ovom angažovanju. Kada se projekat mapira u stavku ponude, to pomaže u postavljanju naplativih zadataka, kao i u donošenju procene zasnovane na projektu u stavci ponude kao detalje stavke ponude. Kada projekat nije mapiran u stavku ponude zasnovanu na projektu, procenu treba kreirati ručno kreiranjem svakog detalja stavke ponude. | Ovo polje se kopira u predmet ugovora o projektu koji se kreira iz ove stavke ponude kada se ponuda ostvari.|
 | Obuhvaćeni zadaci | Označava da li se ova stavka ponude koristi za sve ili neke projektne zadatke za izabrani projekat. Ovo polje podložno uređivanju ima sledeće moguće vrednosti:</br>- Svi projektni zadaci</br>- Samo izabrani projektni zadaci</br>Prazna vrednost u ovom polju je ekvivalentna opciji **Svi projektni zadaci**. | Kada je na stranici projekta izabrana opcija **Samo izabrani projektni zadaci**, kartica **Postavljanje zadatka za obračun** omogućava vam da izaberete određene zadatke da biste ih povezali sa ovom stavkom ponude. Ovo polje se kopira u predmet ugovora o projektu koji se kreira iz ove stavke ponude kada se ponuda ostvari. |
 | Sadrži vreme | Zastavica **Da**/**Ne** označava da li će vremenske transakcije ili troškovi rada na izabranom projektu biti uključeni u procenu ove stavke ponude. Vrednost **Ne** označava da vremenske transakcije ili troškovi rada na izabranom projektu neće biti uključeni u procenu ove stavke ponude. Vrednost **Da** označava da će vremenske transakcije ili troškovi rada na izabranom projektu biti uključeni u procenu ove stavke ponude. | Ovo polje se kopira u predmet ugovora o projektu koji se kreira iz ove stavke ponude kada se ponuda ostvari. |

@@ -8,12 +8,12 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 697129b65f53359615ea537fe135d657748dd909
-ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
+ms.openlocfilehash: 605bf2a578528117a6ef70614a8e5ff5a3fc300c
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: sr-Latn-RS
-ms.lasthandoff: 10/31/2020
-ms.locfileid: "4180614"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5274790"
 ---
 # <a name="set-up-labor-cost-rates"></a>Podesite troškove rada
 
@@ -40,7 +40,7 @@ Sledeća tabela uključuje neka od polja koja su važna za stvaranje stopa radne
 
 ## <a name="transfer-pricing-and-costs-for-resources-outside-of-your-division-or-legal-entity"></a>Prenesite cene i troškove za resurse izvan vašeg odeljenja ili pravnog lica
 
-U kompanijama zasnovanim na projektima uobičajeno je da se na projektima koriste zaposleni iz različitih pravnih lica ili odeljenja. Projekat može izvršiti jedno pravno lice, ali zaposleni ili konsultanti koji rade na projektu mogu poticati iz istog pravnog lica ili iz drugog, ili može biti kombinacija oba. U programu Dynamics 365 Project Operations pravno lice koje je vlasnik projekta je **Preduzeće-vlasnik**, a odeljenje koje je vlasnik isporuke je **Jedinica ugovaranja**. Ostala pravna lica koja pružaju resurse su **Preduzeća koja određuju resurse**, a odeljenja koja pružaju resurse su **Jedinice za određivanje resursa**. U većini zemalja kompanije su dužne da osiguraju da pravno lice ili odeljenje za resurse zadužuju kompaniju koja je vlasnik i ugovornu jedinicu za korišćenje resursa.
+U kompanijama zasnovanim na projektima uobičajeno je da se na projektima koriste zaposleni iz različitih pravnih lica ili odeljenja. Projekat može izvršiti jedno pravno lice, ali zaposleni ili konsultanti koji rade na projektu mogu poticati iz istog pravnog lica ili iz drugog, ili može biti kombinacija oba. U usluzi Dynamics 365 Project Operations, pravno lice koje je vlasnik isporuke projekta naziva se **Preduzeće-vlasnik**, a odeljenje koje je vlasnik isporuke naziva se **Jedinica ugovaranja**. Ostala pravna lica koja pružaju resurse su **Preduzeća koja određuju resurse**, a odeljenja koja pružaju resurse su **Jedinice za određivanje resursa**. U većini zemalja kompanije su dužne da osiguraju da pravno lice ili odeljenje za resurse zadužuju kompaniju koja je vlasnik i ugovornu jedinicu za korišćenje resursa.
 
 Na primer, korporacija Fabrikam mora da obezbedi da Fabrikam India-Robotics ima ugovorenu cenovnu kartu sa Fabrikam US-Robotics ili Fabrikam UK-Robotics.
 

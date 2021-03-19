@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 34a3ea3dda64969fe66248e295cd3dd8bbe72a05
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: db96ffc5fdd6bc759cd35fff0a39a64d9854a4f0
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: sr-Latn-RS
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4083605"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5270650"
 ---
 # <a name="manage-resource-competencies"></a>Upravljanje kompetencijama resursa
 
@@ -39,20 +39,20 @@ Da biste postavili kompetencije za radnika, možete da koristite ili stranicu li
 
 ## <a name="set-up-competencies-certificates"></a>Postavite kompetencije: Certifikati
 
-1. Na stranici liste **Radnici** , izaberite red za radnika za kojeg želite da dodate informacije o certifikatu.
-2. U oknu radnje, na kartici **Radnik** , u grupi **Kompetencije** izaberite **Certifikati**.
-3. Izaberite **Novo** u polju **Tip certifikata** , a zatim izaberite **PMP**.
+1. Na stranici liste **Radnici**, izaberite red za radnika za kojeg želite da dodate informacije o certifikatu.
+2. U oknu radnje, na kartici **Radnik**, u grupi **Kompetencije** izaberite **Certifikati**.
+3. Izaberite **Novo** u polju **Tip certifikata**, a zatim izaberite **PMP**.
 4. U polju **Datum početka** izaberite **1.10.2015** i izaberite **Sačuvaj**.
 
 ## <a name="set-up-competencies-skills"></a>Postavite kompetencije: Veštine
 
-1. Na stranici liste **Radnici** , uverite se da je radnik kojeg ste koristili u prethodnom postupku i dalje izabran. Zatim u oknu radnji, na kartici **Radnik** , u grupi **Kompetencije** izaberite **Veštine**.
+1. Na stranici liste **Radnici**, uverite se da je radnik kojeg ste koristili u prethodnom postupku i dalje izabran. Zatim u oknu radnji, na kartici **Radnik**, u grupi **Kompetencije** izaberite **Veštine**.
 2. Izaberite **Novo**.
-3. U polju **Veština** , izaberite **Menadžment projekta**.
-4. U polju **Nivo** , izaberite **5 Stručnjak**.
-5. U polju **Datum nivoa** , izaberite **14.1.2014**.
+3. U polju **Veština**, izaberite **Menadžment projekta**.
+4. U polju **Nivo**, izaberite **5 Stručnjak**.
+5. U polju **Datum nivoa**, izaberite **14.1.2014**.
 6. U polje **Godine iskustva** unesite **10**.
-7. Izaberite **Sačuvaj** , a zatim zatvorite stranicu.
+7. Izaberite **Sačuvaj**, a zatim zatvorite stranicu.
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

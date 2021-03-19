@@ -8,12 +8,12 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: f16634a87780c23d699d9ad535dd5e6d4ecb895d
-ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
+ms.openlocfilehash: 967e2170aac72de629ebb930e485b8cd6560b6ca
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: sr-Latn-RS
-ms.lasthandoff: 10/31/2020
-ms.locfileid: "4180973"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5272450"
 ---
 # <a name="summary-information-on-a-project-quote---lite"></a>Rezime informacija o ponudi za projekat – jednostavno
 
@@ -21,7 +21,7 @@ _**Odnosi se na:** Jednostavna primena – od pogodbe do profakture_
 
 Ovaj članak objašnjava informacije koje se odnose na ponudu za projekat. To uključuje podešavanja koja utiču na sve stavke ponude i informacije o ponudi koje su sažete u svim stavkama za pokretanje KPI-ova ponude za projekat.
 
-Sledeća tabela navodi polja informacija rezimea o ponudi za projekt koja su jedinstvena za Dynamics 365 Project Operations ili imaju neke važne promene u ponašanju iz Dynamics 365 Sales ponuda.
+Sledeća tabela navodi polja sa rezimiranim informacijama u ponudi projekta koja su jedinstvena za Dynamics 365 Project Operations ili imaju neke važne promene u ponašanju u odnosu na ponude u usluzi Dynamics 365 Sales.
 
 | **Polje** | **Lokacija** | **Opis** | **Posledični uticaj** |
 | --- | --- | --- | --- |

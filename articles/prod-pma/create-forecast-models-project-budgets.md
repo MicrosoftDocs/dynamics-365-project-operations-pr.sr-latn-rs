@@ -18,12 +18,12 @@ ms.search.industry: Service industries
 ms.author: andchoi
 ms.dyn365.ops.version: 7
 ms.search.validFrom: 2019-01-15
-ms.openlocfilehash: 32a436d240f5535ff15f8bc3b8ba9be2d1d4da17
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 5a3b9d3c154a85b50536a67ae0eb45d9b4f25f15
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: sr-Latn-RS
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4083716"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5271055"
 ---
 # <a name="create-forecast-models-for-project-budgets"></a>Kreirajte modele predviđanja za budžete projekata 
 
@@ -41,9 +41,9 @@ Ova tema opisuje kako kreirati model predviđanja za preostale budžete. Projeka
 5. Da biste koristili datum projekta kao datum fakture, podesite **Datum fakture prognoze** na **Da**. 
 6. U polju **Tip budžeta** izaberite jedan od sledećih tipova modela:
 
-   - **Originalni budžet** : Koristite originalne iznose budžeta koji su prosleđeni pri kreiranju i odobravanju početnog budžeta.
-   - **Preostali budžet** : Koristite preostale iznose budžeta tokom trajanja projekta. Stanja u ovom modelu predviđanja smanjuju se stvarnim transakcijama, a povećavaju ili smanjuju revizijama budžeta.
-   - **Prenos** : Koristite prenosne iznose budžeta za projekat. Prenos je opcioni postupak koji se može pokrenuti radi prenosa neiskorišćenih iznosa budžeta iz jedne fiskalne godine u drugu.
+   - **Originalni budžet**: Koristite originalne iznose budžeta koji su prosleđeni pri kreiranju i odobravanju početnog budžeta.
+   - **Preostali budžet**: Koristite preostale iznose budžeta tokom trajanja projekta. Stanja u ovom modelu predviđanja smanjuju se stvarnim transakcijama, a povećavaju ili smanjuju revizijama budžeta.
+   - **Prenos**: Koristite prenosne iznose budžeta za projekat. Prenos je opcioni postupak koji se može pokrenuti radi prenosa neiskorišćenih iznosa budžeta iz jedne fiskalne godine u drugu.
 
 7. Po potrebi podesite sledeće opcije:
 

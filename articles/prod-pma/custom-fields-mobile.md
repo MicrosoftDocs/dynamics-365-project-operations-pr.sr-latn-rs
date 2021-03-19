@@ -18,12 +18,12 @@ ms.search.industry: Service industries
 ms.author: andchoi
 ms.dyn365.ops.version: 10.0.3
 ms.search.validFrom: 2019-05-29
-ms.openlocfilehash: 1ea1ca002a8f68f86808831b398e452244471322
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 5dae571fce746b49281587f5349774a7f2c4111b
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: sr-Latn-RS
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4083634"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5271010"
 ---
 # <a name="implement-custom-fields-for-the-microsoft-dynamics-365-project-timesheet-mobile-app-on-ios-and-android"></a>Primena prilagođenih polja za Microsoft Dynamics 365 Project Timesheet aplikaciju za mobilne uređaje na platformama iOS i Android
 
@@ -61,11 +61,11 @@ Svojstvo **FieldBaseType** na objektu **TsTimesheetCustom** određuje tip polja 
 | 15          | GUID              | |
 | 16          | Int64             | |
 
-- Ako je svojstvo **stringOptions** nije navedeno na objektu **TSTimesheetCustomField** , korisniku se pruža polje slobodnog teksta.
+- Ako je svojstvo **stringOptions** nije navedeno na objektu **TSTimesheetCustomField**, korisniku se pruža polje slobodnog teksta.
 
     Svojstvo **stringLength** se može koristiti za podešavanje maksimalne dužine niza koju korisnici mogu uneti.
 
-- Ako je svojstvo **stringOptions** navedeno na objektu **TSTimesheetCustomField** , ti elementi liste su jedine vrednosti koje korisnici mogu da izaberu pomoću dugmadi sa opcijama (radio dugmad).
+- Ako je svojstvo **stringOptions** navedeno na objektu **TSTimesheetCustomField**, ti elementi liste su jedine vrednosti koje korisnici mogu da izaberu pomoću dugmadi sa opcijama (radio dugmad).
 
     U ovom slučaju, polje niza može delovati kao numerička vrednost u svrhu unosa korisnika. Da biste sačuvali vrednost u bazi podataka kao nabrajanje, ručno mapirajte vrednost niza na vrednost nabrajanja pre nego što je sačuvate u bazi podataka pomoću lanca komandi (kao primer, pogledajte odeljak „Upotreba lanca komandi u klasi TSTimesheetEntryService radi čuvanja stavke vremenskog rasporeda iz aplikacije nazad u bazu podataka“ kasnije u ovoj temi).
 
@@ -125,31 +125,31 @@ Ovo svojstvo kontroliše redosled prikazivanja prilagođenih polja u aplikaciji 
 
 ### <a name="booleanvalue-boolean"></a>booleanValue (boolean)
 
-Za polja tipa **Logička vrednost** , ovo svojstvo prenosi logičku vrednost polja između servera i aplikacije.
+Za polja tipa **Logička vrednost**, ovo svojstvo prenosi logičku vrednost polja između servera i aplikacije.
 
 ### <a name="guidvalue-guid"></a>guidValue (guid)
 
-Za polja tipa **GUID** , ovo svojstvo prenosi vrednost globalnog jedinstvenog identifikatora (GUID) između servera i aplikacije.
+Za polja tipa **GUID**, ovo svojstvo prenosi vrednost globalnog jedinstvenog identifikatora (GUID) između servera i aplikacije.
 
 ### <a name="int64value-int64"></a>int64Value (int64)
 
-Za polja tipa **Int64** , ovo svojstvo prenosi int64 vrednost polja između servera i aplikacije.
+Za polja tipa **Int64**, ovo svojstvo prenosi int64 vrednost polja između servera i aplikacije.
 
 ### <a name="intvalue-int"></a>intValue (int)
 
-Za polja tipa **Int** , ovo svojstvo prenosi int vrednost polja između servera i aplikacije.
+Za polja tipa **Int**, ovo svojstvo prenosi int vrednost polja između servera i aplikacije.
 
 ### <a name="realvalue-real"></a>realValue (real)
 
-Za polja tipa **Realni broj** , ovo svojstvo prenosi realnu vrednost polja između servera i aplikacije.
+Za polja tipa **Realni broj**, ovo svojstvo prenosi realnu vrednost polja između servera i aplikacije.
 
 ### <a name="stringvalue-str"></a>stringValue (str)
 
-Za polja tipa **Niska** , ovo svojstvo prenosi vrednost niske polja između servera i aplikacije. Takođe se koristi za polja tipa **Realni broj** koji su formatirani kao valuta. Za ta polja, svojstvo se koristi za prosleđivanje koda valute aplikaciji.
+Za polja tipa **Niska**, ovo svojstvo prenosi vrednost niske polja između servera i aplikacije. Takođe se koristi za polja tipa **Realni broj** koji su formatirani kao valuta. Za ta polja, svojstvo se koristi za prosleđivanje koda valute aplikaciji.
 
 ### <a name="datevalue-date"></a>dateValue (date)
 
-Za polja tipa **Datum** , ovo svojstvo prenosi vrednost datuma polja između servera i aplikacije.
+Za polja tipa **Datum**, ovo svojstvo prenosi vrednost datuma polja između servera i aplikacije.
 
 ## <a name="show-and-save-a-custom-field-in-the-timesheet-entry-section"></a>Prikažite i sačuvajte prilagođeno polje u odeljku stavke vremenskog rasporeda
 
@@ -179,9 +179,9 @@ U nastavku se nalazi snimak ekrana sa Visual Studio stablom objekata aplikacije.
 
 Ovaj kôd kontroliše postavke prikaza za polje u aplikaciji. Na primer, kontroliše tip polja, oznaku, da li je polje obavezno i u kom odeljku se polje prikazuje.
 
-Sledeći primer prikazuje polje niza za stavke vremena. Ovo polje ima dve opcije, **Prva opcija** i **Druga opcija** , koje su dostupne preko dugmadi opcija (radio dugmadi). Polje u aplikaciji je povezano sa poljem **TestLineString** koje se dodaje u tabelu TSTimesheetLine.
+Sledeći primer prikazuje polje niza za stavke vremena. Ovo polje ima dve opcije, **Prva opcija** i **Druga opcija**, koje su dostupne preko dugmadi opcija (radio dugmadi). Polje u aplikaciji je povezano sa poljem **TestLineString** koje se dodaje u tabelu TSTimesheetLine.
 
-Obratite pažnju na upotrebu metode **TSTimesheetCustomField::newFromMetatdata()** za pojednostavljivanje inicijalizacije svojstava prilagođenog polja: **fieldBaseType** , **tableName** , **fieldname** , **label** , **isEditable** , **isMandatory** , **stringLength** i **numberOfDecimals**. Ove parametre možete takođe ručno da podesite kako želite.
+Obratite pažnju na upotrebu metode **TSTimesheetCustomField::newFromMetatdata()** za pojednostavljivanje inicijalizacije svojstava prilagođenog polja: **fieldBaseType**, **tableName**, **fieldname**, **label**, **isEditable**, **isMandatory**, **stringLength** i **numberOfDecimals**. Ove parametre možete takođe ručno da podesite kako želite.
 
 ```xpp
 ...
@@ -248,7 +248,7 @@ Da biste sačuvali prilagođeno polje u bazu podataka u uobičajenoj upotrebi, m
 - Metoda **populateTimesheetWeekFromEntry** se takođe može proširiti ako se prilagođeno polje koje se mapira na objekat **TSTimesheetEntry** mora upisati nazad u tabelu baze podataka TSTimesheetLineweek.
 
 > [!NOTE]
-> Sledeći primer čuva vrednost **firstOption** ili **secondOption** koju korisnik bira u bazu podataka kao sirovu vrednost niza. Ako je polje baze podataka polje **Nabrajanje** , te vrednosti se mogu ručno mapirati na vrednost nabrajanja, a zatim sačuvati u polju nabrajanja u tabeli baze podataka.
+> Sledeći primer čuva vrednost **firstOption** ili **secondOption** koju korisnik bira u bazu podataka kao sirovu vrednost niza. Ako je polje baze podataka polje **Nabrajanje**, te vrednosti se mogu ručno mapirati na vrednost nabrajanja, a zatim sačuvati u polju nabrajanja u tabeli baze podataka.
 
 ```xpp
 ...
@@ -410,7 +410,7 @@ Postojeća logika za funkcionalnost vremenskog lista na nivou baze podataka i da
 
 - Ako **validateWrite** na tabeli TSTimesheetLine vrati **netačno** tokom operacije čuvanja za red vremenskog rasporeda, poruka o grešci se prikazuje u aplikaciji za mobilne uređaje.
 - Ako **validateSubmit** na tabeli TSTimesheetTable vrati **netačno** tokom prosleđivanja vremenskog rasporeda u aplikaciji, korisniku se prikazuje poruka o grešci.
-- Logika koja popunjava polja (na primer, **Svojstvo reda** ) tokom metode **insert** na tabeli TSTimesheetLine i dalje će biti aktivna.
+- Logika koja popunjava polja (na primer, **Svojstvo reda**) tokom metode **insert** na tabeli TSTimesheetLine i dalje će biti aktivna.
 
 ### <a name="hiding-and-marking-out-of-box-fields-as-read-only-via-configuration"></a>Sakrivanje i označavanje polja izvan okvira kao samo za čitanje putem konfiguracije
 

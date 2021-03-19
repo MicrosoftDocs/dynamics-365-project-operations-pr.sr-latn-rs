@@ -8,18 +8,18 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 2ff830c63f7acf4cc23ac75d44afa9c3553b8724
-ms.sourcegitcommit: 625878bf48ea530f3381843be0e778cebbbf1922
+ms.openlocfilehash: d48da44f382e329a978a8ceee59c354d009f2114
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: sr-Latn-RS
-ms.lasthandoff: 10/30/2020
-ms.locfileid: "4175998"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5273035"
 ---
 # <a name="manage-project-price-lists-on-project-quotes---lite"></a>Upravljanje cenovnicima projekata u ponudama za projekat – jednostavno
 
 _**Odnosi se na:** Jednostavna primena – od pogodbe do profakture_
 
-Ponude za projekte su dizajnirane da podržavaju više efektivnih prodajnih cenovnika. Uz Dynamics 365 Project Operations, dodaje se novi pridruženi entitet pod nazivom **Cenovnici za projekat**. Ovaj entitet ima relaciju „1 prema više“ sa ponudom za projekat.
+Ponude za projekte su dizajnirane da podržavaju više efektivnih prodajnih cenovnika. Uz Dynamics 365 Project Operations, dodaje se novi povezani entitet pod nazivom **Cenovnici projekata**. Ovaj entitet ima relaciju „1 prema više“ sa ponudom za projekat.
 
 Cenovnici projekata se koriste za određivanje transakcija vremena i troškova na projektu. Kada ponuda ima jedan ili više cenovnika projekata, ovi cenovnici se koriste za procene cene vremena i troškova i stvarne vrednosti koje su povezane sa ponudom preko stavke ponude.
 

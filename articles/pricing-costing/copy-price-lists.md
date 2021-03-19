@@ -8,18 +8,18 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 67a69d521ac0a5632371138bd4fbb9dd00fe34ee
-ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
+ms.openlocfilehash: e49a95a04e9506e983d920c49d4c504d9f944c88
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: sr-Latn-RS
-ms.lasthandoff: 10/31/2020
-ms.locfileid: "4181514"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5275735"
 ---
 # <a name="copy-price-lists"></a>Kopiranje cenovnika
 
 _**Odnosi se na:** Project Operations za resurs/scenarije koji nisu zasnovani na zalihama, laganu primenu – od pogodbe do profakture_
 
-Kopije cenovnika možete da kreirate u usluzi Dynamics 365 Project Operations. Na primer, možete da napravite cenovnike za predstojeću godinu koristeći cenovnik iz tekuće godine.  Ili možete kopirati cenovnik stopa naplate i prodajnih cena iz cenovnika troškova. 
+Možete da kreirate kopije cenovnika u usluzi Dynamics 365 Project Operations. Na primer, možete da napravite cenovnike za predstojeću godinu koristeći cenovnik iz tekuće godine.  Ili možete kopirati cenovnik stopa naplate i prodajnih cena iz cenovnika troškova. 
 
 Da biste napravili kopiju cenovnika, izvršite sledeće korake.
 

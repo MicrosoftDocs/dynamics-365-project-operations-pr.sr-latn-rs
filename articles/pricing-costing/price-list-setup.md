@@ -8,18 +8,18 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 000c22944b187b6250f2e982d73020028093fde6
-ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
+ms.openlocfilehash: 34ee7bb157426507ec7ca8c031f5cb552e85099b
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: sr-Latn-RS
-ms.lasthandoff: 10/31/2020
-ms.locfileid: "4180209"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5275510"
 ---
 # <a name="set-up-price-lists"></a>Podešavanje cenovnika
 
 _**Odnosi se na:** Project Operations za resurs/scenarije koji nisu zasnovani na zalihama, laganu primenu – od pogodbe do profakture_
 
-Cenovnici u usluzi Dynamics 365 Project Operations predstavljaju katalog stopa. Stope izražavaju stope cena, prodaje i obračuna. U zavisnosti od toga da li cenovnik izražava stope cena ili prodaje i obračuna, kontekst cenovnika je **Prodaja** ili **Cena**.
+Cenovnici u usluzi Dynamics 365 Project Operations predstavljaju katalog cena. Stope izražavaju stope cena, prodaje i obračuna. U zavisnosti od toga da li cenovnik izražava stope cena ili prodaje i obračuna, kontekst cenovnika je **Prodaja** ili **Cena**.
 
 Sledeća proširenja su specifična za Project Operations i primenjuju se na cenovnike iz usluge Dynamics 365 Sales.
 

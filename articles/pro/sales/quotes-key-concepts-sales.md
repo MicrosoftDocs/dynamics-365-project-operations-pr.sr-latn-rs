@@ -8,19 +8,19 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: e86f1a5a7b2859df5bf9569ee9ca306c6dcc6293
-ms.sourcegitcommit: 625878bf48ea530f3381843be0e778cebbbf1922
+ms.openlocfilehash: 63d9fc56f47c3bb7c5477af8f3bfa1be11a09a45
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: sr-Latn-RS
-ms.lasthandoff: 10/30/2020
-ms.locfileid: "4178023"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5272405"
 ---
 # <a name="quotes---key-concepts---lite"></a>Ponude – Ključni koncepti – jednostavno
 
 _**Odnosi se na:** Jednostavna primena – od pogodbe do profakture_
 
 
-Slede ključni koncepti kojih morate biti svesni pre nego što počnete da koristite ponude za projekte u usluzi Dynamics 365 Project Operations:
+Slede ključni koncepti kojih morate biti svesni pre nego što počnete da koristite ponude projekata u usluzi Dynamics 365 Project Operations:
 
 ## <a name="contracting-unit"></a>Jedinica ugovaranja
 

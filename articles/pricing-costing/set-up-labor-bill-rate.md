@@ -8,18 +8,18 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 501458510efca6434a51577aacd1f09d1a4faa25
-ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
+ms.openlocfilehash: b4d09f4bf6788f93c028f084965faa6aac41a22d
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: sr-Latn-RS
-ms.lasthandoff: 10/31/2020
-ms.locfileid: "4180727"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5274835"
 ---
 # <a name="set-up-labor-bill-rates"></a>Podesite stope naplate za rad
 
 **Odnosi se na:** Project Operations za scenarije zasnovane na resursima/bez zaliha
 
-Svaki cenovnik ima skup cena uloga ili stopa rada koje stupaju na snagu za kontekst i efektivnost datuma navedenih u zaglavlju cenovnika. Stope naplate za vreme u usluzi Dynamics 365 Project Operations mogu se postaviti u samo jednoj valuti, koja je valuta u zaglavlju cenovnika.
+Svaki cenovnik ima skup cena uloga ili stopa rada koje stupaju na snagu za kontekst i efektivnost datuma navedenih u zaglavlju cenovnika. Stope naplate za vreme u usluzi Dynamics 365 Project Operations mogu se podesiti u samo jednoj valuti, koja je valuta u zaglavlju Cenovnika.
 
 1. Da biste postavili stope naplate za rad za prodajni cenovnik, napravite cenovnik na osnovu zaglavlja cenovnika. 
 2. Na kartici **Uloga cena**, u podmreži odaberite **+ Nova cena uloge**. 
