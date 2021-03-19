@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 6ce4c549b04716d466efa262dbc6a4abf28ea9eb
-ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
+ms.openlocfilehash: 2388aedec25915b3d364001fed11ca537b0f5507
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: sr-Latn-RS
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "5150685"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5281135"
 ---
 # <a name="whats-new-or-changed-in-project-service-automation-version-3"></a>Šta je novo ili promenjeno u aplikaciji Project Service Automation verzije 3
 
