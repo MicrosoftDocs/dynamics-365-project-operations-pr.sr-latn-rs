@@ -3,7 +3,7 @@ title: Trenutno stanje
 description: Ova tema pruža informacije o tome kako se radi sa stvarnim podacima u usluzi Microsoft Dynamics 365 Project Operations.
 author: rumant
 manager: AnnBe
-ms.date: 09/16/2020
+ms.date: 04/01/2021
 ms.topic: article
 ms.prod: ''
 ms.service: project-operations
@@ -16,329 +16,347 @@ ms.search.region: ''
 ms.search.industry: ''
 ms.author: rumant
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: 6a94bd143b0d0dad2a08511a34e592a057b6d2a1
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 304c51a4e502ad6ecec1fd821e98d6604ddd59ba
+ms.sourcegitcommit: b4a05c7d5512d60abdb0d05bedd390e288e8adc9
 ms.translationtype: HT
 ms.contentlocale: sr-Latn-RS
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5291816"
+ms.lasthandoff: 04/02/2021
+ms.locfileid: "5852561"
 ---
-# <a name="actuals"></a><span data-ttu-id="09f5b-103">Trenutno stanje</span><span class="sxs-lookup"><span data-stu-id="09f5b-103">Actuals</span></span> 
+# <a name="actuals"></a><span data-ttu-id="4e6be-103">Trenutno stanje</span><span class="sxs-lookup"><span data-stu-id="4e6be-103">Actuals</span></span> 
 
-<span data-ttu-id="09f5b-104">_**Odnosi se na:** Project Operations za scenarije zasnovane na resursima / bez zaliha_</span><span class="sxs-lookup"><span data-stu-id="09f5b-104">_**Applies to:** Project Operations for resource/non-stocked based scenarios_</span></span>
+<span data-ttu-id="4e6be-104">_**Odnosi se na:** Project Operations za scenarije zasnovane na resursima/bez zaliha, jednostavna primena – od pogodbe do profakture_</span><span class="sxs-lookup"><span data-stu-id="4e6be-104">_**Applies to:** Project Operations for resource/non-stocked based scenarios, Lite deployment - deal to proforma invoicing_</span></span>
 
-<span data-ttu-id="09f5b-105">Stvarne vrednosti predstavljaju količinu posla koja je završena za projekat.</span><span class="sxs-lookup"><span data-stu-id="09f5b-105">Actuals are the amount of work that has been completed on a project.</span></span> <span data-ttu-id="09f5b-106">Kreirani su kao rezultat stavki vremena i troškova, stavki knjiženja u glavnoj knjizi i faktura.</span><span class="sxs-lookup"><span data-stu-id="09f5b-106">They are created as a result of time and expense entries, and journal entries and invoices.</span></span>
+<span data-ttu-id="4e6be-105">Trenutno stanje predstavlja pregledani i odobreni finansijski i vremenski raspored projekta.</span><span class="sxs-lookup"><span data-stu-id="4e6be-105">Actuals represent the reviewed and approved financial and schedule progress on a project.</span></span> <span data-ttu-id="4e6be-106">Kreira se kao rezultat odobravanja vremena, troškova, stavki upotrebe materijala, stavki dnevnika i faktura.</span><span class="sxs-lookup"><span data-stu-id="4e6be-106">They are created as a result of approval of time, expense, material usage entries, and journal entries and invoices.</span></span>
 
-## <a name="journal-lines-and-time-submission"></a><span data-ttu-id="09f5b-107">Stavke u glavnoj knjizi i vreme predaje</span><span class="sxs-lookup"><span data-stu-id="09f5b-107">Journal lines and time submission</span></span>
+## <a name="journal-lines-and-time-submission"></a><span data-ttu-id="4e6be-107">Stavke u glavnoj knjizi i vreme predaje</span><span class="sxs-lookup"><span data-stu-id="4e6be-107">Journal lines and time submission</span></span>
 
-<span data-ttu-id="09f5b-108">Za više informacija o stavci vremena, pogledajte [Pregled unosa vremena](../time/time-entry-overview.md).</span><span class="sxs-lookup"><span data-stu-id="09f5b-108">For more information about time entry, see [Time entry overview](../time/time-entry-overview.md).</span></span>
+<span data-ttu-id="4e6be-108">Za više informacija o stavci vremena, pogledajte [Pregled unosa vremena](../time/time-entry-overview.md).</span><span class="sxs-lookup"><span data-stu-id="4e6be-108">For more information about time entry, see [Time entry overview](../time/time-entry-overview.md).</span></span>
 
-### <a name="time-and-materials"></a><span data-ttu-id="09f5b-109">Vreme i materijali</span><span class="sxs-lookup"><span data-stu-id="09f5b-109">Time and materials</span></span>
+### <a name="time-and-materials"></a><span data-ttu-id="4e6be-109">Vreme i materijali</span><span class="sxs-lookup"><span data-stu-id="4e6be-109">Time and materials</span></span>
 
-<span data-ttu-id="09f5b-110">Kada je stavka vremena koja je prosleđena povezana sa projektom koji je mapiran u predmet ugovora o vremenu i materijalima, sistem kreira dve stavke u glavnoj knjizi, jednu za troškove i jednu za nenaplaćenu prodaju.</span><span class="sxs-lookup"><span data-stu-id="09f5b-110">When a time entry that is submitted is linked to a project that is mapped to a time-and-materials contract line, the system creates two journal lines, one for cost and one for unbilled sales.</span></span>
+<span data-ttu-id="4e6be-110">Kada je stavka vremena koja je prosleđena povezana sa projektom koji je mapiran u predmet ugovora o vremenu i materijalima, sistem kreira dve stavke u glavnoj knjizi, jednu za troškove i jednu za nenaplaćenu prodaju.</span><span class="sxs-lookup"><span data-stu-id="4e6be-110">When a time entry that is submitted is linked to a project that is mapped to a time-and-materials contract line, the system creates two journal lines, one for cost and one for unbilled sales.</span></span>
 
-### <a name="fixed-price"></a><span data-ttu-id="09f5b-111">Fiksna cena</span><span class="sxs-lookup"><span data-stu-id="09f5b-111">Fixed price</span></span>
+### <a name="fixed-price"></a><span data-ttu-id="4e6be-111">Fiksna cena</span><span class="sxs-lookup"><span data-stu-id="4e6be-111">Fixed price</span></span>
 
-<span data-ttu-id="09f5b-112">Kada se prosleđena stavka vremena poveže sa projektom koji se mapiran na predmet ugovora sa fiksnom cenom, sistem kreira jednu stavku u glavnoj knjizi za troškove.</span><span class="sxs-lookup"><span data-stu-id="09f5b-112">When a time entry that is submitted is linked to a project that is mapped to a fixed-price contract line, the system creates one journal line for cost.</span></span>
+<span data-ttu-id="4e6be-112">Kada se prosleđena stavka vremena poveže sa projektom koji se mapiran na predmet ugovora sa fiksnom cenom, sistem kreira jednu stavku u glavnoj knjizi za troškove.</span><span class="sxs-lookup"><span data-stu-id="4e6be-112">When a time entry that is submitted is linked to a project that is mapped to a fixed-price contract line, the system creates one journal line for cost.</span></span>
 
-### <a name="default-pricing"></a><span data-ttu-id="09f5b-113">Podrazumevano određivanje cena</span><span class="sxs-lookup"><span data-stu-id="09f5b-113">Default pricing</span></span>
+### <a name="default-pricing"></a><span data-ttu-id="4e6be-113">Podrazumevano određivanje cena</span><span class="sxs-lookup"><span data-stu-id="4e6be-113">Default pricing</span></span>
 
-<span data-ttu-id="09f5b-114">Logika za kreiranje podrazumevanih cena se nalazi u stavci u glavnoj knjizi.</span><span class="sxs-lookup"><span data-stu-id="09f5b-114">The logic for creating default prices resides on the journal line.</span></span> <span data-ttu-id="09f5b-115">Vrednosti polja iz stavke vremena kopiraju se u stavku u glavnoj knjizi.</span><span class="sxs-lookup"><span data-stu-id="09f5b-115">The field values from the time entry are copied to the journal line.</span></span> <span data-ttu-id="09f5b-116">Ove vrednosti uključuju datum transakcije, predmet ugovora na koji je projekat mapiran i valutu koja je rezultat odgovarajućeg cenovnika.</span><span class="sxs-lookup"><span data-stu-id="09f5b-116">These values include the transaction date, the contract line that the project is mapped to, and the currency result in the appropriate price list.</span></span>
+<span data-ttu-id="4e6be-114">Logika za kreiranje podrazumevanih cena se nalazi u stavci u glavnoj knjizi.</span><span class="sxs-lookup"><span data-stu-id="4e6be-114">The logic for creating default prices resides on the journal line.</span></span> <span data-ttu-id="4e6be-115">Vrednosti polja iz stavke vremena kopiraju se u stavku u glavnoj knjizi.</span><span class="sxs-lookup"><span data-stu-id="4e6be-115">The field values from the time entry are copied to the journal line.</span></span> <span data-ttu-id="4e6be-116">Ove vrednosti uključuju datum transakcije, predmet ugovora na koji je projekat mapiran i valutu koja je rezultat odgovarajućeg cenovnika.</span><span class="sxs-lookup"><span data-stu-id="4e6be-116">These values include the transaction date, the contract line that the project is mapped to, and the currency result in the appropriate price list.</span></span>
 
-<span data-ttu-id="09f5b-117">Polja koja utiču na podrazumevano određivanje cena, kao što su **Uloga** i **Organizaciona jedinica**, koriste se za utvrđivanje odgovarajuće cene u stavci u glavnoj knjizi.</span><span class="sxs-lookup"><span data-stu-id="09f5b-117">The fields that affect default pricing, such as **Role** and **Org Unit**, are used to determine the appropriate price on the journal line.</span></span> <span data-ttu-id="09f5b-118">Na stavku vremena možete dodati prilagođeno polje.</span><span class="sxs-lookup"><span data-stu-id="09f5b-118">You can add a custom field on the time entry.</span></span> <span data-ttu-id="09f5b-119">Ako želite da se vrednost polja širi na stvarne vrednosti, kreirajte polje u entitetu Stvarne vrednosti i upotrebite mapiranja polja da biste kopirali polje iz stavke vremena u stvarnu vrednost.</span><span class="sxs-lookup"><span data-stu-id="09f5b-119">If you want the field value to be propagated to actuals, create the field on the Actuals entity, and use field mappings to copy the field from the time entry to the actual.</span></span>
+<span data-ttu-id="4e6be-117">Polja koja utiču na podrazumevane cene, kao što su **Uloga** i **Jedinica za određivanje resursa**, koriste se za utvrđivanje odgovarajuće cene u stavki u glavnoj knjizi.</span><span class="sxs-lookup"><span data-stu-id="4e6be-117">The fields that affect default pricing, such as **Role** and **Resourcing Unit**, are used to determine the appropriate price on the journal line.</span></span> <span data-ttu-id="4e6be-118">Na stavku vremena možete dodati prilagođeno polje.</span><span class="sxs-lookup"><span data-stu-id="4e6be-118">You can add a custom field on the time entry.</span></span> <span data-ttu-id="4e6be-119">Ako želite da se vrednost polja širi na trenutno stanje, kreirajte polje u tabelama **Trenutno stanje** i **Stavka u glavnoj knjizi**.</span><span class="sxs-lookup"><span data-stu-id="4e6be-119">If you want the field value to be propagated to actuals, create the field in the **Actuals** and **Journal Line** tables.</span></span> <span data-ttu-id="4e6be-120">Koristite prilagođeni kôd za širenje izabrane vrednosti polja iz stavku vremena u trenutno stanje putem stavke u glavnoj knjizi koristeći poreklo transakcija.</span><span class="sxs-lookup"><span data-stu-id="4e6be-120">Use custom code to propagate the selected field value from Time Entry to Actuals through the journal line using transaction origins.</span></span> <span data-ttu-id="4e6be-121">Za više informacija o poreklu transakcija i vezama, pogledajte [Povezivanje trenutnog stanja sa originalnim zapisima](linkingactuals.md#example-how-transaction-origin-works-with-transaction-connection).</span><span class="sxs-lookup"><span data-stu-id="4e6be-121">For more information about transaction origins and connections, see [Linking Actuals to original records](linkingactuals.md#example-how-transaction-origin-works-with-transaction-connection).</span></span>
 
-## <a name="journal-lines-and-basic-expense-submission"></a><span data-ttu-id="09f5b-120">Prosleđivanje stavki u glavnoj knjizi i osnovnih troškova</span><span class="sxs-lookup"><span data-stu-id="09f5b-120">Journal lines and basic expense submission</span></span>
+## <a name="journal-lines-and-basic-expense-submission"></a><span data-ttu-id="4e6be-122">Prosleđivanje stavki u glavnoj knjizi i osnovnih troškova</span><span class="sxs-lookup"><span data-stu-id="4e6be-122">Journal lines and basic expense submission</span></span>
 
-<span data-ttu-id="09f5b-121">Za više informacija o stavci troška, pogledajte [Pregled troškova](../expense/expense-overview.md).</span><span class="sxs-lookup"><span data-stu-id="09f5b-121">For more information about expense entry, see [Expense overview](../expense/expense-overview.md).</span></span>
+<span data-ttu-id="4e6be-123">Za više informacija o stavci troška, pogledajte [Pregled troškova](../expense/expense-overview.md).</span><span class="sxs-lookup"><span data-stu-id="4e6be-123">For more information about expense entry, see [Expense overview](../expense/expense-overview.md).</span></span>
 
-### <a name="time-and-materials"></a><span data-ttu-id="09f5b-122">Vreme i materijali</span><span class="sxs-lookup"><span data-stu-id="09f5b-122">Time and materials</span></span>
+### <a name="time-and-materials"></a><span data-ttu-id="4e6be-124">Vreme i materijali</span><span class="sxs-lookup"><span data-stu-id="4e6be-124">Time and materials</span></span>
 
-<span data-ttu-id="09f5b-123">Kada se stavka osnovnog troška koja je prosleđena poveže sa projektom koji je mapiran u predmet ugovora o vremenu i materijalima, sistem kreira dve stavke u glavnoj knjizi, jednu za troškove i jednu za nenaplaćenu prodaju.</span><span class="sxs-lookup"><span data-stu-id="09f5b-123">When a basic expense entry that is submitted is linked to a project that is mapped to a time-and-materials contract line, the system creates two journal lines, one for cost and one for unbilled sales.</span></span>
+<span data-ttu-id="4e6be-125">Kada se stavka osnovnog troška koja je prosleđena poveže sa projektom koji je mapiran u predmet ugovora o vremenu i materijalima, sistem kreira dve stavke u glavnoj knjizi, jednu za troškove i jednu za nenaplaćenu prodaju.</span><span class="sxs-lookup"><span data-stu-id="4e6be-125">When a basic expense entry that is submitted is linked to a project that is mapped to a time-and-materials contract line, the system creates two journal lines, one for cost and one for unbilled sales.</span></span>
 
-### <a name="fixed-price"></a><span data-ttu-id="09f5b-124">Fiksna cena</span><span class="sxs-lookup"><span data-stu-id="09f5b-124">Fixed price</span></span>
+### <a name="fixed-price"></a><span data-ttu-id="4e6be-126">Fiksna cena</span><span class="sxs-lookup"><span data-stu-id="4e6be-126">Fixed price</span></span>
 
-<span data-ttu-id="09f5b-125">Kada se prosleđena stavka osnovnog troška poveže sa projektom koji se mapiran na predmet ugovora sa fiksnom cenom, sistem kreira jednu stavku u glavnoj knjizi za troškove.</span><span class="sxs-lookup"><span data-stu-id="09f5b-125">When a basic expense entry that is submitted is linked to a project that is mapped to a fixed-price contract line, the system creates one journal line for cost.</span></span>
+<span data-ttu-id="4e6be-127">Kada se prosleđena stavka troška poveže sa projektom koji se mapira na predmet ugovora o fiksnoj ceni, sistem kreira jednu stavku u glavnoj knjizi za troškove.</span><span class="sxs-lookup"><span data-stu-id="4e6be-127">When a submitted basic expense entry is linked to a project that's mapped to a fixed-price contract line, the system creates one journal line for cost.</span></span>
 
-### <a name="default-pricing"></a><span data-ttu-id="09f5b-126">Podrazumevano određivanje cena</span><span class="sxs-lookup"><span data-stu-id="09f5b-126">Default pricing</span></span>
+### <a name="default-pricing"></a><span data-ttu-id="4e6be-128">Podrazumevano određivanje cena</span><span class="sxs-lookup"><span data-stu-id="4e6be-128">Default pricing</span></span>
 
-<span data-ttu-id="09f5b-127">Logika unošenja zadatih cena za troškove zasniva se na kategoriji troškova.</span><span class="sxs-lookup"><span data-stu-id="09f5b-127">The logic for entering default prices for expenses is based on the expense category.</span></span> <span data-ttu-id="09f5b-128">Datum transakcije, predmet ugovora na koji je projekat mapiran i valuta se koriste za određivanje odgovarajućeg cenovnika.</span><span class="sxs-lookup"><span data-stu-id="09f5b-128">The transaction date, the contract line that the project is mapped to, and the currency are all used to determine the appropriate price list.</span></span> <span data-ttu-id="09f5b-129">Međutim, iznos koji se unese za samu cenu podrazumevano se podešava direktno na povezanim stavkama troškova u glavnoj knjizi za troškove i prodaju.</span><span class="sxs-lookup"><span data-stu-id="09f5b-129">However, by default, the amount that is entered for the price itself is set directly on the related expense journal lines for cost and sales.</span></span>
+<span data-ttu-id="4e6be-129">Logika unošenja zadatih cena za troškove zasniva se na kategoriji troškova.</span><span class="sxs-lookup"><span data-stu-id="4e6be-129">The logic for entering default prices for expenses is based on the expense category.</span></span> <span data-ttu-id="4e6be-130">Datum transakcije, predmet ugovora na koji je projekat mapiran i valuta se koriste za određivanje odgovarajućeg cenovnika.</span><span class="sxs-lookup"><span data-stu-id="4e6be-130">The transaction date, the contract line that the project is mapped to, and the currency, are all used to determine the appropriate price list.</span></span> <span data-ttu-id="4e6be-131">Polja koja utiču na podrazumevane cene, kao što su **Kategorija transakcije** i **Jedinica**, koriste se za utvrđivanje odgovarajuće cene u stavki u glavnoj knjizi.</span><span class="sxs-lookup"><span data-stu-id="4e6be-131">The fields that affect default pricing, such as **Transaction Category** and **Unit**, are used to determine the appropriate price on the journal line.</span></span> <span data-ttu-id="4e6be-132">Međutim, to funkcioniše samo kada je metoda određivanja cena u cenovniku **Cena po jedinici**.</span><span class="sxs-lookup"><span data-stu-id="4e6be-132">However, this only works when the pricing method in the price list is **Price per unit**.</span></span> <span data-ttu-id="4e6be-133">Ako je metoda određivanja cena **Po ceni** ili **Provizija preko troškova**, cena koja se unosi kada se kreira stavka troškova koristi se kao trošak, a cena stavke u glavnoj knjizi prodaje izračunava se na osnovu metode određivanja cena.</span><span class="sxs-lookup"><span data-stu-id="4e6be-133">If pricing method is **At cost** or **Markup over cost**, the price entered when the expense entry is created is used for cost and the price on the sales journal line is calculated based on the pricing method.</span></span> 
 
-<span data-ttu-id="09f5b-130">Nije dostupna stavka zasnovana na kategoriji podrazumevanih cena po jedinici za stavke troškova.</span><span class="sxs-lookup"><span data-stu-id="09f5b-130">Category-based entry of per-unit default prices on expense entries isn't available.</span></span>
+<span data-ttu-id="4e6be-134">Na stavku troškova možete dodati prilagođeno polje.</span><span class="sxs-lookup"><span data-stu-id="4e6be-134">You can add a custom field on the expense entry.</span></span> <span data-ttu-id="4e6be-135">Ako želite da se vrednost polja širi na trenutno stanje, kreirajte polje u tabelama **Trenutno stanje** i **Stavka u glavnoj knjizi**.</span><span class="sxs-lookup"><span data-stu-id="4e6be-135">If you want the field value to be propagated to actuals, create the field in the **Actuals** and **Journal Line** tables.</span></span> <span data-ttu-id="4e6be-136">Koristite prilagođeni kôd za širenje izabrane vrednosti polja iz stavku vremena u trenutno stanje putem stavke u glavnoj knjizi koristeći poreklo transakcija.</span><span class="sxs-lookup"><span data-stu-id="4e6be-136">Use custom code to propagate the selected field value from Time Entry to Actuals through the journal line using transaction origins.</span></span> <span data-ttu-id="4e6be-137">Za više informacija o poreklu transakcija i vezama, pogledajte [Povezivanje trenutnog stanja sa originalnim zapisima](linkingactuals.md#example-how-transaction-origin-works-with-transaction-connection).</span><span class="sxs-lookup"><span data-stu-id="4e6be-137">For more information about transaction origins and connections, see [Linking Actuals to original records](linkingactuals.md#example-how-transaction-origin-works-with-transaction-connection).</span></span>
 
-## <a name="use-entry-journals-to-record-costs"></a><span data-ttu-id="09f5b-131">Korišćenje dnevnika za knjiženje za evidentiranje troškova</span><span class="sxs-lookup"><span data-stu-id="09f5b-131">Use entry journals to record costs</span></span>
+## <a name="journal-lines-and-material-usage-log-submission"></a><span data-ttu-id="4e6be-138">Stavke u glavnoj knjizi i prosleđivanje evidencije upotrebe materijala</span><span class="sxs-lookup"><span data-stu-id="4e6be-138">Journal lines and material usage log submission</span></span>
 
-<span data-ttu-id="09f5b-132">Možete da koristite dnevnike za knjiženje da evidentirate troškove ili prihod u klasama materijala, naknade, vremena, troškova ili poreskih transakcija.</span><span class="sxs-lookup"><span data-stu-id="09f5b-132">You can use entry journals to record the cost or revenue in the material, fee, time, expense, or tax transaction classes.</span></span> <span data-ttu-id="09f5b-133">Dnevnici se mogu koristiti u sledeće svrhe:</span><span class="sxs-lookup"><span data-stu-id="09f5b-133">Journals can be used for the following purposes:</span></span>
+<span data-ttu-id="4e6be-139">Za više informacija o stavci troškova, pogledajte [Dnevnik upotrebe materijala](../material/material-usage-log.md).</span><span class="sxs-lookup"><span data-stu-id="4e6be-139">For more information about expense entry, see [Material Usage Log](../material/material-usage-log.md).</span></span>
 
-- <span data-ttu-id="09f5b-134">Zabeležite stvarne troškove materijala i prodaje na projektu.</span><span class="sxs-lookup"><span data-stu-id="09f5b-134">Record the actual cost of materials and sales on a project.</span></span>
-- <span data-ttu-id="09f5b-135">Premestite stvarne vrednosti transakcija iz drugog sistema u Microsoft Dynamics 365 Project Operations.</span><span class="sxs-lookup"><span data-stu-id="09f5b-135">Move transaction actuals from another system to Microsoft Dynamics 365 Project Operations.</span></span>
-- <span data-ttu-id="09f5b-136">Evidentirajte troškove koji su se dogodili u drugom sistemu.</span><span class="sxs-lookup"><span data-stu-id="09f5b-136">Record costs that occurred in another system.</span></span> <span data-ttu-id="09f5b-137">Ovi troškovi mogu uključivati troškove nabavke ili podugovaranja.</span><span class="sxs-lookup"><span data-stu-id="09f5b-137">These costs can include procurement or subcontracting costs.</span></span>
+### <a name="time-and-materials"></a><span data-ttu-id="4e6be-140">Vreme i materijali</span><span class="sxs-lookup"><span data-stu-id="4e6be-140">Time and materials</span></span>
+
+<span data-ttu-id="4e6be-141">Kada se prosleđena stavka evidencije upotrebe materijala poveže sa projektom koji se mapira u predmet ugovora o vremenu i materijalima, sistem kreira dve stavke u glavnoj knjizi, jednu za troškove i jednu za nefakturisanu prodaju.</span><span class="sxs-lookup"><span data-stu-id="4e6be-141">When a submitted material usage log entry is linked to a project that is mapped to a time and materials contract line, the system creates two journal lines, one for cost and one for unbilled sales.</span></span>
+
+### <a name="fixed-price"></a><span data-ttu-id="4e6be-142">Fiksna cena</span><span class="sxs-lookup"><span data-stu-id="4e6be-142">Fixed price</span></span>
+
+<span data-ttu-id="4e6be-143">Kada se prosleđena stavka evidencije upotrebe materijala poveže sa projektom koji se mapira na predmet ugovora o fiksnoj ceni, sistem kreira jednu stavku u glavnoj knjizi za troškove.</span><span class="sxs-lookup"><span data-stu-id="4e6be-143">When a submitted material usage log entry is linked to a project that is mapped to a fixed-price contract line, the system creates one journal line for cost.</span></span>
+
+### <a name="default-pricing"></a><span data-ttu-id="4e6be-144">Podrazumevano određivanje cena</span><span class="sxs-lookup"><span data-stu-id="4e6be-144">Default pricing</span></span>
+
+<span data-ttu-id="4e6be-145">Logika unošenja zadatih cena materijala zasniva se na kombinaciji proizvoda i jedinice.</span><span class="sxs-lookup"><span data-stu-id="4e6be-145">The logic for entering default prices for material is based on the product and unit combination.</span></span> <span data-ttu-id="4e6be-146">Datum transakcije, predmet ugovora na koji je projekat mapiran i valuta se koriste za određivanje odgovarajućeg cenovnika.</span><span class="sxs-lookup"><span data-stu-id="4e6be-146">The transaction date, the contract line that the project is mapped to, and the currency, are all used to determine the appropriate price list.</span></span> <span data-ttu-id="4e6be-147">Polja koja utiču na podrazumevane cene, kao što su **ID proizvoda** i **Jedinica**, koriste se za utvrđivanje odgovarajuće cene u stavki u glavnoj knjizi.</span><span class="sxs-lookup"><span data-stu-id="4e6be-147">The fields that affect default pricing, such as **Product ID** and **Unit**, are used to determine the appropriate price on the journal line.</span></span> <span data-ttu-id="4e6be-148">Međutim, ovo važi samo za kataloške proizvode.</span><span class="sxs-lookup"><span data-stu-id="4e6be-148">However, this only works for catalog products.</span></span> <span data-ttu-id="4e6be-149">Za proizvode koji se dodaju ručno, cena koja se unosi kada se kreira stavka evidencije upotrebe materijala koristi se za troškove i prodajnu cenu u stavkama u glavnoj knjizi.</span><span class="sxs-lookup"><span data-stu-id="4e6be-149">For write-in products, the price entered when the material usage log entry is created is used for cost and sales price on the journal lines.</span></span> 
+
+<span data-ttu-id="4e6be-150">Na stavku **Evidencija upotrebe materijala** možete dodati prilagođeno polje.</span><span class="sxs-lookup"><span data-stu-id="4e6be-150">You can add a custom field on the **Material Usage Log** entry.</span></span> <span data-ttu-id="4e6be-151">Ako želite da se vrednost polja širi na trenutno stanje, kreirajte polje u tabelama **Trenutno stanje** i **Stavka u glavnoj knjizi**.</span><span class="sxs-lookup"><span data-stu-id="4e6be-151">If you want the field value to be propagated to actuals, create the field in the **Actuals** and **Journal Line** tables.</span></span> <span data-ttu-id="4e6be-152">Koristite prilagođeni kôd za širenje izabrane vrednosti polja iz stavku vremena u trenutno stanje putem stavke u glavnoj knjizi koristeći poreklo transakcija.</span><span class="sxs-lookup"><span data-stu-id="4e6be-152">Use custom code to propagate the selected field value from Time Entry to Actuals through the journal line using transaction origins.</span></span> <span data-ttu-id="4e6be-153">Za više informacija o poreklu transakcija i vezama, pogledajte [Povezivanje trenutnog stanja sa originalnim zapisima](linkingactuals.md#example-how-transaction-origin-works-with-transaction-connection).</span><span class="sxs-lookup"><span data-stu-id="4e6be-153">For more information about transaction origins and connections, see [Linking Actuals to original records](linkingactuals.md#example-how-transaction-origin-works-with-transaction-connection).</span></span>
+
+## <a name="use-entry-journals-to-record-costs"></a><span data-ttu-id="4e6be-154">Korišćenje dnevnika za knjiženje za evidentiranje troškova</span><span class="sxs-lookup"><span data-stu-id="4e6be-154">Use entry journals to record costs</span></span>
+
+<span data-ttu-id="4e6be-155">Možete da koristite dnevnike za knjiženje da evidentirate troškove ili prihod u klasama materijala, naknade, vremena, troškova ili poreskih transakcija.</span><span class="sxs-lookup"><span data-stu-id="4e6be-155">You can use entry journals to record the cost or revenue in the material, fee, time, expense, or tax transaction classes.</span></span> <span data-ttu-id="4e6be-156">Dnevnici se mogu koristiti u sledeće svrhe:</span><span class="sxs-lookup"><span data-stu-id="4e6be-156">Journals can be used for the following purposes:</span></span>
+
+- <span data-ttu-id="4e6be-157">Premestite stvarne vrednosti transakcija iz drugog sistema u Microsoft Dynamics 365 Project Operations.</span><span class="sxs-lookup"><span data-stu-id="4e6be-157">Move transaction actuals from another system to Microsoft Dynamics 365 Project Operations.</span></span>
+- <span data-ttu-id="4e6be-158">Evidentirajte troškove koji su se dogodili u drugom sistemu.</span><span class="sxs-lookup"><span data-stu-id="4e6be-158">Record costs that occurred in another system.</span></span> <span data-ttu-id="4e6be-159">Ovi troškovi mogu uključivati troškove nabavke ili podugovaranja.</span><span class="sxs-lookup"><span data-stu-id="4e6be-159">These costs can include procurement or subcontracting costs.</span></span>
 
 > [!IMPORTANT]
-> <span data-ttu-id="09f5b-138">Aplikacija ne potvrđuje tip stavke u glavnoj knjizi ili povezano određivanje cena koje se unosi u stavku u glavnoj knjizi.</span><span class="sxs-lookup"><span data-stu-id="09f5b-138">The application doesn't validate the journal line type or the related pricing that is entered on the journal line.</span></span> <span data-ttu-id="09f5b-139">Stoga samo korisnik koji je potpuno svestan računovodstvenog uticaja koji stvarne vrednosti imaju na projekat treba da koristi dnevnike za knjiženje za kreiranje stvarnih podataka.</span><span class="sxs-lookup"><span data-stu-id="09f5b-139">Therefore, only a user who is fully aware of the accounting impact that actuals have on the project should use entry journals to create actuals.</span></span> <span data-ttu-id="09f5b-140">Zbog uticaja ovog tipa dnevnika, pažljivo birajte ko ima pristup kreiranju dnevnika za knjiženje.</span><span class="sxs-lookup"><span data-stu-id="09f5b-140">Because of the impact of this journal type, you should carefully choose who has access to create entry journals.</span></span>
-## <a name="record-actuals-based-on-project-events"></a><span data-ttu-id="09f5b-141">Evidentiranje stvarnih vrednosti na osnovu događaja u projektu</span><span class="sxs-lookup"><span data-stu-id="09f5b-141">Record actuals based on project events</span></span>
+> <span data-ttu-id="4e6be-160">Aplikacija ne potvrđuje tip stavke u glavnoj knjizi ili povezano određivanje cena koje se unosi u stavku u glavnoj knjizi.</span><span class="sxs-lookup"><span data-stu-id="4e6be-160">The application doesn't validate the journal line type or the related pricing that is entered on the journal line.</span></span> <span data-ttu-id="4e6be-161">Stoga samo korisnik koji je potpuno svestan računovodstvenog uticaja koji stvarne vrednosti imaju na projekat treba da koristi dnevnike za knjiženje za kreiranje stvarnih podataka.</span><span class="sxs-lookup"><span data-stu-id="4e6be-161">Therefore, only a user who is fully aware of the accounting impact that actuals have on the project should use entry journals to create actuals.</span></span> <span data-ttu-id="4e6be-162">Zbog uticaja ovog tipa dnevnika, pažljivo birajte ko ima pristup kreiranju dnevnika za knjiženje.</span><span class="sxs-lookup"><span data-stu-id="4e6be-162">Because of the impact of this journal type, you should carefully choose who has access to create entry journals.</span></span>
 
-<span data-ttu-id="09f5b-142">Project Operations beleži finansijske transakcije koje se dešavaju tokom projekta.</span><span class="sxs-lookup"><span data-stu-id="09f5b-142">Project Operations records the financial transactions that occur during a project.</span></span> <span data-ttu-id="09f5b-143">Ove transakcije se evidentiraju kao stvarne vrednosti.</span><span class="sxs-lookup"><span data-stu-id="09f5b-143">These transactions are recorded as actuals.</span></span> <span data-ttu-id="09f5b-144">Sledeće tabele prikazuju različite vrste stvarnih vrednosti koje se kreiraju, zavisno od toga da li je projekat zasnovan na vremenu i materijalima ili projekat sa fiksnom cenom, da li je u fazi predprodaje ili je interni projekat.</span><span class="sxs-lookup"><span data-stu-id="09f5b-144">The following tables show the different types of actuals that are created, depending on whether the project is a time-and-materials or fixed-price project, is in the presales stage, or is an internal project.</span></span>
+## <a name="record-actuals-based-on-project-events"></a><span data-ttu-id="4e6be-163">Evidentiranje stvarnih vrednosti na osnovu događaja u projektu</span><span class="sxs-lookup"><span data-stu-id="4e6be-163">Record actuals based on project events</span></span>
 
-### <a name="the-resource-belongs-to-same-organizational-unit-as-the-projects-contracting-unit"></a><span data-ttu-id="09f5b-145">Resurs pripada istoj organizacionoj jedinici kao i ugovorna jedinica projekta</span><span class="sxs-lookup"><span data-stu-id="09f5b-145">The resource belongs to same organizational unit as the project's contracting unit</span></span>
+<span data-ttu-id="4e6be-164">Project Operations beleži finansijske transakcije koje se dešavaju tokom projekta.</span><span class="sxs-lookup"><span data-stu-id="4e6be-164">Project Operations records the financial transactions that occur during a project.</span></span> <span data-ttu-id="4e6be-165">Ove transakcije se evidentiraju kao stvarne vrednosti.</span><span class="sxs-lookup"><span data-stu-id="4e6be-165">These transactions are recorded as actuals.</span></span> <span data-ttu-id="4e6be-166">Sledeće tabele prikazuju različite vrste stvarnih vrednosti koje se kreiraju, zavisno od toga da li je projekat zasnovan na vremenu i materijalima ili projekat sa fiksnom cenom, da li je u fazi predprodaje ili je interni projekat.</span><span class="sxs-lookup"><span data-stu-id="4e6be-166">The following tables show the different types of actuals that are created, depending on whether the project is a time-and-materials or fixed-price project, is in the presales stage, or is an internal project.</span></span>
+
+### <a name="the-resource-belongs-to-same-organizational-unit-as-the-projects-contracting-unit"></a><span data-ttu-id="4e6be-167">Resurs pripada istoj organizacionoj jedinici kao i ugovorna jedinica projekta</span><span class="sxs-lookup"><span data-stu-id="4e6be-167">The resource belongs to same organizational unit as the project's contracting unit</span></span>
 
 <table>
 <thead>
 <tr>
-<th rowspan="3"><span data-ttu-id="09f5b-146">Događaj</span><span class="sxs-lookup"><span data-stu-id="09f5b-146">Event</span></span></th>
-<th colspan="4"><span data-ttu-id="09f5b-147">Projekat koji se može naplatiti ili prodati</span><span class="sxs-lookup"><span data-stu-id="09f5b-147">Billable or sold project</span></span></th>
-<th rowspan="3"><span data-ttu-id="09f5b-148">Projekat u fazi predprodaje</span><span class="sxs-lookup"><span data-stu-id="09f5b-148">Project in the presales stage</span></span></th>
-<th rowspan="3"><span data-ttu-id="09f5b-149">Interni projekat</span><span class="sxs-lookup"><span data-stu-id="09f5b-149">Internal project</span></span></th>
+<th rowspan="3"><span data-ttu-id="4e6be-168">Događaj</span><span class="sxs-lookup"><span data-stu-id="4e6be-168">Event</span></span></th>
+<th colspan="4"><span data-ttu-id="4e6be-169">Projekat koji se može naplatiti ili prodati</span><span class="sxs-lookup"><span data-stu-id="4e6be-169">Billable or sold project</span></span></th>
+<th rowspan="3"><span data-ttu-id="4e6be-170">Projekat u fazi predprodaje</span><span class="sxs-lookup"><span data-stu-id="4e6be-170">Project in the presales stage</span></span></th>
+<th rowspan="3"><span data-ttu-id="4e6be-171">Interni projekat</span><span class="sxs-lookup"><span data-stu-id="4e6be-171">Internal project</span></span></th>
 </tr>
 <tr>
-<th colspan="2"><span data-ttu-id="09f5b-150">Vreme i materijali</span><span class="sxs-lookup"><span data-stu-id="09f5b-150">Time and materials</span></span></th>
-<th colspan="2"><span data-ttu-id="09f5b-151">Fiksna cena</span><span class="sxs-lookup"><span data-stu-id="09f5b-151">Fixed price</span></span></th>
+<th colspan="2"><span data-ttu-id="4e6be-172">Vreme i materijali</span><span class="sxs-lookup"><span data-stu-id="4e6be-172">Time and materials</span></span></th>
+<th colspan="2"><span data-ttu-id="4e6be-173">Fiksna cena</span><span class="sxs-lookup"><span data-stu-id="4e6be-173">Fixed price</span></span></th>
 </tr>
 <tr>
-<th><span data-ttu-id="09f5b-152">Stvarne vrednosti</span><span class="sxs-lookup"><span data-stu-id="09f5b-152">Actuals</span></span></th>
-<th><span data-ttu-id="09f5b-153">Valuta transakcije</span><span class="sxs-lookup"><span data-stu-id="09f5b-153">Transaction currency</span></span></th>
-<th><span data-ttu-id="09f5b-154">Fiksna cena</span><span class="sxs-lookup"><span data-stu-id="09f5b-154">Fixed price</span></span></th>
-<th><span data-ttu-id="09f5b-155">Valuta transakcije</span><span class="sxs-lookup"><span data-stu-id="09f5b-155">Transaction currency</span></span></th>
+<th><span data-ttu-id="4e6be-174">Stvarne vrednosti</span><span class="sxs-lookup"><span data-stu-id="4e6be-174">Actuals</span></span></th>
+<th><span data-ttu-id="4e6be-175">Valuta transakcije</span><span class="sxs-lookup"><span data-stu-id="4e6be-175">Transaction currency</span></span></th>
+<th><span data-ttu-id="4e6be-176">Fiksna cena</span><span class="sxs-lookup"><span data-stu-id="4e6be-176">Fixed price</span></span></th>
+<th><span data-ttu-id="4e6be-177">Valuta transakcije</span><span class="sxs-lookup"><span data-stu-id="4e6be-177">Transaction currency</span></span></th>
 </tr>
 </thead>
 <tbody>
 <tr>
-<td><span data-ttu-id="09f5b-156">Stavka vremena je kreirana.</span><span class="sxs-lookup"><span data-stu-id="09f5b-156">A time entry is created.</span></span></td>
-<td colspan="6"><span data-ttu-id="09f5b-157">Nema aktivnosti u entitetu Stvarne vrednosti</span><span class="sxs-lookup"><span data-stu-id="09f5b-157">No activity in the Actuals entity</span></span></td>
+<td><span data-ttu-id="4e6be-178">Stavka vremena je kreirana.</span><span class="sxs-lookup"><span data-stu-id="4e6be-178">A time entry is created.</span></span></td>
+<td colspan="6"><span data-ttu-id="4e6be-179">Nema aktivnosti u entitetu Stvarne vrednosti</span><span class="sxs-lookup"><span data-stu-id="4e6be-179">No activity in the Actuals entity</span></span></td>
 </tr>
 <tr>
-<td><span data-ttu-id="09f5b-158">Stavka vremena je prosleđena.</span><span class="sxs-lookup"><span data-stu-id="09f5b-158">A time entry is submitted.</span></span></td>
-<td colspan="6"><span data-ttu-id="09f5b-159">Nema aktivnosti u entitetu Stvarne vrednosti</span><span class="sxs-lookup"><span data-stu-id="09f5b-159">No activity in the Actuals entity</span></span></td>
+<td><span data-ttu-id="4e6be-180">Stavka vremena je prosleđena.</span><span class="sxs-lookup"><span data-stu-id="4e6be-180">A time entry is submitted.</span></span></td>
+<td colspan="6"><span data-ttu-id="4e6be-181">Nema aktivnosti u entitetu Stvarne vrednosti</span><span class="sxs-lookup"><span data-stu-id="4e6be-181">No activity in the Actuals entity</span></span></td>
 </tr>
 <tr>
-<td rowspan="2"><span data-ttu-id="09f5b-160">Vreme je odobreno, a tokom odobravanja ne može da se promeni ili poveća broj sati za naplatu.</span><span class="sxs-lookup"><span data-stu-id="09f5b-160">Time is approved, and no change to or increase in billable hours occurs during approval.</span></span></td>
-<td><span data-ttu-id="09f5b-161">Stvarna vrednost troškova</span><span class="sxs-lookup"><span data-stu-id="09f5b-161">Cost actual</span></span></td>
-<td><span data-ttu-id="09f5b-162">Ugovorna valuta jedinice</span><span class="sxs-lookup"><span data-stu-id="09f5b-162">Contracting unit currency</span></span></td>
-<td rowspan="2"><span data-ttu-id="09f5b-163">Stvarna vrednost troškova</span><span class="sxs-lookup"><span data-stu-id="09f5b-163">Cost actual</span></span></td>
-<td rowspan="2"><span data-ttu-id="09f5b-164">Ugovorna valuta jedinice</span><span class="sxs-lookup"><span data-stu-id="09f5b-164">Contracting unit currency</span></span>
-<td rowspan="2"><span data-ttu-id="09f5b-165">Stvarna vrednost troškova</span><span class="sxs-lookup"><span data-stu-id="09f5b-165">Cost actual</span></span></td>
-<td rowspan="2"><span data-ttu-id="09f5b-166">Stvarna vrednost troškova</span><span class="sxs-lookup"><span data-stu-id="09f5b-166">Cost actual</span></span></td>
+<td rowspan="2"><span data-ttu-id="4e6be-182">Vreme je odobreno, a tokom odobravanja ne može da se promeni ili poveća broj sati za naplatu.</span><span class="sxs-lookup"><span data-stu-id="4e6be-182">Time is approved, and no change to or increase in billable hours occurs during approval.</span></span></td>
+<td><span data-ttu-id="4e6be-183">Stvarna vrednost troškova</span><span class="sxs-lookup"><span data-stu-id="4e6be-183">Cost actual</span></span></td>
+<td><span data-ttu-id="4e6be-184">Ugovorna valuta jedinice</span><span class="sxs-lookup"><span data-stu-id="4e6be-184">Contracting unit currency</span></span></td>
+<td rowspan="2"><span data-ttu-id="4e6be-185">Stvarna vrednost troškova</span><span class="sxs-lookup"><span data-stu-id="4e6be-185">Cost actual</span></span></td>
+<td rowspan="2"><span data-ttu-id="4e6be-186">Ugovorna valuta jedinice</span><span class="sxs-lookup"><span data-stu-id="4e6be-186">Contracting unit currency</span></span>
+<td rowspan="2"><span data-ttu-id="4e6be-187">Stvarna vrednost troškova</span><span class="sxs-lookup"><span data-stu-id="4e6be-187">Cost actual</span></span></td>
+<td rowspan="2"><span data-ttu-id="4e6be-188">Stvarna vrednost troškova</span><span class="sxs-lookup"><span data-stu-id="4e6be-188">Cost actual</span></span></td>
 </tr>
 <tr>
-<td><span data-ttu-id="09f5b-167">Nenaplaćene stvarne vrednosti prodaje – Naplativo</span><span class="sxs-lookup"><span data-stu-id="09f5b-167">Unbilled sales actual – Chargeable</span></span></td>
-<td><span data-ttu-id="09f5b-168">Ugovorna valuta za projekat</span><span class="sxs-lookup"><span data-stu-id="09f5b-168">Project contract currency</span></span></td>
+<td><span data-ttu-id="4e6be-189">Nenaplaćene stvarne vrednosti prodaje – Naplativo</span><span class="sxs-lookup"><span data-stu-id="4e6be-189">Unbilled sales actual – Chargeable</span></span></td>
+<td><span data-ttu-id="4e6be-190">Ugovorna valuta za projekat</span><span class="sxs-lookup"><span data-stu-id="4e6be-190">Project contract currency</span></span></td>
 </tr>
 <tr>
-<td rowspan="3"><span data-ttu-id="09f5b-169">Vreme je odobreno, a tokom odobravanja dolazi do smanjenja broj sati za naplatu.</span><span class="sxs-lookup"><span data-stu-id="09f5b-169">Time is approved, and a decrease in billable hours occurs during approval.</span></span></td>
-<td><span data-ttu-id="09f5b-170">Stvarna vrednost troškova</span><span class="sxs-lookup"><span data-stu-id="09f5b-170">Cost actual</span></span></td>
-<td><span data-ttu-id="09f5b-171">Ugovorna valuta jedinice</span><span class="sxs-lookup"><span data-stu-id="09f5b-171">Contracting unit currency</span></span></td>
-<td rowspan="3"><span data-ttu-id="09f5b-172">Stvarna vrednost troškova</span><span class="sxs-lookup"><span data-stu-id="09f5b-172">Cost actual</span></span></td>
-<td rowspan="3"><span data-ttu-id="09f5b-173">Ugovorna valuta jedinice</span><span class="sxs-lookup"><span data-stu-id="09f5b-173">Contracting unit currency</span></span></td>
-<td rowspan="3"><span data-ttu-id="09f5b-174">Stvarna vrednost troškova</span><span class="sxs-lookup"><span data-stu-id="09f5b-174">Cost actual</span></span></td>
-<td rowspan="3"><span data-ttu-id="09f5b-175">Stvarna vrednost troškova</span><span class="sxs-lookup"><span data-stu-id="09f5b-175">Cost actual</span></span></td>
+<td rowspan="3"><span data-ttu-id="4e6be-191">Vreme je odobreno, a tokom odobravanja dolazi do smanjenja broj sati za naplatu.</span><span class="sxs-lookup"><span data-stu-id="4e6be-191">Time is approved, and a decrease in billable hours occurs during approval.</span></span></td>
+<td><span data-ttu-id="4e6be-192">Stvarna vrednost troškova</span><span class="sxs-lookup"><span data-stu-id="4e6be-192">Cost actual</span></span></td>
+<td><span data-ttu-id="4e6be-193">Ugovorna valuta jedinice</span><span class="sxs-lookup"><span data-stu-id="4e6be-193">Contracting unit currency</span></span></td>
+<td rowspan="3"><span data-ttu-id="4e6be-194">Stvarna vrednost troškova</span><span class="sxs-lookup"><span data-stu-id="4e6be-194">Cost actual</span></span></td>
+<td rowspan="3"><span data-ttu-id="4e6be-195">Ugovorna valuta jedinice</span><span class="sxs-lookup"><span data-stu-id="4e6be-195">Contracting unit currency</span></span></td>
+<td rowspan="3"><span data-ttu-id="4e6be-196">Stvarna vrednost troškova</span><span class="sxs-lookup"><span data-stu-id="4e6be-196">Cost actual</span></span></td>
+<td rowspan="3"><span data-ttu-id="4e6be-197">Stvarna vrednost troškova</span><span class="sxs-lookup"><span data-stu-id="4e6be-197">Cost actual</span></span></td>
 </tr>
 <tr>
-<td><span data-ttu-id="09f5b-176">Nenaplaćene stvarne vrednosti prodaje – naplativo za novu količinu</span><span class="sxs-lookup"><span data-stu-id="09f5b-176">Unbilled sales actual – Chargeable for the new quantity</span></span></td>
-<td><span data-ttu-id="09f5b-177">Ugovorna valuta za projekat</span><span class="sxs-lookup"><span data-stu-id="09f5b-177">Project contract currency</span></span></td>
+<td><span data-ttu-id="4e6be-198">Nenaplaćene stvarne vrednosti prodaje – naplativo za novu količinu</span><span class="sxs-lookup"><span data-stu-id="4e6be-198">Unbilled sales actual – Chargeable for the new quantity</span></span></td>
+<td><span data-ttu-id="4e6be-199">Ugovorna valuta za projekat</span><span class="sxs-lookup"><span data-stu-id="4e6be-199">Project contract currency</span></span></td>
 </tr>
 <tr>
-<td><span data-ttu-id="09f5b-178">Nenaplaćene stvarne vrednosti prodaje – ne može da se naplati za razliku</span><span class="sxs-lookup"><span data-stu-id="09f5b-178">Unbilled sales actual – Non-chargeable for the difference</span></span></td>
-<td><span data-ttu-id="09f5b-179">Ugovorna valuta za projekat</span><span class="sxs-lookup"><span data-stu-id="09f5b-179">Project contract currency</span></span></td>
+<td><span data-ttu-id="4e6be-200">Nenaplaćene stvarne vrednosti prodaje – ne može da se naplati za razliku</span><span class="sxs-lookup"><span data-stu-id="4e6be-200">Unbilled sales actual – Non-chargeable for the difference</span></span></td>
+<td><span data-ttu-id="4e6be-201">Ugovorna valuta za projekat</span><span class="sxs-lookup"><span data-stu-id="4e6be-201">Project contract currency</span></span></td>
 </tr>
 <tr>
-<td rowspan="2"><span data-ttu-id="09f5b-180">Faktura je odobrena, a ne može da se promeni ili poveća broj sati za naplatu.</span><span class="sxs-lookup"><span data-stu-id="09f5b-180">An invoice is confirmed, and no change to or increase in billable hours occurs.</span></span></td>
-<td><span data-ttu-id="09f5b-181">Storniranje nenaplaćene prodaje</span><span class="sxs-lookup"><span data-stu-id="09f5b-181">Unbilled sales reversal</span></span></td>
-<td><span data-ttu-id="09f5b-182">Ugovorna valuta za projekat</span><span class="sxs-lookup"><span data-stu-id="09f5b-182">Project contract currency</span></span></td>
-<td rowspan="2"><span data-ttu-id="09f5b-183">Naplaćena prodaja za kontrolnu tačku</span><span class="sxs-lookup"><span data-stu-id="09f5b-183">Billed sales for milestone</span></span></td>
-<td rowspan="2"><span data-ttu-id="09f5b-184">Ugovorna valuta za projekat</span><span class="sxs-lookup"><span data-stu-id="09f5b-184">Project contract currency</span></span></td>
-<td rowspan="2"><span data-ttu-id="09f5b-185">Nije primenjivo</span><span class="sxs-lookup"><span data-stu-id="09f5b-185">Not applicable</span></span></td>
-<td rowspan="2"><span data-ttu-id="09f5b-186">Nije primenjivo</span><span class="sxs-lookup"><span data-stu-id="09f5b-186">Not applicable</span></span></td>
+<td rowspan="2"><span data-ttu-id="4e6be-202">Faktura je odobrena, a ne može da se promeni ili poveća broj sati za naplatu.</span><span class="sxs-lookup"><span data-stu-id="4e6be-202">An invoice is confirmed, and no change to or increase in billable hours occurs.</span></span></td>
+<td><span data-ttu-id="4e6be-203">Storniranje nenaplaćene prodaje</span><span class="sxs-lookup"><span data-stu-id="4e6be-203">Unbilled sales reversal</span></span></td>
+<td><span data-ttu-id="4e6be-204">Ugovorna valuta za projekat</span><span class="sxs-lookup"><span data-stu-id="4e6be-204">Project contract currency</span></span></td>
+<td rowspan="2"><span data-ttu-id="4e6be-205">Naplaćena prodaja za kontrolnu tačku</span><span class="sxs-lookup"><span data-stu-id="4e6be-205">Billed sales for milestone</span></span></td>
+<td rowspan="2"><span data-ttu-id="4e6be-206">Ugovorna valuta za projekat</span><span class="sxs-lookup"><span data-stu-id="4e6be-206">Project contract currency</span></span></td>
+<td rowspan="2"><span data-ttu-id="4e6be-207">Nije primenjivo</span><span class="sxs-lookup"><span data-stu-id="4e6be-207">Not applicable</span></span></td>
+<td rowspan="2"><span data-ttu-id="4e6be-208">Nije primenjivo</span><span class="sxs-lookup"><span data-stu-id="4e6be-208">Not applicable</span></span></td>
 </tr>
 <tr>
-<td><span data-ttu-id="09f5b-187">Naplaćena prodaja</span><span class="sxs-lookup"><span data-stu-id="09f5b-187">Billed sales</span></span></td>
-<td><span data-ttu-id="09f5b-188">Ugovorna valuta za projekat</span><span class="sxs-lookup"><span data-stu-id="09f5b-188">Project contract currency</span></span></td>
+<td><span data-ttu-id="4e6be-209">Naplaćena prodaja</span><span class="sxs-lookup"><span data-stu-id="4e6be-209">Billed sales</span></span></td>
+<td><span data-ttu-id="4e6be-210">Ugovorna valuta za projekat</span><span class="sxs-lookup"><span data-stu-id="4e6be-210">Project contract currency</span></span></td>
 </tr>
 <tr>
-<td rowspan="3"><span data-ttu-id="09f5b-189">Faktura je odobrena i dolazi do smanjenja broja sati za naplatu.</span><span class="sxs-lookup"><span data-stu-id="09f5b-189">An invoice is confirmed, and a decrease in billable hours occurs.</span></span></td>
-<td><span data-ttu-id="09f5b-190">Storniranje nenaplaćene prodaje</span><span class="sxs-lookup"><span data-stu-id="09f5b-190">Unbilled sales reversal</span></span></td>
-<td><span data-ttu-id="09f5b-191">Ugovorna valuta za projekat</span><span class="sxs-lookup"><span data-stu-id="09f5b-191">Project contract currency</span></span></td>
-<td rowspan="3"><span data-ttu-id="09f5b-192">Nije primenjivo</span><span class="sxs-lookup"><span data-stu-id="09f5b-192">Not applicable</span></span></td>
-<td rowspan="3"><span data-ttu-id="09f5b-193">Nije primenjivo</span><span class="sxs-lookup"><span data-stu-id="09f5b-193">Not applicable</span></span></td>
-<td rowspan="3"><span data-ttu-id="09f5b-194">Nije primenjivo</span><span class="sxs-lookup"><span data-stu-id="09f5b-194">Not applicable</span></span></td>
-<td rowspan="3"><span data-ttu-id="09f5b-195">Nije primenjivo</span><span class="sxs-lookup"><span data-stu-id="09f5b-195">Not applicable</span></span></td>
+<td rowspan="3"><span data-ttu-id="4e6be-211">Faktura je odobrena i dolazi do smanjenja broja sati za naplatu.</span><span class="sxs-lookup"><span data-stu-id="4e6be-211">An invoice is confirmed, and a decrease in billable hours occurs.</span></span></td>
+<td><span data-ttu-id="4e6be-212">Storniranje nenaplaćene prodaje</span><span class="sxs-lookup"><span data-stu-id="4e6be-212">Unbilled sales reversal</span></span></td>
+<td><span data-ttu-id="4e6be-213">Ugovorna valuta za projekat</span><span class="sxs-lookup"><span data-stu-id="4e6be-213">Project contract currency</span></span></td>
+<td rowspan="3"><span data-ttu-id="4e6be-214">Nije primenjivo</span><span class="sxs-lookup"><span data-stu-id="4e6be-214">Not applicable</span></span></td>
+<td rowspan="3"><span data-ttu-id="4e6be-215">Nije primenjivo</span><span class="sxs-lookup"><span data-stu-id="4e6be-215">Not applicable</span></span></td>
+<td rowspan="3"><span data-ttu-id="4e6be-216">Nije primenjivo</span><span class="sxs-lookup"><span data-stu-id="4e6be-216">Not applicable</span></span></td>
+<td rowspan="3"><span data-ttu-id="4e6be-217">Nije primenjivo</span><span class="sxs-lookup"><span data-stu-id="4e6be-217">Not applicable</span></span></td>
 </tr>
 <tr>
-<td><span data-ttu-id="09f5b-196">Naplaćena prodaja – naplativo za novu količinu</span><span class="sxs-lookup"><span data-stu-id="09f5b-196">Billed sales – Chargeable for the new quantity</span></span></td>
-<td><span data-ttu-id="09f5b-197">Ugovorna valuta za projekat</span><span class="sxs-lookup"><span data-stu-id="09f5b-197">Project contract currency</span></span></td>
+<td><span data-ttu-id="4e6be-218">Naplaćena prodaja – naplativo za novu količinu</span><span class="sxs-lookup"><span data-stu-id="4e6be-218">Billed sales – Chargeable for the new quantity</span></span></td>
+<td><span data-ttu-id="4e6be-219">Ugovorna valuta za projekat</span><span class="sxs-lookup"><span data-stu-id="4e6be-219">Project contract currency</span></span></td>
 </tr>
 <tr>
-<td><span data-ttu-id="09f5b-198">Naplaćena prodaja – ne može da se naplati za razliku</span><span class="sxs-lookup"><span data-stu-id="09f5b-198">Billed sales – Non-chargeable for the difference</span></span></td>
-<td><span data-ttu-id="09f5b-199">Ugovorna valuta za projekat</span><span class="sxs-lookup"><span data-stu-id="09f5b-199">Project contract currency</span></span></td>
+<td><span data-ttu-id="4e6be-220">Naplaćena prodaja – ne može da se naplati za razliku</span><span class="sxs-lookup"><span data-stu-id="4e6be-220">Billed sales – Non-chargeable for the difference</span></span></td>
+<td><span data-ttu-id="4e6be-221">Ugovorna valuta za projekat</span><span class="sxs-lookup"><span data-stu-id="4e6be-221">Project contract currency</span></span></td>
 </tr>
 <tr>
-<td rowspan="2"><span data-ttu-id="09f5b-200">Faktura se ispravlja da bi se povećala naplativa količina.</span><span class="sxs-lookup"><span data-stu-id="09f5b-200">An invoice is corrected to increase the chargeable quantity.</span></span></td>
-<td><span data-ttu-id="09f5b-201">Naplaćena prodaja – Storniranje</span><span class="sxs-lookup"><span data-stu-id="09f5b-201">Billed sales – Reversal</span></span></td>
-<td><span data-ttu-id="09f5b-202">Ugovorna valuta za projekat</span><span class="sxs-lookup"><span data-stu-id="09f5b-202">Project contract currency</span></span></td>
+<td rowspan="2"><span data-ttu-id="4e6be-222">Faktura se ispravlja da bi se povećala naplativa količina.</span><span class="sxs-lookup"><span data-stu-id="4e6be-222">An invoice is corrected to increase the chargeable quantity.</span></span></td>
+<td><span data-ttu-id="4e6be-223">Naplaćena prodaja – Storniranje</span><span class="sxs-lookup"><span data-stu-id="4e6be-223">Billed sales – Reversal</span></span></td>
+<td><span data-ttu-id="4e6be-224">Ugovorna valuta za projekat</span><span class="sxs-lookup"><span data-stu-id="4e6be-224">Project contract currency</span></span></td>
 <td rowspan="5">
 <ul>
-<li><span data-ttu-id="09f5b-203">Storniranje naplaćene prodaje za kontrolnu tačku</span><span class="sxs-lookup"><span data-stu-id="09f5b-203">Billed sales reversal for milestone</span></span></li>
-<li><span data-ttu-id="09f5b-204">Promena statusa kontrolne tačke sa <strong>Fakturirano</strong> na <strong>Spremno za fakturisanje</strong></span><span class="sxs-lookup"><span data-stu-id="09f5b-204">Change in milestone status from <strong>Invoiced</strong> to <strong>Ready for invoice</strong></span></span></li>
+<li><span data-ttu-id="4e6be-225">Storniranje naplaćene prodaje za kontrolnu tačku</span><span class="sxs-lookup"><span data-stu-id="4e6be-225">Billed sales reversal for milestone</span></span></li>
+<li><span data-ttu-id="4e6be-226">Promena statusa kontrolne tačke sa <strong>Fakturirano</strong> na <strong>Spremno za fakturisanje</strong></span><span class="sxs-lookup"><span data-stu-id="4e6be-226">Change in milestone status from <strong>Invoiced</strong> to <strong>Ready for invoice</strong></span></span></li>
 </ul>
 </td>
-<td rowspan="5"><span data-ttu-id="09f5b-205">Ugovorna valuta za projekat</span><span class="sxs-lookup"><span data-stu-id="09f5b-205">Project contract currency</span></span></td>
-<td rowspan="5"><span data-ttu-id="09f5b-206">Nije primenjivo</span><span class="sxs-lookup"><span data-stu-id="09f5b-206">Not applicable</span></span></td>
-<td rowspan="5"><span data-ttu-id="09f5b-207">Nije primenjivo</span><span class="sxs-lookup"><span data-stu-id="09f5b-207">Not applicable</span></span></td>
+<td rowspan="5"><span data-ttu-id="4e6be-227">Ugovorna valuta za projekat</span><span class="sxs-lookup"><span data-stu-id="4e6be-227">Project contract currency</span></span></td>
+<td rowspan="5"><span data-ttu-id="4e6be-228">Nije primenjivo</span><span class="sxs-lookup"><span data-stu-id="4e6be-228">Not applicable</span></span></td>
+<td rowspan="5"><span data-ttu-id="4e6be-229">Nije primenjivo</span><span class="sxs-lookup"><span data-stu-id="4e6be-229">Not applicable</span></span></td>
 </tr>
 <tr>
-<td><span data-ttu-id="09f5b-208">Naplaćena prodaja</span><span class="sxs-lookup"><span data-stu-id="09f5b-208">Billed sales</span></span></td>
-<td><span data-ttu-id="09f5b-209">Ugovorna valuta za projekat</span><span class="sxs-lookup"><span data-stu-id="09f5b-209">Project contract currency</span></span></td>
+<td><span data-ttu-id="4e6be-230">Naplaćena prodaja</span><span class="sxs-lookup"><span data-stu-id="4e6be-230">Billed sales</span></span></td>
+<td><span data-ttu-id="4e6be-231">Ugovorna valuta za projekat</span><span class="sxs-lookup"><span data-stu-id="4e6be-231">Project contract currency</span></span></td>
 </tr>
 <tr>
-<td rowspan="3"><span data-ttu-id="09f5b-210">Faktura se ispravlja da bi se smanjila naplativa količina.</span><span class="sxs-lookup"><span data-stu-id="09f5b-210">An invoice is corrected to decrease the chargeable quantity.</span></span></td>
-<td><span data-ttu-id="09f5b-211">Naplaćena prodaja – Storniranje</span><span class="sxs-lookup"><span data-stu-id="09f5b-211">Billed sales – Reversal</span></span></td>
-<td><span data-ttu-id="09f5b-212">Ugovorna valuta za projekat</span><span class="sxs-lookup"><span data-stu-id="09f5b-212">Project contract currency</span></span></td>
+<td rowspan="3"><span data-ttu-id="4e6be-232">Faktura se ispravlja da bi se smanjila naplativa količina.</span><span class="sxs-lookup"><span data-stu-id="4e6be-232">An invoice is corrected to decrease the chargeable quantity.</span></span></td>
+<td><span data-ttu-id="4e6be-233">Naplaćena prodaja – Storniranje</span><span class="sxs-lookup"><span data-stu-id="4e6be-233">Billed sales – Reversal</span></span></td>
+<td><span data-ttu-id="4e6be-234">Ugovorna valuta za projekat</span><span class="sxs-lookup"><span data-stu-id="4e6be-234">Project contract currency</span></span></td>
 </tr>
 <tr>
-<td><span data-ttu-id="09f5b-213">Naplaćena prodaja za novu količinu</span><span class="sxs-lookup"><span data-stu-id="09f5b-213">Billed sales for the new quantity</span></span></td>
-<td><span data-ttu-id="09f5b-214">Ugovorna valuta za projekat</span><span class="sxs-lookup"><span data-stu-id="09f5b-214">Project contract currency</span></span></td>
+<td><span data-ttu-id="4e6be-235">Naplaćena prodaja za novu količinu</span><span class="sxs-lookup"><span data-stu-id="4e6be-235">Billed sales for the new quantity</span></span></td>
+<td><span data-ttu-id="4e6be-236">Ugovorna valuta za projekat</span><span class="sxs-lookup"><span data-stu-id="4e6be-236">Project contract currency</span></span></td>
 </tr>
 <tr>
-<td><span data-ttu-id="09f5b-215">Nenaplaćena prodaja – može da se naplati za razliku</span><span class="sxs-lookup"><span data-stu-id="09f5b-215">Unbilled sales – Chargeable for the difference</span></span></td>
-<td><span data-ttu-id="09f5b-216">Ugovorna valuta za projekat</span><span class="sxs-lookup"><span data-stu-id="09f5b-216">Project contract currency</span></span></td>
+<td><span data-ttu-id="4e6be-237">Nenaplaćena prodaja – može da se naplati za razliku</span><span class="sxs-lookup"><span data-stu-id="4e6be-237">Unbilled sales – Chargeable for the difference</span></span></td>
+<td><span data-ttu-id="4e6be-238">Ugovorna valuta za projekat</span><span class="sxs-lookup"><span data-stu-id="4e6be-238">Project contract currency</span></span></td>
 </tr>
 </tbody>
 </table>
 
-### <a name="the-resource-belongs-to-an-organizational-unit-that-differs-from-the-projects-contracting-unit"></a><span data-ttu-id="09f5b-217">Resurs pripada organizacionoj jedinici koja se razlikuje od ugovorne jedinice projekta</span><span class="sxs-lookup"><span data-stu-id="09f5b-217">The resource belongs to an organizational unit that differs from the project's contracting unit</span></span>
+### <a name="the-resource-belongs-to-an-organizational-unit-that-differs-from-the-projects-contracting-unit"></a><span data-ttu-id="4e6be-239">Resurs pripada organizacionoj jedinici koja se razlikuje od ugovorne jedinice projekta</span><span class="sxs-lookup"><span data-stu-id="4e6be-239">The resource belongs to an organizational unit that differs from the project's contracting unit</span></span>
 
 <table>
 <thead>
 <tr>
-<th rowspan="3"><span data-ttu-id="09f5b-218">Događaj</span><span class="sxs-lookup"><span data-stu-id="09f5b-218">Event</span></span></th>
-<th colspan="4"><span data-ttu-id="09f5b-219">Projekat koji se može naplatiti ili prodati</span><span class="sxs-lookup"><span data-stu-id="09f5b-219">Billable or sold project</span></span></th>
-<th rowspan="3"><span data-ttu-id="09f5b-220">Projekat u fazi predprodaje</span><span class="sxs-lookup"><span data-stu-id="09f5b-220">Project in the presales stage</span></span></th>
-<th rowspan="3"><span data-ttu-id="09f5b-221">Interni projekat</span><span class="sxs-lookup"><span data-stu-id="09f5b-221">Internal project</span></span></th>
+<th rowspan="3"><span data-ttu-id="4e6be-240">Događaj</span><span class="sxs-lookup"><span data-stu-id="4e6be-240">Event</span></span></th>
+<th colspan="4"><span data-ttu-id="4e6be-241">Projekat koji se može naplatiti ili prodati</span><span class="sxs-lookup"><span data-stu-id="4e6be-241">Billable or sold project</span></span></th>
+<th rowspan="3"><span data-ttu-id="4e6be-242">Projekat u fazi predprodaje</span><span class="sxs-lookup"><span data-stu-id="4e6be-242">Project in the presales stage</span></span></th>
+<th rowspan="3"><span data-ttu-id="4e6be-243">Interni projekat</span><span class="sxs-lookup"><span data-stu-id="4e6be-243">Internal project</span></span></th>
 </tr>
 <tr>
-<th colspan="2"><span data-ttu-id="09f5b-222">Vreme i materijali</span><span class="sxs-lookup"><span data-stu-id="09f5b-222">Time and materials</span></span></th>
-<th colspan="2"><span data-ttu-id="09f5b-223">Fiksna cena</span><span class="sxs-lookup"><span data-stu-id="09f5b-223">Fixed price</span></span></th>
+<th colspan="2"><span data-ttu-id="4e6be-244">Vreme i materijali</span><span class="sxs-lookup"><span data-stu-id="4e6be-244">Time and materials</span></span></th>
+<th colspan="2"><span data-ttu-id="4e6be-245">Fiksna cena</span><span class="sxs-lookup"><span data-stu-id="4e6be-245">Fixed price</span></span></th>
 </tr>
 <tr>
-<th><span data-ttu-id="09f5b-224">Stvarne vrednosti</span><span class="sxs-lookup"><span data-stu-id="09f5b-224">Actuals</span></span></th>
-<th><span data-ttu-id="09f5b-225">Valuta transakcije</span><span class="sxs-lookup"><span data-stu-id="09f5b-225">Transaction currency</span></span></th>
-<th><span data-ttu-id="09f5b-226">Fiksna cena</span><span class="sxs-lookup"><span data-stu-id="09f5b-226">Fixed price</span></span></th>
-<th><span data-ttu-id="09f5b-227">Valuta transakcije</span><span class="sxs-lookup"><span data-stu-id="09f5b-227">Transaction currency</span></span></th>
+<th><span data-ttu-id="4e6be-246">Stvarne vrednosti</span><span class="sxs-lookup"><span data-stu-id="4e6be-246">Actuals</span></span></th>
+<th><span data-ttu-id="4e6be-247">Valuta transakcije</span><span class="sxs-lookup"><span data-stu-id="4e6be-247">Transaction currency</span></span></th>
+<th><span data-ttu-id="4e6be-248">Fiksna cena</span><span class="sxs-lookup"><span data-stu-id="4e6be-248">Fixed price</span></span></th>
+<th><span data-ttu-id="4e6be-249">Valuta transakcije</span><span class="sxs-lookup"><span data-stu-id="4e6be-249">Transaction currency</span></span></th>
 </tr>
 </thead>
 <tbody>
 <tr>
-<td><span data-ttu-id="09f5b-228">Stavka vremena je kreirana.</span><span class="sxs-lookup"><span data-stu-id="09f5b-228">A time entry is created.</span></span></td>
-<td colspan="6"><span data-ttu-id="09f5b-229">Nema aktivnosti u entitetu Stvarne vrednosti</span><span class="sxs-lookup"><span data-stu-id="09f5b-229">No activity in the Actuals entity</span></span></td>
+<td><span data-ttu-id="4e6be-250">Stavka vremena je kreirana.</span><span class="sxs-lookup"><span data-stu-id="4e6be-250">A time entry is created.</span></span></td>
+<td colspan="6"><span data-ttu-id="4e6be-251">Nema aktivnosti u entitetu Stvarne vrednosti</span><span class="sxs-lookup"><span data-stu-id="4e6be-251">No activity in the Actuals entity</span></span></td>
 </tr>
 <tr>
-<td><span data-ttu-id="09f5b-230">Stavka vremena je prosleđena.</span><span class="sxs-lookup"><span data-stu-id="09f5b-230">A time entry is submitted.</span></span></td>
-<td colspan="6"><span data-ttu-id="09f5b-231">Nema aktivnosti u entitetu Stvarne vrednosti</span><span class="sxs-lookup"><span data-stu-id="09f5b-231">No activity in the Actuals entity</span></span></td>
+<td><span data-ttu-id="4e6be-252">Stavka vremena je prosleđena.</span><span class="sxs-lookup"><span data-stu-id="4e6be-252">A time entry is submitted.</span></span></td>
+<td colspan="6"><span data-ttu-id="4e6be-253">Nema aktivnosti u entitetu Stvarne vrednosti</span><span class="sxs-lookup"><span data-stu-id="4e6be-253">No activity in the Actuals entity</span></span></td>
 </tr>
 <tr>
-<td rowspan="4"><span data-ttu-id="09f5b-232">Vreme je odobreno, a tokom odobravanja ne može da se promeni ili poveća broj sati za naplatu.</span><span class="sxs-lookup"><span data-stu-id="09f5b-232">Time is approved, and no change to or increase in billable hours occurs during approval.</span></span></td>
-<td><span data-ttu-id="09f5b-233">Stvarna vrednost troškova</span><span class="sxs-lookup"><span data-stu-id="09f5b-233">Cost actual</span></span></td>
-<td><span data-ttu-id="09f5b-234">Ugovorna valuta jedinice</span><span class="sxs-lookup"><span data-stu-id="09f5b-234">Contracting unit currency</span></span></td>
-<td rowspan="4"><span data-ttu-id="09f5b-235">Stvarna vrednost troškova</span><span class="sxs-lookup"><span data-stu-id="09f5b-235">Cost actual</span></span></td>
-<td rowspan="4"><span data-ttu-id="09f5b-236">Ugovorna valuta jedinice</span><span class="sxs-lookup"><span data-stu-id="09f5b-236">Contracting unit currency</span></span></td>
-<td rowspan="4"><span data-ttu-id="09f5b-237">Stvarna vrednost troškova</span><span class="sxs-lookup"><span data-stu-id="09f5b-237">Cost actual</span></span></td>
-<td rowspan="4"><span data-ttu-id="09f5b-238">Stvarna vrednost troškova</span><span class="sxs-lookup"><span data-stu-id="09f5b-238">Cost actual</span></span></td>
+<td rowspan="4"><span data-ttu-id="4e6be-254">Vreme je odobreno, a tokom odobravanja ne može da se promeni ili poveća broj sati za naplatu.</span><span class="sxs-lookup"><span data-stu-id="4e6be-254">Time is approved, and no change to or increase in billable hours occurs during approval.</span></span></td>
+<td><span data-ttu-id="4e6be-255">Stvarna vrednost troškova</span><span class="sxs-lookup"><span data-stu-id="4e6be-255">Cost actual</span></span></td>
+<td><span data-ttu-id="4e6be-256">Ugovorna valuta jedinice</span><span class="sxs-lookup"><span data-stu-id="4e6be-256">Contracting unit currency</span></span></td>
+<td rowspan="4"><span data-ttu-id="4e6be-257">Stvarna vrednost troškova</span><span class="sxs-lookup"><span data-stu-id="4e6be-257">Cost actual</span></span></td>
+<td rowspan="4"><span data-ttu-id="4e6be-258">Ugovorna valuta jedinice</span><span class="sxs-lookup"><span data-stu-id="4e6be-258">Contracting unit currency</span></span></td>
+<td rowspan="4"><span data-ttu-id="4e6be-259">Stvarna vrednost troškova</span><span class="sxs-lookup"><span data-stu-id="4e6be-259">Cost actual</span></span></td>
+<td rowspan="4"><span data-ttu-id="4e6be-260">Stvarna vrednost troškova</span><span class="sxs-lookup"><span data-stu-id="4e6be-260">Cost actual</span></span></td>
 </tr>
 <tr>
-<td><span data-ttu-id="09f5b-239">Nenaplaćene stvarne vrednosti prodaje – Naplativo</span><span class="sxs-lookup"><span data-stu-id="09f5b-239">Unbilled sales actual – Chargeable</span></span></td>
-<td><span data-ttu-id="09f5b-240">Ugovorna valuta za projekat</span><span class="sxs-lookup"><span data-stu-id="09f5b-240">Project contract currency</span></span></td>
+<td><span data-ttu-id="4e6be-261">Nenaplaćene stvarne vrednosti prodaje – Naplativo</span><span class="sxs-lookup"><span data-stu-id="4e6be-261">Unbilled sales actual – Chargeable</span></span></td>
+<td><span data-ttu-id="4e6be-262">Ugovorna valuta za projekat</span><span class="sxs-lookup"><span data-stu-id="4e6be-262">Project contract currency</span></span></td>
 </tr>
 <tr>
-<td><span data-ttu-id="09f5b-241">Troškovi jedinice za obezbeđivanje resursa</span><span class="sxs-lookup"><span data-stu-id="09f5b-241">Resourcing unit cost</span></span></td>
-<td><span data-ttu-id="09f5b-242">Valuta jedinice za obezbeđivanje resursa</span><span class="sxs-lookup"><span data-stu-id="09f5b-242">Resourcing unit currency</span></span></td>
+<td><span data-ttu-id="4e6be-263">Troškovi jedinice za obezbeđivanje resursa</span><span class="sxs-lookup"><span data-stu-id="4e6be-263">Resourcing unit cost</span></span></td>
+<td><span data-ttu-id="4e6be-264">Valuta jedinice za obezbeđivanje resursa</span><span class="sxs-lookup"><span data-stu-id="4e6be-264">Resourcing unit currency</span></span></td>
 </tr>
 <tr>
-<td><span data-ttu-id="09f5b-243">Prodaja između organizacija</span><span class="sxs-lookup"><span data-stu-id="09f5b-243">Interorganizational sales</span></span></td>
-<td><span data-ttu-id="09f5b-244">Ugovorna valuta jedinice</span><span class="sxs-lookup"><span data-stu-id="09f5b-244">Contracting unit currency</span></span></td>
+<td><span data-ttu-id="4e6be-265">Prodaja između organizacija</span><span class="sxs-lookup"><span data-stu-id="4e6be-265">Interorganizational sales</span></span></td>
+<td><span data-ttu-id="4e6be-266">Ugovorna valuta jedinice</span><span class="sxs-lookup"><span data-stu-id="4e6be-266">Contracting unit currency</span></span></td>
 </tr>
 <tr>
-<td rowspan="5"><span data-ttu-id="09f5b-245">Vreme je odobreno, a tokom odobravanja dolazi do smanjenja broj sati za naplatu.</span><span class="sxs-lookup"><span data-stu-id="09f5b-245">Time is approved, and a decrease in billable hours occurs during approval.</span></span></td>
-<td><span data-ttu-id="09f5b-246">Stvarna vrednost troškova</span><span class="sxs-lookup"><span data-stu-id="09f5b-246">Cost actual</span></span></td>
-<td><span data-ttu-id="09f5b-247">Ugovorna valuta jedinice</span><span class="sxs-lookup"><span data-stu-id="09f5b-247">Contracting unit currency</span></span></td>
-<td rowspan="5"><span data-ttu-id="09f5b-248">Stvarna vrednost troškova</span><span class="sxs-lookup"><span data-stu-id="09f5b-248">Cost actual</span></span></td>
-<td rowspan="5"><span data-ttu-id="09f5b-249">Ugovorna valuta jedinice</span><span class="sxs-lookup"><span data-stu-id="09f5b-249">Contracting unit currency</span></span></td>
-<td rowspan="5"><span data-ttu-id="09f5b-250">Stvarna vrednost troškova</span><span class="sxs-lookup"><span data-stu-id="09f5b-250">Cost actual</span></span></td>
-<td rowspan="5"><span data-ttu-id="09f5b-251">Stvarna vrednost troškova</span><span class="sxs-lookup"><span data-stu-id="09f5b-251">Cost actual</span></span></td>
+<td rowspan="5"><span data-ttu-id="4e6be-267">Vreme je odobreno, a tokom odobravanja dolazi do smanjenja broj sati za naplatu.</span><span class="sxs-lookup"><span data-stu-id="4e6be-267">Time is approved, and a decrease in billable hours occurs during approval.</span></span></td>
+<td><span data-ttu-id="4e6be-268">Stvarna vrednost troškova</span><span class="sxs-lookup"><span data-stu-id="4e6be-268">Cost actual</span></span></td>
+<td><span data-ttu-id="4e6be-269">Ugovorna valuta jedinice</span><span class="sxs-lookup"><span data-stu-id="4e6be-269">Contracting unit currency</span></span></td>
+<td rowspan="5"><span data-ttu-id="4e6be-270">Stvarna vrednost troškova</span><span class="sxs-lookup"><span data-stu-id="4e6be-270">Cost actual</span></span></td>
+<td rowspan="5"><span data-ttu-id="4e6be-271">Ugovorna valuta jedinice</span><span class="sxs-lookup"><span data-stu-id="4e6be-271">Contracting unit currency</span></span></td>
+<td rowspan="5"><span data-ttu-id="4e6be-272">Stvarna vrednost troškova</span><span class="sxs-lookup"><span data-stu-id="4e6be-272">Cost actual</span></span></td>
+<td rowspan="5"><span data-ttu-id="4e6be-273">Stvarna vrednost troškova</span><span class="sxs-lookup"><span data-stu-id="4e6be-273">Cost actual</span></span></td>
 </tr>
 <tr>
-<td><span data-ttu-id="09f5b-252">Troškovi jedinice za obezbeđivanje resursa</span><span class="sxs-lookup"><span data-stu-id="09f5b-252">Resourcing unit cost</span></span></td>
-<td><span data-ttu-id="09f5b-253">Valuta jedinice za obezbeđivanje resursa</span><span class="sxs-lookup"><span data-stu-id="09f5b-253">Resourcing unit currency</span></span></td>
+<td><span data-ttu-id="4e6be-274">Troškovi jedinice za obezbeđivanje resursa</span><span class="sxs-lookup"><span data-stu-id="4e6be-274">Resourcing unit cost</span></span></td>
+<td><span data-ttu-id="4e6be-275">Valuta jedinice za obezbeđivanje resursa</span><span class="sxs-lookup"><span data-stu-id="4e6be-275">Resourcing unit currency</span></span></td>
 </tr>
 <tr>
-<td><span data-ttu-id="09f5b-254">Prodaja između organizacija</span><span class="sxs-lookup"><span data-stu-id="09f5b-254">Interorganizational sales</span></span></td>
-<td><span data-ttu-id="09f5b-255">Ugovorna valuta jedinice</span><span class="sxs-lookup"><span data-stu-id="09f5b-255">Contracting unit currency</span></span></td>
+<td><span data-ttu-id="4e6be-276">Prodaja između organizacija</span><span class="sxs-lookup"><span data-stu-id="4e6be-276">Interorganizational sales</span></span></td>
+<td><span data-ttu-id="4e6be-277">Ugovorna valuta jedinice</span><span class="sxs-lookup"><span data-stu-id="4e6be-277">Contracting unit currency</span></span></td>
 </tr>
 <tr>
-<td><span data-ttu-id="09f5b-256">Nenaplaćene stvarne vrednosti prodaje – naplativo za novu količinu</span><span class="sxs-lookup"><span data-stu-id="09f5b-256">Unbilled sales actual – Chargeable for the new quantity</span></span></td>
-<td><span data-ttu-id="09f5b-257">Ugovorna valuta za projekat</span><span class="sxs-lookup"><span data-stu-id="09f5b-257">Project contract currency</span></span></td>
+<td><span data-ttu-id="4e6be-278">Nenaplaćene stvarne vrednosti prodaje – naplativo za novu količinu</span><span class="sxs-lookup"><span data-stu-id="4e6be-278">Unbilled sales actual – Chargeable for the new quantity</span></span></td>
+<td><span data-ttu-id="4e6be-279">Ugovorna valuta za projekat</span><span class="sxs-lookup"><span data-stu-id="4e6be-279">Project contract currency</span></span></td>
 </tr>
 <tr>
-<td><span data-ttu-id="09f5b-258">Nenaplaćene stvarne vrednosti prodaje – ne može da se naplati za razliku</span><span class="sxs-lookup"><span data-stu-id="09f5b-258">Unbilled sales actual – Non-chargeable for the difference</span></span></td>
-<td><span data-ttu-id="09f5b-259">Ugovorna valuta za projekat</span><span class="sxs-lookup"><span data-stu-id="09f5b-259">Project contract currency</span></span></td>
+<td><span data-ttu-id="4e6be-280">Nenaplaćene stvarne vrednosti prodaje – ne može da se naplati za razliku</span><span class="sxs-lookup"><span data-stu-id="4e6be-280">Unbilled sales actual – Non-chargeable for the difference</span></span></td>
+<td><span data-ttu-id="4e6be-281">Ugovorna valuta za projekat</span><span class="sxs-lookup"><span data-stu-id="4e6be-281">Project contract currency</span></span></td>
 </tr>
 <tr>
-<td rowspan="2"><span data-ttu-id="09f5b-260">Faktura je odobrena, a ne može da se promeni ili poveća broj sati za naplatu.</span><span class="sxs-lookup"><span data-stu-id="09f5b-260">An invoice is confirmed, and no change to or increase in billable hours occurs.</span></span></td>
-<td><span data-ttu-id="09f5b-261">Storniranje nenaplaćene prodaje</span><span class="sxs-lookup"><span data-stu-id="09f5b-261">Unbilled sales reversal</span></span></td>
-<td><span data-ttu-id="09f5b-262">Ugovorna valuta za projekat</span><span class="sxs-lookup"><span data-stu-id="09f5b-262">Project contract currency</span></span></td>
-<td rowspan="2"><span data-ttu-id="09f5b-263">Naplaćena prodaja za kontrolnu tačku</span><span class="sxs-lookup"><span data-stu-id="09f5b-263">Billed sales for milestone</span></span></td>
-<td rowspan="2"><span data-ttu-id="09f5b-264">Ugovorna valuta za projekat</span><span class="sxs-lookup"><span data-stu-id="09f5b-264">Project contract currency</span></span></td>
-<td rowspan="2"><span data-ttu-id="09f5b-265">Nije primenjivo</span><span class="sxs-lookup"><span data-stu-id="09f5b-265">Not applicable</span></span></td>
-<td rowspan="2"><span data-ttu-id="09f5b-266">Nije primenjivo</span><span class="sxs-lookup"><span data-stu-id="09f5b-266">Not applicable</span></span></td>
+<td rowspan="2"><span data-ttu-id="4e6be-282">Faktura je odobrena, a ne može da se promeni ili poveća broj sati za naplatu.</span><span class="sxs-lookup"><span data-stu-id="4e6be-282">An invoice is confirmed, and no change to or increase in billable hours occurs.</span></span></td>
+<td><span data-ttu-id="4e6be-283">Storniranje nenaplaćene prodaje</span><span class="sxs-lookup"><span data-stu-id="4e6be-283">Unbilled sales reversal</span></span></td>
+<td><span data-ttu-id="4e6be-284">Ugovorna valuta za projekat</span><span class="sxs-lookup"><span data-stu-id="4e6be-284">Project contract currency</span></span></td>
+<td rowspan="2"><span data-ttu-id="4e6be-285">Naplaćena prodaja za kontrolnu tačku</span><span class="sxs-lookup"><span data-stu-id="4e6be-285">Billed sales for milestone</span></span></td>
+<td rowspan="2"><span data-ttu-id="4e6be-286">Ugovorna valuta za projekat</span><span class="sxs-lookup"><span data-stu-id="4e6be-286">Project contract currency</span></span></td>
+<td rowspan="2"><span data-ttu-id="4e6be-287">Nije primenjivo</span><span class="sxs-lookup"><span data-stu-id="4e6be-287">Not applicable</span></span></td>
+<td rowspan="2"><span data-ttu-id="4e6be-288">Nije primenjivo</span><span class="sxs-lookup"><span data-stu-id="4e6be-288">Not applicable</span></span></td>
 </tr>
 <tr>
-<td><span data-ttu-id="09f5b-267">Naplaćena prodaja</span><span class="sxs-lookup"><span data-stu-id="09f5b-267">Billed sales</span></span></td>
-<td><span data-ttu-id="09f5b-268">Ugovorna valuta za projekat</span><span class="sxs-lookup"><span data-stu-id="09f5b-268">Project contract currency</span></span></td>
+<td><span data-ttu-id="4e6be-289">Naplaćena prodaja</span><span class="sxs-lookup"><span data-stu-id="4e6be-289">Billed sales</span></span></td>
+<td><span data-ttu-id="4e6be-290">Ugovorna valuta za projekat</span><span class="sxs-lookup"><span data-stu-id="4e6be-290">Project contract currency</span></span></td>
 </tr>
 <tr>
-<td rowspan="3"><span data-ttu-id="09f5b-269">Faktura je odobrena i dolazi do smanjenja broja sati za naplatu.</span><span class="sxs-lookup"><span data-stu-id="09f5b-269">An invoice is confirmed, and a decrease in billable hours occurs.</span></span></td>
-<td><span data-ttu-id="09f5b-270">Storniranje nenaplaćene prodaje</span><span class="sxs-lookup"><span data-stu-id="09f5b-270">Unbilled sales reversal</span></span></td>
-<td><span data-ttu-id="09f5b-271">Ugovorna valuta za projekat</span><span class="sxs-lookup"><span data-stu-id="09f5b-271">Project contract currency</span></span></td>
-<td rowspan="3"><span data-ttu-id="09f5b-272">Nije primenjivo</span><span class="sxs-lookup"><span data-stu-id="09f5b-272">Not applicable</span></span></td>
-<td rowspan="3"><span data-ttu-id="09f5b-273">Nije primenjivo</span><span class="sxs-lookup"><span data-stu-id="09f5b-273">Not applicable</span></span></td>
-<td rowspan="3"><span data-ttu-id="09f5b-274">Nije primenjivo</span><span class="sxs-lookup"><span data-stu-id="09f5b-274">Not applicable</span></span></td>
-<td rowspan="3"><span data-ttu-id="09f5b-275">Nije primenjivo</span><span class="sxs-lookup"><span data-stu-id="09f5b-275">Not applicable</span></span></td>
+<td rowspan="3"><span data-ttu-id="4e6be-291">Faktura je odobrena i dolazi do smanjenja broja sati za naplatu.</span><span class="sxs-lookup"><span data-stu-id="4e6be-291">An invoice is confirmed, and a decrease in billable hours occurs.</span></span></td>
+<td><span data-ttu-id="4e6be-292">Storniranje nenaplaćene prodaje</span><span class="sxs-lookup"><span data-stu-id="4e6be-292">Unbilled sales reversal</span></span></td>
+<td><span data-ttu-id="4e6be-293">Ugovorna valuta za projekat</span><span class="sxs-lookup"><span data-stu-id="4e6be-293">Project contract currency</span></span></td>
+<td rowspan="3"><span data-ttu-id="4e6be-294">Nije primenjivo</span><span class="sxs-lookup"><span data-stu-id="4e6be-294">Not applicable</span></span></td>
+<td rowspan="3"><span data-ttu-id="4e6be-295">Nije primenjivo</span><span class="sxs-lookup"><span data-stu-id="4e6be-295">Not applicable</span></span></td>
+<td rowspan="3"><span data-ttu-id="4e6be-296">Nije primenjivo</span><span class="sxs-lookup"><span data-stu-id="4e6be-296">Not applicable</span></span></td>
+<td rowspan="3"><span data-ttu-id="4e6be-297">Nije primenjivo</span><span class="sxs-lookup"><span data-stu-id="4e6be-297">Not applicable</span></span></td>
 </tr>
 <tr>
-<td><span data-ttu-id="09f5b-276">Naplaćena prodaja – naplativo za novu količinu</span><span class="sxs-lookup"><span data-stu-id="09f5b-276">Billed sales – Chargeable for the new quantity</span></span></td>
-<td><span data-ttu-id="09f5b-277">Ugovorna valuta za projekat</span><span class="sxs-lookup"><span data-stu-id="09f5b-277">Project contract currency</span></span></td>
+<td><span data-ttu-id="4e6be-298">Naplaćena prodaja – naplativo za novu količinu</span><span class="sxs-lookup"><span data-stu-id="4e6be-298">Billed sales – Chargeable for the new quantity</span></span></td>
+<td><span data-ttu-id="4e6be-299">Ugovorna valuta za projekat</span><span class="sxs-lookup"><span data-stu-id="4e6be-299">Project contract currency</span></span></td>
 </tr>
 <tr>
-<td><span data-ttu-id="09f5b-278">Naplaćena prodaja – ne može da se naplati za razliku</span><span class="sxs-lookup"><span data-stu-id="09f5b-278">Billed sales – Non-chargeable for the difference</span></span></td>
-<td><span data-ttu-id="09f5b-279">Ugovorna valuta za projekat</span><span class="sxs-lookup"><span data-stu-id="09f5b-279">Project contract currency</span></span></td>
+<td><span data-ttu-id="4e6be-300">Naplaćena prodaja – ne može da se naplati za razliku</span><span class="sxs-lookup"><span data-stu-id="4e6be-300">Billed sales – Non-chargeable for the difference</span></span></td>
+<td><span data-ttu-id="4e6be-301">Ugovorna valuta za projekat</span><span class="sxs-lookup"><span data-stu-id="4e6be-301">Project contract currency</span></span></td>
 </tr>
 <tr>
-<td rowspan="2"><span data-ttu-id="09f5b-280">Faktura se ispravlja da bi se povećala naplativa količina.</span><span class="sxs-lookup"><span data-stu-id="09f5b-280">An invoice is corrected to increase the chargeable quantity.</span></span></td>
-<td><span data-ttu-id="09f5b-281">Naplaćena prodaja – Storniranje</span><span class="sxs-lookup"><span data-stu-id="09f5b-281">Billed sales – Reversal</span></span></td>
-<td><span data-ttu-id="09f5b-282">Ugovorna valuta za projekat</span><span class="sxs-lookup"><span data-stu-id="09f5b-282">Project contract currency</span></span></td>
+<td rowspan="2"><span data-ttu-id="4e6be-302">Faktura se ispravlja da bi se povećala naplativa količina.</span><span class="sxs-lookup"><span data-stu-id="4e6be-302">An invoice is corrected to increase the chargeable quantity.</span></span></td>
+<td><span data-ttu-id="4e6be-303">Naplaćena prodaja – Storniranje</span><span class="sxs-lookup"><span data-stu-id="4e6be-303">Billed sales – Reversal</span></span></td>
+<td><span data-ttu-id="4e6be-304">Ugovorna valuta za projekat</span><span class="sxs-lookup"><span data-stu-id="4e6be-304">Project contract currency</span></span></td>
 <td rowspan="5">
 <ul>
-<li><span data-ttu-id="09f5b-283">Storniranje naplaćene prodaje za kontrolnu tačku</span><span class="sxs-lookup"><span data-stu-id="09f5b-283">Billed sales reversal for milestone</span></span></li>
-<li><span data-ttu-id="09f5b-284">Promena statusa kontrolne tačke sa <strong>Fakturirano</strong> na <strong>Spremno za fakturisanje</strong></span><span class="sxs-lookup"><span data-stu-id="09f5b-284">Change in milestone status from <strong>Invoiced</strong> to <strong>Ready for invoice</strong></span></span></li>
+<li><span data-ttu-id="4e6be-305">Storniranje naplaćene prodaje za kontrolnu tačku</span><span class="sxs-lookup"><span data-stu-id="4e6be-305">Billed sales reversal for milestone</span></span></li>
+<li><span data-ttu-id="4e6be-306">Promena statusa kontrolne tačke sa <strong>Fakturirano</strong> na <strong>Spremno za fakturisanje</strong></span><span class="sxs-lookup"><span data-stu-id="4e6be-306">Change in milestone status from <strong>Invoiced</strong> to <strong>Ready for invoice</strong></span></span></li>
 </ul>
 </td>
-<td rowspan="5"><span data-ttu-id="09f5b-285">Ugovorna valuta za projekat</span><span class="sxs-lookup"><span data-stu-id="09f5b-285">Project contract currency</span></span></td>
-<td rowspan="5"><span data-ttu-id="09f5b-286">Nije primenjivo</span><span class="sxs-lookup"><span data-stu-id="09f5b-286">Not applicable</span></span></td>
-<td rowspan="5"><span data-ttu-id="09f5b-287">Nije primenjivo</span><span class="sxs-lookup"><span data-stu-id="09f5b-287">Not applicable</span></span></td>
+<td rowspan="5"><span data-ttu-id="4e6be-307">Ugovorna valuta za projekat</span><span class="sxs-lookup"><span data-stu-id="4e6be-307">Project contract currency</span></span></td>
+<td rowspan="5"><span data-ttu-id="4e6be-308">Nije primenjivo</span><span class="sxs-lookup"><span data-stu-id="4e6be-308">Not applicable</span></span></td>
+<td rowspan="5"><span data-ttu-id="4e6be-309">Nije primenjivo</span><span class="sxs-lookup"><span data-stu-id="4e6be-309">Not applicable</span></span></td>
 </tr>
 <tr>
-<td><span data-ttu-id="09f5b-288">Naplaćena prodaja</span><span class="sxs-lookup"><span data-stu-id="09f5b-288">Billed sales</span></span></td>
-<td><span data-ttu-id="09f5b-289">Ugovorna valuta za projekat</span><span class="sxs-lookup"><span data-stu-id="09f5b-289">Project contract currency</span></span></td>
+<td><span data-ttu-id="4e6be-310">Naplaćena prodaja</span><span class="sxs-lookup"><span data-stu-id="4e6be-310">Billed sales</span></span></td>
+<td><span data-ttu-id="4e6be-311">Ugovorna valuta za projekat</span><span class="sxs-lookup"><span data-stu-id="4e6be-311">Project contract currency</span></span></td>
 </tr>
 <tr>
-<td rowspan="3"><span data-ttu-id="09f5b-290">Faktura se ispravlja da bi se smanjila naplativa količina.</span><span class="sxs-lookup"><span data-stu-id="09f5b-290">An invoice is corrected to decrease the chargeable quantity.</span></span></td>
-<td><span data-ttu-id="09f5b-291">Naplaćena prodaja – Storniranje</span><span class="sxs-lookup"><span data-stu-id="09f5b-291">Billed sales – Reversal</span></span></td>
-<td><span data-ttu-id="09f5b-292">Ugovorna valuta za projekat</span><span class="sxs-lookup"><span data-stu-id="09f5b-292">Project contract currency</span></span></td>
+<td rowspan="3"><span data-ttu-id="4e6be-312">Faktura se ispravlja da bi se smanjila naplativa količina.</span><span class="sxs-lookup"><span data-stu-id="4e6be-312">An invoice is corrected to decrease the chargeable quantity.</span></span></td>
+<td><span data-ttu-id="4e6be-313">Naplaćena prodaja – Storniranje</span><span class="sxs-lookup"><span data-stu-id="4e6be-313">Billed sales – Reversal</span></span></td>
+<td><span data-ttu-id="4e6be-314">Ugovorna valuta za projekat</span><span class="sxs-lookup"><span data-stu-id="4e6be-314">Project contract currency</span></span></td>
 </tr>
 <tr>
-<td><span data-ttu-id="09f5b-293">Naplaćena prodaja za novu količinu</span><span class="sxs-lookup"><span data-stu-id="09f5b-293">Billed sales for the new quantity</span></span></td>
-<td><span data-ttu-id="09f5b-294">Ugovorna valuta za projekat</span><span class="sxs-lookup"><span data-stu-id="09f5b-294">Project contract currency</span></span></td>
+<td><span data-ttu-id="4e6be-315">Naplaćena prodaja za novu količinu</span><span class="sxs-lookup"><span data-stu-id="4e6be-315">Billed sales for the new quantity</span></span></td>
+<td><span data-ttu-id="4e6be-316">Ugovorna valuta za projekat</span><span class="sxs-lookup"><span data-stu-id="4e6be-316">Project contract currency</span></span></td>
 </tr>
 <tr>
-<td><span data-ttu-id="09f5b-295">Nenaplaćena prodaja – može da se naplati za razliku</span><span class="sxs-lookup"><span data-stu-id="09f5b-295">Unbilled sales – Chargeable for the difference</span></span></td>
-<td><span data-ttu-id="09f5b-296">Ugovorna valuta za projekat</span><span class="sxs-lookup"><span data-stu-id="09f5b-296">Project contract currency</span></span></td>
+<td><span data-ttu-id="4e6be-317">Nenaplaćena prodaja – može da se naplati za razliku</span><span class="sxs-lookup"><span data-stu-id="4e6be-317">Unbilled sales – Chargeable for the difference</span></span></td>
+<td><span data-ttu-id="4e6be-318">Ugovorna valuta za projekat</span><span class="sxs-lookup"><span data-stu-id="4e6be-318">Project contract currency</span></span></td>
 </tr>
 </tbody>
 </table>
