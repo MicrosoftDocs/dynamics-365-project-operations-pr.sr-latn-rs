@@ -1,21 +1,21 @@
 ---
-title: Upravljanje predračunom – jednostavno
-description: U ovoj temi se pružaju informacije o radu sa predračunima.
+title: Upravljanje predračunom za projekat
+description: Ova tema pruža informacije o načinu rada sa predračunima u projektu.
 author: rumant
 manager: Annbe
-ms.date: 10/27/2020
+ms.date: 04/05/2021
 ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: ca6c2cc8855cfed592057ca129b436450104af99
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 2146e62bddc4a6286fa303ff2cc2c5622ea3133c
+ms.sourcegitcommit: ca0fc078d1a12484eca193fe051b8442c0559db8
 ms.translationtype: HT
 ms.contentlocale: sr-Latn-RS
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5274070"
+ms.lasthandoff: 04/07/2021
+ms.locfileid: "5866923"
 ---
-# <a name="manage-a-proforma-invoice---lite"></a>Upravljanje predračunom – jednostavno
+# <a name="manage-a-proforma-project-invoice"></a>Upravljanje predračunom za projekat 
 
 _**Odnosi se na:** Jednostavna primena – od pogodbe do profakture_
 
@@ -69,9 +69,9 @@ U usluzi Project Operations, uvek postoji jedna stavka fakture za svaki predmet 
 
 Svaka stavka fakture u fakturi za projekat sadrži detalje stavke fakture. Ovi detalji stavke su povezani sa nenaplaćenim stvarnim vrednostima prodaje i kontrolnim tačkama koje se odnose na predmet ugovora na koji se poziva stavka fakture. Sve ove transakcije su obeležene sa **Spremno za fakturisanje**.
 
-Za stavku **Faktura za vreme i materijal**, detalji stavke fakture su grupisani u **Naplativo**, **Nenaplativo** i **Besplatno** na stranici **Stavka fakture**. Detalji **naplative stavke fakture** se sabiraju u ukupnu vrednost stavke fakture. **Besplatno** i **Nenaplative stvarne vrednosti** se ne sabiraju u ukupnu vrednost stavke fakture.
+Za red **Faktura za vreme i materijal**, detalji stavke fakture se grupišu u **Naplativo**, **Ne naplaćuje se** i **Besplatno** na stranici **Red fakture**. Detalji **naplative stavke fakture** se sabiraju u ukupnu vrednost stavke fakture. Stavke **Besplatno** i **Nenaplativa stvarna vrednost** se ne sabiraju sa ukupnim brojem redova fakture.
 
-Za stavku **Faktura sa fiksnom cenom**, detalji stavke fakture kreiraju se iz kontrolnih tačaka koje su označene kao **Spremno za fakturisanje** u odgovarajućem predmetu ugovora. Kada se kreira detalj stavke fakture iz kontrolne tačke, status naplate na kontrolnoj tački se ažurira na **Faktura kreirana za klijenta**.
+Za red **Faktura sa fiksnom cenom**, detalji stavke fakture kreiraju se iz kontrolnih tačaka koje su označene kao **Spremno za fakturisanje** na odgovarajućem predmetu ugovora. Kada se kreira detalj stavke fakture iz kontrolne tačke, status naplate na kontrolnoj tački se ažurira na **Faktura kreirana za klijenta**.
 
 ### <a name="edit-invoice-line-details"></a>Uređivanje detalja stavki fakture
 
@@ -98,8 +98,12 @@ Sledeća polja su dostupna na detaljima stavke fakture koji su podržani stvarni
 | **Porez** | Podrazumevano postavljeno iz stvarne vrednosti izvora. Korisnik može da uređuje ovo polje | Korisnik može da uređuje polje prilikom kreiranja novog detalja stavke fakture bez podrške stvarne vrednosti. |
 | **Prošireni iznos** | Izračunato polje, izračunava se kao **Iznos + porez**. Polje samo začitanje koje je zaključano za uređivanje. | &nbsp; |
 | **Tip naplate** | Podrazumevano postavljeno iz stvarne vrednosti izvora. Korisnik može da uređuje ovo polje. | Izbor **Naplativo** dodaje stavku u ukupan iznos fakture. **Besplatno** i **Nenaplativo** će ga izuzeti iz ukupne vrednosti stavke fakture. |
+| **Izaberite proizvod** | Podrazumevano podešeno iz stvarnog izvora, ovo je polje samo za čitanje. | Kada kreirate novi detalj stavke fakture bez podržane stvarne vrednosti, ovo polje se može urediti. |
+| **Proizvod** | Podrazumevano podešeno iz stvarnog izvora, ovo je polje samo za čitanje. | Kada kreirate novi detalj stavke fakture bez podržane stvarne vrednosti, ovo polje se može urediti ako se polje **Izaberite proizvod** postavi na **Postojeći proizvod**. |
+| **Naziv proizvoda** | Podrazumevano podešeno iz stvarnog izvora, ovo je polje samo za čitanje. | Na novom detalju stavke fakture, gde je ID proizvoda izabran iz kataloga, ovo polje se postavlja na naziv proizvoda. Za ručno dodat proizvod, polje se postavlja na ručno upisan naziv. |
+| **Ručno dodat opis** | Podrazumevano podešeno iz stvarnog izvora, ovo je polje samo za čitanje. | Kada kreirate novi detalj stavke fakture bez podržane stvarne vrednosti, možete dodati ručno upisan opis za proizvod. |
 | **Tip transakcije** | Podrazumevano postavljeno iz stvarne vrednosti izvora. Polje samo začitanje koje je zaključano za uređivanje. | Podrazumevano se postavlja na **Naplaćena prodaja** i zaključava prilikom kreiranja novog **Detalja stavke fakture** bez podrške stvarne vrednosti.  |
-| **Klasa transakcije** | Podrazumevano postavljeno iz stvarne vrednosti izvora. Polje samo začitanje koje je zaključano za uređivanje. | Podrazumevano se postavlja na osnovu toga da li korisnik bira da kreira detalj stavke fakture za **vreme**, **trošak** ili **naknadu**, istovremeno kreirajući novi **Detalj stavke fakture** bez podrške stvarne vrednosti. Zaključano za uređivanje. |
+| **Klasa transakcije** | Podrazumevano postavljeno iz stvarne vrednosti izvora. Polje samo začitanje koje je zaključano za uređivanje. | Podrazumevano podešeno na osnovu toga da li korisnik odlučuje da kreira detalj **Vreme**, **Trošak**, **Materijal** ili **Nadoknada** stavke fakture, istovremeno kreirajući i novi **Detalj stavke fakture** bez podržane stvarne vrednosti. Zaključano za uređivanje. |
 
 Sledeća polja su dostupna na detaljima stavke fakture koji su podržani kontrolnom tačkom:
 

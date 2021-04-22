@@ -1,6 +1,6 @@
 ---
-title: Upravljanje zaostalim naplatama – jednostavno
-description: Ova tema pruža informacije o raznim prikazima dostupnim za korišćenje prilikom upravljanja zaostalim naplatama.
+title: Upravljanje zaostalima naplatama za projekat
+description: Ova tema pruža informacije o raznim prikazima koji se mogu koristiti prilikom upravljanja zaostalim obračunima na projektima.
 author: rumant
 manager: Annbe
 ms.date: 10/26/2020
@@ -8,14 +8,14 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 77c4df8c4370017b9199eec3a21cd07dd0343fd9
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 25dc9cff6aeb6daed9a27ba843a74b892ca4751c
+ms.sourcegitcommit: ca0fc078d1a12484eca193fe051b8442c0559db8
 ms.translationtype: HT
 ms.contentlocale: sr-Latn-RS
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5274115"
+ms.lasthandoff: 04/07/2021
+ms.locfileid: "5867013"
 ---
-# <a name="manage-the-billing-backlog---lite"></a>Upravljanje zaostalim naplatama – jednostavno
+# <a name="manage-project-billing-backlog"></a>Upravljanje zaostalima naplatama za projekat 
 
 _**Odnosi se na:** Jednostavna primena – od pogodbe do profakture_
 

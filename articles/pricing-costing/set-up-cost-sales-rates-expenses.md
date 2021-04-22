@@ -3,29 +3,30 @@ title: Podešavanje stopa cena i prodaje za troškove
 description: Ova tema pruža informacije o tome kako da postavite stope cena i prodaje za kategorije transakcija i troškova.
 author: rumant
 manager: Annbe
-ms.date: 10/13/2020
+ms.date: 04/07/2021
 ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: ee52daae18c5f9f0b630e54359021fffe1759274
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 34e3c24ae1aa999954af9b347633820d265ac0c3
+ms.sourcegitcommit: ac90be6106592f883a0de39a75836fb40255d65a
 ms.translationtype: HT
 ms.contentlocale: sr-Latn-RS
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5274925"
+ms.lasthandoff: 04/09/2021
+ms.locfileid: "5877237"
 ---
 # <a name="set-up-cost-and-sales-rates-for-expenses"></a>Podešavanje stopa cena i prodaje za troškove
 
-_**Odnosi se na:** Project Operations za resurs/scenarije koji nisu zasnovani na zalihama, laganu primenu – od pogodbe do profakture_
+_**Odnosi se na:** Project Operations za scenarije zasnovane na resursima/bez zaliha, jednostavna primena – od pogodbe do profakture_
 
 Možete podesiti troškove i prodajne cene za kategorije transakcija u usluzi Dynamics 365 Project Operations. Budući da su cene troškova i prodajne cene dizajnirani za troškove, svaka kategorija transakcije koja ih uključuje takođe mora biti postavljena kao kategorija troškova. Ova postavka osigurava tačnost posledične funkcionalnosti. Troškovi i prodajne cene za kategorije transakcija mogu se navesti samo u jednoj valuti, koja mora biti valuta u zaglavlju cenovnika.
 
 Da biste postavili troškove i stope prodaje za kategorije transakcija, izvršite sledeće korake. 
 
-1. Napravite cenovnik na osnovu zaglavlja cenovnika. 
-2. Na kartici **Cene kategorija**, u meniju podforme izaberite **+ Nova kategorija cena**. 
-3. Na stranici **Brzo kreiranje**, unesite kategoriju transakcije i jedinicu za koju kreirate novu cenu.
+1. Idite na **Prodaja** > **Klijenti** > **Cenovnici**.
+2. Izaberite **Novo** da biste kreirali novi cenovnik. 
+3. Na kartici **Cene kategorija**, u meniju podforme izaberite **Nova cena kategorije**. 
+4. Na stranici **Brzo kreiranje**, unesite kategoriju transakcije i jedinicu za koju kreirate novu cenu.
 
 Sledeća tabela navodi polja na kartici **Opšti podaci** i stranici **Brzo kreiranje** linije cena kategorije za ulogu koju treba imati na umu dok kreirate cene kategorija na prodajnom ili cenovniku koštanja:
 

@@ -1,29 +1,27 @@
 ---
-title: Konfigurisanje automatskog kreiranja fakture – jednostavno
-description: Ova tema pruža informacije o konfigurisanju automatskog kreiranja predračuna.
+title: Konfigurisanje automatskog kreiranja fakture
+description: Ova tema pruža informacije o podešavanju i konfigurisanju automatskog kreiranja predračuna.
 author: rumant
 manager: Annbe
-ms.date: 10/13/2020
+ms.date: 04/05/2021
 ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 1d911ab0defaaee40d8752557e1115ea49c8fa93
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 359c5902e0b6a08ab7fc982095062e4d1816db6c
+ms.sourcegitcommit: ca0fc078d1a12484eca193fe051b8442c0559db8
 ms.translationtype: HT
 ms.contentlocale: sr-Latn-RS
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5274340"
+ms.lasthandoff: 04/07/2021
+ms.locfileid: "5866834"
 ---
-# <a name="configure-automatic-invoice-creation---lite"></a>Konfigurisanje automatskog kreiranja fakture – jednostavno
+# <a name="set-up-automatic-invoice-creation"></a>Konfigurisanje automatskog kreiranja fakture 
  
-_**Odnosi se na:** Jednostavna primena – od pogodbe do profakture_
+_**Odnosi se na:** Jednostavna primena – od pogodbe do profakture, Project Operations za scenarije zasnovane na resursima / bez zaliha_
 
 Možete da konfigurišete automatsko kreiranje faktura u usluzi Dynamics 365 Project Operations. Sistem kreira nacrt predračuna na osnovu rasporeda faktura za svaki ugovor o projektu i predmet ugovora. Rasporedi faktura se konfigurišu na nivou predmeta ugovora. Svaka linija ugovora može imati različit raspored faktura ili isti raspored faktura može biti uključen u svaki red ugovora.
 
-Kada kreirate fakturu, sistem uvek kreira najmanje jednu fakturu po ugovoru o projektu. U nekim slučajevima može biti napravljeno više faktura.
-
-Na primer, ako ugovor ima više klijenata, stvoriće se isti broj faktura kao i broj klijenata koji imaju fakturisane transakcije za fakturisanje na tom ugovoru o projektu.
+Kada kreirate fakturu, sistem uvek kreira najmanje jednu fakturu po ugovoru o projektu. U nekim slučajevima može biti napravljeno više faktura. Na primer, ako ugovor ima više klijenata, stvoriće se isti broj faktura kao i broj klijenata koji imaju fakturisane transakcije za fakturisanje na tom ugovoru o projektu.
 
 ## <a name="understand-how-transactions-are-included-on-an-invoice"></a>Shvatite kako su transakcije uključene u fakturu 
 

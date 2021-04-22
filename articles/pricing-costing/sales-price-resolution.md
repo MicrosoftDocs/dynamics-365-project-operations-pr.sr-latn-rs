@@ -3,17 +3,17 @@ title: Rešite prodajne cene za procene i trenutno stanje
 description: Ova tema pruža informacije o rešavanju stopa prodaje za procene i trenutno stanje.
 author: rumant
 manager: Annbe
-ms.date: 10/19/2020
+ms.date: 04/07/2021
 ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 6e89e23189fa65057d7b955897924057c440ccd8
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: f9ce095723e8ac300caf7d11ae37b5c721b57795
+ms.sourcegitcommit: ac90be6106592f883a0de39a75836fb40255d65a
 ms.translationtype: HT
 ms.contentlocale: sr-Latn-RS
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5274970"
+ms.lasthandoff: 04/09/2021
+ms.locfileid: "5877462"
 ---
 # <a name="resolve-sales-prices-for-estimates-and-actuals"></a>Rešite prodajne cene za procene i trenutno stanje
 
@@ -54,6 +54,17 @@ Nakon što se reši cenovnik prodaje, sistem dovršava sledeće korake da bi zad
     | &nbsp; | Provizija preko troškova | Primenom provizije definisane linijom cene kategorije na jediničnu stopu cene povezanog stvarnog troška |
 
 4. Ako sistem ne može da podudari vrednosti polja **Kategorija** i **Jedinica**, stopa prodaje podrazumevano je nula (0).
+
+## <a name="resolve-sales-rates-on-actual-and-estimate-lines-for-material"></a>Rešavanje stopa prodaje na stvarnim i procenjenim stavkama za materijal
+
+U usluzi Project Operations, stavke procene za materijal se koriste da označe detalje stavki ponude i predmeta ugovora za materijale i stavke procene materijala na projektu.
+
+Nakon što se reši cenovnik prodaje, sistem dovršava sledeće korake da bi zadao podrazumevanu jediničnu prodajnu cenu.
+
+1. Sistem koristi kombinaciju polja **Proizvod** i **Jedinica** na stavki procene za materijal koji se podudara sa redovima stavki cenovnika u cenovniku koji je rešen.
+2. Ako sistem pronađe red stavke cenovnika koja ima stopu prodaje za kombinaciju polja **Proizvod** i **Jedinica** i metoda određivanja cena je **Iznos valute**, koristi se prodajna cena koja je navedena u redu cenovnika.
+3. Ako se vrednosti polja **Proizvod** i **Jedinica** ne podudaraju, stopa prodaje je podrazumevano nula.
+
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

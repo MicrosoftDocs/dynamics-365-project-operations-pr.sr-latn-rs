@@ -1,27 +1,27 @@
 ---
-title: Upravljanje cenovnicima projekata u ponudama za projekat – jednostavno
-description: Ova tema pruža informacije o radu sa cenovnicima za projekat u ponudama. (Sales)
+title: Upravljanje cenovnicima projekata u ponudama za projekat
+description: Ova tema pruža informacije o radu sa cenovnicima za projekat u ponudama.
 author: rumant
 manager: Annbe
-ms.date: 10/01/2020
+ms.date: 03/30/2021
 ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: d48da44f382e329a978a8ceee59c354d009f2114
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 912d2fad33ac02c3ba980da7eeb88eef5c331230
+ms.sourcegitcommit: 5fd529f2308edfe9322082313e6d50146df56aca
 ms.translationtype: HT
 ms.contentlocale: sr-Latn-RS
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5273035"
+ms.lasthandoff: 04/06/2021
+ms.locfileid: "5858625"
 ---
-# <a name="manage-project-price-lists-on-project-quotes---lite"></a>Upravljanje cenovnicima projekata u ponudama za projekat – jednostavno
+# <a name="manage-project-price-lists-on-project-quotes"></a>Upravljanje cenovnicima projekata u ponudama za projekat 
 
 _**Odnosi se na:** Jednostavna primena – od pogodbe do profakture_
 
 Ponude za projekte su dizajnirane da podržavaju više efektivnih prodajnih cenovnika. Uz Dynamics 365 Project Operations, dodaje se novi povezani entitet pod nazivom **Cenovnici projekata**. Ovaj entitet ima relaciju „1 prema više“ sa ponudom za projekat.
 
-Cenovnici projekata se koriste za određivanje transakcija vremena i troškova na projektu. Kada ponuda ima jedan ili više cenovnika projekata, ovi cenovnici se koriste za procene cene vremena i troškova i stvarne vrednosti koje su povezane sa ponudom preko stavke ponude.
+Cenovnici projekata se koriste za određivanje vremena, materijala i transakcija troškova na projektu. Kada ponuda ima jedan ili više cenovnika projekata, ovi cenovnici se koriste za određivanje cene vremena, materijala, procena troškova i trenutnog stanja projekata koji su povezani sa ponudom preko stavke ponude.
 
 Kada na ponudi za projekat ne postoje cenovnici projekata, dobićete poruku upozorenja. U poruci se navodi da pošto ne postoje cenovnici projekata, neće biti određena cena za procenjeni i stvarni rad i troškove na projektu. Umesto toga, imaće nultu (0) cenu za vrednosti prodaje.
 

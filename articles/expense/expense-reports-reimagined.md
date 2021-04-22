@@ -3,7 +3,7 @@ title: Ponovno osmišljeni izveštaji o troškovima
 description: Ova tema objašnjava redizajnirano i prerađeno iskustvo za unos izveštaja o troškovima.
 author: suvaidya
 manager: AnnBe
-ms.date: 03/01/2021
+ms.date: 03/26/2021
 ms.topic: article
 ms.prod: ''
 ms.service: project-operations
@@ -15,12 +15,12 @@ ms.search.region: ''
 ms.author: suvaidya
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: aaa7dd24915982cf137b5959f2f4c244b9c1e012
-ms.sourcegitcommit: f78087174a8512199a1bcbd7e8610bbc80e64801
+ms.openlocfilehash: 79e6a407689813f8c87fdffba0cda84df10d3b83
+ms.sourcegitcommit: 46726e5c8c994735c1e570e08d6ed8f9c9341319
 ms.translationtype: HT
 ms.contentlocale: sr-Latn-RS
-ms.lasthandoff: 03/04/2021
-ms.locfileid: "5499733"
+ms.lasthandoff: 03/26/2021
+ms.locfileid: "5717712"
 ---
 # <a name="expense-reports-reimagined"></a>Ponovno osmišljeni izveštaji o troškovima
 
@@ -41,11 +41,7 @@ Da biste uključili novo iskustvo, koristite radni prostor **Upravljanje funkcij
 - Ne uklanjaju se postojeće stavke menija za izveštaje o troškovima (postojeća stranica) ili polja izveštaja o troškovima.
 - Tokovi posla i sva odobrenja vas i dalje vode na postojeću stranicu sa izveštajima o troškovima.
 
-## <a name="getting-started-video-for-new-users"></a>Video sa prvim koracima za nove korisnike
-
-> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE2Y7gO]
-
-Video [Iskustvo troškova u usluzi Dynamics 365 for Finance and Operations](https://youtu.be/Ocy-MsTvEE0) (prikazan gore) uključen je u [Finance and Operations plejlistu](https://www.youtube.com/playlist?list=PLcakwueIHoT_SYfIaPGoOhloFoCXiUSyW) dostupnu na YouTube-u.
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE4IQFM]
 
 ## <a name="new-features"></a>Nove funkcije
 

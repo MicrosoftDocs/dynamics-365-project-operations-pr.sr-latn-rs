@@ -3,7 +3,7 @@ title: Trenutno stanje
 description: Ova tema pruža informacije o tome kako se radi sa stvarnim podacima u usluzi Microsoft Dynamics 365 Project Operations.
 author: rumant
 manager: AnnBe
-ms.date: 09/16/2020
+ms.date: 04/01/2021
 ms.topic: article
 ms.prod: ''
 ms.service: project-operations
@@ -16,18 +16,18 @@ ms.search.region: ''
 ms.search.industry: ''
 ms.author: rumant
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: 6a94bd143b0d0dad2a08511a34e592a057b6d2a1
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 304c51a4e502ad6ecec1fd821e98d6604ddd59ba
+ms.sourcegitcommit: b4a05c7d5512d60abdb0d05bedd390e288e8adc9
 ms.translationtype: HT
 ms.contentlocale: sr-Latn-RS
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5291816"
+ms.lasthandoff: 04/02/2021
+ms.locfileid: "5852561"
 ---
 # <a name="actuals"></a>Trenutno stanje 
 
-_**Odnosi se na:** Project Operations za scenarije zasnovane na resursima / bez zaliha_
+_**Odnosi se na:** Project Operations za scenarije zasnovane na resursima/bez zaliha, jednostavna primena – od pogodbe do profakture_
 
-Stvarne vrednosti predstavljaju količinu posla koja je završena za projekat. Kreirani su kao rezultat stavki vremena i troškova, stavki knjiženja u glavnoj knjizi i faktura.
+Trenutno stanje predstavlja pregledani i odobreni finansijski i vremenski raspored projekta. Kreira se kao rezultat odobravanja vremena, troškova, stavki upotrebe materijala, stavki dnevnika i faktura.
 
 ## <a name="journal-lines-and-time-submission"></a>Stavke u glavnoj knjizi i vreme predaje
 
@@ -45,7 +45,7 @@ Kada se prosleđena stavka vremena poveže sa projektom koji se mapiran na predm
 
 Logika za kreiranje podrazumevanih cena se nalazi u stavci u glavnoj knjizi. Vrednosti polja iz stavke vremena kopiraju se u stavku u glavnoj knjizi. Ove vrednosti uključuju datum transakcije, predmet ugovora na koji je projekat mapiran i valutu koja je rezultat odgovarajućeg cenovnika.
 
-Polja koja utiču na podrazumevano određivanje cena, kao što su **Uloga** i **Organizaciona jedinica**, koriste se za utvrđivanje odgovarajuće cene u stavci u glavnoj knjizi. Na stavku vremena možete dodati prilagođeno polje. Ako želite da se vrednost polja širi na stvarne vrednosti, kreirajte polje u entitetu Stvarne vrednosti i upotrebite mapiranja polja da biste kopirali polje iz stavke vremena u stvarnu vrednost.
+Polja koja utiču na podrazumevane cene, kao što su **Uloga** i **Jedinica za određivanje resursa**, koriste se za utvrđivanje odgovarajuće cene u stavki u glavnoj knjizi. Na stavku vremena možete dodati prilagođeno polje. Ako želite da se vrednost polja širi na trenutno stanje, kreirajte polje u tabelama **Trenutno stanje** i **Stavka u glavnoj knjizi**. Koristite prilagođeni kôd za širenje izabrane vrednosti polja iz stavku vremena u trenutno stanje putem stavke u glavnoj knjizi koristeći poreklo transakcija. Za više informacija o poreklu transakcija i vezama, pogledajte [Povezivanje trenutnog stanja sa originalnim zapisima](linkingactuals.md#example-how-transaction-origin-works-with-transaction-connection).
 
 ## <a name="journal-lines-and-basic-expense-submission"></a>Prosleđivanje stavki u glavnoj knjizi i osnovnih troškova
 
@@ -57,24 +57,42 @@ Kada se stavka osnovnog troška koja je prosleđena poveže sa projektom koji je
 
 ### <a name="fixed-price"></a>Fiksna cena
 
-Kada se prosleđena stavka osnovnog troška poveže sa projektom koji se mapiran na predmet ugovora sa fiksnom cenom, sistem kreira jednu stavku u glavnoj knjizi za troškove.
+Kada se prosleđena stavka troška poveže sa projektom koji se mapira na predmet ugovora o fiksnoj ceni, sistem kreira jednu stavku u glavnoj knjizi za troškove.
 
 ### <a name="default-pricing"></a>Podrazumevano određivanje cena
 
-Logika unošenja zadatih cena za troškove zasniva se na kategoriji troškova. Datum transakcije, predmet ugovora na koji je projekat mapiran i valuta se koriste za određivanje odgovarajućeg cenovnika. Međutim, iznos koji se unese za samu cenu podrazumevano se podešava direktno na povezanim stavkama troškova u glavnoj knjizi za troškove i prodaju.
+Logika unošenja zadatih cena za troškove zasniva se na kategoriji troškova. Datum transakcije, predmet ugovora na koji je projekat mapiran i valuta se koriste za određivanje odgovarajućeg cenovnika. Polja koja utiču na podrazumevane cene, kao što su **Kategorija transakcije** i **Jedinica**, koriste se za utvrđivanje odgovarajuće cene u stavki u glavnoj knjizi. Međutim, to funkcioniše samo kada je metoda određivanja cena u cenovniku **Cena po jedinici**. Ako je metoda određivanja cena **Po ceni** ili **Provizija preko troškova**, cena koja se unosi kada se kreira stavka troškova koristi se kao trošak, a cena stavke u glavnoj knjizi prodaje izračunava se na osnovu metode određivanja cena. 
 
-Nije dostupna stavka zasnovana na kategoriji podrazumevanih cena po jedinici za stavke troškova.
+Na stavku troškova možete dodati prilagođeno polje. Ako želite da se vrednost polja širi na trenutno stanje, kreirajte polje u tabelama **Trenutno stanje** i **Stavka u glavnoj knjizi**. Koristite prilagođeni kôd za širenje izabrane vrednosti polja iz stavku vremena u trenutno stanje putem stavke u glavnoj knjizi koristeći poreklo transakcija. Za više informacija o poreklu transakcija i vezama, pogledajte [Povezivanje trenutnog stanja sa originalnim zapisima](linkingactuals.md#example-how-transaction-origin-works-with-transaction-connection).
+
+## <a name="journal-lines-and-material-usage-log-submission"></a>Stavke u glavnoj knjizi i prosleđivanje evidencije upotrebe materijala
+
+Za više informacija o stavci troškova, pogledajte [Dnevnik upotrebe materijala](../material/material-usage-log.md).
+
+### <a name="time-and-materials"></a>Vreme i materijali
+
+Kada se prosleđena stavka evidencije upotrebe materijala poveže sa projektom koji se mapira u predmet ugovora o vremenu i materijalima, sistem kreira dve stavke u glavnoj knjizi, jednu za troškove i jednu za nefakturisanu prodaju.
+
+### <a name="fixed-price"></a>Fiksna cena
+
+Kada se prosleđena stavka evidencije upotrebe materijala poveže sa projektom koji se mapira na predmet ugovora o fiksnoj ceni, sistem kreira jednu stavku u glavnoj knjizi za troškove.
+
+### <a name="default-pricing"></a>Podrazumevano određivanje cena
+
+Logika unošenja zadatih cena materijala zasniva se na kombinaciji proizvoda i jedinice. Datum transakcije, predmet ugovora na koji je projekat mapiran i valuta se koriste za određivanje odgovarajućeg cenovnika. Polja koja utiču na podrazumevane cene, kao što su **ID proizvoda** i **Jedinica**, koriste se za utvrđivanje odgovarajuće cene u stavki u glavnoj knjizi. Međutim, ovo važi samo za kataloške proizvode. Za proizvode koji se dodaju ručno, cena koja se unosi kada se kreira stavka evidencije upotrebe materijala koristi se za troškove i prodajnu cenu u stavkama u glavnoj knjizi. 
+
+Na stavku **Evidencija upotrebe materijala** možete dodati prilagođeno polje. Ako želite da se vrednost polja širi na trenutno stanje, kreirajte polje u tabelama **Trenutno stanje** i **Stavka u glavnoj knjizi**. Koristite prilagođeni kôd za širenje izabrane vrednosti polja iz stavku vremena u trenutno stanje putem stavke u glavnoj knjizi koristeći poreklo transakcija. Za više informacija o poreklu transakcija i vezama, pogledajte [Povezivanje trenutnog stanja sa originalnim zapisima](linkingactuals.md#example-how-transaction-origin-works-with-transaction-connection).
 
 ## <a name="use-entry-journals-to-record-costs"></a>Korišćenje dnevnika za knjiženje za evidentiranje troškova
 
 Možete da koristite dnevnike za knjiženje da evidentirate troškove ili prihod u klasama materijala, naknade, vremena, troškova ili poreskih transakcija. Dnevnici se mogu koristiti u sledeće svrhe:
 
-- Zabeležite stvarne troškove materijala i prodaje na projektu.
 - Premestite stvarne vrednosti transakcija iz drugog sistema u Microsoft Dynamics 365 Project Operations.
 - Evidentirajte troškove koji su se dogodili u drugom sistemu. Ovi troškovi mogu uključivati troškove nabavke ili podugovaranja.
 
 > [!IMPORTANT]
 > Aplikacija ne potvrđuje tip stavke u glavnoj knjizi ili povezano određivanje cena koje se unosi u stavku u glavnoj knjizi. Stoga samo korisnik koji je potpuno svestan računovodstvenog uticaja koji stvarne vrednosti imaju na projekat treba da koristi dnevnike za knjiženje za kreiranje stvarnih podataka. Zbog uticaja ovog tipa dnevnika, pažljivo birajte ko ima pristup kreiranju dnevnika za knjiženje.
+
 ## <a name="record-actuals-based-on-project-events"></a>Evidentiranje stvarnih vrednosti na osnovu događaja u projektu
 
 Project Operations beleži finansijske transakcije koje se dešavaju tokom projekta. Ove transakcije se evidentiraju kao stvarne vrednosti. Sledeće tabele prikazuju različite vrste stvarnih vrednosti koje se kreiraju, zavisno od toga da li je projekat zasnovan na vremenu i materijalima ili projekat sa fiksnom cenom, da li je u fazi predprodaje ili je interni projekat.

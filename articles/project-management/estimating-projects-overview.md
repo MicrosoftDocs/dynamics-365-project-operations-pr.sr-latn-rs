@@ -1,31 +1,41 @@
 ---
-title: Pregled procene projekata
-description: Ova tema pruža informacije o procenama u aplikaciji Dynamics 365 Project Operations.
-author: ruhercul
+title: Koncepti finansijske procene
+description: Ova tema pruža informacije o finansijskim procenama projekata u usluzi Project Operations.
+author: rumant
 manager: AnnBe
-ms.date: 10/06/2020
+ms.date: 03/22/2021
 ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
-ms.author: ruhercul
-ms.openlocfilehash: 4ff73c6efd5b21b91a7772c3733734d8008e00a3
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.author: rumant
+ms.openlocfilehash: a251be995abddba04cee689714d0a8f4e9d9e7d7
+ms.sourcegitcommit: 386921f44f1e9a8a828b140206d52945de07aee7
 ms.translationtype: HT
 ms.contentlocale: sr-Latn-RS
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5286895"
+ms.lasthandoff: 03/22/2021
+ms.locfileid: "5701753"
 ---
-# <a name="estimate-projects-overview"></a>Pregled procene projekata
+# <a name="financial-estimation-concepts"></a>Koncepti finansijske procene
 
-_**Odnosi se na:** Project Operations za resurs/scenarije koji nisu zasnovani na zalihama, laganu primenu – od pogodbe do profakture_
+_**Odnosi se na:** Project Operations za scenarije zasnovane na resursima/bez zaliha, jednostavna primena – od pogodbe do profakture_
 
+U usluzi Dynamics 365 Project Operations, svoje projekte možete finansijski proceniti u dve faze: 
+1. Tokom faze pretprodaje pre dobijanja pogodbe. 
+2. Tokom faze izvršenja nakon izrade ugovora o projektu. 
+
+Možete da napravite finansijsku procenu za rad na projektu koristeći bilo koju od sledeće 3 stranice:
+- Stranicu **Stavka ponude**, koristeći detalje stavke ponude.  
+- Stranicu **Predmet ugovora za projekat**, koristeći detalje predmeta ugovora. 
+- Stranicu **Projekat**, koristeći stranice kartica **Zadaci** ili **Procene troškova**.
+
+## <a name="use-a-project-quote-to-create-an-estimate"></a>Korišćenje ponude za projekat radi kreiranja procene
 U ponudi zasnovanoj na projektu možete koristiti entitet **Detalji stavke ponude** da biste procenili posao koji je neophodan za isporučivanje projekta. Zatim možete da podelite tu procenu sa klijentom.
 
 Stavke ponude zasnovane na projektu mogu da imaju između nula i mnogo detalja o stavci ponude. Detalji stavke ponude se koriste za procenu vremena, troškova ili naknada. Microsoft Dynamics 365 Project Operations ne dozvoljava procene materijala u detaljima stavke ponude. To su klase transakcija. Procenjeni iznosi poreza takođe mogu da se unesu u klasu transakcije.
 
 Pored klasa transakcija, detalji stavke ponude imaju vrstu transakcije. Dve vrste transakcija za detalje stavke ponude su podržane: **Troškovi** i **Ugovor o projektu**.
 
-## <a name="estimate-by-using-a-contract"></a>Procenjivanje korišćenjem ugovora
+## <a name="use-a-project-contract-to-create-an-estimate"></a>Korišćenje ugovora za projekat radi kreiranja procene
 
 Ako ste koristili ponudu kada ste kreirali ugovor zasnovan na projektu, procena za svaku stavku ponude u ponudi kopira se u ugovor o projektu. Struktura ugovora o projektu je nalik strukturi ponude projekta koja ima stavke, detalje stavke i rasporede fakturisanja.
 
@@ -35,23 +45,17 @@ Detalji predmeta ugovora mogu da se koriste za procenu vremena, troškova ili na
 
 Procene materijala nisu dozvoljene u detaljima predmeta ugovora.
 
-Procesi koji su podržani u ugovoru o projektu su kreiranje i potvrda fakture. Kreiranje fakture kreira radnu verziju fakture zasnovanu na projektu koja uključuje sve nenaplaćene stvarne vrednosti prodaje do sadašnjeg datuma.
+## <a name="use-a-project-to-create-an-estimate"></a>Korišćenje projekta radi kreiranja procene 
 
-Potvrda omogućava da ugovor bude samo za čitanje i menja njegov status iz **Radna verzija** u **Potvrđeno**. Nakon što preduzmete ovu radnju, ne možete da je opozovete. Budući da je ova radnja trajna, najbolje je da se ugovor zadrži u statusu **Radna verzija**.
-
-Jedine razlike između radnih verzija ugovora i potvrđenih ugovora su njihov status i činjenica da se radne verzije ugovora mogu uređivati, a potvrđeni ugovori ne mogu. Kreiranje fakture i praćenje stvarnih vrednosti mogući su za radne verzije ugovora i potvrđene ugovore.
-
-Project Operations ne podržava promenu porudžbina u ugovorima ili projektima.
-
-## <a name="estimating-projects"></a>Procene projekata
-
-Možete proceniti vreme i troškove za projekte. Project Operations ne dozvoljava procene materijala ni naknada za projekte.
+Možete proceniti vreme i troškove za projekte. Project Operations ne podržava procene materijala ili naknada za projekte.
 
 Procene vremena se generišu kada kreirate zadatak i identifikujete atribute generičkog resursa koji je potreban za izvršavanje zadatka. Procene vremena se generišu iz zakazanih zadataka. Procene vremena ne kreiraju se ako kreirate generičke članove tima izvan konteksta rasporeda.
 
-Procene troškova se unose u mrežu na stranici **Procene**.
+Procene troškova se unose u mrežu na stranici **Procene troškova**.
 
-## <a name="understanding-estimation"></a>Objašnjenje procene
+Kreiranje procene za projekat smatra se najboljom praksom jer možete izraditi detaljne procene odozdo prema gore za rad ili vreme i troškove za svaki zadatak u planu projekta. Zatim možete koristiti ovu detaljnu procenu da biste kreirali procene za svaku stavku ponude i kreirali verodostojniju ponudu za klijenta. Kada uvozite ili kreirate detaljnu procenu na stavci ponude pomoću plana projekta, Project Operations uvozi vrednosti prodaje i vrednosti troškova ovih procena. Nakon uvoza, možete da pogledate metrike profitabilnosti, marže i izvodljivosti na ponudi za projekat.
+
+## <a name="understanding-estimates"></a>Objašnjenje procena
 
 Koristite sledeću tabelu kao vodič za razumevanje poslovne logike u fazi procene.
 

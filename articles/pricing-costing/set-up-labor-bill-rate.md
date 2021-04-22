@@ -3,17 +3,17 @@ title: Podesite stope naplate za rad
 description: Ova tema pruža informacije o tome kako postaviti stope naplate za rad u usluzi Project Operations.
 author: rumant
 manager: Annbe
-ms.date: 10/16/2020
+ms.date: 04/07/2021
 ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: b4d09f4bf6788f93c028f084965faa6aac41a22d
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: f0267fce673bbd0080022a8abf2dd0020cc8b662
+ms.sourcegitcommit: ac90be6106592f883a0de39a75836fb40255d65a
 ms.translationtype: HT
 ms.contentlocale: sr-Latn-RS
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5274835"
+ms.lasthandoff: 04/09/2021
+ms.locfileid: "5877417"
 ---
 # <a name="set-up-labor-bill-rates"></a>Podesite stope naplate za rad
 
@@ -21,8 +21,8 @@ ms.locfileid: "5274835"
 
 Svaki cenovnik ima skup cena uloga ili stopa rada koje stupaju na snagu za kontekst i efektivnost datuma navedenih u zaglavlju cenovnika. Stope naplate za vreme u usluzi Dynamics 365 Project Operations mogu se podesiti u samo jednoj valuti, koja je valuta u zaglavlju Cenovnika.
 
-1. Da biste postavili stope naplate za rad za prodajni cenovnik, napravite cenovnik na osnovu zaglavlja cenovnika. 
-2. Na kartici **Uloga cena**, u podmreži odaberite **+ Nova cena uloge**. 
+1. Da biste podesili stope naplate za rad za prodajni cenovnik, idite na **Prodaja** > **Klijenti** > **Cenovnici** i izaberite **Novo** da biste napravili novi cenovnik. 
+2. Na kartici **Cene uloga**, u podformi izaberite **+ Nova cena uloge**. 
 3. U oknu **Brzo kreiranje** unesite kombinaciju uloge i organizacione jedinice za koju treba da podesite stopu naplate.
 
    Sledeća tabela uključuje polja na kartici **Opšti podaci** i oknu **Brzo kreiranje** linije cena za ulogu koju treba imati na umu dok kreirate cene uloga na prodajnom cenovniku:

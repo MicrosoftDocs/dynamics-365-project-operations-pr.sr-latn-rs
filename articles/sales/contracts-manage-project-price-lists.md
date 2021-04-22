@@ -3,31 +3,31 @@ title: Upravljanje cenovnicima projekata u ugovorima za projekat
 description: Ova tema pruža informacije o upravljanju cenovnicima za projekat na ugovorima za projekat.
 author: rumant
 manager: Annbe
-ms.date: 10/27/2020
+ms.date: 03/30/2021
 ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 2cfac6eda64d1d8e578115bba07942a7d786328f
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: ffc48782394995781535ae56142dc76afeb9a040
+ms.sourcegitcommit: 5fd529f2308edfe9322082313e6d50146df56aca
 ms.translationtype: HT
 ms.contentlocale: sr-Latn-RS
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5278615"
+ms.lasthandoff: 04/06/2021
+ms.locfileid: "5858580"
 ---
 # <a name="manage-project-price-lists-on-project-contracts"></a>Upravljanje cenovnicima projekata u ugovorima za projekat
 
-_**Odnosi se na:** Project Operations za resurs/scenarije koji nisu zasnovani na zalihama, laganu primenu – od pogodbe do profakture_
+_**Odnosi se na:** Project Operations za scenarije zasnovane na resursima/bez zaliha, jednostavna primena – od pogodbe do profakture_
 
 Ugovori za projekat u usluzi Dynamics 365 Project Operations osmišljeni su tako da podržavaju više efektivnih prodajnih cenovnika na ugovoru. U usluzi Project Operations postoji novi pridruženi entitet koji se zove **Cenovnici projekta**. Taj entitet ima relaciju „jedan prema više“ sa ugovorom za projekat.
 
-Cenovnici projekata se koriste za određivanje transakcija vremena i troškova na projektu. Kada ugovor ima jedan ili više cenovnika projekata, ovi cenovnici se koriste za određivanje cene za stavke vremena i troškova, kao i za trenutno stanje na projektima koji su povezani sa ugovorom preko predmeta ugovora.
+Cenovnici projekata se koriste za određivanje vremena, materijala i transakcija troškova na projektu. Kada ugovor ima jedan ili više cenovnika projekata, ti cenovnici se koriste za određivanje cene za vreme, materijal, procenu troškova i trenutno stanje projekata koji su povezani sa ugovorom preko predmeta ugovora.
 
-Kada u ugovoru za projekat ne postoje cenovnici projekta, videćete poruku upozorenja da ne postoje cenovnici projekta, pa cene za vaše procene, stvarni rad na projektu i troškove neće biti određene. Neće biti navedene vrednosti cena prodaje.
+Kada na ugovoru o projektu ne postoje cenovnici za projekat, videćete poruku upozorenja da ne postoje cenovnici za projekat, a cena za vaše procene, stvarni rad na projektu, materijal i evidentirane troškove neće biti određena. Neće biti navedene vrednosti cena prodaje.
 
 ## <a name="associate-or-unassociate-a-project-price-list-on-a-project-contract"></a>Povezivanje ili prekidanje veze cenovnika projekta na ugovoru o projektu
 
-### <a name="create-or-associate-a-specific-price-list-for-estimating-project-based-work-and-expenses"></a>Napravite ili pridružite određeni cenovnik za procenu rada i troškova zasnovanih na projektu
+### <a name="create-or-associate-a-specific-price-list-for-estimating-project-based-work-material-and-expenses"></a>Napravite ili povežite određeni cenovnik za procenu rada, materijala i troškova zasnovanih na projektu
 
 1. U ugovoru za projekat, izaberite karticu **Cenovnici projekta**.
 2. U podformi izaberite **+ Dodaj novi cenovnik projekta**.
@@ -52,7 +52,7 @@ Kada u ugovoru za projekat ne postoje cenovnici projekta, videćete poruku upozo
 
 ## <a name="set-up-automatic-defaulting-of-project-price-lists-on-a-contract"></a>Podešavanje automatskog postavljanja cenovnika projekta na ugovoru
 
-Cenovnik projekta se može postaviti kao podrazumevana lista na ugovoru za projekat. Ovo podešavanje može da pomogne da svi ugovori u vašoj organizaciji uvek započinju standardnim cenovnikom za taj cenovni period.
+Cenovnik projekta može se postaviti kao zadati cenovnik projekta. Ovo podešavanje obezbeđuje da svi ugovori u vašoj organizaciji uvek započinju standardnim cenovnikom projekata za taj period cena.
 
 ### <a name="set-up-the-organizational-default-for-project-price-lists"></a>Podešavanje organizacionog postavljanja za cenovnike projekta
 

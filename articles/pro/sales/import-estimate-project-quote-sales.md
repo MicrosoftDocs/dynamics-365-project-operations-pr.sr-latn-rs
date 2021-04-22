@@ -8,16 +8,16 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: f3f18644a51d87cf3bb5b4effba2236eaf3d81a9
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 0aedaa2ec77bb54031fccd0db2872e0aa5fea5e0
+ms.sourcegitcommit: 5fd529f2308edfe9322082313e6d50146df56aca
 ms.translationtype: HT
 ms.contentlocale: sr-Latn-RS
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5273440"
+ms.lasthandoff: 04/06/2021
+ms.locfileid: "5858265"
 ---
-# <a name="import-estimates-for-a-project-to-a-project-based-quote-line---lite"></a>Uvoz procena za projekat u stavku ponude zasnovanu na projektu – jednostavno
+# <a name="import-estimates-for-a-project-to-a-project-based-quote-line"></a>Uvoz procena za projekat u stavku ponude zasnovanu na projektu 
 
-_**Odnosi se na:** Jednostavna primena – od pogodbe do profakture_
+_**Odnosi se na:** Jednostavna primena – od pogodbe do profakture, Project Operations za scenarije zasnovane na resursima / bez zaliha_
 
 Ako se projekat kreira tokom faze pretprodaje, možete izabrati uvoz finansijske procene iz projekta u stavku ponude zasnovanu na projektu.
 
@@ -30,7 +30,7 @@ Ako se projekat kreira tokom faze pretprodaje, možete izabrati uvoz finansijske
   - **Uloga** 
   - **Projektni zadatak**
 
-Na osnovu vašeg izbora, kopira se procena iz projekta za sve klase transakcija koje su uključene u ovu stavku ponude. Da biste proverili koje su klase transakcija uključene, izaberite karticu **Opšti podaci** u stavci ponude zasnovanoj na projektu i proverite vrednosti za **Uključi vreme**, **Uključi troškove** i **Uključi naknade**.  Da biste proverili koji su zadaci obuhvaćeni, odaberite karticu **Zadaci koji se naplaćuju** u stavci ponude.
+Na osnovu vašeg izbora, kopira se procena iz projekta za sve klase transakcija koje su uključene u ovu stavku ponude. Da biste proverili koje su klase transakcija uključene, izaberite karticu **Opšti podaci** na stavki ponude zasnovane na projektu i proverite vrednosti za **Sadrži vreme**, **Sadrži troškove**, **Sadrži materijale** i **Sadrži naknade**.  Da biste proverili koji su zadaci obuhvaćeni, odaberite karticu **Zadaci koji se naplaćuju** u stavci ponude.
 
 Na osnovu povezanih zadataka i uključenih klasa transakcija, procene za te kombinacije zadataka i klasa transakcija uvoze se u stavku ponude.
 

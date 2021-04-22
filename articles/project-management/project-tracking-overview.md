@@ -1,23 +1,23 @@
 ---
-title: Pregled praćenja projekata
-description: Ova tema pruža informacije o tome kako da pratite napredak projekta i troškove korišćenja.
+title: Praćenje angažovanja u projektu
+description: Ova tema pruža informacije o tome kako da pratite angažovanje u projektu i napredak posla.
 author: ruhercul
 manager: AnnBe
-ms.date: 10/01/2020
+ms.date: 03/22/2021
 ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.openlocfilehash: 14094d603be2834dc66abff2ff1faf5e940b1ffa
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: ead8821c8861ded1e7afd5c192af414f758edef9
+ms.sourcegitcommit: a1f9f92546ab5d8d8e5a4710ce4c96414ea55d14
 ms.translationtype: HT
 ms.contentlocale: sr-Latn-RS
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5286625"
+ms.lasthandoff: 03/24/2021
+ms.locfileid: "5710957"
 ---
-# <a name="project-tracking-overview"></a>Pregled praćenja projekata
+# <a name="project-effort-tracking"></a>Praćenje angažovanja u projektu
 
-_**Odnosi se na:** Project Operations za resurs/scenarije koji nisu zasnovani na zalihama, laganu primenu – od pogodbe do profakture_
+_**Odnosi se na:** Project Operations za scenarije zasnovane na resursima/bez zaliha, jednostavna primena – od pogodbe do profakture_
 
 Potreba da se prati napredak u odnosu na raspored razlikuje se od delatnosti do delatnosti. Neke delatnosti obavljaju praćenje na najdetaljnijem nivou, dok druge to rade na višem nivou. Ova tema pokazuje kako obaviti zakazivanje da biste ispunili potrebe svoje organizacije.
 
@@ -26,50 +26,28 @@ Potreba da se prati napredak u odnosu na raspored razlikuje se od delatnosti do 
 Prikaz **Praćenje angažovanja** prati napredak zadataka u rasporedu upoređujući stvarne sate angažovanja utrošene na zadatku sa planiranim satima angažovanja na zadatku. Dynamics 365 Project Operations koristi sledeće formule za izračunavanje metrike za praćenje:
 
 - **Procenat napretka**: Stvarno vreme angažovanja do danas ÷ Procena pri završetku (EAC) 
-- **Procena do završetka (ETC)**: Planirano angažovanje – Stvarno vreme angažovanja do danas 
+- **Preostalo angažovanje**: Procenjeno angažovanje – Stvarno vreme angažovanja do danas 
 - **EAC**: Preostalo angažovanje + Stvarno vreme angažovanja do danas 
 - **Odstupanje od projektovanog angažovanja**: Planirano angažovanje – EAC
 
 Project Operations prikazuje projekciju odstupanja od angažovanja na zadatku. Ako je EAC veći od planiranog angažovanja, predviđa se da će zadatak oduzeti više vremena nego što je prvobitno planirano i kasniće. Ako je EAC manji od planiranog angažovanja, predviđa se da će zadatak oduzeti manje vremena nego što je prvobitno planirano i biće ispred planiranog vremena.
 
-## <a name="reprojecting-effort"></a>Ponovno projektovanje angažovanja
+## <a name="reprojecting-effort-on-leaf-node-tasks"></a>Ponovno projektovanje angažovanja na zadacima čvora lista
 
-Menadžeri projekta često revidiraju originalne procene zadatka. Ponovne projekcije projekata predstavljaju način na koji menadžer projekta percipira procene, s obzirom na trenutni status projekta. Međutim, ne preporučujemo menadžerima projekata da menjaju osnovne vrednosti. To je zato što osnovne vrednosti projekta predstavljaju uspostavljen izvor istine za raspored projekta i procenu troškova, a svi zainteresovani za projekat su je prihvatili.
+Menadžeri projekta često revidiraju originalne procene zadatka. Ponovne projekcije projekata predstavljaju način na koji menadžer projekta percipira procene, s obzirom na trenutni status projekta. Međutim, ne preporučujemo menadžerima projekata da promene planirane brojeve angažovanja. To je zato što planirano angažovanje u projektu predstavlja utvrđeni izvor istine za raspored projekata i procenu troškova, a svi učesnici zainteresovani za projekat su se sa tim složili.
 
-Postoje dva načina na koje menadžer projekta može ponovo da projektuje angažovanje na zadacima:
-
-- Izmenite podrazumevani ETC novom procenom stvarnog preostalog angažovanja na zadatku. 
-- Izmenite podrazumevani procenat napretka novom procenom stvarnog napretka zadatka.
-
-Svaki od ovih pristupa dovodi do toga da se ponovo izračunaju ETC, EAC i procenat napretka zadatka, kao i odstupanje od projektovanog angažovanja na zadatku. EAC, ETC i procenat napretka u rezimiranim zadacima takođe se ponovo izračunavaju i stvaraju novu projekciju odstupanja od angažovanja.
+Menadžer projekta može da ponovo projektuje angažovanje na zadacima ažuriranjem podrazumevanih vrednosti **Preostalo angažovanje** sa novom procenom zadatka. Ova ispravka dovodi do toga da se za zadatak ponovo izračunaju procena po završetku (EAC), procenat napretka i odstupanje od projektovanog angažovanja na zadatku. EAC, ETC i procenat napretka u rezimiranim zadacima takođe se ponovo izračunavaju i stvaraju novu projekciju odstupanja od angažovanja.
 
 ## <a name="reprojection-of-effort-on-summary-tasks"></a>Ponovna projekcija angažovanja za rezimirane zadatke
 
-Angažovanje na rezimiranim zadacima ili zadacima kontejnera može se ponovno projektovati. Bez obzira da li korisnik ponovo projektuje pomoću preostalog angažovanja ili procenta napretka rezimiranih zadataka, započinje sledeći niz izračunavanja:
+Angažovanje na rezimiranim zadacima ili zadacima kontejnera može se ponovno projektovati. Menadžeri projekta mogu ažurirati preostalo angažovanje na rezimiranim zadacima. Ažuriranje preostalog angažovanja pokreće sledeći skup izračunavanja u aplikaciji:
 
-- EAC, ETC i procenat napretka zadatka se izračunavaju.
+- Izračunavaju se EAC i procenat napretka zadatka.
 - Novi EAC se distribuira do nadređenih zadataka u istoj proporciji kao i izvorni EAC za zadatak.
 - Izračunava se novi EAC za svaki od pojedinačnih zadataka sve do zadataka čvora lista. 
-- Nadređeni zadaci na koje ovo utiče, sve do čvorova lista, imaju ponovno izračunat ETC i procenat napretka na osnovu EAC vrednosti. To rezultira novom projekcijom odstupanja od angažovanja na zadatku. 
+- Podređeni zadaci na koje ovo utiče, sve do čvorova lista, imaju ponovno izračunato preostalo angažovanje i procenat napretka na osnovu EAC vrednosti. To rezultira novom projekcijom odstupanja od angažovanja na zadatku. 
 - Ponovo se izračunavaju EAC-ovi rezimiranih zadataka sve do osnovnog čvora.
 
-### <a name="cost-tracking-view"></a>Prikaz praćenja troškova 
-
-Prikaz **Praćenje troškova** upoređuje stvarne troškove potrošene na zadatak i planirane troškove zadatka. 
-
-> [!NOTE]
-> Ovaj prikaz prikazuje samo troškove rada i ne uključuje troškove iz procena troškova. Project Operations koristi sledeće formule za izračunavanje metrika za praćenje:
-
-- **Procenat ostvarenih troškova**: Stvarni troškovi do danas ÷ Procenjeni troškovi po završetku
-- **Troškovi do završetka (CTC)**: Planirani troškovi – Stvarni troškovi ostvareni do danas
-- **EAC**: Preostali troškovi + Stvarni troškovi ostvareni do danas
-- **Odstupanje od projektovanih troškova**: Planirani troškovi – EAC
-
-Projekcija odstupanja od troškova je prikazana na zadatku. Ako je EAC veći od planiranih troškova, predviđa se da će zadatak koštati više nego što je prvobitno planirano. Zbog toga ima trend prekoračenja budžeta. Ako je EAC manji od planiranih troškova, predviđa se da će zadatak koštati manje nego što je prvobitno planirano. Zbog toga ima trend neiskorišćenog budžeta.
-
-## <a name="project-managers-reprojection-of-cost"></a>Ponovna projekcija troškova od strane menadžera projekta
-
-Kada se angažovanje ponovo projektuje, CTC, EAC, procenat ostvarenih troškova i odstupanja od projektovanih troškova se ponovo izračunavaju u prikazu **Praćenje troškova**.
 
 ## <a name="project-status-summary"></a>Rezime statusa projekta
 

@@ -3,7 +3,7 @@ title: Cenovnici proizvoda
 description: Ova tema pruža informacije o cenovnicima u kataloškim cenama koji se koriste za ponude za projekat i ugovore.
 author: rumant
 manager: AnnBe
-ms.date: 09/18/2020
+ms.date: 04/05/2021
 ms.topic: article
 ms.prod: ''
 ms.service: project-operations
@@ -14,23 +14,21 @@ ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.search.industry: Service industries
-ms.author: suvaidya
+ms.author: rumant
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: c0f30bec159254c078024549b7b0dd0c048ef65d
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: e37f0bf9eef946ab4ebd658cef4e1269cbaf686d
+ms.sourcegitcommit: ac90be6106592f883a0de39a75836fb40255d65a
 ms.translationtype: HT
 ms.contentlocale: sr-Latn-RS
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5275375"
+ms.lasthandoff: 04/09/2021
+ms.locfileid: "5877507"
 ---
 # <a name="product-price-lists"></a>Cenovnici proizvoda
 
-_**Odnosi se na:** Project Operations za resurs/scenarije koji nisu zasnovani na zalihama, laganu primenu – od pogodbe do profakture_
+_**Odnosi se na:** Jednostavna primena – od pogodbe do profakture_
 
-Entiteti Cenovnici i Stavka cenovnika podržavaju cene u katalogu proizvoda. Ova funkcionalnost se u najvećoj meri koristi u stavkama zasnovanim na katalogu u projektnim ponudama i projektnim ugovorima.
-
-Za stavke zasnovane na projektu, ugovor predstavlja pogodbu nakon što je odobren. Budući da proces pregovaranja obično prethodi odobrenju, cene koje su priložene uz ponudu uvek se kopiraju takve kakve jesu u novi cenovnik i prilažu uz ugovor. Ovaj novi cenovnik ne može se menjati izvan okvira ugovora. Ovo ograničenje pomaže u zaštiti ugovorene cenovne karte od bilo kakvih promena cena u glavnom cenovniku.
+ U usluzi Project Operations, **cenovnici proizvoda** i povezani entiteti stavke cenovnika podržavaju funkcionalnost određivanja cena proizvoda prema ponudi zasnovanoj na proizvodima i predmetima ugovora. Za proizvode koji se koriste na projektima, koriste se zapisi stavki cenovnika za cenovnike projekata. 
 
 Proizvodi treba da budu podešeni tako da u katalogu proizvoda imaju podrazumevane troškove i cenovnike. Koristite cenovnik, standardnu cenu i trenutnu cenu da biste konfigurisali podrazumevanu cenu i cenovnik. Podrazumevane cene na listi koriste se u stavci ponude ili predmetu ugovora o projektu samo kada sistem ne može da pronađe stavku cenovnika za taj proizvod u cenovniku proizvoda za ponudu ili ugovor o projektu.
 
@@ -40,9 +38,7 @@ Cena koštanja stavki kataloga proizvoda može se menjati između ponuda. Ova mo
 
 Možete da dodate proizvode iz kataloga proizvoda u različite cenovnike. Stavke cenovnika za proizvode uvek upućuju na određenu jedinicu. Cene proizvoda u stavkama cenovnika se mogu konfigurisati kao iznos valute. Alternativno, mogu se konfigurisati kao funkcija cenovnika, trenutne cene ili standardne cene.
 
-PSA podržava različite opcije zaokruživanja kada su cene konfigurisane kao funkcija cenovnika, standardne cene ili trenutne cene. Pored toga što možete iskoristiti više metoda određivanja cena i mogućnosti zaokruživanja, liste popusta možete povezati sa stavkama cenovnika. 
-
-Kada kreirate novi prilagođeni cenovnik za ponudu, izborom stavke **Kreiranje prilagođenih cena** na stranici **Ponuda za projekat**, pravi se kopija cenovnika i polje **Entitet** u zaglavlju novog cenovnika se podešava na **Prodajni entitet**. Naziv novog cenovnika se dodaje uz naziv ponude i vremensku oznaku. Takođe možete da koristite ime novog cenovnika i naziv ponude u prilagođenim tokovima posla da pokrenete dodatni pregled i odobrenja za ponude koje koriste prilagođene cene.
+Funkcionalnost određivanja cena podržava različite opcije zaokruživanja kada su cene proizvoda konfigurisane kao funkcija cenovnika, standardna cena ili trenutna cena. Pored toga što možete iskoristiti više metoda određivanja cena i mogućnosti zaokruživanja, liste popusta možete povezati sa stavkama cenovnika. 
 
  
 ## <a name="default-product-price-list"></a>Podrazumevani cenovnik proizvoda
@@ -57,7 +53,7 @@ Entiteti Mogućnost za poslovanje, Ponuda i Ugovor o projektu koriste sledeći r
 
 Polje **Proizvod** u stavci ponude podrazumevano navodi sve aktivne proizvode u cenovniku proizvoda za ponudu. Ako proizvod nije aktiviran ili je radna verzija proizvoda, on nije naveden, čak i ako je u cenovniku. 
 
-Stavke kataloga proizvoda dodaju se kao stavke fakture na prvoj fakturi koja je kreirana za ugovor o projektu. U radnoj verziji fakture te stavke fakture mogu se izbrisati. U tom slučaju, stavke će se pojaviti na narednoj fakturi dok se ne fakturišu ili dok se faktura ne pošalje klijentu. Ne možete fakturisati delimičnu količinu stavke fakture za proizvod. Kada se fakturišu stavke proizvoda iz projektnog ugovora, kreiraju se stvarne vrednosti. Međutim, ove stvarne vrednosti nisu povezane sa srodnim entitetom projekta. Drugim rečima, predmeti ugovora zasnovani na proizvodima ne zavise ni od kakve upotrebe zasnovane na projektu. Potrošnja materijala za projekte se ne prati.
+Stavke kataloga proizvoda dodaju se kao stavke fakture na prvoj fakturi koja je kreirana za ugovor o projektu. U radnoj verziji fakture te stavke fakture mogu se izbrisati. U tom slučaju, stavke će se pojaviti na narednoj fakturi dok se ne fakturišu ili dok se faktura ne pošalje klijentu. Ne možete fakturisati delimičnu količinu stavke fakture za proizvod. Kada se fakturišu stavke proizvoda iz projektnog ugovora, kreiraju se stvarne vrednosti. Međutim, ove stvarne vrednosti nisu povezane sa srodnim entitetom projekta. Drugim rečima, predmeti ugovora zasnovani na proizvodima ne zavise ni od kakve upotrebe zasnovane na projektu. 
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

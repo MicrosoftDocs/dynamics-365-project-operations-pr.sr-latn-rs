@@ -3,19 +3,19 @@ title: Gotovinski avans
 description: Ova tema pruža informacije o akontacijama.
 author: suvaidya
 manager: AnnBe
-ms.date: 02/01/2021
+ms.date: 03/25/2021
 ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: suvaidya
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: 6da50ac5611fcbd54aef8d8591ee112200468177
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 5ac8956720deac9e9c9191cefb870a7fbbeedcca
+ms.sourcegitcommit: 9ebf7dd501898053bfa824f732adabf3f273613b
 ms.translationtype: HT
 ms.contentlocale: sr-Latn-RS
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5276725"
+ms.lasthandoff: 03/26/2021
+ms.locfileid: "5715577"
 ---
 # <a name="cash-advance"></a>Gotovinski avans
 
@@ -60,7 +60,22 @@ Sledeći postupak obično dovršava računovođa ili korisnik sa računovodstven
 
 Kada kreirate i podnesete izveštaj o troškovima za gotovinski avans koji ste već dobili, troškovi će se automatski prilagoditi tom avansu. Ako je vaša akontacija veća od utrošenog iznosa, morate vratiti razliku preduzeću koristeći kategoriju troška **Povraćaj gotovine**. Ako je gotovinski avans koji je preduzeće platilo manji od iznosa koji ste potrošili, preduzeće vam mora nadoknaditi bilans. 
 
-### <a name="example"></a>Primer
+### <a name="select-cash-advances-that-apply-to-your-expenses"></a>Izaberite avans u gotovini koji se odnosi na vaše troškove
+Pre nego što predate izveštaj o troškovima, možete da izaberete avans u gotovini koji se poklapa sa transakcijama troškova u izveštaju. Da biste koristili ovu funkcionalnost, sledeće dve funkcije moraju biti omogućene iz radnog prostora **Upravljanje funkcijama**:
+
+  - Ponovno osmišljeni izveštaji o troškovima
+  - Sposobnost mapiranja gotovinskih avansa u stavke troškova
+ 
+ Kada su ove funkcije omogućene:
+ 
+  - Možete platiti jedan ili više gotovinskih avansa za svaku stavku troška.
+  - Dostupno stanje gotovinskog avansa vidljivo je u realnom vremenu kada se sačuva izveštaj o troškovima. Ovo vam omogućava istovremeno obrađivanje transakcija troškova i vraćanje gotovinskih transakcija.
+  - Možete izabrati više gotovinskih avansa za jednu transakciju troška.
+  - Podaci o sravnjenju gotovinskog avansa dostupni su pomoću upita. 
+ 
+Ako ne koristite ove funkcije, funkcionalnost će ostati ista, sa postojećim gotovinskim avansima automatski se smanjuju nakon podnošenja troškova.
+
+### <a name="example"></a>Primer 
 Planirate da putujete iz Sijetla u Njujork na konferenciju. Kreirate zahtev za gotovinski avans za 3000,00 USD na osnovu procenjene cene konferencijske karte, letova, hotela, obroka i taksija. Neće vam biti plaćeno ako menadžer ne odobri ovaj zahtev. Kada vaš menadžer odobri, tražena akontacija u iznosu od 3000 USD se uplaćuje na vaš bankovni račun. Zatim prisustvujete konferenciji. Po završetku putovanja, otkrivate da su ukupni izdaci bili samo 2790 USD. Izaberite **Gotovina** u polju **Način plaćanja** i predajte troškove za 2790,00 USD. Prosleđeni iznos troška automatski se prilagođava akontaciji od 3000 USD koja vam je pozajmljena. Sada dugujete iznos od 210,00 USD (3000,00 – 2790,00) koji možete vratiti kompaniji koristeći kategoriju troškova **Povraćaj gotovine**.
 
 

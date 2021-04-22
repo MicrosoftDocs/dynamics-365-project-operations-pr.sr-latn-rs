@@ -1,5 +1,5 @@
 ---
-title: Konfigurisanje naplativih komponenti za predmet ugovora zasnovan na projektu – jednostavno
+title: Konfigurisanje naplativih komponenti za predmet ugovora zasnovan na projektu
 description: Ova tema pruža informacije o tome kako dodati naplative komponente u predmete ugovora u usluzi Project Operations.
 author: rumant
 manager: Annbe
@@ -8,16 +8,16 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: cf3f2a28fc992d6444b35d6ffa0c3f6cadcf16ea
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: ddada2cb412ba7370fb0a750325a84772937d8d0
+ms.sourcegitcommit: 5fd529f2308edfe9322082313e6d50146df56aca
 ms.translationtype: HT
 ms.contentlocale: sr-Latn-RS
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5273935"
+ms.lasthandoff: 04/06/2021
+ms.locfileid: "5858490"
 ---
-# <a name="configure-chargeable-components-of-a-project-based-contract-line---lite"></a>Konfigurisanje naplativih komponenti za predmet ugovora zasnovan na projektu – jednostavno
+# <a name="configure-chargeable-components-of-a-project-based-contract-line"></a>Konfigurisanje naplativih komponenti za predmet ugovora zasnovan na projektu
 
-_**Odnosi se na:** Jednostavna primena – od pogodbe do profakture_
+_**Odnosi se na:** Jednostavna primena – od pogodbe do profakture, Project Operations za scenarije zasnovane na resursima / bez zaliha_
 
 Predmet ugovora zasnovan na projektu ima *uključene* komponente i *naplative* komponente.
 
@@ -42,7 +42,7 @@ Naplativost definisana u kategorijama transakcija za predmet ugovora o projektu 
 
 ### <a name="update-a-project-task-as-chargeable-or-non-chargeable"></a>Ažurirajte projektni zadatak kao naplativi ili nenaplativi
 
-Projektni zadatak može biti naplativ ili nenaplativ na određenom predmetu ugovora što omogućava sledeće podešavanje:
+Projektni zadatak može biti naplativ ili nenaplativ na određenom predmetu ugovora, što omogućava sledeće podešavanje:
 
 Ako predmet ugovora zasnovan na projektu uključuje **Vreme** i određeni zadatak, **T1** je povezan sa njim kao naplativ. Ako postoji drugi predmet ugovora koji uključuje **Trošak**, zadatak T1 na predmetu ugovora liniji možete povezati kao nenaplativ. Rezultat je da je sve vreme evidentirano u zadatku naplativo, a svi troškovi nenaplativi.
 
@@ -62,23 +62,582 @@ Tip obračuna transakcije može se konfigurisati na kartici **Kategorije koje se
 
 ### <a name="resolve-chargeability"></a>Rešite naplativost
 
-Procena ili stvarna vrednost kreirana za vreme smatraće se naplativom samo ako je **Vreme** uključeno u predmet ugovora i ako su **Zadatak** i **Uloga** konfigurisani kao naplativi na predmetu ugovora.
+Procena ili stvarna vrednost kreirana za vreme smatra se naplativom samo ako važi sledeće:
 
-Procena ili stvarna vrednost kreirana za trošak smatraće se naplativom samo ako je **Trošak** uključen u predmet ugovora i ako su kategorije **Zadatak** i **Transakcija** konfigurisani kao naplative na predmetu ugovora.
+   - **Vreme** je uključeno u predmet ugovora.
+   - **Uloga** je konfigurisana kao naplativa u predmetu ugovora.
+   - **Obuhvaćeni zadaci** su podešeni na vrednost **Izabrani zadaci** u predmetu ugovora.
+ 
+ Ako su ove tri stvari tačne, zadatak se konfiguriše kao naplativ. 
+
+Procena ili stvarna vrednost za trošak smatra se naplativom samo ako važi sledeće:
+
+   - **Trošak** je uključen u predmet ugovora
+   - **Kategorija transakcije** je konfigurisana kao naplativa u predmetu ugovora
+   - **Obuhvaćeni zadaci** su podešeni na vrednost **Izabrani zadatak** u predmetu ugovora
+  
+ Ako su ove tri stvari tačne, **Zadatak** se konfiguriše kao naplativ. 
+
+Procena ili stvarna vrednost za materijal smatra se naplativom samo ako važi sledeće:
+
+   - **Materijali** su uključeni u predmet ugovora
+   - **Obuhvaćeni zadaci** su podešeni na vrednost **Izabrani zadaci** u predmetu ugovora
+
+Ako su ove dve stvari tačne, **Zadatak** se konfiguriše kao naplativ. 
+
+<table border="0" cellspacing="0" cellpadding="0">
+    <tbody>
+        <tr>
+            <td width="70" valign="top">
+                <p>
+                    <strong>Sadrži vreme</strong>
+                </p>
+            </td>
+            <td width="78" valign="top">
+                <p>
+                    <strong>Sadrži trošak</strong>
+                    <strong></strong>
+                </p>
+            </td>
+            <td width="63" valign="top">
+                <p>
+                    <strong>Sadrži materijale</strong>
+                    <strong></strong>
+                </p>
+            </td>
+            <td width="75" valign="top">
+                <p>
+                    <strong>Obuhvaćeni zadaci</strong>
+                    <strong></strong>
+                </p>
+            </td>
+            <td width="65" valign="top">
+                <p>
+                    <strong>Uloga</strong>
+                    <strong></strong>
+                </p>
+            </td>
+            <td width="70" valign="top">
+                <p>
+                    <strong>Kategorija</strong>
+                    <strong></strong>
+                </p>
+            </td>
+            <td width="65" valign="top">
+                <p>
+                    <strong>Zadatak</strong>
+                    <strong></strong>
+                </p>
+            </td>
+            <td width="350" valign="top">
+                <p>
+                    <strong>Uticaj naplativosti</strong>
+                </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="70" valign="top">
+                <p>
+Da </p>
+            </td>
+            <td width="78" valign="top">
+                <p>
+Da </p>
+            </td>
+            <td width="63" valign="top">
+                <p>
+Da </p>
+            </td>
+            <td width="75" valign="top">
+                <p>
+Čitav projekat </p>
+            </td>
+            <td width="65" valign="top">
+                <p>
+Naplativo </p>
+            </td>
+            <td width="70" valign="top">
+                <p>
+Naplativo </p>
+            </td>
+            <td width="65" valign="top">
+                <p>
+Nije moguće podesiti </p>
+            </td>
+            <td width="350" valign="top">
+                <p>
+Obračun u stvarnom vremenu: <strong>Naplativo</strong>
+                </p>
+                <p>
+Tip obračuna na stvarnom trošku: <strong>Naplativo</strong>
+                </p>
+                <p>
+Tip obračuna na stvarnom materijalu: <strong>Naplativo</strong>
+                </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="70" valign="top">
+                <p>
+Da </p>
+            </td>
+            <td width="78" valign="top">
+                <p>
+Da </p>
+            </td>
+            <td width="63" valign="top">
+                <p>
+Da </p>
+            </td>
+            <td width="75" valign="top">
+                <p>
+Samo izabrani zadaci </p>
+            </td>
+            <td width="65" valign="top">
+                <p>
+Naplativo </p>
+            </td>
+            <td width="70" valign="top">
+                <p>
+Naplativo </p>
+            </td>
+            <td width="65" valign="top">
+                <p>
+Naplativo </p>
+            </td>
+            <td width="350" valign="top">
+                <p>
+Obračun u stvarnom vremenu: <strong>Naplativo</strong>
+                </p>
+                <p>
+Tip obračuna na stvarnom trošku: <strong>Naplativo</strong>
+                </p>
+                <p>
+Tip obračuna na stvarnom materijalu: <strong>Naplativo</strong>
+                </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="70" valign="top">
+                <p>
+Da </p>
+            </td>
+            <td width="78" valign="top">
+                <p>
+Da </p>
+            </td>
+            <td width="63" valign="top">
+                <p>
+Da </p>
+            </td>
+            <td width="75" valign="top">
+                <p>
+Samo izabrani zadaci </p>
+            </td>
+            <td width="65" valign="top">
+                <p>
+                    <strong>Nenaplativo</strong>
+                </p>
+            </td>
+            <td width="70" valign="top">
+                <p>
+Naplativo </p>
+            </td>
+            <td width="65" valign="top">
+                <p>
+Naplativo </p>
+            </td>
+            <td width="350" valign="top">
+                <p>
+Obračun u stvarnom vremenu: <strong>Nenaplativo</strong>
+                </p>
+                <p>
+Tip obračuna na stvarnom trošku: Naplativo </p>
+                <p>
+Tip obračuna na stvarnom materijalu: Naplativo </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="70" valign="top">
+                <p>
+Da </p>
+            </td>
+            <td width="78" valign="top">
+                <p>
+Da </p>
+            </td>
+            <td width="63" valign="top">
+                <p>
+Da </p>
+            </td>
+            <td width="75" valign="top">
+                <p>
+Samo izabrani zadaci </p>
+            </td>
+            <td width="65" valign="top">
+                <p>
+Naplativo </p>
+            </td>
+            <td width="70" valign="top">
+                <p>
+Naplativo </p>
+            </td>
+            <td width="65" valign="top">
+                <p>
+                    <strong>Nenaplativo</strong>
+                </p>
+            </td>
+            <td width="350" valign="top">
+                <p>
+Obračun u stvarnom vremenu: <strong>Nenaplativo</strong>
+                </p>
+                <p>
+Tip obračuna na stvarnom trošku: <strong>Nenaplativo</strong>
+                </p>
+                <p>
+Tip obračuna na stvarnom materijalu: <strong>Nenaplativo</strong>
+                </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="70" valign="top">
+                <p>
+Da </p>
+            </td>
+            <td width="78" valign="top">
+                <p>
+Da </p>
+            </td>
+            <td width="63" valign="top">
+                <p>
+Da </p>
+            </td>
+            <td width="75" valign="top">
+                <p>
+Samo izabrani zadaci </p>
+            </td>
+            <td width="65" valign="top">
+                <p>
+                    <strong>Nenaplativo</strong>
+                </p>
+            </td>
+            <td width="70" valign="top">
+                <p>
+Naplativo </p>
+            </td>
+            <td width="65" valign="top">
+                <p>
+                    <strong>Nenaplativo</strong>
+                </p>
+            </td>
+            <td width="350" valign="top">
+                <p>
+Obračun u stvarnom vremenu: <strong>Nenaplativo</strong>
+                </p>
+                <p>
+Tip obračuna na stvarnom trošku: <strong>Nenaplativo</strong>
+                </p>
+                <p>
+Tip obračuna na stvarnom materijalu: <strong> Nenaplativo</strong>
+                </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="70" valign="top">
+                <p>
+Da </p>
+            </td>
+            <td width="78" valign="top">
+                <p>
+Da </p>
+            </td>
+            <td width="63" valign="top">
+                <p>
+Da </p>
+            </td>
+            <td width="75" valign="top">
+                <p>
+Samo izabrani zadaci </p>
+            </td>
+            <td width="65" valign="top">
+                <p>
+                    <strong>Nenaplativo</strong>
+                </p>
+            </td>
+            <td width="70" valign="top">
+                <p>
+                    <strong>Nenaplativo</strong>
+                </p>
+            </td>
+            <td width="65" valign="top">
+                <p>
+Naplativo </p>
+            </td>
+            <td width="350" valign="top">
+                <p>
+Obračun u stvarnom vremenu: <strong>Nenaplativo</strong>
+                </p>
+                <p>
+Tip obračuna na stvarnom trošku: <strong> Nenaplativo</strong>
+                </p>
+                <p>
+Tip obračuna na stvarnom materijalu: Naplativo </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="70" valign="top">
+                <p>
+                    <strong>No</strong>
+                </p>
+            </td>
+            <td width="78" valign="top">
+                <p>
+Da </p>
+            </td>
+            <td width="63" valign="top">
+                <p>
+Da </p>
+            </td>
+            <td width="75" valign="top">
+                <p>
+Čitav projekat </p>
+            </td>
+            <td width="65" valign="top">
+                <p>
+Nije moguće podesiti </p>
+            </td>
+            <td width="70" valign="top">
+                <p>
+                    <strong>Naplativo</strong>
+                </p>
+            </td>
+            <td width="65" valign="top">
+                <p>
+Nije moguće podesiti </p>
+            </td>
+            <td width="350" valign="top">
+                <p>
+Obračun u stvarnom vremenu: <strong>Nije dostupno</strong>
+                </p>
+                <p>
+Tip obračuna na stvarnom trošku: Naplativo </p>
+                <p>
+Tip obračuna na stvarnom materijalu: Naplativo </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="70" valign="top">
+                <p>
+                    <strong>No</strong>
+                </p>
+            </td>
+            <td width="78" valign="top">
+                <p>
+Da </p>
+            </td>
+            <td width="63" valign="top">
+                <p>
+Da </p>
+            </td>
+            <td width="75" valign="top">
+                <p>
+Čitav projekat </p>
+            </td>
+            <td width="65" valign="top">
+                <p>
+Nije moguće podesiti </p>
+            </td>
+            <td width="70" valign="top">
+                <p>
+                    <strong>Nenaplativo</strong>
+                </p>
+            </td>
+            <td width="65" valign="top">
+                <p>
+Nije moguće podesiti </p>
+            </td>
+            <td width="350" valign="top">
+                <p>
+Obračun u stvarnom vremenu: <strong>Nije dostupno</strong>
+                </p>
+                <p>
+Tip obračuna na stvarnom trošku: <strong> Nenaplativo</strong>
+                </p>
+                <p>
+Tip obračuna na stvarnom materijalu: Naplativo </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="70" valign="top">
+                <p>
+Da </p>
+            </td>
+            <td width="78" valign="top">
+                <p>
+                    <strong>No</strong>
+                </p>
+            </td>
+            <td width="63" valign="top">
+                <p>
+Da </p>
+            </td>
+            <td width="75" valign="top">
+                <p>
+Čitav projekat </p>
+            </td>
+            <td width="65" valign="top">
+                <p>
+Naplativo </p>
+            </td>
+            <td width="70" valign="top">
+                <p>
+Nije moguće podesiti </p>
+            </td>
+            <td width="65" valign="top">
+                <p>
+Nije moguće podesiti </p>
+            </td>
+            <td width="350" valign="top">
+                <p>
+Obračun u stvarnom vremenu: Naplativo </p>
+                <p>
+Tip obračuna na stvarnom trošku: <strong>Nije dostupno</strong>
+                </p>
+                <p>
+Tip obračuna na stvarnom materijalu: Naplativo </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="70" valign="top">
+                <p>
+Da </p>
+            </td>
+            <td width="78" valign="top">
+                <p>
+                    <strong>No</strong>
+                </p>
+            </td>
+            <td width="63" valign="top">
+                <p>
+Da </p>
+            </td>
+            <td width="75" valign="top">
+                <p>
+Čitav projekat </p>
+            </td>
+            <td width="65" valign="top">
+                <p>
+                    <strong>Nenaplativo</strong>
+                </p>
+            </td>
+            <td width="70" valign="top">
+                <p>
+Nije moguće podesiti </p>
+            </td>
+            <td width="65" valign="top">
+                <p>
+Nije moguće podesiti </p>
+            </td>
+            <td width="350" valign="top">
+                <p>
+Obračun u stvarnom vremenu: <strong>Nenaplativo</strong>
+                </p>
+                <p>
+Tip obračuna na stvarnom trošku: <strong>Nije dostupno</strong>
+                </p>
+                <p>
+Tip obračuna na stvarnom materijalu: Naplativo </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="70" valign="top">
+                <p>
+Da </p>
+            </td>
+            <td width="78" valign="top">
+                <p>
+Da </p>
+            </td>
+            <td width="63" valign="top">
+                <p>
+                    <strong>No</strong>
+                </p>
+            </td>
+            <td width="75" valign="top">
+                <p>
+Čitav projekat </p>
+            </td>
+            <td width="65" valign="top">
+                <p>
+Naplativo </p>
+            </td>
+            <td width="70" valign="top">
+                <p>
+Naplativo </p>
+            </td>
+            <td width="65" valign="top">
+                <p>
+Nije moguće podesiti </p>
+            </td>
+            <td width="350" valign="top">
+                <p>
+Obračun u stvarnom vremenu: Naplativo </p>
+                <p>
+Tip obračuna na stvarnom trošku: Naplativo </p>
+                <p>
+Tip obračuna na stvarnom materijalu: <strong> Nije dostupno</strong>
+                </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="70" valign="top">
+                <p>
+Da </p>
+            </td>
+            <td width="78" valign="top">
+                <p>
+Da </p>
+            </td>
+            <td width="63" valign="top">
+                <p>
+                    <strong>No</strong>
+                </p>
+            </td>
+            <td width="75" valign="top">
+                <p>
+Čitav projekat </p>
+            </td>
+            <td width="65" valign="top">
+                <p>
+                    <strong>Nenaplativo</strong>
+                </p>
+            </td>
+            <td width="70" valign="top">
+                <p>
+                    <strong>Nenaplativo</strong>
+                </p>
+            </td>
+            <td width="65" valign="top">
+                <p>
+Nije moguće podesiti </p>
+            </td>
+            <td width="350" valign="top">
+                <p>
+Obračun u stvarnom vremenu: <strong>Nenaplativo</strong>
+                </p>
+                <p>
+Tip obračuna na stvarnom trošku:<strong> Nenaplativo </strong>
+                </p>
+                <p>
+Tip obračuna na stvarnom materijalu:<strong> Nije dostupno</strong>
+                </p>
+            </td>
+        </tr>
+    </tbody>
+</table>
 
 
-| Sadrži vreme | Sadrži trošak | Sadrži zadatke | Uloga           | Kategorija       | Zadatak                                                                                                      |
-|---------------|------------------|----------------|----------------|----------------|-----------------------------------------------------------------------------------------------------------|
-| Da           | Da              | Čitav projekat | Naplativo     | Naplativo     | Obračun u stvarnom vremenu: **Naplativo** </br> Vrsta obračuna na stvarnom trošku: **Naplativo**           |
-| Da           | Da              | Izabrani zadaci | Naplativo     | Naplativo     | Obračun u stvarnom vremenu: **Naplativo** </br> Vrsta obračuna na stvarnom trošku: **Naplativo**           |
-| Da           | Da              | Izabrani zadaci | Nenaplativo | Naplativo     | Obračun u stvarnom vremenu: **Nenaplativo** </br> Vrsta obračuna na stvarnom trošku: **Naplativo**       |
-| Da           | Da              | Izabrani zadaci | Naplativo     | Naplativo     | Obračun u stvarnom vremenu: **Nenaplativo** </br> Tip obračuna na stvarnom trošku:   **Nenaplativo** |
-| Da           | Da              | Izabrani zadaci | Nenaplativo | Naplativo     | Obračun u stvarnom vremenu: **Nenaplativo** </br> Tip obračuna na stvarnom trošku:   **Nenaplativo** |
-| Da           | Da              | Izabrani zadaci | Nenaplativo | Nenaplativo | Obračun u stvarnom vremenu: **Nenaplativo** </br> Tip obračuna na stvarnom trošku:   **Nenaplativo** |
-| No            | Da              | Čitav projekat | Nije moguće podesiti   | Naplativo     | Obračun u stvarnom vremenu: **Nije dostupno**</br>Vrsta obračuna na stvarnom trošku: **Naplativo**          |
-| No            | Da              | Čitav projekat | Nije moguće podesiti   | Nenaplativo | Obračun u stvarnom vremenu: **Nije dostupno**</br> Tip obračuna na stvarnom trošku: **Nenaplativo**     |
-| Da           | No               | Čitav projekat | Naplativo     | Nije moguće podesiti   | Obračun u stvarnom vremenu: **Naplativo** </br> Tip obračuna na stvarnom trošku: **Nije dostupno**        |
-| Da           | No               | Čitav projekat | Nenaplativo | Nije moguće podesiti   | Obračun u stvarnom vremenu: **Nenaplativo** </br>Tip obračuna na stvarnom trošku: **Nije   dostupno**   |
+
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

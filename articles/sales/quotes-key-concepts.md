@@ -17,16 +17,16 @@ ms.search.industry: Service industries
 ms.author: rumant
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: 899279b33f4fe8780d110d7c18a097407bd8d839
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 488c57527e6cc153093014438453001170f311dc
+ms.sourcegitcommit: df30839484ef278675c5c712af0f7ba66ed9cdd3
 ms.translationtype: HT
 ms.contentlocale: sr-Latn-RS
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5277535"
+ms.lasthandoff: 03/17/2021
+ms.locfileid: "5663723"
 ---
-# <a name="quotes---key-concepts"></a>Ponude – ključni koncepti
+# <a name="concepts-unique-to-project-based-quotes"></a>Koncepti jedinstveni za ponude zasnovane na projektu
 
-_**Odnosi se na:** Project Operations za resurs/scenarije koji nisu zasnovani na zalihama, laganu primenu – od pogodbe do profakture_
+_**Odnosi se na:** Project Operations za scenarije zasnovane na resursima/bez zaliha, jednostavna primena – od pogodbe do profakture_
 
 U usluzi Dynamics 365 Project Operations postoje dve vrste ponuda – za projekte i za prodaju. Ova dva tipa ponuda se razlikuju na sledeće načine:
 

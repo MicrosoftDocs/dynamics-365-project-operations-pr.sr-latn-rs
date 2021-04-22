@@ -3,21 +3,21 @@ title: Konfigurisanje računovodstva za naplative projekte
 description: Ova tema pruža informacije o računovodstvenim opcijama za naplative projekte.
 author: sigitac
 manager: Annbe
-ms.date: 10/01/2020
+ms.date: 04/05/2021
 ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 4398ef44d4211a2921270bebe38fc92f18503854
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 629e3fc2f9069d104d459d0b4a6fa46c37f5c6f2
+ms.sourcegitcommit: 5fd529f2308edfe9322082313e6d50146df56aca
 ms.translationtype: HT
 ms.contentlocale: sr-Latn-RS
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5287660"
+ms.lasthandoff: 04/06/2021
+ms.locfileid: "5858670"
 ---
 # <a name="configure-accounting-for-billable-projects"></a>Konfigurisanje računovodstva za naplative projekte
 
-_**Odnosi se na:** Project Operations za resurs/scenarije koji nisu zasnovani na zalihama, laganu primenu – od pogodbe do profakture_
+_**Odnosi se na:** Project Operations za scenarije zasnovane na resursima/bez zaliha, jednostavna primena – od pogodbe do profakture_
 
 Dynamics 365 Project Operations podržava razne računovodstvene opcije za naplative projekte koji uključuju vreme i materijal i transakcije sa fiksnom cenom.
 
@@ -58,13 +58,25 @@ Dovršite sledeće korake da biste kreirali novi profil troškova i prihoda proj
 
          - **Bilans**: Pri knjiženju Project Operations dnevnika integracije, cena transakcije troškova zadužiće se na tipu računa glavne knjige *Prihod u toku – Vrednost troškova* kao što je definisano na kartici **Trošak** na stranici **Podešavanje knjiženja u glavnu knjigu** i odobriće se na računu za prebijanje dugovanja na stavci u glavnoj knjizi. Podrazumevani računi za prebijanje dugovanja i potraživanja za troškove su definisani u odeljku **Upravljanje projektima i računovodstvo** > **Podešavanje** \> **Knjiženje** \> **Podrazumevani račun za prebijanje dugovanja i potraživanja za troškove**. Računovođa će koristiti funkciju **Knjiženje troškova** da bi periodično premeštao ovaj trošak sa bilansnog računa na račun dobitka i gubitka.
         - **Dobitak i gubitak**: Pri knjiženju Project Operations dnevnika integracije, cena transakcije troškova zadužiće tip računa glavne knjige *Trošak* kao što je definisano na kartici **Trošak** na stranici **Podešavanje knjiženja u glavnu knjigu** i odobriće se na računu za prebijanje dugovanja i potraživanja na stavci u glavnoj knjizi. Podrazumevani računi za prebijanje dugovanja i potraživanja za troškove su definisani u odeljku **Upravljanje projektima i računovodstvo** \> **Podešavanje** \> **Knjiženje** \> **Podrazumevani račun za prebijanje dugovanja i potraživanja za troškove**.
+      
+    - **Knjiženje troškova – stavka**:
+
+         - **Bilans**: Prilikom knjiženja dnevnika Project Operations integracije, troškovi transakcije stavke biće se zaduživati za tip glavne knjige *Posao u toku – Vrednost troškova – stavka* kako je definisano na kartici **Cena** na stranici **Podešavanje knjiženja u glavnoj knjizi** i odobravati za sledeće:
+    
+              - Za upotrebu vrste dokumenta: **Trošak – stavka** račun na **Podešavanje knjiženja u glavnoj knjizi**.  
+              - Za kupovinu vrste dokumenta: **Račun za integraciju nabavki** na **Parametri upravljanja projektom i računovodstvom**.
+           Računovođa će koristiti funkciju **Knjiženje troškova** da bi periodično premeštao ovaj trošak sa bilansnog računa na račun dobitka i gubitka.
+        - **Profit i gubitak**: Prilikom knjiženja dnevnika Project Operations integracije, troškovi transakcije stavke biće zaduženi za tip glavne knjige *Cena* kako je definisano na kartici **Cena** na stranici **Podešavanje knjiženja u glavnoj knjizi** i odobravati za sledeće:
+         
+             - Za upotrebu vrste dokumenta: **Trošak – stavka** račun na **Podešavanje knjiženja u glavnoj knjizi**.  
+             - Za kupovinu vrste dokumenta: **Račun za integraciju nabavki** na **Parametri upravljanja projektom i računovodstvom**.
        
     - **O fakturisanju poslovnog kontakta**:
 
         - **Bilans**: Prilikom knjiženja predloga projektne fakture, transakcija na računu (kontrolna tačka za naplatu) biće odobrena na tipu računa glavne knjige *Fakturisani prihod u toku – na računu* kao što je definisano na kartici **Prihod** na stranici **Podešavanje knjiženja u glavnu knjigu** i zadužena na računu bilansa klijenta.
          - **Dobitak i gubitak**: Prilikom knjiženja predloga projektne fakture, transakcija na računu (kontrolna tačka za naplatu) biće odobrena na tipu računa glavne knjige *Fakturisani prihod – na računu* kao što je definisano na kartici **Prihod** na stranici **Podešavanje knjiženja u glavnu knjigu** i zadužena na računu bilansa klijenta. Računi bilansa klijenata definisani su u odeljku **Potraživanja** \> **Podešavanje** \> **Profili knjiženja klijenata**.
 
-   Kada definišete profile knjiženja za metode obračuna vremena i materijala, imate mogućnost prikupljanja prihoda po vrsti transakcije (sat, trošak i naknada). Ako je opcija **Pripadajući prihod** podešena na **Da**, nenaplaćene prodajne transakcije u Project Operations dnevniku integracije će se evidentirati u glavnu knjigu. Vrednost prodaje se zadužuje na računu **Prihod u toku – nalog vrednosti prodaje** i odobrena na računu **Pripisani prihod – vrednost prodaje** koji je podešen na stranici **Podešavanje knjiženja u glavnu knjigu**, na kartici **Prihod**. 
+   Kada definišete profile knjiženja za metode obračuna vremena i materijala, imate mogućnost prikupljanja prihoda po vrsti transakcije (sat, trošak, stavka i naknada). Ako je opcija **Pripadajući prihod** podešena na **Da**, nenaplaćene prodajne transakcije u Project Operations dnevniku integracije će se evidentirati u glavnu knjigu. Vrednost prodaje se zadužuje na računu **Posao u toku – račun vrednosti prodaje** i odobrava na računu **Pripisani prihod – vrednost prodaje** koji je podešen na stranici **Podešavanje knjiženja u glavnu knjigu**, na kartici **Prihod**. 
   
   > [!NOTE]
   > Opcija **Pripadajući prihod** je dostupna samo kada se odgovarajući tip transakcije **Trošak** knjiži na računu dobitka i gubitka.

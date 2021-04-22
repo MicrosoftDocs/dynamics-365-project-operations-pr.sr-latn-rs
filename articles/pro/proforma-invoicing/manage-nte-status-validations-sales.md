@@ -3,25 +3,25 @@ title: Upravljanje statusom i potvrdama koje ne smete premašiti
 description: Ova tema pruža informacije o ograničenjima koja se ne prekoračuju u usluzi Project Operations.
 author: rumant
 manager: Annbe
-ms.date: 10/22/2020
+ms.date: 04/05/2021
 ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: c5c491d4014ffc2568d7df72b542761ec9b1a90b
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 7026ff654a9db8e8a22bcef544b043af39865559
+ms.sourcegitcommit: ca0fc078d1a12484eca193fe051b8442c0559db8
 ms.translationtype: HT
 ms.contentlocale: sr-Latn-RS
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5274049"
+ms.lasthandoff: 04/07/2021
+ms.locfileid: "5866744"
 ---
 # <a name="manage-not-to-exceed-status-and-validations"></a>Upravljanje statusom i potvrdama koje ne smete premašiti 
 
-_**Odnosi se na:** Project Operations za resurs/scenarije koji nisu zasnovani na zalihama, laganu primenu – od pogodbe do profakture_
+_**Odnosi se na:** Project Operations za scenarije zasnovane na resursima/bez zaliha, jednostavna primena – od pogodbe do profakture_
 
 ## <a name="not-to-exceed-on-approvals"></a>Odobrenja koja se ne smeju premašiti
 
-Kada se podnese stavka vremena ili troška, kreira se zapis o odobrenju. Ako je odobrenje naplativo i mapira se na predmet ugovora za vreme i materijal, sistem izvršava proveru stavki koje ne smeju premašiti na sledećim nivoima:
+Kada se prosledi stavka vremena, troškova ili upotrebe materijala, kreira se zapis odobrenja. Ako je odobrenje naplativo i mapira se na predmet ugovora za vreme i materijal, sistem izvršava proveru stavki koje ne smeju premašiti na sledećim nivoima:
 
   - Provera da li je postavljeno ograničenje za klijenta na predmetu ugovora za projekat
   - Provera da li je postavljeno ograničenje za predmet ugovora
@@ -34,11 +34,11 @@ Ako provera prođe, odobrenje dobija status potvrde **Uspeh**.
 
 Ako provera ne uspe, odobrenje dobija status potvrde **Neuspešno**. Detalji provere valjanosti neprekoračenja obavestiće korisnika na kom nivou provera valjanosti nije uspela.
 
-Kada se podneti unos vremena ili troškova smatra nenaplativim, status provere valjanosti neprekoračenja se postavlja na **Nije primenljivo** sa detaljima provere valjanosti jednakim **Nije primenljivo**.
+Kada se prosleđena stavka vremena, troškova ili upotrebe materijala smatra nenaplativom, status potvrde koji se ne sme premašiti postavlja se na **Nije primenljivo** sa detaljima validacije jednakim sa **Nije primenljivo**.
 
 ## <a name="not-to-exceed-on-unbilled-sales-actuals"></a>Neprekoračenje stvarnih vrednosti nenaplaćene prodaje
 
-Kada se odobri stavka vremena ili troška, kreiraju se zapisi o stvarnim vrednostima troškovima i nenaplaćene prodaje. Ako je stvarna vrednost nenaplaćene prodaje koja se kreira naplativa i mapira se na predmet ugovora za vreme i materijal, aplikacija obavlja proveru stavki koje ne smeju premašiti na sledećim nivoima:
+Kada se odobri unos vremena, troškova ili upotrebe materijala, kreiraju se zapisi stvarnih troškova i nefakturisane prodaje. Ako je stvarna vrednost nenaplaćene prodaje koja se kreira naplativa i mapira se na predmet ugovora za vreme i materijal, aplikacija obavlja proveru stavki koje ne smeju premašiti na sledećim nivoima:
 
   - Provera da li je postavljeno ograničenje za klijenta na predmetu ugovora za projekat
   - Provera da li je postavljeno ograničenje za predmet ugovora
@@ -55,9 +55,9 @@ Kada se nenaplaćena prodaja smatra nenaplativom ili besplatnom, ako na bilo koj
 
 ## <a name="reset-the-not-to-exceed-status"></a>Resetovanje statusa neprekoračenja
 
-Možete izvršiti grupno resetovanje statusa neprekoračenja. Ovo omogućava menadžerima projekata da prilagode proveru valjanosti neprekoračenja da bi dali prednost fakturisanju jednog određenog dela posla, vremena ili troškova u odnosu na druge koji su već preuzeti iz raspoloživog iznosa koji ne sme da premaši.
+Možete izvršiti grupno resetovanje statusa neprekoračenja. Menadžeri projekata mogu da prilagode validaciju koja ne sme da se premaši da bi dali prednost fakturisanju jednog određenog dela posla, vremena, troškova ili upotrebe materijala nad drugima koji su već preuzeti iz raspoloživog iznosa koji ne sme da se premaši.
 
-Nakon resetovanja statusa neprekoračenja na stvarnim vrednostima nenaplaćene prodaje, dodeljeni iznos se smanjuje. Menadžer projekta može da izabere drugo delo, vreme ili troškove koji prethodno nisu prošli proveru valjanosti neprekoračenja i da ih ponovo proceni. Sa smanjenjem angažovanog iznosa, ove stvarne vrednosti će sada će proći proveru valjanosti. To pomaže menadžeru projekta da izvrši veći uticaj i kontrolu nad transakcijama za taj period koje mogu da se fakturišu.
+Nakon resetovanja statusa neprekoračenja na stvarnim vrednostima nenaplaćene prodaje, dodeljeni iznos se smanjuje. Menadžer projekta može da izabere drugi deo posla, vremena, troškova ili unosa upotrebe materijala koji prethodno nije uspeo da izvrši validaciju i ponovo proceni. Sa smanjenjem dodeljenog iznosa, ovi stvarni podaci sada prolaze validaciju što pomaže menadžeru projekta da izvrši veći uticaj i kontrolu nad transakcijama koje mogu da se fakturišu za taj period.
 
 Da biste resetovali status neprekoračenja, izaberite jednu ili više stvarnih vrednosti iz prikaza **Neizvršavanje naplate vremena i materijala** ili **Stvarne vrednosti**, a zatim izaberite **Resetovanje statusa neprekoračenja**.
 

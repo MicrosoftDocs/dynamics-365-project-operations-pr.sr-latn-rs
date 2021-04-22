@@ -1,22 +1,22 @@
 ---
-title: Rešavanje cena koštanja za procene i trenutne vrednosti – jednostavno
-description: Ova tema pruža informacije o rešavanju cena koštanja za procene i trenutno stanje.
+title: Rešavanje cena koštanja za procene i trenutno stanje projekta – jednostavno
+description: Ova tema pruža informacije o načinu rešavanja cena koštanja u procenama projekata i trenutnom stanju.
 author: rumant
 manager: Annbe
-ms.date: 10/13/2020
+ms.date: 04/07/2021
 ms.topic: article
 ms.prod: ''
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: bbb79fdc5c68d67530b5aa34fe6105211eff1768
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 9f20631f41c560f1a4047aaaa624fa4e8651c687
+ms.sourcegitcommit: ac90be6106592f883a0de39a75836fb40255d65a
 ms.translationtype: HT
 ms.contentlocale: sr-Latn-RS
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5274566"
+ms.lasthandoff: 04/09/2021
+ms.locfileid: "5877282"
 ---
-# <a name="resolve-cost-prices-on-estimates-and-actuals---lite"></a>Rešavanje cena koštanja za procene i trenutne vrednosti – jednostavno
+# <a name="resolve-cost-prices-on-project-estimates-and-actuals"></a>Rešavanje cena koštanja za procene i trenutno stanje projekta – jednostavno 
 
 _**Odnosi se na:** Jednostavna primena – od pogodbe do profakture_
 
@@ -36,6 +36,12 @@ Nakon rešavanja problema sa cenovnikom troškova, polja **Uloga** i **Jedinica 
 Stavke procene za trošak se odnose na detalje ponude i predmeta ugovora za troškove, kao i linije procene troškova na projektu.
 
 Nakon što se reši problem sa cenovnikom troškova, sistem koristi kombinaciju polja **Kategorija** i **Jedinica** u redu procene troškova da bi ga upario sa redovima **Cena kategorije** u cenovniku u kome su otklonjeni problemi. Ako sistem pronađe liniju cena kategorija koja ima stopu troškova za kombinaciju polja **Kategorija** i **Jedinica**, tada je ta stopa troškova podrazumevana. Ako sistem ne može da upari vrednosti **Kategorija** i **Jedinica** ili ako može da pronađe odgovarajući red cene kategorije, ali metod određivanja cene nije **Cena po jedinici**, stopa troškova je podrazumevano nula (0).
+
+## <a name="resolving-cost-rates-on-actual-and-estimate-lines-for-material"></a>Rešavanje stopa troškova na stvarnim i procenjenim stavkama za materijal
+
+Stavke procene za materijal odnose se na detalje o stavkama ponuda i predmetima ugovora za materijale i stavke procene materijala na projektu.
+
+Kada se reši cenovnik troškova, sistem koristi kombinaciju polja **Proizvod** i **Jedinica** na liniji procene za procenu materijala koja se podudara sa redovima **Stavke u cenovniku** na rešenom cenovniku. Ako sistem pronađe red cene proizvoda koji ima stopu troškova za kombinaciju polja **Proizvod** i **Jedinica**, podrazumevana je stopa troškova. Ako sistem ne može da se podudara sa vrednostima **Proizvod** i **Jedinica** ili ako je u mogućnosti da pronađe odgovarajuću stavku cenovnika, ali metoda određivanja cena se zasniva na standardnoj ceni ili trenutnoj ceni, a nijedna nije definisana na proizvodu, cena jedinice je podrazumevano nula.
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]
