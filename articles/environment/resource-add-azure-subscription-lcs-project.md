@@ -3,17 +3,17 @@ title: Dodajte Azure pretplatu u LCS projekat
 description: Ova tema pruža informacije o tome kako da povežete svoju Azure pretplatu sa LCS projektom.
 author: sigitac
 manager: Annbe
-ms.date: 10/01/2020
+ms.date: 04/12/2021
 ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: ad1ddd69cbb8db7780b8277a7ed7533d3ea3d053
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: a80c926ba67a1620e39d8c7677a05678454e6340
+ms.sourcegitcommit: 7468d668c48c1d87934aab9a034decd51e56dec6
 ms.translationtype: HT
 ms.contentlocale: sr-Latn-RS
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5289926"
+ms.lasthandoff: 04/13/2021
+ms.locfileid: "5880555"
 ---
 # <a name="add-an-azure-subscription-to-an-lcs-project"></a>Dodajte Azure pretplatu u LCS projekat
 
@@ -62,7 +62,7 @@ Ovlašćenje je sada završeno.
 3. U polju **Konfiguriši da se koristi Azure Resource Manager**, izaberite **Da**.
 4. Uverite se da se Azure domen zakupca AAD pretplate podudara sa Azure pretplatom u vlasništvu domena koju koristite, pa izaberite **Sledeći**.
 5. Na ekranu **Microsoft Azure podešavanje**, izaberite **Sledeći** za potvrdu. Ako na ovom ekranu dobijete grešku, vratite se u odeljak [Omogućite pristup usluzi Dynamics Deployment Services u Azure pretplatu](#provide) u ovoj temi i uverite se da ste završili sve korake.
-6. Preuzmite Azure certifikat za upravljanje u lokalnu fasciklu na računaru, a zatim ga otpremite na portal za upravljanje uslugom Azure tako što ćete otići na **Podešavanja** > **Sertifikati o upravljanju**. Ovaj certifikat će omogućiti LCS da komunicira sa platformom Azure u vaše ime. Ovaj korak možete preskočiti ako vaš korisnik ima pristup pretplati.
+6. Preuzmite Azure certifikat za upravljanje u lokalnu fasciklu na računaru. Zamolite administratora pretplate za Azure da otpremi sertifikat na portal za upravljanje uslugom Azure tako što će odabrati pretplatu i otići na **Podešavanja** > **Sertifikati o upravljanju**. Ovaj sertifikat omogućava LCS-u da u vaše ime komunicira sa uslugom Azure. Ovaj korak možete preskočiti ako vaš korisnik ima pristup pretplati.
 7. Izaberite **Sledeće**.
 8. Izaberite Azure region za primenu i izaberite centar podataka koji je blizu mesta gde planirate da koristite ovaj sistem.
 9.  Izaberite **Poveži se**.

@@ -3,17 +3,17 @@ title: Kreiranje transakcija među preduzećima
 description: Ova tema pruža informacije o tome kako da kreirate transakcije među preduzećima.
 author: sigitac
 manager: tfehr
-ms.date: 11/19/2020
+ms.date: 04/12/2021
 ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 6d23e45d99be61e93d98a8377ff5fa05b3febb6b
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: b8b35e8875ac4aff1ae9690c4d4afabe25af8dc9
+ms.sourcegitcommit: 7468d668c48c1d87934aab9a034decd51e56dec6
 ms.translationtype: HT
 ms.contentlocale: sr-Latn-RS
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5287435"
+ms.lasthandoff: 04/13/2021
+ms.locfileid: "5880465"
 ---
 # <a name="create-intercompany-transactions"></a>Kreiranje transakcija među preduzećima
 
@@ -62,7 +62,7 @@ Jovanka Nikolić, programerka koja je zaposlena u preduzeću GBPM evidentira 10 
     4. Podesite valutu na **USD**.
     5. Sačuvajte zapis.
 3. Idite na **Prodaja** > **Ugovori o projektu** i kreirajte novi projektni ugovor za preduzeće Adventure Works.
-    1. Postavite vlasničku kompaniju na **USPM**, a jedinicu ugovaranja na **Contoso Robotics US**.
+    1. Podesite kompaniju-vlasnika na **USPM**, a ugovornu jedinicu na **Contoso Robotics US**.
     2. Izaberite Adventure Works kao klijenta.
     3. Izaberite cenovnik proizvoda i sačuvajte zapis.
     4. Na kartici **Predmeti ugovora** kreirajte novi predmet ugovora. Podesite bilo koje ime i izaberite **Vreme i materijali** kao način naplate.
@@ -94,7 +94,7 @@ Jovanka Nikolić, programerka koja je zaposlena u preduzeću GBPM evidentira 10 
     Ova nefakturisana prodaja je sada spremna za fakturisanje. Faktura za klijenta Adventure Works može biti finansijski objavljena kada je to potrebno.
 
 10. Prijavite se kao računovođa preduzeća **GBPM**. Otvorite instancu Finance usluge Project Operations i otvorite preduzeće, **GBPM**. 
-11. Idite na **Upravljanje projektima i računovodstvo** > **Periodično** > **Project Operations u usluzi Customer Engagement** > **Uvoz iz pripreme** i pokrenite periodični proces kako biste popunili Project Operations dnevnik integracije.
+11. Idite na **Upravljanje projektima i računovodstvo** > **Periodično** > **Integracija projektnih operacija** > **Uvoz iz pripremne tabele** i pokrenite periodični postupak za popunjavanje dnevnika Project Operations integracije.
 12. Idite na **Upravljanje projektima i računovodstvo** > **Dnevnici** > **Project Operations dnevnik integracije** i pregledajte stavke. Sistem kreira sledeće stavke.
 
     | **Tip transakcije** | **Cena** | **Valuta transakcije** | **Iznos** |

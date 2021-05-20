@@ -8,12 +8,12 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 0021147530d1aa9f82cc54ca8c92b9977c1eea2c
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 4a5f4d524530594bd3118f9b320acf4033c5d503
+ms.sourcegitcommit: 3d78338773929121d17ec3386f6cb67bfb2272cc
 ms.translationtype: HT
 ms.contentlocale: sr-Latn-RS
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5287255"
+ms.lasthandoff: 04/27/2021
+ms.locfileid: "5948347"
 ---
 # <a name="integration-journal-in-project-operations"></a>Dnevnik integracije u usluzi Project Operations
 
@@ -38,7 +38,7 @@ Sistem grupiše stavke u glavnoj knjizi u zasebne dnevnike na osnovu vrednosti i
 Stavke u glavnoj knjizi se kreiraju na osnovu stvarnih podataka o projektu. Sledeća lista uključuje neka značajnija pravila podrazumevanja i transformacije:
 
   - Svaka stvarna transakcija projekta ima red u dnevniku integracije u usluzi Project Operations. Transakcije troškova i nenaplaćene prodaje za vreme i vrstu naplate materijala prikazane su u zasebnim redovima.
-  - Polje **Datum** predstavlja datum transakcije. Polje **Datum računovodstva** predstavlja datum evidentiranja transakcije u glavnu knjigu. Ako je datum računovodstva u [zatvorenom finansijskom periodu](https://docs.microsoft.com/dynamics365/finance/general-ledger/close-general-ledger-at-period-end), a parametar **Automatski podesi datum obračuna na otvoreni period glavne knjige** je postavljen na kartici **Finansije** na stranici **Parametri upravljanja projektom i računovodstvom**, sistem će prilagoditi datum računovodstva transakcije prvom datumu u narednom otvorenom periodu glavne knjige.
+  - Polje **Datum** predstavlja datum transakcije. Polje **Datum računovodstva** predstavlja datum evidentiranja transakcije u glavnu knjigu. Ako je datum računovodstva u [zatvorenom finansijskom periodu](/dynamics365/finance/general-ledger/close-general-ledger-at-period-end), a parametar **Automatski podesi datum obračuna na otvoreni period glavne knjige** je postavljen na kartici **Finansije** na stranici **Parametri upravljanja projektom i računovodstvom**, sistem će prilagoditi datum računovodstva transakcije prvom datumu u narednom otvorenom periodu glavne knjige.
   - Polje **Vaučer** prikazuje broj vaučera za svaku stvarnu transakciju. Sekvenca brojeva vaučera se definiše na kartici **Sekvence brojeva** na stranici **Parametri upravljanja projektom i računovodstvom**. Svakom redu se dodeljuje novi broj. Kada se objavi vaučer, možete videti kako su povezani troškovi i transakcije nenaplaćene prodaje ako izaberete **Povezani vaučeri** na stranici **Transakcija vaučera**.
   - Polje **Kategorija** predstavlja projektnu transakciju i podrazumevane vrednosti na osnovu kategorije transakcije za povezanu stvarnu vrednost projekta.
     - Ako se **Kategorija transakcije** postavi u stvarnu vrednost projekta a povezana **Kategorija projekta** postoji u datom pravnom licu, podrazumevana vrednost kategorije je kategorija ovog projekta.

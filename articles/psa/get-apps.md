@@ -17,12 +17,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 059409398d7dc3074f0ec852a8e295b2c3d5504f
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: cea18b38a69be518bf072cd11ee8757034c0479c
+ms.sourcegitcommit: 3d78338773929121d17ec3386f6cb67bfb2272cc
 ms.translationtype: HT
 ms.contentlocale: sr-Latn-RS
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5284465"
+ms.lasthandoff: 04/27/2021
+ms.locfileid: "5947986"
 ---
 # <a name="get-the-apps-project-service"></a>Preuzmite aplikacije (Project Service)
 
@@ -30,7 +30,7 @@ ms.locfileid: "5284465"
 
 [!INCLUDE[cc-applies-to-psa-app-1x-2x](../includes/cc-applies-to-psa-app-1x-2x.md)]
 
-Ako želite da unesete vreme i troškove na mobilnom uređaju, [Preuzmite i instalirajte Dynamics 365 for phones i for tablets](https://docs.microsoft.com/dynamics365/mobile-app/dynamics-365-phones-tablets-users-guide).  
+Ako želite da unesete vreme i troškove na mobilnom uređaju, [Preuzmite i instalirajte Dynamics 365 for phones i for tablets](/dynamics365/mobile-app/dynamics-365-phones-tablets-users-guide).  
   
  Da biste pronašli novi projekat za rad i prijavili se za njega, možete da koristite aplikaciju Project Finder Mobile na telefonu. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Pronađite sledeći projekat pomoću aplikacije Project Finder Mobile](../psa/find-next-project-finder-mobile-app.md) 
   

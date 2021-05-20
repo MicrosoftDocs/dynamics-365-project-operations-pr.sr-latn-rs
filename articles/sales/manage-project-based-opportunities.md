@@ -8,12 +8,12 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 2d1f9b29e0e9516ff78517e47694a2385c083ec7
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 5ce9ad1458d338d63469c3d6fddb98b9cbbced31
+ms.sourcegitcommit: 3d78338773929121d17ec3386f6cb67bfb2272cc
 ms.translationtype: HT
 ms.contentlocale: sr-Latn-RS
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5277850"
+ms.lasthandoff: 04/27/2021
+ms.locfileid: "5948437"
 ---
 # <a name="manage-project-based-opportunities"></a>Upravljanje mogućnostima za poslovanje zasnovanim na projektima
 
@@ -64,7 +64,7 @@ Proces prodaje mogućnosti za poslovanje u usluzi Project Operations jeste proš
 >
 > Ako je vaša pogodba zasnovana na projektu započela sa mogućnošću za poslovanje, poslovni proces prodaje mogućnosti za poslovanje ima prednost.
 
-Možete da uredite tok poslovnog procesa proizvoda ili da kreirate sopstvene tokove poslovnog procesa kako biste pratili svoj prodajni proces po potrebi. Za više informacija o toku poslovnog procesa pogledajte [Pregled tokova poslovnog procesa](https://docs.microsoft.com/dynamics365/customerengagement/on-premises/customize/business-process-flows-overview).
+Možete da uredite tok poslovnog procesa proizvoda ili da kreirate sopstvene tokove poslovnog procesa kako biste pratili svoj prodajni proces po potrebi. Za više informacija o toku poslovnog procesa pogledajte [Pregled tokova poslovnog procesa](/dynamics365/customerengagement/on-premises/customize/business-process-flows-overview).
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

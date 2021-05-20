@@ -17,12 +17,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: c2378ff6affd9bc21b8e9afab4108bca3983a454
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: cbce900adece5880f22962b5efb859a8d65c6904
+ms.sourcegitcommit: 3d78338773929121d17ec3386f6cb67bfb2272cc
 ms.translationtype: HT
 ms.contentlocale: sr-Latn-RS
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5284330"
+ms.lasthandoff: 04/27/2021
+ms.locfileid: "5947941"
 ---
 # <a name="install-and-customize-project-service"></a>Instaliranje i prilagođavanje (Project Service)
 
@@ -34,20 +34,20 @@ ms.locfileid: "5284330"
 <!-- TODO: I expect to find the information on how to get and install this here. Please find that and add it here. Same for Project Service.--> 
   
 ## <a name="install-project-service"></a>Instaliranje aplikacije Project Service  
- [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)] je željeno rešenje. Postoji nekoliko načina kupovine rešenja. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Postavljanje sistema u vašoj organizaciji i za korisnike](https://docs.microsoft.com/dynamics365/customerengagement/on-premises/admin/onboard-your-organization-and-users-to-dynamics-365-online).  
+ [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)] je željeno rešenje. Postoji nekoliko načina kupovine rešenja. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Postavljanje sistema u vašoj organizaciji i za korisnike](/dynamics365/customerengagement/on-premises/admin/onboard-your-organization-and-users-to-dynamics-365-online).  
   
 ## <a name="customize-pn_project_service_auto-forms-and-reports"></a>Prilagođavanje [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)] obrazaca i izveštaja  
  Ako želite da prilagodite bilo koji [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)] obrazac, kontrolnu tablu ili izveštaje, više informacija možete pronaći na sledećim vezama:  
   
-- [Prvi koraci u kreiranju i prilagođavanju aplikacije](https://docs.microsoft.com/dynamics365/customerengagement/on-premises/customize/getting-started-customization)  
+- [Prvi koraci u kreiranju i prilagođavanju aplikacije](/dynamics365/customerengagement/on-premises/customize/getting-started-customization)  
   
-- [Kreiranje i dizajniranje obrazaca](https://docs.microsoft.com/dynamics365/customerengagement/on-premises/customize/create-design-forms)  
+- [Kreiranje i dizajniranje obrazaca](/dynamics365/customerengagement/on-premises/customize/create-design-forms)  
   
-- [Kreiranje i uređivanje kontrolnih tabli](https://docs.microsoft.com/dynamics365/customerengagement/on-premises/customize/create-edit-dashboards)  
+- [Kreiranje i uređivanje kontrolnih tabli](/dynamics365/customerengagement/on-premises/customize/create-edit-dashboards)  
   
-- [Kreiranje i uređivanje procesa](https://docs.microsoft.com/dynamics365/customerengagement/on-premises/customize/guide-staff-through-common-tasks-processes)  
+- [Kreiranje i uređivanje procesa](/dynamics365/customerengagement/on-premises/customize/guide-staff-through-common-tasks-processes)  
   
-- [Uvod u izveštavanje i analizu](https://docs.microsoft.com/dynamics365/customerengagement/on-premises/analytics/reporting-analytics-with-dynamics-365)  
+- [Uvod u izveštavanje i analizu](/dynamics365/customerengagement/on-premises/analytics/reporting-analytics-with-dynamics-365)  
   
 ### <a name="see-also"></a>Takođe pogledajte  
  [Vodič za administratore](../psa/admin-guide.md)   
