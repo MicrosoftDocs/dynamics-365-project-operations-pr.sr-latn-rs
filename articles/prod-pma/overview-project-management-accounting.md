@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: ff423e2ae2d6a2ac48196ce2784baf3606f6575b
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 2f6ceabe1809cc94357a31f1d57c445593f0f788
+ms.sourcegitcommit: 3d78338773929121d17ec3386f6cb67bfb2272cc
 ms.translationtype: HT
 ms.contentlocale: sr-Latn-RS
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5289791"
+ms.lasthandoff: 04/27/2021
+ms.locfileid: "5950461"
 ---
 # <a name="project-management-and-accounting-overview"></a>Pregled upravljanja projektima i računovodstvom
 
@@ -52,7 +52,7 @@ Kao što je prikazano na prethodnoj ilustraciji, upravljanje projektima i račun
 3.  Analiziraj
 
 ## <a name="initiate-the-project"></a>Pokretanje projekta
-Tokom pokretanja projekta, događa se nekoliko ključnih procesa. Možete koristiti ponudu po projektu da klijentu saopštite procenjeni rad, troškove i materijale. Uslove, ograničenja i ugovore za naplatu možete zabeležiti u ugovoru o projektu. Možete koristiti strukturnu analizu posla (SAP) za planiranje i procenu rada. Možete postaviti predviđanja i budžete za vođenje izvršenja projekta. Sledeća ilustracija prikazuje strukturu projekta. [![struktura projekta](./media/project-structure1.jpg)](./media/project-structure1.jpg)  
+Tokom pokretanja projekta, događa se nekoliko ključnih procesa. Možete koristiti ponudu po projektu da klijentu saopštite procenjeni rad, troškove i materijale. Uslove, ograničenja i ugovore za naplatu možete zabeležiti u ugovoru o projektu. Možete koristiti strukturnu analizu posla (SAP) za planiranje i procenu rada. Možete postaviti predviđanja i budžete za vođenje izvršenja projekta. Sledeća ilustracija prikazuje strukturu projekta.[![struktura projekta](./media/project-structure1.jpg)](./media/project-structure1.jpg)  
 
 ### <a name="create-project-quotations"></a>Kreiranje ponuda po projektu
 
@@ -227,7 +227,7 @@ Tip projekta određuje koji postupak fakturisanja treba primeniti. Mogu se faktu
 Pre nego što kreirate fakturu klijenta za projekat, možete kreirati preliminarnu fakturu ili predlog fakture. U predlogu fakture možete izabrati transakcije projekata koje ćete uključiti u fakturu projekta. Zatim možete pregledati detalje o fakturi pre nego što proknjižite fakturu za projekat i pošaljete je klijentu ili drugom izvoru finansiranja. 
 
 
-Za više informacija o tome kako da obradite fakture projekta, pogledajte [Fakturisanje projekata](https://docs.microsoft.com/dynamics365/finance/accounts-payable/project-invoicing).
+Za više informacija o tome kako da obradite fakture projekta, pogledajte [Fakturisanje projekata](/dynamics365/finance/accounts-payable/project-invoicing).
 
 
 ### <a name="calculate-the-cost-to-complete-a-project"></a>Izračunavanje troškova za završetak projekta

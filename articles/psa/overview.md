@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 371cfc5bc04ac0fe780400247dc1c1762ade9e21
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: a1aa7a5529ef23476523f2c00882da30bb3a3e97
+ms.sourcegitcommit: 3d78338773929121d17ec3386f6cb67bfb2272cc
 ms.translationtype: HT
 ms.contentlocale: sr-Latn-RS
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5284195"
+ms.lasthandoff: 04/27/2021
+ms.locfileid: "5949651"
 ---
 # <a name="what-is-dynamics-365-project-service-automation"></a>Šta je Dynamics 365 Project Service Automation?
 
@@ -47,10 +47,10 @@ Osim toga, da biste lakše nadgledali i kontrolisali troškove za vaš rad zasno
 ## <a name="whats-new-in-psa"></a>Šta je novo u aplikaciji PSA
 Tim sa uzbuđenjem najavljuje naše najnovije ispravke! One se pružaju od poboljšanja korisničkog interfejsa i ispravljanja programskih grešaka do dodavanja novih važnih funkcija i mogućnosti. Vi ste tražili; mi smo slušali.
 
-Pogledajte [Napomene uz izdanje iz oktobra '19.](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/index) da biste videli naša najnovija poboljšanja i dodatke.
+Pogledajte [Napomene uz izdanje iz oktobra '19.](/dynamics365-release-plan/2019wave2/index) da biste videli naša najnovija poboljšanja i dodatke.
 
 ### <a name="in-development"></a>U razvoju
-Da biste videli šta planiramo u bliskoj budućnosti, pređite na [Dynamics 365: plan 1. faze izdanja za 2020.](https://docs.microsoft.com/dynamics365-release-plan/2020wave1/index).
+Da biste videli šta planiramo u bliskoj budućnosti, pređite na [Dynamics 365: plan 1. faze izdanja za 2020.](/dynamics365-release-plan/2020wave1/index).
 
 ## <a name="get-help-with-psa-version-3x"></a>Pronađite pomoć za PSA verzije 3.x
 Tražite resurse koji će vam pomoći da planirate primenu? Pogledajte ove vodiče koje možete preuzeti.

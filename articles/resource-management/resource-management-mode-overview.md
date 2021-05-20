@@ -8,12 +8,12 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.openlocfilehash: 872f4f2878f474e16674932f23fe192c6a8de6eb
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 4d132bcbef5421202d2f4899091f0dc75166dd66
+ms.sourcegitcommit: 3d78338773929121d17ec3386f6cb67bfb2272cc
 ms.translationtype: HT
 ms.contentlocale: sr-Latn-RS
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5279470"
+ms.lasthandoff: 04/27/2021
+ms.locfileid: "5949966"
 ---
 # <a name="resource-management-modes-overview"></a>Pregled režima upravljanja resursima
 
@@ -29,11 +29,11 @@ Za organizacije koje centralizuju dodeljivanje resursa projektima, centralni re�
 
 Da biste upravljali resursima u centralnom režimu, pogledajte:
 
-- [Dodeljivanje generičkih resursa koji se mogu rezervisati zadatku i generisanje potreba za resursima](https://docs.microsoft.com/dynamics365/project-service/assign-generic-bookable-resource)
-- [Rezervisanje imenovanih resursa iz potrebe za resursima](https://docs.microsoft.com/dynamics365/project-service/book-named-resource)
-- [Prosleđivanje zahteva za resursom](https://docs.microsoft.com/dynamics365/project-service/submit-resource-request)
-- [Ispunjavanje zahteva za resursima](https://docs.microsoft.com/dynamics365/project-service/resource-management-fulfill-requests)
-- [Prihvatanje ili odbacivanje predloženog resursa projekta u zahtevu za resurs](https://docs.microsoft.com/dynamics365/project-service/accept-reject-proposed-resource)
+- [Dodeljivanje generičkih resursa koji se mogu rezervisati zadatku i generisanje potreba za resursima](/dynamics365/project-service/assign-generic-bookable-resource)
+- [Rezervisanje imenovanih resursa iz potrebe za resursima](/dynamics365/project-service/book-named-resource)
+- [Prosleđivanje zahteva za resursom](/dynamics365/project-service/submit-resource-request)
+- [Ispunjavanje zahteva za resursima](/dynamics365/project-service/resource-management-fulfill-requests)
+- [Prihvatanje ili odbacivanje predloženog resursa projekta u zahtevu za resurs](/dynamics365/project-service/accept-reject-proposed-resource)
 
 ## <a name="hybrid-mode"></a>Hibridni režim
 Za organizacije kojima je potrebna fleksibilnost u raspodeli resursa, hibridni režim omogućava menadžerima projekata i menadžerima resursa mogućnost da rezervišu resurse.
@@ -43,11 +43,11 @@ Za organizacije kojima je potrebna fleksibilnost u raspodeli resursa, hibridni r
 Pored podržanog procesa centralnog režima, pogledajte sledeće teme da biste upravljali svim ostalim podržanim tokovima rezervacija u hibridnom režimu:
 
 Rezervisanje resursa direktno u projektu:
-- [Rezervisanje imenovanih resursa koje je moguće rezervisati za projektni tim i dodeljivanje zadataka](https://docs.microsoft.com/dynamics365/project-service/assign-named-bookable-resource)
+- [Rezervisanje imenovanih resursa koje je moguće rezervisati za projektni tim i dodeljivanje zadataka](/dynamics365/project-service/assign-named-bookable-resource)
 
 Rezervisanje resursa iz zahteva za resursima:
-- [Dodeljivanje generičkih resursa koji se mogu rezervisati zadatku i generisanje potreba za resursima](https://docs.microsoft.com/dynamics365/project-service/assign-generic-bookable-resource)
-- [Rezervisanje imenovanih resursa iz potrebe za resursima](https://docs.microsoft.com/dynamics365/project-service/book-named-resource)
+- [Dodeljivanje generičkih resursa koji se mogu rezervisati zadatku i generisanje potreba za resursima](/dynamics365/project-service/assign-generic-bookable-resource)
+- [Rezervisanje imenovanih resursa iz potrebe za resursima](/dynamics365/project-service/book-named-resource)
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

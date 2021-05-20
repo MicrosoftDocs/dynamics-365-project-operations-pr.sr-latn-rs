@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 92c4cb3e1661f0415d49b84c9a59aba4bda38f20
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: d52caf0739ee55c25598318608f0c235107c85f3
+ms.sourcegitcommit: 3d78338773929121d17ec3386f6cb67bfb2272cc
 ms.translationtype: HT
 ms.contentlocale: sr-Latn-RS
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5282305"
+ms.lasthandoff: 04/27/2021
+ms.locfileid: "5951406"
 ---
 # <a name="sign-in-to-project-service-automation"></a>Prijavljivanje u Project Service Automation
 
@@ -39,7 +39,7 @@ Kada se prijavljujete u Dynamics 365 aplikacije, potrebno je da imate sledeće i
   
 - Vaša lozinka  
   
-  Verovatno ste te informacije primili u e-poruci od administratora. Ako nemate sve ove informacije ili ako imate probleme prilikom prijavljivanja, [Potražite administratora ili osobu za podršku](https://docs.microsoft.com/dynamics365/customerengagement/on-premises/basics/find-administrator-support).  
+  Verovatno ste te informacije primili u e-poruci od administratora. Ako nemate sve ove informacije ili ako imate probleme prilikom prijavljivanja, [Potražite administratora ili osobu za podršku](/dynamics365/customerengagement/on-premises/basics/find-administrator-support).  
   
 ## <a name="set-your-personal-options-to-allow-email"></a>Podesite lične opcije da omogućavaju e-poštu  
  Potrebno je da konfigurišete podešavanja e-pošte da se dozvoli slanje e-pošte drugima u vaše ime, tako da [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)] može da pošaljete e-poruke sa obaveštenjem u vaše ime kada je potrebno da odobrite vreme i troškove ili da se prijavite za projekte.  

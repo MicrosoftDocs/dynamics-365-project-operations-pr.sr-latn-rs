@@ -3,17 +3,17 @@ title: Upravljanje predlozima projektnih faktura
 description: Ova tema pruža detalje o obradi faktura za klijente pomoću usluge Project Operations za resurs/scenarije koji nisu zasnovani na zalihama.
 author: sigitac
 manager: Annbe
-ms.date: 01/29/2021
+ms.date: 04/12/2021
 ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 4e663a9a0ca5b197e556d8c36233ab25affda876
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 6b8eacf2b43219a9adad897637b78a9c94351554
+ms.sourcegitcommit: 3d78338773929121d17ec3386f6cb67bfb2272cc
 ms.translationtype: HT
 ms.contentlocale: sr-Latn-RS
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5275870"
+ms.lasthandoff: 04/27/2021
+ms.locfileid: "5950731"
 ---
 # <a name="manage-project-invoice-proposals"></a>Upravljanje predlozima projektnih faktura
 
@@ -80,7 +80,8 @@ Vrednosti **Grupa za porez na promet** i **Grupa za porez na promet stavki** pod
     - **Klijent**: Uvek podrazumevano podešava grupu za naplatu poreza na promet iz klijenta.
     - **Pretraga**: Pretražiće sve entitete u ovoj listi i odabrati prvu dostupnu vrednost. Pretraga počinje entitetom **Projekat**, zatim sledi entitet **Ugovor o projektu** i onda entitet **Klijent**.
 
-- **Grupa za porez na promet stavki za kontrolnu tačku fiksne cene** koristi se za podrazumevano određivanje vrednosti u polju **Grupa za porez na promet stavki**.
+- **Grupa poreza na promet ključnih stavki sa fiksnim cenama** se koristi kao podrazumevana vrednost u polju **Grupa poreza na promet stavke** za kontrolnu tačku fakturisanja. Računovođa može pregledati i izmeniti ovu vrednost na stranici **Transakcije na računu**. Sistem koristi vrednost iz transakcije na računu prilikom kreiranja linije predloga fakture za projekat.
+ 
 
 ### <a name="financial-dimensions"></a>Finansijski aspekti
 
@@ -132,7 +133,7 @@ Stranica **Oblikovanje predloga faktura** omogućava prikazivanje prilagođenog 
 
 Upravljanje štampanjem koristi različite datoteke izveštaja za štampanje, određivanje odredišta i prilagođavanje teksta podnožja za fakturu. Upravljanje štampanjem se može podesiti na nivou modula, međutim, ova podešavanja mogu biti zamenjena za određenog klijenta, ugovor ili predlog fakture. Da biste pristupili ovoj funkciji na stranici **Predlog fakture projekta**, izaberite **Štampaj** > **Upravljanje štampanjem**.
 
-Podešavanje upravljanja štampanjem prikazuje se u obliku stabla, gde svaki nivo čvora prikazuje dostupne dokumente za prilagođavanje. Možete dodeliti prilagođene otiske na nivou modula, klijenta, ugovora ili dokumenta predloga fakture. Da biste izmenili otisak originalnog dokumenta, proširite željeni čvor i izaberite **Originalna stavka**. U polju **Format izveštaja** izaberite format izveštaja koji će se koristiti za štampanje. Možete koristiti prilagođene formate izveštaja pomoću [okvira za upravljanje poslovnim dokumentima](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/analytics/er-business-document-management).
+Podešavanje upravljanja štampanjem prikazuje se u obliku stabla, gde svaki nivo čvora prikazuje dostupne dokumente za prilagođavanje. Možete dodeliti prilagođene otiske na nivou modula, klijenta, ugovora ili dokumenta predloga fakture. Da biste izmenili otisak originalnog dokumenta, proširite željeni čvor i izaberite **Originalna stavka**. U polju **Format izveštaja** izaberite format izveštaja koji će se koristiti za štampanje. Možete koristiti prilagođene formate izveštaja pomoću [okvira za upravljanje poslovnim dokumentima](/dynamics365/fin-ops-core/dev-itpro/analytics/er-business-document-management).
 
 ## <a name="post-invoice-proposals"></a>Knjiženje predloga faktura
 

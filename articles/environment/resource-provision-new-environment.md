@@ -9,12 +9,12 @@ ms.prod: ''
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 50e623d3716c9dd03ce34ec293ba57b5d966d39e
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 9ee9e4c31d1972e3a75ad214071b31527f0ca826
+ms.sourcegitcommit: 3d78338773929121d17ec3386f6cb67bfb2272cc
 ms.translationtype: HT
 ms.contentlocale: sr-Latn-RS
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5276905"
+ms.lasthandoff: 04/27/2021
+ms.locfileid: "5950551"
 ---
 # <a name="provision-a-new-environment"></a>Obezbeđenje novog okruženja
 
@@ -36,7 +36,7 @@ Koristite sledeće korake da omogućite Project Operations automatizovani tok ob
 
 ## <a name="provision-a-project-operations-environment"></a>Obezbeđivanje Project Operations okruženja
 
-1. Otvori novu primenu Dynamics 365 Finance [demo okruženja](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/deployment/deploy-demo-environment) ili [sandbox/proizvodnog okruženja](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/deployment/deployenvironment-newinfrastructure). 
+1. Otvori novu primenu Dynamics 365 Finance [demo okruženja](/dynamics365/fin-ops-core/dev-itpro/deployment/deploy-demo-environment) ili [sandbox/proizvodnog okruženja](/dynamics365/fin-ops-core/dev-itpro/deployment/deployenvironment-newinfrastructure). 
 2. Prođite kroz čarobnjak **Obezbeđivanje okruženja**. 
 
 > [!IMPORTANT]
@@ -69,7 +69,7 @@ Koristite sledeće korake da omogućite Project Operations automatizovani tok ob
 
 9. Da biste potvrdili da se okruženje uspešno primenilo, izaberite **Prijavi se** i prijavite se u okruženje da biste potvrdili.
 
-![Detalji  okruženja](./media/3EnvironmentDetails.png)
+![Detalji okruženja](./media/3EnvironmentDetails.png)
 
 ## <a name="apply-updates-to-the-finance-environment"></a>Primenite ispravke na Finance okruženje
 

@@ -8,12 +8,12 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: stsporen
-ms.openlocfilehash: 0af8067fc0673890a317ac6f4e62d74b7f4eebca
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 2470d573f4537cb22de4dbd98caff148cbe0bda3
+ms.sourcegitcommit: 3d78338773929121d17ec3386f6cb67bfb2272cc
 ms.translationtype: HT
 ms.contentlocale: sr-Latn-RS
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5290106"
+ms.lasthandoff: 04/27/2021
+ms.locfileid: "5950281"
 ---
 # <a name="deploy-project-operations---lite"></a>Primena usluge Project Operations – jednostavno
 
@@ -34,14 +34,14 @@ Project Operations podržava više modela primene. Da biste utvrdili najbolji mo
 
 ## <a name="install-project-operations-to-a-new-cds-environment"></a><a name="new"></a>Instaliranje usluge Project Operations u novo CDS okruženje
 
-1. Kao [globalni ili Power Platform administrator](https://docs.microsoft.com/power-platform/admin/global-service-administrators-can-administer-without-license) sa licencom za Project Operations, kreirajte novo CDS okruženje u [PowerPlatform centru administracije](https://admin.powerplatform.com). Uverite se da su omogućene **CDS baza podataka** i **Dynamics 365 aplikacije**. Za više informacija, pogledajte odeljak [Kreiranje i upravljanje okruženjima u Power Platform centru administracije](https://docs.microsoft.com/power-platform/admin/create-environment#create-an-environment-in-the-power-platform-admin-center).
+1. Kao [globalni ili Power Platform administrator](/power-platform/admin/global-service-administrators-can-administer-without-license) sa licencom za Project Operations, kreirajte novo CDS okruženje u [PowerPlatform centru administracije](https://admin.powerplatform.com). Uverite se da su omogućene **CDS baza podataka** i **Dynamics 365 aplikacije**. Za više informacija, pogledajte odeljak [Kreiranje i upravljanje okruženjima u Power Platform centru administracije](/power-platform/admin/create-environment#create-an-environment-in-the-power-platform-admin-center).
 2. Izaberite **Microsoft Dynamics 365 Project Operations** sa liste za primenu Dynamics 365 aplikacija.
 
 
 ## <a name="install-project-operations-to-an-existing-cds-environment"></a><a name="existing"></a>Instaliranje usluge Project Operations u postojeće CDS okruženje
 
-1. Kao [globalni ili Power Platform administrator](https://docs.microsoft.com/power-platform/admin/global-service-administrators-can-administer-without-license) sa licencom za Project Operations, locirajte okruženje u [PowerPlatform centru administracije](https://admin.powerplatform.com) gde želite da instalirate Project Operations.
-2. Instalirajte **Microsoft Dynamics 365 Project Operations** sa liste za primenu Dynamics 365 aplikacija. Više informacija potražite u članku [Upravljanje Dynamics 365 aplikacijama](https://docs.microsoft.com/power-platform/admin/manage-apps).
+1. Kao [globalni ili Power Platform administrator](/power-platform/admin/global-service-administrators-can-administer-without-license) sa licencom za Project Operations, locirajte okruženje u [PowerPlatform centru administracije](https://admin.powerplatform.com) gde želite da instalirate Project Operations.
+2. Instalirajte **Microsoft Dynamics 365 Project Operations** sa liste za primenu Dynamics 365 aplikacija. Više informacija potražite u članku [Upravljanje Dynamics 365 aplikacijama](/power-platform/admin/manage-apps).
 
 
 

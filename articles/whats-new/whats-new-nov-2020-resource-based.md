@@ -8,12 +8,12 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: f8e9bce6612e617785264470b7946ffc4795a621
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: fa6530a0eefb1ae6a84a662c6131182d97d49aeb
+ms.sourcegitcommit: 3d78338773929121d17ec3386f6cb67bfb2272cc
 ms.translationtype: HT
 ms.contentlocale: sr-Latn-RS
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5291861"
+ms.lasthandoff: 04/27/2021
+ms.locfileid: "5950956"
 ---
 # <a name="whats-new-november-2020---project-operations-for-resourcenon-stocked-based-scenarios"></a>Šta je novo novembra 2020. – Project Operations za scenarije zasnovane na resursima/bez zaliha
 
@@ -30,7 +30,7 @@ Ova tema se odnosi na sledeće komponente i verzije usluge Dynamics 365 Project 
 
 | Oblast funkcija                 | Referentni broj | Ispravka kvaliteta                                                                                                                                                                    |
 |------------------------------|------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-|   Upravljanje mogućnostima za poslovanje       | 2036993          | Predmeti ugovora za stavke procene i dodelu resursa ažuriraju se na dobitnim ponudama kada stavka ponude ima tip **Svi zadaci**.                                                 |
+| Upravljanje mogućnostima za poslovanje       | 2036993          | Predmeti ugovora za stavke procene i dodelu resursa ažuriraju se na dobitnim ponudama kada stavka ponude ima tip **Svi zadaci**.                                                 |
 | Naplata i određivanje cena          | 2070392          | Predmeti ugovora za projekat na fakturi se povećavaju svaki put kada izaberete **Osveži transakcije fakture**.                                                                         |
 | Planiranje projekta             | 2043336          | Nije moguće izbrisati zapis člana projektnog tima.                                                                                                                                  |
 | Planiranje projekta             | 2046013          | Nedosledno ponašanje za označavanje kolona Procene tokom učitavanja u odnosu na promenu tipa vremenske faze.                                                                                   |
@@ -67,7 +67,7 @@ Ova tema se odnosi na sledeće komponente i verzije usluge Dynamics 365 Project 
 | Projektno računovodstvo  | [510041](https://fix.lcs.dynamics.com/Issue/Details/?bugId=510041)           | Omogućavanje funkcije Više linija ugovora nije moguće bez CDS integracije.                                                                                   |
 
 ### <a name="regulatory-updates"></a>Regulatorne ispravke
-Za informacije o regulatornim ispravkama za Finance and Operations aplikacije, pogledajte članak [Regulatorne ispravke](https://docs.microsoft.com/dynamics365/finance/localizations/regulatory-updates). Takođe se možete prijaviti na LCS i pregledati planirane regulatorne ispravke pomoću alatke za pretragu problema. Pretraga problema vam omogućava pretragu po zemlji, tipu funkcije i izdanju.
+Za informacije o regulatornim ispravkama za Finance and Operations aplikacije, pogledajte članak [Regulatorne ispravke](/dynamics365/finance/localizations/regulatory-updates). Takođe se možete prijaviti na LCS i pregledati planirane regulatorne ispravke pomoću alatke za pretragu problema. Pretraga problema vam omogućava pretragu po zemlji, tipu funkcije i izdanju.
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -8,12 +8,12 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 8698663fc35c9ae0eb54c2f1cf1fbbaaf29230d7
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 01c2452003d9ac5fbf85704ead67f7ee8011ed1c
+ms.sourcegitcommit: 3d78338773929121d17ec3386f6cb67bfb2272cc
 ms.translationtype: HT
 ms.contentlocale: sr-Latn-RS
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5278795"
+ms.lasthandoff: 04/27/2021
+ms.locfileid: "5949921"
 ---
 # <a name="close-an-opportunity"></a>Zatvaranje mogućnosti za poslovanje
 
@@ -23,7 +23,7 @@ Mogućnosti za poslovanje projekta se mogu zatvoriti kao ostvarene ili neostvare
 
 Neće vam biti dozvoljeno da zatvorite mogućnost za poslovanje ako su sa njom povezane bilo kakve aktivne ponude. Možete istovremeno zatvoriti sve aktivne ponude i radne verzije ponuda povezane sa mogućnošću za poslovanje. Zatim će vam biti dozvoljeno da zatvorite mogućnost za poslovanje.
 
-Za više opštih informacija o zatvaranju mogućnosti za poslovanje, pogledajte [Zatvaranje mogućnosti za poslovanje kao ostvarenih ili neostvarenih](https://docs.microsoft.com/dynamics365/sales-enterprise/close-opportunity-won-lost-sales).
+Za više opštih informacija o zatvaranju mogućnosti za poslovanje, pogledajte [Zatvaranje mogućnosti za poslovanje kao ostvarenih ili neostvarenih](/dynamics365/sales-enterprise/close-opportunity-won-lost-sales).
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

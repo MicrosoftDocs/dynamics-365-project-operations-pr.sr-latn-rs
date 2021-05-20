@@ -11,12 +11,12 @@ author: ruhercul
 ms.author: ruhercul
 search.audienceType: IT Pro, Developer
 search.app: ''
-ms.openlocfilehash: 377e50fc5772c4dc146ccee098bf2806bbc8c6b7
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: c521fb4000b4856fc5c2fbf3275bf3b3e0dfa458
+ms.sourcegitcommit: 3d78338773929121d17ec3386f6cb67bfb2272cc
 ms.translationtype: HT
 ms.contentlocale: sr-Latn-RS
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5275105"
+ms.lasthandoff: 04/27/2021
+ms.locfileid: "5950596"
 ---
 # <a name="sample-data-installation-for-the-project-service-application"></a>Instaliranje probnih podataka za aplikaciju Project Service
 
@@ -136,7 +136,7 @@ Paket demo podataka zahteva šest korisnika. Da bi se paket instalirao ispravno,
     - Puno ime korisnika="Molly Clark" kao menadžer poslovnih kontakata   
     - Puno ime korisnika="Spencer Low" kao menadžer prakse i projekata  
     - Puno ime korisnika="Veronica Quek" kao član tima   
-    - Puno ime korisnika="William Contoso"
+    - Puno ime korisnika="Radmilo Contoso"
   
 2. U svrhu uvoza demo podataka, dodelite šest korisnika iznad uloge Administratora kako bi se probni zapisi uvezli ispravno. 
 
@@ -149,7 +149,7 @@ Paket demo podataka zahteva šest korisnika. Da bi se paket instalirao ispravno,
 
 5. Kalendar prvog korisnika (u oznaci **userstocreateandconfigure**) koristi se za popunjavanje radnog vremena svih resursa koji mogu da se rezervišu za uvoz demo podataka. Idite na **Podešavanja** > **Bezbednost** > **Korisnici**, pronađite korisnika "Spencer Low" pretraga i otvorite opciju "Radno vreme". Unesite postojeće radno vreme birajući opciju **Ceo periodični sedmični raspored od početka do kraj**. Uverite se da je **Radno vreme podešeno na 8:00–17:00 (9 časova), od ponedeljka do petka i sa vremenskom zonom podešenom na pacifičko vreme (SAD i Kanada)**. To je potrebno da bi se tabele projekta i rasporeda prikazivale kao što se očekuje.
 
-**Preporuka:** Razmotrite da sada kreirate rezervnu kopiju vaše organizacije u slučaju da treba da se vratite na polaznu tačku ukoliko nešto krene naopako tokom instalacije probnih podataka. Za još informacija pogledajte [Pravljenje rezervnih kopija i vraćanje instanci](https://docs.microsoft.com/dynamics365/customer-engagement/admin/backup-restore-instances).
+**Preporuka:** Razmotrite da sada kreirate rezervnu kopiju vaše organizacije u slučaju da treba da se vratite na polaznu tačku ukoliko nešto krene naopako tokom instalacije probnih podataka. Za još informacija pogledajte [Pravljenje rezervnih kopija i vraćanje instanci](/dynamics365/customer-engagement/admin/backup-restore-instances).
 
 ## <a name="run-the-package-deployer"></a>Pokrenite Package Deployer
 

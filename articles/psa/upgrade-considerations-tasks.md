@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: a067521410f0fe0d8f5d4c510a35f2a3b018dce3
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: d31ca60b267063e9cadf544468ece501353950fa
+ms.sourcegitcommit: 3d78338773929121d17ec3386f6cb67bfb2272cc
 ms.translationtype: HT
 ms.contentlocale: sr-Latn-RS
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5281765"
+ms.lasthandoff: 04/27/2021
+ms.locfileid: "5951361"
 ---
 # <a name="upgrade-considerations-for-the-work-breakdown-structure"></a>Razmatranja nadogradnje strukturne analize posla
 
@@ -34,20 +34,20 @@ Ova tema pruža informacije o nadogradnji strukturne analize posla iz aplikacije
 ## <a name="key-entities"></a>Ključni entiteti
 Za ispravnu strukturnu analizu posla koja je već učitana sa resursima, potrebni su sledeći entiteti:
 
-- [Projekat](https://docs.microsoft.com/dynamics365/customerengagement/on-premises/developer/entities/msdyn_project)
-- [Projektni tim](https://docs.microsoft.com/dynamics365/customerengagement/on-premises/developer/entities/msdyn_projectteam)
-- [Projektni zadatak](https://docs.microsoft.com/dynamics365/customerengagement/on-premises/developer/entities/msdyn_projecttask)
-- [Dodele resursa](https://docs.microsoft.com/dynamics365/customerengagement/on-premises/developer/entities/msdyn_resourceassignment)
-- [Zavisnost projektnog zadatka](https://docs.microsoft.com/dynamics365/customerengagement/on-premises/developer/entities/msdyn_projecttaskdependency)
-- [Resursi koji mogu da se rezervišu](https://docs.microsoft.com/dynamics365/customerengagement/on-premises/developer/entities/bookableresource)
+- [Projekat](/dynamics365/customerengagement/on-premises/developer/entities/msdyn_project)
+- [Projektni tim](/dynamics365/customerengagement/on-premises/developer/entities/msdyn_projectteam)
+- [Projektni zadatak](/dynamics365/customerengagement/on-premises/developer/entities/msdyn_projecttask)
+- [Dodele resursa](/dynamics365/customerengagement/on-premises/developer/entities/msdyn_resourceassignment)
+- [Zavisnost projektnog zadatka](/dynamics365/customerengagement/on-premises/developer/entities/msdyn_projecttaskdependency)
+- [Resursi koji mogu da se rezervišu](/dynamics365/customerengagement/on-premises/developer/entities/bookableresource)
 
 Da biste definisali strukturnu analizu posla koju je učitao resurs, morate da dovršite sledeće korake:
 
-1. Kreirajte novi projekat. Za više informacija o tome kako da kreirate novi projekat, pogledajte [msdyn_project](https://docs.microsoft.com/dynamics365/customerengagement/on-premises/developer/entities/msdyn_project).
-2. Kreirajte jedan ili više zadataka. Za više informacija o tome kako da kreirate novi zadatak, pogledajte [msdyn_projecttask](https://docs.microsoft.com/dynamics365/customerengagement/on-premises/developer/entities/msdyn_projecttask).
-3. Definišite zavisne elemente zadatka. Za još informacija pogledajte [Zavisnost projektnog zadatka](https://docs.microsoft.com/dynamics365/customerengagement/on-premises/developer/entities/msdyn_projecttaskdependency).
-4. Dodelite članove projektnog tima projektu. Za više informacija, pogledajte [msdyn_projectteam](https://docs.microsoft.com/dynamics365/customerengagement/on-premises/developer/entities/msdyn_projectteam).
-5. Dodelite članove projektnog tima zadacima. Za više informacija, pogledajte [msdyn_resourceassignment](https://docs.microsoft.com/dynamics365/customerengagement/on-premises/developer/entities/msdyn_resourceassignment).
+1. Kreirajte novi projekat. Za više informacija o tome kako da kreirate novi projekat, pogledajte [msdyn_project](/dynamics365/customerengagement/on-premises/developer/entities/msdyn_project).
+2. Kreirajte jedan ili više zadataka. Za više informacija o tome kako da kreirate novi zadatak, pogledajte [msdyn_projecttask](/dynamics365/customerengagement/on-premises/developer/entities/msdyn_projecttask).
+3. Definišite zavisne elemente zadatka. Za još informacija pogledajte [Zavisnost projektnog zadatka](/dynamics365/customerengagement/on-premises/developer/entities/msdyn_projecttaskdependency).
+4. Dodelite članove projektnog tima projektu. Za više informacija, pogledajte [msdyn_projectteam](/dynamics365/customerengagement/on-premises/developer/entities/msdyn_projectteam).
+5. Dodelite članove projektnog tima zadacima. Za više informacija, pogledajte [msdyn_resourceassignment](/dynamics365/customerengagement/on-premises/developer/entities/msdyn_resourceassignment).
 
 ## <a name="project-team-relationships"></a>Odnosi unutar projektnog tima
 
