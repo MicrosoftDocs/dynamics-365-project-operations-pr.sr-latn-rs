@@ -1,9 +1,9 @@
 ---
 title: Definisanje kalendara projekata
-description: Ova tema pruža informacije o korišćenju kalendara projekta za praćenje rasporeda projekata.
+description: Ova tema pruža informacije o tome kako primeniti šablon kalendara na projekat za praćenje rasporeda projekata.
 author: ruhercul
 manager: AnnBe
-ms.date: 09/18/2020
+ms.date: 02/05/2021
 ms.topic: article
 ms.prod: ''
 ms.service: project-operations
@@ -17,38 +17,49 @@ ms.search.industry: Service industries
 ms.author: ruhercul
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: e25b11b6b947627ca2ac88952e74aecccc346c89
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 1d5642d7a2246dc878b2bc4f504f138b71d29a69
+ms.sourcegitcommit: c45ceda833b30ad39861f5bcd3ba1bbfff11fe7a
 ms.translationtype: HT
 ms.contentlocale: sr-Latn-RS
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5286985"
+ms.lasthandoff: 05/04/2021
+ms.locfileid: "5981317"
 ---
 # <a name="define-project-calendars"></a>Definisanje kalendara projekata
 
-_**Odnosi se na:** Project Operations za resurs/scenarije koji nisu zasnovani na zalihama, laganu primenu – od pogodbe do profakture_
+_**Odnosi se na:** Project Operations za scenarije zasnovane na resursima/bez zaliha, jednostavna primena – od pogodbe do profakture_
 
-Da biste kreirali raspored projekta, kreirajte predložak kalendara projekta koji definiše broj radnih sati po danu i sve prekide poslovnih aktivnosti. Da biste kreirali predložak kalendara projekta, radni predložak povezujete sa poljem **Predložak kalendara** za projekat. Sledite ove korake za kreiranje radnog predloška.
+Da biste kreirali i upravljali projektom, na njega morate primeniti šablon kalendara. Predložak kalendara definiše sledeće atribute projekta:
 
-1. U levom oknu za navigaciju izaberite **Resursi**. 
-2. Na stranici liste **Resursi** otvorite zapis korisnika, a zatim izaberite **Prikaži radno vreme**.
+- Radno vreme, uključujući vreme početka i završetka
+- Radni dani
+- Izuzeci iz kalendara kao što su neradni dani
 
-  > [!NOTE]
-  > Obavezno dozvolite iskačuće prozore na stranici pregledača. Ovo vam omogućava da vidite radno vreme podešeno za resurs.
-  
-3. Na kartici **Mesečni prikaz** izaberite **Podešavanje**. Pojaviće se lista sa tri opcije: 
+Šablon kalendara koji se primenjuje na projekat je kopija šablona kalendara definisanog u podešavanjima vaše organizacije.
 
-  - Novi sedmični raspored
-  - Raspored posla za jedan dan
-  - Odstupanje u vremenu
+> [!NOTE]
+> Ako promenite šablon kalendara, te promene se neće preneti na radno vreme projekta. Da biste promenili radno vreme projekta, mora se primeniti novi obrazac.
 
-4. Izaberite **Novi sedmični raspored**, a zatim podesite opcije za ovaj raspored resursa. Možete podesiti periodični sedmični raspored, parametre sata u danu, prekid poslovnih aktivnosti i još mnogo toga.
-5. Podesite opseg datuma, izaberite **Sačuvaj**, a zatim izaberite **Zatvori**. 
-6. Vratite se na stranicu liste **Resursi** i odaberite resurs za koji ste odredili radno vreme. 
-7. Izaberite **Podesite kalendar kao** da podesite radni predložak. 
-8. U dijalog **Radni predložak** unesite ime radnog predloška, a zatim izaberite **Primeni**. 
+Da biste kreirali šablon kalendara za svoju organizaciju, postoje dva ključna zahteva:
+
+- Definišite željeno radno vreme šablona pomoću novog ili postojećeg resursa koji se može rezervisati.
+- Napravite novi šablon kalendara i povežite ga sa resursom koji možete rezervirati.
+
+**Definišite radno vreme šablona**
+
+1. Idite na **Resursi** \> **Resursi**.
+2. Napravite novi resurs za referencu u predlošku kalendara ili odaberite postojeći.
+3. Izaberite karticu resursa **Radno vreme** i dovršite uputstva u [Postavite radno vreme za resurs](https://docs.microsoft.com/dynamics365/field-service/set-work-hours-resource) za konfigurisanje pravila kalendara.
+
+**Kreirajte novi predložak kalendara**
+
+1. Idite na **Podešavanja** \> **Šablon kalendara**.
+2. Izaberite **Novo** i unesite ime, opis i resurs šablona.
+
+> [!NOTE]
+> Kada se na resurs navodi šablon kalendara, kopija kalendara resursa pridružuje se šablonu kalendara. Ako promenite radno vreme kopiranog šablona, te promene se neće preneti na radno vreme kalendara.
 
 Sada možete povezati radni predložak sa predloškom kalendara projekta.
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
+
