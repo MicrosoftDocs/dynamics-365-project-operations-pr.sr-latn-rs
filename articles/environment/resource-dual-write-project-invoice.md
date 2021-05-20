@@ -1,0 +1,30 @@
+---
+title: Integracija faktura projekta
+description: Ova tema pruža informacije o integraciji fakturisanja klijenta u Project Operations pomoću dvostrukog upisivanja.
+author: sigitac
+ms.date: 04/26/2021
+ms.topic: article
+ms.prod: ''
+ms.service: project-operations
+ms.reviewer: kfend
+ms.author: sigitac
+ms.openlocfilehash: 102a7cdba467a2071119c5b32d2e75e48170c783
+ms.sourcegitcommit: 02f00960198cc78a5e96955a9e4390c2c6393bbf
+ms.translationtype: HT
+ms.contentlocale: sr-Latn-RS
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "5955823"
+---
+# <a name="project-invoice-integration"></a><span data-ttu-id="8009b-103">Integracija faktura projekta</span><span class="sxs-lookup"><span data-stu-id="8009b-103">Project invoice integration</span></span>
+
+<span data-ttu-id="8009b-104">Ova tema pruža informacije o integraciji fakturisanja klijenta u Project Operations pomoću dvostrukog upisivanja.</span><span class="sxs-lookup"><span data-stu-id="8009b-104">This topic provides information about Project Operations dual-write integration for customer invoicing.</span></span>
+
+<span data-ttu-id="8009b-105">U Project Operations, menadžer projekta upravlja zaostatkom u fakturisanju projekata i kreira predračun za klijenta u Microsoft Dataverse.</span><span class="sxs-lookup"><span data-stu-id="8009b-105">In Project Operations, the Project manager manages the project billing backlog and creates a proforma invoice for the customer in Microsoft Dataverse.</span></span> <span data-ttu-id="8009b-106">Na osnovu ove predračune, službenik za potraživanja ili knjigovođa na projektu kreira fakturu prema klijentima.</span><span class="sxs-lookup"><span data-stu-id="8009b-106">Based on this proforma invoice, the Accounts receivable clerk or Project accountant creates a customer-facing invoice.</span></span> <span data-ttu-id="8009b-107">Integracija dvostrukog pisanja osigurava da se detalji predračuna sinhronizuju sa Finance and Operations aplikacijama.</span><span class="sxs-lookup"><span data-stu-id="8009b-107">Dual-write integration ensures that the proforma invoice details are synchronized to Finance and Operations apps.</span></span> <span data-ttu-id="8009b-108">Nakon što se knjiži faktura za klijenta, sistem ažurira relevantne činjenice o projektu u Dataverse sa detaljima računovodstva.</span><span class="sxs-lookup"><span data-stu-id="8009b-108">After the customer-facing invoice is posted, the system updates the relevant project actuals in Dataverse with the accounting detail.</span></span> <span data-ttu-id="8009b-109">Sledeća grafika daje konceptualni pregled ove integracije na visokom nivou.</span><span class="sxs-lookup"><span data-stu-id="8009b-109">The following graphic provides a high-level conceptual overview of this integration.</span></span>
+
+   ![Integracija faktura projekta](./media/DW5Invoicing.png)
+
+<span data-ttu-id="8009b-111">Nakon što menadžer projekta potvrdi predračun u Dataverse, informacije o zaglavlju predračuna se sinhronizuju sa Finance and Operations aplikacijama koje koriste mapu tabela dvostrukog upisivanja, **Predlog projektne fakture V2 (fakture)**.</span><span class="sxs-lookup"><span data-stu-id="8009b-111">After the Project manager confirms the proforma invoice in Dataverse, the proforma invoice header information synchronizes to Finance and Operations apps using the dual-write table map, **Project invoice proposal V2 (invoices)**.</span></span> <span data-ttu-id="8009b-112">Ovo je jednosmerna integracija iz Dataverse do Finance and Operations aplikacija.</span><span class="sxs-lookup"><span data-stu-id="8009b-112">This is a one-way integration from Dataverse to Finance and Operations apps.</span></span> <span data-ttu-id="8009b-113">Kreiranje ili brisanje predloga projektnih faktura direktno u Finance and Operations aplikacijama nije podržano.</span><span class="sxs-lookup"><span data-stu-id="8009b-113">Creating or deleting Project invoice proposals directly in Finance and Operations apps isn't supported.</span></span>
+
+<span data-ttu-id="8009b-114">Potvrda računa u Dataverse takođe pokreće poslovnu logiku za kreiranje zapisa povezanih sa naplatom u entitetu **Stvarni podaci**.</span><span class="sxs-lookup"><span data-stu-id="8009b-114">Invoice confirmation in Dataverse also triggers the business logic to create billing-related records in the **Actuals** entity.</span></span> <span data-ttu-id="8009b-115">Ovi zapisi se sinhronizuju sa Finance and Operations aplikacijama koje koriste mapu **Stvarni podaci o Project Operations integraciji (msdyn\_actuals).**</span><span class="sxs-lookup"><span data-stu-id="8009b-115">These records are synchronized to Finance and Operations using the dual-write table map, **Project Operations integration actuals (msdyn\_actuals).**</span></span> <span data-ttu-id="8009b-116">Više informacija potražite u članku [Procene i stvarne vrednosti](resource-dual-write-estimates-actuals.md).</span><span class="sxs-lookup"><span data-stu-id="8009b-116">For more information, see [Project estimates and actuals](resource-dual-write-estimates-actuals.md).</span></span> 
+
+<span data-ttu-id="8009b-117">Redovi za predlog fakture za projekat kreiraju se periodičnim procesom, **Postupak uvoza obrasca**.</span><span class="sxs-lookup"><span data-stu-id="8009b-117">Project invoice proposal lines are created by the periodic process, **Import form staging**.</span></span> <span data-ttu-id="8009b-118">Ovaj proces se zasniva na stvarnim detaljima fakturisane prodaje u tabeli **Priprema stvarnih podataka**.</span><span class="sxs-lookup"><span data-stu-id="8009b-118">This process is based on the billed sales actuals details in the **Actuals staging** table.</span></span> <span data-ttu-id="8009b-119">Za više informacija pogledajte [Upravljajte predlozima faktura za projekat](../invoicing/format-update-project-invoice-proposals.md#create-project-invoice-proposals).</span><span class="sxs-lookup"><span data-stu-id="8009b-119">For more information, see [Manage project invoice proposals](../invoicing/format-update-project-invoice-proposals.md#create-project-invoice-proposals).</span></span> 
