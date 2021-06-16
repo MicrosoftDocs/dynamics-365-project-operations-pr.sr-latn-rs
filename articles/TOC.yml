@@ -52,6 +52,8 @@
               href: environment/resource-dual-write-vendor-invoice.md
     - name: Šta je novo
       items:
+        - name: Maj 2021. – Project Operations za scenarije sa resursima/materijalima koji nisu na zalihama
+          href: whats-new/whats-new-may-2021-resource-based.md
         - name: April 2021. – Project Operations za scenarije sa resursima/materijalima koji nisu na zalihama
           href: whats-new/whats-new-apr-2021-resource-based.md
         - name: Mart 2021. – Project Operations za resurs/scenarije koji nisu zasnovani na zalihama
@@ -374,6 +376,8 @@
               href: expense/set-up-credit-card-integration.md
             - name: Podešavanje kategorija troškova
               href: expense/set-up-expense-categories.md
+            - name: Podesite kilometražu pomoću nivoa kilometraže
+              href: expense/set-up-mileage.md
         - name: Lični troškovi
           href: expense/personal-expenses-expense-report.md
         - name: Interni troškovi u okviru preduzeća
@@ -508,6 +512,8 @@
           href: environment/security-model.md
     - name: Šta je novo
       items:
+        - name: Šta je novo u maju 2021. – jednostavna primena
+          href: pro/whats-new/whats-new-may-2021-lite.md
         - name: Šta je novo u aprilu 2021. – jednostavna primena
           href: pro/whats-new/whats-new-apr-2021-lite.md
         - name: Šta je novo u martu 2021. – jednostavna primena
@@ -1028,6 +1034,8 @@
       items:
         - name: Raspored izdanja ispravki za Project Service 3.x
           href: psa/version-history-ps.md
+        - name: 'Šta je novo ili promenjeno u izdanju ispravke broj 32, V3'
+          href: psa/whats-new-ur-32.md
         - name: 'Šta je novo ili promenjeno u izdanju ispravke broj 31, V3'
           href: psa/whats-new-ur-31.md
         - name: 'Šta je novo ili promenjeno u izdanju ispravke broj 30, V3'
@@ -1266,6 +1274,8 @@
               href: psa/time-entry-calendar.md
             - name: Prilagođavanje sedmične stavke vremena
               href: psa/time-entry-extensibility-v3.md
+            - name: Skupovi odobrenja
+              href: psa/approval-set.md
     - name: Najčešća pitanja i rešavanje problema (3.x)
       items:
         - name: Zašto se cena podrazumevano vraća na nulu za trenutno stanje iznosa troškova?
