@@ -2,19 +2,17 @@
 title: Konfigurišite materijale koji nisu na zalihama i fakture dobavljača na čekanju
 description: Ova tema objašnjava kako da omogućite materijale koji nisu na zalihama i fakture dobavljača na čekanju.
 author: sigitac
-manager: tfehr
 ms.date: 04/12/2021
 ms.topic: article
 ms.prod: ''
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: a84245a246f49ab69466aba0fec332f0489eec6c
-ms.sourcegitcommit: 7468d668c48c1d87934aab9a034decd51e56dec6
+ms.openlocfilehash: 24418f3aad8356bd209eef7487a47a3870bce10f
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: sr-Latn-RS
-ms.lasthandoff: 04/13/2021
-ms.locfileid: "5880681"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "5993928"
 ---
 # <a name="configure-non-stocked-materials-and-pending-vendor-invoices"></a>Konfigurišite materijale koji nisu na zalihama i fakture dobavljača na čekanju
 
@@ -61,11 +59,11 @@ Ako koristite standardne demo podatke, možda ćete takođe morati da zaustavite
 
 ### <a name="activate-workflow-to-create-accounts-based-on-vendor-entity"></a>Aktivirajte tok posla da biste kreirali naloge na osnovu entiteta dobavljača
 
-Rešenje za orkestraciju dvostrukog upisivanja pruža [dobavljačima glavnu integraciju](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/data-entities/dual-write/vendor-mapping). Kao preduslov za ovu funkciju, podaci dobavljača moraju se kreirati u entitetu **Nalozi**. Aktivirajte proces toka posla šablona da biste kreirali dobavljače u tabeli **Nalozi** kako je opisano u [Prebacujte se između dizajna dobavljača](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/data-entities/dual-write/vendor-switch#use-the-extended-vendor-design-for-vendors-of-the-organization-type).
+Rešenje za orkestraciju dvostrukog upisivanja pruža [dobavljačima glavnu integraciju](/dynamics365/fin-ops-core/dev-itpro/data-entities/dual-write/vendor-mapping.md). Kao preduslov za ovu funkciju, podaci dobavljača moraju se kreirati u entitetu **Nalozi**. Aktivirajte proces toka posla šablona da biste kreirali dobavljače u tabeli **Nalozi** kako je opisano u [Prebacujte se između dizajna dobavljača](/dynamics365/fin-ops-core/dev-itpro/data-entities/dual-write/vendor-switch.md#use-the-extended-vendor-design-for-vendors-of-the-organization-type).
 
 ### <a name="set-products-to-be-created-as-active"></a>Podesite proizvode koji će se kreirati kao aktivni
 
-Materijali van zaliha moraju biti konfigurisani kao **Objavljeni proizvodi** u Finance. Rešenje za orkestraciju dvostrukog upisivanja pruža gotovu [Katalog proizvoda integracija objavljenih proizvoda u Dataverse](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/data-entities/dual-write/product-mapping). Podrazumevano se proizvodi iz Finance sinhronizuju sa Dataverse u statusu radne verzije. Da biste sinhronizovali proizvod u aktivno stanje, tako da se može direktno koristiti u dokumentima o upotrebi materijala ili na fakturama dobavljača na čekanju, idite na **Sistem** > **Administracija** > **Administracija sistema** > **Podešavanja sistema** i na kartici **Prodaja** podesite **Kreirajte proizvode u aktivnom stanju** na **Da**.
+Materijali van zaliha moraju biti konfigurisani kao **Objavljeni proizvodi** u Finance. Rešenje za orkestraciju dvostrukog upisivanja pruža gotovu [Katalog proizvoda integracija objavljenih proizvoda u Dataverse](/dynamics365/fin-ops-core/dev-itpro/data-entities/dual-write/product-mapping.md). Podrazumevano se proizvodi iz Finance sinhronizuju sa Dataverse u statusu radne verzije. Da biste sinhronizovali proizvod u aktivno stanje, tako da se može direktno koristiti u dokumentima o upotrebi materijala ili na fakturama dobavljača na čekanju, idite na **Sistem** > **Administracija** > **Administracija sistema** > **Podešavanja sistema** i na kartici **Prodaja** podesite **Kreirajte proizvode u aktivnom stanju** na **Da**.
 
 ## <a name="configure-prerequisites-in-finance"></a>Konfigurišite preduslove u Finance
 

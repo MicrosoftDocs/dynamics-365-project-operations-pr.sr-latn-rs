@@ -2,19 +2,17 @@
 title: Šta je novo u februaru 2021. – Project Operations jednostavna primena
 description: Ova tema pruža informacije o ispravkama kvaliteta dostupnim u izdanju jednostavne primene usluge Project Operations za februar 2021.
 author: sigitac
-manager: tfehr
 ms.date: 02/08/2021
 ms.topic: article
 ms.prod: ''
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: df6490d3d9c28b095efd5ef856064de4b1517055
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 3fc46ab3e82fdf7ae473202c5be737a3b8c86ab2
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: sr-Latn-RS
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5272180"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "5994018"
 ---
 # <a name="whats-new-february-2021---project-operations-lite-deployment"></a>Šta je novo u februaru 2021. – Project Operations jednostavna primena
 
