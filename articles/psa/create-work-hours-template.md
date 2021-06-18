@@ -2,8 +2,6 @@
 title: Kreiranje predloška za radne sate
 description: Ova tema opisuje kako da kreirate predloške za radne sate u aplikaciji Project Service.
 author: ruhercul
-manager: kfend
-ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 8/03/2018
@@ -18,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 525f601ad6fee902cb6d5c128b596cc2d33f30c4
-ms.sourcegitcommit: c45ceda833b30ad39861f5bcd3ba1bbfff11fe7a
+ms.openlocfilehash: 105e3cb2ef7b904e96dc21013906e0b7444e3b88
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: sr-Latn-RS
-ms.lasthandoff: 05/04/2021
-ms.locfileid: "5981272"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "5997213"
 ---
 # <a name="create-a-work-hours-template-project-service"></a>Kreiranje predloška radnih sati (Project Service)
 
@@ -51,7 +49,7 @@ Da biste kreirali šablon kalendara za svoju organizaciju, postoje dva ključna 
 
 1. Idite na **Resursi** \> **Resursi**.
 2. Napravite novi resurs za referencu u predlošku kalendara ili odaberite postojeći.
-3. Izaberite karticu resursa **Radno vreme** i dovršite uputstva u [Postavite radno vreme za resurs](https://docs.microsoft.com/dynamics365/field-service/set-work-hours-resource) za konfigurisanje pravila kalendara.
+3. Izaberite karticu resursa **Radno vreme** i dovršite uputstva u [Postavite radno vreme za resurs](/dynamics365/field-service/set-work-hours-resource.md) za konfigurisanje pravila kalendara.
 
 **Kreirajte novi predložak kalendara**
 
