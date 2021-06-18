@@ -2,8 +2,6 @@
 title: Konfigurisanje uloga resursa
 description: Kako da konfigurišete uloge resursa u aplikaciji Project Service
 author: JohnPBurrows
-manager: kfend
-ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 8/03/2018
@@ -18,47 +16,47 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: ae18350723e3fc371707a3087d8948f3375131e1
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 59c66aa7bd6c481f8db3088bede71c1ab81a203f
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: sr-Latn-RS
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5290691"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "5999328"
 ---
-# <a name="configure-resource-roles-project-service"></a><span data-ttu-id="00f23-103">Konfigurisanje uloga resursa (Project Service)</span><span class="sxs-lookup"><span data-stu-id="00f23-103">Configure resource roles (Project Service)</span></span>
+# <a name="configure-resource-roles-project-service"></a><span data-ttu-id="7fb53-103">Konfigurisanje uloga resursa (Project Service)</span><span class="sxs-lookup"><span data-stu-id="7fb53-103">Configure resource roles (Project Service)</span></span>
 
 [!include [banner](../includes/psa-now-project-operations.md)]
 
 [!INCLUDE[cc-applies-to-psa-app-1x-2x](../includes/cc-applies-to-psa-app-1x-2x.md)]
 
-<span data-ttu-id="00f23-104">Uloge su važan deo planiranja projekta, prilikom određivanje zahteva za resurse ili troškova projekta.</span><span class="sxs-lookup"><span data-stu-id="00f23-104">Roles play an important part in project planning, when determining resource requirements or costs of a project.</span></span> <span data-ttu-id="00f23-105">Za svaku ulogu koju vaši projekti zahtevaju, potrebno je da kreirate ulogu resursa i povežete veštine i stručnosti sa tom ulogom.</span><span class="sxs-lookup"><span data-stu-id="00f23-105">For each role your projects require, you need to create a resource role and associate skills and proficiencies to that role.</span></span> <span data-ttu-id="00f23-106">Na primer, možda želite da kreirate uloge za programera, menadžera projekta ili testera igara.</span><span class="sxs-lookup"><span data-stu-id="00f23-106">For example, you might want to create roles for developer, project manager, or game tester.</span></span> <span data-ttu-id="00f23-107">Takođe ćete podesiti veštine i nivo stručnosti potrebne za ulogu.</span><span class="sxs-lookup"><span data-stu-id="00f23-107">You’ll also set the skills and proficiency levels required for the role.</span></span>  
+<span data-ttu-id="7fb53-104">Uloge su važan deo planiranja projekta, prilikom određivanje zahteva za resurse ili troškova projekta.</span><span class="sxs-lookup"><span data-stu-id="7fb53-104">Roles play an important part in project planning, when determining resource requirements or costs of a project.</span></span> <span data-ttu-id="7fb53-105">Za svaku ulogu koju vaši projekti zahtevaju, potrebno je da kreirate ulogu resursa i povežete veštine i stručnosti sa tom ulogom.</span><span class="sxs-lookup"><span data-stu-id="7fb53-105">For each role your projects require, you need to create a resource role and associate skills and proficiencies to that role.</span></span> <span data-ttu-id="7fb53-106">Na primer, možda želite da kreirate uloge za programera, menadžera projekta ili testera igara.</span><span class="sxs-lookup"><span data-stu-id="7fb53-106">For example, you might want to create roles for developer, project manager, or game tester.</span></span> <span data-ttu-id="7fb53-107">Takođe ćete podesiti veštine i nivo stručnosti potrebne za ulogu.</span><span class="sxs-lookup"><span data-stu-id="7fb53-107">You’ll also set the skills and proficiency levels required for the role.</span></span>  
   
- <span data-ttu-id="00f23-108">Konfigurišite uloge resursa da biste obezbedili efektivnu procenu projekta za vašu organizaciju.</span><span class="sxs-lookup"><span data-stu-id="00f23-108">Configure resource roles to ensure effective project estimation for your organization.</span></span>  <span data-ttu-id="00f23-109">Da biste se uverili da ste pravilno postavili tip obračuna.</span><span class="sxs-lookup"><span data-stu-id="00f23-109">Also make sure you accurately set the billing type.</span></span> <span data-ttu-id="00f23-110">Stavka za koju se postavi nepromenljivi tip fakturisanja se ne prikazuju u predmetima ugovora ili ponuda.</span><span class="sxs-lookup"><span data-stu-id="00f23-110">An item set with a non-chargeable billing type doesn’t show up on contract or quote lines.</span></span>  
+ <span data-ttu-id="7fb53-108">Konfigurišite uloge resursa da biste obezbedili efektivnu procenu projekta za vašu organizaciju.</span><span class="sxs-lookup"><span data-stu-id="7fb53-108">Configure resource roles to ensure effective project estimation for your organization.</span></span>  <span data-ttu-id="7fb53-109">Da biste se uverili da ste pravilno postavili tip obračuna.</span><span class="sxs-lookup"><span data-stu-id="7fb53-109">Also make sure you accurately set the billing type.</span></span> <span data-ttu-id="7fb53-110">Stavka za koju se postavi nepromenljivi tip fakturisanja se ne prikazuju u predmetima ugovora ili ponuda.</span><span class="sxs-lookup"><span data-stu-id="7fb53-110">An item set with a non-chargeable billing type doesn’t show up on contract or quote lines.</span></span>  
   
- <span data-ttu-id="00f23-111">Pošto podesite uloge resursa, možete podesiti troškove i prodajne cene sa cenovnikom.</span><span class="sxs-lookup"><span data-stu-id="00f23-111">Once you’ve set up resource roles, you can set up cost and sales prices with a price list.</span></span>  
+ <span data-ttu-id="7fb53-111">Pošto podesite uloge resursa, možete podesiti troškove i prodajne cene sa cenovnikom.</span><span class="sxs-lookup"><span data-stu-id="7fb53-111">Once you’ve set up resource roles, you can set up cost and sales prices with a price list.</span></span>  
   
- <span data-ttu-id="00f23-112">Za svaku ulogu koju želite da dodate uradite sledeće:</span><span class="sxs-lookup"><span data-stu-id="00f23-112">For each role you want to add, do the following:</span></span>  
+ <span data-ttu-id="7fb53-112">Za svaku ulogu koju želite da dodate uradite sledeće:</span><span class="sxs-lookup"><span data-stu-id="7fb53-112">For each role you want to add, do the following:</span></span>  
   
-1.  <span data-ttu-id="00f23-113">Idite na **Project Service > Uloge resursa**.</span><span class="sxs-lookup"><span data-stu-id="00f23-113">Go to **Project Service > Resource Roles**.</span></span>  
+1.  <span data-ttu-id="7fb53-113">Idite na **Project Service > Uloge resursa**.</span><span class="sxs-lookup"><span data-stu-id="7fb53-113">Go to **Project Service > Resource Roles**.</span></span>  
   
-2.  <span data-ttu-id="00f23-114">Kliknite na dugme **Novo**.</span><span class="sxs-lookup"><span data-stu-id="00f23-114">Click **New**.</span></span>  
+2.  <span data-ttu-id="7fb53-114">Kliknite na dugme **Novo**.</span><span class="sxs-lookup"><span data-stu-id="7fb53-114">Click **New**.</span></span>  
   
-3.  <span data-ttu-id="00f23-115">U okviru oblasti **Opšti podaci**, unesite ime za ulogu u polju **Ime**, a zatim popunite druga polja kako je potrebno.</span><span class="sxs-lookup"><span data-stu-id="00f23-115">In the **General** area, enter a name for the role in **Name**, and then fill in the other fields as necessary.</span></span>  
+3.  <span data-ttu-id="7fb53-115">U okviru oblasti **Opšti podaci**, unesite ime za ulogu u polju **Ime**, a zatim popunite druga polja kako je potrebno.</span><span class="sxs-lookup"><span data-stu-id="7fb53-115">In the **General** area, enter a name for the role in **Name**, and then fill in the other fields as necessary.</span></span>  
   
-4.  <span data-ttu-id="00f23-116">Kliknite na dugme **Sačuvaj** za kreiranje zapisa tako da možete da nastavite ga uređujete.</span><span class="sxs-lookup"><span data-stu-id="00f23-116">Click **Save** to create the record so you can continue editing it.</span></span>  
+4.  <span data-ttu-id="7fb53-116">Kliknite na dugme **Sačuvaj** za kreiranje zapisa tako da možete da nastavite ga uređujete.</span><span class="sxs-lookup"><span data-stu-id="7fb53-116">Click **Save** to create the record so you can continue editing it.</span></span>  
   
-5.  <span data-ttu-id="00f23-117">U oblasti **Veštine** kliknite na **+** da biste dodali veštinu.</span><span class="sxs-lookup"><span data-stu-id="00f23-117">In the **Skills** area, click **+** to add a skill.</span></span>  
+5.  <span data-ttu-id="7fb53-117">U oblasti **Veštine** kliknite na **+** da biste dodali veštinu.</span><span class="sxs-lookup"><span data-stu-id="7fb53-117">In the **Skills** area, click **+** to add a skill.</span></span>  
   
-6.  <span data-ttu-id="00f23-118">U oknu **Uslov kompetencije za ulogu** kliknite na polje **Veštine**, kliknite na dugme **Pretraga**, a zatim izaberite veštinu.</span><span class="sxs-lookup"><span data-stu-id="00f23-118">In the **Role competency requirement** pane, click in the **Skill** field, click the **Search** button, and then select a skill.</span></span>  
+6.  <span data-ttu-id="7fb53-118">U oknu **Uslov kompetencije za ulogu** kliknite na polje **Veštine**, kliknite na dugme **Pretraga**, a zatim izaberite veštinu.</span><span class="sxs-lookup"><span data-stu-id="7fb53-118">In the **Role competency requirement** pane, click in the **Skill** field, click the **Search** button, and then select a skill.</span></span>  
   
-7.  <span data-ttu-id="00f23-119">Izaberite stručnost za tu veštinu, a zatim kliknite na dugme **Sačuvaj**.</span><span class="sxs-lookup"><span data-stu-id="00f23-119">Select a proficiency for that skill, and then click **Save**.</span></span>  
+7.  <span data-ttu-id="7fb53-119">Izaberite stručnost za tu veštinu, a zatim kliknite na dugme **Sačuvaj**.</span><span class="sxs-lookup"><span data-stu-id="7fb53-119">Select a proficiency for that skill, and then click **Save**.</span></span>  
   
-8.  <span data-ttu-id="00f23-120">Nastavite da dodajete veštine po potrebi.</span><span class="sxs-lookup"><span data-stu-id="00f23-120">Continue adding skills as necessary.</span></span> <span data-ttu-id="00f23-121">Kada završite, kliknite na dugme **Sačuvaj** u donjem desnom uglu ekrana.</span><span class="sxs-lookup"><span data-stu-id="00f23-121">When you’re done, click **Save** at the bottom right corner of the screen.</span></span>  
+8.  <span data-ttu-id="7fb53-120">Nastavite da dodajete veštine po potrebi.</span><span class="sxs-lookup"><span data-stu-id="7fb53-120">Continue adding skills as necessary.</span></span> <span data-ttu-id="7fb53-121">Kada završite, kliknite na dugme **Sačuvaj** u donjem desnom uglu ekrana.</span><span class="sxs-lookup"><span data-stu-id="7fb53-121">When you’re done, click **Save** at the bottom right corner of the screen.</span></span>  
   
-9. <span data-ttu-id="00f23-122">Da biste ulogu resursa učinili dostupnom za projekte, kliknite na stavku **Aktiviraj**.</span><span class="sxs-lookup"><span data-stu-id="00f23-122">To make this resource role available for projects to use, click **Activate**.</span></span>  
+9. <span data-ttu-id="7fb53-122">Da biste ulogu resursa učinili dostupnom za projekte, kliknite na stavku **Aktiviraj**.</span><span class="sxs-lookup"><span data-stu-id="7fb53-122">To make this resource role available for projects to use, click **Activate**.</span></span>  
   
-### <a name="see-also"></a><span data-ttu-id="00f23-123">Takođe pogledajte</span><span class="sxs-lookup"><span data-stu-id="00f23-123">See Also</span></span>  
- [<span data-ttu-id="00f23-124">Podešavanje resursa</span><span class="sxs-lookup"><span data-stu-id="00f23-124">Set up resources</span></span>](../psa/set-up-resources.md)
+### <a name="see-also"></a><span data-ttu-id="7fb53-123">Takođe pogledajte</span><span class="sxs-lookup"><span data-stu-id="7fb53-123">See Also</span></span>  
+ [<span data-ttu-id="7fb53-124">Podešavanje resursa</span><span class="sxs-lookup"><span data-stu-id="7fb53-124">Set up resources</span></span>](../psa/set-up-resources.md)
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
