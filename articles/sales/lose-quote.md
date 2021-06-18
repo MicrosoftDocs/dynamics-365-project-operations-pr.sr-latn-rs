@@ -2,18 +2,16 @@
 title: Kopiranje ponuda zasnovanih na projektu
 description: Ova tema pruža informacije o načinu kopiranja ponuda zasnovanih na projektu u usluzi Project Operations.
 author: rumant
-manager: Annbe
 ms.date: 10/01/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: b1ce6c2b644319f2d822010a34c57c591f82edc9
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 4e9009391d33c5dd5988ae65e13ca1ca1ec398bc
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: sr-Latn-RS
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5278165"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "5999103"
 ---
 # <a name="copy-project-based-quotes"></a>Kopiranje ponuda zasnovanih na projektu
 

@@ -2,11 +2,9 @@
 title: Definisanje kalendara projekata
 description: Ova tema pruža informacije o tome kako primeniti šablon kalendara na projekat za praćenje rasporeda projekata.
 author: ruhercul
-manager: AnnBe
 ms.date: 02/05/2021
 ms.topic: article
 ms.prod: ''
-ms.service: project-operations
 audience: Application User
 ms.reviewer: kfend
 ms.search.scope: ''
@@ -17,12 +15,12 @@ ms.search.industry: Service industries
 ms.author: ruhercul
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: 1d5642d7a2246dc878b2bc4f504f138b71d29a69
-ms.sourcegitcommit: c45ceda833b30ad39861f5bcd3ba1bbfff11fe7a
+ms.openlocfilehash: 0d1a2c4bd2d4022bbf79afcef79170eb482e6418
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: sr-Latn-RS
-ms.lasthandoff: 05/04/2021
-ms.locfileid: "5981317"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "5999013"
 ---
 # <a name="define-project-calendars"></a>Definisanje kalendara projekata
 
@@ -48,7 +46,7 @@ Da biste kreirali šablon kalendara za svoju organizaciju, postoje dva ključna 
 
 1. Idite na **Resursi** \> **Resursi**.
 2. Napravite novi resurs za referencu u predlošku kalendara ili odaberite postojeći.
-3. Izaberite karticu resursa **Radno vreme** i dovršite uputstva u [Postavite radno vreme za resurs](https://docs.microsoft.com/dynamics365/field-service/set-work-hours-resource) za konfigurisanje pravila kalendara.
+3. Izaberite karticu resursa **Radno vreme** i dovršite uputstva u [Postavite radno vreme za resurs](/dynamics365/field-service/set-work-hours-resource.md) za konfigurisanje pravila kalendara.
 
 **Kreirajte novi predložak kalendara**
 
