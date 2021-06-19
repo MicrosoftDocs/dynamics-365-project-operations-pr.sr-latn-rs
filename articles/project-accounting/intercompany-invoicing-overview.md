@@ -2,18 +2,16 @@
 title: Pregled internog fakturisanja u okviru preduzeća
 description: Ova tema pruža informacije i primere o internom fakturisanju između preduzeća za projekte.
 author: sigitac
-manager: tfehr
 ms.date: 11/19/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 3ad75089de1a2f99646f7aba213e199a2bec347d
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 42af89105f8325f1c94df6d2133d2c329facf2b3
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: sr-Latn-RS
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5287345"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "6002658"
 ---
 # <a name="intercompany-invoicing-overview"></a>Pregled internog fakturisanja u okviru preduzeća
 
@@ -21,7 +19,7 @@ _**Odnosi se na:** Project Operations za scenarije zasnovane na resursima / bez 
 
 Vaša organizacija može imati više odeljenja, podružnica i drugih pravnih lica koja međusobno prenose proizvode i usluge za projekte. Pravno lice koje pruža uslugu ili daje proizvod naziva se *pravno lice koje pozajmljuje*. Pravno lice koje prima uslugu ili proizvod naziva se *pravno lice koje se zadužuje*.
 
-Sledeća ilustracija prikazuje tipični scenario kada dva pravna lica, Contoso Robotics USA (pravno lice koje se zadužuje) i Contoso Robotics UK (pravno lice koje pozajmljuje) dele resurse kako bi isporučili projekat klijentu, Adventure works. Za ovaj scenario, Contoso Robotics USA po ugovoru treba da isporuči posao preduzeću Adventure Works.
+Sledeća ilustracija prikazuje tipičan scenario kada dva pravna lica, Contoso Robotics USA (pravno lice koje se zadužuje) i Contoso Robotics UK (pravno lice koje pozajmljuje) deli resurse za isporuku projekta za klijenta, Adventure works. Za ovaj scenario, Contoso Robotics USA je ugovorio isporuku dela za Adventure Works.
 
 ![Interno fakturisanje u okviru preduzeća](./media/IntercompanyScenario.png) 
 

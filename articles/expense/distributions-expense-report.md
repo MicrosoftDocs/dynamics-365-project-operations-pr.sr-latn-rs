@@ -2,18 +2,16 @@
 title: Raspodele u izveštaju o troškovima
 description: Kada unesete troškove u izveštaj o troškovima, možete ih rasporediti na više projekata, pravnih lica ili naloga u vašoj organizaciji.
 author: suvaidya
-manager: AnnBe
 ms.date: 10/10/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: suvaidya
-ms.openlocfilehash: 96245e6da131c55b2452d7797402fa714fc41d07
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 6e3e5faf6a0a4553ef19ded1e0a8cda386a51061
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: sr-Latn-RS
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5276635"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "6002118"
 ---
 # <a name="distributions-on-an-expense-report"></a>Raspodele u izveštaju o troškovima
 

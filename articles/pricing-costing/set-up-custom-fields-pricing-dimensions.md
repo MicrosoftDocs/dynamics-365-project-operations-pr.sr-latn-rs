@@ -2,11 +2,9 @@
 title: Podešavanje prilagođenih polja kao dimenzija za određivanje cena
 description: Ova tema pruža informacije o tome kako da podesite dimenzije za određivanje cena pomoću prilagođenih polja.
 author: rumant
-manager: AnnBe
 ms.date: 09/18/2020
 ms.topic: article
 ms.prod: ''
-ms.service: project-operations
 audience: Application User
 ms.reviewer: kfend
 ms.search.scope: ''
@@ -17,12 +15,12 @@ ms.search.industry: Service industries
 ms.author: rumant
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: 1468c3396a01c1bee1bc0f47eac1ee8b44eaa459
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: d40a80f80bd766bfc19e831ea805a4043baf0030
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: sr-Latn-RS
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5274880"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "6004728"
 ---
 # <a name="set-up-custom-fields-as-pricing-dimensions"></a>Podešavanje prilagođenih polja kao dimenzija za određivanje cena
 
@@ -77,10 +75,10 @@ Postoje dva tipa dimenzija za određivanje cena.
 | ------------|-------------|-------------------|--------------------|-------------------------|--------:|
 |             | Contoso India|Na lokaciji            |                    |Prekovremeni rad                 |15     |
 |             | Contoso India|Lokalno             |                    |Prekovremeni rad                 |10     |
-|             | Contoso US   |Lokalno             |                    |Prekovremeni rad                 |20.     |
+|             | Contoso US   |Lokalno             |                    |Prekovremeni rad                 |20     |
 
 
-Ako je resurs iz kompanije Contoso India, čija je osnovna stopa 100 USD za rad na lokaciji, a prijavljuju 8 sati redovnog radnog vremena i 2 sata prekovremenog rada u stavci vremena, sistem za određivanje cena će koristiti osnovnu stopu od 100 za 8 sati da bi evidentirao 800 USD. Za 2 sata prekovremenog rada, provizija od 15% biće primenjena na osnovnu stopu od 100 za dobijanje jedinične cene od 115 USD i biće evidentirani ukupni troškovi od 230 USD.
+Ako je resurs iz kompanije Contoso India, čija je osnovna stopa 100 USD za rad na lokaciji, a evidentiraju 8 sati redovnog radnog vremena i 2 sata prekovremenog rada u stavci vremena, mehanizam za određivanje cena će koristiti osnovnu stopu od 100 za 8 sati da bi evidentirao 800 USD. Za 2 sata prekovremenog rada, provizija od 15% biće primenjena na osnovnu stopu od 100 za dobijanje jedinične cene od 115 USD i biće evidentirani ukupni troškovi od 230 USD.
 
 ### <a name="applicable-to-cost"></a>Primenljivo na cenu 
 Ako je ovo podešeno na **Da**, to znači da bi vrednost dimenzije iz konteksta unosa trebalo da se koristi za podudaranje sa stavkama **Cena uloge** i **Provizija na cenu uloge** prilikom preuzimanja stope troškova i stope provizija.

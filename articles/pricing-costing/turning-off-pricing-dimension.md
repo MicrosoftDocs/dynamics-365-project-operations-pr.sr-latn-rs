@@ -2,11 +2,9 @@
 title: Isključivanje dimenzije za određivanje cena
 description: Ova tema pruža informacije o isključivanju dimenzija za određivanje cena.
 author: rumant
-manager: AnnBe
 ms.date: 09/18/2020
 ms.topic: article
 ms.prod: ''
-ms.service: project-operations
 audience: Application User
 ms.reviewer: kfend
 ms.search.scope: ''
@@ -17,12 +15,12 @@ ms.search.industry: Service industries
 ms.author: suvaidya
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: d2e10c9ce782697fa4cbbe6eb63491ebb573a6f6
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 7b7c1d1b3363c0d158fcf6fda532822354b852a3
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: sr-Latn-RS
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5274745"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "6004548"
 ---
 # <a name="turning-off-a-pricing-dimension"></a>Isključivanje dimenzije za određivanje cena
 
@@ -40,8 +38,8 @@ Ova poruka o grešci ukazuje na to da postoje zapisi cena koji su prethodno pode
 
 | Standardna pozicija         | Organizaciona jedinica    |Jedinica   |Cena  |Valuta  |
 | -----------------------|-------------|-------|-------|----------|
-| Inženjer sistema|Contoso US|Hour| 100.|USD|
-| Viši inženjer sistema|Contoso US|Hour| 150| USD|
+| Inženjer sistema|Contoso US|Sat| 100|USD rešenje|
+| Viši inženjer sistema|Contoso US|Sat| 150| USD rešenje|
 
 
 Kada isključite polje **Standardna pozicija** kao dimenziju za određivanje cena, a mehanizam za određivanje cena pretražuje cenu, koristiće samo vrednost **Organizaciona jedinica** iz konteksta unosa. Ako je **Organizaciona jedinica** konteksta unosa „Contoso US“, rezultat će biti neodređen jer će se oba reda podudarati. Da biste izbegli ovaj scenario, kada kreirate zapise **Cena uloge**, sistem proverava da li je kombinacija dimenzija jedinstvena. Ako je dimenzija isključena nakon kreiranja zapisa **Cena uloge**, ovo ograničenje može da se prekrši. Zbog toga je neophodno da pre isključivanja dimenzije izbrišete sve redove **Cena uloge** i **Provizija na cenu uloge** u kojima je ta vrednost dimenzije popunjena.

@@ -2,8 +2,6 @@
 title: Šta je novo ili promenjeno u izdanju 21 ispravke za Project Service Automation u verziji 3
 description: U ovoj temi date su funkcije i ispravke koje su dostupne u izdanju 21 ispravke za Project Service Automation u verziji 3.
 author: ruhercul
-manager: kfend
-ms.service: project-operations
 ms.custom: dyn365-projectservice
 ms.date: 06/19/2020
 ms.topic: article
@@ -17,12 +15,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: ad44f6747486222cc1f48c7b645f2525d382dca3
-ms.sourcegitcommit: 3d78338773929121d17ec3386f6cb67bfb2272cc
+ms.openlocfilehash: dd894f27baac70238d0bd9e9b1a21a9a499e1ea7
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: sr-Latn-RS
-ms.lasthandoff: 04/27/2021
-ms.locfileid: "5949066"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "6002344"
 ---
 # <a name="project-service-automation-update-release-21-v3"></a>Project Service Automation izdanje ispravke 21, u verziji 3
 
