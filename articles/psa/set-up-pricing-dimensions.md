@@ -2,12 +2,10 @@
 title: Podešavanje prilagođenih polja kao dimenzija za određivanje cena
 description: Ova tema pruža informacije o podešavanju prilagođenih dimenzija za određivanje cena.
 author: Rumant
-manager: kfend
 ms.custom:
 - dyn365-projectservice
 ms.date: 11/20/2018
 ms.topic: article
-ms.service: business-applications
 ms.author: rumant
 audience: Admin
 search.audienceType:
@@ -17,12 +15,12 @@ search.audienceType:
 search.app:
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 81f926e0aa209dd83f9b850c2342bd35a4f236c3
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: cce3a3fe6aef247380f6284f58d49337f969c38c
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: sr-Latn-RS
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5282485"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "6008328"
 ---
 # <a name="setting-up-custom-fields-as-pricing-dimensions"></a>Podešavanje prilagođenih polja kao dimenzija za određivanje cena 
 
@@ -75,10 +73,10 @@ Postoje dva tipa dimenzija za određivanje cena.
 | ------------|-------------|-------------------|--------------------|-------------------------|--------:|
 |             | Contoso India|Na lokaciji            |                    |Prekovremeni rad                 |15     |
 |             | Contoso India|Lokalno             |                    |Prekovremeni rad                 |10     |
-|             | Contoso US   |Lokalno             |                    |Prekovremeni rad                 |20.     |
+|             | Contoso US   |Lokalno             |                    |Prekovremeni rad                 |20     |
 
 
-Ako je resurs iz kompanije Contoso India, čija je osnovna stopa 100 USD za rad na lokaciji, a prijavljuju 8 sati redovnog radnog vremena i 2 sata prekovremenog rada u stavci vremena, Project Service sistem za određivanje cena će koristiti osnovnu stopu od 100 za 8 sati da bi evidentirao 800 USD. Za 2 sata prekovremenog rada, provizija od 15% biće primenjena na osnovnu stopu od 100 za dobijanje jedinične cene od 115 USD i biće evidentirani ukupni troškovi od 230 USD.
+Ako je resurs iz kompanije Contoso India, čija je osnovna stopa 100 USD za rad na lokaciji, a evidentiraju 8 sati redovnog radnog vremena i 2 sata prekovremenog rada u stavci vremena, Project Service sistem za određivanje cena će koristiti osnovnu stopu od 100 za 8 sati da bi evidentirao 800 USD. Za 2 sata prekovremenog rada, provizija od 15% biće primenjena na osnovnu stopu od 100 za dobijanje jedinične cene od 115 USD i biće evidentirani ukupni troškovi od 230 USD.
 
 ### <a name="applicable-to-cost"></a>Primenljivo na cenu 
 Ako je ovo podešeno na **Da**, to znači da bi vrednost dimenzije iz konteksta unosa trebalo da se koristi za podudaranje sa stavkama **Cena uloge** i **Provizija na cenu uloge** prilikom preuzimanja stope troškova i stope provizija.

@@ -2,18 +2,16 @@
 title: Rasporedi fakturisanja na stavkama ponude zasnovane na projektu
 description: Ova tema pruža informacije o kreiranju rasporeda i kontrolnih tačaka fakturisanja za stavke ponude.
 author: rumant
-manager: Annbe
 ms.date: 10/01/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 506de5217de48814d6b8f03a10c7c8648c575198
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 0a8e94bf7ff807028cec05380ac8c9bc22094d82
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: sr-Latn-RS
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5278300"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "6010173"
 ---
 # <a name="invoice-schedules-on-project-based-quote-lines"></a>Rasporedi fakturisanja na stavkama ponude zasnovane na projektu
 
