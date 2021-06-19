@@ -2,19 +2,17 @@
 title: Pregled dimenzija za određivanje cena
 description: Ova tema pruža informacije o dimenzijama za određivanje cena u usluzi Dynamics 365 Project Operations.
 author: rumant
-manager: AnnBe
 ms.date: 11/30/2020
 ms.topic: article
 ms.prod: ''
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: ff675823d84c6e2b83be1e313f881bd672e53981
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 01ba11e34e7d8a59716fa9d8c8be3389ab380048
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: sr-Latn-RS
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5275420"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "6004998"
 ---
 # <a name="pricing-dimensions-overview"></a>Pregled dimenzija za određivanje cena
 
@@ -61,16 +59,16 @@ Sledeći primer prikazuje kursne stope koje su podešene na osnovu uloge i organ
 
 | Uloga        | Organizaciona jedinica    |Jedinica      |Cena      |Valuta  |
 | ------------|-------------|----------|----------:|----------|
-| Programer   | Contoso US  |Hour | 200|USD     |
-| Programer   | Contoso India |Hour|   112|USD     |
+| Programer   | Contoso US  |Sat | 200|USD rešenje     |
+| Programer   | Contoso India |Sat|   112|USD rešenje     |
 
 
 **Primeri stopa troškova**
 
 | Grupa ličnih dohodaka     | Organizaciona jedinica    |Jedinica      |Cena      |Valuta  |
 | ----------------|-------------|----------|----------:|----------|
-| Moje preduzeće_Prva grupa ličnih dohodaka | Contoso US  |Hour | 145|USD     |
-| Moje preduzeće_druga grupa ličnih dohodaka | Contoso India |Hour|   67|USD     |
+| Moje preduzeće_Prva grupa ličnih dohodaka | Contoso US  |Sat | 145|USD rešenje     |
+| Moje preduzeće_druga grupa ličnih dohodaka | Contoso India |Sat|   67|USD rešenje     |
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

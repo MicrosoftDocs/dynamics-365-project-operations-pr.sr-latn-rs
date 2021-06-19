@@ -2,11 +2,9 @@
 title: Kreirajte novi projekat
 description: Ova tema pruža informacije o tome kako da kreirate nov projekat.
 author: Yowelle
-manager: AnnBe
 ms.date: 09/01/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ProjProjectsListPage
 audience: Application User
@@ -18,12 +16,12 @@ ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 9b29340dc88aea888ea2f5ea975eaea59d014279
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 8218747366be8536601cb007318c642ac122536b
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: sr-Latn-RS
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5270740"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "6006258"
 ---
 # <a name="create-a-new-project"></a>Kreirajte novi projekat
 
@@ -55,7 +53,7 @@ Menadžer projekta može koristiti funkcionalnost resursa za projekat da bi krei
 
 [![Primer uloge](./media/projectresourcing05.jpg)](./media/projectresourcing05.jpg) 
 
-**Scenario:** Contoso je angažovan da završi projekat Vreme i materijal koji ima odobrenu povelju projekta. Mlađi menadžer projekta još uvek dovršava opseg projekta. Menadžer resursa trenutno identifikuje određene resurse koji će biti rezervisani za rad na novom projektu. Zbog kritične prirode projekta, sponzor projekta zatražio je starijeg menadžera projekta kao jednu od uloga. Menadžer resursa mora nabaviti novi resurs i definisati ulogu u sistemu u slučaju da mlađi menadžer projekta zahteva informacije o resursima tokom planiranja projekta.
+**Scenario:** Contoso je angažovan da završi projekat „Vreme i materijal“ koji ima odobrenu povelju projekta. Mlađi menadžer projekta još uvek dovršava opseg projekta. Menadžer resursa trenutno identifikuje određene resurse koji će biti rezervisani za rad na novom projektu. Zbog kritične prirode projekta, sponzor projekta zatražio je starijeg menadžera projekta kao jednu od uloga. Menadžer resursa mora nabaviti novi resurs i definisati ulogu u sistemu u slučaju da mlađi menadžer projekta zahteva informacije o resursima tokom planiranja projekta.
 
 Sledeći koraci pokazuju kako menadžer resursa može da postavi ulogu višeg menadžera projekta i poveže karakteristike resursa sa njom. Kasnije se uloga može koristiti za traženje dostupnih resursa koji odgovaraju traženim kompetencijama resursa.
 

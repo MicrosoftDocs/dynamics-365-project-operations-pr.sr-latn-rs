@@ -2,11 +2,9 @@
 title: Podešavanje smernica troškova
 description: Možete da podesite smernice troškova koje vaši radnici moraju slediti prilikom unošenja i podnošenja izveštaja o troškovima i putnih zahteva u usluzi Microsoft Dynamics 365 Finance.
 author: suvaidya
-manager: AnnBe
 ms.date: 05/20/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: SysPolicyListPage, TrvPolicyRule
 audience: Application User
@@ -16,19 +14,19 @@ ms.search.region: Global
 ms.author: suvaidya
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 9c014b0593a87ce50f09175b77d9cf498a65391e
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: fa4f628a918e6e099a723ed05994f63d6ad847f5
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: sr-Latn-RS
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5271280"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "6005763"
 ---
 # <a name="set-up-expense-policies"></a>Podešavanje smernica troškova
 
 Možete da definišete smernice koje vaši radnici moraju slediti prilikom unošenja i podnošenja izveštaja o troškovima i putnih zahteva.         
 Sprovođenje smernica troškova može vam pomoći da efikasno upravljate troškovima.         
 
-Na primer, možete da postavite smernicu za hotelske troškove u NJujorku, koja navodi da trošak po noćenju ne može premašiti 250 USD.       
+Na primer, možete da postavite smernicu za hotelske troškove u Njujorku, koja navodi da trošak po noćenju ne može premašiti 250 USD.       
 Ako radnik podnese izveštaj o trošku ili zahtev za putovanje kada cena sobe prelazi ovaj iznos, sistem će o tome obavestiti        
 radnika da je prekoračen iznos smernice za trošak. Možete da konfigurišete poruku koju će radnik dobiti kada        
 definišete smernicu.      
