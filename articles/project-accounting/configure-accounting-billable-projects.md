@@ -2,18 +2,16 @@
 title: Konfigurisanje računovodstva za naplative projekte
 description: Ova tema pruža informacije o računovodstvenim opcijama za naplative projekte.
 author: sigitac
-manager: Annbe
 ms.date: 04/05/2021
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 629e3fc2f9069d104d459d0b4a6fa46c37f5c6f2
-ms.sourcegitcommit: 5fd529f2308edfe9322082313e6d50146df56aca
+ms.openlocfilehash: 413c9821f251fa37f5cfa082281be662d6be670a
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: sr-Latn-RS
-ms.lasthandoff: 04/06/2021
-ms.locfileid: "5858670"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "6012603"
 ---
 # <a name="configure-accounting-for-billable-projects"></a>Konfigurisanje računovodstva za naplative projekte
 

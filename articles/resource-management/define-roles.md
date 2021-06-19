@@ -2,18 +2,16 @@
 title: Definisanje uloga
 description: Ova tema pruža vezu do informacija o tome kako podesiti kategorije resursa koji mogu da se rezervišu.
 author: ruhercul
-manager: Annbe
 ms.date: 11/05/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.openlocfilehash: fff52c142e4ac1f01fe86808094e94e3974db53a
-ms.sourcegitcommit: 3d78338773929121d17ec3386f6cb67bfb2272cc
+ms.openlocfilehash: 6c0347a880f59a220313d5d40d3246d6857c4c80
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: sr-Latn-RS
-ms.lasthandoff: 04/27/2021
-ms.locfileid: "5950011"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "6011748"
 ---
 # <a name="define-roles"></a>Definisanje uloga
 
