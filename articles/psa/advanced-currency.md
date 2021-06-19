@@ -2,8 +2,6 @@
 title: Scenariji sa više valuta (verzija 3.x)
 description: Ova tema pruža informacije o scenarijima sa više valuta.
 author: rumant
-manager: kfend
-ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 12/26/2018
@@ -18,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 33e44297dc80801c3e4416cd9fc3bedae5f3c4ba
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 70f27d29c74a82f0307bd0724347960e5755e3a8
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: sr-Latn-RS
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5291726"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "6014808"
 ---
 # <a name="multiple-currency-scenarios"></a>Scenariji sa više valuta
 
@@ -36,7 +34,7 @@ Microsoft Dynamics 365 ima dva koncepta valute:
 - **Valuta transakcije** - Valuta u kojoj se događa transakcija. 
 - **Osnovna valuta** - Valuta Dynamics 365 instance. Ova valuta se podešava posle obezbeđivanja Dynamics 365 instance. Ne može da se promeni.
 
-Na primer, Contoso US je prodao 100 majici klijentu u Velikoj Britaniji za po 15 funti (GBP). Sledeća tabela prikazuje kako se ova transakcija beleži u entitetu proizvoda porudžbine.
+Na primer, Contoso US je prodao 100 majica klijentu u Velikoj Britaniji po ceni od 15 funti (GBP) po komadu. Sledeća tabela prikazuje kako se ova transakcija beleži u entitetu proizvoda porudžbine.
 
 | Proizvod | Količina | Cena po jedinici | Valuta | Iznos | Kurs valute | Cena po jedinici (osnovna)| Iznos (osnovni)|
 |---------|----------|----------------|----------|--------|---------------|----------------------|--------------|
@@ -68,14 +66,14 @@ PSA širi koncept valute transakcije za troškove i prodaju na sledeće načine:
 
 ## <a name="multiple-currency-scenario"></a>Scenario sa više valuta
 
-Ovaj odeljak opisuje primer projekta koji Contoso UK isporučuje klijentu Fabrikam iz Japana. Evo kako je podešen scenario:
+Ovaj odeljak opisuje primer projekta u kojem Contoso UK isporučuje klijentu Fabrikam iz Japana. Evo kako je podešen scenario:
 
 1. GBP i japanski jen (JPY) su podešeni u delu **Podešavanja** \> **Upravljanje poslovanjem** \> **Valute**. 
 2. Poslovni kontakt klijenta pod nazivom **Fabrikam - Japan** se podešava i JPY se bira kao valuta poslovnog kontakta.
-3. Organizaciona jedinica koja se zove **Contoso UK** se podešava i GBP se bira kao valuta.
-4. Kreira se projektni ugovor, gde se **Contoso UK** navodi kao ugovorna jedinica, a **Fabrikam - Japan** kao klijent.
+3. Podešava se organizaciona jedinica koja se zove **Contoso UK** i GBP se bira kao valuta.
+4. Kreira se projektni ugovor, gde se **Contoso UK** navodi kao ugovorna jedinica, a **Fabrikam – Japan** se navodi kao klijent.
 5. Predmet ugovora o projektu se kreiraju na osnovu aranžmana naplate za različite klase transakcija na projektu, kao što su naplata vremena u odnosu na naplatu troškova.
-6. Projekat se kreira, a **Contoso UK** se navodi kao ugovorna jedinica. Ovaj projekat je kreiran i mapiran u predmetu ugovora za projekat.
+6. Kreira se projekat u kojem se **Contoso UK** navodi kao ugovorna jedinica. Ovaj projekat je kreiran i mapiran u predmetu ugovora za projekat.
 
 
 Tokom procene koja koristi detalj stavke ponude, detalj predmeta ugovora za projekat ili stavku procene rasporeda, u entitetu se uvek kreiraju dva zapisa. Jedan zapis je za troškove, a drugi za prodaju.
