@@ -2,8 +2,6 @@
 title: Napredno davanje ponuda, formiranje cena i obračun
 description: Ova tema pruža informacije o davanju ponuda, naplati i formiranju cena u rešenju Project Service Automation.
 author: kfend
-manager: kfend
-ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 2/14/2019
@@ -18,40 +16,40 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: c4674aba1d152289c78a202f9da1f710e28f9960
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: b7046a15e17953d6f39a792ab907cbac4a2cf027
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: sr-Latn-RS
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5275240"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "6015213"
 ---
-# <a name="advanced-quoting-pricing-and-billing-guide"></a><span data-ttu-id="1fa9a-103">Napredni vodič za davanje ponuda, formiranje cena i obračun</span><span class="sxs-lookup"><span data-stu-id="1fa9a-103">Advanced quoting, pricing, and billing guide</span></span>
+# <a name="advanced-quoting-pricing-and-billing-guide"></a><span data-ttu-id="9b49e-103">Napredni vodič za davanje ponuda, formiranje cena i obračun</span><span class="sxs-lookup"><span data-stu-id="9b49e-103">Advanced quoting, pricing, and billing guide</span></span>
 
 [!include [banner](../../includes/psa-now-project-operations.md)]
 
 [!INCLUDE[cc-applies-to-psa-app-3.x](../../includes/cc-applies-to-psa-app-3x.md)]
 
-<span data-ttu-id="1fa9a-104">Sposobnost pronalaženja pravih resursa u pravo vreme, rezervisanje tih resursa za projekte i njihovo redovno korišćenje pomaže organizacijama da ispune ciljeve u pogledu prihoda i zadovoljstva klijenata.</span><span class="sxs-lookup"><span data-stu-id="1fa9a-104">The ability to find the right resources at the right time, book those resources on projects, and keep resources utilized helps organizations meet revenue targets and customer satisfaction goals.</span></span> 
+<span data-ttu-id="9b49e-104">Sposobnost pronalaženja pravih resursa u pravo vreme, rezervisanje tih resursa za projekte i njihovo redovno korišćenje pomaže organizacijama da ispune ciljeve u pogledu prihoda i zadovoljstva klijenata.</span><span class="sxs-lookup"><span data-stu-id="9b49e-104">The ability to find the right resources at the right time, book those resources on projects, and keep resources utilized helps organizations meet revenue targets and customer satisfaction goals.</span></span> 
 
-<span data-ttu-id="1fa9a-105">PDF veza koja je prethodno bila u ovoj temi uklonjena je, a sadržaj je premešten u sledeće teme:</span><span class="sxs-lookup"><span data-stu-id="1fa9a-105">The PDF link that was previously in this topic has been removed and the content has been moved to the following topics:</span></span>
+<span data-ttu-id="9b49e-105">PDF veza koja je prethodno bila u ovoj temi uklonjena je, a sadržaj je premešten u sledeće teme:</span><span class="sxs-lookup"><span data-stu-id="9b49e-105">The PDF link that was previously in this topic has been removed and the content has been moved to the following topics:</span></span>
 
-- [<span data-ttu-id="1fa9a-106">Davanje ponuda, formiranje cena i naplata</span><span class="sxs-lookup"><span data-stu-id="1fa9a-106">Quoting, pricing, and billing</span></span>](../quote-bill-price.md)
-- [<span data-ttu-id="1fa9a-107">Procesi prodaje</span><span class="sxs-lookup"><span data-stu-id="1fa9a-107">Sales processes</span></span>](../basic-sales-process.md)
-- [<span data-ttu-id="1fa9a-108">Ponude i stavke ponuda</span><span class="sxs-lookup"><span data-stu-id="1fa9a-108">Quotes and quote lines</span></span>](../basic-quote-lines.md)
-- [<span data-ttu-id="1fa9a-109">Stavke ponuda zasnovane na proizvodu</span><span class="sxs-lookup"><span data-stu-id="1fa9a-109">Product-based quote lines</span></span>](../product-based-quote-lines.md)
-- [<span data-ttu-id="1fa9a-110">Određivanje cena</span><span class="sxs-lookup"><span data-stu-id="1fa9a-110">Pricing</span></span>](../basic-pricing.md)
-- [<span data-ttu-id="1fa9a-111">Formiranje cena za katalog proizvoda</span><span class="sxs-lookup"><span data-stu-id="1fa9a-111">Product catalog pricing</span></span>](../product-catalog-pricing.md)
-- [<span data-ttu-id="1fa9a-112">Poslovne transakcije</span><span class="sxs-lookup"><span data-stu-id="1fa9a-112">Business transactions</span></span>](../basic-business-transactions.md)
-- [<span data-ttu-id="1fa9a-113">Procene</span><span class="sxs-lookup"><span data-stu-id="1fa9a-113">Estimates</span></span>](../estimates.md)
-- [<span data-ttu-id="1fa9a-114">Stvarne vrednosti</span><span class="sxs-lookup"><span data-stu-id="1fa9a-114">Actuals</span></span>](../actuals.md)
-- [<span data-ttu-id="1fa9a-115">Analiza ponuda za projekat</span><span class="sxs-lookup"><span data-stu-id="1fa9a-115">Analyzing project quotes</span></span>](../basic-analyzing-quotes.md)
-- [<span data-ttu-id="1fa9a-116">Organizacione jedinice</span><span class="sxs-lookup"><span data-stu-id="1fa9a-116">Organizational units</span></span>](../advanced-organizational.md)
-- [<span data-ttu-id="1fa9a-117">Grupe jedinica i jedinice</span><span class="sxs-lookup"><span data-stu-id="1fa9a-117">Unit groups and units</span></span>](../advanced-units.md)
-- [<span data-ttu-id="1fa9a-118">Scenariji u više valuta</span><span class="sxs-lookup"><span data-stu-id="1fa9a-118">Multi-currency scenarios</span></span>](../advanced-currency.md)
-- [<span data-ttu-id="1fa9a-119">Evidentiranje stvarnih vrednosti</span><span class="sxs-lookup"><span data-stu-id="1fa9a-119">Recording actuals</span></span>](../advanced-actuals.md)
+- [<span data-ttu-id="9b49e-106">Davanje ponuda, formiranje cena i naplata</span><span class="sxs-lookup"><span data-stu-id="9b49e-106">Quoting, pricing, and billing</span></span>](../quote-bill-price.md)
+- [<span data-ttu-id="9b49e-107">Procesi prodaje</span><span class="sxs-lookup"><span data-stu-id="9b49e-107">Sales processes</span></span>](../basic-sales-process.md)
+- [<span data-ttu-id="9b49e-108">Ponude i stavke ponuda</span><span class="sxs-lookup"><span data-stu-id="9b49e-108">Quotes and quote lines</span></span>](../basic-quote-lines.md)
+- [<span data-ttu-id="9b49e-109">Stavke ponuda zasnovane na proizvodu</span><span class="sxs-lookup"><span data-stu-id="9b49e-109">Product-based quote lines</span></span>](../product-based-quote-lines.md)
+- [<span data-ttu-id="9b49e-110">Određivanje cena</span><span class="sxs-lookup"><span data-stu-id="9b49e-110">Pricing</span></span>](../basic-pricing.md)
+- [<span data-ttu-id="9b49e-111">Formiranje cena za katalog proizvoda</span><span class="sxs-lookup"><span data-stu-id="9b49e-111">Product catalog pricing</span></span>](../product-catalog-pricing.md)
+- [<span data-ttu-id="9b49e-112">Poslovne transakcije</span><span class="sxs-lookup"><span data-stu-id="9b49e-112">Business transactions</span></span>](../basic-business-transactions.md)
+- [<span data-ttu-id="9b49e-113">Procene</span><span class="sxs-lookup"><span data-stu-id="9b49e-113">Estimates</span></span>](../estimates.md)
+- [<span data-ttu-id="9b49e-114">Stvarne vrednosti</span><span class="sxs-lookup"><span data-stu-id="9b49e-114">Actuals</span></span>](../actuals.md)
+- [<span data-ttu-id="9b49e-115">Analiza ponuda za projekat</span><span class="sxs-lookup"><span data-stu-id="9b49e-115">Analyzing project quotes</span></span>](../basic-analyzing-quotes.md)
+- [<span data-ttu-id="9b49e-116">Organizacione jedinice</span><span class="sxs-lookup"><span data-stu-id="9b49e-116">Organizational units</span></span>](../advanced-organizational.md)
+- [<span data-ttu-id="9b49e-117">Grupe jedinica i jedinice</span><span class="sxs-lookup"><span data-stu-id="9b49e-117">Unit groups and units</span></span>](../advanced-units.md)
+- [<span data-ttu-id="9b49e-118">Scenariji u više valuta</span><span class="sxs-lookup"><span data-stu-id="9b49e-118">Multi-currency scenarios</span></span>](../advanced-currency.md)
+- [<span data-ttu-id="9b49e-119">Evidentiranje stvarnih vrednosti</span><span class="sxs-lookup"><span data-stu-id="9b49e-119">Recording actuals</span></span>](../advanced-actuals.md)
 
 > [!NOTE]
-> <span data-ttu-id="1fa9a-120">Ova tema biće uklonjena u budućoj ispravci dokumentacije.</span><span class="sxs-lookup"><span data-stu-id="1fa9a-120">This topic will be removed in a future documentation update.</span></span> 
+> <span data-ttu-id="9b49e-120">Ova tema biće uklonjena u budućoj ispravci dokumentacije.</span><span class="sxs-lookup"><span data-stu-id="9b49e-120">This topic will be removed in a future documentation update.</span></span> 
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

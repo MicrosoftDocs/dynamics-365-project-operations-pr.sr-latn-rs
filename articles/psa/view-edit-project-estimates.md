@@ -2,8 +2,6 @@
 title: Prikaz i uređivanje procena projekta
 description: Kako da prikujete i uređujete procena projekta u aplikaciji Project Service
 author: rumant
-manager: kfend
-ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 8/03/2018
@@ -18,33 +16,33 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 79e72a3678ac2292cd61653dc1d44ea61bd7e2e6
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 96eec162ecbc3e40a923d00cb6377feebc02b3c7
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: sr-Latn-RS
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5281450"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "6015528"
 ---
-# <a name="view-and-edit-project-estimates-project-service"></a><span data-ttu-id="1ba38-103">Prikazivanje i uređivanje procena projekta (Project Service)</span><span class="sxs-lookup"><span data-stu-id="1ba38-103">View and edit project estimates (Project Service)</span></span>
+# <a name="view-and-edit-project-estimates-project-service"></a><span data-ttu-id="07a13-103">Prikazivanje i uređivanje procena projekta (Project Service)</span><span class="sxs-lookup"><span data-stu-id="07a13-103">View and edit project estimates (Project Service)</span></span>
 
 [!include [banner](../includes/psa-now-project-operations.md)]
 
 [!INCLUDE[cc-applies-to-psa-app-1x-2x](../includes/cc-applies-to-psa-app-1x-2x.md)]
 
-<span data-ttu-id="1ba38-104">Uz mogućnosti [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)] u sistemu [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)], možete da prikažete procene za projekat, uključujući procene troška, prodaje ili truda.</span><span class="sxs-lookup"><span data-stu-id="1ba38-104">With the [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)] capabilities in [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)], you can view estimates for a project, including estimates by cost, sales, or effort.</span></span>  
+<span data-ttu-id="07a13-104">Uz mogućnosti [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)] u sistemu [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)], možete da prikažete procene za projekat, uključujući procene troška, prodaje ili truda.</span><span class="sxs-lookup"><span data-stu-id="07a13-104">With the [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)] capabilities in [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)], you can view estimates for a project, including estimates by cost, sales, or effort.</span></span>  
   
-1.  <span data-ttu-id="1ba38-105">Idite na **Project Service > Projekti**.</span><span class="sxs-lookup"><span data-stu-id="1ba38-105">Go to **Project Service > Projects**.</span></span>  
+1.  <span data-ttu-id="07a13-105">Idite na **Project Service > Projekti**.</span><span class="sxs-lookup"><span data-stu-id="07a13-105">Go to **Project Service > Projects**.</span></span>  
   
-2.  <span data-ttu-id="1ba38-106">Kliknite na projekat na kome želite da radite.</span><span class="sxs-lookup"><span data-stu-id="1ba38-106">Click the project you want to work on.</span></span>  
+2.  <span data-ttu-id="07a13-106">Kliknite na projekat na kome želite da radite.</span><span class="sxs-lookup"><span data-stu-id="07a13-106">Click the project you want to work on.</span></span>  
   
-3.  <span data-ttu-id="1ba38-107">Na traci u vrhu ekrana izaberite strelicu nadole pored naziva projekta, a zatim kliknite na **Procene projekta**.</span><span class="sxs-lookup"><span data-stu-id="1ba38-107">In the bar across the top of the screen, select the down arrow next to the project name, and then click **Project Estimates**.</span></span>  
+3.  <span data-ttu-id="07a13-107">Na traci u vrhu ekrana izaberite strelicu nadole pored naziva projekta, a zatim kliknite na **Procene projekta**.</span><span class="sxs-lookup"><span data-stu-id="07a13-107">In the bar across the top of the screen, select the down arrow next to the project name, and then click **Project Estimates**.</span></span>  
   
-4.  <span data-ttu-id="1ba38-108">U okviru opcije **Vremenska faza po** izaberite **Napor**, **Trošak** ili **Prodaja** da biste promenili procene projekta koje će se prikazivati.</span><span class="sxs-lookup"><span data-stu-id="1ba38-108">In **Time-phase By**, select **Effort**, **Cost**, or **Sales** to change which project estimates to display.</span></span>  
+4.  <span data-ttu-id="07a13-108">U okviru opcije **Vremenska faza po** izaberite **Napor**, **Trošak** ili **Prodaja** da biste promenili procene projekta koje će se prikazivati.</span><span class="sxs-lookup"><span data-stu-id="07a13-108">In **Time-phase By**, select **Effort**, **Cost**, or **Sales** to change which project estimates to display.</span></span>  
   
-5.  <span data-ttu-id="1ba38-109">Za dodavanje ili brisanje troškova, kliknite na dugme **Prikaži koordinatnu mrežu**.</span><span class="sxs-lookup"><span data-stu-id="1ba38-109">To add or delete expenses, click **Show Grid View**.</span></span> <span data-ttu-id="1ba38-110">Da biste kreirali novi trošak, kliknite na dugme **Novi trošak**.</span><span class="sxs-lookup"><span data-stu-id="1ba38-110">To create a new expense, click **New Expense**.</span></span> <span data-ttu-id="1ba38-111">Da biste izbrisali trošak, izaberite ga na listi, a zatim izaberite **Obriši trošak**.</span><span class="sxs-lookup"><span data-stu-id="1ba38-111">To delete an expense, select it from the list, and then click **Delete Expense**.</span></span> <span data-ttu-id="1ba38-112">Kada završite sa dodavanjem ili brisanjem troškova, izaberite stavku **Sačuvaj**.</span><span class="sxs-lookup"><span data-stu-id="1ba38-112">When you’re done adding or deleting expenses, click **Save**.</span></span>  
+5.  <span data-ttu-id="07a13-109">Za dodavanje ili brisanje troškova, kliknite na dugme **Prikaži koordinatnu mrežu**.</span><span class="sxs-lookup"><span data-stu-id="07a13-109">To add or delete expenses, click **Show Grid View**.</span></span> <span data-ttu-id="07a13-110">Da biste kreirali novi trošak, kliknite na dugme **Novi trošak**.</span><span class="sxs-lookup"><span data-stu-id="07a13-110">To create a new expense, click **New Expense**.</span></span> <span data-ttu-id="07a13-111">Da biste izbrisali trošak, izaberite ga na listi, a zatim izaberite **Obriši trošak**.</span><span class="sxs-lookup"><span data-stu-id="07a13-111">To delete an expense, select it from the list, and then click **Delete Expense**.</span></span> <span data-ttu-id="07a13-112">Kada završite sa dodavanjem ili brisanjem troškova, izaberite stavku **Sačuvaj**.</span><span class="sxs-lookup"><span data-stu-id="07a13-112">When you’re done adding or deleting expenses, click **Save**.</span></span>  
   
-### <a name="see-also"></a><span data-ttu-id="1ba38-113">Takođe pogledajte</span><span class="sxs-lookup"><span data-stu-id="1ba38-113">See Also</span></span>  
- [<span data-ttu-id="1ba38-114">Vodič za menadžera projekta</span><span class="sxs-lookup"><span data-stu-id="1ba38-114">Project Manager Guide</span></span>](../psa/project-manager-guide.md)
+### <a name="see-also"></a><span data-ttu-id="07a13-113">Takođe pogledajte</span><span class="sxs-lookup"><span data-stu-id="07a13-113">See Also</span></span>  
+ [<span data-ttu-id="07a13-114">Vodič za menadžera projekta</span><span class="sxs-lookup"><span data-stu-id="07a13-114">Project Manager Guide</span></span>](../psa/project-manager-guide.md)
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
