@@ -7,12 +7,12 @@ ms.topic: article
 ms.prod: ''
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: d19148c868aa5be77db59e70fcf1fb8b7de6868c
-ms.sourcegitcommit: 72fa1f09fe406805f7009fc68e2f3eeeb9b7d5fc
+ms.openlocfilehash: 951ce2f277c0c2c447ee5b2e7add4febbc8486d9
+ms.sourcegitcommit: 3abf1e67938d91bd826b025ae3187cd313f556b9
 ms.translationtype: HT
 ms.contentlocale: sr-Latn-RS
-ms.lasthandoff: 06/09/2021
-ms.locfileid: "6213462"
+ms.lasthandoff: 07/07/2021
+ms.locfileid: "6433580"
 ---
 # <a name="project-operations-updates"></a>Ispravke usluge Project Operations
 
@@ -28,17 +28,17 @@ Dynamics 365 Project Operations sastoji se od dve komponente:
 - Upravljanje projektima i računovodstvo u Dynamics 365 Finance okruženju pokriva mogućnosti upravljanja troškovima, računovodstvo projekata i priznavanje prihoda. Okruženje Finance and Operations aplikacije se koristi u usluzi Project Operations za scenarije zasnovane na resursima/bez zaliha i usluzi Project Operations za scenarije zasnovane na zalihama/proizvodnji.
 
 ## <a name="project-operations-release-notes"></a>Napomene uz izdanje usluge Project Operations
-- Najnovije napomene uz izdanje usluge Project Operations za [resurs/koji nisu na zalihama](whats-new-may-2021-resource-based.md).
-- Najnovije napomene uz izdanje usluge Project Operations za [jednostavnu primenu](../pro/whats-new/whats-new-may-2021-lite.md).
-- Najnovije napomene uz izdanje usluge Project Operations za [zalihe/proizvodnju](../prod-pma/whats-new/whats-new-apr-2021-stocked.md).
+- Najnovije napomene uz izdanje usluge Project Operations za [resurs/koji nisu na zalihama](whats-new-july-2021-resource-based.md).
+- Najnovije napomene uz izdanje usluge Project Operations za [jednostavnu primenu](../pro/whats-new/whats-new-july-2021-lite.md).
+- Najnovije napomene uz izdanje usluge Project Operations za [zalihe/proizvodnju](../prod-pma/whats-new/whats-new-jul-2021-stocked.md).
 
 ## <a name="project-operations-latest-version"></a>Najnovija verzija usluge Project Operations
 
 | Project Operations u Dataverse okruženju | Upravljanje projektima i računovodstvo u okruženjima Finance and Operations aplikacija | 
 | --- | --- |
-| 4.10.0.186 | 10.0.18 |
+| 4.12.0.148 | 10.0.20 |
 
-Za Project Operations scenario resursa / bez zaliha, preporučujemo upotrebu verzije orkestracije dvostrukog upisivanja verzije 2.2.2.60 ili novije.
+Za Project Operations scenario resursa / bez zaliha, preporučujemo upotrebu verzije orkestracije dvostrukog upisivanja verzije 2.2.2.83 ili novije.
 
 ## <a name="release-schedule-for-project-operations-on-dataverse-environment"></a>Raspored izdavanja za Project Operations u Dataverse okruženju
 
@@ -47,23 +47,25 @@ Ispravke za Project Operations u Dataverse okruženju dostupne su mesečno.
 | Stanica | Region | Broj trenutne verzije | Automatska ažuriranja za jednostavnu primenu | Automatska ažuriranja za primenu za resurse / bez zaliha | Broj sledeće verzije | Datum opšte dostupnosti sledeće verzije |
 |-----------|-----------------------|-----------------|--------------|---------------------|---------------------|---------------------|
 | Stanica 1 |   &nbsp;              |    &nbsp;       | &nbsp;       |      &nbsp;         |      &nbsp;         |      &nbsp;         |
-|   &nbsp;  | Prvo izdanje         |  4.10.0.186     | Dovršite     | Dovršite            | TBD                 | 28. maj 2021.           |
+|   &nbsp;  | Prvo izdanje         |  4.12.0.148     | Dovršite     | 9. jul 2021.          | TBD                 | 6. avgust 2021.        |
 | Stanica 2 |   &nbsp;              |    &nbsp;       | &nbsp;       |      &nbsp;         |      &nbsp;         |      &nbsp;         |
-|   &nbsp;  | Južna Amerika         |  4.10.0.186     | Dovršite     | Dovršite            | TBD                 | 28. maj 2021.           |
-|    &nbsp; | Kanada                |  4.10.0.186     | Dovršite     | Dovršite            | TBD                 | 28. maj 2021.           |
-|   &nbsp;  | Indija                 |  4.10.0.186     | Dovršite     | Dovršite            | TBD                 | 28. maj 2021.           |
-|   &nbsp;  | Francuska                |  4.10.0.186     | Dovršite     | Dovršite            | TBD                 | 28. maj 2021.           |
-|   &nbsp;  | Ujedinjeni Arapski Emirati  |  4.10.0.186     | Dovršite     | Dovršite            | TBD                 | 28. maj 2021.           |
-|   &nbsp;  | Južnoafrčka Republika          |  4.10.0.186     | Dovršite     | Dovršite            | TBD                 | 28. maj 2021.           |
+|   &nbsp;  | Južna Amerika         |  4.12.0.148     | 9. jul 2021.   | 16. jul 2021.          | TBD                 | 6. avgust 2021.        |
+|    &nbsp; | Kanada                |  4.12.0.148     | 9. jul 2021.   | 16. jul 2021.          | TBD                 | 6. avgust 2021.        |
+|   &nbsp;  | Indija                 |  4.12.0.148     | 9. jul 2021.   | 16. jul 2021.          | TBD                 | 6. avgust 2021.        |
+|   &nbsp;  | Francuska                |  4.12.0.148     | 9. jul 2021.   | 16. jul 2021.          | TBD                 | 6. avgust 2021.        |
+|   &nbsp;  | Ujedinjeni Arapski Emirati  |  4.12.0.148     | 9. jul 2021.   | 16. jul 2021.          | TBD                 | 6. avgust 2021.        |
+|   &nbsp;  | Južnoafrčka Republika          |  4.12.0.148     | 9. jul 2021.   | 16. jul 2021.          | TBD                 | 6. avgust 2021.        |
 | Stanica 3 |      &nbsp;           |     &nbsp;      |     &nbsp;   |      &nbsp;         |      &nbsp;         |      &nbsp;         |
-|   &nbsp;  | Japan                 |  4.10.0.186     | Dovršite     | Dovršite            | TBD                 | 4. jun 2021.          |
-|   &nbsp;  | Azija – Pacifik          |  4.10.0.186     | Dovršite     | Dovršite            | TBD                 | 4. jun 2021.          |
-|   &nbsp;  | Velika Britanija         |  4.10.0.186     | Dovršite     | Dovršite            | TBD                 | 4. jun 2021.          |
-|   &nbsp;  | Okeanija               |  4.10.0.186     | Dovršite     | Dovršite            | TBD                 | 4. jun 2021.          |
+|   &nbsp;  | Japan                 |  4.11.0.164     | Dovršite     | Dovršite            | 4.12.0.148          | 9. jul 2021.          |
+|   &nbsp;  | Azija – Pacifik          |  4.11.0.164     | Dovršite     | Dovršite            | 4.12.0.148          | 9. jul 2021.          |
+|   &nbsp;  | Velika Britanija         |  4.11.0.164     | Dovršite     | Dovršite            | 4.12.0.148          | 9. jul 2021.          |
+|   &nbsp;  | Okeanija               |  4.11.0.164     | Dovršite     | Dovršite            | 4.12.0.148          | 9. jul 2021.          |
 | Stanica 4 |     &nbsp;            |     &nbsp;      |     &nbsp;   |      &nbsp;         |      &nbsp;         |      &nbsp;         |
-|   &nbsp;  | Evropa                |  4.10.0.186     | Dovršite     | Dovršite            | TBD                 | 11. jun 2021.          |
+|   &nbsp;  | Evropa                |  4.11.0.164     | Dovršite     | Dovršite            | 4.12.0.148          | 16. jul 2021.          |
 | Stanica 5 |     &nbsp;            |     &nbsp;      |     &nbsp;   |      &nbsp;         |      &nbsp;         |      &nbsp;         |
-|   &nbsp;  | Severna Amerika         |  4.10.0.186     | Dovršite     | 11. jun 2021.          | TBD                 | 18. jun 2021.          |
+|   &nbsp;  | Severna Amerika         |  4.11.0.164     | Dovršite     | 9. jul 2021.          | 4.12.0.148          | 23. jul 2021.          |
+
+
 
 ## <a name="release-schedule-for-project-management-and-accounting-in-the-finance-and-operations-apps-environment"></a>Raspored izdavanja za upravljanje projektima i računovodstvo u okruženju Finance and Operations aplikacija
 
@@ -71,16 +73,16 @@ Ispravke za upravljanje projektima i računovodstvo objavljuju se osam puta godi
 
 |          Podržana verzija          | Dostupnosti verzije za pregled (PEAP) | Opšte dostupno (samo-ažuriranje) | Datum početka proizvodnje automatskih ispravki (putem podešavanja ažuriranja LCS) |   Kraj perioda korišćenja   |
 |:-------------------------:|:---------------------------:|:---------------------------------:|:--------------------------------------------------------------------:|:------------------:|
+|          10.0.19          |        23. april 2021.       |            18. jun 2021.           |                             2. jul 2021.                             | 17. septembar 2021. |
 |          10.0.18          |        5. mart 2021.        |           16. april 2021.          |                            30. april 2021.                            |    16. jul 2021.   |
-|          10.0.17          |       1. februar 2021.      |           19. mart 2021.          |                             2. april 2021.                            |    11. jun 2021.   |
+
 
 Ciljani datumi izdavanja se mogu promeniti. Više informacija potražite u članku [Dostupnost ispravke usluge](/dynamics365/fin-ops-core/fin-ops/get-started/public-preview-releases?toc=%2fdynamics365%2ffinance%2ftoc.json).
 
 |          Ciljana verzija          | Dostupnosti verzije za pregled (PEAP) | Opšte dostupno (samo-ažuriranje) | Datum početka proizvodnje automatskih ispravki (putem podešavanja ažuriranja LCS) |   Kraj perioda korišćenja   |
 |:-------------------------:|:---------------------------:|:---------------------------------:|:--------------------------------------------------------------------:|:------------------:|
-|          10.0.19          |        23. april 2021.       |            18. jun 2021.           |                             2. jul 2021.                             | 17. septembar 2021. |
 |          10.0.20          |         28. maj 2021.        |           16. jul 2021.           |                             30. jul 2021.                             |  22. oktobar 2021.  |
-
+|          10.0.21          |         02. avgust 2021.     |           17. septembar 2021.      |                             1. oktobar 2021.                           |  10. decembar 2021.  |
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

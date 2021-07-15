@@ -2,7 +2,7 @@
 title: Ponovno osmišljeni izveštaji o troškovima
 description: Ova tema objašnjava redizajnirano i prerađeno iskustvo za unos izveštaja o troškovima.
 author: suvaidya
-ms.date: 03/26/2021
+ms.date: 06/14/2021
 ms.topic: article
 ms.prod: ''
 ms.search.form: ''
@@ -13,12 +13,12 @@ ms.search.region: ''
 ms.author: suvaidya
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 76073d5c58398b2c296fdca05ba7bdf7f01951bb
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: f8c44f86ff7c00e2d5b927bbe6878be7ab6d7758
+ms.sourcegitcommit: e93f436afbb92a312fc71b6371866f01927e49d5
 ms.translationtype: HT
 ms.contentlocale: sr-Latn-RS
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "5995368"
+ms.lasthandoff: 06/14/2021
+ms.locfileid: "6251021"
 ---
 # <a name="expense-reports-reimagined"></a>Ponovno osmišljeni izveštaji o troškovima
 
@@ -26,13 +26,13 @@ Unos izveštaja o troškovima redizajniran je kako bi se pojednostavio postupak 
 
 - Novi radni prostor za upravljanje troškovima koji vam omogućava pristup troškovima vašeg delegata.
 - Novo iskustvo podudaranja priznanica kako bi se bolje prikazale priznanice na nivou zaglavlja i pojednostavio postupak povezivanja računa sa stavkama troškova.
-- Nova mreža samo za čitanje koja vam omogućava da vidite mnogo više stavki troškova i dodatne kolone podataka. Sada možete videti sve razdvojene i podeljene stavke, zajedno sa nadređenim troškovima.
+- Nova mreža samo za čitanje koja vam omogućava da vidite mnogo više stavki troškova i drugih kolona podataka. Sada možete videti sve razdvojene i podeljene stavke, zajedno sa nadređenim troškovima.
 - Pojednostavljeno okno za uređivanje troškova.
 - Redizajnirane poruke o greškama, upozorenjima i smernicama kako bi se obezbedio tačan kontekst i razumevanje problema i kako se to može rešiti. Uklonili smo nekoliko poruka koje su se pojavljivale pre nego što su korisnici mogli da izvrše svoje zadatke i reše probleme.
 - Nova stranica za navođenje obaveznih polja, opcionalnih polja i polja koja ne bi trebalo da budu uključena. Ova stranica pomaže u smanjenju broja polja koja se moraju postaviti.
 - Novi izgled i utisak za izveštaje o troškovima, tako da izveštaji više ne izgledaju kao da su dizajnirani za računovođe.
 
-Da biste uključili novo iskustvo, koristite radni prostor **Upravljanje funkcijama** da biste uključili funkciju **Ponovno osmišljeni izveštaji o troškovima**. Kada uključite ovu funkciju, dešavaju se sledeće radnje:
+Da biste uključili novo iskustvo, koristite radni prostor **Upravljanje funkcijama** da biste uključili funkciju **Ponovo osmišljeni radni prostor za izveštaje o troškovima**. Kada uključite ovu funkciju, dešavaju se sledeće radnje:
 
 - Postojeći radni prostor za troškove se zamenjuje novim radnim prostorom.
 - Dodata je nova stavka menija za vidljivost polja troškova.
@@ -45,7 +45,7 @@ Da biste uključili novo iskustvo, koristite radni prostor **Upravljanje funkcij
 
 | Nova funkcija | Opis |
 |---|----|
-| Vidljivost polja troškova | Nova stranica za podešavanje omogućava vam da odredite koja polja treba da budu onemogućena za organizaciju, koja polja treba da budu obavezna i koja se polja preporučuju. |
+| Vidljivost polja troškova | Nova stranica za podešavanje omogućava vam da odredite koja polja treba da budu onemogućena za organizaciju. Takođe možete odrediti koja polja treba da budu obavezna, a koja se preporučuju. |
 | Obavezna polja | Nova jednostavna konfiguracija omogućava vam da napravite neka polja obavezna bez upotrebe okvira smernica. |
 | Opcionalna polja | Dodata je druga stranica za opcionalna polja. Na taj način se zaposleni neće osećati kao da moraju da postave polja, ali polja su i dalje lako dostupna. |
 | Dodajte nepriložene priznanice | Mogućnost dodavanja nepriloženih priznanica u izveštaj o troškovima vidljivija je iz radnog prostora i u izveštaju o troškovima. |
@@ -57,13 +57,14 @@ Da biste uključili novo iskustvo, koristite radni prostor **Upravljanje funkcij
 | Kalkulator deviznih kurseva | Dodat je kalkulator deviznih kurseva koji vam omogućava izračunavanje deviznog kursa za viševalutne transakcije iz svog džepa. |
 | Sačuvajte i dodajte nove stavke troškova | Dugmad **Sačuvaj** i **Novo** su dostupna kada se unose novi troškovi, što vam pomaže da brzo unesete stavke troškova. |
 | Bolja vidljivost na podeljene i razvrstane stavke | Razvrstane i podeljene stavke dodaju se direktno na listu troškova radi veće vidljivosti i pomoći će vam da lako utvrdite da li postoje greške. |
+| Pogledajte detalje o podkategorijama u detaljnim stavkama | Detaljne stavke nadređenog troška prikazuju oznake potkategorija u izveštaju o troškovima, što vam pomaže da brzo pregledate granularne detalje.|
 | Prikažite priznanice tokom razvrstavanja | Možete prikazivati priznanice tokom razvrstavanja. |
 | Izbor gotovinskog avansa | Izaberite jedan ili više gotovinskih avansa za ispunjavanje jedne transakcije troškova. |
 | Bilans gotovinskog avansa | Pregledajte bilans gotovinskog avansa u realnom vremenu kada kreirate unos troškova u odnosu na odobrene i plaćene gotovinske avanse. |
 
 Početno izdanje se fokusira na scenarije unosa troškova. Svaki prikaz izveštaja o troškovima ili scenario odobravanja i dalje će koristiti postojeću stranicu za unos troškova.
 
-Sledeće funkcije nisu podržane u prerađenom radnom prostoru troškova:
+Sledeće funkcije nisu podržane u ponovo osmišljenom radnom prostoru za izveštaje o troškovima, ali su planirane za buduća izdanja: 
 
 - Integracija zahteva za putovanje
 - Unos troškova dnevnice

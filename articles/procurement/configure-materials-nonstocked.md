@@ -2,17 +2,17 @@
 title: Konfigurišite materijale koji nisu na zalihama i fakture dobavljača na čekanju
 description: Ova tema objašnjava kako da omogućite materijale koji nisu na zalihama i fakture dobavljača na čekanju.
 author: sigitac
-ms.date: 04/12/2021
+ms.date: 06/22/2021
 ms.topic: article
 ms.prod: ''
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 24418f3aad8356bd209eef7487a47a3870bce10f
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: 41191384c688c3b77d08a0e7990ddf0d9a48545c
+ms.sourcegitcommit: 2f16c2bc7c8350676a6a380c61fffa9958db6a0b
 ms.translationtype: HT
 ms.contentlocale: sr-Latn-RS
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "5993928"
+ms.lasthandoff: 06/22/2021
+ms.locfileid: "6293064"
 ---
 # <a name="configure-non-stocked-materials-and-pending-vendor-invoices"></a>Konfigurišite materijale koji nisu na zalihama i fakture dobavljača na čekanju
 
@@ -59,11 +59,11 @@ Ako koristite standardne demo podatke, možda ćete takođe morati da zaustavite
 
 ### <a name="activate-workflow-to-create-accounts-based-on-vendor-entity"></a>Aktivirajte tok posla da biste kreirali naloge na osnovu entiteta dobavljača
 
-Rešenje za orkestraciju dvostrukog upisivanja pruža [dobavljačima glavnu integraciju](/dynamics365/fin-ops-core/dev-itpro/data-entities/dual-write/vendor-mapping.md). Kao preduslov za ovu funkciju, podaci dobavljača moraju se kreirati u entitetu **Nalozi**. Aktivirajte proces toka posla šablona da biste kreirali dobavljače u tabeli **Nalozi** kako je opisano u [Prebacujte se između dizajna dobavljača](/dynamics365/fin-ops-core/dev-itpro/data-entities/dual-write/vendor-switch.md#use-the-extended-vendor-design-for-vendors-of-the-organization-type).
+Rešenje za orkestraciju dvostrukog upisivanja pruža [dobavljačima glavnu integraciju](/dynamics365/fin-ops-core/dev-itpro/data-entities/dual-write/vendor-mapping). Kao preduslov za ovu funkciju, podaci dobavljača moraju se kreirati u entitetu **Nalozi**. Aktivirajte proces toka posla šablona da biste kreirali dobavljače u tabeli **Nalozi** kako je opisano u [Prebacujte se između dizajna dobavljača](/dynamics365/fin-ops-core/dev-itpro/data-entities/dual-write/vendor-switch).
 
 ### <a name="set-products-to-be-created-as-active"></a>Podesite proizvode koji će se kreirati kao aktivni
 
-Materijali van zaliha moraju biti konfigurisani kao **Objavljeni proizvodi** u Finance. Rešenje za orkestraciju dvostrukog upisivanja pruža gotovu [Katalog proizvoda integracija objavljenih proizvoda u Dataverse](/dynamics365/fin-ops-core/dev-itpro/data-entities/dual-write/product-mapping.md). Podrazumevano se proizvodi iz Finance sinhronizuju sa Dataverse u statusu radne verzije. Da biste sinhronizovali proizvod u aktivno stanje, tako da se može direktno koristiti u dokumentima o upotrebi materijala ili na fakturama dobavljača na čekanju, idite na **Sistem** > **Administracija** > **Administracija sistema** > **Podešavanja sistema** i na kartici **Prodaja** podesite **Kreirajte proizvode u aktivnom stanju** na **Da**.
+Materijali van zaliha moraju biti konfigurisani kao **Objavljeni proizvodi** u Finance. Rešenje za orkestraciju dvostrukog upisivanja pruža gotovu [Katalog proizvoda integracija objavljenih proizvoda u Dataverse](/dynamics365/fin-ops-core/dev-itpro/data-entities/dual-write/product-mapping). Podrazumevano se proizvodi iz Finance sinhronizuju sa Dataverse u statusu radne verzije. Da biste sinhronizovali proizvod u aktivno stanje, tako da se može direktno koristiti u dokumentima o upotrebi materijala ili na fakturama dobavljača na čekanju, idite na **Sistem** > **Administracija** > **Administracija sistema** > **Podešavanja sistema** i na kartici **Prodaja** podesite **Kreirajte proizvode u aktivnom stanju** na **Da**.
 
 ## <a name="configure-prerequisites-in-finance"></a>Konfigurišite preduslove u Finance
 
@@ -88,7 +88,7 @@ U Project Operations možete da zabeležite procene i upotrebu materijala za kat
 2. U polju **Vrsta proizvoda** izaberite **Stavka** i u polju **Podtip proizvoda** izaberite **Proizvod**.
 3. Unesite broj proizvoda (WRITEIN) i naziv proizvoda (ručno dodat proizvod).
 4. Izaberite grupu modela stavki. Uverite se da izabrana grupa modela stavki ima polje **Politika zaliha Proizvod na zalihama** postavljeno na **Netačno**.
-5. Izaberite vrednosti u poljima **Grupa predmeta**, **Grupa dimenzija skladišta** i **Grupa dimenzija praćenja**. Koristite **Dimenzija skladišta** samo za **Lokacija** i ne postavljajte nikakve dimenzije praćenja.
+5. Izaberite vrednosti u poljima **Grupa predmeta**, **Grupa dimenzija skladišta** i **Grupa dimenzija praćenja**. Koristite **Dimenziju skladišta** samo za **Lokaciju**, a u polju **Dimenzije za praćenje** izaberite **Nijedna**.
 6. Izaberite vrednosti u poljima **Jedinica zaliha**, **Jedinica kupovine** i **Jedinica prodaje**, a zatim sačuvajte promene.
 7. Na kartici **Plan**, postavite podrazumevane postavke redosleda i na kartici **Inventar** postavite podrazumevanu lokaciju i skladište.
 8. Idite u **Upravljanje projektima i računovodstvo** > **Podešavanje** > **Parametri upravljanja projektom i računovodstveni parametri** i otvorite **Project Operations u usluzi Dynamics 365 Dataverse**. 
