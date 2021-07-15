@@ -1,0 +1,65 @@
+---
+title: Ručno raspoređivanje Project Operations Dataverse aplikacije sa podrškom za dvostruko upisivanje
+description: Ova tema objašnjava kako da ručno primenite Project Operations Dataverse aplikaciju tako da podržava dvostruko upisivanje.
+author: stsporen
+ms.date: 06/18/2021
+ms.topic: article
+ms.reviewer: kfend
+ms.author: stsporen
+ms.openlocfilehash: 2ad147da542fc9e7a2705da7a834d1a6512907e5
+ms.sourcegitcommit: 205a94ab4168de25b102f31d00a691c8205ba63e
+ms.translationtype: HT
+ms.contentlocale: sr-Latn-RS
+ms.lasthandoff: 06/18/2021
+ms.locfileid: "6274025"
+---
+# <a name="manually-deploy-the-project-operations-dataverse-app-with-dual-write-support"></a><span data-ttu-id="91d5a-103">Ručno raspoređivanje Project Operations Dataverse aplikacije sa podrškom za dvostruko upisivanje</span><span class="sxs-lookup"><span data-stu-id="91d5a-103">Manually deploy the Project Operations Dataverse app with dual-write support</span></span>
+
+<span data-ttu-id="91d5a-104">_**Odnosi se na:** Project Operations za scenarije zasnovane na resursima / bez zaliha_</span><span class="sxs-lookup"><span data-stu-id="91d5a-104">_**Applies To:** Project Operations for resource/non-stocked based scenarios_</span></span>
+
+<span data-ttu-id="91d5a-105">Ova tema objašnjava kako da ručno primenite aplikaciju Microsoft Dynamics 365 Project Operations na platformi Microsoft Dataverse tako da podržava dvostruko upisivanje.</span><span class="sxs-lookup"><span data-stu-id="91d5a-105">This topic explains how to manually deploy Microsoft Dynamics 365 Project Operations in Microsoft Dataverse so that it supports dual-write.</span></span> <span data-ttu-id="91d5a-106">Project Operations otkriva konfiguraciju okruženja i dodaje dodatnu podršku za dvostruko upisivanje ako su ispunjeni preduslovi.</span><span class="sxs-lookup"><span data-stu-id="91d5a-106">Project Operations detects the environment's configuration and adds additional support for dual-write if the prerequisites are met.</span></span>
+
+<span data-ttu-id="91d5a-107">Tokom primene preko usluge Microsoft Dynamics Lifecycle Services (LCS), ako ste sledili uputstva u ovoj temi, možete preskočiti primenu Microsoft Power Platform integracije (ranije poznate kao Common Data Service okruženje).</span><span class="sxs-lookup"><span data-stu-id="91d5a-107">During deployment through Microsoft Dynamics Lifecycle Services (LCS), if you've followed the instructions in this topic, you can skip the deployment of the Microsoft Power Platform integration (previously known as the Common Data Service environment).</span></span>
+
+<span data-ttu-id="91d5a-108">Proces primene usluge Project Operations na platformi Dataverse tako da podržava dvostruko upisivanje ima četiri glavna koraka:</span><span class="sxs-lookup"><span data-stu-id="91d5a-108">The process of deploying Project Operations in Dataverse so that it supports dual-write has four main steps:</span></span>
+
+1. <span data-ttu-id="91d5a-109">[Kreiranje novog okruženja na platformi Dataverse koje podržava dvostruko upisivanje](#create).</span><span class="sxs-lookup"><span data-stu-id="91d5a-109">[Create a new environment in Dataverse that supports dual-write](#create).</span></span>
+2. <span data-ttu-id="91d5a-110">[Dodavanje preduslova za dvostruko upisivanje u okruženje](#prerequisites).</span><span class="sxs-lookup"><span data-stu-id="91d5a-110">[Add dual-write prerequisites to the environment](#prerequisites).</span></span>
+3. <span data-ttu-id="91d5a-111">[Dodavanje aplikacije Project Operations Dataverse](#dataverse).</span><span class="sxs-lookup"><span data-stu-id="91d5a-111">[Add the Project Operations Dataverse app](#dataverse).</span></span>
+4. <span data-ttu-id="91d5a-112">[Povezivanje okruženja](#link).</span><span class="sxs-lookup"><span data-stu-id="91d5a-112">[Link your environments](#link).</span></span>
+
+## <a name="create-a-new-environment-in-dataverse-that-supports-dual-write"></a><a name="create"></a><span data-ttu-id="91d5a-113">Kreiranje novog okruženja na platformi Dataverse koje podržava dvostruko upisivanje</span><span class="sxs-lookup"><span data-stu-id="91d5a-113">Create a new environment in Dataverse that supports dual-write</span></span>
+
+<span data-ttu-id="91d5a-114">Da biste dovršili ovu proceduru, morate se prijaviti kao administrator.</span><span class="sxs-lookup"><span data-stu-id="91d5a-114">To complete this procedure, you must sign in as an administrator.</span></span>
+
+1. <span data-ttu-id="91d5a-115">Otvorite [Power Platform centar administracije](https://admin.powerplatform.com) i prijavite se kao administrator.</span><span class="sxs-lookup"><span data-stu-id="91d5a-115">Open the [Power Platform admin center](https://admin.powerplatform.com), and sign in as an administrator.</span></span>
+2. <span data-ttu-id="91d5a-116">Kreirajte novo okruženje i imenujte ga.</span><span class="sxs-lookup"><span data-stu-id="91d5a-116">Create a new environment, and name it.</span></span>
+3. <span data-ttu-id="91d5a-117">Izaberite tip okruženja.</span><span class="sxs-lookup"><span data-stu-id="91d5a-117">Select the environment type.</span></span> <span data-ttu-id="91d5a-118">Ako ste se prijavili za ponudu probne verzije, izaberite **Probna verzija (zasnovana na pretplati)**.</span><span class="sxs-lookup"><span data-stu-id="91d5a-118">If you signed up for the trial offer, select **Trial (subscription-based)**.</span></span>
+4. <span data-ttu-id="91d5a-119">Potvrdite region primene.</span><span class="sxs-lookup"><span data-stu-id="91d5a-119">Confirm the deployment region.</span></span>
+5. <span data-ttu-id="91d5a-120">Omogućite opciju **Kreiranje baze podataka za ovo okruženje**.</span><span class="sxs-lookup"><span data-stu-id="91d5a-120">Enable the **Create a database for this environment** option.</span></span> 
+6. <span data-ttu-id="91d5a-121">Potvrdite jezik, a zatim potvrdite da se valuta podudara sa valutom za vaše Finance and Operations aplikacije.</span><span class="sxs-lookup"><span data-stu-id="91d5a-121">Confirm the language, and then confirm that the currency matches the currency for your Finance and Operations apps.</span></span>
+7. <span data-ttu-id="91d5a-122">Omogućite **Dynamics 365 aplikacije** i potvrdite da je polje **Automatski primeni ove aplikacije** podešeno na **Nijedna**.</span><span class="sxs-lookup"><span data-stu-id="91d5a-122">Enable the **Dynamics 365 apps** option, and confirm that the **Automatically deploy these apps** field is set to **None**.</span></span>
+8. <span data-ttu-id="91d5a-123">Dodajte bezbednosnu grupu ako je potrebna bezbednosna grupa.</span><span class="sxs-lookup"><span data-stu-id="91d5a-123">Add a security group, if a security group is required.</span></span>
+9. <span data-ttu-id="91d5a-124">Izaberite **Sačuvaj** da biste kreirali okruženje.</span><span class="sxs-lookup"><span data-stu-id="91d5a-124">Select **Save** to create the environment.</span></span>
+10. <span data-ttu-id="91d5a-125">Sačekajte dok se primena ne završi i okruženje ne dostigne status **Spremno**.</span><span class="sxs-lookup"><span data-stu-id="91d5a-125">Wait until the deployment is completed and the environment reaches the **Ready** state.</span></span>
+
+## <a name="add-dual-write-prerequisites-to-the-environment"></a><a name="prerequisites"></a><span data-ttu-id="91d5a-126">Dodavanje preduslova za dvostruko upisivanje u okruženje</span><span class="sxs-lookup"><span data-stu-id="91d5a-126">Add dual-write prerequisites to the environment</span></span>
+
+<span data-ttu-id="91d5a-127">Podrška za dvostruko upisivanje uključuje dodatna polja koja se dodaju ključnim entitetima, kao što je entitet **Preduzeće**.</span><span class="sxs-lookup"><span data-stu-id="91d5a-127">Dual-write support includes additional fields that are added to key entities, such as the **Company** entity.</span></span> <span data-ttu-id="91d5a-128">Ako dodajete podršku za dvostruko upisivanje u postojeće okruženje, možda ćete morati da ažurirate podatke da biste ga omogućili.</span><span class="sxs-lookup"><span data-stu-id="91d5a-128">If you're adding dual-write support to an existing environment, you might have to update the data to enable the support.</span></span> <span data-ttu-id="91d5a-129">Za informacije o načinu pokretanja podataka, pogledajte članak [Podaci za pokretanje preduzeća](/dynamics365/fin-ops-core/dev-itpro/data-entities/dual-write/bootstrap-company-data).</span><span class="sxs-lookup"><span data-stu-id="91d5a-129">For information about how to bootstrap the data, see [Bootstrap company data](/dynamics365/fin-ops-core/dev-itpro/data-entities/dual-write/bootstrap-company-data).</span></span> <span data-ttu-id="91d5a-130">Za više informacija o dvostrukom upisivanju, pogledajte članak [Sistemski zahtevi za dvostruko upisivanje](/dynamics365/fin-ops-core/dev-itpro/data-entities/dual-write/dual-write-system-req).</span><span class="sxs-lookup"><span data-stu-id="91d5a-130">For more information about dual-write, see [Dual-write system requirements](/dynamics365/fin-ops-core/dev-itpro/data-entities/dual-write/dual-write-system-req).</span></span>
+
+<span data-ttu-id="91d5a-131">Dovršite ovaj postupak da biste dodali preduslove za dvostruko upisivanje u svoje okruženje.</span><span class="sxs-lookup"><span data-stu-id="91d5a-131">Complete this procedure to add the dual-write prerequisites to your environment.</span></span>
+
+1. <span data-ttu-id="91d5a-132">Otvorite okruženje koje ste upravo kreirali, a zatim idite u **Resurs** \> **Dynamics 365 aplikacije**.</span><span class="sxs-lookup"><span data-stu-id="91d5a-132">Open the environment that you just created, and then go to **Resource** \> **Dynamics 365 apps**.</span></span>
+2. <span data-ttu-id="91d5a-133">Izaberite **Osnovno rešenje sa dvostrukim upisivanjem** na listi aplikacija i instalirajte ga.</span><span class="sxs-lookup"><span data-stu-id="91d5a-133">Select **Dual-write core solution** in the app list, and install it.</span></span>
+3. <span data-ttu-id="91d5a-134">Sačekajte dok se instalacija ne završi.</span><span class="sxs-lookup"><span data-stu-id="91d5a-134">Wait until the installation is completed.</span></span> <span data-ttu-id="91d5a-135">Zatim izaberite **Rešenje orkestracije aplikacije sa dvostrukim upisivanjem** na listi aplikacija i instalirajte ga.</span><span class="sxs-lookup"><span data-stu-id="91d5a-135">Then select **Dual-write application orchestration solution** in the app list, and install it.</span></span>
+
+## <a name="add-the-project-operations-dataverse-app"></a><a name="dataverse"></a><span data-ttu-id="91d5a-136">Dodavanje Project Operations Dataverse aplikacije</span><span class="sxs-lookup"><span data-stu-id="91d5a-136">Add the Project Operations Dataverse app</span></span>
+
+<span data-ttu-id="91d5a-137">Ovu proceduru možete dovršiti samo ako ste završili prethodne procedure pre nego što ste instalirali Project Operations.</span><span class="sxs-lookup"><span data-stu-id="91d5a-137">You can complete this procedure only if you completed the previous procedures before you installed Project Operations.</span></span> <span data-ttu-id="91d5a-138">Tokom instalacije, sistem analizira konfiguraciju okruženja i dodaje podršku za dvostruko upisivanje ako je potrebno.</span><span class="sxs-lookup"><span data-stu-id="91d5a-138">During installation, the system analyzes the environment configuration and adds support for dual-write if it's required.</span></span>
+
+1. <span data-ttu-id="91d5a-139">Otvorite okruženje koje ste ranije kreirali, a zatim idite u **Resurs** \> **Dynamics 365 aplikacije**.</span><span class="sxs-lookup"><span data-stu-id="91d5a-139">Open the environment that you created earlier, and then go to **Resource** \> **Dynamics 365 apps**.</span></span>
+2. <span data-ttu-id="91d5a-140">Izaberite **Microsoft Dynamics 365 Project Operations** na listi aplikacija i instalirajte je.</span><span class="sxs-lookup"><span data-stu-id="91d5a-140">Select **Microsoft Dynamics 365 Project Operations** in the app list, and install it.</span></span>
+
+## <a name="link-your-environments"></a><a name="link"></a><span data-ttu-id="91d5a-141">Povezivanje okruženja</span><span class="sxs-lookup"><span data-stu-id="91d5a-141">Link your environments</span></span>
+
+<span data-ttu-id="91d5a-142">Kada se Dataverse okruženje primeni, možete podesiti vezu u svojim Finance and Operations aplikacijama.</span><span class="sxs-lookup"><span data-stu-id="91d5a-142">After the Dataverse environment is deployed, you can set up the link in your Finance and Operations apps.</span></span> <span data-ttu-id="91d5a-143">Sledite korake u članku [Korišćenje čarobnjaka za dvostruko upisivanje radi povezivanja okruženja](/dynamics365/fin-ops-core/dev-itpro/data-entities/dual-write/link-your-environment).</span><span class="sxs-lookup"><span data-stu-id="91d5a-143">Follow the steps in [Use the dual-write wizard to link your environments](/dynamics365/fin-ops-core/dev-itpro/data-entities/dual-write/link-your-environment).</span></span>
