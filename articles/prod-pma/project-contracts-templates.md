@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2017-12-13
 ms.dyn365.ops.version: AX 7.3.0
-ms.openlocfilehash: 2f5fa0143c903f08b3937426805cb43d5d6109e3
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: acb87be977cc009f89ceac5b01c9028d6741b552a441ef49e024b6b078a188d4
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: sr-Latn-RS
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "5999823"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7001088"
 ---
 # <a name="synchronize-project-contracts-and-projects-directly-from-project-service-automation-to-finance"></a>Sinhronizovanje projektnih ugovora i projekata direktno iz usluge Project Service Automation sa uslugom Finance 
 
@@ -42,7 +42,7 @@ Rešenje za integraciju iz usluge Project Service Automation u Finance koristi f
 
 Sledeća ilustracija prikazuje kako se podaci sinhronizuju između usluga Project Service Automation i Finance.
 
-[![Tok podataka za integraciju usluge Project Service Automation sa uslugom Finance](./media/ProjectsAndContractsFlow_upd.JPG)](./media/ProjectsAndContractsFlow.JPG)
+[![Tok podataka za integraciju usluge Project Service Automation sa uslugom Finance.](./media/ProjectsAndContractsFlow_upd.JPG)](./media/ProjectsAndContractsFlow.JPG)
 
 ## <a name="templates-and-tasks"></a>Predlošci i zadaci
 
@@ -140,17 +140,17 @@ Ako morate da koristite Power Query, sledite ove smernice:
 
 Sledeće ilustracije prikazuju primere mapiranja zadataka predloška u usluzi Data Integration. Mapiranje prikazuje informacije o terenu koje će se sinhronizovati iz usluge Project Service Automation u Finance.
 
-[![Mapiranje predloška projektnog ugovora](./media/ProjectContractTemplateMapping.JPG)](./media/ProjectContractTemplateMapping.JPG)
+[![Mapiranje predloška projektnog ugovora.](./media/ProjectContractTemplateMapping.JPG)](./media/ProjectContractTemplateMapping.JPG)
 
-[![Mapiranje predloška projekta](./media/ProjectTemplateMapping.JPG)](./media/ProjectTemplateMapping.JPG)
+[![Mapiranje predloška projekta.](./media/ProjectTemplateMapping.JPG)](./media/ProjectTemplateMapping.JPG)
 
-[![Mapiranje predloška predmeta ugovora](./media/ProjectContractLinesMapping.JPG)](./media/ProjectContractLinesMapping.JPG)
+[![Mapiranje predloška predmeta ugovora.](./media/ProjectContractLinesMapping.JPG)](./media/ProjectContractLinesMapping.JPG)
 
-[![Mapiranje predloška kontrolne tačke predmeta ugovora](./media/ProjectContractLineMilestonesMapping.JPG)](./media/ProjectContractLineMilestonesMapping.JPG)
+[![Mapiranje predloška kontrolne tačke predmeta ugovora.](./media/ProjectContractLineMilestonesMapping.JPG)](./media/ProjectContractLineMilestonesMapping.JPG)
 
 #### <a name="project-contract-line-milestone-mapping-in-the-projects-and-contracts-psa-3x-to-dynamics---v2-template"></a>Mapiranje kontrolnih tačaka predmeta ugovora o projektu u projektima i ugovorima (iz PSA 3.x u Dynamics) – predložak verzije 2:
 
-[![Mapiranje kontrolne tačke predmeta ugovora sa predloškom verzije dva](./media/ProjectContractLineMilestoneMapping_v2.jpg)](./media/ProjectContractLineMilestoneMapping_v2.jpg)
+[![Mapiranje kontrolne tačke predmeta ugovora sa predloškom verzije dva.](./media/ProjectContractLineMilestoneMapping_v2.jpg)](./media/ProjectContractLineMilestoneMapping_v2.jpg)
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

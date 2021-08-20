@@ -16,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: a46ec93744067205e1aa8c99dba52967a1780957
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: c98708cf91f9c5d078f3a1d3d619c9ca93cffa3e6bbca34511947b602a1c678a
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: sr-Latn-RS
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "6014942"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6995463"
 ---
 # <a name="quotes-and-quote-lines"></a>Ponude i stavke ponuda
 
@@ -84,7 +84,7 @@ Organizacije koje pružaju profesionalne usluge obično daju ponude klijentima i
 
 Neke od ovih klasifikacija transakcija mogu da se povežu sa svakom stavkom ponude. Kada vam odobre ponudu, mapiranje između klasifikacije transakcije i stavke ponude se prenosi u predmet ugovora.
  
-> ![Snimak ekrana vrsta mapiranja transakcije u stavke ponuda i predmete ugovora](media/basic-guide-5.png)
+> ![Snimak ekrana vrsta mapiranja transakcije u stavke ponuda i predmete ugovora.](media/basic-guide-5.png)
   
 Na primer, ponuda može da sadrži sledeće dve stavke ponude: 
 - Konsultantski posao koji koristi metod naplate vremena i materijala u kom se mogu primenjivati klasifikacije transakcija prema vremenu i nadoknadi. Na primer, sve transakcije vremena i naknade za primer projekta **Dynamics AX implementacija** se fakturišu klijentu na osnovu utrošenog vremena i materijala. 

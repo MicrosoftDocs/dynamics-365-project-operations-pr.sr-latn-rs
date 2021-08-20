@@ -6,12 +6,12 @@ ms.date: 01/27/2021
 ms.topic: article
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 7729b4a9ef5f498b78af298f7233d7dd45434bb3
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: e25d358f1fd7705d580855d372d85690f6a5e265d3ba2b60fc26742bf3edc86f
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: sr-Latn-RS
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "5997168"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6993303"
 ---
 # <a name="apply-demo-setup-and-configuration-data-for-project-operations---lite"></a>Primena demo podešavanja i podataka o konfiguraciji za Project Operations – jednostavno 
 
@@ -30,24 +30,24 @@ Pre nego što započnete konfiguraciju, morate imati Common Data Service (CDS) o
 2. Dođite do fascikle *ProjOpsSampleSetupData - CE only CMT* i pokrenite izvršnu datoteku *DataMigrationUtility*.
 3. Na 1. stranici Common Data Service čarobnjaka za konfigurisanje migracije (CMT) izaberite **Uvezi podatke**, a zatim izaberite **Nastavi**.
 
-    ![Migracija konfiguracije](./media/1ConfigurationMigration.png)
+    ![Migracija konfiguracije.](./media/1ConfigurationMigration.png)
 
 4. Na 2. stranici CMT čarobnjaka izaberite **Microsoft 365** kao **Tip primene**.
 5. Izaberite polja za potvrdu **Prikaži listu dostupnih organizacija** i **Prikaži napredno**.
 6. Izaberite region vašeg zakupca, unesite svoje akreditive, a zatim izaberite **Prijavljivanje**.
 
-   ![Prijavljivanje u konfiguraciju](./media/2ConfigurationSignin.png)
+   ![Prijavljivanje u konfiguraciju.](./media/2ConfigurationSignin.png)
 
 7. Na stranici 3, sa liste organizacija u zakupcu, izaberite u koju organizaciju želite da uvezete demo podatke, a zatim izaberite **Prijavljivanje**.
 8. Na stranici 4 izaberite zip datoteku, *SampleSetupAndConfigData* iz raspakovane fascikle, *ProjOpsSampleSetupData - CE only CMT*.
 
-   ![Komprimovana datoteka](./media/3ZipFile.png)
+   ![Komprimovana datoteka.](./media/3ZipFile.png)
 
-   ![Izaberite datoteku](./media/4SelectAFile.png)
+   ![Izaberite datoteku.](./media/4SelectAFile.png)
 
 9. Kada izaberete zip datoteku, izaberite **Uvoz podataka**.
 
-   ![Uvoz podataka](./media/5ImportData.png)
+   ![Uvoz podataka.](./media/5ImportData.png)
 
 10. Uvoz će trajati otprilike od dva do deset minuta, u zavisnosti od brzine vaše mreže. Po završetku izađite iz CMT čarobnjaka. 
 11. Potražite u svojoj organizaciji podatke za sledećih 18 entiteta:
@@ -71,7 +71,7 @@ Pre nego što započnete konfiguraciju, morate imati Common Data Service (CDS) o
     -   Povezivanje kategorije resursa koji može da se rezerviše
     -   Karakteristika resursa koji može da se rezerviše
 
-    ![Kompletan uvoz](./media/6CompleteImport.png)
+    ![Kompletan uvoz.](./media/6CompleteImport.png)
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

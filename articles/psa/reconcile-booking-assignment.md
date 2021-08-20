@@ -16,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 73cbc89ae4350cbd568f1bb978825ff53da07afb
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: 264271a5be63cb2e51f175595a48bef5fbff0a42a37795c85dd5b4725deec35e
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: sr-Latn-RS
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "6008913"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6995148"
 ---
 # <a name="reconcile-bookings-and-assignments"></a>Usaglašavanje resursa i dodela
 
@@ -51,11 +51,11 @@ U nekim slučajevima, kada je polje **Vremenska skala** podešeno na nivo viši 
 
 Kada pregledate više nivoe vremena, kartica **Usaglašenost** prikazuje indikator ćelija koji će vas obavestiti da postoje razlike na nižim nivoima vremena. Na primer, na sledećoj ilustraciji, indikator ćelije se pojavljuje u ćeliji za mesec oktobar 2018. za resurs koji se zove Srebrenka Radić. Stoga možete videti da, iako su rezervacije i dodele resursa jednake kada su objedine na nivou **meseca**, ne podudaraju se na nižim nivoima.
 
-![Neusaglašene rezervacije i dodele na mesečnom nivou](media/reconcile-assignments-01.JPG)
+![Neusaglašene rezervacije i dodele na mesečnom nivou.](media/reconcile-assignments-01.JPG)
 
 Dvaput kliknite na ćeliju da biste povećali na prvi niži nivo i videli razliku. Na primer, ako dvaput kliknete na razliku u oktobru 2018. godine za Srebrenku Radić, dubinski ćete pretraživati do nivoa **nedelje**. Zatim možete da vidite da resurs ima rezervisanja od 16 sati, ali da nema dodele u prve dve nedelje oktobra, kao i da ima 16 sati dodela, ali ne i rezervacije u trećoj nedelji oktobra.
 
-![Neusaglašene rezervacije i dodele na sedmičnom nivou](media/reconcile-assignments-02.JPG)
+![Neusaglašene rezervacije i dodele na sedmičnom nivou.](media/reconcile-assignments-02.JPG)
 
 Možete desnim tasterom miša da kliknete na ćeliju da biste umanjili naredni viši nivo. Takođe možete isključiti indikator ćelije klikom na dugme **Podešavanja**. 
 
@@ -68,13 +68,13 @@ Da biste osigurali tačne i predvidljive rezultate prilikom korišćenja „Prod
 
 - Korisnik mora konfigurisati vremensku zonu svog uređaja kako bi odgovarala vremenskoj zoni definisanoj u podešavanjima personalizacije vašeg sistema.
  
-  ![Podešavanja vremenske zone u operativnom sistemu Windows 10](media/reconcile-assignments-03.png)
+  ![Podešavanja vremenske zone u operativnom sistemu Windows 10.](media/reconcile-assignments-03.png)
 
-  ![Podešavanja vremenske zone u podešavanjima personalizacije](media/reconcile-assignments-04.png)
+  ![Podešavanja vremenske zone u podešavanjima personalizacije.](media/reconcile-assignments-04.png)
  
 - Resurs koji može da se rezerviše mora imati najmanje jedan minut radnog vremena koji se preklapa sa konturama koje se koriste za definisanje traženog produžetka. Na primer, sledeći primer prikazuje resurse za pregled sa radnim vremenima koji padaju između 9:00 i 19:00. 
 
-  ![Poređenje kontura resursa](media/reconcile-assignments-05.png)
+  ![Poređenje kontura resursa.](media/reconcile-assignments-05.png)
 
 Sledeća tabela prikazuje:
 
@@ -83,22 +83,22 @@ Sledeća tabela prikazuje:
 - Resursi B: ovaj resurs se nalazi u drugoj vremenskoj zoni u odnosu na projekat i zato počinje u 7:00 u svojoj vremenskoj zoni. Međutim, rezervacije će početi u 9:00, jer je to najranije vreme početka konture zadatka.
 - Resursi C i D: resursi se takođe nalaze u različitim vremenskim zonama, koje se razlikuju međusobno i unutar projekata, a njihove rezervacije ne počinju ranije od odgovarajućeg raspoloživog vremena početka.
 
-|Entitet  |Kalendar  |
+|Entity  |Kalendar  |
 |-|-|
-|Predložak kalendara projekta   | ![kalendar projekta](media/reconcile-assignments-06.png) |
-|Resurs A  | ![Kalendar resursa A](media/reconcile-assignments-06.png) |
-|Resurs B  |  ![Kalendar resursa B](media/reconcile-assignments-07.png) |
-|Resurs C  |  ![Kalendar resursa C](media/reconcile-assignments-08.png) |
-|Resurs D  | ![Kalendar resursa D](media/reconcile-assignments-09.png)  |
+|Predložak kalendara projekta   | ![kalendar projekta.](media/reconcile-assignments-06.png) |
+|Resurs A  | ![Kalendar resursa A.](media/reconcile-assignments-06.png) |
+|Resurs B  |  ![Kalendar resursa B.](media/reconcile-assignments-07.png) |
+|Resurs C  |  ![Kalendar resursa C.](media/reconcile-assignments-08.png) |
+|Resurs D  | ![Kalendar resursa D.](media/reconcile-assignments-09.png)  |
  
 Kada pređete na prikaz usklađivanja, biće prikazane dodele resursa i povezani nedostaci rezervacije.
- ![Prikaz usklađivanja pre produžetka](media/reconcile-assignments-10.png)
+ ![Prikaz usklađivanja pre produžetka.](media/reconcile-assignments-10.png)
 
 Nakon što se funkcija „Produženje rezervacije“ izvrši na svakom resoru, rezervacije se uspešno produžuju za svaki resurs. To je zato što se radno vreme svakog resursa preklapalo sa konturama nedostatka.
- ![Prikaz usklađivanja nakon produženja rezervacije](media/reconcile-assignments-11.png) 
+ ![Prikaz usklađivanja nakon produženja rezervacije.](media/reconcile-assignments-11.png) 
 
 Međutim, bolji pogled na detalje rezervacije pokazuje razlike u vremenu početka rezervacija. Rezervacije neće početi ranije od vremena početka konture zadatka i ne ranije od raspoloživog vremena početka resursa.
- ![Nove rezervacije resursa na tabeli rasporeda](media/reconcile-assignments-12.png)
+ ![Nove rezervacije resursa na tabeli rasporeda.](media/reconcile-assignments-12.png)
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

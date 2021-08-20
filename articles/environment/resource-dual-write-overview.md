@@ -8,12 +8,12 @@ ms.prod: ''
 ms.reviewer: kfend
 ms.author: sigitac
 ms.custom: intro-internal
-ms.openlocfilehash: 540b6f74d8e79116e5fdb2ceffaa4bbb487ff08f
-ms.sourcegitcommit: 0fafe022731f0e1e8693382ff906e3f8541d34ca
+ms.openlocfilehash: b65c40e8aaa9524c1c634738dadd23f21e86e2ec095c47bc849467c8806addbc
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: sr-Latn-RS
-ms.lasthandoff: 07/07/2021
-ms.locfileid: "6368448"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7007928"
 ---
 # <a name="project-operations-dual-write-integration-overview"></a>Pregled Project Operations integracije dvostrukog upisivanja
 
@@ -23,7 +23,7 @@ Project Operations koristi [mogućnosti dvostrukog upisivanja](/dynamics365/fin-
 
 Sledeća ilustracija pokazuje kako se podaci sinhronizuju kao deo ove integracije između Dataverse i Finance.
 
-![Pregled Project Operations tokova podataka](./media/ProjectOperationsFlows.jpg)
+![Pregled Project Operations tokova podataka.](./media/ProjectOperationsFlows.jpg)
 
 Project Operations u Dataverse pruža moderan korisnički interfejs (UI) i jednostavnu proširivost bez kodiranja/sa malo kodiranja pomoću Power Platform mogućnosti. Menadžeri projekata, menadžeri resursa, članovi projektnog tima i osobe koje rade sa klijentima obavljaju svoje aktivnosti u Project Operations u Dataverse.
 

@@ -15,12 +15,12 @@ ms.search.industry: Service industries
 ms.author: suvaidya
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: 41c57690fecbc3bee2a1eb5d26f8a6aa56d8bea9
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: 40a6a4173cb0e4d7ea5bcf24c8954fe9d7e079d1e9ecf4aac252b5133f12d3ff
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: sr-Latn-RS
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "6000543"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7003653"
 ---
 # <a name="create-custom-fields-and-entities-as-pricing-dimensions"></a>Kreiranje prilagođenih polja i entiteta kao dimenzije za određivanje cena
 
@@ -44,7 +44,7 @@ Da biste kreirali dimenzije zasnovane na entitetima, sledite ove korake:
 3. Izaberite **Novo** da biste kreirali novi entitet pod nazivom **Standardna pozicija**. 
 4. Unesite preostale potrebne informacije, a zatim izaberite **Sačuvaj**.
 
-> ![Definicija standardnog entiteta naziva](media/Standard-Title-entity-definition.png)
+> ![Definicija standardnog entiteta naziva.](media/Standard-Title-entity-definition.png)
 
 ### <a name="option-set-based-dimensions"></a>Dimenzije zasnovane na skupu opcija 
 Možete kreirati dve dimenzije zasnovane na skupovima opcija. 
@@ -54,11 +54,11 @@ Možete kreirati dve dimenzije zasnovane na skupovima opcija.
 
 Sledeći grafikon daje prikaz dimenzije **Mesto rada resursa**. 
 
-> ![Dimenzija određivanja cena zasnovana na skupu opcija pod nazivom Radna lokacija resursa](media/Option-set-PD-called-Resource-Work-Location.png)
+> ![Dimenzija određivanja cena zasnovana na skupu opcija pod nazivom Radna lokacija resursa.](media/Option-set-PD-called-Resource-Work-Location.png)
 
 Sledeći grafikon daje prikaz dimenzije **Radno vreme resursa**. 
 
-> ![Dimenzija određivanja cena zasnovana na skupu opcija pod nazivom Radno vreme resursa](media/Option-set-PD-called-Resource-Work-Hours.png)
+> ![Dimenzija određivanja cena zasnovana na skupu opcija pod nazivom Radno vreme resursa.](media/Option-set-PD-called-Resource-Work-Hours.png)
 
 1. Idite na **Podešavanja** > **Rešenja**, a zatim dvaput kliknite na **\<your organization name> dimenzije za određivanje cena**. 
 2. U levom oknu za navigaciju istraživača rešenja izaberite **Skupovi opcija**. 
@@ -74,7 +74,7 @@ Možete ručno kreirati podatke za dimenzije zasnovane na entitetima ili koriš�
 4. Zatvorite stranicu. 
 5. Ponovite korake 1-3 da biste kreirali još jednu standardnu poziciji „Viši inženjer sistema“.
 
-> ![Probni podaci za entitet Standardna pozicija](media/ST-data.png)
+> ![Probni podaci za entitet Standardna pozicija.](media/ST-data.png)
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -16,12 +16,12 @@ ms.dyn365.ops.version: 7
 ms.search.validFrom: 2019-01-15
 search.app:
 - ProjectOperations
-ms.openlocfilehash: c6d849e4be9e3687396cd6a0c4158d92f25c7879
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: 88706946e5c5c59be996640f4c7b37e958c1cf1d9fd14c72c0c6dc854a77dab4
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: sr-Latn-RS
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "6012063"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6995418"
 ---
 # <a name="bulk-corrections-of-actuals-created-by-approved-time-and-expense-entries"></a>Masovne ispravke trenutnog stanja kreiranog odobrenim stavkama vremena i troška
 
@@ -62,7 +62,7 @@ Obavite sledeće korake da biste ispravili pojedinačne ili višestruke stavke z
 
 Na primer, na sledećoj slici postoje dve stavke čija je količina 8,00 a koje imaju zaduženja navedena u koloni Iznos. Uz to, postoje dve stavke čija je količina -8,00 koje prikazuju zadužene iznose u koloni Iznos. Ove ispravke svode količinu na nulu.
 
-![Lista vezanog prikaza stvarnih vrednosti](https://github.com/MicrosoftDocs/dynamics-365-customer-engagement-pr/blob/bulk-corrections-actuals-created-by-approved-time-expense-entries.md/time-actuals.png)
+![Lista vezanog prikaza stvarnih vrednosti.](https://github.com/MicrosoftDocs/dynamics-365-customer-engagement-pr/blob/bulk-corrections-actuals-created-by-approved-time-expense-entries.md/time-actuals.png)
  
 ## <a name="correct-approved-expense-entries"></a>Ispravne odobrene stavke troškova
 
@@ -87,7 +87,7 @@ Obavite sledeće korake da biste ispravili jednu stavku troškova ili više njih
 
 8. Na stranici projekta, na kartici **Aktuelno**, pregledajte **Vezani prikaz stvarnih vrednosti**. Navedene su izvorne stavke i ispravljene stavke. Sledeća slika prikazuje izvorne iznose stavke troška i odgovarajuće ispravljene iznose stavke troška. 
 
-![Trošak_stvarna vrednost](https://user-images.githubusercontent.com/60806505/77122219-4cd52900-69fa-11ea-8349-ccd2ffebf640.png)
+![Trošak_stvarna vrednost.](https://user-images.githubusercontent.com/60806505/77122219-4cd52900-69fa-11ea-8349-ccd2ffebf640.png)
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

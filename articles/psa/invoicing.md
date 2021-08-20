@@ -15,12 +15,12 @@ search.audienceType:
 search.app:
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: e0dc911bb0ca72af547262a5716ef1091ea81c81
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: 58259c05939cfe870ce5e36b4a0221cd93b8e8d2b4be582efc9167e82579699e
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: sr-Latn-RS
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "6015078"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6985518"
 ---
 # <a name="invoicing-in-project-service-automation"></a>Fakturisanje u aplikaciji Project Service Automation
 
@@ -50,7 +50,7 @@ Sledite ovaj korak da biste kreirali fakturu za određeni ugovor o projektu.
 
 - Na stranici liste **Ugovori o projektima** otvorite ugovor o projektu, a zatim izaberite **Kreiraj fakturu**.
 
-    ![Kreiranje faktura za projekat za određeni ugovor o projektu](media/CreateProjectInvoicesOneByOne.png)
+    ![Kreiranje faktura za projekat za određeni ugovor o projektu.](media/CreateProjectInvoicesOneByOne.png)
 
     Faktura se generiše za sve transakcije za izabrani ugovor o projektu koji imaju status **Spremno za fakturisanje**. Ove transakcije uključuju vreme, troškove, kontrolne tačke i predmete ugovora zasnovane na proizvodu.
 
@@ -58,7 +58,7 @@ Sledite ove korake da biste kreirali fakture masovno.
 
 1. Na stranici liste **Ugovori o projektima** izaberite jedan ugovor ili više ugovora o projektima za koje morate kreirati fakturu, a zatim izaberite **Kreiraj fakture za projekte**.
 
-    ![Masovno kreiranje faktura za projekte](media/CreateProjectInvoicesBulk.png)
+    ![Masovno kreiranje faktura za projekte.](media/CreateProjectInvoicesBulk.png)
 
     Poruka upozorenja vas obaveštava da možda postoji kašnjenje pre kreiranja faktura. Ovaj proces se takođe prikazuje.
 

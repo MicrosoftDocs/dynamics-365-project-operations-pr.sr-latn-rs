@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2016-11-28
 ms.dyn365.ops.version: AX 7.3.0
-ms.openlocfilehash: db63413456e4b91d308af9c1103000d5cdc693f7
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: 85b6c07464e919e363f28d8bc62115e8fb4c72ea6631269b98fd00f324a01cba
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: sr-Latn-RS
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "5999913"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6988128"
 ---
 # <a name="synchronize-project-actuals-directly-from-project-service-automation-to-the-project-integration-journal-for-posting-in-finance-and-operations"></a>Sinhronizacija stvarnih vrednosti projektu direktno iz usluge Project Service Automation sa dnevnikom integracije projekta za knjiženje u usluzi Finance and Operations
 
@@ -42,7 +42,7 @@ Rešenje za integraciju iz usluge Project Service Automation u Finance koristi f
 
 Sledeća ilustracija prikazuje kako se podaci sinhronizuju između usluga Project Service Automation i Finance.
 
-[![Tok podataka za integraciju usluge Project Service Automation sa uslugom Finance and Operations](./media/ProjectActualsFlow.jpg)](./media/ProjectActualsFlow.jpg)
+[![Tok podataka za integraciju usluge Project Service Automation sa uslugom Finance and Operations.](./media/ProjectActualsFlow.jpg)](./media/ProjectActualsFlow.jpg)
 
 ## <a name="project-actuals-from-project-service-automation"></a>Stvarne vrednosti projekta iz usluge Project Service Automation
 
@@ -93,9 +93,9 @@ Da biste ažurirali umetnutu uslovnu kolonu u predlošku, kliknite na strelicu *
 
 Sledeće ilustracije prikazuju primer mapiranja zadataka predloška u usluzi Data Integration. Mapiranje prikazuje informacije o terenu koje će se sinhronizovati iz usluge Project Service Automation u Finance.
 
-[![Mapiranje predložaka - stvarni troškovi](./media/ActualsMapping.jpg)](./media/ActualsMapping.jpg)
+[![Mapiranje predložaka - stvarni troškovi.](./media/ActualsMapping.jpg)](./media/ActualsMapping.jpg)
 
-[![Mapiranje šablona - Transakcione veze](./media/TransactionConnections.jpg)](./media/TransactionConnections.jpg)
+[![Mapiranje šablona - Transakcione veze.](./media/TransactionConnections.jpg)](./media/TransactionConnections.jpg)
 
 ## <a name="import-from-staging-table-after-integration-from-project-service-automation"></a>Uvoz iz pripremne tabele nakon integracije iz usluge Project Service Automation
 
@@ -135,9 +135,9 @@ U predlošku za ažuriranje stvarnih vrednosti projekta, morate da koristite Pow
 
 Sledeće ilustracije prikazuju primere mapiranja zadataka predloška u usluzi Data Integration. Mapiranje prikazuje informacije o polju koje će se sinhronizovati iz usluge Finance u Project Service Automation.
 
-[![Mapiranje predložaka - ažuriranje stvarnih troškova](./media/ActualsUpdateMapping.jpg)](./media/ActualsUpdateMapping.jpg)
+[![Mapiranje predložaka - ažuriranje stvarnih troškova.](./media/ActualsUpdateMapping.jpg)](./media/ActualsUpdateMapping.jpg)
 
-[![Mapiranje predložaka - ažuriranje transakcija](./media/TransactionConnectionsUpdate.jpg)](./media/TransactionConnectionsUpdate.jpg)
+[![Mapiranje predložaka - ažuriranje transakcija.](./media/TransactionConnectionsUpdate.jpg)](./media/TransactionConnectionsUpdate.jpg)
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

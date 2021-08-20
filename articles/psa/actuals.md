@@ -17,12 +17,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: cbb3e5c7f74cdf37ae4d259687bf7a98102a8131
-ms.sourcegitcommit: 0fafe022731f0e1e8693382ff906e3f8541d34ca
+ms.openlocfilehash: 15c8d26fcf4eb9fda8a4fe4ce085ea3becdc2c76f11525357b75f59e18fd6017
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: sr-Latn-RS
-ms.lasthandoff: 07/07/2021
-ms.locfileid: "6368178"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6992493"
 ---
 # <a name="actuals-overview"></a>Pregled trenutnog stanja
 
@@ -32,7 +32,7 @@ ms.locfileid: "6368178"
 
 Stvarne vrednosti predstavljaju količinu posla koja je završena za projekat. Stvarne vrednosti projekta mogu da se prate do njegovih izvornih dokumenata. Ti izvorni dokumenti uključuju vreme, troškove i stavke knjiženja u glavnoj knjizi, kao i fakture.
 
-![Kako se stvarne vrednosti projekta prate do izvornih dokumenata](media/basic-guide-18.png)
+![Kako se stvarne vrednosti projekta prate do izvornih dokumenata.](media/basic-guide-18.png)
 
 ## <a name="submitting-a-time-entry"></a>Prosleđivanje stavke vremena
 

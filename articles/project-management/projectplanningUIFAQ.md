@@ -2,17 +2,17 @@
 title: Rešavanje problema sa radom u mreži podataka
 description: Ova tema pruža informacije o rešavanju problema potrebne za rad u mreži zadataka.
 author: ruhercul
-ms.date: 01/19/2021
+ms.date: 08/02/2021
 ms.topic: article
 ms.product: ''
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.openlocfilehash: a15a4752de7537b3f60d5ee3269c846257a1fe4a
-ms.sourcegitcommit: 72fa1f09fe406805f7009fc68e2f3eeeb9b7d5fc
+ms.openlocfilehash: 07e7bd42db48842edee17fdfdd22fdcd8207644c1751f453ec29c3194aac625e
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: sr-Latn-RS
-ms.lasthandoff: 06/09/2021
-ms.locfileid: "6213417"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6989118"
 ---
 # <a name="troubleshoot-working-in-the-task-grid"></a>Rešavanje problema sa radom u mreži podataka 
 
@@ -24,7 +24,7 @@ Ova tema opisuje kako da rešite probleme na koje biste mogli naići tokom rada 
 
 Project Operations zahteva da nezavisni kolačići budu omogućeni kako bi se prikazivala strukturna analiza posla. Kada nezavisni kolačići nisu omogućeni, umesto da vidite zadatke, videćete praznu stranicu kada odaberete karticu **Zadaci** na stranici **Projekat**.
 
-![Prazna kartica kada nezavisni kolačići nisu omogućeni](media/blankschedule.png)
+![Prazna kartica kada nezavisni kolačići nisu omogućeni.](media/blankschedule.png)
 
 
 ### <a name="workaround"></a>Zaobilazno rešenje
@@ -52,11 +52,22 @@ Za pregledače Microsoft Edge ili Google Chrome, sledeći postupci opisuju kako 
 Project Operations zahteva da parametar projekta upućuje na PEX krajnju tačku. Ova krajnja tačka je potreban za komunikaciju sa uslugom koja se koristi za prikazivanje strukturne analize posla. Ako parametar nije omogućen, dobićete grešku „Parametar projekta nije važeći“. 
 
 ### <a name="workaround"></a>Zaobilazno rešenje
- ![Polje „PEX krajnja tačka“ u parametru projekta](media/projectparameter.png)
 
 1. Dodajte polje **PEX krajnja tačka** na stranicu **Parametri projekta**.
-2. Ažurirajte polje sledećom vrednosti: `https://project.microsoft.com/<lang>/?org=<cdsServer>#/taskgrid?projectId=/<id>&type=2`
-3. Uklonite polje sa stranice **Parametri projekta**.
+2. Identifikujte tip proizvoda koji koristite. Ova vrednost se koristi kada je PEX krajnja tačka podešena. Nakon preuzimanja, tip proizvoda je već definisan u PEX krajnjoj tački. Zadržite tu vrednost. 
+   
+    ![Polje „PEX krajnja tačka“ u parametru projekta.](media/pex-endpoint.png)
+
+3. Ažurirajte polje sledećom vrednošću: `https://project.microsoft.com/<lang>/?org=<cdsServer>#/taskgrid?projectId=<id>&type=2`
+
+   
+   | Tip proizvoda                         | Tip parametra |
+   |--------------------------------------|----------------|
+   | Project for the Web za podrazumevanu organizaciju   | tip=0         |
+   | Project for the Web za organizaciju sa CDS nazivom | tip=1         |
+   | Project Operations                   | tip=2         |
+   
+4. Uklonite polje sa stranice **Parametri projekta**.
 
 ## <a name="privileges-for-project-for-the-web"></a>Privilegije za projekat za veb
 
@@ -67,7 +78,7 @@ Project Operations se oslanja na eksternu uslugu zakazivanja. Usluga zahteva da 
 
 1. Idite na **Podešavanja > Bezbednost > Korisnici > Korisnici aplikacija**.  
 
-   ![Čitač aplikacije](media/applicationuser.jpg)
+   ![Čitač aplikacije.](media/applicationuser.jpg)
    
 2. Dvaput kliknite na zapis korisnika aplikacije da biste proverili sledeće:
 
@@ -76,7 +87,7 @@ Project Operations se oslanja na eksternu uslugu zakazivanja. Usluga zahteva da 
  
 3. Ako ovaj korisnik ne postoji, možete kreirati zapis novog korisnika. Izaberite **Novi korisnici**. Promenite obrazac za unos u **Korisnik aplikacije**, a zatim dodajte **ID aplikacije**.
 
-   ![Detalji o korisniku aplikacije](media/applicationuserdetails.jpg)
+   ![Detalji o korisniku aplikacije.](media/applicationuserdetails.jpg)
 
 4. Proverite da li je korisniku dodeljena ispravna licenca i da li je usluga omogućena u detaljima planova usluge licence.
 5. Proverite da li korisnik može da otvori project.microsoft.com.

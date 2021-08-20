@@ -16,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: a1e22337d3fd3e7ff4147a9547fd3c272f4185d3
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: d9a81d7242e78dafad871bb07c03459f1de21884d196c6ee7dd9619b2c410404
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: sr-Latn-RS
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "6009408"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7007118"
 ---
 # <a name="assign-generic-bookable-resources-to-a-task-and-generate-resource-requirements"></a>Dodeljivanje generičkih resursa koji se mogu rezervisati zadatku i generisanje potreba za resursima 
 
@@ -33,21 +33,21 @@ Pored rezervisanja i dodeljivanja imenovanih ili stvarnih resursa projektu, mož
 
 1. U aplikaciji Project Service Automation (PSA) otvorite stranicu **Projekat** i na kartici **Raspored** unesite ime uloge generičkog resursa u ćeliju rasporeda **Resurs**. Možete i da kliknete na ikonu **Resurs** u ćeliji da biste otvorili birač resursa, a zatim uneli ime generičkog resursa koji želite da kreirate.
 
-![Kreiranje i dodeljivanje generičkog člana tima](media/RM-how-to-9.png)
+![Kreiranje i dodeljivanje generičkog člana tima.](media/RM-how-to-9.png)
 
 Tako ćete otvoriti tablu **Brzo kreiranje člana projektnog tima**. 
 
 2. Unesite ulogu i organizacionu jedinicu generičkog člana tima resursa, a zatim kliknite na **Sačuvaj**.
 
-![Brzo kreiranje generičkog člana tima](media/RM-how-to-10.png)
+![Brzo kreiranje generičkog člana tima.](media/RM-how-to-10.png)
 
 3. Nakon što ste kreirali novog generičkog člana tima resursa, on će biti dodeljen zadatku. Možete nastaviti da dodeljujete taj generički resurs drugim zadacima u rasporedu zadataka.
 
-![Dodeljivanje postojećeg generičkog člana tima zadacima](media/RM-how-to-11.png)
+![Dodeljivanje postojećeg generičkog člana tima zadacima.](media/RM-how-to-11.png)
 
 4. Nakon što ste dodelili generički resurs, možete da generišete potrebu za resursom i da je ispunite direktnim rezervisanjem ili prosleđivanjem zahteva za resurs menadžeru resursa.
 
-![Generisanje zahteva za generičkog člana tima](media/RM-how-to-12.png)
+![Generisanje zahteva za generičkog člana tima.](media/RM-how-to-12.png)
 
 U mreži za članove tima, pored toga što možete da koristite birač resursa kao što je pomenuto gore, moći ćete direktno da dodate generičke resurse. Resursi se dodaju pomoću potreba za resursima koje se zasnivaju na datumu početka/završetka i metodi dodele koja je navedena u tabli **Brzo kreiranje člana projektnog tima**.
 
@@ -55,7 +55,7 @@ Možete videti razliku ako direktno dodate generičkog člana tima, a zatim dode
 
 Takođe možete da kliknete na vezu **Potreba za resursom** u mreži tima da biste otvorili zahtev i dodali veštine, željene resurse itd.
 
-![Zahtev za resursima](media/RM-how-to-13.png)
+![Zahtev za resursima.](media/RM-how-to-13.png)
 
 
 

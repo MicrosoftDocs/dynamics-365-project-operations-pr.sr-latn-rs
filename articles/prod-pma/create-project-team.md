@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 8d3d39aa28565692bf894ff8d4fc8f8c3c5542d4
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: 1ab8ae045852a75a7a39a4eccfa86a114a34273581c98631975bcbfac5a7a343
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: sr-Latn-RS
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "6006213"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7005813"
 ---
 # <a name="create-a-project-team"></a>Kreiranje projektnog tima
 
@@ -33,7 +33,7 @@ Postavke prikaza takođe se mogu prilagoditi kako bi se dobio bolji prikaz dostu
 
 Menadžer projekta može odabrati ulogu na stranici, a zatim, ako postoji dostupan resurs koji odgovara zahtevima, izaberite da rezervišete resurs za popunjavanje uloge. Imajte na umu da resursi u ovom trenutku ne moraju biti rezervisani u fazi planiranja. Kada kreirate SAP, možete zameniti uloge resursima osoblja za projekat. Ako se uloge zamene resursima osoblja u SAP-u, podešavanje resursa automatski ažurira spisak i raspored projektnog tima.
 
-[![Spisak projektnog tima koji uključuje i uloge i stvarne resurse](./media/projectresourcing03-1024x368.jpg)](./media/projectresourcing03.jpg) 
+[![Spisak projektnog tima koji uključuje i uloge i stvarne resurse.](./media/projectresourcing03-1024x368.jpg)](./media/projectresourcing03.jpg) 
 
 Menadžer projekta ima razne mogućnosti za rezervaciju resursa za projekat, kao što su **Preostali kapacitet**, **Pun kapacitet**, **Procenat kapaciteta** i **Navedite radno vreme**. Ove opcije rezervacije mogu se otkazati u bilo kom trenutku ako se promene dodeljivanja resursa. Podržane su dve vrste rezervacija:
 

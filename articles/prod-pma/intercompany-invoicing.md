@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 9d1debf8f67b7dbe7752075c6f8e5f2cdd37a3ae
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: 7c201ccec2069869707409ff6a9236e81e125f06b391c67202927f5c038787d8
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: sr-Latn-RS
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "6002793"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6995823"
 ---
 # <a name="intercompany-invoicing"></a>Međukompanijsko fakturisanje
 
@@ -33,7 +33,7 @@ Vaša organizacija može imati više odeljenja, podružnica i drugih pravnih lic
 
 Sledeća ilustracija prikazuje tipičan scenario kada dva pravna lica, SI FR (zajmoprimac) i SI USA (zajmodavac) dele resurse za isporuku projekta za klijenta A. Za ovaj scenario, SI FR je ugovoren da isporuči rad za klijenta A. 
 
-[![Primer međukompanijskog fakturisanja](./media/interco.invoicing-01.jpg)](./media/interco.invoicing-01.jpg) 
+[![Primer međukompanijskog fakturisanja.](./media/interco.invoicing-01.jpg)](./media/interco.invoicing-01.jpg) 
 
 Cilj je učiniti kontrolu troškova, priznavanje prihoda, poreza i cene transfera za međukompanijske projektne transakcije fleksibilnijim i moćnijim. Pored toga, pružaju se sledeće mogućnosti:
 

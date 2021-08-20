@@ -16,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: fcb3c85af092667cc5a473ab4674c3be47e33327
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: ebb59d2b38bf99aed15206646e77c74003aba2a92a6d8d262e6e7b2017285ed3
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: sr-Latn-RS
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "6007608"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6992403"
 ---
 # <a name="estimates"></a>Procene
 
@@ -83,24 +83,24 @@ Ako ste u detalj stavke ponude dodali prilagođeno polje i želite da sistem une
 1. Otvorite PluginRegistrationTool i povežite se sa instancom na mreži.
 2. Izaberite **Pretraga** i potražite dodatnu komponentu za ažuriranje.
 
-    ![Dijalog stabla za pretragu](media/basic-guide-19.png)
+    ![Dijalog stabla za pretragu.](media/basic-guide-19.png)
 
 3. Izaberite dodatnu komponentu, a zatim na glavnoj stranici stavku **Izaberi**.
 4. Izaberite korak dodatne komponente za ažuriranje, kliknite desnim tasterom miša, a zatim izaberite **Ažuriraj**.
 
-    ![Izbor koraka u dodatnoj komponenti](media/basic-guide-20.png)
+    ![Izbor koraka u dodatnoj komponenti.](media/basic-guide-20.png)
 
 5. U dijalogu **Ažuriranje postojećeg koraka**, u polju **Atributi filtriranja**, izaberite dugme sa tri tačke (**...**):
  
-    ![Dijalog Ažuriranje postojećeg koraka](media/basic-guide-21.png)
+    ![Dijalog Ažuriranje postojećeg koraka.](media/basic-guide-21.png)
 
 6. U dijalogu **Izbor atributa** potvrdite izbor u poljima za prilagođene atribute.
 
-    ![Dijalog Izbor atributa](media/basic-guide-22.png)
+    ![Dijalog Izbor atributa.](media/basic-guide-22.png)
 
 7. Izaberite **U redu** da zatvorite dijalog, a zatim izaberite **Ažuriraj korak**.
  
-    ![Dugme Ažuriraj korak](media/basic-guide-23.png)
+    ![Dugme Ažuriraj korak.](media/basic-guide-23.png)
 
 8. Ponovite korake od 1 do 7 za drugu dodatnu komponentu.
 9. Zatvorite PluginRegistrationTool.

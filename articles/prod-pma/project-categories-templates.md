@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2016-11-28
 ms.dyn365.ops.version: AX 8.0.0
-ms.openlocfilehash: 2816d363dbfe6ef2d98a584b214f72d9b30c49bb
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: 52c79f8b641d4b2df3b30964331633f2487402f8f8d229b540f9544c0f848557
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: sr-Latn-RS
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "5999868"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7001133"
 ---
 # <a name="synchronize-project-expense-categories-between-finance-and-operations-and-project-service-automation"></a>Sinhronizujte kategorije troškova projekta između usluga Finance and Operations i Project Service Automation
 
@@ -56,7 +56,7 @@ Ako se kategorije troškova projekta savladaju u usluzi Project Service Automati
 
 Sledeća ilustracija prikazuje kako se podaci sinhronizuju između usluga Project Service Automation i Finance.
 
-[![Tok podataka za integraciju usluge Project Service Automation sa uslugom Finance](./media/ProjectExpenseCategoriesFlow.png)](./media/ProjectExpenseCategoriesFlow.png)
+[![Tok podataka za integraciju usluge Project Service Automation sa uslugom Finance.](./media/ProjectExpenseCategoriesFlow.png)](./media/ProjectExpenseCategoriesFlow.png)
 
 ## <a name="project-expense-category-synchronization-from-finance-to-project-service-automation"></a>Sinhronizacija kategorije troškova projekta iz usluge Finance u Project Service Automation
 
@@ -93,7 +93,7 @@ Kada se sinhronizujete sa uslugom Project Service Automation, morate da koristit
 
 Sledeća ilustracija prikazuje primer mapiranja zadataka predloška u usluzi Data Integration. Mapiranje prikazuje informacije o polju koje će se sinhronizovati iz usluge Finance u Project Service Automation.
 
-[![Mapiranje kategorije troškova projekta sa Project Service Automation predloškom](./media/ProjectExpenseCategoriesToPSAMapping.jpg)](./media/ProjectExpenseCategoriesToPSAMapping.jpg)
+[![Mapiranje kategorije troškova projekta sa Project Service Automation predloškom.](./media/ProjectExpenseCategoriesToPSAMapping.jpg)](./media/ProjectExpenseCategoriesToPSAMapping.jpg)
 
 ## <a name="project-expense-category-synchronization-from-project-service-automation-to-finance"></a>Sinhronizacija kategorije troškova projekta iz usluge Project Service Automation u Finance
 
@@ -121,7 +121,7 @@ Sledeća ilustracija prikazuje primer mapiranja zadataka predloška u usluzi Dat
 > [!NOTE]
 > Mapiranje prikazuje informacije o terenu koje će se sinhronizovati iz usluge Project Service Automation u Finance.
 
-[![Mapiranje usluge Project Service Automation sa Finance predloškom](./media/ProjectExpenseCategoriesToFinOpsMapping.jpg)](./media/ProjectExpenseCategoriesToFinOpsMapping.jpg)
+[![Mapiranje usluge Project Service Automation sa Finance predloškom.](./media/ProjectExpenseCategoriesToFinOpsMapping.jpg)](./media/ProjectExpenseCategoriesToFinOpsMapping.jpg)
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -2,7 +2,7 @@
 title: Ponovno osmišljeni izveštaji o troškovima
 description: Ova tema objašnjava redizajnirano i prerađeno iskustvo za unos izveštaja o troškovima.
 author: suvaidya
-ms.date: 06/14/2021
+ms.date: 07/08/2021
 ms.topic: article
 ms.prod: ''
 ms.search.form: ''
@@ -13,12 +13,12 @@ ms.search.region: ''
 ms.author: suvaidya
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: f8c44f86ff7c00e2d5b927bbe6878be7ab6d7758
-ms.sourcegitcommit: e93f436afbb92a312fc71b6371866f01927e49d5
+ms.openlocfilehash: dba30d16283d820d04d3a1b2fec0acbf30252e87b86c899686ef4df0985ae6ee
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: sr-Latn-RS
-ms.lasthandoff: 06/14/2021
-ms.locfileid: "6251021"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6997848"
 ---
 # <a name="expense-reports-reimagined"></a>Ponovno osmišljeni izveštaji o troškovima
 
@@ -57,12 +57,13 @@ Da biste uključili novo iskustvo, koristite radni prostor **Upravljanje funkcij
 | Kalkulator deviznih kurseva | Dodat je kalkulator deviznih kurseva koji vam omogućava izračunavanje deviznog kursa za viševalutne transakcije iz svog džepa. |
 | Sačuvajte i dodajte nove stavke troškova | Dugmad **Sačuvaj** i **Novo** su dostupna kada se unose novi troškovi, što vam pomaže da brzo unesete stavke troškova. |
 | Bolja vidljivost na podeljene i razvrstane stavke | Razvrstane i podeljene stavke dodaju se direktno na listu troškova radi veće vidljivosti i pomoći će vam da lako utvrdite da li postoje greške. |
-| Pogledajte detalje o podkategorijama u detaljnim stavkama | Detaljne stavke nadređenog troška prikazuju oznake potkategorija u izveštaju o troškovima, što vam pomaže da brzo pregledate granularne detalje.|
+| Pogledajte detalje o podkategorijama u detaljnim stavkama | Detaljne stavke nadređenog troška prikazuju oznake potkategorija u izveštaju o troškovima. Raščlanjavanje stavki omogućava vam da brzo pregledate granularne detalje.|
 | Prikažite priznanice tokom razvrstavanja | Možete prikazivati priznanice tokom razvrstavanja. |
 | Izbor gotovinskog avansa | Izaberite jedan ili više gotovinskih avansa za ispunjavanje jedne transakcije troškova. |
 | Bilans gotovinskog avansa | Pregledajte bilans gotovinskog avansa u realnom vremenu kada kreirate unos troškova u odnosu na odobrene i plaćene gotovinske avanse. |
 
 Početno izdanje se fokusira na scenarije unosa troškova. Svaki prikaz izveštaja o troškovima ili scenario odobravanja i dalje će koristiti postojeću stranicu za unos troškova.
+
 
 Sledeće funkcije nisu podržane u ponovo osmišljenom radnom prostoru za izveštaje o troškovima, ali su planirane za buduća izdanja: 
 

@@ -16,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 48f313b15f788645b88a4d878e3bece419d63126
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: fe51af8adb7c3831a57494b8359def2a0176b552efe16feb53a2a265f5ffcb0c
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: sr-Latn-RS
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "6009183"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7002573"
 ---
 # <a name="project-costs-and-revenue"></a>Troškovi i prihod projekta
 
@@ -31,7 +31,7 @@ ms.locfileid: "6009183"
 
 Procene projekta pružaju finansijski prikaz za posao koji je procenjen i zakazan u rasporedu projekta. Kartica **Procene** na stranici **Projekti** prikazuje uticaj troškova i prihoda za posao koji planirate. Takođe pruža informacije o mnogim unapred definisanim dimenzijama. 
 
-> ![Kartica sa procenama](media/project-5.png)
+> ![Kartica sa procenama.](media/project-5.png)
 
 ## <a name="cost-and-sales-values-of-the-project"></a>Vrednosti troškova i prodajne vrednosti projekta
 
@@ -66,13 +66,13 @@ Ako sistem ne pronađe cenu za ulogu, prodajna cena u stavci procene se podešav
 
 Kartica **Procene** ima prikaz mreže koji prikazuje stavke procene. Mreža sadrži kolone za jedinicu, ukupnu cenu koštanja i ukupnu prodajnu cenu, kao što je prikazano na sledećoj ilustraciji. 
 
-> ![Prikaz mreže na kartici Procene](media/project-6.png)
+> ![Prikaz mreže na kartici Procene.](media/project-6.png)
 
 ## <a name="time-phased-view-of-project-estimates"></a>Prikaz procena za projekat u vremenu
 
 Prikaz po fazama vremena za projektne procena prikazuje podatke o proceni iz prikaza mreže po vremenskoj osi, u vremenskoj skali koju odaberete. Podaci o proceni su podrazumevano izvedeni u dimenziji **Uloga**.
 
-> ![Prikaz procena za projekat po fazama vremena](media/project-7.png)
+> ![Prikaz procena za projekat po fazama vremena.](media/project-7.png)
 
 ## <a name="allocating-estimated-effort-based-on-the-task-mode"></a>Dodela procenjenih aktivnosti na osnovu režima zadatka
 

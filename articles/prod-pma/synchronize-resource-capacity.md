@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 8bde3c434680f0651293cbce13ecdce945c3a743
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: 5f2e9b8e189be0594569e14ebc41c6ed452afd10aba34ea1397b3e3f66cd2e96
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: sr-Latn-RS
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "5997528"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7005633"
 ---
 # <a name="synchronize-resource-capacity"></a>Sinhronizacija kapaciteta resursa
 
@@ -29,7 +29,7 @@ ms.locfileid: "5997528"
 
 Procesi za sinhronizaciju resursa garantuju da će se informacije za kalendar i osnovni kalendar slivati u planiranje resursa projekta. Ako se kalendar promeni, procesi izvršavaju potrebna ažuriranja rasporeda resursa projekta. Procesi takođe pomažu u poboljšanju performansi, jer su informacije o resursima kalendara unapred sinhronizovane. Stoga se ažuriranja podataka o rasporedu resursa dešavaju brže. Preporučujemo da procese planirate kao pakete umesto kao jedan po jedan. U suprotnom, postoji rizik da će neko zaboraviti sve datume kada su informacije poslednji put sinhronizovane. Ako se ne koriste svi datumi, mogu se pojaviti praznine tokom sinhronizacije datuma.
 
-![Sinhronizacija kalendara](./media/projectresourcing04-1024x471.jpg)
+![Sinhronizacija kalendara.](./media/projectresourcing04-1024x471.jpg)
 
 ## <a name="synchronize-resource-capacity-roll-ups"></a>Sinhronizacija zbirnih vrednosti kapaciteta resursa
 
@@ -46,7 +46,7 @@ Preporučujemo da koristite paket. Opcije su dostupne tokom sinhronizacije rezer
     | Datum početka  | Unesite datum početka procesa sinhronizacije za zbirne vrednosti kapaciteta resursa. |
     | Datum završetka    | Unesite datum završetka procesa sinhronizacije za zbirne vrednosti kapaciteta resursa. |
 
-[![Proces sinhronizacije](./media/projectresourcing09.jpg)](./media/projectresourcing09.jpg)
+[![Proces sinhronizacije.](./media/projectresourcing09.jpg)](./media/projectresourcing09.jpg)
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -7,12 +7,12 @@ ms.topic: article
 ms.prod: ''
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: d8aa1541a3560db175acead1d000895312b299db
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: c558ab1eb5070f6d1a2db06b630e8807cc67819f9bdd57c15ec346f484e04fe9
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: sr-Latn-RS
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "6000048"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7006308"
 ---
 # <a name="project-estimates-and-actuals-integration"></a>Procene projekata i integracija stvarnih podataka
 
@@ -30,7 +30,7 @@ Kreiranje procena zahteva važeću računovodstvenu konfiguraciju za projekat. P
 
 Procene radne snage kreira menadžer projekta ili menadžer resursa koji takođe dodeljuje generički ili imenovani resurs projektnom zadatku. Zapisi o dodeli resursa mogu se pregledati na kartici **Dodeljivanje resursa** na stranici **Detalji projekta** u Dataverse. Zapisi o dodeli resursa u Dataverse prave zapise o predviđanju sati u Finance and Operations aplikacijama koje koriste **Entitet za Project Operations integraciju za procene sati (msdyn\_resourceassignments)**.
 
-   ![Integracija procena radne snage](./Media/DW4LaborEstimates.png)
+   ![Integracija procena radne snage.](./Media/DW4LaborEstimates.png)
 
 Dvostruko upisivanje sinhronizuje zapise o dodeli resursa sa pripremnom tabelom (**ProjCDSEstimateHoursImport**), a zatim koristi poslovnu logiku za kreiranje i ažuriranje zapisa prognoze sati (**ProjForecastEmpl**).
 
@@ -40,7 +40,7 @@ Računovođa projekta pregleda zapise o predviđanju sati napravljene u Finance 
 
 Procene troškova kreira menadžer projekta na kartici **Procene troškova** na stranici **Detalji projekta** u Dataverse. Zapisi o proceni troškova čuvaju se u entitetu **Red za procenu** u Dataverse. Ovi zapisi procene imaju klasu transakcije, **Trošak** i sinhronizuju se sa zapisima predviđanja troškova u Finance and Operations aplikacijama koje koriste **Entitet za Project Operations integraciju za procenu troškova (msdyn\_estimatelines)**.
 
-   ![Integracija procena troškova](./Media/DW4ExpenseEstimates.png)
+   ![Integracija procena troškova.](./Media/DW4ExpenseEstimates.png)
 
 Dvostruko upisivanje sinhronizuje zapise o proceni troškova sa pripremnom tabelom, **ProjCDSEstimateExpenseImport**, a zatim koristi poslovnu logiku za kreiranje i ažuriranje zapisa prognoze troškova (**ProjForecastCost**). U linijama za procenu odvojeno se čuvaju podaci o proceni prodaje i proceni troškova. Poslovna logika u Finance and Operations aplikacijama popunjava jedan zapis prognoze troškova koristeći ovaj detalj u tabeli za pripremu.
 
@@ -50,7 +50,7 @@ Računovođa projekta može da pregleda zapise o predviđanju troškova u Financ
 
 Procene materijala kreira menadžer projekta na kartici **Procene materijala** na stranici **Detalji projekta** u Dataverse. Zapisi o proceni materijala čuvaju se u entitetu **Red za procenu** u Dataverse. Ovi zapisi procene imaju klasu transakcije, **Materijal** i sinhronizuju se sa zapisima predviđanja stavki u Finance and Operations aplikacijama koje koriste **Tabelu integracije projekta za procenu materijala (msdyn\_estimatelines)**.
 
-   ![Integracija procena materijala](./Media/DW4MaterialEstimates.png)
+   ![Integracija procena materijala.](./Media/DW4MaterialEstimates.png)
 
 Dvostruko upisivanje sinhronizuje zapise o proceni materijala sa pripremnom tabelom, **ProjForecastSalesImpor**, a zatim koristi poslovnu logiku za kreiranje i ažuriranje zapisa prognoze stavki (**ForecastSales**). U linijama za procenu odvojeno se čuvaju podaci o proceni prodaje i proceni troškova. Poslovna logika u Finance and Operations aplikacijama popunjava jedan zapis prognoze stavki koristeći ovaj detalj u tabeli za pripremu.
 
@@ -60,7 +60,7 @@ Računovođa projekta može da pregleda zapise o predviđanju stavki u Finance a
 
 Stvarni podaci o projektu kreiraju se u Dataverse, na osnovu vremena, troškova, materijala i obračunske aktivnosti. Svi operativni atributi ovih transakcija, uključujući količinu, cenu koštanja, prodajnu cenu i projekat, obuhvaćeni su ovim Dataverse entitetom. Više informacija pogledajte [Stvarni podaci](../actuals/actuals-overview.md). Stvarni zapisi se sinhronizuju sa Finance and Operations aplikacijama koje koriste mapu **Stvarni podaci o Project Operations integraciji (msdyn\_actuals)** za nizvodno računovodstvo.
 
-   ![Integracija stvarnih podataka](./Media/DW4Actuals.png)
+   ![Integracija stvarnih podataka.](./Media/DW4Actuals.png)
 
 Mapa tabele **Stvarni podaci o Project Operations integraciji** sinhronizuje sve zapise iz entiteta **Stvarni podaci** u Dataverse, sa atributom **Preskoči sinhronizaciju (samo za internu upotrebu)** podešen na **Netačno**. Ova vrednost atributa je postavljena u Dataverse automatski kada se zapis kreira. Primeri gde je ovaj atribut postavljen na **Tačno** su:
 

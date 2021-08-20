@@ -7,12 +7,12 @@ ms.topic: article
 ms.prod: ''
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: d0712d9d5dfc6c35ccd07142ff5948f50e6a254c
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: fd98ec360cbd89c9fb7e49bfa11cfffeffca541441e641c973a23c141c922cd2
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: sr-Latn-RS
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "5995503"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6988578"
 ---
 # <a name="provision-a-new-environment"></a>Obezbeđenje novog okruženja
 
@@ -52,12 +52,12 @@ Koristite sledeće korake da omogućite Project Operations automatizovani tok ob
 
 6. Izaberite vrstu okruženja za vašu primenu. Probno vreme zasnovano na pretplati omogućiće vam da primenite CDS okruženje na 30 dana. 
 
-![Podešavanja primene](./media/1DeploymentSettings.png)
+![Podešavanja primene.](./media/1DeploymentSettings.png)
 
 > [!IMPORTANT]
 > Izaberite **Slažem se** da biste prihvatili uslove usluge, a zatim izaberite **Gotovo** da se vratite na podešavanja primene.
 
-![Saglasnost za primenu](./media/2DeploymentConsent.png)
+![Saglasnost za primenu.](./media/2DeploymentConsent.png)
 
 7. Opcionalno – primenite demo podatke na okruženje. Idite na **Napredna podešavanja**, izaberite **Prilagodi konfiguraciju SQL baze podataka** i podesite **Navedite skup podataka za bazu podataka aplikacije** na **Demo**.
 
@@ -67,7 +67,7 @@ Koristite sledeće korake da omogućite Project Operations automatizovani tok ob
 
 9. Da biste potvrdili da se okruženje uspešno primenilo, izaberite **Prijavi se** i prijavite se u okruženje da biste potvrdili.
 
-![Detalji okruženja](./media/3EnvironmentDetails.png)
+![Detalji okruženja.](./media/3EnvironmentDetails.png)
 
 ## <a name="apply-updates-to-the-finance-environment"></a>Primenite ispravke na Finance okruženje
 
@@ -77,19 +77,19 @@ Možda ćete morati da primenite ispravke kvaliteta u svom Finance okruženju da
 
 1. U LCS-u, na stranici **Detalji okruženja**, u odeljku **Dostupne ispravke** izaberite **Prikaži ispravku**.
 
-![Prikaz ispravki](./media/5ViewUpdates.png)
+![Prikaz ispravki.](./media/5ViewUpdates.png)
 
 2. Na stranici **Binarna ažuriranja** izaberite **Sačuvaj paket.**
 
-![Sačuvaj paket](./media/6SavePackage.png)
+![Sačuvaj paket.](./media/6SavePackage.png)
 
 3. Kliknite na **Izaberi sve**, a zatim izaberite **Sačuvaj paket**.
 
-![Pregledajte i sačuvajte ispravke](./media/7ReviewAndSaveUpdates.png)
+![Pregledajte i sačuvajte ispravke.](./media/7ReviewAndSaveUpdates.png)
 
 4. Unesite naziv i opis paketa, a zatim izaberite **Sačuvaj**. U zavisnosti od internet veze, ovaj postupak može potrajati.
 
-![Otpremite paket u biblioteku sredstava](./media/8UploadPackageToAssetsLibrary.png)
+![Otpremite paket u biblioteku sredstava.](./media/8UploadPackageToAssetsLibrary.png)
 
 5. Kada se paket sačuva, izaberite **Gotovo** i sačuvajte ovaj paket u biblioteci sredstava u vašem LCS projektu.
 
@@ -97,15 +97,15 @@ Možda ćete morati da primenite ispravke kvaliteta u svom Finance okruženju da
 
 6. Da biste primenili ispravku, idite na stranicu **Detalji okruženja** u LCS-u i izaberite **Održavanje** > **Primeni ispravke**.
 
-![Održavanje okruženja](./media/9MaintainEnvironment.png)
+![Održavanje okruženja.](./media/9MaintainEnvironment.png)
 
 7. Na listi ispravki izaberite paket koji ste kreirali i izaberite **Primeni**.
 
-![Primena ispravki](./media/10ApplyUpdates.png)
+![Primena ispravki.](./media/10ApplyUpdates.png)
 
 Servisiranje okruženja će potrajati neko vreme. Po završetku, okruženje će se vratiti u primenjeno stanje.
 
-![Primenjeno okruženje](./media/11EnvironmentDeployed.png)
+![Primenjeno okruženje.](./media/11EnvironmentDeployed.png)
 
 ## <a name="establish-a-dual-write-connection"></a>Uspostavite vezu sa dvostrukim upisivanjem 
 
@@ -113,41 +113,41 @@ Servisiranje okruženja će potrajati neko vreme. Po završetku, okruženje će 
 2. U odeljku **Common Data Service informacije o okruženju**, izaberite **Poveži sa uslugom CDS za aplikacije**.
 3. Kada se povezivanje završi, ponovo izaberite **Poveži sa uslugom CDS za aplikacije**. Bićete preusmereni na dvostruko upisivanje u usluzi Finance.
 
-![Povezivanje sa uslugom CDS](./media/12LinktoCDS.png)
+![Povezivanje sa uslugom CDS.](./media/12LinktoCDS.png)
 
 4. Izaberite **Primeni rešenje** za pristup entitetima koji će biti mapirani u integraciji.
 
-![Primena rešenja](./media/13ApplySolutions.png)
+![Primena rešenja.](./media/13ApplySolutions.png)
 
 5. Izaberite oba rešenja, **Dynamics 365 Finance and Operations mapa entiteta za dvostruko pisanje** i **Dynamics 365 Project Operations mape entiteta za dvostruko pisanje**, a zatim izaberite **Primeni**.
 
-![Potvrda rešenja](./media/14ConfirmSolutions.png)
+![Potvrda rešenja.](./media/14ConfirmSolutions.png)
 
 Kada primenite rešenja, entiteti dvostrukog upisivanja se primenjuju na okruženje.
 
-![Primena rešenja](./media/15ApplyingSolutions.png)
+![Primena rešenja.](./media/15ApplyingSolutions.png)
 
 Kada se entiteti primene, sva raspoloživa mapiranja se navode u okruženju.
 
-![Mape za dvostruko upisivanje](./media/15DWMappings.png)
+![Mape za dvostruko upisivanje.](./media/15DWMappings.png)
 
 ## <a name="refresh-the-data-entities-after-the-update"></a>Osvežite entitete podataka nakon ispravke
 
 1. U usluzi Finance idite na radni prostor **Upravljanje podacima**.
 
-![Radni prostor za upravljanje podacima](./media/16DataManagement.png)
+![Radni prostor za upravljanje podacima.](./media/16DataManagement.png)
 
 2. Izaberite pločicu **Parametri radnog okvira**.
 
-![Parametri radnog okvira](./media/17FrameworkParameters.png)
+![Parametri radnog okvira.](./media/17FrameworkParameters.png)
 
 3. Na stranici **Podešavanja entiteta**, izaberite **Osveži listu entiteta**.
 
-![Osveži listu entiteta](./media/18RefreshEntityList.png)
+![Osveži listu entiteta.](./media/18RefreshEntityList.png)
 
 Osvežavanje će trajati približno 20 minuta. Dobićete upozorenje kada se završi.
 
-![Potvrda osvežavanja](./media/19RefreshConfirmation.png)
+![Potvrda osvežavanja.](./media/19RefreshConfirmation.png)
 
 ## <a name="update-security-settings-on-project-operations-on-dataverse"></a>Ažuriranje bezbedonosnih podešavanja u usluzi Project Operations za Dataverse
 
@@ -188,17 +188,17 @@ Osvežavanje će trajati približno 20 minuta. Dobićete upozorenje kada se zavr
 4. Da biste osvežili entitet, izaberite naziv mape, a zatim izaberite **Osveži entitete**. 
 
 
-![Osvežavanje mape](./media/20RefreshMapping.png)
+![Osvežavanje mape.](./media/20RefreshMapping.png)
 
 5. Kada se osvežavanje završi, pokrenite mapu. Pre nego što omogućite sledeću mapu, proverite da li je mapa u tabeli u stanju **Pokrenuta**. Pokretanje mapa sa većim brojem preduslova može potrajati.
 
 Da biste pokrenuli mapu sa preduslovima, omogućite preklopno dugme **Prikaži povezane mape entiteta**. Ako tabela pokazuje da **Početna sinhronizacija preduslova** ima vrednost **Ne**, proverite da li je zastavica **Početna sinhronizacija** **isključena** u svim mapama preduslova pre nego što je pokrenete.
 
-![Pokretanje mape](./media/21RunMap.png)
+![Pokretanje mape.](./media/21RunMap.png)
 
 6. Potvrdite da su sve mape povezane sa projektom u aktivnom stanju.
 
-![Sve mape su pokrenute](./media/22AllMapsRunning.png)
+![Sve mape su pokrenute.](./media/22AllMapsRunning.png)
 
 
 ## <a name="apply-configuration-data-in-cds-for-project-operations-optional"></a>Primena podataka o konfiguraciji u usluzi CDS za Project Operations (opcionalno)

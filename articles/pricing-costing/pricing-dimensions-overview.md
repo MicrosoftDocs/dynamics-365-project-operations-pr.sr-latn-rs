@@ -8,12 +8,12 @@ ms.prod: ''
 ms.reviewer: kfend
 ms.author: rumant
 ms.custom: intro-internal
-ms.openlocfilehash: e8d62dcf9975e5427926210a881dec2c256f1b8b
-ms.sourcegitcommit: 0fafe022731f0e1e8693382ff906e3f8541d34ca
+ms.openlocfilehash: 4b3b71c0b64a24f6914c70c4383eee654e7d4947ececaf9b4e6394f45a081a4c
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: sr-Latn-RS
-ms.lasthandoff: 07/07/2021
-ms.locfileid: "6368493"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7001988"
 ---
 # <a name="pricing-dimensions-overview"></a>Pregled dimenzija za određivanje cena
 
@@ -33,7 +33,7 @@ Zbog toga postoje dve vrste vrednosti dimenzija za određivanje cena koje su dos
 
 Dynamics 365 Project Operations obavlja isporuku pomoću podrazumevanog skupa dimenzija za određivanje cena. Ove dimenzije za određivanje cena možete da ih vidite tako što ćete otići na **Project Operations** > **Parametri**. U zapisu parametra, na kartici **Dimenzije za određivanje cena zasnovane na iznosima** proverite da li uloga **msdyn_resourcecategory** i organizaciona jedinica resursa **msdyn_organizationalunit** imaju polja **Primenljivo na prodaju** i **Primenljivo na troškove** podešena na **Da**. Kada su ova polja omogućena, možete da podesite cenu i trošak za svaku kombinaciju uloge i organizacione jedinice.
 
-![Snimak ekrana Project Service parametara sa markiranom stavkom „Primenljivo na prodaju“](media/PS-OOB-parameters.png)
+![Snimak ekrana Project Service parametara sa markiranom stavkom „Primenljivo na prodaju“.](media/PS-OOB-parameters.png)
 
 Ako je potrebno da odredite cenu ili troškove resursa pomoću dodatnih atributa, možete da kreirate prilagođena polja, entitete i dimenzije. Pogledajte sledeći odeljak za više informacija. 
   

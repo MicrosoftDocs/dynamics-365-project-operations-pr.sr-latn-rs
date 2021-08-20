@@ -16,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: f4f93ee0c0bdb9fc6a9a3c6a75f6c3d178766d0b
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: ac815eb82114c00af712a7ae76e43f28841ac5023be81f97718dc7ce529e1d34
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: sr-Latn-RS
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "6009093"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6987273"
 ---
 # <a name="user-guide-for-project-resource-hub"></a>Vodič za korisnike za čvorište resursa za projekat
 
@@ -49,31 +49,31 @@ Pre nego što možete da počnete sa korišćenjem aplikacije čvorišta resursa
 [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Instaliranje sistema Dynamics 365 for phones i for tablets](/dynamics365/mobile-app/install-dynamics-365-for-phones-and-tablets)
 
 ## <a name="basic-navigation"></a>Osnovna navigacija
-1.  Kada se prijavite u aplikaciju za mobilne uređaje, videćete stranicu MyApps sa listom aplikacija kojima možete da pristupite. 
+1.  Kada ste prijavite u aplikaciju za mobilne uređaje, videćete stranicu MyApps sa listom aplikacija kojima možete da pristupite. 
 2.  Izaberite **Čvorište resursa za projekat**.
 
-![Odaberite aplikaciju](media/chooseApp_1.png "Odaberite aplikaciju")
+![Izaberite aplikaciju.](media/chooseApp_1.png "Odaberite aplikaciju")
 
 **Traka za navigaciju**
 
-Koristite traku za navigaciju da biste došli do svoje oblasti posla, kreirali novi zapis, pretraživali sadržaj ili obavljali druge zadatke. Da biste pristupili većem broju komandi, dodirnite ![Dugme „Još“](media/MoreButton.png "Dugme „Još“")
+Koristite traku za navigaciju da biste došli do svoje oblasti posla, kreirali novi zapis, pretraživali sadržaj ili obavljali druge zadatke. Da biste pristupili većem broju komandi, dodirnite ![Dugme „Još“.](media/MoreButton.png "Dugme „Još“")
 
-![Traka za navigaciju](media/NavBar_2.png "Traka za navigaciju")
+![Traka za navigaciju.](media/NavBar_2.png "Traka za navigaciju")
 
 **Omiljene stavke i nedavno korišćeni zapisi**
 
 Odeljci „Omiljene stavke“ i „Nedavno korišćeno“ nude brz pristup zapisima, prikazima i kontrolnim tablama. 
 
-- Da biste pristupili ovim odeljcima, dodirnite dugme **Meni** ![Dugme „Meni“](media/MenuButton.png "Dugme menija") na traci za navigaciju, a zatim dodirnite dugme **Omiljeni i nedavni zapisi** ![Dugme „Omiljeni“](media/FavButton.png "Dugme Omiljeni").
+- Da biste pristupili ovim odeljcima, dodirnite dugme **Meni** ![Dugme Meni.](media/MenuButton.png "Dugme menija") na traci za navigaciju, a zatim dodirnite dugme **Omiljeni i nedavni zapisi** ![Dugme Omiljeni](media/FavButton.png "Dugme Omiljeni").
 
 - Da biste zakačili stavku kao omiljenu, sa liste stavki **Nedavno korišćeno** dodirnite čiodu. Tako ćete zakačiti stavku i premestiti je u omiljene stavke.
 
-  ![Omiljene i nedavne stavke](media/Favs_3.png "Omiljene i nedavne stavke")
+  ![Omiljene i nedavne stavke.](media/Favs_3.png "Omiljene i nedavne stavke")
  
 ## <a name="enter-time"></a>Unesite vreme
 Unesite svoje časove bar sedmično – ili u onoliko često koliko to menadžeri zahtevaju – kako biste obezbedili da vaši klijenti ispravno dobijaju fakture i kredit.
 
-1. Dodirnite dugme menija ![Dugme „Meni“](media/MenuButton.png "Dugme menija"), a zatim dodirnite **Stavke vremena**. To će prikazati vaš kalendar.
+1. Dodirnite dugme menija ![Dugme Meni.](media/MenuButton.png "Dugme menija") , a zatim dodirnite stavku **Vremenski unosi**. To će prikazati vaš kalendar.
 
 2. Da biste videli kalendar za prethodnu ili sledeću sedmicu, dodirnite dugme **Prethodno** ili **Sledeće**. Dodirnite dugme **Danas** da biste se vratili na trenutnu sedmicu.
 

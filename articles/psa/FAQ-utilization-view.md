@@ -16,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: e1c123854209b3cb5c310e3bbcb242c9219279a8
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: 32dba5acd95c1d192556153240ebd51343112be53aa3db93e5e6f127c2d960e9
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: sr-Latn-RS
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "5992851"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7007163"
 ---
 # <a name="view-chargeable-utilization-for-resources"></a>Prikaz naplative ukupne iskorišćenosti resursa
 
@@ -29,7 +29,7 @@ ms.locfileid: "5992851"
  
 **Prikaz ukupne iskorišćenosti** na stranici **Ukupna iskorišćenost resursa u aplikaciji Project Service** prikazuje naplativu ukupnu iskorišćenost svakog resursa koji može da se rezerviše. Pošto je prikaz zasnovan na tabeli rasporeda, pronaćićete dosta istih funkcija.
 
-> ![Snimak ekrana prikaza ukupne iskorišćenosti](media/FAQ-utilization-1.png)
+> ![Snimak ekrana prikaza ukupne iskorišćenosti.](media/FAQ-utilization-1.png)
  
 
 Izračunavanje naplative ukupne iskorišćenosti funkcioniše na sledeći način:
@@ -48,7 +48,7 @@ Ciljna ukupna iskorišćenost može biti podešena za podrazumevanu ulogu resurs
 2. Izaberite resurs da biste otvorili zapis. 
 3. Na kartici **Project Service** možete podesiti ciljnu ukupnu iskorišćenost resursa.
 
-> ![Snimak ekrana korišćenja kartice Project Service za podešavanje ciljne ukupne iskorišćenosti](media/FAQ-utilization-2.png)
+> ![Snimak ekrana korišćenja kartice Project Service za podešavanje ciljne ukupne iskorišćenosti.](media/FAQ-utilization-2.png)
  
 ## <a name="set-target-utilization-on-a-role"></a>Podešavanje ciljne ukupne iskorišćenosti za ulogu
 
@@ -56,7 +56,7 @@ Ciljna ukupna iskorišćenost može biti podešena za podrazumevanu ulogu resurs
 2. Izaberite ulogu i otvorite zapis. 
 3. Podesite ciljnu ukupnu iskorišćenost za ulogu.
 
-> ![Snimak ekrana korišćenja uloga resursa za podešavanje ciljne ukupne iskorišćenosti](media/FAQ-utilization-3.png)
+> ![Snimak ekrana korišćenja uloga resursa za podešavanje ciljne ukupne iskorišćenosti.](media/FAQ-utilization-3.png)
  
 ## <a name="calculate-chargeable-utilization-for-a-resource"></a>Izračunavanje naplative ukupne iskorišćenosti resursa
 

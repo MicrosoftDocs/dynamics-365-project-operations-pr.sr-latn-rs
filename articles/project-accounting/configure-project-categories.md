@@ -6,12 +6,12 @@ ms.date: 10/01/2020
 ms.topic: article
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: d82302f12ba75a92f2de0e9746ad7e61ce0cdc6b
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: cea43422469adf12f336f7686814a8199717090c18804d3d0a7509452349566e
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: sr-Latn-RS
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "5995188"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6997128"
 ---
 # <a name="configure-project-categories"></a>Konfigurisanje kategorija projekta
 
@@ -23,7 +23,7 @@ Sledeći dijagram ilustruje korelaciju između kategorija transakcija, deljenih 
 
 Kategorije transakcija su osnovno grupisanje za projektne transakcije. Unutar te grupacije postoji skup deljenih kategorija koje se mogu deliti između aplikacija i modula. Ulazeći još dalje u detalje, kategorije projekata su najosnovniji nivo kategorija. Kategorije projekata su specifične za pravno lice, modul i aplikaciju.
 
-![Korelacija između kategorija transakcija, deljenih kategorija i kategorija projekata](media/project-categories.png)
+![Korelacija između kategorija transakcija, deljenih kategorija i kategorija projekata.](media/project-categories.png)
 
 ## <a name="transaction-categories"></a>Kategorije transakcija
 

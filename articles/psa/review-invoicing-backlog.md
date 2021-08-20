@@ -14,12 +14,12 @@ search.audienceType:
 search.app:
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: cec09ca39563e3faf0f3b2c10cf9bde3feb020b0
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: fb2f267c626126302a6afb6adba6070dedce4b030abc761e32b23df174d49ecb
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: sr-Latn-RS
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "6008553"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7006983"
 ---
 # <a name="review-the-invoicing-backlog-on-projects-and-project-contracts"></a>Pregled preostalog fakturiranja za projekte i ugovore o projektima
 
@@ -40,7 +40,7 @@ Stvarne vrednosti nenaplaćene prodaje predstavljaju preostalu naplatu i njihov 
 
 Da biste pregledali preostale naplate za vreme i materijale, idite na **Prodaja** \> **Naplata** \> **Preostala naplata vremena i materijala**. Odaberite sve stvarne vrednosti nenaplaćene prodaje koje su spremne za fakturisanje, a zatim izaberite **Spremno za fakturisanje**. Status naplate ovih stvarnih vrednosti je promenjen u **Spremno za fakturisanje**.
 
-![Preostala naplata vremena i materijala](media/TMBacklog.png)
+![Neizvršavanje naplate vremena i materijala.](media/TMBacklog.png)
 
 ## <a name="review-the-product-billing-backlog"></a>Pregled preostale naplate za proizvod
 
@@ -48,7 +48,7 @@ U aplikaciji PSA, kada projektni ugovor ima predmete ugovora zasnovane na proizv
 
 Da biste pregledali preostalu naplatu za proizvod, idite na **Prodaja** \> **Naplata** \> **Preostala naplata za proizvod**. Odaberite sve predmete ugovora zasnovane na proizvodima koji su spremni za fakturisanje, a zatim izaberite **Spremno za fakturisanje**. Status naplate ovih stavki je promenjen u **Spremno za fakturisanje**.
 
-![Preostala naplata za proizvod](media/ProductBacklog.png)
+![Neizvršavanje naplate proizvoda.](media/ProductBacklog.png)
 
 ## <a name="review-billing-milestones-on-fixed-price-contracts"></a>Preged kontrolnih tačaka naplate u ugovorima sa fiksnom cenom
 
@@ -56,7 +56,7 @@ Svaki predmet ugovora za projekat koji koristi način naplate fiksne cene mora d
 
 Da biste pregledali kontrolne tačke naplate, idite na **Prodaja** \> **Naplata** \> **Kontrolne tačke sa fiksnom cenom**. Odaberite kontrolne tačke koje su spremne za fakturisanje, a zatim izaberite **Spremno za fakturisanje**. Status naplate ovih kontrolnih tačaka je promenjen u **Spremno za fakturisanje**.
 
-![Kontrolne tačke sa fiksnom cenom](media/FPBacklog.png)
+![Kontrolne tačke fiksne cene.](media/FPBacklog.png)
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

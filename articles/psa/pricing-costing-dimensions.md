@@ -16,12 +16,12 @@ search.audienceType:
 search.app:
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 5c8c28839f5e7b3259afbea4ab400d0c4fca95fd
-ms.sourcegitcommit: 0fafe022731f0e1e8693382ff906e3f8541d34ca
+ms.openlocfilehash: d17939777a6670bafc41b372adc922f8bdcc0411f3fdb399e7c9ab01eca87dd0
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: sr-Latn-RS
-ms.lasthandoff: 07/07/2021
-ms.locfileid: "6368898"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6998478"
 ---
 # <a name="pricing-and-costing-dimensions-home-page"></a>Matična stranica za dimenzije određivanja cena i obračuna troškova
 
@@ -41,7 +41,7 @@ S obzirom na tipičnu prirodu ovih atributa posla i ljudi koji su potrebni za ob
 
 PSA obavlja isporuku pomoću podrazumevanog skup dimenzija za određivanje cena. Možete da ih vidite tako što ćete otići na **Project Service** > **Parametri**. U zapisu parametra, na kartici **Dimenzije za određivanje cena zasnovane na iznosima** proverite da li uloga **msdyn_resourcecategory** i organizaciona jedinica resursa **msdyn_organizationalunit** imaju polja **Primenljivo na prodaju** i **Primenljivo na troškove** podešena na **Da**. Ovo će vam omogućiti podešavanje cene i troška za svaku kombinaciju uloge i organizacione jedinice.
 
-![Snimak ekrana Project Service parametara sa markiranom stavkom „Primenljivo na prodaju“](media/PS-OOB-parameters.png)
+![Snimak ekrana Project Service parametara sa markiranom stavkom „Primenljivo na prodaju“.](media/PS-OOB-parameters.png)
 
 > [!IMPORTANT]
 > Ako ste koristili unapred definisana polja uloge i organizacionih jedinica kao dimenzije za određivanje cena pre verzije 3 aplikacije PSA, neće biti nikakvih primetnih promena. Možete da nastavite da koristite Project Service kao i obično. 

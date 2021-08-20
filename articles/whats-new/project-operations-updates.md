@@ -2,17 +2,17 @@
 title: Ispravke usluge Project Operations
 description: Ova tema pruža informacije o objavljenim verzijama usluge Dynamics 365 Project Operations.
 author: sigitac
-ms.date: 06/07/2021
+ms.date: 08/09/2021
 ms.topic: article
 ms.prod: ''
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 951ce2f277c0c2c447ee5b2e7add4febbc8486d9
-ms.sourcegitcommit: 3abf1e67938d91bd826b025ae3187cd313f556b9
+ms.openlocfilehash: a7b398bae07956f4c3de15ec53a860fca15422dd9f2a977086669ebf2fcdb240
+ms.sourcegitcommit: 17353ff3f4aeb42a64bac5e1db000ac6def91d07
 ms.translationtype: HT
 ms.contentlocale: sr-Latn-RS
-ms.lasthandoff: 07/07/2021
-ms.locfileid: "6433580"
+ms.lasthandoff: 08/09/2021
+ms.locfileid: "7024800"
 ---
 # <a name="project-operations-updates"></a>Ispravke usluge Project Operations
 
@@ -36,7 +36,7 @@ Dynamics 365 Project Operations sastoji se od dve komponente:
 
 | Project Operations u Dataverse okruženju | Upravljanje projektima i računovodstvo u okruženjima Finance and Operations aplikacija | 
 | --- | --- |
-| 4.12.0.148 | 10.0.20 |
+| 4.13.0.152 | 10.0.20 |
 
 Za Project Operations scenario resursa / bez zaliha, preporučujemo upotrebu verzije orkestracije dvostrukog upisivanja verzije 2.2.2.83 ili novije.
 
@@ -45,27 +45,29 @@ Za Project Operations scenario resursa / bez zaliha, preporučujemo upotrebu ver
 Ispravke za Project Operations u Dataverse okruženju dostupne su mesečno. 
 
 | Stanica | Region | Broj trenutne verzije | Automatska ažuriranja za jednostavnu primenu | Automatska ažuriranja za primenu za resurse / bez zaliha | Broj sledeće verzije | Datum opšte dostupnosti sledeće verzije |
-|-----------|-----------------------|-----------------|--------------|---------------------|---------------------|---------------------|
-| Stanica 1 |   &nbsp;              |    &nbsp;       | &nbsp;       |      &nbsp;         |      &nbsp;         |      &nbsp;         |
-|   &nbsp;  | Prvo izdanje         |  4.12.0.148     | Dovršite     | 9. jul 2021.          | TBD                 | 6. avgust 2021.        |
-| Stanica 2 |   &nbsp;              |    &nbsp;       | &nbsp;       |      &nbsp;         |      &nbsp;         |      &nbsp;         |
-|   &nbsp;  | Južna Amerika         |  4.12.0.148     | 9. jul 2021.   | 16. jul 2021.          | TBD                 | 6. avgust 2021.        |
-|    &nbsp; | Kanada                |  4.12.0.148     | 9. jul 2021.   | 16. jul 2021.          | TBD                 | 6. avgust 2021.        |
-|   &nbsp;  | Indija                 |  4.12.0.148     | 9. jul 2021.   | 16. jul 2021.          | TBD                 | 6. avgust 2021.        |
-|   &nbsp;  | Francuska                |  4.12.0.148     | 9. jul 2021.   | 16. jul 2021.          | TBD                 | 6. avgust 2021.        |
-|   &nbsp;  | Ujedinjeni Arapski Emirati  |  4.12.0.148     | 9. jul 2021.   | 16. jul 2021.          | TBD                 | 6. avgust 2021.        |
-|   &nbsp;  | Južnoafrčka Republika          |  4.12.0.148     | 9. jul 2021.   | 16. jul 2021.          | TBD                 | 6. avgust 2021.        |
-| Stanica 3 |      &nbsp;           |     &nbsp;      |     &nbsp;   |      &nbsp;         |      &nbsp;         |      &nbsp;         |
-|   &nbsp;  | Japan                 |  4.11.0.164     | Dovršite     | Dovršite            | 4.12.0.148          | 9. jul 2021.          |
-|   &nbsp;  | Azija – Pacifik          |  4.11.0.164     | Dovršite     | Dovršite            | 4.12.0.148          | 9. jul 2021.          |
-|   &nbsp;  | Velika Britanija         |  4.11.0.164     | Dovršite     | Dovršite            | 4.12.0.148          | 9. jul 2021.          |
-|   &nbsp;  | Okeanija               |  4.11.0.164     | Dovršite     | Dovršite            | 4.12.0.148          | 9. jul 2021.          |
-| Stanica 4 |     &nbsp;            |     &nbsp;      |     &nbsp;   |      &nbsp;         |      &nbsp;         |      &nbsp;         |
-|   &nbsp;  | Evropa                |  4.11.0.164     | Dovršite     | Dovršite            | 4.12.0.148          | 16. jul 2021.          |
-| Stanica 5 |     &nbsp;            |     &nbsp;      |     &nbsp;   |      &nbsp;         |      &nbsp;         |      &nbsp;         |
-|   &nbsp;  | Severna Amerika         |  4.11.0.164     | Dovršite     | 9. jul 2021.          | 4.12.0.148          | 23. jul 2021.          |
+|-----------|-----------------------|-----------------|--------------------|---------------------|---------------------|---------------------|
+| Stanica 1 |   &nbsp;              |    &nbsp;       | &nbsp;             |      &nbsp;         |      &nbsp;         |      &nbsp;         |
+|   &nbsp;  | Prvo izdanje         |  4.13.0.152     | Dovršite           | 13. avgust 2021.     | TBD                 | 27. avgust 2021.     |
+| Stanica 2 |   &nbsp;              |    &nbsp;       | &nbsp;             |      &nbsp;         |      &nbsp;         |      &nbsp;         |
+|   &nbsp;  | Južna Amerika         |  4.13.0.152     | 13. avgust 2021.    | 20. avgust 2021.     | TBD                 | 27. avgust 2021.     |
+|    &nbsp; | Kanada                |  4.13.0.152     | 13. avgust 2021.    | 20. avgust 2021.     | TBD                 | 27. avgust 2021.     |
+|   &nbsp;  | Indija                 |  4.13.0.152     | 13. avgust 2021.    | 20. avgust 2021.     | TBD                 | 27. avgust 2021.     |
+|   &nbsp;  | Francuska                |  4.13.0.152     | 13. avgust 2021.    | 20. avgust 2021.     | TBD                 | 27. avgust 2021.     |
+|   &nbsp;  | Ujedinjeni Arapski Emirati  |  4.13.0.152     | 13. avgust 2021.    | 20. avgust 2021.     | TBD                 | 27. avgust 2021.     |
+|   &nbsp;  | Južnoafrčka Republika          |  4.13.0.152     | 13. avgust 2021.    | 20. avgust 2021.     | TBD                 | 27. avgust 2021.     |
+| Stanica 3 |      &nbsp;           |     &nbsp;      |     &nbsp;         |      &nbsp;         |      &nbsp;         |      &nbsp;         |
+|   &nbsp;  | Japan                 |  4.12.0.152     | Dovršeno*          | Dovršite            | 4.13.0.152          | 13. avgust 2021.     |
+|   &nbsp;  | Azija – Pacifik          |  4.12.0.152     | Dovršeno*          | Dovršite            | 4.13.0.152          | 13. avgust 2021.     |
+|   &nbsp;  | Velika Britanija         |  4.12.0.152     | Dovršeno*          | Dovršite            | 4.13.0.152          | 13. avgust 2021.     |
+|   &nbsp;  | Okeanija               |  4.12.0.152     | Dovršeno*          | Dovršite            | 4.13.0.152          | 13. avgust 2021.     |
+| Stanica 4 |     &nbsp;            |     &nbsp;      |     &nbsp;         |      &nbsp;         |      &nbsp;         |      &nbsp;         |
+|   &nbsp;  | Evropa                |  4.12.0.152     | Dovršite           | Dovršite            | 4.13.0.152          | 20. avgust 2021.     |
+| Stanica 5 |     &nbsp;            |     &nbsp;      |     &nbsp;         |      &nbsp;         |      &nbsp;         |      &nbsp;         |
+|   &nbsp;  | Severna Amerika         |  4.12.0.152     | 13. avgust 2021.    | 20. avgust 2021.     | 4.13.0.152          | 27. avgust 2021.     |
 
 
+> [!NOTE]
+> Automatska primena je dovršena za verziju 4.12.0.148. Za ažuriranu verziju izdanja od jula 2021. nije planirana automatska primena.
 
 ## <a name="release-schedule-for-project-management-and-accounting-in-the-finance-and-operations-apps-environment"></a>Raspored izdavanja za upravljanje projektima i računovodstvo u okruženju Finance and Operations aplikacija
 
@@ -73,16 +75,16 @@ Ispravke za upravljanje projektima i računovodstvo objavljuju se osam puta godi
 
 |          Podržana verzija          | Dostupnosti verzije za pregled (PEAP) | Opšte dostupno (samo-ažuriranje) | Datum početka proizvodnje automatskih ispravki (putem podešavanja ažuriranja LCS) |   Kraj perioda korišćenja   |
 |:-------------------------:|:---------------------------:|:---------------------------------:|:--------------------------------------------------------------------:|:------------------:|
+|          10.0.20          |         28. maj 2021.        |           16. jul 2021.           |                             30. jul 2021.                             |  22. oktobar 2021.  |
 |          10.0.19          |        23. april 2021.       |            18. jun 2021.           |                             2. jul 2021.                             | 17. septembar 2021. |
-|          10.0.18          |        5. mart 2021.        |           16. april 2021.          |                            30. april 2021.                            |    16. jul 2021.   |
+
 
 
 Ciljani datumi izdavanja se mogu promeniti. Više informacija potražite u članku [Dostupnost ispravke usluge](/dynamics365/fin-ops-core/fin-ops/get-started/public-preview-releases?toc=%2fdynamics365%2ffinance%2ftoc.json).
 
 |          Ciljana verzija          | Dostupnosti verzije za pregled (PEAP) | Opšte dostupno (samo-ažuriranje) | Datum početka proizvodnje automatskih ispravki (putem podešavanja ažuriranja LCS) |   Kraj perioda korišćenja   |
 |:-------------------------:|:---------------------------:|:---------------------------------:|:--------------------------------------------------------------------:|:------------------:|
-|          10.0.20          |         28. maj 2021.        |           16. jul 2021.           |                             30. jul 2021.                             |  22. oktobar 2021.  |
 |          10.0.21          |         02. avgust 2021.     |           17. septembar 2021.      |                             1. oktobar 2021.                           |  10. decembar 2021.  |
-
+|          10.0.22          |      3. septembar 2021.      |          22. oktobar 2021.         |                           5. novembar 2021.                           |  14. januar 2022.  |
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

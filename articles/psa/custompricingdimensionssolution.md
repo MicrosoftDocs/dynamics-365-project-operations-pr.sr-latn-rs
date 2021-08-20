@@ -15,12 +15,12 @@ search.audienceType:
 search.app:
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: ae7f22b9cb092e956d0f1eaf1f1997c8e97392f4
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: 4dea80d8e4645675d3e89e846532ca7c0f292faa328c45938941c50dc15486fc
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: sr-Latn-RS
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "6012333"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6995283"
 ---
 # <a name="create-custom-solutions-for-pricing-dimensions"></a>Kreiranje prilagođenih rešenja za dimenzije cene
 
@@ -32,7 +32,7 @@ ms.locfileid: "6012333"
 1. Izaberite **Podešavanja** > **Rešenja**, a zatim izaberite **Novo**. 
 2. Imenujte rešenje, **\<your organization name> dimenzije za određivanje cena**, unesite preostale zahtevane informacije, a zatim izaberite **Sačuvaj**.
 
-> ![Kreiranje prilagođenog rešenja za dimenzije za određivanje cena](media/Creation-of-custom-pricing-dimension-solution.PNG)
+> ![Kreiranje prilagođenog rešenja za dimenzije za određivanje cena.](media/Creation-of-custom-pricing-dimension-solution.PNG)
   
 ## <a name="add-all-required-entities-and-related-components-to-the-pricing-dimension-solution"></a>Dodajte sve zahtevane entitete i srodne komponente u rešenje za dimenzije cene
 Moraćete da dodate sledeće Project Service entitete u rešenje za određivanje cena. Dovršite korake u ovoj proceduri da biste napravili neke važne promene šema u rešenju za određivanje cena, tako da entiteti postanu svesni novih dimenzija cene.
@@ -54,16 +54,16 @@ Moraćete da dodate sledeće Project Service entitete u rešenje za određivanje
 - Cena uloge 
 - Stavka vremena 
 
-> ![Dodavanje postojećih entiteta u rešenje za dimenzije određivanja cena](media/Existing-entities-to-PD-solution.png)
+> ![Dodavanje postojećih entiteta u rešenje za dimenzije određivanja cena.](media/Existing-entities-to-PD-solution.png)
 
-> ![Izaberite komponente rešenja](media/Dimension-Components.png)
+> ![Izaberite komponente rešenja.](media/Dimension-Components.png)
 
 > [!NOTE]
 > Obavezno uključite sve obrasce i prikaze za svaki od izabranih entiteta.
 
 4. Kada se od vas zatraži da uključite zavisne entitete za izabrane entitete, izaberite **Ne**.
 
-> ![Nemojte da uključujete sve povezane komponente](media/Do-not-include-required.png)
+> ![Nemojte da uključujete sve povezane komponente.](media/Do-not-include-required.png)
 
 
 

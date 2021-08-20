@@ -6,12 +6,12 @@ ms.date: 11/09/2020
 ms.topic: article
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 86f4cd2c26ebfca621d1b226b571d220d3b2441e
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: 753f0c4496bafd43d7e4a399cedeb355c2163c7ce56d932b2c786d5f2e672b6b
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: sr-Latn-RS
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "6010353"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6992223"
 ---
 # <a name="create-a-solution-for-custom-pricing-dimensions"></a>Kreiranje rešenja za prilagođene dimenzije određivanja cena
 
@@ -26,7 +26,7 @@ ms.locfileid: "6010353"
 2.  Imenujte rešenje, *<your organization name> dimenzije za određivanje cena*.
 3. Unesite preostale potrebne informacije, a zatim izaberite **Sačuvaj**.
 
-  ![Kreiranje rešenja za prilagođene dimenzije za određivanje cena](./media/Creation-of-custom-pricing-dimension-solution.png)
+  ![Kreiranje rešenja za prilagođene dimenzije za određivanje cena.](./media/Creation-of-custom-pricing-dimension-solution.png)
  
 ## <a name="add-all-required-entities-and-related-components-to-the-pricing-dimension-solution"></a>Dodajte sve zahtevane entitete i srodne komponente u rešenje za dimenzije cene
 
@@ -49,19 +49,19 @@ Dodajte sledeće Project Service entitete u svoje rešenje za određivanje cena 
    - **Cena uloge**
    - **Stavka vremena**
  
-   ![Dodavanje rešenja sa prilagođenom dimenzijom određivanja cena postojećim entitetima](./media/Existing-entities-to-PD-solution.png)
+   ![Dodavanje rešenja sa prilagođenom dimenzijom određivanja cena postojećim entitetima.](./media/Existing-entities-to-PD-solution.png)
  
  4. Za svaki entitet, pregledajte komponente koje se dodaju i konačnu listu sredstava entiteta za svaki entitet. 
 
    >[!NOTE]
    > Uključite sve obrasce i prikaze za svaki od izabranih entiteta.
 
-  ![Dodati entiteti](./media/solution-component-selection.png)
+  ![Dodati entiteti.](./media/solution-component-selection.png)
 
 
 5.  Kada se od vas zatraži da uključite bilo koji zavisni entitet za izabrane entitete, izaberite **Ne, ne uključuj obavezne komponente.**
 
-    ![Uključivanje zavisnih entiteta](./media/Do-not-include-required.png)
+    ![Uključivanje zavisnih entiteta.](./media/Do-not-include-required.png)
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

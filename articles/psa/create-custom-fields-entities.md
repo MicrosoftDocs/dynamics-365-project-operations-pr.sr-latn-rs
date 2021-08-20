@@ -15,12 +15,12 @@ search.audienceType:
 search.app:
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 3d838bde8a3d7cbc15e06fb3289924468c284a8a
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: f501bcc106a296f35bba996b6ab3a8b758cefb1926033faf04ee23c42bc94d39
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: sr-Latn-RS
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "5998968"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6992448"
 ---
 # <a name="create-custom-fields-and-entities"></a>Kreiranje prilagođenih polja i entiteta 
 
@@ -43,7 +43,7 @@ Dimenzija određivanja cena može biti skup opcija ili entitet. I jedno i drugo 
 2. U levom oknu za navigaciju istraživača rešenja izaberite **Entiteti**.
 3. Kliknite na **Novi** da biste kreirali novi entitet pod nazivom **Standardna pozicija**. Unesite preostale potrebne informacije, a zatim kliknite na **Sačuvaj**.
 
-> ![Definicija standardnog entiteta naziva](media/Standard-Title-entity-definition.png)
+> ![Definicija standardnog entiteta naziva.](media/Standard-Title-entity-definition.png)
 
 
 ### <a name="option-set-based-dimensions"></a>Dimenzije zasnovane na skupu opcija 
@@ -54,9 +54,9 @@ Možete kreirati dve dimenzije zasnovane na skupovima opcija. Pomoću polja **Ra
 2. U levom oknu za navigaciju istraživača rešenja izaberite **Skupovi opcija**. 
 3. Kliknite na **Novo** da biste kreirali novi skup opcija, unesite preostale zahtevane informacije, a zatim kliknite na **Sačuvaj**.
 
-> ![Dimenzija određivanja cena zasnovana na skupu opcija pod nazivom Radna lokacija resursa ](media/Option-set-PD-called-Resource-Work-Location.png)
+> ![Dimenzija određivanja cena zasnovana na skupu opcija pod nazivom Radna lokacija resursa.](media/Option-set-PD-called-Resource-Work-Location.png)
 
-> ![Dimenzija određivanja cena zasnovana na skupu opcija pod nazivom Radno vreme resursa ](media/Option-set-PD-called-Resource-Work-Hours.PNG)
+> ![Dimenzija određivanja cena zasnovana na skupu opcija pod nazivom Radno vreme resursa.](media/Option-set-PD-called-Resource-Work-Hours.PNG)
 
 
 ## <a name="create-data-for-entity-based-dimensions"></a>Kreiranje podataka za dimenzije zasnovane na entitetima
@@ -68,7 +68,7 @@ Možete ručno kreirati podatke za dimenzije zasnovane na entitetima ili koriš�
 3. Zatvorite obrazac. 
 4. Ponovite korake 1-3 da biste kreirali još jednu standardnu poziciji „Viši inženjer sistema“.
 
-> ![Probni podaci za entitet Standardna pozicija ](media/ST-data.png)
+> ![Probni podaci za entitet Standardna pozicija.](media/ST-data.png)
 
 
 

@@ -6,12 +6,12 @@ ms.date: 10/05/2020
 ms.topic: article
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.openlocfilehash: 1480d68105be1041e791de567b180178b330d71e
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: d3fc0453e3038839107a98c4179e6bd4aede95cf4a5fcfe2d52f823b83029485
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: sr-Latn-RS
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "5997753"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6988713"
 ---
 # <a name="manage-time-zones"></a>Upravljanje vremenskim zonama
 
@@ -32,13 +32,13 @@ Za tačne i predvidljive rezultate prilikom upotrebe **produženja rezervacije**
 
 - Korisnik mora da konfiguriše vremensku zonu svog uređaja tako da odgovara vremenskoj zoni definisanoj u sistemskim **podešavanjima personalizacije**.
  
-  ![Podešavanja vremenske zone u operativnom sistemu Windows 10](media/reconcile-assignments-03.png)
+  ![Podešavanja vremenske zone u operativnom sistemu Windows 10.](media/reconcile-assignments-03.png)
 
-  ![Podešavanja vremenske zone u podešavanjima personalizacije](media/reconcile-assignments-04.png)
+  ![Podešavanja vremenske zone u podešavanjima personalizacije.](media/reconcile-assignments-04.png)
  
 - Resurs koji može da se rezerviše mora imati najmanje jedan minut radnog vremena koji se preklapa sa konturama koje se koriste za definisanje traženog dodatka. Na primer, sledeći resursi sa radnim vremenom koje pada između 9:00 i 19:00. 
 
-  ![Poređenje kontura resursa](media/reconcile-assignments-05.png)
+  ![Poređenje kontura resursa.](media/reconcile-assignments-05.png)
 
 Sledeća tabela prikazuje:
 
@@ -47,25 +47,25 @@ Sledeća tabela prikazuje:
 - Resurs B: Ovaj resurs se nalazi u drugoj vremenskoj zoni u odnosu na projekat i počinje u 7:00 u svojoj vremenskoj zoni. Međutim, rezervacije će početi u 9:00, jer je to najranije vreme početka konture zadatka.
 - Resursi C i D: Resursi se nalaze u različitim vremenskim zonama, različitim međusobno i u odnosu na projekat, a njihove rezervacije započinju najranije od odgovarajućeg raspoloživog vremena početka.
 
-|Entitet  |Kalendar  |
+|Entity  |Kalendar  |
 |-|-|
-|Predložak kalendara projekta   | ![kalendar projekta](media/reconcile-assignments-06.png) |
-|Resurs A  | ![Kalendar resursa A](media/reconcile-assignments-06.png) |
-|Resurs B  |  ![Kalendar resursa B](media/reconcile-assignments-07.png) |
-|Resurs C  |  ![Kalendar resursa C](media/reconcile-assignments-08.png) |
-|Resurs D  | ![Kalendar resursa D](media/reconcile-assignments-09.png)  |
+|Predložak kalendara projekta   | ![kalendar projekta.](media/reconcile-assignments-06.png) |
+|Resurs A  | ![Kalendar resursa A.](media/reconcile-assignments-06.png) |
+|Resurs B  |  ![Kalendar resursa B.](media/reconcile-assignments-07.png) |
+|Resurs C  |  ![Kalendar resursa C.](media/reconcile-assignments-08.png) |
+|Resurs D  | ![Kalendar resursa D.](media/reconcile-assignments-09.png)  |
  
 Kada odete na prikaz **Usaglašavanje**, prikazuju se dodele resursa i pridruženi nedostaci rezervacija.
 
-![Prikaz usklađivanja pre produžetka](media/reconcile-assignments-10.png)
+![Prikaz usklađivanja pre produžetka.](media/reconcile-assignments-10.png)
 
 Kada se za svaki resurs koristi funkcija proširenog rezervisanja, rezervacije se uspešno produžavaju za svaki resurs, jer se radno vreme svakog resursa preklapa sa konturama nedostatka.
 
-![Prikaz usklađivanja nakon produženja rezervacije](media/reconcile-assignments-11.png) 
+![Prikaz usklađivanja nakon produženja rezervacije.](media/reconcile-assignments-11.png) 
 
 Primetite da bolji uvid u detalje rezervacije pokazuje razlike u vremenu početka rezervacija. Rezervacije počinju ne ranije od vremena početka konture dodele i ne ranije od raspoloživog vremena početka resursa.
 
-![Nove rezervacije resursa na tabeli rasporeda](media/reconcile-assignments-12.png)
+![Nove rezervacije resursa na tabeli rasporeda.](media/reconcile-assignments-12.png)
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

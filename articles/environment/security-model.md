@@ -6,12 +6,12 @@ ms.date: 10/01/2020
 ms.topic: article
 ms.reviewer: kfend
 ms.author: stsporen
-ms.openlocfilehash: ccca2f387ce3abef3b24cb96fdbcc69f3c0c075b
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: 2f283771921504dc29ddcc26ca659d4e151598840339bd8c1a857e8bf5dde9ed
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: sr-Latn-RS
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "6002274"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6991503"
 ---
 # <a name="security-model"></a>Model bezbednosti
 
@@ -58,7 +58,7 @@ Usluga Project Operations ne kreira grupu implicitnom akcijom, već samo eksplic
 
 Pretraga članova grupe u dijalogu **Upravljanje grupama** ograničena je na one koji su postavljeni kao deo bezbednosne grupe okruženja. Više informacija potražite u članku [Kontrola korisničkog pristupa okruženjima: bezbednosne grupe i licence](/power-platform/admin/control-user-access).
 
-![Grupni režim](./media/groupsmode.png)
+![Grupni režim.](./media/groupsmode.png)
 
 1. Projekat se kreira i njegov vlasnik je korisnik koji ga je kreirao.
 2. Vlasnik projekta je obavešten o timu.

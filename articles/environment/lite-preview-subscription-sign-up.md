@@ -6,12 +6,12 @@ ms.date: 07/02/2021
 ms.topic: article
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 2b5a65f5e29915c349d40400ebbf3e4923b36a67
-ms.sourcegitcommit: 52b26950bb3b1596ad81aa4ff91745ee9615d1b0
+ms.openlocfilehash: 5ba43ba9f917da068415fb62067ab73433b701139ee07014b6bd8c02612008ce
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: sr-Latn-RS
-ms.lasthandoff: 07/02/2021
-ms.locfileid: "6334799"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6991548"
 ---
 # <a name="sign-up-for-a-preview-subscription---lite"></a>Upisivanje za pretplatu na verziju za pregled – jednostavno 
 
@@ -52,16 +52,16 @@ Pre nego što započnete, uverite se da ste prijavljeni u pregledač sa korisni�
 
 1. Obezbedite novo okruženje za primenu usluge Project Operations Dataverse prateći uputstva u temi [Model primene za Dataverse](lite-deployment.md). Kada odaberete tip okruženja, obavezno koristite **probnu verziju (zasnovano na pretplati)**.
 
-  ![Novo okruženje](./media/19CreateEnvironment.png)
+  ![Novo okruženje.](./media/19CreateEnvironment.png)
 
 2. Izaberite podešavanje **Omogućite Dynamics 365 aplikacije** i ostavite **Automatski primeni ove aplikacije** prazno.  
 3. Izaberite **Sačuvaj** da biste kreirali okruženje.
 
-  ![Dodaj bazu podataka](./media/20CreateEnvironment1.png)
+  ![Dodaj bazu podataka.](./media/20CreateEnvironment1.png)
 
 4. Kada kreirate okruženje, instalirajte **Microsoft Dynamics 365 Project Operations** rešenje. 
 
-![Instaliranje rešenja](./media/21InstallSolution.png)
+![Instaliranje rešenja.](./media/21InstallSolution.png)
 
 ## <a name="install-a-cds-configuration-and-setup-demo-data"></a>Instaliranje CDS konfiguracije i podešavanje demo podataka
 

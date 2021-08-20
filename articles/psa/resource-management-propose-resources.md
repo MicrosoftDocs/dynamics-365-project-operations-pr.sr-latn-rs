@@ -16,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 02e47338e34a37e05455e2bc6e6a175210ed6bc7
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: 9fe63f424735f22dc6b525631287e7ff36db17f37aad8e14e926f5cc9be39136
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: sr-Latn-RS
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "5997978"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6995058"
 ---
 # <a name="propose-project-resources"></a>Predlaganje resursa za projekte
 
@@ -32,21 +32,21 @@ Menadžeri resursa mogu da predlože resurs menadžeru projekata korišćenjem z
 1. Iz mreže zahteva ili samog zahteva izaberite **Pronađi resurse**.
 2. Na stranici **Pomoćnik za zakazivanje** izaberite resurs, a zatim u oknu **Kreiranje rezervacije resursa**, u polju **Status rezervacije**, izaberite **Rezerviši**.
 
-    ![Predloženi resurs je izabran](media/Resource-Management-image62.png)
+    ![Predloženi resurs je izabran.](media/Resource-Management-image62.png)
 
 Dolazi do sledećih izmena statusa:
 
 - Na stranici **Pomoćnik za zakazivanje** indikatori statusa se ažuriraju kako bi ukazali da je rezervacija predložena, a da resurs nije fiksno rezervisan.
 
-    ![Indikatori statusa za predloženu rezervaciju na stranici Pomoćnik za zakazivanje](media/Resource-Management-image63.png)
+    ![Indikatori statusa za predloženu rezervaciju na stranici Pomoćnik za zakazivanje.](media/Resource-Management-image63.png)
 
 - U zahtevu za resurs se status menja u **Zahteva pregled**.
 
-    ![Status zahteva za resurs je promenjen u Zahteva pregled](media/Resource-Management-image64.png)
+    ![Status zahteva za resurs je promenjen u Zahteva pregled.](media/Resource-Management-image64.png)
 
 - Na kartici **Tim** u okviru projekta, vrednost generičkog člana tima **Status zahteva** se menja u **Zahteva pregled**.
 
-    ![Status zahteva za generičkog člana tima je promenjen u Zahteva pregled na kartici Tim](media/Resource-Management-image48.png)
+    ![Status zahteva za generičkog člana tima je promenjen u Zahteva pregled na kartici Tim.](media/Resource-Management-image48.png)
 
 Menadžer projekta može predlog prihvatiti ili odbaciti.
 
@@ -70,7 +70,7 @@ Sledeće formule se koriste za izračunavanje ukupne iskorišćenosti:
 
 Možete pronaći prikaz **Ukupna iskorišćenost resursa** u oknu **Resursi**.
 
-![Prikaz ukupne iskorišćenosti resursa](media/Resource-Management-image65.png)
+![Prikaz ukupne iskorišćenosti resursa.](media/Resource-Management-image65.png)
 
 Svaka ćelija u mreži predstavlja procenat naplative ukupne iskorišćenosti resursa u nekom periodu, kao što je dan, nedelja ili mesec. Sledeće formule se koriste za bojenje ćelija:
 
@@ -84,7 +84,7 @@ Mreža zahteva da podesite ciljnu ukupnu iskorišćenost za ulogu ili pojedinač
 
 Uz to, svakom resursu koji se može rezervisati mora se dodeliti podrazumevana uloga. Idite na **Resursi** \> **Resursi**. Na kartici **Project Service** potvrdite da je definisana uloga resursa i da je polje **Je podrazumevano** za tu ulogu podešeno na **Da**. Ako **Je podrazumevano = Ne**, možete dodati dodatne uloge. Uloga gde **Je podrazumevano = Da** koristi se za procenu ukupne iskorišćenosti resursa u odnosu na ciljnu iskorišćenost za tu ulogu.
 
-![Podrazumevani skup uloga](media/Resource-Management-image67.png)
+![Podrazumevani skup uloga.](media/Resource-Management-image67.png)
 
 Na kartici **Project Service** možete podesiti i pojedinačnu ciljnu ukupnu iskorišćenost za resurs. Kalkulacija ukupne iskorišćenosti zatim koristi tu ciljnu ukupnu iskorišćenost za procenu cilja resursa umesto cilja podrazumevane uloge resursa.
 
@@ -96,21 +96,21 @@ Od presudnog je značaja da menadžeri resursa mogu da pregledaju dostupnost res
 
 Radno vreme resursa koristi se kao osnova za izračunavanje dostupnosti resursa. Rezervacije resursa troše kapacitet resursa.
 
-![Tabela rasporeda](media/Resource-Management-image68.png)
+![Tabla rasporeda.](media/Resource-Management-image68.png)
 
 Tabela rasporeda koristi boje i senčenja da bi prikazala rezervacije, dostupnost i prebukiranost, kao i status rezervacija. Postavka u podešavanjima tabele rasporeda omogućava vam da prikažete legendu.
 
 Ako se strelica usmerena udesno pojavi pored pojedinačnog resursa koji se može rezervisati u tabeli rasporeda, resurs se može proširiti i pokazati detalje posla za koji je resurs rezervisan.
 
-![Resurs koji može da se rezerviše je proširen u tabeli rasporeda](media/Resource-Management-image69.png)
+![Resurs koji može da se rezerviše je proširen u tabeli rasporeda.](media/Resource-Management-image69.png)
 
 Pošto Dynamics 365 Project Service Automation koristi Universal Resource Scheduling mehanizam, ako ste instalirali i Dynamics 365 Field Service, možete pregledati detalje o rezervacijama resursa za projekte, radnim nalozima i bilo kojim drugim entitetima za koje ste proširili zakazivanje.
 
-![Detalji o rezervacijama resursa za projekte i radnim nalozima](media/Resource-Management-image70.png)
+![Detalji o rezervacijama resursa za projekte i radnim nalozima.](media/Resource-Management-image70.png)
 
 Da biste videli više detalja o pojedinačnom resursu, kliknite desnim tasterom miša na resurs da biste otvorili karticu resursa.
 
-![Kartica resursa](media/Resource-Management-image71.png)
+![Kartica resursa.](media/Resource-Management-image71.png)
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

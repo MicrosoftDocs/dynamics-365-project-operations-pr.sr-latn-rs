@@ -7,12 +7,12 @@ ms.topic: article
 ms.reviewer: kfend
 ms.author: sigitac
 ms.custom: intro-internal
-ms.openlocfilehash: c1dcf642f79ce64cb83285ac6dc6d7eaf815145c
-ms.sourcegitcommit: 0fafe022731f0e1e8693382ff906e3f8541d34ca
+ms.openlocfilehash: c343c5bf525574e496036793cd4e131394e8b1b471153147a66cfebe1acf3fce
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: sr-Latn-RS
-ms.lasthandoff: 07/07/2021
-ms.locfileid: "6369393"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7005408"
 ---
 # <a name="intercompany-invoicing-overview"></a>Pregled internog fakturisanja u okviru preduzeća
 
@@ -22,7 +22,7 @@ Vaša organizacija može imati više odeljenja, podružnica i drugih pravnih lic
 
 Sledeća ilustracija prikazuje tipičan scenario kada dva pravna lica, Contoso Robotics USA (pravno lice koje se zadužuje) i Contoso Robotics UK (pravno lice koje pozajmljuje) deli resurse za isporuku projekta za klijenta, Adventure works. Za ovaj scenario, Contoso Robotics USA je ugovorio isporuku dela za Adventure Works.
 
-![Interno fakturisanje u okviru preduzeća](./media/IntercompanyScenario.png) 
+![Interno fakturisanje u okviru preduzeća.](./media/IntercompanyScenario.png) 
 
 Dynamics 365 Project Operations koristi sledeći tok za obradu transakcija između preduzeća:
 
@@ -35,7 +35,7 @@ Dynamics 365 Project Operations koristi sledeći tok za obradu transakcija izme�
 
 Sledeći dijagram ilustruje fakturisanje između preduzeća koje se odnosi na računovodstvene događaje i očekivana knjiženja u glavnu knjigu.
 
-![Tok između preduzeća](./media/IntercompanyFlow.png)
+![Tok između preduzeća.](./media/IntercompanyFlow.png)
 
 ## <a name="additional-resources"></a>Dodatni resursi
 

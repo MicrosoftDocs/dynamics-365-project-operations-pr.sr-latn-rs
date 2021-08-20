@@ -6,12 +6,12 @@ ms.date: 04/05/2021
 ms.topic: article
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 413c9821f251fa37f5cfa082281be662d6be670a
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: cbc6bcbfa527486df4c740c52cec8c4be1dabe0478783fb7d2e71a65f18c050f
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: sr-Latn-RS
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "6012603"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6991053"
 ---
 # <a name="configure-accounting-for-billable-projects"></a>Konfigurisanje računovodstva za naplative projekte
 
@@ -101,23 +101,23 @@ Dovršite sledeće korake da biste kreirali novi profil troškova i prihoda proj
 
 Vreme i materijali – bez prihoda u toku
 
-![Profil troškova i prihoda: Vreme i materijali - bez prihoda u toku](media/time-material-no-wip.png)
+![Profil troškova i prihoda: Vreme i materijali - bez posla u toku.](media/time-material-no-wip.png)
 
 Vreme i materijali – prihod u toku (prihod)
 
-![Profil troškova i prihoda: Vreme i materijali – prihod u toku](media/time-material-with-wip.png)
+![Profil troškova i prihoda: Vreme i materijali – posao u toku.](media/time-material-with-wip.png)
 
 Fiksna cena – Bez prihoda u toku
 
-![Profil troškova i prihoda: Fiksna cena - bez prihoda u toku](media/fixed-price-no-wip.png)
+![Profil troškova i prihoda: Fiksna cena - bez posla u toku.](media/fixed-price-no-wip.png)
 
 Fiksna cena – završen ugovor
 
-![Profil troškova i prihoda: Fiksna cena – završen ugovor](media/fixed-price-completed-contract.png)
+![Profil troškova i prihoda: Fiksna cena – završen ugovor.](media/fixed-price-completed-contract.png)
 
 Fiksna cena – procenat dovršenosti
 
-![Profil troškova i prihoda: Fiksna cena – procenat dovršenosti](media/fixed-price-completed-percentage.png)
+![Profil troškova i prihoda: Fiksna cena – procenat dovršenosti.](media/fixed-price-completed-percentage.png)
 
 
 ## <a name="accounting-event-examples-for-sample-project-cost-and-revenue-profiles"></a>Primeri računovodstvenog događaja za probne profile troškova i prihoda projekta.

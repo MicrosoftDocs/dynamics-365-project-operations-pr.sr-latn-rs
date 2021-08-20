@@ -16,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 7c7ca0dbaeb8938fc2254da782b359a5dd29e6da
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: 518edcb210e33a7922e8920f896479a79d264ab62742641cc66b7c3a33b6c6e8
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: sr-Latn-RS
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "6015033"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6985158"
 ---
 # <a name="manage-resource-requests-project-service"></a>Upravljanje zahtevima za resurse (Project Service)
 
@@ -43,7 +43,7 @@ Menadžeri poslovnih kontakata i menadžeri projekta redovno traže resurse za p
   
    -   Kliknite na dugme **Filter** za prikaz okna **Filter**, što vam omogućava da filtrirate rezultate prema organizacionoj jedinici, ulozi, veštini ili drugim atributima.  
   
-       ![Ekran zahteva za resurse usluge Project Service](../psa/media/project-service-resource-request-screen.png "Ekran zahteva za resurse usluge Project Service")  
+       ![Ekran zahteva za resurse usluge Project Service.](../psa/media/project-service-resource-request-screen.png "Ekran zahteva za resurse usluge Project Service")  
   
 3. U kalendaru za resurs koji želite da rezervišete, izaberite vremenski period da rezervišete resurs i ili kliknite na dugme **Rezerviši** da rezervišete resurs ili **Predloži Rezervaciju** da predložite rezervaciju da ga odobri podnosilac zahteva. Kada rezervišete resurs, možete da ga rezervišete uslovno ili fiksno.  
   
