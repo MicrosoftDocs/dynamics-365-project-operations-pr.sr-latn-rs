@@ -2,17 +2,17 @@
 title: Kupujte neskladišteni materijal koristeći fakturu dobavljača na čekanju
 description: Ova tema objašnjava kako da snimite fakture dobavljača na čekanju.
 author: sigitac
-ms.date: 04/12/2021
+ms.date: 09/13/2021
 ms.topic: article
 ms.prod: ''
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 2ce9f244eaa549742aeb55024ca9ef4d82cde1bd4a5b9c7f8c762cf72e0da83f
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: e95f7dabe597968707fdd2dead40bfb93d7f1f95
+ms.sourcegitcommit: 74a7e1c9c338fb8a4b0ad57c5560a88b6e02d0b2
 ms.translationtype: HT
 ms.contentlocale: sr-Latn-RS
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7009053"
+ms.lasthandoff: 09/23/2021
+ms.locfileid: "7547306"
 ---
 # <a name="purchase-non-stocked-materials-using-a-pending-vendor-invoice"></a>Kupujte neskladišteni materijal koristeći fakturu dobavljača na čekanju
 
@@ -20,7 +20,7 @@ _**Odnosi se na:** Project Operations za scenarije zasnovane na resursima / bez 
 
 Kako kompanija nabavlja ne-zalihe materijala za projekat, troškovi se mogu odmah evidentirati u odnosu na projekat. 
 
-Na primer, Contoso Robotics US izvodi projekat obnove opreme i potrebne su softverske licence. Ove licence se nabavljaju od nezavisnog dobavljača.  Koristeći Dynamics 365 Finance, službenik za dugovanja evidentira dokument fakture dobavljača na čekanju i pripisuje troškove licence direktno projektu obnove opreme. 
+Na primer, preduzeće Contoso Robotics US izvodi projekat obnove opreme i potrebne su mu softverske licence. Ove licence se nabavljaju od nezavisnog dobavljača.  Koristeći Dynamics 365 Finance, službenik za dugovanja evidentira dokument fakture dobavljača na čekanju i pripisuje troškove licence direktno projektu obnove opreme. 
 
 > [!IMPORTANT]
 > Pre nego što upotrebite funkcionalnost opisanu u ovoj temi, pregledajte i primenite potrebne konfiguracije. Za više informacija pogledajte [Omogućite neskladišteni materijal i fakture dobavljača na čekanju](configure-materials-nonstocked.md). 
@@ -45,4 +45,5 @@ Fakture dobavljača na čekanju mogu se evidentirati na stranici **Fakture dobav
     - Iznos bilansa dobavljača.
     - Iznos poreza na promet.
     - Troškovi projekta evidentiraju se na račun integracije nabavki.
-    - Stvarna transakcija projekta u Dataverse. Ova transakcija se dalje obrađuje pomoću [Project Operations dnevnika integracije](../project-accounting/project-operations-integration-journal.md). Objavljivanjem ovog dnevnika premešta se iznos sa računa integracije nabavki na račun troškova projekta.
+    - Transakcija stvarnih troškova projekta u usluzi Dataverse.  Ova transakcija se dalje obrađuje pomoću [Project Operations dnevnika integracije](../project-accounting/project-operations-integration-journal.md). Objavljivanjem ovog dnevnika premešta se iznos sa računa integracije nabavki na račun troškova projekta. 
+    - Kupovine koje se klijentu projekta obračunavaju korišćenjem metode obračuna vremena i materijala. Osim toga, za kupovine u usluzi Dataverse kreiraju se transakcije nenaplaćene prodaje. Cenovnik proizvoda u usluzi Dataverse koristi se za prodajne cene i iznose za transakcije nenaplaćene prodaje.

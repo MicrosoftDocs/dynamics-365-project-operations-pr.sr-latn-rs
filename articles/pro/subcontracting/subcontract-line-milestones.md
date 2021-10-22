@@ -6,12 +6,12 @@ ms.date: 08/06/2021
 ms.topic: article
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 3301e5a627e4842009fcd5e352f1b76fd3053ee3
-ms.sourcegitcommit: 80aa1e8070f0cb4992ac408fc05bdffe47cee931
+ms.openlocfilehash: 7f99853f5f649f96225b7d72580db97bb92de7c5
+ms.sourcegitcommit: d507a75a19c992a9421e4f3605162a2faa84a445
 ms.translationtype: HT
 ms.contentlocale: sr-Latn-RS
-ms.lasthandoff: 08/13/2021
-ms.locfileid: "7323793"
+ms.lasthandoff: 09/27/2021
+ms.locfileid: "7558519"
 ---
 # <a name="subcontract-line-milestones"></a>Kontrolne tačke predmeta podugovora
 
@@ -50,15 +50,15 @@ Kontrolne tačke sa fiksnom cenom na predmetu podugovora mogu se generisati ruč
 3. Na kartici **Kontrolne tačke predmeta podugovora**, na podformi izaberite **+ Nova kontrolna tačka za predmet podugovora**.
 4. Na stranici **Nova kontrolna tačka za predmet podugovora** unesite potrebne podatke na osnovu sledeće tabele.
 
-    | Polje | Opis |
-    | --- | --- |
-    | Naziv kontrolne tačke | Naziv kontrolne tačke. |
-    | Opis | Opis kontrolne tačke.  |
-    | Datum kontrolne tačke | Datum kada bi proces automatskog kreiranja fakture trebalo da traži status ove kontrolne tačke kako bi se uzeo u obzir za fakturisanje. Ova vrednost je uključena u fakturu prodavca prilikom fakturisanja za ovaj podugovor. |
-    | Iznos | Iznos ili vrednost kontrolne tačke koja će se fakturisati klijentu. Ova vrednost je uključena u fakturu prodavca prilikom fakturisanja za ovaj podugovor. |
-    | Porez | Iznos poreza primenjen na kontrolnu tačku. Ova vrednost je uključena u fakturu prodavca prilikom fakturisanja za ovaj podugovor. |
-    | Iznos sa porezom | Ovo polje samo za čitanje koje se izračunava kao iznos + porez. Ova vrednost je uključena u fakturu prodavca prilikom fakturisanja za ovaj podugovor. |
-    | Status fakture | Kada se kontrolna tačka kreira, ovaj status je uvek podešen na **Nije spremno za fakturisanje**.  Kada je status **Spremno za fakturisanje**, kreiranje fakture prodavca uključuje ovu kontrolnu tačku na fakturi prodavca. |
+    | Polje | Opis |Funkcionalni uticaj|
+    | --- | --- |----------------------|
+    | Naziv kontrolne tačke | Naziv kontrolne tačke. |Ovo će biti prikazano kao prva kolona u svim pretragama zasnovanim na kontrolnim tačkama predmeta podugovora. Stavka fakture dobavljača koja je kreirana na osnovu ove kontrolne tačke takođe će koristiti naziv kontrolne tačke stavke podugovora kao podrazumevani naziv stavke fakture dobavljača.|
+    | Opis | Opis kontrolne tačke. |Stavka fakture dobavljača koja je kreirana na osnovu ove kontrolne tačke takođe će koristiti opis kontrolne tačke stavke podugovora kao podrazumevani opis stavke fakture dobavljača.|
+    | Datum kontrolne tačke | Datum kada bi proces automatskog kreiranja fakture trebalo da traži status ove kontrolne tačke kako bi se uzeo u obzir za fakturisanje.| Ova vrednost će se koristiti kao podrazumevani datum stavke fakture dobavljača prilikom fakturisanja za ovu stavku podugovora. |
+    | Iznos | Iznos ili vrednost kontrolne tačke koja će se fakturisati klijentu. |Ova vrednost se koristi kao podrazumevani iznos stavke fakture dobavljača prilikom fakturisanja za ovu stavku podugovora. |
+    | Porez | Iznos poreza primenjen na kontrolnu tačku.| Ova vrednost se koristi kao podrazumevani iznos poreza za stavku fakture dobavljača prilikom fakturisanja za ovu stavku podugovora. |
+    | Iznos sa porezom | Ovo polje je samo za čitanje izračunava se kao iznos + porez.|Ova vrednost se koristi kao podrazumevana za stavku fakture dobavljača prilikom fakturisanja za ovu stavku podugovora. |
+    | Status fakture | Kada se kontrolna tačka kreira, ovaj status je uvek podešen na **Nije spremno za fakturisanje**.|  Kada je status **Spremno za fakturisanje**, kreiranje fakture prodavca uključuje ovu kontrolnu tačku na fakturi prodavca. |
 
 5. Izaberite stavku **Sačuvaj i zatvori**.
 

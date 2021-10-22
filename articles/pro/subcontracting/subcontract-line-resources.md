@@ -6,12 +6,12 @@ ms.date: 08/06/2021
 ms.topic: article
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 48440f82170bde7f0a0a45f8f9849d688b232949
-ms.sourcegitcommit: 80aa1e8070f0cb4992ac408fc05bdffe47cee931
+ms.openlocfilehash: 4a929b985a51ab49d3e34ce4a5c277af4c05c216
+ms.sourcegitcommit: d507a75a19c992a9421e4f3605162a2faa84a445
 ms.translationtype: HT
 ms.contentlocale: sr-Latn-RS
-ms.lasthandoff: 08/13/2021
-ms.locfileid: "7323388"
+ms.lasthandoff: 09/27/2021
+ms.locfileid: "7558474"
 ---
 # <a name="subcontract-line-resources"></a>Resursi za predmete podugovora
 
@@ -28,18 +28,18 @@ Da biste kreirali resurse predmeta podugovora, obavite sledeće korake.
 1. Na stranici navigacije izaberite **Podugovori** i otvorite podugovor sa kojim želite da radite.
 2. Otvorite predmet podugovora za vreme za koji želite da navedete resurse dobavljača.
 3. Na kartici **Resursi predmeta podugovora**, na podformi izaberite **+ Novi resurs za predmet podugovora**.
-4. Na stranici **Nova kontrolna tačka za predmet podugovora** unesite potrebne podatke i izaberite **Sačuvaj i zatvori**.
+4. Na stranici **Novi resurs stavke podugovora** unesite potrebne podatke, a zatim izaberite opciju **Sačuvaj i zatvori**.
 
 Sledeća tabela objašnjava polja na resursu predmeta podugovora.
 
-| Polje |  Opis |
-| ----- | ------------ |
-| Resurs koji može da se rezerviše | Izaberite resurs koji se može rezervisati tipa „Ugovorni radnik“ koji želite da koristite kao resurs na predmetu podugovora. Ako još niste kreirali resurs koji se može rezervisati za ugovornog radnika, ostavite ovo polje prazno. Resurs koji je moguće rezervisati se kreira kada sačuvate zapis.  |
-| Kontakt | Ako je polje **Resurs koji je moguće rezervisati** prazno, možete da kreirate resurs predmeta podugovora na osnovu postojećeg kontakta. Koristite pronalaženje da biste videli listu aktivnih kontakata u sistemu. Izaberite kontakt za proizvođača ovog podugovora. Kontakt koji odaberete potvrđuje se kada sačuvate zapis. Ako kontakt koji ste izabrali nije važeći kontakt, vaš zapis se neće sačuvati. Ako nema resursa koji se može rezervisati za izabrani kontakt, sistem kreira resurs koji se može rezervisati za izabrani kontakt pre nego što se kreira resurs predmeta podugovora. |
-| Korisnik | Ako je polje **Resurs koji je moguće rezervisati** prazno, možete da kreirate resurs predmeta podugovora ako izaberete aktivnog korisnika. Koristite pronalaženje da biste videli listu aktivnih korisnika u sistemu. Ako nema resursa koji se može rezervisati za izabranog korisnika, sistem kreira resurs koji se može rezervisati za izabranog korisnika pre nego što se kreira resurs predmeta podugovora. |
-| Datum početka | Datum kada počinje angažman radnika iz podugovora. Ako je ovaj resurs rezervisan za period koji prethodi ovom opsegu datuma, pojaviće se upozorenje. |
-| Datum završetka | Datum kada se završava angažman radnika iz podugovora. Ako je ovaj resurs rezervisan za period koji sledi ovom opsegu datuma, pojaviće se upozorenje. |
-| Angažovanje | Ukupan broj sati angažovanja koje će radnik podugovarača potrošiti na ovaj predmet podugovora. Ako se ovaj resurs rezerviše izvan angažovanja koje im je dodeljeno po ovom podugovoru, pojaviće se upozorenje. |
+| Polje | Opis | Funkcionalni uticaj |
+| ----- | ----------- | ----------------- |
+| Resurs koji može da se rezerviše | Izaberite resurs koji se može rezervisati tipa **Ugovorni radnik** koji želite da koristite kao resurs na stavci podugovora.| Ako niste kreirali resurs koji se može rezervisati za radnika po ugovoru, ostavite ovo polje prazno. Resurs koji se može rezervisati biće kreiran kada sačuvate zapis.  |
+| Kontakt | Možete da kreirate resurs stavke podugovora od postojećeg kontakta. Koristite pronalaženje da biste videli listu aktivnih kontakata u sistemu. Izaberite kontakt za proizvođača ovog podugovora. Ako kontakt koji ste izabrali nije važeći kontakt za dobavljača na podugovoru, zapis o resursu stavke podugovora neće biti sačuvan.| Ako nema resursa koji se može rezervisati za izabrani kontakt, sistem kreira resurs koji se može rezervisati za izabrani kontakt pre nego što se kreira resurs predmeta podugovora. |
+| Korisnik | Resurs stavke podugovora možete da kreirate tako što ćete odabrati aktivnog korisnika. Koristite pronalaženje da biste videli listu aktivnih korisnika u sistemu.| Ako nema resursa koji se može rezervisati za izabranog korisnika, sistem kreira resurs koji se može rezervisati za izabranog korisnika pre nego što se kreira resurs predmeta podugovora. |
+| Datum početka | Datum kada počinje angažman radnika iz podugovora.| Ako je ovaj resurs rezervisan za period koji prethodi ovom opsegu datuma, pojaviće se upozorenje. |
+| Datum završetka | Datum kada se završava angažman radnika iz podugovora.| Ako je ovaj resurs rezervisan za period koji sledi ovom opsegu datuma, pojaviće se upozorenje. |
+| Angažovanje | Ukupan broj časova angažovanja koji će radnik po ugovoru potrošiti za ovu stavku podugovora.| Ako se ovaj resurs rezerviše izvan angažovanja koje je dodeljeno ovim podugovorom, pojaviće se upozorenje. |
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

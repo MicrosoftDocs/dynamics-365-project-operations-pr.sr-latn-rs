@@ -6,12 +6,12 @@ ms.date: 08/06/2021
 ms.topic: article
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 9e8e7bb66063dab6db1ac8da1753913aee0ef3fc
-ms.sourcegitcommit: 80aa1e8070f0cb4992ac408fc05bdffe47cee931
+ms.openlocfilehash: 0c32bf2ac54de98a921d338e436ecd089e68a759
+ms.sourcegitcommit: cd4e81f129681a12f2efe63ec2bb14e611cf88ba
 ms.translationtype: HT
 ms.contentlocale: sr-Latn-RS
-ms.lasthandoff: 08/13/2021
-ms.locfileid: "7323838"
+ms.lasthandoff: 09/20/2021
+ms.locfileid: "7506116"
 ---
 #  <a name="subcontract-lines-for-expense-categories"></a>Predmeti podugovora za kategorije troškova
 
@@ -29,23 +29,23 @@ Dovršite sledeće korake da biste kreirali predmet podugovora za kategorije tro
 
 Sledeća tabela pruža informacije o poljima na stranici sa detaljima **Predmet podugovora** i stranici **Brzo kreiranje**.
 
-| **Polje** |  **Opis** |
-| ----------| ---------------- |
-| +Ime | Naziv predmeta podugovora. |
-| Opis | Kratak opis kategorija usluga ili proizvoda koji se kupuju u okviru predmeta podugovora. |
-| Tip predmeta | Ovo polje ima podrazumevanu vrednost **Na osnovu količine**.  |
-| Način naplate | Način naplate predmeta podugovora. Na osnovu načina naplate predmeta, raspored faktura zasnovan na kontrolnim tačkama je dostupan za način naplate po fiksnoj ceni.  |
-| Klasa transakcije | Ovo polje ima podrazumevanu vrednost **Vreme**. Da biste kreirali predmete podugovora za kupovinu proizvoda, podesite polje **Klasa transakcije** na **Trošak**. Vrednost ovog polja ukazuje na to da se predmet podugovora koristi za evidentiranje kategorije proizvoda ili usluga koji će se koristiti na projektima. |
-| Kategorija transakcije | Izaberite kategoriju transakcije. |
-| Zahtevani početak | Datum kada kategorije kupovine moraju biti dostupne od prodavca. Zahtevani početak se takođe koristi za izbor cenovnika projekta iz cenovnika projekta koji su priloženi podugovoru. Cena kategorije na predmetu podugovora podrazumevano ima vrednost iz tog cenovnika. |
-| Zahtevani završetak | Datum kada kategorije kupovine više nisu potrebne. Ovaj datum prikazuje upozorenje kada menadžer projekta poveže ovaj predmet podugovora sa konkretnim procenama troškova za projekte koji su datirani posle ovog datuma. |
-| Poručena količina | Količina kategorije koja se kupuje od prodavca. Kada menadžer projekta prekorači kupljenu količinu, pojaviće se upozorenje.  |
-| Grupa jedinica | Ova vrednost polja ima podrazumevanu vrednost na osnovu podrazumevane grupe jedinica koja je postavljena za odabranu kategoriju. |
-| Jedinica | Ova vrednost polja ima podrazumevanu vrednost na osnovu podrazumevane jedinice postavljene za odabranu kategoriju. Kombinacija kategorije i jedinice koristi se za izračunavanje podrazumevane jedinične cene na predmetu podugovora. |
-| Cena po jedinici | Podrazumevane vrednosti vrednosti polja jedinične cene određuju se na osnovu kombinacije kategorije i jedinice iz cena kategorija koje se odnose na cenovnik projekta koja se primenjuje za traženi početak predmeta podugovora.  |
-| Međuiznos | Ovo polje samo za čitanje automatski se računa kao jedinična cena količine ako se unesu i vrednosti količine i jedinične cene. Ako su bilo koje ili oba polja prazni, vrednost u ovo polje možete uneti ručno.  |
-| Porez na promet | Unesite iznos poreza na promet.  |
-| Ukupan iznos | Ukupan iznos iz predmeta podugovora uključujući porez. Ovo polje se računa kao međuzbir + porez na prodaju.  |
+| **Polje** | **Opis** | **Funkcionalni uticaj** |
+| --- | --- | --- |
+| +Ime | Naziv stavke podugovora za pomoć pri identifikaciji. | Ovo će biti prikazano kao prva kolona u svim pretragama zasnovanim na stavkama predmeta podugovora. |
+| Opis | Kratak opis kategorija troškova koje se kupuju u stavci podugovora. | Ništa |
+|Tip predmeta | Ovo polje ima podrazumevanu vrednost **Na osnovu količine**. |Ništa |
+| Način naplate | Ovo je skup opcija koji predstavlja dva glavna modela ugovaranja podržana u usluzi Project Operations: **Fiksna cena** i **Vreme i materijal**. | Raspored faktura zasnovan na kontrolnim tačkama je dostupan za stavke podugovora kada je izabran metod naplate po fiksnoj ceni. |
+| Klasa transakcije | Ovo polje ima podrazumevanu vrednost **Vreme**. Da biste kreirali predmete podugovora za kupovinu proizvoda, podesite polje **Klasa transakcije** na **Trošak**.  | Ovo ukazuje na to da se predmet podugovora koristi za evidentiranje kupovine kategorije troškova koji će se koristiti na projektima. |
+| Kategorija transakcije | Prikazuje listu aktivnih kategorija transakcija u sistemu. |Ništa |
+| Zahtevani početak | Unesite datum kada kategorije nabavke moraju da budu dostupne kod dobavljača. | Zahtevano vreme početka se koristi za izbor cenovnika projekta iz cenovnika projekta koji je priložen podugovoru. Cena kategorije na stavci podugovora potiče iz tog cenovnika. |
+| Zahtevani završetak | Unesite datum kada kategorije nabavke više neće biti potrebne. | Ovo će se koristiti za prikazivanje upozorenja kada vođa projekta poveže ovu stavku podugovora sa određenim procenama troškova na projektu koji su potrebni nakon ovog datuma. |
+| Poručena količina | Količina kategorije koja se kupuje od dobavljača. | Ovo će se koristiti za prikazivanje upozorenja kada vođa projekta koristi količinu veću od ove.|
+| Grupa jedinica | Podrazumevana vrednost se zasniva na podrazumevanoj grupi jedinica koja je podešena za izabranu kategoriju. |Ništa |
+| Jedinica | Podrazumevana vrednost se zasniva na podrazumevanoj jedinici koja je podešena za izabranu kategoriju.  | Kombinacija **Kategorije** i **Jedinice** koristiće se kao podrazumevana vrednost ili će biti izračunata za jediničnu cenu za predmet podugovora.  |
+| Cena po jedinici | Podrazumevana vrednost koristi kombinaciju **Kategorije** i **Jedinice** iz cena kategorija koje su povezane sa cenovnikom projekta, što je primenljivo za traženo vreme početka za stavku podugovora. |Ništa |
+| Međuiznos | Ovo je polje samo za čitanje koje se izračunava kao „Količina“ X „Jedinična cena“, ako su unete vrednosti za količinu i jediničnu cenu. Ako su jedno ili oba polja prazna, možete uneti vrednost u ovo polje. |Ništa |
+| Porez na promet | Unesite iznos poreza na promet. |Ništa |
+| Ukupan iznos | Ukupan iznos iz predmeta podugovora uključujući porez. Ovo polje se računa kao međuzbir + porez na promet. |Ništa |
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

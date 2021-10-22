@@ -52,11 +52,15 @@
               href: environment/resource-dual-write-project-invoice.md
             - name: Integracija upravljanja troškovima
               href: environment/resource-dual-write-expense.md
-            - name: Integracija faktura prodavaca
+            - name: Integracija faktura dobavljača
               href: environment/resource-dual-write-vendor-invoice.md
     - name: Šta je novo
       items:
-        - name: Avgust 2021. – Project Operations za scenarije sa resursima/materijalima koji nisu na zalihama
+        - name: Oktobar 2021. – Project Operations za resurs/scenarije koji nisu zasnovani na zalihama
+          href: whats-new/whats-new-oct-2021-resource-based.md
+        - name: Septembar 2021. – Project Operations za resurs/scenarije koji nisu zasnovani na zalihama
+          href: whats-new/whats-new-sept-2021-resource-based.md
+        - name: Avgust 2021. – Project Operations za resurs/scenarije koji nisu zasnovani na zalihama
           href: whats-new/whats-new-august-2021-resource-based.md
         - name: Jul 2021. – Project Operations za scenarije sa resursima/materijalima koji nisu na zalihama
           href: whats-new/whats-new-july-2021-resource-based.md
@@ -292,7 +296,7 @@
           items:
             - name: Razvoj predložaka projekata pomoću opcije za kopiranje projekata
               href: project-management/dev-copy-project.md
-            - name: Korišćenje API-ja za raspored projekata (verzija za javni pregled)
+            - name: Koristite API-je za raspored projekata
               href: project-management/schedule-api-preview.md
     - name: Upravljanje resursima
       items:
@@ -444,6 +448,14 @@
           href: procurement/configure-materials-nonstocked.md
         - name: Nabavljanje materijala koji nisu na zalihama za projekte pomoću faktura dobavljača na čekanju
           href: procurement/pending-vendor-invoices.md
+        - name: Naručivanje materijala koji nisu na zalihama za projekte pomoću narudžbenica projekata
+          href: procurement/non-stocked-materials-project-purchase-orders.md
+        - name: Odlaganje obaveza prema dobavljaču
+          items:
+            - name: Pregled odlaganja obaveza prema dobavljaču
+              href: procurement/vendor-retention-overview.md
+            - name: Podesite odlaganje obaveza prema dobavljaču
+              href: procurement/set-up-vendor-retention.md
     - name: Fakturisanje
       items:
         - name: Pregled procesa fakturisanja
@@ -528,6 +540,10 @@
       items:
         - name: Šta je novo u vezi sa ranim pristupom 2. talasa za 2021. – jednostavna primena
           href: pro/whats-new/whats-new-2021-early-access-lite.md
+        - name: Šta je novo u oktobru 2021. – jednostavna primena
+          href: pro/whats-new/whats-new-oct-2021-lite.md
+        - name: Šta je novo u septembru 2021. – jednostavna primena
+          href: pro/whats-new/whats-new-sept-2021-lite.md
         - name: Šta je novo u avgustu 2021. – jednostavna primena
           href: pro/whats-new/whats-new-august-2021-lite.md
         - name: Šta je novo u julu 2021. – jednostavna primena
@@ -784,7 +800,7 @@
           items:
             - name: Razvoj predložaka projekata pomoću opcije za kopiranje projekata
               href: project-management/dev-copy-project.md
-            - name: Korišćenje API-ja za raspored projekata (verzija za javni pregled)
+            - name: Koristite API-je za raspored projekata
               href: project-management/schedule-api-preview.md
     - name: Upravljanje resursima
       items:
@@ -858,9 +874,9 @@
           href: pro/subcontracting/subcontract-header-details.md
         - name: Predmeti podugovora za vreme
           href: pro/subcontracting/subcontract-line-time.md
-        - name: Predmeti podugovora za trošak
+        - name: Predmeti podugovora za kategorije troškova
           href: pro/subcontracting/subcontract-line-expense.md
-        - name: Predmeti podugovora za proizvod
+        - name: Predmeti podugovora za proizvode
           href: pro/subcontracting/subcontract-line-products.md
         - name: Resursi predmeta podugovora
           href: pro/subcontracting/subcontract-line-resources.md
@@ -1086,6 +1102,8 @@
       items:
         - name: Raspored izdanja ispravki za Project Service 3.x
           href: psa/version-history-ps.md
+        - name: 'Šta je novo ili promenjeno u izdanju ispravke broj 36, V3'
+          href: psa/whats-new-ur-36.md
         - name: 'Šta je novo ili promenjeno u izdanju ispravke broj 35, V3'
           href: psa/whats-new-ur-35.md
         - name: 'Šta je novo ili promenjeno u izdanju ispravke broj 34, V3'
