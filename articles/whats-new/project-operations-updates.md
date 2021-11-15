@@ -7,12 +7,12 @@ ms.topic: article
 ms.prod: ''
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 970fcc71b3ebe1489c676727598ebbb296e9c989
-ms.sourcegitcommit: 23f68542fb5913534f0f76529b843cd268dbd7f6
+ms.openlocfilehash: 493218d53075f3044adce47bed8ecdc031cca8e7
+ms.sourcegitcommit: b8b7a59eee7d93638446e93726d270316e45ab3d
 ms.translationtype: HT
 ms.contentlocale: sr-Latn-RS
-ms.lasthandoff: 10/11/2021
-ms.locfileid: "7623377"
+ms.lasthandoff: 11/10/2021
+ms.locfileid: "7783440"
 ---
 # <a name="project-operations-updates"></a>Ispravke usluge Project Operations
 
@@ -36,7 +36,7 @@ Dynamics 365 Project Operations sastoji se od dve komponente:
 
 | Project Operations u Dataverse okruženju | Upravljanje projektima i računovodstvo u okruženjima Finance and Operations aplikacija | 
 | --- | --- |
-| 4.25.0.91 | 10.0.20 |
+| 4.26.0.145 | 10.0.21 |
 
 Za Project Operations scenario resursa / bez zaliha, preporučujemo upotrebu verzije orkestracije dvostrukog upisivanja verzije 2.2.2.83 ili novije.
 
@@ -47,23 +47,23 @@ Ispravke za Project Operations u Dataverse okruženju dostupne su mesečno.
 | Stanica | Region | Broj trenutne verzije | Automatska ažuriranja za jednostavnu primenu | Automatska ažuriranja za primenu za resurse / bez zaliha | Broj sledeće verzije | Datum opšte dostupnosti sledeće verzije |
 |-----------|-----------------------|-----------------|--------------------|---------------------|---------------------|---------------------|
 | Stanica 1 |   &nbsp;              |    &nbsp;       | &nbsp;             |      &nbsp;         |      &nbsp;         |      &nbsp;         |
-|   &nbsp;  | Prvo izdanje         |  4.25.0.91      | Dovršite           | Dovršite            | TBD                 | 29. oktobar 2021.    |
+|   &nbsp;  | Prvo izdanje         |  4.26.0.145     | 12. novembar 2021.  | 19. novembar 2021.   | TBD                 | 03. decembar 2021.   |
 | Stanica 2 |   &nbsp;              |    &nbsp;       | &nbsp;             |      &nbsp;         |      &nbsp;         |      &nbsp;         |
-|   &nbsp;  | Južna Amerika         |  4.25.0.91      | Dovršite           | 15. oktobar 2021.    | TBD                 | 29. oktobar 2021.    |
-|   &nbsp;  | Kanada                |  4.25.0.91      | Dovršite           | 15. oktobar 2021.    | TBD                 | 29. oktobar 2021.    |
-|   &nbsp;  | Indija                 |  4.25.0.91      | Dovršite           | 15. oktobar 2021.    | TBD                 | 29. oktobar 2021.    |
-|   &nbsp;  | Francuska                |  4.25.0.91      | Dovršite           | 15. oktobar 2021.    | TBD                 | 29. oktobar 2021.    |
-|   &nbsp;  | Južnoafrčka Republika          |  4.25.0.91      | Dovršite           | 15. oktobar 2021.    | TBD                 | 29. oktobar 2021.    |
+|   &nbsp;  | Južna Amerika         |  4.26.0.145     | 12. novembar 2021.  | 19. novembar 2021.   | TBD                 | 03. decembar 2021.   |
+|   &nbsp;  | Kanada                |  4.26.0.145     | 12. novembar 2021.  | 19. novembar 2021.   | TBD                 | 03. decembar 2021.   |
+|   &nbsp;  | Indija                 |  4.26.0.145     | 12. novembar 2021.  | 19. novembar 2021.   | TBD                 | 03. decembar 2021.   |
+|   &nbsp;  | Francuska                |  4.26.0.145     | 12. novembar 2021.  | 19. novembar 2021.   | TBD                 | 03. decembar 2021.   |
+|   &nbsp;  | Južnoafrčka Republika          |  4.26.0.145     | 12. novembar 2021.  | 19. novembar 2021.   | TBD                 | 03. decembar 2021.   |
 | Stanica 3 |      &nbsp;           |     &nbsp;      |     &nbsp;         |      &nbsp;         |      &nbsp;         |      &nbsp;         |
-|   &nbsp;  | Japan                 |  4.25.0.91      | 15. oktobar 2021.   | 22. oktobar 2021.    | TBD                 | 05. novembar 2021.   |
-|   &nbsp;  | Azija – Pacifik          |  4.25.0.91      | 15. oktobar 2021.   | 22. oktobar 2021.    | TBD                 | 05. novembar 2021.   |
-|   &nbsp;  | Velika Britanija         |  4.25.0.91      | 15. oktobar 2021.   | 22. oktobar 2021.    | TBD                 | 05. novembar 2021.   |
-|   &nbsp;  | Okeanija               |  4.25.0.91      | 15. oktobar 2021.   | 22. oktobar 2021.    | TBD                 | 05. novembar 2021.   |
-|   &nbsp;  | Ujedinjeni Arapski Emirati  |  4.25.0.91      | 15. oktobar 2021.   | 22. oktobar 2021.    | TBD                 | 05. novembar 2021.   |
+|   &nbsp;  | Japan                 |  4.26.0.145     | 12. novembar 2021.  | 19. novembar 2021.   | TBD                 | 10. decembar 2021.   |
+|   &nbsp;  | Azija – Pacifik          |  4.26.0.145     | 12. novembar 2021.  | 19. novembar 2021.   | TBD                 | 10. decembar 2021.   |
+|   &nbsp;  | Velika Britanija         |  4.26.0.145     | 12. novembar 2021.  | 19. novembar 2021.   | TBD                 | 10. decembar 2021.   |
+|   &nbsp;  | Okeanija               |  4.26.0.145     | 12. novembar 2021.  | 19. novembar 2021.   | TBD                 | 10. decembar 2021.   |
+|   &nbsp;  | Ujedinjeni Arapski Emirati  |  4.26.0.145     | 12. novembar 2021.  | 19. novembar 2021.   | TBD                 | 10. decembar 2021.   |
 | Stanica 4 |     &nbsp;            |     &nbsp;      |     &nbsp;         |      &nbsp;         |      &nbsp;         |      &nbsp;         |
-|   &nbsp;  | Evropa                |  4.14.0.99      | Dovršite           | Dovršite            | 4.25.0.91           | 15. oktobar 2021.    |
+|   &nbsp;  | Evropa                |  4.25.0.91      | Dovršite           | Dovršite            | 4.26.0.145          | 12. novembar 2021.   |
 | Stanica 5 |     &nbsp;            |     &nbsp;      |     &nbsp;         |      &nbsp;         |      &nbsp;         |      &nbsp;         |
-|   &nbsp;  | Severna Amerika         |  4.14.0.99      | Dovršite           | 08. oktobar 2021.    | 4.25.0.91           | 22. oktobar 2021.    |
+|   &nbsp;  | Severna Amerika         |  4.25.0.91      | Dovršite           | Dovršite            | 4.26.0.145          | 19. novembar 2021.   |
 
 
 ## <a name="release-schedule-for-project-management-and-accounting-in-the-finance-and-operations-apps-environment"></a>Raspored izdavanja za upravljanje projektima i računovodstvo u okruženju Finance and Operations aplikacija
@@ -72,14 +72,15 @@ Ispravke za upravljanje projektima i računovodstvo objavljuju se osam puta godi
 
 |Podržana verzija| Dostupnosti verzije za pregled (PEAP) | Opšte dostupno (samo-ažuriranje) | Datum početka proizvodnje automatskih ispravki (putem podešavanja ažuriranja LCS) |   Kraj perioda korišćenja   |
 |:---------------:|:---------------------------:|:---------------------------------:|:--------------------------------------------------------------------:|:------------------:|
+|     10.0.22     |      3. septembar 2021.      |        22. oktobar 2021.           |                          5. novembar 2021.                            | 14. januar 2022.   |
 |    10.0.21      |         02. avgust 2021.     |           17. septembar 2021.      |                             1. oktobar 2021.                          |  10. decembar 2021. |
-|    10.0.20      |         28. maj 2021.        |           16. jul 2021.           |                             30. jul 2021.                            |  22. oktobar 2021.  |
+
 
 Ciljani datumi izdavanja se mogu promeniti. Više informacija potražite u članku [Dostupnost ispravke usluge](/dynamics365/fin-ops-core/fin-ops/get-started/public-preview-releases?toc=%2fdynamics365%2ffinance%2ftoc.json).
 
 |Ciljana verzija | Dostupnosti verzije za pregled (PEAP) | Opšte dostupno (samo-ažuriranje) | Datum početka proizvodnje automatskih ispravki (putem podešavanja ažuriranja LCS) |   Kraj perioda korišćenja   |
 |:---------------:|:---------------------------:|:---------------------------------:|:--------------------------------------------------------------------:|:------------------:|
-|     10.0.22     |      3. septembar 2021.      |          22. oktobar 2021.         |                           5. novembar 2021.                           |  14. januar 2022.  |
 |     10.0.23     |      15. oktobar 2021.       |        10. decembar 2021.          |                          31. decembar 2021.                           | 18. mart 2022.     |
+|     10.0.24     |      3. decembar 2021.       |        14. januar 2022.           |                          4. februar 2022.                            | 15. april 2022.     |
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
