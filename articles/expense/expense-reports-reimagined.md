@@ -1,8 +1,8 @@
 ---
-title: Ponovno osmišljeni izveštaji o troškovima
+title: Izveštaji o troškovima redizajnirani (sadrži video)
 description: Ova tema objašnjava redizajnirano i prerađeno iskustvo za unos izveštaja o troškovima.
 author: suvaidya
-ms.date: 07/08/2021
+ms.date: 12/16/2021
 ms.topic: article
 ms.prod: ''
 ms.search.form: ''
@@ -13,12 +13,12 @@ ms.search.region: ''
 ms.author: suvaidya
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: dba30d16283d820d04d3a1b2fec0acbf30252e87b86c899686ef4df0985ae6ee
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
-ms.translationtype: HT
+ms.openlocfilehash: db5812ebf5a96afee53144efb231093f6af85b68
+ms.sourcegitcommit: 1186e9822e06a13fde89b67ea89427eddfe23cee
+ms.translationtype: MT
 ms.contentlocale: sr-Latn-RS
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6997848"
+ms.lasthandoff: 12/20/2021
+ms.locfileid: "7941058"
 ---
 # <a name="expense-reports-reimagined"></a>Ponovno osmišljeni izveštaji o troškovima
 
@@ -58,6 +58,7 @@ Da biste uključili novo iskustvo, koristite radni prostor **Upravljanje funkcij
 | Sačuvajte i dodajte nove stavke troškova | Dugmad **Sačuvaj** i **Novo** su dostupna kada se unose novi troškovi, što vam pomaže da brzo unesete stavke troškova. |
 | Bolja vidljivost na podeljene i razvrstane stavke | Razvrstane i podeljene stavke dodaju se direktno na listu troškova radi veće vidljivosti i pomoći će vam da lako utvrdite da li postoje greške. |
 | Pogledajte detalje o podkategorijama u detaljnim stavkama | Detaljne stavke nadređenog troška prikazuju oznake potkategorija u izveštaju o troškovima. Raščlanjavanje stavki omogućava vam da brzo pregledate granularne detalje.|
+|Brzo uvećavanje periodičnih troškova stavke | Redizajniran radni prostor troškova obezbeđuje mogućnost brzog artikla periodičnih troškova dodavanjem potkategorije, datuma početka i količine. Količina se odnosi na broj ponovljenih naplata tokom neprekidnog perioda. |
 | Prikažite priznanice tokom razvrstavanja | Možete prikazivati priznanice tokom razvrstavanja. |
 | Izbor gotovinskog avansa | Izaberite jedan ili više gotovinskih avansa za ispunjavanje jedne transakcije troškova. |
 | Bilans gotovinskog avansa | Pregledajte bilans gotovinskog avansa u realnom vremenu kada kreirate unos troškova u odnosu na odobrene i plaćene gotovinske avanse. |

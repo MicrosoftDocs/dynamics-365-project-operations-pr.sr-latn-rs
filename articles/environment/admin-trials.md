@@ -2,16 +2,16 @@
 title: Prijavite se za probnu verziju aplikacije Project Operations
 description: Ova tema pruža informacije o tome kako da primenite probnu verziju aplikacije Dynamics 365 Project Operations.
 author: ruhercul
-ms.date: 10/04/2021
+ms.date: 12/08/2021
 ms.topic: article
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.openlocfilehash: 1c8ae111acffb45fef1c2e6435849471ae331796
-ms.sourcegitcommit: 05ee415093d152b5b9e1203c3db0ea7f0c5a75a5
+ms.openlocfilehash: e40b4ac23241730f5c2db89f0dc674083f9e7abe
+ms.sourcegitcommit: 8f970b46d0303dafaa75fc7d00567d232e1e600b
 ms.translationtype: HT
 ms.contentlocale: sr-Latn-RS
-ms.lasthandoff: 10/04/2021
-ms.locfileid: "7599230"
+ms.lasthandoff: 12/09/2021
+ms.locfileid: "7901634"
 ---
 # <a name="sign-up-for-project-operations-trials"></a>Prijavite se za probnu verziju aplikacije Project Operations 
 
@@ -90,7 +90,8 @@ Pre nego što započnete, prijavite se u pregledaču pomoću korisničkog radnog
 4.  Izaberite odgovarajuće Microsoft Dataverse URL adrese i URL adrese Finance and Operations aplikacija za proveru primene.
 
 ## <a name="configuring-dual-write"></a>Konfigurisanje dvostrukog upisivanja
-Samo za primene materijala koji nisu na zalihama, konfigurišite mapiranja sa dvostrukim upisivanjem. Za više informacija pogledajte [Verzije mapa sa dvostrukim upisivanjem za Project Operations](resource-dual-write-maps.md).
+- Da biste konfigurisali bezbednosne uloge za dvostruko pisanje, pogledajte ažuriranje [bezbednosnih postavki za operacije projekta u programu Dataverse](resource-provision-new-environment.md).
+- Da biste konfigurisali mape sa dva pisanja, [pogledajte mape dvostrukog pisanja "Pokreni operacije projekta"](resource-provision-new-environment.md#run-project-operations-dual-write-maps).
 
 ## <a name="assign-licenses"></a>Dodela licenci
 
