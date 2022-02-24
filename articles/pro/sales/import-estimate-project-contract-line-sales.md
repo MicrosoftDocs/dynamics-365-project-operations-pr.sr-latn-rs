@@ -2,22 +2,24 @@
 title: Uvoz procene u predmet ugovora zasnovan na projektu – jednostavno
 description: Ova tema pruža informacije o uvozu finansijskih procena iz projekta u predmet ugovora.
 author: rumant
+manager: Annbe
 ms.date: 10/19/2020
 ms.topic: article
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: fb85d835789da82f22ae007addb6757ab3c166180992e4ce3a5c85606be6671d
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: b462af163fef1bfcbbc4f945df722d4e8a71fb1a
+ms.sourcegitcommit: 625878bf48ea530f3381843be0e778cebbbf1922
 ms.translationtype: HT
 ms.contentlocale: sr-Latn-RS
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6997263"
+ms.lasthandoff: 10/30/2020
+ms.locfileid: "4177483"
 ---
 # <a name="import-an-estimate-to-a-project-based-contract-line---lite"></a>Uvoz procene u predmet ugovora zasnovan na projektu – jednostavno
 
 _**Odnosi se na:** Jednostavna primena – od pogodbe do profakture_
 
-U usluzi Dynamics 365 Project Operations možete da uvozite procene iz projekta u predmet ugovora zasnovan na projektu.
+U usluzi Dynamics 365 Project Operations možete da uvezete procene iz projekta u predmet ugovora zasnovan na projektu.
 
 1. Proverite da li je popunjeno polje **Projekat** na predmetu ugovora zasnovanom na projektu.
 2. Na kartici **Detalji predmeta ugovora**, na podformi izaberite **Uvoz iz procene projekta**. Otvoriće se stranica dijaloga sa opcijama rezimiranja. Dostupne opcije rezimiranja su **Klasa transakcije**, **Kategorija**, **Uloga** i **Projektni zadatak**.
@@ -58,6 +60,3 @@ Kada korisnik izabere da rezimira po **klasi transakcije**, **kategoriji** i **z
 | Zadatak A | Avionska karta | 1.10.2020. | 4 | 400 | 1600 |
 | Zadatak B | Hotel | 1.10.2020. | 4 | 200 | 800 |
 | Zadatak C | Hotel | 1.11.2020. | 2 | 200 | 400 |
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -2,6 +2,8 @@
 title: Prodajne procene i projekti
 description: Ova tema pruža informacije o tome kako iskoristiti raspored i procene u procesu prodaje.
 author: ruhercul
+manager: kfend
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 03/01/2019
@@ -16,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 1dac342ead487c50d14f3b2fa39e60314d13b0047b77fe6df8f32dee29b09422
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 76e21f80e51e6f3092880dc629ba90b400805486
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: sr-Latn-RS
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6995193"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5148390"
 ---
 # <a name="sales-estimates-and-projects"></a>Prodajne procene i projekti
 
@@ -35,11 +37,11 @@ Tokom procesa prodaje možete kreirati procene prodaje povezujući projekat s pr
 
 Kada kreirate stavku ponude zasnovanu na projektu, možete da kreirate novi projekat ili povežete postojeći projekat na stranici **Stavka projekta**. 
 
-> ![Obrazac stavke ponude.](media/project-8.png)
+> ![Obrazac stavke ponude](media/project-8.png)
  
 Kada kreirate novi projekat iz detalja stavke ponude, možete iskoristiti predloške projekta. Predlošci projekata su modeli projekata koji predstavljaju standardne planove projekata i finansijske procene tipične za organizaciju. Takođe mogu predstavljati kopije projektnih planova i procena iz prošlih projekata.
 
-> ![Detalji stavke ponude.](media/project-9.png)
+> ![Detalji stavke ponude](media/project-9.png)
   
 Kada kreirate projekat iz ponude, projekat se automatski povezuje sa stavkom ponude.
 
@@ -52,6 +54,3 @@ Možete definisati radne aktivnosti i procene rasporeda pomoću polja na kartici
 ## <a name="importing-estimates-from-a-project-into-a-quote"></a>Uvoz procena iz projekta u ponudu
 
 Nakon što definišete procene projekta, možete ih uvesti u stavku ponude. Na stranici **Detalji stavke ponude** izaberite **Uvoz iz procena** na traci da biste rezimirali procene projekta prema vrsti transakcije, ulozi ili nivou zadatka.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

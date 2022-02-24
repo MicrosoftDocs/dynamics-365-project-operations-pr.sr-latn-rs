@@ -1,23 +1,23 @@
 ---
-title: Kreiranje i ažuriranje projekta
+title: Ažuriranje projekta
 description: Ova tema pruža informacije o ažuriranju projekata u usluzi Project Operations.
 author: ruhercul
-ms.date: 10/20/2021
+ms.date: 10/01/2020
 ms.topic: article
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.openlocfilehash: d0847b5343cf3e353b91eae04c94509f14213ba5
-ms.sourcegitcommit: 51224cb3bf7cdeae6614d39fc8d899c83dbad5f2
-ms.translationtype: MT
+ms.openlocfilehash: c07542444b970430d8143a60aad6970305769b22
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.translationtype: HT
 ms.contentlocale: sr-Latn-RS
-ms.lasthandoff: 10/23/2021
-ms.locfileid: "7678366"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "5993388"
 ---
-# <a name="create-and-update-a-project"></a>Kreiranje i ažuriranje projekta
+# <a name="update-a-project"></a>Ažuriranje projekta
 
-_**Odnosi se na:** Project Operations za scenarije zasnovane na resursima/bez zaliha, jednostavna primena – od pogodbe do profakture_
+_**Odnosi se na:** Project Operations za resurs/scenarije koji nisu zasnovani na zalihama, laganu primenu – od pogodbe do profakture_
 
-Sledi rezime polja koja se mogu ažurirati na projektu nakon njegovog kreiranja. Ovo takođe uključuje sve primenljive implikacije zasnovane na ovim ispravkama.
+U nastavku se nalazi rezime polja koja se mogu ažurirati u projektu nakon kreiranja i sve primenljive implikacije ažuriranja.
 
 ## <a name="project-detail-fields"></a>Polja detalja o projektu
 
@@ -25,8 +25,8 @@ Sledi rezime polja koja se mogu ažurirati na projektu nakon njegovog kreiranja.
 - **Opis**: Pregled projekta.
 - **Klijent**: Preduzeće kojem će projekat biti isporučen.
 - **Predložak kalendara**: Radno vreme projekta. Kada se polje promeni, ceo raspored se preračunava.
-- **Valuta**: Valuta projekta. Podrazumevana vrednost za ovo polje se zasniva na valuti koja je definisana u jedinici ugovaranja. Kada se ugovorna jedinica ažurira, polje se takođe ažurira.
-- **Ugovorna jedinica**: Organizaciona jedinica koja predstavlja grupu ili odeljenje preduzeća koje je prvenstveno odgovorno za povećanje prodaje i upravljanje isporukom posla i usluga klijentu.  Kada organizaciona jedinica menadžera projekta nije definisana, ovo polje se podrazumevano koristi za vrednost definisanu u parametrima projekta.
+- **Valuta**: Valuta projekta. Ovo polje se podrazumevano zasniva na valuti definisanoj u ugovornoj jedinici. Kada se ugovorna jedinica ažurira, polje se takođe ažurira.
+- **Ugovorna jedinica**: Organizaciona jedinica koja predstavlja grupu ili odeljenje preduzeća koje je prvenstveno odgovorno za povećanje prodaje i upravljanje isporukom posla i usluga klijentu. 
 - **Menadžer projekta**: Član projektnog tima koji ima ovlašćenje da pregleda i odobri stavke vremena i troškove.
 
 ## <a name="estimate-fields"></a>Polja za procenu

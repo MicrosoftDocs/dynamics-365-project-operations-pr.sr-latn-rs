@@ -2,17 +2,19 @@
 title: Šta je novo decembra 2020. – Project Operations za scenarije zasnovane na resursima/bez zaliha
 description: Ova tema pruža informacije o ispravkama kvaliteta dostupnim u izdanju usluge Project Operations za decembar 2020. za scenarije zasnovane na resursima/bez zaliha.
 author: sigitac
+manager: tfehr
 ms.date: 12/04/2020
 ms.topic: article
 ms.prod: ''
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: dd4047c2f1ed89d668882e4a1e162f3df8e452cf1ed6b85e34e6290b33e53814
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 3889402ab991e307bc3fe5463098dfab383a53b4
+ms.sourcegitcommit: 04c446746aad97fc3f4c3d441983c586b918a3a6
 ms.translationtype: HT
 ms.contentlocale: sr-Latn-RS
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6984888"
+ms.lasthandoff: 12/11/2020
+ms.locfileid: "4727897"
 ---
 # <a name="whats-new-december-2020---project-operations-for-resourcenon-stocked-based-scenarios"></a>Šta je novo decembra 2020. – Project Operations za scenarije zasnovane na resursima/bez zaliha
 
@@ -106,7 +108,4 @@ Sledeće funkcije su uključene u ovom izdanju:
 | Putovanje i trošak                | [513845](https://fix.lcs.dynamics.com/Issue/Details/?bugId=513845)            | Tok posla automatskog knjiženja izveštaja o troškovima je završen, ali faktura nije proknjižena                                                                                                                                                                                          |
 
 ### <a name="regulatory-updates"></a>Regulatorne ispravke
-Za informacije o regulatornim ispravkama za Finance and Operations aplikacije, pogledajte članak [Regulatorne ispravke](/dynamics365/finance/localizations/regulatory-updates). Takođe se možete prijaviti na LCS i pregledati planirane regulatorne ispravke pomoću alatke za pretragu problema. Pretraga problema vam omogućava pretragu po zemlji, tipu funkcije i izdanju.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]
+Za informacije o regulatornim ispravkama za Finance and Operations aplikacije, pogledajte članak [Regulatorne ispravke](https://docs.microsoft.com/dynamics365/finance/localizations/regulatory-updates). Takođe se možete prijaviti na LCS i pregledati planirane regulatorne ispravke pomoću alatke za pretragu problema. Pretraga problema vam omogućava pretragu po zemlji, tipu funkcije i izdanju.

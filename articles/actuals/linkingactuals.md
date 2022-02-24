@@ -2,17 +2,19 @@
 title: Povezivanje trenutnog stanja sa originalnim zapisima
 description: Ova tema objašnjava kako se povezuje trenutno stanje sa originalnim zapisima kao što su stavka vremena, stavka troškova ili evidencija upotrebe materijala.
 author: rumant
+manager: tfehr
 ms.date: 03/25/2021
 ms.topic: article
 ms.prod: ''
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: b5a70d2c2b3f98028b4e4998ed25ab73a275c66e4b8137eb573b943658a1a41e
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 545775c4eae6c3dc689f264e7f662471c17b2340
+ms.sourcegitcommit: b4a05c7d5512d60abdb0d05bedd390e288e8adc9
 ms.translationtype: HT
 ms.contentlocale: sr-Latn-RS
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6991773"
+ms.lasthandoff: 04/02/2021
+ms.locfileid: "5852606"
 ---
 # <a name="link-actuals-to-original-records"></a>Povezivanje trenutnog stanja sa originalnim zapisima
 
@@ -77,7 +79,7 @@ Klasa transakcije predstavlja različite vrste troškova koji se ostvaruju na pr
 
 Sledeći primer prikazuje tipičnu obradu stavki vremena u životnom ciklusu projekta u usluzi Project Operations.
 
-> ![Obrada stavki vremena u životnom ciklusu usluge Project Service.](media/basic-guide-17.png)
+> ![Obrada stavki vremena u životnom ciklusu usluge Project Service](media/basic-guide-17.png)
  
 1. Prosleđivanje stavke vremena uzrokuje kreiranje dve stavke u glavnoj knjizi: jedne za troškove i jedne za nenaplaćenu prodaju.
 2. Krajnje odobravanje stavke vremena kreira dva trenutna stanja: jedno za troškove i jedno za nenaplaćenu prodaju.

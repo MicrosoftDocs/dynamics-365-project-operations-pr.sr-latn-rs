@@ -2,16 +2,18 @@
 title: Rešavanje prodajnih cena za procene i trenutno stanje projekta
 description: Ova tema pruža informacije o načinu rešavanja prodajnih cena u procenama projekata i trenutnom stanju.
 author: rumant
+manager: Annbe
 ms.date: 04/07/2021
 ms.topic: article
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 2152b3f59050482cab0d1c5940d6743f420206bfc90e034dc2d754df8bd513a5
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 3bf4686b414300370e6b364834b33edad98b7f39
+ms.sourcegitcommit: ac90be6106592f883a0de39a75836fb40255d65a
 ms.translationtype: HT
 ms.contentlocale: sr-Latn-RS
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6996093"
+ms.lasthandoff: 04/09/2021
+ms.locfileid: "5877373"
 ---
 # <a name="resolve-sales-prices-for-project-estimates-and-actuals"></a>Rešavanje prodajnih cena za procene i trenutno stanje projekta
 

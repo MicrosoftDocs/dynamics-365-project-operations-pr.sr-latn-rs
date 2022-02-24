@@ -2,9 +2,11 @@
 title: Snimite priznanicu pomoću usluge OCR
 description: Ova tema pruža informacije o obradi priznanica pomoću optičkog prepoznavanja znakova (OCR).
 author: suvaidya
-ms.date: 11/10/2021
+manager: AnnBe
+ms.date: 09/23/2020
 ms.topic: article
 ms.prod: ''
+ms.service: project-operations
 ms.search.form: ''
 audience: Application User
 ms.reviewer: kfend
@@ -13,12 +15,12 @@ ms.search.region: ''
 ms.author: shylaw
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 4dc1628a0dde0551aaf3bc10af628ef57881d85e
-ms.sourcegitcommit: a51f40c905874103040708be2188c04ab0716c38
-ms.translationtype: MT
+ms.openlocfilehash: fd0cb0fb094260fa3e82d7a2f200f328a39dd7a1
+ms.sourcegitcommit: f78087174a8512199a1bcbd7e8610bbc80e64801
+ms.translationtype: HT
 ms.contentlocale: sr-Latn-RS
-ms.lasthandoff: 11/11/2021
-ms.locfileid: "7798057"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "5499868"
 ---
 # <a name="capture-a-receipt-using-ocr"></a>Snimite priznanicu pomoću usluge OCR
 
@@ -52,7 +54,7 @@ Da biste stvorili trošak ili uporedili trošak sa priznanice, izvršite sledeć
 
 ## <a name="installation"></a>Instalacija
 
-Da biste koristili ove napredne mogućnosti troškova, instalirajte programski dodatak Usluga za upravljanje troškovima za Microsoft Dynamics 365 Finance i uključite funkcije u instanci. Programu iz projekta možete pristupiti u utorak u Microsoft Dynamics životnog ciklusa (LCS).
+Da biste koristili ove napredne mogućnosti troškova, instalirajte programski dodatak Usluga upravljanja troškovima za Microsoft Dynamics 365 Finance i uključite funkcije u vašoj instanci. Programskom dodatku možete pristupiti iz svog projekta u usluzi Microsoft Dynamics Lifecycle Services (LCS).
 
 1. Prijavite se na LCS i otvorite željeno okruženje.
 2. Idi na stavku **Svi detalji**.
@@ -73,7 +75,7 @@ Kada uključite ove funkcije, dešavaju se sledeće radnje:
 - Dodata je nova stavka menija za vidljivost polja troškova.
 - Još uvek možete otvoriti prethodnu stranicu **Izveštaji o troškovima** odlaskom na **Upravljanje troškovima > Moji troškovi > Izveštaji o troškovima**.
 - Tokovi posla i sva odobrenja vas i dalje vode na postojeću stranicu sa izveštajima o troškovima.
-- Potvrde će se obrađivati preko Microsoft Azure kognitivnih usluga, a metapodaci će biti izdvojeni i dodati.
+- Priznanice će se obrađivati putem Microsoft Azure Cognitive Services, a metapodaci će biti izdvojeni i dodati.
 - Dodata je opcija koja vam omogućava da napravite izveštaj o troškovima koji uključuje odgovarajuće nepriložene priznanice.
 - Opcija koja se dodaje izveštajima o troškovima omogućava vam da kreirate liniju troškova iz priznanica ili pokušate da uporedite postojeću priznanicu sa postojećom linijom troškova.
 
@@ -85,18 +87,7 @@ Ne, Microsoft je izgradio opšti model mašinskog učenja za uslugu obrade prizn
 
 **Gde je ova funkcija dostupna i obrađena?**
 
-Dostupnost ove funkcije u različitim regionima navedena je u sledećoj tabeli. Ako vaš region trenutno nije podržan, prosledite zahtev za određivanje prioriteta dostupnosti OCR usluge u vašem regionu. 
-
-| Region | Podržano                         |
-|--------|-----------------------------------|
-| SAD    | Da                               |
-| CAN    | Da                               |
-| Ujedinjeno Kraljevstvo     | Da                               |
-| AUS    | Da                               |
-| EU     | Delimično. Samo engleske potvrde. |
-| Azija   | No                                |
-| Japan  | No                                |
-| Africi | No                                |
+Trenutno su podržane Sjedinjene Države.
 
 **Gde odlaze moje priznanice?**
 

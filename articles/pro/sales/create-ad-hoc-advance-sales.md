@@ -2,16 +2,18 @@
 title: Kreiranje ad-hok avansne uplate za ugovor
 description: Ova tema pruža informacije o kreiranju avansa za ugovor po potrebi.
 author: rumant
+manager: Annbe
 ms.date: 10/26/2020
 ms.topic: article
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: bceed1372dbaf523426a4c34da7152d77fe108240c8c3e4e1390c43b1cf536a4
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 790a0281f72eff5f241d11da025b5b4af643a567
+ms.sourcegitcommit: 250270409412ba4cad95fbd4c345a80d3d2b3e53
 ms.translationtype: HT
 ms.contentlocale: sr-Latn-RS
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6999153"
+ms.lasthandoff: 11/21/2020
+ms.locfileid: "4596028"
 ---
 # <a name="creating-an-ad-hoc-advance-on-a-contract"></a>Kreiranje ad-hok avansne uplate za ugovor
 
@@ -37,6 +39,3 @@ Dovršite sledeće korake da biste klijentu fakturisali avans.
     | **Status fakture** | Ovo je podešavanje opcije koje pokazuje da li je ovaj avans dodat radnoj verziji fakture za ovog klijenta. Moguće vrednosti su sledeće:</br>- **Nije spremno za fakturisanje**</br>- **Spremno za fakturisanje** | Kada se avans ili pretplata označi kao **Spremno za fakturisanje**, dodaje se kao vreme stavke na radnoj verziji fakture. Samo potpuno fakturisani avans se može koristiti za usaglašavanje sa projektnim troškovima za sledeći period fakturisanja. |
 
 4. Izaberite **Sačuvaj i zatvori** u dijalogu za brzo kreiranje za beleženje avansa ili pretplate.
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

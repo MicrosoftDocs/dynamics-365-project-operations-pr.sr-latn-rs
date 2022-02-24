@@ -16,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 513f7fe75cfb7b1658b4be71ed0a17da7b64a1023992e1dada9adca8f0dbf21e
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: d33786a5d0a2485a06d174eb7afcbaaa2f337cf6
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: sr-Latn-RS
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6987633"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "5992983"
 ---
 # <a name="create-a-project-booking-from-the-schedule-board"></a>Kreiranje rezervacije u projektu iz tabele rasporeda
 
@@ -43,7 +43,7 @@ Možete da kreirate generički resurs i da mu dodelite zadatak ili više zadatak
 
 1.  Na tabeli rasporeda, ovaj resurs će se prikazati na kartici **Otvorene potrebe**. Možda ćete morati da koristite filtere kolona na mreži ukoliko imate mnogo otvorenih zahteva. 
 
-    ![Otvaranje kartice Zahtevi na tabeli rasporeda.](media/FAQ-Project-Booking-Schedule-Board-1.png "Snimak ekrana tabele rezervacija i dodela")
+    ![Otvaranje kartice Zahtevi na tabeli rasporeda](media/FAQ-Project-Booking-Schedule-Board-1.png "Snimak ekrana tabele rezervacija i dodela")
 
 2. Izaberite zahtev. Kartica **Pretraga dostupnosti** će se pojaviti pri vrhu izabranog reda.
  
@@ -53,7 +53,7 @@ Možete da kreirate generički resurs i da mu dodelite zadatak ili više zadatak
 
     Izbor opcije **Rezerviši** rezerviše resurs u projektnom timu.
 
-![Tabla Kreiranje rezervacije resursa.](media/FAQ-Project-Booking-Schedule-Board-6.png "")
+![Tabla Kreiranje rezervacije resursa](media/FAQ-Project-Booking-Schedule-Board-6.png "")
  
 
 ## <a name="book-from-the-primary-requirement"></a>Rezervisanje iz primarnog zahteva
@@ -62,7 +62,7 @@ Kreiranje projekta u programu Project Service automatski kreira zahtev za resurs
 
 1. Da biste rezervisali resurs sa primarnim zahtevom, u tabeli rasporeda izaberite karticu **Projekat**. Možda ćete morati da koristite filter kolone za kolonu **Projekat** ukoliko imate više projekata.
 
-   ![Filteri kolone na tabli rasporeda.](media/FAQ-Project-Booking-Schedule-Board-2.png "Snimak ekrana tabele rezervacija i dodela")
+   ![Filteri kolone na tabli rasporeda](media/FAQ-Project-Booking-Schedule-Board-2.png "Snimak ekrana tabele rezervacija i dodela")
 
 2. Izaberite zahtev koji ima samo ime projekta kao svoje ime i čije trajanje iznosi nula (0).
 

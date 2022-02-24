@@ -2,17 +2,18 @@
 title: Prikaz primene usluge Project Operations za scenarije zasnovane na resursima/bez zaliha
 description: Ova tema pruža informacije o tipu primene, Project Operations za scenarije zasnovane na resursima/bez zaliha.
 author: rumant
+manager: Annbe
 ms.date: 11/02/2020
 ms.topic: article
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.custom: intro-internal
-ms.openlocfilehash: a66877471e584bc76ddfe508a5d4cb47e38dd7aeb5f2bebe795b41a1de462ef9
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 035ad22d2b51182c11e5c29d35f74f499fc903d5
+ms.sourcegitcommit: d33ef0ae39f90fe3b0f6b4524f483e8052057361
 ms.translationtype: HT
 ms.contentlocale: sr-Latn-RS
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7009728"
+ms.lasthandoff: 11/03/2020
+ms.locfileid: "4365601"
 ---
 # <a name="project-operations-for-resourcenon-stocked-based-scenarios-deployment-overview"></a>Prikaz primene usluge Project Operations za scenarije zasnovane na resursima/bez zaliha
 
@@ -42,6 +43,3 @@ Ovu primenu treba da odaberete u očekivanju da će Project Operations koristiti
 - Zahtevajte bogat mehanizam za izračunavanje poreza na promet i kursne liste na nivou preduzeća da biste generisali fakture za projekte u okruženju klijenata.
 - Sistem računovodstva projekata i priznavanja prihoda koji je usklađen sa Međunarodnim standardima finansijskog izveštavanja (IFRS).
 - Aplikacije Finance ili Supply Chain Management i integracija transakcija zasnovanih na projektima.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

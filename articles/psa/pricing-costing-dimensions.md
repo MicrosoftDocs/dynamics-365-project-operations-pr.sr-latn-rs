@@ -2,11 +2,12 @@
 title: Matična stranica za dimenzije određivanja cena i obračuna troškova
 description: Ova tema obezbeđuje pregled dimenzija za određivanje cena.
 author: rumant
+manager: kfend
 ms.custom:
 - dyn365-projectservice
-- intro-internal
 ms.date: 10/01/2020
 ms.topic: article
+ms.service: business-applications
 ms.author: rumant
 audience: Admin
 search.audienceType:
@@ -16,12 +17,12 @@ search.audienceType:
 search.app:
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: d17939777a6670bafc41b372adc922f8bdcc0411f3fdb399e7c9ab01eca87dd0
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 65516784c6787fa5f3c08297f4d161d52c2ea4a9
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: sr-Latn-RS
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6998478"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5151315"
 ---
 # <a name="pricing-and-costing-dimensions-home-page"></a>Matična stranica za dimenzije određivanja cena i obračuna troškova
 
@@ -41,7 +42,7 @@ S obzirom na tipičnu prirodu ovih atributa posla i ljudi koji su potrebni za ob
 
 PSA obavlja isporuku pomoću podrazumevanog skup dimenzija za određivanje cena. Možete da ih vidite tako što ćete otići na **Project Service** > **Parametri**. U zapisu parametra, na kartici **Dimenzije za određivanje cena zasnovane na iznosima** proverite da li uloga **msdyn_resourcecategory** i organizaciona jedinica resursa **msdyn_organizationalunit** imaju polja **Primenljivo na prodaju** i **Primenljivo na troškove** podešena na **Da**. Ovo će vam omogućiti podešavanje cene i troška za svaku kombinaciju uloge i organizacione jedinice.
 
-![Snimak ekrana Project Service parametara sa markiranom stavkom „Primenljivo na prodaju“.](media/PS-OOB-parameters.png)
+![Snimak ekrana Project Service parametara sa markiranom stavkom „Primenljivo na prodaju“](media/PS-OOB-parameters.png)
 
 > [!IMPORTANT]
 > Ako ste koristili unapred definisana polja uloge i organizacionih jedinica kao dimenzije za određivanje cena pre verzije 3 aplikacije PSA, neće biti nikakvih primetnih promena. Možete da nastavite da koristite Project Service kao i obično. 
@@ -66,16 +67,13 @@ Sledeći primer prikazuje kursne stope koje su podešene na osnovu uloge i organ
 
 | Uloga        | Organizaciona jedinica    |Jedinica      |Cena      |Valuta  |
 | ------------|-------------|----------|----------:|----------|
-| Programer   | Contoso US  |Sat | 200|USD rešenje     |
-| Programer   | Contoso India |Sat|   112|USD rešenje     |
+| Programer   | Contoso US  |Hour | 200|USD     |
+| Programer   | Contoso India |Hour|   112|USD     |
 
 
 **Primeri stopa troškova**
 
 | Grupa ličnih dohodaka     | Organizaciona jedinica    |Jedinica      |Cena      |Valuta  |
 | ----------------|-------------|----------|----------:|----------|
-| Moje preduzeće_Prva grupa ličnih dohodaka | Contoso US  |Sat | 145|USD rešenje     |
-| Moje preduzeće_druga grupa ličnih dohodaka | Contoso India |Sat|   67|USD rešenje     |
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]
+| Moje preduzeće_Prva grupa ličnih dohodaka | Contoso US  |Hour | 145|USD     |
+| Moje preduzeće_druga grupa ličnih dohodaka | Contoso India |Hour|   67|USD     |

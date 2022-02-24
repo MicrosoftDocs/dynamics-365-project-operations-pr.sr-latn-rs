@@ -2,17 +2,19 @@
 title: Ažuriranje usluge Project Operations u Finance okruženju
 description: Ova tema pruža informacije o tome kako da ažurirate uslugu Project Operations u Dynamics 365 Finance okruženju.
 author: ruhercul
+manager: tfehr
 ms.date: 12/11/2020
 ms.topic: article
 ms.prod: ''
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.openlocfilehash: 3665bccfa25c759c0f2351c691d24901867c178f7c339f4a524856842666aec5
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 249b8dba17165da04596ec46a625131b9b4daeb5
+ms.sourcegitcommit: f4fc6e3a81e8551da050e92f8fde85f8d7b52fbd
 ms.translationtype: HT
 ms.contentlocale: sr-Latn-RS
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6986778"
+ms.lasthandoff: 12/29/2020
+ms.locfileid: "4816642"
 ---
 # <a name="update-project-operations-in-your-finance-environment"></a>Ažuriranje usluge Project Operations u Finance okruženju
 
@@ -33,7 +35,7 @@ Ova tema pruža informacije o tome kako da ažurirate Dynamics 365 Project Opera
 4. Proverite da li je okruženje pokrenuto. Ako nije pokrenuto, pokrenite okruženje.
 5. U odeljku **Novo izdanje** pod **Dostupne ispravke** izaberite **Prikaži ispravku** za 10.0.15.
 
-![Dugme „Prikaži ispravku“.](media/view-update.png)
+![Dugme „Prikaži ispravku“](media/view-update.png)
 
 6. Na stranici **Binarna ažuriranja** izaberite **Sačuvaj paket**.
 7. Na stranici **Pregled i čuvanje ispravki** izaberite **Sačuvaj paket**.
@@ -47,11 +49,11 @@ Ova tema pruža informacije o tome kako da ažurirate Dynamics 365 Project Opera
 2. Na listi izaberite paket koji ste ranije sačuvali, a zatim izaberite **Primeni**.
 3. Izaberite **Da** da biste potvrdili da želite da primenite paket.
 
-![Potvrdite izbor u dijalogu „Primena paketa“.](media/confirm-package-deployment.png)
+![Potvrdite izbor u dijalogu „Primena paketa“](media/confirm-package-deployment.png)
 
 4. Izaberite **Da** da biste potvrdili da želite da ažurirate aplikaciju.
 
-![Potvrdite izbor u dijalogu „Ažuriranje aplikacije“.](media/confirm-application-update.png)
+![Potvrdite izbor u dijalogu „Ažuriranje aplikacije“](media/confirm-application-update.png)
 
 Pokrenuće se primena i ažuriranje aplikacije. 
 
@@ -84,7 +86,7 @@ Sledeće ispravke bezbednosnih privilegija za entitete su potrebne kao deo ažur
 
 1. U okruženju Dataverse idite na **Podešavanja** i u grupi **Sistem** izaberite **Bezbednost**.
 
-![Podešavanja Dataverse okruženja.](media/Picture21.png)
+![Podešavanja Dataverse okruženja](media/Picture21.png)
 
 2. Izaberite **Bezbednosne uloge**.
 3. Sa liste uloga izaberite **korisnik aplikacije za dvostruko upisivanje** i izaberite karticu **Prilagođeni entiteti**. 
@@ -121,8 +123,5 @@ Sledeće ispravke bezbednosnih privilegija za entitete su potrebne kao deo ažur
 6. Na listi mapa odaberite mapu **Glavna knjiga (msdyn_ledgers)** sa svim preduslovima i označite polje za potvrdu **Početna sinhronizacija**. 
 7. U polju **Master za početnu sinhronizaciju** izaberite **Finance and Operations aplikacije**, a zatim izaberite **Pokreni**.
  
- ![Sinhronizacija mape glavne knjige.](media/DW6.png)
+ ![Sinhronizacija mape glavne knjige](media/DW6.png)
  
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -2,9 +2,11 @@
 title: Performanse predloga projektnih faktura
 description: Ova tema pruža informacije o poboljšanjima performansi predloga projektnih faktura.
 author: Yowelle
-ms.date: 06/16/2021
+manager: AnnBe
+ms.date: 04/20/2021
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ''
 audience: Application User, IT Pro
@@ -16,12 +18,12 @@ ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 20121-03-05
 ms.dyn365.ops.version: 10.0.18
-ms.openlocfilehash: 8b6df8baf1013720778308ce536b037dec4775f040d2925a47508fb373900f81
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 1641d5f731029fdbdc16c4b652cc752a583058c6
+ms.sourcegitcommit: 68d52fc983861114e654ffc8d2472b4db9b48981
 ms.translationtype: HT
 ms.contentlocale: sr-Latn-RS
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7005723"
+ms.lasthandoff: 04/20/2021
+ms.locfileid: "5920319"
 ---
 # <a name="project-invoice-proposal-performance"></a>Performanse predloga projektnih faktura
 
@@ -44,6 +46,4 @@ Izvršite sledeće korake da biste isključili funkciju poboljšanja performansi
 3.  Osvežite pregledač.
 
 > [!NOTE]
-> Performanse predloga fakture se ne mogu primeniti kada su omogućena pravila obračuna.
-> 
-> Tokom grupnog postupka za kreiranje predloga faktura, broj podzadataka podeliće zadatke na maksimalan broj na osnovu broja ugovora sa transakcijama podložnim fakturisanju, bez obzira na to šta ste uneli. Na primer, ako unesete **3** za broj podzadataka za kreiranje predloga fakture u paketu, a postoje samo dva ugovora sa transakcijama koje mogu da se fakturišu, kreiraju se samo dva podzadatka.
+> Performanse predloga fakture ne može se primeniti kada su omogućena pravila obračuna ili su pokrenute grupne obrade.

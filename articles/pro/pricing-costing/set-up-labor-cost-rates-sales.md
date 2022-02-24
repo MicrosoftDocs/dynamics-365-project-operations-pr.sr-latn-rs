@@ -2,16 +2,18 @@
 title: Podešavanje troškova rada – jednostavno
 description: Ova tema pruža informacije o tome kako postaviti stope za troškove rada u usluzi Project Operations.
 author: rumant
+manager: Annbe
 ms.date: 10/12/2020
 ms.topic: article
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: c7b00d018f20dd79d5a6f8444a25ed4768cc6b220023fd08967eb917e2f4f2b6
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 2e79dde867833fb952349c073ce8975381029dcf
+ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
 ms.translationtype: HT
 ms.contentlocale: sr-Latn-RS
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7006128"
+ms.lasthandoff: 10/31/2020
+ms.locfileid: "4180748"
 ---
 # <a name="set-up-labor-cost-rates---lite"></a>Podešavanje troškova rada – jednostavno
 
@@ -36,7 +38,7 @@ Sledeća tabela uključuje neka od polja koja su važna za stvaranje stopa radne
 
 ## <a name="transfer-pricing-and-costs-for-resources-outside-of-your-division-or-legal-entity"></a>Prenesite cene i troškove za resurse izvan vašeg odeljenja ili pravnog lica
 
-U kompanijama zasnovanim na projektima uobičajeno je da se na projektima koriste zaposleni iz različitih pravnih lica ili odeljenja. Projekat može izvršiti jedno pravno lice, ali zaposleni ili konsultanti koji rade na projektu mogu poticati iz istog pravnog lica ili iz drugog, ili može biti kombinacija oba. U usluzi Dynamics 365 Project Operations, pravno lice koje je vlasnik isporuke projekta naziva se **Preduzeće-vlasnik**, a odeljenje koje je vlasnik isporuke naziva se **Jedinica ugovaranja**. Ostala pravna lica koja pružaju resurse su **Preduzeća koja određuju resurse**, a odeljenja koja pružaju resurse su **Jedinice za određivanje resursa**. U većini zemalja kompanije su dužne da osiguraju da pravno lice ili odeljenje za resurse zadužuju kompaniju koja je vlasnik i ugovornu jedinicu za korišćenje resursa.
+U kompanijama zasnovanim na projektima uobičajeno je da se na projektima koriste zaposleni iz različitih pravnih lica ili odeljenja. Projekat može izvršiti jedno pravno lice, ali zaposleni ili konsultanti koji rade na projektu mogu poticati iz istog pravnog lica ili iz drugog, ili može biti kombinacija oba. U programu Dynamics 365 Project Operations pravno lice koje je vlasnik projekta je **Preduzeće-vlasnik**, a odeljenje koje je vlasnik isporuke je **Jedinica ugovaranja**. Ostala pravna lica koja pružaju resurse su **Preduzeća koja određuju resurse**, a odeljenja koja pružaju resurse su **Jedinice za određivanje resursa**. U većini zemalja kompanije su dužne da osiguraju da pravno lice ili odeljenje za resurse zadužuju kompaniju koja je vlasnik i ugovornu jedinicu za korišćenje resursa.
 
 Na primer, korporacija Fabrikam mora da obezbedi da Fabrikam India-Robotics ima ugovorenu cenovnu kartu sa Fabrikam US-Robotics ili Fabrikam UK-Robotics.
 
@@ -80,6 +82,3 @@ U cenovniku troškova za Fabrikam UK-Robotics stope troškova mogu se izraziti o
 | Projektant | Fabrikam UK | 115 GBP |
 
 Cenovnik troškova može da obezbedi stope rada u više valuta. Prilikom generisanja procene troškova na projektu, usluga Project Operations će pretvoriti ove stope troškova u valutu projekta i prikazati ih korisniku. Kada se odobri unos vremena i stvori stvarni trošak, stvarni trošak se određuje u valuti odgovarajuće linije cena uloge na cenovniku troškova. Stvarni troškovi vremena na jednom projektu mogu se evidentirati u više valuta. Međutim, prilikom pravljenja zbirne vrednosti ili sumiranja stvarnih troškova rada na nivou projekta, Project Operations će pretvoriti sve iznose troškova rada u valutu projekta, koju korisnik može prikazati.
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

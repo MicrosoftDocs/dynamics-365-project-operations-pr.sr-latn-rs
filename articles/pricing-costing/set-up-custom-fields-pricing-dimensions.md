@@ -2,9 +2,11 @@
 title: Podešavanje prilagođenih polja kao dimenzija za određivanje cena
 description: Ova tema pruža informacije o tome kako da podesite dimenzije za određivanje cena pomoću prilagođenih polja.
 author: rumant
+manager: AnnBe
 ms.date: 09/18/2020
 ms.topic: article
 ms.prod: ''
+ms.service: project-operations
 audience: Application User
 ms.reviewer: kfend
 ms.search.scope: ''
@@ -15,12 +17,12 @@ ms.search.industry: Service industries
 ms.author: rumant
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: e40f0336d98cd8452642eb582c4d9daf2304ceb2532ef75ce9d03a0fa4bd8e8b
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 744c561d023d7ef5ed79947e69f2de8a3902fb41
+ms.sourcegitcommit: 13a4e58eddbb0f81aca07c1ff452c420dbd8a68f
 ms.translationtype: HT
 ms.contentlocale: sr-Latn-RS
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7003608"
+ms.lasthandoff: 11/30/2020
+ms.locfileid: "4650245"
 ---
 # <a name="set-up-custom-fields-as-pricing-dimensions"></a>Podešavanje prilagođenih polja kao dimenzija za određivanje cena
 
@@ -42,11 +44,11 @@ Da bi polje postalo dimenzija za određivanje cena, mora biti:
 
 - Kreirano kao red u tabeli **Dimenzija za određivanje cena**. Na primer, dodajte redove dimenzije za određivanje cena kao što je prikazano na sledećem grafikonu. 
 
-![Redovi dimenzija za određivanje cena zasnovanih na iznosu.](media/Amt-based-PD.png)
+![Redovi dimenzija za određivanje cena zasnovanih na iznosu](media/Amt-based-PD.png)
 
 Radno vreme resursa (**msdyn_resourceworkhours**) je dodato kao dimenzija zasnovana na proviziji i da je dodato u mrežu na kartici **Dimenzija za određivanje cena zasnovana na proviziji**.
 
-![Redovi dimenzija za određivanje cena zasnovanih na proviziji.](media/Markup-based-PD.png)
+![Redovi dimenzija za određivanje cena zasnovanih na proviziji](media/Markup-based-PD.png)
 
 
 > [!IMPORTANT]
@@ -75,10 +77,10 @@ Postoje dva tipa dimenzija za određivanje cena.
 | ------------|-------------|-------------------|--------------------|-------------------------|--------:|
 |             | Contoso India|Na lokaciji            |                    |Prekovremeni rad                 |15     |
 |             | Contoso India|Lokalno             |                    |Prekovremeni rad                 |10     |
-|             | Contoso US   |Lokalno             |                    |Prekovremeni rad                 |20     |
+|             | Contoso US   |Lokalno             |                    |Prekovremeni rad                 |20.     |
 
 
-Ako je resurs iz kompanije Contoso India, čija je osnovna stopa 100 USD za rad na lokaciji, a evidentiraju 8 sati redovnog radnog vremena i 2 sata prekovremenog rada u stavci vremena, mehanizam za određivanje cena će koristiti osnovnu stopu od 100 za 8 sati da bi evidentirao 800 USD. Za 2 sata prekovremenog rada, provizija od 15% biće primenjena na osnovnu stopu od 100 za dobijanje jedinične cene od 115 USD i biće evidentirani ukupni troškovi od 230 USD.
+Ako je resurs iz kompanije Contoso India, čija je osnovna stopa 100 USD za rad na lokaciji, a prijavljuju 8 sati redovnog radnog vremena i 2 sata prekovremenog rada u stavci vremena, sistem za određivanje cena će koristiti osnovnu stopu od 100 za 8 sati da bi evidentirao 800 USD. Za 2 sata prekovremenog rada, provizija od 15% biće primenjena na osnovnu stopu od 100 za dobijanje jedinične cene od 115 USD i biće evidentirani ukupni troškovi od 230 USD.
 
 ### <a name="applicable-to-cost"></a>Primenljivo na cenu 
 Ako je ovo podešeno na **Da**, to znači da bi vrednost dimenzije iz konteksta unosa trebalo da se koristi za podudaranje sa stavkama **Cena uloge** i **Provizija na cenu uloge** prilikom preuzimanja stope troškova i stope provizija.
@@ -94,6 +96,3 @@ Podešavanje prioriteta dimenzije pomaže da određivanje cena iznese cenu čak 
 
 - **Prioritet cene**: vrednost prioriteta cene dimenzije će ukazati na težinski faktor te dimenzije kada se podudara sa podešavanjem cena koštanja. Vrednost **Prioritet troškova** mora biti jedinstvena za sve dimenzije koje su **primenljive na troškove**.
 - **Prioritet prodaje**: vrednost prioriteta prodaje dimenzije će ukazati na težinski faktor te dimenzije kada se podudara sa podešavanjem prodajnih cena ili stopa naplate. Vrednost **prioriteta prodaje** mora biti jedinstvena za sve dimenzije koje su **primenljive na prodaju**.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

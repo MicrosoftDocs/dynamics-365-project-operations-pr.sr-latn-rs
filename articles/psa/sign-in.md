@@ -2,6 +2,8 @@
 title: Prijavljivanje u Project Service Automation
 description: Kako da se prijavite u aplikaciju Project Service
 author: ruhercul
+manager: kfend
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 8/03/2018
@@ -16,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 4302b922e3ed9a2d01f12473c272c58f888e19825424c319c0c49b80e79a8bea
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 30af778c31dc7dfc1f80f8f8295f8791873a05dd
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: sr-Latn-RS
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6990468"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5150280"
 ---
 # <a name="sign-in-to-project-service-automation"></a>Prijavljivanje u Project Service Automation
 
@@ -37,7 +39,7 @@ Kada se prijavljujete u Dynamics 365 aplikacije, potrebno je da imate sledeće i
   
 - Vaša lozinka  
   
-  Verovatno ste te informacije primili u e-poruci od administratora. Ako nemate sve ove informacije ili ako imate probleme prilikom prijavljivanja, [Potražite administratora ili osobu za podršku](/dynamics365/customerengagement/on-premises/basics/find-administrator-support).  
+  Verovatno ste te informacije primili u e-poruci od administratora. Ako nemate sve ove informacije ili ako imate probleme prilikom prijavljivanja, [Potražite administratora ili osobu za podršku](https://docs.microsoft.com/dynamics365/customerengagement/on-premises/basics/find-administrator-support).  
   
 ## <a name="set-your-personal-options-to-allow-email"></a>Podesite lične opcije da omogućavaju e-poštu  
  Potrebno je da konfigurišete podešavanja e-pošte da se dozvoli slanje e-pošte drugima u vaše ime, tako da [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)] može da pošaljete e-poruke sa obaveštenjem u vaše ime kada je potrebno da odobrite vreme i troškove ili da se prijavite za projekte.  
@@ -54,6 +56,3 @@ Kada se prijavljujete u Dynamics 365 aplikacije, potrebno je da imate sledeće i
   
 ### <a name="see-also"></a>Takođe pogledajte  
  [Vodič za vreme, trošak i saradnju](../psa/time-expense-collaboration-guide.md)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

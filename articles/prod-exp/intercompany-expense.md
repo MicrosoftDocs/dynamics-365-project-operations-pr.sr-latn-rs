@@ -1,25 +1,27 @@
 ---
 title: Interni troškovi u okviru preduzeća
 description: Ova tema pruža informacije o načinu korišćenja troškova u okviru preduzeća za dodeljivanje troškova radnika pravnom licu za koje je posao obavljen.
-author: Surya Vaidyanathan
-ms.date: 07/08/2021
+author: ShylaThompson
+manager: AnnBe
+ms.date: 05/20/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: TrvParameters
 audience: Application User
 ms.reviewer: roschlom
 ms.search.scope: Core, Operations
 ms.search.region: Global
-ms.author: suvaidya
+ms.author: shylaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 80ef42bf5274ff9a5c50e6dcb93995cfbbda40a66d7471f29ebf056086320640
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: d908a1c062f5b7f01cf340dcd6f7f24714a992bf
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: sr-Latn-RS
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7001223"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5271550"
 ---
 # <a name="intercompany-expenses"></a>Međukompanijski troškovi
 
@@ -34,17 +36,5 @@ Da bi radnik mogao da kreira i preda troškove u okviru preduzeća, morate omogu
 Da biste u izveštaju o troškovima mogli da koristite poreske grupe koje su povezane sa pravnim licem koje pozajmljuje novac (izvor) umesto sa pravnim licem koje se zadužuje (odredište), morate da omogućite funkcionalnost u podešavanju poreza na promet u glavnoj knjizi. Kada je parametar **Pravno lice za knjiženje poreza u okviru preduzeća** podešen na **Izvor**, a parametar **Primeni pravila oporezivanja poreza na promet** je podešen na **Ne**, koristi se poreska kombinacija za pravno lice koje pozajmljuje novac. Kada je isti parametar postavljen na **Odredište**, koristiće se poreska kombinacija za pravno lice kojem se pozajmljuje. Za pravna lica u Sjedinjenim Državama, kada je parametar postavljen na **Izvor**, polje **Potraživanje poreza na promet** takođe mora biti konfigurisano na novoj stranici **Grupe za knjiženje glavne knjige**. Računovodstveni mehanizam će koristiti podatke iz ovog polja za računovodstveni unos u vezi sa porezom.   
 Ponašanje je dosledno za stavke troškova objavljene sa projektom ili bez njega.  
 
-## <a name="new-expense-expression-builder"></a>Nova izrada izraza za troškove
-
-Nova izrada izraza za troškove rešava probleme sa scenarijima troškova unutar preduzeća koji koriste projekte. Ova funkcija obezbeđuje da, kada kreirate trošak unutar preduzeća, politika troškova bude ispravno potvrđena u odnosu na projekat koji je izabran u stavci troškova i da se izveštaj o troškovima može uspešno podneti.
-
-Da bi funkcija alata za izradu izraza za troškove funkcionisala, mora da bude uključena. Osim toga, treba podesiti politiku troškova koja ima ID projekta.
-
-Ako ste već konfigurisali smernice koje potvrđuju ID projekta na stavci troškova, te smernice moraju da se povuku. Zatim možete da uključite funkciju i ponovo konfigurišete smernice.
-
-Da biste uključili ovu funkciju, sledite ove korake.
-
-1. Idite na stavku **Radni prostori** \> **Upravljanje funkcijama**.
-2. Na listi izaberite stavku **Nova izrada izraza za troškove za rešavanje problema sa scenarijima troškova unutar preduzeća koji koriste projekte**. Zatim izaberite **Omogući odmah**.
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

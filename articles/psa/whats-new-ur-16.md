@@ -2,6 +2,8 @@
 title: Šta je novo ili promenjeno u izdanju 16 ispravke Project Service Automation verzije 3
 description: U ovoj temi date su funkcije i ispravke koje su dostupne u izdanju 16 ispravke za Project Service Automation verzije 3.
 author: ruhercul
+manager: kfend
+ms.service: project-operations
 ms.custom: dyn365-projectservice
 ms.date: 02/18/2020
 ms.topic: article
@@ -15,18 +17,18 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: f577cd8407b0f12607c56891eeadb1071f659cff67bd9f086a6b3bbec6376e9d
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 882ee6c25e5d88db22e051254c7fd82dc787ab73
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: sr-Latn-RS
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7004418"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5143650"
 ---
 # <a name="project-service-automation-update-release-16-v3"></a>Project Service Automation izdanje ispravke 16, u verziji 3
 
 [!include [banner](../includes/psa-now-project-operations.md)]
 
-Zadovoljstvo nam je da objavimo najnovije ažuriranje za aplikaciju Project Service Automation za Dynamics 365. Ovo izdanje uključuje neka važna poboljšanja u kvalitetu, performansama i upotrebljivosti.  Ovo izdanje je kompatibilno sa uslugom Dynamics 365 9.x. Da biste ažurirali ovo izdanje, posetite stranicu sa rešenjima centra za administraciju za Dynamics 365 online kako biste instalirali ispravku. Za još informacija pogledajte članak [Instaliranje i ispravka željenog rešenja](/dynamics365/project-service/upgrade-psa-home-page).
+Zadovoljstvo nam je da objavimo najnovije ažuriranje za aplikaciju Project Service Automation za Dynamics 365. Ovo izdanje uključuje neka važna poboljšanja u kvalitetu, performansama i upotrebljivosti.  Ovo izdanje je kompatibilno sa uslugom Dynamics 365 9.x. Da biste ažurirali ovo izdanje, posetite stranicu sa rešenjima centra za administraciju za Dynamics 365 online kako biste instalirali ispravku. Za još informacija pogledajte članak [Instaliranje i ispravka željenog rešenja](https://docs.microsoft.com/dynamics365/project-service/upgrade-psa-home-page).
 U ovoj temi date su funkcije i ispravke koje su nove ili su promenjene u rešenju PSA u verziji 3, izdanje ispravke 16. Ova verzija ima broj verzije V3.10.6.34 i opšte je dostupna putem samo-ispravke u januaru 2020. godine.
 
 
@@ -62,6 +64,3 @@ U ovoj temi date su funkcije i ispravke koje su nove ili su promenjene u rešenj
 
     -   Fiksno: kada korisnici nadograde sa 2.X na 3.X, dozvoljavaju se projekti čija je vrednost za naziv projekta NULL.
 
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

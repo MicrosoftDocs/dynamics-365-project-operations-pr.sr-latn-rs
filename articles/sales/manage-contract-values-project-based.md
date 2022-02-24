@@ -2,16 +2,18 @@
 title: Rad sa predmetima ugovora zasnovanim na projektu
 description: Ova tema pruža informacije o predmetima ugovora zasnovanim na projektu.
 author: rumant
+manager: Annbe
 ms.date: 10/28/2020
 ms.topic: article
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: c1c935a998cba8bd42ba2f11c8310d41e72de94adac7c2cb83f4c7224127b10b
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 14d880eccd5547c122ebe37b63022e64fa2fb6fe
+ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
 ms.translationtype: HT
 ms.contentlocale: sr-Latn-RS
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6990063"
+ms.lasthandoff: 10/31/2020
+ms.locfileid: "4181739"
 ---
 # <a name="work-with-projectbased-contract-lines"></a>Rad sa predmetima ugovora zasnovanim na projektu
 
@@ -55,6 +57,3 @@ Pravilo: Projekat i određena klasa transakcija mogu biti uključeni samo u jedn
 | C1       | CL2           | P1      | No           | Da             | No          | Važeći           | Vreme i naknade za projekat P1 su uključeni u CL1. Troškovi za projekat P1 uključeni su u CL2. </br>   Nema preklapanja onoga što je uključeno u svaki predmet ugovora i stoga je važeće.  |
 | C1       | CL1           | P1      | Da          | Da             | Da         | Ne važi       | Krši pravilo. Vreme, troškovi i naknade za projekat P1 uključeni su u predmete dva ugovora.                                                                                               |
 | CL2      | CL2           | P1      | Da          | Da             | Da         | Ne važi       | Krši pravilo. Vreme, troškovi i naknade za projekat P1 uključeni su u predmete dva ugovora.                                                                                               |
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

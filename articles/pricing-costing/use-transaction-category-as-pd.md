@@ -2,16 +2,18 @@
 title: Korišćenje kategorije transakcije kao aspekta za određivanje cena
 description: Ova tema pruža informacije o tome kako da koristite polje „Kategorija transakcije“ kao dimenzije za određivanje cena.
 author: rumant
+manager: tfehr
 ms.date: 11/05/2020
 ms.topic: article
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: ab8093aca9a33bbbaef41c6fc7d33cad930bfadd13b0f7587c3de9032ac0d630
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: bace11455d34fdda95e08be1a7cc37850a0cf589
+ms.sourcegitcommit: 869bde007805ef255f61b03937e4a44aeef61df9
 ms.translationtype: HT
 ms.contentlocale: sr-Latn-RS
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6996138"
+ms.lasthandoff: 11/12/2020
+ms.locfileid: "4514020"
 ---
 # <a name="use-transaction-category-as-a-pricing-dimension"></a>Korišćenje kategorije transakcije kao aspekta za određivanje cena
 
@@ -48,6 +50,3 @@ Sledeća tabela navodi sve gotove obrasce i prikaze po entitetima. Takođe ćete
 2. Na stranici **Parametri**, na kartici **Dimenzije za određivanje cena zasnovane na iznosima**, potvrdite da li mreža prikazuje zapise u entitetu **Dimenzije za određivanje cena**.
 3. Dodajte **Kategorija transakcije** na ovu listu i podesite polja **Primenljivo na troškove** i **Primenjivo na prodaju** na **Da**.
 4. U polju **Vrsta dimenzije** izaberite **Zasnovano na iznosu**, a zatim izaberite prioritet za stavku **Kategorija transakcije** jer je povezana sa troškovima i prodajom.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

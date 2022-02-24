@@ -2,16 +2,18 @@
 title: Šta je novo novembra 2020. – Project Operations za scenarije zasnovane na zalihama/proizvodnji
 description: Ova tema pruža informacije o ispravkama kvaliteta dostupnim u izdanju usluge Project Operations za novembar 2020. za scenarije zasnovane na proizvodnji.
 author: sigitac
+manager: Annbe
 ms.date: 10/15/2020
 ms.topic: article
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 7ffbca7929133e7828d08ad4b4e7bd6b702c15e39726421a35241d23d1123f48
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: b671f314ddae9a59167bb9059dc7b076df95cb9d
+ms.sourcegitcommit: d33ef0ae39f90fe3b0f6b4524f483e8052057361
 ms.translationtype: HT
 ms.contentlocale: sr-Latn-RS
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7003203"
+ms.lasthandoff: 11/03/2020
+ms.locfileid: "4365603"
 ---
 # <a name="whats-new-november-2020---project-operations-for-stockedproduction-based-scenarios"></a>Šta je novo novembra 2020. – Project Operations za scenarije zasnovane na zalihama/proizvodnji
 
@@ -23,7 +25,4 @@ Za informacije o ispravkama uključenim u ovu ispravku, prijavite se na Lifecycl
 
 ## <a name="regulatory-updates"></a>Regulatorne ispravke
 
-Za informacije o regulatornim ispravkama za Dynamics 365 Finance and Operations aplikacije, pogledajte članak [Regulatorne ispravke](/dynamics365/finance/localizations/regulatory-updates). Takođe se možete prijaviti na LCS i pregledati planirane regulatorne ispravke pomoću alatke za pretragu problema. Pretraga problema vam omogućava pretragu po zemlji, tipu funkcije i izdanju.
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]
+Za informacije o regulatornim ispravkama za Dynamics 365 Finance and Operations aplikacije, pogledajte članak [Regulatorne ispravke](https://docs.microsoft.com/dynamics365/finance/localizations/regulatory-updates). Takođe se možete prijaviti na LCS i pregledati planirane regulatorne ispravke pomoću alatke za pretragu problema. Pretraga problema vam omogućava pretragu po zemlji, tipu funkcije i izdanju.

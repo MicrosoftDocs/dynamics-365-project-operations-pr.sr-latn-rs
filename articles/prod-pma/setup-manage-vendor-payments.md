@@ -2,9 +2,11 @@
 title: Podesite i koristite plaćanja prodavcima nakon izvršene naplate
 description: Ova tema objašnjava kako kreirati uslove za plaćanje nakon izvršene naplate (PWP) tako da možete puštati delimične uplate dobavljača na osnovu plaćanja klijenata.
 author: RadhikaRS
+manager: AnnBe
 ms.date: 03/30/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kfend
@@ -16,12 +18,12 @@ ms.search.industry: Service industries
 ms.author: andchoi
 ms.dyn365.ops.version: 7
 ms.search.validFrom: 2019-01-15
-ms.openlocfilehash: 9976dadf57f1c84bf3f295ff3c8359c16e4849a3bf887f8bd33e46a04e2a5952
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: e872c4a2d35cef4cddc6851615c6c4d73b4e9d9a
+ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
 ms.translationtype: HT
 ms.contentlocale: sr-Latn-RS
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7008873"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4083559"
 ---
 # <a name="set-up-and-use-pay-when-paid-vendor-payments"></a>Podesite i koristite plaćanja prodavcima nakon izvršene naplate
 
@@ -78,6 +80,3 @@ Kada prodavac dovrši svoj posao na projektu i pošalje vam fakturu, morate preg
 2. Na stranici **Faktura prodavca sa plaćanjem nakon uplate**, u polje za pretragu unesite vrednosti da biste pronašli fakturu dobavljača koju želite da pregledate, a zatim izaberite **Pretraga**.
 3. Na brzoj kartici **Redovi faktura prodavaca** izaberite redove koje želite da promenite.
 4. Ako su ispunjeni uslovi za **Plaćanje nakon uplate** za stavku fakture, izaberite **Pusti uplatu prodavca**. Opcija **Plaćanje posle uplate** se briše, a vrednost polja **Spremno za plaćanje** se menja u **Da**.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

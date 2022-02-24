@@ -2,9 +2,11 @@
 title: Pregled predloženih resursa
 description: Ova tema pruža informacije o tome kako da predložite resurse za projekte.
 author: ruhercul
-ms.date: 08/18/2021
+manager: AnnBe
+ms.date: 11/05/2020
 ms.topic: article
 ms.prod: ''
+ms.service: project-operations
 audience: Application User
 ms.reviewer: kfend
 ms.search.scope: ''
@@ -15,12 +17,12 @@ ms.search.industry: Service industries
 ms.author: ruhercul
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: b3077f98052fcac9989a81b2fab12fa30d65d970
-ms.sourcegitcommit: ebcaec7806ee8aee1323ef532d5b7735d27edd04
+ms.openlocfilehash: 54a0924da17eac86e2fa400540e629f6d803aa35
+ms.sourcegitcommit: 14aa380759214713d9bf560f5a7f619b7f4bd5b8
 ms.translationtype: HT
 ms.contentlocale: sr-Latn-RS
-ms.lasthandoff: 08/20/2021
-ms.locfileid: "7403812"
+ms.lasthandoff: 11/05/2020
+ms.locfileid: "4401190"
 ---
 # <a name="review-proposed-resources"></a>Pregled predloženih resursa
 
@@ -28,44 +30,35 @@ _**Odnosi se na:** Project Operations za resurs/scenarije koji nisu zasnovani na
 
 Menadžeri resursa mogu da predlože resurs menadžeru projekata korišćenjem zahteva za resurs.
 
-Da biste pregledali predložene resurse, sledite ove korake:
+1. Iz mreže zahteva ili samog zahteva izaberite **Pronađi resurse**.
+2. Na stranici **Pomoćnik za zakazivanje** izaberite resurs, a zatim u oknu **Kreiranje rezervacije resursa**, u polju **Status rezervacije**, izaberite **Rezerviši**.
 
-1. Iz mreže **Zahtev** ili samog zahteva izaberite **Pronađi resurse**.
-2. Na stranici **Pomoćnik za raspored** izaberite resurs, a zatim potvrdite da su svi predloženi sati uključeni u predloženu rezervaciju.
-3. U oknu **Kreirajte rezervaciju resursa** podesite polje **Status rezervacije** na **Predloženo**, a zatim izaberite **Rezerviši**.
+Dolazi do sledećih izmena statusa:
 
-    > [!NOTE]
-    > Ako se **Status rezervacije** postavi na **Predložen**, resurs se ne rezerviše fiksno i ne zamenjuje se generički resurs imenovanim članom tima.
-
-    Dolazi do sledećih izmena statusa:
-
-    - Na stranici **Pomoćnik za zakazivanje** indikatori statusa se ažuriraju kako bi ukazali da je rezervacija predložena, a da resurs nije fiksno rezervisan.
-    - U zahtevu za resurs se status menja u **Zahteva pregled**.
-    - Na kartici **Tim** u okviru projekta, vrednost generičkog člana tima **Status zahteva** se menja u **Zahteva pregled**.
+- Na stranici **Pomoćnik za zakazivanje** indikatori statusa se ažuriraju kako bi ukazali da je rezervacija predložena, a da resurs nije fiksno rezervisan.
+- U zahtevu za resurs se status menja u **Zahteva pregled**.
+- Na kartici **Tim** u okviru projekta, vrednost generičkog člana tima **Status zahteva** se menja u **Zahteva pregled**.
 
 Menadžer projekta može predlog prihvatiti ili odbaciti.
 
 Kada menadžeri resursa obrađuju zahteve za resurse, mogu koristiti bilo koji od sledećih pristupa:
 
 - Mogu da predlažu više resursa da bi zadovoljili potražnju ako nije dostupan nijedan resurs za ispunjavanje zahtevanih sati. Predloženi sati se zatim dele na više resursa koji mogu da zadovolje zahtevane sate. U ovom scenariju, sati se ne mogu preklapati.
-- Mogu da predlažu manje resursa nego što je potrebno. U ovom scenariju, kapacitet predloženog resursa je manji od zahtevanih sati koje je naveo podnosilac zahteva. Kada podnosilac zahteva prihvati predložene resurse, kreira se potreba za neispunjenim resursom da bi se evidentirala preostala potražnja.
+- Mogu da predlažu manje resursa nego što je potrebno. U ovom scenariju, kapacitet predloženog resursa je manji od zahtevanih sati koje je naveo podnosilac zahteva. Stoga, kada podnosilac zahteva prihvati predložene resurse, kreira se potreba za neispunjenim resursom da bi se evidentirala preostala potražnja.
 - Mogu da rezervišu više resursa da bi zadovoljili potražnju ako nije dostupan nijedan resurs za obavljanje posla.
 - Mogu da rezervišu manje resursa nego što je potrebno. U ovom scenariju, broj rezervisanih sati je manji od broja zahtevanih sati. Sistem vas upućuje da predložite resurse umesto rezervacija, tako da podnosilac zahteva može da proveri i prati preostalu potražnju.
 
 ## <a name="resource-availability"></a>Dostupnosti resursa
 
-Menadžeri resursa moraju da imaju mogućnost da pregledaju dostupnost resursa i ažuriraju rezervacije. U nekim slučajevima ne postoji formalna potražnja (zahtev za resursima). Međutim, menadžer resursa mora odgovoriti na neplanirani zahtev koji dolazi putem drugih kanala, poput e -pošte, telefonskih poziva ili trenutnih poruka. Menadžeri resursa koriste **tablu rasporeda** za ažuriranje resursa i rezervacija.
+Od presudnog je značaja da menadžeri resursa mogu da pregledaju dostupnost resursa i ažuriraju rezervacije. U nekim slučajevima, ne postoji formalna potražnja (zahtev za resurs), ali menadžer resursa mora da odgovori na neplaniranu potražnju koja dolazi preko kanala poput e-pošte, telefonskog poziva ili trenutne poruke. Menadžeri resursa koriste tablu rasporeda za ažuriranje resursa i rezervacija.
 
 Radno vreme resursa koristi se kao osnova za izračunavanje dostupnosti resursa. Rezervacije resursa troše kapacitet resursa.
 
-**Tabela rasporeda** koristi boje i senčenja da bi prikazala rezervacije, dostupnost, prebukiranost i status rezervacija. Podešavanje **Tabela rasporeda** omogućava vam da prikažete legendu.
+Tabela rasporeda koristi boje i senčenja da bi prikazala rezervacije, dostupnost i prebukiranost, kao i status rezervacija. Postavka u podešavanjima tabele rasporeda omogućava vam da prikažete legendu.
 
-Ako se strelica usmerena udesno pojavi pored pojedinačnog resursa koji se može rezervisati u **tabeli rasporeda**, resurs se može proširiti i pokazati detalje posla za koji je resurs rezervisan.
+Ako se strelica usmerena udesno pojavi pored pojedinačnog resursa koji se može rezervisati u tabeli rasporeda, resurs se može proširiti i pokazati detalje posla za koji je resurs rezervisan.
 
 Pošto Dynamics 365 Project Operations koristi Universal Resource Scheduling mehanizam, ako ste instalirali i Dynamics 365 Field Service, možete pregledati detalje o rezervacijama resursa za projekte, radnim nalozima i bilo kojim drugim entitetima za koje ste proširili zakazivanje.
 
-Da biste videli dodatne detalje o pojedinačnom resoru, kliknite desnim tasterom miša na resurs da biste otvorili karticu resursa.
+Da biste videli više detalja o pojedinačnom resursu, kliknite desnim tasterom miša na resurs da biste otvorili karticu resursa.
 
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -2,22 +2,24 @@
 title: Podešavanje cenovnika
 description: Ova tema pruža informacije o tome kako da podesite cene i cenovnike.
 author: rumant
+manager: Annbe
 ms.date: 10/20/2020
 ms.topic: article
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 227e9a6f0ce6fd3fa1c2b0bd9afa014a3ec4f9758ead0dfb408156535692575c
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 000c22944b187b6250f2e982d73020028093fde6
+ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
 ms.translationtype: HT
 ms.contentlocale: sr-Latn-RS
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7009503"
+ms.lasthandoff: 10/31/2020
+ms.locfileid: "4180209"
 ---
 # <a name="set-up-price-lists"></a>Podešavanje cenovnika
 
 _**Odnosi se na:** Project Operations za resurs/scenarije koji nisu zasnovani na zalihama, laganu primenu – od pogodbe do profakture_
 
-Cenovnici u usluzi Dynamics 365 Project Operations predstavljaju katalog cena. Stope izražavaju stope cena, prodaje i obračuna. U zavisnosti od toga da li cenovnik izražava stope cena ili prodaje i obračuna, kontekst cenovnika je **Prodaja** ili **Cena**.
+Cenovnici u usluzi Dynamics 365 Project Operations predstavljaju katalog stopa. Stope izražavaju stope cena, prodaje i obračuna. U zavisnosti od toga da li cenovnik izražava stope cena ili prodaje i obračuna, kontekst cenovnika je **Prodaja** ili **Cena**.
 
 Sledeća proširenja su specifična za Project Operations i primenjuju se na cenovnike iz usluge Dynamics 365 Sales.
 
@@ -38,6 +40,3 @@ Sledeća tabela uključuje polja sa kartice **Opšti podaci** cenovnika koja su 
 | Valuta | Kartica **Opšti podaci** i obrasci **Brzo kreiranje** | Ovo polje se koristi za zadavanje podrazumevane valute u svakoj ulozi, kategoriji ili stavci cenovnika u vezi sa ovim cenovnikom. | Na cenovnicima, ulogama, kategorijama ili stavkama cenovnika opcije **Prodaja** ne mogu se kreirati linije ni u jednoj valuti osim u ovoj. Na cenovnicima opcije **Cena** možete kreirati liniju cena uloga u bilo kojoj valuti. Ovde definisana valuta se koristi kao podrazumevana. Korisničko podešavanje koje je povezano sa cenama uloga može zameniti ovu vrednost kako bi se omogućilo podešavanje stope cene rada u bilo kojoj valuti. Stope cene kategorija i cene stavki cenovnika mogu se postaviti samo u valuti koja je ovde definisana. |
 | Jedinica vremena | Kartica **Opšti podaci** i obrasci **Brzo kreiranje** | Ovo polje se koristi za zadavanje podrazumevane vremenske jedinice na svakoj liniji uloge u vezi sa ovim cenovnikom. | Ova vrednost polja se koristi samo za podešavanje povezane cene uloge. Na cenovnicima opcije **Cena** i **Prodaja** možete kreirati liniju cena uloga u bilo kojoj jedinici vremena. Ovde definisana jedinica vremena se koristi kao podrazumevana. Korisnički podešene povezane cene uloga mogu zameniti ovu vrednost kako bi se omogućilo podešavanje stope cene rada i obračuna u bilo jedinici vremena. |
 | Opis | Kartica **Opšti podaci** i obrasci **Brzo kreiranje** | Ovo tekstualno polje vam omogućava da navedete višelinijski opis cenovnika. | Ovo polje je prikazano u **Vezanim** prikazima na cenovniku u različitim entitetima koji imaju povezane cenovnike. |
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -2,9 +2,11 @@
 title: Primena prilagođenih polja za Microsoft Dynamics 365 Project Timesheet aplikaciju za mobilne uređaje na platformama iOS i Android
 description: Ova tema pruža uobičajene obrasce za korišćenje ekstenzija za primenu prilagođenih polja.
 author: Yowelle
+manager: AnnBe
 ms.date: 05/29/2019
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kfend
@@ -16,12 +18,12 @@ ms.search.industry: Service industries
 ms.author: andchoi
 ms.dyn365.ops.version: 10.0.3
 ms.search.validFrom: 2019-05-29
-ms.openlocfilehash: 9f19a6d069c4f825be8515a6d26739c50d3b064698fc1872ede07a4e74ee4dcb
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 5dae571fce746b49281587f5349774a7f2c4111b
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: sr-Latn-RS
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7005768"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5271010"
 ---
 # <a name="implement-custom-fields-for-the-microsoft-dynamics-365-project-timesheet-mobile-app-on-ios-and-android"></a>Primena prilagođenih polja za Microsoft Dynamics 365 Project Timesheet aplikaciju za mobilne uređaje na platformama iOS i Android
 
@@ -153,13 +155,13 @@ Za polja tipa **Datum**, ovo svojstvo prenosi vrednost datuma polja između serv
 
 U nastavku se nalazi snimak ekrana iz aplikacije za mobilne uređaje gde se kreira stavka vremenskog rasporeda. Pokazuje unapred pripremljena polja i prilagođena polja u odeljku „Stavka vremena“ pod nazivom „Test niska“ sa već postavljenom numeričkom vrednošću „Druga opcija“.
 
-![Prilagođeno polje za testiranje niski u aplikaciji.](media/timesheet-entry.jpg)
+![Prilagođeno polje za testiranje niski u aplikaciji](media/timesheet-entry.jpg)
 
 
 
 U nastavku se nalazi snimak ekrana iz aplikacije za mobilne uređaje korisnika koji bira jednu od opcija nabrajanja dostupnih za prilagođeno polje „Test niska“.  Dve opcije su „Prva opcija“ i „Druga opcija“, prikazane kao radio dugmad. Trenutno je izabrana druga opcija.
 
-![Dugmad sa opcijama (radio dugmad) za polje za testiranje niski.](media/enum-option.jpg)
+![Dugmad sa opcijama (radio dugmad) za prilagođeno polje Test niska](media/enum-option.jpg)
 
 
 
@@ -171,7 +173,7 @@ Imajte na umu da prilagođena polja ne moraju imati nikakve prateće zapise baze
 
 U nastavku se nalazi snimak ekrana sa Visual Studio stablom objekata aplikacije. Prikazuje se proširenje tabele TSTimesheetLine sa poljem TestLineString koje je dodato kao prilagođeno polje.
 
-![Niska linije.](media/b6756b4a3fc5298093327a088a7710fd.png)
+![Niska linije](media/b6756b4a3fc5298093327a088a7710fd.png)
 
 ### <a name="use-chain-of-command-on-the-buildcustomfieldlist-method-of-the-tstimesheetsettings-class-to-show-a-field-in-the-timesheet-entry-section"></a>Koristite lanac komandi na metodi buildCustomFieldList klase TSTimesheetSettings da biste prikazali polje u odeljku stavke vremenskog rasporeda
 
@@ -317,11 +319,11 @@ final class TSTimesheetEntryService_Extension
 
 U nastavku se nalazi snimak ekrana iz aplikacije za mobilne uređaje gde korisnik pregleda vremenski raspored. U gornjem desnom uglu je izabrano dugme „Više informacija“ da bi se prikazala opcija „Prikaži više detalja“.  
 
-![Komanda Prikaži više detalja.](media/show-more.png)
+![Komanda Prikaži više detalja](media/show-more.png)
 
 U nastavku se nalazi snimak ekrana iz aplikacije za mobilne uređaje gde se prikazuje odeljak „Još“ vremenskog rasporeda. Prilagođeno polje pod nazivom „Stopa iskorišćenosti ovog vremenskog rasporeda (izračunato prilagođeno polje)“ dodato je u odeljak zaglavlja vremenskog rasporeda. Vrednost samo za čitanje „0,667“ postavljena je u prilagođenom polju.
 
-![Odeljak „Još“.](media/more-section.jpg)
+![Odeljak „Još“](media/more-section.jpg)
 
 ### <a name="extend-the-tstimesheettable-table-so-that-it-has-a-custom-field"></a>Proširite tabelu TSTimesheetTable tako da ima prilagođeno polje
 
@@ -414,7 +416,7 @@ Postojeća logika za funkcionalnost vremenskog lista na nivou baze podataka i da
 
 Iz parametara projekta možete da napravite unapred pripremljena polja koja su samo za čitanje ili skrivena u aplikaciji za mobilne uređaje. Postavite opcije u odeljku **Mobilni vremenski rasporedi** na kartici **Vremenski raspored** na stranici **Parametri upravljanja projektom i računovodstvom**.
 
-![Parametri projekta.](media/5753b8ecccd1d8bb2b002dd538b3f762.png)
+![Parametri projekta](media/5753b8ecccd1d8bb2b002dd538b3f762.png)
 
 ### <a name="changing-the-activities-that-are-available-for-selection-via-extensions"></a>Promena aktivnosti koje su dostupne za izbor putem dodataka
 

@@ -2,17 +2,19 @@
 title: Rad sa ličnim troškovima u izveštaju o troškovima
 description: Ova tema pruža informacije o načinu rada sa ličnim troškovima koje su ostvarili zaposlen na poslovnim putovanjima.
 author: suvaidya
-ms.date: 05/11/2021
+manager: tfehr
+ms.date: 11/18/2020
 ms.topic: article
 ms.prod: ''
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: suvaidya
-ms.openlocfilehash: 5e1162133eec5a85675bf686855d420c50de0eaf045d81c4b417b6fe66ee19fe
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 68dc91db331c5214b5d0ad1109fa4e9bd9d0918e
+ms.sourcegitcommit: 04c446746aad97fc3f4c3d441983c586b918a3a6
 ms.translationtype: HT
 ms.contentlocale: sr-Latn-RS
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6993168"
+ms.lasthandoff: 12/11/2020
+ms.locfileid: "4728012"
 ---
 # <a name="work-with-personal-expenses-on-an-expense-report"></a>Rad sa ličnim troškovima u izveštaju o troškovima
 
@@ -26,15 +28,3 @@ Postoje dve metode koje možete koristiti za rad sa ličnim troškovima zaposlen
   - **Plaća preduzeće**: Vaša organizacija plaća ceo račun za kreditnu karticu preduzeća, a zatim tereti račun radnika za lične troškove.
 
 Možete odabrati metod koji vaša organizacija koristi na stranici **Parametri upravljanja troškovima**.
-
-
-## <a name="enable-split-expense-function-when-personal-amount-field-has-value-defined"></a>Omogućite funkciju podeljenih troškova kada polje za lični iznos ima definisanu vrednost
-
-Funkcija, **Omogućite funkciju podeljenih troškova kada polje za lični iznos ima definisanu vrednost** odnosi se samo na izveštaje o troškovima koji su odobreni korišćenjem toka posla na nivou stavke. Izveštaji se odobravaju odlaskom na **Obrada izveštaja o troškovima** > **Izveštaji o troškovima koji su mi dodeljeni** > **Otvori izveštaj o troškovima**. 
-
-Da biste omogućili ovu funkciju, idite na **Radni prostori** > **Upravljanje funkcijama**, izaberite **Omogući funkciju podeljenih troškova kada polje za lični iznos ima definisanu vrednost**, a zatim izaberite **Omogući odmah**. 
-
-Kada je funkcija omogućena, stavke troškova koje koriste ovu funkciju generišu dve stavke kada se izveštaj podnese. Dve stavke se generišu tako da davalac odobrenja može da odobri svaki red zasebno.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -2,16 +2,18 @@
 title: Upravljanje većim brojem klijenata u predmetima ugovora zasnovanim na projektu
 description: Ova tema pruža informacije o radu sa predmetima ugovora i ugovorima koji sadrže više klijenata.
 author: rumant
+manager: Annbe
 ms.date: 10/22/2020
 ms.topic: article
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 25ce50251380d1ca136a81268c74a0675928011dc2eefaee21df83cdd62845a9
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 71081775ab45167bc1bff1979f7856a2a2a91385
+ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
 ms.translationtype: HT
 ms.contentlocale: sr-Latn-RS
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6992133"
+ms.lasthandoff: 10/31/2020
+ms.locfileid: "4181919"
 ---
 # <a name="manage-multiple-customers-on-project-based-contract-lines"></a>Upravljanje većim brojem klijenata u predmetima ugovora zasnovanim na projektu
 
@@ -42,6 +44,3 @@ U nastavku se nalaze polja na zapisu klijenta predmeta ugovora za predmet ugovor
 Procenti podele naplate se mogu uređivati u mreži. Kada procenti podele naplate ne budu iznosili 100 procenata, javiće se greška. Kada uredite procente podele naplate, osvežite stranicu da biste uklonili grešku.
 
 Takođe možete pokušati da izaberete **Ravnomerno rasporedi** na podformi klijenta predmeta ugovora. Ova radnja ravnomerno raspoređuje podele naplate za sve klijente predmeta ugovora. Ako postoji bilo koji faktor zaokruživanja, on će se dodati klijentu za zaokruživanje. Jedan klijent iz predmeta ugovora uvek je označen kao klijent za **zaokruživanje**, čija zastavica **Zaokruživanje** je postavljena na **Da**.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

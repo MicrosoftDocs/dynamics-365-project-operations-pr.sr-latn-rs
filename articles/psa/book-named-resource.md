@@ -2,6 +2,8 @@
 title: Rezervisanje imenovanih resursa iz potrebe za resursima
 description: Ova tema pruža informacije o rezervisanju imenovanih resursa u skladu sa potrebama za generičkim resursima.
 author: JohnPBurrows
+manager: kfend
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 12/11/2018
@@ -16,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: e929a5fb4c307d3b64d0f7f70203fe20bc6dd4f99e89e039fae0ce8276c69c52
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: c7a6370bde434b74d05e342240abd9bba84d34d8
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: sr-Latn-RS
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7000503"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5145123"
 ---
 # <a name="book-named-resources-from-resource-requirements"></a>Rezervisanje imenovanih resursa iz potrebe za resursima
 
@@ -35,37 +37,34 @@ Možete rezervisati imenovani resurs da biste zamenili generički resurs za koji
 2. Sa liste izaberite generički resurs za kojim postoji potreba, a zatim kliknite na **Rezerviši**. Ili otvorite potrebu za resursom, a zatim kliknite na **Rezerviši**.
 
 
-![Rezervisanje generičkog člana tima.](media/RM-how-to-14.png)
+![Rezervisanje generičkog člana tima](media/RM-how-to-14.png)
 
 
 3. Na stranici **Pomoćnik za zakazivanje** izaberite imenovani resurs koji ćete rezervisati za projektni tim, a zatim kliknite na **Rezerviši**.
 
-![Rezervisanje generičkog člana tima pomoću pomoćnika za zakazivanje.](media/RM-how-to-15.png)
+![Rezervisanje generičkog člana tima pomoću pomoćnika za zakazivanje](media/RM-how-to-15.png)
 
 Kada se rezervacija dovrši i ispuni je imenovani resurs, generički resurs se zamenjuje imenovanim resursom.
 
-![Imenovani član tima koji zamenjuje generičkog člana tima.](media/RM-how-to-16.png)
+![Imenovani član tima koji zamenjuje generičkog člana tima](media/RM-how-to-16.png)
 
 Dodele u rasporedu se ažuriraju i imenovanim resursom.
 
-![Imenovani član tima dodeljen projektnim zadacima.](media/RM-how-to-17.png)
+![Imenovani član tima dodeljen projektnim zadacima](media/RM-how-to-17.png)
 
 ## <a name="fulfill-a-generic-resource-with-multiple-named-resources"></a>Popunjavanje generičkog resursa većim brojem imenovanih resursa
 Ispunjavanje zahteva za generički resurs sa više imenovanih resursa je slično dodeljivanju jednog imenovanog resursa. Na primer, postoji zadatak sa trajanjem od pet dana i 120 sati truda. Ovaj zadatak ne može da dovrši jedan resurs koji radi sa tipičnim osmočasovnim radnim danom u sedmici od pet radnih dana. 
 
-![Zadatak koji treba 120 sati truda tokom perioda od pet dana.](media/RM-how-to-21.png)
+![Zadatak koji treba 120 sati truda tokom perioda od pet dana](media/RM-how-to-21.png)
 
 Zahtev je za 120 sati inženjeringa robotike u toku pet dana, što je 24 časa dnevno.
 
-![Zahtev po danu.](media/RM-how-to-22.png)
+![Zahtev po danu](media/RM-how-to-22.png)
 
 Ovo je primer kada je potrebno više imenovanih resursa za ispunjavanje generičkog zahteva za resurse. Biće potrebno da rezervišete više resursa da biste ispunili taj zahtev.
 
-![Rezervisanje više resursa radi ispunjavanja zahteva.](media/RM-how-to-23.png)
+![Rezervisanje više resursa radi ispunjavanja zahteva](media/RM-how-to-23.png)
 
 Glavna razlika u ovom scenariju je to što generički resurs ostaje u timu koji je dodeljen zadatku, a rezervisani imenovani članovi tima resursa nisu dodeljeni kao deo pozicije. Menadžer projekta može po potrebi da dodeli posao imenovanim resursima. Prikaz **Usaglašenost** može da pomogne menadžeru projekta da podeli rezervacije više resursa na zadatke za dodeljivanje. Ovo se ne radi automatski jer u svakom scenariju komplikovanijem od običnog primera datog iznad, na primer kada imate skup zadataka koji sačinjavaju zahtev, sistem mora da pretpostavi kako menadžer projekta namerava da dodeli resurse. Pošto sistem ne može da razume nameru, postoje šanse da će se pretpostavke razlikovati od predviđenih, pa će doći do netačnog ili nepredvidivog rezultata. Predvidiv ishod je da generički resurs ostaje dodeljen dok menadžer projekta namerno ne kreira dodele, uz pomoć prikaza **Usaglašenost**.
 
 
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

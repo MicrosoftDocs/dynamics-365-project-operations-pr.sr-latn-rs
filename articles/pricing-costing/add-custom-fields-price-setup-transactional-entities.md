@@ -2,9 +2,11 @@
 title: Dodavanje obaveznih prilagođenih polja u podešavanje cena i entitete transakcije
 description: Ova tema pruža informacije o tome kako treba dodati potrebne reference prilagođenih polja u entitete i u obrasce i prikaze.
 author: rumant
+manager: AnnBe
 ms.date: 09/18/2020
 ms.topic: article
 ms.prod: ''
+ms.service: project-operations
 audience: Application User
 ms.reviewer: kfend
 ms.search.scope: ''
@@ -15,12 +17,12 @@ ms.search.industry: Service industries
 ms.author: suvaidya
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: 36c95913cc72e293c3015e1b9d3055aac476eebb4cf7d7993741d3cb61de0e13
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: c324e0e8797d0b6d3a06ffc2a40b787a475c49b5
+ms.sourcegitcommit: 16c442258ba24c79076cf5877a0f3c1f51a85f61
 ms.translationtype: HT
 ms.contentlocale: sr-Latn-RS
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7006182"
+ms.lasthandoff: 11/20/2020
+ms.locfileid: "4590918"
 ---
 # <a name="add-required-custom-fields-to-price-setup-and-transactional-entities"></a>Dodavanje obaveznih prilagođenih polja u podešavanje cena i entitete transakcije
 
@@ -47,7 +49,7 @@ Kada je prilagođena dimenzija za određivanje cena zasnovana na skupu opcija, d
 > [!IMPORTANT]
 > Kada dodate polje u više od jednog entiteta, koristite isto ime polja u svim entitetima. 
 
-> ![Dodavanje radne lokacije resursa u cenu uloge.](media/RWL-Field.png)
+> ![Dodavanje radne lokacije resursa u cenu uloge](media/RWL-Field.png)
 
 U fazama prodaje i procene projekta, procena radnih napora koji su neophodni da bi se dovršio **lokalni** posao i posao **na lokaciji** ako se koriste **Standardno radno vreme** i **Prekovremeno radno vreme**, koriste se za procenu vrednost ponude/projekta. Polja **Radna lokacija resursa** i **Radno vreme resursa** će biti dodati u entitete procena **Detalj stavke ponude**, **Detalji predmeta ugovora**, **Član projektnog tima** i **Stavka procene**.
 
@@ -59,7 +61,7 @@ U fazama prodaje i procene projekta, procena radnih napora koji su neophodni da 
 6. Ponovite korake 1-5 da biste dodali ovo polje u entitete **Detalj predmeta ugovora za projekat**, **Član projektnog tima** i **Stavka procene**.
 7. Ponovite korake 1-6 za skup opcija **Radno vreme resursa**. 
 
-> ![Dodavanje radne lokacije resursa u stavku procene.](media/RWL-Default-Value.png)
+> ![Dodavanje radne lokacije resursa u stavku procene](media/RWL-Default-Value.png)
 
 Za isporuku i fakturisanje, cena dovršenog posla treba da bude precizno određena da biste izabrali da li je obavljen **lokalno** ili **na lokaciji**, kao i da li je dovršen uz opciju **Standardno radno vreme** ili **Prekovremeno** u delu Stvarne vrednosti projekta. Polja **Radna lokacija resursa** i **Radno vreme resursa** treba da dodate u entitete **Stavka vremena**, **Stvarna vrednost**, **Detalj stavke fakture** i **Stavka u glavnoj knjizi**.
 
@@ -71,7 +73,7 @@ Za isporuku i fakturisanje, cena dovršenog posla treba da bude precizno određe
 6. Ponovite korake 1-5 da biste dodali ovo polje u entitete **Stvarna vrednost**, **Detalj stavke fakture** i **Stavka u glavnoj knjizi**.
 7. Ponovite korake 1-6 za skup opcija **Radno vreme resursa**. 
 
-> ![Dodavanje radne lokacije resursa u stavku vremena.](media/RWL-time-entry.png)
+> ![Dodavanje radne lokacije resursa u stavku vremena](media/RWL-time-entry.png)
 
 Ovim se dovršava promena šeme potrebna za prilagođene dimenzije zasnovane na skupu opcija.
 
@@ -84,7 +86,7 @@ Kada je prilagođena dimenzija za određivanje cena entitet, treba da dodate 1:N
 3. Proširite entitet **Standardna pozicija** i izaberite **1:N odnos**.
 4. Izaberite **Novo** da biste kreirali novu 1:N relaciju pod nazivom **Između standardne pozicije i resursa koji može da se rezerviše**. Unesite potrebne informacije, a zatim izaberite **Sačuvaj**.
 
-> ![Dodavanje standardne pozicije kao referentnog polja u resurs koji može da se rezerviše.](media/ST-BR.png)
+> ![Dodavanje standardne pozicije kao referentnog polja u resurs koji može da se rezerviše](media/ST-BR.png)
 
 Standardna pozicija će takođe morati da se doda u entitete za određivanje cena **Cena uloge** i **Provizija na cenu uloge**. Ovo se takođe završava pomoću 1:N odnosa između entiteta **Standardna pozicija** i **Cene uloge** i entiteta **Standardna pozicija** i **Provizija na cenu uloge**.
 
@@ -102,13 +104,13 @@ U fazama prodaje i procene projekta, da bi se odredila cena ponude/projekta, za 
 
 5. Ponovite korake 1-5 da biste kreirali 1:N odnose između stavke **Standardna pozicija** i **Detalj stavke ponude**, **Detalj predmeta ugovora za projekat**, **Član projektnog tima** i **Stavka procene**.
 
-> ![Dodavanje standardne pozicije kao referentnog polja u stavku procene.](media/ST-Estimate-Line.png)
+> ![Dodavanje standardne pozicije kao referentnog polja u stavku procene](media/ST-Estimate-Line.png)
 
   U fazama isporuke i fakturisanja, cena obavljenog posla svake standardne pozicije mora biti precizno određena u delu Stvarne vrednosti projekta. To znači da treba da postoje 1:N odnosi između stavke **Standardna pozicija** i sledećih entiteta: **Stavka vremena**, **Stvarna vrednost**, **Detalj stavke fakture** i **Stavka u glavnoj knjizi**.
 
 6. Ponovite korake 1-6 da biste kreirali 1:N odnose između stavke **Standardna pozicija** i sledećih entiteta: **Stavka vremena**, **Stvarna vrednost**, **Detalj stavke fakture** i **Stavka u glavnoj knjizi**.
 
-> ![Dodavanje standardne pozicije kao referentnog polja u stavku vremena.](media/ST-Mapping.png)
+> ![Dodavanje standardne pozicije kao referentnog polja u stavku vremena](media/ST-Mapping.png)
 
 ### <a name="set-up-dimension-value-defaulting-using-the-mappings-features-of-the-platform"></a>Podešavanje podrazumevane vrednosti dimenzije pomoću funkcija mapiranja u okviru platforme
 Za stavku vremena, bilo bi od pomoći da sistem kao podrazumevanu vrednost podesi standardnu poziciju za stavku vremena iz resursa koji se može rezervisati i koji evidentira stavku vremena. Koristite sledeće korake da biste dodali mapiranja polja za 1:N odnos između entiteta **Resurs koji se može rezervisati** i **Stavka vremena**.
@@ -118,7 +120,7 @@ Za stavku vremena, bilo bi od pomoći da sistem kao podrazumevanu vrednost podes
 3. Dvaput kliknite na **Resursa koji se može rezervisati za stavku vremena**. Na stranici **Odnos** izaberite **Korišćenje mapiranja polja**. 
 4. Izaberite **Novo** da biste kreirali novo mapiranje iz polja **Standardna pozicija** u entitetu **Resurs koji može da se rezerviše** u referentno polje **Standardna pozicija** entiteta **Stavka vremena**. 
 
-> ![Podešavanje mapiranja polja radi dozvoljavanja podešavanja podrazumevane vrednosti standardne pozicije iz Resurs koji se može rezervisati u Stavka vremena.](media/ST-Mapping2.png)
+> ![Podešavanje mapiranja polja radi dozvoljavanja podešavanja podrazumevane vrednosti standardne pozicije iz Resurs koji se može rezervisati u Stavka vremena](media/ST-Mapping2.png)
 
 Ovim se dovršava promena šeme potrebna za prilagođene dimenzije zasnovane na entitetima.
 
@@ -144,6 +146,3 @@ Sledeća tabela pruža sveobuhvatnu listu unapred definisanih obrazaca i prikaza
 |  Stvarno|• Informacije<br>• Aktivne stvarne vrednosti|• Vezani prikaz stvarnih vrednosti|
 
 I prilagođena polja ćete možda morati da dodate u poslovna pravila, u zavisnosti od toga šta ste definisali. Jedan od unapred definisanih primera je za poslovno pravilo **Mogućnost uređivanja stavke vremena na osnovu statusa**. Ovo pravilo definiše polja koja treba da budu zaključana kada stavka vremena ima status koji ne može da se uređuje, npr. **Odobreno**. Dodajte polja u ovo poslovno pravilo tako da polja budu zaključana za uređivanje kada se status stavke vremena razlikuje od **Radna verzija** ili **Vraćena**.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

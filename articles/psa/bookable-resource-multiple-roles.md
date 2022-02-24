@@ -2,10 +2,12 @@
 title: Procena prodaje i troškova za projekat kada resurs koji može da se rezerviše ispunjava više uloga u projektu
 description: Ova tema pruža informacije o tome kako dimenzije određivanja cena mogu da se koriste za podršku procenama cena i troškova za resurs koji ispunjava više uloga u projektu.
 author: rumant
+manager: kfend
 ms.custom:
 - dyn365-projectservice
 ms.date: 10/01/2020
 ms.topic: article
+ms.service: business-applications
 ms.author: rumant
 audience: Admin
 search.audienceType:
@@ -15,12 +17,12 @@ search.audienceType:
 search.app:
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: be24bb3bdf2f3c8351fc396ae67457b5213e1cd800e9d2ad23d59d0d038f22b9
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 67e24156e960b9b09cf92f7f0cd77f6c74a982b8
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: sr-Latn-RS
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6987498"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5145060"
 ---
 # <a name="estimate-project-sales-and-costs-when-a-bookable-resource-fills-multiple-roles-for-a-project"></a>Procena prodaje i troškova za projekat kada resurs koji može da se rezerviše ispunjava više uloga u projektu 
 
@@ -72,6 +74,3 @@ Kada proširite red tog zapisa člana tima, na zapisu člana tima možete videti
 Kada odete na mrežu **Procene**, primetićete da obe dodele za isti resurs imaju različito određene cene.
 Cena dodele resursa zadatku A određuje se korišćenjem vrednosti atributa **Uloga** za **vođu konsultanata**. Cena dodele istog resursa zadatku B određuje se korišćenjem vrednosti atributa **Uloga** za **tehničara mreže**.
 
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

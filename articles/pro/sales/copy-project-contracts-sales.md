@@ -2,16 +2,18 @@
 title: Kopiranje ugovora za projekat – jednostavno
 description: Ova tema pruža informacije o kopiranju ugovora za projekat u usluzi Project Operations.
 author: rumant
+manager: Annbe
 ms.date: 10/07/2020
 ms.topic: article
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: d5c45c6f1631d9e20bd0416410c7fe24a11623da425c8e2a633b085fbfabdd79
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 4137fc400c7fdd8fecd9d8349bf7f57f3470b51f
+ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
 ms.translationtype: HT
 ms.contentlocale: sr-Latn-RS
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7006038"
+ms.lasthandoff: 10/31/2020
+ms.locfileid: "4181424"
 ---
 # <a name="copy-project-contracts---lite"></a>Kopiranje ugovora za projekat – jednostavno
 
@@ -43,6 +45,3 @@ Sledeće informacije se ne kopiraju iz **izvornog** u **ciljni ugovor**:
   - Informacije o budžetu klijenta
 
 Budući da su ove informacije vrlo specifične za svaki ugovor, ta polja i zapisi se ne kopiraju. Kopiraju se predmeti ugovora za projekte i proizvode, procene detalja predmeta ugovora i vrednosti koje ne smeju da premaše vrednost na nivou ugovora. Podrazumevane vrednosti cena i stopa troškova zavise od izbora u polju **Kopiranje određivanja cena** na stranici dijaloga **Kopiranje parametara**.
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

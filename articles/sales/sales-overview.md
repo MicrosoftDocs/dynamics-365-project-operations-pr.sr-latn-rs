@@ -2,23 +2,24 @@
 title: Pregled procesa prodaje
 description: Ova tema pruža informacije o osnovnim procesima prodaje.
 author: rumant
+manager: Annbe
 ms.date: 10/29/2020
 ms.topic: article
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.custom: intro-internal
-ms.openlocfilehash: 3bda8a11d0cb6fe97a3daa640bf95717ef9913000e6b1a28a0a27a35527dbf6f
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 5da29d2959a6e49defa185630f45d280dba283c4
+ms.sourcegitcommit: 625878bf48ea530f3381843be0e778cebbbf1922
 ms.translationtype: HT
 ms.contentlocale: sr-Latn-RS
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6991863"
+ms.lasthandoff: 10/30/2020
+ms.locfileid: "4177618"
 ---
 # <a name="sales-process-overview"></a>Pregled procesa prodaje
 
 _**Odnosi se na:** Project Operations za resurs/scenarije koji nisu zasnovani na zalihama, laganu primenu – od pogodbe do profakture_
 
-Procesi prodaje koji se koriste u organizaciji zasnovanoj na projektima razlikuju se od procesa prodaje koji se koriste u organizaciji zasnovanoj na proizvodima. To je zato što su ciklusi prodaje za organizacije zasnovane na projektima duži i zahtevaju prilagođene tehnike procena za analiziranje i kreiranje ponuda za svaku pogodbu. Dynamics 365 Project Operations koristi neke od sledećih funkcija koje se koriste u procesu prodaje:
+Procesi prodaje koji se koriste u organizaciji zasnovanoj na projektima razlikuju se od procesa prodaje koji se koriste u organizaciji zasnovanoj na proizvodima. To je zato što su ciklusi prodaje za organizacije zasnovane na projektima duži i zahtevaju prilagođene tehnike procena za analiziranje i kreiranje ponuda za svaku pogodbu. Dynamics 365 Project Operations koristi neke od sledećih funkcionalnosti koje se koriste u procesu prodaje.
 
 - Zapis Potencijalni klijent se koristi za praćenje procesa prodaje.
 - Kvalifikovani potencijalni klijenti se prate kao mogućnosti za poslovanje.
@@ -62,6 +63,3 @@ U Project Operations ne možete da pratite revizije ponude. Umesto toga, morate 
 
 ## <a name="track-comments-and-approvals-of-quotes-and-project-contracts"></a>Praćenje komentara za ponude i odobrenja ponuda i projektnih ugovora
 Redigovanjima i odobrenjima ponuda i ugovora o projektima možete da upravljate pomoću Zida za zapise i objava. Vaša organizacija može da kreira prilagođene tokove posla i dodatne komponente za dodeljivanje, preusmeravanje i eskaliranje obaveštenja o radnim stavkama pregleda i odobrenja, kao i da upravlja njima.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

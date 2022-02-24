@@ -2,9 +2,11 @@
 title: Prenos budžeta projekata na kraj fiskalne godine
 description: Ovaj članak daje informacije o tome kako preneti preostale iznose budžeta u buduće godine i stvoriti detalje budžetskog registra.
 author: Yowelle
+manager: AnnBe
 ms.date: 03/23/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kfend
@@ -16,12 +18,12 @@ ms.search.industry: Service industries
 ms.author: andchoi
 ms.dyn365.ops.version: 7
 ms.search.validFrom: 2019-01-15
-ms.openlocfilehash: 74b2831a19688636f5c4863036adf7043c80d49829737b56c131abb6998d6cb3
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 26e013ab99e9a0aeafe25916715ce0ee024df3f7
+ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
 ms.translationtype: HT
 ms.contentlocale: sr-Latn-RS
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7007388"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4083713"
 ---
 # <a name="transfer-project-budgets-at-fiscal-year-end"></a>Prenos budžeta projekata na kraj fiskalne godine
 
@@ -96,6 +98,3 @@ Kada obrađujete preostale iznose budžeta, možete da kreirate transakcije u gl
 5. Za svaki projekat koji želite da obradite odaberite opciju na početku reda za projekat. 
 6. Izaberite **Obradi** da biste preneli preostale iznose budžeta za odabrane projekte na izabranu fiskalnu godinu.
 
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -2,16 +2,18 @@
 title: Upravljanje predlozima projektnih faktura
 description: Ova tema pruža detalje o obradi faktura za klijente pomoću usluge Project Operations za resurs/scenarije koji nisu zasnovani na zalihama.
 author: sigitac
-ms.date: 04/12/2021
+manager: Annbe
+ms.date: 01/29/2021
 ms.topic: article
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 61b43e05eb179e2b00189076290433dd72f89a6bc7ef72140fc1efd752149d43
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 83e5af60d0a3baf0b59da2a97c6b156ef5b2b7ed
+ms.sourcegitcommit: b4298ca4729643c1040ef35dde8c67f829461ce7
 ms.translationtype: HT
 ms.contentlocale: sr-Latn-RS
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6989928"
+ms.lasthandoff: 01/29/2021
+ms.locfileid: "5089296"
 ---
 # <a name="manage-project-invoice-proposals"></a>Upravljanje predlozima projektnih faktura
 
@@ -78,8 +80,7 @@ Vrednosti **Grupa za porez na promet** i **Grupa za porez na promet stavki** pod
     - **Klijent**: Uvek podrazumevano podešava grupu za naplatu poreza na promet iz klijenta.
     - **Pretraga**: Pretražiće sve entitete u ovoj listi i odabrati prvu dostupnu vrednost. Pretraga počinje entitetom **Projekat**, zatim sledi entitet **Ugovor o projektu** i onda entitet **Klijent**.
 
-- **Grupa poreza na promet ključnih stavki sa fiksnim cenama** se koristi kao podrazumevana vrednost u polju **Grupa poreza na promet stavke** za kontrolnu tačku fakturisanja. Računovođa može pregledati i izmeniti ovu vrednost na stranici **Transakcije na računu**. Sistem koristi vrednost iz transakcije na računu prilikom kreiranja linije predloga fakture za projekat.
- 
+- **Grupa za porez na promet stavki za kontrolnu tačku fiksne cene** koristi se za podrazumevano određivanje vrednosti u polju **Grupa za porez na promet stavki**.
 
 ### <a name="financial-dimensions"></a>Finansijski aspekti
 
@@ -131,7 +132,7 @@ Stranica **Oblikovanje predloga faktura** omogućava prikazivanje prilagođenog 
 
 Upravljanje štampanjem koristi različite datoteke izveštaja za štampanje, određivanje odredišta i prilagođavanje teksta podnožja za fakturu. Upravljanje štampanjem se može podesiti na nivou modula, međutim, ova podešavanja mogu biti zamenjena za određenog klijenta, ugovor ili predlog fakture. Da biste pristupili ovoj funkciji na stranici **Predlog fakture projekta**, izaberite **Štampaj** > **Upravljanje štampanjem**.
 
-Podešavanje upravljanja štampanjem prikazuje se u obliku stabla, gde svaki nivo čvora prikazuje dostupne dokumente za prilagođavanje. Možete dodeliti prilagođene otiske na nivou modula, klijenta, ugovora ili dokumenta predloga fakture. Da biste izmenili otisak originalnog dokumenta, proširite željeni čvor i izaberite **Originalna stavka**. U polju **Format izveštaja** izaberite format izveštaja koji će se koristiti za štampanje. Možete koristiti prilagođene formate izveštaja pomoću [okvira za upravljanje poslovnim dokumentima](/dynamics365/fin-ops-core/dev-itpro/analytics/er-business-document-management).
+Podešavanje upravljanja štampanjem prikazuje se u obliku stabla, gde svaki nivo čvora prikazuje dostupne dokumente za prilagođavanje. Možete dodeliti prilagođene otiske na nivou modula, klijenta, ugovora ili dokumenta predloga fakture. Da biste izmenili otisak originalnog dokumenta, proširite željeni čvor i izaberite **Originalna stavka**. U polju **Format izveštaja** izaberite format izveštaja koji će se koristiti za štampanje. Možete koristiti prilagođene formate izveštaja pomoću [okvira za upravljanje poslovnim dokumentima](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/analytics/er-business-document-management).
 
 ## <a name="post-invoice-proposals"></a>Knjiženje predloga faktura
 
@@ -142,6 +143,3 @@ Da biste pregledali fakturu pre knjiženja, obrišite znak u polju za potvrdu **
 Osim na stranici **Predlog fakture**, predlozi fakture mogu da se knjiže i pokretanjem periodičnog posla **Knjiženje predloga faktura**. Da biste pronašli ovaj posao, idite na **Upravljanje projektima i računovodstvo** > **Periodično** > **Projektne fakture** > **Knjiženje predloga faktura**.
 
 Ova stranica prikazuje sve predloge faktura koji su spremni za knjiženje. Možete da zakažete knjiženje predloga faktura odabirom stavke **Grupno**. Podesite **Parametar grupne obrade** na **Da** i podesite ponavljanje grupne obrade izborom stavke **Ponavljanje**.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

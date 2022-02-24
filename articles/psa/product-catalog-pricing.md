@@ -2,6 +2,8 @@
 title: Formiranje cena za katalog proizvoda
 description: Ova tema pruža informacije o tome kako funkcionišu cene u katalogu proizvoda u aplikaciji Dynamics 365 Project Service Automation (PSA).
 author: rumant
+manager: kfend
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 03/07/2019
@@ -16,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 59e05a55d41573b96785a2f41a7d5d822f6b515fb55edddea5ef1862b7694a1b
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 3fb9b51d58cbe3b0db6dad902461b90ac04cc42f
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: sr-Latn-RS
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7000188"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5151225"
 ---
 # <a name="product-catalog-pricing"></a>Formiranje cena za katalog proizvoda 
 
@@ -62,6 +64,3 @@ Entiteti Mogućnost za poslovanje, Ponuda i Ugovor o projektu koriste sledeći r
 Polje **Proizvod** u stavci ponude podrazumevano navodi sve aktivne proizvode u cenovniku proizvoda za ponudu. Ako proizvod nije aktiviran ili je radna verzija proizvoda, on nije naveden, čak i ako je u cenovniku. 
 
 Stavke kataloga proizvoda dodaju se kao stavke fakture na prvoj fakturi koja je kreirana za ugovor o projektu. U radnoj verziji fakture te stavke fakture mogu se izbrisati. U tom slučaju, stavke će se pojaviti na narednoj fakturi dok se ne fakturišu ili dok se faktura ne pošalje klijentu. U aplikaciji PSA ne možete fakturisati delimičnu količinu stavke fakture za proizvod. Kada se fakturišu stavke proizvoda iz projektnog ugovora, kreiraju se stvarne vrednosti. Međutim, ove stvarne vrednosti nisu povezane sa srodnim entitetom projekta. Drugim rečima, predmeti ugovora zasnovani na proizvodima ne zavise ni od kakve upotrebe zasnovane na projektu. PSA ne prati potrošnju materijala za projekte.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

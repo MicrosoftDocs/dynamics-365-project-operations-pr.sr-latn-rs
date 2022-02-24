@@ -2,9 +2,11 @@
 title: Sinhronizovanje projektnih zadataka direktno iz usluge Project Service Automation sa uslugom Finance and Operations
 description: Ova tema opisuje predložak i osnovni zadatak koji se koriste za sinhronizaciju projektnih zadataka direktno iz usluge Microsoft Dynamics 365 Project Service Automation u Dynamics 365 Finance.
 author: Yowelle
+manager: AnnBe
 ms.date: 07/20/2018
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: josaw
@@ -15,12 +17,12 @@ ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2016-11-28
 ms.dyn365.ops.version: AX 7.3.0
-ms.openlocfilehash: 45846d7a6dd7b84fe28f0a78ccc103679236917ea506180c5b383fd2828624eb
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 0383607a07def6c21562bf4b0893fe3ce3db6a04
+ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
 ms.translationtype: HT
 ms.contentlocale: sr-Latn-RS
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6992808"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4083562"
 ---
 # <a name="synchronize-project-tasks-directly-from-project-service-automation-to-finance-and-operations"></a>Sinhronizovanje projektnih zadataka direktno iz usluge Project Service Automation sa uslugom Finance and Operations
 
@@ -39,7 +41,7 @@ Rešenje za integraciju iz usluge Project Service Automation u Finance koristi f
 
 Sledeća ilustracija prikazuje kako se podaci sinhronizuju između usluga Project Service Automation i Finance.
 
-[![Tok podataka za integraciju usluge Project Service Automation sa uslugom Finance.](./media/ProjectTasksFlow.png)](./media/ProjectTasksFlow.png)
+[![Tok podataka za integraciju usluge Project Service Automation sa uslugom Finance](./media/ProjectTasksFlow.png)](./media/ProjectTasksFlow.png)
 
 ## <a name="template-and-task"></a>Predložak i zadatak
 
@@ -80,7 +82,4 @@ Ako morate da koristite Power Query, sledite ove smernice:
 
 Sledeća ilustracija prikazuje primer mapiranja zadataka predloška u integraciji podataka. Mapiranje prikazuje informacije o terenu koje će se sinhronizovati iz usluge Project Service Automation u Finance.
 
-[![Mapiranje predložaka.](./media/ProjectTasksMapping.png)](./media/ProjectTasksMapping.png)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]
+[![Mapiranje predložaka](./media/ProjectTasksMapping.png)](./media/ProjectTasksMapping.png)

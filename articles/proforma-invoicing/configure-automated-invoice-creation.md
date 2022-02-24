@@ -2,16 +2,18 @@
 title: Konfigurisanje automatskog kreiranja fakture
 description: Ova tema pruža informacije o načinima konfigurisanja sistema za automatsko generisanje faktura.
 author: rumant
+manager: Annbe
 ms.date: 10/13/2020
 ms.topic: article
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 894e8f6e4ffbb5f003cdd1f69594e2a1e043b514923de5673d7ba9afaa6894e8
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 295c3b099c9670c930fb2ba2fd208be63a77217f
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: sr-Latn-RS
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6992673"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4122450"
 ---
 # <a name="configure-automatic-invoice-creation"></a>Konfigurisanje automatskog kreiranja fakture
 
@@ -43,6 +45,3 @@ Posao grupne obrade za kreiranje faktura je periodični posao. Ako se ova grupna
 
 > [!NOTE]
 > Grupno fakturisanje se izvodi samo za predmete ugovora o projektu koji su konfigurisani prema rasporedima faktura. Predmet ugovora sa načinom naplate uz fiksnu cenu mora da ima konfigurisane kontrolne tačke. Predmet ugovora za projekat sa načinom naplate vremena i materijala treba da uspostavi raspored faktura na osnovu datuma. Isto se odnosi i na predmet ugovora zasnovan na projektu.     
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

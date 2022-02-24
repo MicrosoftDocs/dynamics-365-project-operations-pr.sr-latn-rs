@@ -2,9 +2,11 @@
 title: Upravljanje kompetencijama resursa
 description: Ova tema pruža informacije o podešavanju kompetencija za resurse projekta.
 author: Yowelle
+manager: AnnBe
 ms.date: 09/01/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ProjProjectsListPage
 audience: Application User
@@ -16,12 +18,12 @@ ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: f93fbda0ad6435c627eb7e580f92fd90481034cae2236b9a636195883470ca5c
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: db96ffc5fdd6bc759cd35fff0a39a64d9854a4f0
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: sr-Latn-RS
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7007433"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5270650"
 ---
 # <a name="manage-resource-competencies"></a>Upravljanje kompetencijama resursa
 
@@ -29,7 +31,7 @@ ms.locfileid: "7007433"
 
 Kompetencije resursa su suštinski deo upravljanja resursima. Kompetencije se mogu koristiti kao polazna osnova za određivanje resursa koji imaju tačnu ravnotežu veština, obrazovanja, sertifikacije i projektnog iskustva. Trebalo bi da postaviti te informacije za svaki resurs i da ih redovno ažurirate. Na ovaj način možete maksimizovati mogućnosti kada se odgovarajuće kompetencije resursa poklapaju tokom dodele resursa projektima.
 
-[![Primeri veština, sertifikacija, obrazovanja i iskustva rada na projektima.](./media/projectresourcing06-1024x383.jpg)](./media/projectresourcing06.jpg)
+[![Primeri veština, sertifikacija, obrazovanja i iskustva rada na projektima](./media/projectresourcing06-1024x383.jpg)](./media/projectresourcing06.jpg)
 
 Sledeći postupci objašnjavaju kako da postavite neke kompetencije za resurs.
 

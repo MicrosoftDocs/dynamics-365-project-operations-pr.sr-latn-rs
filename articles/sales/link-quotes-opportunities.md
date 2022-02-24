@@ -2,16 +2,18 @@
 title: Kreiranje ponuda za projekat iz mogućnosti za poslovanje
 description: Ova tema pruža informacije o kreiranju ponude za projekat iz mogućnosti za poslovanje.
 author: rumant
+manager: Annbe
 ms.date: 10/01/2020
 ms.topic: article
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: acc7c6d0d3162163f071a9ab56950e4876aa711c94d36b3c9149cd46d76c57bd
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 4d2cc35e3205332d2941bf17fb8c7d8c9d9f310c
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: sr-Latn-RS
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6999648"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4118130"
 ---
 # <a name="create-project-quotes-from-opportunities"></a>Kreiranje ponuda za projekat iz mogućnosti za poslovanje
 
@@ -54,6 +56,3 @@ Postojeća ponuda se može povezati sa mogućnošću za poslovanje. Dovršite sl
    Kada premestite mogućnost za poslovanje u ovu fazu, možete da izaberete ovu ponudu sa liste ponuda povezanih sa ovom mogućnošću za poslovanje. Izbor ove ponude ukazuje na to da napredujete sa njom.
 
    Sve ostale ponude povezane sa mogućnošću za poslovanje i dalje će biti dostupne i aktivne dok se jedna od njih ne ostvari. Proces prodaje možete da vratite u prethodnu fazu **Kvalifikovanje** i da odaberete drugu ponudu za napredovanje.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

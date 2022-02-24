@@ -16,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 25cf017c53d7db23e467b3b610e2990e56e95cb56bdf9820e427dfeeeb979637
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 32a04ddef901515cd77262b5ae6be2458cb6b00c
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: sr-Latn-RS
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6987723"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "5993327"
 ---
 # <a name="how-do-i-assign-a-bookable-resource-to-a-task-in-the-web-app-project-service-app-v2x"></a>Kako da dodeljujete resurs koji može da se rezerviše zadatku u veb aplikaciji (aplikacija Project Service v2.x)?
 
@@ -43,7 +43,7 @@ Sa ovim metodom dodajete resurs u projektni tim, a zatim dodeljujete zadatke res
 3.  Izaberite datume **Od** i **Do**.
 
     > [!div class="mx-imgBorder"] 
-    > ![Snimak ekrana dodavanja člana tima.](media/FAQ-Resources-to-Tasks2-1.png "Snimak ekrana dodavanja člana tima")
+    > ![Snimak ekrana dodavanja člana tima](media/FAQ-Resources-to-Tasks2-1.png "Snimak ekrana dodavanja člana tima")
  
 4.  Izaberite jedan od sledećih načina dodele za rezervaciju resursa:
     - **Puni kapacitet** rezerviše puni kapacitet resursa za navedene početne i krajnje datume.
@@ -63,12 +63,12 @@ Sa ovim metodom dodajete resurs u projektni tim, a zatim dodeljujete zadatke res
     3. Izaberite **U redu**. Član tima je sada dodeljen zadatku.
 
     > [!div class="mx-imgBorder"] 
-    > ![Snimak ekrana dodavanja resursa pomoću SAP-a.](media/FAQ-Resources-to-Tasks2-2.png "Snimak ekrana dodavanja resursa pomoću SAP-a")
+    > ![Snimak ekrana dodavanja resursa pomoću SAP-a](media/FAQ-Resources-to-Tasks2-2.png "Snimak ekrana dodavanja resursa pomoću SAP-a")
  
 U koordinatnoj mreži člana tima, u okviru stavke Dodeljeni časovi videćete agregirane dodeljene radne sate resursa. To će biti manje ili jednako rezervisanim časovima za resurs. 
 
 > [!div class="mx-imgBorder"] 
-> ![Snimak ekrana dodeljenih časova resursu.](media/FAQ-Resources-to-Tasks2-3.png "Snimak ekrana dodeljenih časova resursu")
+> ![Snimak ekrana dodeljenih časova resursu](media/FAQ-Resources-to-Tasks2-3.png "Snimak ekrana dodeljenih časova resursu")
  
 Ako zadatak koji pokušavate da dodelite resursu počinje nakon datuma završetka rezervacija resursa, resurs se neće pojaviti na padajućoj listi.
 
@@ -92,22 +92,22 @@ Ovaj metod osigurava da resursi imaju dovoljno rezervacija za zadatke. Kao prvo,
 4. Izaberite **U redu**.
 
     > [!div class="mx-imgBorder"] 
-    > ![Snimak ekrana korišćenja SAP-a za dodavanje resursa.](media/FAQ-Resources-to-Tasks2-4.png "Snimak ekrana korišćenja SAP-a za dodavanje resursa")
+    > ![Snimak ekrana korišćenja SAP-a za dodavanje resursa](media/FAQ-Resources-to-Tasks2-4.png "Snimak ekrana korišćenja SAP-a za dodavanje resursa")
  
 Nakon što ste dovršili dodeljivanje uloga zadacima u SAP-u, izaberite **Generisanje projektnog tima**. Project Service kreira minimalni broj generičkih članova tima na osnovu uloga, jedinica za određivanje resursa organizacije i kalendara projekta agregiranjem dodela zadatka.
 
 > [!div class="mx-imgBorder"] 
-> ![Snimak ekrana generisanja projektnog tima.](media/FAQ-Resources-to-Tasks2-5.png "Snimak ekrana generisanja projektnog tima")
+> ![Snimak ekrana generisanja projektnog tima](media/FAQ-Resources-to-Tasks2-5.png "Snimak ekrana generisanja projektnog tima")
  
 Na koordinatnoj mreži člana tima videćete resurse tipa Generički resurs sa ulogom i imenom položaja. Ako su potrebna dva resursa za ulogu kako biste dovršili rad, funkcija Generisanje tima kreira dva člana tima i koristi ime položaja kako bi ih razlikovala.
 
 > [!div class="mx-imgBorder"] 
-> ![Snimak ekrana dodavanja dva generička resursa.](media/FAQ-Resources-to-Tasks2-6.png "Snimak ekrana dodavanja dva generička resursa")
+> ![Snimak ekrana dodavanja dva generička resursa](media/FAQ-Resources-to-Tasks2-6.png "Snimak ekrana dodavanja dva generička resursa")
  
 Možete otvoriti zahtev za pravljenje rezervne kopije resursa za generičkog člana tima tako što ćete izabrati vezu u okviru opcije Zahtev za resurs.
 
 > [!div class="mx-imgBorder"] 
-> ![Snimak ekrana otvaranja zahteva za pravljenje rezervne kopije resursa.](media/FAQ-Resources-to-Tasks2-7.png "Snimak ekrana otvaranja zahteva za pravljenje rezervne kopije resursa")
+> ![Snimak ekrana otvaranja zahteva za pravljenje rezervne kopije resursa](media/FAQ-Resources-to-Tasks2-7.png "Snimak ekrana otvaranja zahteva za pravljenje rezervne kopije resursa")
 
 Izaberite stavku **Rezerviši** za generički resurs, a zatim možete da koristite tabelu rasporeda da biste pronašli i rezervisali stvarni resurs. Možete u da prosledite zahtev za ispunjenje po menadžeru resursa tako što ćete izabrati **Prosledi zahtev**.
 

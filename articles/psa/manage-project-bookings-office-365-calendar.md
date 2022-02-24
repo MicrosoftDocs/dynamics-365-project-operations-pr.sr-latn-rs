@@ -2,6 +2,8 @@
 title: Upravljanje projektima i rezervacijama u Office 365 kalendaru
 description: Kako da upravljate projektima i rezervacijama u Office 365 kalendaru
 author: ruhercul
+manager: kfend
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 8/03/2018
@@ -15,12 +17,12 @@ search.audienceType:
 search.app:
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: b38affbfc8d339ac1a2093391286ea4c095207be8de2e8eeca558e6fcc5bcc07
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: c575bd3deba5bcde2526ccfc598327917bf91642
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: sr-Latn-RS
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6985451"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5144475"
 ---
 # <a name="manage-projects-and-bookings-in-your-calendar-project-service"></a>Upravljanje projektima i rezervacijama u kalendaru (Project Service)
 
@@ -50,7 +52,7 @@ Prikažite lične zakazane obaveze, rezervacije projekata i posla, kao i dodele 
   
 - Biće vam potrebni akreditivi [!INCLUDE[pn_office_365](../includes/pn-office-365.md)] globalnog administratora ili administratora sistema.  
   
-- Vaš administrator će morati da konfiguriše profilu servera e-pošte i svaki korisnik će morati da konfiguriše svoje poštansko sanduče. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Podešavanje obrade e-pošte putem sinhronizacije na strani servera](/dynamics365/customerengagement/on-premises/admin/set-up-server-side-synchronization-of-email-appointments-contacts-and-tasks)  
+- Vaš administrator će morati da konfiguriše profilu servera e-pošte i svaki korisnik će morati da konfiguriše svoje poštansko sanduče. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Podešavanje obrade e-pošte putem sinhronizacije na strani servera](https://docs.microsoft.com/dynamics365/customerengagement/on-premises/admin/set-up-server-side-synchronization-of-email-appointments-contacts-and-tasks)  
   
 ## <a name="turn-on-synchronization-for-your-organization-admin-task"></a>Uključite sinhronizaciju za organizaciju (zadatak administratora)  
   
@@ -89,6 +91,3 @@ Prikažite lične zakazane obaveze, rezervacije projekata i posla, kao i dodele 
   
 ### <a name="see-also"></a>Takođe pogledajte  
  [Vodič za vreme, trošak i saradnju](../psa/time-expense-collaboration-guide.md)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -2,16 +2,18 @@
 title: Tipovi perioda
 description: U ovoj temi se pružaju informacije o tome kako da konfigurišete tipove perioda za procenu prihoda.
 author: sigitac
+manager: Annbe
 ms.date: 11/16/2020
 ms.topic: article
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 487e3de7895ca0752e6c9033c7bb7007ba89301c01e6205b3bc8a7d750724bc9
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 6bcd988fbd074c66d64f7e327b4329d3de27e950
+ms.sourcegitcommit: 2d399bc9d07807626f0d6b2d0cf304240c47591c
 ms.translationtype: HT
 ms.contentlocale: sr-Latn-RS
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6998793"
+ms.lasthandoff: 11/17/2020
+ms.locfileid: "4531539"
 ---
 # <a name="period-types"></a>Tipovi perioda
 
@@ -32,6 +34,3 @@ Da biste kreirali i radili sa tipovima perioda, izvršite sledeće korake:
 4. Izaberite zapis tipa perioda, a zatim izaberite **Generiši periode** da biste kreirali periode za tip perioda. Na osnovu učestalosti perioda koju ste izabrali, možda ćete moći da odredite datum početka ili broj perioda koji treba generisati.
 5. Izaberite **Periodi** da biste pregledali generisane periode.
 
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

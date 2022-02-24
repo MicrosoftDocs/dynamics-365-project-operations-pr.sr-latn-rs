@@ -2,6 +2,8 @@
 title: Ponude i stavke ponuda
 description: Ova tema pruža informacije o ponudama i stavkama ponuda.
 author: rumant
+manager: kfend
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 3/01/2019
@@ -16,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: c98708cf91f9c5d078f3a1d3d619c9ca93cffa3e6bbca34511947b602a1c678a
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 024a7cdb81340a077e839d92c4321c8b0051404b
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: sr-Latn-RS
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6995463"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5145150"
 ---
 # <a name="quotes-and-quote-lines"></a>Ponude i stavke ponuda
 
@@ -84,7 +86,7 @@ Organizacije koje pružaju profesionalne usluge obično daju ponude klijentima i
 
 Neke od ovih klasifikacija transakcija mogu da se povežu sa svakom stavkom ponude. Kada vam odobre ponudu, mapiranje između klasifikacije transakcije i stavke ponude se prenosi u predmet ugovora.
  
-> ![Snimak ekrana vrsta mapiranja transakcije u stavke ponuda i predmete ugovora.](media/basic-guide-5.png)
+> ![Snimak ekrana vrsta mapiranja transakcije u stavke ponuda i predmete ugovora](media/basic-guide-5.png)
   
 Na primer, ponuda može da sadrži sledeće dve stavke ponude: 
 - Konsultantski posao koji koristi metod naplate vremena i materijala u kom se mogu primenjivati klasifikacije transakcija prema vremenu i nadoknadi. Na primer, sve transakcije vremena i naknade za primer projekta **Dynamics AX implementacija** se fakturišu klijentu na osnovu utrošenog vremena i materijala. 
@@ -129,6 +131,3 @@ Za stavku ponude sa fiksnom cenom možete koristiti mrežu **Raspored fakturisan
 - Da biste kreirali kontrolne tačke za naplatu koje su podjednako podeljene, izaberite učestalost fakturisanja, unesite datum početka naplate u stavku ponude i izaberite **Zahtevani datum završetka** za ponudu u odeljku **Rezime** zaglavlja ponude. Zatim izaberite **Generisanje periodičnih kontrolnih tačaka** da biste kreirali podjednako podeljene kontrolne tačke zasnovane na izabranoj učestalosti fakturisanja. 
 - Da biste kreirali kontrolnu tačku naplate objedinjene sume, kreirajte kontrolnu tačku, a zatim unesite vrednost stavke ponude kao iznos za kontrolnu tačku.
 - Da biste kreirali kontrolne tačke za naplatu koje su zasnovane na specifičnim zadacima u planu projekta, kreirajte kontrolnu tačku i mapirajte je na element rasporeda projekta u korisničkom interfejsu za naplatu.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

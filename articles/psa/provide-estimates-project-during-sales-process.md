@@ -2,6 +2,8 @@
 title: Obezbedite radne procene za projekat tokom prodajnog procesa
 description: Kako da obezbedite radne procene za projekat tokom prodajnog procesa u aplikaciji Project Service
 author: ruhercul
+manager: kfend
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 8/03/2018
@@ -16,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: acb1e5f598e3e057be78a70bc4f5c66c510053a08f4efb0a1595cf4853171662
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: e9382127b2ce0b157d681fc77d67200ba9c5e59d
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: sr-Latn-RS
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7002483"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5147985"
 ---
 # <a name="provide-work-estimates-for-a-project-during-the-sales-process-project-service"></a>Obezbedite radne procene za projekat tokom prodajnog procesa (Project Service)
 
@@ -52,6 +54,3 @@ Tokom procesa prodaje, možete praviti procene prodaje odozdo nagore sa predmeti
   
 ### <a name="see-also"></a>Takođe pogledajte  
  [Vodič za menadžera projekta](../psa/project-manager-guide.md)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

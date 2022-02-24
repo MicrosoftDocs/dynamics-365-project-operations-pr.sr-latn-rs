@@ -2,16 +2,18 @@
 title: Dodavanje članova tima iz mreže članova tima
 description: Ova tema pruža informacije o tome kako možete da upravljate resursima članova tima.
 author: ruhercul
+manager: AnnBe
 ms.date: 10/01/2020
 ms.topic: article
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.openlocfilehash: c4ff7792a9a99cbbe791a10dbc5157ffd51de285c02f23471532a09e7a55b031
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: de73dac28046ec98ed201e129be6511f894223fd
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: sr-Latn-RS
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7008423"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4121550"
 ---
 # <a name="add-team-members-from-the-team-member-grid"></a>Dodavanje članova tima iz mreže članova tima
 
@@ -198,6 +200,3 @@ Kada pregledate vreme na višim nivoima, ćelije na kartici **Usaglašenost** im
 Ako imate dodele zadataka za resurs, ali nema rezervacija, na obrascu **Projekti** na kartici **Usaglašavanje** izaberite nedostatak rezervacija, a zatim **Produži rezervaciju**. Pojavljuje se dijalog **Produženje rezervacije** i prikazuje rezervaciju koja je potrebna da se reši problem sa nedostatkom resursa. Dijalog takođe pokazuje postojeće rezervacije resursa za sve projekte ili druge entitete koji se mogu zakazivati. Ako izaberete **U redu** da biste kreirali rezervaciju za resurs, bez obzira na dostupnost tog resursa, možete prouzrokovati prekomernu rezervaciju.
 
 Menadžer projekta ili menadžer resursa tada može da koristi tabelu rasporeda kako bi upravljao bilo kojom situacijom u kojoj je resurs prekomerno rezervisan u odnosu na njegov kapacitet.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

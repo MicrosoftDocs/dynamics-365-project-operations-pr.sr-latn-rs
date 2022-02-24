@@ -2,6 +2,8 @@
 title: Pregled preostalog fakturiranja za projekte i ugovore o projektima
 description: Ova tema pruža informacije o tome kako pregledati preostalo vreme, troškove i proizvode i kako ih označiti kao spremne za fakturiranje.
 author: rumant
+manager: kfend
+ms.service: project-operations
 ms.custom: ''
 ms.author: rumant
 ms.date: 03/11/2019
@@ -14,12 +16,12 @@ search.audienceType:
 search.app:
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: fb2f267c626126302a6afb6adba6070dedce4b030abc761e32b23df174d49ecb
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 092455a131f556e4f943f6bb89d7e38358f0a697
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: sr-Latn-RS
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7006983"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5150505"
 ---
 # <a name="review-the-invoicing-backlog-on-projects-and-project-contracts"></a>Pregled preostalog fakturiranja za projekte i ugovore o projektima
 
@@ -40,7 +42,7 @@ Stvarne vrednosti nenaplaćene prodaje predstavljaju preostalu naplatu i njihov 
 
 Da biste pregledali preostale naplate za vreme i materijale, idite na **Prodaja** \> **Naplata** \> **Preostala naplata vremena i materijala**. Odaberite sve stvarne vrednosti nenaplaćene prodaje koje su spremne za fakturisanje, a zatim izaberite **Spremno za fakturisanje**. Status naplate ovih stvarnih vrednosti je promenjen u **Spremno za fakturisanje**.
 
-![Neizvršavanje naplate vremena i materijala.](media/TMBacklog.png)
+![Preostala naplata vremena i materijala](media/TMBacklog.png)
 
 ## <a name="review-the-product-billing-backlog"></a>Pregled preostale naplate za proizvod
 
@@ -48,7 +50,7 @@ U aplikaciji PSA, kada projektni ugovor ima predmete ugovora zasnovane na proizv
 
 Da biste pregledali preostalu naplatu za proizvod, idite na **Prodaja** \> **Naplata** \> **Preostala naplata za proizvod**. Odaberite sve predmete ugovora zasnovane na proizvodima koji su spremni za fakturisanje, a zatim izaberite **Spremno za fakturisanje**. Status naplate ovih stavki je promenjen u **Spremno za fakturisanje**.
 
-![Neizvršavanje naplate proizvoda.](media/ProductBacklog.png)
+![Preostala naplata za proizvod](media/ProductBacklog.png)
 
 ## <a name="review-billing-milestones-on-fixed-price-contracts"></a>Preged kontrolnih tačaka naplate u ugovorima sa fiksnom cenom
 
@@ -56,7 +58,4 @@ Svaki predmet ugovora za projekat koji koristi način naplate fiksne cene mora d
 
 Da biste pregledali kontrolne tačke naplate, idite na **Prodaja** \> **Naplata** \> **Kontrolne tačke sa fiksnom cenom**. Odaberite kontrolne tačke koje su spremne za fakturisanje, a zatim izaberite **Spremno za fakturisanje**. Status naplate ovih kontrolnih tačaka je promenjen u **Spremno za fakturisanje**.
 
-![Kontrolne tačke fiksne cene.](media/FPBacklog.png)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]
+![Kontrolne tačke sa fiksnom cenom](media/FPBacklog.png)

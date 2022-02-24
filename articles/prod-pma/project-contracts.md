@@ -2,9 +2,11 @@
 title: Ugovori o projektu
 description: Ova tema daje primere ugovora o projektu koje možete kreirati za različite vrste projekata i izvore finansiranja, kao i kako možete upravljati ugovorima i fakturisati klijentima projekata.
 author: Yowelle
+manager: AnnBe
 ms.date: 11/03/2017
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ProjProjectContractsListPage, ProjProjectsListPage
 audience: Application User, IT Pro
@@ -16,12 +18,12 @@ ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 1b92668c38071e8b1afdee9a79fd4a25190248ada30380bfb79054a6dc587f95
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: b7d15523f1b22bb8813a47f9f822f12bc4162104
+ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
 ms.translationtype: HT
 ms.contentlocale: sr-Latn-RS
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7001043"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4083711"
 ---
 # <a name="project-contracts"></a>Ugovori o projektu
 
@@ -342,6 +344,3 @@ Tokom prvog meseca, konsultanti na projektu beleže ukupno 800 sati. Troškovi k
 
 
 
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

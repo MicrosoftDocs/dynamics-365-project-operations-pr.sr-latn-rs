@@ -2,9 +2,11 @@
 title: Isključivanje dimenzije za određivanje cena
 description: Ova tema pruža informacije o isključivanju dimenzija za određivanje cena.
 author: rumant
+manager: AnnBe
 ms.date: 09/18/2020
 ms.topic: article
 ms.prod: ''
+ms.service: project-operations
 audience: Application User
 ms.reviewer: kfend
 ms.search.scope: ''
@@ -15,12 +17,12 @@ ms.search.industry: Service industries
 ms.author: suvaidya
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: 3d9f0cb2a054941b07809b61ca14a3145c6d6d06acd6ca40255d5ec9de92be22
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 986fae72c6b44b3f76281aefb81ffdaa96f71ae7
+ms.sourcegitcommit: 13a4e58eddbb0f81aca07c1ff452c420dbd8a68f
 ms.translationtype: HT
 ms.contentlocale: sr-Latn-RS
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6994518"
+ms.lasthandoff: 11/30/2020
+ms.locfileid: "4650066"
 ---
 # <a name="turning-off-a-pricing-dimension"></a>Isključivanje dimenzije za određivanje cena
 
@@ -32,17 +34,14 @@ Dimenzija za određivanje cena, bez obzira na to da li je unapred definisana ili
 
 Međutim, kada to učinite, možda ćete dobiti poruku o grešci, **Dimenzija za određivanje cene se ne može ažurirati ili izbrisati ako postoje povezani zapisi cena.**
 
-![Greška poslovnog procesa je moguća kada isključujete dimenziju za određivanje cena.](media/Business-Process-Error.png)
+![Greška poslovnog procesa je moguća kada isključujete dimenziju za određivanje cena](media/Business-Process-Error.png)
 
 Ova poruka o grešci ukazuje na to da postoje zapisi cena koji su prethodno podešeni za dimenziju koja je isključena. Sve zapise **Cena uloge** i **Provizija na cenu uloge** koji se odnose na dimenziju morate izbrisati pre nego što se primenjivost dimenzije podesi na **Ne**. Ovo pravilo primenjuje se na unapred definisane dimenzije za određivanje cena i sve prilagođene dimenzije za određivanje cena koje ste možda kreirali. Razlog ove validacije je što svaki zapis **Cena uloge** mora da ima jedinstvenu kombinaciju dimenzija. Na primer, u cenovniku pod nazivom **Stope troška u SAD za 2018**, imate sledeće redove **Cena uloge**. 
 
 | Standardna pozicija         | Organizaciona jedinica    |Jedinica   |Cena  |Valuta  |
 | -----------------------|-------------|-------|-------|----------|
-| Inženjer sistema|Contoso US|Sat| 100|USD rešenje|
-| Viši inženjer sistema|Contoso US|Sat| 150| USD rešenje|
+| Inženjer sistema|Contoso US|Hour| 100.|USD|
+| Viši inženjer sistema|Contoso US|Hour| 150| USD|
 
 
 Kada isključite polje **Standardna pozicija** kao dimenziju za određivanje cena, a mehanizam za određivanje cena pretražuje cenu, koristiće samo vrednost **Organizaciona jedinica** iz konteksta unosa. Ako je **Organizaciona jedinica** konteksta unosa „Contoso US“, rezultat će biti neodređen jer će se oba reda podudarati. Da biste izbegli ovaj scenario, kada kreirate zapise **Cena uloge**, sistem proverava da li je kombinacija dimenzija jedinstvena. Ako je dimenzija isključena nakon kreiranja zapisa **Cena uloge**, ovo ograničenje može da se prekrši. Zbog toga je neophodno da pre isključivanja dimenzije izbrišete sve redove **Cena uloge** i **Provizija na cenu uloge** u kojima je ta vrednost dimenzije popunjena.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -2,6 +2,8 @@
 title: Poslovne transakcije
 description: Ova tema pruža informacije o poslovnim transakcijama.
 author: rumant
+manager: kfend
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 03/01/2019
@@ -16,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 28555f29e65c11255c8966f3d4b900512aa01c30fef0a9cef3a3794edaf92a0b
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 3a8506effc453280177d74f94dcf9310e310c098
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: sr-Latn-RS
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6987543"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5149920"
 ---
 # <a name="business-transactions"></a>Poslovne transakcije
 
@@ -88,7 +90,7 @@ Poreklo transakcije i Veza transakcije vam zajedno pomažu da pratite odnose izm
 
 Sledeći primer prikazuje tipičnu obradu stavki vremena u životnom ciklusu projekta u aplikaciji PSA.
 
-> ![Obrada stavki vremena u životnom ciklusu usluge Project Service.](media/basic-guide-17.png)
+> ![Obrada stavki vremena u životnom ciklusu usluge Project Service](media/basic-guide-17.png)
  
 1. Prosleđivanje stavke vremena uzrokuje kreiranje dve stavke u glavnoj knjizi: jedne za troškove i jedne za nenaplaćenu prodaju.
 2. Krajnje odobravanje stavke vremena uzrokuje kreiranje dve stvarne vrednosti: jedne za troškove i jedne za nenaplaćenu prodaju.
@@ -147,6 +149,3 @@ Sledeća tabela prikazuje zapise u entitetu Veza transakcije za prethodni tok po
 | Korekcija radne verzije fakture       | GUID transakcije stavke fakture | Zamena          | msdyn_invoicelinetransaction | GUID naplaćene prodaje            | Originalno           | msdyn_actual       |
 | Potvrđivanje korekcije fakture     | GUID storniranja naplaćene prodaje    | Storniranje          | msdyn_actual                 | GUID naplaćene prodaje            | Originalno           | msdyn_actual       |
 | GUID nove nenaplaćene stvarne vrednosti prodaje | Zamena                     | msdyn_actual       | GUID naplaćene prodaje            | Originalno                     | msdyn_actual       |                    |
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -2,16 +2,18 @@
 title: Konfigurisanje parametara upravljanja troškovima
 description: Ova tema opisuje parametre koji kontrolišu opšte ponašanje u upravljanju troškovima.
 author: suvaidya
+manager: Annbe
 ms.date: 10/01/2020
 ms.topic: article
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: suvaidya
-ms.openlocfilehash: 1cabb0be624f7f6c12761e4fb6d5a095396a5940a37616bb3a304798e1f97808
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 09da0f4e0c6aec97c93c10eb686513e782189f77
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: sr-Latn-RS
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7007793"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4121055"
 ---
 # <a name="configure-expense-management-parameters"></a>Konfigurisanje parametara upravljanja troškovima
 
@@ -81,6 +83,3 @@ Ova tema opisuje parametre kontrole opšteg ponašanja u upravljanju troškovima
 | Prikaz atestiranja o borbi protiv korupcije   | Izaberite ovu opciju da biste prikazali tekst o borbi protiv korupcije kada se kreira izveštaj o troškovima. Tada se mogu omogućiti određene kategorije troškova koje će zahtevati da se u izveštaju o troškovima izabere potvrda o borbi protiv korupcije. Na primer, kategorija poklona koja se odnosi na trošak državnog službenika može zahtevati da zaposleni potvrdi da trošak ispunjava smernice preduzeća koje se odnose na državne službenike. |
 | Poruka o borbi protiv korupcije za podnosioca | Unesite tekst koji treba pokazati zaposlenom koji kreira izveštaj o troškovima. Da biste uneli tekst specifičan za jezik koji će se prikazivati, na osnovu korisničkog jezika, izaberite **Prevodi**. |
 | Poruka o borbi protiv korupcije za davaoca odobrenja  | Unesite tekst koji treba pokazati davaocu odobrenja kada kreira izveštaj o troškovima. Da biste uneli tekst specifičan za jezik koji će se prikazivati, na osnovu korisničkog jezika, izaberite **Prevodi**. |
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

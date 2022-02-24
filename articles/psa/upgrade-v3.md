@@ -1,7 +1,9 @@
 ---
-title: Napomene o nadogradnji – Microsoft Dynamics 365 Project Service Automation verzije 2.x ili 1.x na verziju 3
+title: Činjenice koje treba uzeti u obzir prilikom nadogradnje – Microsoft Dynamics 365 Project Service Automation verzije 2.x ili 1.x na verziju 3.x
 description: Ova tema pruža informacije o činjenicama koje morate uzeti u obzir prilikom nadogradnje aplikacije Project Service Automation sa verzije 2.x ili 1.x na verziju 3.
+manager: kfend
 ms.prod: ''
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 11/13/2018
@@ -16,12 +18,12 @@ search.audienceType:
 search.app:
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: b29ef5d6d2c1c97658d79bbbe82e5893adeafe4d20354e90058dde79b67cb716
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: c0c1e07bacb4867254a12436cf3bff58989e117f
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: sr-Latn-RS
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7000098"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5144195"
 ---
 # <a name="upgrade-considerations---psa-version-2x-or-1x-to-version-3"></a>Činjenice koje treba uzeti u obzir prilikom nadogradnje - PSA verzije 2.x ili 1.x na verziju 3.x
 
@@ -35,7 +37,7 @@ I Dynamics 365 Project Service Automation i Dynamics 365 Field Service koriste U
 ## <a name="resource-assignments"></a>Dodele resursa
 U aplikaciji Project Service Automation verzije 2 i 1, dodeljivanja zadataka su skladištena kao podređeni zadaci (takođe poznati kao zadaci stavke) u **entitetu zadatka** i bili su indirektno povezani sa entitetom **Dodela resursa**. Zadatak stavke je bio vidljiv u iskačućem prozoru za dodelu u okviru strukturne analiza posla (SAP).
 
-![Zadaci stavke u SAP-u u rešenju Project Service Automation u verziji 2 i verziji 1.](media/upgrade-line-task-01.png)
+![Zadaci stavke u SAP-u u rešenju Project Service Automation u verziji 2 i verziji 1](media/upgrade-line-task-01.png)
 
 U verziji 3 aplikacije Project Service Automation, osnovna šema dodeljivanja resursa koji se mogu rezervisati zadacima je promenjena. Zadatak stavke je zastareo i postoji direktni 1:1 odnos između zadatka u **entitetu zadatka** i člana tima u entitetu **Dodela resursa**. Zadaci koji su dodeljeni članu projektnog tima sada se skladište direktno u entitetu Dodela resursa.  
 
@@ -46,26 +48,26 @@ Ako koristite osnovni entitet zadatka, zadaci u verziji 2 i 1 dozvoljavaju član
 
 Ako ste dodelili resurs zadatku van njegove podrazumevane uloge u verziji 2 i 1, kada izvršite nadogradnju, imenovanom resursu će biti dodeljena podrazumevana uloga za sve dodele zadataka, bez obzira na dodelu uloge u verziji 2. Dodeljivanje dovodi do razlika u izračunatim procenama u verziji 2 ili 1 u odnosu na verziju 3 zato što se procene izračunavaju na osnovu uloge resursa, a ne dodele zadatka stavke. Na primer, u verziji 2, dva zadatka je dodeljeno Pavlu Kneževiću. Uloga u zadatku stavke za 1. zadatak je programer, a za 2. zadatak menadžer programa. Pavle Knežević ima podrazumevanu ulogu menadžera programa.
 
-![Više uloga je dodeljeno jednom resursu.](media/upgrade-multiple-roles-02.png)
+![Više uloga je dodeljeno jednom resursu](media/upgrade-multiple-roles-02.png)
 
 S obzirom na to da se uloge programera i menadžera programa razlikuju, procene troškova i prodaje su sledeće:
 
-![Procene troškova za uloge resursa.](media/upggrade-cost-estimates-03.png)
+![Procene troškova za uloge resursa](media/upggrade-cost-estimates-03.png)
 
-![Procene prodaje za uloge resursa.](media/upgrade-sales-estimates-04.png)
+![Procene prodaje za uloge resursa](media/upgrade-sales-estimates-04.png)
 
 Kada izvršite nadogradnju na verziju 3, zadaci stavke se zamenjuju dodelama resursa u zadatku člana tima resursa koji se može rezervisati. Dodela će koristiti podrazumevanu ulogu resursa koji se može rezervisati. Na sledećem grafikonu, Pavle Knežević koji ima ulogu menadžera programa, jeste resurs.
 
-![Dodele resursa.](media/resource-assignment-v2-05.png)
+![Dodele resursa](media/resource-assignment-v2-05.png)
 
 Pošto su procene zasnovane na podrazumevanoj ulozi za resurs, mogu se promeniti procene prodaje i troškova. Na sledećem grafikonu više nećete videti ulogu **Programer** jer je sada uzeta iz podrazumevane uloge resursa koji može da se rezerviše.
 
-![Procena troškova za podrazumevane uloge.](media/resource-assignment-cost-estimate-06.png)
-![Procena prodaje za podrazumevane uloge.](media/resource-assignment-sales-estimate-07.png)
+![Procena troškova za podrazumevane uloge](media/resource-assignment-cost-estimate-06.png)
+![Procena troškova za podrazumevane uloge](media/resource-assignment-sales-estimate-07.png)
 
 Nakon nadogradnje, možete da uredite ulogu člana tima tako da bude nešto drugo od dodeljene podrazumevane uloge. Međutim, ako promenite ulogu člana tima, ona će biti promenjena u svim dodeljenim zadacima zato što članovima tima ne može da se dodeljuje više uloga u verziji 3.
 
-![Ažuriranje uloge resursa.](media/resource-role-assignment-08.png)
+![Ažuriranje uloge resursa](media/resource-role-assignment-08.png)
 
 Ovo važi i za zadatke stavke koji su bili dodeljeni imenovanim resursima kada promenite organizacionu jedinicu resursa od podrazumevane vrednosti u drugu organizacionu jedinicu. Kada se završi nadogradnja na verziju 3, dodela će koristiti podrazumevanu organizacionu jedinicu resursa umesto one koja je podešena u zadatku stavke.
 
@@ -81,33 +83,30 @@ Pre nego što započnete nadogradnju, preporučujemo da ponovo generišete tim z
 
 Za zadatke koji su dodeljeni generičkim članovima tima koji su generisani pomoću funkcije **Generiši tim**, nadogradnja će ostaviti generički resurs u timu i ostaviće dodelu tom generičkom članu tima. Preporučujemo da nakon nadogradnje generišete potrebu za resursom za generičkog člana tima, ali pre nego što rezervišete ili prosledite zahtev za resurs. To će sačuvati sve dodele organizacione jedinice za generičke članove tima koji se razlikuju od ugovorne organizacione jedinice projekta.
 
-Na primer, u projektu Project Z, ugovorna organizaciona jedinica je Contoso US. U projektnom planu, zadaci testiranja u fazi primene su dodeljeni ulozi Tehnički konsultant, a dodeljena organizaciona jedinica je Contoso India.
+Na primer, u projektu Š, ugovorna organizaciona jedinica je Contoso US. U projektnom planu, zadaci testiranja u fazi implementacije su dodeljeni ulozi Tehnički konsultant, a dodeljena organizaciona jedinica je Contoso India.
 
-![Dodela organizacije u fazi implementacije.](media/org-unit-assignment-09.png)
+![Dodela organizacije u fazi implementacije](media/org-unit-assignment-09.png)
 
-Nakon faze primene, zadatak testiranja integracije se dodeljuje ulozi Tehnički konsultant, ali se organizacija podešava na Contoso US.  
+Nakon faze implementacije, zadatak testiranja integracije se dodeljuje ulozi Tehnički konsultant, ali se organizacija podešava na Contoso US.  
 
-![Dodela zadatka testiranja integracije u organizaciji.](media/org-unit-generate-team-10.png)
+![Dodela zadatka testiranja integracije u organizaciji](media/org-unit-generate-team-10.png)
 
-Kada generišete tim za projekat, dva generička člana tima se kreiraju zbog različitih organizacionih jedinica za zadatak. Tehničkom konsultantu 1 biće dodeljeni zadaci iz kompanije Contoso India, a tehnički konsultant 2 će dobiti zadatke iz kompanije Contoso US.  
+Kada generišete tim za projekat, dva generička člana tima se kreiraju zbog različitih organizacionih jedinica za zadatak. 1. tehnički konsultant biće dodeljen zadacima kompanije Contoso India, a 2. tehnički konsultant će imati zadatke kompanije Contoso US.  
 
-![Generički članovi tima su generisani.](media/org-unit-assignments-multiple-resources-11.png)
+![Generički članovi tima su generisani](media/org-unit-assignments-multiple-resources-11.png)
 
 > [!NOTE]
 > U aplikaciji Project Service Automation u verzijama 2 i 1, član tima ne održava organizacionu jedinicu, koja se održava u zadatku stavke.
 
-![Zadaci stavke za verziju 2 i verziju 1 u rešenju Project Service Automation.](media/line-tasks-12.png)
+![Zadaci stavke za verziju 2 i verziju 1 u rešenju Project Service Automation](media/line-tasks-12.png)
 
 Organizacionu jedinicu možete videti u prikazu predviđanja. 
 
-![Procene organizacionih jedinica.](media/org-unit-estimates-view-13.png)
+![Procene organizacionih jedinica](media/org-unit-estimates-view-13.png)
  
 Kada se nadogradnja dovrši, organizaciona jedinica u zadatku stavke koja odgovara generičkom članu tima dodaje se tom članu, a zadatak stavke će biti uklonjen. Zbog ovoga preporučujemo da pre nadogradnje generišete ili ponovo generišete tim za svaki projekat koji sadrži generičke resurse.
 
-Za zadatke koji su dodeljeni ulozi sa organizacionom jedinicom koja se razlikuje od organizacione jedinice projekta za ugovaranje, a tim nije generisan, nadogradnja će kreirati generičkog člana tima za ulogu, ali će koristiti ugovornu jedinicu projekta za organizacionu jedinicu člana tima. Ako se vratimo na Project Z kao primer, to znači da je ugovorna organizaciona jedinica Contoso US i da su zadaci testiranja projektnog plana u okviru faze implementacije dodeljeni ulozi Tehnički konsultant, a da je organizaciona jedinica dodeljena kompaniji Contoso India. Zadatak testiranja integracije, koji je dovršen nakon faze implementacije, dodeljen je ulozi Tehnički konsultant. Organizaciona jedinica je Contoso US, a tim nije generisan. Nadogradnja će kreirati jednog generičkog člana tima, tehničkog konsultanta koji ima dodeljene sate za sva tri zadatka, kao i organizacionu jedinicu Contoso US, ugovornu organizacionu jedinicu projekta.   
+Za zadatke koji su dodeljeni ulozi sa organizacionom jedinicom koja se razlikuje od organizacione jedinice projekta za ugovaranje, a tim nije generisan, nadogradnja će kreirati generičkog člana tima za ulogu, ali će koristiti ugovornu jedinicu projekta za organizacionu jedinicu člana tima. Ako se vratimo na primer projekta Š, ugovornu organizacionu jedinicu Contoso US, i da su zadaci testiranja projektnog plana u okviru faze implementacije dodeljeni ulozi Tehnički konsultant, a da je organizaciona jedinica dodeljena kompaniji Contoso India. Zadatak testiranja integracije, koji je dovršen nakon faze implementacije, dodeljen je ulozi Tehnički konsultant. Organizaciona jedinica Contoso US i tim nisu generisani. Nadogradnja će kreirati jednog generičkog člana tima, tehničkog konsultanta koji ima dodeljene sate za sva tri zadatka, kao i organizacionu jedinicu Contoso US, ugovornu organizacionu jedinicu projekta.   
  
 Promena podrazumevanih vrednosti različitih organizacionih jedinica za obezbeđivanje resursa za članove tima koji nisu generisani je razlog zbog kojeg preporučujemo da pre nadogradnje generišete ili ponovo generišete tim za svaki projekat koji sadrži generičke resurse, kako se dodele organizacionih jedinica ne bi izgubile.
 
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

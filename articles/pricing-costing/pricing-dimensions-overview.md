@@ -2,18 +2,19 @@
 title: Pregled dimenzija za određivanje cena
 description: Ova tema pruža informacije o dimenzijama za određivanje cena u usluzi Dynamics 365 Project Operations.
 author: rumant
+manager: AnnBe
 ms.date: 11/30/2020
 ms.topic: article
 ms.prod: ''
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.custom: intro-internal
-ms.openlocfilehash: 4b3b71c0b64a24f6914c70c4383eee654e7d4947ececaf9b4e6394f45a081a4c
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 33f55976eafedd046fba952ab6381c297ab4e271
+ms.sourcegitcommit: 13a4e58eddbb0f81aca07c1ff452c420dbd8a68f
 ms.translationtype: HT
 ms.contentlocale: sr-Latn-RS
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7001988"
+ms.lasthandoff: 11/30/2020
+ms.locfileid: "4650225"
 ---
 # <a name="pricing-dimensions-overview"></a>Pregled dimenzija za određivanje cena
 
@@ -33,7 +34,7 @@ Zbog toga postoje dve vrste vrednosti dimenzija za određivanje cena koje su dos
 
 Dynamics 365 Project Operations obavlja isporuku pomoću podrazumevanog skupa dimenzija za određivanje cena. Ove dimenzije za određivanje cena možete da ih vidite tako što ćete otići na **Project Operations** > **Parametri**. U zapisu parametra, na kartici **Dimenzije za određivanje cena zasnovane na iznosima** proverite da li uloga **msdyn_resourcecategory** i organizaciona jedinica resursa **msdyn_organizationalunit** imaju polja **Primenljivo na prodaju** i **Primenljivo na troškove** podešena na **Da**. Kada su ova polja omogućena, možete da podesite cenu i trošak za svaku kombinaciju uloge i organizacione jedinice.
 
-![Snimak ekrana Project Service parametara sa markiranom stavkom „Primenljivo na prodaju“.](media/PS-OOB-parameters.png)
+![Snimak ekrana Project Service parametara sa markiranom stavkom „Primenljivo na prodaju“](media/PS-OOB-parameters.png)
 
 Ako je potrebno da odredite cenu ili troškove resursa pomoću dodatnih atributa, možete da kreirate prilagođena polja, entitete i dimenzije. Pogledajte sledeći odeljak za više informacija. 
   
@@ -60,16 +61,13 @@ Sledeći primer prikazuje kursne stope koje su podešene na osnovu uloge i organ
 
 | Uloga        | Organizaciona jedinica    |Jedinica      |Cena      |Valuta  |
 | ------------|-------------|----------|----------:|----------|
-| Programer   | Contoso US  |Sat | 200|USD rešenje     |
-| Programer   | Contoso India |Sat|   112|USD rešenje     |
+| Programer   | Contoso US  |Hour | 200|USD     |
+| Programer   | Contoso India |Hour|   112|USD     |
 
 
 **Primeri stopa troškova**
 
 | Grupa ličnih dohodaka     | Organizaciona jedinica    |Jedinica      |Cena      |Valuta  |
 | ----------------|-------------|----------|----------:|----------|
-| Moje preduzeće_Prva grupa ličnih dohodaka | Contoso US  |Sat | 145|USD rešenje     |
-| Moje preduzeće_druga grupa ličnih dohodaka | Contoso India |Sat|   67|USD rešenje     |
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]
+| Moje preduzeće_Prva grupa ličnih dohodaka | Contoso US  |Hour | 145|USD     |
+| Moje preduzeće_druga grupa ličnih dohodaka | Contoso India |Hour|   67|USD     |

@@ -2,16 +2,18 @@
 title: Rezervacije u odnosu na dodele
 description: Ova tema pruža informacije o razlikama između rezervisanja resursa i dodeljivanja resursa.
 author: ruhercul
+manager: Annbe
 ms.date: 01/08/2021
 ms.topic: article
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.openlocfilehash: 1906ebd76f5fc66215aa5963242de13206a81668cb4973cccaf5b153514672d5
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 9e346766e6ccbb3dff59ef12072a1cd63f1e4231
+ms.sourcegitcommit: 260ce052fed760bb44c514517806049ca13a5459
 ms.translationtype: HT
 ms.contentlocale: sr-Latn-RS
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7008468"
+ms.lasthandoff: 01/08/2021
+ms.locfileid: "4841189"
 ---
 # <a name="bookings-vs-assignments"></a>Rezervacije u odnosu na dodele
 
@@ -24,6 +26,3 @@ Za razliku od rezervacija, dodele predstavljaju obavezivanje resursa za projektn
 Uobičajeno je da je zbir rezervacija za resurs jednak zbiru dodela resursa za jedan ili više zadataka. Međutim, Project Operations ne sprovodi ovaj dogovor. Prikaz **Usaglašenost** pokazuje menadžeru projekata mesta gde se rezervacije i dodele resursa ne slažu.
 
 
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

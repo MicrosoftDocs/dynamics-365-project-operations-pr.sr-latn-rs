@@ -2,16 +2,18 @@
 title: Veštine i certifikati
 description: Ova tema pruža informacije o dodavanju veština i karakteristika certifikovanja resursima.
 author: ruhercul
+manager: Annbe
 ms.date: 10/01/2020
 ms.topic: article
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.openlocfilehash: bf892d791b192005cc72d7fed08f2f22a12c002eb270a0faef6ae476fafafc20
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 1d04148f2e0953744da5ca32aa9062e3ae9530e7
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: sr-Latn-RS
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6990198"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4128885"
 ---
 # <a name="skills-and-certifications"></a>Veštine i certifikati
 _**Odnosi se na:** Project Operations za resurs/scenarije koji nisu zasnovani na zalihama, laganu primenu – od pogodbe do profakture_
@@ -41,5 +43,3 @@ Dodavanje karakteristika zahtevima za resursima omogućava vam dokumentovanje zn
 3. U podformi **Veštine**, izaberite **+ Dodaj novu karakteristiku zahteva.**
 4. U oknu za brzo kreiranje pronađite i odaberite potrebne karakteristike i dodajte **Vrednost ocene**.
 5. Izaberite stavku **Sačuvaj i zatvori**.
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

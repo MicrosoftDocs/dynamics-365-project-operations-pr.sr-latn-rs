@@ -2,17 +2,19 @@
 title: Šta je novo u decembru 2020. – Project Operations za scenarije zasnovane na zalihama/proizvodnji
 description: Ova tema pruža informacije o ispravkama kvaliteta dostupnim u izdanju usluge Project Operations za decembar 2020. za scenarije zasnovane na zalihama/proizvodnji.
 author: Yowelle
+manager: Annbe
 ms.date: 12/11/2020
 ms.topic: article
 ms.prod: ''
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: andchoi
-ms.openlocfilehash: 14c31f27c0d8871063b3c6689a70f32201958002b50ac4c721c4e26c3359b631
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 5aac6b77b0d07a090a071b075711e3dd915e6be4
+ms.sourcegitcommit: 04c446746aad97fc3f4c3d441983c586b918a3a6
 ms.translationtype: HT
 ms.contentlocale: sr-Latn-RS
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7008828"
+ms.lasthandoff: 12/11/2020
+ms.locfileid: "4728014"
 ---
 # <a name="whats-new-or-changed-in-project-operations-december-2020-for-stockedproduction-based-scenarios"></a>Šta je novo ili promenjeno u usluzi Project Operations u decembru 2020. za scenarije zasnovane na zalihama/proizvodnji
 
@@ -139,7 +141,4 @@ Ova tema se odnosi na sledeće komponente i verzije usluge Dynamics 365 Project 
 
 ## <a name="regulatory-updates"></a>Regulatorne ispravke
 
-Informacije o regulatornim ispravkama za Dynamics 365 Finance potražite u članku [Regulatorne ispravke](/dynamics365/finance/localizations/regulatory-updates). Drugi način da saznate više o regulatornim ispravkama je da se prijavite na Lifecycle Services (LCS) i pregledate planirane regulatorne ispravke pomoću alatke za pretragu problema. Pretraga problema vam omogućava pretragu po zemlji, tipu funkcije i izdanju.
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]
+Informacije o regulatornim ispravkama za Dynamics 365 Finance potražite u članku [Regulatorne ispravke](https://docs.microsoft.com/dynamics365/finance/localizations/regulatory-updates). Drugi način da saznate više o regulatornim ispravkama je da se prijavite na Lifecycle Services (LCS) i pregledate planirane regulatorne ispravke pomoću alatke za pretragu problema. Pretraga problema vam omogućava pretragu po zemlji, tipu funkcije i izdanju.

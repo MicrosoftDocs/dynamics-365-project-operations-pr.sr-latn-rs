@@ -2,9 +2,11 @@
 title: Kreiranje projektnog tima
 description: Ova tema pruža informacije o tome kako da kreirate i upravljate projektnim timovima.
 author: Yowelle
+manager: AnnBe
 ms.date: 09/01/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ProjProjectsListPage
 audience: Application User
@@ -16,12 +18,12 @@ ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 1ab8ae045852a75a7a39a4eccfa86a114a34273581c98631975bcbfac5a7a343
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 121a007d91c2da4f3b9951901781757b8bcca8fe
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: sr-Latn-RS
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7005813"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5270875"
 ---
 # <a name="create-a-project-team"></a>Kreiranje projektnog tima
 
@@ -33,7 +35,7 @@ Postavke prikaza takođe se mogu prilagoditi kako bi se dobio bolji prikaz dostu
 
 Menadžer projekta može odabrati ulogu na stranici, a zatim, ako postoji dostupan resurs koji odgovara zahtevima, izaberite da rezervišete resurs za popunjavanje uloge. Imajte na umu da resursi u ovom trenutku ne moraju biti rezervisani u fazi planiranja. Kada kreirate SAP, možete zameniti uloge resursima osoblja za projekat. Ako se uloge zamene resursima osoblja u SAP-u, podešavanje resursa automatski ažurira spisak i raspored projektnog tima.
 
-[![Spisak projektnog tima koji uključuje i uloge i stvarne resurse.](./media/projectresourcing03-1024x368.jpg)](./media/projectresourcing03.jpg) 
+[![Spisak projektnog tima koji uključuje i uloge i stvarne resurse](./media/projectresourcing03-1024x368.jpg)](./media/projectresourcing03.jpg) 
 
 Menadžer projekta ima razne mogućnosti za rezervaciju resursa za projekat, kao što su **Preostali kapacitet**, **Pun kapacitet**, **Procenat kapaciteta** i **Navedite radno vreme**. Ove opcije rezervacije mogu se otkazati u bilo kom trenutku ako se promene dodeljivanja resursa. Podržane su dve vrste rezervacija:
 

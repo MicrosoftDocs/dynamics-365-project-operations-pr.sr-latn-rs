@@ -2,17 +2,18 @@
 title: Prikaz primene usluge Project Operations za scenarije zasnovane na zalihama/proizvodnji
 description: Ova tema pruža informacije o tipu primene usluge Project Operations za scenarije zasnovane na zalihama/proizvodnji.
 author: rumant
+manager: Annbe
 ms.date: 11/02/2020
 ms.topic: article
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.custom: intro-internal
-ms.openlocfilehash: 06775a41b17fab5cd7a72d6cfbb92cb7608b6cc2411eb96bd67513e1de10ad63
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 7bad4de10a508f0c1aa2cc6bb0c41081f81fb259
+ms.sourcegitcommit: d33ef0ae39f90fe3b0f6b4524f483e8052057361
 ms.translationtype: HT
 ms.contentlocale: sr-Latn-RS
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7009098"
+ms.lasthandoff: 11/03/2020
+ms.locfileid: "4365604"
 ---
 # <a name="project-operations-for-stockedproduction-based-scenarios-deployment-overview"></a>Prikaz primene usluge Project Operations za scenarije zasnovane na zalihama/proizvodnji
 
@@ -42,6 +43,3 @@ Izaberite ovaj tip primene da biste koristili Dynamics 365 Project Operations to
 - Mehanizam za izračunavanje poreza na promet i kursne liste na nivou preduzeća da biste generisali fakture za projekte u okruženju klijenata.
 - Sistem računovodstva projekata i priznavanja prihoda koji je usklađen sa Međunarodnim standardima finansijskog izveštavanja (IFRS).
 
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

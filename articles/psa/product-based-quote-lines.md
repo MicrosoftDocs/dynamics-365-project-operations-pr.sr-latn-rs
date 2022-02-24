@@ -2,6 +2,8 @@
 title: Stavke ponuda zasnovane na proizvodu
 description: Ova tema pruža informacije o stavkama ponuda zasnovanim na proizvodu.
 author: rumant
+manager: kfend
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 03/06/2019
@@ -16,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 3cc2e8788ea699b57ef75903ec3771f2e66fe867a9b8b6328a55b484eb13ede4
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: a5b52e74994a40b20353d85d1d9bcd59d435cd0b
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: sr-Latn-RS
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7008603"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5151270"
 ---
 # <a name="product-based-quote-lines"></a>Stavke ponuda zasnovane na proizvodu
 
@@ -58,7 +60,7 @@ Ako ovo polje podesite na **Izmena načina određivanja cena**, Dynamics 365 ne 
 
 Nakon što instalirate PSA, podrazumevane prodajne cene se unose u stavke zasnovane na proizvodima u okviru ponude. Polje **Određivanje cena** se tada podešava na **Izmeni način određivanja cena** tako da možete da uredite podrazumevanu cenu u stavkama ponude.
 
-> ![Podešavanje izmene načina određivanja cena.](media/basic-guide-10.png)
+> ![Podešavanje izmene načina određivanja cena](media/basic-guide-10.png)
  
 ## <a name="quantity-factors-for-products"></a>Količinski faktori proizvoda
 
@@ -78,8 +80,5 @@ Na primer, Dynamics 365 može imati sledeća svojstva:
 
 Svojstva **Br. korisnika** i **Br. meseci** se mogu označiti kao faktori količine, uređivanjem svojstava u stavci proizvoda. 
 
-> ![Označavanje broja korisnika i broja meseci kao faktora kvaliteta.](media/basic-guide-11.png)
+> ![Označavanje broja korisnika i broja meseci kao faktora kvaliteta](media/basic-guide-11.png)
  
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

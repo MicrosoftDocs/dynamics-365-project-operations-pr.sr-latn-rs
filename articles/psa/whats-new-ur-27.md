@@ -2,6 +2,8 @@
 title: Šta je novo ili promenjeno u izdanju ispravke 27 usluge Project Service Automation verzije 3
 description: U ovoj temi su navedene funkcije i ispravke koje su dostupne u izdanju ispravke 27 za Project Service Automation verzije 3.
 author: ruhercul
+manager: kfend
+ms.service: project-operations
 ms.custom: dyn365-projectservice
 ms.date: 01/12/2021
 ms.topic: article
@@ -15,12 +17,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: ee7bbe888a982e3554ba524c67442437c9be9183a5ee0940ccc3261b4a4992e7
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 7f05b082e7c67937c78c82dcd9e094ee3b989e94
+ms.sourcegitcommit: 3d78338773929121d17ec3386f6cb67bfb2272cc
 ms.translationtype: HT
 ms.contentlocale: sr-Latn-RS
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6985068"
+ms.lasthandoff: 04/27/2021
+ms.locfileid: "5948543"
 ---
 # <a name="whats-new-or-changed-in-project-service-automation-update-release-27-v3"></a>Šta je novo ili promenjeno u izdanju ispravke 27 usluge Project Service Automation verzije 3
 

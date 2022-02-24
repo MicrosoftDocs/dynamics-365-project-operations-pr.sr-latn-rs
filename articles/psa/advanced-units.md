@@ -2,6 +2,8 @@
 title: Grupe jedinica i jedinice
 description: Ova tema pruža informacije o grupama jedinica i jedinicama.
 author: rumant
+manager: kfend
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 03/05/2019
@@ -16,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 55696b32b7b37048ba4c292b33d93b7b12614f2186fb972a2c3f3732e5512c82
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 6620c99563394d1f3881d6bfdb72d01c1c4e8d6f
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: sr-Latn-RS
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6987588"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5145600"
 ---
 # <a name="unit-groups-and-units"></a>Grupe jedinica i jedinice
 
@@ -44,7 +46,7 @@ Na primer, u grupi jedinica **Vreme**, ako podesite **Čas** kao prvu jedinicu, 
 
 Sledeća slika prikazuje primer podešavanja jedinice **Dan**, pri čemu polje **Količina** prikazuje broj časova u danu, i **Sedmica**, gde polje **Količina** prikazuje broj dana u nedelji.
 
-> ![Grupa jedinica: stranica sa informacijama.](media/advanced-2.png)
+> ![Grupa jedinica: stranica sa informacijama](media/advanced-2.png)
 
 ## <a name="using-units-and-unit-groups"></a>Korišćenje jedinica i grupa jedinica
 
@@ -86,7 +88,7 @@ Sledeći primer prikazuje kako PSA koristi grupu jedinica, jedinice i faktore ko
 
 | Uloga      | Grupa jedinica | Jedinica | Organizaciona jedinica | Cena   |
 |-----------|------------|------|---------------------|---------|
-| Programer | Vreme       | Dan  | Contoso UK          | 800 GBP |
+| Programer | Time       | Day  | Contoso UK          | 800 GBP |
 
 ### <a name="time-entry"></a>Stavka vremena
 
@@ -110,6 +112,3 @@ Ne. Procena rasporeda je trenutno ograničena na časove i ne može se promeniti
 
 ### <a name="can-units-and-unit-groups-be-edited-deleted-and-added"></a>Da li jedinice i grupe jedinica mogu da se uređuju, brišu i dodaju?
 Da. Sa izuzetkom grupa jedinica **Vreme** i **Čas**, sve jedinice mogu da se brišu ili uređuju i mogu da se dodaju nove jedinice. U aplikaciji PSA nije moguće izbrisati grupu jedinica **Vreme** i **Čas**. Međutim, one mogu da se ažuriraju prevedenim tekstom za polje **Ime**.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

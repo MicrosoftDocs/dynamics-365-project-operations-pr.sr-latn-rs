@@ -2,6 +2,8 @@
 title: Podešavanja projekta
 description: Ova tema pruža informacije o podešavanjima upravljanja projektima.
 author: ruhercul
+manager: kfend
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 03/01/2019
@@ -16,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 5f6fec091c50f35589e333fce4b3a296dd736d10dd2f56b6c11209a55b493836
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: ca5fc63d56ddd84871949e38f421bcdfe38d478e
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: sr-Latn-RS
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6996948"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5148165"
 ---
 # <a name="project-settings"></a>Podešavanja projekta
 
@@ -45,9 +47,9 @@ Da biste kreirali raspored projekta, kreirajte predložak kalendara projekta koj
 
   - Novi sedmični raspored
   - Raspored posla za jedan dan
-  - Odstupanje u vremenu
+  - Slobodni dani
 
-> ![Podešavanje opcija.](media/project-13.png)
+> ![Podešavanje opcija](media/project-13.png)
 
 4. Izaberite **Novi sedmični raspored**, a zatim podesite opcije za ovaj raspored resursa. Možete podesiti periodični sedmični raspored, parametre sata u danu, prekid poslovnih aktivnosti i još mnogo toga.
 5. Podesite opseg datuma, izaberite **Sačuvaj**, a zatim kliknite na **Zatvori**. 
@@ -66,6 +68,3 @@ Svaka organizacija mora podesiti ove uloge na stranici **Aktivne kategorije resu
 ## <a name="price-lists"></a>Cenovnici
 
 Cenovnici vam omogućavaju da podesite cene koštanja i prodajne cene za uloge resursa, kategorije troškova, proizvode i druge elemente u organizaciji. Da biste mogli da podesite finansijske procene za posao koji mora da se obavi za projekat, treba da kreirate odgovarajuću listu troškova i cenovnik prodaje. U odeljku sa parametrima treba da podesite i podrazumevani cenovnik troškova i prodajni cenovnik koji se odnosi na sve projekte kreirane u organizaciji. Na stranici **Aktivni parametri projekta** proverite da li ste podesili podrazumevani cenovnik troškova i prodajni cenovnik.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

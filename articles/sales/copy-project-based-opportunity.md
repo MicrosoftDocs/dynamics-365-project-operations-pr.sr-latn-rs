@@ -2,16 +2,18 @@
 title: Kopiranje mogućnosti za poslovanje zasnovanih na projektu
 description: Ova tema pruža informacije o kopiranju mogućnosti za poslovanje zasnovanih na projektu u usluzi Project Operations.
 author: rumant
+manager: Annbe
 ms.date: 10/09/2020
 ms.topic: article
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 83fe41cb16be6bdd91219fc59e517ae0e5848afec5f771edde575bb5c24f9865
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 26ae5cc267bb06f958bbf9cdce2d80ccde9d3d24
+ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
 ms.translationtype: HT
 ms.contentlocale: sr-Latn-RS
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6999738"
+ms.lasthandoff: 10/31/2020
+ms.locfileid: "4181698"
 ---
 # <a name="copy-project-based-opportunities"></a>Kopiranje mogućnosti za poslovanje zasnovanih na projektu
 
@@ -32,6 +34,3 @@ Projektne mogućnosti za poslovanje se lako mogu kopirati da bi se stvorile nove
     | Kopiranje određivanja cene | Vrednost Da/Ne koja pokazuje da li treba kopirati cene za mogućnost za poslovanje iz izvorne mogućnosti za poslovanje. | Ako je **Da** izabrano, cenovnici se kopiraju iz izvorne u ciljnu mogućnost za poslovanje. Ako je izabrano **Ne**, cenovnici se podrazumevano postavljaju na osnovu najnovijih cenovnika koji su postavljeni. |
 
 3. Izaberite **U redu**. Sistem kreira kopiju projektne mogućnosti za poslovanje na osnovu odabranih parametara i nova projektna mogućnost za poslovanje se otvara.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

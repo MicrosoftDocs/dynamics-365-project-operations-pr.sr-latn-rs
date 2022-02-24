@@ -2,22 +2,24 @@
 title: Kopiranje cenovnika
 description: Ova tema pruža informacije o načinu kopiranja cenovnika u usluzi Project Operations.
 author: rumant
+manager: Annbe
 ms.date: 10/13/2020
 ms.topic: article
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: ad09bdce563a48843b3ed96e7aaabd9c0d5960336b9e1c74fddb9b61f760f4cd
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 67a69d521ac0a5632371138bd4fbb9dd00fe34ee
+ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
 ms.translationtype: HT
 ms.contentlocale: sr-Latn-RS
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7003743"
+ms.lasthandoff: 10/31/2020
+ms.locfileid: "4181514"
 ---
 # <a name="copy-price-lists"></a>Kopiranje cenovnika
 
 _**Odnosi se na:** Project Operations za resurs/scenarije koji nisu zasnovani na zalihama, laganu primenu – od pogodbe do profakture_
 
-Možete da kreirate kopije cenovnika u usluzi Dynamics 365 Project Operations. Na primer, možete da napravite cenovnike za predstojeću godinu koristeći cenovnik iz tekuće godine.  Ili možete kopirati cenovnik stopa naplate i prodajnih cena iz cenovnika troškova. 
+Kopije cenovnika možete da kreirate u usluzi Dynamics 365 Project Operations. Na primer, možete da napravite cenovnike za predstojeću godinu koristeći cenovnik iz tekuće godine.  Ili možete kopirati cenovnik stopa naplate i prodajnih cena iz cenovnika troškova. 
 
 Da biste napravili kopiju cenovnika, izvršite sledeće korake.
 
@@ -41,6 +43,3 @@ Da biste napravili kopiju cenovnika, izvršite sledeće korake.
 1. Na karticama cenovnika **Uloga**, **Kategorija** i **Stavka cenovnika**, možete izabrati **Ažuriranje cena** da biste primenili proviziju na sve cene u podformi. 
 2. Na stranici dijaloga koja se otvori, unesite proviziju. Takođe možete da unesete negativni procenat provizije da biste smanjili cene za određeni procenat. 
 3. Izaberite **U redu** na stranici dijaloga, a zatim proverite da li cene u podformi odražavaju promene koje ste uneli.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]
