@@ -1,29 +1,25 @@
 ---
-title: Konfigurisanje automatskog kreiranja fakture – jednostavno
-description: Ova tema pruža informacije o konfigurisanju automatskog kreiranja predračuna.
+title: Konfigurisanje automatskog kreiranja fakture
+description: Ova tema pruža informacije o podešavanju i konfigurisanju automatskog kreiranja predračuna.
 author: rumant
-manager: Annbe
-ms.date: 10/13/2020
+ms.date: 04/05/2021
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 0ce9cb9090c44762f370bf8d574d179077b6a821
-ms.sourcegitcommit: 625878bf48ea530f3381843be0e778cebbbf1922
-ms.translationtype: HT
+ms.openlocfilehash: 1cce457fbc04ba9d3890d73439e6e7fd3db44d84a4498d5dc68ed82d362158b5
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.translationtype: MT
 ms.contentlocale: sr-Latn-RS
-ms.lasthandoff: 10/30/2020
-ms.locfileid: "4176583"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6997533"
 ---
-# <a name="configure-automatic-invoice-creation---lite"></a>Konfigurisanje automatskog kreiranja fakture – jednostavno
+# <a name="set-up-automatic-invoice-creation"></a>Konfigurisanje automatskog kreiranja fakture 
  
-_**Odnosi se na:** Jednostavna primena – od pogodbe do profakture_
+_**Odnosi se na:** Jednostavna primena – od pogodbe do profakture, Project Operations za scenarije zasnovane na resursima / bez zaliha_
 
-Možete da konfigurišete automatsko kreiranje faktura u programu Dynamics 365 Project Operations. Sistem kreira nacrt predračuna na osnovu rasporeda faktura za svaki ugovor o projektu i predmet ugovora. Rasporedi faktura se konfigurišu na nivou predmeta ugovora. Svaka linija ugovora može imati različit raspored faktura ili isti raspored faktura može biti uključen u svaki red ugovora.
+Možete da konfigurišete automatsko kreiranje faktura u usluzi Dynamics 365 Project Operations. Sistem kreira nacrt predračuna na osnovu rasporeda faktura za svaki ugovor o projektu i predmet ugovora. Rasporedi faktura se konfigurišu na nivou predmeta ugovora. Svaka linija ugovora može imati različit raspored faktura ili isti raspored faktura može biti uključen u svaki red ugovora.
 
-Kada kreirate fakturu, sistem uvek kreira najmanje jednu fakturu po ugovoru o projektu. U nekim slučajevima može biti napravljeno više faktura.
-
-Na primer, ako ugovor ima više klijenata, stvoriće se isti broj faktura kao i broj klijenata koji imaju fakturisane transakcije za fakturisanje na tom ugovoru o projektu.
+Kada kreirate fakturu, sistem uvek kreira najmanje jednu fakturu po ugovoru o projektu. U nekim slučajevima može biti napravljeno više faktura. Na primer, ako ugovor ima više klijenata, stvoriće se isti broj faktura kao i broj klijenata koji imaju fakturisane transakcije za fakturisanje na tom ugovoru o projektu.
 
 ## <a name="understand-how-transactions-are-included-on-an-invoice"></a>Shvatite kako su transakcije uključene u fakturu 
 
@@ -91,3 +87,6 @@ Posao grupne obrade za kreiranje faktura je periodični posao. Ako se ova grupna
 
 > [!NOTE]
 > Grupno fakturisanje u usluzi Project Operations se izvodi samo za predmete ugovora o projektu koji su konfigurisani prema rasporedima faktura. Predmet ugovora sa načinom naplate uz fiksnu cenu mora da ima konfigurisane kontrolne tačke. Predmet ugovora za projekat sa načinom naplate vremena i materijala treba da uspostavi raspored faktura na osnovu datuma.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

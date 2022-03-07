@@ -1,25 +1,23 @@
 ---
-title: Primena usluge Project Operations – jednostavno
+title: Primena usluge Project Operations Lite – od pogodbe do profakture
 description: Ova tema pruža informacije o tome kako da instalirate primenu usluge Project Operations Lite – od pogodbe do profakture.
 author: stsporen
 manager: Annbe
 ms.date: 10/02/2020
 ms.topic: article
-ms.service: project-operations
+ms.service: dynamics-365-customerservice
 ms.reviewer: kfend
 ms.author: stsporen
-ms.openlocfilehash: d4ef905f875ac8af7b2d70c3e64506558bdea1ed
-ms.sourcegitcommit: 573be7e36604ace82b35e439cfa748aa7c587415
+ms.openlocfilehash: e938876d459b3f6dfedd90e57e3042cda96bffb7
+ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
 ms.translationtype: HT
 ms.contentlocale: sr-Latn-RS
-ms.lasthandoff: 11/25/2020
-ms.locfileid: "4642200"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4083444"
 ---
-# <a name="deploy-project-operations---lite"></a>Primena usluge Project Operations – jednostavno
+# <a name="deploy-project-operations-lite-deployment--deal-to-proforma-invoicing"></a>Primena usluge Project Operations Lite – od pogodbe do profakture
 
 _**Odnosi se na:** Jednostavna primena – od pogodbe do profakture_
-
-[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
 
 Project Operations podržava više modela primene. Da biste utvrdili najbolji model primene, pogledajte članak [Vrste primena](determine-deployment-type.md).
 

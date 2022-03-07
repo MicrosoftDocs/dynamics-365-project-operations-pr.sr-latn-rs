@@ -2,24 +2,22 @@
 title: Podešavanje stopa naplate za rad – jednostavno
 description: Ova tema pruža informacije o tome kako postaviti stope naplate za rad u usluzi Project Operations.
 author: rumant
-manager: Annbe
 ms.date: 10/16/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: cf53f6909ed5fb9b143197118c799b9803699171
-ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
-ms.translationtype: HT
+ms.openlocfilehash: 9b8c4a19260156480e40f2cc26afa83df3ec9fe9de53edc0ad0ca8c7b78bf352
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.translationtype: MT
 ms.contentlocale: sr-Latn-RS
-ms.lasthandoff: 10/31/2020
-ms.locfileid: "4181199"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7007613"
 ---
 # <a name="set-up-labor-bill-rates---lite"></a>Podešavanje stopa naplate za rad – jednostavno
 
 _**Odnosi se na:** Jednostavna primena – od pogodbe do profakture_
 
-Svaki cenovnik ima skup cena uloga ili stopa rada koje stupaju na snagu za kontekst i efektivnost datuma navedenih u zaglavlju cenovnika. Stope naplate za vreme u usluzi Dynamics 365 Project Operations mogu se postaviti u samo jednoj valuti, koja je valuta u zaglavlju cenovnika.
+Svaki cenovnik ima skup cena uloga ili stopa rada koje stupaju na snagu za kontekst i efektivnost datuma navedenih u zaglavlju cenovnika. Stope naplate za vreme u usluzi Dynamics 365 Project Operations mogu se podesiti u samo jednoj valuti, koja je valuta u zaglavlju Cenovnika.
 
 1. Da biste postavili stope naplate za rad za prodajni cenovnik, napravite cenovnik na osnovu zaglavlja cenovnika. 
 2. Na kartici **Uloga cena**, u podmreži odaberite **+ Nova cena uloge**. 
@@ -55,3 +53,6 @@ Na primer, programeru iz odeljenja za kompanije Fabrikam India koji radi na amer
     | Projektant | Fabrikam US | 150 USD |
 
 3. Priložite prodajni cenovnik, **Fabrikam US stope naplate** projektnom cenovniku projektnog ugovora ili na određeni nalog.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

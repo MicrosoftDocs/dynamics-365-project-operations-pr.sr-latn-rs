@@ -2,18 +2,16 @@
 title: Upravljanje većim brojem klijenata u stavkama ponude zasnovane na projektu – jednostavno
 description: Ova tema opisuje kako se upravlja sa više klijenata u stavkama ponuda zasnovanim na projektu.
 author: rumant
-manager: Annbe
 ms.date: 10/06/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 7cab29693fc1447beba74dc6266367f13e48634d
-ms.sourcegitcommit: 625878bf48ea530f3381843be0e778cebbbf1922
-ms.translationtype: HT
+ms.openlocfilehash: d015e9107741fd496f7d3639731f33fcdcc9b9bdd5f501c9ad2617e37a707f35
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.translationtype: MT
 ms.contentlocale: sr-Latn-RS
-ms.lasthandoff: 10/30/2020
-ms.locfileid: "4176493"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7001718"
 ---
 # <a name="manage-multiple-customers-on-project-based-quote-lines---lite"></a>Upravljanje većim brojem klijenata u stavkama ponude zasnovane na projektu – jednostavno
 
@@ -43,3 +41,6 @@ Sledeća tabela prikazuje polja u zapisu klijenta stavke ponude u stavci ponude 
 Procente podele naplate možete urediti iznutra. Kada procenti podele naplate ne iznose 100%, dolazi do greške. Kada uređujete procente podele naplate, osvežite stranicu stavke ponude da biste uklonili grešku.
 
 Koristite radnju ravnomerne raspodele na podformi klijenata stavke ponude da biste dodelili podele naplate svim klijentima stavke ponude. Ako postoji faktor zaokruživanja, to će se dodati klijentu za zaokruživanje. Jedan od klijenata stavke ponude uvek je označen kao klijent za zaokruživanje, što znači da je u zapisu klijenta stavke ponude zastavica za zaokruživanje podešena na **Da**. 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -2,11 +2,9 @@
 title: Ulazne porudžbine projekta za projekte vremena i materijala
 description: Ova tema objašnjava kako se kreiraju ulazne porudžbine zasnovane na projektima vremena i materijala.
 author: Yowelle
-manager: AnnBe
 ms.date: 04/05/2019
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: josaw
@@ -17,12 +15,12 @@ ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2019-04-05
 ms.dyn365.ops.version: AX 10.0.2
-ms.openlocfilehash: 3653a6869dab323be88f1fd0f9fd0f2cb35c456f
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
-ms.translationtype: HT
+ms.openlocfilehash: bec39790b0a41e72b4cc9798d37a01e87029e18335f77d895680aafbb74fac3b
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.translationtype: MT
 ms.contentlocale: sr-Latn-RS
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4083565"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6992853"
 ---
 # <a name="project-sales-orders-for-time-and-material-projects"></a>Ulazne porudžbine projekta za projekte vremena i materijala
 
@@ -41,3 +39,6 @@ Ulazne porudžbine zasnovane na projektu možete kreirati na dva načina:
 - Idite na sam projekat. U oknu radnji izaberite **Upravljanje > Zadaci predmeta > Ulazna porudžbina**. Informacije o projektu podrazumevano se stavljaju u ulaznu porudžbinu iz projekta. Ako ugovor o projektu ima više izvora finansiranja, moraćete da izaberete izvor finansiranja da biste postavili klijenta za ulaznu porudžbinu. Ako postoji samo jedan izvor finansiranja za projekat, klijent će biti automatski podešen.
 - Idite na stranicu liste **Sve ulazne porudžbine** i kreirajte novu ulaznu porudžbinu. Za ulaznu porudžbinu ćete morati da izaberete projekat. Kada izaberete projekat, klijent će biti postavljen iz izvora finansiranja ili ćete morati izabrati izvor finansiranja ako ugovor o projektu ima više izvora finansiranja.
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

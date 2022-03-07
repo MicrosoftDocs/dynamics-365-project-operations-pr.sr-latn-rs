@@ -8,12 +8,12 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 26ae5cc267bb06f958bbf9cdce2d80ccde9d3d24
-ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
+ms.openlocfilehash: 1808469a34e05eb926f13c62ec634e8273b0e33c
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: sr-Latn-RS
-ms.lasthandoff: 10/31/2020
-ms.locfileid: "4181698"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5278570"
 ---
 # <a name="copy-project-based-opportunities"></a>Kopiranje mogućnosti za poslovanje zasnovanih na projektu
 
@@ -34,3 +34,6 @@ Projektne mogućnosti za poslovanje se lako mogu kopirati da bi se stvorile nove
     | Kopiranje određivanja cene | Vrednost Da/Ne koja pokazuje da li treba kopirati cene za mogućnost za poslovanje iz izvorne mogućnosti za poslovanje. | Ako je **Da** izabrano, cenovnici se kopiraju iz izvorne u ciljnu mogućnost za poslovanje. Ako je izabrano **Ne**, cenovnici se podrazumevano postavljaju na osnovu najnovijih cenovnika koji su postavljeni. |
 
 3. Izaberite **U redu**. Sistem kreira kopiju projektne mogućnosti za poslovanje na osnovu odabranih parametara i nova projektna mogućnost za poslovanje se otvara.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

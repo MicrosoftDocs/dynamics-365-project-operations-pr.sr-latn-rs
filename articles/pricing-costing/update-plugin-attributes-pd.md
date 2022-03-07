@@ -2,18 +2,16 @@
 title: Ažuriranje atributa dodatnih komponenti sa novim aspektima za određivanje cena
 description: Ova tema pruža informacije o tome kako da ažurirate atribute dodatnih komponenti za dimenzije određivanja cena.
 author: rumant
-manager: Annbe
 ms.date: 11/18/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 9b0cf48318d0b9e94c4be0d3775b54e83832c1b7
-ms.sourcegitcommit: 573be7e36604ace82b35e439cfa748aa7c587415
-ms.translationtype: HT
+ms.openlocfilehash: d57ec617d2c7b10a01a75e7eaa9ca2d646af3f6ee1d06d4e6fb228fc0533da27
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.translationtype: MT
 ms.contentlocale: sr-Latn-RS
-ms.lasthandoff: 11/25/2020
-ms.locfileid: "4643235"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6988353"
 ---
 # <a name="update-plug-in-attributes-with-new-pricing-dimensions"></a>Ažurirajte atribute dodatnih komponenti sa novim aspektima za određivanje cena
 
@@ -52,3 +50,6 @@ Dovršite sledeće korake da biste ažurirali i ponovo registrovali dodatne komp
 7. Izaberite **U redu** da zatvorite stranicu, a zatim izaberite **Ažuriraj korak**.
 8. Ponovite korake od 2-7 za drugu dodatnu komponentu, **PreOperationQuoteLineDetail**. Za ovu dodatnu komponentu, morate da ažurirate korak **Update of msdyn_quotelinetransaction**.
 9. Zatvorite **PluginRegistrationTool**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

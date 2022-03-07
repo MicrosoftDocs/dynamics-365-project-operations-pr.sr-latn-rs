@@ -2,8 +2,6 @@
 title: Upravljanje resursima
 description: Ova tema pruža informacije o tome kako možete da upravljate resursima.
 author: ruhercul
-manager: kfend
-ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 05/13/2019
@@ -18,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 37377367751592fc533447748b80b124cb6548ad
-ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
-ms.translationtype: HT
+ms.openlocfilehash: 548ee7db1c8ca14f1b88d76a534d2922549eba138659e67a84cd89e6f7ee2170
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.translationtype: MT
 ms.contentlocale: sr-Latn-RS
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "5151360"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6998523"
 ---
 # <a name="manage-resources"></a>Upravljanje resursima
 
@@ -60,34 +58,34 @@ Sledite ove korake da biste naveli potrebne veštine generičkog resursa za prog
 
 1. Na stranici **Projekti** na kartici **Tim** odaberite **Novi** da rezervišete generički resurs.
 
-    ![Generički resurs rezervisan za tim](media/Resource-Management-image9.png)
+    ![Generički resurs rezervisan za tim.](media/Resource-Management-image9.png)
 
 2. U prikazu **Svi članovi tima**, u koloni **Potreba za resursom** izaberite vezu da dodate potrebne veštine za generički resurs.
 
-    ![Veza zahteva](media/Resource-Management-image10.png)
+    ![Veza zahteva.](media/Resource-Management-image10.png)
 
 3. Na stranici **Potreba za resursom** koja se pojavljuje u mreži **Veštine** odaberite tri tačke (**...**), a zatim izaberite **Dodaj novu karakteristiku zahteva** da dodate potrebne veštine za programera.
 
-    ![Komanda za dodavanje nove karakteristike zahteva](media/Resource-Management-image11.png)
+    ![Komanda za dodavanje nove karakteristike zahteva.](media/Resource-Management-image11.png)
 
 4. U dijalogu **Brzo kreiranje karakteristike zahteva** koji se pojavljuje, u polju **Karakteristike** odaberite željenu veštinu. Zatim, u polju **Vrednost ocene** odaberite nivo stručnosti za ovu veštinu. Konačno u polju **Potreba za resursom** podesite potrebu da biste obezbedili resurse iz organizacionih jedinica ili čak imenovanih resursa. Kada završite, izaberite **Sačuvaj**.
 
-    ![Dijalog za brzo kreiranje karakteristika zahteva](media/Resource-Management-image12.png)
+    ![Dijalog za brzo kreiranje karakteristika zahteva.](media/Resource-Management-image12.png)
 
 5. Na stranici **Potreba za resursom** izaberite **Rezerviši** da biste ispunili potrebu za resursom.
 
-    ![Dugme za rezervisanje na stranici Potreba za resursom](media/Resource-Management-image13.png)
+    ![Dugme za rezervisanje na stranici Potreba za resursom.](media/Resource-Management-image13.png)
 
     Takođe možete odabrati generički resurs u mreži **Svi članovi tima**, a zatim izabrati **Rezerviši**.
 
-    ![Dugme za rezervaciju iznad mreže Svi članovi tima](media/Resource-Management-image14.png)
+    ![Dugme za rezervaciju iznad mreže Svi članovi tima.](media/Resource-Management-image14.png)
 
     > [!NOTE]
-    > U ovom primeru, postoji 40 zahtevanih sati, ali nema stvarno rezerviranih sati, jer generički resursi nemaju rezervacije. Uz to, nema dodeljenih sati, jer je generički resurs dodat direktno u tim. Nije dodat dodeljivanjem zadatka.
+    > U ovom primeru, postoji 40 zahtevanih sati, ali nema stvarno rezervisanih sati, jer generički resursi nemaju rezervacije. Uz to, nema dodeljenih sati, jer je generički resurs dodat direktno u tim. Nije dodat dodeljivanjem zadatka.
 
     Na stranici **Pomoćnik za zakazivanje** možete filtrirati dostupne resurse prema potrebama koje su navedene u potrebi za resursom. Resursi su sortirani prema parametrima sortiranja koji su navedeni na tabeli rasporeda.
 
-    ![Stranica Pomoćnik za zakazivanje](media/Resource-Management-image15.png)
+    ![Stranica Pomoćnik za zakazivanje.](media/Resource-Management-image15.png)
 
     Evo nekoliko filtera koji se često koriste:
 
@@ -97,23 +95,23 @@ Sledite ove korake da biste naveli potrebne veštine generičkog resursa za prog
 
 6. Ako niste zadovoljni rezultatima inicijalne pretrage zahteva, možete promeniti kriterijume filtriranja. Proširite okno **Prikaz filtera** sa leve strane, a zatim izaberite **Pretraži** da biste pronašli dodatne resurse.
 
-    ![Okno sa prikazom filtera](media/Resource-Management-image16.png)
+    ![Okno sa prikazom filtera.](media/Resource-Management-image16.png)
 
 7. Da biste promenili način sortiranja rezultata, izaberite **Sortiraj**.
 
-    ![Komanda za sortiranje](media/Resource-Management-image17.png)
+    ![Komanda za sortiranje.](media/Resource-Management-image17.png)
 
 8. Odaberite resurse u skladu sa potražnjom koja je navedena u zahtevu, kao što je naznačeno u vrhu mreže. Možete izbrisati izbor ćelija u mreži i ostaviti otvoren kapacitet resursa. Samo jedan resurs može biti izabran kao rezervisan u određenom trenutku.
 
 9. Izaberite **Rezerviši** da rezervišete izabrani resurs i ostavite tabelu rasporeda otvorenu, tako da možete da izaberete dodatne resurse. Ili odaberite **Rezerviši i izađi** da rezervišete izabrani resurs i zatvorite tabelu rasporeda.
 
-    ![Resurs za rezervaciju](media/Resource-Management-image19.png)
+    ![Resurs za rezervaciju.](media/Resource-Management-image19.png)
 
     Dobijate obaveštenje o rezervisanim satima. Pokazatelji potražnje pokazuju koliko je zahtev za rezervaciju ispunjen i koliko još ostaje. Takođe možete videti koliko je potrošeno kapaciteta odabranog resursa. Izaberite **Proširi** da biste videli više detalja o rezervacijama resursa.
 
-9. Vratite se na prikaz **Svi članovi tima**. U mreži možete da primetite da je generički resurs zamenjen imenovanim resursom i da je 40 sati navedeno kao rezervirano za taj resurs.
+9. Vratite se na prikaz **Svi članovi tima**. U mreži možete da primetite da je generički resurs zamenjen imenovanim resursom i da je 40 sati navedeno kao rezervisano za taj resurs.
 
-    ![Mreža Ažurirani svi članovi tima](media/Resource-Management-image20.png)
+    ![Mreža Ažurirani svi članovi tima.](media/Resource-Management-image20.png)
 
     > [!NOTE]
     > Nisu prikazani dodeljeni sati jer su rezervisani direktno u timu. Nisu rezervisani korišćenjem dodela zadatka.
@@ -124,72 +122,72 @@ U aplikaciji PSA možete da kreirate zadatke i da im onda dodelite generičke re
 
 1. Na stranici **Projekti** na kartici **Raspored** odaberite **Dodaj** da kreirate zadatak.
 
-    ![Kreiran je novi zadatak](media/Resource-Management-image21.png)
+    ![Kreiran je novi zadatak.](media/Resource-Management-image21.png)
 
 2. U polju **Resursi** izaberite simbol **birača resursa**. Pojavljuje se birač resursa i pokazuje postojeće članove tima za projekat.
 
-    ![Birač resursa](media/Resource-Management-image22.png)
+    ![Birač resursa.](media/Resource-Management-image22.png)
 
 3. Unesite ime novog generičkog resursa, a zatim izaberite **Kreiraj**.
 
-    ![Uneto je ime novog generičkog resursa](media/Resource-Management-image23.png)
+    ![Uneto je ime novog generičkog resursa.](media/Resource-Management-image23.png)
 
 4. U dijalogu **Brzo kreiranje člana projektnog tima** koji se pojavljuje, u polju **Uloga** odaberite ulogu generičkog resursa. U polju **Jedinica za obezbeđivanje resursa** izaberite organizacionu jedinicu za generički resurs. Zatim izaberite **Sačuvaj**.
 
-    ![Dijalog za brzo kreiranje člana projektnog tima](media/Resource-Management-image24.png)
+    ![Dijalog za brzo kreiranje člana projektnog tima.](media/Resource-Management-image24.png)
 
     Generički član tima je sada dodeljen zadatku.
 
-    ![Generički član tima je dodeljen zadatku](media/Resource-Management-image25.png)
+    ![Generički član tima je dodeljen zadatku.](media/Resource-Management-image25.png)
 
     Na kartici **Tim** videćete novog generičkog člana tima. Imajte na umu da ima samo dodeljene sate. Ovi časovi su zbir svih zadataka koji su dodeljeni generičkom članu tima. Generički član tima još uvek nema zahtevane sate niti potrebu za resursom.
 
-    ![Generički član tima na kartici Tim](media/Resource-Management-image26.png)
+    ![Generički član tima na kartici Tim.](media/Resource-Management-image26.png)
 
 5. Sada možete dodeliti generičkog člana tima drugim zadacima pomoću birača resursa.
 
-    ![Generički član tima u biraču resursa](media/Resource-Management-image27.png)
+    ![Generički član tima u biraču resursa.](media/Resource-Management-image27.png)
 
     Kada završite sa dodeljivanjem generičkog resursa zadacima, možete da generišete potrebu za generičkim resursom.
 
 5. Na kartici **Tim** izaberite generički resurs, a zatim izaberite **Generiši zahtev**.
 
-    ![Komanda za generisanje zahteva](media/Resource-Management-image28.png)
+    ![Komanda za generisanje zahteva.](media/Resource-Management-image28.png)
 
     Kada se zahtev generiše, član generičkog tima će imati zahtevane sate i vezu ka potrebi za resursom.
 
-    ![Veza ka potrebi za resursom](media/Resource-Management-image29.png)
+    ![Veza ka potrebi za resursom.](media/Resource-Management-image29.png)
 
     Kada rezervišete imenovani resurs, generički resurs se uklanja iz tima i zamenjuje imenovanim resursom.
 
-    ![Generički resurs je zamenjen imenovanim resursom](media/Resource-Management-image30.png)
+    ![Generički resurs je zamenjen imenovanim resursom.](media/Resource-Management-image30.png)
 
     Na kartici **Raspored** se dodele generičkim resursima uklanjaju i zamenjuju imenovanim resursom.
 
-    ![Dodele generičkim resursima su zamenjene imenovanim resursom na kartici Raspored](media/Resource-Management-image31.png)
+    ![Dodele generičkim resursima su zamenjene imenovanim resursom na kartici Raspored.](media/Resource-Management-image31.png)
 
     > [!NOTE]
     > Ovo ponašanje se dešava samo kada je imenovani resurs u potpunosti rezervisan za potrebu za generičkim resursom. Kada imenovani resurs delimično zamenjuje potrebu za generičkim resursom ili više imenovanih resursa zamenjuje potrebu za generičkim resursima, generički resurs ostaje dodeljen zadatku.
 
     Na sledećoj ilustraciji, zadatak od 80 sati je planiran za period od pet dana (16 sati dnevno tokom pet dana) i dodeljen je generičkom resursu koji se zove **Funkcionalni**.
 
-    ![Osamdesetčasovni zadatak za pet dana je dodeljen funkcionalnom generičkom resursu](media/Resource-Management-image32.png)
+    ![Osamdesetčasovni zadatak za pet dana je dodeljen funkcionalnom generičkom izvoru.](media/Resource-Management-image32.png)
 
     Kada generišete zahtev, on je za 80 sati tokom petodnevnog perioda.
 
-    ![Zahtev je generisan za 80 sati tokom pet dana](media/Resource-Management-image33.png)
+    ![Zahtev je generisan za 80 sati tokom pet dana.](media/Resource-Management-image33.png)
 
     Budući da dostupni resursi rade samo osam sati dnevno, potrebna su dva resursa da bi se ispunio zahtev.
 
-    ![Drugi resurs](media/Resource-Management-image35.png)
+    ![Drugi resurs.](media/Resource-Management-image35.png)
 
     Na kartici **Tim** sada možete videti da generički resurs nema zahtevane sate, ali dodeljeni sati se i dalje pojavljuju zajedno sa dva imenovana resursa koja čine ispunjenje.
 
-    ![Dva imenovana resursa na kartici Tim](media/Resource-Management-image36.png)
+    ![Dva imenovana resursa na kartici Tim.](media/Resource-Management-image36.png)
 
     Na kartici **Raspored** generički resurs ostaje dodeljen zadatku.
 
-    ![Generički resursi na kartici Raspored](media/Resource-Management-image37.png)
+    ![Generički resursi na kartici Raspored.](media/Resource-Management-image37.png)
 
 PSA ne dodeljuje oba resursa zadatku, jer bi takvim ponašanjem nastao manje predvidljiv raspored. U ovom jednostavnom primeru lako je podjednako podeliti sate na dva resursa. Međutim, u složenijim scenarijima koji uključuju više zadataka i više resursa, PSA bi morao da pretpostavi kako treba da rasporedi rezervacije koje su primljene za više resursa u više zadataka.
 
@@ -221,13 +219,13 @@ Nakon što dodate generički ili imenovani resurs u projektni tim, možete prome
 
 1. Na stranici **Projekti** na kartici **Tim** odaberite člana tima, a zatim izaberite **Održavanje rezervacija**.
 
-    ![Tabela rasporeda se otvara za izabranog člana tima](media/Resource-Management-image40.png)
+    ![Tabela rasporeda se otvara za izabranog člana tima.](media/Resource-Management-image40.png)
 
     Pojavljuje se tabela rasporeda i prikazuje rezervacije člana projektnog tima. Proširite evidenciju člana tima da biste videli sate koji su rezervisani za ovaj projekat i druge projekte koji troše kapacitet člana tima.
 
 2. Izaberite i prevucite rezervaciju da biste je proširili ili skratili. Pojaviće se dijalog **Kreiranje rezervacije resursa** koji vam omogućava da podesite rezervaciju.
 
-    ![Dijalog za kreiranje rezervacije resursa](media/Resource-Management-image41.png)
+    ![Dijalog za kreiranje rezervacije resursa.](media/Resource-Management-image41.png)
 
 3. Kliknite desnim tasterom miša na rezervaciju. Zatim možete da koristite meni sa prečicama da biste dovršili sledeće radnje:
 
@@ -239,7 +237,7 @@ Nakon što dodate generički ili imenovani resurs u projektni tim, možete prome
 
 Možete promeniti bilo koji podrazumevani ili prilagođeni status rezervacije.
 
-![Komanda za promenu statusa](media/Resource-Management-image42.png)
+![Komanda za promenu statusa.](media/Resource-Management-image42.png)
 
 Sledeći statusi su uvršteni u PSA:
 
@@ -259,25 +257,25 @@ Zahtevi za resurse koriste se da prenesu potražnju (potrebe za resursima) koja 
 
 Kada se generiše potreba za resursom, projektni menadžer može da prosledi zahtev za generički resurs ako izabere resurs, a zatim opciju **Prosledi zahtev**.
 
-![Dugme Prosledi zahtev](media/Resource-Management-image45.png)
+![Dugme Prosledi zahtev.](media/Resource-Management-image45.png)
 
 Komentari o resursu mogu se dostaviti menadžeru resursa koji ispunjava zahtev. Nakon prosleđivanja zahteva, polje **Status** za člana tima se menja u **Prosleđen**.
 
-![Unošenje opcionalnih komentara](media/Resource-Management-image46.png)
+![Unošenje opcionalnih komentara.](media/Resource-Management-image46.png)
 
 Kada menadžer resursa ispuni zahtev, generičkog člana tima zamenjuje imenovani resurs u mreži **Svi članovi tima**.
 
-![Generički član tima zamenjen je imenovanim resursom u mreži Svi članovi tima](media/Resource-Management-image47.png)
+![Generički član tima zamenjen je imenovanim resursom u mreži Svi članovi tima.](media/Resource-Management-image47.png)
 
 #### <a name="use-a-resource-proposal-for-resource-requests"></a>Korišćenje predloga resursa za zahteve za resurse
 
 Umesto da direktno rezerviše resurs u zahtevu za resurse, menadžer resursa može da predloži resurs menadžeru projekata. Menadžer resursa mogao bi koristiti ovu opciju kada nije dostupno tačno podudaranje sa potrebama. Kada menadžer resursa predloži resurs, menadžer projekata vidi da je polje **Status** za generičkog člana tima promenjeno u **Zahteva pregled**.
 
-![Status generičkog člana tima promenjen je u Zahteva pregled](media/Resource-Management-image48.png)
+![Status generičkog člana tima promenjen je u Zahteva pregled.](media/Resource-Management-image48.png)
 
 Da biste pregledali predloženi resurs zajedno sa vizuelizacijom efekta rezervacije predloga, dvaput kliknite na člana tima koji ima status **Zahteva pregled**. Zatim izaberite karticu **Predloženi resursi**.
 
-![Kartica Predloženi resursi](media/Resource-Management-image49.png)
+![Kartica Predloženi resursi.](media/Resource-Management-image49.png)
 
 Izaberite **Prihvati sve predloge** da prihvate sve predložene resurse ili **Odbacite sve predloge** da ih odbacite. Ako prihvatite predložene resurse, oni se fiksno rezervišu za projekat kao članovi tima i zamenjuju generičke resurse.
 
@@ -291,30 +289,30 @@ Ponekad menadžer projekta mora zameniti rezervisanog člana tima za projekat.
 1. Na stranici **Projekti** na kartici **Tim** odaberite resurs kome je potrebna zamena, a zatim izaberite **Održavanje rezervacija**.
 2. Proširite resurs za pregled projekata kojima je dodeljen.
 
-    ![Resurs je proširen radi prikaza dodeljenih projekata](media/Resource-Management-image50.png)
+    ![Resurs je proširen radi prikaza dodeljenih projekata.](media/Resource-Management-image50.png)
 
 3. Kliknite desnim tasterom miša na projekat, a zatim izaberite **Zamena resursa**.
 4. Ako znate resurs koji želite zameniti trenutnim resursom, odaberite ili unesite ime, a zatim izaberite **Ponovo dodeli**.
 
-    ![Određivanje zamenskog resursa](media/Resource-Management-image51.png)
+    ![Određivanje zamenskog resursa.](media/Resource-Management-image51.png)
 
     Alternativno, sledite ove korake da biste potražili resurs:
 
     1. Izaberite **Pronalaženje zamene**.
 
-        ![Traženje zamenskog resursa](media/Resource-Management-image52.png)
+        ![Traženje zamenskog resursa.](media/Resource-Management-image52.png)
 
         Pomoćnik za zakazivanje prikazuje listu dostupnih zamena. U pomoćniku za zakazivanje možete dodatno filtrirati dostupne resurse da biste pronašli odgovarajuću zamenu.
 
-        ![Lista dostupnih zamena](media/Resource-Management-image53.png)
+        ![Lista dostupnih zamena.](media/Resource-Management-image53.png)
 
     2. Da biste zamenili resurs, odaberite resurs koji želite, a zatim izaberite **Zameni**.
 
-        ![Izabran je zamenski resurs](media/Resource-Management-image54.png)
+        ![Izabran je zamenski resurs.](media/Resource-Management-image54.png)
 
     Rezervacije i dodele zamenjuju se novim resursom.
 
-    ![Rezervacije i dodele zamenjuju se novim resursom](media/Resource-Management-image55.png)
+    ![Rezervacije i dodele zamenjuju se novim resursom.](media/Resource-Management-image55.png)
 
 ## <a name="reconcile-team-member-bookings-and-assignments"></a>Usaglašavanje rezervacija i dodela članova tima
 
@@ -322,7 +320,7 @@ Za članove tima, rezervacije i dodele su labavo povezane. Drugim rečima, resur
 
 PSA ima karticu **Usaglašenost** koja omogućava menadžerima projekata da usaglase rezervacije članova tima i njihove dodele za projektne timove.
 
-![Kartica Usaglašenost](media/Resource-Management-image56.png)
+![Kartica Usaglašenost.](media/Resource-Management-image56.png)
 
 Kartica **Usaglašenost** prikazuje rezervacije i dodele sve do nivoa dodele pojedinačnog zadatka za svakog člana tima. Prikazuje sate u ćelijama koji predstavljaju vremenske periode, od meseci, pa sve do dana.
 
@@ -337,10 +335,13 @@ U nekim slučajevima, kada pregledate vreme na višem nivou od nivoa dana (na pr
 
 Kada pregledate vreme na višim nivoima, ćelije na kartici **Usaglašenost** imaju indikator koji će vas obavestiti da postoje razlike na nižim nivoima. Duplim klikom na ćeliju možete da je povećate kako biste videli razliku. Zatim možete da kliknite desnim tasterom miša da biste je umanjili. Ako odaberete resurs, a zatim koristite kontrolu **Sledeća razlika** na traci sa alatkama mreže, možete preći na sledeću razliku između rezervacija i dodela za taj resurs. Zatim možete da koristite kontrolu **Prethodna razlika** za povratak. Takođe možete isključiti indikator razlike i ponašanje u navigaciji u delu **Podešavanja**.
 
-![Indikator razlike](media/Resource-Management-image57.png)
+![Indikator razlike.](media/Resource-Management-image57.png)
 
 Ako imate dodele zadataka za resurs, ali nema rezervacija, na stranici **Projekti** na kartici **Usaglašenost** izaberite nedostatak rezervacija, a zatim **Produži rezervaciju**. Pojavljuje se dijalog **Produženje rezervacije** i prikazuje rezervaciju koja je potrebna da se reši problem sa nedostatkom resursa. Takođe pokazuje postojeće rezervacije resursa za sve projekte ili druge entitete koji se mogu zakazivati. Ako izaberete **U redu** da biste kreirali rezervaciju za resurs, bez obzira na dostupnost tog resursa, možete prouzrokovati prekomernu rezervaciju.
 
-![Dijalog Produženje rezervacije](media/Resource-Management-image58.png)
+![Dijalog Produženje rezervacije.](media/Resource-Management-image58.png)
 
 Menadžer projekta ili menadžer resursa tada može da koristi tabelu rasporeda kako bi upravljao bilo kojom situacijom u kojoj je resurs prekomerno rezervisan u odnosu na njegov kapacitet.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -2,11 +2,9 @@
 title: Upravljanje cenovnicima projekata u ponudi
 description: Ova tema pruža informacije o entitetu cenovnika projekta.
 author: rumant
-manager: AnnBe
 ms.date: 09/18/2020
 ms.topic: article
 ms.prod: ''
-ms.service: project-operations
 audience: Application User
 ms.reviewer: kfend
 ms.search.scope: ''
@@ -17,18 +15,18 @@ ms.search.industry: Service industries
 ms.author: suvaidya
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: 5fc8691984e22b2fa35e26b1a7d94cc56c25c26d
-ms.sourcegitcommit: 625878bf48ea530f3381843be0e778cebbbf1922
-ms.translationtype: HT
+ms.openlocfilehash: 8cfabf98f1a38823c777b6e388fbbb65d02877e3cd433069dd3845c292f2b277
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.translationtype: MT
 ms.contentlocale: sr-Latn-RS
-ms.lasthandoff: 10/30/2020
-ms.locfileid: "4177213"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7003923"
 ---
 # <a name="manage-project-price-lists-on-a-quote"></a>Upravljanje cenovnicima projekata u ponudi
 
 _**Odnosi se na:** Project Operations za resurs/scenarije koji nisu zasnovani na zalihama, laganu primenu – od pogodbe do profakture_
 
-Dynamics 365 Project Operations proširuje entitet cenovnika u usluzi Dynamics 365 Sales. 
+Dynamics 365 Project Operations proširuje entitet cenovnika u sistemu Dynamics 365 Sales. 
 
 ## <a name="key-entities"></a>Ključni entiteti
 
@@ -120,3 +118,6 @@ Kao i kod stopa naplate, stope troškova za ljudske resurse se takođe podešava
     1. Cenovnik troškova koji je priložen organizacionoj jedinici.
     2. Cenovnik troškova koji je priložen Project Operations parametrima. S obzirom na to da se cenovnici troškova u mnogim različitim valutama mogu priložiti uz parametre, završava se podudaranje valute ugovorne organizacione jedinice projekta, ugovora ili ponude sa valutom cenovnika troškova.
     3. Kada su u pitanju troškovi, metodi formiranja cena „Provizija preko troškova“ i „Po ceni“ ne primenjuju se na cenovnike troškova. Čak i ako se ovi metodi određivanja cena koriste u stavkama cenovnika troškova da bi se podesili troškovi za kategoriju transakcije, sistem ih zanemaruje i ne unosi se podrazumevana cena koštanja.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

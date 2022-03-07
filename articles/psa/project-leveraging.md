@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 76e21f80e51e6f3092880dc629ba90b400805486
-ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
+ms.openlocfilehash: 87dc72b76ec4f88684ef2c702718e1ab631ff936
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: sr-Latn-RS
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "5148390"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5283925"
 ---
 # <a name="sales-estimates-and-projects"></a>Prodajne procene i projekti
 
@@ -54,3 +54,6 @@ Možete definisati radne aktivnosti i procene rasporeda pomoću polja na kartici
 ## <a name="importing-estimates-from-a-project-into-a-quote"></a>Uvoz procena iz projekta u ponudu
 
 Nakon što definišete procene projekta, možete ih uvesti u stavku ponude. Na stranici **Detalji stavke ponude** izaberite **Uvoz iz procena** na traci da biste rezimirali procene projekta prema vrsti transakcije, ulozi ili nivou zadatka.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

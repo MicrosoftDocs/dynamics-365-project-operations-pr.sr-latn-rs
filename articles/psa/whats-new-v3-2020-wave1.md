@@ -2,7 +2,7 @@
 title: Šta je novo ili promenjeno u aplikaciji Project Service Automation u verziji 3.x talasu 1 za 2020. godinu
 description: U ovoj temi date su informacije o tome šta je novo i šta se promenilo u rešenju Project Service Automation u verziji 3 talasu 1 za 2020.
 manager: kfend
-ms.service: project-operations
+ms.service: dynamics-365-customerservice
 ms.custom:
 - dyn365-projectservice
 ms.date: 05/15/2020
@@ -18,17 +18,14 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 5110679038ae7ed1e21a3e7dc80a4657e0752b49
-ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
+ms.openlocfilehash: 16b51995f863d9ee54172625dacbf081c51c8556
+ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
 ms.translationtype: HT
 ms.contentlocale: sr-Latn-RS
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "5150955"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4083526"
 ---
 # <a name="whats-new-or-changed-in-project-service-automation-version-3-wave-1-2020"></a>Šta je novo ili promenjeno u aplikaciji Project Service Automation u verziji 3 talasu 1 za 2020. godinu
-
-[!include [banner](../includes/psa-now-project-operations.md)]
-
 Tema ističe ključne činjenice koje treba uzeti u obzir prilikom nadogradnje kada prelazite na najnovije izdanje rešenja Project Service Automation (PSA) verzije 3.x talasa 1 za 2020.
 
 ## <a name="time-entry"></a>Stavka vremena

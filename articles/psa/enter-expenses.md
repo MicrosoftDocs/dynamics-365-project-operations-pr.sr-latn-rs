@@ -2,8 +2,6 @@
 title: Unesite troškove
 description: Kako da unosite troškove u aplikaciji Project Service
 author: revathimuthiah
-manager: kfend
-ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 8/03/2018
@@ -18,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 9a32bc6b8687dfac941dde9944c6e6b4fd8f723f
-ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
-ms.translationtype: HT
+ms.openlocfilehash: b13aafffc2f418915ee7da7e3c9ec49230ec92d896cf8465557347c269df57f3
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.translationtype: MT
 ms.contentlocale: sr-Latn-RS
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "5148525"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6988871"
 ---
 # <a name="enter-expenses-project-service"></a>Unos troškova (Project Service)
 
@@ -59,3 +57,6 @@ Unesite svoje troškove bar sedmično – ili onoliko često koliko to menadžer
   
 ### <a name="see-also"></a>Takođe pogledajte  
  [Vodič za vreme, trošak i saradnju](../psa/time-expense-collaboration-guide.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

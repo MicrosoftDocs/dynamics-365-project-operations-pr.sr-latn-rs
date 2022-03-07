@@ -16,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 2e6c60fe67aea908013077bde40c2faeabc2f39e
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
-ms.translationtype: HT
+ms.openlocfilehash: 15540f524fb8fca8f69a2249f783289ba683cad7dabbf58ecbf620d147e5d491
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.translationtype: MT
 ms.contentlocale: sr-Latn-RS
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "5993163"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7002978"
 ---
 # <a name="how-do-i-customize-the-project-stages-business-process-flow"></a>Kako prilagođavate tok poslovnog procesa za faze projekta?
 
@@ -60,11 +60,11 @@ Ako nadogradnja ne predstavlja opciju, možete da prilagodite tok poslovnog proc
 1. Dodajte dodatne faze podrazumevanoj konfiguraciji istovremeno zadržavajući engleska imena faza za opcije **Quote**, **Plan** i **Close**.
 
 
-![Snimak ekrana za dodavanje faza podrazumevanoj konfiguraciji](media/FAQ-Customize-BPF-1.png)
+![Snimak ekrana za dodavanje faza podrazumevanoj konfiguraciji.](media/FAQ-Customize-BPF-1.png)
  
 2. Kreirajte sopstveni tok poslovnog procesa i neka on bude vaš primarni tok poslovnog procesa za entitet projekta, što vam omogućava da imate bilo koja imena faze po želji. Međutim, ako želite da koristite iste standardne faze projekta **Quote**, **Plan** i **Close**, potrebno je da izvršite još neka prilagođavanja koja se pokreću na osnovu vaših prilagođenih imena za faze. Složenija logika se nalazi u zatvaranju projekta, koju i dalje možete da pokrećete prostim deaktiviranjem zapisa projekta.
 
-![BPF prilagođavanje](media/FAQ-Customize-BPF-2.png)
+![BPF prilagođavanje.](media/FAQ-Customize-BPF-2.png)
 
 ### <a name="additional-considerations-for-project-service-app-version-24430-or-earlier-on-platform-90"></a>Dodatna razmatranja za aplikaciju Project Service, verzija 2.4.4.30 ili ranije na platformi 9.0
 
@@ -80,11 +80,11 @@ Postupite na sledeći način da biste kreirali sopstveni tok poslovnog procesa z
 
 1. Idite na stavku **Podešavanja** > **Centar za procese**. Nemojte da kopirate tok poslovnog projekta za faze projekta jer to kopira i poslovnu logiku aplikacije Project Service.
 
-  ![Kreiraj proces](media/FAQ-Customize-BPF-3.png)
+  ![Kreiraj proces.](media/FAQ-Customize-BPF-3.png)
 
 2. Koristite dizajner procesa za kreiranje željenih imena za faze. Ako želite istu funkcionalnost kao podrazumevane faze za stavke **Quote**, **Plan** i **Close**, moraćete da je kreirate na osnovu imena za faze prilagođenog toka poslovnog procesa.
 
-   ![Snimak ekrana dizajnera procesa koji se koristi za prilagođavanje BPF](media/FAQ-Customize-BPF-4.png) 
+   ![Snimak ekrana dizajnera procesa koji se koristi za prilagođavanje BPF.](media/FAQ-Customize-BPF-4.png) 
 
 3. U dizajneru procesa, kliknite na stavku **Redosled toka procesa** kako bi prilagođeni tok poslovnog procesa postao primarni tok poslovnog procesa za entitet projekta njegovim premeštanjem iznad toka poslovnog procesa za faze projekta na vrh liste.
 
@@ -95,15 +95,15 @@ Postupite na sledeći način da biste kreirali sopstveni tok poslovnog procesa z
 
 4. Dodajte novo prilagođeno polje u entitet projekta da biste pribeležili prilagođene faze u svom prilagođenom toku poslovnog procesa. Potrebno je da dodate poslovnu logiku (dodatnu komponentu/tok posla) da biste ispravili ovo polje kada se ispravlja faza u prilagođenom toku poslovnog procesa.
 
-   ![Snimak ekrana za prilagođavanje entiteta Projekat](media/FAQ-Customize-BPF-6-720.png)
+   ![Snimak ekrana za prilagođavanje entiteta Projekat.](media/FAQ-Customize-BPF-6-720.png)
 
 5. Izmenite grafikon **Projekat prema fazi** da biste koristili novo prilagođeno polje za faze.
 
-   ![Snimak ekrana korišćenja grafikona Projekat prema fazi](media/FAQ-Customize-BPF-7-720.png)
+   ![Snimak ekrana korišćenja grafikona Projekat prema fazi.](media/FAQ-Customize-BPF-7-720.png)
 
 6. Izmenite sve prikaze za entitet Projekat da biste obuhvatili novo prilagođeno polje za faze.
 
-   ![Snimak ekrana izmene prikaza u entitetu Projekat](media/FAQ-Customize-BPF-8-720.png)
+   ![Snimak ekrana izmene prikaza u entitetu Projekat.](media/FAQ-Customize-BPF-8-720.png)
 
 
 

@@ -2,11 +2,9 @@
 title: Raspored troškova istrage savezne pomoći
 description: Ova tema pruža informacije o Rasporedu troškova istrage savezne pomoći.
 author: velofog
-manager: Ann Beebe
 ms.date: 04/2/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: PSNProjSEFAinquiry
 audience: Application User
@@ -20,12 +18,12 @@ ms.search.industry: public sector
 ms.author: andchoi
 ms.search.validFrom: 2020-4-01
 ms.dyn365.ops.version: 10.0.11
-ms.openlocfilehash: eaf523ab147cbe974fed6e7eab21967404583fe6
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
-ms.translationtype: HT
+ms.openlocfilehash: d0cc3db3fd05fa809f707b15a50380753ac8f9f779f45c13f707321d2b0e0841
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.translationtype: MT
 ms.contentlocale: sr-Latn-RS
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4083564"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7007253"
 ---
 # <a name="schedule-of-expenditures-of-federal-awards-inquiry"></a>Raspored troškova istrage savezne pomoći
 
@@ -62,7 +60,7 @@ Morate da postavite CFDA brojeve koji se mogu dodati u pomoć i uključiti u Ras
 ## <a name="set-up-grants-to-report-for-the-schedule-of-expenditures-of-federal-awards-inquiry"></a>Postavite pomoć radi izveštavanja o Rasporedu troškova istrage savezne pomoći
 
 1. Idite na **Upravljanje projektima i računovodstvo \> Pomoć \> Pomoć**, i izaberite postojeću pomoć.
-2. Na brzoj kartici **Podešavanje**, u polju **Katalog savezne domaće pomoći** dodelite CFDA broj. CFDA broj na pomoći određuje CFDA grupu za izveštavanje.
+2. Na brzoj kartici **Podešavanje**, u polju **Katalog savezne domaće pomoći** dodelite CFDA broj. CFDA broj na pomoći određuje CFDA grupu za izveštavanje.
 3. Na brzoj kartici **Kontakt informacije** unesite informacije o davaocu pomoći prateći ove korake:
 
     1. U polju **Odobri klijenta** unesite klijenta koji je odgovoran za pomoć. Za postojeću pomoć ove informacije su možda već unete.
@@ -79,8 +77,8 @@ Savezna vlada finansirala je infrastrukturni projekat za državu. Savezna vlada 
 
 ## <a name="exclude-grants-from-sefa-reporting-based-on-the-grant-type"></a>Isključite pomoći iz SEFA izveštavanja na osnovu vrste pomoći
 
-1. Idite na **Upravljanje projektima i računovodstvo \> Podešavanje \> Pomoć \> Vrste pomoći**.
-2. Na brzoj kartici **Podrazumevane informacije** izaberite polje za potvrdu **Raspored troškova istrage savezne pomoći**.
+1. Idite na **Upravljanje projektima i računovodstvo \> Podešavanje \> Pomoć \> Vrste pomoći**.
+2. Na brzoj kartici **Podrazumevane informacije** izaberite polje za potvrdu **Izuzmi iz rasporeda troškova savezne pomoći**.
 3. Izaberite **Sačuvaj** da biste sačuvali promene.
 
 ## <a name="run-the-schedule-of-expenditures-of-federal-awards-inquiry"></a>Pokrenite Raspored troškova istrage savezne pomoći
@@ -104,3 +102,6 @@ Raspored troškova istrage savezne pomoći uključuje sledeće kolone:
 - Katalog Savezne domaće pomoći
 - Priznanice
 - Rashodi
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

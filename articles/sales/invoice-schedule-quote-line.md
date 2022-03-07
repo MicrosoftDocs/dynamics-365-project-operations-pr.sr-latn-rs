@@ -2,18 +2,16 @@
 title: Rasporedi fakturisanja na stavkama ponude zasnovane na projektu
 description: Ova tema pruža informacije o kreiranju rasporeda i kontrolnih tačaka fakturisanja za stavke ponude.
 author: rumant
-manager: Annbe
 ms.date: 10/01/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 2b69742915fe79ee59e7fdcf317000cea79c5929
-ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
-ms.translationtype: HT
+ms.openlocfilehash: 0d07596b299d71b229487faf80a09e368059575ea37095d2c82d35561d009c96
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.translationtype: MT
 ms.contentlocale: sr-Latn-RS
-ms.lasthandoff: 10/31/2020
-ms.locfileid: "4180839"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6988623"
 ---
 # <a name="invoice-schedules-on-project-based-quote-lines"></a>Rasporedi fakturisanja na stavkama ponude zasnovane na projektu
 
@@ -68,3 +66,6 @@ Otvorite stavku ponude sa fiksnom cenom gde treba da napravite kontrolnu tačku.
 | Status fakture | Brzo kreiranje | Kada se kreira kontrolna tačka, ovaj status se uvek postavlja na **Nije spremno za fakturisanje**. | Ovo se prenosi na kontrolnu tačku predmeta ugovora o projektu i na fakturu. |
 | Iznos stavke | Brzo kreiranje | Iznos ili vrednost kontrolne tačke koja će se fakturisati klijentu. | Ovo se prenosi na kontrolnu tačku predmeta ugovora o projektu i na fakturu. |
 | Porez | Brzo kreiranje | Iznos poreza koji će se primeniti na kontrolnu tačku. | Ovo se prenosi na kontrolnu tačku predmeta ugovora o projektu i na fakturu. |
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

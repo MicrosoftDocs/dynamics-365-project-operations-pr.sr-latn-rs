@@ -2,8 +2,6 @@
 title: Šta je novo ili promenjeno u Project Service Automation izdanju ispravke 19 u verziji 3
 description: U ovoj temi date su funkcije i ispravke koje su dostupne u Project Service Automation izdanju ispravke 19 u verziji 3.
 author: ruhercul
-manager: kfend
-ms.service: project-operations
 ms.custom: dyn365-projectservice
 ms.date: 05/05/2020
 ms.topic: article
@@ -17,18 +15,18 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 8a73a6acd4ce4c9559cdf4591ede735a613f4d52
-ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
-ms.translationtype: HT
+ms.openlocfilehash: ad61589125e42e8dceb462290f65ddc05e171bd828d26d34ebd548ca285e9aa4
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.translationtype: MT
 ms.contentlocale: sr-Latn-RS
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "5143668"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6993663"
 ---
 # <a name="project-service-automation-update-release-19-v3"></a>Project Service Automation izdanje ispravke 19, u verziji 3
 
 [!include [banner](../includes/psa-now-project-operations.md)]
 
-Zadovoljstvo nam je da objavimo najnovije ažuriranje za aplikaciju Project Service Automation za Dynamics 365. Ovo izdanje uključuje neka važna poboljšanja u kvalitetu, performansama i upotrebljivosti. Ovo izdanje je kompatibilno sa uslugom Dynamics 365 9.x. Da biste ažurirali ovo izdanje, posetite stranicu sa rešenjima centra za administraciju za Dynamics 365 online kako biste instalirali ispravku. Za još informacija pogledajte članak [Instaliranje, ispravka ili uklanjanje željenog rešenja](https://docs.microsoft.com/power-platform/admin/install-remove-preferred-solution).
+Zadovoljstvo nam je da objavimo najnovije ažuriranje za aplikaciju Project Service Automation za Dynamics 365. Ovo izdanje uključuje neka važna poboljšanja u kvalitetu, performansama i upotrebljivosti. Ovo izdanje je kompatibilno sa uslugom Dynamics 365 9.x. Da biste ažurirali ovo izdanje, posetite stranicu sa rešenjima centra za administraciju za Dynamics 365 online kako biste instalirali ispravku. Za još informacija pogledajte članak [Instaliranje, ispravka ili uklanjanje željenog rešenja](/power-platform/admin/install-remove-preferred-solution).
 
 U ovoj temi date su funkcije i ispravke koje su nove ili su promenjene u rešenju PSA u verziji 3, izdanje ispravke 19. Broj izrade ove verzije je V3.10.30.41 i uglavnom je dostupna putem samostalnog ažuriranja u maju 2020. godine.
 
@@ -66,3 +64,6 @@ Popravljeni su sledeći problemi:
 - Klijenti mogu imati smanjene performanse prilikom kreiranja projekta jer **GetBookableResourceIdFromUser** pribavlja sve kolone resursa koji mogu da se rezervišu umesto samo primarni ID.
 - Entitetu **Tip transakcije** nedostaje dodatna komponenta za prethodnu validaciju da spreči korisnike da unose **Jedinice** i **UnitGroups** koje nisu važeće za tipove transakcija.
 - Korak **Ukloni** ne radi za uvoz stavke vremena.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -18,12 +18,12 @@ ms.search.industry: Service industries
 ms.author: andchoi
 ms.dyn365.ops.version: 10
 ms.search.validFrom: 2019-02-28
-ms.openlocfilehash: 69f44aa73b33bf55df324a71b67e0a743208b4e4
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 23cf492ed4723c43f6e14005b4e189cd23de63d8
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: sr-Latn-RS
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4083569"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5289296"
 ---
 # <a name="project-mobile-applications-overview"></a>Pregled projekata aplikacija za mobilne uređaje
 
@@ -49,3 +49,6 @@ Moji vremenski rasporedi (optimizovani za mobilne uređaje) i vremenski raspored
 - [Stavka vremena projekta]( project-time-entry-mobile-workspace.md)
 - [Vremenski rasporedi projekta na mobilnom uređaju](Mobile-timesheets.md)
 - [Primenite prilagođena polja za Microsoft Dynamics 365 Project Timesheet aplikaciju za mobilne uređaje na platformama iOS i Android](custom-fields-mobile.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

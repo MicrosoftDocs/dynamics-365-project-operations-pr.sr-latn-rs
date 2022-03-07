@@ -2,8 +2,6 @@
 title: Kreiranje stavki vremena
 description: Ova tema pruža informacije o tome kako da kreirate stavke vremena.
 author: rumant
-manager: kfend
-ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 05/20/2019
@@ -18,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 520d3a6e6cc3d486d778c66c2ef7fd3ff20cd582
-ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
-ms.translationtype: HT
+ms.openlocfilehash: 0d0e21d0964788564d3db9173c3a0b3378cd0049b4455a23ccc1bccd1c21d9e7
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.translationtype: MT
 ms.contentlocale: sr-Latn-RS
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "5149695"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6990423"
 ---
 # <a name="create-time-entries"></a>Kreiranje stavki vremena
 
@@ -70,3 +68,6 @@ Možete da uvezete podatke iz rezervacija i zadataka za projekte. Kada uvezete p
 ## <a name="group-by-sort-search-and-filter-capabilities"></a>Mogućnosti grupisanja prema, sortiranja, pretrage i filtriranja
 
 Možete grupisati i filtrirati stavke vremena prema dimenzijama koje su navedene u kolonama. U polju **Grupiraj prema** odaberite dimenziju za filtriranje stavki vremena. Takođe možete sortirati zapise stavki vremena rastućim ili opadajućim redosledom koristeći strelicu za sortiranje u nazivima kolona. Pored toga, stavke možete prikazati ili sakriti tako što ćete kliknuti na dugme **Filter** u nazivu kolone, a zatim u polje **Pretraga** uneti tekst koji treba da se koristi za pretragu stavki vremena prema nazivu projekta, projektnom zadatku, stavci vremena ili resursu.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

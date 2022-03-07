@@ -2,18 +2,16 @@
 title: Konfigurisanje integracije za Project Operations po pravnom licu
 description: Ova tema pruža informacije o tome kako da podesite integraciju po pravnom licu u usluzi Project Operations.
 author: sigitac
-manager: Annbe
 ms.date: 10/21/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 5d2bb415362a088e01253fbe54f9f06569b4a921
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
-ms.translationtype: HT
+ms.openlocfilehash: fc3f5be1318d482ece9a6e9e4fadc3cf628ff79577776e679f32cef7c0b2fc8f
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.translationtype: MT
 ms.contentlocale: sr-Latn-RS
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4122900"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6999423"
 ---
 # <a name="configure-project-operations-integration-per-legal-entity"></a>Konfigurisanje integracije za Project Operations po pravnom licu 
 
@@ -51,3 +49,6 @@ Svako pravno lice koje koristi Project Operations u usluzi Dynamics 365 Customer
   - **Podrazumevane vrednosti tipova obračuna**: Project Operations koristi fiksni skup podrazumevanih zadataka tipa naplate koji se moraju mapirati sa svojstvima stavki usluge Finance. Napravite zapis za svaku vrstu obračuna: **Nije navedeno**, **Naplativo**, **Nenaplativo**, **Besplatno** i **Nije dostupno**.
   - **Podrazumevane kategorije projekata**: Izaberite podrazumevane kategorije projekata koje će se koristiti za svaku vrstu transakcije. Ove podrazumevane vrednosti će se koristiti u **Project Operations dnevniku integracije** i u procenama gde nije navedena kategorija transakcije za stvarni projekat.
   - **Prognoze**: Izaberite model prognoze koji će se koristiti za procenu vremena i troškova.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

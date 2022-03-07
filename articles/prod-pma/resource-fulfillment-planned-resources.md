@@ -2,11 +2,9 @@
 title: Ispunjavanje resursa za planirane resurse
 description: Ova tema pruža informacije o planiranim resursima za projekat.
 author: Yowelle
-manager: AnnBe
 ms.date: 09/01/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ProjProjectsListPage
 audience: Application User
@@ -18,12 +16,12 @@ ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 2d849e7bdd020b0a2f5f35a627e28434ea77e5fb
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
-ms.translationtype: HT
+ms.openlocfilehash: eaeae9b0a4563805af61d20d6cc6709f7d697f582d4b1af2b883b292ac482af5
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.translationtype: MT
 ms.contentlocale: sr-Latn-RS
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4083751"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6989523"
 ---
 # <a name="resource-fulfillment-for-planned-resources"></a>Ispunjavanje resursa za planirane resurse
 
@@ -40,3 +38,6 @@ Menadžer projekta može planirati potrebne uloge resursa za projekat. Menadžer
 7. Izaberite radnika, a zatim izaberite **Dodeli**.
 8. Proverite da li je linija za **Programera softvera 1** uklonjena za projekat **Projekat nadogradnje XYZ, faza 2**.
 9. Na kartici **Projektni tim i zakazivanje**, za projekat **Nadogradnja XYZ faza 2** proverite da li je radnik kojeg ste izabrali u prethodnom koraku dodat kao **Programer softvera**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

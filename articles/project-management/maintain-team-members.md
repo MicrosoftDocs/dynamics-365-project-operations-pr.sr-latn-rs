@@ -2,18 +2,16 @@
 title: Održavanje članova tima
 description: Ova tema pruža informacije o rezervisanju imenovanih resursa za timove projekta i njihovom dodeljivanju zadacima.
 author: ruhercul
-manager: AnnBe
 ms.date: 10/05/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.openlocfilehash: abab21ff98481166517be0c74a2c14c36d5e9d1d
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
-ms.translationtype: HT
+ms.openlocfilehash: 851d63510a2e8e7917fa432988a7c4d74597adacbb64ebea646f23f958e3e131
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.translationtype: MT
 ms.contentlocale: sr-Latn-RS
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4131540"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6997083"
 ---
 # <a name="maintain-team-members"></a>Održavanje članova tima
 
@@ -21,7 +19,7 @@ _**Odnosi se na:** Project Operations za resurs/scenarije koji nisu zasnovani na
 
 Možete da dodate imenovani resurs u projektni tim tako što ćete ga direktno rezervisati za tim.
 
-1. U usluzi Dynamics 365 Project Operations, idite na **Projekti** i otvorite projekat za koji rezervišete resurse.
+1. U aplikaciji Dynamics 365 Project Operations idite na stavku **Projekti** i otvorite projekat za koji rezervišete resurse.
 2. Na stranici **Projekat**, na kartici **Tim** izaberite **Novo**. 
 3. U dijalogu **Brzo kreiranje člana projektnog tima** izaberite resurs koji se može rezervisati. Polje **Uloga** će se popuniti podrazumevanom ulogom resursa ako je ona dodeljena. Možete da promenite ulogu. 
 4. Izaberite datum početka i završetka kada vam je resurs potreban i izaberite način dodele kapaciteta resursa. 
@@ -42,3 +40,6 @@ Kada to napravite izbor, resurs će biti dodat u projektni tim i dodeljen zadatk
 Možete koristiti mogućnost produženja rezervacije na kartici **Usaglašenost** ili **tabelu rasporeda** da biste rezervisali kapacitet resursa za projekat.
 
 Kada se član tima rezerviše za projekat, možete da koristite **Održavanje rezervacija** ili **tabelu rasporeda** direktno da biste upravljali rezervacijama.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

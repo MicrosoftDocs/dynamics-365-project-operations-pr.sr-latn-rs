@@ -8,12 +8,12 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: e098d25a3e96adf2a1b8e43a19da3a14f446fba9
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 1aee64bf683b7d8d0bcde284f2d5d484e689c4d2
+ms.sourcegitcommit: 250270409412ba4cad95fbd4c345a80d3d2b3e53
 ms.translationtype: HT
 ms.contentlocale: sr-Latn-RS
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5272360"
+ms.lasthandoff: 11/21/2020
+ms.locfileid: "4596119"
 ---
 # <a name="advances-and-retainer-based-contracts"></a>Avansi i ugovori zasnovani na avansnim uplatama
 
@@ -37,6 +37,3 @@ Odbitak u usluzi Project Operations nije dostupan za upotrebu dok se klijentu ne
 | --- | --- | --- |
 | Dostupan iznos | Iznos koji je dostupan za upotrebu na zapisu odbitka ili avansa. | Dok se avans ili odbitak ne fakturiše, nije dostupan za upotrebu, što znači da će raspoloživi iznos biti nula. |
 | Iskorišćen iznos | Iznos koji se već koristi na odbitku ili avansu. | Avans ili odbitak mogu se delimično sravniti na fakturi sa stvarnim troškovima koji će imati deo koji će biti označen kao već korišćen ili potrošen. Preostali iznos avansa ili odbitka dostupan je za sravnjenje na budućoj fakturi sa stvarnim troškovima. |
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

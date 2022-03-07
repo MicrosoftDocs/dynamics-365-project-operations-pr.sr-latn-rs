@@ -2,18 +2,16 @@
 title: Verzije mape dvostrukog upisivanja za Project Operations
 description: Ova tema pruža spisak mapa dvostrukog upisivanja potrebnih za Dynamics 365 Project Operations.
 author: sigitac
-manager: Annbe
 ms.date: 04/22/2021
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: fa0342985f2c860cd3cb3f686f0dcaa59d8cfd41
-ms.sourcegitcommit: bc51629df94c164325cf2afee387d0e7cda66da7
+ms.openlocfilehash: c8bc389c83eaf2a7720ef3fa969c677eed11e7959199b5f0083df5bf3b43ea43
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: sr-Latn-RS
-ms.lasthandoff: 04/23/2021
-ms.locfileid: "5939037"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7003833"
 ---
 # <a name="project-operations-dual-write-map-versions"></a>Verzije mape dvostrukog upisivanja za Project Operations
 
@@ -34,40 +32,40 @@ Sledeće mape su neophodni preduslovi za Project Operations rešenje. Obavezno p
 
 1. Na listi mapa odaberite mapu Glavna knjiga **(msdyn\__ledgers)** sa svim preduslovima i označite polje za potvrdu **Početna sinhronizacija**. U polju **Master za početnu sinhronizaciju**, izaberite **Finance and Operations aplikacije** i za mapu glavne knjige i za sve preduslovne karte. Izaberite **Pokreni**.
 
-![Sinhronizacija mape glavne knjige](media/DW6.png)
+![Sinhronizacija mape glavne knjige.](media/DW6.png)
 
-1. Sledite iste korake za sve preostale mape tabela navedene u gornjoj tabeli. Ne birajte polje **Početna sinhronizacija** za pokretanje tih mapa.
+2. Sledite iste korake za sve preostale mape tabela navedene u gornjoj tabeli. Ne birajte polje **Početna sinhronizacija** za pokretanje tih mapa.
 
 ## <a name="project-operations-dual-write-maps"></a>Mape dvostrukog upisivanja za Project Operations
 
-Sledeće mape su neophodne za Project Operations rešenje.
+Sledeće mape su neophodne za Project Operations rešenje. Navedene su verzije mapa sa dvostrukim upisivanjem, počev od ispravke usluge Project Operations za maj 2021, verzije 4.10.0.186.
 
 | **Mapa entiteta** | **Najnovija verzija** | **Početna sinhronizacija** |
 | --- | --- | --- |
 | Entitet integracije za odnose transakcija projekta (msdyn\_transactionconnections) | 1.0.0.0 | Nije potrebno za rezervisanje. |
 | Zaglavlja projektnih ugovora (nalozi za prodaju) | 1.0.0.1 | Nije potrebno za rezervisanje. |
 | Predmeti ugovora projekta (salesorderdetails) | 1.0.0.0 | Nije potrebno za rezervisanje. |
-| Izvor finansiranja projekata (msdyn_projectcontractsplitbillingrules) | 1.0.0.1 | Nije potrebno za rezervisanje. |
+| Izvor finansiranja projekata (msdyn_projectcontractsplitbillingrules) | 1.0.0.2 | Nije potrebno za rezervisanje. |
 | Project Operations tabela integracije za procene materijala (msdyn\__estimatelines) | 1.0.0.0 | Nije potrebno za rezervisanje. |
-| Predlozi faktura projekta V2 (fakture) | 1.0.0.2 | Nije potrebno za rezervisanje. |
+| Predlozi faktura projekta V2 (fakture) | 1.0.0.3 | Nije potrebno za rezervisanje. |
 | Project Operations stvarne vrednosti integracije (msdyn_actuals) | 1.0.0.14 | Nije potrebno za rezervisanje. |
 | Project Operations kontrolne tačke predmeta ugovora o integraciji (msdyn_contractlinesscheduleofvalues) | 1.0.0.4 | Nije potrebno za rezervisanje. |
 | Project Operations entitet integracije za procene troškova (msdyn_estimateslines) | 1.0.0.2 | Nije potrebno za rezervisanje. |
 | Project Operations entitet integracije za procene sati (msdyn_resourceassignments) | 1.0.0.5 | Nije potrebno za rezervisanje. |
-| Project Operations entitet izvoza kategorija troškova projekta (msdyn_expensecategories) | 1.0.0.2 | Nije potrebno za rezervisanje. |
+| Project Operations entitet izvoza kategorija troškova projekta (msdyn_expensecategories) | 1.0.0.1 | Nije potrebno za rezervisanje. |
 | Project Operations entitet izvoza troškova integracije projekta (msdyn_expenses) | 1.0.0.2 | Nije potrebno za rezervisanje. |
 | Project Operations entitet izvoza fakture prodavca (msdyn_projectvendorinvoices) | 1.0.0.0 | Nije potrebno za rezervisanje. |
-| Project Operations entitet izvoza reda fakture prodavca (msdyn_projectvendorinvoicelines) | 1.0.0.0 | Nije potrebno za rezervisanje. |
+| Project Operations entitet izvoza reda fakture prodavca (msdyn_projectvendorinvoicelines) | 1.0.0.1 | Nije potrebno za rezervisanje. |
 | Uloge projektnih resursa za sva preduzeća (bookableresourcecategories) | 1.0.0.1 | Zahteva početnu sinhronizaciju za mapu tabele za sinhronizaciju uloga resursa Menadžera projekta i člana tima koji su popunjeni u Dynamics 365 Dataverse okruženju tokom rezervisanja. Dataverse je glavni izvor za početnu sinhronizaciju. |
 | Projektni zadaci (msdyn_projecttasks) | 1.0.0.4 | Nije potrebno za rezervisanje. |
 | Kategorije projektnih transakcija (msdyn_transactioncategories) | 1.0.0.0 | Nije potrebno za rezervisanje. |
-| Projekti V2 (msdyn_projects) | 1.0.0.1 | Nije potrebno za rezervisanje. |
+| Projekti V2 (msdyn_projects) | 1.0.0.2 | Nije potrebno za rezervisanje. |
 
 Dovršite sledeće korake za pokretanje navedenih mapa.
 
 1. Omogućite uloge resursa projekta za **sve kompanije (bookableresourcecategories)** mapu tabele jer ova mapa zahteva početnu sinhronizaciju. U **Master za početnu sinhronizaciju**, izaberite **Common Data Service**. 
 
- ![Sinhronizacija mape tabele uloga resursa](media/6ResourceInitialSync.jpg)
+ ![Sinhronizacija mape tabele uloga resursa.](media/6ResourceInitialSync.jpg)
 
  Sačekajte dok status mape ne postane **Aktivno** pre nego što pređete na sledeći korak.
 

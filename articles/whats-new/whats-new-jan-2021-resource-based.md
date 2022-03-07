@@ -9,12 +9,12 @@ ms.prod: ''
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 24a6f3b49b9c67b7c2d97461ab0f23a9a704dbc7
-ms.sourcegitcommit: ef7d498bf80b0bcc1245dc42f30c410c31f891bb
+ms.openlocfilehash: ece05f1f551b18a5b30610af57d68baa120948fb
+ms.sourcegitcommit: 3d78338773929121d17ec3386f6cb67bfb2272cc
 ms.translationtype: HT
 ms.contentlocale: sr-Latn-RS
-ms.lasthandoff: 01/13/2021
-ms.locfileid: "4958947"
+ms.lasthandoff: 04/27/2021
+ms.locfileid: "5951001"
 ---
 # <a name="whats-new-january-2021---project-operations-for-resourcenon-stocked-based-scenarios"></a>Šta je novo u januaru 2021. – Project Operations za scenarije zasnovane na resursima/bez zaliha
 
@@ -88,4 +88,7 @@ Ova tema se odnosi na sledeće komponente i verzije usluge Dynamics 365 Project 
 
 ## <a name="regulatory-updates"></a>Regulatorne ispravke
 
-Za informacije o regulatornim ispravkama za Finance and Operations aplikacije, pogledajte članak [Regulatorne ispravke](https://docs.microsoft.com/dynamics365/finance/localizations/regulatory-updates). Takođe se možete prijaviti na LCS i pregledati planirane regulatorne ispravke pomoću alatke za pretragu problema. Pretraga problema vam omogućava pretragu po zemlji, tipu funkcije i izdanju.
+Za informacije o regulatornim ispravkama za Finance and Operations aplikacije, pogledajte članak [Regulatorne ispravke](/dynamics365/finance/localizations/regulatory-updates). Takođe se možete prijaviti na LCS i pregledati planirane regulatorne ispravke pomoću alatke za pretragu problema. Pretraga problema vam omogućava pretragu po zemlji, tipu funkcije i izdanju.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

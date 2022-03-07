@@ -2,18 +2,16 @@
 title: Metodi cene za dovršetak
 description: Ova tema pruža informacije o metodama koje se koriste za izračunavanje cene za dovršetak projekta.
 author: sigitac
-manager: Annbe
 ms.date: 11/16/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 790b5c98182acdc0a37e3741a40baf7152f0bf66
-ms.sourcegitcommit: 2d399bc9d07807626f0d6b2d0cf304240c47591c
-ms.translationtype: HT
+ms.openlocfilehash: fe42ea0e1a5c562ec648fbf2a2924648af80381b9db8ffe0c209cb5247bb2ba2
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.translationtype: MT
 ms.contentlocale: sr-Latn-RS
-ms.lasthandoff: 11/17/2020
-ms.locfileid: "4531538"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6997983"
 ---
 # <a name="cost-to-complete-methods"></a>Metodi cene za dovršetak
 
@@ -30,3 +28,6 @@ Kada kreirate procenu za projekat, na stranici **Kreiranje procene**, u polju **
 | Kao i prethodna procena         | Isti metodi procene koji su korišćeni u prethodnom periodu se koriste ovde. Ova metoda zahteva model predviđanja ako je prethodni period zahtevao model predviđanja.                                                                                                                                                                                                                                                                                                                           |
 | Postavljanje troška do završetka na nulu | Obično se koristi pre nego što se projekat procene eliminiše, ovaj metod podudara ukupne procene sa objavljenim stvarnim transakcijama i briše kolonu **Cena za dovršetak**. Po završetku, rezultat je uvek 100 odsto. Za svaku liniju troškova koju kreirate, polje za potvrdu **Predviđanje** se briše i ukupna procena se kopira iz prethodne procene cene. Stvarna potrošnja za procenjeni period oduzima se od troškova za završetak projekta.              |
 | Iz predloška troškova           | Metoda cene za dovršetak koja je konfigurisana u predlošku cena koji je povezan sa izabranim projektom procene.                                                                                                                                                                                                                                                                                                                                                                          |
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -2,24 +2,22 @@
 title: Uvezite procenu u predmet ugovora zasnovan na projektu
 description: Ova tema pruža informacije o načinu uvoza procena iz projekta u predmetu ugovora.
 author: rumant
-manager: Annbe
 ms.date: 10/19/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: f2b9cbb4cce1691f262c85d95849e01f1a812d51
-ms.sourcegitcommit: 3a0c18823a7ad23df5aa3de272779313abe56c82
-ms.translationtype: HT
+ms.openlocfilehash: ea513ca8126eadbf563f3c6cb3e966f81703ae805d12881f865cdc1dd77e191d
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.translationtype: MT
 ms.contentlocale: sr-Latn-RS
-ms.lasthandoff: 10/20/2020
-ms.locfileid: "4083815"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6990108"
 ---
 # <a name="import-an-estimate-to-a-project-based-contract-line"></a>Uvezite procenu u predmet ugovora zasnovan na projektu
 
 _**Odnosi se na:** Project Operations za scenarije zasnovane na resursima / bez zaliha_
 
-U usluzi Dynamics 365 Project Operations možete da uvezete procene iz projekta u predmet ugovora zasnovan na projektu.
+U usluzi Dynamics 365 Project Operations možete da uvozite procene iz projekta u predmet ugovora zasnovan na projektu.
 
 1. Proverite da li je popunjeno polje **Projekat** na predmetu ugovora zasnovanom na projektu.
 2. Na kartici **Detalji predmeta ugovora**, na podformi izaberite **Uvoz iz procene projekta**. Otvoriće se stranica dijaloga sa opcijama rezimiranja. Dostupne opcije rezimiranja su **Klasa transakcije**, **Kategorija**, **Uloga** i **Projektni zadatak**. Na osnovu vašeg izbora rezimiranja, kopira se procena iz projekta za sve klase transakcija uključene u ovaj predmet ugovora. 
@@ -59,3 +57,6 @@ Kada korisnik izabere da rezimira po **klasi transakcije**, **kategoriji** i **z
 | Zadatak A | Avionska karta | 1.10.2020. | 4 | 400 | 1600 |
 | Zadatak B | Hotel | 1.10.2020. | 4 | 200 | 800 |
 | Zadatak C | Hotel | 1.11.2020. | 2 | 200 | 400 |
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -2,8 +2,6 @@
 title: Ključni koncepti
 description: Ova tema pruža veze ka informacijama o ključnim konceptima za upravljanje resursima u aplikaciji Project Service Automation.
 author: ruhercul
-manager: kfend
-ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 03/28/2019
@@ -18,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 75b2d2c520cc48eb59c266289ca2bdc1288f2920
-ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
-ms.translationtype: HT
+ms.openlocfilehash: 8e56523a9a2fbe8bc07e6d46062f4e1c20e6d2fa2244b32ff53e96d898b0086c
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.translationtype: MT
 ms.contentlocale: sr-Latn-RS
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "5147760"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6995103"
 ---
 # <a name="key-concepts"></a>Ključni koncepti
 
@@ -48,3 +46,6 @@ Sledeća tabela definiše ključne koncepte koji se koriste u aplikaciji Dynamic
 | Skiciranje                    | Zadatak, zahtev ili sati za dodelu, onako kako su raščlanjeni prema dnevnoj distribuciji. Na primer, petodnevni zadatak od 40 sati može se skicirati u osam sati dnevno tokom pet dana. |
 | Prikaz usaglašenosti        | Prikaz koji prikazuje rezervacije i dodele za svakog člana projektnog tima. Ovaj prikaz omogućava menadžeru projekta da traži bilo kakvu neusklađenost između rezervacija i dodela i da preduzme korektivne mere ako dođe do bilo kakve neusklađenosti. |
 | Radni časovi                 | Entitet koji se koristi za identifikaciju kapaciteta resursa, radnog vremena i neradnih sati. Ovaj entitet se takođe naziva i kalendar resursa. |
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

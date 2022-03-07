@@ -2,6 +2,8 @@
 title: Kreiranje rezervacije u projektu iz tabele rasporeda
 description: Ova tema pruža informacije o tome kako da kreirate rezervaciju u projektu na tabeli rasporeda.
 author: ruhercul
+manager: kfend
+ms.service: dynamics-365-customerservice
 ms.custom:
 - dyn365-projectservice
 ms.date: 9/26/2019
@@ -16,16 +18,14 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: d33786a5d0a2485a06d174eb7afcbaaa2f337cf6
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: 57fbc71681015fca73cdda4bc7d392f6be4289f3
+ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
 ms.translationtype: HT
 ms.contentlocale: sr-Latn-RS
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "5992983"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4083597"
 ---
 # <a name="create-a-project-booking-from-the-schedule-board"></a>Kreiranje rezervacije u projektu iz tabele rasporeda
-
-[!include [banner](../includes/psa-now-project-operations.md)]
 
 Možete da rezervišete resurs za projekat direktno na kartici **Tim** za projekat ili da generišete potrebu za resursom iz dodele generičkog člana tima, a da zatim ispunite generisanu potrebu članom projektnog tima.
 
@@ -89,6 +89,3 @@ Obavite sledeće korake da biste obavili rezervaciju iz nove potrebe za resursom
 
 4. Sada kada je resurs rezervisan, morate da mu ručno dodelite zadatke.
 
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

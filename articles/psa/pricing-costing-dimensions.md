@@ -2,12 +2,11 @@
 title: Matična stranica za dimenzije određivanja cena i obračuna troškova
 description: Ova tema obezbeđuje pregled dimenzija za određivanje cena.
 author: rumant
-manager: kfend
 ms.custom:
 - dyn365-projectservice
+- intro-internal
 ms.date: 10/01/2020
 ms.topic: article
-ms.service: business-applications
 ms.author: rumant
 audience: Admin
 search.audienceType:
@@ -17,12 +16,12 @@ search.audienceType:
 search.app:
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 65516784c6787fa5f3c08297f4d161d52c2ea4a9
-ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
+ms.openlocfilehash: 5c8c28839f5e7b3259afbea4ab400d0c4fca95fd
+ms.sourcegitcommit: 0fafe022731f0e1e8693382ff906e3f8541d34ca
 ms.translationtype: HT
 ms.contentlocale: sr-Latn-RS
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "5151315"
+ms.lasthandoff: 07/07/2021
+ms.locfileid: "6368898"
 ---
 # <a name="pricing-and-costing-dimensions-home-page"></a>Matična stranica za dimenzije određivanja cena i obračuna troškova
 
@@ -67,13 +66,16 @@ Sledeći primer prikazuje kursne stope koje su podešene na osnovu uloge i organ
 
 | Uloga        | Organizaciona jedinica    |Jedinica      |Cena      |Valuta  |
 | ------------|-------------|----------|----------:|----------|
-| Programer   | Contoso US  |Hour | 200|USD     |
-| Programer   | Contoso India |Hour|   112|USD     |
+| Programer   | Contoso US  |Sat | 200|USD rešenje     |
+| Programer   | Contoso India |Sat|   112|USD rešenje     |
 
 
 **Primeri stopa troškova**
 
 | Grupa ličnih dohodaka     | Organizaciona jedinica    |Jedinica      |Cena      |Valuta  |
 | ----------------|-------------|----------|----------:|----------|
-| Moje preduzeće_Prva grupa ličnih dohodaka | Contoso US  |Hour | 145|USD     |
-| Moje preduzeće_druga grupa ličnih dohodaka | Contoso India |Hour|   67|USD     |
+| Moje preduzeće_Prva grupa ličnih dohodaka | Contoso US  |Sat | 145|USD rešenje     |
+| Moje preduzeće_druga grupa ličnih dohodaka | Contoso India |Sat|   67|USD rešenje     |
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

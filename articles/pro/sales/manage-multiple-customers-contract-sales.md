@@ -2,18 +2,16 @@
 title: Upravljanje sa više klijenata na ugovorima za projekat – jednostavno
 description: Ova tema pruža informacije o upravljanju većim brojem klijenata na ugovorima zasnovanim na projektu.
 author: rumant
-manager: Annbe
 ms.date: 10/27/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: b248dabdbd5239b140da7c99d3f38609facfe75e
-ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
-ms.translationtype: HT
+ms.openlocfilehash: b7010ef75cd71ecdf832abb889db4703baa18fce0adadf3893621c42002fcab9
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.translationtype: MT
 ms.contentlocale: sr-Latn-RS
-ms.lasthandoff: 10/31/2020
-ms.locfileid: "4181334"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7001763"
 ---
 # <a name="manage-multiple-customers-on-project-contracts---lite"></a>Upravljanje sa više klijenata na ugovorima za projekat – jednostavno
 
@@ -52,3 +50,6 @@ Klijent za ugovor može biti kreiran, ažuriran ili izbrisan iz kartice **Klijen
 Procenti podele naplate se mogu uređivati pomoću iskustva direktnog uređivanja u mreži. Kada procenti podele naplate ne budu iznosili 100 procenata, dobićete grešku. Kada uredite procente podele naplate, osvežite stranicu da biste odbacili grešku.
 
 Takođe možete izabrati **Ravnomerno raspoređivanje** na podformi **Klijenti za ugovor** da biste ravnomerno rasporedili podelu naplate na sve klijente za ugovor. Ako postoji faktor zaokruživanja, on će se dodati klijentu za zaokruživanje. Jedan od klijenata za ugovor je uvek označen kao klijent za **zaokruživanje**, što znači da je u zapisu klijenta za ugovor zastavica zaokruživanja postavljena na **Da**. To je obično primarni klijent za ugovor, ali to se može promeniti.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

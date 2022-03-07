@@ -3,7 +3,7 @@ title: Otkazivanje prethodno odobrenih stavki vremena i troškova
 description: Ova tema pruža informacije o tome kako se otkazuje odobreno vreme projekta i transakcija troškova.
 author: rumant
 manager: kfend
-ms.service: project-operations
+ms.service: dynamics-365-customerservice
 ms.custom:
 - dyn365-projectservice
 ms.date: 03/07/2019
@@ -18,16 +18,14 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: ea42c6755b4b48d986e385879607d659c57f483d
-ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
+ms.openlocfilehash: 0ea816040570cc8f6ddf3c5ec8a74ac092fc68b2
+ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
 ms.translationtype: HT
 ms.contentlocale: sr-Latn-RS
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "5150595"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4083755"
 ---
 # <a name="cancel-previously-approved-time-or-expense-entries"></a>Otkazivanje prethodno odobrenih stavki vremena ili troškova
-
-[!include [banner](../includes/psa-now-project-operations.md)]
 
 [!INCLUDE[cc-applies-to-psa-app-3.x](../includes/cc-applies-to-psa-app-3x.md)]
 

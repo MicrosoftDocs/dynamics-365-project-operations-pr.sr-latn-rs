@@ -2,18 +2,16 @@
 title: Podrazumevani cenovnici
 description: Ova tema pruža informacije o podrazumevanim prodajnim i cenovnicima troškova u usluzi Project Operations.
 author: rumant
-manager: Annbe
 ms.date: 10/13/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: fd29a3fc9c873d46dd66a05ad100c7515177d6cd
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
-ms.translationtype: HT
+ms.openlocfilehash: a5e38e2f0b553b789956c6d73d481ab0ed2ce3a77815e7cf8c058a0b4666c558
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.translationtype: MT
 ms.contentlocale: sr-Latn-RS
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4130955"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6989883"
 ---
 # <a name="default-price-lists"></a>Podrazumevani cenovnici
 
@@ -21,7 +19,7 @@ _**Odnosi se na:** Project Operations za resurs/scenarije koji nisu zasnovani na
 
 ## <a name="sales-price-lists"></a>Prodajni cenovnici
 
-Svaka ponuda za projekat i ugovor u programu Dynamics 365 Project Operations sadrži podrazumevani cenovnik prodaje. 
+Svaka projektna ponuda i ugovor u usluzi Dynamics 365 Project Operations sadrži podrazumevani prodajni cenovnik. 
 
 ### <a name="price-list-default-on-project-quotes"></a>Podrazumevana vrednost cenovnika prema ponudama za projekat
 Sistem dovršava sledeći postupak da bi utvrdio koji će se cenovnik podrazumevati za ponudu za projekat:
@@ -57,3 +55,6 @@ Cenovnici troškova ne podrazumevaju nijedan entitet u usluzi Project Operations
 5. Zatim sistem pregleda datum stupanja na snagu cenovnika koji se podudaraju sa datumom dolazne procene ili stvarne linije. 
 6. Ako postoji više cenovnika koji važe za datum na dolaznoj proceni ili stvarnoj vrednosti, bira se najnoviji cenovnik.
 7. Ako uz parametre projekta nisu priloženi cenovnici troškova koji se podudaraju sa valutom i datumom stupanja na snagu, sistem podrazumevano vraća stopu troškova na nulu (0) na dolaznoj proceni ili stvarnoj liniji.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

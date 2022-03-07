@@ -2,8 +2,6 @@
 title: Najčešća pitanja o upravljanju resursima
 description: Ova tema nudi odgovore na najčešća pitanja o upravljanju resursima.
 author: ruhercul
-manager: kfend
-ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 03/28/2019
@@ -18,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: d335a12a9b478bff63b6c93809c89dac9718a4be
-ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
-ms.translationtype: HT
+ms.openlocfilehash: f80e65e7ff423c362fd1a86676a84ab67afabc88115c99b582c5eefa6c725a46
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.translationtype: MT
 ms.contentlocale: sr-Latn-RS
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "5144385"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7002393"
 ---
 # <a name="resource-management-faq"></a>Najčešća pitanja o upravljanju resursima
 
@@ -54,3 +52,6 @@ Nakon rezervisanja resursa, izaberite **Održavanje rezervacija** da unesete pro
 ## <a name="what-is-the-difference-between-an-assignment-and-a-booking"></a>Koja je razlika između dodele i rezervacije?
 
 Dodele predstavljaju dodele resursa projektnim zadacima u rasporedu projekata. Resursi mogu biti stvarni ili generički resursi. Rezervacije predstavljaju fiksnu ili uslovnu raspodelu resursa za projekat. Fiksne rezervacije troše kapacitet resursa. Idealno bi bilo da se za stvarne resurse slažu rezervacije i dodele, jer se ne razlikuju. Međutim, PSA ne sprovodi ovaj dogovor. Prikaz Usaglašenost pokazuje menadžeru projekata mesta gde se rezervacije i dodele resursa ne slažu.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

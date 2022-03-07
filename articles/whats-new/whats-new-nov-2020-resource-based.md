@@ -2,18 +2,16 @@
 title: Šta je novo novembra 2020. – Project Operations za scenarije zasnovane na resursima/bez zaliha
 description: Ova tema pruža informacije o ispravkama kvaliteta dostupnim u izdanju usluge Project Operations za novembar 2020. za scenarije zasnovane na resursima/bez zaliha.
 author: sigitac
-manager: Annbe
 ms.date: 10/30/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: c7ec9360401bf214ae867769b0e48e545a6bad48
-ms.sourcegitcommit: 64d0de964a9b66c015ffcf1db62cbb6216cb3187
-ms.translationtype: HT
+ms.openlocfilehash: 9eda9d75f5a4d71e6e4b8bd22dce973270639db3f927ac6a76be5b3c4303fc31
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.translationtype: MT
 ms.contentlocale: sr-Latn-RS
-ms.lasthandoff: 11/03/2020
-ms.locfileid: "4367283"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7007973"
 ---
 # <a name="whats-new-november-2020---project-operations-for-resourcenon-stocked-based-scenarios"></a>Šta je novo novembra 2020. – Project Operations za scenarije zasnovane na resursima/bez zaliha
 
@@ -30,7 +28,7 @@ Ova tema se odnosi na sledeće komponente i verzije usluge Dynamics 365 Project 
 
 | Oblast funkcija                 | Referentni broj | Ispravka kvaliteta                                                                                                                                                                    |
 |------------------------------|------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-|   Upravljanje mogućnostima za poslovanje       | 2036993          | Predmeti ugovora za stavke procene i dodelu resursa ažuriraju se na dobitnim ponudama kada stavka ponude ima tip **Svi zadaci**.                                                 |
+| Upravljanje mogućnostima za poslovanje       | 2036993          | Predmeti ugovora za stavke procene i dodelu resursa ažuriraju se na dobitnim ponudama kada stavka ponude ima tip **Svi zadaci**.                                                 |
 | Naplata i određivanje cena          | 2070392          | Predmeti ugovora za projekat na fakturi se povećavaju svaki put kada izaberete **Osveži transakcije fakture**.                                                                         |
 | Planiranje projekta             | 2043336          | Nije moguće izbrisati zapis člana projektnog tima.                                                                                                                                  |
 | Planiranje projekta             | 2046013          | Nedosledno ponašanje za označavanje kolona Procene tokom učitavanja u odnosu na promenu tipa vremenske faze.                                                                                   |
@@ -67,4 +65,7 @@ Ova tema se odnosi na sledeće komponente i verzije usluge Dynamics 365 Project 
 | Projektno računovodstvo  | [510041](https://fix.lcs.dynamics.com/Issue/Details/?bugId=510041)           | Omogućavanje funkcije Više linija ugovora nije moguće bez CDS integracije.                                                                                   |
 
 ### <a name="regulatory-updates"></a>Regulatorne ispravke
-Za informacije o regulatornim ispravkama za Finance and Operations aplikacije, pogledajte članak [Regulatorne ispravke](https://docs.microsoft.com/dynamics365/finance/localizations/regulatory-updates). Takođe se možete prijaviti na LCS i pregledati planirane regulatorne ispravke pomoću alatke za pretragu problema. Pretraga problema vam omogućava pretragu po zemlji, tipu funkcije i izdanju.
+Za informacije o regulatornim ispravkama za Finance and Operations aplikacije, pogledajte članak [Regulatorne ispravke](/dynamics365/finance/localizations/regulatory-updates). Takođe se možete prijaviti na LCS i pregledati planirane regulatorne ispravke pomoću alatke za pretragu problema. Pretraga problema vam omogućava pretragu po zemlji, tipu funkcije i izdanju.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

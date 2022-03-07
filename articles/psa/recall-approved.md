@@ -2,8 +2,6 @@
 title: Opozivanje odobrenih stavki vremena ili troškova
 description: Ova tema pruža informacije o tome kako se opozivaju prethodno odobreno vreme ili transakcija troškova.
 author: rumant
-manager: kfend
-ms.service: project-operations
 ms.custom: ''
 ms.author: rumant
 ms.date: 03/08/2019
@@ -17,12 +15,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: f9bb25ac9ef7b400063c5f958311e475de6f6506
-ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
-ms.translationtype: HT
+ms.openlocfilehash: e90b84bbfcd007e97e96b294144f058ac73746e3d358437692f0a8e6e92b8de3
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.translationtype: MT
 ms.contentlocale: sr-Latn-RS
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "5147867"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6998343"
 ---
 # <a name="recall-approved-time-or-expense-entries"></a>Opozivanje odobrenih stavki vremena ili troškova
 
@@ -100,10 +98,13 @@ Ako se zahtev za opoziv odbaci, nema finansijskog uticaja na projekat.
 
 Sledeća ilustracija prikazuje promene koje se dešavaju za odobrene stavke vremena kada su opozvane.
 
-![Promene statusa stavke vremena](media/TimeEntryStateTransitions.png)
+![Promene statusa stavke vremena.](media/TimeEntryStateTransitions.png)
 
 ## <a name="changes-to-expense-entry-records"></a>Promene zapisa stavke troškova
 
 Sledeća ilustracija prikazuje promene koje se dešavaju za odobrene stavke troškova kada su opozvane.
 
-![Promene statusa stavke troškova](media/ExpenseEntryStateTransitions.png)
+![Promene statusa stavke troškova.](media/ExpenseEntryStateTransitions.png)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

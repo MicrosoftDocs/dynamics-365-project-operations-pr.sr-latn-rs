@@ -2,8 +2,6 @@
 title: Poslovne transakcije
 description: Ova tema pruža informacije o poslovnim transakcijama.
 author: rumant
-manager: kfend
-ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 03/01/2019
@@ -18,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 3a8506effc453280177d74f94dcf9310e310c098
-ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
+ms.openlocfilehash: 33c27acc6747c94d76892f41031adc46150da0e0
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: sr-Latn-RS
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "5149920"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "6011568"
 ---
 # <a name="business-transactions"></a>Poslovne transakcije
 
@@ -149,3 +147,6 @@ Sledeća tabela prikazuje zapise u entitetu Veza transakcije za prethodni tok po
 | Korekcija radne verzije fakture       | GUID transakcije stavke fakture | Zamena          | msdyn_invoicelinetransaction | GUID naplaćene prodaje            | Originalno           | msdyn_actual       |
 | Potvrđivanje korekcije fakture     | GUID storniranja naplaćene prodaje    | Storniranje          | msdyn_actual                 | GUID naplaćene prodaje            | Originalno           | msdyn_actual       |
 | GUID nove nenaplaćene stvarne vrednosti prodaje | Zamena                     | msdyn_actual       | GUID naplaćene prodaje            | Originalno                     | msdyn_actual       |                    |
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

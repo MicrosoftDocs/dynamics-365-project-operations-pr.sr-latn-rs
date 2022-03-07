@@ -8,18 +8,18 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 6e9ef33cc9c79f828e85733f4f5a199bce842700
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: eb09140eae5383b882db73195d0360a836ece791
+ms.sourcegitcommit: 625878bf48ea530f3381843be0e778cebbbf1922
 ms.translationtype: HT
 ms.contentlocale: sr-Latn-RS
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5272675"
+ms.lasthandoff: 10/30/2020
+ms.locfileid: "4177888"
 ---
 # <a name="product-based-contract-lines-overview---lite"></a>Pregled predmeta ugovora zasnovanih na proizvodu – jednostavno
 
 _**Odnosi se na:** Jednostavna primena – od pogodbe do profakture_
 
-Možete kreirati predmete ugovora zasnovane na proizvodu u aplikaciji Dynamics 365 Project Operations. To mogu da budu ručno kreirane stavke ili stavke iz kataloga proizvoda.
+U usluzi Dynamics 365 Project Operations možete kreirati predmete ugovora zasnovane na proizvodu. To mogu da budu ručno kreirane stavke ili stavke iz kataloga proizvoda.
 
 ## <a name="product-catalog"></a>Katalog proizvoda
 
@@ -46,6 +46,3 @@ Ako se predmet ugovora temelji na katalogu proizvoda, možete izmeniti prodajnu 
 Ako polje **Cene** podesite na **Izmena načina određivanja cena**, podrazumevana cena se ne podešava. Unesite cenu za proizvod u predmetu ugovora. Ako polje postavite na **Koristi podrazumevane vrednosti**, koristi se podrazumevana prodajna cena i polje se ne može uređivati.
 
 Nakon što instalirate Project Operations, podrazumevane prodajne cene se unose u stavke zasnovane na proizvodima u okviru ugovora. Polje **Određivanje cena** se podešava na **Izmeni način određivanja cena** tako da možete da uredite podrazumevanu cenu u predmetima ugovora. Ovo je izmena ponašanja stavki zasnovanih na proizvodima specifična za Project Operations u usluzi Dynamics 365 Sales.
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

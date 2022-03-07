@@ -2,18 +2,16 @@
 title: Fakturišite avansnu uplatu ili avans
 description: Ova tema pruža informacije o tome kako da fakturišete odbitak ili avans u usluzi Project Operations.
 author: rumant
-manager: Annbe
 ms.date: 10/20/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 12bf3822227badcf8c83d84d6aef6c0fdc7a972a
-ms.sourcegitcommit: 250270409412ba4cad95fbd4c345a80d3d2b3e53
-ms.translationtype: HT
+ms.openlocfilehash: 25c0c979056d89d44a1bd67dbfdcb180d897de65eaf3374cec0a2dc73c4e3568
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.translationtype: MT
 ms.contentlocale: sr-Latn-RS
-ms.lasthandoff: 11/21/2020
-ms.locfileid: "4596209"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6997488"
 ---
 # <a name="invoice-a-retainer-or-an-advance"></a>Fakturisanje avansne uplate ili avansa
 
@@ -51,3 +49,6 @@ To se može videti u mreži **Primenjeni odbici i avansi** na stranici **Faktura
 | Iskorišćen iznos | Mreža **Primenjeni odbici i avansi** na stranici **Faktura projekta**  | Ovo polje samo za čitanje daje izračunatu vrednost koja sumira koliki je iznos odbitka ili avansa iskorišćen. | Ovo polje se može prikazati klijentu na odštampanoj fakturi kako bi se naznačio iznos iz ovog odbitka ili avansa koji je već iskorišćen. |
 | Prošireni iznos | Mreža **Primenjeni odbici i avansi** na stranici **Faktura projekta**  | Ovo polje koje se može urediti daje iznos odbitka ili avansa koji se koristi na ovoj fakturi projekta. Ovaj iznos ne može biti veći od onoga što je dostupno na avansu. Sistem to automatski izračunava kao razliku između polja **Iznos** i **Iskorišćeni iznos** na mreži. Možete smanjiti ovu količinu da biste koristili manje od onoga što je dostupno, ali ne možete povećati količinu da biste koristili više od onoga što je dostupno. | Ovo polje se može prikazati klijentu na odštampanoj fakturi kako bi se naznačio iznos iz ovog odbitka ili avansa koji se koristi na fakturi. |
 | Iznos bilansa avansa. | Mreža **Primenjeni odbici i avansi** na stranici **Faktura projekta**  | Ovo polje samo za čitanje daje vrednost ostatka odbitka ili avansa nakon potvrde fakture. | Ovo polje se može prikazati klijentu na odštampanoj fakturi kako bi se naznačio iznos koji će ostati iz ovog odbitka ili avansa kada se faktura potvrdi i plati. |
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

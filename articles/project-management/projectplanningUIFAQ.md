@@ -2,34 +2,38 @@
 title: Rešavanje problema sa radom u mreži podataka
 description: Ova tema pruža informacije o rešavanju problema potrebne za rad u mreži zadataka.
 author: ruhercul
-manager: tfehr
-ms.date: 01/19/2021
+ms.date: 09/22/2021
 ms.topic: article
 ms.product: ''
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.openlocfilehash: 89bbad62c2a0a5693a57cf5c9a812ab644486469
-ms.sourcegitcommit: c9edb4fc3042d97cb1245be627841e0a984dbdea
-ms.translationtype: HT
+ms.openlocfilehash: 67136229d84a09886fffe9677b10f671aea3c393
+ms.sourcegitcommit: 74a7e1c9c338fb8a4b0ad57c5560a88b6e02d0b2
+ms.translationtype: MT
 ms.contentlocale: sr-Latn-RS
-ms.lasthandoff: 01/19/2021
-ms.locfileid: "5031554"
+ms.lasthandoff: 09/23/2021
+ms.locfileid: "7547216"
 ---
 # <a name="troubleshoot-working-in-the-task-grid"></a>Rešavanje problema sa radom u mreži podataka 
 
-_**Odnosi se na:** Project Operations za resurs/scenarije koji nisu zasnovani na zalihama, laganu primenu – od pogodbe do profakture_
 
-Ova tema opisuje kako da rešite probleme na koje biste mogli naići tokom rada sa upravljanjem troškovima.
+_**Odnosi se na:** Project Operations za resurs/scenarije koji nisu zasnovani na zalihama, jednostavnu implementaciju – pogodbu o predračunima, Project for the Web_
 
-## <a name="enable-cookies"></a>Omogućavanje kolačića
+Mreža zadataka koju koristi Dynamics 365 Project Operations je hostovani iframe u okviru usluge Microsoft Dataverse. Kao rezultat ove upotrebe, potrebno je ispuniti posebne zahteve kako bi se osiguralo da potvrda identiteta i autorizacija pravilno funkcionišu. Ova tema opisuje uobičajena pitanja koja mogu da utiču na sposobnost prikazivanja mreže ili upravljanje zadacima u strukturnoj analizi posla (SAP).
 
-Project Operations zahteva da nezavisni kolačići budu omogućeni kako bi se prikazivala strukturna analiza posla. Kada nezavisni kolačići nisu omogućeni, umesto da vidite zadatke, videćete praznu stranicu kada odaberete karticu **Zadaci** na stranici **Projekat**.
+Uobičajeni problemi obuhvataju:
 
-![Prazna kartica kada nezavisni kolačići nisu omogućeni](media/blankschedule.png)
+- Kartica **Zadatak** na mreži zadataka je prazna.
+- Prilikom otvaranja projekta, projekat se ne učitava i korisnički interfejs (UI) je zaglavljen na okretnom dugmetu.
+- Administracija privilegija za **Project for the Web**.
+- Promene se ne čuvaju kada kreirate, ažurirate ili izbrišete zadatak.
 
+## <a name="issue-the-task-tab-is-empty"></a>Problem: Kartica „Zadatak“ je prazna
 
-### <a name="workaround"></a>Zaobilazno rešenje
+### <a name="mitigation-1-enable-cookies"></a>Ublažavanje 1: Omogućite kolačiće
+
+Usluga Project Operations zahteva da kolačići trećih strana budu omogućeni za prikazivanje strukturne analize posla. Kada nezavisni kolačići nisu omogućeni, umesto da vidite zadatke, videćete praznu stranicu kada odaberete karticu **Zadaci** na stranici **Projekat**.
+
 Za pregledače Microsoft Edge ili Google Chrome, sledeći postupci opisuju kako da ažurirate podešavanja pregledača kako biste omogućili nezavisne kolačiće.
 
 #### <a name="microsoft-edge"></a>Microsoft Edge
@@ -38,6 +42,7 @@ Za pregledače Microsoft Edge ili Google Chrome, sledeći postupci opisuju kako 
 2. U gornjem desnom uglu izaberite **tri tačke** (...), a zatim izaberite **Podešavanja**.
 3. U delu **Kolačići i dozvole za lokacije** izaberite **Kolačići i podaci o lokacijama**.
 4. Isključite **Blokiraj kolačiće treće strane**.
+5. Osvežite pregledač. 
 
 #### <a name="google-chrome"></a>Google Chrome
 
@@ -45,64 +50,101 @@ Za pregledače Microsoft Edge ili Google Chrome, sledeći postupci opisuju kako 
 2. U gornjem desnom uglu izaberite tri vertikalne tačke, a zatim izaberite **Podešavanja**.
 3. U delu **Privatnost i bezbednost** izaberite **Kolačići i drugi podaci o lokacijama**.
 4. Izaberite **Dozvoli sve kolačiće**.
+5. Osvežite pregledač. 
 
-> [!IMPORTANT]
+> [!NOTE]
 > Ako blokirate nezavisne kolačiće, svi kolačići i podaci o lokacijama sa drugih lokacija biće blokirani, čak i ako je lokacija dozvoljena na listi izuzetaka.
 
-## <a name="pex-endpoint"></a>PEX krajnja tačka
+### <a name="mitigation-2-validate-the-pex-endpoint-has-been-correctly-configured"></a>Ublažavanje 2: Potvrdite da je krajnja tačka PEX ispravno konfigurisana
 
-Project Operations zahteva da parametar projekta upućuje na PEX krajnju tačku. Ova krajnja tačka je potreban za komunikaciju sa uslugom koja se koristi za prikazivanje strukturne analize posla. Ako parametar nije omogućen, dobićete grešku „Parametar projekta nije važeći“. 
-
-### <a name="workaround"></a>Zaobilazno rešenje
- ![Polje „PEX krajnja tačka“ u parametru projekta](media/projectparameter.png)
+Project Operations zahteva da parametar projekta upućuje na PEX krajnju tačku. Ova krajnja tačka je potrebna za komunikaciju sa uslugom koja se koristi za prikazivanje strukturne analize posla. Ako parametar nije omogućen, dobićete grešku „Parametar projekta nije važeći“. Da biste ažurirali krajnju tačku PEX, dovršite sledeće korake.
 
 1. Dodajte polje **PEX krajnja tačka** na stranicu **Parametri projekta**.
-2. Ažurirajte polje sledećom vrednosti: `https://project.microsoft.com/<lang>/?org=<cdsServer>#/taskgrid?projectId=\<id>&type=2`
-3. Uklonite polje sa stranice **Parametri projekta**.
+2. Identifikujte tip proizvoda koji koristite. Ova vrednost se koristi kada je PEX krajnja tačka podešena. Nakon preuzimanja, tip proizvoda je već definisan u PEX krajnjoj tački. Zadržite tu vrednost.
+3. Ažurirajte polje sledećom vrednošću: `https://project.microsoft.com/<lang>/?org=<cdsServer>#/taskgrid?projectId=<id>&type=2` U sledećoj tabeli navedeni su parametri vrste koje treba koristiti na osnovu vrste proizvoda.
 
-## <a name="privileges-for-project-for-the-web"></a>Privilegije za projekat za veb
+      | **Tip proizvoda**                     | **Tip parametra** |
+      |--------------------------------------|--------------------|
+      | Project for the Web za podrazumevanu organizaciju   | tip=0             |
+      | Project for the Web za organizaciju sa CDS nazivom | tip=1             |
+      | Project Operations                   | tip=2             |
 
-Project Operations se oslanja na eksternu uslugu zakazivanja. Usluga zahteva da korisnik ima nekoliko uloga dodeljenih za čitanje i pisanje u entitete povezane sa strukturnom analizom posla. Ti entiteti uključuju projektne zadatke, dodeljivanje resursa i zavisne elemente zadataka. Ako korisnik ne može da prikaže strukturnu analizu posla kada dođe na karticu **Zadaci**, to je verovatno zato što Project Operations nije omogućen. Korisnik može da dobije grešku za bezbedonosnu ulogu ili grešku povezanu sa uskraćivanjem pristupa.
+4. Uklonite polje sa stranice **Parametri projekta**.
 
+## <a name="issue-the-project-doesnt-load-and-the-ui-is-stuck-on-the-spinner"></a>Problem: Projekat se ne učitava i korisnički interfejs je zaglavljen na okretnom dugmetu
 
-## <a name="workaround"></a>Zaobilazno rešenje
+Za potrebe potvrde identiteta, iskačući prozori moraju da budu omogućeni da bi se mreža zadataka učitala. Ako iskačući prozori nisu omogućeni, ekran će se zaglaviti na okretnom dugmetu za učitavanje. Sledeća slika prikazuje URL adresu sa blokiranom iskačućom oznakom u traci adrese, što dovodi do toga da se okretno dugme zaglavi pokušavajući da učita stranicu. 
 
-1. Idite na **Podešavanja > Bezbednost > Korisnici > Korisnici aplikacija**.  
+   ![Zaglavljeno okretno dugme i blokiranje iskačućih prozora.](media/popupsblocked.png)
 
-   ![Čitač aplikacije](media/applicationuser.jpg)
-   
-2. Dvaput kliknite na zapis korisnika aplikacije da biste proverili sledeće:
+### <a name="mitigation-1-enable-pop-ups"></a>Ublažavanje 1: Omogućite iskačuće prozore
 
- - Korisnik ima pristup projektu. Ova verifikacija se obično obavlja tako što se osigurava da korisnik ima bezbednosnu ulogu **Menadžer projekta**.
- - Korisnik aplikacije Microsoft Project postoji i pravilno je konfigurisan.
+Kada se vaš projekat zaglavi na okretnom dugmetu, može se desiti da iskačući prozori nisu omogućeni.
+
+#### <a name="microsoft-edge"></a>Microsoft Edge
+
+Postoje dva načina da omogućite iskačuće prozore u pregledaču Edge.
+
+1. U pregledaču Edge izaberite obaveštenje u gornjem desnom uglu pregledača.
+2. Izaberite **Uvek dozvoli iskačuće prozore i preusmeravanja sa** specifičnog Dataverse okruženja.
  
-3. Ako ovaj korisnik ne postoji, možete kreirati zapis novog korisnika. Izaberite **Novi korisnici**. Promenite obrazac za unos u **Korisnik aplikacije**, a zatim dodajte **ID aplikacije**.
+     ![Prozor za blokirane iskačuće prozore.](media/enablepopups.png)
 
-   ![Detalji o korisniku aplikacije](media/applicationuserdetails.jpg)
+Pored toga, možete takođe obavite jedan od sledećih koraka:
 
-4. Proverite da li je korisniku dodeljena ispravna licenca i da li je usluga omogućena u detaljima planova usluge licence.
-5. Proverite da li korisnik može da otvori project.microsoft.com.
-6. Proverite kroz parametre projekta da li sistem pokazuje na ispravnu krajnju tačku projekta.
-7. Proverite da li je kreiran korisnik projektne aplikacije.
-8. Primenite sledeće bezbednosne uloge na korisnika:
+1. Otvorite pregledač Edge.
+2. U gornjem desnom uglu izaberite **tri tačke** (...), a zatim izaberite **Podešavanja** > **Dozvole za lokaciju** > **Iskačući prozori i preusmeravanja**.
+3. Isključite opciju **Iskačući prozori i preusmeravanja** za blokiranje iskačućih prozora ili je uključite da biste omogućili iskačuće prozore na svom uređaju.
+4. Nakon što omogućite iskačuće prozore, osvežite pregledač. 
 
-  - Korisnik usluge Dataverse
-  - Project Operations sistem
-  - Projektni sistem
+#### <a name="google-chrome"></a>Google Chrome
+1. Otvorite pregledač Chrome.
+2. Idite na stranicu na kojoj su iskačući prozori blokirani.
+3. Na traci adrese izaberite **Iskačući prozor je blokiran**.
+4. Izaberite vezu za iskačući prozor koji želite da vidite.
+5. Nakon što omogućite iskačuće prozore, osvežite pregledač. 
 
-## <a name="error-when-updating-the-work-breakdown-structure"></a>Greška pri ažuriranju strukturne analize posla
+> [!NOTE]
+> Da biste uvek videli iskačuće prozore za tu lokaciju, izaberite opciju **Uvek dozvoli iskačuće prozore i preusmeravanja sa [lokacija]**, a zatim izaberite **Gotovo**.
 
-Kada se obavi jedno ili više ažuriranja strukturne analize posla, promene na kraju ne uspeju i nisu sačuvane. Dolazi do greške u mreži rasporeda uz napomenu da „Nedavna promena koju ste uneli nije mogla biti sačuvana“.
+## <a name="issue-3-administration-of-privileges-for-project-for-the-web"></a>Problem 3: Administracija privilegija za Project for the Web
 
-### <a name="workaround"></a>Zaobilazno rešenje
+Project Operations se oslanja na eksternu uslugu zakazivanja. Usluga zahteva da korisnik ima nekoliko dodeljenih uloga koje mu omogućavaju čitanje i pisanje za entitete povezane sa SAP-om. Ti entiteti uključuju projektne zadatke, dodeljivanje resursa i zavisne elemente zadataka. Ako korisnik ne može ne može da prikaže SAP prilikom navigacije do kartice **Zadaci**, to je verovatno zato što **Projekat** za **Project Operations** nije omogućen. Korisnik može da dobije grešku za bezbedonosnu ulogu ili grešku povezanu sa uskraćivanjem pristupa.
 
-1. Proverite da li je korisniku dodeljena ispravna licenca i da li je usluga omogućena u detaljima planova usluge licence.
-2. Proverite da li korisnik može da otvori project.microsoft.com.
-3. Proverite da li sistem pokazuje na ispravnu krajnju tačku projekta.
-4. Proverite da li je kreiran korisnik projektne aplikacije.
-5. Primenite sledeće bezbednosne uloge na korisnika:
+### <a name="mitigation-1-validate-the-application-user-and-end-user-security-roles"></a>Ublažavanje 1: Potvrdite bezbednosne uloge korisnika aplikacije i krajnjeg korisnika
+
+1. Idite na **Podešavanja** > **Bezbednost** > **Korisnici** > **Korisnici aplikacija**.  
+
+   ![Čitač aplikacije.](media/applicationuser.jpg)
+   
+2. Dvaput kliknite na zapis o korisnicima aplikacije da biste potvrdili:
+
+     - Korisnik ima pristup projektu. To možete učiniti ako proverite da li korisnik ima bezbednosnu ulogu **Vođa projekata**.
+     - Korisnik aplikacije Microsoft Project postoji i pravilno je konfigurisan.
+ 
+3. Ako ovaj korisnik ne postoji, kreirajte novi korisnički zapis. 
+4. Izaberite opciju **Novi Korisnici**, promenite obrazac za prijavu u **Korisnik aplikacije**, a zatim dodajte **ID aplikacije**.
+
+   ![Detalji o korisniku aplikacije.](media/applicationuserdetails.jpg)
+
+
+## <a name="issue-4-changes-arent-saved-when-you-create-update-or-delete-a-task"></a>Problem 4: Promene se ne čuvaju kada kreirate, ažurirate ili izbrišete zadatak
+
+Kada izvršite jedno ili više ažuriranja u SAP-u, promene su neuspešne i ne čuvaju se. Došlo je do greške u mreži rasporeda uz poruku „Nedavna promena koju ste uneli nije mogla da se sačuva“.
+
+### <a name="mitigation-1-validate-the-license-assignment"></a>Ublažavanje 1: Potvrdite prenos licence
+
+1. Proverite da li je korisniku dodeljena ispravna licenca i da li je usluga omogućena u detaljima planova usluge licence.  
+2. Proverite da li korisnik može da otvori **project.microsoft.com**.
+    
+### <a name="mitigation-2-validation-configuration-of-the-project-application-user"></a>Ublažavanje 2: Konfiguracija potvrde korisnika aplikacije „Project“
+1. Proverite da li je kreiran korisnik aplikacije „Project“.
+2. Primenite sledeće bezbednosne uloge na korisnika:
   
   - Dataverse korisnik ili osnovni korisnik
   - Project Operations sistem
   - Projektni sistem
-  - Project Operations sistem dvostrukog upisivanja (ova uloga je potrebna ako primenjujete resurs/scenario koji nije zasnovan na zalihama usluge Project Operations.)
+  - Sistem dvostrukog upisivanja za Project Operations. Ova uloga je neophodna za resurs/scenarije primene koji nisu zasnovani na zalihama za Project Operations.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

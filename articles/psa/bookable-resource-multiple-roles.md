@@ -17,12 +17,12 @@ search.audienceType:
 search.app:
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 67e24156e960b9b09cf92f7f0cd77f6c74a982b8
-ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
+ms.openlocfilehash: 0f779cf7e247157d6cae2ae7c4c5644201cb7714
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: sr-Latn-RS
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "5145060"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5291006"
 ---
 # <a name="estimate-project-sales-and-costs-when-a-bookable-resource-fills-multiple-roles-for-a-project"></a>Procena prodaje i troškova za projekat kada resurs koji može da se rezerviše ispunjava više uloga u projektu 
 
@@ -74,3 +74,6 @@ Kada proširite red tog zapisa člana tima, na zapisu člana tima možete videti
 Kada odete na mrežu **Procene**, primetićete da obe dodele za isti resurs imaju različito određene cene.
 Cena dodele resursa zadatku A određuje se korišćenjem vrednosti atributa **Uloga** za **vođu konsultanata**. Cena dodele istog resursa zadatku B određuje se korišćenjem vrednosti atributa **Uloga** za **tehničara mreže**.
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

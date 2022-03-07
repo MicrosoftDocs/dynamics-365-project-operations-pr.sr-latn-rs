@@ -2,24 +2,22 @@
 title: Pregled jednostavne primene
 description: Ova tema pruža informacije o jednostavnoj primeni usluge Dynamics 365 Project Operations.
 author: rumant
-manager: Annbe
 ms.date: 11/02/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: b66b3656d1ef5266ede1f62657dbe9b8a63c863a
-ms.sourcegitcommit: d33ef0ae39f90fe3b0f6b4524f483e8052057361
+ms.openlocfilehash: 9f09cb447d314cb172161ad3501a154285d9b636
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: sr-Latn-RS
-ms.lasthandoff: 11/03/2020
-ms.locfileid: "4365607"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "6003828"
 ---
 # <a name="lite-deployment-overview"></a>Pregled jednostavne primene
 
 _**Odnosi se na:** Jednostavna primena – od pogodbe do profakture_
 
-Tip jednostavne primene usluge Dynamics 365 Project Operations ima sledeće mogućnosti za preduzeća zasnovana na projektima:
+Jednostavan tip primene usluge Dynamics 365 Project Operations ima sledeće mogućnosti za preduzeća zasnovana na projektima:
 
 - Planiranje projekata koristeći Microsoft Project za veb
 - Višedimenzionalno određivanje cena i troškova za radne resurse
@@ -37,3 +35,6 @@ Koristite ovaj tip primene ako očekujete da Project Operations koristi puni ži
 - Integrisani sistem upravljanja projektima koji upravlja internim i naplativim projektima za rasporede i finansije od prodaje projekata do fakturisanja.
 - Nezavisno planiranje resursa za preduzeća (ERP/Sistem finansijskog računovodstva za integraciju sa uslugom Project Operations.
 - Nezavisni sistem za rad sa porezima na promet, deviznim kursevima, naknadama troškova i ne-projektnim troškovima.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

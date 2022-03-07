@@ -2,8 +2,6 @@
 title: Konfigurišite kategorije transakcija
 description: Kako da podesite kategorije transakcija u aplikaciji Project Service
 author: ruhercul
-manager: kfend
-ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 8/03/2018
@@ -18,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 404135d1f5ff73120d167d9d0e774b415164a2c1
-ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
+ms.openlocfilehash: 5936bf0384e62d522bb9e1f01cd00771e1ac522c
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: sr-Latn-RS
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "5149515"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "6002972"
 ---
 # <a name="configure-transaction-categories-project-service"></a>Konfigurisanje kategorija transakcija (Project Service)
 
@@ -43,3 +41,6 @@ Podesite kategorije transakcija za definisanje nadređenog skupa kategorija tro�
   
 ### <a name="see-also"></a>Takođe pogledajte  
  [Konfigurisanje aplikacije Project Service](../psa/configure.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

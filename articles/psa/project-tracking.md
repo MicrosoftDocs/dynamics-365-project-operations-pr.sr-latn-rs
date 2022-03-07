@@ -2,8 +2,6 @@
 title: Napredak projekta i troškovi korišćenja
 description: Ova tema pruža informacije o praćenju napretka projekta i troškova korišćenja.
 author: ruhercul
-manager: kfend
-ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 08/21/2020
@@ -18,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 0b69cee49e028b98bbb32e4a7e7aedf5479527dc
-ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
-ms.translationtype: HT
+ms.openlocfilehash: 8bde19fbf1dd9f0c760455ecb7f7f2bd14a358d441bf024ec0cdefa42866f53e
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.translationtype: MT
 ms.contentlocale: sr-Latn-RS
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "5148030"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6987183"
 ---
 # <a name="project-progress-and-cost-consumption"></a>Napredak projekta i troškovi korišćenja
 
@@ -98,3 +96,6 @@ Podaci za praćenje u prikazima **Praćenje aktivnosti** i **Praćenje troškova
 Polje **Opšti status projekta** je polje koje može da se uređuje i koje pokazuje opšti status projekta. Koristi kodiranje u boji, kao što su zelena, žuta i crvena, da ukaže na povećani rizik. Polje **Komentari** omogućava menadžeru projekta da unese konkretne komentare o statusu. Polje **Status ažuriran dana** nije moguće uređivati i vrednost je vremenska oznaka koja pokazuje kada je status zadnji put ažuriran.
 
 Polja **Performanse rasporeda** i **Performanse troškova** su podešena od datuma praćenja. Kada su odstupanja od rasporeda i troškova za osnovni čvor u prikazu **Praćenje angažovanja** pozitivna, možete podesiti ova polja na **Pre plana**. Kada su odstupanja od rasporeda i troškova za osnovni čvor negativna, možete ih podesiti na **Zaostaje za planom**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

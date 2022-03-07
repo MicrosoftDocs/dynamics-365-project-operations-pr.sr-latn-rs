@@ -9,12 +9,12 @@ ms.prod: ''
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 5a924de6efc377e28a20e038e7deac04616b95aa
-ms.sourcegitcommit: 2b74edd31f38410024a01124c9202a4d94464d04
+ms.openlocfilehash: 104c2f3f7f0ca0682158d0f7fa0f50a4967e6dd0
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: sr-Latn-RS
-ms.lasthandoff: 12/17/2020
-ms.locfileid: "4764520"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5274205"
 ---
 # <a name="create-a-manual-proforma-invoice---lite"></a>Kreiranje ručnog predračuna – jednostavno
 
@@ -35,3 +35,6 @@ Sve kreirane fakture projekta su dostupne na stranici **Faktura** u odeljku **Na
 Profaktura se takođe može kreirati na stranici sa detaljima **Ugovor o projektu**. Sistem proverava da li projektni ugovor ima zaostatak **Spremno za fakturisanje** datiran pre današnjeg datuma. Od ovih ugovora sistem kreira radne verzije predračuna na osnovu broja klijenata u svakom predmetu ugovora.
 
 Kada se kreira jedan predračun, otvara se stranica **Faktura**. Ako se kreira više faktura za taj ugovor o projektu, otvara se stranica lista **Fakture** sa prikazom svih kreiranih faktura.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

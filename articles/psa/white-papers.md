@@ -2,8 +2,6 @@
 title: Bele knjige za funkciju Project Service Automation
 description: Zbirka belih knjiga za Project Service
 author: kfend
-manager: kfend
-ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 8/03/2018
@@ -18,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: dc6fb5c195d98bc3808383a8ec059d675d6cff3b
-ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
+ms.openlocfilehash: 0385ca6684d0eb580502d792a5af143f51616237
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: sr-Latn-RS
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "5146995"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "5998923"
 ---
 # <a name="white-papers-for-project-service"></a>Bele knjige za Project Service
 
@@ -45,3 +43,6 @@ Ove bele knjige su osmišljene tako da pruže detaljne informacije o [!INCLUDE[p
 
 ### <a name="see-also"></a>Takođe pogledajte
  [Pregled aplikacije Project Service](../psa/overview.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

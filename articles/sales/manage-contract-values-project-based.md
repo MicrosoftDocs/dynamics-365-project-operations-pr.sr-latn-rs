@@ -8,12 +8,12 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 14d880eccd5547c122ebe37b63022e64fa2fb6fe
-ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
+ms.openlocfilehash: 2b856e280ac56c1cedd7d4966aca7e7f234bc520
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: sr-Latn-RS
-ms.lasthandoff: 10/31/2020
-ms.locfileid: "4181739"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5278120"
 ---
 # <a name="work-with-projectbased-contract-lines"></a>Rad sa predmetima ugovora zasnovanim na projektu
 
@@ -57,3 +57,6 @@ Pravilo: Projekat i određena klasa transakcija mogu biti uključeni samo u jedn
 | C1       | CL2           | P1      | No           | Da             | No          | Važeći           | Vreme i naknade za projekat P1 su uključeni u CL1. Troškovi za projekat P1 uključeni su u CL2. </br>   Nema preklapanja onoga što je uključeno u svaki predmet ugovora i stoga je važeće.  |
 | C1       | CL1           | P1      | Da          | Da             | Da         | Ne važi       | Krši pravilo. Vreme, troškovi i naknade za projekat P1 uključeni su u predmete dva ugovora.                                                                                               |
 | CL2      | CL2           | P1      | Da          | Da             | Da         | Ne važi       | Krši pravilo. Vreme, troškovi i naknade za projekat P1 uključeni su u predmete dva ugovora.                                                                                               |
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -2,19 +2,17 @@
 title: Rešavanje cena koštanja za procene i trenutno stanje projekta – jednostavno
 description: Ova tema pruža informacije o načinu rešavanja cena koštanja u procenama projekata i trenutnom stanju.
 author: rumant
-manager: Annbe
 ms.date: 04/07/2021
 ms.topic: article
 ms.prod: ''
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 9f20631f41c560f1a4047aaaa624fa4e8651c687
-ms.sourcegitcommit: ac90be6106592f883a0de39a75836fb40255d65a
-ms.translationtype: HT
+ms.openlocfilehash: a2a2df7672118a4a4d7748795174e8e8238dd7618a48437185879e06a253a381
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.translationtype: MT
 ms.contentlocale: sr-Latn-RS
-ms.lasthandoff: 04/09/2021
-ms.locfileid: "5877282"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6997578"
 ---
 # <a name="resolve-cost-prices-on-project-estimates-and-actuals"></a>Rešavanje cena koštanja za procene i trenutno stanje projekta – jednostavno 
 

@@ -17,18 +17,18 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 14fcccf5804e5da0926dbc69bdfa040229a7f068
-ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
+ms.openlocfilehash: 669b3ca4601bdac483db4e1d7f55a8bf5b3d9661
+ms.sourcegitcommit: 3d78338773929121d17ec3386f6cb67bfb2272cc
 ms.translationtype: HT
 ms.contentlocale: sr-Latn-RS
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "5143575"
+ms.lasthandoff: 04/27/2021
+ms.locfileid: "5948841"
 ---
 # <a name="project-service-automation-update-release-26-v3"></a>Project Service Automation izdanje ispravke 26, u verziji 3
 
 [!include [banner](../includes/psa-now-project-operations.md)]
 
-Zadovoljstvo nam je da objavimo najnovije ažuriranje za aplikaciju Project Service Automation za Dynamics 365. Ovo izdanje uključuje neka važna poboljšanja u kvalitetu, performansama i upotrebljivosti. Ovo izdanje je kompatibilno sa uslugom Dynamics 365 9.x. Da biste ažurirali ovo izdanje, posetite stranicu sa rešenjima centra za administraciju za Dynamics 365 online kako biste instalirali ispravku. Za još informacija pogledajte članak [Instaliranje, ispravka ili uklanjanje željenog rešenja](https://docs.microsoft.com/power-platform/admin/install-remove-preferred-solution).
+Zadovoljstvo nam je da objavimo najnovije ažuriranje za aplikaciju Project Service Automation za Dynamics 365. Ovo izdanje uključuje neka važna poboljšanja u kvalitetu, performansama i upotrebljivosti. Ovo izdanje je kompatibilno sa uslugom Dynamics 365 9.x. Da biste ažurirali ovo izdanje, posetite stranicu sa rešenjima centra za administraciju za Dynamics 365 online kako biste instalirali ispravku. Za još informacija pogledajte članak [Instaliranje, ispravka ili uklanjanje željenog rešenja](/power-platform/admin/install-remove-preferred-solution).
 
 U ovoj temi date su funkcije koje su nove ili su promenjene u rešenju Project Service Automation u verziji 3, izdanje ispravke 26. Ova verzija ima broj verzije V3.10.44.59 i generalno je dostupna putem samostalnog ažuriranja u decembru 2020.
 
@@ -74,3 +74,6 @@ Popravljeni su sledeći problemi:
 - Prilikom izbora stavke zasnovane na projektu u ponudu ili ugovoru, dugme **Predlog** bi trebalo da bude vidljivo samo pri odabiru linije zasnovane na proizvodu povezane sa postojećim proizvodom.
 - Podelite privilegiju **Create_Product** iz privilegije **Create_ProjectContract**.
 - Brisanje stavke u faktoru dovodi do neuspele prazne reference na **MarkReadyToInvoiceForProductContractLineAfterDeletingInvoice**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

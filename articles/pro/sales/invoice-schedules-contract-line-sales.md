@@ -2,18 +2,16 @@
 title: Kreiranje rasporeda fakturisanja za predmet ugovora zasnovan na projektu – jednostavno
 description: Ova tema pruža informacije o kreiranju rasporeda faktura i kontrolnih tačaka.
 author: rumant
-manager: Annbe
 ms.date: 10/26/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 728a35b2b69fb63a2b20f218c250365c5068370f
-ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
+ms.openlocfilehash: 548858f6d2257343a632657ca386da03f1f330a9
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: sr-Latn-RS
-ms.lasthandoff: 10/31/2020
-ms.locfileid: "4180344"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "6003248"
 ---
 # <a name="create-invoice-schedules-on-a-project-based-contract-line---lite"></a>Kreiranje rasporeda fakturisanja za predmet ugovora zasnovan na projektu – jednostavno
 
@@ -74,3 +72,6 @@ Kontrolne tačke sa fiksnom cenom mogu se generisati ručno kada se ne dele peri
 | Porez | Brzo kreiranje | Iznos poreza primenjen na kontrolnu tačku. | Ovo je uključeno u kontrolnu tačku predmeta ugovora za projekat i u fakturu. |
 
 4. Izaberite stavku **Sačuvaj i zatvori**.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

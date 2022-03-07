@@ -2,19 +2,17 @@
 title: Šta je novo ili promenjeno u usluzi Project Operations u januaru 2021. za scenarije zasnovane na zalihama/proizvodnji
 description: Ova tema pruža informacije o ispravkama kvaliteta dostupnim u izdanju usluge Project Operations za januar 2021. za scenarije zasnovane na zalihama/proizvodnji.
 author: andchoi
-manager: tfehr
 ms.date: 1/08/2021
 ms.topic: article
 ms.prod: ''
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: andchoi
-ms.openlocfilehash: ce1c83e1e238d7919c38d2babea622ca59de86d3
-ms.sourcegitcommit: ef7d498bf80b0bcc1245dc42f30c410c31f891bb
-ms.translationtype: HT
+ms.openlocfilehash: f7ad339872f18bf5aaae6f472436fc318d4cd919fcae58cc1b6e4d5ab19bd68c
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.translationtype: MT
 ms.contentlocale: sr-Latn-RS
-ms.lasthandoff: 01/13/2021
-ms.locfileid: "4958665"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6992763"
 ---
 # <a name="whats-new-or-changed-in-project-operations-january-2021-for-stockedproduction-based-scenarios"></a>Šta je novo ili promenjeno u usluzi Project Operations u januaru 2021. za scenarije zasnovane na zalihama/proizvodnji
 
@@ -144,4 +142,7 @@ Ova tema se odnosi na sledeće komponente i verzije usluge Dynamics 365 Project 
 | Putovanje i trošak                  | [525106](https://fix.lcs.dynamics.com/Issue/Details/?bugId=525106) | U usluzi Project Operations, vreme za zadatke u okviru preduzeća ne može se kreirani ni odobriti u usluzi Dataverse.                                                                                                                                                                                             |
 
 ### <a name="regulatory-updates"></a>Regulatorne ispravke
-Za informacije o regulatornim ispravkama za Finance and Operations aplikacije, pogledajte članak [Regulatorne ispravke](https://docs.microsoft.com/dynamics365/finance/localizations/regulatory-updates). Takođe se možete prijaviti na LCS i pregledati planirane regulatorne ispravke pomoću alatke za pretragu problema. Pretraga problema vam omogućava pretragu po zemlji, tipu funkcije i izdanju.
+Za informacije o regulatornim ispravkama za Finance and Operations aplikacije, pogledajte članak [Regulatorne ispravke](/dynamics365/finance/localizations/regulatory-updates). Takođe se možete prijaviti na LCS i pregledati planirane regulatorne ispravke pomoću alatke za pretragu problema. Pretraga problema vam omogućava pretragu po zemlji, tipu funkcije i izdanju.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

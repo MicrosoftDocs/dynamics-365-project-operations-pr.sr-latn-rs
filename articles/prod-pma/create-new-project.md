@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 9b29340dc88aea888ea2f5ea975eaea59d014279
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 727d287c571b2a64bf10b2393a87567093a420d2
+ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
 ms.translationtype: HT
 ms.contentlocale: sr-Latn-RS
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5270740"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4083715"
 ---
 # <a name="create-a-new-project"></a>Kreirajte novi projekat
 
@@ -104,6 +104,3 @@ Tokom rezervacije resursa, menadžeri projekata mogu filtrirati resurse uloga ko
 
 3. Izaberite **Sačuvaj**, a zatim zatvorite stranicu.
 4. Na kartici **Kompetencije**, dodajte veštinu **Menadžment projekta** i **PMP** certifikat.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

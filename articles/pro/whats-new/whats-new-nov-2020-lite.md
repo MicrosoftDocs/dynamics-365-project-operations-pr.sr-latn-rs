@@ -2,16 +2,18 @@
 title: Šta je novo novembra 2020. – Jednostavna primena usluge Project Operations – od pogodbe do profakture
 description: Ova tema pruža informacije o ispravkama kvaliteta dostupnim u izdanju jednostavne primene usluge Project Operations za novembar 2020. – od pogodbe do profakture.
 author: sigitac
+manager: Annbe
 ms.date: 11/02/2020
 ms.topic: article
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 99539c378748f40df330841dbc52814a7841837a
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: fa95406a27e6d32d2be75303904547b59f24c8b2
+ms.sourcegitcommit: 64d0de964a9b66c015ffcf1db62cbb6216cb3187
 ms.translationtype: HT
 ms.contentlocale: sr-Latn-RS
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "5993826"
+ms.lasthandoff: 11/03/2020
+ms.locfileid: "4367193"
 ---
 # <a name="whats-new-november-2020---project-operations-lite-deployment---deal-to-proforma-invoicing"></a>Šta je novo novembra 2020. – Jednostavna primena usluge Project Operations – od pogodbe do profakture
 
@@ -35,6 +37,3 @@ Sledeća tabela navodi ispravke za Project Operations u CDS okruženju verzije 4
 | Stavka vremena i brzog troška | 2047499          | Dugme **Novo** na stranici Stavka vremena otvara stranicu **Nov potpis e-pošte**.                                                                                               |
 | Stavka vremena i brzog troška | 2059859          | Otvara se neočekivani iskačući prozor prilikom kreiranja stavke troška.                                                                                                                         |
 | Drugi                        | 2044181          | [Deinstalacija PO] – Dolazi do greške „Zapis nije dostupan“ kada pokušate da deinstalirate osnovna rešenja **msdyn_ProjectServiceCore_Patch** i msdyn Project Service.        |
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

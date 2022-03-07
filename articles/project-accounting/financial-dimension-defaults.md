@@ -8,12 +8,12 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 03b9a9028c1610b191db9c1bfb0163adc88bdf3e
-ms.sourcegitcommit: 573be7e36604ace82b35e439cfa748aa7c587415
+ms.openlocfilehash: 0a76447bb1a81a7157fccc0cd58eddd1eb5995de
+ms.sourcegitcommit: 3d78338773929121d17ec3386f6cb67bfb2272cc
 ms.translationtype: HT
 ms.contentlocale: sr-Latn-RS
-ms.lasthandoff: 11/25/2020
-ms.locfileid: "4642380"
+ms.lasthandoff: 04/27/2021
+ms.locfileid: "5950146"
 ---
 # <a name="financial-dimension-defaults"></a>Podrazumevane vrednosti finansijske dimenzije
 
@@ -21,7 +21,7 @@ _**Odnosi se na:** Project Operations za scenarije zasnovane na resursima / bez 
 
 [!include [rename-banner](~/includes/cc-data-platform-banner.md)]
 
-Dynamics 365 Project Operations koristi radni okvir za [finansijske dimenzije](https://docs.microsoft.com/dynamics365/finance/general-ledger/financial-dimensions) u usluzi Dynamics 365 Finance kako bi pružio dodatni uvid u transakcije potknjige i glavne knjige.
+Dynamics 365 Project Operations koristi radni okvir za [finansijske dimenzije](/dynamics365/finance/general-ledger/financial-dimensions) u usluzi Dynamics 365 Finance kako bi pružio dodatni uvid u transakcije potknjige i glavne knjige.
 
 Podrazumevane finansijske dimenzije mogu se postaviti na osnovu klijenta, izvora finansiranja projekta, kontrolne tačke, predmeta ugovora za projekat ili projekta.
 
@@ -62,3 +62,6 @@ Projekti se kreiraju i održavaju u usluzi CDS. Atributi računovodstva za proje
 4. Podesite podrazumevane vrednosti finansijskih dimenzija. Imajte u vidu da se podrazumevane vrednosti finansijskih dimenzija uzimaju sa naloga klijenta. Ako je projekat povezan sa predmetom ugovora sa više klijenata ugovora za projekat, primarni klijent se koristi za podrazumevane finansijske dimenzije.
 
 Podrazumevane finansijske dimenzije projekta koriste se za postavljanje podrazumevanih vrednosti stavke u glavnoj knjizi za transakcije vremena, troškova i naknada u **Project Operations dnevniku integracije** i na povezanim stavkama fakture projekta.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

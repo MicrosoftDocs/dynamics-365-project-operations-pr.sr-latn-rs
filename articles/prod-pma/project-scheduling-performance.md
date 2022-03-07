@@ -2,11 +2,9 @@
 title: Performanse planiranja resursa za projekat
 description: Ova tema pruža informacije o tome kako poboljšati performanse planiranja resursa za veliki broj projekata.
 author: Yowelle
-manager: AnnBe
 ms.date: 08/31/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kfend
@@ -18,12 +16,12 @@ ms.search.industry: Service industries
 ms.author: andchoi
 ms.dyn365.ops.version: 10.0.14
 ms.search.validFrom: 2020-09-01
-ms.openlocfilehash: c3f219ce0635545976a6a4639233f166e18468af
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
-ms.translationtype: HT
+ms.openlocfilehash: 9dc638a7b2d8e0db45b5acfa5cc9512f356f8b2635028748a1e2c3230605c154
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.translationtype: MT
 ms.contentlocale: sr-Latn-RS
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4083563"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7007298"
 ---
 # <a name="project-resource-scheduling-performance"></a>Performanse planiranja resursa za projekat
 
@@ -69,3 +67,6 @@ Da biste omogućili poboljšanje performansi planiranja resursa, izvršite slede
 
 > [!NOTE]
 > Ovo će distribuirati opšte podatke u tabeli **ResRollup** u svim kompanijama u vašem okruženju, tako da grupni posao treba pokrenuti samo u jednom pravnom licu. Ovaj grupni posao potreban je svim prikazima **Dostupnost resursa**. Ako se ovaj grupni posao ne pokrene, **ResRollup** podaci će se generisati u hodu, što može potrajati.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

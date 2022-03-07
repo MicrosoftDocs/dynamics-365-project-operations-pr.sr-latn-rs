@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: suvaidya
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 9c014b0593a87ce50f09175b77d9cf498a65391e
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: ab99c0ec769eb2e0914fc7d993f83d20e2c327f6
+ms.sourcegitcommit: 9f31b33ed6e7f1b49200a407913201a1337f3401
 ms.translationtype: HT
 ms.contentlocale: sr-Latn-RS
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5271280"
+ms.lasthandoff: 01/14/2021
+ms.locfileid: "4960714"
 ---
 # <a name="set-up-expense-policies"></a>Podešavanje smernica troškova
 
@@ -51,6 +51,3 @@ Evo nekoliko predloga koji vam mogu pomoći pri kreiranju novih smernica za upra
 ## <a name="when-to-evaluate-policies"></a>Kada se procenjuju smernice
 
 U parametrima upravljanja troškovima postoji opcija da procenite politike upravljanja troškovima kada se linija sačuva ili kada se podnese izveštaj o troškovima. Ako odlučite da procenite kada je linija sačuvana, korisnici će imati raniji uvid u ono što treba da urade da bi odjednom kompletirali svoj izveštaj o troškovima. U suprotnom, možete odložiti procenu smernica i uštedeti vreme ako se potvrđivanje obavlja na kraju, tokom predaje u radni tok.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

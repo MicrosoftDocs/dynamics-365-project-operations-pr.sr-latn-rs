@@ -2,8 +2,6 @@
 title: Troškovi i prihod projekta
 description: Ova tema pruža informacije o proceni troškova i prihoda projekta.
 author: ruhercul
-manager: kfend
-ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 03/01/2019
@@ -18,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 279c1119d334a7f60906e33b3fc7ca22ff9a360d
-ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
-ms.translationtype: HT
+ms.openlocfilehash: fe51af8adb7c3831a57494b8359def2a0176b552efe16feb53a2a265f5ffcb0c
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.translationtype: MT
 ms.contentlocale: sr-Latn-RS
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "5148345"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7002573"
 ---
 # <a name="project-costs-and-revenue"></a>Troškovi i prihod projekta
 
@@ -33,7 +31,7 @@ ms.locfileid: "5148345"
 
 Procene projekta pružaju finansijski prikaz za posao koji je procenjen i zakazan u rasporedu projekta. Kartica **Procene** na stranici **Projekti** prikazuje uticaj troškova i prihoda za posao koji planirate. Takođe pruža informacije o mnogim unapred definisanim dimenzijama. 
 
-> ![Kartica sa procenama](media/project-5.png)
+> ![Kartica sa procenama.](media/project-5.png)
 
 ## <a name="cost-and-sales-values-of-the-project"></a>Vrednosti troškova i prodajne vrednosti projekta
 
@@ -68,13 +66,13 @@ Ako sistem ne pronađe cenu za ulogu, prodajna cena u stavci procene se podešav
 
 Kartica **Procene** ima prikaz mreže koji prikazuje stavke procene. Mreža sadrži kolone za jedinicu, ukupnu cenu koštanja i ukupnu prodajnu cenu, kao što je prikazano na sledećoj ilustraciji. 
 
-> ![Prikaz mreže na kartici Procene](media/project-6.png)
+> ![Prikaz mreže na kartici Procene.](media/project-6.png)
 
 ## <a name="time-phased-view-of-project-estimates"></a>Prikaz procena za projekat u vremenu
 
 Prikaz po fazama vremena za projektne procena prikazuje podatke o proceni iz prikaza mreže po vremenskoj osi, u vremenskoj skali koju odaberete. Podaci o proceni su podrazumevano izvedeni u dimenziji **Uloga**.
 
-> ![Prikaz procena za projekat po fazama vremena](media/project-7.png)
+> ![Prikaz procena za projekat po fazama vremena.](media/project-7.png)
 
 ## <a name="allocating-estimated-effort-based-on-the-task-mode"></a>Dodela procenjenih aktivnosti na osnovu režima zadatka
 
@@ -97,3 +95,6 @@ U prikazu mreže i prikazu po fazama vremena možete da izaberete koja će se po
 ## <a name="expense-estimates"></a>Procene troškova
 
 Dugme **Dodajte novu procenu troškova** u prikazu mreže omogućava vam da evidentirate sve troškove koji nastaju u projektu, ali koji nisu direktno povezani sa radnom snagom. Možete zabeležiti procene troškova za određeni zadatak ili za ceo projekat. Odaberite kategorije troškova i okvirni datum kada očekujete da nastanu. Ako povezani cenovnik troškova i cenovnik prodaje imaju podrazumevane cene (ili ako su procenti provizije definisani za kategorije troškova), oni se automatski unose u stavku procene kada dođe do povezivanja.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

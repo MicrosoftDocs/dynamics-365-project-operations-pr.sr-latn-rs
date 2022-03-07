@@ -2,11 +2,9 @@
 title: Aplikacija o troškovima za mobilne uređaje
 description: Ova tema pruža informacije o mobilnom radnom prostoru za upravljanje troškovima.
 author: suvaidya
-manager: AnnBe
-ms.date: 09/23/2020
+ms.date: 11/15/2021
 ms.topic: article
 ms.prod: ''
-ms.service: project-operations
 ms.search.form: ''
 audience: Application User
 ms.reviewer: kfend
@@ -15,12 +13,12 @@ ms.search.region: ''
 ms.author: shylaw
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 01df30bf48fa9118771b87363d0418eb6b49ecea
-ms.sourcegitcommit: f78087174a8512199a1bcbd7e8610bbc80e64801
-ms.translationtype: HT
+ms.openlocfilehash: 5ab5959fa5c9c5463826a9a792112a93e469de5f
+ms.sourcegitcommit: 2e4483d5b88213a9f33109f7adb989108521327d
+ms.translationtype: MT
 ms.contentlocale: sr-Latn-RS
-ms.lasthandoff: 03/04/2021
-ms.locfileid: "5499913"
+ms.lasthandoff: 11/17/2021
+ms.locfileid: "7818200"
 ---
 # <a name="mobile-expense-app"></a>Aplikacija o troškovima za mobilne uređaje
 
@@ -49,42 +47,9 @@ Takođe možete da koristite ove funkcije:
 - Podnesite izveštaj o troškovima na odobrenje i nadoknadu.
 - Odobrite ili odbijte izveštaje o troškovima za koje ste dodeljeni davalac odobrenja.
 
-## <a name="prerequisites"></a>Preduslovi
-Preduslovi se razlikuju, na osnovu verzije koja je primenjena za vašu organizaciju.
+## <a name="prerequisites-if-you-use-dynamics-365-finance"></a>Preduslovi ako koristite Dynamics 365 Finance
 
-### <a name="prerequisites-if-you-use-dynamics-365-finance"></a>Preduslovi ako koristite Dynamics 365 Finance 
 Ako je u vašoj organizaciji primenjena aplikacija Finance, administrator sistema mora da objavi mobilni radni prostor za **Upravljanje troškovima**. 
-
-### <a name="prerequisites-if-you-use-version-1611-with-platform-update-3-or-later"></a>Preduslovi ako koristite verziju 1611 sa ispravkom 3 platforme ili novijom
-Ako je za vašu organizaciju primenjena verzija 1611 sa ispravkom 3 platforme ili novijom, administrator sistema mora da ispuni sledeće preduslove. 
-
-<table>
-<thead>
-<tr class="header">
-<th>Preduslov</th>
-<th>Uloga</th>
-<th>Opis</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Primena KB 4019015.</td>
-<td>Administrator sistema</td>
-<td>KB 4019015 je hitna ispravka za X++ ispravku ili metapodatke koja sadrži mobilni radni prostor za <strong>Upravljanje troškovima</strong>. Da bi primenio KB 4019015, administrator sistema mora slediti ove korake.
-<ol>
-<li><a href="https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/migration-upgrade/download-hotfix-lcs">Preuzmite ispravke sa portala Lifecycle Services</a>.</li>
-<li><a href="https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/migration-upgrade/install-metadata-hotfix-package">Instalirajte hitnu ispravku za metapodatke</a>.</li>
-<li><a href="https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/deployment/create-apply-deployable-package">Kreirajte paket koji se može primeniti</a> koji sadrži modele <strong>ApplicationSuite</strong> i <strong>ExpenseMobile</strong>, a zatim otpremni paket koji se može primeniti na LCS.</li>
-<li><a href="https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/deployment/apply-deployable-package-system">Primenite paket koji se može primeniti</a>.</li>
-</ol></td>
-</tr>
-<tr class="even">
-<td>Objavite mobilni radni prostor za <strong>Upravljanje troškovima</strong>.</td>
-<td>Administrator sistema</td>
-<td>Pogledajte <a href="https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/mobile-apps/publish-mobile-workspace">Objavljivanje mobilnog radnog prostora</a>.</td>
-</tr>
-</tbody>
-</table>
 
 ## <a name="download-and-install-the-dynamics-365-unified-ops-mobile-app"></a>Preuzimanje i instaliranje Dynamics 365 Unified Ops aplikacije za mobilne uređaje
 Preuzmite i instalirajte Dynamics 365 Unified Ops aplikaciju za mobilne uređaje:
@@ -105,11 +70,11 @@ Preuzmite i instalirajte Dynamics 365 Unified Ops aplikaciju za mobilne uređaje
 3. Izaberite **Snimite fotografiju** ili **Odaberite sliku**.
 4. Pratite jedan od sledećih koraka:
 
-   - Ako ste izabrali **Snimite fotografiju**, pratite ove korake:
+    - Ako ste izabrali **Snimite fotografiju**, pratite ove korake:
 
-      1. Bićete preusmereni na kameru na svom mobilnom uređaju, tako da možete da fotografišete priznanicu. 
-      2. Kada završite sa fotografisanjem, izaberite **U redu** da biste prihvatili fotografiju.
-      3. Opcionalno: unesite naziv fotografije i unesite beleške.
+        1. Bićete preusmereni na kameru na svom mobilnom uređaju, tako da možete da fotografišete priznanicu. 
+        2. Kada završite sa fotografisanjem, izaberite **U redu** da biste prihvatili fotografiju.
+        3. Opcionalno: unesite naziv fotografije i unesite beleške.
 
     - Ako ste izabrali **Odaberite sliku**, pratite ove korake:
 
@@ -122,11 +87,11 @@ Preuzmite i instalirajte Dynamics 365 Unified Ops aplikaciju za mobilne uređaje
 
 1. Na mobilnom uređaju otvorite radni prostor za **Upravljanje troškovima**.
 2. Izaberite **Brzi unos troškova**.
-3. Izaberite kategoriju troškova. Videćete listu kategorija troškova koje su učitane u vašu aplikaciju za korišćenje van mreže. Podrazumevano se učitava 50 stavki, ali programer može promeniti ovaj broj. Za više informacija, programeri bi trebalo da pogledaju članak [Mobilna platforma](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/mobile-apps/platform/mobile-platform-getting-started). Ako vaša kategorija nije na listi, izaberite **Pretraga** da biste obavili pretragu na mreži. Pretražujte po kategoriji troška ili se prebacite na pretragu po vrsti troška.
+3. Izaberite kategoriju troškova. Videćete listu kategorija troškova koje su učitane u vašu aplikaciju za korišćenje van mreže. Podrazumevano se učitava 50 stavki, ali programer može promeniti ovaj broj. Za više informacija, programeri bi trebalo da pogledaju članak [Mobilna platforma](/dynamics365/fin-ops-core/dev-itpro/mobile-apps/platform/mobile-platform-getting-started). Ako vaša kategorija nije na listi, izaberite **Pretraga** da biste obavili pretragu na mreži. Pretražujte po kategoriji troška ili se prebacite na pretragu po vrsti troška.
 4. Unesite datum transakcije troška.
 5. Opcionalno: unesite trgovca za trošak.
 6. Unesite iznos troška.
-7. Izaberite valutu troška. Videćete listu šifara valuta koje su učitane u vašu aplikaciju za korišćenje van mreže. Podrazumevano se učitava 400 valuta, ali programer može promeniti ovaj broj. Za više informacija, programeri bi trebalo da pogledaju članak [Mobilna platforma](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/mobile-apps/platform/mobile-platform-getting-started). Ako vaša valuta nije na listi, izaberite **Pretraga** da biste obavili pretragu na mreži. Pretražujte po valuti ili se prebacite na pretragu po nazivu.
+7. Izaberite valutu troška. Videćete listu šifara valuta koje su učitane u vašu aplikaciju za korišćenje van mreže. Podrazumevano se učitava 400 valuta, ali programer može promeniti ovaj broj. Za više informacija, programeri bi trebalo da pogledaju članak [Mobilna platforma](/dynamics365/fin-ops-core/dev-itpro/mobile-apps/platform/mobile-platform-getting-started). Ako vaša valuta nije na listi, izaberite **Pretraga** da biste obavili pretragu na mreži. Pretražujte po valuti ili se prebacite na pretragu po nazivu.
 8. Izaberite **Snimite fotografiju** ili **Odaberite sliku**.
 9. Pratite jedan od sledećih koraka:
 
@@ -135,20 +100,20 @@ Preuzmite i instalirajte Dynamics 365 Unified Ops aplikaciju za mobilne uređaje
 
 10. Izaberite **Gotovo**.
 
-## <a name="approve-an-expense-report-by-using-the-expense-management-mobile-workspace-if-you-use-the-july-2017-update"></a>Odobrite izveštaj o troškovima pomoću mobilnog radnog prostora za upravljanje troškovima (ako koristite ispravku iz jula 2017)
+## <a name="approve-an-expense-report-by-using-the-expense-management-mobile-workspace"></a>Odobravanje izveštaja o troškovima pomoću mobilnog radnog prostora za upravljanje troškovima
 
 1. Na mobilnom uređaju otvorite radni prostor za **Upravljanje troškovima**.
 2. **Odobrenja troškova** prikazuje broj izveštaja o troškovima koji su vam dodeljeni na odobrenje. Broj se ažurira otprilike svakih 30 minuta. Izaberite **Odobrenja troškova**.
 
     Prikazuje se lista izveštaja o troškovima koji su vam dodeljeni na odobrenje.
-    
+
 3. Izaberite izveštaj o troškovima da biste videli detalje o troškovima za njega.
 4. Izaberite trošak da biste videli detalje za njega. Podaci koji se prikazuju kao trošak uključuju sve detalje o priznanici, gostu i detaljima.
 5. Vratite se na stranicu **Izveštaj o troškovima**, izaberite da biste odobrili ili odbili izveštaj o troškovima.
 6. Unesite komentare uz odobrenje.
 7. Izaberite **Gotovo**.
 
-## <a name="create-a-new-expense-report-and-submit-it-for-approval-by-using-the-expense-management-mobile-workspace-if-you-use-the-july-2017-update"></a>Kreirajte novi izveštaj o troškovima i podnesite ga na odobrenje pomoću mobilnog radnog prostora za upravljanje troškovima (ako koristite ispravku iz jula 2017)
+## <a name="create-a-new-expense-report-and-submit-it-for-approval-by-using-the-expense-management-mobile-workspace"></a>Kreiranje novog izveštaja o troškovima i njegovo prosleđivanje na odobrenje pomoću mobilnog radnog prostora za upravljanje troškovima
 
 1. Na mobilnom uređaju otvorite radni prostor za **Upravljanje troškovima**.
 2. Izaberite **Unos troškova**.
@@ -159,11 +124,11 @@ Preuzmite i instalirajte Dynamics 365 Unified Ops aplikaciju za mobilne uređaje
 7. Izaberite jedan ili više troškova na listi.
 8. Izaberite **Gotovo**.
 9. Da biste dodali novi trošak izveštaju o troškovima, izaberite **Novi trošak**.
-10. Izaberite kategoriju troška. Videćete listu kategorija troškova koje su učitane u vašu aplikaciju za korišćenje van mreže. Podrazumevano se učitava 50 stavki, ali programer može promeniti ovaj broj. Za više informacija, programeri bi trebalo da pogledaju članak [Mobilna platforma](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/mobile-apps/platform/mobile-platform-getting-started). Ako vaša kategorija nije na listi, izaberite **Pretraga** da biste obavili pretragu na mreži. Pretražujte po kategoriji troška ili se prebacite na pretragu po vrsti troška.
+10. Izaberite kategoriju troška. Videćete listu kategorija troškova koje su učitane u vašu aplikaciju za korišćenje van mreže. Podrazumevano se učitava 50 stavki, ali programer može promeniti ovaj broj. Za više informacija, programeri bi trebalo da pogledaju članak [Mobilna platforma](/dynamics365/fin-ops-core/dev-itpro/mobile-apps/platform/mobile-platform-getting-started). Ako vaša kategorija nije na listi, izaberite **Pretraga** da biste obavili pretragu na mreži. Pretražujte po kategoriji troška ili se prebacite na pretragu po vrsti troška.
 11. Opcionalno: unesite trgovca za trošak.
 12. Unesite datum transakcije troška.
 13. Unesite iznos troška.
-14. Izaberite valutu troška. Videćete listu šifara valuta koje su učitane u vašu aplikaciju za korišćenje van mreže. Podrazumevano se učitava 400 valuta, ali programer može promeniti ovaj broj. Za više informacija, programeri bi trebalo da pogledaju članak [Mobilna platforma](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/mobile-apps/platform/mobile-platform-getting-started). Ako vaša valuta nije na listi, izaberite **Pretraga** da biste obavili pretragu na mreži. Pretražujte po valuti ili se prebacite na pretragu po nazivu.
+14. Izaberite valutu troška. Videćete listu šifara valuta koje su učitane u vašu aplikaciju za korišćenje van mreže. Podrazumevano se učitava 400 valuta, ali programer može promeniti ovaj broj. Za više informacija, programeri bi trebalo da pogledaju članak [Mobilna platforma](/dynamics365/fin-ops-core/dev-itpro/mobile-apps/platform/mobile-platform-getting-started). Ako vaša valuta nije na listi, izaberite **Pretraga** da biste obavili pretragu na mreži. Pretražujte po valuti ili se prebacite na pretragu po nazivu.
 15. Izaberite **Gotovo**.
 16. Da biste dodali više detalja trošku, izaberite **Dodajte više detalja**. Dostupna polja zavise od konfiguracije upravljanja troškovima vaše kompanije.
 17. Ako politika kompanije zahteva potvrdu o trošku, izaberite **Priznanice**, a zatim sledite ove korake:
@@ -186,12 +151,12 @@ Preuzmite i instalirajte Dynamics 365 Unified Ops aplikaciju za mobilne uređaje
                     1. Izaberite sliku sa liste.
                     2. Opcionalno: unesite naziv slike i unesite beleške.
 
-            3.  Izaberite **Gotovo**.
+            3. Izaberite **Gotovo**.
 
         - Ako ste izabrali **Priložite priznanicu**, pratite ove korake:
 
-            1.  Izaberite jednu ili više slika na listi.
-            2.  Izaberite **Gotovo**.
+            1. Izaberite jednu ili više slika na listi.
+            2. Izaberite **Gotovo**.
 
     3. Izaberite dugme **Nazad** za povratak na detalje o troškovima.
 
@@ -209,12 +174,12 @@ Preuzmite i instalirajte Dynamics 365 Unified Ops aplikaciju za mobilne uređaje
 
         - Ako ste izabrali **Prethodni gosti**, pratite ove korake:
 
-            1. Izaberite jednog ili više prethodnih gostiju na listi. Videćete listu prethodnih gostiju koje ste dodali u prethodne izveštaje o troškovima koji su učitani u vašu aplikaciju za korišćenje van mreže. Podrazumevano se učitava 50 stavki, ali programer može promeniti ovaj broj. Za više informacija, programeri bi trebalo da pogledaju članak [Mobilna platforma](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/mobile-apps/platform/mobile-platform-getting-started). Ako vaš prethodni gost nije na listi, izaberite **Pretraga** da biste obavili pretragu na mreži. Pretražujte po imenu ili pređite na pretragu po organizaciji, zemlji ili poziciji.
+            1. Izaberite jednog ili više prethodnih gostiju na listi. Videćete listu prethodnih gostiju koje ste dodali u prethodne izveštaje o troškovima koji su učitani u vašu aplikaciju za korišćenje van mreže. Podrazumevano se učitava 50 stavki, ali programer može promeniti ovaj broj. Za više informacija, programeri bi trebalo da pogledaju članak [Mobilna platforma](/dynamics365/fin-ops-core/dev-itpro/mobile-apps/platform/mobile-platform-getting-started). Ako vaš prethodni gost nije na listi, izaberite **Pretraga** da biste obavili pretragu na mreži. Pretražujte po imenu ili pređite na pretragu po organizaciji, zemlji ili poziciji.
             2. Izaberite **Gotovo**.
 
         - Ako ste izabrali **Saradnici**, pratite ove korake:
 
-            1. Izaberite jednog ili više saradnika na listi. Videćete listu saradnika koji su učitani u vašu aplikaciju za korišćenje van mreže. Podrazumevano se učitava 50 stavki, ali programer može promeniti ovaj broj. Za više informacija, programeri bi trebalo da pogledaju članak [Mobilna platforma](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/mobile-apps/platform/mobile-platform-getting-started). Ako vaš saradnik nije na listi, izaberite **Pretraga** da biste obavili pretragu na mreži. Pretražujte po imenu ili pređite na pretragu po kompaniji ili poziciji.
+            1. Izaberite jednog ili više saradnika na listi. Videćete listu saradnika koji su učitani u vašu aplikaciju za korišćenje van mreže. Podrazumevano se učitava 50 stavki, ali programer može promeniti ovaj broj. Za više informacija, programeri bi trebalo da pogledaju članak [Mobilna platforma](/dynamics365/fin-ops-core/dev-itpro/mobile-apps/platform/mobile-platform-getting-started). Ako vaš saradnik nije na listi, izaberite **Pretraga** da biste obavili pretragu na mreži. Pretražujte po imenu ili pređite na pretragu po kompaniji ili poziciji.
             2. Izaberite **Gotovo**.
 
     3. Izaberite dugme **Nazad** za povratak na detalje o troškovima.
@@ -223,7 +188,7 @@ Preuzmite i instalirajte Dynamics 365 Unified Ops aplikaciju za mobilne uređaje
 
     1. Izaberite prvi datum za podelu.
     2. Izaberite **Dodajte podelu**.
-    3. Izaberite potkategoriju podele troška. Videćete listu potkategorija troškova koje su učitane u vašu aplikaciju za korišćenje van mreže. Podrazumevano se učitava 50 stavki, ali programer može promeniti ovaj broj. Za više informacija, programeri bi trebalo da pogledaju članak [Mobilna platforma](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/mobile-apps/platform/mobile-platform-getting-started). Ako vaša potkategorija nije na listi, izaberite **Pretraga** da biste obavili pretragu na mreži. Pretražite prema nazivu potkategorije troškova.
+    3. Izaberite potkategoriju podele troška. Videćete listu potkategorija troškova koje su učitane u vašu aplikaciju za korišćenje van mreže. Podrazumevano se učitava 50 stavki, ali programer može promeniti ovaj broj. Za više informacija, programeri bi trebalo da pogledaju članak [Mobilna platforma](/dynamics365/fin-ops-core/dev-itpro/mobile-apps/platform/mobile-platform-getting-started). Ako vaša potkategorija nije na listi, izaberite **Pretraga** da biste obavili pretragu na mreži. Pretražite prema nazivu potkategorije troškova.
     4. Unesite iznos transakcije za podelu.
     5. Izmenite datum transakcije ako je potrebno.
     6. Izaberite **Gotovo**.
@@ -237,5 +202,30 @@ Preuzmite i instalirajte Dynamics 365 Unified Ops aplikaciju za mobilne uređaje
 23. Unesite komentare za davaoca odobrenja.
 24. Izaberite **Gotovo**.
 
+## <a name="frequently-asked-questions"></a>Najčešća pitanja
+
+### <a name="why-doesnt-the-expense-mobile-app-enter-the-payment-method-by-default"></a>Zašto mobilna aplikacija "Troškovi" podrazumevano ne unosi način plaćanja?
+
+Organizacije mogu da prilagode **podrazumevanu postavku** načina plaćanja za svaku kategoriju troškova tokom kreiranja. Pored toga, kada podesite načine plaćanja, polje Podrazumevani način **plaćanja možete podesiti samo** na opciju **"Uvoz"**.
+
+Kada **je omogućen samo uvoz za način** plaćanja, način plaćanja se podrazumevano ne unosi. Biće prazan u kategorijama troškova gde je podešen ovaj način plaćanja. Ovakvo ponašanje je dosledno i u veb iskustvu i u mobilnom iskustvu.
+    
+Kada **uvoz nije omogućen samo za način** plaćanja, postavljena vrednost se podrazumevano unosi za kategorije troškova u kojima je podešen ovaj način plaćanja. Međutim, postoji poznati problem zbog kojeg podrazumevana vrednost nije uneta u mobilnu aplikaciju "Troškovi". Da biste zaobišli ovaj problem, ručno izaberite način plaćanja pre nego što sačuvate izveštaj o troškovima. 
+
+### <a name="why-cant-i-add-or-edit-financial-dimensions-in-the-expense-mobile-app"></a>Zašto ne mogu da dodam ili uredim finansijske dimenzije u mobilnoj aplikaciji "Troškovi"?
+
+Unos dimenzija i raspodela nije podržan. Da biste zaobišli ovo ograničenje, ova polja možete podrazumevano postaviti u mobilnoj aplikaciji tako što ćete podesiti podrazumevane finansijske dimenzije po projektu ili zaposlenom.
+
+### <a name="why-do-i-sometimes-see-a-synchronization-error-in-the-expense-mobile-app"></a>Zašto ponekad vidim grešku u sinhronizaciji u mobilnoj aplikaciji "Troškovi"?
+
+Ako redovi troškova ne ispunjavaju zahteve smernica, a korisnik prosledi izveštaj o troškovima bez rešavanja upozorenja o smernicama, mobilni podaci se ne sinhronizuju sa serverom i dolazi do otkazivanja sinhronizacije. Svi izveštaji o troškovima koji se prosleđuju nakon neuspeha sinhronizacije ostaće u neuspelom stanju i prouzrokovati još otkazivanja sinhronizacije. Jedini način da popravite ovu situaciju je da ručno izbrišete obaveštenja o sinhronizaciji. Ovaj problem je rešen zaustavljanjem prosleđivanja izveštaja o troškovima kada upozorenja smernica nisu otklonjena, tako da se izbegnu greške u sinhronizaciji.
+
+### <a name="why-isnt-project-and-category-validation-correctly-reflected-in-the-expense-mobile-app"></a>Zašto se provera valjanosti projekta i kategorije ne odražava ispravno u mobilnoj aplikaciji "Troškovi"?
+
+Ova provera valjanosti trenutno nije podržana. Međutim, podrška bi mogla da bude dodata u budućnosti. 
+
+### <a name="what-document-types-are-supported-in-the-expense-mobile-app"></a>Koje vrste dokumenata su podržane u mobilnoj aplikaciji "Troškovi"?
+
+Mobilna aplikacija "Troškovi" podržava samo slike. Trenutno ne podržava PDF-ove ili druge dokumente.
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

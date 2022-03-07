@@ -3,7 +3,6 @@ title: Odredite troškove za projekat i procenjene prihode
 description: Kako da odredite troškove projekta i procene prihoda u aplikaciji Project Service
 author: ruhercul
 manager: kfend
-ms.prod: ''
 ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
@@ -19,16 +18,14 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: a91e988632d2b2cdebfe7fd17516c5d6886728fc
-ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
+ms.openlocfilehash: 66fa8f4374caa08b07663cc9d261bfff8ce30c87
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: sr-Latn-RS
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "5148840"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4133025"
 ---
 # <a name="determine-project-cost-and-revenue-estimates"></a>Odredite troškove za projekat i procenjene prihode 
-
-[!include [banner](../includes/psa-now-project-operations.md)]
 
 [!INCLUDE[cc-applies-to-psa-app-1x-2x](../includes/cc-applies-to-psa-app-1x-2x.md)]
 
@@ -42,14 +39,14 @@ Svaki projekat pripada organizaciji (naznačenoj u **Vlasnička jedinica** u pro
   
 Ako kombinacija uloge, jedinice i organizacione jedinice ne rezultuje cenom koštanja iz cenovnika vlasničke jedinice, jedinica se zanemaruje u korist kombinacije uloge i organizacione jedinice. Ako postoji cena koštanja, ovaj cena se konvertuje u jedinicu koju odaberete u stavki procene.  
   
-Ako kombinacija uloge i organizacione jedinicu ne dovede do cene koštanja, organizaciona jedinica se zanemaruje u korist kombinacije uloge i jedinice i cena postaje podrazumevana nakon primene bilo kakve konverzije, ako je potrebna.  
+Ako kombinacija uloge i organizacione jedinicu ne dovede do cene koštanja, organizaciona jedinica se zanemaruj u korist kombinacije uloge i jedinice i cena postaje podrazumevana nakon primene bilo kakve konverzije, ako je potrebna.  
   
  Ako nema cene za ulogu, cena koštanja će podrazumevano prikazivati 0,00 na stavci procene.  
   
  Svi iznosi troškova na stavkama procene troškova za projekat su u valuti vlasničke organizacione jedinice.  
   
 ## <a name="sales-price-defaulting"></a>Podrazumevana prodajna cena  
-Cenovnik prodaje je zasnovan na entitetu prodaje kome je projekat priložen. Cenovnik prodaje povezan sa ponudom ili ugovorom određuje jedinicu cene za prodaju. Ako ponuda ili ugovor imaju prilagođeni cenovnik, to je podrazumevani cenovnik prodaje za procene projekta. Ako nema povezivanja sa entitetima prodaje, onda će podrazumevani cenovnik prodaje konfigurisan u postavkama parametara biti podrazumevani cenovnik prodaje za projekat. Svaka stavka procene ima povezanu organizacionu jedinicu resursa koja ukazuje na organizacionu jedinicu iz koje će biti rezervisani resursi za dovršavanje zadataka. Prodajna cena za povezane uloge se određuje pretraživanjem kombinacije uloge, jedinice i organizacione jedinice resursa u cenovniku troškova da biste dobili ispravnu prodajnu cenu za datum efektive u stavkama procene.  
+Cenovnik prodaje je zasnovan na entitetu prodaje kome je projekat priložen. Cenovnik prodaje povezan sa ponudom ili ugovorom određuje jedinicu cene za prodaju. Ako ponuda ili ugovor imaju prilagođeni cenovnik, ovo će biti podrazumevani cenovnik prodaje za procene projekta. Ako nema povezivanja sa entitetima prodaje, onda će podrazumevani cenovnik prodaje konfigurisan u postavkama parametara biti podrazumevani cenovnik prodaje za projekat. Svaka stavka procene ima povezanu organizacionu jedinicu resursa koja ukazuje na organizacionu jedinicu iz koje će biti rezervisani resursi za dovršavanje zadataka. Prodajna cena za povezane uloge se određuje pretraživanjem kombinacije uloge, jedinice i organizacione jedinice resursa u cenovniku troškova da biste dobili ispravnu prodajnu cenu za datum efektive u stavkama procene.  
   
 Ako kombinacija uloge, jedinice i organizacione jedinice resursa ne dovede do prodajne cene iz cenovnika prodaje, sistem će zanemariti jedinicu i potražite kombinaciju uloge i organizacione jedinice resursa. Ako se prodajna cena pronađe, ona se konvertuje u jedinicu koju odaberete u stavki procene za prodaju.  
   
@@ -61,7 +58,7 @@ Prikaz procena ima prikaz mreže koji prikazuje ravnomernu mrežu stavki procene
 U prikazu procena za projekat u vremenu, podaci o procenama iz prikaza koordinatne mreže se podrazumevano okreću po ulozi i prikazuje se širenje podataka o proceni na vremenskoj osi u odabranoj skali vremena.  
   
 ## <a name="effort-estimate-allocation-based-on-task-mode"></a>Dodela procene truda na osnovu režima zadatka  
-U prikazu u vremenu, ukupan procenjeni trud za zadatak je distribuiran dodeljivanjem određenog broja sati truda časova po jedinici vremena odabrane skale vremena. U funkciji project service, režim zadatka određuje način dodeljivanja truda tokom trajanja zadatka. Dve vrste dodele su ravnomerna dodela i dodela na osnovu radnog vremena. 
+U prikazu u vremenu, ukupan procenjeni trud za zadatak je distribuiran dodeljivanjem određenog broja sati truda časova po jedinici vremena odabrane skale vremena. U funkciji project service, režim zadatka određuje način dodeljivanja truda tokom trajanja zadatka. Dve vrste dodele su ravnomerna dodela i dodela na osnovu radnog vremena  
   
 ## <a name="work-hours-based-allocation"></a>Dodela na osnovu radnog vremena  
 Režim automatskog zakazivanja zadataka nalaže da se, za broj resursa procenjenih u zadatku, procenjuje da su oni iskorišćeni puno radno vreme po danu. Ovo se primenjuje i kada se dodeljuje trud podelom po trajanju zadataka u prikazu u vremenu. Na primer, na vremenskoj skali „Dan“, za zadatak za koji je procenjeno da će ga dovršiti jedan resurs, trud dodeljen po danu neće premašiti radno vreme po danu definisano u kalendaru projekta. Stoga, dodela truda uvek osigurava da bude procenjeno da se resursi koriste pun dan.  
@@ -72,12 +69,12 @@ Režim ručnog zakazivanja zadatka ne poštuje radne časove, kalendar projekta 
 Režim zadataka definisan u zadatku na ovaj način određuje distribuciju ili dodelu truda po jedinici vremenskog perioda u procenama u vremenu.  
   
 ## <a name="grouping-and-time-phasing-options"></a>Opcije grupisanja i prikazivanja u vremenu  
-Ovaj prikaz vam pomaže da razumete distribuciju truda, cene i procene prodaje na osnovu dana, sedmice, meseca ili godine. Opcija „Grupiši po“ omogućava usmeravanje podataka procena na dva druga aspekta: kategoriju i resurs. U prikazu mreže i prikazu u vremenu možete izabrati polja koja se prikazuju. Ukupni iznosi za svaki blok vremena se prikazuju na dnu, pokazujući ukupan procenjeni trud, cenu i prodaju za dan, nedelju, mesec ili godinu.  
+Ovaj prikaz vam pomaže da razumete distribuciju truda, cene i procene prodaje na osnovu dana, sedmice, meseca ili godine. Opcija „Grupiši po“ omogućava usmeravanje podataka procena na dva druga aspekta: kategoriju i resurs. U prikazu mreže i prikazu u vremenu možete izabrati polja koja se prikazuju. Ukupni iznosi za svaki blok vremena se prikazuju na dnu, pokazujući ukupan procenjeni trud, cenu i prodaju za dan, sedmicu, mesec ili godinu.  
   
-Podrazumevana cena koštanja i prodajna cena stupaju na snagu određenog datuma. Kada se stope za ulogu promene, to će biti transparentnije u prikazu u vremenu prilikom prikaza podataka procene usmerenih na „Resurs“ i prikaza po sedmicama.  
+Određivanje podrazumevane cene i prodajne cene uzima efektivni datum – kada se stope za ulogu promene, to će biti transparentnije u prikazu u vremenu prilikom prikaza podataka procene usmerenih na „Resurs“ i prikaza po sedmicama.  
   
 ## <a name="expense-estimates"></a>Procene troškova  
-Svi troškovi koji će nastati u toku projekta koji nisu direktno u vezi sa radom koji će se obavljati se mogu zabeležiti u procenama projekta u prikazu mreže. Pomoću opcije **Dodaj procenu troškova** u prikazu mreže možete to da postignete. Možete zabeležiti procene troškova za određeni zadatak ili za ceo projekat. U ovim redovima možete odabrati kategorije troškova i odabrati okvirni datum kada se očekuje da će troškovi nastati. Ako povezani troškovnik i cenovnik prodaje ima podrazumevane cene ili procente marže definisane u kategorijama troškova, on će biti podrazumevano prikazan u stavci procene po povezivanju.  
+Svi troškovi koji će nastati u toku projekta koji nisu direktno u vezi sa radom koji će se obavljati mogu se zabeležiti u procenama projekta u prikazu mreže. Pomoću opcije **Dodaj procenu troškova** u prikazu mreže možete to da postignete. Procene troškova se mogu zapisati za određeni zadatak ili za ceo projekat; možete izabrati kategorije troškova za ove stavke i odabrati uslovni datum kada se očekuje da dođe do troškova. Ako povezani troškovnik i cenovnik prodaje ima podrazumevane cene ili procente marže definisane u kategorijama troškova, on će biti podrazumevano prikazan u stavci procene po povezivanju.  
   
 ### <a name="see-also"></a>Takođe pogledajte  
  [Vodič za menadžera projekta](../psa/project-manager-guide.md)

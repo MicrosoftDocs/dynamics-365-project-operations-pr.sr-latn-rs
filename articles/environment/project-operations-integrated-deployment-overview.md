@@ -8,12 +8,12 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 035ad22d2b51182c11e5c29d35f74f499fc903d5
-ms.sourcegitcommit: d33ef0ae39f90fe3b0f6b4524f483e8052057361
+ms.openlocfilehash: 770947835af41bd06c02ca08b6ed8e810b9bdcf8
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: sr-Latn-RS
-ms.lasthandoff: 11/03/2020
-ms.locfileid: "4365601"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5289971"
 ---
 # <a name="project-operations-for-resourcenon-stocked-based-scenarios-deployment-overview"></a>Prikaz primene usluge Project Operations za scenarije zasnovane na resursima/bez zaliha
 
@@ -43,3 +43,6 @@ Ovu primenu treba da odaberete u očekivanju da će Project Operations koristiti
 - Zahtevajte bogat mehanizam za izračunavanje poreza na promet i kursne liste na nivou preduzeća da biste generisali fakture za projekte u okruženju klijenata.
 - Sistem računovodstva projekata i priznavanja prihoda koji je usklađen sa Međunarodnim standardima finansijskog izveštavanja (IFRS).
 - Aplikacije Finance ili Supply Chain Management i integracija transakcija zasnovanih na projektima.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -2,8 +2,6 @@
 title: Rasporedi projekata
 description: Ova tema pruža informacije o tome kako da kreirate raspored.
 author: ruhercul
-manager: kfend
-ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 3/01/2019
@@ -18,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 2877f12a9ea3d288c4cf41f406cd8ca3e6cee821
-ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
-ms.translationtype: HT
+ms.openlocfilehash: 192fbe7f26a2bd060ffe9bc0b1eea50b9431bca4696e3da1d94bf53158e026a6
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.translationtype: MT
 ms.contentlocale: sr-Latn-RS
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "5148435"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6998433"
 ---
 # <a name="project-schedules"></a>Rasporedi projekata 
 
@@ -96,7 +94,7 @@ Mreža **Raspored** je potpuno dostupna i može se koristiti sa čitačima ekran
 
 Ime zadatka opisuje posao koji mora da se dovrši. U aplikaciji PSA, atributi koji su povezani sa zadatkom opisuju raspored zadatka i njegove potrebe za angažovanjem resursa.
 
-> ![Atributi zadatka](media/project-2.png)
+> ![Atributi zadatka.](media/project-2.png)
  
 ### <a name="schedule-attributes"></a>Zakazivanje atributa
 
@@ -149,3 +147,6 @@ Ako zadatak čvora lista nema prethodne zadatke, njegov datum početka se podraz
 ### <a name="manual-scheduling"></a>Ručno planiranje
 
 Ako pravila automatskog zakazivanja ne zadovoljavaju vaše potrebe, možete da podesite režim zadatka na **Ručno zakazano**. Podešavanje zaustavlja mehanizam za zakazivanje, pa ne može da izračuna vrednosti drugih atributa zakazivanja. Bez obzira na režim zadatka, ako za zadatke podesite prethodne zadatke, uvek utičete na datum početka zavisnog zadatka.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

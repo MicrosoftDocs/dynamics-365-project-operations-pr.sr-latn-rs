@@ -2,11 +2,9 @@
 title: Kreirajte napredne ugovore za naplatu na osnovu napretka
 description: Ova tema objašnjava kako se kreiraju projektni ugovori tako da možete generisati fakture za klijente na osnovu procenta završenog posla.
 author: RadhikaRS
-manager: AnnBe
 ms.date: 03/26/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kfend
@@ -18,12 +16,12 @@ ms.search.industry: Service industries
 ms.author: andchoi
 ms.dyn365.ops.version: 7
 ms.search.validFrom: 2019-01-15
-ms.openlocfilehash: 1a83785a9db4dffc4585acf11ef971c08594f312
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
-ms.translationtype: HT
+ms.openlocfilehash: 661e8aa0be70e9c8aadcb3a3d9dd6d39d1bcb2fd55d198b3c9af19fc2d0ae9d3
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.translationtype: MT
 ms.contentlocale: sr-Latn-RS
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4083709"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7000998"
 ---
 # <a name="create-advanced-contracts-for-billing-based-on-progress"></a>Kreirajte napredne ugovore za naplatu na osnovu napretka
 [!include [banner](../includes/banner.md)]
@@ -103,3 +101,6 @@ Kategorije budžeta se koriste za automatsko izračunavanje iznosa faktura za pr
 8. Opcionalno: Dodelite pravilo naplate dodatnim projektima. Na brzoj kartici **Projekat**, u odeljku **Dostupni projekti** izaberite projekat, a zatim pritisnite dugme sa strelicom udesno da biste dodali projekat u odeljak **Odabrani projekti**.
 9. Opcionalno: Izračunajte procentualni iznos koji kupac zadržava od plaćanja na računu. Na brzoj kartici **Uslovi zadržavanja plaćanja** izaberite izvor finansiranja, a zatim u polju **Procenat zadržavanja** unesite procenat zadržavanja.
 10. Ponovite ove korake da biste kreirali dodatna pravila za obračun za projektni ugovor.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

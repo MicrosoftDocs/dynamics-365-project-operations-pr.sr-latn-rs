@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: d8c212ef2c9fd9dcd6be0b8f0a31aa5a948176bc
-ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
+ms.openlocfilehash: 25f1af15c03001a92f96689ff36a3159a5352a46
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: sr-Latn-RS
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "5147670"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5283250"
 ---
 # <a name="working-with-the-project-service-automation-data-model"></a>Rad sa Project Service Automation modelom podataka
 
@@ -123,3 +123,6 @@ Kada radite sa entitetom **Stvarne vrednosti**, važno je da shvatite koja se tr
 Entitet **Poreklo transakcije** beleži poreklo zapisa **Stvarna vrednost**, a entitet **Veza transakcije** beleži povezane zapise za zapis **Stvarna vrednost**. Pored toga, zapis **Stvarna vrednost** sadrži reference na projekat, ugovor o projektu (porudžbinu), resurs koji se može rezervisati i klijenta.
 
 ![Dijagram koji prikazuje transakcionu vezu, poreklo i stvarne odnose](media/PS-Reporting-image6.png "Dijagram koji prikazuje transakcionu vezu, poreklo i stvarne odnose")
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

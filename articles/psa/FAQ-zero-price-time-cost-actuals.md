@@ -2,6 +2,8 @@
 title: Zašto se cena podrazumevano vraća na nulu u stvarnim podacima o ceni za utrošeno vreme?
 description: Rešavanje problema zbog čega se cena podrazumevano vraća na 0 u stvarnim podacima o ceni za utrošeno vreme.
 author: rumant
+manager: kfend
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 8/21/2018
@@ -16,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: ffe915a48f088bde457121a323325ba490c24e45
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: 635fe6dfb547e8b9f96ca1786912309a770e24c2
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: sr-Latn-RS
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "5993073"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5146275"
 ---
 # <a name="why-is-the-price-defaulting-to-zero-on-time-cost-actuals"></a>Zašto se cena podrazumevano vraća na nulu u stvarnim podacima o ceni za utrošeno vreme?
 
@@ -64,6 +66,3 @@ Ako i dalje ne vidite važeću cenu u stvarnom podatku o ceni za utrošeno vreme
 
 
 
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

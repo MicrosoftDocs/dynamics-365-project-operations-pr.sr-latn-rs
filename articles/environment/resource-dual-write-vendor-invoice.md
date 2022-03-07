@@ -2,17 +2,19 @@
 title: Integracija fakture dobavljača
 description: Ova tema pruža informacije o integraciji fakture dobavljača u Project Operations.
 author: sigitac
+manager: Annbe
 ms.date: 04/27/2021
 ms.topic: article
 ms.prod: ''
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 538a2694591f1d0d368ee0ffeed9bdf12cb47420c3d0571f75185fe433f23436
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 07839436c3777b0554e0721d250bff643e38c088
+ms.sourcegitcommit: 02f00960198cc78a5e96955a9e4390c2c6393bbf
 ms.translationtype: HT
 ms.contentlocale: sr-Latn-RS
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6986508"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "5955826"
 ---
 # <a name="vendor-invoice-integration"></a>Integracija fakture dobavljača
 
@@ -36,7 +38,7 @@ U Project Operations, fakture dobavljača u vezi sa projektom objavljuju se kori
 
 Pomoćna knjiga poreza, pomoćna knjiga dobavljača i druga finansijska knjiženja evidentiraju se prema potrebi u Dynamics 365 Finance kada se faktura dobavljača objavi.
 
-![Integracija fakture dobavljača.](media/DW7VendorInvoice.png)
+![Integracija fakture dobavljača](media/DW7VendorInvoice.png)
 
 Kada se zapisi upisuju u **Račun dobavljača** entitet u Dataverse, započinje automatizovani postupak odobravanja zapisa. Ako je potrebno, status automatskog postupka odobravanja može se pregledati u Dataverse odlaskom u **Napredna podešavanja** > **Sistem** > **Sistemski poslovi**. Nakon završetka odobrenja, sistem kreira zapisi klase transakcija materijala u entitetu **Stvarni podaci**.
 

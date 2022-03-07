@@ -2,8 +2,6 @@
 title: Šta je Dynamics 365 Project Service Automation?
 description: Uvod i pregled aplikacije Project Service
 author: stsporen
-manager: kfend
-ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 9/23/2019
@@ -18,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: a78d8a2085821d6ba44750cfdba909c2c38b42ff
-ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
+ms.openlocfilehash: 537fa056fd0103e1a4fa05c8e66d408286ee101c
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: sr-Latn-RS
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "5150550"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "5998563"
 ---
 # <a name="what-is-dynamics-365-project-service-automation"></a>Šta je Dynamics 365 Project Service Automation?
 
@@ -47,10 +45,10 @@ Osim toga, da biste lakše nadgledali i kontrolisali troškove za vaš rad zasno
 ## <a name="whats-new-in-psa"></a>Šta je novo u aplikaciji PSA
 Tim sa uzbuđenjem najavljuje naše najnovije ispravke! One se pružaju od poboljšanja korisničkog interfejsa i ispravljanja programskih grešaka do dodavanja novih važnih funkcija i mogućnosti. Vi ste tražili; mi smo slušali.
 
-Pogledajte [Napomene uz izdanje iz oktobra '19.](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/index) da biste videli naša najnovija poboljšanja i dodatke.
+Pogledajte [Napomene uz izdanje iz oktobra '19.](/dynamics365-release-plan/2019wave2/index) da biste videli naša najnovija poboljšanja i dodatke.
 
 ### <a name="in-development"></a>U razvoju
-Da biste videli šta planiramo u bliskoj budućnosti, pređite na [Dynamics 365: plan 1. faze izdanja za 2020.](https://docs.microsoft.com/dynamics365-release-plan/2020wave1/index).
+Da biste videli šta planiramo u bliskoj budućnosti, pređite na [Dynamics 365: plan 1. faze izdanja za 2020.](/dynamics365-release-plan/2020wave1/index).
 
 ## <a name="get-help-with-psa-version-3x"></a>Pronađite pomoć za PSA verzije 3.x
 Tražite resurse koji će vam pomoći da planirate primenu? Pogledajte ove vodiče koje možete preuzeti.
@@ -86,3 +84,6 @@ Tražite resurse koji će vam pomoći da planirate primenu? Pogledajte ove vodi�
  <a name="heroArea"></a> [![ProjectService_IntroVideo](../psa/media/project-service-intro-video.png "ProjectService_IntroVideo")](https://go.microsoft.com/fwlink/p/?LinkId=799457)
 
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

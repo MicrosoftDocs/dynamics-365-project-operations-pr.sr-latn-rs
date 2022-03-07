@@ -2,18 +2,16 @@
 title: Predmeti mogućnosti za poslovanje zasnovani na projektu
 description: Ova tema pruža informacije o radu sa predmetima mogućnosti za poslovanje zasnovanim na projektu.
 author: rumant
-manager: Annbe
 ms.date: 10/01/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 0ede474e3d8830b420dc5b183f14327206c10288
-ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
-ms.translationtype: HT
+ms.openlocfilehash: 04e091a58f72a99fb17f37b95f9cac2b4476757b79965177854423361f416d51
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.translationtype: MT
 ms.contentlocale: sr-Latn-RS
-ms.lasthandoff: 10/31/2020
-ms.locfileid: "4181964"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6996363"
 ---
 # <a name="project-based-opportunity-lines"></a>Predmeti mogućnosti za poslovanje zasnovani na projektu
 
@@ -33,3 +31,6 @@ Ispod su polja u predmetu mogućnosti za poslovanje zasnovanom na projektu:
 | +Ime | Kartica Opšti podaci | Ovo je tekstualno polje podložno uređivanju koje se može koristiti za davanje kratkog identiteta ovoj stavci | Ova vrednost se prenosi na stavku ponude kada kreirate ponudu iz ove mogućnosti za poslovanje |
 | Budžet klijenta | Kartica Opšti podaci | Ovo polje valute za uređivanje može se koristiti za praćenje iznosa koji je klijent spreman da potroši za ovu stavku. | Ova vrednost se prenosi na odgovarajuće polje stavke ponude kada ponudu kreirate iz ove mogućnosti za poslovanje |
 | Način naplate | Kartica Opšti podaci | Ovo polje podložno uređivanju ima sledeće vrednosti:</br>- Vreme i materijal</br>- Fiksna cena | Ova vrednost se prenosi na odgovarajuće polje stavke ponude kada ponudu kreirate iz ove mogućnosti za poslovanje. Kada kreirate stavku ponude, polje je zaključano i ne može se promeniti. Dodelite vrednost ovog polja što je tačnije moguće. Ako je potrebno da promenite vrednost ovog polja u stavci ponude, izbrišite i ponovo kreirajte stavku ponude. |
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

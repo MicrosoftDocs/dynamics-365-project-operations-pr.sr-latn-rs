@@ -2,8 +2,6 @@
 title: Procene
 description: Ova tema pruža informacije o procenama u aplikaciji Dynamics 365 Project Service Automation.
 author: rumant
-manager: kfend
-ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 1/31/2019
@@ -18,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 2fa81067ad6e7c291b9ad9468db051e8f6187da9
-ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
-ms.translationtype: HT
+ms.openlocfilehash: ebb59d2b38bf99aed15206646e77c74003aba2a92a6d8d262e6e7b2017285ed3
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.translationtype: MT
 ms.contentlocale: sr-Latn-RS
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "5151450"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6992403"
 ---
 # <a name="estimates"></a>Procene
 
@@ -85,24 +83,27 @@ Ako ste u detalj stavke ponude dodali prilagođeno polje i želite da sistem une
 1. Otvorite PluginRegistrationTool i povežite se sa instancom na mreži.
 2. Izaberite **Pretraga** i potražite dodatnu komponentu za ažuriranje.
 
-    ![Dijalog stabla za pretragu](media/basic-guide-19.png)
+    ![Dijalog stabla za pretragu.](media/basic-guide-19.png)
 
 3. Izaberite dodatnu komponentu, a zatim na glavnoj stranici stavku **Izaberi**.
 4. Izaberite korak dodatne komponente za ažuriranje, kliknite desnim tasterom miša, a zatim izaberite **Ažuriraj**.
 
-    ![Izbor koraka u dodatnoj komponenti](media/basic-guide-20.png)
+    ![Izbor koraka u dodatnoj komponenti.](media/basic-guide-20.png)
 
 5. U dijalogu **Ažuriranje postojećeg koraka**, u polju **Atributi filtriranja**, izaberite dugme sa tri tačke (**...**):
  
-    ![Dijalog Ažuriranje postojećeg koraka](media/basic-guide-21.png)
+    ![Dijalog Ažuriranje postojećeg koraka.](media/basic-guide-21.png)
 
 6. U dijalogu **Izbor atributa** potvrdite izbor u poljima za prilagođene atribute.
 
-    ![Dijalog Izbor atributa](media/basic-guide-22.png)
+    ![Dijalog Izbor atributa.](media/basic-guide-22.png)
 
 7. Izaberite **U redu** da zatvorite dijalog, a zatim izaberite **Ažuriraj korak**.
  
-    ![Dugme Ažuriraj korak](media/basic-guide-23.png)
+    ![Dugme Ažuriraj korak.](media/basic-guide-23.png)
 
 8. Ponovite korake od 1 do 7 za drugu dodatnu komponentu.
 9. Zatvorite PluginRegistrationTool.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -1,25 +1,23 @@
 ---
-title: Upravljanje predračunom – jednostavno
-description: U ovoj temi se pružaju informacije o radu sa predračunima.
+title: Upravljanje predračunom za projekat
+description: Ova tema pruža informacije o načinu rada sa predračunima u projektu.
 author: rumant
-manager: Annbe
-ms.date: 10/27/2020
+ms.date: 04/05/2021
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: cd56b99c3ed455848edbd9ff4419afa58d782a3e
-ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
-ms.translationtype: HT
+ms.openlocfilehash: f14cf9d5ee25247500180081b8f407ee311db481a5ef5eac330e75d45baba54a
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.translationtype: MT
 ms.contentlocale: sr-Latn-RS
-ms.lasthandoff: 10/31/2020
-ms.locfileid: "4181559"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6997443"
 ---
-# <a name="manage-a-proforma-invoice---lite"></a>Upravljanje predračunom – jednostavno
+# <a name="manage-a-proforma-project-invoice"></a>Upravljanje predračunom za projekat 
 
 _**Odnosi se na:** Jednostavna primena – od pogodbe do profakture_
 
-U usluzi Dynamics 365 Project Operations, predračuni se grade kao dodatak fakturama u usluzi Dynamics 365 Sales. Međutim, postoje mnoge razlike u procesu fakturisanja između usluga Sales i Project Operations kada je reč o fakturisanju. Na primer, nije moguće kreirati novu fakturu na stranici **Lista faktura** u usluzi Project Operations, ali to je moguće učiniti u usluzi Sales. Ove razlike i proširenja postoje za podršku procesima fakturisanja za projekte koji se razlikuju od tipične fakture za narudžbenicu.
+U usluzi Dynamics 365 Project Operations, profakture se prave kao dodatak fakturama u usluzi Dynamics 365 Sales. Međutim, postoje mnoge razlike u procesu fakturisanja između usluga Sales i Project Operations kada je reč o fakturisanju. Na primer, nije moguće kreirati novu fakturu na stranici **Lista faktura** u usluzi Project Operations, ali to je moguće učiniti u usluzi Sales. Ove razlike i proširenja postoje za podršku procesima fakturisanja za projekte koji se razlikuju od tipične fakture za narudžbenicu.
 
 > [!IMPORTANT]
 > Zbog tih razlika, nemojte razmenjivati fakture između usluga Sales i Project Operations.
@@ -69,9 +67,9 @@ U usluzi Project Operations, uvek postoji jedna stavka fakture za svaki predmet 
 
 Svaka stavka fakture u fakturi za projekat sadrži detalje stavke fakture. Ovi detalji stavke su povezani sa nenaplaćenim stvarnim vrednostima prodaje i kontrolnim tačkama koje se odnose na predmet ugovora na koji se poziva stavka fakture. Sve ove transakcije su obeležene sa **Spremno za fakturisanje**.
 
-Za stavku **Faktura za vreme i materijal**, detalji stavke fakture su grupisani u **Naplativo**, **Nenaplativo** i **Besplatno** na stranici **Stavka fakture**. Detalji **naplative stavke fakture** se sabiraju u ukupnu vrednost stavke fakture. **Besplatno** i **Nenaplative stvarne vrednosti** se ne sabiraju u ukupnu vrednost stavke fakture.
+Za red **Faktura za vreme i materijal**, detalji stavke fakture se grupišu u **Naplativo**, **Ne naplaćuje se** i **Besplatno** na stranici **Red fakture**. Detalji **naplative stavke fakture** se sabiraju u ukupnu vrednost stavke fakture. Stavke **Besplatno** i **Nenaplativa stvarna vrednost** se ne sabiraju sa ukupnim brojem redova fakture.
 
-Za stavku **Faktura sa fiksnom cenom**, detalji stavke fakture kreiraju se iz kontrolnih tačaka koje su označene kao **Spremno za fakturisanje** u odgovarajućem predmetu ugovora. Kada se kreira detalj stavke fakture iz kontrolne tačke, status naplate na kontrolnoj tački se ažurira na **Faktura kreirana za klijenta**.
+Za red **Faktura sa fiksnom cenom**, detalji stavke fakture kreiraju se iz kontrolnih tačaka koje su označene kao **Spremno za fakturisanje** na odgovarajućem predmetu ugovora. Kada se kreira detalj stavke fakture iz kontrolne tačke, status naplate na kontrolnoj tački se ažurira na **Faktura kreirana za klijenta**.
 
 ### <a name="edit-invoice-line-details"></a>Uređivanje detalja stavki fakture
 
@@ -98,8 +96,12 @@ Sledeća polja su dostupna na detaljima stavke fakture koji su podržani stvarni
 | **Porez** | Podrazumevano postavljeno iz stvarne vrednosti izvora. Korisnik može da uređuje ovo polje | Korisnik može da uređuje polje prilikom kreiranja novog detalja stavke fakture bez podrške stvarne vrednosti. |
 | **Prošireni iznos** | Izračunato polje, izračunava se kao **Iznos + porez**. Polje samo začitanje koje je zaključano za uređivanje. | &nbsp; |
 | **Tip naplate** | Podrazumevano postavljeno iz stvarne vrednosti izvora. Korisnik može da uređuje ovo polje. | Izbor **Naplativo** dodaje stavku u ukupan iznos fakture. **Besplatno** i **Nenaplativo** će ga izuzeti iz ukupne vrednosti stavke fakture. |
+| **Izaberite proizvod** | Podrazumevano podešeno iz stvarnog izvora, ovo je polje samo za čitanje. | Kada kreirate novi detalj stavke fakture bez podržane stvarne vrednosti, ovo polje se može urediti. |
+| **Proizvod** | Podrazumevano podešeno iz stvarnog izvora, ovo je polje samo za čitanje. | Kada kreirate novi detalj stavke fakture bez podržane stvarne vrednosti, ovo polje se može urediti ako se polje **Izaberite proizvod** postavi na **Postojeći proizvod**. |
+| **Naziv proizvoda** | Podrazumevano podešeno iz stvarnog izvora, ovo je polje samo za čitanje. | Na novom detalju stavke fakture, gde je ID proizvoda izabran iz kataloga, ovo polje se postavlja na naziv proizvoda. Za ručno dodat proizvod, polje se postavlja na ručno upisan naziv. |
+| **Ručno dodat opis** | Podrazumevano podešeno iz stvarnog izvora, ovo je polje samo za čitanje. | Kada kreirate novi detalj stavke fakture bez podržane stvarne vrednosti, možete dodati ručno upisan opis za proizvod. |
 | **Tip transakcije** | Podrazumevano postavljeno iz stvarne vrednosti izvora. Polje samo začitanje koje je zaključano za uređivanje. | Podrazumevano se postavlja na **Naplaćena prodaja** i zaključava prilikom kreiranja novog **Detalja stavke fakture** bez podrške stvarne vrednosti.  |
-| **Klasa transakcije** | Podrazumevano postavljeno iz stvarne vrednosti izvora. Polje samo začitanje koje je zaključano za uređivanje. | Podrazumevano se postavlja na osnovu toga da li korisnik bira da kreira detalj stavke fakture za **vreme**, **trošak** ili **naknadu**, istovremeno kreirajući novi **Detalj stavke fakture** bez podrške stvarne vrednosti. Zaključano za uređivanje. |
+| **Klasa transakcije** | Podrazumevano postavljeno iz stvarne vrednosti izvora. Polje samo začitanje koje je zaključano za uređivanje. | Podrazumevano podešeno na osnovu toga da li korisnik odlučuje da kreira detalj **Vreme**, **Trošak**, **Materijal** ili **Nadoknada** stavke fakture, istovremeno kreirajući i novi **Detalj stavke fakture** bez podržane stvarne vrednosti. Zaključano za uređivanje. |
 
 Sledeća polja su dostupna na detaljima stavke fakture koji su podržani kontrolnom tačkom:
 
@@ -144,3 +146,6 @@ Ako imate stvarne vrednosti koje su stigle nakon kreiranja fakture, možete ih u
 U usluzi Project Operations možete kreirati stavke fakture za proizvode koji se ne odnose na bilo koji projekat ili za sve projekte, zajedno sa stavkama faktura zasnovanih na projektu. Ove stavke faktura kreiraju se kao predmeti ugovora zasnovani na proizvodu i nakon što se označe kao spremni za fakturisanje, dodaju se kao stavke faktura zasnovane na proizvodu.
 
 Kada dodate stavke faktura zasnovane na proizvodu, one se više ne mogu menjati. One se, međutim, mogu izbrisati iz radne verzije predračuna.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

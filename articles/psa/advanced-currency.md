@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: bdb9ccad84e0f510118502d4253f5c83a760f8bb
-ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
+ms.openlocfilehash: 33e44297dc80801c3e4416cd9fc3bedae5f3c4ba
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: sr-Latn-RS
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "5145690"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5291726"
 ---
 # <a name="multiple-currency-scenarios"></a>Scenariji sa više valuta
 
@@ -105,3 +105,6 @@ Dynamics 365 automatski upravlja zbirnim iznosima u različitim valutama. Evo pr
 | Trošak           | Nenaplaćena prodaja   | 17. jun | Dobrilo  | Iznajmljivanje automobila           | 1 ea     | 150 EUR      | 150 EUR     | 0.94          | 159,57 USD     |
 
 Da biste izračunali ukupnu nenaplaćenu prodajnu vrednost za projekat, možete da kreirate polje zbirne vrednosti za polje **Iznos** za sve povezane nenaplaćene stvarne vrednosti prodaje. Polje zbirne vrednosti je konstrukcija sistema Dynamics 365 koja omogućava brze formule za povezane zapise.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

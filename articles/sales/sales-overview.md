@@ -8,18 +8,18 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 5da29d2959a6e49defa185630f45d280dba283c4
-ms.sourcegitcommit: 625878bf48ea530f3381843be0e778cebbbf1922
+ms.openlocfilehash: 8300887e7c5fbd78343d16d191775a67e43138e2
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: sr-Latn-RS
-ms.lasthandoff: 10/30/2020
-ms.locfileid: "4177618"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5277400"
 ---
 # <a name="sales-process-overview"></a>Pregled procesa prodaje
 
 _**Odnosi se na:** Project Operations za resurs/scenarije koji nisu zasnovani na zalihama, laganu primenu – od pogodbe do profakture_
 
-Procesi prodaje koji se koriste u organizaciji zasnovanoj na projektima razlikuju se od procesa prodaje koji se koriste u organizaciji zasnovanoj na proizvodima. To je zato što su ciklusi prodaje za organizacije zasnovane na projektima duži i zahtevaju prilagođene tehnike procena za analiziranje i kreiranje ponuda za svaku pogodbu. Dynamics 365 Project Operations koristi neke od sledećih funkcionalnosti koje se koriste u procesu prodaje.
+Procesi prodaje koji se koriste u organizaciji zasnovanoj na projektima razlikuju se od procesa prodaje koji se koriste u organizaciji zasnovanoj na proizvodima. To je zato što su ciklusi prodaje za organizacije zasnovane na projektima duži i zahtevaju prilagođene tehnike procena za analiziranje i kreiranje ponuda za svaku pogodbu. Dynamics 365 Project Operations koristi neke od sledećih funkcija koje se koriste u procesu prodaje:
 
 - Zapis Potencijalni klijent se koristi za praćenje procesa prodaje.
 - Kvalifikovani potencijalni klijenti se prate kao mogućnosti za poslovanje.
@@ -63,3 +63,6 @@ U Project Operations ne možete da pratite revizije ponude. Umesto toga, morate 
 
 ## <a name="track-comments-and-approvals-of-quotes-and-project-contracts"></a>Praćenje komentara za ponude i odobrenja ponuda i projektnih ugovora
 Redigovanjima i odobrenjima ponuda i ugovora o projektima možete da upravljate pomoću Zida za zapise i objava. Vaša organizacija može da kreira prilagođene tokove posla i dodatne komponente za dodeljivanje, preusmeravanje i eskaliranje obaveštenja o radnim stavkama pregleda i odobrenja, kao i da upravlja njima.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -2,18 +2,16 @@
 title: Konfigurisanje kategorija projekta
 description: Ova tema pruža informacije o podešavanju kategorija projekata.
 author: sigitac
-manager: Annbe
 ms.date: 10/01/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 3698b68b5dd0460343d26af0fcea5b9a56be4083
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
-ms.translationtype: HT
+ms.openlocfilehash: cea43422469adf12f336f7686814a8199717090c18804d3d0a7509452349566e
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.translationtype: MT
 ms.contentlocale: sr-Latn-RS
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4131945"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6997128"
 ---
 # <a name="configure-project-categories"></a>Konfigurisanje kategorija projekta
 
@@ -25,7 +23,7 @@ Sledeći dijagram ilustruje korelaciju između kategorija transakcija, deljenih 
 
 Kategorije transakcija su osnovno grupisanje za projektne transakcije. Unutar te grupacije postoji skup deljenih kategorija koje se mogu deliti između aplikacija i modula. Ulazeći još dalje u detalje, kategorije projekata su najosnovniji nivo kategorija. Kategorije projekata su specifične za pravno lice, modul i aplikaciju.
 
-![Korelacija između kategorija transakcija, deljenih kategorija i kategorija projekata](media/project-categories.png)
+![Korelacija između kategorija transakcija, deljenih kategorija i kategorija projekata.](media/project-categories.png)
 
 ## <a name="transaction-categories"></a>Kategorije transakcija
 
@@ -53,3 +51,6 @@ Kategorije projekata predstavljaju najosnovniji nivo konfiguracije kategorija i 
 Grupe kategorija koriste se za deljenje svojstava, pre svega profila za knjiženje, između povezanih kategorija projekta. Za svaku vrstu transakcije mora postojati najmanje jedna grupa kategorija, a svakoj kategoriji projekta dodeljena je grupa.
 
 Specifikacije knjiženja u usluzi Project Operations definisane su pravilima profila troškova i prihoda projekta, kategorijama projekata i grupama kategorija. Možete da podesite grupe kategorija ako odete na **Upravljanje projektima i računovodstvo** \> **Podešavanje** \> **Kategorije** \> **Grupe kategorija**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

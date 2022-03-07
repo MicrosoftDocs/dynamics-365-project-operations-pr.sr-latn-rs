@@ -2,11 +2,9 @@
 title: Podešavanje prodajnog cenovnika
 description: Ova tema pruža informacije o radu sa prodajnim cenovnicima za određivanje cena proizvoda u projektu.
 author: rumant
-manager: AnnBe
 ms.date: 09/18/2020
 ms.topic: article
 ms.prod: ''
-ms.service: project-operations
 audience: Application User
 ms.reviewer: kfend
 ms.search.scope: ''
@@ -17,12 +15,12 @@ ms.search.industry: Service industries
 ms.author: suvaidya
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: eb8dfa61a2d17ba644daf1552889cbcde0f1e47a
-ms.sourcegitcommit: 625878bf48ea530f3381843be0e778cebbbf1922
-ms.translationtype: HT
+ms.openlocfilehash: 952d518fb58b5be46c4b1cf4ed57b2494fdfdad85e7fe6fb0d622367bc071b5f
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.translationtype: MT
 ms.contentlocale: sr-Latn-RS
-ms.lasthandoff: 10/30/2020
-ms.locfileid: "4176268"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6997623"
 ---
 # <a name="set-up-a-sales-price-list"></a>Podešavanje prodajnog cenovnika
 
@@ -59,3 +57,6 @@ U ugovoru o projektu se koristi sledeći redosled prioriteta da bi se automatski
 Kada se cenovnik projekta unese podrazumevano, sistem proverava da li se valuta podudara sa valutom klijenta i da li podrazumevani cenovnici koji su uneti imaju kontekst **prodaje**.
 
 Možete da povežete više cenovnika projekta sa entitetima Klijent, Mogućnost za poslovanje, Ponuda i Ugovor o projektu. Ova mogućnost podržava podrazumevane cene za određeni datum za dugoročni ugovor o projektu, gde možete da zahtevate više od jednog cenovnika kako biste u obzir uzeli izmene cena do kojih dolazi zbog inflacije. Međutim, ako se za cenovnike koje povežete sa entitetom Klijent, Mogućnost za poslovanje, Ponuda ili Ugovor o projektu preklapaju datumi stupanja na snagu, podrazumevane cene mogu biti netačne. Zbog toga bi trebalo da proverite da cenovnici projekata sa datumima stupanja na snagu koji se preklapaju nisu povezani sa tim entitetima.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

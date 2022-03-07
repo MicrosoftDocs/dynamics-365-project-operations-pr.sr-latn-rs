@@ -2,10 +2,9 @@
 title: Matična stranica za izveštavanje
 description: Ova tema pruža informacije o izveštavanju u aplikaciji Dynamics 365 Project Service Automation.
 author: ruhercul
-manager: kfend
-ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
+- intro-internal
 ms.date: 03/01/2019
 ms.topic: article
 ms.author: ruhercul
@@ -18,28 +17,28 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 25486b0c153842cab4331f27eea4872f848bea50
-ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
-ms.translationtype: HT
+ms.openlocfilehash: 4e60fc8c3788f4a2997d894e79d0d510d63209dd1570d79f1c43c2814d8ab819
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.translationtype: MT
 ms.contentlocale: sr-Latn-RS
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "5147715"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6998298"
 ---
-# <a name="reporting-home-page"></a>Matična stranica za izveštavanje
+# <a name="reporting-home-page"></a>Početna stranica za izveštavanje
 
 [!include [banner](../includes/psa-now-project-operations.md)]
 
 [!INCLUDE[cc-applies-to-psa-app-3.x](../includes/cc-applies-to-psa-app-3x.md)]
 
-Microsoft Dynamics 365 Project Service Automation omogućava da organizacije zasnovane na projektima efikasno upravljaju poslovnim operacijama preduzeća. Na bilo kojem projektu, članovi tima moraju da upravljaju mogućnostima za poslovanje, daju poslovnu ponudu i planiraju posao, obezbeđuju resurse za projekte, upravljaju poslom prema planu, naplaćuju za posao, a zatim obavljaju ostale poslove kako bi projekat priveli kraju. Mogućnost izveštavanja o poslovnim operacijama je ključna za utvrđivanje stanja organizacije i preduzimanje bilo kakvih korektivnih postupaka koji su potrebni. PSA koristi Microsoft Dynamics 365 metode i tehnologije izveštavanja za celokupno izveštavanje. Još informacija o opcijama za izveštavanje potražite u odeljku [Vodič za pisanje izveštaja za Dynamics 365 Customer Engagement (on-premises), verziju 9](https://docs.microsoft.com/dynamics365/customerengagement/on-premises/analytics/reporting-analytics-with-dynamics-365).
+Microsoft Dynamics 365 Project Service Automation omogućava da organizacije zasnovane na projektima efikasno upravljaju poslovnim operacijama preduzeća. Na bilo kojem projektu, članovi tima moraju da upravljaju mogućnostima za poslovanje, daju poslovnu ponudu i planiraju posao, obezbeđuju resurse za projekte, upravljaju poslom prema planu, naplaćuju za posao, a zatim obavljaju ostale poslove kako bi projekat priveli kraju. Mogućnost izveštavanja o poslovnim operacijama je ključna za utvrđivanje stanja organizacije i preduzimanje bilo kakvih korektivnih postupaka koji su potrebni. PSA koristi Microsoft Dynamics 365 metode i tehnologije izveštavanja za celokupno izveštavanje. Još informacija o opcijama za izveštavanje potražite u odeljku [Vodič za pisanje izveštaja za Dynamics 365 Customer Engagement (on-premises), verziju 9](/dynamics365/customerengagement/on-premises/analytics/reporting-analytics-with-dynamics-365).
 
 ## <a name="report-wizard"></a>Čarobnjak za izveštaje
 
-Čarobnjak za izveštaje omogućava onima koji nisu programeri da kreiraju jednostavne izveštaje. Budući da je aplikacija razvijena na postojećoj platformi, iskustvo je isto kao iskustvo dokumentovano u članku [Kreiranje ili izmena izveštaja pomoću čarobnjaka za izveštaje](https://docs.microsoft.com/dynamics365/customerengagement/on-premises/basics/create-edit-copy-report-wizard). Međutim, koristićete entitete specifične za Project Service Automation.
+Čarobnjak za izveštaje omogućava onima koji nisu programeri da kreiraju jednostavne izveštaje. Budući da je aplikacija razvijena na postojećoj platformi, iskustvo je isto kao iskustvo dokumentovano u članku [Kreiranje ili izmena izveštaja pomoću čarobnjaka za izveštaje](/dynamics365/customerengagement/on-premises/basics/create-edit-copy-report-wizard). Međutim, koristićete entitete specifične za Project Service Automation.
 
 ## <a name="custom-sql-server-reporting-services-reports"></a>Prilagođeni izveštaji za SQL Server Reporting Services
 
-Ako vaše preduzeće zahteva određeni izveštaj koji se ne može kreirati pomoću čarobnjaka za izveštaje, možete da kreirate prilagođeni izveštaj. Morate instalirati Microsoft Visual Studio, uz odgovarajuće Microsoft SQL Server Data Tools i dodatke za kreiranje izveštaja. Za više informacija o alatkama i verzijama pogledajte članak [Okruženje za pisanje izveštaja koje koristi SQL Server Data Tools](https://docs.microsoft.com/dynamics365/customerengagement/on-premises/analytics/report-writing-environment-using-sql-server-data-tools). Informacije o kreiranju prilagođenog izveštaja potražite u članku [Kreiranje novog izveštaja pomoću usluge SQL Server Data Tools](https://docs.microsoft.com/dynamics365/customerengagement/on-premises/analytics/create-a-new-report-using-sql-server-data-tools).
+Ako vaše preduzeće zahteva određeni izveštaj koji se ne može kreirati pomoću čarobnjaka za izveštaje, možete da kreirate prilagođeni izveštaj. Morate instalirati Microsoft Visual Studio, uz odgovarajuće Microsoft SQL Server Data Tools i dodatke za kreiranje izveštaja. Za više informacija o alatkama i verzijama pogledajte članak [Okruženje za pisanje izveštaja koje koristi SQL Server Data Tools](/dynamics365/customerengagement/on-premises/analytics/report-writing-environment-using-sql-server-data-tools). Informacije o kreiranju prilagođenog izveštaja potražite u članku [Kreiranje novog izveštaja pomoću usluge SQL Server Data Tools](/dynamics365/customerengagement/on-premises/analytics/create-a-new-report-using-sql-server-data-tools).
 
 ## <a name="power-bi-insights-apps"></a>Power BI aplikacije za uvide
 
@@ -52,3 +51,6 @@ Za više informacija o izveštavanju u aplikaciji PSA, pogledajte sledeće teme:
 - [Rad sa Project Service modelom podataka](reports-working-project-service-data-model.md)
 - [Kontrolne table](reports-dashboards.md)
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]
