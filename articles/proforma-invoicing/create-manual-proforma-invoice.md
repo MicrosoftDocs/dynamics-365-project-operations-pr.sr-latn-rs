@@ -1,42 +1,25 @@
 ---
-title: Kreiranje ručnog predračuna
-description: Ova tema pruža informacije o kreiranju predračuna.
+title: Predračuni
+description: Ova tema pruža informacije o predračunima u usluzi Project Operations.
 author: rumant
-manager: AnnBe
-ms.date: 09/18/2020
+ms.date: 04/05/2021
 ms.topic: article
 ms.prod: ''
-ms.service: project-operations
-audience: Application User
 ms.reviewer: kfend
-ms.search.scope: ''
-ms.custom: ''
-ms.assetid: ''
-ms.search.region: Global
-ms.search.industry: Service industries
-ms.author: suvaidya
-ms.dyn365.ops.version: ''
-ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: 9d3c84664f1b0701db17f0c05654e0c99bb6c640
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.author: rumant
+ms.openlocfilehash: 2050a313fe530065341410d60801b13eb958cb32ae24eb4a0a71ab7ea5061881
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: sr-Latn-RS
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4128075"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6995643"
 ---
-# <a name="create-a-manual-proforma-invoice"></a>Kreiranje ručnog predračuna
+# <a name="proforma-invoices"></a>Predračuni
 
 _**Odnosi se na:** Project Operations za scenarije zasnovane na resursima / bez zaliha_
 
-Fakturisanje daje menadžerima projektima drugi nivo odobravanja pre nego što kreiraju fakture za klijente. Prvi nivo odobravanja se završi kada se odobre stavke vremena i troškova koje prosleđuju članovi projektnog tima.
+Predračun daje menadžerima projekta drugi nivo odobravanja pre nego što kreiraju fakture za klijente. Prvi nivo odobravanja se završava kada se odobre stavke vremena, troškova i materijala koje prosleđuju članovi projektnog tima. Potvrđeni predračuni su dostupni u modulu Računovodstvo projekata u usluzi Project Operations. Računovođe projekata mogu izvršiti dodatna ažuriranja kao što su porez na promet, računovodstvo i izgled fakture.
 
-Dynamics 365 Project Operations nije dizajniran da generiše fakture u okruženju klijenta iz sledećih razloga:
-
-- Ne sadrži poreske informacije.
-- Ne može da konvertuje druge valute u valutu fakturisanja koristeći ispravno konfigurisane kurseve valuta.
-- Ne može ispravno da formatira fakture kako bi mogle da se štampaju.
-
-Umesto toga, možete da koristite finansijski ili računovodstveni sistem da biste kreirali fakture u okruženju klijenta koje koriste informacije iz generisanih predloga za fakture.
 
 ## <a name="creating-project-invoices"></a>Kreiranje faktura za projekte
 
@@ -50,7 +33,7 @@ Sledite ovaj korak da biste kreirali fakturu za određeni ugovor o projektu.
 
 - Na stranici liste **Ugovori o projektima** otvorite ugovor o projektu, a zatim izaberite **Kreiraj fakturu**.
 
-    Faktura se generiše za sve transakcije za izabrani ugovor o projektu koji imaju status **Spremno za fakturisanje**. Ove transakcije uključuju vreme, troškove, kontrolne tačke i predmete ugovora zasnovane na proizvodu.
+    Faktura se generiše za sve transakcije za izabrani ugovor o projektu koji imaju status **Spremno za fakturisanje**. Te transakcije uključuju vreme, troškove, materijale, kontrolne tačke i druge nefakturisane stavke u glavnoj knjizi prodaje.
 
 Sledite ove korake da biste kreirali fakture masovno.
 
@@ -60,7 +43,7 @@ Sledite ove korake da biste kreirali fakture masovno.
 
 2. Izaberite **U redu** da biste zatvorili polje poruke.
 
-    Faktura se generiše za sve transakcije za predmet ugovora sa statusom **Spremno za fakturisanje**. Ove transakcije uključuju vreme, troškove, kontrolne tačke i predmete ugovora zasnovane na proizvodu.
+    Faktura se generiše za sve transakcije za predmet ugovora sa statusom **Spremno za fakturisanje**. Te transakcije uključuju vreme, troškove, materijale, kontrolne tačke i druge nefakturisane stavke u glavnoj knjizi prodaje.
 
 3. Da biste videli generisane fakture, idite na **Prodaja** \> **Naplata** \> **Fakture**. Videćete jednu fakturu za svaki ugovor o projektu.
 
@@ -93,11 +76,10 @@ Posao grupne obrade za kreiranje faktura je periodični posao. Ako se ova grupna
  
 ### <a name="edit-a-draft-invoice"></a>Uređivanje radne verzije fakture
 
-Kada kreirate radnu verziju fakture za projekat, sve nenaplaćene prodajne transakcije, koje su kreirane kada su stavke vremena i troškova odobrene, prenose se na fakturu. Možete izvršiti sledeća podešavanja dok je faktura još uvek fazi radne verzije:
+Kada kreirate radnu verziju fakture za projekat, na fakturu se prenose sve nenaplaćene transakcije prodaje koje su kreirane kada su stavke vremena, troškova i korišćenja materijala odobrene. Možete izvršiti sledeća podešavanja dok je faktura još uvek fazi radne verzije:
 
 - Izbrišite ili uredite detalje stavke fakture.
 - Uredite i prilagodite količinu i vrstu naplate.
-- U fakturu direktno dodajte vreme, trošak i naknade kao transakcije. Ovu funkciju možete koristiti ako je stavka fakture mapirana u predmet ugovora koji dozvoljava ove klase transakcija.
 
 Izaberite **Potvrdi** da biste potvrdili fakturu. Radnja potvrde ne može da se opozove. Kada izaberete **Potvrdi**, sistem podešava fakturu kao samo za čitanje i kreira stvarne vrednosti naplaćene prodaje iz svakog detalja stavke fakture za svaku stavku fakture. Ako detalj stavke fakture upućuje na stvarne vrednosti nenaplaćene prodaje, sistem takođe stornira stvarnu vrednost nenaplaćene prodaje. (Bilo koji detalj stavke fakture koji je kreiran iz stavke vremena ili troškova upućuje na stvarnu vrednost nenaplaćene prodaje.) Sistemi za integraciju glavne knjige mogu koristiti ovo storniranje da bi opozvali tekući rad na projektu u računovodstvene svrhe.
 
@@ -111,3 +93,6 @@ Kada potvrdite korigovanu fakturu, stornira se originalna stvarna vrednosti napl
 
 - Stvarna vrednosti naplaćene prodaje za šest sati.
 - Stvarna vrednosti nenaplaćene prodaje za preostala dva sata. Ova transakcija može biti naplaćena kasnije ili označena kao nenaplativa, u zavisnosti od pregovora sa klijentom.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

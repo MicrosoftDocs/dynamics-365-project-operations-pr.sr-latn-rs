@@ -2,8 +2,6 @@
 title: Formiranje cena za projekat
 description: Ova tema pruža informacije o načinu formiranja cena u aplikaciji Dynamics 365 Project Service Automation.
 author: rumant
-manager: kfend
-ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 03/11/2019
@@ -18,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 176b84671ca0b5b998c44be4f306d1f8f5200c72
-ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
-ms.translationtype: HT
+ms.openlocfilehash: dfbfb59547f295e5fb275264b9222bfa20517f6278144ca013e14a99454b6840
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.translationtype: MT
 ms.contentlocale: sr-Latn-RS
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "5148930"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7000593"
 ---
 # <a name="project-pricing"></a>Formiranje cena za projekat 
 
@@ -48,7 +46,7 @@ Entitet cenovnika ima tri povezane tabele u kojima se skladište cene:
   - **Cena kategorije transakcije** - Ova tabela skladišti cene po kategoriji transakcije i koristi se za podešavanje cena po kategorijama troškova.
   - **Stavka cenovnika** – Ova tabela skladišti cene za proizvode u katalogu.
 
-> ![Konfigurisanje cena pomoću cenovnika](media/basic-guide-12.png)
+> ![Konfigurisanje cena pomoću cenovnika.](media/basic-guide-12.png)
  
 Cenovnik je cenovna karta. Cenovna karta je kombinacija entiteta cenovnika i srodnih redova u tabelama Cena uloge, Cena kategorije transakcije i Stavke cenovnika.
 
@@ -60,7 +58,7 @@ Vreme ljudskih resursa se obično nudi na osnovu uloge koju resurs ima na određ
 
 Grupa jedinica **Vreme** se kreira kada se instalira PSA. Podrazumevana jedinica je **Čas**. Ne možete izbrisati, preimenovati niti urediti atribute grupe jedinica **Vreme** niti **Čas**. Međutim, možete da dodate druge jedinice u grupu jedinica **Vreme**. Ako pokušate da izbrišete grupu jedinica **Vreme** ili jedinicu **Čas**, možete uzrokovati otkazivanja poslovne logike aplikacije PSA.
 
-> ![Konfigurisanje cena po ulozi](media/basic-guide-13.png)
+> ![Konfigurisanje cena po ulozi.](media/basic-guide-13.png)
  
 ## <a name="transaction-categories-and-expense-categories"></a>Kategorije transakcija i troškova
 
@@ -70,7 +68,7 @@ Troškove putovanja i drugi troškovi koje ostvaruju projektni konsultanti obič
 - **Procenat provizije** – procenat u odnosu na stvarnu vrednost troškova se naplaćuje klijentu. 
 - **Cena po jedinici** - cena naplate se podešava za svaku jedinicu kategorije troškova. Iznos koji se naplaćuje klijentu se izračunava na osnovu broja jedinica troškova koje konsultant prijavi. Kilometraža koristi metod određivanja cena po jedinici. Na primer, kategorija troškova za kilometražu može se konfigurisati za 30 američkih dolara (USD) dnevno ili 2 USD po milji. Kada konsultant prijavi kilometražu za projekat, taj iznos za naplatu se izračunava na osnovu broja milja koji je prijavio konsultant.
 
-> ![Konfigurisanje cena za kategorije troškova](media/basic-guide-14.png)
+> ![Konfigurisanje cena za kategorije troškova.](media/basic-guide-14.png)
  
 ## <a name="project-sales-pricing-and-overrides"></a>Formiranje cena i njihova zamena za prodaju u okviru projekta
 
@@ -116,7 +114,7 @@ Međutim, u ponudi možete koristiti glavni cenovnik. Druga mogućnost je da kop
 
 Kada kreirate prilagođeni cenovnik projekta, biće kopirane samo komponente projekta cenovnika. Drugim rečima, novi cenovnik kreiran kao kopija postojećeg cenovnika projekta koji je priložen uz ponudu i ovaj novi cenovnik imaju samo povezane cene uloga i cene kategorija transakcija.
 
-> ![Pregledanje i konfigurisanje prilagođenih cena za ugovor o projektu](media/basic-guide-15.png)
+> ![Pregledanje i konfigurisanje prilagođenih cena za ugovor o projektu.](media/basic-guide-15.png)
   
 ## <a name="tracking-costs"></a>Praćenje troškova
 
@@ -131,3 +129,6 @@ Kao i kod stopa naplate, stope troškova za ljudske resurse se takođe podešava
     1. Cenovnik troškova koji je priložen organizacionoj jedinici.
     2. Cenovnik troškova koji je priložen Project Service parametrima. S obzirom na to da se cenovnici troškova u mnogim različitim valutama mogu priložiti uz Project Service parametre, PSA obavlja podudaranje valute ugovorne organizacione jedinice projekta, ugovora ili ponude sa valutom cenovnika troškova.
     3. Kada su u pitanju troškovi, metodi formiranja cena „Provizija preko troškova“ i „Po ceni“ ne primenjuju se na cenovnike troškova. Čak i ako se ovi metodi određivanja cena koriste u stavkama cenovnika troškova da bi se podesili troškovi za kategoriju transakcije, sistem ih zanemaruje i ne unosi se podrazumevana cena koštanja.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

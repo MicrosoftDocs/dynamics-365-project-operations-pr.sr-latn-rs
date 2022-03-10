@@ -1,38 +1,258 @@
 ---
-title: Korigovane fakture
-description: Ova tema pruža informacije o korigovanim fakturama.
+title: Korektivne fakture zasnovane na projektu
+description: Ova tema pruža informacije o tome kako da kreirate i potvrdite korektivne fakture zasnovane na projektu u usluzi Project Operations.
 author: rumant
-manager: AnnBe
-ms.date: 09/18/2020
+ms.date: 03/29/2021
 ms.topic: article
-ms.prod: ''
-ms.service: dynamics-365-customerservice
-audience: Application User
 ms.reviewer: kfend
-ms.search.scope: ''
-ms.custom: ''
-ms.assetid: ''
-ms.search.region: Global
-ms.search.industry: Service industries
-ms.author: suvaidya
-ms.dyn365.ops.version: ''
-ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: b31e702cc15bbb3937e8c4b305064212f63ce919
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
-ms.translationtype: HT
+ms.author: rumant
+ms.openlocfilehash: aaa61c8473da0aab369bbb25acb10e9a3661379997737acbcc0b3d4ab33e0ce9
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.translationtype: MT
 ms.contentlocale: sr-Latn-RS
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4083748"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6997173"
 ---
-# <a name="corrected-invoices"></a>Korigovane fakture
+# <a name="corrective-project-based-invoices"></a>Korektivne fakture zasnovane na projektu
 
 _**Odnosi se na:** Project Operations za scenarije zasnovane na resursima / bez zaliha_
 
-Potvrđene fakture se mogu uređivati. Kada uredite potvrđnu fakturu, kreira se radna verzija korigovane fakture. Pošto je pretpostavka da želite da stornirate sve transakcije i količine iz originalne fakture, ova korigovana faktura uključuje sve transakcije iz originalne fakture, a sve količine na njoj su nula (0).
+Potvrđena faktura projekta može se ispraviti tako da obrađuje promene ili kredite prema dogovoru sa klijentom i menadžerom projekta.
 
-Kada neke transakcije ne zahtevaju korekciju, možete ih ukloniti iz radne verzije korigovane fakture. Da biste stornirali ili opozvali samo delimičnu količinu, možete urediti polje Količina u detaljima stavke. Ako otvorite detalj stavke fakture, možete videti količinu originalne fakture. Zatim možete da uredite količinu trenutne fakture tako da bude manja ili veća od količine originalne fakture.
+Da biste izvršili izmene na potvrđenoj fakturi, otvorite potvrđenu fakturu i izaberite **Ispravite ovu fakturu**. 
 
-Kada potvrdite korigovanu fakturu, stornira se originalna stvarna vrednosti naplaćene prodaje i kreira se nova stvarna vrednost naplaćene prodaje. Ako je količina smanjena, razlika će dovesti do toga da se kreira i nova stvarna vrednost nenaplaćene prodaje. Na primer, ako je originalna naplaćena prodaja bila za osam sati, a detalj stavke korigovane fakture ima manju količinu od šest sati, stornira se prvobitna naplaćena stavka prodaje i kreiraju se dve nove stvarne vrednosti:
+> [!NOTE]
+> Ovaj izbor nije dostupan osim ako faktura projekta nije potvrđena ili ako faktura zasnovana na projektu sadrži avanse ili obustave ili usaglašavanje avansa ili obustava.
 
-- Stvarna vrednosti naplaćene prodaje za šest sati.
-- Stvarna vrednosti nenaplaćene prodaje za preostala dva sata. Ova transakcija može biti naplaćena kasnije ili označena kao nenaplativa, u zavisnosti od pregovora sa klijentom.
+Iz potvrđene fakture kreira se nova radna verzija fakture. Svi detalji linije fakture iz prethodno potvrđene fakture kopiraju se u novu radnu verziju. Slede neke od ključnih tačaka koje treba razumeti u vezi sa detaljima linije na novoj ispravljenoj fakturi:
+
+- Sve količine su ažurirane na nulu. Dynamics 365 Project Operations pretpostavlja da su sve fakturisane stavke u potpunosti zadužene. Ako je potrebno, ove količine možete ručno ažurirati tako da odražavaju količinu koja se fakturiše, a ne količinu koja se zadužuje. Na osnovu količine koju unesete, aplikacija izračunava zaduženu količinu. Ovaj iznos se ogleda u stvarnim troškovima koji se zadužuju kada se potvrdi ispravljena faktura. Ako menjate iznos poreza, morate uneti tačan iznos poreza, a ne iznos poreza koji se zadužuje.
+- Ispravke kontrolnih tačaka uvek se obrađuju kao puna zaduženja.
+
+
+> [!IMPORTANT]
+> Za detalje o stavki fakture koje predstavljaju ispravke za druge već fakturisane troškove, polje **Ispravka** se postavlja na **Da**. Za fakture imaju ispravljene detalje stavki fakture, polje **Ima ispravke** se postavlja na **Da**.
+
+## <a name="actuals-created-when-a-corrective-invoice-is-confirmed"></a>Trenutno stanje kreirano kada je potvrđena korektivna faktura
+
+Sledeća tabela navodi stvarne podatke koji se kreiraju kada se potvrdi faktura sa ispravkom.
+
+<table border="0" cellspacing="0" cellpadding="0">
+    <tbody>
+        <tr>
+            <td width="216" valign="top">
+                <p>
+                    <strong>Scenario</strong>
+                </p>
+            </td>
+            <td width="808" valign="top">
+                <p>
+                    <strong>Stvarni podaci kreirani prilikom potvrde</strong>
+                </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="216" rowspan="2" valign="top">
+                <p>
+Fakturisanje punog kredita prethodno fakturisane vremenske transakcije.
+                </p>
+            </td>
+            <td width="408" valign="top">
+                <p>
+Storniranje naplaćene prodaje za sate i iznos na originalnom detalju linije fakture za vreme.
+                </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="408" valign="top">
+                <p>
+Novi nenaplaćeni stvarni iznos prodaje za sate i iznos na originalnom detalju linije fakture za vreme.
+                </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="216" rowspan="3" valign="top">
+                <p>
+Fakturisanje delimičnog kredita za vremensku transakciju.
+                </p>
+            </td>
+            <td width="408" valign="top">
+                <p>
+Storniranje naplaćene prodaje za sate i iznos fakturisan na originalnom detalju linije fakture za vreme.
+                </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="408" valign="top">
+                <p>
+Novi nenaplaćeni stvarni iznos prodaje koji je naplativ za sate i iznos na detalju linije uređene fakture, storniranje ove stavke i ekvivalentan stvarni naplaćeni iznos prodaje.
+                </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="408" valign="top">
+                <p>
+Novi nenaplaćeni stvarni iznos prodaje koji je naplativ za preostale sate i iznos nakon odbijanja ispravljenih cifara na detalju linije fakture.
+                </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="216" rowspan="2" valign="top">
+                <p>
+Fakturisanje punog kredita prethodno fakturisane transakcije troškova.
+                </p>
+            </td>
+            <td width="408" valign="top">
+                <p>
+Storniranje naplaćene prodaje za količinu i iznos na originalnom detalju linije fakture za trošak.
+                </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="408" valign="top">
+                <p>
+Novi nenaplaćeni stvarni iznos prodaje za količinu i iznos na originalnom detalju linije fakture za trošak.
+                </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="216" rowspan="3" valign="top">
+                <p>
+Fakturisanje delimičnog kredita prethodno fakturisane transakcije troškova.
+                </p>
+            </td>
+            <td width="408" valign="top">
+                <p>
+Storniranje naplaćene prodaje za količinu i fakturisani iznos na originalnom detalju linije fakture za trošak.
+                </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="408" valign="top">
+                <p>
+Novi nenaplaćeni stvarni iznos prodaje koji je naplativ za količinu i iznos na detalju linije ispravljene fakture, storniranje ove stavke i ekvivalentan stvarni naplaćeni iznos prodaje.
+                </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="408" valign="top">
+                <p>
+Novi nenaplaćeni stvarni iznos prodaje koji je naplativ za količinu i iznos nakon odbijanja ispravljenih cifara na detalju linije fakture.
+                </p>
+            </td>
+        </tr>
+                <tr>
+            <td width="216" rowspan="2" valign="top">
+                <p>
+Fakturisanje punog kredita prethodno fakturisane materijalne transakcije.
+                </p>
+            </td>
+            <td width="408" valign="top">
+                <p>
+Storniranje naplaćene prodaje za količinu i iznos na detaljima stavki originalne fakture za materijal.
+                </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="408" valign="top">
+                <p>
+Nova stvarna vrednost nenaplaćene prodaje za količinu i iznos na detaljima stavki originalne fakture za materijal.
+                </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="216" rowspan="3" valign="top">
+                <p>
+Fakturisanje delimičnog kredita za transakciju materijala.
+                </p>
+            </td>
+            <td width="408" valign="top">
+                <p>
+Storniranje naplaćene prodaje za fakturisanu količinu i iznos na detaljima stavki originalne fakture za materijal.
+                </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="408" valign="top">
+                <p>
+Nova nefakturisana stvarna prodaja koja se naplaćuje za količinu i iznos na izmenjenom detalju stavke fakture, storniranje ove stavke i ekvivalentni stvarni iznos naplaćene prodaje.
+                </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="408" valign="top">
+                <p>
+Novi nenaplaćeni stvarni iznos prodaje koji je naplativ za količinu i iznos nakon odbijanja ispravljenih cifara na detalju linije fakture.
+                </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="216" rowspan="2" valign="top">
+                <p>
+Fakturisanje punog kredita prethodno fakturisane transakcije naknade.
+                </p>
+            </td>
+            <td width="408" valign="top">
+                <p>
+Storniranje naplaćene prodaje za količinu i iznos na originalnom detalju linije fakture za naknadu.
+                </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="408" valign="top">
+                <p>
+Novi nenaplaćeni stvarni iznos prodaje za količinu i iznos na originalnom detalju linije fakture za naknadu.
+                </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="216" rowspan="2" valign="top">
+                <p>
+Fakturisanje delimičnog kredita prethodno fakturisane transakcije naknade.
+                </p>
+            </td>
+            <td width="408" valign="top">
+                <p>
+Storniranje naplaćene prodaje za količinu i fakturisani iznos na originalnom detalju linije fakture za naknadu.
+                </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="408" valign="top">
+                <p>
+Novi nenaplaćeni stvarni iznos prodaje koji je naplativ za količinu i iznos na detalju linije uređene korektivne fakture, storniranje ove stavke i ekvivalentan stvarni naplaćeni iznos prodaje.
+                </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="216" valign="top">
+                <p>
+Fakturisanje punog kredita prethodno fakturisane kontrolne tačke.
+                </p>
+            </td>
+            <td width="408" valign="top">
+                <p>
+Storniranje naplaćene prodaje za sate i iznos na originalnom detalju linije fakture za kontrolnu tačku.
+                </p>
+                <p>
+Status fakture na kontrolnoj tački se ažurira iz <b>Proknjižena faktura za klijenta</b> u <b>Spremno za fakturisanje</b>.
+                </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="216" valign="top">
+                <p>
+Fakturisanje delimičnog kredita prethodno fakturisane kontrolne tačke.
+                </p>
+            </td>
+            <td width="408" valign="top">
+                <p>
+Ovaj scenario nije podržan.
+                </p>
+            </td>
+        </tr>       
+    </tbody>
+</table>
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

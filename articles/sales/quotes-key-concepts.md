@@ -2,11 +2,9 @@
 title: Ponude – ključni koncepti
 description: Ova tema pruža informacije o ponudama za projekte i ponudama za prodaju koje su dostupne u usluzi Project Operations.
 author: rumant
-manager: AnnBe
 ms.date: 09/18/2020
 ms.topic: article
 ms.prod: ''
-ms.service: project-operations
 audience: Application User
 ms.reviewer: kfend
 ms.search.scope: ''
@@ -17,16 +15,16 @@ ms.search.industry: Service industries
 ms.author: rumant
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: 899279b33f4fe8780d110d7c18a097407bd8d839
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
-ms.translationtype: HT
+ms.openlocfilehash: 8a1b5152b76cbcdfb5160a0af78eceec2c42b9a13dfc76701b6ad935318c7ba8
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.translationtype: MT
 ms.contentlocale: sr-Latn-RS
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5277535"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6997893"
 ---
-# <a name="quotes---key-concepts"></a>Ponude – ključni koncepti
+# <a name="concepts-unique-to-project-based-quotes"></a>Koncepti jedinstveni za ponude zasnovane na projektu
 
-_**Odnosi se na:** Project Operations za resurs/scenarije koji nisu zasnovani na zalihama, laganu primenu – od pogodbe do profakture_
+_**Odnosi se na:** Project Operations za scenarije zasnovane na resursima/bez zaliha, jednostavna primena – od pogodbe do profakture_
 
 U usluzi Dynamics 365 Project Operations postoje dve vrste ponuda – za projekte i za prodaju. Ova dva tipa ponuda se razlikuju na sledeće načine:
 

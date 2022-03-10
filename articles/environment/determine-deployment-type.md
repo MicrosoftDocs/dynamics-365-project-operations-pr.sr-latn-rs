@@ -2,22 +2,20 @@
 title: Odredite vrstu primene
 description: Ova tema pruža informacije koje vam pomažu da utvrdite pravilan tip primene usluge Project Operations za vaše preduzeće.
 author: stsporen
-manager: Annbe
-ms.date: 11/05/2020
+ms.date: 03/15/2021
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: stsporen
-ms.openlocfilehash: 2da6af3240d8e561d01b1fcd8d32b657dbac1588
-ms.sourcegitcommit: 24528bb9c0ef8898077cb3bc672daa211c0e73aa
-ms.translationtype: HT
+ms.openlocfilehash: 4be8e69c5b6ff1ed65e9484a9b427bb428f7ff3e6dc597c615d5586da52867ef
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.translationtype: MT
 ms.contentlocale: sr-Latn-RS
-ms.lasthandoff: 03/04/2021
-ms.locfileid: "5479581"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6994653"
 ---
 # <a name="determine-your-deployment-type"></a>Odredite vrstu primene
 
-_**Odnosi se na:** Project Operations za resurs/scenarije koji nisu zasnovani na zalihama, laganu primenu – od pogodbe do profakture_
+_**Odnosi se na:** Project Operations za scenarije zasnovane na resursima/bez zaliha, jednostavna primena – od pogodbe do profakture_
 
 > [!IMPORTANT]
 > Nakon kupovine licence, počnite ovde da biste utvrdili najbolji model primene za Dynamics 365 Project Operations pomoću [Vođenog toka instalacije](https://aka.ms/provisionprojectoperations).
@@ -44,7 +42,7 @@ Naš [upitnik za primenu](https://aka.ms/provisionprojectoperations) će vam pom
 - [Project Operations za scenarije sa resursima/materijalima koji nisu na zalihama](#integrated)
 - [Project Operations za scenarije sa materijalima na zalihama/porudžbinama za proizvodnju](#pma)
 
-Project Operations podržavaju scenarije zaliha / proizvodnih naloga i scenarije zasnovane na resursima / bez zaliha u istom okruženju putem konfiguracija na nivou pravnog lica. Na primer, Contoso može da koristi mogućnosti skladištenja/naručivanja u svom proizvodnom pogonu u SAD (pravno lice = Contoso Manufacturing United States). Contoso može da koristi mogućnosti koji nisu zasnovane na zalihama/zasnovane na resursima u objektu Contoso Robotics Arms u Velikoj Britaniji (pravno lice = Contoso Robotics United Kingdom).
+Project Operations podržavaju scenarije zaliha / proizvodnih naloga i scenarije zasnovane na resursima / bez zaliha u istom okruženju putem konfiguracija na nivou pravnog lica. Na primer, Contoso može da koristi mogućnosti skladištenja / narudžbine za proizvodnju u svom proizvodnom pogonu u SAD (pravno lice = Contoso Manufacturing United States). Contoso može da koristi mogućnosti bez zaliha / zasnovane na resursima u svom Contoso objektu za servisiranje robotičkog oružja u Ujedinjenom Kraljevstvu (pravno lice = Contoso Robotics United Kingdom).
 
 ### <a name="lite-deployment---deal-to-proforma-invoicing"></a><a  name="lite"></a>Jednostavna primena – od pogodbe do profakture
 
@@ -56,7 +54,7 @@ Jednostavna primena uključuje sledeće mogućnosti:
 - Objedinjeno upravljanje resursima
 - Praćenje vremena
 - Osnovni trošak
-- Izdavanje predračuna i faktura u okruženju klijenta 
+- Predračun za pregled i izmene od strane rukovodioca projekta 
 
 #### <a name="deployment-steps"></a>Koraci primene
 Odredite najbolji model primene usluge Project Operations pomoću [upitnika za primenu](https://aka.ms/provisionprojectoperations).
@@ -94,12 +92,12 @@ Za ovo raspoređivanje, pogledajte članak [Prijava za pretplate na pregled](res
 - Potpuno fakturisanje
 - Prepoznavanje prihoda
 - Nalozi za proizvodnju
-- Podrška materijala
+- Podrška zaliha materijala sa inventarom
 
 #### <a name="deployment-steps"></a>Koraci primene
 Odredite najbolji model primene usluge Project Operations pomoću [upitnika za primenu](https://aka.ms/provisionprojectoperations).
 
-Za ovo raspoređivanje, pogledajte članak [Prijava za pretplate na pregled](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/dev-tools/sign-up-preview-subscription?toc=/dynamics365/finance/toc.json) i [Obezbeđivanje novog okruženja](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/deployment/deploy-demo-environment?toc=/dynamics365/finance/toc.json). 
+Za ovo raspoređivanje, pogledajte članak [Prijava za pretplate na pregled](/dynamics365/fin-ops-core/dev-itpro/dev-tools/sign-up-preview-subscription?toc=%2fdynamics365%2ffinance%2ftoc.json) i [Obezbeđivanje novog okruženja](/dynamics365/fin-ops-core/dev-itpro/deployment/deploy-demo-environment?toc=%2fdynamics365%2ffinance%2ftoc.json). 
 
 
 

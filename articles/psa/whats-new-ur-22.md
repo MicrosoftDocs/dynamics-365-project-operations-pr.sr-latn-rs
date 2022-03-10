@@ -2,8 +2,6 @@
 title: Šta je novo ili promenjeno u izdanju 22 ispravke za Project Service Automation u verziji 3
 description: U ovoj temi date su funkcije i ispravke koje su dostupne u izdanju 22 ispravke za Project Service Automation u verziji 3.
 author: ruhercul
-manager: kfend
-ms.service: project-operations
 ms.custom: dyn365-projectservice
 ms.date: 07/28/2020
 ms.topic: article
@@ -17,16 +15,18 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 456ed68bc1d74c2c8e5d2420a3f5d1fb8e0465d6
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
-ms.translationtype: HT
+ms.openlocfilehash: 6a5109b1ffedfce99fc50c035bcbe5810abcf3b71f88679b47561d69daa9f3ab
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.translationtype: MT
 ms.contentlocale: sr-Latn-RS
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4126635"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7004328"
 ---
 # <a name="project-service-automation-update-release-22-v3"></a>Project Service Automation izdanje ispravke 22, u verziji 3
 
-Zadovoljstvo nam je da objavimo najnovije ažuriranje za aplikaciju Project Service Automation za Dynamics 365. Ovo izdanje uključuje neka važna poboljšanja u kvalitetu, performansama i upotrebljivosti. Ovo izdanje je kompatibilno sa uslugom Dynamics 365 9.x. Da biste ažurirali ovo izdanje, posetite stranicu sa rešenjima centra za administraciju za Dynamics 365 online kako biste instalirali ispravku. Za još informacija pogledajte članak [Instaliranje, ispravka ili uklanjanje željenog rešenja](https://docs.microsoft.com/power-platform/admin/install-remove-preferred-solution).
+[!include [banner](../includes/psa-now-project-operations.md)]
+
+Zadovoljstvo nam je da objavimo najnovije ažuriranje za aplikaciju Project Service Automation za Dynamics 365. Ovo izdanje uključuje neka važna poboljšanja u kvalitetu, performansama i upotrebljivosti. Ovo izdanje je kompatibilno sa uslugom Dynamics 365 9.x. Da biste ažurirali ovo izdanje, posetite stranicu sa rešenjima centra za administraciju za Dynamics 365 online kako biste instalirali ispravku. Za još informacija pogledajte članak [Instaliranje, ispravka ili uklanjanje željenog rešenja](/power-platform/admin/install-remove-preferred-solution).
 
 U ovoj temi date su funkcije koje su nove ili su promenjene u izdanju 22 ispravke za Project Service Automation u verziji 3. Broj izrade ove verzije je V 3.10.33.48 i uglavnom je dostupna putem samostalnog ažuriranja u junu 2020. godine.
 
@@ -56,7 +56,7 @@ Popravljeni su sledeći problemi:
 
 - Dvostrukim klikom na EstimateGridControl neće se pravilno raščlaniti brojevi u holandskom formatu.
 - Dodeljeni sati se ne ažuriraju ispravno kada se dodele menjaju pomoću programskog dodatka za Microsoft Project desktop klijent.
-- Mreže za praćenje i procene projekata prikazuju pogrešnu šifru valute prodaje kada je valuta ugovora drugačija od valute kupca i ako je organizacija konfigurisana za prikazivanje šifara valuta umesto simbola valute.
+- Mreže za praćenje i procene projekata prikazuju pogrešnu šifru valute prodaje kada je valuta ugovora drugačija od valute klijenta i ako je organizacija konfigurisana za prikazivanje šifara valuta umesto simbola valute.
 - Datum završetka člana tima dodaće jedan dan ako je raspored radnog vremena 24 sata dnevno.
 - U Rasporedu projekata, dodavanje Kategorije transakcije zadatku ne pokreće automatsko čuvanje.
 - Sledeća greška se prikazuje prilikom dodavanja člana tima u predložak projekta: „Zahtevi za resursima ne mogu biti povezani sa predlošcima projekta“. 
@@ -70,3 +70,6 @@ Popravljeni su sledeći problemi:
 - Zatvaranje dobijene ponude ne prelazi na kreirani ugovor ako je BPF u prilogu ponude u završnoj fazi.
 - Storniranje stavke **Nenaplaćena prodaja** je povezano sa prvobitnim troškom kada se opozove unos vremena.
 - Nakon odabira dugmeta **Potvrdi**, status fakture se ne menja u **Potvrđeno**, osim ako se faktura osveži.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

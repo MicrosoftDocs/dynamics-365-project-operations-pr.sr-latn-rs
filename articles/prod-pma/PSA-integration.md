@@ -2,27 +2,25 @@
 title: Pregled usluge Project Service Automation
 description: Ova tema pruža informacije o rešenju za integraciju usluge Dynamics 365 Project Service Automation sa uslugom Dynamics 365 Finance.
 author: ruhercul
-manager: AnnBe
 ms.date: 07/25/2019
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: ruhercul
 ms.search.scope: Core, Operations
-ms.custom: 87983
+ms.custom: intro-internal
 ms.assetid: b454ad57-2fd6-46c9-a77e-646de4153067
 ms.search.region: Global
 ms.author: ruhercul
 ms.search.validFrom: 2016-11-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 41d2eace497f4291022da0775cca7cda7d600df7
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 551d511fda83857459a0488cfb48a9c7829171d2e4bd526ab27b4ee74b21910d
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: sr-Latn-RS
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5271100"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7005903"
 ---
 # <a name="project-service-automation-overview"></a>Pregled usluge Project Service Automation
 
@@ -58,7 +56,7 @@ Sledeća ilustracija prikazuje kako se podaci sinhronizuju kao deo integracije i
 > [!NOTE]
 > Trenutno nisu dostupni svi predlošci. Predlošci će biti objavljeni po završetku.
 
-[![Integracija usluge Project Service Automation sa uslugom Finance](./media/PSA-integration.png)](./media/PSA-integration.png)
+[![Integracija usluge Project Service Automation sa uslugom Finance.](./media/PSA-integration.png)](./media/PSA-integration.png)
 
 ## <a name="system-requirements-for-finance"></a>Sistemski zahtevi za Finance
 

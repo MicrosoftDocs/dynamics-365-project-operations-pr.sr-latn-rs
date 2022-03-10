@@ -2,18 +2,16 @@
 title: Ponašanje korisničkog interfejsa za stavku vremena
 description: Ova tema pruža informacije o ponašanju korisničkog interfejsa za stavku vremena.
 author: stsporen
-manager: AnnBe
-ms.date: 10/05/2020
+ms.date: 03/03/2021
 ms.topic: article
-ms.service: dynamics-365-customerservice
 ms.reviewer: kfend
 ms.author: stsporen
-ms.openlocfilehash: 86f805cd33f81e70bf9ae3c1fb20a1c310473604
-ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
-ms.translationtype: HT
+ms.openlocfilehash: ef99f220e9ff207a7620a900aa0630e2803f4f7261eccfbf73ed79717648bf92
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.translationtype: MT
 ms.contentlocale: sr-Latn-RS
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4083515"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6999468"
 ---
 # <a name="time-entry-ui-behavior"></a>Ponašanje korisničkog interfejsa za stavku vremena
 
@@ -21,6 +19,19 @@ _**Odnosi se na:** Project Operations za resurs/scenarije koji nisu zasnovani na
 
 
 Mreža **Sedmična stavka vremena** je prilagođena kontrola koja sadrži dva glavna odeljka, **Dimenzije** i **Trajanje**.
+
+## <a name="keyboard-shortcuts"></a>Tasterske prečice
+| Akcija        | Prečica                  |
+|------------   |------------------------   |
+| Nova           | Alt + Shift + n           |
+| Kopiraj red      | Alt + Shift + c           |
+| Uredi stavku    | Alt + Shift + e           |
+| Uredi red      | Alt + Shift + Ctrl + e    |
+| Otvori stavku    | Alt + Shift + o           |
+| Prosleđivanje        | Alt + Shift + s           |
+| Opozovi        | Alt + Shift + r           |
+| Delete        | Alt + Shift + d           |
+| Kopiraj sedmicu     | Alt + Shift + w           |
 
 ## <a name="dimensions"></a>Dimenzije
 Odeljak **Dimenzije** prikazuje dimenzije za koje se vreme može uneti. Sledeće dimenzije su podržane kao unapred definisane:
@@ -85,3 +96,6 @@ Nakon kreiranja nekoliko stavki vremena, korisnici mogu istovremeno kreirati vi�
 
 ## <a name="import"></a>Uvoz
 Isti osnovni postupak koristi se za uvoz iz rezervacija, dodela i razmena. Možete odrediti opseg datuma rezervacija za uvoz, a zatim eksplicitno izabrati rezervacije koje bi trebalo da budu kreirane kao radne verzije stavki vremena. 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

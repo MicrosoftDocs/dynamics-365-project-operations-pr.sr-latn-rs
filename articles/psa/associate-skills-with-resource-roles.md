@@ -2,8 +2,6 @@
 title: Povežite veštine sa ulogama resursa
 description: Kako da povežete veštine sa ulogama resursa u usluzi Project Service
 author: JohnPBurrows
-manager: kfend
-ms.service: dynamics-365-customerservice
 ms.custom:
 - dyn365-projectservice
 ms.date: 8/03/2018
@@ -18,14 +16,16 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 0b4d5fe145fc39afc1a909e0ff274c19e9a36d7a
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
-ms.translationtype: HT
+ms.openlocfilehash: dd3d20593f55feccaaf67eb0af9550d6e3289edfeeaf4001a56fd39dbb1e3c07
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.translationtype: MT
 ms.contentlocale: sr-Latn-RS
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4083697"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6998613"
 ---
 # <a name="associate-skills-with-resource-roles-project-service"></a>Povežite veštine sa ulogama resursa (Project Service)
+
+[!include [banner](../includes/psa-now-project-operations.md)]
 
 [!INCLUDE[cc-applies-to-psa-app-1x-2x](../includes/cc-applies-to-psa-app-1x-2x.md)]
 
@@ -45,3 +45,6 @@ Dok ste dodavali uloge resursa, verovatno ste već povezali neke veštine na nji
   
 ### <a name="see-also"></a>Takođe pogledajte  
  [Podešavanje resursa](../psa/set-up-resources.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

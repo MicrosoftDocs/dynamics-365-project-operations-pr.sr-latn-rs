@@ -1,26 +1,24 @@
 ---
-title: Ključni koncepti ponuda za projekat
+title: Ponude – Ključni koncepti – jednostavno
 description: Ova tema pruža informacije o korišćenju ponuda za projekat u usluzi Project Operations.
 author: rumant
-manager: Annbe
 ms.date: 10/01/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 64d2fd9bab9452d71e8cd194fbab70edadf00b93
-ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
-ms.translationtype: HT
+ms.openlocfilehash: 279e7dd47d3d61b02227b307a5833ca0bac66f4a774b5ff23cb69aac417e2f0e
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.translationtype: MT
 ms.contentlocale: sr-Latn-RS
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4083504"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7009458"
 ---
-# <a name="project-quote-key-concepts"></a>Ključni koncepti ponuda za projekat
+# <a name="concepts-unique-to-project-quotes"></a>Koncepti jedinstveni za ponude za projekat
 
 _**Odnosi se na:** Jednostavna primena – od pogodbe do profakture_
 
 
-Slede ključni koncepti kojih morate biti svesni pre nego što počnete da koristite ponude za projekte u usluzi Dynamics 365 Project Operations:
+Slede ključni koncepti kojih morate biti svesni pre nego što počnete da koristite ponude projekata u usluzi Dynamics 365 Project Operations:
 
 ## <a name="contracting-unit"></a>Jedinica ugovaranja
 
@@ -89,3 +87,6 @@ Project Operations ponude se grade na Dynamics 365 Sales ponudama. Međutim, pos
 - Project Operations ponude imaju sopstveni obrazac i elemente korisničkog interfejsa, poslovna pravila, poslovnu logiku u dodatnim komponentama i skripte na strani klijenta koje ih čine jedinstvenim u odnosu na ponuda usluge Sales.
 
 Iz ovih razloga nije preporučljivo naizmenično koristiti Sales ponudu i Project Operations ponudu.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

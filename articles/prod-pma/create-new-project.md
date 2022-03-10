@@ -2,11 +2,9 @@
 title: Kreirajte novi projekat
 description: Ova tema pruža informacije o tome kako da kreirate nov projekat.
 author: Yowelle
-manager: AnnBe
 ms.date: 09/01/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ProjProjectsListPage
 audience: Application User
@@ -18,12 +16,12 @@ ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 727d287c571b2a64bf10b2393a87567093a420d2
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
-ms.translationtype: HT
+ms.openlocfilehash: 5aa5e00252697f91a585eaaa83a0c8a39b315cc1b25fcbf6343fdf2ce31a824e
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.translationtype: MT
 ms.contentlocale: sr-Latn-RS
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4083715"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6985968"
 ---
 # <a name="create-a-new-project"></a>Kreirajte novi projekat
 
@@ -53,9 +51,9 @@ Takođe možete da dodelite kategorije za resurs po potrebi. Tip kategorije je i
 
 Menadžer projekta može koristiti funkcionalnost resursa za projekat da bi kreirao uloge potrebne za projekat. Uloge se mogu koristiti ako su potvrđeni resursi i dalje nepoznati kada se resursi rezervišu. Uloge se mogu privremeno rezervisati kao planirani resursi, tako da možete nastaviti faze planiranja projekta.
 
-[![Primer uloge](./media/projectresourcing05.jpg)](./media/projectresourcing05.jpg) 
+[![Primer uloge.](./media/projectresourcing05.jpg)](./media/projectresourcing05.jpg) 
 
-**Scenario:** Contoso je angažovan da završi projekat Vreme i materijal koji ima odobrenu povelju projekta. Mlađi menadžer projekta još uvek dovršava opseg projekta. Menadžer resursa trenutno identifikuje određene resurse koji će biti rezervisani za rad na novom projektu. Zbog kritične prirode projekta, sponzor projekta zatražio je starijeg menadžera projekta kao jednu od uloga. Menadžer resursa mora nabaviti novi resurs i definisati ulogu u sistemu u slučaju da mlađi menadžer projekta zahteva informacije o resursima tokom planiranja projekta.
+**Scenario:** Contoso je angažovan da završi projekat „Vreme i materijal“ koji ima odobrenu povelju projekta. Mlađi menadžer projekta još uvek dovršava opseg projekta. Menadžer resursa trenutno identifikuje određene resurse koji će biti rezervisani za rad na novom projektu. Zbog kritične prirode projekta, sponzor projekta zatražio je starijeg menadžera projekta kao jednu od uloga. Menadžer resursa mora nabaviti novi resurs i definisati ulogu u sistemu u slučaju da mlađi menadžer projekta zahteva informacije o resursima tokom planiranja projekta.
 
 Sledeći koraci pokazuju kako menadžer resursa može da postavi ulogu višeg menadžera projekta i poveže karakteristike resursa sa njom. Kasnije se uloga može koristiti za traženje dostupnih resursa koji odgovaraju traženim kompetencijama resursa.
 
@@ -104,3 +102,6 @@ Tokom rezervacije resursa, menadžeri projekata mogu filtrirati resurse uloga ko
 
 3. Izaberite **Sačuvaj**, a zatim zatvorite stranicu.
 4. Na kartici **Kompetencije**, dodajte veštinu **Menadžment projekta** i **PMP** certifikat.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

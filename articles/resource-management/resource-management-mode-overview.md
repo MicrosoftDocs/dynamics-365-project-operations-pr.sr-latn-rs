@@ -7,12 +7,12 @@ ms.topic: article
 ms.reviewer: kfend
 ms.author: ruhercul
 ms.custom: intro-internal
-ms.openlocfilehash: 41265534661e51565bf31105ef69cec9b3b181c3
-ms.sourcegitcommit: 0fafe022731f0e1e8693382ff906e3f8541d34ca
+ms.openlocfilehash: 5c0f98a6f08129ebef9b6d3fed1cc85969aa347c815a643d3c8dd639b42c0e8c
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: sr-Latn-RS
-ms.lasthandoff: 07/07/2021
-ms.locfileid: "6367908"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7008243"
 ---
 # <a name="resource-management-modes-overview"></a>Pregled režima upravljanja resursima
 
@@ -24,7 +24,7 @@ Dynamics 365 Project Operations podržava dva režima kako biste izvršavali uku
 ## <a name="central-mode"></a>Centralni režim
 Za organizacije koje centralizuju dodeljivanje resursa projektima, centralni režim pruža način da menadžeri projekata mogu da definišu zahteve za resursima na nivou projekta. Ispunjavanje zahteva za resursima delegira se menadžeru resursa. Menadžeri projekata mogu prihvatiti ili odbiti resurse koje predloži menadžer resursa.
 
-![Centralni režim](./media/resource-management-central.png)
+![Centralni režim.](./media/resource-management-central.png)
 
 Da biste upravljali resursima u centralnom režimu, pogledajte:
 
@@ -37,7 +37,7 @@ Da biste upravljali resursima u centralnom režimu, pogledajte:
 ## <a name="hybrid-mode"></a>Hibridni režim
 Za organizacije kojima je potrebna fleksibilnost u raspodeli resursa, hibridni režim omogućava menadžerima projekata i menadžerima resursa mogućnost da rezervišu resurse.
 
-![Hibridni režim](./media/resource-management-hybrid.png)
+![Hibridni režim.](./media/resource-management-hybrid.png)
 
 Pored podržanog procesa centralnog režima, pogledajte sledeće teme da biste upravljali svim ostalim podržanim tokovima rezervacija u hibridnom režimu:
 

@@ -2,8 +2,6 @@
 title: Sarađujte sa članovima tima projekta pomoću Office 365 grupa
 description: Kako da sarađujte sa članovima Project Service tima u Office 365 grupama
 author: JohnPBurrows
-manager: kfend
-ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 8/03/2018
@@ -18,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 8290cc14991843aed814b0932d98f892a35c2a15
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
-ms.translationtype: HT
+ms.openlocfilehash: 94e781e527dcc8077c5123b68d9695bbf707f86444f2a5e119c7594ee54e0da7
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.translationtype: MT
 ms.contentlocale: sr-Latn-RS
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5290826"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7007073"
 ---
 # <a name="collaborate-with-your-project-team-members-with-office-365-groups-project-service"></a>Sarađujte sa članovima tima za projekat pomoću Office 365 grupa (Project Service)
 

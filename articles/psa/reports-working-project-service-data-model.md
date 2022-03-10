@@ -2,8 +2,6 @@
 title: Rad sa Project Service Automation modelom podataka
 description: Ova tema pruža informacije o tome kako raditi sa modelom podataka.
 author: ruhercul
-manager: kfend
-ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 03/01/2019
@@ -18,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 25f1af15c03001a92f96689ff36a3159a5352a46
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 375850b893b7afead8371824606b422d3f36c36de4da908fdf76666bd1b415ee
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: sr-Latn-RS
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5283250"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7002438"
 ---
 # <a name="working-with-the-project-service-automation-data-model"></a>Rad sa Project Service Automation modelom podataka
 
@@ -55,7 +53,7 @@ PSA takođe dodaje nove entitete povezane sa ponudom u Dynamics 365 model podata
 
 Ostali entiteti koje PSA dodaje u ponudu su **Cenovnik projekta u stavci ponude**, **Kategorija resursa stavke ponude** i **Kategorija transakcije stavke ponude**.
 
-![Dijagram koji prikazuje ponude, stavke ponude i odnose između projekata](media/PS-Reporting-image2.png "Dijagram koji prikazuje ponude, stavke ponude i odnose između projekata")
+![Dijagram koji prikazuje ponude, stavke ponude i odnose između projekata.](media/PS-Reporting-image2.png "Dijagram koji prikazuje ponude, stavke ponude i odnose između projekata")
 
 ## <a name="reporting-on-project-contracts"></a>Izveštavanje o projektnim ugovorima
 
@@ -71,7 +69,7 @@ PSA takođe dodaje nove entitete koji su dizajnirani za projektne ugovore. U nas
 
 Ostali entiteti koje PSA dodaje u ugovor su **Cenovnik projekta za predmet ugovora za projekat**, **Kategorija resursa za predmet ugovora za projekat** i **Kategorija transakcije za predmet ugovora za projekat**.
 
-![Dijagram koji prikazuje porudžbine, stavke porudžbina i odnose između projekata](media/PS-Reporting-image3.png "Dijagram koji prikazuje porudžbine, stavke porudžbina i odnose između projekata")
+![Dijagram koji prikazuje porudžbine, stavke porudžbina i odnose između projekata.](media/PS-Reporting-image3.png "Dijagram koji prikazuje porudžbine, stavke porudžbina i odnose između projekata")
 
 ## <a name="reporting-on-projects"></a>Izveštavanje o projektima
 
@@ -83,7 +81,7 @@ Entitet **Projekti** i sa njim povezani entiteti ekskluzivni su za PSA. **Projek
 - **Potreba za resursom** – Ovaj entitet sadrži potrebe za svim članovima tima sa generičkim resursima.
 - **Procena** i **Stavka procene** – Ovi entiteti imaju odnos između zaglavlja i stavke i sadrže procene troškova za projekat. Procene zadataka skladište se u entitet **Procene resursa**.
 
-![Dijagram koji prikazuje zahteve za resursom i odnose između projekata](media/PS-Reporting-image4.png "Dijagram koji prikazuje zahteve za resursom i odnose između projekata")
+![Dijagram koji prikazuje zahteve za resursom i odnose između projekata.](media/PS-Reporting-image4.png "Dijagram koji prikazuje zahteve za resursom i odnose između projekata")
 
 ## <a name="reporting-on-resources"></a>Izveštavanje o resursima
 
@@ -94,7 +92,7 @@ Resursi projekta koriste entitete **Resurs koji se može rezervisati** iz rešen
 - **Kategorija resursa koji se može rezervisati** – Ovaj entitet predstavlja ulogu resursa koji se može rezervisati.
 - **Rezervacije resursa koji se može rezervisati** – Ovaj entitet predstavlja vreme resursa koje je rezervisano za projekte. Svaka rezervacija ima zaglavlja entiteta i entitete stavke, a svaka stavka ima status koji predstavlja status rezervacije.
 
-![Dijagram koji prikazuje odnose karakteristika resursa koji mogu da se rezervišu](media/PS-Reporting-image5.png "Dijagram koji prikazuje odnose karakteristika resursa koji mogu da se rezervišu")
+![Dijagram koji prikazuje odnose karakteristika resursa koji mogu da se rezervišu.](media/PS-Reporting-image5.png "Dijagram koji prikazuje odnose karakteristika resursa koji mogu da se rezervišu")
 
 ## <a name="reporting-on-actual-transactions"></a>Izveštavanje o stvarnim transakcijama
 
@@ -122,7 +120,7 @@ Kada radite sa entitetom **Stvarne vrednosti**, važno je da shvatite koja se tr
 
 Entitet **Poreklo transakcije** beleži poreklo zapisa **Stvarna vrednost**, a entitet **Veza transakcije** beleži povezane zapise za zapis **Stvarna vrednost**. Pored toga, zapis **Stvarna vrednost** sadrži reference na projekat, ugovor o projektu (porudžbinu), resurs koji se može rezervisati i klijenta.
 
-![Dijagram koji prikazuje transakcionu vezu, poreklo i stvarne odnose](media/PS-Reporting-image6.png "Dijagram koji prikazuje transakcionu vezu, poreklo i stvarne odnose")
+![Dijagram koji prikazuje transakcionu vezu, poreklo i stvarne odnose.](media/PS-Reporting-image6.png "Dijagram koji prikazuje transakcionu vezu, poreklo i stvarne odnose")
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

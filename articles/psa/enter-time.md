@@ -2,8 +2,6 @@
 title: Unesite vreme
 description: Kako da unosite vreme u aplikaciji Project Service
 author: revathimuthiah
-manager: kfend
-ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 8/03/2018
@@ -18,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 68424bba30b2be22bb2ec715d70c361585eef6fd
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
-ms.translationtype: HT
+ms.openlocfilehash: 3dfd16ff38e729ce183247a03b3340b8af52ea1318c799ec5fd544d7b94086be
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.translationtype: MT
 ms.contentlocale: sr-Latn-RS
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5284555"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6985743"
 ---
 # <a name="enter-time-project-service"></a>Unos vremena (Project Service)
 

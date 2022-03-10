@@ -6,12 +6,13 @@ ms.date: 01/29/2021
 ms.topic: article
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 13f16d42ffdc0a9a6f369c311dfd9e15ad3f7aff
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.custom: intro-internal
+ms.openlocfilehash: 804d42f7e8bfd103b9143dc0f5c7ddecdee9e66e6072c3e7bf76b2a8c549cf55
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: sr-Latn-RS
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "6001533"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7003788"
 ---
 # <a name="invoicing-process-overview"></a>Pregled procesa fakturisanja
 
@@ -19,7 +20,7 @@ _**Odnosi se na:** Project Operations za scenarije zasnovane na resursima / bez 
 
 Project Operations za scenarije zasnovane na resursima/bez zaliha nudi sveobuhvatne mogućnosti prilagođene da odgovaraju potrebama i menadžera projekta i službenika/računovođe projekta za potraživanja. Za postupak fakturisanja, menadžer projekta upravlja zaostalim naplatama za projekat, a službenik/računovođa projekta za potraživanja kreira usaglašen i tačan dokument fakture za klijenta.
 
-![Dijagram toka fakturisanja](./media/invoicing-flow.png)
+![Dijagram toka fakturisanja.](./media/invoicing-flow.png)
 
 Predmet ugovora za projekat definiše način naplate za povezane projektne transakcije. Kada menadžer projekta odobri transakcije vremena i troškova, sistem evidentira transakcije u entitetu **Stvarne vrednosti projekta** i šalje informacije u modul **Upravljanje projektima i računovodstvo** u usluzi Dynamics 365 Finance. Računovođa projekta zatim pregledava i objavljuje evidenciju pomoću [Project Operations dnevnika integracije](../project-accounting/project-operations-integration-journal.md). Ovaj dnevnik sadrži važne računovodstvene detalje za stvarne podatke o projektu, kao što su naplata, grupa za porez na promet, grupa za porez na promet stavki na računu i finansijski aspekti.
 

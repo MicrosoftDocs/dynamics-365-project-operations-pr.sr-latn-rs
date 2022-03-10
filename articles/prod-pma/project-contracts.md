@@ -2,11 +2,9 @@
 title: Ugovori o projektu
 description: Ova tema daje primere ugovora o projektu koje možete kreirati za različite vrste projekata i izvore finansiranja, kao i kako možete upravljati ugovorima i fakturisati klijentima projekata.
 author: Yowelle
-manager: AnnBe
 ms.date: 11/03/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ProjProjectContractsListPage, ProjProjectsListPage
 audience: Application User, IT Pro
@@ -18,12 +16,12 @@ ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: b53eb6ff3f98e7efc3d6b997cd4d877025225936
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
-ms.translationtype: HT
+ms.openlocfilehash: 1b92668c38071e8b1afdee9a79fd4a25190248ada30380bfb79054a6dc587f95
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.translationtype: MT
 ms.contentlocale: sr-Latn-RS
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5289566"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7001043"
 ---
 # <a name="project-contracts"></a>Ugovori o projektu
 

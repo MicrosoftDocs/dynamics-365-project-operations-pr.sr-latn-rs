@@ -2,8 +2,6 @@
 title: Podesite jedinice vremena
 description: Kako da podesite jedinice vremena u aplikaciji Project Service
 author: revathimuthiah
-manager: kfend
-ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 8/03/2018
@@ -18,14 +16,16 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: c007f59f542618860af21125313abd066e17cf45
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
-ms.translationtype: HT
+ms.openlocfilehash: 348dbe3e660eaad28f4f8f1c4d15b7cebf6540cb358d013724088f099f0b6a95
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.translationtype: MT
 ms.contentlocale: sr-Latn-RS
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4120110"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7008558"
 ---
 # <a name="set-up-time-units-project-service"></a>Podešavanje jedinica vremena (Project Service)
+
+[!include [banner](../includes/psa-now-project-operations.md)]
 
 [!INCLUDE[cc-applies-to-psa-app-1x-2x](../includes/cc-applies-to-psa-app-1x-2x.md)]
 
@@ -45,3 +45,6 @@ Konfigurišite jedinice vremena u katalogu proizvoda koje ćete koristiti kao os
   
 ### <a name="see-also"></a>Takođe pogledajte  
  [Konfigurisanje aplikacije Project Service](../psa/configure.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

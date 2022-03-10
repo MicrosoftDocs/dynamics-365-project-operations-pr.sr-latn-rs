@@ -2,8 +2,6 @@
 title: Prodajne procene i projekti
 description: Ova tema pruža informacije o tome kako iskoristiti raspored i procene u procesu prodaje.
 author: ruhercul
-manager: kfend
-ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 03/01/2019
@@ -18,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 87dc72b76ec4f88684ef2c702718e1ab631ff936
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
-ms.translationtype: HT
+ms.openlocfilehash: 1dac342ead487c50d14f3b2fa39e60314d13b0047b77fe6df8f32dee29b09422
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.translationtype: MT
 ms.contentlocale: sr-Latn-RS
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5283925"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6995193"
 ---
 # <a name="sales-estimates-and-projects"></a>Prodajne procene i projekti
 
@@ -37,11 +35,11 @@ Tokom procesa prodaje možete kreirati procene prodaje povezujući projekat s pr
 
 Kada kreirate stavku ponude zasnovanu na projektu, možete da kreirate novi projekat ili povežete postojeći projekat na stranici **Stavka projekta**. 
 
-> ![Obrazac stavke ponude](media/project-8.png)
+> ![Obrazac stavke ponude.](media/project-8.png)
  
 Kada kreirate novi projekat iz detalja stavke ponude, možete iskoristiti predloške projekta. Predlošci projekata su modeli projekata koji predstavljaju standardne planove projekata i finansijske procene tipične za organizaciju. Takođe mogu predstavljati kopije projektnih planova i procena iz prošlih projekata.
 
-> ![Detalji stavke ponude](media/project-9.png)
+> ![Detalji stavke ponude.](media/project-9.png)
   
 Kada kreirate projekat iz ponude, projekat se automatski povezuje sa stavkom ponude.
 

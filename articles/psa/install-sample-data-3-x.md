@@ -3,7 +3,6 @@ title: Instaliranje probnih podataka
 description: Ova tema pruža informacije o instaliranju uzoraka podataka u usluzi Project Service Automation.
 ms.custom: dyn365-projectservice
 ms.date: 11/08/2018
-ms.service: project-operations
 ms.reviewer: kfend
 ms.suite: ''
 applies_to: Dynamics 365 Project Service Automation
@@ -11,12 +10,12 @@ author: ruhercul
 ms.author: ruhercul
 search.audienceType: IT Pro, Developer
 search.app: ''
-ms.openlocfilehash: c521fb4000b4856fc5c2fbf3275bf3b3e0dfa458
-ms.sourcegitcommit: 3d78338773929121d17ec3386f6cb67bfb2272cc
-ms.translationtype: HT
+ms.openlocfilehash: 01e2f1f6b29e040d5c72af402031e13a867736405c4ee161e49b74a30e4b506e
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.translationtype: MT
 ms.contentlocale: sr-Latn-RS
-ms.lasthandoff: 04/27/2021
-ms.locfileid: "5950596"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6985563"
 ---
 # <a name="sample-data-installation-for-the-project-service-application"></a>Instaliranje probnih podataka za aplikaciju Project Service
 
@@ -87,7 +86,7 @@ Trebalo bi da planirate da računar ostane povezan sa mrežom i da instalacija t
 Računar bi trebalo da ima isključenu funkciju čuvara ekrana. U suprotnom, akreditivi sesije za instalaciju mogu biti izgubljeni kada se aktivira čuvar ekrana (osim ako sesiju zadržite aktivnom sve vreme).
 
 > [!div class="mx-imgBorder"]
-> ![Snimak ekrana podešavanja čuvara ekrana sa isključenim čuvarom ekrana](media/sample-data-1.png)
+> ![Snimak ekrana podešavanja čuvara ekrana sa isključenim čuvarom ekrana.](media/sample-data-1.png)
 
 ## <a name="download-and-unpack"></a>Preuzimanje i raspakivanje
 
@@ -143,7 +142,7 @@ Paket demo podataka zahteva šest korisnika. Da bi se paket instalirao ispravno,
 3. Otvorite **PkgFolder**, a zatim pronađite i otvorite **ImportUserMapFile.xml**. Ažurirajte polja **Novo=** za e-adrese odgovarajućih korisnika u sistemu.
 
    > [!div class="mx-imgBorder"]
-   > ![Snimak ekrana UserMapFile](media/sample-data-7.png)
+   > ![Snimak ekrana UserMapFile.](media/sample-data-7.png)
 
 4. Ako korisnik punog imena "Spencer Low" ima ID korisnika različit od **"spencerl"**, tada treba da ažurirate dodatnu datoteku. Otvorite datoteku **DemoDataPreImportConfig.xml**, a zatim pronađite oznaku **userstocreateandconfigure**. Ažurirajte oznaku **\<login\>** oznakom loginId (pazite na velika i mala slova). 
 
@@ -173,7 +172,7 @@ Paket demo podataka zahteva šest korisnika. Da bi se paket instalirao ispravno,
 5. Izaberite **Sledeće** sve dok ne vidite dijalog **Podešavanje demo podataka**.
 
    > [!div class="mx-imgBorder"]
-   > ![Snimak ekrana prozora sa statusom programa za instaliranje demo podataka](media/sample-data-3.png)
+   > ![Snimak ekrana prozora sa statusom programa za instaliranje demo podataka.](media/sample-data-3.png)
 
 6. Pre nego što nastavite, imajte u vidu da instaliranje probnih podataka može da potraje do sat vremena (uobičajeno ~ 10 minuta). Potrebno je da se uverite da će računar ostati uključen i povezan na mrežu tokom procesa instalacije i da će vaša sesija ostati aktivna.   
 
@@ -192,10 +191,10 @@ Kada se probni podaci potpuno učitaju, prijavite se kao korisnik Spencer Low i 
 - Ako je instalirana aplikacija Field Service, idite na stavku **Project Service** > **Podešavanja** > **Cenovnici**. Potvrdite da postoje stope naplate i stope troškova. Idite na stavku **Field Service** > **Podešavanja** > **Cenovnici** i proverite da li postoje naplate i cene, sa odgovarajućom valutom, za svaku zemlju/region u skupu podataka.
 
   > [!div class="mx-imgBorder"]
-  > ![Snimak ekrana aktivnih cenovnika](media/sample-data-4.png)
+  > ![Snimak ekrana aktivnih cenovnika.](media/sample-data-4.png)
 
   > [!div class="mx-imgBorder"]
-  > ![Snimak ekrana aktivnih organizacionih jedinica](media/sample-data-5.png)
+  > ![Snimak ekrana aktivnih organizacionih jedinica.](media/sample-data-5.png)
 
 ## <a name="technical-notes"></a>Tehničke beleške
 
@@ -296,7 +295,7 @@ Ako morate da promenite radno vreme za probne resurse koji mogu da se rezervišu
 Izaberite korisnika (na primer, Spencer Low) i promenite radno vreme za zaposlenog Spencer na radno vreme koje želite da primenite na više korisnika. Idite na stavku **Universal Resource Scheduling** > **Podešavanja** > **Predlošci radnog vremena** i uredite zapis **Podrazumevani predložak rada**. U polju **Resurs predloška**, izaberite korisnika sa radnim vremenom koje želite da primenite na druge resurse. Idite na **Universal Resource Scheduling** > **Planiranje** > **Resursi** > **Aktivni resursi koji mogu da se rezervišu**. Izaberite resurse koje želite da promenite, a zatim izaberite **Postavi kalendar**. Na padajućoj listi **Predložak rada** izaberite predložak **Podrazumevano radno vreme** ili drugi predložak sa ispravnim resursom za predložak. Kada odete na tabelu rasporeda, trebalo bi da možete da vidite da resursi sada imaju ispravljeno radno vreme.
 
 > [!div class="mx-imgBorder"]
-> ![Snimak ekrana aktivnih resursa koji mogu da se rezervišu](media/sample-data-6.png)
+> ![Snimak ekrana aktivnih resursa koji mogu da se rezervišu.](media/sample-data-6.png)
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -2,11 +2,9 @@
 title: Ažuriranje atributa dodatnih komponenti tako da uključuju nove dimenzije za određivanje cena
 description: Ova tema pruža informacije o ažuriranju atributa dodatnih komponenti za dimenzije određivanja cena.
 author: Rumant
-manager: kfend
 ms.custom: ''
 ms.date: 11/19/2018
 ms.topic: article
-ms.service: project-operations
 ms.author: rumant
 audience: Admin
 search.audienceType:
@@ -16,12 +14,12 @@ search.audienceType:
 search.app:
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 958646c9e06a15e265bc0caa8b0f3eb9f79fc347
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
-ms.translationtype: HT
+ms.openlocfilehash: d04561fb6bcbc64f6ad3ea922bff1912824be64c6bb2b18cddd95e9b1b5c7850
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.translationtype: MT
 ms.contentlocale: sr-Latn-RS
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5281810"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6988803"
 ---
 # <a name="update-plug-in-attributes-to-include-new-pricing-dimensions"></a>Ažuriranje atributa dodatnih komponenti tako da uključuju nove dimenzije za određivanje cena
 
@@ -44,25 +42,25 @@ Sledeći koraci vas vode kroz proces registracije dodatnih komponenti.
 1. Otvorite **PluginRegistrationTool** i povežite se sa instancom na mreži.
 2. Kliknite na **Pretraga** i potražite dodatnu komponentu za ažuriranje.
 
- ![Snimak ekrana stabla za pretragu](media/PRT-1.png)
+ ![Snimak ekrana stabla za pretragu.](media/PRT-1.png)
 
 3. Nakon što pronađete dodatnu komponentu, izaberite je, a zatim kliknite na **Izaberi u glavnom obrascu**.
 
 4. Izaberite korak dodatne komponente za ažuriranje, kliknite desnim tasterom miša, a zatim izaberite **Ažuriraj**.
 
- ![Snimak ekrana dodatne komponente za ažuriranje](media/PRT-2.png)
+ ![Snimak ekrana dodatne komponente za ažuriranje.](media/PRT-2.png)
  
 5. U prozoru za ažuriranje kliknite na tri tačke (**...**) u atributima filtriranja.
 
- ![Snimak ekrana sa informacijama za konfigurisanje ažuriranja postojećeg koraka](media/PRT-3.png)
+ ![Snimak ekrana sa informacijama za konfigurisanje ažuriranja postojećeg koraka.](media/PRT-3.png)
  
 6. Izaberite polja za potvrdu atributa za određivanje cena.
 
- ![Snimak ekrana koji prikazuje izbor u polju za potvrdu za atribute određivanja cena](media/PRT-4.png)
+ ![Snimak ekrana koji prikazuje izbor u polju za potvrdu za atribute određivanja cena.](media/PRT-4.png)
 
 7. Kliknite na **U redu** da zatvorite stranicu, a zatim izaberite **Ažuriraj korak**.
 
- ![Snimak ekrana koji prikazuje dugme „Ažuriraj korak“](media/PRT-5.png)
+ ![Snimak ekrana koji prikazuje dugme „Ažuriraj korak“.](media/PRT-5.png)
  
 8. Ponovite ovaj postupak za drugu dodatnu komponentu, **PreOperationQuoteLineDetail - Ispravka za msdyn_quotelinetransaction**.
 

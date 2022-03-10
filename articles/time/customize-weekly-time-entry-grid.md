@@ -2,24 +2,22 @@
 title: Proširenje stavki vremena
 description: Ova tema pruža informacije o tome kako programeri mogu da prošire kontrolu stavki vremena.
 author: stsporen
-manager: Annbe
 ms.date: 10/08/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
 ms.reviewer: kfend
 ms.author: stsporen
-ms.openlocfilehash: 190ad9e1f9ced690aee953ed992bf7aa2844c3b3
-ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
+ms.openlocfilehash: c36a47b09e6012925a047f81318e89167d5c506facaae8d72b0bb6e8e267a7d5
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: sr-Latn-RS
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4083479"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6993348"
 ---
 # <a name="extending-time-entries"></a>Proširenje stavki vremena
 
 _**Odnosi se na:** Project Operations za resurs/scenarije koji nisu zasnovani na zalihama, laganu primenu – od pogodbe do profakture_
 
-Dynamics 365 Project Operations uključuje prilagođenu kontrolu stavki vremena. Ova kontrola sadrži sledeće funkcije:
+Dynamics 365 Project Operations obuhvata proširivu prilagođenu kontrolu unosa vremena. Ova kontrola sadrži sledeće funkcije:
 
 - Unesite vreme horizontalno tokom nedelje
 - Ukupno po danu, redu ili nedelji
@@ -144,3 +142,6 @@ Koristite validacije dodatnih komponenti za sve validacije za koje je potrebno v
 
 ### <a name="copying-time-entries"></a>Kopiranje stavki vremena
 Koristite prikaz **Kolone za kopiranje stavki vremena** da biste definisali listu polja za kopiranje tokom unosa vremena. **Datum** i **Trajanje** su obavezna polja i ne bi ih trebalo ukloniti iz prikaza.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

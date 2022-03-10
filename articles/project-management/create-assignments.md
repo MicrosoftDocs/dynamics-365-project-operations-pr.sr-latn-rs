@@ -2,18 +2,16 @@
 title: Kreiranje dodela resursa
 description: Ova tema pruža informacije o kreiranju generičkih i imenovanih dodela resursa.
 author: ruhercul
-manager: Annbe
 ms.date: 10/01/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.openlocfilehash: 20eb3880b17fb1f765ad79bd720520b0c8004c0a
-ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
-ms.translationtype: HT
+ms.openlocfilehash: d2e7c9a340a482a62afc0c9f0aa46c24fda27ca6ef56fdc0160f06af846c0b53
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.translationtype: MT
 ms.contentlocale: sr-Latn-RS
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4083493"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6987903"
 ---
 # <a name="create-resource-assignments"></a>Kreiranje dodela resursa
 
@@ -42,3 +40,6 @@ Možete da koristite polje za pretragu u **biraču resursa** da pretražite sve 
 1. Iz mreže zadataka, sa table ili vremenske ose idite na ćeliju **Dodeljeno**.
 2. U polju za pretragu počnite da kucate ime. Prikazuju se rezultati pretrage za ime u **biraču resursa** u okviru opcije **Drugi resursi**.
 3. Izaberite resurs koji želite da dodelite zadatku ili izaberite ime resursa u delu **Ostali resursi tima**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

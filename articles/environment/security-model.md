@@ -1,25 +1,25 @@
 ---
 title: Model bezbednosti
-description: Ova tema pruža informacije o modelu bezbednosti u usluzi Dynamics 365 Project Operations.
+description: U ovoj temi date su informacije o bezbednosnom modelu u usluzi Dynamics 365 Project Operations.
 author: stsporen
-manager: Annbe
 ms.date: 10/01/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
 ms.reviewer: kfend
 ms.author: stsporen
-ms.openlocfilehash: e875d1765b5038e60830d626abb5bcd61749ece1
-ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
+ms.openlocfilehash: 2f283771921504dc29ddcc26ca659d4e151598840339bd8c1a857e8bf5dde9ed
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: sr-Latn-RS
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4083465"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6991503"
 ---
 # <a name="security-model"></a>Model bezbednosti
 
 _**Odnosi se na:** Project Operations za resurs/scenarije koji nisu zasnovani na zalihama, laganu primenu – od pogodbe do profakture_
 
-Microsoft Dynamics 365 Project Operations sadrži jedinstveni model bezbednosti koji omogućava poslovni model bezbednosti zasnovan na ulogama koji sarađuje sa Microsoft Office grupama. 
+[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
+
+Microsoft Dynamics 365 Project Operations sadrži jedinstveni bezbednosni model koji omogućava model poslovne bezbednosti zasnovan na ulogama koji sarađuje sa Microsoft Office grupama. 
 
 
 ## <a name="security-roles"></a>Bezbednosne uloge
@@ -56,9 +56,9 @@ Grupe omogućavaju zajednički rad na dozvolama projekta i pratećim artefaktima
 
 Usluga Project Operations ne kreira grupu implicitnom akcijom, već samo eksplicitnom akcijom pritiska grupa.
 
-Pretraga članova grupe u dijalogu **Upravljanje grupama** ograničena je na one koji su postavljeni kao deo bezbednosne grupe okruženja. Više informacija potražite u članku [Kontrola korisničkog pristupa okruženjima: bezbednosne grupe i licence](https://docs.microsoft.com/power-platform/admin/control-user-access).
+Pretraga članova grupe u dijalogu **Upravljanje grupama** ograničena je na one koji su postavljeni kao deo bezbednosne grupe okruženja. Više informacija potražite u članku [Kontrola korisničkog pristupa okruženjima: bezbednosne grupe i licence](/power-platform/admin/control-user-access).
 
-![Grupni režim](./media/groupsmode.png)
+![Grupni režim.](./media/groupsmode.png)
 
 1. Projekat se kreira i njegov vlasnik je korisnik koji ga je kreirao.
 2. Vlasnik projekta je obavešten o timu.
@@ -68,7 +68,7 @@ Pretraga članova grupe u dijalogu **Upravljanje grupama** ograničena je na one
 ## <a name="deployment-recommendation"></a>Preporuka za primenu
 Kako se model saradnje Office grupe razvija, funkcionalnost će biti dodavana kako bi se pružala detaljnija kontrola tokom vremena. Klijenti koji danas primenjuju Project Operations podstiču se da se usredsrede na tradicionalni Microsoft Dynamics 365 model bezbednosti.
 
-Za više informacija, pogledajte [Bezbednost u usluzi Common Data Service](https://docs.microsoft.com/power-platform/admin/wp-security).
+Za više informacija, pogledajte [Bezbednost u usluzi Common Data Service](/power-platform/admin/wp-security).
 
 ## <a name="project-operations-and-microsoft-dynamics-365-finance-security"></a>Project Operations i Microsoft Dynamics 365 Finance bezbednost
 Usluga Project Operations uključuje sledeće uloge:
@@ -76,6 +76,9 @@ Usluga Project Operations uključuje sledeće uloge:
 - Menadžer projekta
 - Računovođa projekta
 
-Više informacija o bezbednosti u usluzi Finance potražite u odeljku [Bezbednost zasnovana na ulogama](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/sysadmin/role-based-security).
+Više informacija o bezbednosti u usluzi Finance potražite u odeljku [Bezbednost zasnovana na ulogama](/dynamics365/fin-ops-core/dev-itpro/sysadmin/role-based-security).
 
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

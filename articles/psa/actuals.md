@@ -2,10 +2,9 @@
 title: Pregled trenutnog stanja
 description: Ova tema pruža informacije o stvarnim vrednostima projekta.
 author: rumant
-manager: kfend
-ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
+- intro-internal
 ms.date: 08/03/2020
 ms.topic: article
 ms.author: rumant
@@ -18,12 +17,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: c4a3424bed704243dfb5524fa541c3fcc0899e57
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 15c8d26fcf4eb9fda8a4fe4ce085ea3becdc2c76f11525357b75f59e18fd6017
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: sr-Latn-RS
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5285635"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6992493"
 ---
 # <a name="actuals-overview"></a>Pregled trenutnog stanja
 
@@ -33,7 +32,7 @@ ms.locfileid: "5285635"
 
 Stvarne vrednosti predstavljaju količinu posla koja je završena za projekat. Stvarne vrednosti projekta mogu da se prate do njegovih izvornih dokumenata. Ti izvorni dokumenti uključuju vreme, troškove i stavke knjiženja u glavnoj knjizi, kao i fakture.
 
-![Kako se stvarne vrednosti projekta prate do izvornih dokumenata](media/basic-guide-18.png)
+![Kako se stvarne vrednosti projekta prate do izvornih dokumenata.](media/basic-guide-18.png)
 
 ## <a name="submitting-a-time-entry"></a>Prosleđivanje stavke vremena
 

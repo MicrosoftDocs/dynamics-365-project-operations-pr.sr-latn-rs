@@ -2,18 +2,17 @@
 title: Pregled pomoćnika za zakazivanje
 description: Ova tema pruža informacije o radu sa pomoćnikom za planiranje radi rezervisanja resursa.
 author: ruhercul
-manager: Annbe
 ms.date: 10/01/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.openlocfilehash: 92b12bd9272805a736286bf7e0ff926cb6361c05
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.custom: intro-internal
+ms.openlocfilehash: 309cb94ea30c525daccf032c625004c42fb408dada4b337b65d8f36d76219669
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: sr-Latn-RS
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4125645"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6990243"
 ---
 # <a name="schedule-assistant-overview"></a>Pregled pomoćnika za zakazivanje
 
@@ -25,7 +24,7 @@ Kada se identifikuju odgovarajući resursi, menadžer resursa ili projekta može
 
 ## <a name="prerequisites"></a>Preduslovi
 
-Pomoćnik za planiranje je deo rešenja Universal Resource Scheduling. Ovo rešenje je uključeno i instalirano sa uslugama Dynamics 365 Project Operations, Dynamics 365 Field Service i Dynamics 365 Customer Service.
+Pomoćnik za planiranje je deo rešenja Universal Resource Scheduling. Ovo rešenje je uključeno i instalirano uz Dynamics 365 Project Operations, Dynamics 365 Field Service i Dynamics 365 Customer Service.
 
 ## <a name="matching-requirements-and-resources"></a>Zahtevi i resursi koji se podudaraju
 
@@ -57,3 +56,6 @@ Okno filtera prikazuje opcije vezane za posao, uključujući:
 -   Preduzeće koje obezbeđuje resurse
 -   Tipovi resursa
 -   Željeni resursi
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

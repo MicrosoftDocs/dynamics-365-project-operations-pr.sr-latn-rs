@@ -2,65 +2,47 @@
 title: Prijavljivanje za pretplate na verziju za pregled usluge Project Operations za scenarije resursa / bez zaliha
 description: Ova tema pruža informacije o načinu pretplate i primene usluge Project Operations za scenarije zasnovane na resursima / bez zaliha.
 author: sigitac
-manager: Annbe
-ms.date: 10/07/2020
+ms.date: 07/02/2021
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: dc3b353f19b915f645aed91dc2a8127117027034
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: f47d5a29c0e40a49aed7b3e52c5d52a9c27b8dbc
+ms.sourcegitcommit: 80aa1e8070f0cb4992ac408fc05bdffe47cee931
 ms.translationtype: HT
 ms.contentlocale: sr-Latn-RS
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4121145"
+ms.lasthandoff: 08/13/2021
+ms.locfileid: "7323433"
 ---
 # <a name="sign-up-for-project-operations-preview-subscriptions-for-resource-non-stocked-scenarios"></a>Prijavljivanje za pretplate na verziju za pregled usluge Project Operations za scenarije resursa / bez zaliha
 
 _**Odnosi se na:** Project Operations za scenarije zasnovane na resursima / bez zaliha_
 
-Ova tema objašnjava kako se pretplatiti na verziju za pregled / partnersku ponudu i primenu Project Operations okruženja za scenarije zasnovane na resursima / bez zaliha.
+[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
+
+Ova tema objašnjava kako da se pretplatite na ponudu probne verzije i primeniti Project Operations okruženje za scenarije zasnovane na resursima / bez zaliha.
 
 ## <a name="prerequisites"></a>Preduslovi
-
-- Dobićete e-poruku sa pozivom da učestvujete u pregledu. Možete zatražiti verziju za pregled na [Project Operations veb-lokaciji](https://dynamics.microsoft.com/en-us/project-operations/overview/).
-- Korisnik koji primeni verziju za pregled mora da ima globalna administratorska prava u Azure zakupcu.
-- Za primenu Finance okruženja potrebna je važeća Azure pretplata koja će se naplaćivati po okruženju. Možete da koristite postojeću pretplatu u svojim organizacijama ili da koristite [Azure probnu verziju](https://azure.microsoft.com/en-us/free/) da biste započeli. CDS okruženje će biti besplatno za ograničen period od 30 dana.
-
-## <a name="subscribe"></a>Pretplati se
-
-Kada vaš [zahtev za pregled](https://forms.office.com/FormsPro/Pages/ResponsePage.aspx?id=v4j5cvGGr0GRqy180BHbR56j8lZs0FdAvwT75_WNFyxUMkRDV1NYQU5TNjE2VjhKOVBUNVg2R0s1NC4u) bude odobren, dobićete tri ponude od kompanije Microsoft e-poštom. Ove ponude vam omogućavaju da primenite verziju za pregled usluge Project Operations:
-
-- Dynamics 365 Project Operations (CRM) – Probna verzija za pregled
-- Office 365 Project Operations – Probna verzija za pregled
-- Dynamics 365 Finance – Probna verzija za pregled
+- Korisnik koji primeni verziju za pregled mora da ima globalna administratorska prava u Azure zakupcu. Zakupca možete kreirati tokom prvog iskorišćavanja ponude. 
+- Za primenu Finance okruženja potrebna je važeća Azure pretplata koja će se naplaćivati po okruženju. Možete da koristite postojeću pretplatu u svojim organizacijama ili da koristite [Azure probnu verziju](https://azure.microsoft.com/free/) da biste započeli. CDS okruženje će biti besplatno za ograničen period od 30 dana.
 
 > [!IMPORTANT]
 > Samo jedna osoba, administrator zakupca, u organizaciji treba da izvršava ovaj zadatak. Ako niste pretplatnik na ovo izdanje, sačekajte dok se vaša organizacija ne registruje i ne primite svoje korisničke akreditive.
+> 
+> Probne verzije se koriste jednokratno u zakupcu. Probnu verziju možete pokrenuti samo jednom. Preporučujemo vam da kreirate novog zakupca u svrhu probne verzije.
 
-### <a name="dynamics-365-project-operations-crm---preview-trial"></a>Dynamics 365 Project Operations (CRM) – Probna verzija za pregled 
+
+### <a name="dynamics-365-project-operations-ce---preview-trial"></a>Dynamics 365 Project Operations (CE) – Probna verzija za pregled 
 
 Pre nego što započnete, uverite se da ste prijavljeni u pregledač sa korisničkim poslovnim nalogom u zakupcu gde želite pregled usluge Project Operations.
 
-1. Iskoristite prvu šifru ponude, **Dynamics 365 Project Operations (CRM) – Probna verzija za pregled** njenim lepljenjem u URL pregledača.
-
-![Iskoristite ponudu](./media/16RedeemFirstOfferNew.png)
-
+1. Iskoristite prvu šifru ponude, **Dynamics 365 Project Operations** ovde [Project Operations probna verzija](https://aka.ms/try-po).
 2. Potvrdite porudžbinu.
 
-![Potvrdite porudžbinu](./media/17ConfirmOrderNew.png)
-
-Videćete da je ponuda za potvrdu uspešno iskorišćena.
-
-![Potvrda](./media/18OrderConfirmationNew.png)
-
-### <a name="office-365-project-operations---preview-trial"></a>Office 365 Project Operations – Probna verzija za pregled
-
-Ponovite iste korake kao kod prve šifre ponude. Obavezno dodajte drugu šifru ponude koristeći isti korisnički nalog koji je korišćen sa prvom šifrom ponude.
+  Videćete da je ponuda za potvrdu uspešno iskorišćena.
 
 ### <a name="dynamics-365-finance-preview-trial"></a>Dynamics 365 Finance probna verzija za pregled
 
-Ponovite iste korake sa poslednjom ponudom iz e-poruke dobrodošlice.
+Idite na [probnu verziju za pregled usluge Dynamics 365 for Finance](https://aka.ms/trypoche) i ponovite korake iz prethodnog odeljka sa ponudom, Prijavite se za okruženje koje se hostuje u oblaku.  
 
 ## <a name="assign-licenses"></a>Dodeljivanje licenci
 
@@ -69,13 +51,9 @@ Ponovite iste korake sa poslednjom ponudom iz e-poruke dobrodošlice.
 
 1. Idite u [Microsoft 365 centar administracije](https://portal.office.com/) da dodelite licence svojim korisnicima.
 
-![Početna stranica centra administracije](./media/14AdminPortal.png)
-
 2. Na stranici **Aktivni korisnici**, izaberite korisnike kojima želite da dodelite licencu.
 
-![Dodeljivanje licenci](./media/15AssignLicenses.png)
-
-3. Proverite da li su izabrane licence za **Dynamics 365 Project Operations (CRM) verziju za pregled** i **Office 365 Project Operations – verziju za pregled** i izaberite **Sačuvaj promene**.
+3. Proverite da li je izabrana licenca **Dynamics 365 Project Operations**, pa izaberite **Sačuvaj promene**.
 
 > [!NOTE]
 > Ponudu za probnu verziju usluge Finance ne treba dodeliti korisniku.
@@ -90,9 +68,12 @@ Da biste dovršili ovaj zadatak, sledite korake u temi [Dodavanje Azure pretplat
 
 ## <a name="deploy-finance-demo-environment-with-project-operations-for-resourcenon-stocked-scenarios"></a>Primenite Finance demo okruženje sa uslugom Project Operations za scenarije resursa / bez zaliha
 
-Sledite smernice u temi [Obezbeđenje novog okruženja](resource-provision-new-environment.md) da biste završili primenu. Koristite tip primene [demo okruženje](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/deployment/deploy-demo-environment) za pregled. 
+Sledite smernice u temi [Obezbeđenje novog okruženja](resource-provision-new-environment.md) da biste završili primenu. Koristite tip primene [demo okruženje](/dynamics365/fin-ops-core/dev-itpro/deployment/deploy-demo-environment) za pregled. 
 
 ## <a name="install-cds-setup-and-configuration-data"></a>Instalirajte podatke o podešavanju i konfiguraciji CDS
 
 Instalirajte podatke o podešavanju i konfiguraciji CDS kako je opisano u temi [Podesite i primenite podatke o konfiguraciji u usluzi Common Data Service](resource-apply-pro-setup-config-data.md).
-Dovršite ovaj korak tek nakon što se primeni demo okruženje usluge Finance i demo podaci u FO budu spremni.
+Dovršite ovaj korak tek nakon što se primeni demo okruženje usluge Finance i demo podaci budu spremni.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

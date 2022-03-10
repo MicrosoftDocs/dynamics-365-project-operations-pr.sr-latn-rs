@@ -2,20 +2,18 @@
 title: Gotovinski avans
 description: Ova tema pruža informacije o akontacijama.
 author: suvaidya
-manager: AnnBe
-ms.date: 10/01/2020
+ms.date: 03/25/2021
 ms.topic: article
-ms.service: dynamics-365-customerservice
 ms.reviewer: kfend
 ms.author: suvaidya
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: 209fe0b8a79b2c0689c458c423664cb292da249b
-ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
-ms.translationtype: HT
+ms.openlocfilehash: 6881fc8251a2d3c7d6af0016780a92358ce63397d09b9a0cde201126cd2912cc
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.translationtype: MT
 ms.contentlocale: sr-Latn-RS
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4083463"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6988533"
 ---
 # <a name="cash-advance"></a>Gotovinski avans
 
@@ -24,8 +22,9 @@ _**Odnosi se na:** Project Operations za scenarije zasnovane na resursima / bez 
 Akontacija omogućava zaposlenima da pozajmljuju novac od svog preduzeća pre nego što nastanu bilo kakvi troškovi. Kada se odobri i plati tražena akontacija, zaposleni može novac iskoristiti za poslovne troškove koji će možda nastati. 
 
 ## <a name="create-and-submit-a-cash-advance-request"></a>Kreirajte i predajte zahtev za akontaciju
+Da biste kreirali novi gotovinski avans i podneli zahtev za gotovinski avans, uradite sledeće: 
 
-1. U delu **Moji troškovi** izaberite **Akontacije** > **Nova** da biste kreirali novu akontaciju. 
+1. U delu **Moji troškovi** izaberite **Gotovinski avansi** > **Novo**. 
 2. Na stranici **Novi zahtev za akontaciju**, unesite namenu troškova i odaberite lokaciju na kojoj će nastati troškovi.
 3. Unesite traženi iznos i valutu, a zatim izaberite **Sačuvaj**. 
 4. Kada budete spremni da predate zahtev za akontaciju, na stranici **Zahtev za akontaciju** izaberite **Tok posla** > **Prosledi**.
@@ -34,7 +33,7 @@ Akontacija omogućava zaposlenima da pozajmljuju novac od svog preduzeća pre ne
 
 Zahtev za akontaciju možete izmeniti ako nije podnet na odobrenje.
 
-1. U delu **Moji troškovi: Akontacije** pronađite i izaberite akontaciju koju želite da uredite.
+1. U delu **Moji troškovi: gotovinski avansi** pronađite i izaberite gotovinski avans koji želite da uredite.
 2. Izaberite **Uređuj** i izvršite potrebne promene u zahtevu za akontaciju. 
 3. Izaberite stavku **Sačuvaj i zatvori**.
 
@@ -57,7 +56,26 @@ Sledeći postupak obično dovršava računovođa ili korisnik sa računovodstven
 
 ## <a name="submit-an-expense-report-against-a-paid-cash-advance"></a>Podnesite izveštaj o troškovima u odnosu na isplaćenu akontaciju 
 
-Kada kreirate i predate izveštaj o troškovima za akontaciju koju ste već dobili, troškovi će se automatski prilagoditi toj akontaciji. Ako je vaša akontacija veća od utrošenog iznosa, morate vratiti razliku preduzeću koristeći kategoriju troška **Povraćaj gotovine**. Ako je akontacija koju je preduzeće isplatilo manja od iznosa koji ste potrošili, preduzeće vam mora nadoknaditi razliku. 
+Kada kreirate i podnesete izveštaj o troškovima za gotovinski avans koji ste već dobili, troškovi će se automatski prilagoditi tom avansu. Ako je vaša akontacija veća od utrošenog iznosa, morate vratiti razliku preduzeću koristeći kategoriju troška **Povraćaj gotovine**. Ako je gotovinski avans koji je preduzeće platilo manji od iznosa koji ste potrošili, preduzeće vam mora nadoknaditi bilans. 
 
-### <a name="example"></a>Primer
-Planirate da putujete na konferenciju iz Sijetla u Njujork. Kreirate zahtev za akontaciju za iznos od 3000 USD jer ste procenili da troškovi kotizacije, letova, hotela, obroka i taksija iznose približno toliko. Nećete biti isplaćeni ukoliko vaš menadžer ne odobri ovaj zahtev. Kada vaš menadžer odobri, tražena akontacija u iznosu od 3000 USD se uplaćuje na vaš bankovni račun. Zatim prisustvujete konferenciji. Po završetku putovanja, otkrivate da su ukupni izdaci bili samo 2790 USD. Izaberite **Gotovina** u polju **Način plaćanja** i prosledite vaš trošak na 2790 USD. Prosleđeni iznos troška automatski se prilagođava akontaciji od 3000 USD koja vam je pozajmljena. Sada preduzeću dugujete preduzeću 210 USD (3000 – 2790), koji preduzeću možete vratiti koristeći kategoriju troška **Povraćaj gotovine**. 
+### <a name="select-cash-advances-that-apply-to-your-expenses"></a>Izaberite avans u gotovini koji se odnosi na vaše troškove
+Pre nego što predate izveštaj o troškovima, možete da izaberete avans u gotovini koji se poklapa sa transakcijama troškova u izveštaju. Da biste koristili ovu funkcionalnost, sledeće dve funkcije moraju biti omogućene iz radnog prostora **Upravljanje funkcijama**:
+
+  - Ponovno osmišljeni izveštaji o troškovima
+  - Sposobnost mapiranja gotovinskih avansa u stavke troškova
+ 
+ Kada su ove funkcije omogućene:
+ 
+  - Možete platiti jedan ili više gotovinskih avansa za svaku stavku troška.
+  - Dostupno stanje gotovinskog avansa vidljivo je u realnom vremenu kada se sačuva izveštaj o troškovima. Ovo vam omogućava istovremeno obrađivanje transakcija troškova i vraćanje gotovinskih transakcija.
+  - Možete izabrati više gotovinskih avansa za jednu transakciju troška.
+  - Podaci o sravnjenju gotovinskog avansa dostupni su pomoću upita. 
+ 
+Ako ne koristite ove funkcije, funkcionalnost će ostati ista, sa postojećim gotovinskim avansima automatski se smanjuju nakon podnošenja troškova.
+
+### <a name="example"></a>Primer 
+Planirate da putujete iz Sijetla u Njujork na konferenciju. Kreirate zahtev za gotovinski avans za 3000,00 USD na osnovu procenjene cene konferencijske karte, letova, hotela, obroka i taksija. Neće vam biti plaćeno ako menadžer ne odobri ovaj zahtev. Kada vaš menadžer odobri, tražena akontacija u iznosu od 3000 USD se uplaćuje na vaš bankovni račun. Zatim prisustvujete konferenciji. Po završetku putovanja, otkrivate da su ukupni izdaci bili samo 2790 USD. Izaberite **Gotovina** u polju **Način plaćanja** i predajte troškove za 2790,00 USD. Prosleđeni iznos troška automatski se prilagođava akontaciji od 3000 USD koja vam je pozajmljena. Sada dugujete iznos od 210,00 USD (3000,00 – 2790,00) koji možete vratiti kompaniji koristeći kategoriju troškova **Povraćaj gotovine**.
+
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

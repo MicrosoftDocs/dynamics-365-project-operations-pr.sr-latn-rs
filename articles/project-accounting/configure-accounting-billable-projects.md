@@ -2,18 +2,16 @@
 title: Konfigurisanje računovodstva za naplative projekte
 description: Ova tema pruža informacije o računovodstvenim opcijama za naplative projekte.
 author: sigitac
-manager: Annbe
 ms.date: 04/05/2021
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 629e3fc2f9069d104d459d0b4a6fa46c37f5c6f2
-ms.sourcegitcommit: 5fd529f2308edfe9322082313e6d50146df56aca
-ms.translationtype: HT
+ms.openlocfilehash: cbc6bcbfa527486df4c740c52cec8c4be1dabe0478783fb7d2e71a65f18c050f
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.translationtype: MT
 ms.contentlocale: sr-Latn-RS
-ms.lasthandoff: 04/06/2021
-ms.locfileid: "5858670"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6991053"
 ---
 # <a name="configure-accounting-for-billable-projects"></a>Konfigurisanje računovodstva za naplative projekte
 
@@ -103,23 +101,23 @@ Dovršite sledeće korake da biste kreirali novi profil troškova i prihoda proj
 
 Vreme i materijali – bez prihoda u toku
 
-![Profil troškova i prihoda: Vreme i materijali - bez prihoda u toku](media/time-material-no-wip.png)
+![Profil troškova i prihoda: Vreme i materijali - bez posla u toku.](media/time-material-no-wip.png)
 
 Vreme i materijali – prihod u toku (prihod)
 
-![Profil troškova i prihoda: Vreme i materijali – prihod u toku](media/time-material-with-wip.png)
+![Profil troškova i prihoda: Vreme i materijali – posao u toku.](media/time-material-with-wip.png)
 
 Fiksna cena – Bez prihoda u toku
 
-![Profil troškova i prihoda: Fiksna cena - bez prihoda u toku](media/fixed-price-no-wip.png)
+![Profil troškova i prihoda: Fiksna cena - bez posla u toku.](media/fixed-price-no-wip.png)
 
 Fiksna cena – završen ugovor
 
-![Profil troškova i prihoda: Fiksna cena – završen ugovor](media/fixed-price-completed-contract.png)
+![Profil troškova i prihoda: Fiksna cena – završen ugovor.](media/fixed-price-completed-contract.png)
 
 Fiksna cena – procenat dovršenosti
 
-![Profil troškova i prihoda: Fiksna cena – procenat dovršenosti](media/fixed-price-completed-percentage.png)
+![Profil troškova i prihoda: Fiksna cena – procenat dovršenosti.](media/fixed-price-completed-percentage.png)
 
 
 ## <a name="accounting-event-examples-for-sample-project-cost-and-revenue-profiles"></a>Primeri računovodstvenog događaja za probne profile troškova i prihoda projekta.

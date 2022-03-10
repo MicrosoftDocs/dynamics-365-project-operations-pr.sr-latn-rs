@@ -6,12 +6,12 @@ ms.date: 04/22/2021
 ms.topic: article
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: c8bc389c83eaf2a7720ef3fa969c677eed11e7959199b5f0083df5bf3b43ea43
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 452f9f16bfbae2d547afb9fcf4fc51595ea49890
+ms.sourcegitcommit: 74a7e1c9c338fb8a4b0ad57c5560a88b6e02d0b2
 ms.translationtype: HT
 ms.contentlocale: sr-Latn-RS
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7003833"
+ms.lasthandoff: 09/23/2021
+ms.locfileid: "7547126"
 ---
 # <a name="project-operations-dual-write-map-versions"></a>Verzije mape dvostrukog upisivanja za Project Operations
 
@@ -49,8 +49,8 @@ Sledeće mape su neophodne za Project Operations rešenje. Navedene su verzije m
 | Project Operations tabela integracije za procene materijala (msdyn\__estimatelines) | 1.0.0.0 | Nije potrebno za rezervisanje. |
 | Predlozi faktura projekta V2 (fakture) | 1.0.0.3 | Nije potrebno za rezervisanje. |
 | Project Operations stvarne vrednosti integracije (msdyn_actuals) | 1.0.0.14 | Nije potrebno za rezervisanje. |
-| Project Operations kontrolne tačke predmeta ugovora o integraciji (msdyn_contractlinesscheduleofvalues) | 1.0.0.4 | Nije potrebno za rezervisanje. |
-| Project Operations entitet integracije za procene troškova (msdyn_estimateslines) | 1.0.0.2 | Nije potrebno za rezervisanje. |
+| Kontrolne tačke predmeta ugovora za integraciju sa uslugom Project Operations (msdyn_contractlinescheduleofvalues) | 1.0.0.4 | Nije potrebno za rezervisanje. |
+| Entitet za integraciju sa uslugom Project Operations za procenu troškova (msdyn_estimatelines) | 1.0.0.2 | Nije potrebno za rezervisanje. |
 | Project Operations entitet integracije za procene sati (msdyn_resourceassignments) | 1.0.0.5 | Nije potrebno za rezervisanje. |
 | Project Operations entitet izvoza kategorija troškova projekta (msdyn_expensecategories) | 1.0.0.1 | Nije potrebno za rezervisanje. |
 | Project Operations entitet izvoza troškova integracije projekta (msdyn_expenses) | 1.0.0.2 | Nije potrebno za rezervisanje. |

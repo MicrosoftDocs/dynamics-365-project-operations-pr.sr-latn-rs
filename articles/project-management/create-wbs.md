@@ -2,16 +2,16 @@
 title: Kreiranje strukturne analize posla
 description: Ova tema objašnjava kako da kreirate strukturnu analizu posla (SAP) koja uključuje osnovne kontrole u novom interfejsu za planiranje.
 author: ruhercul
-ms.date: 06/30/2021
+ms.date: 12/16/2021
 ms.topic: article
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.openlocfilehash: f77450d0d754606dd336072248012fea462510a4
-ms.sourcegitcommit: a12d21c7cab296f5b6a3181d76a06f57dee1267c
+ms.openlocfilehash: 3b8162d256aa145301fc64bee9682caa8737496f
+ms.sourcegitcommit: d3f66dfb5978c5c6b7fd51363c7f9278737c49c1
 ms.translationtype: HT
 ms.contentlocale: sr-Latn-RS
-ms.lasthandoff: 10/19/2021
-ms.locfileid: "7655434"
+ms.lasthandoff: 12/17/2021
+ms.locfileid: "7928632"
 ---
 # <a name="create-a-work-breakdown-structure-wbs"></a>Kreiranje strukturne analize posla (SAP)
 
@@ -95,11 +95,11 @@ Kao administrator možete da definišete prilagođena polja na entitetu zadatka.
 
 ## <a name="staffing-attributes"></a>Atributi zaposlenih
 
-Atributima angažovanja se pristupa u polju **Resursi** u rasporedu. Možete potražiti postojeći resurs ili izaberite **Kreiraj** i u oknu **Brzo kreiranje** dodajte člana projektnog tima kao novi resurs.
+Atributima angažovanja se pristupa u polju **Resursi** u rasporedu. Možete potražiti postojeći resurs ili izaberite **Kreiraj** i u oknu **Brzo kreiranje** dodajte člana projektnog tima kao novi resurs.  Kada tražite resurs pomoću izdvajanja resursa u koordinatnoj mreži zadataka, prikazu table ili gantu, pretraga vraća postojeće članove projektnog tima ili aktivne resurse koji se mogu rezervisati.
 
 Polja **Uloga**, **Jedinica za obezbeđivanje resursa** i **Naziv pozicije** se koriste za opisivanje potreba za angažovanjem resursa na zadatku. Ovi atributi angažovanja, zajedno sa rasporedom zadataka, koriste se za pronalaženje dostupnih resursa za obavljanje ovog zadatka.
 
-   - **Uloga**: Navedite vrstu resursa koji je potreban za izvršavanje zadatka.
+   - **Uloga** : Navedite tip resursa koji je potreban za zadatak.,
    - **Jedinica za obezbeđivanje resursa**: Navedite jedinicu iz koje treba dodeliti resurse za zadatak. Ovaj atribut utiče na procenu troškova i prodaje za zadatak ako su stope troškovi i naplate za resurs podešene na osnovu jedinica za obezbeđivanje resursa.
    - **Naziv pozicije**: Unesite ime za generički resurs koje služi kao čuvar mesta za resurs koji će na kraju obaviti posao.
 
@@ -127,6 +127,7 @@ Trebalo bi da znate za sledeća ograničenja ako koristite strukturu analize pos
 | Maksimalni ukupni broj resursa za projekat              | 150                  |
 | Maksimalan ukupni broj veza (samo narednih) za projekat | 600                  |
 | Maksimalni ukupni broj prilagođenih polja za projekat          | 10                   |
+| Maksimalne stavke kontrolne liste po zadatku                   | 20                   |
 
 **Ograničenja zadatka**
 

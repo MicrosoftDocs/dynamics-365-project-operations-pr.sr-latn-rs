@@ -2,40 +2,42 @@
 title: Zatvaranje ponude – jednostavno
 description: Ova tema pruža informacije o zatvaranju ponude u usluzi Project Operations.
 author: rumant
-manager: Annbe
 ms.date: 10/01/2020
 ms.topic: article
-ms.service: project-operations
+ms.prod: ''
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 5ad206232d616cdbdc83e2a17b9177cfb98ffda9
-ms.sourcegitcommit: 625878bf48ea530f3381843be0e778cebbbf1922
-ms.translationtype: HT
+ms.openlocfilehash: 8ae5e14220ffecab5bcfa016d8d18e6ccfbc5b04be9a4e66cee26f8885125d31
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.translationtype: MT
 ms.contentlocale: sr-Latn-RS
-ms.lasthandoff: 10/30/2020
-ms.locfileid: "4175728"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6994338"
 ---
 # <a name="close-a-quote---lite"></a>Zatvaranje ponude – jednostavno
 
 _**Odnosi se na:** Jednostavna primena – od pogodbe do profakture_
 
-Ponuda za projekat može da se zatvori kao ostvarena ili neostvarena. Budući da operacije Aktiviranje i Revizija nisu podržane u ponudama u usluzi Microsoft Dynamics 365 Project Operations, možete zatvoriti radnu verziju ponude.
+Ponuda za projekat može da se zatvori kao ostvarena ili neostvarena. Radna verzija ponude može da se zatvori jer Microsoft Dynamics 365 Project Operations ne podržava operacije Aktiviraj i Revidiraj za ponude.
 
 ## <a name="close-a-quote-as-won"></a>Zatvaranje ponude kao ostvarene
 
-Zatvaranje ponude za projekat kao ostvarene zatvoriće ponudu sa statusom postavljenim na Zatvoreno i razlogom statusa postavljenim na Ostvareno. Zatvaranje ponude je postavlja ponudu za projekat u status samo za čitanje i kreira radnu verziju ugovora za projekat koja sadrži sve informacije iz ponude. Postoji dijalog za potvrdu pre nego što se promene izvrše, jer se zatvorena ponuda ne može ponovo otvoriti i promene su nepovratne.
+Kada zatvorite ponudu za projekat kao Dobijenu, status se podešava na Zatvoreno, a razlog statusa je Dobijeno. Zatvaranje ponude je postavlja ponudu za projekat u status samo za čitanje i kreira radnu verziju ugovora za projekat koja sadrži sve informacije iz ponude. Budući da zatvorena ponuda ne može ponovo da se otvori, dijalog za potvrdu će potvrditi vaše promene.
 
 Ako priložite ponudu uz mogućnost za poslovanje, sve ostale ponude za projekat u mogućnosti za poslovanje automatski se zatvaraju kao neostvarene.
 
 ### <a name="financial-impact-of-closing-a-quote-as-won"></a>Finansijski uticaj zatvaranja ponude kao ostvarene
 
-Ako postoje stvarni podaci za vreme zabeleženo na projektu dok je još uvek priložen uz radnu verziju ponude, beleže se samo troškovi vremena ili rashoda. Nakon što se ponuda zatvori kao ostvarena, aplikacija će refaktorisati troškove storniranjem starijih stvarnih troškova i ponovnim kreiranjem novih stvarnih troškova. Aplikacija će obraditi ove stvarne troškove na osnovu metode naplate povezanog predmeta ugovora o projektu. Ako se stvarni iznosi troškova odnose na predmet ugovora o vremenu i materijalu, sistem će automatski kreirati odgovarajuće nefakturisane stvarne podatke o prodaji kada se ponuda zatvori i kreira projektni ugovor. Ako se stvarni podaci o troškovima pozivaju na predmet ugovora sa fiksnom cenom, aplikacija će zaustaviti ponovnu obradu stvarnih troškova na osnovu pravila podeljenog obračuna za klijente po ugovoru o projektu.
+Ako postoje stvarni podaci o vremenu na projektu, dok je on još uvek priložen uz radnu verziju ponude, evidentiraju se samo troškovi vremena ili troškovi. Nakon što se ponuda zatvori kao ostvarena, aplikacija će refaktorisati troškove storniranjem starijih stvarnih troškova i ponovnim kreiranjem novih stvarnih troškova. Aplikacija će obraditi ove stvarne troškove na osnovu metode naplate povezanog predmeta ugovora o projektu. Ako se stvarni podaci o troškovima odnose na predmet ugovora za vreme i materijal, odgovarajuće nenaplaćene stvarne prodajne vrednosti kreiraju se kada se ponuda zatvori i kreira projektni ugovor. Ako se stvarni podaci o troškovima odnose na predmet ugovora sa fiksnom cenom, aplikacija će zaustaviti ponovnu obradu stvarnih troškova koji se zasnivaju na pravilima deljene naplate za klijente ugovora o projektu.
 
 ## <a name="closing-a-quote-as-lost"></a>Zatvaranje ponude kao neostvarene:
 
-Zatvaranje ponude za projekat kao neostvarene postaviće status ponude na Zatvoreno a razlog statusa na Neostvareno. Zatvaranje ponude postavlja ponudu za projekat u režim samo za čitanje. Budući da zatvorenu ponudu ne možete ponovo otvoriti, pre nego što zatvorite ponudu, dijalog za potvrdu će potvrditi vaše promene.
+Kada zatvorite ponudu za projekat kao Neostvarenu, status se podešava na Zatvoreno, a razlog statusa je Neostvareno. Zatvaranje ponude postavlja ponudu za projekat u režim samo za čitanje. Budući da zatvorenu ponudu ne možete ponovo otvoriti, pre nego što zatvorite ponudu, dijalog za potvrdu će potvrditi vaše promene.
 
-Ako ponuda za projekat koja je zatvorena kao neostvarena ima projekat na koji se poziva bilo koji od njenih predmeta, taj projekat se takođe označava kao zatvoren i sve rezervacije za resurse od tog dana nadalje se otkazuju.
+Ako se ponuda projekta koja je zatvorena kao Neostvarena odnosi na projekat u bilo kom redu, taj projekat je takođe označen kao Zatvoren. Sve rezervacije resursa od tog dana nadalje otkazuju se.
 
 > [!NOTE]
 > U usluzi Project Operations, zatvaranje ponude kao ostvarene ili neostvarene neće uticati na status mogućnosti za poslovanje, koja će ostati otvorena sve dok se ručno ne zatvori.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

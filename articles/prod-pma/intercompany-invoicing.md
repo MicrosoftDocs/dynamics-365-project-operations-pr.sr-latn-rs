@@ -2,11 +2,9 @@
 title: Međukompanijsko fakturisanje
 description: Ovaj članak pruža informacije i primere o međukompanijskom fakturisanju za projekte.
 author: Yowelle
-manager: AnnBe
 ms.date: 09/14/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: LedgerInterCompany
 audience: Application User
@@ -18,12 +16,12 @@ ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 4604708dbd7c835c8df1cf48f67e645952f49774
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
-ms.translationtype: HT
+ms.openlocfilehash: 7c201ccec2069869707409ff6a9236e81e125f06b391c67202927f5c038787d8
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.translationtype: MT
 ms.contentlocale: sr-Latn-RS
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4083606"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6995823"
 ---
 # <a name="intercompany-invoicing"></a>Međukompanijsko fakturisanje
 
@@ -35,7 +33,7 @@ Vaša organizacija može imati više odeljenja, podružnica i drugih pravnih lic
 
 Sledeća ilustracija prikazuje tipičan scenario kada dva pravna lica, SI FR (zajmoprimac) i SI USA (zajmodavac) dele resurse za isporuku projekta za klijenta A. Za ovaj scenario, SI FR je ugovoren da isporuči rad za klijenta A. 
 
-[![Primer međukompanijskog fakturisanja](./media/interco.invoicing-01.jpg)](./media/interco.invoicing-01.jpg) 
+[![Primer međukompanijskog fakturisanja.](./media/interco.invoicing-01.jpg)](./media/interco.invoicing-01.jpg) 
 
 Cilj je učiniti kontrolu troškova, priznavanje prihoda, poreza i cene transfera za međukompanijske projektne transakcije fleksibilnijim i moćnijim. Pored toga, pružaju se sledeće mogućnosti:
 
@@ -113,3 +111,6 @@ Kada pravno lice zajmodavac, USSI, knjiži međukompanijsku fakturu za klijenta,
 Za više informacija, pogledajte [Konfigurisanje fakturisanja međukompanijskih projekata](tasks/configure-intercompany-project-invoicing.md).
 
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

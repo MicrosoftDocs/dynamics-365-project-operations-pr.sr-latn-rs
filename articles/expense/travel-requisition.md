@@ -2,18 +2,16 @@
 title: Zahtevi za putovanje
 description: Ova tema pruža informacije o zahtevima za putovanje.
 author: suvaidya
-manager: Annbe
 ms.date: 10/01/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
 ms.reviewer: kfend
 ms.author: suvaidya
-ms.openlocfilehash: 0261405abb9305d7f6abcde9cb90d9b184868580
-ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
-ms.translationtype: HT
+ms.openlocfilehash: f00b5ca2142c4ba5cb523773f1f6dd8f0a055f6f6d474bc2b8e5f775ca0fc739
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.translationtype: MT
 ms.contentlocale: sr-Latn-RS
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4083449"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6994563"
 ---
 # <a name="travel-requisitions"></a>Zahtevi za putovanje
 
@@ -56,3 +54,6 @@ Izaberite zahtev za putovanje koji želite da odobrite, a zatim izaberite **Tok 
 
 > [!NOTE]
 > Kada mapirate izveštaj o troškovima u odobreni zahtev za putovanje, iznos transakcije ne može biti veći od odobrenog iznosa. 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

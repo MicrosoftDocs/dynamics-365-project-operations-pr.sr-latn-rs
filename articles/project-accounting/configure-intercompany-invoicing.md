@@ -2,18 +2,16 @@
 title: Konfigurisanje internog fakturisanja između preduzeća
 description: Ova tema pruža informacije i primere o konfigurisanju internog fakturisanja između preduzeća za projekte.
 author: sigitac
-manager: tfehr
 ms.date: 04/12/2021
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: bb39e212d00f8874254d4255f310217cdf46eb5a
-ms.sourcegitcommit: 3d78338773929121d17ec3386f6cb67bfb2272cc
-ms.translationtype: HT
+ms.openlocfilehash: 09bbd1bf640cc86b16afb8c2b824329b92f833df836e9313491d57a2f1646440
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.translationtype: MT
 ms.contentlocale: sr-Latn-RS
-ms.lasthandoff: 04/27/2021
-ms.locfileid: "5949696"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6994068"
 ---
 # <a name="configure-intercompany-invoicing"></a>Konfigurisanje internog fakturisanja između preduzeća
 

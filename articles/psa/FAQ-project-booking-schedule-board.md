@@ -2,8 +2,6 @@
 title: Kreiranje rezervacije u projektu iz tabele rasporeda
 description: Ova tema pruža informacije o tome kako da kreirate rezervaciju u projektu na tabeli rasporeda.
 author: ruhercul
-manager: kfend
-ms.service: dynamics-365-customerservice
 ms.custom:
 - dyn365-projectservice
 ms.date: 9/26/2019
@@ -18,14 +16,16 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 57fbc71681015fca73cdda4bc7d392f6be4289f3
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
-ms.translationtype: HT
+ms.openlocfilehash: 513f7fe75cfb7b1658b4be71ed0a17da7b64a1023992e1dada9adca8f0dbf21e
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.translationtype: MT
 ms.contentlocale: sr-Latn-RS
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4083597"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6987633"
 ---
 # <a name="create-a-project-booking-from-the-schedule-board"></a>Kreiranje rezervacije u projektu iz tabele rasporeda
+
+[!include [banner](../includes/psa-now-project-operations.md)]
 
 Možete da rezervišete resurs za projekat direktno na kartici **Tim** za projekat ili da generišete potrebu za resursom iz dodele generičkog člana tima, a da zatim ispunite generisanu potrebu članom projektnog tima.
 
@@ -43,7 +43,7 @@ Možete da kreirate generički resurs i da mu dodelite zadatak ili više zadatak
 
 1.  Na tabeli rasporeda, ovaj resurs će se prikazati na kartici **Otvorene potrebe**. Možda ćete morati da koristite filtere kolona na mreži ukoliko imate mnogo otvorenih zahteva. 
 
-    ![Otvaranje kartice Zahtevi na tabeli rasporeda](media/FAQ-Project-Booking-Schedule-Board-1.png "Snimak ekrana tabele rezervacija i dodela")
+    ![Otvaranje kartice Zahtevi na tabeli rasporeda.](media/FAQ-Project-Booking-Schedule-Board-1.png "Snimak ekrana tabele rezervacija i dodela")
 
 2. Izaberite zahtev. Kartica **Pretraga dostupnosti** će se pojaviti pri vrhu izabranog reda.
  
@@ -53,7 +53,7 @@ Možete da kreirate generički resurs i da mu dodelite zadatak ili više zadatak
 
     Izbor opcije **Rezerviši** rezerviše resurs u projektnom timu.
 
-![Tabla Kreiranje rezervacije resursa](media/FAQ-Project-Booking-Schedule-Board-6.png "")
+![Tabla Kreiranje rezervacije resursa.](media/FAQ-Project-Booking-Schedule-Board-6.png "")
  
 
 ## <a name="book-from-the-primary-requirement"></a>Rezervisanje iz primarnog zahteva
@@ -62,7 +62,7 @@ Kreiranje projekta u programu Project Service automatski kreira zahtev za resurs
 
 1. Da biste rezervisali resurs sa primarnim zahtevom, u tabeli rasporeda izaberite karticu **Projekat**. Možda ćete morati da koristite filter kolone za kolonu **Projekat** ukoliko imate više projekata.
 
-   ![Filteri kolone na tabli rasporeda](media/FAQ-Project-Booking-Schedule-Board-2.png "Snimak ekrana tabele rezervacija i dodela")
+   ![Filteri kolone na tabli rasporeda.](media/FAQ-Project-Booking-Schedule-Board-2.png "Snimak ekrana tabele rezervacija i dodela")
 
 2. Izaberite zahtev koji ima samo ime projekta kao svoje ime i čije trajanje iznosi nula (0).
 
@@ -89,3 +89,6 @@ Obavite sledeće korake da biste obavili rezervaciju iz nove potrebe za resursom
 
 4. Sada kada je resurs rezervisan, morate da mu ručno dodelite zadatke.
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

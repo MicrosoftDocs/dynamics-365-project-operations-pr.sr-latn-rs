@@ -1,25 +1,25 @@
 ---
-title: Ključni koncepti – ugovori za projekat
+title: Ugovori za projekat – Ključni koncepti
 description: Ova tema pruža informacije o ključnim konceptima ugovora za projekat u usluzi Project Operations.
 author: rumant
-manager: Annbe
 ms.date: 10/07/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 4ab43a9de6b27f0f0e9b8cbe6ea8b613ce81e08d
-ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
+ms.openlocfilehash: ce84984f873e6336a6d065f0aa7a72f1474404a84d3dbb614c09d58bff66d83d
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: sr-Latn-RS
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4083516"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6986958"
 ---
-# <a name="key-concepts---project-contracts"></a>Ključni koncepti – ugovori za projekat
+# <a name="concepts-unique-to-project-based-contracts"></a>Koncepti jedinstveni za ugovore zasnovane na projektu
 
 _**Odnosi se na:** Project Operations za scenarije zasnovane na resursima / bez zaliha_
 
-Ova tema pruža ključne koncepte kojih morate biti svesni pre nego što počnete da koristite projektne ugovore u usluzi Dynamics 365 Project Operations:
+[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
+
+U ovoj temi dati su ključni koncepti kojih morate biti svesni pre nego što počnete da koristite projektne ugovore u Dynamics 365 Project Operations:
 
 ## <a name="owning-company"></a>Preduzeće-vlasnik
 
@@ -86,3 +86,6 @@ Rasporedi faktura specifični su za svaki predmet ugovora i potrebni su da bi au
 ## <a name="changes-from-dynamics-365-sales-orders"></a>Promene iz Dynamics 365 Sales porudžbina
 
 Ugovori u usluzi Project Operations se grade na osnovu porudžbina u usluzi Dynamics 365 Sales. Međutim, postoje važne razlike u funkcionalnosti. Ugovori imaju sopstveni obrazac i elemente korisničkog interfejsa, poslovna pravila, poslovnu logiku u dodatnim komponentama i skripte na strani klijenta koje ih čine jedinstvenim u odnosu na porudžbine. Iz ovih razloga ne treba da koristite Sales porudžbinu i Project Operations ugovor o projektu naizmenično.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

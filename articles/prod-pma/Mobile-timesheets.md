@@ -2,11 +2,9 @@
 title: Vremenski rasporedi projekta na mobilnom uređaju
 description: Moji vremenski rasporedi (optimizovani za mobilne uređaje) omogućavaju zaposlenima da kreiraju i predaju vremenske rasporede projekata kako bi na mobilnom uređaju beležili svoje radno vreme za određeni projekat.
 author: abruer
-manager: AnnBe
 ms.date: 03/16/2018
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: josaw
@@ -15,12 +13,12 @@ ms.search.region: Global
 ms.author: abruer
 ms.search.validFrom: 2018-03-16
 ms.dyn365.ops.version: April 2018 update
-ms.openlocfilehash: 429c289c4ec653b81a1c5302b788db8c8ad26d8c
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
-ms.translationtype: HT
+ms.openlocfilehash: 6b602bf60a451bcb3c489e371f698611678477245581f58f76145a4b846c7b8a
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.translationtype: MT
 ms.contentlocale: sr-Latn-RS
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4083722"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6989613"
 ---
 # <a name="project-timesheets-on-a-mobile-device"></a>Vremenski rasporedi projekta na mobilnom uređaju
 
@@ -62,3 +60,6 @@ Android će biti kompatibilan sa ispravkom 16 platforme, kada postane dostupna.
 13. Opcionalno: Unesite dodatne redove vremenskog rasporeda.
 
 14. Kada dovršite unos redova vremenskog rasporeda, izaberite radnju **Tok posla** \> **Prosledi** da biste prosledili vremenski raspored u proces odobravanja toka posla.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

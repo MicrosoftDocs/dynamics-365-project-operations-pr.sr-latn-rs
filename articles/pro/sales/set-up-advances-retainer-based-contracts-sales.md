@@ -2,18 +2,16 @@
 title: Avansi i ugovori zasnovani na avansnim uplatama
 description: Ova tema pruža informacije o ugovornim modelima i napretku zasnovanim na odbitku u usluzi Project Operations.
 author: rumant
-manager: Annbe
 ms.date: 10/20/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 1aee64bf683b7d8d0bcde284f2d5d484e689c4d2
-ms.sourcegitcommit: 250270409412ba4cad95fbd4c345a80d3d2b3e53
-ms.translationtype: HT
+ms.openlocfilehash: 87e275cb72f1edc5a2a9913b4aa47d461d1f3d3d9bf177bf0ffba8b463f4ce01
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.translationtype: MT
 ms.contentlocale: sr-Latn-RS
-ms.lasthandoff: 11/21/2020
-ms.locfileid: "4596119"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6994428"
 ---
 # <a name="advances-and-retainer-based-contracts"></a>Avansi i ugovori zasnovani na avansnim uplatama
 
@@ -37,3 +35,6 @@ Odbitak u usluzi Project Operations nije dostupan za upotrebu dok se klijentu ne
 | --- | --- | --- |
 | Dostupan iznos | Iznos koji je dostupan za upotrebu na zapisu odbitka ili avansa. | Dok se avans ili odbitak ne fakturiše, nije dostupan za upotrebu, što znači da će raspoloživi iznos biti nula. |
 | Iskorišćen iznos | Iznos koji se već koristi na odbitku ili avansu. | Avans ili odbitak mogu se delimično sravniti na fakturi sa stvarnim troškovima koji će imati deo koji će biti označen kao već korišćen ili potrošen. Preostali iznos avansa ili odbitka dostupan je za sravnjenje na budućoj fakturi sa stvarnim troškovima. |
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

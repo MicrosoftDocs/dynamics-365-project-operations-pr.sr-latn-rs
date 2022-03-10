@@ -2,28 +2,26 @@
 title: Pregled upravljanja projektima i računovodstvom
 description: Funkcionalnost upravljanja projektima i računovodstvom može se koristiti u više delatnosti za pružanje usluge, proizvodnju proizvoda ili postizanje rezultata.
 author: Yowelle
-manager: AnnBe
 ms.date: 07/25/2019
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ProjTable; ProjProjectManagementWorkspace
 audience: Application User
 ms.reviewer: kfend
 ms.search.scope: Core, Operations
-ms.custom: 87983
+ms.custom: intro-internal
 ms.assetid: b454ad57-2fd6-46c9-a77e-646de4153067
 ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 634e35f7bd399d3d97659b4bd6f2f3a6dbd5839f
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 1465e68fb119927f474bf4d5b26cb0cd1d60824340a7d46e59d23036d99503f3
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: sr-Latn-RS
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4083723"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7007523"
 ---
 # <a name="project-management-and-accounting-overview"></a>Pregled upravljanja projektima i računovodstvom
 
@@ -36,14 +34,14 @@ Projekat je grupa aktivnosti koja je dizajnirana za pružanje usluge, proizvodnj
 ## <a name="projects-across-industries"></a>Projekti u različitim delatnostima
 Funkcionalnost upravljanja projektima i računovodstvom može se koristiti u više delatnosti, kao što je prikazano na sledećoj ilustraciji.
 
-[![Projekti u različitim delatnostima](./media/projects-accross-industries.jpg)](./media/projects-accross-industries.jpg) 
+[![Projekti u različitim delatnostima.](./media/projects-accross-industries.jpg)](./media/projects-accross-industries.jpg) 
 
 U pozivnom centru, tiket se može koristiti za opisivanje niza radnji koje su potrebne za rešavanje poziva. Konsultantske kompanije, kao što su menadžerske ili tehničke konsultantske organizacije ili reklamne agencije, svoje aktivnosti nazivaju projektima. U marketingu, kampanja predstavlja skup poslova koji se moraju obaviti. U proizvodnji zasnovanoj na projektu, nalog za proizvodnju se odnosi na različite poslove koji se moraju obaviti za proizvodnju nekih gotovih proizvoda. Bez obzira na naziv koji se koristi za njih, ovi projekti uključuju resurse, rasporede i troškove, a upravljanje projektima i računovodstvene funkcije mogu pomoći u planiranju, izvršenju i analizi ovih projekata.
 
 ## <a name="project-phases"></a>Faze projekta
 Iako je sledeći tok procesa usmeren na spoljne projekte ili projekte koji se obavljaju za jednog ili više klijenata, funkcionalnost se primenjuje i na interne projekte koji samo prave troškove. 
 
-![3 faze projekta](./media/3-stages-of-a-project.png) 
+![3 faze projekta.](./media/3-stages-of-a-project.png) 
 
 Kao što je prikazano na prethodnoj ilustraciji, upravljanje projektima i računovodstvo mogu se podeliti u tri faze:
 
@@ -52,7 +50,7 @@ Kao što je prikazano na prethodnoj ilustraciji, upravljanje projektima i račun
 3.  Analiziraj
 
 ## <a name="initiate-the-project"></a>Pokretanje projekta
-Tokom pokretanja projekta, događa se nekoliko ključnih procesa. Možete koristiti ponudu po projektu da klijentu saopštite procenjeni rad, troškove i materijale. Uslove, ograničenja i ugovore za naplatu možete zabeležiti u ugovoru o projektu. Možete koristiti strukturnu analizu posla (SAP) za planiranje i procenu rada. Možete postaviti predviđanja i budžete za vođenje izvršenja projekta. Sledeća ilustracija prikazuje strukturu projekta. [![struktura projekta](./media/project-structure1.jpg)](./media/project-structure1.jpg)  
+Tokom pokretanja projekta, događa se nekoliko ključnih procesa. Možete koristiti ponudu po projektu da klijentu saopštite procenjeni rad, troškove i materijale. Uslove, ograničenja i ugovore za naplatu možete zabeležiti u ugovoru o projektu. Možete koristiti strukturnu analizu posla (SAP) za planiranje i procenu rada. Možete postaviti predviđanja i budžete za vođenje izvršenja projekta. Sledeća ilustracija prikazuje strukturu projekta.[![struktura projekta.](./media/project-structure1.jpg)](./media/project-structure1.jpg)  
 
 ### <a name="create-project-quotations"></a>Kreiranje ponuda po projektu
 
@@ -205,13 +203,13 @@ Stavke za potrošnju na projektu možete naručiti iz inventara kompanije. Alter
 
 Način na koji naručujete stavke zavisi od toga odakle ih naručujete:
 
--   Da biste naručili stavke iz inventara kompanije, morate uneti porudžbinu kao zahtev za stavku. Ako koristite stranicu **Zahtevi za stavke**, možete postaviti zahtev tako da primate stavke kao delimične isporuke. Zbog toga možete odložiti potrošnju neke količine stavki dok te stavke ne zatrebaju.
+-   Da biste naručili stavke iz inventara kompanije, morate uneti porudžbinu kao zahtev za stavku. Ako koristite stranicu **Zahtevi za stavke**, možete postaviti zahtev tako da primate stavke kao delimične isporuke. Zbog toga možete odložiti potrošnju neke količine stavki dok te stavke ne zatrebaju.
 -   Da biste naručili stavke od spoljnog dobavljača, morate da je kreirate kao narudžbenicu na stranici **Porudžbenica**.
 
 > [!NOTE] 
 > Otpremnica za narudžbenicu u vezi sa projektom ne može se otkazati ako su predmeti već označeni za pakovanje. 
 
-Sledeća tabela navodi metode naručivanja predmeta i opisuje kako se stavke troše.
+Sledeća tabela navodi metode naručivanja stavki i opisuje kako se stavke troše.
 
 | Metod            | Svrha                                                                                                                                                        | Potrošnja transakcija stavki                                                                                                                  |
 |-------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------|
@@ -227,7 +225,7 @@ Tip projekta određuje koji postupak fakturisanja treba primeniti. Mogu se faktu
 Pre nego što kreirate fakturu klijenta za projekat, možete kreirati preliminarnu fakturu ili predlog fakture. U predlogu fakture možete izabrati transakcije projekata koje ćete uključiti u fakturu projekta. Zatim možete pregledati detalje o fakturi pre nego što proknjižite fakturu za projekat i pošaljete je klijentu ili drugom izvoru finansiranja. 
 
 
-Za više informacija o tome kako da obradite fakture projekta, pogledajte [Fakturisanje projekata](https://docs.microsoft.com/dynamics365/finance/accounts-payable/project-invoicing).
+Za više informacija o tome kako da obradite fakture projekta, pogledajte [Fakturisanje projekata](/dynamics365/finance/accounts-payable/project-invoicing).
 
 
 ### <a name="calculate-the-cost-to-complete-a-project"></a>Izračunavanje troškova za završetak projekta
@@ -300,7 +298,7 @@ Na osnovu vašeg podešavanja, možete predvideti prilive novca za izabrani proj
 -   **Datum projekta:** 5. marta 2012.
 -   **Datum fakture:** 31. marta 2012. Ovaj datum se određuje na osnovu učestalosti faktura. U ovom primeru, učestalost fakture postavljate na tekući mesec. Stoga se sve transakcije koje se knjiže u mesecu martu fakturišu poslednjeg dana u mesecu.
 -   **Krajnji rok:** 14. aprila 2012. Ovaj datum se određuje na osnovu uslova plaćanja koji su postavljeni za projekat. Za ovaj primer ste odabrali uslove plaćanja od 14 dana. Stoga se datumu fakture dodaje 14 dana da bi rok dospeo 14. aprila 2012.
--   **Očekivani datum plaćanja:** 27. aprila 2012. Ovaj datum se izračunava dodavanjem broja dana u polje **Opšti broj dana u rezervi** na **Parametri upravljanja projektom i računovodstvom** na broj dana u polju **Pojedinačni broj dana u rezervi** na stranici **Ugovori o projektu**, a zatim sabiramo ukupan broj dana u polju **Krajnji rok**. Za ovaj primer ste uneli **3** u polje **Opšti broj dana u rezervi** i **10** u polje **Pojedinačni broj dana u rezervi**. Stoga se datumu fakture dodaje 13 dana da bi krajnji rok očekivanog datuma plaćanja dospeo 27. aprila 2012.
+-   **Očekivani datum plaćanja:** 27. aprila 2012. Ovaj datum se izračunava dodavanjem broja dana u polje **Opšti broj dana u rezervi** na stranici **Parametri upravljanja projektom i računovodstvom** na broj dana u polju **Pojedinačni broj dana u rezervi** na stranici **Ugovori o projektu**, a zatim sabiramo ukupan broj dana u polju **Krajnji rok**. Za ovaj primer ste uneli **3** u polje **Opšti broj dana u rezervi** i **10** u polje **Pojedinačni broj dana u rezervi**. Stoga se datumu fakture dodaje 13 dana da bi krajnji rok očekivanog datuma plaćanja dospeo 27. aprila 2012.
 
 Opšti broj dana u rezervi može ili da zameni pojedinačni broj dana u rezervi ili da mu se doda:
 
@@ -414,7 +412,7 @@ Stope iskorišćenosti izračunavate na stranici **Iskorišćenost sati**. Izra�
 -   **U skladu sa svojstvom linije** – Svojstva linije određene transakcije sati određuju da li se sati računaju za naplatu ili za efikasnu iskorišćenost.
 -   **Nije uključeno** – Sati se ne uzimaju u obzir u obračunu naplativosti ili efikasne iskorišćenosti.
 
-Na stranici **Iskorišćenost sati**, pored ukupnog procenta stope iskorišćenosti za radnika ili projekat, možete videti broj sati koji su korišćeni za proračun stope iskorišćenosti za svaki od sledećih tipova sati:
+Na stranici **Ukupna iskorišćenost sati**, pored ukupnog procenta stope iskorišćenosti za radnika ili projekat, možete videti broj sati koji su korišćeni za proračun stope ukupne iskorišćenosti za svaki od sledećih tipova sati:
 
 -   **Sati koji nisu uključeni** – Ovi sati nisu uključeni u stopu iskorišćenosti radnih sati.
 -   **Uključeni sati** – Ovi sati se izračunavaju dodavanjem sati iskorišćenosti i sati opterećenja. Ovi sati su uključeni u stopu iskorišćenosti.
@@ -440,3 +438,6 @@ Nakon izračunavanja izjave, možete da vidite sledeće informacije na različit
 -   **Potrošnja** – Informacije o potrošnji sati, stavki, troškovima i transakcijama plaćanja.
 -   **Fakture** – Informacije o fakturama i fakturisanju na računu.
 -   **Satnice** – Satnice za sate koji se knjiže na račune prihoda i troškova.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

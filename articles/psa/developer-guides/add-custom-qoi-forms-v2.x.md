@@ -2,12 +2,10 @@
 title: Dodavanje novih obrazaca prilagođenih entiteta (Project Service Automation 2. x)
 description: Ova tema pruža informacije o dodavanju prilagođenih obrazaca entiteta za mogućnosti za poslovanje, ponude, porudžbine ili fakture u aplikaciji Dynamics 365 Project Service Automation 2.x.
 author: makk
-manager: kfend
 ms.custom:
 - dyn365-projectservice
 ms.date: 3/14/2019
 ms.topic: article
-ms.service: business-applications
 ms.author: makk
 audience: admin
 search.audienceType:
@@ -16,14 +14,16 @@ search.audienceType:
 search.app:
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 57d4b9aad433af6d3e73369c76f2793f349c6965
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
-ms.translationtype: HT
+ms.openlocfilehash: e59e343887ef59ee28bee13346a0c9bf3ad7df27346e2a4f3f02a1e5c08c060f
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.translationtype: MT
 ms.contentlocale: sr-Latn-RS
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4083774"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6995238"
 ---
 # <a name="add-new-custom-entity-forms-project-service-automation-2x"></a>Dodavanje novih obrazaca prilagođenih entiteta (Project Service Automation 2. x)
+
+[!include [banner](../../includes/psa-now-project-operations.md)]
 
 ## <a name="type-field"></a>Polje Tip 
 
@@ -57,7 +57,7 @@ Sledite ove korake da biste kreirali prilagođenu verziju obrasca **Informacije 
     - Izvezite obrazac **Moje informacije o projektu** kao deo nekompletnog rešenja, a zatim potražite vrednost **formId** u datoteci customization.xml u izvezenom rešenju.
     - Otvorite obrazac **Moje informacije o projektu** u uređivaču obrazaca, a zatim potražite univerzalni jedinstveni identifikator (GUID) pored parametra **fromId** u URL adresi, kao što je prikazano na sledećoj ilustraciji.
 
-    ![Vrednost formId novog obrasca u URL adresi](media/how-to-add-custom-forms-in-v2.0.png)
+    ![Vrednost formId novog obrasca u URL adresi.](media/how-to-add-custom-forms-in-v2.0.png)
 
 5. Kreirajte mapiranje **msdyn\_ordertype** za vrednost **formId** uređivanjem veb-resursa msdyn\_/SalesDocument/PSSalesDocumentCustomFormIds.js. Uklonite kôd iz resursa i zamenite ga sledećim kodom.
 
@@ -94,3 +94,6 @@ Sledite ove korake da biste kreirali prilagođenu verziju obrasca **Informacije 
     ```
 
 6. Sačuvajte, a zatim objavite prilagođavanja.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -2,18 +2,16 @@
 title: Podešavanje i primena podataka o konfiguraciji u usluzi Common Data Service
 description: Ova tema pruža informacije o tome kako da podesite i primenite podatke o konfiguraciji u usluzi Project Operations.
 author: sigitac
-manager: Annbe
-ms.date: 11/04/2020
+ms.date: 05/10/2021
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 1651d3b3b85d3dc581bf61976fada249bafd6b7b
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 26f49ad3b9fb08824071699128f8b907ec98bb54505c6fea3c97288cbaf31633
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: sr-Latn-RS
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5289836"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6986643"
 ---
 # <a name="set-up-and-apply-configuration-data-in-the-common-data-service"></a>Podešavanje i primena podataka o konfiguraciji u usluzi Common Data Service 
 
@@ -23,7 +21,7 @@ _**Odnosi se na:** Project Operations za scenarije zasnovane na resursima / bez 
 
 ## <a name="prerequisites"></a>Preduslovi
 
-Pre nego što započnete konfigurisanje podataka u usluzi Common Data Service (CDS), moraju biti ispunjeni sledeći preduslovi:
+Pre nego što počnete da konfigurišete podatke u usluzi Common Data Service (CDS), moraju biti ispunjeni sledeći preduslovi:
 
 1.  Obezbedite CDS okruženje i Dynamics 365 Finance okruženje za Project Operations.
 2.  Informacije o pravnom licu iz usluge Dynamics 365 Finance se dele sa CDS okruženjem. To znači da entitet **Kompanija** u CDS-u ima sledeće evidencije preduzeća:
@@ -33,37 +31,44 @@ Pre nego što započnete konfigurisanje podataka u usluzi Common Data Service (C
 
 ## <a name="install-setup-and-configuration-data"></a>Podaci o podešavanju i konfiguraciji instaliranja
 
-1. Preuzmite, deblokirajte i raspakujte [Paket podataka za podešavanje i konfiguraciju](https://download.microsoft.com/download/1/3/4/1349369c-6209-42b7-b3b4-5be0e67cacd8/ProjOpsSampleSetupData-%20Integrated%20UR1.zip).
+1. Preuzmite, deblokirajte i raspakujte [Paket podataka za podešavanje i konfiguraciju](https://download.microsoft.com/download/e/2/d/e2da6c98-d5dd-450c-aabe-fd6bf2ba374b/ProjOpsSampleSetupData-%20Integrated%20Latest.zip).
 2. Idite u fasciklu sa raspakovanim sadržajem i pokrenite izvršnu datoteku *DataMigrationUtility*.
 3. Na 1. stranici Common Data Service čarobnjaka za konfigurisanje migracije (CMT) izaberite **Uvezi podatke**, a zatim izaberite **Nastavi**.
 
-![Migracija konfiguracije](./media/1ConfigurationMigration.png)
+![Migracija konfiguracije.](./media/1ConfigurationMigration.png)
 
 4. Na 2. stranici CMT čarobnjaka izaberite **Microsoft 365** kao **Tip primene**.
 5. Izaberite polja za potvrdu **Prikaži listu dostupnih organizacija** i **Prikaži napredno**.
 6. Izaberite region vašeg zakupca, unesite svoje akreditive, pa izaberite **Prijavljivanje**.
 
-![Prijavljivanje u konfiguraciju](./media/2ConfigurationSignin.png)
+![Prijavljivanje u konfiguraciju.](./media/2ConfigurationSignin.png)
 
 7. Na 3. stranici, sa liste organizacija u zakupcu, izaberite u koju organizaciju želite da uvezete demo podatke, a zatim izaberite **Prijavljivanje**.
 8. Na 4. stranici, izaberite zip datoteku *SampleSetupAndConfigData* iz raspakovane fascikle.
 
-![Izbor zip datoteke](./media/3ZipFile.png)
+![Izbor zip datoteke.](./media/3ZipFile.png)
 
-![Izbor datoteke](./media/4SelectAFile.png)
+![Izaberite datoteku.](./media/4SelectAFile.png)
 
 9. Kada izaberete zip datoteku, izaberite **Uvoz podataka**.
 
-![Uvezi podatke](./media/5ImportData.png)
+![Uvezi podatke.](./media/5ImportData.png)
 
 10. Uvoz će trajati otprilike od dva do deset minuta, u zavisnosti od brzine vaše mreže. Po završetku uvoza, izađite iz CMT čarobnjaka. 
-11. Potražite u svojoj organizaciji podatke za sledećih 19 entiteta:
+11. Potražite u svojoj organizaciji podatke za sledećih 26 entiteta:
 
   - Valuta
+  - Grafikon poslovnih kontakata
+  - Fiskalni kalendar
+  - Vrste deviznih kurseva valuta
+  - Dan za plaćanje
+  - Raspored plaćanja
+  - Uslovi plaćanja
   - Organizaciona jedinica
   - Kontakt
   - Poreska grupa
   - Grupa klijenata
+  - Grupa prodavaca
   - Jedinica
   - Grupa jedinica
   - Cenovnik
@@ -79,50 +84,50 @@ Pre nego što započnete konfigurisanje podataka u usluzi Common Data Service (C
   - Povezivanje kategorije resursa koji može da se rezerviše
   - Karakteristika resursa koji može da se rezerviše
 
-![Kompletan uvoz](./media/6CompleteImport.png)
+![Kompletan uvoz.](./media/6CompleteImport.png)
 
 ## <a name="update-project-operations-configurations"></a>Ažuriranje Project Operations konfiguracije
 
 1. Idite u CE okruženje. Možete ga pronaći ako otvorite [Power Platform centar administracije](https://admin.powerplatform.microsoft.com/environments), izaberete okruženje, a zatim izaberete **Otvoreno okruženje**. 
 
-![Otvoreno okruženje](./media/7OpenEnvironment.png)
+![Otvoreno okruženje.](./media/7OpenEnvironment.png)
 
 2. Idite na **Projekti** > **Resursi**, a zatim izaberite **Novo** da biste kreirali resurs koji može da se rezerviše za vašeg korisnika.
 
-![Resursi koji mogu da se rezervišu](./media/8BookableResources.png)
+![resursi koji mogu da se rezervišu.](./media/8BookableResources.png)
 
 3. Na kartici **Opšti podaci** izaberite svog administratora. Proverite da li se vremenska zona podudara sa onom u kojoj se nalazite. 
 
-![Novi resurs koji može da se rezerviše](./media/9NewBookableResource.png)
+![Novi resurs koji može da se rezerviše.](./media/9NewBookableResource.png)
 
 4. Na kartici **Zakazivanje**, u polju **Kompanija** odaberite kompaniju **USPM**, a zatim izaberite **Sačuvaj**. 
 
-![Kartica „Zakazivanje“](./media/10SchedulingTab.png)
+![Kartica „Zakazivanje“.](./media/10SchedulingTab.png)
 
 5. Izaberite karticu **Radno vreme**.  
 
-![Radno vreme](./media/11WorkHours.png)
+![Radno vreme.](./media/11WorkHours.png)
 
 6. Dvaput kliknite bilo koju vrednost u kalendaru i izaberite **Uređivanje** > **Svi događaji u seriji**. 
 
-![Kalendar posla](./media/12WorkCalendar.png)
+![Kalendar posla.](./media/12WorkCalendar.png)
 
 7. Promenite radno vreme u radni dan od osam (8) sati, obeležite vikende kao neradne dane i uverite se da vremenska zona odgovara vašoj. 
 8. Izaberite stavku **Sačuvaj i zatvori**.
 
-![Ažuriranje kalendara](./media/13UpdateCalendar.png)
+![Ažuriranje kalendara.](./media/13UpdateCalendar.png)
 
 9. Idite na **Podešavanja** > **Predlošci kalendara** i izaberite **Novi**.
  
- ![Predlošci kalendara](./media/14CalendarTemplates.png)
+ ![Predlošci kalendara.](./media/14CalendarTemplates.png)
  
  10. Unesite naziv, izaberite resurs šablona koji ste kreirali, a zatim izaberite **Sačuvaj**. 
  
- ![Čuvanje predloška kalendara](./media/15SaveCalendarTemplate.png)
+ ![Čuvanje predloška kalendara.](./media/15SaveCalendarTemplate.png)
  
  11. Idite na **Parametri** i dvaput kliknite na zapis. 
  
- ![Parametri projekta](./media/16ProjectParameters.png)
+ ![Parametri projekta.](./media/16ProjectParameters.png)
  
 12. Ažurirajte sledeća polja:
 
@@ -133,7 +138,7 @@ Pre nego što započnete konfigurisanje podataka u usluzi Common Data Service (C
 
 13. Izaberite stavku **Sačuvaj**. 
 
-![Ažurirani parametri projekta](./media/17UpdatedProjectParameters.png)
+![Ažurirani parametri projekta.](./media/17UpdatedProjectParameters.png)
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

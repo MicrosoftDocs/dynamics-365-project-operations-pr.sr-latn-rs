@@ -2,26 +2,25 @@
 title: Pregled zahteva za putovanje
 description: Ova tema pruža informacije o zahtevima za putovanje. Planirani putni troškovi u dokumentu zahteva za putovanje.
 author: saraschi2
-manager: AnnBe
 ms.date: 02/23/2018
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: TrvRequisitionList
 audience: Application User
 ms.reviewer: roschlom
 ms.search.scope: Core, Operations
+ms.custom: intro-internal
 ms.search.region: Global
 ms.author: saraschi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 1b8d68068c151c8530b9a7d3dccb742902fdc6a3
-ms.sourcegitcommit: 9f31b33ed6e7f1b49200a407913201a1337f3401
+ms.openlocfilehash: 9e6f7f92101b79db7145ca7f3e44aa22e5f21bddfc5fe3d5adfa765fe37b8fd8
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: sr-Latn-RS
-ms.lasthandoff: 01/14/2021
-ms.locfileid: "4960669"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6988173"
 ---
 # <a name="travel-requisitions-overview"></a>Pregled zahteva za putovanje
 
@@ -32,3 +31,6 @@ Vaša organizacija može zahtevati da se zahtev za putovanje podnese pre nego š
 Zahtevi za putovanje i smernice mogu se koristiti za kontrolu budžeta. Na primer, ako vaša organizacija radi na projektu sa fiksnom cenom koji zahteva putovanje, putni troškovi članova projektnog tima moraju se uklapati u budžet za projekat. Zahtevanjem da se putni troškovi odobre pre nego što nastanu, organizacija može da pomogne da projekat ostane u okviru budžeta.
 
 Možete postaviti smernice za putne zahteve na stranici **Zahtev za putovanjem**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

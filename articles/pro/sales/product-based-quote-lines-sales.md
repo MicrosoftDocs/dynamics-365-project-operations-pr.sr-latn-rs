@@ -2,24 +2,23 @@
 title: Pregled stavki ponude zasnovane na proizvodu – jednostavno
 description: Ova tema pruža informacije o radu sa stavkama ponude zasnovanim na proizvodu.
 author: rumant
-manager: Annbe
 ms.date: 10/30/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: f6aa428c486f149308ad078f9d7a80a0be0f0f04
-ms.sourcegitcommit: 625878bf48ea530f3381843be0e778cebbbf1922
+ms.custom: intro-internal
+ms.openlocfilehash: 871597b38d72d2b670c375d2a1711a6022e3446ba3955a3d2a233a6486d85f5c
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: sr-Latn-RS
-ms.lasthandoff: 10/30/2020
-ms.locfileid: "4178205"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7003338"
 ---
 # <a name="product-based-quote-lines-overview---lite"></a>Pregled stavki ponude zasnovane na proizvodu – jednostavno
 
 _**Odnosi se na:** Jednostavna primena – od pogodbe do profakture_
 
-Možete kreirati stavke ponude zasnovane na proizvodu u usluzi Dynamics 365 Project Operations. Stavke ponude zasnovane na proizvodu možete dodati ručno ili to mogu da budu stavke iz kataloga proizvoda.
+Možete kreirati stavke ponude zasnovane na proizvodu u aplikaciji Dynamics 365 Project Operations. Stavke ponude zasnovane na proizvodu možete dodati ručno ili to mogu da budu stavke iz kataloga proizvoda.
 
 ## <a name="product-catalog"></a>Katalog proizvoda
 
@@ -46,3 +45,6 @@ Kada se stavka ponude zasniva na katalogu proizvoda, možete izmeniti prodajnu c
 Ako izaberete **Izmena načina određivanja cena**, podrazumevana cena se ne postavlja. Umesto toga, morate da unesete cenu proizvoda u stavku ponude. Ako izaberete **Koristi podrazumevano**, koristi se podrazumevana prodajna cena i polje se zaključava za uređivanje.
 
 Podrazumevane prodajne cene se unose u stavke zasnovane na proizvodima u okviru ponude. Polje **Određivanje cena** se tada podešava na **Izmeni način određivanja cena** tako da možete da uredite podrazumevanu cenu u stavkama ponude. Ovo je ponašanje specifično za Project Operations pri izmeni stavki zasnovanih na proizvodima u usluzi Dynamics 365 Sales.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

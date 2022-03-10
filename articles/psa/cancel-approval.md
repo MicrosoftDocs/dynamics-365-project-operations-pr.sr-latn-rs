@@ -2,8 +2,6 @@
 title: Otkazivanje prethodno odobrenih stavki vremena i troškova
 description: Ova tema pruža informacije o tome kako se otkazuje odobreno vreme projekta i transakcija troškova.
 author: rumant
-manager: kfend
-ms.service: dynamics-365-customerservice
 ms.custom:
 - dyn365-projectservice
 ms.date: 03/07/2019
@@ -18,14 +16,16 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 0ea816040570cc8f6ddf3c5ec8a74ac092fc68b2
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
-ms.translationtype: HT
+ms.openlocfilehash: 09b85ea302ac46171afbd531a551aa5fbf5492a3644cba3448be03009840228c
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.translationtype: MT
 ms.contentlocale: sr-Latn-RS
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4083755"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6987453"
 ---
 # <a name="cancel-previously-approved-time-or-expense-entries"></a>Otkazivanje prethodno odobrenih stavki vremena ili troškova
+
+[!include [banner](../includes/psa-now-project-operations.md)]
 
 [!INCLUDE[cc-applies-to-psa-app-3.x](../includes/cc-applies-to-psa-app-3x.md)]
 
@@ -60,3 +60,6 @@ Postoji i finansijski uticaj na projekat kada se odobrenje otkaže. Prvo, odgova
 Zatim, stavke storniranja se kreiraju u tabeli Stvarne vrednosti. Da bi sistem kreirao stavke storniranja, kopira vrednosti polja iz originalnih stvarnih vrednosti. Jedine vrednosti koje se ne kopiraju su vrednosti količine. Umesto toga, ove vrednosti se storniraju. Stornirane stvarne vrednosti se kreiraju za stvarne vrednosti **Troškovi** i **Nenaplaćena prodaja**. Polje **Status poravnanja** u storniranim stvarnim vrednostima je podešeno na **Ne može da se poravna**, a status naplate na **Otkazano**.
 
 Nakon ovih izmena, iznos koji se evidentira kao potrošen za projekat i preostali prihodi od projekta više neće uzimati u obzir iznose koje ove stvarne vrednosti predstavljaju.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]
