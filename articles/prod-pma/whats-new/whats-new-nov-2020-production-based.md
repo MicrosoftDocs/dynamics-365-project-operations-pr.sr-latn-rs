@@ -4,14 +4,14 @@ description: Ova tema pruža informacije o ispravkama kvaliteta dostupnim u izda
 author: sigitac
 ms.date: 10/15/2020
 ms.topic: article
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 7ffbca7929133e7828d08ad4b4e7bd6b702c15e39726421a35241d23d1123f48
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 24796eb70f5da6fa181ef7e88ec5d4d4fddbb436
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: MT
 ms.contentlocale: sr-Latn-RS
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7003203"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8576609"
 ---
 # <a name="whats-new-november-2020---project-operations-for-stockedproduction-based-scenarios"></a>Šta je novo novembra 2020. – Project Operations za scenarije zasnovane na zalihama/proizvodnji
 
@@ -23,7 +23,7 @@ Za informacije o ispravkama uključenim u ovu ispravku, prijavite se na Lifecycl
 
 ## <a name="regulatory-updates"></a>Regulatorne ispravke
 
-Za informacije o regulatornim ispravkama za Dynamics 365 Finance and Operations aplikacije, pogledajte članak [Regulatorne ispravke](/dynamics365/finance/localizations/regulatory-updates). Takođe se možete prijaviti na LCS i pregledati planirane regulatorne ispravke pomoću alatke za pretragu problema. Pretraga problema vam omogućava pretragu po zemlji, tipu funkcije i izdanju.
+Više informacija o regulatornim ispravkama za aplikacije Dynamics 365 Finance and Operations potražite u članku [Regulatorne ispravke](/dynamics365/finance/localizations/regulatory-updates). Takođe se možete prijaviti na LCS i pregledati planirane regulatorne ispravke pomoću alatke za pretragu problema. Pretraga problema vam omogućava pretragu po zemlji, tipu funkcije i izdanju.
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

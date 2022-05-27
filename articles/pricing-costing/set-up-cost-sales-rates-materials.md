@@ -2,16 +2,16 @@
 title: Podešavanje cena i stopa prodaje za materijale
 description: Ova tema pruža informacije o tome kako se postavljaju troškovi i stope prodaje za materijale koji se koriste u projektima.
 author: rumant
-ms.date: 04/07/2021
+ms.date: 03/21/2022
 ms.topic: article
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: c80317ac56c4e1ed465273ea6d0a7c65f1f5830c349a9b8d5b6f7f8d92424c7b
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
-ms.translationtype: HT
+ms.openlocfilehash: 1b1b679f15662d922804deefb6372adcdf4d4839
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.translationtype: MT
 ms.contentlocale: sr-Latn-RS
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6999198"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8576885"
 ---
 # <a name="set-up-cost-and-sales-rates-for-materials"></a>Podešavanje cena i stopa prodaje za materijale
 
@@ -25,6 +25,9 @@ Da biste podesili troškove i stope prodaje proizvoda, izvršite sledeće korake
 2. U delu **Stavke cenovnika** u meniju podforme, izaberite **Nova stavka cenovnika**. 
 3. Na stranici **Brzo kreiranje**, unesite proizvod i jedinicu za koju kreirate novu cenu.
 
-Za više informacija o tome kako da definišete cene za stavke kataloga, pogledajte članke [Određivanje cena proizvoda](/dynamics365/sales-enterprise/create-price-lists-price-list-items-define-pricing-products.md) i [Decimalna preciznost u valuti i određivanju cena](/dynamics365/sales-enterprise/decimal-precision-currency-pricing.md).
+Više informacija o definisanju cena za katalošne artikle potražite u članku [Definisanje cena proizvoda sa cenovninom listom i artiklima cenovnika](/dynamics365/sales/create-price-lists-price-list-items-define-pricing-products)[i decimalnom preciznošću u valuti i cenama](/dynamics365/sales/decimal-precision-currency-pricing).
+> [!NOTE]
+> Dynamics 365 Project Operations ne podržava sve metode određivanja cena za proizvode kao Dynamics 365 sales. Jedini metod određivanja cena koji je podržan za proizvode koji će se koristiti u projektima je iznos *valute*.
+
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

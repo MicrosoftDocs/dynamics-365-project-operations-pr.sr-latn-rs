@@ -7,18 +7,18 @@ ms.topic: article
 ms.prod: ''
 ms.search.form: ''
 audience: Application User
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.search.scope: ''
 ms.search.region: ''
 ms.author: shylaw
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 49c8f2369a8be41fbc04c74bdb6b565b4f4b7b79
-ms.sourcegitcommit: 9f26cf8bb640af1eb9f7f0872805965d7ffcb9d3
+ms.openlocfilehash: 2c9d993f1999b0be24794bbe828afa8eb74744e9
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: MT
 ms.contentlocale: sr-Latn-RS
-ms.lasthandoff: 11/19/2021
-ms.locfileid: "7826273"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8577070"
 ---
 # <a name="set-up-credit-card-integration"></a>Podešavanje integracije kreditne kartice
 
@@ -58,9 +58,9 @@ Ponekad, nakon uvoza transakcija kreditnom karticom, određene transakcije možd
 
 ## <a name="storing-credit-card-numbers"></a>Skladištenje brojeva kreditnih kartica
 
-Za skladištenje brojeva kreditnih kartica dostupne su tri opcije. Brojevi kreditnih kartica se skladište na stranici **parametri upravljanja** troškovima.
+Za skladištenje brojeva kreditnih kartica dostupne su tri opcije. Brojevi kreditnih kartica se skladište na stranici parametri **upravljanja troškovima**.
 
-- **Sprečite unos broja** kartice – Brojevi kreditnih kartica nisu uskladišteni.
+- **Sprečite unos broja kartice** – Brojevi kreditnih kartica nisu uskladišteni.
 - **Brojevi hash kartica (skladište poslednje četiri cifre)** – Poslednje četiri cifre brojeva kreditnih kartica skladište se u šifrovanom formatu.
 - **Brojevi kartica prodavnice** – Brojevi kreditnih kartica skladište se u nešifrovanom formatu. Ova opcija nije u skladu sa Standardom bezbednosti podataka industrije platnih kartica (DSS). Stoga, da bi njihova organizacija bila usaglašena sa propisima PCI DSS- a, administratori organizacije bi trebalo da izaberu da ne skladište brojeve kreditnih kartica ili da skladište brojeve hash kartica.
 

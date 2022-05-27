@@ -2,16 +2,16 @@
 title: Ispravka računovodstva na radnim verzijama predloga faktura za projekat
 description: Ova tema objašnjava kako da prilagodite računovodstvene informacije u radnoj verziji predloga fakture.
 author: sigitac
-ms.date: 06/07/2021
+ms.date: 01/05/2022
 ms.topic: article
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 153a239d4b88906909ee0bfae8a18cabebc3766399290d83bb79f5d6375a942c
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
-ms.translationtype: HT
+ms.openlocfilehash: bf0a3d6b97880920b133cb3b30389adf0c83111c
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.translationtype: MT
 ms.contentlocale: sr-Latn-RS
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6999333"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8575091"
 ---
 # <a name="correct-the-accounting-on-draft-project-invoice-proposals"></a>Ispravka računovodstva na radnim verzijama predloga faktura za projekat
 
@@ -27,12 +27,21 @@ Podrazumevane grupe za obračun poreza na promet i grupe poreza na promet stavki
 
 ## <a name="adjust-financial-dimensions"></a>Prilagođeni finansijski aspekti
 
+### <a name="header-dimensions"></a>Dimenzije zaglavlja
+
+Podrazumevano, finansijske dimenzije fakture su izvedene iz zapisa neželjenih transakcija projekta koji se fakturiše. Međutim, postavke sistema vam omogućava da koristite finansijske dimenzije u zaglavlju predloga faktura projekta za knjiženje salda kupaca. Da biste omogućili ovu funkcionalnost, na kartici **"** **·** **Finansije" na stranici "Upravljanje projektima i računovodstvenim parametrima" izaberite stavku Dozvoli ažuriranje dimenzija** projekta za potraživanja.
+
+Finansijske dimenzije u zaglavljima faktura se mogu uređivati pre knjiženja fakture. Na stranici **Predlog fakture projekta** prebacite se u prikaz **zaglavlja**, a zatim uredite vrednosti na kartici **Finansijske dimenzije**.
+
+Prikaz **zaglavlja** je dostupan tek kada administrator sistema omogući korišćenje predloga fakture **projekta i obrazaca naloga faktura sa funkcijom prikaza zaglavlja** i redova u **radnom prostoru za upravljanje** funkcijama. Ova funkcija zahteva ispravku finansija 10.0.25 ili noviju.
+
+### <a name="line-dimensions"></a>Dimenzije reda
+
 Finansijski aspekti se ne mogu direktno uređivati na stavci predloga fakture projekta. Umesto toga, sledite ove korake za prilagođavanje finansijskih aspekata na predlogu fakture projekta.
 
 1. Na predlogu fakture projekta, izaberite **Izbriši sve** da uklonite redove predloga fakture projekta.
 
-    > [!NOTE]
-    > Dugme **Izbriši sve** je dostupno samo nakon što administrator sistema omogući funkciju **Izbrišite redove predloga fakture kada Project Operations koristite za scenarije zasnovane na resursima / bez zaliha** u radnom prostoru **Upravljanje funkcijama**.
+    Dugme **Izbriši sve** je dostupno samo nakon što administrator sistema omogući funkciju **Izbrišite redove predloga fakture kada Project Operations koristite za scenarije zasnovane na resursima / bez zaliha** u radnom prostoru **Upravljanje funkcijama**.
 
 2. Prilagođavanje finansijskih aspekata:
 

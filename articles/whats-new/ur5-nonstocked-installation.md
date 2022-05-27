@@ -1,25 +1,25 @@
 ---
 title: Ažuriranje usluge Project Operations u Finance okruženju
-description: Ova tema pruža informacije o tome kako da ažurirate uslugu Project Operations u Dynamics 365 Finance okruženju.
+description: Ovaj tema pruža informacije o tome kako da ažurirate operacije projekta u Dynamics 365 Finance okruženju.
 author: ruhercul
 ms.date: 12/11/2020
 ms.topic: article
 ms.prod: ''
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: ruhercul
-ms.openlocfilehash: 3665bccfa25c759c0f2351c691d24901867c178f7c339f4a524856842666aec5
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 9cd562ac3360298796fbe34dbe2ac8708b00150f
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: MT
 ms.contentlocale: sr-Latn-RS
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6986778"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8579965"
 ---
 # <a name="update-project-operations-in-your-finance-environment"></a>Ažuriranje usluge Project Operations u Finance okruženju
 
 _**Odnosi se na:** Project Operations za scenarije zasnovane na resursima / bez zaliha_
 
 
-Ova tema pruža informacije o tome kako da ažurirate Dynamics 365 Project Operations u Dynamics 365 Finance okruženju. Postoje tri procedure potrebne za ažuriranje usluge Project Operations na ispravku 5 (Microsoft Dynamics CRM 2011 Update Rollup 5):
+Ovaj tema pruža informacije o tome kako da ažurirate Dynamics 365 Project Operations Dynamics 365 Finance okruženju. Postoje tri procedure potrebne za ažuriranje usluge Project Operations na ispravku 5 (Microsoft Dynamics CRM 2011 Update Rollup 5):
 
 - [Uvoz paketa u projekat pregleda](#import)
 - [Primena ispravke](#apply)
@@ -119,7 +119,7 @@ Sledeće ispravke bezbednosnih privilegija za entitete su potrebne kao deo ažur
 4. Na stranici **Verzija mape tabele** primenite novu verziju mape na svaki od tri entiteta.
 5. Na stranici **Dvostruko upisivanje** izaberite „Pokreni“ da biste ponovo pokrenuli mape.
 6. Na listi mapa odaberite mapu **Glavna knjiga (msdyn_ledgers)** sa svim preduslovima i označite polje za potvrdu **Početna sinhronizacija**. 
-7. U polju **Master za početnu sinhronizaciju** izaberite **Finance and Operations aplikacije**, a zatim izaberite **Pokreni**.
+7. U polju Master **za početnu sinhronizaciju izaberite** aplikacije "Finansije **i operacije", a zatim** izaberite stavku **Pokreni**.
  
  ![Sinhronizacija mape glavne knjige.](media/DW6.png)
  

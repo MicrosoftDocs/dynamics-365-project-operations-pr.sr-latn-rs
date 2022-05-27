@@ -4,22 +4,22 @@ description: Ova tema pruža informacije o načinu postavljanja podrazumevanih v
 author: sigitac
 ms.date: 12/14/2021
 ms.topic: article
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 8c1eb71d13ca7fc59118d15fef7ac914577b3b0e
-ms.sourcegitcommit: fe5610464fdb5be756aa6a6a5b3c9a991dea0ed8
-ms.translationtype: HT
+ms.openlocfilehash: 9f43fed57a1411a55dcd7929f34e87aed136a6b5
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.translationtype: MT
 ms.contentlocale: sr-Latn-RS
-ms.lasthandoff: 12/15/2021
-ms.locfileid: "7922955"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8579507"
 ---
 # <a name="financial-dimension-defaults"></a>Podrazumevane vrednosti finansijske dimenzije
 
 _**Odnosi se na:** Project Operations za scenarije zasnovane na resursima / bez zaliha_
 
-[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
 
-Dynamics 365 Project Operations koristi radni okvir za [finansijske dimenzije](/dynamics365/finance/general-ledger/financial-dimensions) u usluzi Dynamics 365 Finance kako bi pružio dodatni uvid u transakcije potknjige i glavne knjige.
+
+Dynamics 365 Project Operations koristi okvir [finansijskih dimenzija](/dynamics365/finance/general-ledger/financial-dimensions) u Dynamics 365 Finance pruža dodatne uvide u podnaslova projekta i transakcije glavne knjige.
 
 Podrazumevane finansijske dimenzije mogu se postaviti na osnovu klijenta, izvora finansiranja projekta, kontrolne tačke, predmeta ugovora za projekat ili projekta.
 
@@ -60,15 +60,5 @@ Projekti se kreiraju i održavaju u usluzi CDS. Atributi računovodstva za proje
 4. Podesite podrazumevane vrednosti finansijskih dimenzija. Imajte u vidu da se podrazumevane vrednosti finansijskih dimenzija uzimaju sa naloga klijenta. Ako je projekat povezan sa predmetom ugovora sa više klijenata ugovora za projekat, primarni klijent se koristi za podrazumevane finansijske dimenzije.
 
 Podrazumevane finansijske dimenzije projekta koriste se za postavljanje podrazumevanih vrednosti stavke u glavnoj knjizi za transakcije vremena, troškova i naknada u **Project Operations dnevniku integracije** i na povezanim stavkama fakture projekta.
-
-## <a name="apply-financial-dimensions-for-project-time-entries"></a>Zatvaranje finansijskih dimenzija za stavke vremena projekta
-Da biste primenili finansijske dimenzije za stavke vremena projekta, imajte na kraju da se podrazumevana vrednost dimenzije zasniva na sledećem redosledu:
-
-1. Resurs
-2. Project
-3. Izvor finansiranja
-
-Na primer, ako je podrazumevana dimenzija navedena na resursu, ona će biti primenjena preko podrazumevane vrednosti navedene u projektu. Slično tome, podrazumevana dimenzija projekta biće primenjena preko podrazumevane vrednosti navedene u izvoru finansiranja.
-
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
