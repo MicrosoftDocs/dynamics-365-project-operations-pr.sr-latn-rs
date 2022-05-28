@@ -7,18 +7,18 @@ ms.topic: article
 ms.prod: ''
 ms.search.form: ''
 audience: Application User
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.search.scope: ''
 ms.search.region: ''
 ms.author: shylaw
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 4dc1628a0dde0551aaf3bc10af628ef57881d85e
-ms.sourcegitcommit: a51f40c905874103040708be2188c04ab0716c38
+ms.openlocfilehash: 1d4c2cce88514e7822515fc407fc7cf31cb34924
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: MT
 ms.contentlocale: sr-Latn-RS
-ms.lasthandoff: 11/11/2021
-ms.locfileid: "7798057"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8596297"
 ---
 # <a name="capture-a-receipt-using-ocr"></a>Snimite priznanicu pomoću usluge OCR
 
@@ -52,7 +52,7 @@ Da biste stvorili trošak ili uporedili trošak sa priznanice, izvršite sledeć
 
 ## <a name="installation"></a>Instalacija
 
-Da biste koristili ove napredne mogućnosti troškova, instalirajte programski dodatak Usluga za upravljanje troškovima za Microsoft Dynamics 365 Finance i uključite funkcije u instanci. Programu iz projekta možete pristupiti u utorak u Microsoft Dynamics životnog ciklusa (LCS).
+Da biste koristili ove napredne mogućnosti troškova, instalirajte programski dodatak "Usluga upravljanja troškovima Microsoft Dynamics " za 365 finansija i uključite funkcije u instanci. Programskom dodatku možete pristupiti iz svog projekta u usluzi Microsoft Dynamics Lifecycle Services (LCS).
 
 1. Prijavite se na LCS i otvorite željeno okruženje.
 2. Idi na stavku **Svi detalji**.
@@ -73,7 +73,7 @@ Kada uključite ove funkcije, dešavaju se sledeće radnje:
 - Dodata je nova stavka menija za vidljivost polja troškova.
 - Još uvek možete otvoriti prethodnu stranicu **Izveštaji o troškovima** odlaskom na **Upravljanje troškovima > Moji troškovi > Izveštaji o troškovima**.
 - Tokovi posla i sva odobrenja vas i dalje vode na postojeću stranicu sa izveštajima o troškovima.
-- Potvrde će se obrađivati preko Microsoft Azure kognitivnih usluga, a metapodaci će biti izdvojeni i dodati.
+- Priznanice će se obrađivati putem Microsoft Azure Cognitive Services, a metapodaci će biti izdvojeni i dodati.
 - Dodata je opcija koja vam omogućava da napravite izveštaj o troškovima koji uključuje odgovarajuće nepriložene priznanice.
 - Opcija koja se dodaje izveštajima o troškovima omogućava vam da kreirate liniju troškova iz priznanica ili pokušate da uporedite postojeću priznanicu sa postojećom linijom troškova.
 

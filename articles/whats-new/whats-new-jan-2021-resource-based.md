@@ -5,14 +5,14 @@ author: sigitac
 ms.date: 01/13/2021
 ms.topic: article
 ms.prod: ''
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 9d54d5fed6e8ec1535ad798073ac8a1eec36e87d1dbba4cc4acd94d8bbdc5157
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 50874d771afe03b08bd95b670f7095bc2d61509d
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: MT
 ms.contentlocale: sr-Latn-RS
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7008108"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8599563"
 ---
 # <a name="whats-new-january-2021---project-operations-for-resourcenon-stocked-based-scenarios"></a>Šta je novo u januaru 2021. – Project Operations za scenarije zasnovane na resursima/bez zaliha
 
@@ -22,7 +22,7 @@ _**Odnosi se na:** Project Operations za scenarije zasnovane na resursima / bez 
 Ova tema se odnosi na sledeće komponente i verzije usluge Dynamics 365 Project Operations:
 
   - Project Operations u Dataverse okruženju verzije 4.6.0.154
-  - Upravljanje projektima i računovodstvo u Dynamics 365 Finance okruženju verzije 10.0.16
+  - Upravljanje projektima i računovodstvo u Dynamics 365 Finance okruženju verzija 10.0.16
 
 ## <a name="quality-updates"></a>Ispravke kvaliteta
 
@@ -43,7 +43,7 @@ Ova tema se odnosi na sledeće komponente i verzije usluge Dynamics 365 Project 
 | **Planiranje i praćenje projekta** | 2090202 | Označena su poslovna pravila koja se više ne koriste kao **Zastarela**. |
 | **Vreme i trošak** | 2091249 | Ograničene su kontrole tako da korisnici ne mogu da promene zadatak u stavci vremena koja je podneta ili odobrena. |
 
-### <a name="project-management-and-accounting-in-dynamics-365-finance"></a>Upravljanje projektima i računovodstva u usluzi Dynamics 365 Finance
+### <a name="project-management-and-accounting-in-dynamics-365-finance"></a>Upravljanje projektima i računovodstvo u Dynamics 365 Finance
 
 | **Oblast funkcija** | **Referentni broj** | **Ispravka kvaliteta** |
 | --- | --- | --- |
@@ -86,7 +86,7 @@ Ova tema se odnosi na sledeće komponente i verzije usluge Dynamics 365 Project 
 
 ## <a name="regulatory-updates"></a>Regulatorne ispravke
 
-Za informacije o regulatornim ispravkama za Finance and Operations aplikacije, pogledajte članak [Regulatorne ispravke](/dynamics365/finance/localizations/regulatory-updates). Takođe se možete prijaviti na LCS i pregledati planirane regulatorne ispravke pomoću alatke za pretragu problema. Pretraga problema vam omogućava pretragu po zemlji, tipu funkcije i izdanju.
+Više informacija o regulatornim ispravkama za aplikacije za finansije i operacije potražite u članku [Regulatorne ispravke](/dynamics365/finance/localizations/regulatory-updates). Takođe se možete prijaviti na LCS i pregledati planirane regulatorne ispravke pomoću alatke za pretragu problema. Pretraga problema vam omogućava pretragu po zemlji, tipu funkcije i izdanju.
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

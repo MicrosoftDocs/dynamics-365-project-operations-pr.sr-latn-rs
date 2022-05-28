@@ -4,14 +4,14 @@ description: Ova tema pruža informacije o tome kako da kreirate transakcije me�
 author: sigitac
 ms.date: 04/12/2021
 ms.topic: article
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 4ce3a45e5a09b7ac5b5663cf9983e3bed7bf7e0d3fedede2e4524c51069a800b
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 88e5658c9087fdb19adce1c23bc5cad0ad0fa434
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: MT
 ms.contentlocale: sr-Latn-RS
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7005498"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8600007"
 ---
 # <a name="create-intercompany-transactions"></a>Kreiranje transakcija među preduzećima
 
@@ -30,14 +30,14 @@ Kada se odobri transakcija među preduzećima, kreiraju se sledeće stvarne tran
 
 **Organizaciona jedinica** pokreće cenu, troškove jedinice za određivanje resursa i određivanje cena prodajne transakcije jedinice unutar organizacije i valutu. Ovo je važno imati na umu prilikom donošenja odluke o strukturiranju preduzeća i organizacionih jedinica u vašoj implementaciji.
 
-Kada kreirate mogućnost za poslovanje, ponudu, ugovor za projekat i evidenciju projekata, sistem proverava da li se valuta ugovorne jedinice poklapa sa računovodstvenom valutom ugovornog preduzeća. Kada nisu iste, nije moguće kreirati ove zapise. Valuta organizacione jedinice se definiše u usluzi Dynamics 365 Project Operations tako što ćete otići u **Dataverse** > **Podešavanja** > **Organizacione jedinice**. Računovodstvena valuta preduzeća se definiše u usluzi Dynamics 365 Finance tako što ćete otići u **Glavna knjiga** > **Podešavanje glavne knjige** > **Knjiga**. Valuta se sinhronizuje sa vašim Dataverse okruženjem pomoću mape dvostrukog upisivanja u knjige.
+Kada kreirate mogućnost za poslovanje, ponudu, ugovor za projekat i evidenciju projekata, sistem proverava da li se valuta ugovorne jedinice poklapa sa računovodstvenom valutom ugovornog preduzeća. Kada nisu iste, nije moguće kreirati ove zapise. Valuta organizacione jedinice se definiše u usluzi Dynamics 365 Project Operations tako što ćete otići u **Dataverse** > **Podešavanja** > **Organizacione jedinice**. Knjigovodstvena valuta preduzeća se definiše u Dynamics 365 Finance odlaskom u Knjigu **podešavanja** > **glavne** > **knjige**. Valuta se sinhronizuje sa vašim Dataverse okruženjem pomoću mape dvostrukog upisivanja u knjige.
 
 Sistem u sledećim situacijama kreira troškove jedinice za određivanje resursa i stvarne prodajne vrednosti između preduzeća:
 
   - Kada se jedinica za resurse razlikuje od jedinice za ugovaranje
   - Kada se preduzeće za resurse razlikuje od preduzeća za ugovaranje
 
-Međutim, samo će transakcije koje imaju drugo preduzeće za resurse koja se razlikuje od preduzeća za ugovaranje biti prenete u Dynamics 365 Finance okruženje za dodatno računovodstvo.
+Međutim, samo transakcije koje imaju drugačije resourcing preduzeće iz ugovorne kompanije biće prebačene u Dynamics 365 Finance za dodatno knjigovodstvo.
 
 Računovodstvo stvarnih podataka o projektu evidentira se u Project Operations dnevniku integracije u usluzi Finance. Sistem kreira sledeće stavke u glavnoj knjizi.
 
@@ -60,7 +60,7 @@ Jovanka Nikolić, programerka koja je zaposlena u preduzeću GBPM evidentira 10 
     4. Podesite valutu na **USD**.
     5. Sačuvajte zapis.
 3. Idite na **Prodaja** > **Ugovori o projektu** i kreirajte novi projektni ugovor za preduzeće Adventure Works.
-    1. Podesite kompaniju-vlasnika na **USPM**, a ugovornu jedinicu na **Contoso Robotics US**.
+    1. Postavite vlasničku kompaniju na **USPM**, a jedinicu ugovaranja na **Contoso Robotics US**.
     2. Izaberite Adventure Works kao klijenta.
     3. Izaberite cenovnik proizvoda i sačuvajte zapis.
     4. Na kartici **Predmeti ugovora** kreirajte novi predmet ugovora. Podesite bilo koje ime i izaberite **Vreme i materijali** kao način naplate.

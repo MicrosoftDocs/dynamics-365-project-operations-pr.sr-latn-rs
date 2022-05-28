@@ -4,14 +4,14 @@ description: Ova tema objašnjava kako Microsoft prati vreme, troškove i upotre
 author: rumant
 ms.date: 12/03/2021
 ms.topic: article
-ms.reviewer: tonyafehr
+ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: 04c78dd48367c3720b8f5ad5d924ed106da6a128
-ms.sourcegitcommit: 04dc8d952e6da3ab3eb2a20131c6f7cee6040876
+ms.openlocfilehash: 5a31b4a1092cc4829cbfc789e8b8e30030b2826b
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: MT
 ms.contentlocale: sr-Latn-RS
-ms.lasthandoff: 12/10/2021
-ms.locfileid: "7903755"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8599241"
 ---
 # <a name="recording-time-expenses-and-material-usage-on-projects-for-subcontracted-components"></a>Vreme snimanja, troškovi i korišćenje materijala na projektima za komponente podizvođačima
 
@@ -29,10 +29,10 @@ Kada se odobri vreme koje su podneli radnici po ugovoru, trošak projekta se zap
 ## <a name="costing-for-subcontracted-expenses-on-projects"></a>Troškovi za troškove podizvođačima na projektima
 Prilikom unosa troškova nastalih u projektima, možete izabrati red podizvođača i podizvođača u stavci troška. 
 
-Kada se ova stavka troškova prosledi i odobri, trošak troška se zapisuje na projektu na osnovu troška po jedinici koji je podešen za tu kategoriju transakcije u odeljku "Cene kategorije" nabavnog **cenovnka** na podizvođači.
+Kada se ova stavka troškova prosledi i odobri, trošak troška se zapisuje na projektu na osnovu troška po jedinici koji je podešen za tu kategoriju transakcije **u odeljku "Cene kategorije** " nabavnog cenovnka na podizvođači.
 
 ## <a name="costing-for-subcontracted-materials-on-projects"></a>Troškovi za podizvođače materijala na projektima
-Prilikom unošenja upotrebe materijala u projekte, u evidenciji korišćenja materijala možete izabrati red podizvođači i podizvođači. Kada se evidencija upotrebe materijala prosledi i odobri, materijalni trošak se zapisuje na projektu na osnovu troška po jedinici koji je podešen za taj proizvod u **odeljku Stavke cenovnik** podizvođač.
+Prilikom unošenja upotrebe materijala u projekte, u evidenciji korišćenja materijala možete izabrati red podizvođači i podizvođači. Kada se evidencija upotrebe materijala prosledi i odobri, materijalni trošak se zapisuje na projektu na osnovu troška po jedinici **koji je podešen za taj proizvod u odeljku Stavke cenovnik** podizvođač.
 
 Upotreba materijala se takođe može zapisati za proizvode za upis na projektima. Ova vrsta upotrebe materijala takođe može biti povezana sa redom podizvođačima i podizvođačima. Prilikom zapisivanja upotrebe materijala za proizvode za upisivanje, potrebno je da unesete trošak po jedinici proizvoda za upisivanje. 
 

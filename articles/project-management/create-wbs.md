@@ -4,14 +4,14 @@ description: Ova tema objašnjava kako da kreirate strukturnu analizu posla (SAP
 author: ruhercul
 ms.date: 12/16/2021
 ms.topic: article
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: ruhercul
-ms.openlocfilehash: 3b8162d256aa145301fc64bee9682caa8737496f
-ms.sourcegitcommit: d3f66dfb5978c5c6b7fd51363c7f9278737c49c1
-ms.translationtype: HT
+ms.openlocfilehash: cdc1ffdd1f53f65627b511582e52ca27fa53c127
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.translationtype: MT
 ms.contentlocale: sr-Latn-RS
-ms.lasthandoff: 12/17/2021
-ms.locfileid: "7928632"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8597815"
 ---
 # <a name="create-a-work-breakdown-structure-wbs"></a>Kreiranje strukturne analize posla (SAP)
 
@@ -99,7 +99,7 @@ Atributima angažovanja se pristupa u polju **Resursi** u rasporedu. Možete pot
 
 Polja **Uloga**, **Jedinica za obezbeđivanje resursa** i **Naziv pozicije** se koriste za opisivanje potreba za angažovanjem resursa na zadatku. Ovi atributi angažovanja, zajedno sa rasporedom zadataka, koriste se za pronalaženje dostupnih resursa za obavljanje ovog zadatka.
 
-   - **Uloga** : Navedite tip resursa koji je potreban za zadatak.,
+   - **Uloga**: Navedite tip resursa koji je potreban za zadatak.,
    - **Jedinica za obezbeđivanje resursa**: Navedite jedinicu iz koje treba dodeliti resurse za zadatak. Ovaj atribut utiče na procenu troškova i prodaje za zadatak ako su stope troškovi i naplate za resurs podešene na osnovu jedinica za obezbeđivanje resursa.
    - **Naziv pozicije**: Unesite ime za generički resurs koje služi kao čuvar mesta za resurs koji će na kraju obaviti posao.
 
@@ -124,7 +124,7 @@ Trebalo bi da znate za sledeća ograničenja ako koristite strukturu analize pos
 |----------------------------------------------------|----------------------|
 | Maksimalni ukupni broj zadataka za projekat                  | 500                  |
 | Maksimalno ukupno trajanje za projekat               | 3650 dana (10 godina) |
-| Maksimalni ukupni broj resursa za projekat              | 150                  |
+| Maksimalni ukupni broj resursa za projekat              | 300                  |
 | Maksimalan ukupni broj veza (samo narednih) za projekat | 600                  |
 | Maksimalni ukupni broj prilagođenih polja za projekat          | 10                   |
 | Maksimalne stavke kontrolne liste po zadatku                   | 20                   |

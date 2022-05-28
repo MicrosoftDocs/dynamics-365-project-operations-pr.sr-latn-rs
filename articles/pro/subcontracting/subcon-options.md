@@ -1,25 +1,25 @@
 ---
-title: Opcije podizvođanja za članove projektnog tima
-description: Ova tema objašnjava opcije podizvođanja za članove projektnog tima u korporaciji Microsoft Dynamics 365 Project Operations.
+title: Opcije podugovaranja za članove projektnog tima
+description: Ova tema objašnjava opcije podizvođanja za članove projektnog tima korporacije Microsoft Dynamics 365 Project Operations.
 author: rumant
 ms.date: 12/03/2021
 ms.topic: article
-ms.reviewer: tonyafehr
+ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: 4db283db728b50ccf76eafabfd643313620bbce2
-ms.sourcegitcommit: 04dc8d952e6da3ab3eb2a20131c6f7cee6040876
+ms.openlocfilehash: aacd2f97d3120a854c78fe87e512fad1c43b9651
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: MT
 ms.contentlocale: sr-Latn-RS
-ms.lasthandoff: 12/10/2021
-ms.locfileid: "7903759"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8600207"
 ---
-# <a name="subcontracting-options-for-project-team-members"></a>Opcije podizvođanja za članove projektnog tima
+# <a name="subcontracting-options-for-project-team-members"></a>Opcije podugovaranja za članove projektnog tima
 
 [!include [banner](../../includes/dataverse-preview.md)]
 
 _**Odnosi se na:** Jednostavna primena – od pogodbe do profakture_
 
-U Dynamics 365 Project Operations korporaciji Microsoft možete da procenite opcije podizvođanja koje su dostupne za jednog ili više članova projektnog tima. Dostupne opcije podizvođanja vam omogućavaju da:
+U korporaciji Microsoft Dynamics 365 Project Operations možete da procenite opcije podizvođanja koje su dostupne za jednog ili više članova projektnog tima. Dostupne opcije podizvođanja vam omogućavaju da:
 
 - Kreirajte novi podizvođači i/ili kreirajte nove redove na postojećem podizvođači za izabrane članove projektnog tima. 
 - Rezervišite u odnosu na već postojeći red podizvođaиa i podizvoрaиa. 
@@ -37,13 +37,13 @@ Da biste pregledali i odabrali jednu od dostupnih opcija podizvođača za generi
 
 1. Izaberite jedan ili više zapisa članova projektnog tima u kojima je resurs generički resurs.
 2. Uverite se da nijedan od izabranih zapisa članova projektnog tima nije već podizvođačen. 
-3. Izaberite **opcije podizvođanja** u podmrežnoj mreži članova projektnog tima. Otvoriće **se dijalog opcija** podizvođanja. 
+3. Izaberite **opcije podizvođanja u** podmrežnoj mreži članova projektnog tima. Otvoriće **se dijalog opcija podizvođanja**. 
 4. Ako ste izabrali samo jedan zapis člana projektnog tima u koraku 1, biće dostupne sledeće opcije:
     - Kreirajte nove redove podizvođači. 
     - Rezervišite u odnosu na postojeći podizvođaи Ako ste izabrali viљe zapisa иlaka projektnog tima u koraku 1, onda je jedina dostupna opcija kreiranje novih redova podizvoрaиa.
 5. Opcija rezervisanja u odnosu na postojeći red podizvođači vam omogućava da izaberete red podizvođači i podizvođači protiv kojih želite da rezervišete. Kada birate red podizvođače da biste rezervisali kapacitet, trebalo bi da se uverite da je izabrani red podizvođače za vreme i da se uloga potrebna članu projektnog tima podudara sa ulogom koja je kupljena u redu podizvođače.
-6. Kada izaberete da kreirate nove redove podizvođači za članove projektnog tima, sistem će vam dozvoliti da izaberete podizvođaи koji želite da kreirate u ovim redovima. Podizvođači u kojima ste izabrali da kreirate nove redove trebalo bi da se nađu u **statusu radne** verzije. Pomoću ove opcije za kreiranje novih redova podizvođačima za izabrane članove projektnog tima, sistem će kreirati jedan red podizvođanja za vreme za svakog člana projektnog tima. Uloga, časovi i datumi biće kopirani iz člana projektnog tima u svaki red podizvođača koji je kreiran. 
-7. Kada je generički član tima povezan sa redom podizvođač i podizvođač, polje "Vrsta radnika" u redu generičkog člana tima biće ažurirano u "Radnik **po** ugovoru", a **vrednost** **"Validnost podizvođaca" na** vrednost **"Važeće".**
+6. Kada izaberete da kreirate nove redove podizvođači za članove projektnog tima, sistem će vam dozvoliti da izaberete podizvođaи koji želite da kreirate u ovim redovima. Podizvođači u kojima ste izabrali da kreirate nove redove trebalo bi da se nađu u statusu radne **verzije**. Pomoću ove opcije za kreiranje novih redova podizvođačima za izabrane članove projektnog tima, sistem će kreirati jedan red podizvođanja za vreme za svakog člana projektnog tima. Uloga, časovi i datumi biće kopirani iz člana projektnog tima u svaki red podizvođača koji je kreiran. 
+7. Kada je generički član tima povezan sa redom podizvođač i podizvođač, **polje "Vrsta radnika" u** redu generičkog člana tima biće ažurirano u "**Radnik po ugovoru",** **a vrednost "Validnost** podizvođaca" na vrednost "Važeće **"**.
 
 ## <a name="subcontracting-a-staffed-project-team-member"></a>Podizvođači osoblja projektnog tima
 
@@ -51,7 +51,7 @@ Kao i generički ili neodgovarajući članovi tima, takođe možete da prikažet
 
 1. Izaberite jedan ili više zapisa članova projektnog tima u kojima je resurs imenovani radnik po ugovoru.
 2. Uverite se da nijedan od izabranih zapisa članova projektnog tima nije već podizvođačen. 
-3. Izaberite **opcije podizvođanja** u podmrežnoj mreži članova projektnog tima. Otvoriće **se dijalog opcija** podizvođanja. 
+3. Izaberite **opcije podizvođanja u** podmrežnoj mreži članova projektnog tima. Otvoriće **se dijalog opcija podizvođanja**. 
 4. Ako ste izabrali samo jedan zapis člana projektnog tima u koraku 1, biće dostupne sledeće opcije:
       - Kreirajte nove redove podizvođači.
       - Rezervišite u odnosu na postojeći podizvođaи.
@@ -61,11 +61,11 @@ Kao i generički ili neodgovarajući članovi tima, takođe možete da prikažet
       - Uloga potrebna članu projektnog tima podudara se sa ulogom koja je kupljena u redu podizvođači. 
       - Dobavljač sa kog je povezan radnik po ugovoru je isti kao dobavljač u podizvođači.
 6. Kada izaberete da kreirate nove redove podizvođači za članove projektnog tima, sistem će vam dozvoliti da izaberete podizvođaи koji želite da kreirate u ovim redovima. Ovom opcijom treba da se uverite da je dobavljač kome pripada radnik po ugovoru isti kao dobavljač u podizvođači. 
-7. Podizvođači u kojima ste izabrali da kreirate nove redove trebalo bi da se nađu u **statusu radne** verzije. Pomoću ove opcije za kreiranje novih redova podizvođačima za izabrane članove projektnog tima, sistem će kreirati jedan red podizvođanja za vreme za svakog člana projektnog tima. Uloga, časovi i datumi biće kopirani iz člana projektnog tima u svaki red podizvođača koji je kreiran.  
-8. Kada je imenovani član tima povezan sa redom podizvođač i podizvođač, polje "Vrsta radnika" u imenovanom redu člana tima biće ažurirano u "Radnik **po** ugovoru", a **vrednost** **"Validnost podizvođače" na** vrednost **"Važeće".**
+7. Podizvođači u kojima ste izabrali da kreirate nove redove trebalo bi da se nađu u statusu radne **verzije**. Pomoću ove opcije za kreiranje novih redova podizvođačima za izabrane članove projektnog tima, sistem će kreirati jedan red podizvođanja za vreme za svakog člana projektnog tima. Uloga, časovi i datumi biće kopirani iz člana projektnog tima u svaki red podizvođača koji je kreiran.  
+8. Kada je imenovani član tima povezan sa redom podizvođač i podizvođač, **polje "Vrsta radnika" u** imenovanom redu člana tima biće ažurirano u "**Radnik po ugovoru",** **a vrednost "Validnost** podizvođaca" na vrednost "Važeće **"**.
 
 ## <a name="re-costing-subcontractor-assignments"></a>Ponovni troškovi dodeljivanja podizvođača
 
-Kada je član projektnog tima (generički ili imenovan) povezan sa redovima podizvođačem pomoću dijaloga "Opcije podizvođanja", sve dodele zadacima koje član tima ima **biće** ponovo skupljene na osnovu nabavnog cenovnog spiska priloženog podizvođačem. Na **kartici Procene** na **stranici Detalji projekta izaberite dugme** **Ažuriraj cene** da biste videli ažurirane cene i/ili troškove koji su rezultat odluke o podizvođačima.
+Kada je član projektnog tima (generički ili imenovan) povezan sa redovima podizvođačem **pomoću dijaloga "Opcije podizvođanja** ", sve dodele zadacima koje član tima ima biće ponovo skupljene na osnovu nabavnog cenovnog spiska priloženog podizvođačem. Na kartici **Procene** na stranici **Detalji projekta** izaberite **dugme Ažuriraj cene** da biste videli ažurirane cene i/ili troškove koji su rezultat odluke o podizvođačima.
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]
