@@ -3,16 +3,15 @@ title: Pregled internog fakturisanja u okviru preduzeća
 description: Ova tema pruža informacije i primere o internom fakturisanju između preduzeća za projekte.
 author: sigitac
 ms.date: 11/19/2020
-ms.topic: article
-ms.reviewer: kfend
+ms.topic: overview
+ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.custom: intro-internal
-ms.openlocfilehash: c343c5bf525574e496036793cd4e131394e8b1b471153147a66cfebe1acf3fce
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
-ms.translationtype: HT
+ms.openlocfilehash: b7bb4384657c71552390bbc3d60f3c5d0e4136b4
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.translationtype: MT
 ms.contentlocale: sr-Latn-RS
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7005408"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8586269"
 ---
 # <a name="intercompany-invoicing-overview"></a>Pregled internog fakturisanja u okviru preduzeća
 
@@ -20,7 +19,7 @@ _**Odnosi se na:** Project Operations za scenarije zasnovane na resursima / bez 
 
 Vaša organizacija može imati više odeljenja, podružnica i drugih pravnih lica koja međusobno prenose proizvode i usluge za projekte. Pravno lice koje pruža uslugu ili daje proizvod naziva se *pravno lice koje pozajmljuje*. Pravno lice koje prima uslugu ili proizvod naziva se *pravno lice koje se zadužuje*.
 
-Sledeća ilustracija prikazuje tipičan scenario kada dva pravna lica, Contoso Robotics USA (pravno lice koje se zadužuje) i Contoso Robotics UK (pravno lice koje pozajmljuje) deli resurse za isporuku projekta za klijenta, Adventure works. Za ovaj scenario, Contoso Robotics USA je ugovorio isporuku dela za Adventure Works.
+Sledeća ilustracija prikazuje tipični scenario kada dva pravna lica, Contoso Robotics USA (pravno lice koje se zadužuje) i Contoso Robotics UK (pravno lice koje pozajmljuje) dele resurse kako bi isporučili projekat klijentu, Adventure works. Za ovaj scenario, Contoso Robotics USA po ugovoru treba da isporuči posao preduzeću Adventure Works.
 
 ![Interno fakturisanje u okviru preduzeća.](./media/IntercompanyScenario.png) 
 

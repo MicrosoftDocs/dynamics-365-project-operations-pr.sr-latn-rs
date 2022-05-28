@@ -5,14 +5,14 @@ author: sigitac
 ms.date: 09/27/2021
 ms.topic: article
 ms.prod: ''
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 9511da6212aafbf5b173efc6eb1ceaacbc8264a2
-ms.sourcegitcommit: 098ea345ecfaf4445520094c32f5511b67e7953c
+ms.openlocfilehash: e0cd7669c7d6b916261e2c85cce0f24ff241a075
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: MT
 ms.contentlocale: sr-Latn-RS
-ms.lasthandoff: 10/02/2021
-ms.locfileid: "7594624"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8583721"
 ---
 # <a name="set-up-vendor-retention"></a>Podesite odlaganje obaveza prema dobavljaču
 
@@ -22,7 +22,7 @@ Ova tema opruža informacije o tome kako da podesite odlaganje plaćanja dobavlj
 
 ## <a name="set-up-a-vendor-retention-account-in-general-ledger"></a>Podesite račun za odlaganje plaćanja dobavljaču u glavnoj knjizi
 
-1. U usluzi Dynamics 365 Finance idite na **Glavnu knjigu** > **Podešavanje knjiženja** > **Računi za automatske transakcije**.
+1. U Dynamics 365 Finance, idite na konta podešavanja **knjiženja** > **glavne** > **knjige za automatske transakcije**.
 2. Dodavanje nove stavke.
 3. U polju **Vrsta knjiženja**, izaberite **Odlaganje plaćanja dobavljaču**.
 4. Izaberite glavni račun za knjiženje odlaganja plaćanja dobavljaču.

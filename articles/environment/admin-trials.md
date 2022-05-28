@@ -2,22 +2,22 @@
 title: Prijavite se za probnu verziju aplikacije Project Operations
 description: Ova tema pruža informacije o tome kako da primenite probnu verziju aplikacije Dynamics 365 Project Operations.
 author: ruhercul
-ms.date: 12/08/2021
+ms.date: 01/10/2022
 ms.topic: article
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: ruhercul
-ms.openlocfilehash: e40b4ac23241730f5c2db89f0dc674083f9e7abe
-ms.sourcegitcommit: 8f970b46d0303dafaa75fc7d00567d232e1e600b
-ms.translationtype: HT
+ms.openlocfilehash: a0c2532370c99cfe75b54da42c329f5b244a47e7
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.translationtype: MT
 ms.contentlocale: sr-Latn-RS
-ms.lasthandoff: 12/09/2021
-ms.locfileid: "7901634"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8584291"
 ---
 # <a name="sign-up-for-project-operations-trials"></a>Prijavite se za probnu verziju aplikacije Project Operations 
 
 _**Odnosi se na:** Project Operations za scenarije zasnovane na resursima/nepostojanju zaliha, jednostavna primena – od pogodbe do profakture, Project Operations za scenarije zasnovane na zalihama/proizvodnji_ 
 
-[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
+
 
 Ova tema objašnjava kako da se pretplatite na verziju za pregled partnerske ponude i kako da primenite Dynamics 365 Project Operations okruženje.
 
@@ -36,7 +36,6 @@ Sledeća tabela prikazuje detalje nove probne ponude.
 | Upotreba ponude                    | Jednom po zakupcu                          |
 | Trajanje ponude               | 30 kalendarskih dana                             |
 | Iskorišćavanja po zakupcu       | 1                                            |
-| Broj korisnika              | 25                                           |
 | Ekstenzija                    | 1 produžetak, 30 kalendarskih dana               |
 | Broj probnih okruženja | 3                                            |
 
@@ -87,17 +86,17 @@ Pre nego što započnete, prijavite se u pregledaču pomoću korisničkog radnog
  
   Kada se obezbeđivanje dovrši, status vašeg okruženja je **Spremno**. Obezbeđivanje okruženja uključuje primenu demo podataka.
  
-4.  Izaberite odgovarajuće Microsoft Dataverse URL adrese i URL adrese Finance and Operations aplikacija za proveru primene.
+4.  Izaberite odgovarajuće Microsoft Dataverse URL adrese i URL adrese aplikacija za finansije i operacije da biste proverili valjanost primene.
 
 ## <a name="configuring-dual-write"></a>Konfigurisanje dvostrukog upisivanja
 - Da biste konfigurisali bezbednosne uloge za dvostruko pisanje, pogledajte ažuriranje [bezbednosnih postavki za operacije projekta u programu Dataverse](resource-provision-new-environment.md).
-- Da biste konfigurisali mape sa dva pisanja, [pogledajte mape dvostrukog pisanja "Pokreni operacije projekta"](resource-provision-new-environment.md#run-project-operations-dual-write-maps).
+- Da biste konfigurisali mape sa dva pisanja, pogledajte mape [dvostrukog pisanja "Pokreni operacije projekta"](resource-provision-new-environment.md#run-project-operations-dual-write-maps).
 
 ## <a name="assign-licenses"></a>Dodela licenci
 
 Trebaće vam administrativni pristup Microsoft 365 portalu vaše organizacije da biste izvršili sledeće korake.
 
-1. Idite u [Microsoft 365 centar administracije](https://portal.office.com/) da biste dodelili licence korisnicima.
+1. Idite u [Microsoft 365 administrativni centar](https://portal.office.com/) da biste dodelili licence korisnicima.
 
    ![Početna stranica centra administracije](./media/14AdminPortal.png)
 
@@ -117,7 +116,7 @@ Sledeći resursi pružaju korisne smernice dok započinjete svoje putovanje sa a
 
 ## <a name="frequently-asked-questions"></a>Najčešća pitanja
 
-### <a name="what-if-i-require-alm-or-elm-for-my-finance-and-operations-apps-environment"></a>Šta ako mi je potreban ALM ili ELM za Finance and Operations okruženje aplikacija?
+### <a name="what-if-i-require-alm-or-elm-for-my-finance-and-operations-apps-environment"></a>Šta ako mi je potreban ALM ili ELM za okruženje aplikacija za finansije i operacije?
 
 - Za partnere kojima su potrebne pune mogućnosti upravljanja životnim ciklusom okruženja, pogledajte [Zahtev za licencu za Sandbox partnera](https://experience.dynamics.com/requestlicense) da biste pregledali novu ponudu partnera. 
 - Za partnere koji traže više informacija o pravima interne upotrebe, pogledajte [Pogodnosti oblaka i softvera za prava interne upotrebe (microsoft.com](https://partner.microsoft.com/membership/internal-use-software).
@@ -125,7 +124,7 @@ Sledeći resursi pružaju korisne smernice dok započinjete svoje putovanje sa a
 ### <a name="can-i-extend-my-trial-beyond-30-days"></a>Mogu li produžiti probni period duže od 30 dana?
 Da biste produžili probni period, dovršite sledeće korake.
 
-1. U **Microsoft 365 centru administracije**, idite na **Naplata** > **Vaši proizvodi**.
+1. U Administrativnom **Microsoft 365 centru idite** na **naplatu** > **Vaši proizvodi**.
 2. Izaberite **Dynamics 365 Project Operations (CE) – Probna verzija za pregled**.
 3. U odeljku **Datum isteka**, izaberite **Produži datum**.
 

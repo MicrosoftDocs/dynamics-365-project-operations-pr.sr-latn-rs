@@ -5,23 +5,23 @@ author: sigitac
 ms.date: 11/09/2021
 ms.topic: article
 ms.prod: ''
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: fb9dad5b04ef2933ed8a8d8211f888f13df5ba40
-ms.sourcegitcommit: 9d20e7738cce195d344f5925a115741a1ce3ca36
+ms.openlocfilehash: 730f9f051c62f44734f2d7915517baf439b1a0b8
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: MT
 ms.contentlocale: sr-Latn-RS
-ms.lasthandoff: 12/21/2021
-ms.locfileid: "7942902"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8584889"
 ---
 # <a name="whats-new-november-2021---project-operations-for-resourcenon-stocked-based-scenarios"></a>Šta je novo novembra 2021. – Project Operations za scenarije zasnovane na resursima/bez zaliha
 
 *Odnosi se na: Project Operations za scenarije zasnovane na resursima / bez zaliha*
 
-Ova tema se odnosi na sledeće komponente i verzije korporacije Dynamics 365 Project Operations Microsoft:
+Ova tema se odnosi na sledeće komponente i verzije korporacije Microsoft Dynamics 365 Project Operations:
 
-- Operacije projekta u Dataverse verziji okruženja 4.26.0.145, 4.26.0.148, 4.26.0.150, 4.26.0.155
-- Upravljanje projektima i računovodstvo Dynamics 365 Finance u okruženju verzija 10.0.22
+- Operacije projekta u verziji Dataverse okruženja 4.26.0.145, 4.26.0.148, 4.26.0.150, 4.26.0.155
+- Upravljanje projektima i računovodstvo u Dynamics 365 Finance okruženju verzija 10.0.22
 
 ## <a name="features-included-in-this-release"></a>Funkcije uključene u ovom izdanju
 
@@ -33,9 +33,9 @@ Sledeće funkcije su uključene u ovom izdanju:
 
 U ovom izdanju nema ispravki za Project Operations mape dvostrukog upisivanja. Za trenutnu listu i verzije Project Operations mapa dvostrukog upisivanja, pogledajte [Verzije Project Operations mapa dvostrukog upisivanja](/dynamics365/project-operations/environment/resource-dual-write-maps).
 
-Uvek pokrenite najnoviju verziju mape u okruženju i omogućite sve povezane mape tabela dok ažurirate rešenje za projektne Dataverse operacije i verziju finansijskog rešenja. Neke funkcije i mogućnosti možda neće ispravno funkcionisati ako najnovija verzija mape nije aktivirana. Aktivnu verziju mape možete videti u koloni **Verzija** na stranici **Dvostruko upisivanje**. Da biste aktivirali novu verziju mape, izaberite **Verzije tabele mape**, izaberite najnoviju verziju, a zatim sačuvajte izabranu verziju. Ako ste prilagodili mapu tabele bez okvira, ponovo primenite promene. Za još informacija pogledajte [Upravljanje životnim ciklusom aplikacije](/dynamics365/fin-ops-core/dev-itpro/data-entities/dual-write/app-lifecycle-management).
+Uvek pokrenite najnoviju verziju mape u okruženju i omogućite sve povezane mape tabela dok ažurirate rešenje za projektne operacije Dataverse i verziju finansijskog rešenja. Neke funkcije i mogućnosti možda neće ispravno funkcionisati ako najnovija verzija mape nije aktivirana. Aktivnu verziju mape možete videti u koloni **Verzija** na stranici **Dvostruko upisivanje**. Da biste aktivirali novu verziju mape, izaberite **Verzije tabele mape**, izaberite najnoviju verziju, a zatim sačuvajte izabranu verziju. Ako ste prilagodili mapu tabele bez okvira, ponovo primenite promene. Za još informacija pogledajte [Upravljanje životnim ciklusom aplikacije](/dynamics365/fin-ops-core/dev-itpro/data-entities/dual-write/app-lifecycle-management).
 
-Ako naiđete na problem prilikom početka mape, sledite uputstva u problemu sa kolonama tabele koje nedostaju [u](/dynamics365/fin-ops-core/dev-itpro/data-entities/dual-write/dual-write-troubleshooting-finops-upgrades#missing-table-columns-issue-on-maps) odeljku mape vodiča za rešavanje problema sa dvostrukim upisivanja.
+Ako naiđete na problem prilikom početka mape, sledite uputstva [u problemu sa kolonama tabele koje nedostaju u odeljku mape](/dynamics365/fin-ops-core/dev-itpro/data-entities/dual-write/dual-write-troubleshooting-finops-upgrades#missing-table-columns-issue-on-maps) vodiča za rešavanje problema sa dvostrukim upisivanja.
 
 ## <a name="quality-updates"></a>Ispravke kvaliteta
 
@@ -43,7 +43,7 @@ Ako naiđete na problem prilikom početka mape, sledite uputstva u problemu sa k
 
 | Oblast funkcija | Referentni broj | Ispravka kvaliteta |
 | --- | --- | --- |
-| Naplata i određivanje cena | 2240080 | Polje **Uslovi** plaćanja ne smeju biti duplirani u fakturi pro forma. |
+| Naplata i određivanje cena | 2240080 | Polje **Uslovi plaćanja** ne smeju biti duplirani u fakturi pro forma. |
 | Naplata i određivanje cena | 2358236 | Korekcija fakture mora dozvoliti korekcije koje imaju redove nulte cene. |
 | Upravljanje resursima | 2410072 | Dozvoli podešavanje resursa koji je dodeljen zadatku kao menadžer projekta. |
 | Naplata i određivanje cena | 2430234 | Rešite problem sa izračunavanjem performansi troška. |
@@ -51,7 +51,7 @@ Ako naiđete na problem prilikom početka mape, sledite uputstva u problemu sa k
 | Naplata i određivanje cena | 2448623 | Dozvoli ažuriranje cenovnika nakon što su povezani sa organizacionom jedinicom. |
 | Vreme i trošak | 2460396 | Dozvolite brisanje vremenskog unosa brisanjem ćelije. |
 | Naplata i određivanje cena | 2467386 | Dozvolite brisanje projekta koji ima zadatak, čak i kada je zadatak povezan sa izabranom ponudom. |
-| Vreme i trošak | 2461744 | Prikaz **"Moje neuspešno** odobravanje" sadrži samo odobrenja projekta u fazi **"Prosleđeno".** |
+| Vreme i trošak | 2461744 | Prikaz **"Moje neuspešno** odobravanje" sadrži samo odobrenja projekta u fazi **"Prosleđeno** ". |
 | Vreme i trošak | 2464082 | Uklonite vezu iz odobravanja projekta sa skupom odobravanja kada se status cilja podudara. |
 | Vreme i trošak | 2468108 | Zadatak "Raspored" ne bi trebalo da postavi **status** obrade za skup odobravanja. |
 | Vreme i trošak | 2471503 | Izbrišite skupove odobravanja stare sedam dana. |
@@ -66,13 +66,13 @@ Ako naiđete na problem prilikom početka mape, sledite uputstva u problemu sa k
 | Upravljanje projektima i računovodstvo | [593382](https://fix.lcs.dynamics.com/Issue/Details/?bugId=593382) | Uslovi plaćanja na projektnim fakturama ne funkcionišu na očekivani način. |
 | Upravljanje projektima i računovodstvo | [596263](https://fix.lcs.dynamics.com/Issue/Details/?bugId=596263) | Kada se izda zadržavanje dobavljača, knjiženje vaučera ima dodatne redove koji su netačni. |
 | Upravljanje projektima i računovodstvo | [598758](https://fix.lcs.dynamics.com/Issue/Details/?bugId=598758) | Kada se nalog integracije operacija projekta proknjiži, on ne uspeva zbog nedostajućih dimenzija za konto na koji se ne knjiži. |
-| Upravljanje projektima i računovodstvo | [602650](https://fix.lcs.dynamics.com/Issue/Details/?bugId=602650) | Kartica **·** "Projekat" se ne može uređivati u fakturi dobavljača na čekanju kada je artikalu dodeljena kategorija nabavke. |
+| Upravljanje projektima i računovodstvo | [602650](https://fix.lcs.dynamics.com/Issue/Details/?bugId=602650) | Kartica **"Projekat** " se ne može uređivati u fakturi dobavljača na čekanju kada je artikalu dodeljena kategorija nabavke. |
 | Upravljanje projektima i računovodstvo | [605121](https://fix.lcs.dynamics.com/Issue/Details/?bugId=605121) | Okno za navigaciju nedostaje ako niste prijavljeni u operacije projekta Dataverse. |
 | Upravljanje projektima i računovodstvo | [602728](https://fix.lcs.dynamics.com/Issue/Details/?bugId=602728) | Kada knjižite prihode od fakture projekta u zatvorenom predmetu za zadržavanje, dolazi do problema jer transakcije na vaučeru ne balansiraju. |
 | Upravljanje projektima i računovodstvo | [603624](https://fix.lcs.dynamics.com/Issue/Details/?bugId=603624) | Kreiranje procene nakon knjiženja predloga fakture blokira korektivne redove od uvoza. |
 | Upravljanje projektima i računovodstvo | [606083](https://fix.lcs.dynamics.com/Issue/Details/?bugId=606083) | Izmena potpuno fakturisanog zapisa prekretnice ne bi trebalo da bude moguća. |
 | Putovanje i trošak | [575305](https://fix.lcs.dynamics.com/Issue/Details/?bugId=575305) | Svi izveštaji o troškovima su vidljivi kada tražite kategoriju u mobilnoj aplikaciji "Troškovi". |
 | Putovanje i trošak | [583101](https://fix.lcs.dynamics.com/Issue/Details/?bugId=583101) | Netačni iznosi za transakcije dobavljača i transakcije poreza na promet se knjiže iz troška koji se kreira iz transakcije kreditnom karticom. |
-| Putovanje i trošak | [583760](https://fix.lcs.dynamics.com/Issue/Details/?bugId=583760) | Do nevažnog upozorenja dolazi kada osvežite **stranicu izveštaja** o troškovima. |
+| Putovanje i trošak | [583760](https://fix.lcs.dynamics.com/Issue/Details/?bugId=583760) | Do nevažnog upozorenja dolazi kada osvežite stranicu **izveštaja o** troškovima. |
 | Putovanje i trošak | [598656](https://fix.lcs.dynamics.com/Issue/Details/?bugId=598656) | Pogrešna prelazna osoba koja vrši odobravanje se koristi kada izbrišete prelaznu osobu koja vrši odobravanje, a zatim ponovo prijavite izveštaj o troškovima putem toka posla. |
 | Putovanje i trošak | [612742](https://fix.lcs.dynamics.com/Issue/Details/?bugId=612742) | Dolazi do greške u knjiženju koja je povezana sa podešavanjem kilometraže. |

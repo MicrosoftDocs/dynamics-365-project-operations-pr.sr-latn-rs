@@ -4,14 +4,14 @@ description: Ova tema pruža informacije koje vam pomažu da utvrdite pravilan t
 author: stsporen
 ms.date: 03/15/2021
 ms.topic: article
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: stsporen
-ms.openlocfilehash: 4be8e69c5b6ff1ed65e9484a9b427bb428f7ff3e6dc597c615d5586da52867ef
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 280578b2710a0bccd1973b51b062fef7a2997780
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: MT
 ms.contentlocale: sr-Latn-RS
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6994653"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8584153"
 ---
 # <a name="determine-your-deployment-type"></a>Odredite vrstu primene
 
@@ -25,7 +25,7 @@ _**Odnosi se na:** Project Operations za scenarije zasnovane na resursima/bez za
 ## <a name="existing-customers-of-dynamics-using-dynamics-365-project-service-automation"></a>Postojeći klijenti sistema Dynamics koji koriste Dynamics 365 Project Service Automation
 Project Operations uključuje mogućnosti koje su isporučene sa uslugom Project Service Automation. Putanja nadogradnje će biti objavljena za ove klijente u 1. talasu izdanja za 2021. godinu.
 
-## <a name="existing-customers-of-dynamics-365-finance-using-project-management-and-accounting"></a>Postojeći klijenti usluge Dynamics 365 Finance koji koriste upravljanje projektima i računovodstvo 
+## <a name="existing-customers-of-dynamics-365-finance-using-project-management-and-accounting"></a>Postojeći klijenti Dynamics 365 Finance upravljanje projektima i računovodstvo 
 
 Postojeći klijenti usluge Finance koji koriste funkcionalnost upravljanja projektima i računovodstva mogu da nastave da je koriste onakvu kakva jeste. Pogledajte [Project Operations za scenarije zasnovane na zalihama/proizvodnji](#pma).
 
@@ -42,7 +42,7 @@ Naš [upitnik za primenu](https://aka.ms/provisionprojectoperations) će vam pom
 - [Project Operations za scenarije sa resursima/materijalima koji nisu na zalihama](#integrated)
 - [Project Operations za scenarije sa materijalima na zalihama/porudžbinama za proizvodnju](#pma)
 
-Project Operations podržavaju scenarije zaliha / proizvodnih naloga i scenarije zasnovane na resursima / bez zaliha u istom okruženju putem konfiguracija na nivou pravnog lica. Na primer, Contoso može da koristi mogućnosti skladištenja / narudžbine za proizvodnju u svom proizvodnom pogonu u SAD (pravno lice = Contoso Manufacturing United States). Contoso može da koristi mogućnosti bez zaliha / zasnovane na resursima u svom Contoso objektu za servisiranje robotičkog oružja u Ujedinjenom Kraljevstvu (pravno lice = Contoso Robotics United Kingdom).
+Project Operations podržavaju scenarije zaliha / proizvodnih naloga i scenarije zasnovane na resursima / bez zaliha u istom okruženju putem konfiguracija na nivou pravnog lica. Na primer, Contoso može da koristi mogućnosti skladištenja/naručivanja u svom proizvodnom pogonu u SAD (pravno lice = Contoso Manufacturing United States). Contoso može da koristi mogućnosti koji nisu zasnovane na zalihama/zasnovane na resursima u objektu Contoso Robotics Arms u Velikoj Britaniji (pravno lice = Contoso Robotics United Kingdom).
 
 ### <a name="lite-deployment---deal-to-proforma-invoicing"></a><a  name="lite"></a>Jednostavna primena – od pogodbe do profakture
 

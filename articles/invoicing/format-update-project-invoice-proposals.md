@@ -4,14 +4,14 @@ description: Ova tema pruža detalje o obradi faktura za klijente pomoću usluge
 author: sigitac
 ms.date: 04/12/2021
 ms.topic: article
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 61b43e05eb179e2b00189076290433dd72f89a6bc7ef72140fc1efd752149d43
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: cb8d470dbcaae48db7ec1b7c0d69d55c0c9e0f17
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: MT
 ms.contentlocale: sr-Latn-RS
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6989928"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8585625"
 ---
 # <a name="manage-project-invoice-proposals"></a>Upravljanje predlozima projektnih faktura
 
@@ -22,7 +22,7 @@ Predloge projektnih faktura može obrađivati odeljenje za obračun kada su ispu
   - Menadžer projekta potvrdi predračun u usluzi Microsoft Dataverse.
   - Sve nenaplaćene transakcije prodaje vremena i materijala obuhvaćene predračunom su proknjižene pomoću Dynamics 365 **Project Operations** dnevnik integracije.
 
-Koristite sledeće korake da biste dovršili predlog fakture za projekat u usluzi Dynamics 365 Finance.
+Koristite sledeće korake da biste dovršili predlog fakture projekta u Dynamics 365 Finance.
 
 1. Pregledajte informacije o naplati za transakcije vremena i materijala i objavite **Project Operations dnevnik integracije**.
 2. Pregledajte informacije o naplati za kontrolne tačke naplate sa fiksnom cenom.

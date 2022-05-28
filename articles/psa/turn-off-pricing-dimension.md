@@ -15,12 +15,13 @@ search.audienceType:
 search.app:
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 9f690dfdb40e962ef329f323716f3f755493805d764dbfaa2d4f9d042231cee7
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.reviewer: johnmichalak
+ms.openlocfilehash: f308104246efe671d2001e660aa8c0ab9ef44c7a
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: MT
 ms.contentlocale: sr-Latn-RS
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7006803"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8581715"
 ---
 # <a name="turn-off-a-pricing-dimension"></a>Isključivanje dimenzije za određivanje cena
 
@@ -39,8 +40,8 @@ Ova poruka o grešci ukazuje na to da postoje zapisi cena koji su prethodno pode
 
 | Standardna pozicija         | Organizaciona jedinica    |Jedinica   |Cena  |Valuta  |
 | -----------------------|-------------|-------|-------|----------|
-| Inženjer sistema|Contoso US|Sat| 100|USD rešenje|
-| Viši inženjer sistema|Contoso US|Sat| 150| USD rešenje|
+| Inženjer sistema|Contoso US|Hour| 100.|USD|
+| Viši inženjer sistema|Contoso US|Hour| 150| USD|
 
 
 Kada isključite polje **Standardna pozicija** kao dimenziju za određivanje cena, a Project Service mehanizam za određivanje cena pretražuje cenu, koristiće samo vrednost **Organizaciona jedinica** iz konteksta unosa. Ako je **Organizaciona jedinica** konteksta unosa „Contoso US“, rezultat će biti neodređen jer će se oba reda podudarati. Da biste izbegli ovaj scenario, kada kreirate zapise **Cena uloge**, Project Service proverava da li je kombinacije dimenzija jedinstvena. Ako je dimenzija isključena nakon kreiranja zapisa **Cena uloge**, ovo ograničenje može da se prekrši. Zbog toga je neophodno da pre isključivanja dimenzije izbrišete sve redove **Cena uloge** i **Provizija na cenu uloge** u kojima je ta vrednost dimenzije popunjena.

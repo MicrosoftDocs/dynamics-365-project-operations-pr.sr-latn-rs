@@ -6,29 +6,25 @@ ms.date: 09/18/2020
 ms.topic: article
 ms.prod: ''
 audience: Application User
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.search.scope: ''
 ms.custom: ''
 ms.assetid: ''
-ms.search.region: Global
-ms.search.industry: Service industries
-ms.author: suvaidya
+ms.author: rumant
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: f12cdba286a9e29e2c4eb4041effbe779cba65f3562684d625b21bc3bae809d6
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
-ms.translationtype: HT
+ms.openlocfilehash: c15db854e3d130150ad7afc707a126b37c57f62d
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.translationtype: MT
 ms.contentlocale: sr-Latn-RS
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6986733"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8582820"
 ---
 # <a name="create-and-confirm-correction-journals"></a>Kreiranje i potvrda dnevnika sa ispravkama
 
-_**Odnosi se na:** Project Operations za resurs/scenarije koji nisu zasnovani na zalihama, laganu primenu – od pogodbe do profakture_
+_**Odnosi se na:** Project Operations za scenarije zasnovane na resursima/bez zaliha, jednostavna primena – od pogodbe do profakture_
 
-Povremeno se može pogrešno uneti stavka vremena ili troška. Na primer, konsultant može da odabere pogrešan datum prilikom kreiranja stavke vremena ili može da prenese brojeve prilikom unosa troška. Ako konsultant ne može da obavi ažuriranja prosleđenih stavki, administrator može direktno da ispravi stavku za projekat.
-
-Da biste dovršili procedure u ovoj temi, trebaće vam dozvole administratora.
+Povremeno, stavka vremena ili troškova može biti netačno uneta. Na primer, konsultant može da izabere pogrešan datum kada kreira stavku vremena ili može da izabere pogrešan projekat kada unese trošak. Ako konsultant ne može da ažurira prosleđene stavke, bek-end administrator može direktno da ispravi stvarne stavke za projekat.
 
 ## <a name="correct-approved-time-entries"></a>Ispravne odobrene stavke vremena     
 
@@ -46,8 +42,8 @@ Obavite sledeće korake da biste ispravili pojedinačne ili višestruke stavke z
 
 6. Izaberite **Pregled**. U dijalogu izaberite **U redu**. Na kartici **Stavke u glavnoj knjizi** možete videti listu originalnog trenutnog stanja koje je povezano sa izabranim stavkama vremena koje su opozvane i sa ispravljenim odgovarajućim stavkama koje su kreirane. Ako je potrebno da se izvrše dodatne ispravke, ponovite korake 5 i 6. 
 
-> [!NOTE]
-> Sve ispravljene stvarne vrednosti imaće iste vrednosti koje ste izabrali u odeljku **Nove vrednosti za stavke vremena**.
+    > [!NOTE]
+    > Sve ispravljene stvarne vrednosti imaće iste vrednosti koje ste izabrali u odeljku **Nove vrednosti za stavke vremena**.
 
 7. Ako se ispravke pojave kako se očekuje, izaberite **Potvrdi**. U dijalogu izaberite **U redu**.
 
@@ -55,12 +51,10 @@ Obavite sledeće korake da biste ispravili pojedinačne ili višestruke stavke z
 
 9. Na stranici **Projekti**, na kartici **Stvarne vrednosti**, pogledajte promene koje ste izvršili. 
 
-> [!NOTE]
-> Ako kartica **Aktuelno** nije vidljiva, izaberite **Povezano** > **Stvarne vrednosti**.  
+    > [!NOTE]
+    > Ako kartica **Aktuelno** nije vidljiva, izaberite **Povezano** > **Stvarne vrednosti**.  
 
 10. Na listi **Vezani prikaz stvarnih vrednosti** možete videti da su originalne stavke vremena koje su opozvane i dalje navedene, kao što su navedene i odgovarajuće ispravljene stavke vremena. 
-
-Na primer, na sledećoj slici postoje dve stavke čija je količina 8,00 a koje imaju zaduženja navedena u koloni Iznos. Uz to, postoje dve stavke čija je količina -8,00 koje prikazuju zadužene iznose u koloni Iznos. Ove ispravke svode količinu na nulu.
 
  
 ## <a name="correct-approved-expense-entries"></a>Ispravne odobrene stavke troškova
@@ -79,14 +73,30 @@ Obavite sledeće korake da biste ispravili jednu stavku troškova ili više njih
 
 6. Ako su ispravljene vrednosti prema očekivanju, izaberite **Potvrdi**. U dijalogu izaberite **U redu.** Ako se vrednosti ne prikazuju kako se očekuje, izaberite **Otkaži** da biste se vratili na listu **Odobreni troškovi**. Ponovite korake od 2 do 5. 
 
-> [!NOTE]
-> Ispravljene stvarne vrednosti imaće iste vrednosti koje ste izabrali u odeljku **Nove vrednosti za troškove**.
+7. Kada potvrdite nalog ispravki, vratite se na projekat ili projekte koje ste ažurirali da biste videli promene.
 
-7. Nakon što potvrdite dnevnik ispravki, vratite se na projekat ili projekte koje ste ažurirali da biste pogledali svoje izmene.  
-
-8. Na stranici projekta, na kartici **Aktuelno**, pregledajte **Vezani prikaz stvarnih vrednosti**. Navedene su izvorne stavke i ispravljene stavke. Sledeća slika prikazuje izvorne iznose stavke troška i odgovarajuće ispravljene iznose stavke troška. 
+8. Na stranici projekta, na kartici " **Aktuelno"** redigujte listu " **Stvarni povezani prikaz** ". Navedene su izvorne stavke i ispravljene stavke.
 
 
+## <a name="correct-approved-material-usage-logs"></a>Ispravljanje evidencija korišćenja odobrenog materijala
+
+Dovršite sledeće korake da biste ispravili jednu ili više stavki evidencije korišćenja materijala.
+
+1. U oblasti Prodaja **, u levom oknu za navigaciju, u okviru Transakcije** **izaberite stavku** Aktuelno **·**.
+
+2. U listi **Stvarne vrednosti** koristite filtere kolona da biste izabrali **klasu** transakcija materijala, tako da se prikazuju samo stvarni materijali. Koristite druge filtere kolona da biste dodatno ograničili prikazane stvarne vrednosti. Nakon što pronađete željeni skup stvarnih stavki, izaberite stvarne stavke, a zatim izaberite stavku Ispravne **stavke**. Automatski se kreira novi nalog ispravki i dodeljuje se **vrsta** korekcije materijala.
+
+3. Na stranici **"Novi** nalog", u **polje** Opis unesite opis korekcije. Zatim, na kartici **Korekcija** materijala, u odeljku **Nove vrednosti za materijale** izaberite polja podataka koja želite da ispravite za izabrane redove materijala. Na primer, možete da dodelite materijal drugom projektu ili da ispravite proizvod, datum materijala ili podizvođaj.
+
+4. Izaberite **Pregled**. Zatim u dijalogu kliknite na dugme U **redu**.
+
+5. Na kartici **Redovi naloga** proverite ispravke. Možete videti listu originalnih stvarnih stavki koje su povezane sa izabranim stavkama materijala koje su stornirane i ispravljenih odgovarajućih redova koji su kreirani.
+
+6. Ako su ispravljene vrednosti prema očekivanju, izaberite **Potvrdi**. Zatim u dijalogu kliknite na dugme U **redu**. Ako vrednosti nisu očekivane, kliknite na dugme "Otkaži **" da** biste se vratili na **listu "Stvarne** vrednosti". Zatim ponovite korake od 2 do 5.
+
+7. Kada potvrdite nalog ispravki, vratite se na projekat ili projekte koje ste ažurirali da biste videli promene.
+
+8. Na stranici projekta, na kartici " **Aktuelno"** redigujte listu " **Stvarni povezani prikaz** ". Navedene su izvorne stavke i ispravljene stavke.
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

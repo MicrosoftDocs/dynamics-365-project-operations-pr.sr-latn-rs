@@ -4,14 +4,14 @@ description: Ova tema objašnjava kako da dobijete povraćaj sredstava za prihva
 author: suvaidya
 ms.date: 10/10/2020
 ms.topic: article
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: suvaidya
-ms.openlocfilehash: 64e9f4091fdf40cc702e83a165fe0a5be5043359348210bbe4afcd8a18055133
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 7c961763d3d670117c5a576db485ebcfdcf9ec9f
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: MT
 ms.contentlocale: sr-Latn-RS
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6999378"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8581163"
 ---
 # <a name="vat-recovery-in-expense-management"></a>Povraćaj PDV u upravljanju troškovima
 
@@ -37,21 +37,21 @@ Sledeći odeljci pružaju primere koji pokazuju kako zaposleni u kompaniji Conto
 
 ## <a name="enter-tax-information-about-credit-card-transactions-to-identify-eligible-vat-refunds"></a>Unesite poreske informacije o transakcijama kreditnim karticama da biste identifikovali prihvatljiv povraćaj PDV-a
 
-Radmila, predstavnik Contoso prodaje sa sedištem u Sjedinjenim Državama, nedavno se vratila sa prodajnog putovanja u Ujedinjeno Kraljevstvo. Tokom putovanja, Radmila je napravila neke lične troškove za obroke sa kreditne kartice. Radmila sada mora da sačini izveštaj o troškovima kako bi uskladila troškove.
+Radmila, predstavnica prodaje kompanije Contoso sa sedištem u Sjedinjenim Državama, nedavno se vratila sa prodajnog putovanja u Ujedinjeno Kraljevstvo. Tokom putovanja, Radmila je napravila neke lične troškove za obroke sa kreditne kartice. Radmila sada mora da sačini izveštaj o troškovima kako bi uskladila troškove.
 
 Kada Radmila unese informacije u izveštaj o troškovima, ona bira **Ujedinjeno Kraljevstvo** u polju **Zemlja/region** na stranici **Uređivanje izveštaja o troškovima**. Lista grupa poreza na promet se zatim filtrira tako da prikazuje samo grupe koje se odnose na Ujedinjeno Kraljevstvo. Radmila bira grupu poreza na promet **Ujedinjeno Kraljevstvo 001**, a zatim bira grupu poreza na promet proizvoda **Obroci**. Zatim, Radmila dodaje novu transakciju za smeštaj. Budući da u Ujedinjenom Kraljevstvu postoji samo jedna grupa poreza na promet i jedna grupa poreza na promet proizvoda, ove informacije se automatski popunjavaju u Radmilinom izveštaju o troškovima.
 
-Prema smernicama kompanije Contoso, svi troškovi moraju imati odgovarajući račun. Stoga, kada Radmila sačuva izveštaj o troškovima, ona dobija poruku u kojoj se navodi da mora priložiti priznanicu za svaku transakciju koju je navela u svom izveštaju o troškovima. Radmila potvrđuje da je svom izveštaju o troškovima priložila digitalnu sliku svake priznanice o transakciji, a zatim svoj izveštaj podnosi na odobrenje. Zatim šalje papirne priznanice pozadinskom timu za obradu. Ovaj tim će poslati podatke o povraćaju PDV nezavisnom dobavljaču koji podnosi međunarodne prijave za povraćaj PDV za kompaniju Contoso.
+Prema smernicama kompanije Contoso, svi troškovi moraju imati odgovarajuću priznanicu. Stoga, kada Radmila sačuva izveštaj o troškovima, ona dobija poruku u kojoj se navodi da mora priložiti priznanicu za svaku transakciju koju je navela u svom izveštaju o troškovima. Radmila potvrđuje da je svom izveštaju o troškovima priložila digitalnu sliku svake priznanice o transakciji, a zatim svoj izveštaj podnosi na odobrenje. Zatim šalje papirne priznanice pozadinskom timu za obradu. Ovaj tim će poslati podatke o povraćaju PDV nezavisnom dobavljaču koji podnosi međunarodne prijave za povraćaj PDV za Contoso.
 
 ## <a name="verify-tax-information-and-post-an-expense-report"></a>Potvrđivanje poreske informacije i knjiženje izveštaja o troškovima
 
-Da bi Ana, koordinatorka za dugovanja za Contoso, mogla da objavi izveštaj o troškovima, ona mora da unese sve informacije o porezu koje joj nedostaju. Ona otvara stranicu **Detalji izveštaja o troškovima** i vidi Radmilin izveštaj o troškovima. Ana zatim otvara izveštaj o troškovima da bi videla detalje transakcija. Ona vidi da Radmila nije unela grupu poreza na promet proizvoda za jednu od transakcija. Pošto te informacije nisu navedene, Ana ne može da proknjiži izveštaj o troškovima. Stoga, ona pregleda stranicu **Konfiguracije poreza** u upravljanju troškovima i pronalazi odgovarajuću grupu poreza na promet proizvoda za zemlju/region i tip transakcije. Ana sada može da proknjiži izveštaj o troškovima u glavnu knjigu.
+Pre nego što Ana, koordinator dugovanja za Contoso, bude mogla da proknjiži izveštaj o troškovima, ona mora da unese sve poreske informacije koje joj nedostaju. Ona otvara stranicu **Detalji izveštaja o troškovima** i vidi Radmilin izveštaj o troškovima. Ana zatim otvara izveštaj o troškovima da bi videla detalje transakcija. Ona vidi da Radmila nije unela grupu poreza na promet proizvoda za jednu od transakcija. Pošto te informacije nisu navedene, Ana ne može da proknjiži izveštaj o troškovima. Stoga, ona pregleda stranicu **Konfiguracije poreza** u upravljanju troškovima i pronalazi odgovarajuću grupu poreza na promet proizvoda za zemlju/region i tip transakcije. Ana sada može da proknjiži izveštaj o troškovima u glavnu knjigu.
 
 Kada Ana objavi izveštaj o troškovima, kreira se radna stavka za povraćaj PDV. Ova radna stavka se dodeljuje članu pozadinskog tima za obradu. Ana dobija poruku koja potvrđuje da je knjiženje bilo uspešno. U ovoj poruci se navodi i broj transakcija PDV koje su identifikovane za povraćaj.
 
 ## <a name="process-expenses-that-are-eligible-for-international-vat-recovery"></a>Obrada troškova koji ispunjavaju uslove za međunarodni povraćaj PDV
 
-Arni, član Contoso tima za obradu u pozadini, odgovoran je za potvrdu da su sve potrebne informacije za povraćaj PDV uključene u izveštaje o troškovima. On otvara stranicu **Povraćaj poreza na troškove** i bira izveštaj o troškovima koji je Radmila podnela. Arni zatim proverava da li su priložene svi potrebne priznanice i da li su unete tačne šifre poreza na promet i poreza na promet proizvoda.
+Arni, član Contoso tima za pozadinsku obradu, odgovoran je za potvrdu da su sve potrebne informacije za povraćaj PDV uključene u izveštaje o troškovima. On otvara stranicu **Povraćaj poreza na troškove** i bira izveštaj o troškovima koji je Radmila podnela. Arni zatim proverava da li su priložene svi potrebne priznanice i da li su unete tačne šifre poreza na promet i poreza na promet proizvoda.
 
 Kada Arni dobije papirne priznanice od Radmile, on ih verifikuje u odnosu na digitalne priznanice, a zatim menja status izveštaja o troškovima u **Spremni za povraćaj**.
 

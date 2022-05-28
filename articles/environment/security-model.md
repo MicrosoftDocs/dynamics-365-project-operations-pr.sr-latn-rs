@@ -4,20 +4,20 @@ description: U ovoj temi date su informacije o bezbednosnom modelu u usluzi Dyna
 author: stsporen
 ms.date: 10/01/2020
 ms.topic: article
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: stsporen
-ms.openlocfilehash: 2f283771921504dc29ddcc26ca659d4e151598840339bd8c1a857e8bf5dde9ed
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
-ms.translationtype: HT
+ms.openlocfilehash: 8ba220097589655381ac1da5d4d926605c3ae672
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.translationtype: MT
 ms.contentlocale: sr-Latn-RS
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6991503"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8585763"
 ---
 # <a name="security-model"></a>Model bezbednosti
 
 _**Odnosi se na:** Project Operations za resurs/scenarije koji nisu zasnovani na zalihama, laganu primenu – od pogodbe do profakture_
 
-[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
+
 
 Microsoft Dynamics 365 Project Operations sadrži jedinstveni bezbednosni model koji omogućava model poslovne bezbednosti zasnovan na ulogama koji sarađuje sa Microsoft Office grupama. 
 
@@ -70,7 +70,7 @@ Kako se model saradnje Office grupe razvija, funkcionalnost će biti dodavana ka
 
 Za više informacija, pogledajte [Bezbednost u usluzi Common Data Service](/power-platform/admin/wp-security).
 
-## <a name="project-operations-and-microsoft-dynamics-365-finance-security"></a>Project Operations i Microsoft Dynamics 365 Finance bezbednost
+## <a name="project-operations-and-microsoft-dynamics-365-finance-security"></a>Projektne Microsoft Dynamics operacije i 365 finansijska sigurnost
 Usluga Project Operations uključuje sledeće uloge:
 
 - Menadžer projekta

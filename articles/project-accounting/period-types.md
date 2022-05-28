@@ -4,14 +4,14 @@ description: U ovoj temi se pružaju informacije o tome kako da konfigurišete t
 author: sigitac
 ms.date: 11/16/2020
 ms.topic: article
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 487e3de7895ca0752e6c9033c7bb7007ba89301c01e6205b3bc8a7d750724bc9
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 83cf88bafbc7fc97fba664e278b232c24db53391
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: MT
 ms.contentlocale: sr-Latn-RS
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6998793"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8580473"
 ---
 # <a name="period-types"></a>Tipovi perioda
 
@@ -22,7 +22,7 @@ Tip perioda definiše koliko se često procenjuje prihod od projekta. U ovoj tem
 ## <a name="create-and-work-with-period-types"></a>Kreiranje i rad sa tipovima perioda
 Da biste kreirali i radili sa tipovima perioda, izvršite sledeće korake:
 
-1. U Dynamics 365 Finance okruženju, idite na **Upravljanje projektima i računovodstvo** > **Podešavanje** > **Procene** > **Tipovi perioda**.
+1. U okruženju Dynamics 365 Finance na vrste perioda **upravljanja projektima i** > **obračunavanja** > **procena** > **podešavanja**.
 2. Da biste kreirali novi tip perioda, izaberite **Novo**. Unesite naziv i opis.
 3. U polju **Učestalost**, izaberite vrednost:
 

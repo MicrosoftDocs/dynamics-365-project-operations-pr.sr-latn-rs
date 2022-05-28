@@ -3,16 +3,15 @@ title: Pregled procesa fakturisanja
 description: Ova tema pruža pregled procesa fakturisanja u usluzi Project Operations za scenarije zasnovane na resursima/bez zaliha.
 author: sigitac
 ms.date: 01/29/2021
-ms.topic: article
-ms.reviewer: kfend
+ms.topic: overview
+ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.custom: intro-internal
-ms.openlocfilehash: 804d42f7e8bfd103b9143dc0f5c7ddecdee9e66e6072c3e7bf76b2a8c549cf55
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
-ms.translationtype: HT
+ms.openlocfilehash: 0328d5321909bcc17754da4e19d7652b77a665d5
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.translationtype: MT
 ms.contentlocale: sr-Latn-RS
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7003788"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8582727"
 ---
 # <a name="invoicing-process-overview"></a>Pregled procesa fakturisanja
 
@@ -22,7 +21,7 @@ Project Operations za scenarije zasnovane na resursima/bez zaliha nudi sveobuhva
 
 ![Dijagram toka fakturisanja.](./media/invoicing-flow.png)
 
-Predmet ugovora za projekat definiše način naplate za povezane projektne transakcije. Kada menadžer projekta odobri transakcije vremena i troškova, sistem evidentira transakcije u entitetu **Stvarne vrednosti projekta** i šalje informacije u modul **Upravljanje projektima i računovodstvo** u usluzi Dynamics 365 Finance. Računovođa projekta zatim pregledava i objavljuje evidenciju pomoću [Project Operations dnevnika integracije](../project-accounting/project-operations-integration-journal.md). Ovaj dnevnik sadrži važne računovodstvene detalje za stvarne podatke o projektu, kao što su naplata, grupa za porez na promet, grupa za porez na promet stavki na računu i finansijski aspekti.
+Predmet ugovora za projekat definiše način naplate za povezane projektne transakcije. Kada menadžer projekta odobri transakcije vremena i troškova, sistem zapisuje **transakcije u entitetu "Stvarne** vrednosti projekta" i šalje informacije **modulu za upravljanje** projektima i računovodstvo u Dynamics 365 Finance. Računovođa projekta zatim pregledava i objavljuje evidenciju pomoću [Project Operations dnevnika integracije](../project-accounting/project-operations-integration-journal.md). Ovaj dnevnik sadrži važne računovodstvene detalje za stvarne podatke o projektu, kao što su naplata, grupa za porez na promet, grupa za porez na promet stavki na računu i finansijski aspekti.
 
 Menadžer projekta može pregledati nenaplaćene prodajne transakcije koristeći način naplate vremena i materijala u delu [Preostala naplata vremena i materijala](../proforma-invoicing/manage-billing-backlog.md#time-and-material-billing-backlog) i način naplate sa fiksnom cenom u delu [Kontrolne tačke sa fiksnom cenom](../proforma-invoicing/manage-billing-backlog.md#fixed-price-milestones). Ovi prikazi vam omogućavaju da filtrirate i odaberete transakcije koje treba da budu uključene u sledeći ciklus naplate, a zatim ih označite kao **Spremno za fakturisanje**.
 

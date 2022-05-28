@@ -5,14 +5,14 @@ author: sigitac
 ms.date: 09/12/2021
 ms.topic: article
 ms.prod: ''
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 842ea95892fa4f7a29a778cfd2c33a66e84f676c
-ms.sourcegitcommit: 74a7e1c9c338fb8a4b0ad57c5560a88b6e02d0b2
+ms.openlocfilehash: 06f23630ef0205394f376e5bb93a29ae8a9eab15
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: MT
 ms.contentlocale: sr-Latn-RS
-ms.lasthandoff: 09/23/2021
-ms.locfileid: "7547171"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8582911"
 ---
 # <a name="whats-new-september-2021---project-operations-for-resourcenon-stocked-based-scenarios"></a>Šta je novo u septembru 2021. – Project Operations za resurs/scenarije koji nisu zasnovani na zalihama
 
@@ -21,7 +21,7 @@ ms.locfileid: "7547171"
 Ova tema se odnosi na sledeće komponente i verzije usluge Dynamics 365 Project Operations:
 
    - Project Operations u Microsoft Dataverse okruženju verzije 4.14.0.99.
-   - Upravljanje projektima i računovodstvo u Dynamics 365 Finance okruženju verzije 10.0.20.
+   - Upravljanje projektima i računovodstvo u Dynamics 365 Finance okruženju verzija 10.0.20.
 
 ## <a name="project-operations-dual-write-maps-updates"></a>Ažuriranja mapa dvostrukog upisivanja za Project Operations
 
@@ -45,7 +45,7 @@ Ako naiđete na problem pri pokretanju mape, sledite uputstva u odeljku [Problem
 | Naplata i određivanje cena | 2385802 | Otklonjena je greška koja se javlja sa negativnim stvarnim satima kada se ukupni iznosi projekta osveže. |
 | Naplata i određivanje cena | 2389675 | Poboljšano ponašanje potvrde predračuna. Entitet sa dugotrajnim poslovima mora uzeti u obzir aktivnosti potrebne za upisivanje rezultata potvrde za računovodstvo. |
 
-### <a name="project-management-and-accounting-in-dynamics-365-finance"></a>Upravljanje projektima i računovodstva u usluzi Dynamics 365 Finance
+### <a name="project-management-and-accounting-in-dynamics-365-finance"></a>Upravljanje projektima i računovodstvo u Dynamics 365 Finance
 
 | Oblast funkcija | Referentni broj | Ispravka kvaliteta |
 | --- | --- | --- |

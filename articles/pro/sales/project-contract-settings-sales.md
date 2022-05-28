@@ -2,16 +2,16 @@
 title: Podešavanja ugovora za projekat – jednostavno
 description: Ova tema pruža informacije o poljima koja utiču na predmet ugovora i informacije o ugovoru koje su sažete u svim stavkama.
 author: rumant
-ms.date: 10/20/2020
+ms.date: 03/08/2022
 ms.topic: article
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: 7ade6c122827274f926803140f5db32442114c7aefd18d410da65270f345fde4
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
-ms.translationtype: HT
+ms.openlocfilehash: 638bd11926c2b470c0da92d67350e8da56cb1997
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.translationtype: MT
 ms.contentlocale: sr-Latn-RS
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6995958"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8586407"
 ---
 # <a name="header-details-for-project-contracts"></a>Detalji zaglavlja za ugovore za projekat
 
@@ -32,12 +32,15 @@ Sledeća tabela navodi polja na ugovoru o projektu koja su jedinstvena za Dynami
 | Ograničenje koje ne sme da se prekorači | Kartica **Rezime** | Ovo polje ukazuje na dogovoreno gornje ograničenje konačne vrednosti sa kojim se klijent slaže za ovaj posao. | Gornje ograničenje se procenjuje tokom izvršenja i primenljivo je na sve stavke i projekte povezane sa ovom pogodbom. |
 | Zahtevani datum isporuke | Kartica **Rezime** | Kada se kreira ugovor iz ponude projekta, ovo polje se kopira iz odgovarajućeg polja u ponudi projekta. | Ovaj datum se koristi kao datum završetka za generisanje rasporeda za fakturisanje. |
 
-Sledeći KPI-jevi su dostupni na kartici **Izvršenje ugovora** projektnog ugovora.
+Sledeći KPI-jevi su dostupni na kartici **Izvršenje ugovora** projektnog ugovora. 
+
+>[!NOTE]
+>Svi iznosi na kartici " **Performanse** ugovora" su izraženi u podrazumevanoj valuti okruženja.
 
 | Polje | Lokacija | Opis |
 | --- | --- | --- |
-| Vrednost ugovora | Ukupan ugovor | Ukupna vrednost projektnog ugovora. |
-| Naplaćeni iznos | Ukupan ugovor | Zbir iznosa na svim fakturama po ovom ugovoru. |
+| Vrednost ugovora | Ukupan ugovor | Ukupna vrednost ugovora o projektu.|
+| Naplaćeni iznos | Ukupan ugovor | Zbir iznosa na svim fakturama po ovom ugovoru.|
 | Nastali troškovi | Ukupan ugovor | Zbir svih stvarnih troškova evidentiranih na svim projektima koji su mapirani sa ugovorom. |
 | Bruto marža | Ukupan ugovor | Naplaćeni iznos – Troškovi nastali do datuma/Naplaćeni iznos |
 | Očekivana marža | Ukupan ugovor | (Vrednost ugovora – Procenjeni troškovi) / Vrednost ugovora Procenjeni troškovi = Zbir svih procenjenih troškova na svim projektima mapiranim sa ugovorom.|
