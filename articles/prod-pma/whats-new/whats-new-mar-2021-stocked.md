@@ -5,14 +5,14 @@ author: andchoi
 ms.date: 03/22/2021
 ms.topic: article
 ms.prod: ''
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: andchoi
-ms.openlocfilehash: 2569133200b531197a46da095547fcc3f444cc98bfcc139b77a7db58e1439ca9
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 0f8d57db75f426d87bcdcdde8fb9dfbe1ccc479f
+ms.sourcegitcommit: 577fa51e0892625f98f17ff39874ed1a09444421
 ms.translationtype: MT
 ms.contentlocale: sr-Latn-RS
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6991188"
+ms.lasthandoff: 05/06/2022
+ms.locfileid: "8723739"
 ---
 # <a name="whats-new-or-changed-in-project-operations-march-2021-for-stockedproduction-based-scenarios"></a>Šta je novo ili promenjeno u usluzi Project Operations u martu 2021. za scenarije zasnovane na zalihama/proizvodnji
 
@@ -20,7 +20,7 @@ _**Odnosi se na:** Project Operations za scenarije zasnovane na zalihama/proizvo
 
 Ova tema se odnosi na sledeće komponente i verzije usluge Dynamics 365 Project Operations:
 
-- Upravljanje projektima i računovodstvo u Dynamics 365 Finance okruženju verzije 10.0.17
+- Upravljanje projektima i računovodstvo u Dynamics 365 Finance okruženju verzija 10.0.17
 
 ## <a name="features-included-in-this-release"></a>Funkcije uključene u ovom izdanju
 Sledeće funkcije su uključene u ovom izdanju:
@@ -121,7 +121,7 @@ Sledeće funkcije su uključene u ovom izdanju:
 | Upravljanje projektima i računovodstvo | [533530](https://fix.lcs.dynamics.com/Issue/Details/?bugId=533530) | Metoda klase nasleđene strukturne analize posla (SAP), **ProjWBSUpdateController::updateOutlineNumbersAndPublishInPreOrder** je zastarela.                                                                                                   |
 
 ### <a name="regulatory-updates"></a>Regulatorne ispravke
-Za informacije o regulatornim ispravkama za Finance and Operations aplikacije, pogledajte članak [Regulatorne ispravke](/dynamics365/finance/localizations/regulatory-updates.md). Takođe se možete prijaviti na LCS i pregledati planirane regulatorne ispravke pomoću alatke za pretragu problema. Pretraga problema vam omogućava pretragu po zemlji, tipu funkcije i izdanju.
+Više informacija o regulatornim ispravkama za aplikacije za finansije i operacije potražite u članku [Regulatorne ispravke](/dynamics365/finance/localizations/regulatory-updates). Takođe se možete prijaviti na LCS i pregledati planirane regulatorne ispravke pomoću alatke za pretragu problema. Pretraga problema vam omogućava pretragu po zemlji, tipu funkcije i izdanju.
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

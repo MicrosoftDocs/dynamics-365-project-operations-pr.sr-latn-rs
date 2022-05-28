@@ -1,33 +1,31 @@
 ---
 title: Pregled usluge Project Service Automation
-description: Ova tema pruža informacije o rešenju za integraciju usluge Dynamics 365 Project Service Automation sa uslugom Dynamics 365 Finance.
+description: Ovaj tema pruža informacije o rešenju Dynamics 365 Project Service Automation za Dynamics 365 Finance integracije.
 author: ruhercul
 ms.date: 07/25/2019
-ms.topic: article
+ms.topic: overview
 ms.prod: ''
 ms.technology: ''
 audience: Application User
-ms.reviewer: ruhercul
-ms.search.scope: Core, Operations
-ms.custom: intro-internal
+ms.reviewer: johnmichalak
 ms.assetid: b454ad57-2fd6-46c9-a77e-646de4153067
 ms.search.region: Global
 ms.author: ruhercul
 ms.search.validFrom: 2016-11-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 551d511fda83857459a0488cfb48a9c7829171d2e4bd526ab27b4ee74b21910d
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
-ms.translationtype: HT
+ms.openlocfilehash: 1b8588e664f140ca1b0dd740d27fe6a5137da595
+ms.sourcegitcommit: 2c2a5a11d446adec2f21030ab77a053d7e2da28e
+ms.translationtype: MT
 ms.contentlocale: sr-Latn-RS
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7005903"
+ms.lasthandoff: 05/04/2022
+ms.locfileid: "8685579"
 ---
 # <a name="project-service-automation-overview"></a>Pregled usluge Project Service Automation
 
 [!include[banner](../includes/banner.md)]
-[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
 
-Rešenje za integraciju iz Project Service Automation u Finance koristi funkciju integracije podataka za sinhronizaciju podataka u svim instancama usluga Dynamics 365 Finance i Dynamics 365 Project Service Automation preko usluge Common Data Service. Predlošci integracije koji su dostupni sa funkcijom Integracija podataka omogućavaju tok projekata, ugovore o projektu, predmete ugovora o projektu, kontrolne tačke predmeta ugovora o projektu, projektne zadatke, kategorije transakcija troškova, procene sati i procene troškova iz usluge Project Service Automation u Finance.
+
+Rešenje za automatizaciju usluge projekta za finansiranje integracije koristi funkciju integracije podataka za sinhronizaciju podataka u Dynamics 365 Finance i putem Dynamics 365 Project Service Automation Common Data Service. Predlošci integracije koji su dostupni sa funkcijom Integracija podataka omogućavaju tok projekata, ugovore o projektu, predmete ugovora o projektu, kontrolne tačke predmeta ugovora o projektu, projektne zadatke, kategorije transakcija troškova, procene sati i procene troškova iz usluge Project Service Automation u Finance.
 
 > [!NOTE]
 > - Ako koristite verziju 7.3.0, morate instalirati KB 4074835. Tada ćete moći da integrišete projekte sa fiksnom cenom.

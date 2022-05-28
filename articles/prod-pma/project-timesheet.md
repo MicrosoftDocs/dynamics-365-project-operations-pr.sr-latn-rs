@@ -7,8 +7,7 @@ ms.topic: article
 ms.prod: ''
 ms.technology: ''
 audience: Application User
-ms.reviewer: josaw
-ms.search.scope: Core, Operations
+ms.reviewer: johnmichalak
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
@@ -16,12 +15,12 @@ ms.search.industry: Service industries
 ms.author: andchoi
 ms.dyn365.ops.version: 10
 ms.search.validFrom: 2019-01-15
-ms.openlocfilehash: df6d286b6d5716fb0ea908ed71c2257b4db21ecfd35148fea65dfd96e058ac9a
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: cd5ea257472ef8dfa0d7181223a518c677c6d77b
+ms.sourcegitcommit: 2c2a5a11d446adec2f21030ab77a053d7e2da28e
 ms.translationtype: MT
 ms.contentlocale: sr-Latn-RS
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6997218"
+ms.lasthandoff: 05/04/2022
+ms.locfileid: "8683233"
 ---
 # <a name="project-timesheet-mobile-application"></a>Aplikacija za mobilne uređaje Project Timesheet
 
@@ -29,7 +28,7 @@ ms.locfileid: "6997218"
 
 ## <a name="overview"></a>Pregled
 
-Aplikacija za mobilne uređaje Microsoft Dynamics 365 Project Timesheet omogućava korisnicima da predaju i odobre radne listove za projekte na svom mobilnom uređaju (iPhone ili Android). Ova aplikacija za mobilne uređaje prikazuje funkcionalnost vremenskog rasporeda koja se nalazi u području upravljanja projektima i računovodstva usluge Dynamics 365 Finance, poboljšavajući produktivnost i efikasnost korisnika, kao i omogućavanje pravovremenog unosa i odobravanja vremenskih rasporeda projekata.
+Aplikacija za mobilne uređaje Microsoft Dynamics 365 Project Timesheet omogućava korisnicima da predaju i odobre radne listove za projekte na svom mobilnom uređaju (iPhone ili Android). Ova mobilna aplikacija isplivava na površinu funkcionalnosti lista sa vremenskim listom koja se nalazi u oblasti upravljanja projektima i računovodstva Dynamics 365 Finance, poboljšanja produktivnosti i efikasnosti korisnika, kao i omogućavanja pravovremenog ulaska i odobravanja vremenskih listova projekta.
 
 ## <a name="download-and-install-the-mobile-app"></a>Preuzmite i instalirajte aplikaciju za mobilne uređaje
 

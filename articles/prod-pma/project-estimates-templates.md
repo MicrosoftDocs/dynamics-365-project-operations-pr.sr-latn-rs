@@ -1,32 +1,31 @@
 ---
-title: Sinhronizovanje procena projekta direktno iz usluge Project Service Automation sa uslugom Finance and Operations
-description: Ova tema opisuje predloške i osnovne zadatke koji se koriste za sinhronizaciju procene radnih sati i procene troškova projekta direktno iz usluge Microsoft Dynamics 365 Project Service Automation u Dynamics 365 Finance.
+title: Sinhronizuj procene projekta direktno iz automatizacije projektnih usluga u finansije i operacije
+description: Ovaj tema opisuje predloške i osnovne zadatke koji se koriste za sinhronizaciju procena časova projekta i procene troškova Microsoft Dynamics 365 Project Service Automation projekta direktno iz Dynamics 365 Finance.
 author: Yowelle
 ms.date: 07/20/2018
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
 audience: Application User
-ms.reviewer: josaw
-ms.search.scope: Core, Operations
+ms.reviewer: johnmichalak
 ms.custom: 87983
 ms.assetid: b454ad57-2fd6-46c9-a77e-646de4153067
 ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2016-11-28
 ms.dyn365.ops.version: AX 7.3.0
-ms.openlocfilehash: 6696449d80e0915a0c878dbe75cfdf6e268b98ad9f6453bcfc4b424db68021e4
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 47de3556034227e072d14dc93908edec42cec93c
+ms.sourcegitcommit: 2c2a5a11d446adec2f21030ab77a053d7e2da28e
 ms.translationtype: MT
 ms.contentlocale: sr-Latn-RS
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6988218"
+ms.lasthandoff: 05/04/2022
+ms.locfileid: "8684613"
 ---
-# <a name="synchronize-project-estimates-directly-from-project-service-automation-to-finance-and-operations"></a>Sinhronizovanje procena projekta direktno iz usluge Project Service Automation sa uslugom Finance and Operations
+# <a name="synchronize-project-estimates-directly-from-project-service-automation-to-finance-and-operations"></a>Sinhronizuj procene projekta direktno iz automatizacije projektnih usluga u finansije i operacije
 
 [!include[banner](../includes/banner.md)]
 
-Ova tema opisuje predloške i osnovne zadatke koji se koriste za sinhronizaciju procene radnih sati i procene troškova projekta direktno iz usluge Dynamics 365 Project Service Automation u Dynamics 365 Finance.
+Ovaj tema opisuje predloške i osnovne zadatke koji se koriste za sinhronizaciju procena časova projekta i procene troškova Dynamics 365 Project Service Automation projekta direktno iz Dynamics 365 Finance.
 
 > [!NOTE]
 > - Integracija projektnih zadataka, kategorije transakcija troškova, procene radnih sati, procene troškova i zaključavanje funkcionalnosti dostupni su u verziji 8.0.
@@ -70,7 +69,7 @@ Da bi mogla da se izvrši sinhronizacija procena radnih sati projekta, morate si
 
 ### <a name="power-query"></a>Power Query
 
-U predlošku za procenu radnog vremena projekta morate da koristite Microsoft Power Query za Excel da biste izvršili ove zadatke:
+U predlošku za procenu sata projekta morate da koristite Microsoft za Power Query Excel da biste dovršili ove zadatke:
 
 - Postavite ID podrazumevanog modela predviđanja koji će se koristiti kada integracija kreira nova predviđanja sati.
 - U zadatku filtrirajte sve zapise specifične za resurse koji neće uspeti u integraciji predviđanja radnih sati.
@@ -81,7 +80,7 @@ U predlošku za procenu radnog vremena projekta morate da koristite Microsoft Po
 Da biste ažurirali podrazumevani ID modela predviđanja u predlošku, kliknite na strelicu **Mapa** za otvaranje mapiranja. Zatim izaberite vezu **Napredni upit i filtriranje**.
 
 - Ako koristite podrazumevani predložak procene radnih sati projekta (iz PSA u Fin and Ops), izaberite **Uslov umetanja** u list **Primenjeni koraci**. U stavci **Funkcija**, zamenite **O\_forecast** nazivom ID-a modela predviđanja koji treba koristiti uz integraciju. Podrazumevani predložak sadrži ID modela predviđanja iz demo podataka.
-- Ako kreirate novi obrazac, morate dodati ovu kolonu. U usluzi Power Query izaberite **Dodaj uslovnu kolonu** i unesite naziv za novu kolonu, kao što je **ModelID**. Unesite uslov za kolonu, gde, ako Project zadatak nije bez vrednosti, onda \<enter the forecast model ID\>; u suprotnom je bez vrednosti.
+- Ako kreirate novi obrazac, morate dodati ovu kolonu. U Power Query izaberite opciju **Dodaj uslovnu kolonu** i unesite ime nove kolone, kao što je **ID modela**. Unesite uslov za kolonu, gde, ako Project zadatak nije bez vrednosti, onda \<enter the forecast model ID\>; u suprotnom je bez vrednosti.
 
 #### <a name="filter-out-resource-specific-records"></a>Filtriranje zapisa specifičnih za resurse
 
@@ -126,7 +125,7 @@ Da bi mogla da se izvrši sinhronizacija procena troškova projekta, morate sinh
 
 ### <a name="power-query"></a>Power Query
 
-U predlošku za procenu troškova projekta morate da koristite Power Query da biste izvršili sledeće zadatke:
+U predlošku za procenu troškova projekta morate koristiti za Power Query dovršavanje sledećih zadataka:
 
 - Filtrirajte da biste uključili samo zapise linija procene troškova.
 - Postavite ID podrazumevanog modela predviđanja koji će se koristiti kada integracija kreira nova predviđanja sati.
@@ -141,8 +140,8 @@ Predložak za procenu troškova projekta (iz PSA u Fin and Ops) ima podrazumevan
 
 Da biste ažurirali podrazumevani ID modela predviđanja u predlošku, izaberite zadatak **Procene troškova**, a zatim kliknite na strelicu **Mapiraj** da biste otvorili mapiranje. Izaberite vezu **Napredni upit i filtriranje**.
 
-- Ako koristite podrazumevani predložak procene troškova projekta (iz PSA u Fin and Ops), u usluzi Power Query izaberite **Uslov umetanja** u odeljku **Primenjeni koraci**. U stavci **Funkcija**, zamenite **O\_forecast** nazivom ID-a modela predviđanja koji treba koristiti uz integraciju. Podrazumevani predložak sadrži ID modela predviđanja iz demo podataka.
-- Ako kreirate novi obrazac, morate dodati ovu kolonu. U usluzi Power Query izaberite **Dodaj uslovnu kolonu** i unesite naziv za novu kolonu, kao što je **ModelID**. Unesite uslov za kolonu, gde, ako ID linije procene nije bez vrednosti, onda \<enter the forecast model ID\>; u suprotnom je bez vrednosti.
+- Ako koristite podrazumevani predložak troškova projekta (PSA to Fin and Ops), u Power Query odeljku Primenjeni **koraci** izaberite **prvi umetnuti** uslov. U stavci **Funkcija**, zamenite **O\_forecast** nazivom ID-a modela predviđanja koji treba koristiti uz integraciju. Podrazumevani predložak sadrži ID modela predviđanja iz demo podataka.
+- Ako kreirate novi obrazac, morate dodati ovu kolonu. U Power Query izaberite opciju **Dodaj uslovnu kolonu** i unesite ime nove kolone, kao što je **ID modela**. Unesite uslov za kolonu, gde, ako ID linije procene nije bez vrednosti, onda \<enter the forecast model ID\>; u suprotnom je bez vrednosti.
 
 #### <a name="transform-the-billing-types"></a>Transformisanje vrsta naplate
 

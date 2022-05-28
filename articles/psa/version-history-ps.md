@@ -2,8 +2,8 @@
 title: Plan izdanja ispravke za Project Service 3.x
 description: U ovoj temi se pružaju informacije o dostupnim i predstojećim izdanjima usluge Dynamics 365 Project Service Automation.
 ms.custom: dyn365-projectservice
-ms.date: 10/04/2021
-ms.reviewer: kfend
+ms.date: 03/28/2022
+ms.reviewer: johnmichalak
 ms.prod: ''
 ms.suite: ''
 ms.tgt_pltfrm: ''
@@ -22,12 +22,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: a82622a30804c0c4228ebd37b89c94580cfc89e9
-ms.sourcegitcommit: 1186e9822e06a13fde89b67ea89427eddfe23cee
+ms.openlocfilehash: 5be7327999b4f29801a8ba3826524c66b04be8fa
+ms.sourcegitcommit: f366fe0ba062e4e500921854563d57ee3bfd1ce5
 ms.translationtype: HT
 ms.contentlocale: sr-Latn-RS
-ms.lasthandoff: 12/20/2021
-ms.locfileid: "7940951"
+ms.lasthandoff: 05/09/2022
+ms.locfileid: "8732903"
 ---
 # <a name="update-release-schedule-for-project-service-3x"></a>Plan izdanja ispravke za Project Service 3.x
 
@@ -37,7 +37,7 @@ ms.locfileid: "7940951"
 
 | Rešenje  | Najnovija verzija |
 |-------|----|
-| Project Service Automation    | 3.10.59.117 |
+| Project Service Automation    | 3.10.74.200 |
 | Programski dodatak za Project Service Automation za stone računare                | 3.60          |
 
 Za informacije o drugim ispravkama usluge Project Service, pogledajte članak [Dynamics 365 planovi izdanja](/dynamics365/release-plans/). 
@@ -45,28 +45,31 @@ Za informacije o drugim ispravkama usluge Project Service, pogledajte članak [D
 | Stanica  | Region | Trenutna verzija | Sledeća verzija |  Planirani datum
 | :---   | :---   | :---   | :---   |:---   |         
 |<strong>Stanica 1</strong> | |  |  | |
-| | <i>Prvo izdanje</i> | [3.10.59.117](whats-new-ur-38.md) | TBD | 14. januar 2022.
+| | <i>Prvo izdanje</i> | [3.10.74.200](whats-new-ur43.md) | TBD | 27. maj 2022.
 |<strong>Stanica 2</strong> | |  |  | |
-| | <i>Južna Amerika</i> | [3.10.59.117](whats-new-ur-38.md) | TBD | 21. januar 2022.
-| | <i>Kanada</i> | [3.10.59.117](whats-new-ur-38.md) | TBD | 21. januar 2022.
-| | <i>Indija</i> | [3.10.59.117](whats-new-ur-38.md) | TBD | 21. januar 2022.
-| | <i>Francuska</i> | [3.10.59.117](whats-new-ur-38.md) | TBD | 21. januar 2022.
-| | <i>Južnoafrčka Republika</i> | [3.10.59.117](whats-new-ur-38.md) | TBD | 21. januar 2022.
-| | <i>Nemačka</i> | [3.10.59.117](whats-new-ur-38.md) | TBD | 21. januar 2022.
-| | <i>Švajcarska</i> | [3.10.59.117](whats-new-ur-38.md) | TBD | 21. januar 2022.
+| | <i>Južna Amerika</i> | [3.10.74.200](whats-new-ur43.md) | TBD | 03. jun 2022.
+| | <i>Kanada</i> | [3.10.74.200](whats-new-ur43.md) | TBD | 03. jun 2022.
+| | <i>Indija</i> | [3.10.74.200](whats-new-ur43.md) | TBD | 03. jun 2022.
+| | <i>Francuska</i> | [3.10.74.200](whats-new-ur43.md) | TBD | 03. jun 2022.
+| | <i>Južnoafrčka Republika</i> | [3.10.74.200](whats-new-ur43.md) | TBD | 03. jun 2022.
+| | <i>Nemačka</i> | [3.10.74.200](whats-new-ur43.md) | TBD | 03. jun 2022.
+| | <i>Švajcarska</i> | [3.10.74.200](whats-new-ur43.md) | TBD | 03. jun 2022.
+| | <i>Južna Koreja</i> | [3.10.74.200](whats-new-ur43.md) | TBD | 03. jun 2022.
+| | <i>Norveška</i> | [3.10.74.200](whats-new-ur43.md) | TBD | 03. jun 2022.
 |<strong>Stanica 3</strong> | |  |  | |
-| | <i>Japan</i> | [3.10.59.117](whats-new-ur-38.md) | TBD | 28. januar 2022.
-| | <i>Pacifička Azija</i> | [3.10.59.117](whats-new-ur-38.md) | TBD | 28. januar 2022.
-| | <i>Velika Britanija</i> | [3.10.59.117](whats-new-ur-38.md) | TBD | 28. januar 2022.
-| | <i>Okeanija</i> | [3.10.59.117](whats-new-ur-38.md) | TBD | 28. januar 2022.
-| | <i>Ujedinjeni Arapski Emirati</i> | [3.10.59.117](whats-new-ur-38.md) | TBD | 28. januar 2022.
+| | <i>Japan</i> | [3.10.73.61](whats-new-ur-42.md) | [3.10.74.200](whats-new-ur43.md) | 13. maj 2022.
+| | <i>Pacifička Azija</i> | [3.10.73.61](whats-new-ur-42.md) | [3.10.74.200](whats-new-ur43.md) | 13. maj 2022.
+| | <i>Velika Britanija</i> | [3.10.73.61](whats-new-ur-42.md) | [3.10.74.200](whats-new-ur43.md) | 13. maj 2022.
+| | <i>Okeanija</i> | [3.10.73.61](whats-new-ur-42.md) | [3.10.74.200](whats-new-ur43.md) | 13. maj 2022.
+| | <i>Ujedinjeni Arapski Emirati</i> | [3.10.73.61](whats-new-ur-42.md) | [3.10.74.200](whats-new-ur43.md) | 13. maj 2022.
 |<strong>Stanica 4</strong> | |  |  | |
-| | <i>Evropa</i> | [3.10.58.130](whats-new-ur-37-5.md) | [3.10.59.117](whats-new-ur-38.md) | 07. januar 2022.
+| | <i>Evropa</i> | [3.10.73.61](whats-new-ur-42.md) | [3.10.74.200](whats-new-ur43.md) | 20. maj 2022.
 |<strong>Stanica 5</strong> | |  |  | |
-| | <i>Severna Amerika</i> | [3.10.58.130](whats-new-ur-37-5.md) | [3.10.59.117](whats-new-ur-38.md) | 14. januar 2022.
+| | <i>Severna Amerika</i> | [3.10.73.61](whats-new-ur-42.md) | [3.10.74.200](whats-new-ur43.md) | 29. maj 2022.
 |<strong>Stanica 6</strong> | |  |  | |
-| | <i>Government Community Cloud</i> | [3.10.58.130](whats-new-ur-37-5.md) | [3.10.59.117](whats-new-ur-38.md) | 14. januar 2022.
-| | <i>Grupe namenskih skala</i> | [3.10.58.130](whats-new-ur-37-5.md) | [3.10.59.117](whats-new-ur-38.md) | 21. januar 2022.
+| | <i>Government Community Cloud</i> | [3.10.73.61](whats-new-ur-42.md) | [3.10.74.200](whats-new-ur43.md) | 29. maj 2022.
+| | <i>Grupe namenskih skala</i> | [3.10.73.61](whats-new-ur-42.md) | [3.10.74.200](whats-new-ur43.md) | 03. jun 2022.
+
 
 
 

@@ -1,32 +1,31 @@
 ---
-title: Sinhronizujte kategorije troškova projekta između usluga Finance and Operations i Project Service Automation
-description: Ova tema opisuje predloške i osnovne zadatke koji se koriste za sinhronizaciju kategorija zadataka projekta između usluga Microsoft Dynamics 365 Finance i Dynamics 365 Project Service Automation.
+title: Sinhronizuj kategorije troškova projekta između finansija i operacija i automatizacije projektnih usluga
+description: Ovaj tema opisuje predloške i osnovne zadatke koji se koriste za sinhronizaciju kategorija troškova projekta između Microsoft Dynamics 365 Finansije i Dynamics 365 Project Service Automation.
 author: Yowelle
 ms.date: 07/20/2018
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
 audience: Application User
-ms.reviewer: josaw
-ms.search.scope: Core, Operations
+ms.reviewer: johnmichalak
 ms.custom: 87983
 ms.assetid: b454ad57-2fd6-46c9-a77e-646de4153067
 ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2016-11-28
 ms.dyn365.ops.version: AX 8.0.0
-ms.openlocfilehash: 52c79f8b641d4b2df3b30964331633f2487402f8f8d229b540f9544c0f848557
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: c5513285c8beb96e2aa8b9c67ebde38b3c938edd
+ms.sourcegitcommit: 2c2a5a11d446adec2f21030ab77a053d7e2da28e
 ms.translationtype: MT
 ms.contentlocale: sr-Latn-RS
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7001133"
+ms.lasthandoff: 05/04/2022
+ms.locfileid: "8685487"
 ---
-# <a name="synchronize-project-expense-categories-between-finance-and-operations-and-project-service-automation"></a>Sinhronizujte kategorije troškova projekta između usluga Finance and Operations i Project Service Automation
+# <a name="synchronize-project-expense-categories-between-finance-and-operations-and-project-service-automation"></a>Sinhronizuj kategorije troškova projekta između finansija i operacija i automatizacije projektnih usluga
 
 [!include[banner](../includes/banner.md)]
 
-Ova tema opisuje predloške i osnovne zadatke koji se koriste za sinhronizaciju kategorija zadataka projekta između usluga Dynamics 365 Finance i Dynamics 365 Project Service Automation.
+Ovaj tema opisuje predloške i osnovne zadatke koji se koriste za sinhronizaciju kategorija troškova projekta između Dynamics 365 Finance i Dynamics 365 Project Service Automation.
 
 > [!NOTE]
 > - Integracija projektnih zadataka, kategorije transakcija troškova, procene sati, procene troškova i zaključavanje funkcionalnosti dostupni su u verziji 8.0.
@@ -81,10 +80,10 @@ Kategorijama projektnih zadataka se upravlja u usluzi Finance i oni se sinhroniz
 
 ### <a name="power-query"></a>Power Query
 
-Kada se sinhronizujete sa uslugom Project Service Automation, morate da koristite Microsoft Power Query za Excel da biste postavili vrstu naplate za kategoriju transakcija. Predložak kategorija transakcija troškova projekta (iz Fin and Ops u PSA) pružaju podrazumevanu kolonu i mapiranje. Ako kreirate sopstveni predložak, morate dodati uslovnu kolonu u Power Query. Pratite ove korake.
+Kada sinhronizujete sa automatizacijom projektne usluge, morate da koristite Microsoft Power Query za Excel da biste podesili tip naplate u kategoriji transakcije. Predložak kategorija transakcija troškova projekta (iz Fin and Ops u PSA) pružaju podrazumevanu kolonu i mapiranje. Ako kreirate sopstveni predložak, morate da dodate uslovnu kolonu u programu Power Query. Pratite ove korake.
 
 1. Kliknite na strelicu da biste otvorili mapiranje zadatka kategorija projektnih troškova u predlošku kategorija transakcija troškova projekta (iz Fin and Ops u PSA).
-2. Kliknite na vezu **Napredni upit i filtriranje** da biste otvorili Power Query.
+2. Kliknite na vezu **Upit za napredovanje i filtriranje** da biste otvorili Power Query.
 2. Izaberite **Dodaj uslovnu kolonu**.
 3. Unesite ime za novu kolonu, kao što je **BillingType**.
 4. Unesite sledeći uslov: **if CATEGORYID not equal to null then 19235001, Otherwise null**.

@@ -3,25 +3,23 @@ title: Pregled upravljanja projektima i računovodstvom
 description: Funkcionalnost upravljanja projektima i računovodstvom može se koristiti u više delatnosti za pružanje usluge, proizvodnju proizvoda ili postizanje rezultata.
 author: Yowelle
 ms.date: 07/25/2019
-ms.topic: article
+ms.topic: overview
 ms.prod: ''
 ms.technology: ''
 ms.search.form: ProjTable; ProjProjectManagementWorkspace
 audience: Application User
-ms.reviewer: kfend
-ms.search.scope: Core, Operations
-ms.custom: intro-internal
+ms.reviewer: johnmichalak
 ms.assetid: b454ad57-2fd6-46c9-a77e-646de4153067
 ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 1465e68fb119927f474bf4d5b26cb0cd1d60824340a7d46e59d23036d99503f3
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
-ms.translationtype: HT
+ms.openlocfilehash: be384b19781e605255a24506e94e0852076b9ca9
+ms.sourcegitcommit: 2c2a5a11d446adec2f21030ab77a053d7e2da28e
+ms.translationtype: MT
 ms.contentlocale: sr-Latn-RS
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7007523"
+ms.lasthandoff: 05/04/2022
+ms.locfileid: "8683601"
 ---
 # <a name="project-management-and-accounting-overview"></a>Pregled upravljanja projektima i računovodstvom
 
@@ -248,7 +246,7 @@ Sledeća tabela opisuje metode za izračunavanje troškova za završetak projekt
 <tbody>
 <tr class="odd">
 <td>Ukupna cena – stvarne vrednosti</td>
-<td>Procenjeni troškovi moraju se uneti ručno. Kada se popuni kolona <strong>Ukupna cena</strong> ili <strong>Ukupna količina</strong> na stranici <strong>Procena troškova</strong>, stvarni troškovi se oduzimaju od ukupnog iznosa koji je uneo korisnik. Rezultat čini cena za završetak projekta. Napredak troškova se obično ne prati na osnovu, na primer, broja hotelskih boravaka i obroka koji se beleže u svakom periodu. Umesto toga. Praćenje se obično zasniva na poređenju sa ukupnim iznosom procenjenih sati. Ovaj pristup ne zahteva model predviđanja, a ukupna cena ili ukupna količina mogu se ručno promeniti. Kada se vrednost unese u kolonu <strong>Ukupni troškovi</strong> ili <strong>Ukupna količina</strong>, Finance upoređuje tu vrednost sa stvarnim vrednostima transakcija koje su proknjižene u periodu, a zatim smanjuju vrednost u koloni <strong>Količina do završetka</strong> ili <strong>Trošak do završetka</strong>.</td>
+<td>Procenjeni troškovi moraju se uneti ručno. Kada se popuni kolona <strong>Ukupna cena</strong> ili <strong>Ukupna količina</strong> na stranici <strong>Procena troškova</strong>, stvarni troškovi se oduzimaju od ukupnog iznosa koji je uneo korisnik. Rezultat čini cena za završetak projekta. Tok troškova se&#39; obično ne prati na osnovu, na primer, broja hotelskih boravaka i obroka koji se beleže u svakom periodu. Umesto toga. Praćenje se obično zasniva na poređenju sa ukupnim iznosom procenjenih sati. Ovaj pristup ne&#39; zahteva model predviđanja, a ukupan trošak ili ukupna količina mogu se promeniti ručno. Kada se vrednost unese u kolonu <strong>Ukupni troškovi</strong> ili <strong>Ukupna količina</strong>, Finance upoređuje tu vrednost sa stvarnim vrednostima transakcija koje su proknjižene u periodu, a zatim smanjuju vrednost u koloni <strong>Količina do završetka</strong> ili <strong>Trošak do završetka</strong>.</td>
 </tr>
 <tr class="even">
 <td>Ukupan budžet – stvarne vrednosti</td>

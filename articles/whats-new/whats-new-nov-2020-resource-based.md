@@ -4,14 +4,14 @@ description: Ova tema pruža informacije o ispravkama kvaliteta dostupnim u izda
 author: sigitac
 ms.date: 10/30/2020
 ms.topic: article
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 9eda9d75f5a4d71e6e4b8bd22dce973270639db3f927ac6a76be5b3c4303fc31
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: b76ebbff1cc2720e699334601d425879f2d20770
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: MT
 ms.contentlocale: sr-Latn-RS
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7007973"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8600391"
 ---
 # <a name="whats-new-november-2020---project-operations-for-resourcenon-stocked-based-scenarios"></a>Šta je novo novembra 2020. – Project Operations za scenarije zasnovane na resursima/bez zaliha
 
@@ -20,7 +20,7 @@ _**Odnosi se na:** Project Operations za scenarije zasnovane na resursima / bez 
 Ova tema se odnosi na sledeće komponente i verzije usluge Dynamics 365 Project Operations:
 
 - Project Operations u CDS okruženju verzije 4.4.0.70
-- Upravljanje projektima i računovodstvo u Dynamics 365 Finance okruženju verzije 10.0.14
+- Upravljanje projektima i računovodstvo u Dynamics 365 Finance okruženju verzija 10.0.14
 
 ## <a name="updates-to-project-operations-for-resource-non-stocked-based-scenarios"></a>Ispravke usluge Project Operations za scenarije zasnovane na resursima-bez zaliha
 
@@ -42,7 +42,7 @@ Ova tema se odnosi na sledeće komponente i verzije usluge Dynamics 365 Project 
 | Stavka vremena i brzog troška | 2059859          | Otvara se neočekivani iskačući prozor prilikom kreiranja stavke troška.                                                                                                                         |
 | Drugi                        | 2044181          | (Deinstaliranje porudžbenice)   Kada pokušate da deinstalirate osnovna rešenja msdyn_ProjectServiceCore_Patch i msdyn Project Service, dolazi do greške „Zapis nije dostupan“.  |
 
-### <a name="project-management-and-accounting-in-dynamics-365-finance"></a>Upravljanje projektima i računovodstva u usluzi Dynamics 365 Finance
+### <a name="project-management-and-accounting-in-dynamics-365-finance"></a>Upravljanje projektima i računovodstvo u Dynamics 365 Finance
 
 | Oblast funkcija        | Referentni broj | Ispravka kvaliteta                                                                                                                                                            |
 |---------------------|------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
@@ -65,7 +65,7 @@ Ova tema se odnosi na sledeće komponente i verzije usluge Dynamics 365 Project 
 | Projektno računovodstvo  | [510041](https://fix.lcs.dynamics.com/Issue/Details/?bugId=510041)           | Omogućavanje funkcije Više linija ugovora nije moguće bez CDS integracije.                                                                                   |
 
 ### <a name="regulatory-updates"></a>Regulatorne ispravke
-Za informacije o regulatornim ispravkama za Finance and Operations aplikacije, pogledajte članak [Regulatorne ispravke](/dynamics365/finance/localizations/regulatory-updates). Takođe se možete prijaviti na LCS i pregledati planirane regulatorne ispravke pomoću alatke za pretragu problema. Pretraga problema vam omogućava pretragu po zemlji, tipu funkcije i izdanju.
+Više informacija o regulatornim ispravkama za aplikacije za finansije i operacije potražite u članku [Regulatorne ispravke](/dynamics365/finance/localizations/regulatory-updates). Takođe se možete prijaviti na LCS i pregledati planirane regulatorne ispravke pomoću alatke za pretragu problema. Pretraga problema vam omogućava pretragu po zemlji, tipu funkcije i izdanju.
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

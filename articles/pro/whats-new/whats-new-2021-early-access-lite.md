@@ -5,14 +5,14 @@ author: sigitac
 ms.date: 08/10/2021
 ms.topic: article
 ms.prod: ''
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: a201e3e4333b8892eea72387222d64e18b74d71b
-ms.sourcegitcommit: 80aa1e8070f0cb4992ac408fc05bdffe47cee931
-ms.translationtype: HT
+ms.openlocfilehash: 7b5f3528e4b4e615b8e7f24bfd3702746fd584c9
+ms.sourcegitcommit: 577fa51e0892625f98f17ff39874ed1a09444421
+ms.translationtype: MT
 ms.contentlocale: sr-Latn-RS
-ms.lasthandoff: 08/13/2021
-ms.locfileid: "7323928"
+ms.lasthandoff: 05/06/2022
+ms.locfileid: "8723693"
 ---
 # <a name="whats-new-2021-wave-2-early-access---project-operations-lite-deployment"></a>Šta je novo u ranom pristupu 2. talasa za 2021. – jednostavna primena aplikacije Project Operations
 
@@ -26,7 +26,7 @@ Izdanje se primenjuje samo kada je za okruženje [odobren rani pristup](/power-p
 
 ## <a name="features-included-in-this-release"></a>Funkcije uključene u ovom izdanju
 
-[Upravljanje podugovorima](../subcontracting/subcontracting_EA_scope.md) – Ova funkcija pruža bolju preglednost i kontrolu nad svim aspektima rada na projektu. Verzija za pregled upravljanja podugovaranjem uključuje sledeće mogućnosti:
+[Upravljanje podugovorima](/dynamics365/project-operations/pro/subcontracting/managing-subcontracts-overview) – Ova funkcija pruža bolju preglednost i kontrolu nad svim aspektima rada na projektu. Verzija za pregled upravljanja podugovaranjem uključuje sledeće mogućnosti:
 
   - Menadžer projekta može da sklopi podugovor sa dobavljačem. Podrazumevano se cenovnici koji su priloženi evidenciji dobavljača koriste za podugovor. Račun dobavljača ima vrstu odnosa **Dobavljač** ili **Dobavljač**.
   - Menadžer projekta može da raščlani sve kupovine i stavi ih kao stavke u podugovoru. Stavke podugovora mogu da budu vezane za vreme, troškove ili proizvode. Klasa transakcije koja je izabrana za predmet podugovora određuje čemu ta stavka služi.

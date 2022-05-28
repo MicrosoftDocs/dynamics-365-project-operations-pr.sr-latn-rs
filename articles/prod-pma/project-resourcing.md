@@ -8,20 +8,19 @@ ms.prod: ''
 ms.technology: ''
 ms.search.form: ProjProjectsListPage
 audience: Application User
-ms.reviewer: josaw
-ms.search.scope: Core, Operations
+ms.reviewer: johnmichalak
 ms.custom: intro-internal
 ms.assetid: bd2fb375-84c6-428a-8e54-f0f719045898
 ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: ea2a34ed9e0bf5b28649a53db88976ec56aaf10d1c80af99cb0856250873a2ab
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 38793c4b9fc6cd2c1999661cb2acc587086b0143
+ms.sourcegitcommit: 2c2a5a11d446adec2f21030ab77a053d7e2da28e
 ms.translationtype: MT
 ms.contentlocale: sr-Latn-RS
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7007343"
+ms.lasthandoff: 05/04/2022
+ms.locfileid: "8684889"
 ---
 # <a name="project-resourcing-home-page"></a>Matična stranica za obezbeđivanje resursa za projekat
 
@@ -29,7 +28,7 @@ ms.locfileid: "7007343"
 
 Ova tema pruža informacije o obezbeđivanju resursa za projekat.
 
-Jedan od izazova za menadžere projekata i menadžere resursa tokom faze planiranja projekta je dodela resursa, gde oni moraju odrediti i rezervisati tačan resurs za rad na projektu. U usluzi Dynamics 365 Finance, mogućnosti obezbeđivanja resursa za projekte omogućavaju vam da definišete uloge koje se tretiraju kao privremeni resursi koji mogu biti rezervisani za određeno angažovanje ili deo angažovanja. Ova vrsta resursa omogućava menadžerima projekata i menadžerima resursa da izvrše sledeće zadatke:
+Jedan od izazova za menadžere projekata i menadžere resursa tokom faze planiranja projekta je dodela resursa, gde oni moraju odrediti i rezervisati tačan resurs za rad na projektu. U Dynamics 365 Finance, resourcing mogućnosti za projekte vam omogućava da definišete uloge koje se tretiraju kao privremeni resursi koji se mogu rezervisati za određeni angažman ili deo angažmana. Ova vrsta resursa omogućava menadžerima projekata i menadžerima resursa da izvrše sledeće zadatke:
 
 - Definišite ulogu koja ima potrebne kompetencije, tako da je lako podudarati resurse.
 - Koristite uloge za definisanje početnog rasporeda angažovanja koji se zasniva na rezervisanim resursima.

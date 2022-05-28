@@ -5,14 +5,14 @@ author: sigitac
 ms.date: 06/14/2021
 ms.topic: article
 ms.prod: ''
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: c6a40335df89cc6b2bb35e54832140aac6eb9ac6
-ms.sourcegitcommit: 03414a74ddf1f2d63043d734ebdee7485f1aadd2
+ms.openlocfilehash: 21a446fdb9526c1a2b110c5368516dafb64b5e01
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: MT
 ms.contentlocale: sr-Latn-RS
-ms.lasthandoff: 10/25/2021
-ms.locfileid: "7679226"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8600805"
 ---
 # <a name="whats-new-june-2021---project-operations-for-resourcenon-stocked-based-scenarios"></a>Šta je novo u junu 2021. – Project Operations za scenarije zasnovane na resursima / bez zaliha
 
@@ -21,7 +21,7 @@ _**Odnosi se na:** Project Operations za scenarije zasnovane na resursima / bez 
 Ova tema se odnosi na sledeće komponente i verzije usluge Dynamics 365 Project Operations:
 
 - Project Operations u Dynamics 365 Dataverse okruženju verzije 4.11.0.156 ili 4.11.0.164.
-- Upravljanje projektima i računovodstvo u Finance and Operations aplikacijama okruženja verzije 10.0.19.
+- Upravljanje projektima i računovodstvo u finansijskim i operativnim aplikacijama okruženja verzija 10.0.19.
 
 ## <a name="features-included-in-this-release"></a>Funkcije uključene u ovom izdanju
 
@@ -38,7 +38,7 @@ U ovom izdanju nema ispravki za Project Operations mape dvostrukog upisivanja.
 
 Za trenutnu listu i verzije Project Operations mapa dvostrukog upisivanja, pogledajte [Verzije Project Operations mapa dvostrukog upisivanja](../environment/resource-dual-write-maps.md).
 
-Uvek pokrenite najnoviju verziju mape u svom okruženju i omogućite sve povezane mape tabela dok ažurirate svoje Project Operations Dataverse rešenje i verziju rešenja Finance and Operations aplikacije. Određene funkcije i mogućnosti možda neće raditi ispravno ako se ne aktivira najnovija verzija mape. Aktivnu verziju mape možete videti na stranici **Dvostruko upisivanje** u koloni **Verzija**. Aktivirajte novu verziju mape izborom **Verzije mape tabela**, odabirom najnovije verzije, a zatim čuvanjem izabrane verzije. Ako ste prilagodili mapu tabele koja je gotova, ponovo primenite. Za još informacija pogledajte [Upravljanje životnim ciklusom aplikacije](/dynamics365/fin-ops-core/dev-itpro/data-entities/dual-write/app-lifecycle-management).
+Uvek pokrenite najnoviju verziju mape u okruženju i omogućite sve povezane mape tabela dok ažurirate rešenje za projektne Dataverse operacije i verziju rešenja za finansije i operacije. Određene funkcije i mogućnosti možda neće raditi ispravno ako se ne aktivira najnovija verzija mape. Aktivnu verziju mape možete videti na stranici **Dvostruko upisivanje** u koloni **Verzija**. Aktivirajte novu verziju mape izborom **Verzije mape tabela**, odabirom najnovije verzije, a zatim čuvanjem izabrane verzije. Ako ste prilagodili mapu tabele koja je gotova, ponovo primenite. Za još informacija pogledajte [Upravljanje životnim ciklusom aplikacije](/dynamics365/fin-ops-core/dev-itpro/data-entities/dual-write/app-lifecycle-management).
 
 Ako naiđete na problem pri pokretanju mape, sledite uputstva u odeljku [Problem nedostajućih kolona tabele na mapama](/dynamics365/fin-ops-core/dev-itpro/data-entities/dual-write/dual-write-troubleshooting-finops-upgrades#missing-table-columns-issue-on-maps) vodiča za rešavanje problema sa dvostrukim upisivanjem.
 
@@ -62,7 +62,7 @@ Ako naiđete na problem pri pokretanju mape, sledite uputstva u odeljku [Problem
 | Vreme i trošak | 2194431 | Mreža **Stavka vremena** mora da poštuje početak nedelje kako je podešeno u **podešavanjima sistema**. |
 | Vreme i trošak | 2277311 | Kada izbrišete vrednost u ćeliji u mreži **Stavka vremena**, kursor ostaje u mreži. |
 
-### <a name="project-management-and-accounting-on-dynamics-365-finance"></a>Upravljanje projektima i računovodstvo u usluzi Dynamics 365 Finance
+### <a name="project-management-and-accounting-on-dynamics-365-finance"></a>Upravljanje projektima i računovodstvo na Dynamics 365 Finance
 
 | Oblast funkcija | Referentni broj | Ispravka kvaliteta |
 | --- | --- | --- |

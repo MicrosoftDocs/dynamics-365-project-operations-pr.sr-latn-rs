@@ -5,14 +5,14 @@ author: sigitac
 ms.date: 07/07/2021
 ms.topic: article
 ms.prod: ''
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 69507427521466335df9cbbaba79db1cfc7be91386b8b2ded5b1c384555946ee
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 1c88f3b4747005bee0d68d0e8a4314c01ffdaf34
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: MT
 ms.contentlocale: sr-Latn-RS
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7008063"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8600897"
 ---
 # <a name="whats-new-july-2021---project-operations-for-resourcenon-stocked-based-scenarios"></a>Šta je novo u julu 2021. – Project Operations za scenarije zasnovane na resursima / bez zaliha
 
@@ -21,7 +21,7 @@ ms.locfileid: "7008063"
 Ova tema se odnosi na sledeće komponente i verzije usluge Dynamics 365 Project Operations:
 
    - Project Operations u Microsoft Dataverse okruženju verzije 4.12.0.148 ili 4.12.0.152.
-   - Upravljanje projektima i računovodstvo u Dynamics 365 Finance okruženju verzije 10.0.20.
+   - Upravljanje projektima i računovodstvo u Dynamics 365 Finance okruženju verzija 10.0.20.
 
 ## <a name="features-included-in-this-release"></a>Funkcije uključene u ovom izdanju
 
@@ -80,7 +80,7 @@ Ako naiđete na problem pri pokretanju mape, sledite uputstva u odeljku [Problem
 | Opšte                       | 2253682              | Project Operations rešenje sa dvostrukim upisivanjem ne bi trebalo instalirati kada je jezgro dvostrukog upisivanja instalirano u okruženju bez rešenja orkestracije dvostrukog upisivanja.                                                |
 | Opšte                       | 2316420              | Obezbeđenje Project Service jezgra ne uspeva ako se promeni poslovna jedinica korisnika aplikacije.                                                                                                                     |
 | Opšte                       | 2376405              | Rešen je problem sa ažuriranjem koje pokreće proizvođač (ažuriranje kvaliteta je dostupno u verziji 4.12.0.152)                                                                                                                     |
-### <a name="project-management-and-accounting-on-dynamics-365-finance"></a>Upravljanje projektima i računovodstvo u usluzi Dynamics 365 Finance
+### <a name="project-management-and-accounting-on-dynamics-365-finance"></a>Upravljanje projektima i računovodstvo na Dynamics 365 Finance
 
 | Oblast funkcija                      | Referentni broj | Ispravka kvaliteta                                                                                                                                                                                                                                                                                                                |
 |-----------------------------------|------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|

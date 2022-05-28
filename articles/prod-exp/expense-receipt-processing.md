@@ -1,24 +1,23 @@
 ---
 title: Obrada priznanica za troškove
-description: Ova tema pruža informacije o obradi priznanica pomoću optičkog prepoznavanja znakova (OCR). Ova funkcija je dizajnirana da poboljša korisničko iskustvo prilikom kreiranja izveštaja o troškovima u usluzi Microsoft Dynamics 365 Finance.
+description: Ova tema pruža informacije o obradi priznanica pomoću optičkog prepoznavanja znakova (OCR). Ova funkcija je dizajnirana da poboljša korisničko iskustvo kada se kreiraju izveštaji o troškovima u Microsoft Dynamics programu 365 Finance.
 author: stsporen
 ms.date: 05/14/2020
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
 audience: Application User
-ms.reviewer: roschlom
-ms.search.scope: Operations, Core
+ms.reviewer: johnmichalak
 ms.search.region: Global
 ms.author: stsporen
 ms.search.validFrom: 2019-11-20
 ms.dyn365.ops.version: 10.0.8
-ms.openlocfilehash: 0d43c44bf4f2a58e3249d6cc1028353555cfd836580a802ad6e1878dc9b2e263
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 067432106742447d2b8fa215ec05bf05f4b41e70
+ms.sourcegitcommit: 2c2a5a11d446adec2f21030ab77a053d7e2da28e
 ms.translationtype: MT
 ms.contentlocale: sr-Latn-RS
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7001403"
+ms.lasthandoff: 05/04/2022
+ms.locfileid: "8684337"
 ---
 # <a name="expense-receipt-processing"></a>Obrada priznanica za troškove
 
@@ -51,7 +50,7 @@ Da biste stvorili trošak ili uporedili trošak sa priznanice, izvršite sledeć
 
 Ova funkcija radi u kombinaciji sa funkcijom **Redizajnirani izveštaji o troškovima** koja vam pomaže da pojednostavite iskustvo sa troškovima. Ova funkcija je dostupna samo za okruženja 2. nivoa i viših, a to su Sandbox i Proizvodnja.
 
-Da biste koristili ove napredne mogućnosti troškova, instalirajte programski dodatak Usluga upravljanja troškovima za Microsoft Dynamics 365 Finance i uključite funkcije u vašoj instanci. Programskom dodatku možete pristupiti iz svog projekta u usluzi Microsoft Dynamics Lifecycle Services (LCS).
+Da biste koristili ove napredne mogućnosti troškova, instalirajte programski dodatak "Usluga upravljanja troškovima Microsoft Dynamics " za 365 finansija i uključite funkcije u instanci. Programskom dodatku možete pristupiti iz svog projekta u usluzi Microsoft Dynamics Lifecycle Services (LCS).
 
 1. Prijavite se na LCS i otvorite željeno okruženje.
 2. Idi na stavku **Svi detalji**.

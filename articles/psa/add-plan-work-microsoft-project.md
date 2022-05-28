@@ -16,12 +16,13 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: ccebf1439f49092b23da5b4fc2ebb4fc484de4dd17c870eea9fe37b00fbb3689
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.reviewer: johnmichalak
+ms.openlocfilehash: 460b5bb7baabcb804b9745f5fddae9bcc3fc7541
+ms.sourcegitcommit: 30242d7754bca300b594b0887eb4212d10bea1c4
 ms.translationtype: MT
 ms.contentlocale: sr-Latn-RS
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7005318"
+ms.lasthandoff: 05/07/2022
+ms.locfileid: "8727975"
 ---
 # <a name="use-the-project-service-automation-add-in-to-plan-your-work-in-microsoft-project"></a>Koristite programski dodatak Project Service Automation za planiranje vašeg rada u programu Microsoft Project
 
@@ -40,7 +41,7 @@ ms.locfileid: "7005318"
 ## <a name="download-and-install-the-add-in"></a>Preuzmite i instalirajte programski dodatak  
  Pripremite vaše informacije za prijavljivanje u [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)]. Te informacije će vam biti potrebne da biste se povezali sa programa [!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)] na funkciju [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)].  
 
-1.  Iz centra za preuzimanje preuzmite programski dodatak za podržanu verziju usluge of Project Service, verzije [V2.X](https://go.microsoft.com/fwlink/?linkid=828268) ili [V3.4+](https://www.microsoft.com/download/details.aspx?id=57956).  
+1.  Iz centra za preuzimanje preuzmite programski dodatak za podržanu verziju usluge of Project Service, verzije [V2.X](/dynamics365/project-operations/psa/overview#guidance-for-earlier-versions-app-version-2x-or-1x) ili [V3.4+](https://www.microsoft.com/download/details.aspx?id=57956).  
 
 2.  Kliknite na vezu za preuzimanje.  
 
@@ -87,9 +88,8 @@ Kada se planiranje projekta završi, sledeći korak je uvoz i objavljivanje proj
 
 Projekat će se uvesti u funkciju [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)]. Primenjuju se procesi određivanja cena i generisanja tima. Otvorite projekat u funkciji [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)] da biste videli da li su tim, procene za projekat i strukturna analiza posla generisani. U sledećoj tabeli je prikazano gde da pronađete rezultate:
 
-
-|                                                                                          |                                                                                                                                   |
-|------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------|
+| Project | Detalji |
+| ---- | --- |
 |  [!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)] **Gantogram**   | Uvozi u [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)] ekran **Strukturna analiza posla**. |
 | [!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)] **Lista resursa** |   Uvozi u [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)] ekran **Članovi projektnog tima**.   |
 |   [!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)] **Koristite upotrebu**    |    Uvozi u [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)] ekran **Procene projekta**.     |

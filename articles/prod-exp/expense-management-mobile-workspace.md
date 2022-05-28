@@ -5,20 +5,19 @@ author: suvaidya
 ms.date: 12/01/2017
 ms.topic: article
 audience: Application User
-ms.reviewer: roschlom
-ms.search.scope: Core, Operations
+ms.reviewer: johnmichalak
 ms.custom: 274023
 ms.assetid: 3605eda1-a7ed-4675-8031-5279c5a8f5e4
 ms.search.region: Global
 ms.author: suvaidya
 ms.dyn365.ops.version: Version 1611
 ms.search.validFrom: 2016-11-30
-ms.openlocfilehash: 0559f881aba2d0a9c65ad123a40803743fc7407bb0d87ac6e8280ee8e30d36b7
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: d5309b55ed146d21d7a42e0b40add9ee346d48aa
+ms.sourcegitcommit: 2c2a5a11d446adec2f21030ab77a053d7e2da28e
 ms.translationtype: MT
 ms.contentlocale: sr-Latn-RS
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7001493"
+ms.lasthandoff: 05/04/2022
+ms.locfileid: "8682819"
 ---
 # <a name="expense-management-mobile-workspace"></a>Mobilni radni prostor za upravljanje troškovima
 
@@ -35,7 +34,7 @@ Mnoge organizacije zahtevaju da se kopija priznanice priloži uz izveštaj o tro
 
 Konkretno, mobilni radni prostor za **Upravljanje troškovima** omogućava korisnicima da izvršavaju ove zadatke:
 
-- Fotografišite priznanicu i otpremite ga u Dynamics 365 Finance. Ovu fotografiju možete kasnije da priložite izveštaju o troškovima.
+- Napravite fotografiju potvrde i otpremite je u Dynamics 365 Finance. Ovu fotografiju možete kasnije da priložite izveštaju o troškovima.
 - Otpremite datoteku kao snimljenu priznanicu. Ovu datoteku možete kasnije da priložite izveštaju o troškovima.
 - Napravite novu liniju troškova koristeći priloženu priznanicu. Zatim možete kasnije dodati stavku u izveštaj o troškovima i predati je na odobrenje i nadoknadu.
 

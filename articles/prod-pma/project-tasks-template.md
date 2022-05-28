@@ -1,32 +1,31 @@
 ---
-title: Sinhronizovanje projektnih zadataka direktno iz usluge Project Service Automation sa uslugom Finance and Operations
-description: Ova tema opisuje predložak i osnovni zadatak koji se koriste za sinhronizaciju projektnih zadataka direktno iz usluge Microsoft Dynamics 365 Project Service Automation u Dynamics 365 Finance.
+title: Sinhronizuj projektne zadatke direktno iz automatizacije projektnih usluga u finansije i operacije
+description: Ovaj tema opisuje predložak i osnovni zadatak koji se koristi za sinhronizaciju projektnog zadatka direktno Microsoft Dynamics 365 Project Service Automation iz Dynamics 365 Finance.
 author: Yowelle
 ms.date: 07/20/2018
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
 audience: Application User
-ms.reviewer: josaw
-ms.search.scope: Core, Operations
+ms.reviewer: johnmichalak
 ms.custom: 87983
 ms.assetid: b454ad57-2fd6-46c9-a77e-646de4153067
 ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2016-11-28
 ms.dyn365.ops.version: AX 7.3.0
-ms.openlocfilehash: 45846d7a6dd7b84fe28f0a78ccc103679236917ea506180c5b383fd2828624eb
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 666e0d757969b32f16e08128d9f78a2ffe1e8357
+ms.sourcegitcommit: 2c2a5a11d446adec2f21030ab77a053d7e2da28e
 ms.translationtype: MT
 ms.contentlocale: sr-Latn-RS
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6992808"
+ms.lasthandoff: 05/04/2022
+ms.locfileid: "8683327"
 ---
-# <a name="synchronize-project-tasks-directly-from-project-service-automation-to-finance-and-operations"></a>Sinhronizovanje projektnih zadataka direktno iz usluge Project Service Automation sa uslugom Finance and Operations
+# <a name="synchronize-project-tasks-directly-from-project-service-automation-to-finance-and-operations"></a>Sinhronizuj projektne zadatke direktno iz automatizacije projektnih usluga u finansije i operacije
 
 [!include[banner](../includes/banner.md)]
 
-Ova tema opisuje predložak i osnovni zadatak koji se koriste za sinhronizaciju projektnih zadataka direktno iz usluge Dynamics 365 Project Service Automation u Dynamics 365 Finance.
+Ovaj tema opisuje predložak i osnovni zadatak koji se koristi za sinhronizaciju projektnog zadatka direktno Dynamics 365 Project Service Automation iz Dynamics 365 Finance.
 
 > [!NOTE]
 > - Integracija projektnih zadataka, kategorije transakcija troškova, procene sati, procene troškova i zaključavanje funkcionalnosti dostupni su u verziji 8.0.
@@ -68,11 +67,11 @@ Da bi moglo da dođe do sinhronizacije projektnih zadataka, morate sinhronizovat
 
 ## <a name="power-query"></a>Power Query
 
-Morate koristiti Microsoft Power Query za Excel za filtriranje podataka ako je ispunjen ovaj uslov:
+Microsoft za Excel morate da Power Query koristite za filtriranje podataka ako je ovaj uslov ispunjen:
 
 - U projektnom zadatku imate zapise specifične za resurse.
 
-Ako morate da koristite Power Query, sledite ove smernice:
+Ako morate da koristite Power Query, sledite ovo uputstvo:
 
 - Predložak projektnih zadataka (iz PSA u Fin and Ops) ima podrazumevani filter koji iz projektnog zadatka isključuje zapise specifične za resurse postavljanjem filtera na **IsLineTask** na **Netačno**. Ako kreirate sopstveni obrazac, morate dodati ovaj filter.
 
