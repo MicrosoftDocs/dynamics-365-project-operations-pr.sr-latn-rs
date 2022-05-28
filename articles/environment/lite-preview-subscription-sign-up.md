@@ -4,14 +4,14 @@ description: Ova tema pruža informacije o tome kako da se pretplatite i primeni
 author: sigitac
 ms.date: 07/02/2021
 ms.topic: article
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 5ba43ba9f917da068415fb62067ab73433b701139ee07014b6bd8c02612008ce
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 3b06ac29e8021967490534d3aefc8b5ce733413b
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: MT
 ms.contentlocale: sr-Latn-RS
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6991548"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8588017"
 ---
 # <a name="sign-up-for-a-preview-subscription---lite"></a>Upisivanje za pretplatu na verziju za pregled – jednostavno 
 
@@ -43,7 +43,7 @@ Pre nego što započnete, uverite se da ste prijavljeni u pregledač sa korisni�
 > Trebaće vam administrativni pristup Microsoft 365 portalu vaše organizacije da biste izvršili sledeće korake.
 
 
-1. Idite u [Microsoft 365 centar administracije](https://portal.office.com/) da dodelite licence svojim korisnicima.
+1. Idite [Microsoft 365 u administrativni](https://portal.office.com/) centar da biste dodelili licence korisnicima.
 2. Na stranici **Aktivni korisnici**, izaberite korisnike kojima želite da dodelite licencu.
 3. Proverite da li je izabrana licenca za **Dynamics 365 Project Operations**. 
 4. Izaberite **Sačuvaj promene**.

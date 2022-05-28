@@ -4,14 +4,14 @@ description: Ova tema objašnjava kako da ručno primenite Project Operations Da
 author: stsporen
 ms.date: 06/18/2021
 ms.topic: article
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: stsporen
-ms.openlocfilehash: 06325a9a9f9084d1f506f2493c32565fe7b7c52ae6fe22c81339b9c1d632e688
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: b82eef7b5f64705f37f224172c14f6734612329e
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: MT
 ms.contentlocale: sr-Latn-RS
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6986463"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8591237"
 ---
 # <a name="manually-deploy-the-project-operations-dataverse-app-with-dual-write-support"></a>Ručno raspoređivanje Project Operations Dataverse aplikacije sa podrškom za dvostruko upisivanje
 
@@ -37,7 +37,7 @@ Da biste dovršili ovu proceduru, morate se prijaviti kao administrator.
 3. Izaberite tip okruženja. Ako ste se prijavili za ponudu probne verzije, izaberite **Probna verzija (zasnovana na pretplati)**.
 4. Potvrdite region primene.
 5. Omogućite opciju **Kreiranje baze podataka za ovo okruženje**. 
-6. Potvrdite jezik, a zatim potvrdite da se valuta podudara sa valutom za vaše Finance and Operations aplikacije.
+6. Potvrdite jezik, a zatim potvrdite da se valuta podudara sa valutom za aplikacije "Finansije i operacije".
 7. Omogućite **Dynamics 365 aplikacije** i potvrdite da je polje **Automatski primeni ove aplikacije** podešeno na **Nijedna**.
 8. Dodajte bezbednosnu grupu ako je potrebna bezbednosna grupa.
 9. Izaberite **Sačuvaj** da biste kreirali okruženje.
@@ -62,4 +62,4 @@ Ovu proceduru možete dovršiti samo ako ste završili prethodne procedure pre n
 
 ## <a name="link-your-environments"></a><a name="link"></a>Povezivanje okruženja
 
-Kada se Dataverse okruženje primeni, možete podesiti vezu u svojim Finance and Operations aplikacijama. Sledite korake u članku [Korišćenje čarobnjaka za dvostruko upisivanje radi povezivanja okruženja](/dynamics365/fin-ops-core/dev-itpro/data-entities/dual-write/link-your-environment).
+Nakon što je Dataverse okruženje raspoređeno, možete da podesite vezu u aplikacijama za finansije i operacije. Sledite korake u članku [Korišćenje čarobnjaka za dvostruko upisivanje radi povezivanja okruženja](/dynamics365/fin-ops-core/dev-itpro/data-entities/dual-write/link-your-environment).

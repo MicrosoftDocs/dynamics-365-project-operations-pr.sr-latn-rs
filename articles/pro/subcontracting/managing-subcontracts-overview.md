@@ -3,15 +3,15 @@ title: Upravljanje podugovorima u aplikaciji Project Operations
 description: Ova tema pruža pregled procesa upravljanja podizvođačima od početka do kraja obično u projektnim organizacijama.
 author: rumant
 ms.date: 08/02/2021
-ms.topic: article
-ms.reviewer: kfend
+ms.topic: overview
+ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: 993edfd064279a970d7c42d5fcefd794e949a931
-ms.sourcegitcommit: 80aa1e8070f0cb4992ac408fc05bdffe47cee931
-ms.translationtype: HT
+ms.openlocfilehash: d595e948b7be9a6822827f4841e737d3c0e1476b
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.translationtype: MT
 ms.contentlocale: sr-Latn-RS
-ms.lasthandoff: 08/13/2021
-ms.locfileid: "7323613"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8593031"
 ---
 # <a name="subcontract-management-in-project-operations"></a>Upravljanje podugovorima u aplikaciji Project Operations
 
@@ -46,7 +46,7 @@ Predmet podugovora može da se zasniva na količini ili na poslu.
 
 Kada je predmet podugovora **zasnovan na količini**, količina koja se kupuje na predmetu podugovarača za vreme, troškove ili materijal može se koristiti na bilo kojem projektu.
 
-Kada je predmet podugovora **zasnovan na poslu**, predmet podugovora se preslikava na posao koji predstavlja čvor u planu projekta. Vrednost predmeta podugovora je zbir svih komponenti koje su potrebne za isporuku tog dela posla. Oni su modelirani kao detalji o predmetima podugovora i mogu biti skup vremena, troškova ili materijala. Za predmet podugovora zasnovan na poslu, predmet podugovora je takođe posvećen jednom projektu.
+Kada je predmet podugovora **zasnovan na poslu**, predmet podugovora se preslikava na posao koji predstavlja čvor u planu projekta. Vrednost predmeta podugovora je zbir svih komponenti koje su potrebne za isporuku tog dela posla. Oni su modelirani kao detalji o predmetima podugovora i mogu biti skup vremena, troškova ili materijala. Za predmet podugovora zasnovan na poslu, predmet podugovora je takođe posvećen jednom projektu. Operacije projekta ne podržavaju ove tipove podizvođači.
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]
 

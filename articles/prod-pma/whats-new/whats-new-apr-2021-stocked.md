@@ -5,14 +5,14 @@ author: andchoi
 ms.date: 04/22/2021
 ms.topic: article
 ms.prod: ''
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: andchoi
-ms.openlocfilehash: 0b214678a17e5b1cdacb89ae00e4acb83b8292d02ff937f30e307751d39f152d
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 42b4da3a77d56891454d094cd771575ff9bff081
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: MT
 ms.contentlocale: sr-Latn-RS
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7005588"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8589627"
 ---
 # <a name="whats-new-or-changed-in-project-operations-april-2021-for-stockedproduction-based-scenarios"></a>Šta je novo ili promenjeno u usluzi Project Operations u aprilu 2021. za scenarije zasnovane na zalihama/proizvodnji
 
@@ -20,7 +20,7 @@ _**Odnosi se na:** Project Operations za scenarije zasnovane na zalihama/proizvo
 
 Ova tema se odnosi na sledeće komponente i verzije usluge Dynamics 365 Project Operations:
 
-- Upravljanje projektima i računovodstvo u Dynamics 365 Finance okruženju verzije 10.0.18
+- Upravljanje projektima i računovodstvo u Dynamics 365 Finance okruženju verzija 10.0.18
  
 ### <a name="quality-updates"></a>Ispravke kvaliteta
                                                                                                                                                                                   
@@ -83,7 +83,7 @@ Ova tema se odnosi na sledeće komponente i verzije usluge Dynamics 365 Project 
 | Putovanje i trošak                | [550575](https://fix.lcs.dynamics.com/Issue/Details/?bugId=550575) | Kada je kategorija troškova kategorija koja nije projekat, finansijski aspekti izabrani na stranici **Troškovi** se ne kopiraju u izveštaj o troškovima.                                          |
 
 ### <a name="regulatory-updates"></a>Regulatorne ispravke
-Za informacije o regulatornim ispravkama za Finance and Operations aplikacije, pogledajte članak [Regulatorne ispravke](/dynamics365/finance/localizations/regulatory-updates). Takođe se možete prijaviti na LCS i pregledati planirane regulatorne ispravke pomoću alatke za pretragu problema. Pretraga problema vam omogućava pretragu po zemlji, tipu funkcije i izdanju.
+Više informacija o regulatornim ispravkama za aplikacije za finansije i operacije potražite u članku [Regulatorne ispravke](/dynamics365/finance/localizations/regulatory-updates). Takođe se možete prijaviti na LCS i pregledati planirane regulatorne ispravke pomoću alatke za pretragu problema. Pretraga problema vam omogućava pretragu po zemlji, tipu funkcije i izdanju.
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

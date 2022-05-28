@@ -15,12 +15,13 @@ search.audienceType:
 search.app:
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 9503b6528f91f86cc1ebe1c7ed6111171e74c4a3cbf83b3f68810c3ee5efdd28
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.reviewer: johnmichalak
+ms.openlocfilehash: 91ec6d502a44771e7e03b67cc2be40c527fff355
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: MT
 ms.contentlocale: sr-Latn-RS
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7002348"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8591927"
 ---
 # <a name="setting-up-custom-fields-as-pricing-dimensions"></a>Podešavanje prilagođenih polja kao dimenzija za određivanje cena 
 
@@ -73,10 +74,10 @@ Postoje dva tipa dimenzija za određivanje cena.
 | ------------|-------------|-------------------|--------------------|-------------------------|--------:|
 |             | Contoso India|Na lokaciji            |                    |Prekovremeni rad                 |15     |
 |             | Contoso India|Lokalno             |                    |Prekovremeni rad                 |10     |
-|             | Contoso US   |Lokalno             |                    |Prekovremeni rad                 |20     |
+|             | Contoso US   |Lokalno             |                    |Prekovremeni rad                 |20.     |
 
 
-Ako je resurs iz kompanije Contoso India, čija je osnovna stopa 100 USD za rad na lokaciji, a evidentiraju 8 sati redovnog radnog vremena i 2 sata prekovremenog rada u stavci vremena, Project Service sistem za određivanje cena će koristiti osnovnu stopu od 100 za 8 sati da bi evidentirao 800 USD. Za 2 sata prekovremenog rada, provizija od 15% biće primenjena na osnovnu stopu od 100 za dobijanje jedinične cene od 115 USD i biće evidentirani ukupni troškovi od 230 USD.
+Ako je resurs iz kompanije Contoso India, čija je osnovna stopa 100 USD za rad na lokaciji, a prijavljuju 8 sati redovnog radnog vremena i 2 sata prekovremenog rada u stavci vremena, Project Service sistem za određivanje cena će koristiti osnovnu stopu od 100 za 8 sati da bi evidentirao 800 USD. Za 2 sata prekovremenog rada, provizija od 15% biće primenjena na osnovnu stopu od 100 za dobijanje jedinične cene od 115 USD i biće evidentirani ukupni troškovi od 230 USD.
 
 ### <a name="applicable-to-cost"></a>Primenljivo na cenu 
 Ako je ovo podešeno na **Da**, to znači da bi vrednost dimenzije iz konteksta unosa trebalo da se koristi za podudaranje sa stavkama **Cena uloge** i **Provizija na cenu uloge** prilikom preuzimanja stope troškova i stope provizija.

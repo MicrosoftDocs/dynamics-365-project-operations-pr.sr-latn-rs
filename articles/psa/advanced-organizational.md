@@ -1,5 +1,5 @@
 ---
-title: Organizacione jedinice
+title: Napredne organizacione jedinice
 description: Ova tema pruža informacije o organizacionim jedinicama u aplikaciji Dynamics 365 Project Service Automation.
 author: rumant
 ms.custom:
@@ -16,14 +16,15 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: dccb01e5d1c032039cac980061d93b443ef0f9e1296cdd2d8efd7b1bf7338ce0
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.reviewer: johnmichalak
+ms.openlocfilehash: 80208be7be56d0b09354c45cd2afd96958daf985
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: MT
 ms.contentlocale: sr-Latn-RS
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7005093"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8589443"
 ---
-# <a name="organizational-units"></a>Organizacione jedinice 
+# <a name="about-organizational-units"></a>Organizacione jedinice 
 
 [!include [banner](../includes/psa-now-project-operations.md)]
 
@@ -77,13 +78,13 @@ Kada implementirate Dynamics 365, optimizirajte sigurnosna ovlašćenja za hijer
 
 #### <a name="example-of-organizational-units-and-business-units"></a>Primer organizacionih jedinica i poslovnih jedinica
 
-Contoso, Ltd. napredno koristi Microsoft tehnologiju. Dobrilo i Danica su C\# programeri, ali Danica je u Sjedinjenim Državama, dok je Dobrilo u Indiji. Većina angažmana na projektu zahteva resurse iz kompanija Contoso India i Contoso US, a Dobrilo i Danica zahtevaju isti nivo bezbednosnog pristupa projektima u ovoj oblasti. Međutim, troškovi programera iz kompanije Contoso India značajno se razlikuju od troškova programera iz kompanije Contoso US.
+Contoso, Ltd. ima napredno poznavanje Microsoft tehnologije. Dobrilo i Danica su C\# programeri, ali Danica je u Sjedinjenim Državama, dok je Dobrilo u Indiji. Većina angažmana na projektu zahteva resurse iz kompanija Contoso India i Contoso US, a Dobrilo i Danica zahtevaju isti nivo bezbednosnog pristupa projektima u ovoj oblasti. Međutim, troškovi programera iz kompanije Contoso India značajno se razlikuju od troškova programera iz kompanije Contoso US.
 
 Evo optimalnog načina za dizajn ovog scenarija korišćenjem sistema Dynamics 365 i PSA.
 
 1. Kreirajte poznavanje Microsoft tehnologije kao poslovnu jedinicu i sa njom povežite Dobrila i Danicu. Na ovaj način garantujete da će oba zaposlenika imati isti nivo bezbednosnog pristupa bilo kojim projektima u toj oblasti. Oboje će moći da provere napredak i izveštavaju o vremenu, troškovima i ažuriranjima zadataka. 
 2. Kreirajte dve organizacione jedinice kao garanciju da su troškovi za projekat tačno izraženi. 
-3. Povežite Danicu sa kompanijom Contoso US i povežite Dobrila sa kompanijom Contoso India.
+3. Pridružite Danicu i Contoso US i povežite Dobrila sa kompanijom Contoso India.
 4. Dodelite odgovarajuće cenovnike troškova obema organizacionim jedinicama. Na ovaj način garantujete da troškovi koji se evidentiraju za projekat za Dobrila i Danicu tačno odražavaju razliku u troškovima između kompanija Contoso US i Contoso India.
 
 ### <a name="are-organizational-units-related-to-sales-territories-in-dynamics-365"></a>Da li su organizacione jedinice povezane sa prodajnim teritorijama u sistemu Dynamics 365?
@@ -96,7 +97,7 @@ Organizaciona jedinica je interna grupa ili odeljenje u kompaniji koja prati tro
 
 Contoso, Ltd. ima dva razvojna centra: Contoso US i Contoso India. Troškovi resursa znatno se razlikuju između ova dva razvojna centra.
 
-Contoso prodaje svoje IT usluge na mnogim međunarodnim tržištima, kao što su Latinska Amerika, Severna Amerika, Azijsko-pacifička oblast, zapadna Evropa i Bliski Istok. Stope naplate za iste uloge na projektu mogu se značajno razlikovati na ovim tržištima.
+Contoso prodaje svoje IT usluge na mnogim međunarodnim tržištima, kao što su Latinska Amerika, Severna Amerika, Azija-Pacifik, zapadna Evropa i Bliski Istok. Stope naplate za iste uloge na projektu mogu se značajno razlikovati na ovim tržištima.
 
 Contoso US i Contoso India trebalo bi da budu podešene kao organizacione jedinice, a svaka organizaciona jedinica treba da ima svoj cenovnik troškova. Azija-Pacifik, Latinska Amerika, Severna Amerika, zapadna Evropa i Bliski Istok trebalo bi da budu podešeni kao prodajne teritorije, a svaka prodajna teritorija treba da ima svoj prodajni cenovnik.
 
@@ -122,7 +123,7 @@ Ne. U trenutnom izdanju aplikacije PSA, organizacione jedinice nisu u hijerarhij
 Kada imate složenu hijerarhiju centara troškova, odeljenja, kancelarija za naplatu itd., podesite čvorove lista te hijerarhije kao posebne organizacione jedinice.
 Sledeći primer prikazuje tipičnu hijerarhiju:
 
-**ContosoIndija**
+**Contoso India**
 
   - SAP poslovi 
 
@@ -147,14 +148,14 @@ Sledeći primer prikazuje tipičnu hijerarhiju:
     - Funkcionalni konsultanti 
  
 Ako je vaša hijerarhija slična, morate je podesiti kao bazičnu listu, kao što je ovde prikazano:
-- Contoso India – SAP poslovi – Tehnički konsultanti 
-- Contoso India – SAP poslovi – Funkcionalni konsultanti       
-- Contoso India – Funkcionalni konsultanti u oblasti korišćenja Microsoft tehnologije 
-- Contoso India – Funkcionalni konsultanti u oblasti korišćenja Microsoft tehnologije 
-- Contoso US – SAP poslovi – Tehnički konsultanti  
-- Contoso US – SAP poslovi – Funkcionalni konsultanti  
-- Contoso US – Korišćenje Microsoft tehnologije – Tehnički konsultanti 
-- Contoso US – Korišćenje Microsoft tehnologije – Funkcionalni konsultanti
+- Contoso India - SAP poslovi - Tehnički konsultanti 
+- Contoso India - SAP poslovi - Funkcionalni konsultanti       
+- Contoso India - Poznavanje Microsoft tehnologije - Funkcionalni konsultanti 
+- Contoso India - Poznavanje Microsoft tehnologije - Funkcionalni konsultanti 
+- Contoso US - SAP poslovi - Tehnički konsultanti  
+- Contoso US - SAP poslovi - Funkcionalni konsultanti  
+- Contoso US - Poznavanje Microsoft tehnologije - Tehnički konsultanti 
+- Contoso US - Poznavanje Microsoft tehnologije - Funkcionalni konsultanti
 
 ### <a name="were-a-small-professional-services-company-that-operates-as-only-one-division-how-can-we-best-use-the-organizational-unit-concept-in-the-current-version-of-psa"></a>Mi smo mala kompanija za profesionalne usluge koja posluje kao samo jedno odeljenje. Kako najbolje možemo da koristimo koncept organizacione jedinice u trenutnoj verziji aplikacije PSA?
 

@@ -1,24 +1,24 @@
 ---
 title: Primena demo podataka na Finance okruženje koje se hostuje u oblaku
-description: Ova tema objašnjava kako da primenite demo podatke iz usluge Project Operations na Dynamics 365 Finance okruženje hostovano u oblaku.
+description: Ovaj tema objašnjava kako da primenite demo podatke iz operacija projekta na okruženje Dynamics 365 Finance hostovano u oblaku.
 author: sigitac
 ms.date: 10/01/2020
 ms.topic: article
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: c04aab6ffb332a3095ca2a7890deb73f15a8b5e3713021c60eec02eb13dbd0cb
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: e4ccc7eb02fabdc0476fe454f33bff637ab8b835
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: MT
 ms.contentlocale: sr-Latn-RS
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7009683"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8588983"
 ---
 # <a name="apply-demo-data-to-a-finance-cloud-hosted-environment"></a>Primena demo podataka na Finance okruženje koje se hostuje u oblaku
 
 _**Odnosi se na:** Project Operations za scenarije zasnovane na resursima / bez zaliha_
 
 > [!IMPORTANT]
-> Ova tema je primenljiva je samo na Microsoft Dynamics 365 Finance verzije 10.0.13 i može se izvoditi samo u okruženju koje se hostuje u oblaku. Dovršite korake u ovoj temi **PRE NEGO ŠTO** primenite ispravke kvaliteta na okruženje.
+> Ovaj tema je primenljiv samo Microsoft Dynamics 365 Finance verzija 10.0.13 i može se izvršiti samo na cloud okruženju. Dovršite korake u ovoj temi **PRE NEGO ŠTO** primenite ispravke kvaliteta na okruženje.
 
 1. U svom LCS projektu, otvorite stranicu **Detalji okruženja**. Primetite da sadrži detalje potrebne za povezivanje sa okolinom pomoću protokola udaljene radne površine (RDP).
 
@@ -76,7 +76,7 @@ Za ovo je potrebno nekoliko minuta. Trebalo bi da primite poruku sa potvrdom da 
 
 18. Zatvorite sesiju udaljene radne površine i koristite stranicu LCS **Detalji okruženja** da biste se prijavili u okruženje i potvrdili da radi kao što se očekuje.
 
-![Finance and Operations.](./media/10FinanceAndOperations.png)
+![Finansije i operacije.](./media/10FinanceAndOperations.png)
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

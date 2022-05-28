@@ -5,14 +5,14 @@ author: sigitac
 ms.date: 04/22/2021
 ms.topic: article
 ms.prod: ''
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: dbce86e88f8315ac4a4957c1128b5619d5328bdbbe27793e161f8f2691899481
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 07622ed798fd8d70e0ce5cc42297bd5056402474
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: MT
 ms.contentlocale: sr-Latn-RS
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7008153"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8589121"
 ---
 # <a name="whats-new-april-2021---project-operations-for-resourcenon-stocked-based-scenarios"></a>Šta je novo u aprilu 2021. – Project Operations za scenarije zasnovane na resursima / bez zaliha
 
@@ -21,7 +21,7 @@ _**Odnosi se na:** Project Operations za scenarije zasnovane na resursima / bez 
 Ova tema se odnosi na sledeće komponente i verzije usluge Dynamics 365 Project Operations:
 
 - Project Operations u Dataverse okruženju verzije 4.9.0.221
-- Upravljanje projektima i računovodstvo u Dynamics 365 Finance okruženju verzije 10.0.17
+- Upravljanje projektima i računovodstvo u Dynamics 365 Finance okruženju verzija 10.0.17
 
 ## <a name="features-included-in-this-release"></a>Funkcije uključene u ovom izdanju
 
@@ -42,13 +42,13 @@ Sledeća lista prikazuje mape dvostrukog pisanja koje su izmenjene ili dodate u 
 | **Mapa entiteta** | **Ažurirana verzija** | **Komentari** |
 | --- | --- | --- |
 | Project Operations stvarne vrednosti integracije (msdyn\_actuals) | 1.0.0.14 | Mapa je izmenjena radi sinhronizacije materijalnih stvarnih podataka o projektu. |
-| Project Operations entitet integracije za procene troškova (msdyn\_estimateslines) | 1.0.0.2 | Dodata je sinhronizacija linije za ugovor o projektu Finance and Operations aplikacija za podršku obračuna zasnovanu na zadacima. |
-| Project Operations entitet integracije za procene sati (msdyn\_resourceassignments) | 1.0.0.5 | Dodata je sinhronizacija linije za ugovor o projektu Finance and Operations aplikacija za podršku obračuna zasnovanu na zadacima. |
-| Project Operations tabela integracije za procene materijala (msdyn\__estimatelines) | 1.0.0.0 | Nova mapa tabele za sinhronizaciju procena materijala sa Dataverse do Finance and Operations aplikacija. |
-| Project Operations entitet izvoza fakture prodavca (msdyn\_projectvendorinvoices) | 1.0.0.0 | Nova mapa tabele za sinhronizaciju zaglavlja fakture dobavljača sa Finance and Operations aplikacija do Dataverse. |
-| Project Operations entitet izvoza reda fakture prodavca (msdyn\__projectvendorinvoicelines) | 1.0.0.0 | Nova mapa tabele za sinhronizaciju redova fakture dobavljača sa Finance and Operations aplikacija do Dataverse. |
+| Project Operations entitet integracije za procene troškova (msdyn\_estimateslines) | 1.0.0.2 | Dodata linija ugovora o projektu sinhronizuje sa aplikacijama za finansije i operacije za podršku za naplatu zasnovanu na zadatku. |
+| Project Operations entitet integracije za procene sati (msdyn\_resourceassignments) | 1.0.0.5 | Dodata linija ugovora o projektu sinhronizuje sa aplikacijama za finansije i operacije za podršku za naplatu zasnovanu na zadatku. |
+| Project Operations tabela integracije za procene materijala (msdyn\__estimatelines) | 1.0.0.0 | Nova mapa tabele za sinhronizaciju procena materijala iz aplikacija Dataverse "Finansije i operacije". |
+| Project Operations entitet izvoza fakture prodavca (msdyn\_projectvendorinvoices) | 1.0.0.0 | Nova mapa tabele za sinhronizaciju zaglavlja faktura dobavljača iz aplikacija "Finansije" i "Operacije" u Dataverse. |
+| Project Operations entitet izvoza reda fakture prodavca (msdyn\__projectvendorinvoicelines) | 1.0.0.0 | Nova mapa tabele za sinhronizaciju redova fakture dobavljača iz aplikacija "Finansije" i "Operacije" u Dataverse. |
 
-Uvek treba da pokrenete najnoviju verziju mape u svom okruženju i omogućite sve povezane mape tabela dok ažurirate svoje Project Operations Dataverse rešenje i Finance and Operations verziju rešenja. Određene funkcije i mogućnosti možda neće raditi ispravno ako se ne aktivira najnovija verzija mape. Aktivnu verziju mape možete videti u koloni **Verzija** na stranici **Dvostruko upisivanje**. Možete aktivirati novu verziju mape ako izaberete **Verzije tabele mape**, izaberete najnoviju verziju, a zatim sačuvajte izabranu verziju. Ako ste prilagodili mapu tabele koja je gotova, ponovo primenite. Za još informacija pogledajte [Upravljanje životnim ciklusom aplikacije](/dynamics365/fin-ops-core/dev-itpro/data-entities/dual-write/app-lifecycle-management).
+Uvek bi trebalo da pokrenete najnoviju verziju mape u svom okruženju i omogućite sve povezane mape tabela dok ažurirate rešenje za operacije Dataverse projekta i verziju rešenja za finansije i operacije. Određene funkcije i mogućnosti možda neće raditi ispravno ako se ne aktivira najnovija verzija mape. Aktivnu verziju mape možete videti u koloni **Verzija** na stranici **Dvostruko upisivanje**. Možete aktivirati novu verziju mape ako izaberete **Verzije tabele mape**, izaberete najnoviju verziju, a zatim sačuvajte izabranu verziju. Ako ste prilagodili mapu tabele koja je gotova, ponovo primenite. Za još informacija pogledajte [Upravljanje životnim ciklusom aplikacije](/dynamics365/fin-ops-core/dev-itpro/data-entities/dual-write/app-lifecycle-management).
 
 Ako naiđete na problem sa pokretanjem mape, sledite uputstva u odeljku [Nedostaje izdanje kolona tabele na mapama](/dynamics365/fin-ops-core/dev-itpro/data-entities/dual-write/dual-write-troubleshooting-finops-upgrades#missing-table-columns-issue-on-maps) vodiča za rešavanje problema sa dvostrukim upisivanjem.
 
@@ -79,7 +79,7 @@ Ako naiđete na problem sa pokretanjem mape, sledite uputstva u odeljku [Nedosta
 | Vreme i trošak | 2204377 | Kopirani vremenski rasporedi moraju se automatski prikazati kada izaberete **kopiranje sedmice** tokom unosa vremena. |
 | Vreme i trošak | 2209059 | Polje **Status** može da se uređuje za Dynamics 365 Field Service stavke vremena. |
 
-### <a name="project-management-and-accounting-in-dynamics-365-finance"></a>Upravljanje projektima i računovodstva u usluzi Dynamics 365 Finance
+### <a name="project-management-and-accounting-in-dynamics-365-finance"></a>Upravljanje projektima i računovodstvo u Dynamics 365 Finance
 
 | **Oblast funkcija** | **Referentni broj** | **Ispravka kvaliteta** |
 | --- | --- | --- |

@@ -7,18 +7,18 @@ ms.topic: article
 ms.prod: ''
 ms.search.form: ''
 audience: Application User
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.search.scope: ''
 ms.search.region: ''
 ms.author: shylaw
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 5ab5959fa5c9c5463826a9a792112a93e469de5f
-ms.sourcegitcommit: 2e4483d5b88213a9f33109f7adb989108521327d
+ms.openlocfilehash: 14bd76df5f058d2af9f77990471a0a173fe8c15d
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: MT
 ms.contentlocale: sr-Latn-RS
-ms.lasthandoff: 11/17/2021
-ms.locfileid: "7818200"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8588937"
 ---
 # <a name="mobile-expense-app"></a>Aplikacija o troškovima za mobilne uređaje
 
@@ -206,11 +206,11 @@ Preuzmite i instalirajte Dynamics 365 Unified Ops aplikaciju za mobilne uređaje
 
 ### <a name="why-doesnt-the-expense-mobile-app-enter-the-payment-method-by-default"></a>Zašto mobilna aplikacija "Troškovi" podrazumevano ne unosi način plaćanja?
 
-Organizacije mogu da prilagode **podrazumevanu postavku** načina plaćanja za svaku kategoriju troškova tokom kreiranja. Pored toga, kada podesite načine plaćanja, polje Podrazumevani način **plaćanja možete podesiti samo** na opciju **"Uvoz"**.
+Organizacije mogu da prilagode podrazumevanu **postavku načina** plaćanja za svaku kategoriju troškova tokom kreiranja. Pored toga, kada podesite načine plaćanja, polje Podrazumevani način plaćanja možete podesiti **samo** na opciju "Uvoz **"**.
 
-Kada **je omogućen samo uvoz za način** plaćanja, način plaćanja se podrazumevano ne unosi. Biće prazan u kategorijama troškova gde je podešen ovaj način plaćanja. Ovakvo ponašanje je dosledno i u veb iskustvu i u mobilnom iskustvu.
+Kada **je omogućen** samo uvoz za način plaćanja, način plaćanja se podrazumevano ne unosi. Biće prazan u kategorijama troškova gde je podešen ovaj način plaćanja. Ovakvo ponašanje je dosledno i u veb iskustvu i u mobilnom iskustvu.
     
-Kada **uvoz nije omogućen samo za način** plaćanja, postavljena vrednost se podrazumevano unosi za kategorije troškova u kojima je podešen ovaj način plaćanja. Međutim, postoji poznati problem zbog kojeg podrazumevana vrednost nije uneta u mobilnu aplikaciju "Troškovi". Da biste zaobišli ovaj problem, ručno izaberite način plaćanja pre nego što sačuvate izveštaj o troškovima. 
+Kada **uvoz nije** omogućen samo za način plaćanja, postavljena vrednost se podrazumevano unosi za kategorije troškova u kojima je podešen ovaj način plaćanja. Međutim, postoji poznati problem zbog kojeg podrazumevana vrednost nije uneta u mobilnu aplikaciju "Troškovi". Da biste zaobišli ovaj problem, ručno izaberite način plaćanja pre nego što sačuvate izveštaj o troškovima. 
 
 ### <a name="why-cant-i-add-or-edit-financial-dimensions-in-the-expense-mobile-app"></a>Zašto ne mogu da dodam ili uredim finansijske dimenzije u mobilnoj aplikaciji "Troškovi"?
 

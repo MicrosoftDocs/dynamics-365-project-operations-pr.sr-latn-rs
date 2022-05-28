@@ -1,23 +1,23 @@
 ---
-title: Evidencije planiranje projekta
+title: Evidencije rasporeda projekata
 description: Ova tema pruža informacije i uzorke koji će vam pomoći da koristite evidencije za planiranje projekta da biste pratili kvarove koji su povezani sa uslugom zakazivanja projekta i API-jem za planiranje projekta.
 author: ruhercul
 ms.date: 11/30/2021
 ms.topic: article
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: ruhercul
-ms.openlocfilehash: 1c5632a880fa30d1b863c326b22e3d930c9564dc
-ms.sourcegitcommit: 844ec8eacd0fc10d1659b437cc5cbb4480ec9e1e
+ms.openlocfilehash: 1a58a588d3e2fb92f1b4a4ed0f6f69d0a63908db
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: MT
 ms.contentlocale: sr-Latn-RS
-ms.lasthandoff: 12/01/2021
-ms.locfileid: "7877518"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8589535"
 ---
-# <a name="project-scheduling-logs"></a>Evidencije planiranje projekta
+# <a name="project-scheduling-logs"></a>Evidencije rasporeda projekata
 
-_**Applies To:** Project Operations for resource/non-stocked based scenarios, Lite deployment - deal to proforma invoicing_, _Project for the Web_
+_**Primenjuje se na:** Projektne operacije za scenarije zasnovane na resursima/nenapuštene, Lite deployment - deal to proforma invoicing_, _Project for the Web_
 
-Microsoft Dynamics 365 Project Operations koristi [Project za Web](https://support.microsoft.com/office/what-is-project-for-the-web-c19b2421-3c9d-4037-97c6-f66b6e1d2eb5) kao svoju mašinu za primarno planiranje. Umesto korišćenja standardnih programskih interfejsa (API) Web aplikacije Microsoft Dataverse), operacije projekta koriste nove API-je za planiranje projekta za kreiranje, ažuriranje i brisanje projektnih zadataka, dodeljivanja resursa, zavisnosti od zadataka, kofa projekta i članova projektnih timova. Međutim, kada se operacije kreiranja, ažuriranja ili brisanja programski pokreću na entitetima strukture radne analize (WBS). Da biste pratili ove greške i istoriju operacija, primenjene su dve nove administrativne evidencije: Usluga skupa operacija i planiranje **projekta** **(PSS).** Da biste pristupili ovim evidencijama, idite na stranicu **"Integracija** \> **rasporeda** postavki".
+Microsoft Dynamics 365 Project Operations koristi [Project za Web](https://support.microsoft.com/office/what-is-project-for-the-web-c19b2421-3c9d-4037-97c6-f66b6e1d2eb5) kao svoju primarnu mašinu za planiranje. Umesto korišćenja standardnih Microsoft Dataverse interfejsa za programiranje Web aplikacija (API), operacije projekta koriste nove API-je za planiranje projekta za kreiranje, ažuriranje i brisanje projektnih zadataka, dodeljivanja resursa, zavisnosti od zadataka, kofa projekta i članova projektnih timova. Međutim, kada se operacije kreiranja, ažuriranja ili brisanja programski pokreću na entitetima strukture radne analize (WBS). Da biste pratili ove greške i istoriju operacija, primenjene su dve nove administrativne evidencije: **Usluga skupa** **operacija i planiranje projekta (PSS)**. Da biste pristupili ovim evidencijama, idite na dugme "Integracija **rasporeda** \> **postavki".**
 
 Sledeća ilustracija prikazuje model podataka za evidencije planiranje projekta.
 
@@ -25,18 +25,18 @@ Sledeća ilustracija prikazuje model podataka za evidencije planiranje projekta.
 
 ## <a name="operation-set-log"></a>Evidencija skupa operacija
 
-Evidencija skupa operacija prati izvršavanje skupa operacija koji se koristi za pokretanje jedne ili više operacija kreiranja, ažuriranja ili brisanja operacija u grupi projekata, projektnih zadataka, dodela resursa, zavisnosti od zadataka, kofa projekta ili članova projektnog tima. Polje **Operacija u** statusu prikazuje ukupan status skupa operacija. Detalji tovara postavljenog za operaciju se zarobe u srodnim zapisima detalja skupa operacija.
+Evidencija skupa operacija prati izvršavanje skupa operacija koji se koristi za pokretanje jedne ili više operacija kreiranja, ažuriranja ili brisanja operacija u grupi projekata, projektnih zadataka, dodela resursa, zavisnosti od zadataka, kofa projekta ili članova projektnog tima. Polje **Operacija u statusu** prikazuje ukupan status skupa operacija. Detalji tovara postavljenog za operaciju se zarobe u srodnim zapisima detalja skupa operacija.
 
 ### <a name="operation-set"></a>Skup operacija
 
-Sledeća tabela prikazuje polja koja su povezana sa **entitetom skupa** operacija.
+Sledeća tabela prikazuje polja koja su povezana sa entitetom **skupa** operacija.
 
 | SchemaName            | Opis                                                                                                  | DisplayName            |
 |-----------------------|--------------------------------------------------------------------------------------------------------------|------------------------|
 | msdyn_completedon     | Datum/vreme kada je skup operacija dovršen ili nije uspeo.                                                | CompletedOn            |
-| msdyn_correlationid   | ID **vrednosti** ID-a korelacije zahteva.                                                                  | CorrelationId          |
+| msdyn_correlationid   | ID **vrednosti ID-a** korelacije zahteva.                                                                  | CorrelationId          |
 | msdyn_description     | Opis skupa operacija.                                                                        | Opis            |
-| msdyn_executedon      | Datum/vreme kada je zapis objavljen.                                                                       | Izvršeno dana            |
+| msdyn_executedon      | Datum/vreme kada je zapis objavljen.                                                                       | Datum izvršavanja            |
 | msdyn_operationsetId  | Jedinstveni identifikator instanci entiteta.                                                                   | OperationSet           |
 | msdyn_Project         | Projekat koji je povezan sa skupom operacija.                                                            | Project                |
 | msdyn_projectid       | ID **vrednosti** projekta zahteva.                                                                      | ProjectId (zastarelo) |
@@ -45,15 +45,15 @@ Sledeća tabela prikazuje polja koja su povezana sa **entitetom skupa** operacij
 | msdyn_PSSErrorLogName | Nije primenljivo.                                                                                              | Nije primenjivo         |
 | msdyn_status          | Status skupa operacija.                                                                             | Status                 |
 | msdyn_statusName      | Nije primenljivo.                                                                                              | Nije primenjivo         |
-| msdyn_useraadid       | ID Azure Active Directory (Azure AD) objekta korisnika kome zahtev pripada.                     | UserAADID              |
+| msdyn_useraadid       | ID Azure Active Directory Azure AD() objekta korisnika kome zahtev pripada.                     | UserAADID              |
 
 ### <a name="operation-set-detail"></a>Detalji skupa operacija
 
-Sledeća tabela prikazuje polja koja su povezana sa entitetom **detalja skupa** operacija.
+Sledeća tabela prikazuje polja koja su povezana sa entitetom detalja **skupa** operacija.
 
 | SchemaName                 | Opis                                                                                 | DisplayName           |
 |----------------------------|---------------------------------------------------------------------------------------------|-----------------------|
-| msdyn_cdspayload           | Serijski Dataverse polja za zahtev.                                            | CdsPayload            |
+| msdyn_cdspayload           | Serijalizovana Dataverse polja za zahtev.                                            | CdsPayload            |
 | msdyn_entityname           | Ime entiteta za zahtev.                                                     | EntityName            |
 | msdyn_httpverb             | Metod zahteva.                                                                         | HTTP glagol (zastarelo) |
 | msdyn_httpverbName         | Nije primenljivo.                                                                             | Nije primenjivo        |
@@ -68,7 +68,7 @@ Sledeća tabela prikazuje polja koja su povezana sa entitetom **detalja skupa** 
 
 ## <a name="project-scheduling-service-error-logs"></a>Evidencije grešaka usluge projektovanja
 
-Usluga za planiranje projekta evidentira greške hvatanja do kojih dolazi kada usluga za planiranje projekta pokuša **operaciju** "Sačuvaj" ili **·** "Otvori". Postoje tri podržana scenarija u kojima se generišu ove evidencije:
+Usluga za planiranje projekta evidentira greške hvatanja do kojih dolazi kada usluga za planiranje projekta pokuša operaciju "Sačuvaj **·**" ili "**Otvori**". Postoje tri podržana scenarija u kojima se generišu ove evidencije:
 
 - Radnje koje je pokrenuo korisnik kritički ne uspevaju (na primer, nije moguće kreirati dodelu zbog privilegija koje nedostaju).
 - Usluga projektovanja ne može programski da kreira, ažurira, izbriše ili izvrši bilo koju drugu kaskadnu operaciju u entitetu.
@@ -82,7 +82,7 @@ Sledeća tabela prikazuje polja koja su uključena u evidenciju usluge planiranj
 |---------------------|--------------------------------------------------------------------------------|----------------|
 | msdyn_CallStack     | Stek poziv izuzetka.                                               | Stek poziv     |
 | msdyn_correlationid | ID korelacije greške.                                               | CorrelationId  |
-| msdyn_errorcode     | Polje koje se koristi za skladištenje Dataverse greške ili HTTP koda greške. | Kod greške     |
+| msdyn_errorcode     | Polje koje se koristi za skladištenje koda greške Dataverse ili HTTP koda greške. | Kod greške     |
 | msdyn_HelpLink      | Veza sa dokumentacijom javne pomoći.                                       | Veza za pomoć      |
 | msdyn_log           | Evidencija iz usluge planiranje projekta.                                   | Evidencija            |
 | msdyn_project       | Projekat koji je povezan sa evidencijom grešaka.                             | Project        |
@@ -92,10 +92,10 @@ Sledeća tabela prikazuje polja koja su uključena u evidenciju usluge planiranj
 
 ## <a name="error-log-cleanup"></a>Čišćenje evidencije grešaka
 
-Podrazumevano, i evidencije grešaka usluge planiranje projekta i evidencija operativnog skupa mogu da se očiste svakih 90 dana. Svi zapisi stariji od 90 dana biće izbrisani. Međutim, promenom vrednosti polja msdyn_StateOperationSetAge **na** **stranici "Parametri projekta", administratori mogu da prilagode** opseg čišćenja tako da bude između 1 i 120 dana. Dostupno je nekoliko metoda za promenu ove vrednosti:
+Podrazumevano, i evidencije grešaka usluge planiranje projekta i evidencija operativnog skupa mogu da se očiste svakih 90 dana. Svi zapisi stariji od 90 dana biće izbrisani. Međutim, promenom vrednosti polja **msdyn_StateOperationSetAge** na stranici **"Parametri projekta** ", administratori mogu da prilagode opseg čišćenja tako da bude između 1 i 120 dana. Dostupno je nekoliko metoda za promenu ove vrednosti:
 
-- Prilagodite **entitet Parametar** projekta kreiranjem prilagođene stranice i dodavanjem polja **"Starost postavke bajatih** operacija".
-- Koristite kôd klijenta [koji koristi WebApi komplet za razvoj softvera (SDK).](/powerapps/developer/model-driven-apps/clientapi/reference/xrm-webapi/updaterecord)
+- Prilagodite entitet **Parametar** projekta kreiranjem prilagođene stranice i dodavanjem polja " **Starost postavke bajatih operacija** ".
+- Koristite kôd klijenta koji [koristi WebApi komplet za razvoj softvera (SDK).](/powerapps/developer/model-driven-apps/clientapi/reference/xrm-webapi/updaterecord).
 - Koristite SDK kôd usluge koji koristi Xrm SDK **metod ažuriranjaRecord** (Referenca klijenta API) u aplikacijama koje pokreću modeli. Power Apps sadrži opis i podržane parametre za metod **ažuriranjaRecord**.
 
     ```C#
