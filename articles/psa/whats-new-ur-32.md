@@ -1,6 +1,6 @@
 ---
 title: Šta je novo ili promenjeno u izdanju 32 ispravke usluge Project Service Automation verzije 3
-description: U ovoj temi navedene su funkcije i ispravke koje su dostupne u izdanju 32 ispravke usluge Project Service Automation verzije 3.
+description: Ovaj članak navodi funkcije i ispravke koje su dostupne u izdanju za ažuriranje automatizacije usluge projekta Release 32, V3.
 author: ruhercul
 ms.custom: dyn365-projectservice
 ms.date: 06/01/2021
@@ -16,12 +16,12 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: 3ad87eceb90a48997aadf00803b8d14c5108eb83
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 5124137c24da9b579ee1365524d66d9135b2d420
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: sr-Latn-RS
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8580105"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8912901"
 ---
 # <a name="whats-new-or-changed-in-project-service-automation-update-release-32-v3"></a>Šta je novo ili promenjeno u izdanju 32 ispravke usluge Project Service Automation verzije 3
 
@@ -29,7 +29,7 @@ ms.locfileid: "8580105"
 
 Zadovoljstvo nam je da najavimo najnoviju ispravku za aplikaciju Microsoft Dynamics 365 Project Service Automation. Ovo izdanje uključuje neka važna poboljšanja u kvalitetu, performansama i upotrebljivosti. Kompatibilna je sa sistemom Dynamics 365 9.x. Da biste se ažurirali na ovo izdanje, posetite stranicu centra administracije za Dynamics 365 mrežna rešenja i instalirajte ispravku. Za još informacija pogledajte članak [Instaliranje, ispravka ili uklanjanje željenog rešenja](/power-platform/admin/install-remove-preferred-solution).
 
-U ovoj temi navedene su funkcije koje su nove ili promenjene u izdanju 32 ispravke usluge Project Service Automation verzije 3. Ova verzija ima broj verzije 3.10.53.108 i opšte je dostupna putem samostalnog ažuriranja u junu 2021.
+Ovaj članak navodi funkcije i ispravke koje su nove ili promenjene za V3 za automatizaciju usluge projekta, izdanje za ažuriranje 32. Ova verzija ima broj verzije 3.10.53.108 i opšte je dostupna putem samostalnog ažuriranja u junu 2021.
 
 ## <a name="update-release-32"></a>Izdanje ispravke 32
 

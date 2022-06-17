@@ -1,6 +1,6 @@
 ---
 title: Šta je novo ili promenjeno u izdanju 21 ispravke za Project Service Automation u verziji 3
-description: U ovoj temi date su funkcije i ispravke koje su dostupne u izdanju 21 ispravke za Project Service Automation u verziji 3.
+description: Ovaj članak navodi funkcije i ispravke koje su dostupne u okviru ažuriranja za automatizaciju usluge projekta Release 21, V3.
 author: ruhercul
 ms.custom: dyn365-projectservice
 ms.date: 06/19/2020
@@ -16,12 +16,12 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: 34d1540639352f635068b849500a104de2509a7f
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 7d7c098a4572aa4f5730ffdbdab77b2897cdfeff
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: sr-Latn-RS
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8577852"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8918835"
 ---
 # <a name="project-service-automation-update-release-21-v3"></a>Project Service Automation izdanje ispravke 21, u verziji 3
 
@@ -29,7 +29,7 @@ ms.locfileid: "8577852"
 
 Zadovoljstvo nam je da objavimo najnovije ažuriranje za aplikaciju Project Service Automation za Dynamics 365. Ovo izdanje uključuje neka važna poboljšanja u kvalitetu, performansama i upotrebljivosti. Ovo izdanje je kompatibilno sa uslugom Dynamics 365 9.x. Da biste ažurirali ovo izdanje, posetite stranicu sa rešenjima centra za administraciju za Dynamics 365 online kako biste instalirali ispravku. Za još informacija pogledajte članak [Instaliranje, ispravka ili uklanjanje željenog rešenja](/power-platform/admin/install-remove-preferred-solution).
 
-U ovoj temi date su funkcije koje su nove ili su promenjene u izdanju 21 ispravke za Project Service Automation u verziji 3. Broj izrade ove verzije je V 3.10.32.50 i uglavnom je dostupna putem samostalnog ažuriranja u junu 2020. godine.
+Ovaj članak navodi funkcije i ispravke koje su nove ili promenjene za V3 za automatizaciju projektne usluge, izdanje za ažuriranje 21. Broj izrade ove verzije je V 3.10.32.50 i uglavnom je dostupna putem samostalnog ažuriranja u junu 2020. godine.
 
 ## <a name="update-release-21"></a>Izdanje ispravke 21
 

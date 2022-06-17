@@ -1,6 +1,6 @@
 ---
 title: Šta je novo ili promenjeno u izdanju ispravke 27 usluge Project Service Automation verzije 3
-description: U ovoj temi su navedene funkcije i ispravke koje su dostupne u izdanju ispravke 27 za Project Service Automation verzije 3.
+description: Ovaj članak navodi funkcije i ispravke koje su dostupne u okviru ažuriranja za automatizaciju usluge projekta Release 27, V3.
 author: ruhercul
 ms.custom: dyn365-projectservice
 ms.date: 01/12/2021
@@ -16,12 +16,12 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: aab77411760c3d64daa377bffc06391c8e4ed54a
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 6c8f4f736f0659f9b6db25f4685ef1278c45d034
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: sr-Latn-RS
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8599609"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8912947"
 ---
 # <a name="whats-new-or-changed-in-project-service-automation-update-release-27-v3"></a>Šta je novo ili promenjeno u izdanju ispravke 27 usluge Project Service Automation verzije 3
 
@@ -29,7 +29,7 @@ ms.locfileid: "8599609"
 
 Zadovoljstvo nam je da objavimo najnovije ažuriranje za aplikaciju Project Service Automation za Dynamics 365. Ovo izdanje uključuje neka važna poboljšanja u kvalitetu, performansama i upotrebljivosti. Ovo izdanje je kompatibilno sa uslugom Dynamics 365 9.x. Da biste ažurirali ovo izdanje, posetite stranicu sa rešenjima centra za administraciju za Dynamics 365 online kako biste instalirali ispravku. Za još informacija pogledajte članak [Instaliranje, ispravka ili uklanjanje željenog rešenja](/power-platform/admin/install-remove-preferred-solution).
 
-U ovoj temi su navedene funkcije i ispravke koje su nove ili promenjene u izdanju ispravke 27 za Project Service Automation verzije 3. Ova verzija ima broj verzije V3.10.45.98 i opšte je dostupna putem samo-ispravke u januaru 2021. godine.
+Ovaj članak navodi funkcije i ispravke koje su nove ili promenjene za V3, izdanje za ažuriranje 27. Ova verzija ima broj verzije V3.10.45.98 i opšte je dostupna putem samo-ispravke u januaru 2021. godine.
 
 ## <a name="update-release-27"></a>Izdanje ispravke 27
 

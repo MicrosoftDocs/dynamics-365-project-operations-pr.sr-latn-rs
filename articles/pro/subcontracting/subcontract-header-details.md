@@ -1,17 +1,17 @@
 ---
 title: Detalji zaglavlja za podugovore
-description: Ova tema objašnjava funkcionalnost koja je navedena u zaglavlju podugovora u aplikaciji Project Operations.
+description: Ovaj članak sadrži objašnjenja o funkcionalnosti navedenoj u zaglavlju podizvođača u operacijama projekta.
 author: rumant
 ms.date: 09/14/2021
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: fade0ff876486ad60ffd9ad618be7864c1b28185
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 85649d08228b16178eb8d6be9af5a6731def74bf
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: sr-Latn-RS
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8598183"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8914189"
 ---
 # <a name="header-details-for-subcontracts"></a>Detalji zaglavlja za podugovore
 
@@ -19,7 +19,7 @@ ms.locfileid: "8598183"
 
 _**Odnosi se na:** Jednostavna primena – od pogodbe do profakture_
 
-Ova tema objašnjava funkcionalnost koja je navedena u zaglavlju u aplikaciji Dynamics 365 Project Operations.
+Ovaj članak sadrži objašnjenja o funkcionalnosti navedenoj u zaglavlju podizvođač u programu Dynamics 365 Project Operations.
 
 Kako menadžer projekata planira i izvršava projekte, može zaposliti podizvođače i kupovati proizvode i usluge od prodavaca. Kada menadžer projekta treba da kupi proizvode ili usluge, može da sklopi podugovor u okviru aplikacije Project Operations.
 

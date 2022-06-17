@@ -1,6 +1,6 @@
 ---
 title: Podešavanje integracije kreditne kartice
-description: Ova tema objašnjava kako se radi sa transakcijama kreditnom karticom povezanim sa troškovima.
+description: Ovaj članak sadrži objašnjenja o tome kako se radi sa transakcijama kreditnim karticama vezanim za troškove.
 author: suvaidya
 ms.date: 11/17/2021
 ms.topic: article
@@ -13,12 +13,12 @@ ms.search.region: ''
 ms.author: shylaw
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 2c9d993f1999b0be24794bbe828afa8eb74744e9
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 4d32754548af67bdd5b9f7345f6363bd6193b36d
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: sr-Latn-RS
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8577070"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8924512"
 ---
 # <a name="set-up-credit-card-integration"></a>Podešavanje integracije kreditne kartice
 

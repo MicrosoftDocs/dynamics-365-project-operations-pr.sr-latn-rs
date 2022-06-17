@@ -1,17 +1,17 @@
 ---
 title: Ispravka računovodstva na radnim verzijama predloga faktura za projekat
-description: Ova tema objašnjava kako da prilagodite računovodstvene informacije u radnoj verziji predloga fakture.
+description: Ovaj članak sadrži objašnjenja o tome kako se koriguju informacije vezane za računovodstvo u predlogu radne fakture.
 author: sigitac
 ms.date: 01/05/2022
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: bf0a3d6b97880920b133cb3b30389adf0c83111c
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 32f566a798d07b698693392f3aa1823f91fe5408
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: sr-Latn-RS
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8575091"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8921227"
 ---
 # <a name="correct-the-accounting-on-draft-project-invoice-proposals"></a>Ispravka računovodstva na radnim verzijama predloga faktura za projekat
 
@@ -19,7 +19,7 @@ _**Odnosi se na:** Project Operations za scenarije zasnovane na resursima / bez 
 
 *Operativne detalje* za fakture projekata vodi menadžer projekta na predračunu. Ovi detalji uključuju odluku o radnom vremenu, troškovima, materijalima ili kontrolnim tačkama koje se moraju fakturisati, cenama i primeni iznosa avansa i akontacija. Kada potvrdite originalni predračun, možete prilagoditi operativne detalje kreiranjem i potvrđivanjem [korektivnog predračuna](../proforma-invoicing/corrective-invoices.md).
 
-*Računovodstveni detalji* za fakture projekata se održavaju u dokumentu fakture prema kupcu. Ovi detalji uključuju obračun poreza na promet i finansijske dimenzije koje se primenjuju na fakturi. Ova tema pruža detalje o tome kako se ovi računovodstveni detalji mogu prilagoditi u radnoj verziji predloga fakture projekta.
+*Računovodstveni detalji* za fakture projekata se održavaju u dokumentu fakture prema kupcu. Ovi detalji uključuju obračun poreza na promet i finansijske dimenzije koje se primenjuju na fakturi. Ovaj članak pruža detalje o tome kako se ovi računovodstveni detalji mogu korigovati na nacrtu predloga fakture projekta.
 
 ## <a name="adjust-sales-tax"></a>Prilagođeni porez na promet
 

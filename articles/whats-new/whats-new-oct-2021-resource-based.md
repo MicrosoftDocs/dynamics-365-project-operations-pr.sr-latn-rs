@@ -1,24 +1,24 @@
 ---
 title: Šta je novo u oktobru 2021. – Project Operations za scenarije zasnovane na resursima/materijalima koji nisu na zalihama
-description: Ova tema pruža informacije o ažuriranjima kvaliteta dostupnim u izdanju Project Operations za oktobar 2021. godine za za scenarije zasnovane na resursima/materijalima koji nisu na zalihama.
+description: Ovaj članak pruža informacije o kvalitetnim ispravkama dostupnim u oktobru 2021.
 author: sigitac
 ms.date: 10/06/2021
 ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: c64ef1e2ba9e33b2ca7575a40cc51e0ae987a9f8
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 4dc5cc9a5842a02338b99c7c8d707bc0b81c74a1
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: sr-Latn-RS
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8598505"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8914654"
 ---
 # <a name="whats-new-october-2021---project-operations-for-resourcenon-stocked-based-scenarios"></a>Šta je novo u oktobru 2021. – Project Operations za scenarije zasnovane na resursima/materijalima koji nisu na zalihama
 
 *Odnosi se na: Project Operations za scenarije zasnovane na resursima / bez zaliha*
 
-Ova tema se odnosi na sledeće komponente i verzije usluge Dynamics 365 Project Operations:
+Ovaj članak se odnosi na sledeće Dynamics 365 Project Operations komponente i verzije:
 
    - Project Operations u Microsoft Dataverse okruženju verzije 4.25.0.91
    - Upravljanje projektima i računovodstvo u Dynamics 365 Finance okruženju verzija 10.0.21

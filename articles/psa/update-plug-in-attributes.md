@@ -1,6 +1,6 @@
 ---
 title: Ažuriranje atributa dodatnih komponenti tako da uključuju nove dimenzije za određivanje cena
-description: Ova tema pruža informacije o ažuriranju atributa dodatnih komponenti za dimenzije određivanja cena.
+description: Ovaj članak pruža informacije o ažuriranju atributa dodatne komponente za dimenzije cena.
 author: Rumant
 ms.custom: ''
 ms.date: 11/19/2018
@@ -15,21 +15,21 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: 0c9ac219dd19cf5dd14d54b199329de0c15fe2ae
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 459aefb510cc9a9ec55a86ca7e362db98ccabb70
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: sr-Latn-RS
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8580888"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8913223"
 ---
 # <a name="update-plug-in-attributes-to-include-new-pricing-dimensions"></a>Ažuriranje atributa dodatnih komponenti tako da uključuju nove dimenzije za određivanje cena
 
 [!include [banner](../includes/psa-now-project-operations.md)]
 
 > [!NOTE]
-> Ako ne koristite Project Service Automation (PSA) funkcije za davanja ponuda i ugovaranje, možete preskočiti ovu temu.
+> Ako ne koristite funkcije za automatizaciju usluge projekta (PSA) za citiranje i ugovaranje, možete da preskočite ovaj članak.
 
-Ova tema pretpostavlja da ste dovršili procedure u temama, [Kreiranje prilagođenih polja i entiteta](create-custom-fields-entities.md), [Dodavanje prilagođenih polja u podešavanje cena i entitete transakcije](field-references.md) i [Podešavanje prilagođenih polja kao dimenzija za određivanje cena](set-up-pricing-dimensions.md). Ako niste dovršili te procedure, vratite se i dovršite ih, a zatim se vratite na ovu temu.
+Ovaj članak pretpostavlja da ste dovršili procedure u člancima, [kreirali prilagođena polja i entitete,](create-custom-fields-entities.md) dodali prilagođena polja [u podešavanje cena i transakcione entitete i](field-references.md) podesili prilagođena polja [kao dimenzije cena](set-up-pricing-dimensions.md). Ako niste završili te procedure, vratite se i dovršite ih, a zatim se vratite na ovaj članak.
 
 Kada se na stranici **Stavka ponude** kreira detalj stavke ponude za stavku ponude za projekat, sistem kreira dve stavke procene u pozadini, jednu stavku za troškovni deo procene i jednu za prodajnu stranu. Ovo je isto za predmete ugovora o projektu.
 

@@ -1,17 +1,17 @@
 ---
 title: Razvijte predloške projekata pomoću opcije za kopiranje projekata
-description: Ova tema pruža informacije o tome kako kreirati predloške projekata pomoću prilagođene radnje Kopiranje projekta.
+description: Ovaj članak pruža informacije o kreiranju predložaka projekta pomoću prilagođene radnje projekta Kopiranje.
 author: stsporen
 ms.date: 03/10/2022
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: stsporen
-ms.openlocfilehash: 72aa2db7c717eeab85ada448c673bf702087baeb
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 47c1023bbc4c21e3571bffbf3670bf0f7854f81d
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: sr-Latn-RS
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8590917"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8923849"
 ---
 # <a name="develop-project-templates-with-copy-project"></a>Razvijte predloške projekata pomoću opcije za kopiranje projekata
 

@@ -1,6 +1,6 @@
 ---
 title: Osnovni vodič za davanje ponuda, formiranje cena i naplatu
-description: Ova tema pruža veze ka informacijama o osnovama davanja ponuda, formiranja cena i naplate u aplikaciji Project Service Automation.
+description: Ovaj članak pruža veze ka informacijama o osnovnim citatima, cenama i naplati u automatizaciji projektne usluge.
 author: kfend
 ms.custom:
 - dyn365-projectservice
@@ -17,12 +17,12 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: 119fa9941a1f06108950e1ea1c08f84988530373
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 19b149e3cf9ee9c14af591968bc2afeb56a0abd4
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: sr-Latn-RS
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8592249"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8910831"
 ---
 # <a name="basic-guide-to-quoting-pricing-and-billing"></a>Osnovni vodič za davanje ponuda, formiranje cena i naplatu
 
@@ -32,7 +32,7 @@ ms.locfileid: "8592249"
 
 Sposobnost pronalaženja pravih resursa u pravo vreme, rezervisanje tih resursa za projekte i njihovo redovno korišćenje pomaže organizacijama da ispune ciljeve u pogledu prihoda i zadovoljstva klijenata. 
 
-PDF veza koja je prethodno bila u ovoj temi uklonjena je, a sadržaj je premešten u sledeće teme:
+PDF link koji je prethodno bio u ovom članku je uklonjen i sadržaj je premešten u sledeće članke:
 
 - [Davanje ponuda, formiranje cena i naplata](../quote-bill-price.md)
 - [Procesi prodaje](../basic-sales-process.md)
@@ -50,7 +50,7 @@ PDF veza koja je prethodno bila u ovoj temi uklonjena je, a sadržaj je premešt
 - [Evidentiranje stvarnih vrednosti](../advanced-actuals.md)
 
 > [!NOTE]
-> Ova tema biće uklonjena u budućoj ispravci dokumentacije. 
+> Ovaj članak će biti uklonjen u budućoj ispravci. 
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -1,24 +1,24 @@
 ---
 title: Project Operations podešavanje i integracija podataka o konfiguraciji
-description: Ova tema pruža informacije o postavljanju i konfigurisanju mapa dvostrukog upisivanja u Project Operations.
+description: Ovaj članak pruža informacije o podešavanju i konfigurisanju mapa dvostrukog pisanja operacija projekta.
 author: sigitac
 ms.date: 4/23/2021
 ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 1ffa25ff36c39010d6aee31d928c3eaa0086c3d8
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 173ff01e938af48d2d6488d5e59cf4e74b3af8e4
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: sr-Latn-RS
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8586913"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8914557"
 ---
 # <a name="project-operations-setup-and-configuration-data-integration"></a>Project Operations podešavanje i integracija podataka o konfiguraciji
 
 _**Odnosi se na:** Project Operations za scenarije zasnovane na resursima / bez zaliha_
 
-Ova tema pruža informacije o Project Operations integraciji dvostrukog upisivanja za entitete podešavanja i konfiguracije.
+Ovaj članak pruža informacije o integraciji dvostrukog upisivanja operacija projekta za entitete podešavanja i konfiguracije.
 
 ## <a name="project-contracts-contract-lines-and-projects"></a>Ugovor za projekat, predmeti ugovora i projekat
 

@@ -1,18 +1,18 @@
 ---
 title: Konfigurišite materijale koji nisu na zalihama i fakture dobavljača na čekanju
-description: Ova tema objašnjava kako da omogućite materijale koji nisu na zalihama i fakture dobavljača na čekanju.
+description: Ovaj članak sadrži objašnjenja o tome kako da omogućite nefakturisane materijale i fakture dobavljača na čekanju.
 author: sigitac
 ms.date: 06/22/2021
 ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 1b14ab17a317e7082bc9c24709590745a5c48ea8
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 6473ef3510f0d3641a2d61b6a1b1f28980993277
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: sr-Latn-RS
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8592985"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8913775"
 ---
 # <a name="configure-non-stocked-materials-and-pending-vendor-invoices"></a>Konfigurišite materijale koji nisu na zalihama i fakture dobavljača na čekanju
 
@@ -32,7 +32,7 @@ Dynamics 365 Finance:
 
 ## <a name="run-dual-write-maps-for-non-stocked-materials-and-vendor-invoice-integration"></a>Pokrenite mape dvostrukog pisanja za neskladištene materijale i integraciju računa dobavljača
 
-Ovaj odeljak pruža informacije o određenim mapama potrebnim za materijal koji nije na zalihama i fakture dobavljača. Proverite da li su neophodne mape navedene u temi [Obezbedite novo okruženje](../environment/resource-provision-new-environment.md#run-project-operations-dual-write-maps) pokrenute u vašem okruženju.
+Ovaj odeljak pruža informacije o određenim mapama potrebnim za materijal koji nije na zalihama i fakture dobavljača. Proverite da li su preduslovne mape navedene u odredbi [novog članka o okruženju](../environment/resource-provision-new-environment.md#run-project-operations-dual-write-maps) pokrenute na vašem okruženju.
 
 1. Idite na Lifecycle Services (LCS), dođite do LCS projekta i idite na stranicu **Detalji okruženja**.
 2. U odeljku Informacije o **Common Data Service okruženju**, izaberite **Veza do usluge CDS za aplikacije**. Kada izaberete vezu, bićete preusmereni na listu entiteta u mapiranjima.

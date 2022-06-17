@@ -1,6 +1,6 @@
 ---
 title: Kreirajte napredne ugovore za naplatu na osnovu napretka
-description: Ova tema objašnjava kako se kreiraju projektni ugovori tako da možete generisati fakture za klijente na osnovu procenta završenog posla.
+description: Ovaj članak sadrži objašnjenja o tome kako da kreirate projektne ugovore tako da možete da generišete fakture za kupce na osnovu procenta dovršenog rada.
 author: RadhikaRS
 ms.date: 03/26/2020
 ms.topic: article
@@ -15,19 +15,19 @@ ms.search.industry: Service industries
 ms.author: andchoi
 ms.dyn365.ops.version: 7
 ms.search.validFrom: 2019-01-15
-ms.openlocfilehash: bdafc2ed2398054d8b0bf42bdd96dfe0eccee93b
-ms.sourcegitcommit: 2c2a5a11d446adec2f21030ab77a053d7e2da28e
+ms.openlocfilehash: 26fe072b8241c7fdc96629f534e33a8fe53d3164
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: sr-Latn-RS
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8683180"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8913683"
 ---
 # <a name="create-advanced-contracts-for-billing-based-on-progress"></a>Kreirajte napredne ugovore za naplatu na osnovu napretka
 [!include [banner](../includes/banner.md)]
 
-Ova tema objašnjava kako se kreiraju projektni ugovori tako da možete kreirati fakture za klijente na osnovu procenta završenog posla. Iznosi faktura se automatski izračunavaju za budžetske kategorije posla koje ste postavili za projekat. Vreme na fakturi se postavlja kada pregovarate sa klijentom o ugovoru o projektu.
+Ovaj članak sadrži objašnjenja o tome kako da kreirate projektne ugovore tako da možete kreirati fakture za kupce na osnovu procenta dovršenog rada. Iznosi faktura se automatski izračunavaju za budžetske kategorije posla koje ste postavili za projekat. Vreme na fakturi se postavlja kada pregovarate sa klijentom o ugovoru o projektu.
 
-Koristite procedure u ovoj temi za postavljanje ugovora, pridruženog projekta i pravila obračuna koji izračunavaju iznose faktura za budžetske kategorije posla koje ste postavili za projekat.
+Koristite procedure iz ovog članka da biste podesili ugovor, pridruženi projekat i pravila naplate koja izračunavaju iznose fakture za kategorije rada koje ste podesili za projekat.
 
 Nakon što napravite ugovor i projekat, možete da podesite detalje o projektu. Na primer, možete definisati aktivnosti i dodeliti radnike projektu.
 

@@ -1,24 +1,24 @@
 ---
 title: Šta je novo u februaru 2022. – Project Operations jednostavna primena
-description: Ovaj tema pruža informacije o kvalitetnim ispravkama koje su dostupne u februaru 2022.
+description: Ovaj članak pruža informacije o kvalitetnim ispravkama koje su dostupne u februaru 2022.
 author: sigitac
 ms.date: 01/27/2021
 ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: af66a5f61adf4f016f3fa547bbdfc75d06b2711b
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 1203faa2dd53a8fb82cff0857a1725426ebff19a
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: sr-Latn-RS
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8574585"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8922837"
 ---
 # <a name="whats-new-february-2022---project-operations-lite-deployment"></a>Šta je novo u februaru 2022. – Project Operations jednostavna primena
 
 _Odnosi se na: Jednostavna primena – od pogodbe do profakture_
 
-Ova tema se odnosi na sledeće komponente i verzije korporacije Microsoft Dynamics 365 Project Operations:
+Ovaj članak se odnosi na sledeće komponente i verzije korporacije Microsoft Dynamics 365 Project Operations:
 
 - Operacije projekta u verziji Dataverse okruženja 4.28.0.120
 

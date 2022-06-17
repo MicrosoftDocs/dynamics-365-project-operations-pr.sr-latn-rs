@@ -1,6 +1,6 @@
 ---
 title: Nadogradnja sa automatizacije projektnih usluga na projektne operacije
-description: Ovaj tema obezbeđuje pregled procesa za nadogradnju sa na Microsoft Dynamics 365 Project Service Automation Dynamics 365 Project Operations.
+description: Ovaj članak pruža pregled procesa sa kojeg se može nadograditi Microsoft Dynamics 365 Project Service Automation na Dynamics 365 Project Operations.
 author: ruhercul
 ms.custom: dyn365-projectservice
 ms.date: 01/13/2022
@@ -16,16 +16,16 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: 3f31173197a3055cdc51567261dd91925fc9f430
-ms.sourcegitcommit: bec7382d1319d59645e8e79fdb20df58617c97c6
+ms.openlocfilehash: 30eb02240de6617d4c550ce59db2a454eee36f5b
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: sr-Latn-RS
-ms.lasthandoff: 04/21/2022
-ms.locfileid: "8626744"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8912993"
 ---
 # <a name="upgrade-from-project-service-automation-to-project-operations"></a>Nadogradnja sa automatizacije projektnih usluga na projektne operacije
 
-Uzbuđeni smo što ćemo objaviti prvu od tri faze za nadogradnju sa Microsoft Dynamics 365 Project Service Automation na Dynamics 365 Project Operations. Ovaj tema pruža pregled za kupce koji kreću na ovo uzbudljivo putovanje. Buduće teme će uključivati razmatranja projektanta i detalje o poboljšanjima funkcija. Oni ne samo da će vam pružiti smernice koje će vam pomoći da se pripremite za nadogradnju na operacije projekta, već će vam objasniti i šta možete očekivati nakon nadogradnje.
+Uzbuđeni smo što ćemo objaviti prvu od tri faze za nadogradnju sa Microsoft Dynamics 365 Project Service Automation na Dynamics 365 Project Operations. Ovaj članak pruža pregled za kupce koji kreću na ovo uzbudljivo putovanje. Budući članci će uključivati razmatranja projektanta i detalje o poboljšanjima funkcija. Oni ne samo da će vam pružiti smernice koje će vam pomoći da se pripremite za nadogradnju na operacije projekta, već će vam objasniti i šta možete očekivati nakon nadogradnje.
 
 Program za isporuku nadogradnje biće podeljen u tri faze.
 
@@ -90,7 +90,7 @@ Kada ažurirate prilagođavanja da biste čisto uvezli operacije projekta, pređ
     > [!NOTE]
     > U zavisnosti od količine podataka u okruženju, nadogradnja može da potraje nekoliko sati. Osnovni tim koji upravlja nadogradnjom treba da planira u skladu sa tim i da pokrene nadogradnju tokom neradnog radnog vremena. U nekim slučajevima, ako je volumen podataka veliki, nadogradnja bi trebalo da se pokrene tokom vikenda. Odluka o zakazivanju treba da bude zasnovana na rezultatima testiranja u nižim sredinama.
 
-3. Nadogradite prilagođena rešenja na odgovarajući način. U ovom trenutku, primenite sve promene koje ste napravili u prilagođavanjima [u odeljku Prilagođavanja testiranja i reaktorata](#testing-and-refactoring-customizations) ovog tema.
+3. Nadogradite prilagođena rešenja na odgovarajući način. U ovom trenutku, primenite sve promene koje ste načinili na prilagođavanjima [u odeljku Prilagođavanja testiranja i reaktora](#testing-and-refactoring-customizations) ovog članka.
 4. Idite na **rešenja** \> **za** postavke i izaberite da biste deinstalirali rešenje "**Neodobrene komponente operacija projekta**".
 
     Ovo rešenje je privremeno rešenje koje sadrži postojeći model podataka i komponente koje su prisutne tokom nadogradnje. Uklanjanjem ovog rešenja uklanjate sva polja i komponente koje se više ne koriste. Na taj način ćete pojednostaviti interfejs i olakšati integraciju i proširenje.
@@ -126,7 +126,6 @@ U okviru kontinuiranih investicija u projektne operacije, u naplati i cenama dos
 | Project Service Automation                             | Primena lite operacija projekta                        | Podržano               |
 | Dynamics 365 Finance upravljanje projektima i računovodstvo | Primena lite operacija projekta                        | Trenutno nije podržano |
 | Upravljanje i računovodstvo finansijskih projekata              | Project Operations za scenarije sa resursima/materijalima koji nisu na zalihama     | Trenutno nije podržano |
-| Upravljanje i računovodstvo finansijskih projekata              | Project Operations za scenarije sa materijalima na zalihama/porudžbinama za proizvodnju | Trenutno nije podržano |
 | Automatizacija usluge projekta 3.x                         | Project Operations za scenarije sa resursima/materijalima koji nisu na zalihama     | Trenutno nije podržano |
 | Projekat za Web (namensko okruženje)            | Primena lite operacija projekta                        | Trenutno nije podržano |
 

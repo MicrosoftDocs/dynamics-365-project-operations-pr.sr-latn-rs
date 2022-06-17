@@ -1,6 +1,6 @@
 ---
 title: Sinhronizuj procene projekta direktno iz automatizacije projektnih usluga u finansije i operacije
-description: Ovaj tema opisuje predloške i osnovne zadatke koji se koriste za sinhronizaciju procena časova projekta i procene troškova Microsoft Dynamics 365 Project Service Automation projekta direktno iz Dynamics 365 Finance.
+description: Ovaj članak opisuje predloške i osnovne zadatke koji se koriste za sinhronizaciju procena časova projekta i procene troškova Microsoft Dynamics 365 Project Service Automation projekta direktno iz Dynamics 365 Finance.
 author: Yowelle
 ms.date: 07/20/2018
 ms.topic: article
@@ -14,18 +14,18 @@ ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2016-11-28
 ms.dyn365.ops.version: AX 7.3.0
-ms.openlocfilehash: 47de3556034227e072d14dc93908edec42cec93c
-ms.sourcegitcommit: 2c2a5a11d446adec2f21030ab77a053d7e2da28e
+ms.openlocfilehash: fb39a377a51b09f04564b4fe8527e34f0ea12682
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: sr-Latn-RS
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8684613"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8920859"
 ---
 # <a name="synchronize-project-estimates-directly-from-project-service-automation-to-finance-and-operations"></a>Sinhronizuj procene projekta direktno iz automatizacije projektnih usluga u finansije i operacije
 
 [!include[banner](../includes/banner.md)]
 
-Ovaj tema opisuje predloške i osnovne zadatke koji se koriste za sinhronizaciju procena časova projekta i procene troškova Dynamics 365 Project Service Automation projekta direktno iz Dynamics 365 Finance.
+Ovaj članak opisuje predloške i osnovne zadatke koji se koriste za sinhronizaciju procena časova projekta i procene troškova Dynamics 365 Project Service Automation projekta direktno iz Dynamics 365 Finance.
 
 > [!NOTE]
 > - Integracija projektnih zadataka, kategorije transakcija troškova, procene radnih sati, procene troškova i zaključavanje funkcionalnosti dostupni su u verziji 8.0.

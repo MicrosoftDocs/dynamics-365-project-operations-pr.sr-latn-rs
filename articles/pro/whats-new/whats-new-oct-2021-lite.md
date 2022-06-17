@@ -1,24 +1,24 @@
 ---
 title: Šta je novo u oktobru 2021. – primena usluge Project Operations Lite
-description: Ova tema pruža informacije o ažuriranjima kvaliteta dostupnim u izdanju Project Operations Lite za oktobar 2021. godine.
+description: Ovaj članak pruža informacije o kvalitetnim ispravkama dostupnim u oktobru 2021.
 author: sigitac
 ms.date: 10/05/2021
 ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: d818ac832a9ccb7632f655e9d279b1d308f53827
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 7199853bea7e8e99a2a1ce19d6ce88736edb38f8
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: sr-Latn-RS
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8590964"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8921963"
 ---
 # <a name="whats-new-october-2021---project-operations-lite-deployment"></a>Šta je novo u oktobru 2021. – primena usluge Project Operations Lite
 
 _Odnosi se na: Jednostavna primena – od pogodbe do profakture_
 
-Ova tema se odnosi na sledeće komponente i verzije usluge Dynamics 365 Project Operations:
+Ovaj članak se odnosi na sledeće Dynamics 365 Project Operations komponente i verzije:
 
   - Project Operations u Microsoft Dataverse okruženju verzije 4.25.0.91
 

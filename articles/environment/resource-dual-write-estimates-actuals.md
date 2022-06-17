@@ -1,24 +1,24 @@
 ---
 title: Procene projekata i integracija stvarnih podataka
-description: Ova tema pruža informacije o Project Operations integraciji dvostrukog upisivanja za procene projekata i stvarne podatke.
+description: Ovaj članak pruža informacije o integraciji dvostrukog pisanja operacija projekta za procene projekta i stvarne vrednosti.
 author: sigitac
 ms.date: 4/26/2021
 ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 5aaa59020427438fa6ebab3789fbb70c5b86e272
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 43c868b051bf141cfc3211669c0a44333b4b2c65
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: sr-Latn-RS
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8577207"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8914603"
 ---
 # <a name="project-estimates-and-actuals-integration"></a>Procene projekata i integracija stvarnih podataka
 
 _**Odnosi se na:** Project Operations za scenarije zasnovane na resursima / bez zaliha_
 
-Ova tema pruža informacije o Project Operations integraciji dvostrukog upisivanja za procene projekata i stvarne podatke.
+Ovaj članak pruža informacije o integraciji dvostrukog pisanja operacija projekta za procene projekta i stvarne vrednosti.
 
 ## <a name="project-estimates"></a>Procene za projekat
 

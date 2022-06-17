@@ -1,6 +1,6 @@
 ---
 title: Napredak projekta i troškovi korišćenja
-description: Ova tema pruža informacije o praćenju napretka projekta i troškova korišćenja.
+description: Ovaj članak pruža informacije o praćenju napretka projekta i potrošnje troškova.
 author: ruhercul
 ms.custom:
 - dyn365-projectservice
@@ -17,12 +17,12 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: 56b78aa70f23a9a723f008973678bb29c4bbce1d
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: afcac5e6fbb7ed8a5a5f7f5876c6035b59eebcc2
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: sr-Latn-RS
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8575275"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8921779"
 ---
 # <a name="project-progress-and-cost-consumption"></a>Napredak projekta i troškovi korišćenja
 
@@ -30,7 +30,7 @@ ms.locfileid: "8575275"
 
 [!INCLUDE[cc-applies-to-psa-app-3.x](../includes/cc-applies-to-psa-app-3x.md)]
 
-Potreba da se prati napredak u odnosu na raspored razlikuje se od delatnosti do delatnosti. Neke delatnosti obavljaju praćenje na najdetaljnijem nivou, dok druge to rade na višem nivou. Ova tema pokazuje kako obaviti zakazivanje da biste ispunili potrebe svoje organizacije.
+Potreba da se prati napredak u odnosu na raspored razlikuje se od delatnosti do delatnosti. Neke delatnosti obavljaju praćenje na najdetaljnijem nivou, dok druge to rade na višem nivou. Ovaj članak prikazuje kako se planira da bi se ispunili zahtevi vaše organizacije.
 
 ## <a name="effort-tracking-view"></a>Prikaz za praćenje angažovanja
 

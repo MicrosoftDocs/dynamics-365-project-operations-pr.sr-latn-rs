@@ -1,17 +1,17 @@
 ---
 title: Veštine i certifikati
-description: Ova tema pruža informacije o dodavanju veština i karakteristika certifikovanja resursima.
+description: Ovaj članak pruža informacije o dodavanju karakteristika veština i certifikacija resursima.
 author: ruhercul
 ms.date: 10/01/2020
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: ruhercul
-ms.openlocfilehash: 836784bf45ba45da35d685e9372b29bb843a7268
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 12871964fec536849c55888f0704725b439dd2af
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: sr-Latn-RS
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8594273"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8918376"
 ---
 # <a name="skills-and-certifications"></a>Veštine i certifikati
 _**Odnosi se na:** Project Operations za resurs/scenarije koji nisu zasnovani na zalihama, laganu primenu – od pogodbe do profakture_

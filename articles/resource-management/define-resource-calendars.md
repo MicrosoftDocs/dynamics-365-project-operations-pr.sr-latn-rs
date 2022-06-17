@@ -1,17 +1,17 @@
 ---
 title: Definisanje kalendara resursa
-description: Ova tema pruža informacije o tome kako se definišu kalendari radnog vremena za resurse u usluzi Project Operations.
+description: Ovaj članak pruža informacije o definisanju kalendara radnog sata za resurse u operacijama projekta.
 author: ruhercul
 ms.date: 10/05/2020
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: ruhercul
-ms.openlocfilehash: 58247bece5d424c07fc8f864ec6e541d6ac3fb37
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: f032f956f0e87e5ddd16fc222c2750cb01c5716f
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: sr-Latn-RS
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8593307"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8922423"
 ---
 # <a name="define-resource-calendars"></a>Definisanje kalendara resursa
 

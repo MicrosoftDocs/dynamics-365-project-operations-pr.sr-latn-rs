@@ -1,6 +1,6 @@
 ---
 title: Dodavanje prilagođenih polja u podešavanje cena i entitete transakcije
-description: Ova tema pruža informacije o dodavanju prilagođenih polja u podešavanje cena i entitete transakcije.
+description: Ovaj članak pruža informacije o dodavanju prilagođenih polja u podešavanje cena i transakcionim entitetima.
 author: Rumant
 ms.custom:
 - dyn365-projectservice
@@ -16,20 +16,20 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: cb4a99b10e5d0c79e80bcd46d2f60ccdab4487aa
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: b666d1767306b9833fba36c6ed2c59a633c5fdf0
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: sr-Latn-RS
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8596941"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8920491"
 ---
 # <a name="add-custom-fields-to-price-setup-and-transactional-entities"></a>Dodavanje prilagođenih polja u podešavanje cena i entitete transakcije 
 
 [!include [banner](../includes/psa-now-project-operations.md)]
 
-Ova tema pretpostavlja da ste dovršili procedure u temi [Kreiranje prilagođenih polja i entiteta](create-custom-fields-entities.md). Ako niste dovršili te procedure, vratite se i dovršite ih, a zatim se vratite na ovu temu. 
+Ovaj članak pretpostavlja da ste dovršili procedure u članku Kreirajte prilagođena [polja i entitete](create-custom-fields-entities.md). Ako niste završili te procedure, vratite se i dovršite ih, a zatim se vratite na ovaj članak. 
 
-U ovoj temi, procedure će vam pokazati kako možete da dodate zahtevane reference prilagođenog polja u entitete i elemente korisničkog interfejsa kao što su obrasci i prikazi.
+U ovom članku, procedure će vam pokazati kako da entitetima i elementima korisničkog interfejsa (korisničkog interfejsa) dodate potrebne reference na prilagođena polja, kao što su obrasci i prikazi.
 
 ## <a name="add-custom-pricing-dimension-fields"></a>Dodavanje prilagođenog polja dimenzija za određivanje cena 
 Nakon kreiranja prilagođenih polja i entiteta, sledeći korak jeste da podešavanje cena i transakcioni entiteti postanu svesni svih prilagođenih entiteta ili skupova opcija kreiranjem referentnih polja. U zavisnosti od toga da li lista dimenzija za određivanje cena uključuje dimenzije skupa opcija, dimenzije entiteta ili oboje, sledite samo korake u prilagođenim dimenzijama za određivanje cena **Prilagođene dimenzije za određivanje cena zasnovane na skupu opcija** ili **Prilagođene dimenzije za određivanje cena zasnovane na entitetu**.

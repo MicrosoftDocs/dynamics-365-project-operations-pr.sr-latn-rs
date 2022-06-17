@@ -1,6 +1,6 @@
 ---
 title: Podešavanje prilagođenih polja kao dimenzija za određivanje cena
-description: Ova tema pruža informacije o tome kako da podesite dimenzije za određivanje cena pomoću prilagođenih polja.
+description: Ovaj članak pruža informacije o tome kako da podesite dimenzije cena pomoću prilagođenih polja.
 author: rumant
 ms.date: 09/18/2020
 ms.topic: article
@@ -15,20 +15,20 @@ ms.search.industry: Service industries
 ms.author: rumant
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: 41c65d6bf64d8a81759239f2a31f3a68953181c8
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 0c0c43e483ebcb016747e533d685f13fd5dd8700
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: sr-Latn-RS
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8599425"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8917593"
 ---
 # <a name="set-up-custom-fields-as-pricing-dimensions"></a>Podešavanje prilagođenih polja kao dimenzija za određivanje cena
 
-_**Odnosi se na:** Project Operations za resurs/scenarije koji nisu zasnovani na zalihama, laganu primenu – od pogodbe do profakture_
+_**Odnosi se na:** Project Operations za scenarije zasnovane na resursima/bez zaliha, jednostavna primena – od pogodbe do profakture_
 
-Pre nego što počnete, ova tema pretpostavlja da ste dovršili procedure u temama [Kreiranje prilagođenih polja i entiteta](create-custom-fields-entities-pricing-dimensions.md) i [Dodavanje obaveznih prilagođenih polja u podešavanje cena i entitete transakcije](add-custom-fields-price-setup-transactional-entities.md). Ako niste dovršili te procedure, vratite se i dovršite ih, a zatim se vratite na ovu temu. 
+Pre nego što počnete, ovaj članak pretpostavlja da ste dovršili procedure u člancima, [kreirajte prilagođena polja i entitete i dodajte potrebna prilagođena polja](create-custom-fields-entities-pricing-dimensions.md)[u podešavanje cena i transakcione entitete](add-custom-fields-price-setup-transactional-entities.md). Ako niste završili te procedure, vratite se i dovršite ih, a zatim se vratite na ovaj članak. 
 
-Ova tema pruža informacije o podešavanju prilagođenih dimenzija za određivanje cena. Na stranici **Parametri**, na kartici **Dimenzije za određivanje cena zasnovane na iznosima**, prikazuju se zapisi u entitetima dimenzije za određivanje cena. Na mreži se na ovoj kartici podrazumevano nalaze dva reda u mreži:
+Ovaj članak pruža informacije o podešavanju prilagođenih dimenzija cena. Na stranici **Parametri**, na kartici **Dimenzije za određivanje cena zasnovane na iznosima**, prikazuju se zapisi u entitetima dimenzije za određivanje cena. Na mreži se na ovoj kartici podrazumevano nalaze dva reda u mreži:
 
 - **msdyn_resourcecategory** (uloga)
 - **msdyn_OrganizationalUnit** (organizaciona jedinica)

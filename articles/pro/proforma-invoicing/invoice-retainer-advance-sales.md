@@ -1,17 +1,17 @@
 ---
-title: Fakturišite avansnu uplatu ili avans
-description: Ova tema pruža informacije o tome kako da fakturišete odbitak ili avans u usluzi Project Operations.
+title: Fakturisanje avansne uplate ili avansa
+description: Ovaj članak pruža informacije o tome kako da fakturišete prodavca ili avans u operacijama projekta.
 author: rumant
 ms.date: 10/20/2020
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: aa659ebfa6d848f312caa1d197404d77b1f6ee21
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 044186d5c7759866dec3883103acec19cb571c11
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: sr-Latn-RS
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8590593"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8914511"
 ---
 # <a name="invoice-a-retainer-or-an-advance"></a>Fakturisanje avansne uplate ili avansa
 

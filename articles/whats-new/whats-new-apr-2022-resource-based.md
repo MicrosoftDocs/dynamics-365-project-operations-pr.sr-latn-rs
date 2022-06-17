@@ -1,24 +1,24 @@
 ---
 title: Šta je novo u aprilu 2022. – Project Operations za scenarije zasnovane na resursima / bez zaliha
-description: Ova tema pruža informacije o kvalitetnim ispravkama koje su dostupne u izdanju korporacije Microsoft u aprilu Dynamics 365 Project Operations 2022.
+description: Ovaj članak pruža informacije o kvalitetnim ispravkama koje su dostupne u izdanju korporacije Microsoft Dynamics 365 Project Operations u aprilu 2022.
 author: sigitac
 ms.date: 04/08/2022
 ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: dc713e7a0dd6993e38ce3e3b2ba19f796a6f4773
-ms.sourcegitcommit: 9916f536a71b6a0078297402564ac79308ec6890
+ms.openlocfilehash: 5ea1c96d64309990962f431b1c72ae47bf445bfa
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: sr-Latn-RS
-ms.lasthandoff: 04/18/2022
-ms.locfileid: "8613353"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8912395"
 ---
 # <a name="whats-new-april-2022---project-operations-for-resourcenon-stocked-based-scenarios"></a>Šta je novo u aprilu 2022. – Project Operations za scenarije zasnovane na resursima / bez zaliha
 
 _**Odnosi se na:** Project Operations za scenarije zasnovane na resursima / bez zaliha_
 
-Ova tema se odnosi na sledeće komponente i verzije korporacije Microsoft Dynamics 365 Project Operations:
+Ovaj članak se odnosi na sledeće komponente i verzije korporacije Microsoft Dynamics 365 Project Operations:
 
 - Operacije projekta u verziji Dataverse okruženja 4.41.0.45
 - Upravljanje projektima i računovodstvo u Dynamics 365 Finance okruženju verzija 10.0.26

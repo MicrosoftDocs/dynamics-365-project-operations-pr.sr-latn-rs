@@ -1,17 +1,17 @@
 ---
 title: Prijavljivanje za pretplate na verziju za pregled usluge Project Operations za scenarije resursa / bez zaliha
-description: Ova tema pruža informacije o načinu pretplate i primene usluge Project Operations za scenarije zasnovane na resursima / bez zaliha.
+description: Ovaj članak pruža informacije o tome kako da se pretplatite i primenite operacije projekta za scenarije zasnovane na ponovnom korišćenju/nenabavezivo.
 author: sigitac
 ms.date: 07/02/2021
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 9094b6928c5c276a40166ef5d8cb0facb539685b
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: fb196a50b4cb9e8533db52414e8536d77a30e425
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: sr-Latn-RS
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8575827"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8920123"
 ---
 # <a name="sign-up-for-project-operations-preview-subscriptions-for-resource-non-stocked-scenarios"></a>Prijavljivanje za pretplate na verziju za pregled usluge Project Operations za scenarije resursa / bez zaliha
 
@@ -19,7 +19,7 @@ _**Odnosi se na:** Project Operations za scenarije zasnovane na resursima / bez 
 
 
 
-Ova tema objašnjava kako da se pretplatite na ponudu probne verzije i primeniti Project Operations okruženje za scenarije zasnovane na resursima / bez zaliha.
+Ovaj članak sadrži objašnjenja o tome kako da se pretplatite na probnu ponudu i primenite okruženje projektnih operacija za scenarije zasnovane na resursima/nenapuštenicima.
 
 ## <a name="prerequisites"></a>Preduslovi
 - Korisnik koji primeni verziju za pregled mora da ima globalna administratorska prava u Azure zakupcu. Zakupca možete kreirati tokom prvog iskorišćavanja ponude. 
@@ -60,19 +60,19 @@ Idite na [probnu verziju za pregled usluge Dynamics 365 for Finance](https://aka
 
 ## <a name="start-a-new-project-in-lcs"></a>Započnite novi projekat u LCS
 
-Napravite novi LCS projekat kako je opisano u temi [Započnite novi projekat u LCS](create-lcs-project.md)
+Kreirajte novi LCS projekat kao što je opisano u članku, Započnite [novi projekat u LCS-u](create-lcs-project.md)
 
 ## <a name="add-an-azure-subscription-to-an-lcs-project"></a>Dodajte Azure pretplatu u LCS projekat
 
-Da biste dovršili ovaj zadatak, sledite korake u temi [Dodavanje Azure pretplate u LCS projekat](resource-add-azure-subscription-lcs-project.md).
+Da biste dovršili ovaj zadatak, sledite korake u članku, [dodajte Azure pretplatu na LCS projekat](resource-add-azure-subscription-lcs-project.md).
 
 ## <a name="deploy-finance-demo-environment-with-project-operations-for-resourcenon-stocked-scenarios"></a>Primenite Finance demo okruženje sa uslugom Project Operations za scenarije resursa / bez zaliha
 
-Sledite smernice u temi [Obezbeđenje novog okruženja](resource-provision-new-environment.md) da biste završili primenu. Koristite tip primene [demo okruženje](/dynamics365/fin-ops-core/dev-itpro/deployment/deploy-demo-environment) za pregled. 
+Sledite smernice u članku, obezbedite [novo okruženje da biste](resource-provision-new-environment.md) dovršili primenu. Koristite tip primene [demo okruženje](/dynamics365/fin-ops-core/dev-itpro/deployment/deploy-demo-environment) za pregled. 
 
 ## <a name="install-cds-setup-and-configuration-data"></a>Instalirajte podatke o podešavanju i konfiguraciji CDS
 
-Instalirajte podatke o podešavanju i konfiguraciji CDS kako je opisano u temi [Podesite i primenite podatke o konfiguraciji u usluzi Common Data Service](resource-apply-pro-setup-config-data.md).
+Instalirajte podatke o podešavanju i konfiguraciji CDS-a kao što je opisano u članku, Podesite [i primenite podatke o konfiguraciji u programu Common Data Service](resource-apply-pro-setup-config-data.md).
 Dovršite ovaj korak tek nakon što se primeni demo okruženje usluge Finance i demo podaci budu spremni.
 
 

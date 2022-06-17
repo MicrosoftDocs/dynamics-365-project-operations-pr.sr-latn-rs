@@ -1,18 +1,18 @@
 ---
 title: Integracija fakture dobavljača
-description: Ova tema pruža informacije o integraciji fakture dobavljača u Project Operations.
+description: Ovaj članak pruža informacije o integraciji faktura dobavljača u projektne operacije.
 author: sigitac
 ms.date: 04/27/2021
 ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 8650eed2230b99b821c1635fdc88252bb65c5583
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: d1e41638b6fe827e9e577860a78a84a9948053e4
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: sr-Latn-RS
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8591192"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8912073"
 ---
 # <a name="vendor-invoice-integration"></a>Integracija fakture dobavljača
 
@@ -21,7 +21,7 @@ _**Odnosi se na:** Project Operations za scenarije zasnovane na resursima / bez 
 Nabavka u vezi sa projektom u Dynamics 365 Project Operations može se snimiti odlaskom na **Dugovanja** > **Fakture** > **Fakture dobavljača na čekanju** i korišćenjem dokumenta fakture dobavljača na čekanju. Za više informacija pogledajte [Kupujte neskladišteni materijal koristeći fakturu dobavljača na čekanju](../procurement/pending-vendor-invoices.md).
 
 > [!IMPORTANT]
-> Pre nego što upotrebite funkcionalnost opisanu u ovoj temi, pregledajte i primenite potrebne konfiguracije. Za više informacija pogledajte [Omogućite neskladišteni materijal i fakture dobavljača na čekanju](../procurement/configure-materials-nonstocked.md).
+> Pre nego što upotrebite funkcionalnost opisanu u ovom članku, pregledajte i primenite potrebne konfiguracije. Za više informacija pogledajte [Omogućite neskladišteni materijal i fakture dobavljača na čekanju](../procurement/configure-materials-nonstocked.md).
 
 U Project Operations, fakture dobavljača u vezi sa projektom objavljuju se koristeći posebna pravila knjiženja:
 

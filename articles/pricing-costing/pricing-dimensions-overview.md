@@ -1,18 +1,18 @@
 ---
 title: Pregled dimenzija za određivanje cena
-description: Ova tema pruža informacije o dimenzijama za određivanje cena u usluzi Dynamics 365 Project Operations.
+description: Ovaj članak pruža informacije o dimenzijama cena u programu Dynamics 365 Project Operations.
 author: rumant
 ms.date: 11/30/2020
 ms.topic: overview
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: 5f1fa83b52c3812f26e3ab75a8b08ebd40d82aa8
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 294dcff8e9717aaa3a0459daf87cb7d608c96106
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: sr-Latn-RS
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8579277"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8918053"
 ---
 # <a name="pricing-dimensions-overview"></a>Pregled dimenzija za određivanje cena
 
@@ -34,7 +34,7 @@ Dynamics 365 Project Operations obavlja isporuku pomoću podrazumevanog skupa di
 
 ![Snimak ekrana Project Service parametara sa markiranom stavkom „Primenljivo na prodaju“.](media/PS-OOB-parameters.png)
 
-Ako je potrebno da odredite cenu ili troškove resursa pomoću dodatnih atributa, možete da kreirate prilagođena polja, entitete i dimenzije. Pogledajte sledeći odeljak za više informacija. 
+Ako je potrebno da odredite cenu ili troškove resursa pomoću dodatnih atributa, možete da kreirate prilagođena polja, entitete i dimenzije. Više informacija potražite u sledećim člancima. 
   
   > [!NOTE]
   > Postupci moraju biti završeni kako bi bili navedeni.

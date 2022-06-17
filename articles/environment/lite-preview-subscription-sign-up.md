@@ -1,21 +1,21 @@
 ---
-title: Prijavljivanje za pretplatu na pregled – jednostavno
-description: Ova tema pruža informacije o tome kako da se pretplatite i primenite uslugu Project Operations Lite – od pogodbe do profakture.
+title: Upisivanje za pretplatu na verziju za pregled – jednostavno
+description: Ovaj članak pruža informacije o tome kako da se pretplatite i primenite Project Operations lite deployment - dogovor za proforma fakturisanje.
 author: sigitac
 ms.date: 07/02/2021
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 3b06ac29e8021967490534d3aefc8b5ce733413b
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 6953956c0b3401a6c64ee597f966ba4a4c0d07b5
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: sr-Latn-RS
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8588017"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8921273"
 ---
 # <a name="sign-up-for-a-preview-subscription---lite"></a>Upisivanje za pretplatu na verziju za pregled – jednostavno 
 
-Ova tema objašnjava kako da se pretplatite na ponudu probne verzije i primenite Dynamics 365 Project Operations jednostavnu primenu – od pogodbe do profakture.
+Ovaj članak sadrži objašnjenja o tome kako da se pretplatite na probnu ponudu Dynamics 365 Project Operations i rasporedite raspoređivanje lite - dogovor sa proforma fakturisanjem.
 
 > [!NOTE]
 > Ovaj postupak će se promeniti u predstojećim izdanjima usluge Project Operations.
@@ -50,7 +50,7 @@ Pre nego što započnete, uverite se da ste prijavljeni u pregledač sa korisni�
 
 ## <a name="create-a-new-dataverse-environment"></a>Napravite novo Dataverse okruženje
 
-1. Obezbedite novo okruženje za primenu usluge Project Operations Dataverse prateći uputstva u temi [Model primene za Dataverse](lite-deployment.md). Kada odaberete tip okruženja, obavezno koristite **probnu verziju (zasnovano na pretplati)**.
+1. Obezbedite novo okruženje za primenu Dataverse operacija projekta sledeći uputstva u članku, [Dataverse model primene](lite-deployment.md). Kada odaberete tip okruženja, obavezno koristite **probnu verziju (zasnovano na pretplati)**.
 
   ![Novo okruženje.](./media/19CreateEnvironment.png)
 
@@ -65,7 +65,7 @@ Pre nego što započnete, uverite se da ste prijavljeni u pregledač sa korisni�
 
 ## <a name="install-a-cds-configuration-and-setup-demo-data"></a>Instaliranje CDS konfiguracije i podešavanje demo podataka
 
-Instalirajte CDS konfiguraciju i podesite demo podatke prateći uputstva u temi [Primenite demo podešavanja i podataka o konfiguraciji](lite-apply-demo-setup-config-data.md).
+Instalirajte konfiguraciju CDS-a i podesite demo podatke sledeći uputstva u članku, primenite podatke [o podešavanju demonstracije i konfiguraciji](lite-apply-demo-setup-config-data.md).
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

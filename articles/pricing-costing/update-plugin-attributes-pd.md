@@ -1,33 +1,33 @@
 ---
 title: Ažuriranje atributa dodatnih komponenti sa novim aspektima za određivanje cena
-description: Ova tema pruža informacije o tome kako da ažurirate atribute dodatnih komponenti za dimenzije određivanja cena.
+description: Ovaj članak pruža informacije o ažuriranju atributa dodatne komponente za dimenzije cena.
 author: rumant
 ms.date: 11/18/2020
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: b3b441b9ea0418e10db80a86613b2c41ea2c4673
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 2ae502fea533d9f199ef5ee1cc85b623f08cbd84
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: sr-Latn-RS
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8575045"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8920031"
 ---
 # <a name="update-plug-in-attributes-with-new-pricing-dimensions"></a>Ažurirajte atribute dodatnih komponenti sa novim aspektima za određivanje cena
 
-Ova tema pruža informacije o tome kako da ažurirate atribute dodatnih komponenti za dimenzije određivanja cena.
+Ovaj članak pruža informacije o ažuriranju atributa dodatne komponente za dimenzije cena.
 
 > [!NOTE]
-> Ova tema je primenljiva samo na funkcije ponude i ugovora u usluzi Dynamics 365 Project Operations.
+> Ovaj članak je primenljiv samo na funkcije ponude i ugovora u programu Dynamics 365 Project Operations.
 
 ## <a name="prerequisites"></a>Preduslovi
-Pre nego što dovršite korake u ovoj temi, morate dovršiti procedure u sledećim temama:
+Pre nego što dovršite korake iz ovog članka, morate dovršiti procedure u sledećim člancima:
 
   - [Kreiranje prilagođenih polja i entiteta](create-custom-fields-entities-pricing-dimensions.md) 
   - [Dodavanje prilagođenih polja u podešavanje cena i entitete transakcije ](add-custom-fields-price-setup-transactional-entities.md)
   - [Podešavanje prilagođenih polja kao dimenzija za određivanje cena](set-up-custom-fields-pricing-dimensions.md). 
   
-Ako niste dovršili te procedure, dovršite ih, a zatim se vratite na ovu temu.
+Ako niste dovršili te procedure, dovršite ih, a zatim se vratite na ovaj članak.
 
 ## <a name="register-a-plug-in"></a>Registrovanje dodatne komponente
 Kada kreirate detalj stavke ponude na stranici **Stavka ponude** za stavku ponude projekta, sistem kreira dve stavke procene. Jedna stavka je za troškovnu stranu procene, a druga stavka za prodajnu stranu. Ovo je isto za predmete ugovora o projektu.

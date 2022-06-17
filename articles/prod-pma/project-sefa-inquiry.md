@@ -1,6 +1,6 @@
 ---
 title: Raspored troškova istrage savezne pomoći
-description: Ova tema pruža informacije o Rasporedu troškova istrage savezne pomoći.
+description: Ovaj članak pruža informacije o rasporedu troškova federalnih nagrada.
 author: velofog
 ms.date: 04/2/2020
 ms.topic: article
@@ -17,12 +17,12 @@ ms.search.industry: public sector
 ms.author: andchoi
 ms.search.validFrom: 2020-4-01
 ms.dyn365.ops.version: 10.0.11
-ms.openlocfilehash: b88c97f3dcb1020ccf17788256990485580f6964
-ms.sourcegitcommit: 2c2a5a11d446adec2f21030ab77a053d7e2da28e
+ms.openlocfilehash: 00f9e97b9a6b3e8fe5e9cf9143e670612869b84c
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: sr-Latn-RS
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8684475"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8916673"
 ---
 # <a name="schedule-of-expenditures-of-federal-awards-inquiry"></a>Raspored troškova istrage savezne pomoći
 

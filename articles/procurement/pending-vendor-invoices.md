@@ -1,18 +1,18 @@
 ---
 title: Nabavka nefakturisanih materijala ili kategorija nabavki pomoću neobrađene fakture dobavljača
-description: Ova tema objašnjava kako da snimite fakture dobavljača na čekanju.
+description: Ovaj članak sadrži objašnjenja o tome kako da zabeleže neobrađene fakture dobavljača.
 author: sigitac
 ms.date: 09/13/2021
 ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: e81f7a54e304ae6fc9a9f2637124579b6e7b54e9
-ms.sourcegitcommit: 9916f536a71b6a0078297402564ac79308ec6890
+ms.openlocfilehash: b1c05755f6759e90e031a11261f15a2c4b6b716e
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: sr-Latn-RS
-ms.lasthandoff: 04/18/2022
-ms.locfileid: "8612674"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8922009"
 ---
 # <a name="purchase-non-stocked-materials-or-procurement-categories-using-a-pending-vendor-invoice"></a>Nabavka nefakturisanih materijala ili kategorija nabavki pomoću neobrađene fakture dobavljača
 
@@ -23,7 +23,7 @@ Kako preduzeće nabavlja nenapuštene materijale ili kategorije nabavki za proje
 Na primer, preduzeće Contoso Robotics US izvodi projekat obnove opreme i potrebne su mu softverske licence. Ove licence se nabavljaju od nezavisnog dobavljača.  Koristeći Dynamics 365 Finance, službenik koji plaća račune zapisuje dokument fakture dobavljača na čekanju i pripisuje troškove licenciranja direktno u odnosu na projekat obnavljanja opreme. 
 
 > [!IMPORTANT]
-> Pre nego što upotrebite funkcionalnost opisanu u ovoj temi, pregledajte i primenite potrebne konfiguracije. Više informacija potražite u članku Omogućavanje [nefakturisanih materijala i neobrađenih faktura dobavljača](configure-materials-nonstocked.md)[i Korišćenje kategorija nabavki sa izlaznim porudžbinama projekta i neobrađenim fakturama dobavljača](configure-procurement-categories.md)
+> Pre nego što upotrebite funkcionalnost opisanu u ovom članku, pregledajte i primenite potrebne konfiguracije. Više informacija potražite u članku Omogućavanje [nefakturisanih materijala i neobrađenih faktura dobavljača](configure-materials-nonstocked.md)[i Korišćenje kategorija nabavki sa izlaznim porudžbinama projekta i neobrađenim fakturama dobavljača](configure-procurement-categories.md)
 
 ## <a name="post-a-project-related-pending-vendor-invoice"></a>Pošaljite fakturu dobavljača na čekanju u vezi sa projektom 
 

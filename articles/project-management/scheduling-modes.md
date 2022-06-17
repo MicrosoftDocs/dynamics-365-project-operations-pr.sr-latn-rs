@@ -1,17 +1,17 @@
 ---
 title: Režimi planiranja
-description: Ova tema pruža informacije o režimima planiranja.
+description: Ovaj članak pruža informacije o režimima zakazivanja.
 author: ruhercul
 ms.date: 05/28/2021
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: ruhercul
-ms.openlocfilehash: cb507528c4815f5149c813bba0a354f7d840a4a5
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 3cbe14f8d458c5d9631e0595912afa8cbb87b9de
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: sr-Latn-RS
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8588431"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8923665"
 ---
 # <a name="scheduling-modes"></a>Režimi planiranja
 
@@ -38,7 +38,7 @@ Kada definišete režim zakazivanja projekta, postavljate jednu od ovih vrednost
 | Zadatak fiksnog angažovanja    | Trajanje je preračunato. | Jedinice se preračunavaju.    | Trajanje je preračunato. |
 | Zadatak fiksnog trajanja  | Napor se preračunava.   | Napor se preračunava.    | Jedinice se preračunavaju.   |
 
-Za više informacija o implikacijama datog režima pogledajte [Promenite tip zadatka za tačnije raspoređivanje](https://support.microsoft.com/en-us/office/change-the-task-type-for-more-accurate-scheduling-b0b969ad-45bc-4e9e-8967-435587548a72). U temi se pojam **Posao** koristi umesto **Napor**.
+Za više informacija o implikacijama datog režima pogledajte [Promenite tip zadatka za tačnije raspoređivanje](https://support.microsoft.com/en-us/office/change-the-task-type-for-more-accurate-scheduling-b0b969ad-45bc-4e9e-8967-435587548a72). U članku se umesto napora **koristi** termin **Rad**.
 
 ## <a name="change-the-organizations-scheduling-mode"></a>Promenite režim zakazivanja organizacije
 

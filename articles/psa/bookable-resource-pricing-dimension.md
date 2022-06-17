@@ -1,6 +1,6 @@
 ---
 title: Korišćenje resursa koji se može rezervisati kao dimenzije za određivanje cena
-description: Ova tema pruža informacije o korišćenju resursa koji se može rezervisati kao dimenzije za određivanje cena.
+description: Ovaj članak pruža informacije o korišćenju resursa koji se može rezervisati kao dimenzije cena.
 author: Rumant
 ms.custom:
 - dyn365-projectservice
@@ -16,18 +16,18 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: 7b07ac8659c9eccf3db41775acf5ca2043016a59
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: becb64bb137079422a765dd7cd61369297e1ffb1
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: sr-Latn-RS
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8576425"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8916121"
 ---
 # <a name="use-bookable-resource-as-a-pricing-dimension"></a>Korišćenje resursa koji se može rezervisati kao dimenzije za određivanje cena
 
 [!include [banner](../includes/psa-now-project-operations.md)]
 
-Ova tema pruža informacije o korišćenju resursa koji se može rezervisati kao dimenzije za određivanje cena. Pre nego što počnete, ako još niste kreirali rešenje sa dimenzijama za određivanje cena, moraćete da kreirate novo. Ako već imate rešenje sa dimenzijama za određivanje cena, onda možete da unesete promene u njega. Ako niste kreirali novo rešenje sa dimenzijama za određivanje cena za organizaciju, dovršite procedure u temi [Kreiranje prilagođenih polja i entiteta](create-custom-fields-entities.md).
+Ovaj članak pruža informacije o korišćenju resursa koji se može rezervisati kao dimenzije cena. Pre nego što počnete, ako još niste kreirali rešenje sa dimenzijama za određivanje cena, moraćete da kreirate novo. Ako već imate rešenje sa dimenzijama za određivanje cena, onda možete da unesete promene u njega. Ako niste kreirali novo rešenje dimenzije cena za vašu organizaciju, dovršite procedure u članku [Kreiranje prilagođenih polja i entiteta](create-custom-fields-entities.md).
 
 ## <a name="add-bookable-resource-to-forms-and-views"></a>Dodavanje resursa koji se može rezervisati u obrasce i prikaze
 Da bi polja bila vidljiva u korisničkom interfejsu u rešenju za dimenziju određivanja cena, moraćete da prođete kroz sve obrasce i prikaze ključnih Project Service entiteta i dodate ta polja u obrasce i prikaze tih entiteta.

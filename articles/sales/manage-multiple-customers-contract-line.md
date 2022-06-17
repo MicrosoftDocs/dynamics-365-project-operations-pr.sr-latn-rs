@@ -1,17 +1,17 @@
 ---
 title: Upravljanje većim brojem klijenata u predmetima ugovora zasnovanim na projektu
-description: Ova tema pruža informacije o radu sa predmetima ugovora i ugovorima koji sadrže više klijenata.
+description: Ovaj članak pruža informacije o radu sa redovima ugovora i ugovorima koji sadrže više kupaca.
 author: rumant
 ms.date: 10/22/2020
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: f1efa9e5b5ad432e1564fb3d8db0405134a4dc73
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 0e0652d4b9cdb0489d4f191ef0f3b251e39262f5
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: sr-Latn-RS
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8584935"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8914879"
 ---
 # <a name="manage-multiple-customers-on-project-based-contract-lines"></a>Upravljanje većim brojem klijenata u predmetima ugovora zasnovanim na projektu
 

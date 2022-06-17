@@ -1,6 +1,6 @@
 ---
 title: Planiranje rada u programu Microsoft Project pomoću programskog dodatka za Project Service
-description: Ova tema pruža informacije o tome kako da koristite programski dodatak Microsoft Project u programu Microsoft Project Service.
+description: Ovaj članak pruža informacije o korišćenju Microsoft Project programskog dodatka za Microsoft Project uslugu.
 author: ruhercul
 ms.custom:
 - dyn365-projectservice
@@ -17,12 +17,12 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: 1b1c9861f2a3fbb62b29ccad272dab28dc766439
-ms.sourcegitcommit: 30242d7754bca300b594b0887eb4212d10bea1c4
+ms.openlocfilehash: 779d83a896dd7d92c6584e6f1c57b1ea567e9051
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: sr-Latn-RS
-ms.lasthandoff: 05/07/2022
-ms.locfileid: "8728021"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8911015"
 ---
 # <a name="plan-your-work-in-microsoft-project-with-the-project-service-add-in"></a>Planiranje rada u programu Microsoft Project pomoću programskog dodatka za Project Service
 

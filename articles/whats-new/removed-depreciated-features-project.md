@@ -1,24 +1,24 @@
 ---
 title: Uklonjene ili neodobrene funkcije u Dynamics 365 Project Operations
-description: Ovaj tema opisuje funkcije koje su uklonjene ili koje su planirane za uklanjanje iz programa Dynamics 365 Project Operations.
+description: Ovaj članak opisuje funkcije koje su uklonjene ili koje su planirane za uklanjanje iz programa Dynamics 365 Project Operations.
 author: sigitac
 ms.date: 03/16/2022
 ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 61bb84b94274762636eb8532f09634db1109e969
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: df9d8a40fa853e72416e64846bf59748815048be
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: sr-Latn-RS
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8601587"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8921503"
 ---
 # <a name="removed-or-deprecated-features-in-dynamics-365-project-operations"></a>Uklonjene ili neodobrene funkcije u Dynamics 365 Project Operations
 
 _**Odnosi se na:** Project Operations za scenarije zasnovane na resursima/bez zaliha, jednostavna primena – od pogodbe do profakture, kao i Project Operations za scenarije zasnovane na zalihama/proizvodnji_
 
-Ovaj tema opisuje funkcije koje su uklonjene ili koje su planirane za uklanjanje iz programa Dynamics 365 Project Operations.
+Ovaj članak opisuje funkcije koje su uklonjene ili koje su planirane za uklanjanje iz programa Dynamics 365 Project Operations.
 
 - *Uklonjena* funkcija više nije dostupna u proizvodu.
 - *Zastarela* funkcija nije u aktivnom razvoju i možda će biti uklonjena u budućoj ispravci.

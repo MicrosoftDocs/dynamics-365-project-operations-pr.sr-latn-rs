@@ -1,6 +1,6 @@
 ---
 title: Šta je novo ili promenjeno u ažuriranju automatizacije usluge projekta Izdanje 38, V3
-description: Ovaj tema navodi funkcije i ispravke koje su dostupne u izdanju Microsoft Dynamics 365 Project Service Automation Update Release 38, V3.
+description: Ovaj članak navodi funkcije i ispravke koje su dostupne u izdanju Microsoft Dynamics 365 Project Service Automation Update Release 38, V3.
 author: ruhercul
 ms.custom: dyn365-projectservice
 ms.date: 12/06/2021
@@ -16,12 +16,12 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: 16994535d57dc1d7fefbe6e892c154f52638c7c0
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: ccc08cd0bc365bd4761424a4c0ceac91985e7c89
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: sr-Latn-RS
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8598735"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8915202"
 ---
 # <a name="whats-new-or-changed-in-project-service-automation-update-release-38-v3"></a>Šta je novo ili promenjeno u ažuriranju automatizacije usluge projekta Izdanje 38, V3
 
@@ -29,7 +29,7 @@ ms.locfileid: "8598735"
 
 Zadovoljstvo nam je da najavimo najnoviju ispravku za aplikaciju Microsoft Dynamics 365 Project Service Automation. Ovo izdanje uključuje neka važna poboljšanja u kvalitetu, performansama i upotrebljivosti. Kompatibilna je sa sistemom Dynamics 365 9.x. Da biste se ažurirali na ovo izdanje, posetite stranicu centra administracije za Dynamics 365 mrežna rešenja i instalirajte ispravku. Za još informacija pogledajte članak [Instaliranje, ispravka ili uklanjanje željenog rešenja](/power-platform/admin/install-remove-preferred-solution).
 
-Ovaj tema navodi funkcije i ispravke koje su nove ili promenjene za ispravku za automatizaciju usluge projekta Release 38, V3. Ova verzija ima broj verzije V3.10.59.117 i generalno je dostupna putem samostalnog ažuriranja u decembru 2021.
+Ovaj članak navodi funkcije i ispravke koje su nove ili promenjene za ispravku za automatizaciju usluge projekta Release 38, V3. Ova verzija ima broj verzije V3.10.59.117 i generalno je dostupna putem samostalnog ažuriranja u decembru 2021.
 
 ## <a name="update-release-38"></a>Izdanje ispravke 38
 

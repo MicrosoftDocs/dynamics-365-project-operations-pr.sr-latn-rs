@@ -1,6 +1,6 @@
 ---
 title: Napomene o nadogradnji – Microsoft Dynamics 365 Project Service Automation verzije 2.x ili 1.x na verziju 3
-description: Ova tema pruža informacije o činjenicama koje morate uzeti u obzir prilikom nadogradnje aplikacije Project Service Automation sa verzije 2.x ili 1.x na verziju 3.
+description: Ovaj članak pruža informacije o razmatranjima koja morate da izvršite prilikom nadogradnje sa verzije 2.x ili 1.x na verziju 3.
 ms.prod: ''
 ms.custom:
 - dyn365-projectservice
@@ -17,12 +17,12 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: c37c30b7c694cec8c07b68492d935128881e6317
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 3f67b2fe39c9d0224207e7c655892318ec7e09b8
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: sr-Latn-RS
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8601771"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8918927"
 ---
 # <a name="upgrade-considerations---psa-version-2x-or-1x-to-version-3"></a>Činjenice koje treba uzeti u obzir prilikom nadogradnje - PSA verzije 2.x ili 1.x na verziju 3.x
 
@@ -40,7 +40,7 @@ U aplikaciji Project Service Automation verzije 2 i 1, dodeljivanja zadataka su 
 
 U verziji 3 aplikacije Project Service Automation, osnovna šema dodeljivanja resursa koji se mogu rezervisati zadacima je promenjena. Zadatak stavke je zastareo i postoji direktni 1:1 odnos između zadatka u **entitetu zadatka** i člana tima u entitetu **Dodela resursa**. Zadaci koji su dodeljeni članu projektnog tima sada se skladište direktno u entitetu Dodela resursa.  
 
-Ove promene utiču na nadogradnju svih postojećih projekata koji imaju dodele resursa za imenovane resurse koji se mogu rezervisati i generičke resurse u timu projekta. Ova tema obezbeđuje činjenice koje treba uzeti u obzir za projekte prilikom nadogradnje na verziju 3. 
+Ove promene utiču na nadogradnju svih postojećih projekata koji imaju dodele resursa za imenovane resurse koji se mogu rezervisati i generičke resurse u timu projekta. Ovaj članak obezbeđuje razmatranja koja će vam biti potrebna da uzmete u obzir za svoje projekte kada izvršite nadogradnju na verziju 3. 
 
 ### <a name="tasks-assigned-to-named-resources"></a>Zadaci su dodeljeni imenovanim resursima
 Ako koristite osnovni entitet zadatka, zadaci u verziji 2 i 1 dozvoljavaju članovima tima da prikazuju ulogu koja nije njihova podrazumevana definisana uloga. Na primer, Dunja Nikolić, kojoj je podrazumevano dodeljena uloga menadžera programima, može biti dodeljen zadatku sa ulogom programera. U verziji 3, uloga imenovanog člana tima je uvek podrazumevana, tako da svaki zadatak koji je dodeljen Dunji Nikolić koristi Dunjinu podrazumevanu ulogu menadžera programima.

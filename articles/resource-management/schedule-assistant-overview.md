@@ -1,17 +1,17 @@
 ---
 title: Pregled pomoćnika za zakazivanje
-description: Ova tema pruža informacije o radu sa pomoćnikom za planiranje radi rezervisanja resursa.
+description: Ovaj članak pruža informacije o radu sa pomoćnikom za planiranje za rezervisane resurse.
 author: ruhercul
 ms.date: 10/01/2020
 ms.topic: overview
 ms.reviewer: johnmichalak
 ms.author: ruhercul
-ms.openlocfilehash: d2146e959119a78a27927b9e694474b3f04579fe
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 884684aa572cd8444c11211a35894073d0f128b7
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: sr-Latn-RS
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8585947"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8918467"
 ---
 # <a name="schedule-assistant-overview"></a>Pregled pomoćnika za zakazivanje
 

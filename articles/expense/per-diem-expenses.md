@@ -1,6 +1,6 @@
 ---
-title: Dnevnice
-description: Ova tema pruža informacije o načinu rada sa troškovima dnevnice.
+title: Troškovi dnevnica
+description: Ovaj članak pruža informacije o načinu rada sa troškovima dnevnice.
 author: suvaidya
 ms.date: 03/18/2022
 ms.topic: article
@@ -13,17 +13,17 @@ ms.search.region: ''
 ms.author: suvaidya
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: fe72f066a6819c3b43e3977d5e7afb01ba95338c
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 0d2f95b677720726049d7d010e9738ad8c513802
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: sr-Latn-RS
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8596067"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8923205"
 ---
-# <a name="per-diem-expenses"></a>Dnevnice
+# <a name="per-diem-expenses"></a>Troškovi dnevnica
 
 > [!IMPORTANT] 
-> Funkcionalnost opisana u ovom tema dostupna je ciljanim korisnicima kao deo izdanja za pregled.
+> Funkcionalnost opisana u ovom članku dostupna je ciljanim korisnicima kao deo izdanja za pregled.
 
 Isplata dnevnice je fiksni, unapred određeni dnevni dodatak koji kompanija plaća svojim zaposlenima za smeštaj (hotele), obroke i incidentne troškove koje ti zaposleni snose dok putuju zbog posla. Preduzeće plaća ovaj džeparac zaposlenima umesto da plaća stvarne putne troškove. Zaposleni mogu da koriste svoj **Incidentls/Other** per diem džeparac za pokrivanje saveta, posluge u sobi, pranja veša ili usluga hemijskog čišćenja za važne poslovne sastanke. Stopa dnevnica može da varira, u zavisnosti od toga da li poslodavac odluči da nadoknadi kombinovane troškove smeštaja i obroka, ili samo za troškove obroka i incidenata.
 

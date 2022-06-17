@@ -1,6 +1,6 @@
 ---
 title: Matična stranica za obezbeđivanje resursa za projekat
-description: Ova tema pruža informacije o obezbeđivanju resursa za projekat.
+description: Ovaj članak pruža informacije o resourcingu projekta.
 author: Yowelle
 ms.date: 09/01/2020
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 38793c4b9fc6cd2c1999661cb2acc587086b0143
-ms.sourcegitcommit: 2c2a5a11d446adec2f21030ab77a053d7e2da28e
+ms.openlocfilehash: 605a6884cb342abf029644dbf8f2d75127df1786
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: sr-Latn-RS
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8684889"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8924033"
 ---
 # <a name="project-resourcing-home-page"></a>Matična stranica za obezbeđivanje resursa za projekat
 
 [!include [banner](../includes/banner.md)]
 
-Ova tema pruža informacije o obezbeđivanju resursa za projekat.
+Ovaj članak pruža informacije o resourcingu projekta.
 
 Jedan od izazova za menadžere projekata i menadžere resursa tokom faze planiranja projekta je dodela resursa, gde oni moraju odrediti i rezervisati tačan resurs za rad na projektu. U Dynamics 365 Finance, resourcing mogućnosti za projekte vam omogućava da definišete uloge koje se tretiraju kao privremeni resursi koji se mogu rezervisati za određeni angažman ili deo angažmana. Ova vrsta resursa omogućava menadžerima projekata i menadžerima resursa da izvrše sledeće zadatke:
 
@@ -41,7 +41,7 @@ Jedan od izazova za menadžere projekata i menadžere resursa tokom faze planira
 
 Kako se planiranje projekta odvija, planirani resursi mogu se zameniti resursima sa osobljem. Menadžer projekta se takođe može vratiti i ažurirati rezervacije resursa tokom bilo koje faze projekta.
 
-Sledeće teme pružaju informacije o zadacima koje treba dovršiti kada radite na obezbeđivanju resursa za projekte.
+Sledeći članci pružaju informacije o zadacima koje je potrebno dovršiti kada radite na resourcing projektima.
 
 - [Podešavanje resursa projekta](set-up-project-resources.md)
 - [Upravljanje kompetencijama resursa](manage-resource-competencies.md)

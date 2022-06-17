@@ -1,23 +1,23 @@
 ---
 title: Konfigurisanje integracije za Project Operations po pravnom licu
-description: Ova tema pruža informacije o tome kako da podesite integraciju po pravnom licu u usluzi Project Operations.
+description: Ovaj članak pruža informacije o podešavanju integracije od strane pravnog lica u projektnim operacijama.
 author: sigitac
 ms.date: 10/21/2020
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 64606a20a49fd8e9602b6ac3c1ab1880796eb128
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 3f33e641ee0932655282618c99a26e2603660059
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: sr-Latn-RS
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8585855"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8914695"
 ---
 # <a name="configure-project-operations-integration-per-legal-entity"></a>Konfigurisanje integracije za Project Operations po pravnom licu 
 
 _**Odnosi se na:** Project Operations za scenarije zasnovane na resursima / bez zaliha_
 
-Ova tema vas vodi kroz korake potrebne za konfigurisanje usluge Dynamics 365 Project Operations po pravnom licu.
+Ovaj članak vas vodi kroz korake potrebne za konfigurisanje po Dynamics 365 Project Operations pravnom licu.
 
 ## <a name="enable-feature-keys-in-dynamics-365-finance"></a>Omogući tastere funkcija u Dynamics 365 Finance
 

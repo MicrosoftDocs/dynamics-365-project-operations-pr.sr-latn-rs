@@ -1,6 +1,6 @@
 ---
 title: Bespovratna pomoć za projekat
-description: Ova tema objašnjava kako kreirati ili izmeniti bespovratnu pomoć.
+description: Ovaj članak sadrži objašnjenja o tome kako da kreirate ili izmenite grant.
 author: RadhikaRS
 ms.date: 04/22/2020
 ms.topic: article
@@ -15,12 +15,12 @@ ms.search.industry: Service industries
 ms.author: andchoi
 ms.dyn365.ops.version: 7
 ms.search.validFrom: 2019-01-15
-ms.openlocfilehash: 8bc8240c2193bd2c27d54c04b55e14725ab208ac
-ms.sourcegitcommit: 2c2a5a11d446adec2f21030ab77a053d7e2da28e
+ms.openlocfilehash: 40357bdfb74b6afdb26663e6439f90e762b79029
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: sr-Latn-RS
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8684015"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8913637"
 ---
 # <a name="project-grants"></a>Bespovratna pomoć za projekat
 

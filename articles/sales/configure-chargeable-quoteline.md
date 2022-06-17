@@ -1,17 +1,17 @@
 ---
 title: Konfigurisanje naplativim komponentama stavke ponude zasnovane na projektu
-description: Ova tema pruža informacije o uključenim, naplativim i nenaplativim komponentama na stavkama ponuda zasnovanih na projektu.
+description: Ovaj članak pruža informacije o uključenim komponentama ponude koje se naplaćuju, naplaćuju i koje se ne naplaćuju u redovima ponude zasnovane na projektu.
 author: rumant
 ms.date: 11/18/2020
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: 025a04fa63bfdb53aaababcd964a5dcb92c0a3a1
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: ff409132ef9103641578f9c94f8ea1ff56738a71
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: sr-Latn-RS
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8601219"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8915569"
 ---
 # <a name="configure-the-chargeable-components-of-a-project-based-quote-line"></a>Konfigurisanje naplativim komponentama stavke ponude zasnovane na projektu
 

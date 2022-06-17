@@ -1,18 +1,18 @@
 ---
 title: Poreklo transakcije - Povezivanje stvarnih podataka sa njihovim izvorom
-description: Ova tema objašnjava kako se koncept porekla transakcije koristi za povezivanje stvarnih podataka sa originalnim izvornim zapisima, kao što su stavka vremena, stavka troškova ili evidencije korišćenja materijala.
+description: Ovaj članak sadrži objašnjenja o tome kako se koncept porekla transakcije koristi za povezivanje stvarnih podataka sa originalnim izvornim zapisima, kao što su stavka vremena, stavka troškova ili evidencije korišćenja materijala.
 author: rumant
 ms.date: 03/25/2021
 ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: 908f78f7d58ec4b18f37d03b6fa7c4e2295491fa
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: f1beff392ddd449a930d38016ca6083fea97953b
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: sr-Latn-RS
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8584843"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8921319"
 ---
 # <a name="transaction-origins---link-actuals-to-their-source"></a>Poreklo transakcije - Povezivanje stvarnih podataka sa njihovim izvorom
 

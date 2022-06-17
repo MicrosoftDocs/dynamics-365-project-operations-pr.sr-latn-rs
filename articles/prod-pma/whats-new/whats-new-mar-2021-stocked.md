@@ -1,24 +1,24 @@
 ---
 title: Šta je novo ili promenjeno u usluzi Project Operations u martu 2021. za scenarije zasnovane na zalihama/proizvodnji
-description: Ova tema pruža informacije o ispravkama kvaliteta dostupnim u izdanju usluge Project Operations za mart 2021. godine za scenarije zasnovane na zalihama/proizvodnji.
+description: Ovaj članak pruža informacije o kvalitetnim ispravkama dostupnim u martu 2021.
 author: andchoi
 ms.date: 03/22/2021
 ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: andchoi
-ms.openlocfilehash: 0f8d57db75f426d87bcdcdde8fb9dfbe1ccc479f
-ms.sourcegitcommit: 577fa51e0892625f98f17ff39874ed1a09444421
+ms.openlocfilehash: fffa9d70574c8c91b63ceb5055af64a49c9d398b
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: sr-Latn-RS
-ms.lasthandoff: 05/06/2022
-ms.locfileid: "8723739"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8911337"
 ---
 # <a name="whats-new-or-changed-in-project-operations-march-2021-for-stockedproduction-based-scenarios"></a>Šta je novo ili promenjeno u usluzi Project Operations u martu 2021. za scenarije zasnovane na zalihama/proizvodnji
 
 _**Odnosi se na:** Project Operations za scenarije zasnovane na zalihama/proizvodnji_
 
-Ova tema se odnosi na sledeće komponente i verzije usluge Dynamics 365 Project Operations:
+Ovaj članak se odnosi na sledeće Dynamics 365 Project Operations komponente i verzije:
 
 - Upravljanje projektima i računovodstvo u Dynamics 365 Finance okruženju verzija 10.0.17
 

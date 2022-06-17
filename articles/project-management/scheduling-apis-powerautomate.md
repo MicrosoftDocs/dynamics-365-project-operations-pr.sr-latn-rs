@@ -1,25 +1,25 @@
 ---
-title: Koristi API-je za plan projekta sa Power Automate
-description: Ova tema obezbeđuje probni tok koji koristi programske interfejse aplikacija "Project schedule" (API).
+title: Korišćenje API-ja za raspored projekata uz Power Automate
+description: Ovaj članak obezbeđuje probni tok koji koristi programske interfejse aplikacija "Project schedule" (API).
 author: ruhercul
 ms.date: 01/26/2022
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: ruhercul
-ms.openlocfilehash: 9708226b0955cfa6c405b9616c14765f9ebc21f7
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 2527375ff3f3d631f3bb3de1458abb3b8838db54
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: sr-Latn-RS
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8597723"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8916351"
 ---
-# <a name="use-project-schedule-apis-with-power-automate"></a>Koristi API-je za plan projekta sa Power Automate
+# <a name="use-project-schedule-apis-with-power-automate"></a>Korišćenje API-ja za raspored projekata uz Power Automate
 
 _**Odnosi se na:** Project Operations za scenarije zasnovane na resursima/bez zaliha, jednostavna primena – od pogodbe do profakture_
 
-Ovaj tema opisuje probni tok koji prikazuje kako se kreira kompletan plan projekta pomoću Microsoft Power Automate korišćenja, kreiranja skupa operacija i načina ažuriranja entiteta. Primer prikazuje kako se kreira projekat, član projektnog tima, Skupovi operacija, projektni zadaci i dodele resursa. Ovaj tema takođe objašnjava kako da ažurirate entitet i izvršite skup operacija.
+Ovaj članak opisuje probni tok koji prikazuje kako se kreira kompletan plan projekta pomoću Microsoft Power Automate korišćenja, kreiranja skupa operacija i načina ažuriranja entiteta. Primer prikazuje kako se kreira projekat, član projektnog tima, Skupovi operacija, projektni zadaci i dodele resursa. Ovaj članak takođe sadrži objašnjenja o tome kako da ažurirate entitet i izvršite skup operacija.
 
-Sledi kompletna lista koraka koji su dokumentovani u probnom toku ove tema:
+Sledi kompletna lista koraka koji su dokumentovani u probnom toku u ovom članku:
 
 1. [Kreiranje okidača PowerApps](#1)
 2. [Kreirajte projekat](#2)
@@ -40,7 +40,7 @@ Sledi kompletna lista koraka koji su dokumentovani u probnom toku ove tema:
 
 ## <a name="assumptions"></a>Pretpostavke
 
-Ova tema pretpostavlja da imate osnovno znanje Dataverse o platformi, tokovima oblaka i programskom interfejsu aplikacije Project Schedule (API). Više informacija potražite u odeljku [Reference](#references) u ovom tema.
+Ovaj članak pretpostavlja da imate osnovno znanje Dataverse o platformi, tokovima oblaka i programskom interfejsu aplikacije Project Schedule (API). Više informacija potražite u odeljku [Reference u](#references) ovom članku.
 
 ## <a name="create-a-flow"></a>Napravi tok
 
@@ -65,7 +65,7 @@ Sledite ove korake da biste kreirali tok [svestan rešenja](/power-automate/over
 1. Na stranici **Rešenja** izaberite rešenje koje ste kreirali, a zatim izaberite stavku **Novo**.
 2. U levom oknu izaberite opciju **Cloud flows** \> **Automation** \> **Cloud flow** \> **Instant.**
 3. U polje Ime **toka** unesite Schedule **API Demo Flow**.
-4. U listi Odaberite **kako da pokrenete ovu listu toka** izaberite **Power Apps**. Kada kreirate okidač Power Apps, logika je na vama kao autoru. U ovom tema ostavite ulazne parametre prazne u svrhe testiranja.
+4. U listi Odaberite **kako da pokrenete ovu listu toka** izaberite **Power Apps**. Kada kreirate okidač Power Apps, logika je na vama kao autoru. U ovom članku parametre unosa ostavite prazne u svrhe testiranja.
 5. Izaberite **Kreiraj**.
 
 ## <a name="step-2-create-a-project"></a><a id="2"></a>2. korak: Kreiranje projekta

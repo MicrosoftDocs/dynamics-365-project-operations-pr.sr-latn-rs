@@ -1,6 +1,6 @@
 ---
 title: Šta je novo ili promenjeno u izdanju 25 ispravke Project Service Automation verzije 3
-description: U ovoj temi su navedene funkcije i ispravke koje su dostupne u izdanju 25 ispravke za Project Service Automation verzije 3.
+description: Ovaj članak navodi funkcije i ispravke koje su dostupne u okviru ažuriranja za automatizaciju usluge projekta Release 25, V3.
 author: ruhercul
 ms.custom: dyn365-projectservice
 ms.date: 10/26/2020
@@ -16,12 +16,12 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: 2d24403b1bf6a06cc138de3f0158f675f6d3b6ec
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 2330c7dc5d2dfb148d5c7fb9a5ce643fded84dde
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: sr-Latn-RS
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8581531"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8922561"
 ---
 # <a name="whats-new-or-changed-in-project-service-automation-update-release-25-v3"></a>Šta je novo ili promenjeno u izdanju 25 ispravke Project Service Automation verzije 3
 
@@ -29,7 +29,7 @@ ms.locfileid: "8581531"
 
 Zadovoljstvo nam je da objavimo najnovije ažuriranje za aplikaciju Project Service Automation za Dynamics 365. Ovo izdanje uključuje neka važna poboljšanja u kvalitetu, performansama i upotrebljivosti. Ovo izdanje je kompatibilno sa uslugom Dynamics 365 9.x. Da biste ažurirali ovo izdanje, posetite stranicu sa rešenjima centra za administraciju za Dynamics 365 online kako biste instalirali ispravku. Za još informacija pogledajte članak [Instaliranje, ispravka ili uklanjanje željenog rešenja](/power-platform/admin/install-remove-preferred-solution).
 
-U ovoj temi su navedene funkcije i ispravke koje su nove ili promenjene za Project Service Automation verzije 3, izdanje 25 ispravke. Ova verzija ima broj verzije V 3.10.43.76 i postala je opšte dostupna putem samostalne ispravke u oktobru 2020.
+Ovaj članak navodi funkcije i ispravke koje su nove ili promenjene za Project Service Automation V3, Update Release 25 Ova verzija ima broj verzije V 3.10.43.76 i obično je dostupna putem samostalnog ažuriranja u oktobru 2020.
 
 ## <a name="update-release-25"></a>Izdanje ispravke 25
 

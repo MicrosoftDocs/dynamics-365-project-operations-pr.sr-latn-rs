@@ -1,6 +1,6 @@
 ---
 title: Podešavanje prilagođenih polja kao dimenzija za određivanje cena
-description: Ova tema pruža informacije o podešavanju prilagođenih dimenzija za određivanje cena.
+description: Ovaj članak pruža informacije o podešavanju prilagođenih dimenzija cena.
 author: Rumant
 ms.custom:
 - dyn365-projectservice
@@ -16,20 +16,20 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: 91ec6d502a44771e7e03b67cc2be40c527fff355
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 14d27b53b42744d47e298bf5a926c1262dbf44d4
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: sr-Latn-RS
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8591927"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8922614"
 ---
 # <a name="setting-up-custom-fields-as-pricing-dimensions"></a>Podešavanje prilagođenih polja kao dimenzija za određivanje cena 
 
 [!include [banner](../includes/psa-now-project-operations.md)]
 
-Pre nego što počnete, ova tema pretpostavlja da ste dovršili procedure u temama [Kreiranje prilagođenih polja i entiteta](create-custom-fields-entities.md) i [Dodavanje prilagođenih polja u podešavanje cena i entitete transakcije](field-references.md). Ako niste dovršili te procedure, vratite se i dovršite ih, a zatim se vratite na ovu temu. 
+Pre nego što počnete, ovaj članak pretpostavlja da ste dovršili procedure u člancima, [kreirajte prilagođena polja i entitete i](create-custom-fields-entities.md)[dodajte prilagođena polja u podešavanje cena i entitete transakcija](field-references.md). Ako niste završili te procedure, vratite se i dovršite ih, a zatim se vratite na ovaj članak. 
 
-Ova tema pruža informacije o podešavanju prilagođenih dimenzija za određivanje cena. Na stranici **Parametri** u Project Service veb-interfejsu, kartica **Dimenzije za određivanje cena zasnovane na iznosima** prikazuje zapise u entitetima dimenzija za određivanje cena. Project Service instalacija podrazumevano kreira 2 reda u mreži na ovoj kartici:
+Ovaj članak pruža informacije o podešavanju prilagođenih dimenzija cena. Na stranici **Parametri** u Project Service veb-interfejsu, kartica **Dimenzije za određivanje cena zasnovane na iznosima** prikazuje zapise u entitetima dimenzija za određivanje cena. Project Service instalacija podrazumevano kreira 2 reda u mreži na ovoj kartici:
 
 - **msdyn_resourcecategory** (uloga)
 - **msdyn_OrganizationalUnit** (organizaciona jedinica)

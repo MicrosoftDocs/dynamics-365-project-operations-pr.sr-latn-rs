@@ -1,6 +1,6 @@
 ---
 title: Prilagođavanje sedmične stavke vremena
-description: Ova tema pruža informacije o tome kako implementirati prilagođena poslovna pravila koja podržavaju prakse organizacije.
+description: Ovaj članak pruža informacije o primeni prilagođenih poslovnih pravila koja podržavaju prakse organizacije.
 author: stsporen
 ms.custom:
 - dyn365-projectservice
@@ -17,12 +17,12 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: 1cc32a1d8776f4adaa0031154aba6bd6733b7f7d
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: bdc8df4050d895504fa126e2ee55fcd3b4de123f
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: sr-Latn-RS
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8581071"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8918973"
 ---
 # <a name="customize-weekly-time-entry"></a>Prilagođavanje sedmične stavke vremena 
 
@@ -46,7 +46,7 @@ Odeljak **Dimenzije** prikazuje, kao nazive kolona, sve dimenzije za koje se vre
 - Tip
 - Status stavke
 
-Odeljak **Dimenzije** ne dozvoljava unutrašnje uređivanje. Ovaj odeljak je podržan prikazom koji omogućava da se prilagođena polja dodaju u mrežu sedmičnih stavki vremena. Informacije o dodavanju prilagođenih polja potražite u odeljku „Proširivost“ kasnije u ovoj temi.
+Odeljak **Dimenzije** ne dozvoljava unutrašnje uređivanje. Ovaj odeljak je podržan prikazom koji omogućava da se prilagođena polja dodaju u mrežu sedmičnih stavki vremena. Više informacija o dodavanju prilagođenih polja potražite u odeljku "Protenzibilnost" u ovom članku.
 
 ### <a name="duration"></a>Trajanje
 Odeljak Trajanje prikazuje dane u nedelji kao zaglavlja kolona. Ovaj odeljak omogućava unutrašnje uređivanje. Nakon što se kreira red za stavku vremena koji ima odgovarajuće dimenzije, korisnici mogu unutra brzo uneti količinu vremena koju su utrošili za te dimenzije.

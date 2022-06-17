@@ -1,25 +1,25 @@
 ---
 title: Rešavanje problema sa radom u mreži podataka
-description: Ova tema pruža informacije o rešavanju problema potrebne za rad u mreži zadataka.
+description: Ovaj članak obezbeđuje informacije o rešavanju problema potrebne prilikom rada u koordinatnoj mreži zadataka.
 author: ruhercul
 ms.date: 04/05/2022
 ms.topic: article
 ms.product: ''
 ms.reviewer: johnmichalak
 ms.author: ruhercul
-ms.openlocfilehash: ee80363cf6f9a65a91be43a84434d37f02511f26
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: e6ab4f34fe3f6732f7bef252f298671e07a3c3ca
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: sr-Latn-RS
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8596435"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8911061"
 ---
 # <a name="troubleshoot-working-in-the-task-grid"></a>Rešavanje problema sa radom u mreži podataka 
 
 
 _**Odnosi se na:** Project Operations za resurs/scenarije koji nisu zasnovani na zalihama, jednostavnu implementaciju – pogodbu o predračunima, Project for the Web_
 
-Mreža zadataka koju koristi Dynamics 365 Project Operations je hostovani iframe u okviru usluge Microsoft Dataverse. Kao rezultat ove upotrebe, potrebno je ispuniti posebne zahteve kako bi se osiguralo da potvrda identiteta i autorizacija pravilno funkcionišu. Ova tema opisuje uobičajena pitanja koja mogu da utiču na sposobnost prikazivanja mreže ili upravljanje zadacima u strukturnoj analizi posla (SAP).
+Mreža zadataka koju koristi Dynamics 365 Project Operations je hostovani iframe u okviru usluge Microsoft Dataverse. Kao rezultat ove upotrebe, potrebno je ispuniti posebne zahteve kako bi se osiguralo da potvrda identiteta i autorizacija pravilno funkcionišu. Ovaj članak prikazuje uobičajene probleme koji mogu da utiču na mogućnost prikazivanja koordinatne mreže ili upravljanja zadacima u strukturi radne analize (WBS).
 
 Uobičajeni problemi obuhvataju:
 

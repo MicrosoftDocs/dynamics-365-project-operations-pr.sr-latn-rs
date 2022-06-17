@@ -1,6 +1,6 @@
 ---
-title: Kreiranje i potvrda naloga unosa
-description: Ova tema informacije o kreiranju i potvrđiju dnevnike unosa u korporaciji Microsoft Dynamics 365 Project Operations.
+title: Kreiranje i potvrda stavki knjiženja u glavnoj knjizi
+description: Ovaj članak pruža informacije o kreiranju i potvrđiju dnevnika unosa u korporaciji Microsoft Dynamics 365 Project Operations.
 author: rumant
 ms.date: 09/18/2020
 ms.topic: article
@@ -13,14 +13,14 @@ ms.assetid: ''
 ms.author: rumant
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: 8cb768337bc197895a837670f93b99b132c97437
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 138dccd72607d6515eeeffb066fa485f83eabbec
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: sr-Latn-RS
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8584245"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8912349"
 ---
-# <a name="create-and-confirm-entry-journals"></a>Kreiranje i potvrda naloga unosa
+# <a name="create-and-confirm-entry-journals"></a>Kreiranje i potvrda stavki knjiženja u glavnoj knjizi
 
 _**Odnosi se na:** Project Operations za scenarije zasnovane na resursima/bez zaliha, jednostavna primena – od pogodbe do profakture_
 

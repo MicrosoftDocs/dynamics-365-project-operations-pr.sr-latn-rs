@@ -1,24 +1,24 @@
 ---
 title: Primena demo podataka na Finance okruženje koje se hostuje u oblaku
-description: Ovaj tema objašnjava kako da primenite demo podatke iz operacija projekta na okruženje Dynamics 365 Finance hostovano u oblaku.
+description: Ovaj članak sadrži objašnjenja o tome kako da primenite demo podatke iz operacija projekta na Dynamics 365 Finance hostovano u oblaku.
 author: sigitac
 ms.date: 10/01/2020
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: e4ccc7eb02fabdc0476fe454f33bff637ab8b835
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 4ce53c171929f0610c53025becaebea46d902c90
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: sr-Latn-RS
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8588983"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8924677"
 ---
 # <a name="apply-demo-data-to-a-finance-cloud-hosted-environment"></a>Primena demo podataka na Finance okruženje koje se hostuje u oblaku
 
 _**Odnosi se na:** Project Operations za scenarije zasnovane na resursima / bez zaliha_
 
 > [!IMPORTANT]
-> Ovaj tema je primenljiv samo Microsoft Dynamics 365 Finance verzija 10.0.13 i može se izvršiti samo na cloud okruženju. Dovršite korake u ovoj temi **PRE NEGO ŠTO** primenite ispravke kvaliteta na okruženje.
+> Ovaj članak je primenljiv samo Microsoft Dynamics na 365 Finance verzije 10.0.13 i može se izvršiti samo na okruženju hostovanom u oblaku. Dovršite korake u ovom članku **pre nego** što primenite kvalitetne ispravke na okruženje.
 
 1. U svom LCS projektu, otvorite stranicu **Detalji okruženja**. Primetite da sadrži detalje potrebne za povezivanje sa okolinom pomoću protokola udaljene radne površine (RDP).
 

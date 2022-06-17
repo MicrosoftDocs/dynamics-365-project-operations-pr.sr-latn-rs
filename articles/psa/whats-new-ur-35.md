@@ -1,6 +1,6 @@
 ---
 title: Šta je novo ili promenjeno u izdanju 35 ispravke usluge Project Service Automation verzije 3
-description: U ovoj temi navedene su funkcije i ispravke koje su dostupne u izdanju 35 ispravke usluge Microsoft Dynamics 365 Project Service Automation verzije 3.
+description: Ovaj članak navodi funkcije i ispravke koje su dostupne u izdanju Microsoft Dynamics 365 Project Service Automation Update Release 35, V3.
 author: ruhercul
 ms.custom: dyn365-projectservice
 ms.date: 09/03/2021
@@ -16,12 +16,12 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: e210777f1e4d149b700721ac7fb9bd129b1166fe
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 28b4a5ccbfff83c9b1a18cb0b4062af9cdaf8f6e
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: sr-Latn-RS
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8574066"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8912855"
 ---
 # <a name="whats-new-or-changed-in-project-service-automation-update-release-35-v3"></a>Šta je novo ili promenjeno u izdanju 35 ispravke usluge Project Service Automation verzije 3
 
@@ -29,7 +29,7 @@ ms.locfileid: "8574066"
 
 Zadovoljstvo nam je da najavimo najnoviju ispravku za aplikaciju Microsoft Dynamics 365 Project Service Automation. Ovo izdanje uključuje neka važna poboljšanja u kvalitetu, performansama i upotrebljivosti. Kompatibilna je sa sistemom Dynamics 365 9.x. Da biste se ažurirali na ovo izdanje, posetite stranicu centra administracije za Dynamics 365 mrežna rešenja i instalirajte ispravku. Za još informacija pogledajte članak [Instaliranje, ispravka ili uklanjanje željenog rešenja](/power-platform/admin/install-remove-preferred-solution).
 
-U ovoj temi date su funkcije koje su nove ili su promenjene u rešenju Project Service Automation u verziji 3, izdanje ispravke 35. Ova verzija ima broj verzije 3.10.56.110 i opšte je dostupna putem samostalnog ažuriranja u septembru 2021.
+Ovaj članak navodi funkcije i ispravke koje su nove ili promenjene za ispravku za automatizaciju usluge projekta Release 35, V3. Ova verzija ima broj verzije 3.10.56.110 i opšte je dostupna putem samostalnog ažuriranja u septembru 2021.
 
 ## <a name="update-release-35"></a>Izdanje ispravke 35
 

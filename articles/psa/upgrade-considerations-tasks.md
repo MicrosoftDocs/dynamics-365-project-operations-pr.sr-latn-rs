@@ -1,6 +1,6 @@
 ---
 title: Razmatranja nadogradnje strukturne analize posla
-description: Ova tema pruža informacije o nadogradnji strukturne analize posla iz aplikacije Project Service Automation verzije 2.x u verziju 3.x.
+description: Ovaj članak pruža informacije o nadogradnji strukture analize rada sa automatizacije usluge projekta 2.x na 3.x.
 ms.custom:
 - dyn365-projectservice
 ms.date: 10/18/2019
@@ -17,18 +17,18 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: 13ad93d5be3c0ab07c81db28d3e13561e9d40017
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 42bf03b5e3be4b7bdce87148254ce69e381ffdf1
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: sr-Latn-RS
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8599747"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8913131"
 ---
 # <a name="upgrade-considerations-for-the-work-breakdown-structure"></a>Razmatranja nadogradnje strukturne analize posla
 
 [!include [banner](../includes/psa-now-project-operations.md)]
 
-Ova tema pruža informacije o nadogradnji strukturne analize posla iz aplikacije Project Service Automation verzije 2.x u verziju 3.x. Ova tema definiše ispravno stanje projekta u aplikaciji Project Service Automation (PSA), potrebno za uspešnu nadogradnju. Postoje i informacije o uobičajenim uslovima blokiranja koji će dovesti do neuspešne nadogradnje. Više informacija o definisanju projektnih zadataka i njihovim funkcijama u okviru rasporeda projekta potražite u članku [Rasporedi projekata](project-creating.md).
+Ovaj članak pruža informacije o nadogradnji strukture analize rada sa automatizacije usluge projekta 2.x na 3.x. Ovaj članak definiše zdravo stanje projekta u automatizaciji projektne usluge (PSA) koji je neophodan za uspešnu nadogradnju. Postoje i informacije o uobičajenim uslovima blokiranja koji će dovesti do neuspešne nadogradnje. Više informacija o definisanju projektnih zadataka i njihovim funkcijama u okviru rasporeda projekta potražite u članku [Rasporedi projekata](project-creating.md).
 
 ## <a name="key-entities"></a>Ključni entiteti
 Za ispravnu strukturnu analizu posla koja je već učitana sa resursima, potrebni su sledeći entiteti:

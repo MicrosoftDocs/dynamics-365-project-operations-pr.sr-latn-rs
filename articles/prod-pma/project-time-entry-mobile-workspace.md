@@ -1,6 +1,6 @@
 ---
 title: Mobilni radni prostor za stavku vremena projekta
-description: Ova tema pruža informacije o mobilnom radnom prostoru stavke vremena projekta. Ovaj radni prostor omogućava korisnicima da unesu u sačuvaju vreme u projektu koristeći svoj mobilni uređaj.
+description: Ovaj članak pruža informacije o mobilnom radnom prostoru stavke vremena projekta. Ovaj radni prostor omogućava korisnicima da unesu u sačuvaju vreme u projektu koristeći svoj mobilni uređaj.
 author: Yowelle
 ms.date: 12/01/2017
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.industry: Service industries
 ms.author: andchoi
 ms.dyn365.ops.version: Version 1611
 ms.search.validFrom: 2016-11-30
-ms.openlocfilehash: 64a80d931332a4d6edfcd175d7168a7815ddca38
-ms.sourcegitcommit: 2c2a5a11d446adec2f21030ab77a053d7e2da28e
+ms.openlocfilehash: a163e32dae0231b5d71d1de2dbb473593b989164
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: sr-Latn-RS
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8683969"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8919571"
 ---
 # <a name="project-time-entry-mobile-workspace"></a>Mobilni radni prostor za stavku vremena projekta
 
 [!include [banner](../includes/banner.md)]
 
-Ova tema pruža informacije o mobilnom radnom prostoru **stavke vremena projekta**. Ovaj radni prostor omogućava korisnicima da unesu u sačuvaju vreme u projektu koristeći svoj mobilni uređaj.
+Ovaj članak pruža informacije o mobilnom radnom **prostoru stavke** vremena projekta. Ovaj radni prostor omogućava korisnicima da unesu u sačuvaju vreme u projektu koristeći svoj mobilni uređaj.
 
 Ovaj mobilni radni prostor je namenjen za upotrebu zajedno sa Dynamics 365 Unified Ops aplikacijom za mobilne uređaje. 
 

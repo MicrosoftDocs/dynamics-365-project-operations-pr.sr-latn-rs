@@ -1,28 +1,28 @@
 ---
 title: Korišćenje kategorije transakcije kao aspekta za određivanje cena
-description: Ova tema pruža informacije o tome kako da koristite polje „Kategorija transakcije“ kao dimenzije za određivanje cena.
+description: Ovaj članak pruža informacije o načinu korišćenja polja "Kategorija transakcije" kao dimenzije cena.
 author: rumant
 ms.date: 11/05/2020
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: a7fe9bfc87db992252f8ef3f0f688e7426cafebb
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 648933299616a683b19bbe2f1231caac779bd1f8
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: sr-Latn-RS
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8591145"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8911719"
 ---
 # <a name="use-transaction-category-as-a-pricing-dimension"></a>Korišćenje kategorije transakcije kao aspekta za određivanje cena
 
 
-_**Odnosi se na:** Project Operations za resurs/scenarije koji nisu zasnovani na zalihama, laganu primenu – od pogodbe do profakture_
+_**Odnosi se na:** Project Operations za scenarije zasnovane na resursima/bez zaliha, jednostavna primena – od pogodbe do profakture_
 
 
-Ova tema objašnjava kako da koristite polje **Kategorija transakcije** kao dimenzije za određivanje cena. 
+Ovaj članak sadrži objašnjenja o tome kako se polje **"Kategorija transakcije** " koristi kao dimenzija određivanja cena. 
 
 ## <a name="prerequisites"></a>Preduslovi
-Pre nego što dovršite procedure u ovoj temi, morate da imate novo rešenje dimenzije za formiranje cena za organizaciju. Ako ih već niste kreirali, pogledajte [Kreiranje prilagođenih polja i entiteta kao dimenzija za određivanje cena](create-custom-fields-entities-pricing-dimensions.md).
+Pre nego što dovršite procedure u ovom članku, morate imati novo rešenje dimenzije cena za vašu organizaciju. Ako ih već niste kreirali, pogledajte [Kreiranje prilagođenih polja i entiteta kao dimenzija za određivanje cena](create-custom-fields-entities-pricing-dimensions.md).
 
 ## <a name="add-the-transaction-category-field-to-forms-and-views"></a>Dodavanje polja „Kategorija transakcije“ u obrasce i prikaze
 Da bi polje **Kategorija transakcije** bilo vidljivo u rešenju dimenzija formiranja cena, morate da dodate polje svim obrascima i prikazima kao entitet.

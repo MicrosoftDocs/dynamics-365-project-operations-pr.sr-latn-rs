@@ -1,6 +1,6 @@
 ---
 title: Mobilni radni prostor za upravljanje troškovima
-description: Ova tema pruža informacije o mobilnom radnom prostoru za upravljanje troškovima. Ovaj radni prostor omogućava korisnicima da nađu i otpreme priznanicu, kako bi kasnije mogli da je prilože u izveštaju o troškovima. Korisnici takođe mogu brzo da kreiraju liniju troškova koristeći priloženu priznanicu i kreiraju izveštaje o troškovima i upravljaju njima.
+description: Ovaj članak pruža informacije o mobilnom radnom prostoru za upravljanje troškovima. Ovaj radni prostor omogućava korisnicima da nađu i otpreme priznanicu, kako bi kasnije mogli da je prilože u izveštaju o troškovima. Korisnici takođe mogu brzo da kreiraju liniju troškova koristeći priloženu priznanicu i kreiraju izveštaje o troškovima i upravljaju njima.
 author: suvaidya
 ms.date: 12/01/2017
 ms.topic: article
@@ -12,16 +12,16 @@ ms.search.region: Global
 ms.author: suvaidya
 ms.dyn365.ops.version: Version 1611
 ms.search.validFrom: 2016-11-30
-ms.openlocfilehash: d5309b55ed146d21d7a42e0b40add9ee346d48aa
-ms.sourcegitcommit: 2c2a5a11d446adec2f21030ab77a053d7e2da28e
+ms.openlocfilehash: aba8073fcf788f94bbcc622ab963426d230e9999
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: sr-Latn-RS
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8682819"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8920905"
 ---
 # <a name="expense-management-mobile-workspace"></a>Mobilni radni prostor za upravljanje troškovima
 
-Ova tema pruža informacije o mobilnom radnom prostoru za **Upravljanje troškovima**. Ovaj radni prostor omogućava korisnicima da nađu i otpreme priznanicu, kako bi kasnije mogli da je prilože u izveštaju o troškovima. Korisnici takođe mogu brzo da kreiraju liniju troškova koristeći priloženu priznanicu i kreiraju izveštaje o troškovima i upravljaju njima. Pored toga, davaoci odobrenja mogu da koriste mobilni radni prostor za **Upravljanje troškovima** za pregled izveštaja o troškovima koji su im dodeljeni i odobravanje ili odbijanje tih izveštaja o troškovima.
+Ovaj članak pruža informacije o mobilnom radnom **prostoru za** upravljanje troškovima. Ovaj radni prostor omogućava korisnicima da nađu i otpreme priznanicu, kako bi kasnije mogli da je prilože u izveštaju o troškovima. Korisnici takođe mogu brzo da kreiraju liniju troškova koristeći priloženu priznanicu i kreiraju izveštaje o troškovima i upravljaju njima. Pored toga, davaoci odobrenja mogu da koriste mobilni radni prostor za **Upravljanje troškovima** za pregled izveštaja o troškovima koji su im dodeljeni i odobravanje ili odbijanje tih izveštaja o troškovima.
 
 
 Ovaj mobilni radni prostor je namenjen za upotrebu zajedno sa Dynamics 365 Unified Ops aplikacijom za mobilne uređaje.

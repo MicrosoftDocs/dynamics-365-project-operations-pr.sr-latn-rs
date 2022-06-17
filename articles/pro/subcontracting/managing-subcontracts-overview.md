@@ -1,17 +1,17 @@
 ---
 title: Upravljanje podugovorima u aplikaciji Project Operations
-description: Ova tema pruža pregled procesa upravljanja podizvođačima od početka do kraja obično u projektnim organizacijama.
+description: Ovaj članak pruža pregled procesa upravljanja podizvođačima sa kraja na kraj obično u organizacijama zasnovanim na projektu.
 author: rumant
 ms.date: 08/02/2021
 ms.topic: overview
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: d595e948b7be9a6822827f4841e737d3c0e1476b
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 8f5e025b5f741935494349fb1bdfd3a19bacb5e1
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: sr-Latn-RS
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8593031"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8911522"
 ---
 # <a name="subcontract-management-in-project-operations"></a>Upravljanje podugovorima u aplikaciji Project Operations
 
@@ -19,7 +19,7 @@ ms.locfileid: "8593031"
 
 _**Odnosi se na:** Jednostavna primena – od pogodbe do profakture_
 
-Ova tema pruža pregled procesa upravljanja podizvođačima od početka do kraja u projektnim organizacijama. Podugovaranje usluga obično sledi nakon toka poslovnog procesa koji je prikazan na sledećem dijagramu.
+Ovaj članak pruža pregled procesa upravljanja podizvođačima sa kraja na kraj u organizacijama zasnovanim na projektu. Podugovaranje usluga obično sledi nakon toka poslovnog procesa koji je prikazan na sledećem dijagramu.
 
 ![Tok procesa podugovaranja](../media/SubcontractingProcessFlow.png)
 

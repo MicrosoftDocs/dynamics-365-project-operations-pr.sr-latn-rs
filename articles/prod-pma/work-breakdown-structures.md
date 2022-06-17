@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: f1e69d7cc97e3a7a59bdba387282fe19d12f5780
-ms.sourcegitcommit: 2c2a5a11d446adec2f21030ab77a053d7e2da28e
+ms.openlocfilehash: 7f1a77c6e4e5f0926ff7afe1066f9a0cf7cdfb51
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: sr-Latn-RS
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8683417"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8920675"
 ---
 # <a name="work-breakdown-structures-overview"></a>Pregled strukturne analize posla
 
@@ -35,7 +35,7 @@ Stepen detalja u SAP-u zavisi od nivoa tačnosti koji je potreban u procenama i 
 
 Suprotno tome, projekti u delatnostima kao što su mediji i oglašavanje, softver i IT infrastruktura imaju tendenciju da budu jedinstveni, a produktivnost je relativna spram iskustva i kompetencije pojedinca koji izvršava zadatak. Stoga ove delatnosti koriste SAP kako bi dobile približnu veličinu projekta, a ne da detaljno prate napredak tog projekta. 
 
-Izgradnja SAP je intenzivan proces koji se obično radi tokom dužeg perioda i koji zahteva saradnju i informacije širokog spektra ljudi. Ova tema opisuje kako možete da koristite SAP poboljšanja da biste zadovoljili svoje zahteve za procene i praćenje.
+Izgradnja SAP je intenzivan proces koji se obično radi tokom dužeg perioda i koji zahteva saradnju i informacije širokog spektra ljudi. Ovaj članak opisuje kako možete da koristite poboljšanja WBS-a da biste ispunili svoje zahteve za procene i praćenje.
 
 ## <a name="prerequisites-for-creating-a-wbs"></a>Preduslovi za kreiranje SAP
 Da biste kreirali SAP, morate biti u stanju da kreirate raspored rada i procenite troškove rada.
@@ -166,7 +166,7 @@ Finance ima tri prikaza za SAP projekta: prikaz planiranja, prikaz praćenja nap
 
 ### <a name="planning-view"></a>Prikaz planiranja
 
-Prikaz planiranja prikazuje planiranu ili osnovnu procenu rasporeda i informacije o troškovima. Iako ne postoje funkcije za praćenje verzije i osnovne linije za SAP projekta, vrednosti u ovom prikazu namenjene su predstavljanju osnovne verzije. Odeljci Procena rasporeda i Procena troškova ove teme opisuju ovaj prikaz i kako se koristi za kreiranje SAP.
+Prikaz planiranja prikazuje planiranu ili osnovnu procenu rasporeda i informacije o troškovima. Iako ne postoje funkcije za praćenje verzije i osnovne linije za SAP projekta, vrednosti u ovom prikazu namenjene su predstavljanju osnovne verzije. Odeljci za procenu rasporeda i procenu troškova ovog članka opisuju ovaj prikaz i način na koji se koristi za kreiranje WBS-a.
 
 ### <a name="effort-tracking-view"></a>Prikaz za praćenje angažovanja
 

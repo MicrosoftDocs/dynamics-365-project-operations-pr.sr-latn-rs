@@ -1,6 +1,6 @@
 ---
 title: Ponude – ključni koncepti
-description: Ova tema pruža informacije o ponudama za projekte i ponudama za prodaju koje su dostupne u usluzi Project Operations.
+description: Ovaj članak pruža informacije o ponudama za projekat i ponudama za prodaju koje su dostupne u operacijama projekta.
 author: rumant
 ms.date: 09/18/2020
 ms.topic: article
@@ -15,12 +15,12 @@ ms.search.industry: Service industries
 ms.author: rumant
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: fbaed6a0967ce4ef4eec572de9e2a7da95c3cbd9
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: c0598b9ec276741f1f62e0cfc1717a3fd622cd7c
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: sr-Latn-RS
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8579951"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8912533"
 ---
 # <a name="concepts-unique-to-project-based-quotes"></a>Koncepti jedinstveni za ponude zasnovane na projektu
 
@@ -35,7 +35,7 @@ U usluzi Dynamics 365 Project Operations postoje dve vrste ponuda – za projekt
 - **Polja i koncepti**: ponuda za prodaju ne sadrži neka polja i koncepte koji su obuhvaćeni u ponudi za projekat. U polja spadaju **Ugovorna jedinica**, **Menadžer za poslovne kontakte** i **Ime kontakta za fakturisanje**.  
 - **Tip**: Ponude za prodaju i ponude za projekte identifikuje i polje zasnovano na skupu opcija pod nazivom **Tip**. Za ponudu za prodaju, ovo polje ima vrednost **Zasnovano na stavci**. Za ponudu za projekat, ima vrednost **Zasnovano na radu**.
 
-Ova tema se fokusira na detalje ponuda projekata.
+Ovaj članak je fokusiran na detalje projektne ponude.
 
 Ponuda za projekat u aplikaciji Project Operations može da ima više stavki predmeta ili stavki ponude. U stvari, ponuda za projekat ima dve mreže za stavke predmeta. Jedna mreža je namenjena stavkama zasnovanim na projektu i omogućava detaljne procene. Druga mreža je namenjena stavkama zasnovanim na proizvodu i koristi jednostavnu jediničnu cenu i pristup zasnovan na količini.
 
