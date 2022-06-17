@@ -1,23 +1,23 @@
 ---
 title: Konfigurisanje parametara upravljanja troškovima
-description: Ova tema opisuje parametre koji kontrolišu opšte ponašanje u upravljanju troškovima.
+description: Ovaj članak opisuje parametre koji kontrolišu opšte ponašanje u upravljanju troškovima.
 author: suvaidya
 ms.date: 10/01/2020
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: suvaidya
-ms.openlocfilehash: bbaabd34d8f4af5dbcaff507fbb9f8de79355aa4
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 6432e119f38071b028c013561bab99820778a11d
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: sr-Latn-RS
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8577161"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8931485"
 ---
 # <a name="configure-expense-management-parameters"></a>Konfigurisanje parametara upravljanja troškovima
 
 _**Odnosi se na:** Project Operations za scenarije zasnovane na resursima / bez zaliha_
 
-Ova tema opisuje parametre kontrole opšteg ponašanja u upravljanju troškovima.
+Ovaj članak opisuje parametre kontrole opšteg ponašanja u upravljanju troškovima.
 
 ## <a name="general"></a>Opšte postavke
 

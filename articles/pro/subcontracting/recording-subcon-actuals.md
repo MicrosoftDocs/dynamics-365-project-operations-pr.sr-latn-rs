@@ -1,17 +1,17 @@
 ---
 title: Vreme snimanja, troškovi i korišćenje materijala za komponente podizvođačima
-description: Ova tema objašnjava kako Microsoft prati vreme, troškove i upotrebu materijala zabeležene na projektima iz komponenti podizvođača Dynamics 365 Project Operations.
+description: Ovaj članak sadrži objašnjenja o tome kako Microsoft prati vreme, troškove i upotrebu materijala zapisane na projektima iz komponenti podizvođača Dynamics 365 Project Operations.
 author: rumant
 ms.date: 12/03/2021
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: 5a31b4a1092cc4829cbfc789e8b8e30030b2826b
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 1c05b941fb51c8b56422e3b5d3868c9b69197187
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: sr-Latn-RS
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8599241"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8927667"
 ---
 # <a name="recording-time-expenses-and-material-usage-on-projects-for-subcontracted-components"></a>Vreme snimanja, troškovi i korišćenje materijala na projektima za komponente podizvođačima
 
@@ -19,7 +19,7 @@ ms.locfileid: "8599241"
 
 _**Odnosi se na:** Jednostavna primena – od pogodbe do profakture_
 
-Ova tema objašnjava kako Microsoft prati vreme, troškove i upotrebu materijala zabeležene na projektima iz komponenti podizvođača Dynamics 365 Project Operations.
+Ovaj članak sadrži objašnjenja o tome kako Microsoft prati vreme, troškove i upotrebu materijala zapisane na projektima iz komponenti podizvođača Dynamics 365 Project Operations.
 
 ## <a name="costing-for-subcontractor-time-on-projects"></a>Trošak za vreme podizvođača na projektima
 U projektno poslovanje, radnici po ugovoru mogu da zabeleže vreme na projekte na sličan način kao zaposleni. Prilikom unošenja vremena na projekte i/ili projektne zadatke, radnik po ugovoru može da izabere određeni red podizvođaca i podizvođači.

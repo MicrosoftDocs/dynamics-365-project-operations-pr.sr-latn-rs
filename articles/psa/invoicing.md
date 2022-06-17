@@ -1,6 +1,6 @@
 ---
 title: Fakturisanje u aplikaciji Project Service Automation
-description: Ova tema pruža informacije o fakturisanju.
+description: Ovaj članak pruža informacije o fakturisanju.
 author: rumant
 ms.custom:
 - dyn365-projectservice
@@ -16,12 +16,12 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: 84134778225bfce1126ccf70b32e0c82c4ccc3fc
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: fa036dda6514449b04e1416bde2cd9c21fc558b5
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: sr-Latn-RS
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8579323"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8926839"
 ---
 # <a name="invoicing-in-project-service-automation"></a>Fakturisanje u aplikaciji Project Service Automation
 
@@ -94,7 +94,7 @@ Nakon što se **ProcessRunner** pokrene, on poziva **ProcessRunCaller**, obezbe�
 Posao grupne obrade za kreiranje faktura je periodični posao. Ako se ova grupna obrada pokreće više puta, kreira se više instanci posla i izazivaju greške. Zbog toga bi trebalo samo jednom da pokrenete grupnu obradu i trebalo bi da je ponovo pokrenete samo ako prestane da radi.
 
 > [!NOTE]
-> Paketno fakturisanje u Project Service Automation pokreće se samo za predmete projektnih ugovora koji su konfigurisani rasporedima faktura. Predmet ugovora sa načinom naplate uz fiksnu cenu mora da ima konfigurisane kontrolne tačke. Predmet ugovora za projekat sa načinom naplate vremena i materijala treba da uspostavi raspored faktura na osnovu datuma. Informacije o postavljanju frekvencija fakturisanja u kontekstu projekta koji se zasniva na stavki ponude nalaze se u odeljku [Ponude i stavke ponuda](basic-quote-lines.md#invoice-schedule). Isto se odnosi i na predmet ugovora zasnovan na projektu.      
+> Paketno fakturisanje u Project Service Automation pokreće se samo za predmete projektnih ugovora koji su konfigurisani rasporedima faktura. Predmet ugovora sa načinom naplate uz fiksnu cenu mora da ima konfigurisane kontrolne tačke. Predmet ugovora za projekat sa načinom naplate vremena i materijala treba da uspostavi raspored faktura na osnovu datuma. Informacije o podešavanju frekvencija fakturisanja u kontekstu projekta koji se zasniva na redu ponude, navedene su u redovima članka, [ponuda i ponuda](basic-quote-lines.md#invoice-schedule). Isto se odnosi i na predmet ugovora zasnovan na projektu.      
  
 ### <a name="edit-a-draft-psa-invoice"></a>Uređivanje radne verzije PSA fakture
 

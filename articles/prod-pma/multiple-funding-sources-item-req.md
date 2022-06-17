@@ -1,23 +1,23 @@
 ---
-title: Zahtevi artikla za projektne ugovore sa više izvora finansiranja
-description: Ova tema informacije o konfigurisanju i korišćenju zahteva artikala sa više izvora finansiranja.
+title: Zahtevi artikala za ugovore za projekte sa više izvora finansiranja
+description: Ovaj članak pruža informacije o konfigurisanju i korišćenju zahteva artikala sa više izvora finansiranja.
 author: sigitac
 ms.date: 05/04/2022
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: d4af03e02d3c2eb0d442e6213ff5b9cf583d54b3
-ms.sourcegitcommit: 30242d7754bca300b594b0887eb4212d10bea1c4
+ms.openlocfilehash: a54ca1ec5e78d9d0af7b67914f6a63154c7347d3
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: sr-Latn-RS
-ms.lasthandoff: 05/07/2022
-ms.locfileid: "8728093"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8931209"
 ---
-# <a name="item-requirements-for-project-contracts-with-multiple-funding-sources"></a>Zahtevi artikla za projektne ugovore sa više izvora finansiranja
+# <a name="item-requirements-for-project-contracts-with-multiple-funding-sources"></a>Zahtevi artikala za ugovore za projekte sa više izvora finansiranja
 
 _**Odnosi se na:** Project Operations za scenarije zasnovane na zalihama/proizvodnji_
 
-Neki ugovorni ugovori za isporuke zasnovane na projektu mogu zahtevati više izvora finansiranja. Ova tema objašnjava kako da izaberete i konfigurišete željene izvore finansiranja kada je potrebno više izvora za projekat ili ugovor o projektu.
+Neki ugovorni ugovori za isporuke zasnovane na projektu mogu zahtevati više izvora finansiranja. Ovaj članak sadrži objašnjenja o tome kako da izaberete i konfigurišete željene izvore finansiranja kada je potrebno više izvora za projekat ili projektni ugovor.
 
 ## <a name="terminology"></a>Terminologija
 

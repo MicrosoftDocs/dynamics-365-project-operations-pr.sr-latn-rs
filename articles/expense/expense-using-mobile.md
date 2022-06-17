@@ -1,6 +1,6 @@
 ---
 title: Aplikacija o troškovima za mobilne uređaje
-description: Ova tema pruža informacije o mobilnom radnom prostoru za upravljanje troškovima.
+description: Ovaj članak pruža informacije o mobilnom radnom prostoru za upravljanje troškovima.
 author: suvaidya
 ms.date: 11/15/2021
 ms.topic: article
@@ -13,18 +13,18 @@ ms.search.region: ''
 ms.author: shylaw
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 14bd76df5f058d2af9f77990471a0a173fe8c15d
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 1ba7ccae04fbb02252e3ceb01f123ce1e85375b7
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: sr-Latn-RS
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8588937"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8930243"
 ---
 # <a name="mobile-expense-app"></a>Aplikacija o troškovima za mobilne uređaje
 
-_**Odnosi se na:** Project Operations za resurs/scenarije koji nisu zasnovani na zalihama, laganu primenu – od pogodbe do profakture_
+_**Odnosi se na:** Project Operations za scenarije zasnovane na resursima/bez zaliha, jednostavna primena – od pogodbe do profakture_
 
-Ova tema pruža informacije o mobilnom radnom prostoru za **Upravljanje troškovima**. Ovaj radni prostor omogućava korisnicima da nađu i otpreme priznanicu, kako bi kasnije mogli da je prilože u izveštaju o troškovima. Korisnici takođe mogu brzo da kreiraju liniju troškova koristeći priloženu priznanicu i kreiraju izveštaje o troškovima i upravljaju njima. Pored toga, davaoci odobrenja mogu da koriste mobilni radni prostor za **Upravljanje troškovima** za pregled izveštaja o troškovima koji su im dodeljeni i odobravanje ili odbijanje tih izveštaja o troškovima.
+Ovaj članak pruža informacije o mobilnom radnom **prostoru za** upravljanje troškovima. Ovaj radni prostor omogućava korisnicima da nađu i otpreme priznanicu, kako bi kasnije mogli da je prilože u izveštaju o troškovima. Korisnici takođe mogu brzo da kreiraju liniju troškova koristeći priloženu priznanicu i kreiraju izveštaje o troškovima i upravljaju njima. Pored toga, davaoci odobrenja mogu da koriste mobilni radni prostor za **Upravljanje troškovima** za pregled izveštaja o troškovima koji su im dodeljeni i odobravanje ili odbijanje tih izveštaja o troškovima.
 
 Ovaj mobilni radni prostor je namenjen za upotrebu zajedno sa Dynamics 365 Unified Ops aplikacijom za mobilne uređaje.
 

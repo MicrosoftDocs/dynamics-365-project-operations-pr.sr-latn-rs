@@ -1,18 +1,18 @@
 ---
 title: Korišćenje kategorija nabavki sa izlaznim porudžbinama projekta i neobrađenim fakturama dobavljača
-description: Ovaj tema opisuje kako se konfigurišu kategorije nabavki koje se mogu koristiti sa izlaznim porudžbinama projekta i neobrađenim fakturama dobavljača.
+description: Ovaj članak opisuje kako se konfigurišu kategorije nabavki koje se mogu koristiti sa izlaznim porudžbinama projekta i neobrađenim fakturama dobavljača.
 author: sigitac
 ms.date: 04/07/2022
 ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: ee68d7906cb0c887c19a32363ec7fda547cb74bd
-ms.sourcegitcommit: 9916f536a71b6a0078297402564ac79308ec6890
-ms.translationtype: HT
+ms.openlocfilehash: 7d774631a4712de9b29ddedfee2ea3fc4a2d436f
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.translationtype: MT
 ms.contentlocale: sr-Latn-RS
-ms.lasthandoff: 04/18/2022
-ms.locfileid: "8613364"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8927437"
 ---
 # <a name="use-procurement-categories-with-project-purchase-orders-and-pending-vendor-invoices"></a>Korišćenje kategorija nabavki sa izlaznim porudžbinama projekta i neobrađenim fakturama dobavljača
 
@@ -47,7 +47,7 @@ Sledite ove korake da biste mapirali kategorije projekata u kategorije nabavki u
 
 1. Idite u kategorije **nabavki i nabavki \>**.
 1. Izaberite **uredi hijerarhiju kategorija**.
-1. Izaberite željeni kvrga za hijerarhiju kategorije, a zatim na kartici Dodeljivanje **kategorija projekta povežite kvrgu sa kategorijom projekta iz kategorije** Vreme **, Trošak**ili**,,Projekat **artikla" (odnosno kategorija** Podrazumevano vreme **ili** Podrazumevani troškovi **).**
+1. Izaberite željeni broj hijerarhije kategorija, a zatim na kartici Dodeljivanje **kategorija projekta povežite oglas sa kategorijom projekta** iz kategorije "Vreme **",**"Trošak **" ili "** Projekat artikla **" (to jest,**"Podrazumevano vreme" ili **·**"Podrazumevani troškovi"**).**
 1. Izaberite **Sačuvaj**.
 1. Zatvorite stranicu.
 

@@ -1,17 +1,17 @@
 ---
 title: Ugovori za projekat – Ključni koncepti – jednostavno
-description: Ova tema pruža informacije o ključnim konceptima ugovora za projekat.
+description: Ovaj članak pruža informacije o ključnim konceptima projektnog ugovora.
 author: rumant
 ms.date: 10/07/2020
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: 09252e449c11d6602dccba83f26413f380698814
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: e92edadc49469ad5f541be8bce7b7a8043b981e2
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: sr-Latn-RS
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8580611"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8932681"
 ---
 # <a name="concepts-unique-to-project-contracts"></a>Koncepti jedinstveni za ugovor o projektu
 
@@ -19,7 +19,7 @@ _**Odnosi se na:** Jednostavna primena – od pogodbe do profakture_
 
 
 
-U ovoj temi dati su ključni koncepti kojih morate biti svesni pre nego što počnete da koristite projektne ugovore u Dynamics 365 Project Operations:
+Ovaj članak obezbeđuje ključne koncepte kojih treba da budete svesni pre nego što počnete da koristite projektne ugovore u Dynamics 365 Project Operations:
 
 ## <a name="contracting-unit"></a>Jedinica ugovaranja
 

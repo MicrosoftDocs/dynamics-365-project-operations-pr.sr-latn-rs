@@ -1,17 +1,17 @@
 ---
 title: Upravljanje mogućnostima za poslovanje zasnovanim na projektima
-description: Ova tema pruža informacije o tome kako raditi sa mogućnostima koje su povezane sa projektima.
+description: Ovaj članak pruža informacije o načinu rada sa mogućnostima koje se odnose na projekte.
 author: rumant
 ms.date: 10/21/2020
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: f39940ac063a8c202f33797ed649518907563e31
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 29e5a2c91186021eee9bb23aba3d42228fcd9381
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: sr-Latn-RS
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8600437"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8933233"
 ---
 # <a name="manage-project-based-opportunities"></a>Upravljanje mogućnostima za poslovanje zasnovanim na projektima
 
@@ -19,7 +19,7 @@ _**Odnosi se na:** Project Operations za resurs/scenarije koji nisu zasnovani na
 
 Projektne kompanije obično imaju svoje operacije isporuke raširene u više zemalja i geografskih područja. Troškovi izvršenja i isporuke projekta mogu se razlikovati u zavisnosti od toga koja lokacija ili odeljenje upravlja isporukom. Zauzvrat, ovo može uticati na marže pogodbe. Pružanje projektnih usluga obično uključuje velike količine ljudskih resursa, znatne troškove putovanja, materijalne troškove i druge troškove.
 
-Mogućnosti zasnovane na projektima u usluzi Dynamics 365 Project Operations dizajnirane su pomoću proširenja za Dynamics 365 Sales. Ova tema pruža detalje o različitim poljima i poslovnoj logici uključenoj u dodatnu funkcionalnost koja je potrebna kompanijama zasnovanim na projektima kako bi upravljale mogućnostima zasnovanim na projektima.
+Mogućnosti zasnovane na projektima u usluzi Dynamics 365 Project Operations dizajnirane su pomoću proširenja za Dynamics 365 Sales. Članak pruža detalje o različitim poljima i poslovnoj logici uključenoj u dodatnu funkcionalnost koju preduzeća zasnovana na projektu zahtevaju za upravljanje mogućnostima zasnovanim na projektu.
 
 ## <a name="view-all-project-based-opportunities"></a>Prikažite sve mogućnosti za poslovanje zasnovane na projektima
 

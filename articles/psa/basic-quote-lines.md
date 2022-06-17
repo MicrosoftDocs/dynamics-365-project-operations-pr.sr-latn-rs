@@ -1,6 +1,6 @@
 ---
 title: Ponude i stavke ponuda
-description: Ova tema pruža informacije o ponudama i stavkama ponuda.
+description: Ovaj članak pruža informacije o ponudama i redovima ponude.
 author: rumant
 ms.custom:
 - dyn365-projectservice
@@ -17,12 +17,12 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: 4ff0a221b9d9ee1176f4e6c996613e33a6ca5e84
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 4c59f018adc7ee439fd77a819e2fb7620941e958
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: sr-Latn-RS
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8599057"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8933371"
 ---
 # <a name="quotes-and-quote-lines"></a>Ponude i stavke ponuda
 
@@ -39,7 +39,7 @@ U aplikaciji Dynamics 365 Project Service Automation postoje dve vrste ponuda: p
 - Ponuda za prodaju ne sadrži neka polja i koncepte koji su obuhvaćeni u ponudi za projekat. U polja spadaju **Ugovorna jedinica**, **Menadžer za poslovne kontakte** i **Ime kontakta za fakturisanje**.  
 - Ponude za prodaju i ponude za projekte identifikuje i polje zasnovano na skupu opcija pod nazivom **Tip**. Za ponudu za prodaju, ovo polje ima vrednost **Zasnovano na stavci**. Za ponudu za projekat, ima vrednost **Zasnovano na radu**.
 
-Ova tema će se fokusirati na detalje ponuda projekata.
+Ovaj članak će biti fokusiran na detalje projektne ponude.
 
 Ponuda za projekat u aplikaciji PSA može da ima više stavki predmeta ili stavki ponude. U stvari, ponuda za projekat ima dve mreže za stavke predmeta. Jedna mreža je namenjena stavkama zasnovanim na projektu i omogućava detaljne procene. Druga mreža je namenjena stavkama zasnovanim na proizvodu i koristi jednostavnu jediničnu cenu i pristup zasnovan na količini.
 

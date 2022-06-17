@@ -1,6 +1,6 @@
 ---
-title: Project Operations polja kao dimenzija za određivanje cena
-description: Ova tema pruža informacije o upotrebi polja kao dimenzija za određivanje cena u usluzi Dynamics 365 Project Operations.
+title: Project Operations polja kao dimenzije za određivanje cena
+description: Ovaj članak obezbeđuje informacije koje koriste polja kao dimenzije cena u programu Dynamics 365 Project Operations.
 author: rumant
 ms.date: 09/18/2020
 ms.topic: article
@@ -15,12 +15,12 @@ ms.search.industry: Service industries
 ms.author: suvaidya
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: 6a68bfe5a61f032f28f69c1aaed29f12cbea285d
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: baf2145d4df23893953a099ca3837160fa8ac764
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: sr-Latn-RS
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8594135"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8932819"
 ---
 # <a name="project-operations-fields-as-pricing-dimensions"></a>Project Operations polja kao dimenzije za određivanje cena
 

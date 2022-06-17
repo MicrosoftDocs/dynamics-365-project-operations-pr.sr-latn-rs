@@ -1,6 +1,6 @@
 ---
 title: Šta je novo ili promenjeno u aplikaciji Project Service Automation verzije 3
-description: U ovoj temi date su informacije o tome šta je novo i šta se promenilo u rešenju Project Service Automation verzije 3.
+description: Ovaj članak pruža informacije o tome šta je novo i promenjeno u verziji 3.
 ms.custom:
 - dyn365-projectservice
 ms.date: 11/28/2018
@@ -17,12 +17,12 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: 15925cb88cc413f9a23a25e89ddd29668e9171de
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 8d076e270f426131119eab097e7f359c228edb51
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: sr-Latn-RS
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8581669"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8926609"
 ---
 # <a name="whats-new-or-changed-in-project-service-automation-version-3"></a>Šta je novo ili promenjeno u aplikaciji Project Service Automation verzije 3
 
@@ -32,7 +32,7 @@ ms.locfileid: "8581669"
 
 
 
-Ova tema pruža informacije o promenama korisničkog interfejsa, funkcionalnosti i terminologije u aplikaciji Project Service Automation između verzije 2 ili verzije 1 i verzije 3.
+Ovaj članak pruža informacije o promenama u korisničkom interfejsu (korisničkom interfejsu), funkcionalnosti i terminologiji u automatizaciji projektne usluge između verzije 2 ili verzije 1 i verzije 3.
 
 ## <a name="project-scheduling"></a>Zakazivanje projekta
 Raspored projekta, koji je u prethodnim verzijama bio poznat pod nazivom strukturna analiza posla (SAP), preimenovan je u raspored, a njemu se pristupa klikom na karticu **Raspored**. 
@@ -150,7 +150,7 @@ Kada imate dodele zadataka za resurs bez rezervisanja (nedostatak rezervacije), 
 Ovaj odeljak pruža informacije o promenama vremena, troškova i odobrenja u verziji 3 aplikacije Project Service Automation. Kao deo rešenja Dynamics 365 Project Service Automation, funkcija **Stavka vremena** je osvežena da bi iskoristila okvir objedinjenog interfejsa. To omogućava isporuku konzistentnog, jedinstvenog korisničkog interfejsa koji sledi prilagodljiv dizajn za optimalni pregled na bilo kojoj veličini ekrana ili uređaju. 
 
 ### <a name="landing-page"></a>Odredišna stranica
-Iskustvo neproširive prilagođene stavke vremena zastarelo je u verziji 3. Umesto toga, sada postoji proširivo i dostupno iskustvo uklopljene mreže. Funkcionalnosti za stavku vremena možete pristupiti pomoću mape sajta sa leve strane. Zbog ove promene više nećete moći odjednom da unosite vreme za jednu sedmicu. Umesto toga, moraćete da kreirate stavku vremena za svaki dan u mreži. Nakon kreiranja nekoliko stavki, korisnici mogu grupno da kreiraju stavke vremena pomoću funkcije za **kopiranje** koja je objašnjena kasnije u ovoj temi. 
+Iskustvo neproširive prilagođene stavke vremena zastarelo je u verziji 3. Umesto toga, sada postoji proširivo i dostupno iskustvo uklopljene mreže. Funkcionalnosti za stavku vremena možete pristupiti pomoću mape sajta sa leve strane. Zbog ove promene više nećete moći odjednom da unosite vreme za jednu sedmicu. Umesto toga, moraćete da kreirate stavku vremena za svaki dan u mreži. Nakon kreiranja nekoliko stavki, korisnici mogu masovno da kreiraju vremenske stavke sa funkcijom Kopiraj **objašnjene** kasnije u ovom članku. 
 
 ![Odredišna stranica stavke vremena.](media/time-entry-landing-page-07.png)
  

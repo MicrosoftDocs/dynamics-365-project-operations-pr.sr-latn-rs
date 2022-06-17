@@ -1,24 +1,24 @@
 ---
 title: Šta je novo u julu 2021. – Project Operations za scenarije zasnovane na resursima / bez zaliha
-description: Ova tema pruža informacije o ispravkama kvaliteta dostupnim u izdanju za jul 2021. usluge Project Operations za scenarije zasnovane na resursima / bez zaliha.
+description: Ovaj članak pruža informacije o kvalitetnim ispravkama dostupnim u izdanju projektnih operacija u julu 2021.
 author: sigitac
 ms.date: 07/07/2021
 ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 1c88f3b4747005bee0d68d0e8a4314c01ffdaf34
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: c004a6adc265f8f02fc557700d9b88a174c221c4
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: sr-Latn-RS
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8600897"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8931715"
 ---
 # <a name="whats-new-july-2021---project-operations-for-resourcenon-stocked-based-scenarios"></a>Šta je novo u julu 2021. – Project Operations za scenarije zasnovane na resursima / bez zaliha
 
 *Odnosi se na: Project Operations za scenarije zasnovane na resursima / bez zaliha*
 
-Ova tema se odnosi na sledeće komponente i verzije usluge Dynamics 365 Project Operations:
+Ovaj članak se odnosi na sledeće Dynamics 365 Project Operations komponente i verzije:
 
    - Project Operations u Microsoft Dataverse okruženju verzije 4.12.0.148 ili 4.12.0.152.
    - Upravljanje projektima i računovodstvo u Dynamics 365 Finance okruženju verzija 10.0.20.

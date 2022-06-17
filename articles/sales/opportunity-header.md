@@ -1,17 +1,17 @@
 ---
 title: Zaglavlje/rezime mogućnosti za poslovanje
-description: Ova tema pruža informacije o pogodbama zasnovanim na projektu i stavkama mogućnosti za poslovanje zasnovanim na projektu.
+description: Ovaj članak pruža informacije o poslovima zasnovanim na projektu i redovima mogućnosti za poslovanje zasnovanim na projektu.
 author: rumant
 ms.date: 10/01/2020
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: 12173a832c4ed91b72bc398a97c770e551d5e0f5
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 376d963cd45d3a71311118c799ac6764285add87
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: sr-Latn-RS
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8600989"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8928147"
 ---
 # <a name="header-details-for-project-based-opportunities"></a>Detalji zaglavlja za mogućnosti za poslovanje zasnovane na projektu
 

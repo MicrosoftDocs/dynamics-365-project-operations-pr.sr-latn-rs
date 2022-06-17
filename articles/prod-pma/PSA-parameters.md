@@ -1,6 +1,6 @@
 ---
 title: Parametri integracije usluge Project Service Automation
-description: Ova tema objašnjenja o tome kako da konfigurišete način na koji se podrazumevani podaci unose kada se integrišete Microsoft Dynamics 365 for Project Service Automation Microsoft Dynamics sa 365 finansija.
+description: Ovaj članak sadrži objašnjenja o tome kako da konfigurišete način na koji se podrazumevani podaci unose kada se integrišete Microsoft Dynamics 365 for Project Service Automation Microsoft Dynamics sa 365 Finansija.
 author: ruhercul
 ms.date: 03/03/2020
 ms.topic: article
@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: ruhercul
 ms.search.validFrom: 2016-11-28
 ms.dyn365.ops.version: AX 7.3.0
-ms.openlocfilehash: 70dcf44c0948bfb8f17c51e052b6c76e029d35fd
-ms.sourcegitcommit: 2c2a5a11d446adec2f21030ab77a053d7e2da28e
+ms.openlocfilehash: a4abeb2960981196ed1d7c453e7daa0558e326ef
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: sr-Latn-RS
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8683693"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8932313"
 ---
 # <a name="project-service-automation-integration-parameters"></a>Parametri integracije usluge Project Service Automation
 

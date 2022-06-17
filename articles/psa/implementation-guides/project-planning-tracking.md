@@ -1,6 +1,6 @@
 ---
 title: Planiranje i praćenje projekta
-description: Ova tema pruža vezu ka informacijama o planiranju i praćenju u aplikaciji Project Service Automation.
+description: Ovaj članak pruža vezu ka informacijama o planiranju i praćenju u automatizaciji projektne usluge.
 author: kfend
 ms.custom:
 - dyn365-projectservice
@@ -17,12 +17,12 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: 781e5afb30f5f3e7d81084c5f9bdb0c8ab200d9b
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: b10a9b2f636b05955783c320597673fa7d24e131
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: sr-Latn-RS
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8589903"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8933279"
 ---
 # <a name="project-planning-and-tracking"></a>Planiranje i praćenje projekta
 
@@ -32,7 +32,7 @@ ms.locfileid: "8589903"
 
 Aplikacija Project Service pomaže organizacijama koje pružaju usluge da identifikuju mogućnosti za poslovanje, proslede ponude, postignu ugovorne sporazume, upravljaju resursima, prate vreme i troškove, fakturišu klijentima i isporučuju projekte na vreme i u okviru budžeta. 
 
-PDF veza koja je prethodno bila u ovoj temi uklonjena je, a sadržaj je premešten u sledeće teme:
+PDF link koji je prethodno bio u ovom članku je uklonjen i sadržaj je premešten u sledeće članke:
 
 - [Rasporedi projekata](../project-creating.md)
 - [Troškovi i prihod projekta](../project-estimating.md)
@@ -43,7 +43,7 @@ PDF veza koja je prethodno bila u ovoj temi uklonjena je, a sadržaj je premešt
 - [Podešavanja projekta](../project-settings.md)
 
 > [!NOTE]
-> Ova tema biće uklonjena u budućoj ispravci dokumentacije. 
+> Ovaj članak će biti uklonjen u budućoj ispravci. 
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -1,6 +1,6 @@
 ---
 title: Ulazne porudžbine projekta za projekte vremena i materijala
-description: Ova tema objašnjava kako se kreiraju ulazne porudžbine zasnovane na projektima vremena i materijala.
+description: Ovaj članak sadrži objašnjenja o tome kako da kreirate ulazne porudžbine zasnovane na projektu za vremenske i materijalne projekte.
 author: Yowelle
 ms.date: 04/05/2019
 ms.topic: article
@@ -14,18 +14,18 @@ ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2019-04-05
 ms.dyn365.ops.version: AX 10.0.2
-ms.openlocfilehash: 3e88235b08ca2b8a5ccaab3dfdd7bcff4ab64f5f
-ms.sourcegitcommit: 2c2a5a11d446adec2f21030ab77a053d7e2da28e
+ms.openlocfilehash: 3a040de6d22b626b9e3d462272f43c5763b5b90f
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: sr-Latn-RS
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8684522"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8933831"
 ---
 # <a name="project-sales-orders-for-time-and-material-projects"></a>Ulazne porudžbine projekta za projekte vremena i materijala
 
 [!include[banner](../includes/banner.md)]
 
-Ovaj tema opisuje kako se kreira ulazna porudžbina za projekat. Ulazne porudžbine mogu se kreirati samo za projekte tog tipa **vreme i materijal**.
+Ovaj članak opisuje kako se kreira ulazna porudžbina za projekat. Ulazne porudžbine mogu se kreirati samo za projekte tog tipa **vreme i materijal**.
 
 Ako projekat vremena i materijala sadrži više izvora finansiranja u ugovoru o projektu, morate omogućiti parametar **Dozvoli ulazne porudžbine za projekte sa više izvora finansiranja** na stranici **Upravljanje projektom i računovodstveni parametri**. 
 

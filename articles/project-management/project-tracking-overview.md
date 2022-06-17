@@ -1,23 +1,23 @@
 ---
 title: Praćenje angažovanja u projektu
-description: Ova tema pruža informacije o tome kako da pratite angažovanje u projektu i napredak posla.
+description: Ovaj članak pruža informacije o tome kako pratiti napore projekta i tok rada.
 author: ruhercul
 ms.date: 02/15/2022
 ms.topic: overview
 ms.reviewer: johnmichalak
 ms.author: ruhercul
-ms.openlocfilehash: 037118714cf01ba2fb91cdd94345495d12ccb645
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: c41dbc138f6fc92a9586de173ba5dfc89c7e44e3
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: sr-Latn-RS
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8593813"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8929277"
 ---
 # <a name="project-effort-tracking"></a>Praćenje angažovanja u projektu
 
 _**Odnosi se na:** Project Operations za scenarije zasnovane na resursima/bez zaliha, jednostavna primena – od pogodbe do profakture_
 
-Potreba da se prati napredak u odnosu na raspored razlikuje se od delatnosti do delatnosti. Neke delatnosti obavljaju praćenje na najdetaljnijem nivou, dok druge to rade na višem nivou. Ova tema pokazuje kako obaviti zakazivanje da biste ispunili potrebe svoje organizacije.
+Potreba da se prati napredak u odnosu na raspored razlikuje se od delatnosti do delatnosti. Neke delatnosti obavljaju praćenje na najdetaljnijem nivou, dok druge to rade na višem nivou. Ovaj članak prikazuje kako se planira da bi se ispunili zahtevi vaše organizacije.
 
 ## <a name="effort-tracking-view"></a>Prikaz za praćenje angažovanja
 

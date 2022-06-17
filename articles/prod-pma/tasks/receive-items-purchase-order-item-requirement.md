@@ -1,6 +1,6 @@
 ---
 title: Prijem stavki po narudžbenici iz zahteva za stavku
-description: Ovaj tema objašnjava kako da primite stavke na narudžbenici iz zahteva za stavku.
+description: Ovaj članak sadrži objašnjenja o tome kako da primite artikle iz izlazne porudžbine iz zahteva artikla.
 author: Yowelle
 ms.date: 08/06/2019
 ms.topic: business-process
@@ -13,18 +13,18 @@ ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: ab08dda6e81609595f54f3dd71c0154c12807270
-ms.sourcegitcommit: 2c2a5a11d446adec2f21030ab77a053d7e2da28e
+ms.openlocfilehash: 9bbe15fac325ad00bdd2f2fc6ddf3ae15df45271
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: sr-Latn-RS
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8682546"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8929553"
 ---
 # <a name="receive-items-on-purchase-order-from-item-requirement"></a>Prijem stavki po narudžbenici iz zahteva za stavku
 
 [!include [banner](../../includes/banner.md)]
 
-Ovaj tema objašnjava kako da primite stavke na narudžbenici iz zahteva za stavku.
+Ovaj članak sadrži objašnjenja o tome kako da primite artikle iz izlazne porudžbine iz zahteva artikla.
 
 Korišćenjem zahteva za stavku umesto transakcije sa stavkom, možete da planirate isporuku neposredno pre nego što se stavka stvarno koristi, kreirate narudžbenicu, stavku uključite u okvir trgovinskog sporazuma i uključite zahtev za stavku u planiranje proizvodnje. 
 

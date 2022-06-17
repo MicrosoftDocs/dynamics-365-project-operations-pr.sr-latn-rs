@@ -1,6 +1,6 @@
 ---
 title: Kreiranje i potvrda dnevnika sa ispravkama
-description: Ova tema pruža informacije o tome kako da kreirate i potvrdite dnevnik sa ispravkama.
+description: Ovaj članak pruža informacije o kreiranju i potvrđivanja naloga ispravki.
 author: rumant
 ms.date: 09/18/2020
 ms.topic: article
@@ -13,12 +13,12 @@ ms.assetid: ''
 ms.author: rumant
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: c15db854e3d130150ad7afc707a126b37c57f62d
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 70886aa5a3060fa58461ce215e4de3b7286093e3
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: sr-Latn-RS
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8582820"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8928081"
 ---
 # <a name="create-and-confirm-correction-journals"></a>Kreiranje i potvrda dnevnika sa ispravkama
 

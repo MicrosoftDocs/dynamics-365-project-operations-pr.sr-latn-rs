@@ -1,6 +1,6 @@
 ---
 title: Matična stranica za dimenzije određivanja cena i obračuna troškova
-description: Ova tema obezbeđuje pregled dimenzija za određivanje cena.
+description: Ovaj članak pruža pregled dimenzija cena.
 author: rumant
 ms.custom:
 - dyn365-projectservice
@@ -17,12 +17,12 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: 7dbee508cea074a8c443506d280a1b52eb698202
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 88c77d90bccaa5f10e8f75d60ae121d699bc0976
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: sr-Latn-RS
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8593629"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8925459"
 ---
 # <a name="pricing-and-costing-dimensions-home-page"></a>Matična stranica za dimenzije određivanja cena i obračuna troškova
 
@@ -47,7 +47,7 @@ PSA obavlja isporuku pomoću podrazumevanog skup dimenzija za određivanje cena.
 > [!IMPORTANT]
 > Ako ste koristili unapred definisana polja uloge i organizacionih jedinica kao dimenzije za određivanje cena pre verzije 3 aplikacije PSA, neće biti nikakvih primetnih promena. Možete da nastavite da koristite Project Service kao i obično. 
 
-Ako je potrebno da odredite cenu ili troškove resursa pomoću dodatnih atributa, možete da kreirate prilagođena polja, entitete i dimenzije. Da biste dobili više informacija, pogledajte sledeće teme, ali imajte na umu da morate da dovršite procedure po dolenavedenom redosledu:
+Ako je potrebno da odredite cenu ili troškove resursa pomoću dodatnih atributa, možete da kreirate prilagođena polja, entitete i dimenzije. Više informacija potražite u sledećim člancima, međutim imajte na do znanju da morate da dovršite procedure redosledom navedenim ispod:
 
 - [Kreiranje prilagođenih polja i entiteta](create-custom-fields-entities.md)
 - [Dodavanje prilagođenih polja u podešavanje cena i entitete transakcije](field-references.md)

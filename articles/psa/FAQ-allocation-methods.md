@@ -1,6 +1,6 @@
 ---
 title: Metode dodele rezervacija u usluzi Project Service Automation
-description: Ova tema pruža informacije o različitim načinima na koje možete rezervisati dodele.
+description: Ovaj članak pruža informacije o različitim načinima na koje možete da rezervišete dodele.
 author: ruhercul
 ms.custom:
 - dyn365-projectservice
@@ -17,18 +17,18 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: f0f4f5c68698fbe88de968e65a65b316b10872d9
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: dff11de0726004653233c6b90e194825c3850e0c
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: sr-Latn-RS
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8590133"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8929185"
 ---
 # <a name="booking-allocation-methods-in-project-service-automation"></a>Metode dodele rezervacija u usluzi Project Service Automation
 
 [!include [banner](../includes/psa-now-project-operations.md)]
 
-Bilo da dodajete člana tima direktno u projekat na kartici **Tim** ili rezervišete resurs za projekat ili zahtev na tabeli rasporeda, postoji nekoliko različitih načina dodele rezervacija koje možete da koristite. Ova tema objašnjava kako svaki metod funkcioniše i koji načini mogu dovesti do prebukiranja resursa.
+Bilo da dodajete člana tima direktno u projekat na kartici **Tim** ili rezervišete resurs za projekat ili zahtev na tabeli rasporeda, postoji nekoliko različitih načina dodele rezervacija koje možete da koristite. Ovaj članak sadrži objašnjenja o tome kako svaki metod funkcioniše i koji metodi mogu dovesti do prebukiranih resursa.
 
 ## <a name="full-capacity"></a>Puni kapacitet 
 Metod punog kapaciteta rezerviše puni kapacitet resursa za navedene početne i krajnje datume. Na primer, ako resurs ima kalendar podešen na osam radnih sati dnevno, pet dana u sedmici, podešavanje datuma početka i završetka koji pokriva pet radnih dana rezerviše resurs na 40 časova. Rezervacija se obavlja bez obzira na preostali kapacitet resursa. Ako je resurs već rezervisan tokom tog perioda na drugim projektima, 40 časova rezervišete kao dodatne radne sate, što potencijalno dovodi do prebukiranja.

@@ -1,24 +1,24 @@
 ---
 title: Šta je novo u februaru 2022. – Project Operations za scenarije zasnovane na resursima/bez zaliha
-description: Ova tema pruža informacije o kvalitetnim ispravkama koje su dostupne u februaru 2022.
+description: Ovaj članak pruža informacije o kvalitetnim ispravkama koje su dostupne u februaru 2022.
 author: sigitac
 ms.date: 01/27/2021
 ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 76ae00517c857415c89d7a03f421686dad28da93
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: b036c0a3c39c52cb15277293679ef88906cae2c4
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: sr-Latn-RS
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8600851"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8933003"
 ---
 # <a name="whats-new-february-2022---project-operations-for-resourcenon-stocked-based-scenarios"></a>Šta je novo u februaru 2022. – Project Operations za scenarije zasnovane na resursima/bez zaliha
 
 *Odnosi se na: Project Operations za scenarije zasnovane na resursima / bez zaliha*
 
-Ova tema se odnosi na sledeće komponente i verzije korporacije Microsoft Dynamics 365 Project Operations:
+Ovaj članak se odnosi na sledeće komponente i verzije korporacije Microsoft Dynamics 365 Project Operations:
 
 - Operacije projekta u verziji Dataverse okruženja 4.28.0.120
 - Upravljanje projektima i računovodstvo u Dynamics 365 Finance okruženju verzija 10.0.24
@@ -76,11 +76,11 @@ Ako naiđete na problem prilikom početka mape, sledite uputstva [u problemu sa 
 
 ## <a name="removed-and-deprecated-features"></a>Uklonjene i neodobrene funkcije
 
-Uklonjene [ili zastarele funkcije u programu Project Operations](removed-depreciated-features-project.md) tema opisuju funkcije koje su uklonjene ili zastarele za Dynamics 365 Project Operations.
+Uklonjene [ili zastarele funkcije u članku "Operacije](removed-depreciated-features-project.md) projekta" opisuju funkcije koje su uklonjene ili zastarele za Dynamics 365 Project Operations.
 
 - Uklonjena funkcija više nije dostupna u proizvodu.
 - Zastarela funkcija nije u aktivnom razvoju i može biti uklonjena u budućoj ispravci.
 
-Najava amortizacije će se pojaviti u funkcijama ["Uklonjeno" ili "Zastarelo](removed-depreciated-features-project.md)" u operacijama projekta tema 12 meseci pre nego što bilo koja funkcija bude uklonjena iz proizvoda.
+Najava amortizacije će se pojaviti u funkcijama " [Uklonjeno" ili "Zastarelo" u članku "Operacije](removed-depreciated-features-project.md) projekta" 12 meseci pre nego što bilo koja funkcija bude uklonjena iz proizvoda.
 
 Za prekid promena koje utiču samo na vreme kompilacije, ali su binarno kompatibilne sa sandbox i proizvodnim okruženjem, vreme amortizacije će biti manje od 12 meseci. Ove promene obično su funkcionalne ispravke koje se moraju izvršiti na kompajleru.

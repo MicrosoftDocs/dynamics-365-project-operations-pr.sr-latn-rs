@@ -1,6 +1,6 @@
 ---
 title: Veštine i modeli stručnosti
-description: Ova tema pruža informacije o tome kako da koristite veštine i modele stručnosti.
+description: Ovaj članak pruža informacije o načinu korišćenja modela veština i stručnosti.
 author: ruhercul
 ms.custom:
 - dyn365-projectservice
@@ -17,12 +17,12 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: d46382939e22c1ee1d9f5517798aabb3520ae3bd
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 27a9668c3a0d6a2323fb4797a29f6c7d3d146c57
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: sr-Latn-RS
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8599885"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8925321"
 ---
 # <a name="skills-and-proficiency-models"></a>Veštine i modeli stručnosti
 

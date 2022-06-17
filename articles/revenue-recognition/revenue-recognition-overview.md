@@ -1,23 +1,23 @@
 ---
 title: Pregled prepoznavanja prihoda
-description: Ova tema pruža informacije o prepoznavanju prihoda u usluzi Project Operations.
+description: Ovaj članak pruža informacije o priznavanju prihoda u operacijama projekta.
 author: sigitac
 ms.date: 11/16/2020
 ms.topic: overview
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 51c553ecf45452615cbcadce6386f32be427acaa
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 22486693226256f765589b272e6df36aceaf9c1c
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: sr-Latn-RS
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8601449"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8926287"
 ---
 # <a name="revenue-recognition-overview"></a>Pregled prepoznavanja prihoda
 
 _**Odnosi se na:** Project Operations za scenarije zasnovane na resursima / bez zaliha_
 
-U usluzi Dynamics 365 Project Operations, principi prepoznavanja prihoda variraju u zavisnosti od izabranog načina obračuna za projekat ili deo projekta. Ova tema pruža informacije o prepoznavanju prihoda u usluzi Project Operations.
+U usluzi Dynamics 365 Project Operations, principi prepoznavanja prihoda variraju u zavisnosti od izabranog načina obračuna za projekat ili deo projekta. Ovaj članak pruža informacije o priznavanju prihoda u operacijama projekta.
 
 ## <a name="transactions-accounted-using-time-and-material-billing-method"></a>Preuzete transakcije koristeći način naplate za vreme i materijal
 

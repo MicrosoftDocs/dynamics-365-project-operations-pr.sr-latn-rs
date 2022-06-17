@@ -1,24 +1,24 @@
 ---
 title: Šta je novo decembra 2020. – Project Operations za scenarije zasnovane na resursima/bez zaliha
-description: Ova tema pruža informacije o ispravkama kvaliteta dostupnim u izdanju usluge Project Operations za decembar 2020. za scenarije zasnovane na resursima/bez zaliha.
+description: Ovaj članak pruža informacije o kvalitetnim ispravkama dostupnim u decembru 2020.
 author: sigitac
 ms.date: 12/04/2020
 ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 766e2815d2a07708ace91a0ff5308e0195ff0edc
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 8eb5d2e31f8d3506fc07332cf78efda979c46206
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: sr-Latn-RS
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8579875"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8933049"
 ---
 # <a name="whats-new-december-2020---project-operations-for-resourcenon-stocked-based-scenarios"></a>Šta je novo decembra 2020. – Project Operations za scenarije zasnovane na resursima/bez zaliha
 
 _**Odnosi se na:** Project Operations za scenarije zasnovane na resursima / bez zaliha_
 
-Ova tema se odnosi na sledeće komponente i verzije usluge Dynamics 365 Project Operations:
+Ovaj članak se odnosi na sledeće Dynamics 365 Project Operations komponente i verzije:
 
 - Project Operations u Dataverse okruženju verzije 4.5.0.134
 - Upravljanje projektima i računovodstvo u Dynamics 365 Finance okruženju verzija 10.0.15

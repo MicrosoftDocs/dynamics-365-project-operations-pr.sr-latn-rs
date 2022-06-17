@@ -1,6 +1,6 @@
 ---
 title: Sinhronizovanje projektnih ugovora i projekata direktno iz usluge Project Service Automation sa uslugom Finance
-description: Ovaj tema opisuje predložak i osnovne zadatke koji se koriste za sinhronizaciju projektih ugovora i projekata direktno Microsoft Dynamics 365 Project Service Automation iz Dynamics 365 Finance.
+description: Ovaj članak opisuje predložak i osnovne zadatke koji se koriste za sinhronizaciju ugovora i projekata projekta direktno Microsoft Dynamics 365 Project Service Automation iz Dynamics 365 Finance.
 author: Yowelle
 ms.date: 12/17/2020
 ms.topic: article
@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2017-12-13
 ms.dyn365.ops.version: AX 7.3.0
-ms.openlocfilehash: 92ebdd864c59168d6f4a4540c6915d6b0dc8a1fb
-ms.sourcegitcommit: 2c2a5a11d446adec2f21030ab77a053d7e2da28e
+ms.openlocfilehash: 62a24f3af823d474cbb4d63f8d079c708256a75e
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: sr-Latn-RS
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8684659"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8933877"
 ---
 # <a name="synchronize-project-contracts-and-projects-directly-from-project-service-automation-to-finance"></a>Sinhronizovanje projektnih ugovora i projekata direktno iz usluge Project Service Automation sa uslugom Finance 
 
@@ -27,7 +27,7 @@ ms.locfileid: "8684659"
 
 
 
-Ovaj tema opisuje predložak i osnovne zadatke koji se koriste za sinhronizaciju projektih ugovora i projekata direktno Dynamics 365 Project Service Automation iz Dynamics 365 Finance.
+Ovaj članak opisuje predložak i osnovne zadatke koji se koriste za sinhronizaciju ugovora i projekata projekta direktno Dynamics 365 Project Service Automation iz Dynamics 365 Finance.
 
 > [!NOTE] 
 > Ako koristite Enterprise Edition 7.3.0, morate instalirati KB 4074835.

@@ -1,6 +1,6 @@
 ---
 title: Dodavanje obaveznih prilagođenih polja u podešavanje cena i entitete transakcije
-description: Ova tema pruža informacije o tome kako treba dodati potrebne reference prilagođenih polja u entitete i u obrasce i prikaze.
+description: Ovaj članak pruža informacije o tome kako da entitetima i obrascima i prikazima dodate potrebne reference na prilagođena polja.
 author: rumant
 ms.date: 09/18/2020
 ms.topic: article
@@ -15,20 +15,20 @@ ms.search.industry: Service industries
 ms.author: suvaidya
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: d7b5a3e7976f1ec4c01df2d9bf0aa620e747e9f4
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: a984dc9e04857e101fa012734fd822440899aced
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: sr-Latn-RS
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8597401"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8926057"
 ---
 # <a name="add-required-custom-fields-to-price-setup-and-transactional-entities"></a>Dodavanje obaveznih prilagođenih polja u podešavanje cena i entitete transakcije
 
-_**Odnosi se na:** Project Operations za resurs/scenarije koji nisu zasnovani na zalihama, laganu primenu – od pogodbe do profakture_
+_**Odnosi se na:** Project Operations za scenarije zasnovane na resursima/bez zaliha, jednostavna primena – od pogodbe do profakture_
 
-Ova tema pretpostavlja da ste dovršili procedure u temi [Kreiranje prilagođenih polja i entiteta koji se koriste kao dimenzije za određivanje cena](create-custom-fields-entities-pricing-dimensions.md). Ako niste dovršili te procedure, vratite se i dovršite ih, a zatim se vratite na ovu temu. 
+Ovaj članak pretpostavlja da ste dovršili procedure u članku, kreirajte prilagođena [polja i entitete koji će se koristiti kao dimenzije cena](create-custom-fields-entities-pricing-dimensions.md). Ako niste završili te procedure, vratite se i dovršite ih, a zatim se vratite na ovaj članak. 
 
-U ovoj temi, procedure će vam pokazati kako možete da dodate zahtevane reference prilagođenog polja u entitete i elemente korisničkog interfejsa kao što su obrasci i prikazi.
+U ovom članku, procedure će vam pokazati kako da entitetima i elementima korisničkog interfejsa (korisničkog interfejsa) dodate potrebne reference na prilagođena polja, kao što su obrasci i prikazi.
 
 ## <a name="add-custom-pricing-dimension-fields"></a>Dodavanje prilagođenog polja dimenzija za određivanje cena 
 Nakon kreiranja prilagođenih polja i entiteta, sledeći korak jeste da podešavanje cena i transakcioni entiteti postanu svesni svih prilagođenih entiteta ili skupova opcija kreiranjem referentnih polja. U zavisnosti od toga da li lista dimenzija za određivanje cena uključuje dimenzije skupa opcija, dimenzije entiteta ili oboje, sledite samo korake u prilagođenim dimenzijama za određivanje cena **Prilagođene dimenzije za određivanje cena zasnovane na skupu opcija** ili **Prilagođene dimenzije za određivanje cena zasnovane na entitetu**.
