@@ -6,12 +6,12 @@ ms.date: 05/04/2022
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: a54ca1ec5e78d9d0af7b67914f6a63154c7347d3
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: 079856e7cf2ffa9b80ab31ebad1c1b5dbe36a4ad
+ms.sourcegitcommit: a798fed5c59e3fefa62cdfa42c852d529b33fd35
 ms.translationtype: MT
 ms.contentlocale: sr-Latn-RS
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8931209"
+ms.lasthandoff: 06/18/2022
+ms.locfileid: "9028505"
 ---
 # <a name="item-requirements-for-project-contracts-with-multiple-funding-sources"></a>Zahtevi artikala za ugovore za projekte sa više izvora finansiranja
 
@@ -33,7 +33,7 @@ Contoso je dobio ugovor o obnovi opreme sa dva svoja klijenta: Adatum US i Adatu
 
 ### <a name="prerequisites"></a>Preduslovi
 
-- Microsoft Dynamics 365 Finansije i operacije verzija **10.0.27 ili novija je** potrebna za korišćenje zahteva artikala koji imaju više konta fakture.
+- Microsoft Dynamics 365 Finansije verzije **10.0.27 ili novije** su potrebne za korišćenje zahteva artikala koji imaju više konta fakture.
 - Administrator sistema mora da omogući zahteve artikla **sa više izvora finansiranja za opciju "Operacije projekta" na zalihama** /scenarijima zasnovanim na proizvodnji u **radnom prostoru za** upravljanje funkcijama.
 
 ### <a name="set-up-the-invoice-account-defaulting-rules"></a>Podešavanje pravila podrazumevanog vrednosti konta fakture

@@ -7,12 +7,12 @@ ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 5bc8475554c4348fa1e88b9090450bd3bfaa924e
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: fd745107fa6d50882ebea302d3d2ae0de21b79ad
+ms.sourcegitcommit: a798fed5c59e3fefa62cdfa42c852d529b33fd35
 ms.translationtype: MT
 ms.contentlocale: sr-Latn-RS
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8910601"
+ms.lasthandoff: 06/18/2022
+ms.locfileid: "9028280"
 ---
 # <a name="whats-new-june-2021---project-operations-for-resourcenon-stocked-based-scenarios"></a>Šta je novo u junu 2021. – Project Operations za scenarije zasnovane na resursima / bez zaliha
 
@@ -21,7 +21,7 @@ _**Odnosi se na:** Project Operations za scenarije zasnovane na resursima / bez 
 Ovaj članak se odnosi na sledeće Dynamics 365 Project Operations komponente i verzije:
 
 - Project Operations u Dynamics 365 Dataverse okruženju verzije 4.11.0.156 ili 4.11.0.164.
-- Upravljanje projektima i računovodstvo u finansijskim i operativnim aplikacijama okruženja verzija 10.0.19.
+- Upravljanje projektima i računovodstvo u oblasti finansija i operacija aplikacije verzija 10.0.19.
 
 ## <a name="features-included-in-this-release"></a>Funkcije uključene u ovom izdanju
 

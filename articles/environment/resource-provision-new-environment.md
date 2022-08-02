@@ -7,12 +7,12 @@ ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 9cc3dafd6a2b6f92b585643c5d43ab52a3faf59e
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: 78f40ebe79c038799fbc59902442ad6c23fb94d4
+ms.sourcegitcommit: a798fed5c59e3fefa62cdfa42c852d529b33fd35
 ms.translationtype: MT
 ms.contentlocale: sr-Latn-RS
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8931623"
+ms.lasthandoff: 06/18/2022
+ms.locfileid: "9028535"
 ---
 # <a name="provision-a-new-environment"></a>Obezbeđenje novog okruženja
 
@@ -117,7 +117,7 @@ Možda ćete morati da primenite ispravke kvaliteta u svom Finance okruženju da
 
     ![Primena rešenja.](./media/13ApplySolutions.png)
 
-5. Izaberite oba rešenja, **Dynamics 365 Finance and Operations mapu entiteta za dvostruko pisanje i mape** **Dynamics 365 Project Operations entiteta za dvostruko pisanje, a zatim** izaberite **Primeni**.
+5. Izaberite oba rešenja, **Dynamics 365 Finance mapu entiteta za dvostruko pisanje i mape** **Dynamics 365 Project Operations entiteta za dvostruko pisanje, a zatim** izaberite **Primeni**.
 
     ![Potvrda rešenja.](./media/14ConfirmSolutions.png)
 

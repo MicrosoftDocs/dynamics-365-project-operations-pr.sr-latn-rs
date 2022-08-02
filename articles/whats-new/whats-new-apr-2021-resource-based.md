@@ -7,12 +7,12 @@ ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: a060bdc4e4c9f37ec666b1cf4d078986ad1571db
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: 490b7aa38bfdfbcdce21a21e582296e4ce15aeeb
+ms.sourcegitcommit: a798fed5c59e3fefa62cdfa42c852d529b33fd35
 ms.translationtype: MT
 ms.contentlocale: sr-Latn-RS
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8912441"
+ms.lasthandoff: 06/18/2022
+ms.locfileid: "9029271"
 ---
 # <a name="whats-new-april-2021---project-operations-for-resourcenon-stocked-based-scenarios"></a>Šta je novo u aprilu 2021. – Project Operations za scenarije zasnovane na resursima / bez zaliha
 
@@ -42,13 +42,13 @@ Sledeća lista prikazuje mape dvostrukog pisanja koje su izmenjene ili dodate u 
 | **Mapa entiteta** | **Ažurirana verzija** | **Komentari** |
 | --- | --- | --- |
 | Project Operations stvarne vrednosti integracije (msdyn\_actuals) | 1.0.0.14 | Mapa je izmenjena radi sinhronizacije materijalnih stvarnih podataka o projektu. |
-| Project Operations entitet integracije za procene troškova (msdyn\_estimateslines) | 1.0.0.2 | Dodata linija ugovora o projektu sinhronizuje sa aplikacijama za finansije i operacije za podršku za naplatu zasnovanu na zadatku. |
-| Project Operations entitet integracije za procene sati (msdyn\_resourceassignments) | 1.0.0.5 | Dodata linija ugovora o projektu sinhronizuje sa aplikacijama za finansije i operacije za podršku za naplatu zasnovanu na zadatku. |
-| Project Operations tabela integracije za procene materijala (msdyn\__estimatelines) | 1.0.0.0 | Nova mapa tabele za sinhronizaciju procena materijala iz aplikacija Dataverse "Finansije i operacije". |
-| Project Operations entitet izvoza fakture prodavca (msdyn\_projectvendorinvoices) | 1.0.0.0 | Nova mapa tabele za sinhronizaciju zaglavlja faktura dobavljača iz aplikacija "Finansije" i "Operacije" u Dataverse. |
-| Project Operations entitet izvoza reda fakture prodavca (msdyn\__projectvendorinvoicelines) | 1.0.0.0 | Nova mapa tabele za sinhronizaciju redova fakture dobavljača iz aplikacija "Finansije" i "Operacije" u Dataverse. |
+| Project Operations entitet integracije za procene troškova (msdyn\_estimateslines) | 1.0.0.2 | Dodata sinhronizacija reda ugovora o projektu sa aplikacijama za finansije i operacije za podršku za naplatu zasnovanu na zadatku. |
+| Project Operations entitet integracije za procene sati (msdyn\_resourceassignments) | 1.0.0.5 | Dodata sinhronizacija reda ugovora o projektu sa aplikacijama za finansije i operacije za podršku za naplatu zasnovanu na zadatku. |
+| Project Operations tabela integracije za procene materijala (msdyn\__estimatelines) | 1.0.0.0 | Nova mapa tabele za sinhronizaciju procena materijala iz aplikacija Dataverse za finansije i operacije. |
+| Project Operations entitet izvoza fakture prodavca (msdyn\_projectvendorinvoices) | 1.0.0.0 | Nova mapa tabele za sinhronizaciju zaglavlja faktura dobavljača iz aplikacija za finansije i operacije u Dataverse. |
+| Project Operations entitet izvoza reda fakture prodavca (msdyn\__projectvendorinvoicelines) | 1.0.0.0 | Nova mapa tabele za sinhronizaciju redova fakture dobavljača iz aplikacija za finansije i operacije u Dataverse. |
 
-Uvek bi trebalo da pokrenete najnoviju verziju mape u svom okruženju i omogućite sve povezane mape tabela dok ažurirate rešenje za operacije Dataverse projekta i verziju rešenja za finansije i operacije. Određene funkcije i mogućnosti možda neće raditi ispravno ako se ne aktivira najnovija verzija mape. Aktivnu verziju mape možete videti u koloni **Verzija** na stranici **Dvostruko upisivanje**. Možete aktivirati novu verziju mape ako izaberete **Verzije tabele mape**, izaberete najnoviju verziju, a zatim sačuvajte izabranu verziju. Ako ste prilagodili mapu tabele koja je gotova, ponovo primenite. Za još informacija pogledajte [Upravljanje životnim ciklusom aplikacije](/dynamics365/fin-ops-core/dev-itpro/data-entities/dual-write/app-lifecycle-management).
+Uvek bi trebalo da pokrenete najnoviju verziju mape u svom okruženju i omogućite sve srodne mape tabele dok ažurirate rešenje projektnih Dataverse operacija i verziju rešenja za finansije i operacije. Određene funkcije i mogućnosti možda neće raditi ispravno ako se ne aktivira najnovija verzija mape. Aktivnu verziju mape možete videti u koloni **Verzija** na stranici **Dvostruko upisivanje**. Možete aktivirati novu verziju mape ako izaberete **Verzije tabele mape**, izaberete najnoviju verziju, a zatim sačuvajte izabranu verziju. Ako ste prilagodili mapu tabele koja je gotova, ponovo primenite. Za još informacija pogledajte [Upravljanje životnim ciklusom aplikacije](/dynamics365/fin-ops-core/dev-itpro/data-entities/dual-write/app-lifecycle-management).
 
 Ako naiđete na problem sa pokretanjem mape, sledite uputstva u odeljku [Nedostaje izdanje kolona tabele na mapama](/dynamics365/fin-ops-core/dev-itpro/data-entities/dual-write/dual-write-troubleshooting-finops-upgrades#missing-table-columns-issue-on-maps) vodiča za rešavanje problema sa dvostrukim upisivanjem.
 

@@ -6,12 +6,12 @@ ms.date: 10/13/2020
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: 7a8f99cd03e5c2c15941c17469cc5632765b0fdc
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: 99af12577abeb0b77dc5d8a117d1e3b292bf0b80
+ms.sourcegitcommit: 260368e1d0751db713da073a641c63c04876fcdf
 ms.translationtype: MT
 ms.contentlocale: sr-Latn-RS
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8917731"
+ms.lasthandoff: 06/22/2022
+ms.locfileid: "9036428"
 ---
 # <a name="default-price-lists"></a>Podrazumevani cenovnici
 
@@ -25,7 +25,7 @@ Svaka projektna ponuda i ugovor u usluzi Dynamics 365 Project Operations sadrži
 Sistem dovršava sledeći postupak da bi utvrdio koji će se cenovnik podrazumevati za ponudu za projekat:
 
 1. Sistem pregleda cenovnike koji su priloženi cenovnicima projektata poslovnih kontakata. 
-2. Ako su uz evidenciju poslovnih kontakata priloženi cenovnici projekata, sistem pregleda prodajne cenovnike koji su priloženi uz parametre projekta koji odgovaraju valuti ponude za projekat.
+2. Ako nema priloženih cenovnika projekta uz zapis konta, sistem gleda prodajne cenovnike priložene parametrima projekta koji se podudaraju sa valutom ponude za projekat.
 3. Dalje, sistem proverava datum stupanja na snagu cenovnika koji se podudaraju sa opsegom datuma ponude za projekat. Konkretno, datum pravljenja ponude.
 4. Ako postoji više cenovnika koji su na snazi na datum projektne ponude, svi cenovnici se podrazumevaju na projektnoj ponudi.
 5. Ako nijedan cenovnik nije na snazi za datum projektne ponude, ne postoji podrazumevani projektni cenovnik projektne ponude. Na ponudi projekta pojaviće se poruka upozorenja. U poruci se navodi da pošto ne postoje priloženi cenovnici projekata, neće biti određena cena za procenjeni i stvarni rad i troškove na projektu.

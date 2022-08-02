@@ -14,12 +14,12 @@ ms.search.industry: Service industries
 ms.author: andchoi
 ms.dyn365.ops.version: 10
 ms.search.validFrom: 2019-02-28
-ms.openlocfilehash: ecd6bded5fcf834ea14f7aca1ff11a1ede162877
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: b4ed85123c92a60c6b6308fda3d9ef2f6693a0dd
+ms.sourcegitcommit: a798fed5c59e3fefa62cdfa42c852d529b33fd35
 ms.translationtype: MT
 ms.contentlocale: sr-Latn-RS
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8922883"
+ms.lasthandoff: 06/18/2022
+ms.locfileid: "9028903"
 ---
 # <a name="project-mobile-applications-overview"></a>Pregled projekata aplikacija za mobilne uređaje
 
@@ -33,11 +33,11 @@ Aplikacija za mobilne uređaje Dynamics 365 Project Timesheet omogućava korisni
 
 ## <a name="project-time-entry-workspace"></a>Radni prostor za stavku vremena projekta
 
-Radni prostor za stavku vremena projekta omogućava korisnicima da unesu i uštede vreme u odnosu na projekat. Međutim, ne dozvoljava korisnicima da prosleđuju ili odobravaju vremenske rasporede projekata. Može se koristiti samo za unos vremena. Ovaj mobilni radni prostor namenjen je za upotrebu zajedno sa mobilnom aplikacijom "Finansije i operacije".
+Radni prostor za stavku vremena projekta omogućava korisnicima da unesu i uštede vreme u odnosu na projekat. Međutim, ne dozvoljava korisnicima da prosleđuju ili odobravaju vremenske rasporede projekata. Može se koristiti samo za unos vremena. Ovaj mobilni radni prostor namenjen je za upotrebu zajedno sa mobilnom aplikacijom za finansije i operacije.
 
 ## <a name="my-timesheetstimesheets-for-my-review"></a>Moji vremenski rasporedi / Vremenski rasporedi za moj pregled
 
-Moji vremenski rasporedi (optimizovani za mobilne uređaje) i vremenski rasporedi za moj pregled (optimizovani za mobilne uređaje) čine rešenje koje omogućava zaposlenima da kreiraju, predaju i odobre vremenske rasporede projekata na mobilnom uređaju. Radnici mogu pristupiti funkcionalnosti usluge Finance putem URL adrese za aplikaciju. Ovo rešenje ne zahteva mobilnu aplikaciju "Finansije i operacije".
+Moji vremenski rasporedi (optimizovani za mobilne uređaje) i vremenski rasporedi za moj pregled (optimizovani za mobilne uređaje) čine rešenje koje omogućava zaposlenima da kreiraju, predaju i odobre vremenske rasporede projekata na mobilnom uređaju. Radnici mogu pristupiti funkcionalnosti usluge Finance putem URL adrese za aplikaciju. Ovo rešenje ne zahteva mobilnu aplikaciju za finansije i operacije.
 
 ## <a name="for-more-information"></a>Za više informacija
 

@@ -2,24 +2,24 @@
 title: Rešavanje problema sa radom u mreži podataka
 description: Ovaj članak obezbeđuje informacije o rešavanju problema potrebne prilikom rada u koordinatnoj mreži zadataka.
 author: ruhercul
-ms.date: 04/05/2022
+ms.date: 07/22/2022
 ms.topic: article
 ms.product: ''
 ms.reviewer: johnmichalak
 ms.author: ruhercul
-ms.openlocfilehash: e6ab4f34fe3f6732f7bef252f298671e07a3c3ca
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: 208ed55abf4cdf0ad2b035bd923e183ff3cae660
+ms.sourcegitcommit: e91136d3335ee03db660529eccacd48907774453
 ms.translationtype: MT
 ms.contentlocale: sr-Latn-RS
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8911061"
+ms.lasthandoff: 07/22/2022
+ms.locfileid: "9188249"
 ---
 # <a name="troubleshoot-working-in-the-task-grid"></a>Rešavanje problema sa radom u mreži podataka 
 
 
 _**Odnosi se na:** Project Operations za resurs/scenarije koji nisu zasnovani na zalihama, jednostavnu implementaciju – pogodbu o predračunima, Project for the Web_
 
-Mreža zadataka koju koristi Dynamics 365 Project Operations je hostovani iframe u okviru usluge Microsoft Dataverse. Kao rezultat ove upotrebe, potrebno je ispuniti posebne zahteve kako bi se osiguralo da potvrda identiteta i autorizacija pravilno funkcionišu. Ovaj članak prikazuje uobičajene probleme koji mogu da utiču na mogućnost prikazivanja koordinatne mreže ili upravljanja zadacima u strukturi radne analize (WBS).
+Koordinatna mreža zadataka koju Dynamics 365 Project Operations koristi hostovana je iframe unutar programa Microsoft Dataverse. Kao rezultat ove upotrebe, moraju se ispuniti određeni zahtevi da bi se obezbedila potvrda identiteta, a autorizacija ispravno funkcioniše. Ovaj članak prikazuje uobičajene probleme koji mogu da utiču na mogućnost prikazivanja koordinatne mreže ili upravljanja zadacima u strukturi radne analize (WBS).
 
 Uobičajeni problemi obuhvataju:
 
@@ -32,7 +32,7 @@ Uobičajeni problemi obuhvataju:
 
 ### <a name="mitigation-1-enable-cookies"></a>Ublažavanje 1: Omogućite kolačiće
 
-Usluga Project Operations zahteva da kolačići trećih strana budu omogućeni za prikazivanje strukturne analize posla. Kada nezavisni kolačići nisu omogućeni, umesto da vidite zadatke, videćete praznu stranicu kada odaberete karticu **Zadaci** na stranici **Projekat**.
+Usluga Project Operations zahteva da kolačići trećih strana budu omogućeni za prikazivanje strukturne analize posla. Kada kolačići nezavisnih proizvođača nisu omogućeni, umesto da vidite zadatke, videćete praznu stranicu kada izaberete karticu **"Zadaci** " na stranici **"Projekat** ".
 
 Za pregledače Microsoft Edge ili Google Chrome, sledeći postupci opisuju kako da ažurirate podešavanja pregledača kako biste omogućili nezavisne kolačiće.
 
@@ -57,7 +57,7 @@ Za pregledače Microsoft Edge ili Google Chrome, sledeći postupci opisuju kako 
 
 ### <a name="mitigation-2-validate-the-pex-endpoint-has-been-correctly-configured"></a>Ublažavanje 2: Potvrdite da je krajnja tačka PEX ispravno konfigurisana
 
-Project Operations zahteva da parametar projekta upućuje na PEX krajnju tačku. Ova krajnja tačka je potrebna za komunikaciju sa uslugom koja se koristi za prikazivanje strukturne analize posla. Ako parametar nije omogućen, dobićete grešku „Parametar projekta nije važeći“. Da biste ažurirali krajnju tačku PEX, dovršite sledeće korake.
+Project Operations zahteva da parametar projekta upućuje na PEX krajnju tačku. Ova krajnja tačka je potrebna za komunikaciju sa uslugom koja se koristi za prikazivanje strukturne analize posla. Ako parametar nije omogućen, dobićete grešku "Parametar projekta nije važeći". Da biste ažurirali krajnju tačku PEX, dovršite sledeće korake.
 
 1. Dodajte polje **PEX krajnja tačka** na stranicu **Parametri projekta**.
 2. Identifikujte tip proizvoda koji koristite. Ova vrednost se koristi kada je PEX krajnja tačka podešena. Nakon preuzimanja, tip proizvoda je već definisan u PEX krajnjoj tački. Zadržite tu vrednost.
@@ -72,11 +72,14 @@ Project Operations zahteva da parametar projekta upućuje na PEX krajnju tačku.
 4. Uklonite polje sa stranice **Parametri projekta**.
 
 ### <a name="mitigation-3-sign-in-to-projectmicrosoftcom"></a>Ublažavanje 3: prijavite se na project.microsoft.com
-U pregledaču Microsoft Edge otvorite novu karticu, idite na project.microsoft.com i prijavite se koristeći korisničku ulogu koju koristite za pristup operacijama projekta.
+
+U pregledaču otvorite novu karticu, idite na project.microsoft.com i prijavite se sa korisničkom ulogom koju koristite za pristup operacijama projekta. Važno je da samo jedan korisnik bude prijavljen na Microsoft proizvod u pregledaču. Poruka o grešci "login.microsoftonline.com odbila da se poveže" najčešće se javlja kada je prijavljeno više korisnika, kao što je prikazano na sledećoj ilustraciji.
+
+![Izaberite stranicu za prijavljivanje naloga koja prikazuje da su dva korisnika prijavljena.](media/MULTIPLE_USERS_LOGGED_IN.png)
 
 ## <a name="issue-the-project-doesnt-load-and-the-ui-is-stuck-on-the-spinner"></a>Problem: Projekat se ne učitava i korisnički interfejs je zaglavljen na okretnom dugmetu
 
-Za potrebe potvrde identiteta, iskačući prozori moraju da budu omogućeni da bi se mreža zadataka učitala. Ako iskačući prozori nisu omogućeni, ekran će se zaglaviti na okretnom dugmetu za učitavanje. Sledeća slika prikazuje URL adresu sa blokiranom iskačućom oznakom u traci adrese, što dovodi do toga da se okretno dugme zaglavi pokušavajući da učita stranicu. 
+Za potrebe potvrde identiteta, iskačući prozori moraju da budu omogućeni da bi se mreža zadataka učitala. Ako iskačući prozori nisu omogućeni, ekran će se zaglaviti na okretnom dugmetu za učitavanje. Sledeća grafika prikazuje URL adresu sa blokiranom iskačućim oznakom na traci adresa, što rezultira time da se potenciometar zaglavi pokušavajući da učita stranicu. 
 
    ![Zaglavljeno okretno dugme i blokiranje iskačućih prozora.](media/popupsblocked.png)
 
@@ -112,7 +115,7 @@ Pored toga, možete takođe obavite jedan od sledećih koraka:
 
 ## <a name="issue-3-administration-of-privileges-for-project-for-the-web"></a>Problem 3: Administracija privilegija za Project for the Web
 
-Project Operations se oslanja na eksternu uslugu zakazivanja. Usluga zahteva da korisnik ima nekoliko dodeljenih uloga koje mu omogućavaju čitanje i pisanje za entitete povezane sa SAP-om. Ti entiteti uključuju projektne zadatke, dodeljivanje resursa i zavisne elemente zadataka. Ako korisnik ne može ne može da prikaže SAP prilikom navigacije do kartice **Zadaci**, to je verovatno zato što **Projekat** za **Project Operations** nije omogućen. Korisnik može da dobije grešku za bezbedonosnu ulogu ili grešku povezanu sa uskraćivanjem pristupa.
+Project Operations se oslanja na eksternu uslugu zakazivanja. Usluga zahteva da korisnik ima dodeljeno nekoliko uloga koje im omogućavaju da čitaju i pišu entitetima povezanim sa WBS-om. Ti entiteti uključuju projektne zadatke, dodeljivanje resursa i zavisne elemente zadataka. Ako korisnik ne može da prikazuje WBS kada se kreće do kartice "Zadaci **", to** je verovatno zato **što projekat** **za projektne** operacije nije omogućen. Korisnik može da dobije grešku za bezbedonosnu ulogu ili grešku povezanu sa uskraćivanjem pristupa.
 
 ### <a name="mitigation-1-validate-the-application-user-and-end-user-security-roles"></a>Ublažavanje 1: Potvrdite bezbednosne uloge korisnika aplikacije i krajnjeg korisnika
 

@@ -6,12 +6,12 @@ ms.date: 06/18/2021
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: stsporen
-ms.openlocfilehash: be80ea3956fbf0264c2eeb7a5e30dd50b77e3c78
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: a25e2a59f1c069057c6689825ce52b13d842af71
+ms.sourcegitcommit: a798fed5c59e3fefa62cdfa42c852d529b33fd35
 ms.translationtype: MT
 ms.contentlocale: sr-Latn-RS
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8912027"
+ms.lasthandoff: 06/18/2022
+ms.locfileid: "9028581"
 ---
 # <a name="manually-deploy-the-project-operations-dataverse-app-with-dual-write-support"></a>Ručno raspoređivanje Project Operations Dataverse aplikacije sa podrškom za dvostruko upisivanje
 
@@ -37,7 +37,7 @@ Da biste dovršili ovu proceduru, morate se prijaviti kao administrator.
 3. Izaberite tip okruženja. Ako ste se prijavili za ponudu probne verzije, izaberite **Probna verzija (zasnovana na pretplati)**.
 4. Potvrdite region primene.
 5. Omogućite opciju **Kreiranje baze podataka za ovo okruženje**. 
-6. Potvrdite jezik, a zatim potvrdite da se valuta podudara sa valutom za aplikacije "Finansije i operacije".
+6. Potvrdite jezik, a zatim potvrdite da se valuta podudara sa valutom za aplikacije za finansije i operacije.
 7. Omogućite **Dynamics 365 aplikacije** i potvrdite da je polje **Automatski primeni ove aplikacije** podešeno na **Nijedna**.
 8. Dodajte bezbednosnu grupu ako je potrebna bezbednosna grupa.
 9. Izaberite **Sačuvaj** da biste kreirali okruženje.
@@ -62,4 +62,4 @@ Ovu proceduru možete dovršiti samo ako ste završili prethodne procedure pre n
 
 ## <a name="link-your-environments"></a><a name="link"></a>Povezivanje okruženja
 
-Nakon što je Dataverse okruženje raspoređeno, možete da podesite vezu u aplikacijama za finansije i operacije. Sledite korake u članku [Korišćenje čarobnjaka za dvostruko upisivanje radi povezivanja okruženja](/dynamics365/fin-ops-core/dev-itpro/data-entities/dual-write/link-your-environment).
+Nakon što Dataverse je okruženje raspoređeno, možete da podesite vezu u aplikacijama za finansije i operacije. Sledite korake u članku [Korišćenje čarobnjaka za dvostruko upisivanje radi povezivanja okruženja](/dynamics365/fin-ops-core/dev-itpro/data-entities/dual-write/link-your-environment).

@@ -7,12 +7,12 @@ ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 5ea1c96d64309990962f431b1c72ae47bf445bfa
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: 999006b2c2fe2b31d6e47910a3f1a55cab415f0e
+ms.sourcegitcommit: 5c971b15295046b3c92ff6638dd1352129f1c390
 ms.translationtype: MT
 ms.contentlocale: sr-Latn-RS
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8912395"
+ms.lasthandoff: 07/01/2022
+ms.locfileid: "9110901"
 ---
 # <a name="whats-new-april-2022---project-operations-for-resourcenon-stocked-based-scenarios"></a>Šta je novo u aprilu 2022. – Project Operations za scenarije zasnovane na resursima / bez zaliha
 
@@ -25,7 +25,7 @@ Ovaj članak se odnosi na sledeće komponente i verzije korporacije Microsoft Dy
 
 ## <a name="features-included-in-this-release"></a>Funkcije uključene u ovom izdanju
 
-Kategorije nabavki se mogu koristiti u izlaznim porudžbinama projekta i neobrađenim fakturama dobavljača. Više informacija potražite u članku Korišćenje [kategorija nabavki sa izlaznim porudžbinama projekta i fakturama dobavljača na čekanju](configure-procurement-categories.md).
+Kategorije nabavki se mogu koristiti u izlaznim porudžbinama projekta i neobrađenim fakturama dobavljača. Više informacija potražite u članku Korišćenje [kategorija nabavki sa izlaznim porudžbinama projekta i fakturama dobavljača na čekanju](../procurement/configure-procurement-categories.md).
 
 ## <a name="project-operations-dual-write-maps-updates"></a>Ažuriranja mapa dvostrukog upisivanja za Project Operations
 

@@ -7,12 +7,12 @@ ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 8eb5d2e31f8d3506fc07332cf78efda979c46206
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: 2b2cf628e6b6f4744cc0ee9deee2a92528a2410d
+ms.sourcegitcommit: a798fed5c59e3fefa62cdfa42c852d529b33fd35
 ms.translationtype: MT
 ms.contentlocale: sr-Latn-RS
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8933049"
+ms.lasthandoff: 06/18/2022
+ms.locfileid: "9029731"
 ---
 # <a name="whats-new-december-2020---project-operations-for-resourcenon-stocked-based-scenarios"></a>Šta je novo decembra 2020. – Project Operations za scenarije zasnovane na resursima/bez zaliha
 
@@ -61,7 +61,7 @@ Sledeće funkcije su uključene u ovom izdanju:
 | Planiranje i praćenje projekta | 2057197          | Kopija procene reda sa referencom zadatka nije podržana                                                                                                     |
 | Planiranje i praćenje projekta | 2060687          | Upozorenje o vremenskoj zoni sada nestaje nakon određenog vremena                                                                                                      |
 | Upravljanje resursima           | 1832887          | Podrazumevani ID kategorije resursa mora biti statičan kako bi se osiguralo ponavljanje učitavanja podataka za Dataverse i Finance okruženja                                                 |
-| Vreme i trošak              | 2081793          | **Ime kategorije troškova** mora biti mapirano u polje opisa **kategorije "Troškovi" u** aplikacijama "Finansije i operacije"                                                  |
+| Vreme i trošak              | 2081793          | **Ime kategorije troškova** mora biti mapirano u polje opisa **kategorije "Troškovi** " u aplikacijama za finansije i operacije                                                  |
 | Vreme i trošak              | 2034882          | Dugme **Novo** se prikazuje dva puta na komandnoj traci za stavke vremena kada je instalirana usluga Dynamics 365 Field Service                                          |
 | Vreme i trošak              | 2056028          | Ažuriranje stranice **Uređivanje vremena** tako da uključuje stavku vremena                                                                                                              |
 | Vreme i trošak              | 1983747          | Grafikon stavke vremena prikazuje dodatne podatke                                                                                                                   |

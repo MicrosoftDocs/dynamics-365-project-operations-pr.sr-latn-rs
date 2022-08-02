@@ -6,12 +6,12 @@ ms.date: 11/02/2020
 ms.topic: overview
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: fb5bf99b6a46e285d03bdbaa9a3acd9d4bbe70f0
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: 379fdc7de161e3795100ee932fefed88811ba84e
+ms.sourcegitcommit: a798fed5c59e3fefa62cdfa42c852d529b33fd35
 ms.translationtype: MT
 ms.contentlocale: sr-Latn-RS
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8922791"
+ms.lasthandoff: 06/18/2022
+ms.locfileid: "9028812"
 ---
 # <a name="project-operations-for-stockedproduction-based-scenarios-deployment-overview"></a>Prikaz primene usluge Project Operations za scenarije zasnovane na zalihama/proizvodnji
 
@@ -22,10 +22,10 @@ Ovaj tip primene ima sledeće mogućnosti za preduzeća zasnovana na projektima:
 
 - Planiranje projekata pomoću [strukturnih analiza posla](work-breakdown-structures.md)
 - Nabavka i potrošnja uskladištenih zaliha za projekte
-- Upravljanje prodajom zasnovanom na projektu pomoću **modula "Prodaja" i** "Marketing" Dynamics 365 Finance and Operations aplikacijama
-- Cene projekata i troškovi korišćenjem konfiguracija cene troškova i stope računa u aplikacijama "Finansije i operacije"
+- Upravljanje prodajom zasnovanom na projektu pomoću modula **Prodaje i marketinga** u Dynamics 365 aplikacijama za finansije i operacije
+- Cene projekata i troškovi korišćenjem konfiguracija stope troškova i stope računa u aplikacijama za finansije i operacije
 - Upravljanje resursima za projekte u aplikacijama za finansije i operacije
-- Tok projekta i praćenje vremena u aplikacijama "Finansije i operacije"
+- Tok projekta i praćenje vremena u aplikacijama za finansije i operacije
 - Osnovna i potpuna iskustva upravljanja troškovima za projektne i ne-projektne troškove sa prikupljanjem računa primenom OCR mogućnosti
 - Fakturisanje korišćenjem korporativne klase poreza na promet i sistema deviznih kurseva efektivnih na određeni datum
 - Podesive grupe projekata za WIP računovodstvo i razgraničenja

@@ -6,12 +6,12 @@ ms.date: 05/20/2021
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: suvaidya
-ms.openlocfilehash: 03ca18c8fef6228f2ba553ebe50447beda5a857c
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: 9689bbaf4c4f88ad9f746c3f98676f97e634ab6c
+ms.sourcegitcommit: 5e1f549a2e55a87351b2979e3aff402ed35487e1
 ms.translationtype: MT
 ms.contentlocale: sr-Latn-RS
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8930151"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9064295"
 ---
 # <a name="set-up-mileage-using-mileage-rate-tiers"></a>Podešavanje kilometraže pomoću nivoa kilometraže
 
@@ -50,5 +50,15 @@ Funkcija **Izračunavanje kilometraže za više nivoa pređenih kilometara sa is
 
 Kada omogućite funkciju, resetujte nivoe kilometraže da pravilno odražavaju vrednost polja **Količina**. 
 
+## <a name="enable-the-mileage-totals-calculation-by-fiscal-year-feature"></a>Omogućavanje izračunavanja zbirova kilometraže pomoću fiskalna godina funkcije
+
+Funkcija **"Kilometraža" sabira izračunavanje po fiskalna godina** omogućava novu postavku u parametrima upravljanja troškovima koja izvršava izračunavanja zbirova kilometraže za fiskalna godina umesto u kalendarskoj godini. Dovršite sledeće korake da biste omogućili ovu funkciju.
+
+1. Idite na stavku **Radni prostori** > **Upravljanje funkcijama**.
+1. Na listi pronađite i izaberite stavku Izračunavanje **zbirova kilometraže po fiskalna godina, a zatim** kliknite na dugme Omogući **odmah**.
+1. Idite na parametre **opšteg upravljanja** > **·** > **troškovima** > **za upravljanje troškovima**.
+1. Na stranici **Parametri upravljanja troškovima** pronađite i omogućite korišćenje **fiskalna godina za zbirove kilometraže**.
+
+Nakon što omogućite **korišćenje fiskalna godina za zbirove kilometraže**, zbirove kilometraže izračunavaju fiskalna godina.
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

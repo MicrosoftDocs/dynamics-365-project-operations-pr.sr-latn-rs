@@ -7,12 +7,12 @@ ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: ruhercul
-ms.openlocfilehash: 0cf9da8cc9d1f29dc41d4b119278e545047020bc
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: aedfd815521054d58944496500aa03a27be9267b
+ms.sourcegitcommit: a798fed5c59e3fefa62cdfa42c852d529b33fd35
 ms.translationtype: MT
 ms.contentlocale: sr-Latn-RS
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8912487"
+ms.lasthandoff: 06/18/2022
+ms.locfileid: "9030052"
 ---
 # <a name="update-project-operations-in-your-finance-environment"></a>Ažuriranje usluge Project Operations u Finance okruženju
 
@@ -119,7 +119,7 @@ Sledeće ispravke bezbednosnih privilegija za entitete su potrebne kao deo ažur
 4. Na stranici **Verzija mape tabele** primenite novu verziju mape na svaki od tri entiteta.
 5. Na stranici **Dvostruko upisivanje** izaberite „Pokreni“ da biste ponovo pokrenuli mape.
 6. Na listi mapa odaberite mapu **Glavna knjiga (msdyn_ledgers)** sa svim preduslovima i označite polje za potvrdu **Početna sinhronizacija**. 
-7. U polju Master **za početnu sinhronizaciju izaberite** aplikacije "Finansije **i operacije", a zatim** izaberite stavku **Pokreni**.
+7. U polju Master **za početnu sinhronizaciju izaberite** aplikacije "Finansije **" i "Operacije", a zatim** izaberite stavku **Pokreni**.
  
  ![Sinhronizacija mape glavne knjige.](media/DW6.png)
  
