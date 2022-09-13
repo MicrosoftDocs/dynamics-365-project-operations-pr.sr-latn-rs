@@ -7,12 +7,12 @@ ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: ramagadu
-ms.openlocfilehash: 471cf1fc24010351a76394cb2342d2cfe14da1cb
-ms.sourcegitcommit: 360eccc09e47f81cd57affa9f0012641b7351694
+ms.openlocfilehash: 95681a4e1c0c42e8a29810796ee84429c94cc7cd
+ms.sourcegitcommit: 7ed8e77a92917f2d242988ca02bd7de9571cce5e
 ms.translationtype: MT
 ms.contentlocale: sr-Latn-RS
-ms.lasthandoff: 08/23/2022
-ms.locfileid: "9321426"
+ms.lasthandoff: 09/02/2022
+ms.locfileid: "9403921"
 ---
 # <a name="whats-new-august-2022---project-operations-lite-deployment"></a>Šta je novo u avgustu 2022. – Project Operations jednostavna primena
 
@@ -27,3 +27,7 @@ Ovaj članak se odnosi na sledeće komponente i verzije korporacije Microsoft Dy
 | Oblast funkcija | Referentni broj | Ispravka kvaliteta |
 | --- | --- | --- |
 | Upravljanje mogućnostima za poslovanje | 2762089 | Rukovanje greškom tokom zatvaranja ugovora kao izgubljeno ako je automatsko čuvanje onemogućeno u org.|
+|Planiranje i praćenje projekta | 2767841 | Telemetrija ažurira scenarije kreiranja ili ažuriranja entiteta projekta.|
+|Naplata i određivanje cena | 2771072 | Bez referenci za rukovanje izuzetkom tokom pobedničkog citata.|
+|Naplata i određivanje cena | 2844181 |Nije uspelo dobijanje ID-a korelacije i blokiranje kreiranja fakture.|
+|Naplata i određivanje cena | 2852836 | Nedostaju međukompanijske stvarne stvari za međukompanijski trošak kreiran i odobren u CE.|

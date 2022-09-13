@@ -6,12 +6,12 @@ ms.date: 07/02/2021
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 6953956c0b3401a6c64ee597f966ba4a4c0d07b5
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: 29bf31cd1bc9c1c5ac757de989154b4c7acc53fe
+ms.sourcegitcommit: 16c9eded66d60d4c654872ff5a0267cccae9ef0e
 ms.translationtype: MT
 ms.contentlocale: sr-Latn-RS
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8921273"
+ms.lasthandoff: 09/07/2022
+ms.locfileid: "9410093"
 ---
 # <a name="sign-up-for-a-preview-subscription---lite"></a>Upisivanje za pretplatu na verziju za pregled – jednostavno 
 
@@ -63,9 +63,9 @@ Pre nego što započnete, uverite se da ste prijavljeni u pregledač sa korisni�
 
 ![Instaliranje rešenja.](./media/21InstallSolution.png)
 
-## <a name="install-a-cds-configuration-and-setup-demo-data"></a>Instaliranje CDS konfiguracije i podešavanje demo podataka
+## <a name="set-up-demo-data"></a>Podešavanje demo podataka
 
-Instalirajte konfiguraciju CDS-a i podesite demo podatke sledeći uputstva u članku, primenite podatke [o podešavanju demonstracije i konfiguraciji](lite-apply-demo-setup-config-data.md).
+Podesite demo podatke tako što ćete slediti uputstva u članku, primenite [podatke o podešavanju demonstracije i konfiguraciji](lite-apply-demo-setup-config-data.md).
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

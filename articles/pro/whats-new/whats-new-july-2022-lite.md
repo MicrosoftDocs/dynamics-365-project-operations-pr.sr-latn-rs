@@ -7,12 +7,12 @@ ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: ramagadu
-ms.openlocfilehash: 56692661a08cd6676e68f9715a976000cdba3fba
-ms.sourcegitcommit: 66e376675e6df8efc86fa84ec24e9aad6a980304
+ms.openlocfilehash: 82812f0b7f172bf7386057b5684ff5ade67a6a22
+ms.sourcegitcommit: 7ed8e77a92917f2d242988ca02bd7de9571cce5e
 ms.translationtype: MT
 ms.contentlocale: sr-Latn-RS
-ms.lasthandoff: 07/21/2022
-ms.locfileid: "9183935"
+ms.lasthandoff: 09/02/2022
+ms.locfileid: "9404015"
 ---
 # <a name="whats-new-july-2022---project-operations-lite-deployment"></a>Šta je novo u julu 2022. – Project Operations jednostavna primena
 
@@ -34,3 +34,9 @@ Ovaj članak se odnosi na sledeće komponente i verzije korporacije Microsoft Dy
 | Naplata i određivanje cena | 2675880 | Sprečavanje da projekat bude povezan sa redom ugovora koji nije zasnovan na poslu. |
 | Naplata i određivanje cena | 2664396 | Ako je cenovnik ponude sačuvan bez ponude, mora doći do greške koja navodi da ponuda ne može biti prazna. |
 | Naplata i određivanje cena | 2184019 | Kartica " **Naplata zasnovana na zadatku** " ne bi trebalo da bude prikazana za projekte koji nemaju prateći ugovor ili ponudu. |
+| Vreme i trošak | 2754459 | Kada je periodično planiranje toka oblaka neaktivno, prikažite reklamni natpis i zaobiđite asinc obradu. |
+| Naplata i određivanje cena | 2724391 | Pogrešan izuzetak se baca kada pravilu podele ugovora o projektu nedostaje vrednost kupca. |
+| Naplata i određivanje cena | 2708638 | Zapis nije pronađen prilikom pretraživanja pomoću pretrage koordinatne mreže u prozoru Korišćenje materijala i odobrenja za korišćenje materijala.|
+| Naplata i određivanje cena | 2686977 | Sprečite proveru valjanosti reda fakture tokom kreiranja fakture. |
+| Naplata i određivanje cena | 2683032 | Kopiranje uloga i kategorija koje se naplaćuju ne skalira se preko 5000 zapisa.|
+| Naplata i određivanje cena | 2673363 | % potrošnje troškova u projektu je oštećen kada za projekat postoje procene i procene napora i troškova i stvarnih vrednosti. |

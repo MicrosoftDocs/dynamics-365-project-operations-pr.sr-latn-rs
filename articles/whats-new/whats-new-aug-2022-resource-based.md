@@ -7,12 +7,12 @@ ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: ramagadu
-ms.openlocfilehash: 112dbb98de09ef342c03d122a29cb8025058e47f
-ms.sourcegitcommit: 6b6c2bfd04e3e613ed1f38355c7cd47c3a56748d
+ms.openlocfilehash: 4042dca72a33f48e04e51af2a3cfd2da83146afd
+ms.sourcegitcommit: 7ed8e77a92917f2d242988ca02bd7de9571cce5e
 ms.translationtype: MT
 ms.contentlocale: sr-Latn-RS
-ms.lasthandoff: 08/24/2022
-ms.locfileid: "9348117"
+ms.lasthandoff: 09/02/2022
+ms.locfileid: "9403874"
 ---
 # <a name="whats-new-august-2022---project-operations-for-resourcenon-stocked-based-scenarios"></a>Šta je novo u avgustu 2022. – Project Operations za scenarije zasnovane na resursima / bez zaliha
 
@@ -38,6 +38,11 @@ Ako naiđete na problem prilikom početka mape, sledite uputstva [u problemu sa 
 | Oblast funkcija | Referentni broj | Ispravka kvaliteta |
 | --- | --- | --- |
 | Upravljanje mogućnostima za poslovanje | 2762089 | Rukovanje greškom tokom zatvaranja ugovora kao izgubljeno ako je automatsko čuvanje onemogućeno u org.|
+|Planiranje i praćenje projekta | 2767841 | Telemetrija ažurira scenarije kreiranja ili ažuriranja entiteta projekta.|
+|Naplata i određivanje cena | 2771072 | Bez referenci za rukovanje izuzetkom tokom pobedničkog citata.|
+|Naplata i određivanje cena | 2844181 |Nije uspelo dobijanje ID-a korelacije i blokiranje kreiranja fakture.|
+|Naplata i određivanje cena | 2852836 | Nedostaju međukompanijske stvarne stvari za međukompanijski trošak kreiran i odobren u CE.|
+
 
 ### <a name="project-management-and-accounting-in-finance"></a>Upravljanje projektima i računovodstvo u finansijama
 

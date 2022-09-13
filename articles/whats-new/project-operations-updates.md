@@ -7,12 +7,12 @@ ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: a08bffa2e353f2ed1b9f3b0c27e2ed1e30731012
-ms.sourcegitcommit: 153eb9325df25b31539bb2b44077326386ab41ae
+ms.openlocfilehash: ba33afd955170797bc43ae84d8baa9e2a04c5918
+ms.sourcegitcommit: 16c9eded66d60d4c654872ff5a0267cccae9ef0e
 ms.translationtype: MT
 ms.contentlocale: sr-Latn-RS
-ms.lasthandoff: 08/15/2022
-ms.locfileid: "9295896"
+ms.lasthandoff: 09/07/2022
+ms.locfileid: "9409956"
 ---
 # <a name="project-operations-updates"></a>Ispravke usluge Project Operations
 
@@ -36,7 +36,7 @@ Dynamics 365 Project Operations sastoji se od dve komponente:
 
 | Project Operations u Dataverse okruženju | Upravljanje projektima i računovodstvo u okruženjima aplikacija za finansije i operacije | 
 | --- | --- |
-| 4.45.0.53 | 10.0.28 |
+| 4.45.0.53 | 10.0.29 |
 
 Za scenario "Resurs operacija projekta/ne-snabdeven", preporučujemo da koristite dvostruku verziju orkestracije 2.3.1.15 ili noviju.
 
@@ -47,24 +47,24 @@ Ispravke za Project Operations u Dataverse okruženju dostupne su mesečno.
 | Stanica | Region | Broj trenutne verzije | Automatska ažuriranja za jednostavnu primenu | Automatska ažuriranja za primenu za resurse / bez zaliha | Broj sledeće verzije | Datum opšte dostupnosti sledeće verzije |
 |-----------|-----------------------|-----------------|--------------------|---------------------|---------------------|---------------------|
 | Stanica 1 |   &nbsp;              |    &nbsp;       | &nbsp;             |      &nbsp;         |      &nbsp;         |      &nbsp;         |
-|   &nbsp;  | Prvo izdanje         |  4.45.0.53      | Dovršite           | Dovršite            | TBD                 | 26. avgust 2022.       |
+|   &nbsp;  | Prvo izdanje         |  4.45.0.53      | Dovršite           | Dovršite            | TBD                 | 09. septembar 2022.      |
 | Stanica 2 |   &nbsp;              |    &nbsp;       | &nbsp;             |      &nbsp;         |      &nbsp;         |      &nbsp;         |
-|   &nbsp;  | Južna Amerika         |  4.45.0.53      | Dovršite           | Dovršite            | TBD                 | 02. septembar 2022.       |
-|   &nbsp;  | Kanada                |  4.45.0.53      | Dovršite           | Dovršite            | TBD                 | 02. septembar 2022.       |
-|   &nbsp;  | Indija                 |  4.45.0.53      | Dovršite           | Dovršite            | TBD                 | 02. septembar 2022.       |
-|   &nbsp;  | Francuska                |  4.45.0.53      | Dovršite           | Dovršite            | TBD                 | 02. septembar 2022.       |
-|   &nbsp;  | Južnoafrčka Republika          |  4.45.0.53      | Dovršite           | Dovršite            | TBD                 | 02. septembar 2022.       |
-|   &nbsp;  | Švajcarska           |  4.45.0.53      | Dovršite           | Dovršite            | TBD                 | 02. septembar 2022.       |
+|   &nbsp;  | Južna Amerika         |  4.45.0.53      | Dovršite           | Dovršite            | TBD                 | 09. septembar 2022.       |
+|   &nbsp;  | Kanada                |  4.45.0.53      | Dovršite           | Dovršite            | TBD                 | 09. septembar 2022.       |
+|   &nbsp;  | Indija                 |  4.45.0.53      | Dovršite           | Dovršite            | TBD                 | 09. septembar 2022.       |
+|   &nbsp;  | Francuska                |  4.45.0.53      | Dovršite           | Dovršite            | TBD                 | 09. septembar 2022.       |
+|   &nbsp;  | Južnoafrčka Republika          |  4.45.0.53      | Dovršite           | Dovršite            | TBD                 | 09. septembar 2022.       |
+|   &nbsp;  | Švajcarska           |  4.45.0.53      | Dovršite           | Dovršite            | TBD                 | 09. septembar 2022.       |
 | Stanica 3 |      &nbsp;           |     &nbsp;      |     &nbsp;         |      &nbsp;         |      &nbsp;         |      &nbsp;         |
-|   &nbsp;  | Japan                 |  4.44.0.22      | Dovršite      | Dovršite       | 4.45.0.53                 | 19. avgust 2022.       |
-|   &nbsp;  | Azija – Pacifik          |  4.44.0.22      | Dovršite      | Dovršite       | 4.45.0.53                 | 19. avgust 2022.       |
-|   &nbsp;  | Velika Britanija         |  4.44.0.22      | Dovršite      | Dovršite       | 4.45.0.53                 | 19. avgust 2022.       |
-|   &nbsp;  | Okeanija               |  4.44.0.22      | Dovršite      | Dovršite       | 4.45.0.53                 | 19. avgust 2022.       |
-|   &nbsp;  | Ujedinjeni Arapski Emirati  |  4.44.0.22      | Dovršite      | Dovršite       | 4.45.0.53                 | 19. avgust 2022.       |
+|   &nbsp;  | Japan                 |  4.45.0.53      | Dovršite      | Dovršite       | TBD                 | 09. septembar 2022.       |
+|   &nbsp;  | Azija – Pacifik          |  4.45.0.53      | Dovršite      | Dovršite       | TBD                 | 09. septembar 2022.       |
+|   &nbsp;  | Velika Britanija         |  4.45.0.53      | Dovršite      | Dovršite       | TBD                 | 09. septembar 2022.       |
+|   &nbsp;  | Okeanija               |  4.45.0.53      | Dovršite      | Dovršite       | TBD                 | 09. septembar 2022.       |
+|   &nbsp;  | Ujedinjeni Arapski Emirati  |  4.45.0.53      | Dovršite      | Dovršite       | TBD                 | 09. septembar 2022.       |
 | Stanica 4 |     &nbsp;            |     &nbsp;      |     &nbsp;         |      &nbsp;         |      &nbsp;         |      &nbsp;         |
-|   &nbsp;  | Evropa                |  4.44.0.22      | Dovršite           | Dovršite            | 4.45.0.53           | 26. avgust 2022.       |
+|   &nbsp;  | Evropa                |  4.45.0.53      | Dovršite           | Dovršite            | TBD           | 16. septembar 2022.       |
 | Stanica 5 |     &nbsp;            |     &nbsp;      |     &nbsp;         |      &nbsp;         |      &nbsp;         |      &nbsp;         |
-|   &nbsp;  | Severna Amerika         |  4.44.0.22      | Dovršite           | Dovršite            | 4.45.0.53           | 02. septembar 2022.       |
+|   &nbsp;  | Severna Amerika         |  4.45.0.53      | Dovršite           | Dovršite            | TBD           | 16. septembar 2022.       |
 
 ## <a name="release-schedule-for-project-management-and-accounting-in-the-finance-and-operations-apps-environment"></a>Raspored izdavanja za upravljanje projektima i računovodstvo u okruženju aplikacija za finansije i operacije
 
