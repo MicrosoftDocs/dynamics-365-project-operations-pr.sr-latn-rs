@@ -1,43 +1,84 @@
 ---
-title: Rešavanje cena koštanja za procene i trenutno stanje
-description: Ovaj članak pruža informacije o tome kako se rešavaju cene troškova za procene i stvarne vrednosti.
+title: Utvrđivanje stope troškova za procene i stvarne vrednosti zasnovane na projektu
+description: Ovaj članak pruža informacije o tome kako se određuju stope troškova za procene i stvarne vrednosti zasnovane na projektu.
 author: rumant
-ms.date: 04/09/2021
+ms.date: 9/12/2022
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: af17712f0aef4fe3e6e758edd976cc377e90631d
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: 822a7bd8ae87d4fd4044d8b46347bfe1b4ca13ca
+ms.sourcegitcommit: 60a34a00e2237b377c6f777612cebcd6380b05e1
 ms.translationtype: MT
 ms.contentlocale: sr-Latn-RS
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8919985"
+ms.lasthandoff: 09/13/2022
+ms.locfileid: "9475296"
 ---
-# <a name="resolving-cost-prices-for-estimates-and-actuals"></a>Rešavanje cena koštanja za procene i trenutno stanje
+# <a name="determine-cost-rates-for-project-based-estimates-and-actuals"></a>Utvrđivanje stope troškova za procene i stvarne vrednosti zasnovane na projektu
 
 _**Odnosi se na:** Project Operations za scenarije zasnovane na resursima / bez zaliha_
 
-Da bi rešio cene koštanja i cenovnik troškova za procene i stvarne podatke, sistem koristi informacije u poljima **Datum**, **Valuta** i **Ugovaračka jedinica** srodnog projekta. Nakon rešavanja cenovnika troškova, aplikacija rešava stopu troškova.
+Da bi odredio cene troškova za procene i stvarne vrednosti u korporaciji Microsoft Dynamics 365 Project Operations, sistem prvo koristi datum i valutu u dolaznoj proceni ili stvarnom kontekstu za određivanje cenovnik prodaje. U stvarnom kontekstu posebno, sistem koristi polje "Datum transakcije **"** da bi odredio koji cenovnik je primenljiv. Vrednost **datuma transakcije** dolazne ili stvarne vrednosti se poredi sa **vrednostima "Efektivni početak" (samo za vremensku zonu)** **i Efektivni kraj (nezavisno od vremenske zone)** na cenovnik. Nakon utvrđivanja cenovnik troška, sistem određuje cenu troška.
 
-## <a name="resolving-cost-rates-on-actual-and-estimate-lines-for-time"></a>Rešite stope troškova na stavkama trenutnog stanja i procene za vreme
+## <a name="determining-cost-rates-in-estimate-and-actual-contexts-for-time"></a>Određivanje stope troškova u proceni i stvarnim kontekstima za vreme
 
-Stavke procene za vreme odnose se na detalje o ponudama i predmetima ugovora za dodeljivanje vremena i resursa na projektu.
+Procena konteksta vremena **odnosi** se na:
 
-Kada se cenovnik troškova reši, sistem koristi polja **Uloga**, **Kompanija za resurse** i **Jedinica za resurse** na liniji procene za vreme radi podudaranja sa linijama cena uloga u rešenom cenovniku. Ovo podudaranje pretpostavlja da koristite gotove dimenzije utvrđivanja cena za cenu rada. Ako ste konfigurisali sistem tako da podudara polja umesto ili pored polja **Uloga**, **Kompanija za resurse** i **Jedinica za resurse**, onda će se koristiti različita kombinacija za preuzimanje podudarne linije cena uloga. Ako aplikacija pronađe liniju cena uloga koja ima stopu troškova za kombinaciju polja **Uloga**, **Kompanija za resurse** i **Jedinica za resurse**, tada je ta stopa troškova podrazumevana. Ako aplikacija ne može tačno da se podudara sa kombinacijom vrednosti **Uloga**, **Preduzeće koje određuje resurse** i **Jedinica za određivanje resursa**, preuzeće stavke cena uloga sa odgovarajućom vrednošću uloge, ali će biti bez vrednosti za polja **Jedinica za određivanje resursa** i **Preduzeće koje određuje resurse**. Kada se pronađe odgovarajući zapis cene uloge sa odgovarajućom vrednošću cene uloge, stopa troškova podrazumeva se iz tog zapisa. 
+- Detalji reda ponude za **vreme**.
+- Detalji reda ugovora za **vreme**.
+- Dodeljivanje resursa na projektu.
+
+Stvarni kontekst vremena **odnosi** se na:
+
+- Redovi naloga unosa i korekcije za **vreme**.
+- Redovi naloga koji se kreiraju prilikom prosleđivanja stavke vremena.
+
+Nakon što se utvrdi cenovnik troška, sistem dovršavanje sledećih koraka za unos podrazumevane stope troška.
+
+1. Sistem se podudara sa kombinacijom **polja "Uloga**", **"Resourcing Company**" **i "Jedinica za resourcing"** u proceni ili stvarnom kontekstu **vremena u** odnosu na redove cene uloge u cenovniku. Ovo podudaranje pretpostavlja da koristite standardne dimenzije cena za trošak rada. Ako ste konfigurisali **sistem tako da se podudara sa poljima koja nisu ili pored "Uloga**", **"Resourcing Company** " **i "Resourcing Unit**", koristi se druga kombinacija za preuzimanje reda cene uloge koja se podudara.
+1. Ako sistem pronađe red cene uloge koji ima **cenu troška za kombinaciju "Uloga**", **"Preduzeće za resourcing**" **i "Jedinica za resourcing** ", ta stopa troška se koristi kao podrazumevana stopa troška.
+1. Ako sistem ne može da parira **vrednostima "Uloga**", **"Resourcing Company**" **i "Jedinica resourcing** ", on spušta dimenziju koja ima najniži prioritet, traži redove cena uloga koji se podudaraju sa vrednostima druge dve dimenzije i nastavlja da progresivno spušta dimenzije dok se ne utvrdi odgovarajući red cena uloge. Stopa troška iz tog zapisa će biti korišćena kao podrazumevana stopa troška. Ako sistem ne pronađe odgovarajući red cene uloge, cena će podrazumevano biti postavljena **na 0** (nula).
 
 > [!NOTE]
-> Ako ste konfigurisali drugačije određivanje prioriteta za polja **Uloga**, **Kompanija za resurse** i **Jedinica za resurse**, ili ako imate druge dimenzije koje imaju veći prioritet, ovo ponašanje će se promeniti u skladu sa tim. Sistem preuzima zapise cena uloga sa vrednostima koje se podudaraju sa svakom od vrednosti dimenzije cene po redosledu prioriteta sa redovima koji su bez vrednosti za one dimenzije koje su poslednje u redosledu prioriteta.
+> Ako konfigurišete drugačiju određivanje prioriteta **polja "Uloga** **" i "Jedinica za resorsing**" ili ako imate druge dimenzije koje imaju veći prioritet, prethodno ponašanje će se promeniti u skladu sa tim. Sistem preuzima zapise cena uloga koji imaju vrednosti koje se podudaraju sa svakom vrednošću dimenzije cena po redosledu prioriteta. Redovi koji imaju vrednosti "null" za te dimenzije su poslednji.
 
-## <a name="resolving-cost-rates-on-actual-and-estimate-lines-for-expense"></a>Rešite stope troškova na stavkama trenutnog stanja i procene za trošak
+## <a name="determining-cost-rates-on-actual-and-estimate-lines-for-expense"></a>Određivanje stope troškova u stvarnim i procenjenim redovima za troškove
 
-Stavke procene za trošak se odnose na detalje ponude i predmeta ugovora za troškove, kao i linije procene troškova na projektu.
+Procena konteksta za **troškove** odnosi se na:
 
-Kada se cenovnik troškova reši, sistem koristi kombinaciju polja **Uloga** i **Jedinica za resurse** na liniji procene za trošak radi podudaranja sa linijama **Cena kategorija** u rešenom cenovniku. Ako sistem pronađe liniju cena kategorija koja ima stopu troškova za kombinaciju polja **Kategorija** i **Jedinica**, tada je ta stopa troškova podrazumevana. Ako sistem ne može da nađe podudaranje sa vrednostima **Kategorija** i **Jedinica**, ili ako je u stanju da pronađe podudarnu liniju cena kategorija, ali metoda određivanja cene nije **Cena po jedinici**, stopa troškova je podrazumevano nula (0).
+- Detalji reda ponude za **trošak**.
+- Detalji reda ugovora za **troškove**.
+- Procene troškova na projektu.
 
-## <a name="resolving-cost-rates-on-actual-and-estimate-lines-for-material"></a>Rešavanje stopa troškova na stvarnim i procenjenim stavkama za materijal
+Stvarni kontekst za troškove **odnosi** se na:
 
-Stavke procene za materijal odnose se na detalje o stavkama ponuda i predmetima ugovora za materijale i stavke procene materijala na projektu.
+- Redovi naloga unosa i korekcije za **troškove**.
+- Redovi naloga koji se kreiraju prilikom prosleđivanja stavke troška.
 
-Kada se reši cenovnik troškova, sistem koristi kombinaciju polja **Proizvod** i **Jedinica** na liniji procene za procenu materijala koja se podudara sa redovima **Stavke u cenovniku** na rešenom cenovniku. Ako sistem pronađe red cene proizvoda koji ima stopu troškova za kombinaciju polja **Proizvod** i **Jedinica**, podrazumevana je stopa troškova. Ako sistem ne može da podudari vrednosti polja **Proizvod** i **Jedinica**, stopa po jedinici je podrazumevano nula. Ovo podrazumevanje će se dogoditi i ako postoji odgovarajući red stavke cenovnika, ali metoda određivanja cena se zasniva na standardnoj ceni ili trenutnoj ceni koja nije definisana u proizvodu.
+Nakon što se utvrdi cenovnik troška, sistem dovršavanje sledećih koraka za unos podrazumevane stope troška.
+
+1. Sistem se podudara sa kombinacijom polja "Kategorija **" i** " **Jedinica** " u proceni ili stvarnom kontekstu troškova **u** odnosu na redove cene kategorije u cenovnik.
+1. Ako sistem pronađe red cene kategorije koji ima cenu troška za kombinaciju **"Kategorija"** **i "Jedinica** ", ta stopa troška se koristi kao podrazumevana stopa troška.
+1. Ako sistem ne može da parira vrednostima "Kategorija" i **"Jedinica", cena je podrazumevano** postavljena na 0 **(** nula).**·**
+1. U kontekstu procene, ako sistem može da pronađe odgovarajući red cena kategorije, ali je način određivanja **cena nešto drugo osim "Cena po jedinici**", stopa troška je **podrazumevano podešena na 0** (nula).
+
+## <a name="determining-cost-rates-on-actual-and-estimate-lines-for-material"></a>Određivanje stope troškova u stvarnim i procenjenim redovima za Materijal
+
+Procena konteksta **materijala** odnosi se na:
+
+- Detalji reda ponude za **materijal**.
+- Detalji reda ugovora za **materijal**.
+- Materijalne procene na projektu.
+
+Stvarni kontekst materijala **odnosi** se na:
+
+- Redovi naloga unosa i korekcije za **materijal**.
+- Redovi naloga koji se kreiraju prilikom prosleđivanja evidencije korišćenja materijala.
+
+Nakon što se utvrdi cenovnik troška, sistem dovršavanje sledećih koraka za unos podrazumevane stope troška.
+
+1. Sistem koristi kombinaciju polja "Proizvod" **i "** **Jedinica"** u proceni ili stvarnom kontekstu **materijala u odnosu** na redove artikla cenovnka u cenovnik.
+1. Ako sistem pronađe red stavke cenovnik koji ima stopu troška za kombinaciju **"Proizvod** **" i "Jedinica**", ta stopa troška se koristi kao podrazumevana stopa troška.
+1. Ako sistem ne može da parira vrednostima **proizvoda** **i jedinice**, trošak po jedinici je podrazumevano **podešen na 0** (nula).
+1. U proceni ili stvarnom kontekstu, ako sistem može da pronađe odgovarajući red stavke cenovnik, ali je način određivanja cena nešto **drugo osim iznosa valute**, trošak po jedinici je **podrazumevano podešen na 0**. Do ovog ponašanja dolazi zato što operacije projekta podržavaju samo **metod određivanja** cena iznosa valute za materijale koji se koriste na projektu.
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

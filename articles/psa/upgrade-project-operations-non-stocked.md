@@ -16,12 +16,12 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: c7958c1474820361269f19ea8c9279b96f087d7a
-ms.sourcegitcommit: 8edd24201cded2672cec16cd5dc84c6a3516b6c2
+ms.openlocfilehash: 43ea29aeafb62f3ecd69b316f2c0a5b791707da5
+ms.sourcegitcommit: bc21fbe8547534d2644269f873eb05d509840f23
 ms.translationtype: MT
 ms.contentlocale: sr-Latn-RS
-ms.lasthandoff: 08/06/2022
-ms.locfileid: "9230286"
+ms.lasthandoff: 09/08/2022
+ms.locfileid: "9446053"
 ---
 # <a name="upgrade-from-project-service-automation-to-project-operations"></a>Nadogradnja sa automatizacije projektnih usluga na projektne operacije
 
@@ -29,7 +29,7 @@ Uzbuđeni smo što ćemo objaviti prvu od tri faze za nadogradnju sa Microsoft D
 
 Program za isporuku nadogradnje biće podeljen u tri faze.
 
-| Nadogradnja isporuke | Faza 1 (januar 2022) | Faza 2 (aprilski talas 2022) | Faza 3  |
+| Nadogradnja isporuke | Faza 1 (januar 2022) | Faza 2 (novembar 2022) | Faza 3 (aprilski talas 2023)  |
 |------------------|------------------------|---------------------------|---------------------------|
 | Nema zavisnosti od strukture kvara na radu (WBS) za projekte | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: |
 | WBS u okviru trenutno podržanih granica projektnih operacija | | :heavy_check_mark: | :heavy_check_mark: |
@@ -39,7 +39,7 @@ Program za isporuku nadogradnje biće podeljen u tri faze.
 
 U sklopu procesa nadogradnje dodali smo evidencije nadogradnje na mapu lokacije, tako da administratori lakše dijagnostikuju neuspehe. Pored novog interfejsa, biće dodata i nova pravila za proveru valjanosti kako bi se osigurao integritet podataka nakon nadogradnje. Sledeće provere valjanosti biće dodate procesu nadogradnje.
 
-| Provere valjanosti | Faza 1 (januar 2022) | Faza 2 (aprilski talas 2022) | Faza 3  |
+| Provere valjanosti | Faza 1 (januar 2022) | Faza 2 (novembar 2022) | Faza 3  |
 |-------------|------------------------|---------------------------|---------------------------|
 | WBS će biti proveren u odnosu na uobičajena kršenja integriteta podataka (na primer, dodele resursa koje su povezane sa istim nadređenim zadatkom, ali imaju različite nadređene projekte). | | :heavy_check_mark: | :heavy_check_mark: |
 | WBS će biti proveren u odnosu na [poznata ograničenja projekta za Web](/project-for-the-web/project-for-the-web-limits-and-boundaries). | | :heavy_check_mark: | :heavy_check_mark: |

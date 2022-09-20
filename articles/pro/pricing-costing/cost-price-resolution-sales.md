@@ -7,18 +7,18 @@ ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: c7dd264ebbd1da9b2f42d2284fb38988a09aa03f
-ms.sourcegitcommit: 16c9eded66d60d4c654872ff5a0267cccae9ef0e
+ms.openlocfilehash: c2295174df1ce766c6d1304f4e9c55d32d5c4775
+ms.sourcegitcommit: 60a34a00e2237b377c6f777612cebcd6380b05e1
 ms.translationtype: MT
 ms.contentlocale: sr-Latn-RS
-ms.lasthandoff: 09/07/2022
-ms.locfileid: "9410176"
+ms.lasthandoff: 09/13/2022
+ms.locfileid: "9475253"
 ---
 # <a name="determine-cost-rates-for-project-estimates-and-actuals"></a>Utvrđivanje stope troškova za procene projekta i stvarne vrednosti
 
 _**Odnosi se na:** Jednostavna primena – od pogodbe do profakture_
 
-Da bi odredio cenovnik troška i cene troškova u proceni i stvarnim kontekstima, sistem koristi informacije u **poljima Datum**, **Valuta** i **Jedinica ugovaranja** povezanog projekta.
+Da bi odredio stope troškova za procene i stvarne vrednosti u korporaciji Microsoft Dynamics 365 Project Operations, sistem prvo koristi datum i valutu u dolaznoj proceni ili stvarnom kontekstu za određivanje cenovnog spiska troškova. U stvarnom kontekstu posebno, sistem koristi polje "Datum transakcije **"** da bi odredio koji cenovnik je primenljiv. Vrednost **datuma transakcije** dolazne ili stvarne vrednosti se poredi sa **vrednostima "Efektivni početak" (samo za vremensku zonu)** **i Efektivni kraj (nezavisno od vremenske zone)** na cenovnik. Nakon utvrđivanja cenovnik troška, sistem određuje stopu troškova. 
 
 ## <a name="determining-cost-rates-in-estimate-and-actual-contexts-for-time"></a>Određivanje stope troškova u proceni i stvarnim kontekstima za vreme
 

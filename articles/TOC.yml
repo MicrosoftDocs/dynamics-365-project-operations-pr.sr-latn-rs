@@ -232,6 +232,8 @@
               href: pricing-costing/default-project-sales-price-lists.md
             - name: Izmena prodajnih cenovnika za projekat
               href: pricing-costing/override-project-sales-price-list-default.md
+            - name: Podešavanje izmena na određeni datum za određene cene u cenovniku
+              href: pricing-costing/dateffective_price_overrides.md
             - name: Utvrđivanje cena koštanja za procene i trenutno stanje
               href: pricing-costing/cost-price-resolution.md
             - name: Utvrđivanje prodajnih cena za procene i trenutno stanje
@@ -544,6 +546,14 @@
           href: procurement/pending-vendor-invoices.md
         - name: Naručivanje roba i usluga koje nisu na zalihama za projekte pomoću narudžbenica projekata
           href: procurement/non-stocked-materials-project-purchase-orders.md
+        - name: Fakture dobavljača za podizvođače u usluzi Dataverse
+          items:
+            - name: Kreiranje faktura prodavca
+              href: procurement/Vendor-invoicing-concept-and-creation.md
+            - name: Verifikacija faktura dobavljača sa odobrenim stvarnim vrednostima
+              href: pro/subcontracting/VI-Verification.md
+            - name: Potvrda faktura dobavljača za projekat
+              href: procurement/Confirm-a-project-vendor-invoice.md
         - name: Odlaganje obaveza prema dobavljaču
           items:
             - name: Pregled odlaganja obaveza prema dobavljaču
@@ -844,6 +854,8 @@
               href: pricing-costing/default-project-sales-price-lists.md
             - name: Izmena prodajnih cenovnika za projekat
               href: pricing-costing/override-project-sales-price-list-default.md
+            - name: Podešavanje izmena na određeni datum za određene cene u cenovniku
+              href: pricing-costing/dateffective_price_overrides.md
             - name: Utvrđivanje cena koštanja za procene i trenutno stanje projekta
               href: pro/pricing-costing/cost-price-resolution-sales.md
             - name: Utvrđivanje prodajnih cena za procene i trenutno stanje projekta

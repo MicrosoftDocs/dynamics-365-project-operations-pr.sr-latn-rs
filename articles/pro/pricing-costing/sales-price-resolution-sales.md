@@ -1,23 +1,23 @@
 ---
-title: Utvrđivanje prodajnih cena za procene projekta i stvarne vrednosti
+title: Utvrđivanje prodajnih cena za procene i trenutno stanje projekta
 description: Ovaj članak pruža informacije o načinu na koji se određuju prodajne cene za procene projekta i stvarne vrednosti.
 author: rumant
 ms.date: 09/01/2022
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: 6504302578d1eb3d00c717ea93cd4c4212acb4e7
-ms.sourcegitcommit: 16c9eded66d60d4c654872ff5a0267cccae9ef0e
+ms.openlocfilehash: 1288a571d50604ee400db9c16822719d0649628b
+ms.sourcegitcommit: 60a34a00e2237b377c6f777612cebcd6380b05e1
 ms.translationtype: MT
 ms.contentlocale: sr-Latn-RS
-ms.lasthandoff: 09/07/2022
-ms.locfileid: "9410136"
+ms.lasthandoff: 09/13/2022
+ms.locfileid: "9475202"
 ---
-# <a name="determine-sales-prices-for-project-estimates-and-actuals"></a>Utvrđivanje prodajnih cena za procene projekta i stvarne vrednosti
+# <a name="determine-sales-prices-for-project-estimates-and-actuals"></a>Utvrđivanje prodajnih cena za procene i trenutno stanje projekta
 
 _**Odnosi se na:** Jednostavna primena – od pogodbe do profakture_
 
-Da bi odredio prodajne cene za procene i stvarne vrednosti u korporaciji Microsoft Dynamics 365 Project Operations, sistem prvo koristi datum i valutu u dolaznoj proceni ili stvarnom kontekstu za određivanje cenovnik prodaje. U stvarnom kontekstu posebno, sistem koristi polje "Datum transakcije **"** da bi odredio koji cenovnik je primenljiv. Nakon utvrđivanja prodajnog cenovnka, sistem određuje prodajni ili redni kurs.
+Da bi odredio prodajne cene za procene i stvarne vrednosti u korporaciji Microsoft Dynamics 365 Project Operations, sistem prvo koristi datum i valutu u dolaznoj proceni ili stvarnom kontekstu za određivanje cenovnik prodaje. U stvarnom kontekstu posebno, sistem koristi polje "Datum transakcije **"** da bi odredio koji cenovnik je primenljiv. Vrednost **datuma transakcije** dolazne ili stvarne vrednosti se poredi sa **vrednostima "Efektivni početak" (samo za vremensku zonu)** **i Efektivni kraj (nezavisno od vremenske zone)** na cenovnik. Nakon utvrđivanja prodajnog cenovnka, sistem određuje prodajni ili redni kurs.
 
 ## <a name="determining-sales-rates-on-actual-and-estimate-lines-for-time"></a>Određivanje stope prodaje u stvarnim i redovima procene vremena
 
