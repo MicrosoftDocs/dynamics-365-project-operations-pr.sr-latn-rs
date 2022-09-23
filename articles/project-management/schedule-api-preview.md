@@ -6,284 +6,146 @@ ms.date: 01/13/2022
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 3248a057b831d81fdc2bc198b4ed4da5e46462f2
-ms.sourcegitcommit: 8edd24201cded2672cec16cd5dc84c6a3516b6c2
+ms.openlocfilehash: 159d395efff98f2af780e5ed1e5ab3d6483cba89
+ms.sourcegitcommit: b1c26ea57be721c5b0b1a33f2de0380ad102648f
 ms.translationtype: MT
 ms.contentlocale: sr-Latn-RS
-ms.lasthandoff: 08/06/2022
-ms.locfileid: "9230333"
+ms.lasthandoff: 09/20/2022
+ms.locfileid: "9541142"
 ---
 # <a name="use-project-schedule-apis-to-perform-operations-with-scheduling-entities"></a>Korišćenje API-ja za raspored projekata za izvođenje operacija sa entitetima raspoređivanja
 
 _**Odnosi se na:** Project Operations za scenarije zasnovane na resursima/bez zaliha, jednostavna primena – od pogodbe do profakture_
 
 
-
-## <a name="scheduling-entities"></a>Entiteti planiranja
+**Entiteti planiranja**
 
 API-ji za raspored projekata pružaju mogućnost izvršavanja operacija kreiranja, ažuriranja i brisanja pomoću **entiteta za zakazivanje**. Tim entitetima se upravlja putem mehanizma za raspoređivanje u aplikaciji Project za veb. Kreiranje, ažuriranje i brisanje operacija pomoću **entiteta planiranja** bili su ograničeni u ranijim izdanjima usluge Dynamics 365 Project Operations.
 
 Sledeća tabela daje potpunu listu entiteta za raspored projekata.
 
-| Naziv entiteta  | Logičko ime entiteta |
-| --- | --- |
-| Project | msdyn_project |
-| Projektni zadatak  | msdyn_projecttask  |
-| Zavisnost projektnog zadatka  | msdyn_projecttaskdependency  |
-| Dodela resursa | msdyn_resourceassignment |
-| Kontejner projekta  | msdyn_projectbucket |
-| Član projektnog tima | msdyn_projectteam |
+| **Ime entiteta**         | **Logičko ime entiteta**     |
+|-------------------------|-----------------------------|
+| Project                 | msdyn_project               |
+| Projektni zadatak            | msdyn_projecttask           |
+| Zavisnost projektnog zadatka | msdyn_projecttaskdependency |
+| Dodela resursa     | msdyn_resourceassignment    |
+| Kontejner projekta          | msdyn_projectbucket         |
+| Član projektnog tima     | msdyn_projectteam           |
+| Liste za proveru projekta      | msdyn_projectchecklist      |
+| Oznaka projekta           | msdyn_projectlabel          |
+| Projektni zadatak na oznaku   | msdyn_projecttasktolabel    |
+| Sprint projekta          | msdyn_projectsprint         |
 
-## <a name="operationset"></a>OperationSet
+**OperationSet**
 
 Entitet OperationSet je obrazac jedinice rada koji se može koristiti kada se u transakciji mora obraditi nekoliko zahteva koji utiču na raspored.
 
-## <a name="project-schedule-apis"></a>API-ji za raspored projekata
+**API-ji za raspored projekata**
 
 Sledi lista aktuelnih API-ja za raspored projekata.
 
-- **msdyn_CreateProjectV1**: Ovaj API se može koristiti za kreiranje projekta. Projekat i podrazumevana kofa projekta se kreiraju odmah.
-- **msdyn_CreateTeamMemberV1**: Ovaj API se može koristiti za kreiranje člana projektnog tima. Evidencija člana tima kreira se odmah.
-- **msdyn_CreateOperationSetV1**: Ovaj API se može koristiti za zakazivanje nekoliko zahteva koji se moraju izvršiti u okviru transakcije.
-- **msdyn_PssCreateV1**: Ovaj API se može koristiti za kreiranje entiteta. Entitet može biti bilo koji entitet raspoređivanja projekta koji podržava operaciju kreiranja.
-- **msdyn_PssUpdateV1**: Ovaj API se može koristiti za ažuriranje entiteta. Entitet može biti bilo koji entitet raspoređivanja projekta koji podržava operaciju ažuriranja.
-- **msdyn_PssDeleteV1**: Ovaj API se može koristiti za brisanje entiteta. Entitet može biti bilo koji entitet raspoređivanja projekta koji podržava operaciju brisanja.
-- **msdyn_ExecuteOperationSetV1**: Ovaj API se koristi za izvršavanje svih operacija unutar datog skupa operacija.
+| **Api**                                 | Opis                                                                                                                       |
+|-----------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------|
+| **msdyn_CreateProjectV1**               | Ovaj API se koristi za kreiranje projekta. Projekat i podrazumevana kofa projekta se kreiraju odmah.                         |
+| **msdyn_CreateTeamMemberV1**            | Ovaj API se koristi za kreiranje člana projektnog tima. Evidencija člana tima kreira se odmah.                                  |
+| **msdyn_CreateOperationSetV1**          | Ovaj API se koristi za planiranje nekoliko zahteva koji se moraju izvršiti u okviru transakcije.                                        |
+| **msdyn_PssCreateV1**                   | Ovaj API se koristi za kreiranje entiteta. Entitet može biti bilo koji entitet raspoređivanja projekta koji podržava operaciju kreiranja. |
+| **msdyn_PssUpdateV1**                   | Ovaj API se koristi za ažuriranje entiteta. Entitet može biti bilo koji od entiteta za planiranje projekta koji podržavaju operaciju ažuriranja  |
+| **msdyn_PssDeleteV1**                   | Ovaj API se koristi za brisanje entiteta. Entitet može biti bilo koji entitet raspoređivanja projekta koji podržava operaciju brisanja. |
+| **msdyn_ExecuteOperationSetV1**         | Ovaj API se koristi za izvršavanje svih operacija u okviru datog skupa operacija.                                                 |
+| **msdyn_PssUpdateResourceAssignmentV1** | Ovaj API se koristi za ažuriranje planirane radne konture dodeljivanje resursa.                                                        |
 
-## <a name="using-project-schedule-apis-with-operationset"></a>Korišćenje API-ja za raspored projekata sa entitetom OperationSet
+
+
+**Korišćenje API-ja za raspored projekata sa entitetom OperationSet**
 
 Pošto se zapisi sa **CreateProjectV1** i **CreateTeamMemberV1** kreiraju odmah, ovi API-ji se ne mogu koristiti u **OperationSet entitetu** direktno. Međutim, API možete koristiti za kreiranje potrebnih zapisa, kreirajte **OperationSet entitet**, a zatim koristite ove unapred kreirane zapise u **OperationSet entitetu**.
 
-## <a name="supported-operations"></a>Podržane operacije
+**Podržane operacije**
 
-| Entitet planiranja | Kreiranje | Ažuriranje | Izbrisi | Važna razmatranja |
-| --- | --- | --- | --- | --- |
-Projektni zadatak | Da | Da | Da | Polja **"Progres**", " **Dovršavanje** napora" **i "EffortRemaining** " mogu da se uređuju u projektu za Web, ali se ne mogu uređivati u operacijama projekta.  |
-| Zavisnost projektnog zadatka | Da |  | Da | Zapisi zavisnosti projektnih zadataka se ne ažuriraju. Umesto toga, može se izbrisati stari zapis i kreirati novi zapis. |
-| Dodela resursa | Da | Da | | Nisu podržane operacije sa sledećim poljima: **BookableResourceID**, **Effort**, **EffortCompleted**, **EffortRemaining** i **PlannedWork**. Zapisi o dodeli resursa se ne ažuriraju. Umesto toga, stari zapis se može izbrisati i može se kreirati novi zapis. |
-| Kontejner projekta | Da | Da | Da | Podrazumevana kofa se kreira pomoću **API-ja CreateProjectV1**. Podrška za kreiranje i brisanje kofa projekta je dodata u izdanju Update Release 16. |
-| Član projektnog tima | Da | Da | Da | Za operaciju kreiranja koristite API **CreateTeamMemberV1**. |
-| Project | Da | Da |  | Nisu podržane operacije sa sledećim poljima: **StateCode**, **BulkGenerationStatus**, **GlobalRevisionToken**, **CalendarID**, **Effort**, **EffortCompleted**, **EffortRemaining**, **Progress**, **Finish**, **TaskEarliestStart** i **Duration**. |
+| **Entitet planiranja**   | **Kreiranje** | **Ažuriranje** | **Delete** | **Važna razmatranja**                                                                                                                                                                                                                                                                                                                            |
+|-------------------------|------------|------------|------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| Projektni zadatak            | Da        | Da        | Da        | Polja **"Progres**", " **Dovršavanje** napora" **i "EffortRemaining** " mogu da se uređuju u projektu za Web, ali se ne mogu uređivati u operacijama projekta.                                                                                                                                                                                             |
+| Zavisnost projektnog zadatka | Da        | No         | Da        | Zapisi zavisnosti projektnih zadataka se ne ažuriraju. Umesto toga, može se izbrisati stari zapis i kreirati novi zapis.                                                                                                                                                                                                                                 |
+| Dodela resursa     | Da        | Da\*      | Da        | Nisu podržane operacije sa sledećim poljima: **BookableResourceID**, **Effort**, **EffortCompleted**, **EffortRemaining** i **PlannedWork**. Zapisi o dodeli resursa se ne ažuriraju. Umesto toga, stari zapis se može izbrisati i može se kreirati novi zapis. Obezbeđen je poseban API za ažuriranje kontura dodeljivanje resursa. |
+| Kontejner projekta          | Da        | Da        | Da        | Podrazumevana kofa se kreira pomoću **API-ja CreateProjectV1**. Podrška za kreiranje i brisanje kofa projekta je dodata u izdanju Update Release 16.                                                                                                                                                                                                   |
+| Član projektnog tima     | Da        | Da        | Da        | Za operaciju kreiranja koristite API **CreateTeamMemberV1**.                                                                                                                                                                                                                                                                                           |
+| Project                 | Da        | Da        |            | Nisu podržane operacije sa sledećim poljima: **StateCode**, **BulkGenerationStatus**, **GlobalRevisionToken**, **CalendarID**, **Effort**, **EffortCompleted**, **EffortRemaining**, **Progress**, **Finish**, **TaskEarliestStart** i **Duration**.                                                                                       |
+| Liste za proveru projekta      | Da        | Da        | Da        |                                                                                                                                                                                                                                                                                                                                                         |
+| Oznaka projekta           | No         | Da        | No         | Imena oznaka se mogu promeniti. Ova funkcija je dostupna samo za Projekat za Web                                                                                                                                                                                                                                                                      |
+| Projektni zadatak na oznaku   | Da        | No         | Da        | Ova funkcija je dostupna samo za Projekat za Web                                                                                                                                                                                                                                                                                                  |
+| Sprint projekta          | Da        | Da        | Da        | Polje **"Start**" mora imati datum raniji od polja **Završi**. Sprintevi za isti projekat ne mogu da se preklapaju jedni sa drugima. Ova funkcija je dostupna samo za Projekat za Web                                                                                                                                                                    |
 
-Ovi API-ji se mogu pozivati sa objektima entiteta koji uključuju prilagođena polja.
+
+
 
 Svojstvo ID je opcionalno. Ako je obezbeđeno, sistem pokušava da ga koristi i izbacuje izuzetak ako ne može da ga koristi. Ako nije obezbeđeno, sistem će ga generisati.
 
-## <a name="restricted-fields"></a>Ograničena polja
+**Ograničenja i poznati problemi**
 
-Sledeće tabele definišu polja koja su ograničena na kreiranje i **uređivanje** **.**
-
-### <a name="project-task"></a>Projektni zadatak
-
-| Logičko ime                           | Može da kreira     | Može da menja         |
-|----------------------------------------|----------------|------------------|
-| msdyn_actualcost                       | No             | No               |
-| msdyn_actualcost_base                  | No             | No               |
-| msdyn_actualend                        | No             | No               |
-| msdyn_actualsales                      | No             | No               |
-| msdyn_actualsales_base                 | No             | No               |
-| msdyn_actualstart                      | No             | No               |
-| msdyn_costatcompleteestimate           | No             | No               |
-| msdyn_costatcompleteestimate_base      | No             | No               |
-| msdyn_costconsumptionpercentage        | No             | No               |
-| msdyn_effortcompleted                  | Ne (da za projekat)             | Ne (da za projekat)               |
-| msdyn_effortremaining                  | Ne (da za projekat)              | Ne (da za projekat)                |
-| msdyn_effortestimateatcomplete         | No             | No               |
-| msdyn_iscritical                       | No             | No               |
-| msdyn_iscriticalname                   | No             | No               |
-| msdyn_ismanual                         | No             | No               |
-| msdyn_ismanualname                     | No             | No               |
-| msdyn_ismilestone                      | No             | No               |
-| msdyn_ismilestonename                  | No             | No               |
-| msdyn_LinkStatus                       | No             | No               |
-| msdyn_linkstatusname                   | No             | No               |
-| msdyn_msprojectclientid                | No             | No               |
-| msdyn_plannedcost                      | No             | No               |
-| msdyn_plannedcost_base                 | No             | No               |
-| msdyn_plannedsales                     | No             | No               |
-| msdyn_plannedsales_base                | No             | No               |
-| msdyn_pluginprocessingdata             | No             | No               |
-| msdyn_progress                         | Ne (da za projekat)             | Ne (da za projekat) |
-| msdyn_remainingcost                    | No             | No               |
-| msdyn_remainingcost_base               | No             | No               |
-| msdyn_remainingsales                   | No             | No               |
-| msdyn_remainingsales_base              | No             | No               |
-| msdyn_requestedhours                   | No             | No               |
-| msdyn_resourcecategory                 | No             | No               |
-| msdyn_resourcecategoryname             | No             | No               |
-| msdyn_resourceorganizationalunitid     | No             | No               |
-| msdyn_resourceorganizationalunitidname | No             | No               |
-| msdyn_salesconsumptionpercentage       | No             | No               |
-| msdyn_salesestimateatcomplete          | No             | No               |
-| msdyn_salesestimateatcomplete_base     | No             | No               |
-| msdyn_salesvariance                    | No             | No               |
-| msdyn_salesvariance_base               | No             | No               |
-| msdyn_scheduleddurationminutes         | No             | No               |
-| msdyn_scheduledend                     | No             | No               |
-| msdyn_scheduledstart                   | No             | No               |
-| msdyn_schedulevariance                 | No             | No               |
-| msdyn_skipupdateestimateline           | No             | No               |
-| msdyn_skipupdateestimatelinename       | No             | No               |
-| msdyn_summary                          | No             | No               |
-| msdyn_varianceofcost                   | No             | No               |
-| msdyn_varianceofcost_base              | No             | No               |
-
-### <a name="project-task-dependency"></a>Zavisnost projektnog zadatka
-
-| Logičko ime                  | Može da kreira     | Može da menja     |
-|-------------------------------|----------------|--------------|
-| msdyn_linktype                | No             | No           |
-| msdyn_linktypename            | No             | No           |
-| msdyn_predecessortask         | Da            | No           |
-| msdyn_predecessortaskname     | Da            | No           |
-| msdyn_project                 | Da            | No           |
-| msdyn_projectname             | Da            | No           |
-| msdyn_projecttaskdependencyid | Da            | No           |
-| msdyn_successortask           | Da            | No           |
-| msdyn_successortaskname       | Da            | No           |
-
-### <a name="resource-assignment"></a>Dodela resursa
-
-| Logičko ime                 | Može da kreira     | Može da menja     |
-|------------------------------|----------------|--------------|
-| msdyn_bookableresourceid     | Da            | No           |
-| msdyn_bookableresourceidname | Da            | No           |
-| msdyn_bookingstatusid        | No             | No           |
-| msdyn_bookingstatusidname    | No             | No           |
-| msdyn_committype             | No             | No           |
-| msdyn_committypename         | No             | No           |
-| msdyn_effort                 | No             | No           |
-| msdyn_effortcompleted        | No             | No           |
-| msdyn_effortremaining        | No             | No           |
-| msdyn_finish                 | No             | No           |
-| msdyn_plannedcost            | No             | No           |
-| msdyn_plannedcost_base       | No             | No           |
-| msdyn_plannedcostcontour     | No             | No           |
-| msdyn_plannedsales           | No             | No           |
-| msdyn_plannedsales_base      | No             | No           |
-| msdyn_plannedsalescontour    | No             | No           |
-| msdyn_plannedwork            | No             | No           |
-| msdyn_projectid              | Da            | No           |
-| msdyn_projectidname          | No             | No           |
-| msdyn_projectteamid          | No             | No           |
-| msdyn_projectteamidname      | No             | No           |
-| msdyn_start                  | No             | No           |
-| msdyn_taskid                 | No             | No           |
-| msdyn_taskidname             | No             | No           |
-| msdyn_userresourceid         | No             | No           |
-
-### <a name="project-team-member"></a>Član projektnog tima
-
-| Logičko ime                                     | Može da kreira     | Može da menja     |
-|--------------------------------------------------|----------------|--------------|
-| msdyn_calendarid                                 | No             | No           |
-| msdyn_creategenericteammemberwithrequirementname | No             | No           |
-| msdyn_deletestatus                               | No             | No           |
-| msdyn_deletestatusname                           | No             | No           |
-| msdyn_effort                                     | No             | No           |
-| msdyn_effortcompleted                            | No             | No           |
-| msdyn_effortremaining                            | No             | No           |
-| msdyn_finish                                     | No             | No           |
-| msdyn_hardbookedhours                            | No             | No           |
-| msdyn_hours                                      | No             | No           |
-| msdyn_markedfordeletiontimer                     | No             | No           |
-| msdyn_markedfordeletiontimestamp                 | No             | No           |
-| msdyn_msprojectclientid                          | No             | No           |
-| msdyn_percentage                                 | No             | No           |
-| msdyn_requiredhours                              | No             | No           |
-| msdyn_softbookedhours                            | No             | No           |
-| msdyn_start                                      | No             | No           |
-
-### <a name="project"></a>Project
-
-| Logičko ime                           | Može da kreira     | Može da menja     |
-|----------------------------------------|----------------|--------------|
-| msdyn_actualexpensecost                | No             | No           |
-| msdyn_actualexpensecost_base           | No             | No           |
-| msdyn_actuallaborcost                  | No             | No           |
-| msdyn_actuallaborcost_base             | No             | No           |
-| msdyn_actualsales                      | No             | No           |
-| msdyn_actualsales_base                 | No             | No           |
-| msdyn_contractlineproject              | Da            | No           |
-| msdyn_contractorganizationalunitid     | Da            | No           |
-| msdyn_contractorganizationalunitidname | Da            | No           |
-| msdyn_costconsumption                  | No             | No           |
-| msdyn_costestimateatcomplete           | No             | No           |
-| msdyn_costestimateatcomplete_base      | No             | No           |
-| msdyn_costvariance                     | No             | No           |
-| msdyn_costvariance_base                | No             | No           |
-| msdyn_duration                         | No             | No           |
-| msdyn_effort                           | No             | No           |
-| msdyn_effortcompleted                  | No             | No           |
-| msdyn_effortestimateatcompleteeac      | No             | No           |
-| msdyn_effortremaining                  | No             | No           |
-| msdyn_finish                           | Da            | Da          |
-| msdyn_globalrevisiontoken              | No             | No           |
-| msdyn_islinkedtomsprojectclient        | No             | No           |
-| msdyn_islinkedtomsprojectclientname    | No             | No           |
-| msdyn_linkeddocumenturl                | No             | No           |
-| msdyn_msprojectdocument                | No             | No           |
-| msdyn_msprojectdocumentname            | No             | No           |
-| msdyn_plannedexpensecost               | No             | No           |
-| msdyn_plannedexpensecost_base          | No             | No           |
-| msdyn_plannedlaborcost                 | No             | No           |
-| msdyn_plannedlaborcost_base            | No             | No           |
-| msdyn_plannedsales                     | No             | No           |
-| msdyn_plannedsales_base                | No             | No           |
-| msdyn_progress                         | No             | No           |
-| msdyn_remainingcost                    | No             | No           |
-| msdyn_remainingcost_base               | No             | No           |
-| msdyn_remainingsales                   | No             | No           |
-| msdyn_remainingsales_base              | No             | No           |
-| msdyn_replaylogheader                  | No             | No           |
-| msdyn_salesconsumption                 | No             | No           |
-| msdyn_salesestimateatcompleteeac       | No             | No           |
-| msdyn_salesestimateatcompleteeac_base  | No             | No           |
-| msdyn_salesvariance                    | No             | No           |
-| msdyn_salesvariance_base               | No             | No           |
-| msdyn_scheduleperformance              | No             | No           |
-| msdyn_scheduleperformancename          | No             | No           |
-| msdyn_schedulevariance                 | No             | No           |
-| msdyn_taskearlieststart                | No             | No           |
-| msdyn_teamsize                         | No             | No           |
-| msdyn_teamsize_date                    | No             | No           |
-| msdyn_teamsize_state                   | No             | No           |
-| msdyn_totalactualcost                  | No             | No           |
-| msdyn_totalactualcost_base             | No             | No           |
-| msdyn_totalplannedcost                 | No             | No           |
-| msdyn_totalplannedcost_base            | No             | No           |
-
-### <a name="project-bucket"></a>Kontejner projekta
-
-| Logičko ime          | Može da kreira      | Može da menja     |
-|-----------------------|-----------------|--------------|
-| msdyn_displayorder    | Da             | No           |
-| msdyn_name            | Da             | Da          |
-| msdyn_project         | Da             | No           |
-| msdyn_projectbucketid | Da             | No           |
-
-## <a name="limitations-and-known-issues"></a>Ograničenja i poznati problemi
 Sledi lista ograničenja i poznatih problema:
 
-- API-je za plan projekta mogu da koriste samo korisnici **sa licencom za Microsoft Project**. Ne mogu ih koristiti:
+-   API-je za plan projekta mogu da koriste samo korisnici **sa licencom za Microsoft Project**. Ne mogu ih koristiti:
+    -   Korisnici aplikacije
+    -   Korisnici sistema
+    -   Korisnici integracije
+    -   Ostali korisnici koji nemaju potrebnu licencu
+-   Svaki **OperationSet entitet** može da ima najviše 100 operacija.
+-   Svaki korisnik može da ima najviše 10 otvorenih **OperationSet entiteta**.
+-   Project Operations trenutno podržava maksimalno 500 ukupnih zadataka na projektu.
+-   Svaka operacija ažuriranja konture dodeljivanja resursa se računa kao jedna operacija.
+-   Svaka lista ažuriranih kontura može da sadrži najviše 100 vremenskih isečaka.
+-   Status greške i evidencije grešaka **OperationSet entiteta** trenutno nisu dostupne.
+-   Postoji najviše 400 sprinta po projektu.
+-   [Ograničenja i granice za projekte i zadatke](/project-for-the-web/project-for-the-web-limits-and-boundaries).
+-   Oznake su trenutno dostupne samo za Projekat za Web.
 
-    - Korisnici aplikacije
-    - Korisnici sistema
-    - Korisnici integracije
-    - Ostali korisnici koji nemaju potrebnu licencu
+**Rukovanje greškama**
 
-- Svaki **OperationSet entitet** može da ima najviše 100 operacija.
-- Svaki korisnik može da ima najviše 10 otvorenih **OperationSet entiteta**.
-- Project Operations trenutno podržava maksimalno 500 ukupnih zadataka na projektu.
-- Status greške i evidencije grešaka **OperationSet entiteta** trenutno nisu dostupne.
-- [Ograničenja i granice projekata i zadataka](/project-for-the-web/project-for-the-web-limits-and-boundaries)
+-   Da biste pregledali greške generisane iz skupova operacija, idite na **Podešavanja** \> **Zakaži integraciju** \> **Skupovi operacija**.
+-   Da biste pregledali greške koje je generisala usluga rasporeda projekata, idite na **Podešavanja** \> **Integracija rasporeda** \> **PSS evidencije grešaka**.
 
-## <a name="error-handling"></a>Rukovanje greškama
+**Uređivanje kontura dodele resursa**
 
-- Da biste pregledali greške generisane iz skupova operacija, idite na **Podešavanja** \> **Zakaži integraciju** \> **Skupovi operacija**.
-- Da biste pregledali greške koje je generisala usluga rasporeda projekata, idite na **Podešavanja** \> **Integracija rasporeda** \> **PSS evidencije grešaka**.
+Za razliku od svih drugih API-ja za planiranje projekta koji ažuriraju entitet, API za dodeljivanje resursa je isključivo odgovoran za ispravke jednog polja, msdyn_plannedwork, u jednom entitetu, msydn_resourceassignment.
 
-## <a name="sample-scenario"></a>Primer scenarija
+Dati režim rasporeda je:
+
+-   **fiksne jedinice**
+-   Kalendar projekta je 9-5p je 9-5pst, Mon, Tue, Thurs, Petak (BEZ POSLA SREDOM)
+-   A kalendar resursa je 9-1p PST Mon to Fri
+
+Ovaj zadatak je za nedelju dana, иetiri sata dnevno. To je zato što je kalendar resursa od 9-1 PST ili četiri sata dnevno.
+
+| &nbsp;     | Zadatak | Datum početka | Datum završetka  | Količina | 6/13/2022 | 6/14/2022 | 6/15/2022 | 6/16/2022 | 6/17/2022 |
+|------------|------|------------|-----------|----------|-----------|-----------|-----------|-----------|-----------|
+| 9-1 radnik |  T1  | 6/13/2022  | 6/17/2022 | 20       | 4         | 4         | 4         | 4         | 4         |
+
+Na primer, ako želite da radnik radi samo tri sata svakog dana ove sedmice i dozvoli jedan sat za druge zadatke.
+
+#### <a name="updatedcontours-sample-payload"></a>Ažurirani Uzorak tovara:
+
+```json
+[{
+
+"minutes":900.0,
+
+"start":"2022-06-13T00:00:00-07:00",
+
+"end":"2022-06-18T00:00:00-07:00"
+
+}]
+```
+
+Ovo je dodela nakon što se pokrene API rasporeda kontura ažuriranja.
+
+| &nbsp;     | Zadatak | Datum početka | Datum završetka  | Količina | 6/13/2022 | 6/14/2022 | 6/15/2022 | 6/16/2022 | 6/17/2022 |
+|------------|------|------------|-----------|----------|-----------|-----------|-----------|-----------|-----------|
+| 9-1 radnik | T1   | 6/13/2022  | 6/17/2022 | 15       | 3         | 3         | 3         | 3         | 3         |
+
+
+**Primer scenarija**
 
 U ovom scenariju, kreiraćete projekat, člana tima, četiri zadatka i dva zadatka resursa. Zatim ćete ažurirati jedan zadatak, ažurirati projekat, izbrisati jedan zadatak, izbrisati jednu dodelu resursa i kreirati zavisnost zadatka.
 
@@ -333,7 +195,7 @@ CallExecuteOperationSetAction(operationSetId);
 Console.WriteLine("Done....");
 ```
 
-## <a name="additional-samples"></a>Dodatni primeri
+** Dodatni uzorci
 
 ```csharp
 #region Call actions --- Sample code ----

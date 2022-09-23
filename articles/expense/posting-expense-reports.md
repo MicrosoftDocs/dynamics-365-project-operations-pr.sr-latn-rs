@@ -1,8 +1,8 @@
 ---
 title: Objavljivanje izveštaja o troškovima
 description: Ovaj članak sadrži objašnjenja o tome kako se knjiže izveštaji o troškovima.
-author: suvaidya
-ms.date: 09/09/2020
+author: ramagadu
+ms.date: 08/12/2022
 ms.topic: article
 ms.prod: ''
 ms.search.form: ''
@@ -13,12 +13,12 @@ ms.search.region: ''
 ms.author: shylaw
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 4b084357179a28279344c995047f1a0a458cf9aa
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: d0ae4559a08553236158a663513401cb38cbe28f
+ms.sourcegitcommit: b2d05f898daa552179d67fdf4c060c93a9c66bd1
 ms.translationtype: MT
 ms.contentlocale: sr-Latn-RS
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8934521"
+ms.lasthandoff: 09/16/2022
+ms.locfileid: "9524887"
 ---
 # <a name="post-expense-reports"></a>Objavljivanje izveštaja o troškovima
 
@@ -30,5 +30,15 @@ Da biste proknjižili izveštaj o troškovima, na stranici **Odobreni izveštaji
 
 Takođe možete istovremeno proknjižiti sve izveštaje o troškovima na listi. Izaberite sve izveštaje o troškovima, a zatim izaberite **Knjiži**.
 
+## <a name="enable-the-ability-to-post-expense-liability-in-vendor-currency-for-cash-payment-method-feature"></a>Omogućavanje funkcije "Mogućnost knjiženja odgovornosti troškova" u valuti dobavljača za funkciju načina plaćanja gotovinom
+
+Mogućnost **knjiženja odgovornosti troškova u valuti dobavljača za funkciju načina plaćanja gotovinom** omogućava knjiženje izveštaja o troškovima u valuti dobavljača za način plaćanja gotovinom.
+
+Trenutno, kada prosleđujete gotovinske troškove, izveštaji o troškovima se knjiže u računovodstvenoj valuti. Zbog konverzije iznosa između valute transakcije, knjigovodstvene valute i valute dobavljača, netačan iznos se plaća dobavljačima ako datum transakcije i stvarni datum plaćanja imaju različite kurseve valuta.
+
+Ova funkcija će osigurati da saldo dobavljača bude zapisan u valuti dobavljača kada se proknjiži izveštaj o troškovima.
+
+1. Idite na stavku **Radni prostori** \> **Upravljanje funkcijama**.
+2. Na listi pronađite i izaberite Mogućnost knjiženja **odgovornosti troškova u valuti dobavljača za način plaćanja gotovinom, a zatim** izaberite omogući **odmah**.
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

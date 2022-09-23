@@ -2,20 +2,20 @@
 title: Osoblje projekta sa radnicima po ugovoru i podizvođačima
 description: Ovaj članak sadrži objašnjenja o tome kako zahtevi projekta mogu da se koriste pomoću radnika po ugovoru ili kapaciteta podizvođačima u korporaciji Microsoft Dynamics 365 Project Operations.
 author: rumant
-ms.date: 12/03/2021
+ms.date: 09/14/2022
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: 8edb053467ef200ca3e051e2fd78106734318389
-ms.sourcegitcommit: b2224d1f3c0bd4925d647e6ca3960db81a209521
+ms.openlocfilehash: 30e16efeed93ab4568eac57fb3ed46067a08524d
+ms.sourcegitcommit: 08eb3be9eda44e9446c43ed9b6aefd58d77927c5
 ms.translationtype: MT
 ms.contentlocale: sr-Latn-RS
-ms.lasthandoff: 08/11/2022
-ms.locfileid: "9261272"
+ms.lasthandoff: 09/15/2022
+ms.locfileid: "9522453"
 ---
 # <a name="staffing-a-project-with-contract-workers-and-subcontracted-capacity"></a>Osoblje projekta sa radnicima po ugovoru i podizvođačima
 
-_**Odnosi se na:** Jednostavna primena – od pogodbe do profakture_
+_**Odnosi se na:** Project Operations za scenarije zasnovane na resursima/bez zaliha, jednostavna primena – od pogodbe do profakture_
 
 Generički članovi projektnog tima mogu biti zaposleni ili radnici po ugovoru. Kada koristite projekat sa radnicima po ugovoru, možete da ograničite opcije osoblja na određene radnike po ugovoru koji su dodeljeni redu podizvođače. 
 

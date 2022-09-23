@@ -2,16 +2,16 @@
 title: Dnevnik integracije u usluzi Project Operations
 description: Ovaj članak pruža informacije o radu sa nalogom za integraciju u operacijama projekta.
 author: sigitac
-ms.date: 06/29/2022
+ms.date: 09/22/2022
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: d6f1709c4bf44cfd45516d9ac74b30d4817bb653
-ms.sourcegitcommit: a5a1d81d2fe0a6f684e79859fcddf45e913d76bc
+ms.openlocfilehash: e947fe895a1caa9c9ea092597957a859cd8d61c9
+ms.sourcegitcommit: b1c26ea57be721c5b0b1a33f2de0380ad102648f
 ms.translationtype: MT
 ms.contentlocale: sr-Latn-RS
-ms.lasthandoff: 07/01/2022
-ms.locfileid: "9106292"
+ms.lasthandoff: 09/20/2022
+ms.locfileid: "9541095"
 ---
 # <a name="integration-journal-in-project-operations"></a>Dnevnik integracije u usluzi Project Operations
 
@@ -65,6 +65,12 @@ Knjiženje se može izvršiti interaktivno ili u grupi. Imajte na kraju da će s
 > [!NOTE]
 > Da biste koristili ovu mogućnost, omogućite prenos svih **redova sa greškama u knjiženju u novu funkciju naloga integracije operacija** projekta u radnom **prostoru za** upravljanje funkcijama.
 
-Tokom knjiženja u nalog integracije operacija projekta, sistem proverava valjanost svakog reda u nalogu. Sistem knjiži sve redove koji nemaju greške i kreira novi nalog za sve redove koji imaju greške u knjiženju. Da biste pregledali naloge koji imaju redove greške prilikom knjiženja, idite u **nalog** > **za integraciju projektnih** > **operacija upravljanja** projektima i filtrirajte naloge **korišćenjem polja Nalog original**.
+Ova funkcija pomaže u poboljšanju iskustva u dnevniku integracije operacija projekta. Kada je omogućeno, problemi sa dvostrukim upisivanja i problemi sa podešavanjem više ne sprečavaju knjiženje važećih naloga. Tokom knjiženja u nalog integracije operacija projekta, sistem proverava valjanost svakog reda u nalogu. Knjiži sve redove koji nemaju greške i kreira novi nalog za sve redove koji imaju greške u knjiženju.
+
+Da biste pregledali naloge koji imaju redove greške prilikom knjiženja, idite u **nalog** \> **za integraciju projektnih** \> **operacija upravljanja** projektima i filtrirajte listu **naloga** pomoću polja Originalni nalog. Sledeća ilustracija prikazuje primer gde su na ovaj način filtrirani nalozi **u dnevniku** integracije operacija projekta.
+
+![Originalni dnevnik prikazan na stranici "Integracija operacija projekta".](./media/transferLines-originalJournal.png)
+
+Ako je periodična grupna obrada konfigurisana za knjiženje naloga integracije, knjiženje će biti ponovo u iskušenju, a nalozi će biti proknjiženi ako je problem sa vremenom rešen. Sve preostale dnevnike treba ručno istražiti pregledom evidencija i preduzimanjem bilo koje potrebne radnje.
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

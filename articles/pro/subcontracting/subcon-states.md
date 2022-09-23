@@ -2,20 +2,20 @@
 title: Promene statusa podugovora
 description: Ovaj članak sadrži objašnjenja o prelazima stanja na podizvođač u korporaciji Microsoft Dynamics 365 Project Operations dok se podizvođač kreira, izvršava i zatvara.
 author: rumant
-ms.date: 12/03/2021
+ms.date: 09/14/2022
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: 02553099a6728c19c219659dff431ff9a5cf10fc
-ms.sourcegitcommit: b2224d1f3c0bd4925d647e6ca3960db81a209521
+ms.openlocfilehash: 2804fc30f8dade42dc1093e5fc0f01fa1db22ca3
+ms.sourcegitcommit: 08eb3be9eda44e9446c43ed9b6aefd58d77927c5
 ms.translationtype: MT
 ms.contentlocale: sr-Latn-RS
-ms.lasthandoff: 08/11/2022
-ms.locfileid: "9261292"
+ms.lasthandoff: 09/15/2022
+ms.locfileid: "9522952"
 ---
 # <a name="state-transitions-on-a-subcontract"></a>Promene statusa podugovora 
 
-_**Odnosi se na:** Jednostavna primena – od pogodbe do profakture_
+_**Odnosi se na:** Project Operations za scenarije zasnovane na resursima/bez zaliha, jednostavna primena – od pogodbe do profakture_
 
 Ovaj članak sadrži objašnjenja o prelazima stanja na podizvođač u korporaciji Microsoft Dynamics 365 Project Operations. Svaka država je predstavljena kao radna verzija, potvrđena, zatvorena ili otkazana. Sledeća slika predstavlja državne prelaze.
 

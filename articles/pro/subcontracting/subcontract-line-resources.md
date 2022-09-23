@@ -2,20 +2,20 @@
 title: Resursi za predmete podugovora
 description: Ovaj članak sadrži objašnjenja o tome kako da navedete namenske resurse koje dobavljač obezbeđuje za određeni red podizvođač za vreme.
 author: rumant
-ms.date: 08/06/2021
+ms.date: 09/14/2022
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: d440201fde26e835b407db0b8ee1de8d663311a0
-ms.sourcegitcommit: b2224d1f3c0bd4925d647e6ca3960db81a209521
+ms.openlocfilehash: 04e3e5ee70c50068304a8a6c8f7e93df48ed7e85
+ms.sourcegitcommit: 08eb3be9eda44e9446c43ed9b6aefd58d77927c5
 ms.translationtype: MT
 ms.contentlocale: sr-Latn-RS
-ms.lasthandoff: 08/11/2022
-ms.locfileid: "9261482"
+ms.lasthandoff: 09/15/2022
+ms.locfileid: "9522390"
 ---
 # <a name="subcontract-line-resources"></a>Resursi za predmete podugovora
 
-_**Odnosi se na:** Jednostavna primena – od pogodbe do profakture_
+_**Odnosi se na:** Project Operations za scenarije zasnovane na resursima/bez zaliha, jednostavna primena – od pogodbe do profakture_
 
 U aplikaciji Dynamics 365 Project Operations, prodavac može da navede resurse koji će se koristiti za snabdevanje kapaciteta resursa koji se kupuje na predmetu podugovora za vreme.
 

@@ -2,20 +2,20 @@
 title: Članovi projektnog tima podugovaranja
 description: Ovaj članak sadrži objašnjenja o tome kako da podizvođačite članove projektnog tima u korporaciji Microsoft Dynamics 365 Project Operations.
 author: rumant
-ms.date: 12/03/2021
+ms.date: 9/14/2022
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: 14abd82cbbd256770105d4272f686590737e2648
-ms.sourcegitcommit: b2224d1f3c0bd4925d647e6ca3960db81a209521
+ms.openlocfilehash: a2f17d6f270029e3a517e99c7bb518cdb19b8d23
+ms.sourcegitcommit: 08eb3be9eda44e9446c43ed9b6aefd58d77927c5
 ms.translationtype: MT
 ms.contentlocale: sr-Latn-RS
-ms.lasthandoff: 08/11/2022
-ms.locfileid: "9261388"
+ms.lasthandoff: 09/15/2022
+ms.locfileid: "9522813"
 ---
 # <a name="subcontracting-project-team-members"></a>Članovi projektnog tima podugovaranja
 
-_**Odnosi se na:** Jednostavna primena – od pogodbe do profakture_
+_**Odnosi se na:** Project Operations za scenarije zasnovane na resursima/bez zaliha, jednostavna primena – od pogodbe do profakture_
 
 U korporaciji Microsoft Dynamics 365 Project Operations možete odabrati da podizvođačima odvrate članove projektnog tima koji nisu u štimovanim ili osobljem.
 

@@ -2,21 +2,21 @@
 title: Ključni koncepti u podugovaranju
 description: Ovaj članak sadrži objašnjenja o nekim ključnim konceptima koji se primenjuju na podizvođač u korporaciji Microsoft Dynamics 365 Project Operations.
 author: rumant
-ms.date: 08/03/2021
+ms.date: 09/14/2022
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: e75f2cf9c1092604e43e5cb60dda0e2a1b7dcd64
-ms.sourcegitcommit: b2224d1f3c0bd4925d647e6ca3960db81a209521
+ms.openlocfilehash: 9577169f12198222e647ed07ae8a1b6c55da4323
+ms.sourcegitcommit: 08eb3be9eda44e9446c43ed9b6aefd58d77927c5
 ms.translationtype: MT
 ms.contentlocale: sr-Latn-RS
-ms.lasthandoff: 08/11/2022
-ms.locfileid: "9262187"
+ms.lasthandoff: 09/15/2022
+ms.locfileid: "9522766"
 ---
 # <a name="key-concepts-in-subcontracting"></a>Ključni koncepti u podugovaranju
 
 
-_**Odnosi se na:** Jednostavna primena – od pogodbe do profakture_
+_**Odnosi se na:** Project Operations za scenarije zasnovane na resursima/bez zaliha, jednostavna primena – od pogodbe do profakture_
 
 Članak sadrži objašnjenja o nekim ključnim konceptima kojih bi trebalo da budete svesni pre nego što počnete da koristite funkcionalnost podizvođanja u korporaciji Microsoft Dynamics 365 Project Operations.
 

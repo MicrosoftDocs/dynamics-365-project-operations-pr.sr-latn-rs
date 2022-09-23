@@ -2,20 +2,20 @@
 title: Predmet podugovora za proizvode
 description: Ovaj članak sadrži objašnjenja o tome kako da zapušite redove podizvođača za proizvode i koristite razna polja za zapisivanje nabavki proizvoda od dobavljača.
 author: rumant
-ms.date: 08/06/2021
+ms.date: 09/14/2022
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: b5852df1876eff591ae6a131b229d979eacf5aad
-ms.sourcegitcommit: b2224d1f3c0bd4925d647e6ca3960db81a209521
+ms.openlocfilehash: 1ca042eaf95a5e252f00248e83efb959ab3ce801
+ms.sourcegitcommit: 08eb3be9eda44e9446c43ed9b6aefd58d77927c5
 ms.translationtype: MT
 ms.contentlocale: sr-Latn-RS
-ms.lasthandoff: 08/11/2022
-ms.locfileid: "9262140"
+ms.lasthandoff: 09/15/2022
+ms.locfileid: "9522860"
 ---
 # <a name="subcontract-lines-for-products"></a>Predmet podugovora za proizvode
 
-_**Odnosi se na:** Jednostavna primena – od pogodbe do profakture_
+_**Odnosi se na:** Project Operations za scenarije zasnovane na resursima/bez zaliha, jednostavna primena – od pogodbe do profakture_
 
 Podugovor u usluzi Dynamics 365 Project Operations može imati predmet podugovora za proizvode. Ovi predmeti omogućavaju menadžeru projekta da kupuje proizvode od prodavaca koje zatim može koristiti u projektnim zadacima.
 

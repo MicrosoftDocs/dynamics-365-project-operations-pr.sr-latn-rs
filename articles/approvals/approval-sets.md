@@ -6,12 +6,12 @@ ms.date: 02/01/2022
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: stsporen
-ms.openlocfilehash: 5e030c1aa4a41b428a0f4541fd204a7a3deaba08
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: ca205073edbce2b399aab3ae273d635c8af96765
+ms.sourcegitcommit: b2d05f898daa552179d67fdf4c060c93a9c66bd1
 ms.translationtype: MT
 ms.contentlocale: sr-Latn-RS
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8918099"
+ms.lasthandoff: 09/16/2022
+ms.locfileid: "9524934"
 ---
 # <a name="approval-sets"></a>Skupovi odobrenja
 
@@ -45,14 +45,9 @@ Izbor **Pokušaj ponovo** povećava trajni broj skupova odobrenja, vraća skup o
 ## <a name="configure-approval-sets"></a>Konfigurisanje skupova odobrenja
 
 ### <a name="enable-the-approval-sets-feature"></a>Omogućavanje funkcije skupova odobrenja
-Da biste omogućili funkciju Skupovi odobrenja, uverite se da trenutno nema odobrenja koja se obrađuju.
+Da biste omogućili funkciju Skupovi odobrenja, uverite se da trenutno nema odobrenja koja se obrađuju. Kada je ova funkcija omogućena, ne može se onemogućiti.
 
 - Idite na stranicu **Parametri projekta** i izaberite **Kontrola funkcija** > **Omogućavanje modernih odobrenja**.
-
-### <a name="turn-off-the-approval-sets-feature"></a>Isključivanje funkcije skupova odobrenja
-Da biste isključili funkciju Skupovi odobrenja, uverite se da trenutno nema odobrenja koja se obrađuju.
-
-- Idite na stranicu **Parametri projekta** i izaberite **Kontrola funkcija** > **Onemogućavanje modernih odobrenja**.
 
 ### <a name="configuring-the-asynchronous-threshold"></a>Konfigurisanje asinhrone granične vrednosti 
 Kada se kreiraju skupovi odobrenja, obrada se premešta u pozadinu kada izabrani broj zapisa za odobrenje pređe naznačenu graničnu vrednost. Koristite polje **Asinhrona granična vrednost** da konfigurišete kada obradu odobrenja treba izvoditi sinhrono ili asinhrono. Izaberite jednu od sledećih vrednosti:
