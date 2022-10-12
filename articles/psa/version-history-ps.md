@@ -22,12 +22,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 14fd22c7c863d650baebf1c7c2c96521d0bd207c
-ms.sourcegitcommit: 153eb9325df25b31539bb2b44077326386ab41ae
+ms.openlocfilehash: 359fcc2d31d4d90339870b93560685d77cb03fc8
+ms.sourcegitcommit: 6536e79aca5ce2cb0276a4366db69d688962a21f
 ms.translationtype: MT
 ms.contentlocale: sr-Latn-RS
-ms.lasthandoff: 08/15/2022
-ms.locfileid: "9295849"
+ms.lasthandoff: 10/04/2022
+ms.locfileid: "9621959"
 ---
 # <a name="update-release-schedule-for-project-service-3x"></a>Plan izdanja ispravke za Project Service 3.x
 
@@ -37,7 +37,7 @@ ms.locfileid: "9295849"
 
 | Rešenje  | Najnovija verzija |
 |-------|----|
-| Project Service Automation    | 3.10.76.168 |
+| Project Service Automation    | 3.10.78.8 |
 | Programski dodatak za Project Service Automation za stone računare                | 3.60          |
 
 Za informacije o drugim ispravkama usluge Project Service, pogledajte članak [Dynamics 365 planovi izdanja](/dynamics365/release-plans/). 
@@ -45,30 +45,30 @@ Za informacije o drugim ispravkama usluge Project Service, pogledajte članak [D
 | Stanica  | Region | Trenutna verzija | Sledeća verzija |  Planirani datum
 | :---   | :---   | :---   | :---   |:---   |         
 |<strong>Stanica 1</strong> | |  |  | |
-| | <i>Prvo izdanje</i> | [3.10.76.168](whats-new-ur-45.md) | TBD | 26. avgust 2022.
+| | <i>Prvo izdanje</i> | [3.10.78.8](whats-new-ur-47.md)| TBD | 07. oktobar 2022.
 |<strong>Stanica 2</strong> | |  |  | |
-| | <i>Južna Amerika</i> | [3.10.76.168](whats-new-ur-45.md) | TBD | 02. septembar 2022.
-| | <i>Kanada</i> | [3.10.76.168](whats-new-ur-45.md) | TBD | 02. septembar 2022.
-| | <i>Indija</i> | [3.10.76.168](whats-new-ur-45.md) | TBD | 02. septembar 2022.
-| | <i>Francuska</i> | [3.10.76.168](whats-new-ur-45.md) | TBD | 02. septembar 2022.
-| | <i>Južnoafrčka Republika</i> | [3.10.76.168](whats-new-ur-45.md) | TBD | 02. septembar 2022.
-| | <i>Nemačka</i> | [3.10.76.168](whats-new-ur-45.md) | TBD | 02. septembar 2022.
-| | <i>Švajcarska</i> | [3.10.76.168](whats-new-ur-45.md) | TBD | 02. septembar 2022.
-| | <i>Južna Koreja</i> | [3.10.76.168](whats-new-ur-45.md) | TBD | 02. septembar 2022.
-| | <i>Norveška</i> | [3.10.76.168](whats-new-ur-45.md) | TBD | 02. septembar 2022.
+| | <i>Južna Amerika</i> | [3.10.78.8](whats-new-ur-47.md) | TBD | 14. oktobar 2022.
+| | <i>Kanada</i> | [3.10.78.8](whats-new-ur-47.md) | TBD | 14. oktobar 2022.
+| | <i>Indija</i> | [3.10.78.8](whats-new-ur-47.md) | TBD | 14. oktobar 2022.
+| | <i>Francuska</i> | [3.10.78.8](whats-new-ur-47.md) | TBD | 14. oktobar 2022.
+| | <i>Južnoafrčka Republika</i> | [3.10.78.8](whats-new-ur-47.md) | TBD | 14. oktobar 2022.
+| | <i>Nemačka</i> | [3.10.78.8](whats-new-ur-47.md) | TBD | 14. oktobar 2022.
+| | <i>Švajcarska</i> | [3.10.78.8](whats-new-ur-47.md) | TBD | 14. oktobar 2022.
+| | <i>Južna Koreja</i> | [3.10.78.8](whats-new-ur-47.md) | TBD | 14. oktobar 2022.
+| | <i>Norveška</i> | [3.10.78.8](whats-new-ur-47.md) | TBD | 14. oktobar 2022.
 |<strong>Stanica 3</strong> | |  |  | |
-| | <i>Japan</i> | [3.10.76.168](whats-new-ur-45.md) | TBD | 09. septembar 2022.
-| | <i>Pacifička Azija</i> | [3.10.76.168](whats-new-ur-45.md) | TBD | 09. septembar 2022.
-| | <i>Velika Britanija</i> | [3.10.76.168](whats-new-ur-45.md) | TBD | 09. septembar 2022.
-| | <i>Okeanija</i> | [3.10.76.168](whats-new-ur-45.md) | TBD | 09. septembar 2022.
-| | <i>Ujedinjeni Arapski Emirati</i> | [3.10.76.168](whats-new-ur-45.md) | TBD | 09. septembar 2022.
+| | <i>Japan</i> | [3.10.78.8](whats-new-ur-47.md) | TBD | 21. oktobar 2022.
+| | <i>Pacifička Azija</i> | [3.10.78.8](whats-new-ur-47.md) | TBD | 21. oktobar 2022.
+| | <i>Velika Britanija</i> | [3.10.78.8](whats-new-ur-47.md) | TBD | 21. oktobar 2022.
+| | <i>Okeanija</i> | [3.10.78.8](whats-new-ur-47.md) | TBD | 21. oktobar 2022.
+| | <i>Ujedinjeni Arapski Emirati</i> | [3.10.78.8](whats-new-ur-47.md) | TBD | 21. oktobar 2022.
 |<strong>Stanica 4</strong> | |  |  | |
-| | <i>Evropa</i> | [3.10.76.168](whats-new-ur-45.md) | TBD | 16. septembar 2022.
+| | <i>Evropa</i> | [3.10.78.8](whats-new-ur-47.md) | TBD | 21. oktobar 2022.
 |<strong>Stanica 5</strong> | |  |  | |
-| | <i>Severna Amerika</i> | [3.10.76.168](whats-new-ur-45.md) | TBD | 23. septembar 2022.
+| | <i>Severna Amerika</i> | [3.10.78.8](whats-new-ur-47.md) | TBD | Novembar 04 2022
 |<strong>Stanica 6</strong> | |  |  | |
-| | <i>Government Community Cloud</i> | [3.10.76.168](whats-new-ur-45.md) | TBD | 21. septembar 2022.
-| | <i>Grupe namenskih skala</i> | [3.10.76.168](whats-new-ur-45.md) | TBD | 30. septembar 2022.
+| | <i>Government Community Cloud</i> | [3.10.78.8](whats-new-ur-47.md) | TBD | 02. novembar 2022.
+| | <i>Grupe namenskih skala</i> | [3.10.78.8](whats-new-ur-47.md) | TBD | 11. novembar 2022.
 
 
 
