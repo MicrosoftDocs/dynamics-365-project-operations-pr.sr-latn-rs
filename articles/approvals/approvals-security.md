@@ -6,12 +6,12 @@ ms.date: 08/29/2022
 ms.topic: security
 ms.reviewer: johnmichalak
 ms.author: stsporen
-ms.openlocfilehash: bc33f63f66bdcf1470e5d9386cfc3661774436fd
-ms.sourcegitcommit: b2d05f898daa552179d67fdf4c060c93a9c66bd1
+ms.openlocfilehash: 0dcadaa142bf46e4c54f160759602ac749022108
+ms.sourcegitcommit: 73aff2b3c5e5b8a2254735b0b25931cbb6754c87
 ms.translationtype: MT
 ms.contentlocale: sr-Latn-RS
-ms.lasthandoff: 09/16/2022
-ms.locfileid: "9525412"
+ms.lasthandoff: 10/20/2022
+ms.locfileid: "9709415"
 ---
 # <a name="security-and-approvals"></a>Bezbednost i odobrenja
 
@@ -33,6 +33,6 @@ Da biste odobrili stavke koje nisu projektne, morate biti menadžer prosledioca.
 > [!NOTE]
 > Funkcija [skupova odobravanja](approval-sets.md) mora biti omogućena da biste mogli da koristite funkcionalnost administratora koji vrši odobravanje projekta.
 
-Administrator **smernica za odobravanje** bezbednosna uloga omogućava korisnicima da zaobiđu smernice i omogućava odobravanje stavki u svim projektima. Dodeljivanje ove uloge će zaobići logiku provere valjanosti koja zahteva članstvo u timu i biti označena kao osoba koja vrši odobravanje. Morate imati pristup relevantnim povezanim entitetima, kao što je "Projekat **"**. Taj pristup može da dodeli neko ko ima ulogu Menadžera **projekta**.
+Administrator **smernica za odobravanje** bezbednosna uloga omogućava korisnicima da zaobiđu smernice i omogućava odobravanje stavki u svim projektima. Dodeljivanje ove uloge će zaobići logiku provere valjanosti koja zahteva članstvo u timu i biti označena kao osoba koja vrši odobravanje. Morate imati pristup relevantnim povezanim tabelama, kao što je "Projekat **",** putem bezbednosnih uloga koje su vam dodeljene.
 
 Kontekst korisnika sistema zaobilazi provere valjanosti na isti način kao i administrator administratora koji vrši bezbednosna uloga.
