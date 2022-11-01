@@ -1752,8 +1752,6 @@
               href: psa/FAQ-soft-book-in-web-app.md
             - name: Kako da prilagodite tok poslovnog procesa za faze projekta?
               href: psa/FAQ-customize-bpf.md
-            - name: Razmatranja nadogradnje strukturne analize posla
-              href: psa/upgrade-considerations-tasks.md
         - name: Bele knjige
           href: psa/white-papers.md
         - name: Vodič za administratore
