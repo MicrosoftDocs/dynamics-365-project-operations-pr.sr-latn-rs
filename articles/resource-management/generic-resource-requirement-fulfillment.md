@@ -1,6 +1,6 @@
 ---
 title: Ispunjavanje generičkih zahteva za resursima
-description: Ovaj članak pruža informacije o tome kako rezervisati imenovane resurse za generički zahtev resursa.
+description: Ovaj članak pruža informacije o tome kako da rezervišete imenovane resurse u skladu sa potrebama za generičkim resursima.
 author: ruhercul
 ms.date: 09/23/2020
 ms.topic: article
