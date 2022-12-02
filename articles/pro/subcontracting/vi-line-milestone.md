@@ -1,6 +1,6 @@
 ---
 title: Stavke fakture dobavljača za kontrolne tačke
-description: Ovaj članak sadrži objašnjenja o tome kako da kreirate redove fakture dobavljača za prekretnice u podizvođači.
+description: Ovaj članak sadrži objašnjenja o tome kako da kreirate redove na fakturi dobavljača za kontrolne tačke na podugovoru.
 author: rumant
 ms.date: 03/25/2022
 ms.topic: article
@@ -17,28 +17,28 @@ ms.locfileid: "9261046"
 
 _**Odnosi se na:** Jednostavna primena – od pogodbe do profakture_
 
-Faktura dobavljača u korporaciji Microsoft Dynamics 365 Project Operations može imati redove fakture dobavljača za prekretnice koje su definisane u redu podizvođači. Menadžeri projekta mogu da koriste redove fakture dobavljača za prekretnice da bi zapisali troškove usluga koji se nabavljaju kao troškove zasnovane na prekretnici koji nastavljaju na uslugama ili proizvodima koji se nabavljaju za projekat.
+Faktura dobavljača u usluzi Microsoft Dynamics 365 Project Operations može da ima redove na fakturi dobavljača za kontrolne tačke koje su definisane predmetom podugovora. Menadžeri projekta mogu da koriste redove na fakturi dobavljača za kontrolne tačke da bi evidentirali cene usluga koje se nabavljaju kao cene zasnovane na kontrolnim tačkama koje nastaju na uslugama ili proizvodima koji se nabavljaju za projekat.
 
-Redovi fakture dobavljača za prekretnice uvek moraju da upućuju na red podizvođače koji ima metod fakturisanja fiksne cene. Kada red fakture dobavljača za prekretnice upućuje na red podizvođače, menadžeri projekta će moći da se podudaraju i verifikuju osnovne troškove vremena, troškova ili materijala koji referencuju na red podizvođače u odnosu na prekretnicu koju fakturiše dobavljač.
+Redovi na fakturi dobavljača za kontrolne tačke uvek moraju da upućuju na predmet podugovora koji ima metod fakturisanja Fiksna cena. Kada red na fakturi dobavljača za kontrolne tačke upućuje na predmet podugovora, projektni menadžeri će moći da podudaraju i potvrđuju osnovne cene za vreme, troškove ili materijale koji upućuje na taj predmet podugovora u odnosu na kontrolnu tačku koju dobavljač fakturiše.
 
-Sledeća tabela pruža informacije o poljima u redovima fakture dobavljača za prekretnice.
+Sledeća tabela pruža informacije o poljima na redovima na fakturi dobavljača za kontrolne tačke.
 
 | Polje | Opis | Funkcionalni uticaj |
 | --- | --- | --- |
-| Imenuj | Ime reda fakture dobavljača, da biste pomogli u identifikaciji. | Ovo ime će biti prikazano kao prva kolona u svim pronalaženjem koja se zasniva na redovima fakture dobavljača. |
-| Opis | Kratak opis usluga koje dobavljač fakturiše u redu fakture dobavljača. | Nijedno |
-| Podugovor | Podizvođači na koji su usluge prvobitno naručene. | Kada je za fakturu dobavljača izabran podizvođaи, svi redovi u fakturi dobavljača жe naslediti taj izbor. Faktura dobavljača ne može imati redove fakture dobavljača koji upućuju na različite podizvođači. |
-| Red podizvođači | Red podizvođače na kojem su usluge naručene. Lista redova podizvođaka koji se mogu izabrati ograničena je na redove izabranog podizvođaka. | Kada je red podizvođača izabran u redu fakture dobavljača za prekretnice, **polja kategorija "Uloga** **" i "Transakcija**" i polja povezana sa proizvodom su nebitna i nisu dostupna. Polja **"Količina", "** Jedinica **"** i "Grupa **jedinica" takođe** nisu relevantna za redove fakture dobavljača zasnovane na prekretnici. |
-| Datum transakcije | Datum kada će trošak stvarnog reda fakture dobavljača biti zapisan u projekat. | Nijedno |
-| Klasa transakcije | Izaberite **stavku** Prekretnica da biste zapisali fakturu dobavljača za dovršenu prekretnicu koja je definisana u redu podizvođač. | Nijedno |
-| Kontrolna tačka | Izaberite prekretnicu koja je definisana u povezanom redu podizvođači koji je označen kao "Spremno **za fakturisanje"**. | Prekretnice u redu podizvođanja koje imaju status "Spremno **za fakturisanje** " mogu biti izabrane u redu fakture dobavljača. |
-| Project | Korišćeno je ime projekta na kojem su korišćene usluge koje se fakturiše. | Ovo polje je obavezno i ne može ostati prazno. |
-| Zadatak | Korišćeno je ime projektnog zadatka na kojem su korišćene usluge koje se fakturiše. Ovo polje je dostupno samo ako je izabran projekat. Izbor projektnog zadatka je opcionalan. | Ako ovo polje ostane prazno, menadžer projekta može da uporedi red fakture dobavljača sa klasom transakcija u povezanom redu podizvođač koji je zapisan na bilo kom zadatku projekta. Ako red fakture dobavljača ne upućuje na red podizvođača, a ovo polje ostane prazno, stvarni trošak koji je kreirao red fakture dobavljača neće biti povezan ni sa jednom neobličavanom stvarnom prodajom. U ovom slučaju, ako je naplata zasnovana na zadatku podešena, troškovi možda neće moći da se fakturišu krajnjem kupcu. |
-| Iznos kontrolne tačke | Unesite vrednost prekretnice koja je definisana u redu podizvođači koji je spreman za fakturisanje. | Nijedno |
+| Imenuj | Naziv reda na fakturi dobavljača, za pomoć pri identifikaciji. | Naziv će biti prikazan kao prva kolona u svim pretragama koje su zasnovane na stavkama na fakturi dobavljača. |
+| Opis | Kratak opis usluga koje dobavljač fakturiše na redu na fakturi dobavljača. | Nijedno |
+| Podugovor | Podugovor pod kojim su usluge prvobitno naručene. | Kada je za fakturu dobavljača izabran podugovor, svi redovi na fakturi dobavljača će naslediti taj izbor. Faktura dobavljača ne može imati redove na fakturi dobavljača koji upućuju na različite podugovore. |
+| Predmet podugovora | Predmet podugovora pod kojim su usluge naručene. Lista predmeta podugovora koji se mogu izabrati ograničena je na predmete izabranog podugovora. | Kada je predmet podugovora izabran u redu na fakturi dobavljača za kontrolne tačke, polja **Uloga** i **Kategorija transakcije** i polja povezana sa proizvodom su nebitna i nisu dostupna. Polja **Količina**, **Jedinica** i **Grupa jedinica** takođe nisu relevantna za redove na fakturi dobavljača zasnovane na kontrolnim tačkama. |
+| Datum transakcije | Datum kada će stvarna vrednost troška reda na fakturi biti evidentirana u projekat. | Nijedno |
+| Klasa transakcije | Izaberite **Kontrolnu tačku** da biste evidentirali fakturu dobavljača za dovršenu kontrolnu tačku koja je definisana u predmetu podugovora. | Nijedno |
+| Kontrolna tačka | Izaberite kontrolnu tačku koja je definisana u povezanom predmetu podugovora koji je označen kao **Spremno za fakturisanje**. | Kontrolne tačke predmeta podugovora koje imaju status **Spremno za fakturisanje** mogu biti izabrane na redu na fakturi dobavljača. |
+| Project | Naziv projekta u kom se koriste usluge koje su fakturisane. | Ovo polje je obavezno i ne može da ostane prazno. |
+| Zadatak | Naziv projektnog zadatka u kom se koriste usluge koje su fakturisane. Ovo polje je dostupno samo ako je izabran projekat. Izbor projektnog zadatka je opcionalan. | Ako ovo polje ostane prazno, menadžer projekta može da uporedi red na fakturi dobavljača sa klasom transakcija na povezanom predmetu podugovora koja je evidentirana na bilo kom zadatku na projektu. Ako red na fakturi dobavljača ne upućuje na predmet podugovora, a ovo polje ostane prazno, stvarna vrednost troška koju kreira red na fakturi dobavljača neće biti povezana ni sa jednom stvarnom vrednošću nenaplative prodaje. U ovom slučaju, ako je podešena naplata zasnovana na zadatku, troškovi možda neće moći da se fakturišu krajnjem klijentu. |
+| Iznos kontrolne tačke | Unesite vrednost za kontrolnu tačku koja je definisana u predmetu podugovora koji je spreman za fakturisanje. | Nijedno |
 | Porez na promet | Unesite iznos poreza na promet. | Nijedno |
-| Ukupan iznos | Ukupan iznos reda fakture dobavljača, uključujući poreze. Ovo polje se izračunava kao porez na *promet u iznosu* + *prekretnice*. | Nijedno |
+| Ukupan iznos | Ukupan iznos iz reda na fakturi dobavljača, uključujući porez. Ovo polje se izračunava kao *Iznos kontrolne tačke* + *Porez na promet*. | Nijedno |
 
 > [!NOTE]
-> Kada se kreira red fakture dobavljača koji upućuje na prekretnicu reda podizvođanja, status prekretnice podizvođanja se ažurira u kreiranu **fakturu dobavljača**. Zatim, kada je ta faktura dobavljača potvrđena, status prekretnice reda podizvođači se ažurira u fakturu **dobavljača potvrđen.**
+> Kada se kreira red na fakturi dobavljača koji upućuje na kontrolnu tačku predmeta podugovora, status kontrolne tačke podugovora se ažurira na **Kreirana je faktura dobavljača**. Zatim, kada je ta faktura dobavljača potvrđena, status kontrolne tačke predmeta podugovora se ažurira na **Faktura dobavljača je potvrđena**.
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

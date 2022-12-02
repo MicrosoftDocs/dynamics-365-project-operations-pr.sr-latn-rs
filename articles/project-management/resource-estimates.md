@@ -1,6 +1,6 @@
 ---
 title: Finansijske procene vremena resursa na projektima
-description: Ovaj članak pruža informacije o načinu izračunavanja finansijskih procena vremena.
+description: Ovaj članak pruža informacije o tome kako se izračunavaju finansijske procene za vreme.
 author: rumant
 ms.date: 03/19/2021
 ms.topic: article

@@ -1,6 +1,6 @@
 ---
 title: Kreiranje rasporeda fakturisanja za predmet ugovora zasnovan na projektu – jednostavno
-description: Ovaj članak pruža informacije o kreiranju rasporeda faktura i prekretnica.
+description: Ovaj članak pruža informacije o kreiranju rasporeda faktura i kontrolnih tačaka.
 author: rumant
 ms.date: 10/26/2020
 ms.topic: article

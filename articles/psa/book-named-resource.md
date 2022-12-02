@@ -1,6 +1,6 @@
 ---
 title: Rezervisanje imenovanih resursa iz potrebe za resursima
-description: Ovaj članak pruža informacije o rezervisanju imenovanih resursa za generički zahtev resursa.
+description: Ovaj članak pruža informacije o rezervisanju imenovanih resursa u skladu sa potrebama za generičkim resursima.
 author: JohnPBurrows
 ms.custom:
 - dyn365-projectservice

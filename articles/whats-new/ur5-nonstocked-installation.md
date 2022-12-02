@@ -1,6 +1,6 @@
 ---
 title: Ažuriranje usluge Project Operations u Finance okruženju
-description: Ovaj članak pruža informacije o tome kako da ažurirate operacije projekta u Dynamics 365 Finance okruženju.
+description: Ovaj članak pruža informacije o načinu ažuriranja rešenja Project Operations u vašem Dynamics 365 Finance okruženju.
 author: ruhercul
 ms.date: 12/11/2020
 ms.topic: article
@@ -19,7 +19,7 @@ ms.locfileid: "9030052"
 _**Odnosi se na:** Project Operations za scenarije zasnovane na resursima / bez zaliha_
 
 
-Ovaj članak pruža informacije o tome kako da ažurirate Dynamics 365 Project Operations Dynamics 365 Finance okruženju. Postoje tri procedure potrebne za ažuriranje usluge Project Operations na ispravku 5 (Microsoft Dynamics CRM 2011 Update Rollup 5):
+Ovaj članak pruža informacije o načinu ažuriranja rešenja Dynamics 365 Project Operations u vašem Dynamics 365 Finance okruženju. Postoje tri procedure potrebne za ažuriranje usluge Project Operations na ispravku 5 (Microsoft Dynamics CRM 2011 Update Rollup 5):
 
 - [Uvoz paketa u projekat pregleda](#import)
 - [Primena ispravke](#apply)
@@ -119,7 +119,7 @@ Sledeće ispravke bezbednosnih privilegija za entitete su potrebne kao deo ažur
 4. Na stranici **Verzija mape tabele** primenite novu verziju mape na svaki od tri entiteta.
 5. Na stranici **Dvostruko upisivanje** izaberite „Pokreni“ da biste ponovo pokrenuli mape.
 6. Na listi mapa odaberite mapu **Glavna knjiga (msdyn_ledgers)** sa svim preduslovima i označite polje za potvrdu **Početna sinhronizacija**. 
-7. U polju Master **za početnu sinhronizaciju izaberite** aplikacije "Finansije **" i "Operacije", a zatim** izaberite stavku **Pokreni**.
+7. U polju **Master za početnu sinhronizaciju** izaberite **Aplikacije za finansije i operacije**, a zatim izaberite **Pokreni**.
  
  ![Sinhronizacija mape glavne knjige.](media/DW6.png)
  

@@ -1,6 +1,6 @@
 ---
 title: Faze projekta
-description: Ovaj članak pruža informacije o fazama projekta koje su dostupne u operacijama Microsoft Dynamics projekta.
+description: Ovaj članak pruža informacije o fazama projekta koje su dostupne u usluzi Microsoft Dynamics Project Operations.
 author: ruhercul
 ms.date: 09/18/2020
 ms.topic: article
@@ -47,7 +47,7 @@ Kada povežete projekat sa ponudom ili ga kreirate iz ponude, faza projekta se p
 
 ## <a name="plan"></a>Plan
 
-Kada vam bude odobrena ponuda povezana sa projektom i kada se projekat prebaci u fazu **ugovora**, faza projekta se ažurira na **Plan**. Dok je projekat u fazi **plana**, kartica "Prodaja **" na** stranici **"Entitet projekta**" prikazuje detalje ugovora.
+Kada vam bude odobrena ponuda povezana sa projektom i kada se projekat prebaci u fazu **ugovora**, faza projekta se ažurira na **Plan**. Dok je projekat je u fazi **Plan**, kartica **Prodaja** na stranici **Entitet projekta** prikazuje detalje ugovora.
 
 ## <a name="deliver"></a>Isporuka
 

@@ -1,6 +1,6 @@
 ---
 title: Pregled ukupne iskorišćenosti resursa
-description: Ovaj članak pruža informacije o korišćenju resursa u operacijama projekta.
+description: Ovaj članak pruža informacije o prikazu ukupne iskorišćenosti resursa u usluzi Project Operations.
 author: ruhercul
 ms.date: 11/05/2020
 ms.topic: overview

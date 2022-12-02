@@ -1,6 +1,6 @@
 ---
 title: Kretanje kroz Project Operations
-description: Ovaj članak pruža informacije o pristupu operacijama projekta iz usluga životnog ciklusa.
+description: Ovaj članak pruža informacije o tome kako da pristupite usluzi Project Operations iz usluge Lifecycle Services.
 author: sigitac
 ms.date: 10/28/2020
 ms.topic: article
@@ -22,9 +22,9 @@ _**Odnosi se na:** Project Operations za scenarije zasnovane na resursima / bez 
 Dynamics 365 Project Operations za scenarije sa resursima/bez zaliha sastoji se od dve komponente: 
 
  - **Project Operations u Common Data Service (CDS) okruženju**: Ova komponenta pokriva mogućnosti i procese od mogućnosti za poslovanje do predračuna. 
- - **Upravljanje projektima i računovodstvo Dynamics 365 Finance okruženju**: Ova komponenta pokriva mogućnosti upravljanja troškovima, računovodstvo projekata i priznavanje prihoda. 
+ - **Upravljanje projektima i računovodstvo u Dynamics 365 Finance okruženju**: Ova komponenta pokriva mogućnosti upravljanja troškovima, računovodstvo projekata i priznavanje prihoda. 
 
-Nakon što obezbedite operacije projekta kao što je opisano u ovom članku, stranica sa detaljima okruženja usluga životnog ciklusa (LCS) **obezbeđuje** jednostavan pristup obema komponentama projektnih operacija.  
+Kada obezbedite Project Operations kako što je opisano u ovom članku, stranica usluge Lifecycle Services (LCS) **Detalji okruženja** omogućava jednostavan pristup obe komponente usluge Project Operations.  
 
 Koristite ime okruženja u odeljku **Common Data Service ime okruženja** za navigaciju do usluge Project Operations u CDS okruženju. 
 

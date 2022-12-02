@@ -1,6 +1,6 @@
 ---
 title: Pregled predmeta ugovora zasnovanih na projektu
-description: Ovaj članak pruža informacije o radu sa redovima ugovora zasnovanim na projektu.
+description: Ovaj članak pruža informacije o radu sa predmetima ugovora zasnovanim na projektu.
 author: rumant
 ms.date: 10/28/2020
 ms.topic: overview

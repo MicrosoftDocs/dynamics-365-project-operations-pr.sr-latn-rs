@@ -1,6 +1,6 @@
 ---
 title: Vodič za upravljanje resursima
-description: Ovaj članak pruža veze ka informacijama o upravljanju resursima u automatizaciji projektne usluge
+description: Ovaj članak pruža veze ka informacijama o upravljanju resursima u aplikaciji Project Service Automation
 author: kfend
 ms.custom:
 - dyn365-projectservice
@@ -30,7 +30,7 @@ ms.locfileid: "8910815"
 
 [!INCLUDE[cc-applies-to-psa-app-3.x](../../includes/cc-applies-to-psa-app-3x.md)]
 
-PDF link koji je prethodno bio u ovom članku je uklonjen i sadržaj je premešten u sledeće članke:
+PDF veza koja je prethodno bila u ovom članku uklonjena je, a sadržaj je premešten u sledeće članke:
 
 - [Matična stranica za upravljanje resursima](../resource-management-home-page.md)
 - [Ključni koncepti](../reports-key-concepts.md)
@@ -42,7 +42,7 @@ PDF link koji je prethodno bio u ovom članku je uklonjen i sadržaj je premešt
 - [Najčešća pitanja o upravljanju resursima](../resource-management-faq.md)
 
 > [!NOTE]
-> Ovaj članak će biti uklonjen u budućoj ispravci. 
+> Ovaj članak biće uklonjen u budućoj ispravci dokumentacije. 
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

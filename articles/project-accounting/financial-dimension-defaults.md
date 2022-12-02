@@ -1,6 +1,6 @@
 ---
 title: Podrazumevane vrednosti finansijske dimenzije
-description: Ovaj članak pruža informacije o tome kako da podesite podrazumevane vrednosti finansijskih dimenzija.
+description: Ovaj članak pruža informacije o načinu postavljanja podrazumevanih vrednosti finansijske dimenzije.
 author: sigitac
 ms.date: 12/14/2021
 ms.topic: article
@@ -19,7 +19,7 @@ _**Odnosi se na:** Project Operations za scenarije zasnovane na resursima / bez 
 
 
 
-Dynamics 365 Project Operations koristi okvir [finansijskih dimenzija](/dynamics365/finance/general-ledger/financial-dimensions) u Dynamics 365 Finance pruža dodatne uvide u podnaslova projekta i transakcije glavne knjige.
+Dynamics 365 Project Operations koristi radni okvir za [finansijske dimenzije](/dynamics365/finance/general-ledger/financial-dimensions) u usluzi Dynamics 365 Finance da pruži dodatni uvid u transakcije potknjige i glavne knjige.
 
 Podrazumevane finansijske dimenzije mogu se postaviti na osnovu klijenta, izvora finansiranja projekta, kontrolne tačke, predmeta ugovora za projekat ili projekta.
 

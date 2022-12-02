@@ -1,6 +1,6 @@
 ---
 title: Praćenje prodaje u projektu
-description: Ovaj članak pruža informacije o tome kako projektne operacije prate napredak u odnosu na prihode od rada na projektu.
+description: Ovaj članak pruža informacije o tome kako Project Operations prati napredak u odnosu na prihode od rada na projektu.
 author: rumant
 ms.date: 03/24/2021
 ms.topic: article

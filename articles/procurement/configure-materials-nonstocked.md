@@ -1,6 +1,6 @@
 ---
 title: Konfigurišite materijale koji nisu na zalihama i fakture dobavljača na čekanju
-description: Ovaj članak sadrži objašnjenja o tome kako da omogućite nefakturisane materijale i fakture dobavljača na čekanju.
+description: Ovaj članak objašnjava kako da omogućite materijale koji nisu na zalihama i fakture dobavljača na čekanju.
 author: sigitac
 ms.date: 06/22/2021
 ms.topic: article
@@ -32,7 +32,7 @@ Dynamics 365 Finance:
 
 ## <a name="run-dual-write-maps-for-non-stocked-materials-and-vendor-invoice-integration"></a>Pokrenite mape dvostrukog pisanja za neskladištene materijale i integraciju računa dobavljača
 
-Ovaj odeljak pruža informacije o određenim mapama potrebnim za materijal koji nije na zalihama i fakture dobavljača. Proverite da li su preduslovne mape navedene u odredbi [novog članka o okruženju](../environment/resource-provision-new-environment.md#run-project-operations-dual-write-maps) pokrenute na vašem okruženju.
+Ovaj odeljak pruža informacije o određenim mapama potrebnim za materijal koji nije na zalihama i fakture dobavljača. Proverite da li su neophodne mape navedene u članku [Obezbedite novo okruženje](../environment/resource-provision-new-environment.md#run-project-operations-dual-write-maps) pokrenute u vašem okruženju.
 
 1. Idite na Lifecycle Services (LCS), dođite do LCS projekta i idite na stranicu **Detalji okruženja**.
 2. U odeljku Informacije o **Common Data Service okruženju**, izaberite **Veza do usluge CDS za aplikacije**. Kada izaberete vezu, bićete preusmereni na listu entiteta u mapiranjima.

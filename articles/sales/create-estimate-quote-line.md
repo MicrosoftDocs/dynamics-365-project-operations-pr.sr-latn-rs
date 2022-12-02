@@ -1,6 +1,6 @@
 ---
 title: Kreiranje procena na stavci ponude
-description: Ovaj članak pruža informacije o kreiranju procene u redu ponude za projekat.
+description: Ovaj članak pruža informacije o tome kako da stvorite procenu na stavci ponude za projekat.
 author: rumant
 ms.date: 09/18/2020
 ms.topic: article

@@ -1,6 +1,6 @@
 ---
 title: Kreiranje internih faktura klijenta i dobavljača u okviru preduzeća
-description: Ovaj članak pruža informacije o kreiranju međukompanijskih faktura kupaca i dobavljača.
+description: Ovaj članak pruža informacije o tome kako da kreirate fakture klijenta i dobavljača u okviru preduzećima.
 author: sigitac
 ms.date: 04/12/2021
 ms.topic: article
@@ -27,7 +27,7 @@ Koristite ovu proceduru da biste ručno kreirajte fakturu klijentu u okviru pred
 
 Sledeći koraci moraju se izvršiti u pravnom licu koje daje pozajmicu. 
 
-1. U Dynamics 365 Finance, idite na Project **management i accounting** > **Project fakture** > **Međukompanijskim fakturama kupaca**. Na stranici sa listom **Fakture za klijente u okviru preduzeća**, u oknu Radnja izaberite **Novo.**
+1. U usluzi Dynamics 365 Finance, idite na **Upravljanje projektima i računovodstvo** > **Fakture za projekat** > **Fakture za klijente u okviru preduzeća**. Na stranici sa listom **Fakture za klijente u okviru preduzeća**, u oknu Radnja izaberite **Novo.**
 2. Na stranici **Kreiranje fakture u okviru preduzeća**, u polju **Pravno lice**, izaberite pravno lice koje se zadužuje.
 3. Opciono: Unesite određeni projektni ugovor i broj projekta.
 4. Suzite pretragu izborom vremenskog perioda. Unesite određene datume u polja **Datum početka** i **Datum završetka**. U rezultatima pretrage prikazuju se samo transakcije u okviru preduzeća koje su objavljene u ovom vremenskom periodu.

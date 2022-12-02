@@ -1,6 +1,6 @@
 ---
 title: Konfigurisanje upravljanja troškovima
-description: Ovaj članak opisuje razmatranja i odluke koje morate doneti tokom procesa planiranja pre nego što konfigurišete upravljanje troškovima u Microsoft Dynamics programu 365 Finansije.
+description: Ovaj članak opisuje razmatranja i odluke koje morate doneti tokom procesa planiranja pre nego što konfigurišete upravljanje troškovima u usluzi Microsoft Dynamics 365 Finance..
 author: KimANelson
 ms.date: 08/29/2017
 ms.topic: article

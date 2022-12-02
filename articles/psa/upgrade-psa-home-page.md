@@ -1,6 +1,6 @@
 ---
 title: Nadogradnja matične stranice
-description: Ovaj članak prikazuje gde da pronađete važne informacije o novim i promenjenim funkcijama Dynamics 365 Project Service Automation i proces nadogradnje na najnoviju verziju.
+description: Ovaj članak pokazuje gde možete pronaći važne informacije o novim i izmenjenim funkcijama u aplikaciji Dynamics 365 Project Service Automation i postupak nadogradnje na najnoviju verziju.
 ms.prod: ''
 ms.custom:
 - dyn365-projectservice
@@ -48,14 +48,14 @@ Ranije su klijenti koji imaju instancu aplikacije PSA verzije 2.x i moraju je na
 Pre nego što započnete postupak nadogradnje, preporučujemo vam da obavite sledeće zadatke:
 
 - Proverite da li su Dynamics 365 Field Service i Project Service Automation instalirani na identifikovanoj instanci. Ako su oba rešenja instalirana, trebalo bi da planirate nadogradnju oba pre nego što nastavite sa redovnom upotrebom instance.
-- Pažljivo pregledajte sledeće članke. Ako ste svesni promena između verzija i razumete ih, to će vam pomoći u procesu nadogradnje. Ovi članci pružaju informacije o velikim promenama u PSA, zajedno sa razmatranjima i preporukama za planiranje nadogradnje na verziju 3.x.
+- Pažljivo pregledajte sledeće članke. Ako ste svesni promena između verzija i razumete ih, to će vam pomoći u procesu nadogradnje. Ovi članci pružaju informacije o glavnim promenama u aplikaciji PSA, uz razmatranje nadogradnje i preporuke za planiranje nadogradnje na verziju 3.x.
 
     - [Šta je novo ili promenjeno u aplikaciji Project Service Automation verzije 3](whats-new-changed-v3.md)
     - [Činjenice koje treba uzeti u obzir prilikom nadogradnje - Project Service Automation verzije 2.x ili 1.x na verziju 3.x](upgrade-v3.md)
 
 - Nadogradite instancu sandbox okruženja da biste procenili promene u implementaciji pre nadogradnje proizvodne instance.
 
-Kada pregledate ranije pomenute članke i spremni ste za nadogradnju na PSA verziju 3.x ili verziju zasnovanu na UCI, prosledite zahtev Microsoft podršci da nadogradnja bude dostupna iz admin centra. U zahtevu navedite detalje instance.
+Nakon što pregledate prethodno spomenute članke i spremni ste za nadogradnju na PSA verzije 3.x ili verziju zasnovanu na objedinjenom interfejsu klijenta, prosledite zahtev Microsoft podršci kako bi nadogradnja postala dostupna u centru administracije. U zahtevu navedite detalje instance.
 
 ## <a name="older-versions-of-psa-psa-version-2x-in-a-newly-created-instance"></a>Starije verzije aplikacije PSA (PSA verzije 2.x) u novoj instanci
 

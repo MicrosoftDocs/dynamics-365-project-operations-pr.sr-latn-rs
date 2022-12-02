@@ -1,6 +1,6 @@
 ---
 title: Pregled trenutnog stanja
-description: Ovaj članak pruža informacije o stvarnim projektima.
+description: Ovaj članak pruža informacije o stvarnim vrednostima projekta.
 author: rumant
 ms.custom:
 - dyn365-projectservice

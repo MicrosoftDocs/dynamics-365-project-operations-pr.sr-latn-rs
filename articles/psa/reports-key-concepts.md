@@ -1,6 +1,6 @@
 ---
 title: Ključni koncepti
-description: Ovaj članak pruža informacije o ključnim konceptima upravljanja resursima u automatizaciji projektne usluge.
+description: Ovaj članak pruža veze ka informacijama o ključnim konceptima za upravljanje resursima u aplikaciji Project Service Automation.
 author: ruhercul
 ms.custom:
 - dyn365-projectservice

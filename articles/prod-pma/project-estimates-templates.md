@@ -1,6 +1,6 @@
 ---
-title: Sinhronizuj procene projekta direktno iz automatizacije projektnih usluga u finansije i operacije
-description: Ovaj članak opisuje predloške i osnovne zadatke koji se koriste za sinhronizaciju procena časova projekta i procene troškova Microsoft Dynamics 365 Project Service Automation projekta direktno iz Dynamics 365 Finance.
+title: Sinhronizovanje procena projekata direktno iz usluge Project Service Automation sa finansijama i operacijama
+description: Ovaj članak opisuje predloške i osnovne zadatke koji se koriste za sinhronizaciju procene radnih sati i procene troškova projekta direktno iz usluge Microsoft Dynamics 365 Project Service Automation u Dynamics 365 Finance.
 author: Yowelle
 ms.date: 07/20/2018
 ms.topic: article
@@ -21,11 +21,11 @@ ms.contentlocale: sr-Latn-RS
 ms.lasthandoff: 06/18/2022
 ms.locfileid: "9029822"
 ---
-# <a name="synchronize-project-estimates-directly-from-project-service-automation-to-finance-and-operations"></a>Sinhronizuj procene projekta direktno iz automatizacije projektnih usluga u finansije i operacije
+# <a name="synchronize-project-estimates-directly-from-project-service-automation-to-finance-and-operations"></a>Sinhronizovanje procena projekata direktno iz usluge Project Service Automation sa finansijama i operacijama
 
 [!include[banner](../includes/banner.md)]
 
-Ovaj članak opisuje predloške i osnovne zadatke koji se koriste za sinhronizaciju procena časova projekta i procene troškova Dynamics 365 Project Service Automation projekta direktno iz Dynamics 365 Finance.
+Ovaj članak opisuje predloške i osnovne zadatke koji se koriste za sinhronizaciju procene radnih sati i procene troškova projekta direktno iz usluge Dynamics 365 Project Service Automation u Dynamics 365 Finance.
 
 > [!NOTE]
 > - Integracija projektnih zadataka, kategorije transakcija troškova, procene radnih sati, procene troškova i zaključavanje funkcionalnosti dostupni su u verziji 8.0.
@@ -69,7 +69,7 @@ Da bi mogla da se izvrši sinhronizacija procena radnih sati projekta, morate si
 
 ### <a name="power-query"></a>Power Query
 
-U predlošku za procenu sata projekta morate da koristite Microsoft za Power Query Excel da biste dovršili ove zadatke:
+U predlošku za procenu radnog vremena projekta morate da koristite Microsoft Power Query za Excel da biste izvršili ove zadatke:
 
 - Postavite ID podrazumevanog modela predviđanja koji će se koristiti kada integracija kreira nova predviđanja sati.
 - U zadatku filtrirajte sve zapise specifične za resurse koji neće uspeti u integraciji predviđanja radnih sati.
@@ -80,7 +80,7 @@ U predlošku za procenu sata projekta morate da koristite Microsoft za Power Que
 Da biste ažurirali podrazumevani ID modela predviđanja u predlošku, kliknite na strelicu **Mapa** za otvaranje mapiranja. Zatim izaberite vezu **Napredni upit i filtriranje**.
 
 - Ako koristite podrazumevani predložak procene radnih sati projekta (iz PSA u Fin and Ops), izaberite **Uslov umetanja** u list **Primenjeni koraci**. U stavci **Funkcija**, zamenite **O\_forecast** nazivom ID-a modela predviđanja koji treba koristiti uz integraciju. Podrazumevani predložak sadrži ID modela predviđanja iz demo podataka.
-- Ako kreirate novi obrazac, morate dodati ovu kolonu. U Power Query izaberite opciju **Dodaj uslovnu kolonu** i unesite ime nove kolone, kao što je **ID modela**. Unesite uslov za kolonu, gde, ako Project zadatak nije bez vrednosti, onda \<enter the forecast model ID\>; u suprotnom je bez vrednosti.
+- Ako kreirate novi obrazac, morate dodati ovu kolonu. U usluzi Power Query izaberite **Dodaj uslovnu kolonu** i unesite naziv za novu kolonu, kao što je **ModelID**. Unesite uslov za kolonu, gde, ako Project zadatak nije bez vrednosti, onda \<enter the forecast model ID\>; u suprotnom je bez vrednosti.
 
 #### <a name="filter-out-resource-specific-records"></a>Filtriranje zapisa specifičnih za resurse
 
@@ -125,7 +125,7 @@ Da bi mogla da se izvrši sinhronizacija procena troškova projekta, morate sinh
 
 ### <a name="power-query"></a>Power Query
 
-U predlošku za procenu troškova projekta morate koristiti za Power Query dovršavanje sledećih zadataka:
+U predlošku za procenu troškova projekta morate da koristite Power Query da biste izvršili sledeće zadatke:
 
 - Filtrirajte da biste uključili samo zapise linija procene troškova.
 - Postavite ID podrazumevanog modela predviđanja koji će se koristiti kada integracija kreira nova predviđanja sati.
@@ -140,8 +140,8 @@ Predložak za procenu troškova projekta (iz PSA u Fin and Ops) ima podrazumevan
 
 Da biste ažurirali podrazumevani ID modela predviđanja u predlošku, izaberite zadatak **Procene troškova**, a zatim kliknite na strelicu **Mapiraj** da biste otvorili mapiranje. Izaberite vezu **Napredni upit i filtriranje**.
 
-- Ako koristite podrazumevani predložak troškova projekta (PSA to Fin and Ops), u Power Query odeljku Primenjeni **koraci** izaberite **prvi umetnuti** uslov. U stavci **Funkcija**, zamenite **O\_forecast** nazivom ID-a modela predviđanja koji treba koristiti uz integraciju. Podrazumevani predložak sadrži ID modela predviđanja iz demo podataka.
-- Ako kreirate novi obrazac, morate dodati ovu kolonu. U Power Query izaberite opciju **Dodaj uslovnu kolonu** i unesite ime nove kolone, kao što je **ID modela**. Unesite uslov za kolonu, gde, ako ID linije procene nije bez vrednosti, onda \<enter the forecast model ID\>; u suprotnom je bez vrednosti.
+- Ako koristite podrazumevani predložak procene troškova projekta (iz PSA u Fin and Ops), u usluzi Power Query izaberite **Uslov umetanja** u odeljku **Primenjeni koraci**. U stavci **Funkcija**, zamenite **O\_forecast** nazivom ID-a modela predviđanja koji treba koristiti uz integraciju. Podrazumevani predložak sadrži ID modela predviđanja iz demo podataka.
+- Ako kreirate novi obrazac, morate dodati ovu kolonu. U usluzi Power Query izaberite **Dodaj uslovnu kolonu** i unesite naziv za novu kolonu, kao što je **ModelID**. Unesite uslov za kolonu, gde, ako ID linije procene nije bez vrednosti, onda \<enter the forecast model ID\>; u suprotnom je bez vrednosti.
 
 #### <a name="transform-the-billing-types"></a>Transformisanje vrsta naplate
 

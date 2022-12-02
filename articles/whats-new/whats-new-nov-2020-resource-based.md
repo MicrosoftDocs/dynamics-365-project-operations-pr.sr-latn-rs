@@ -1,6 +1,6 @@
 ---
 title: Šta je novo novembra 2020. – Project Operations za scenarije zasnovane na resursima/bez zaliha
-description: Ovaj članak pruža informacije o kvalitetnim ispravkama dostupnim u novembru 2020.
+description: Ovaj članak pruža informacije o ispravkama kvaliteta dostupnim u izdanju usluge Project Operations za novembar 2020. za scenarije zasnovane na resursima/bez zaliha.
 author: sigitac
 ms.date: 10/30/2020
 ms.topic: article
@@ -17,10 +17,10 @@ ms.locfileid: "9029547"
 
 _**Odnosi se na:** Project Operations za scenarije zasnovane na resursima / bez zaliha_
 
-Ovaj članak se odnosi na sledeće Dynamics 365 Project Operations komponente i verzije:
+Ovaj članak se odnosi na sledeće komponente i verzije usluge Dynamics 365 Project Operations:
 
 - Project Operations u CDS okruženju verzije 4.4.0.70
-- Upravljanje projektima i računovodstvo u Dynamics 365 Finance okruženju verzija 10.0.14
+- Upravljanje projektima i računovodstvo u Dynamics 365 Finance okruženju verzije 10.0.14
 
 ## <a name="updates-to-project-operations-for-resource-non-stocked-based-scenarios"></a>Ispravke usluge Project Operations za scenarije zasnovane na resursima-bez zaliha
 
@@ -42,7 +42,7 @@ Ovaj članak se odnosi na sledeće Dynamics 365 Project Operations komponente i 
 | Stavka vremena i brzog troška | 2059859          | Otvara se neočekivani iskačući prozor prilikom kreiranja stavke troška.                                                                                                                         |
 | Drugi                        | 2044181          | (Deinstaliranje porudžbenice)   Kada pokušate da deinstalirate osnovna rešenja msdyn_ProjectServiceCore_Patch i msdyn Project Service, dolazi do greške „Zapis nije dostupan“.  |
 
-### <a name="project-management-and-accounting-in-dynamics-365-finance"></a>Upravljanje projektima i računovodstvo u Dynamics 365 Finance
+### <a name="project-management-and-accounting-in-dynamics-365-finance"></a>Upravljanje projektima i računovodstvo u rešenju Dynamics 365 Finance
 
 | Oblast funkcija        | Referentni broj | Ispravka kvaliteta                                                                                                                                                            |
 |---------------------|------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
@@ -65,7 +65,7 @@ Ovaj članak se odnosi na sledeće Dynamics 365 Project Operations komponente i 
 | Projektno računovodstvo  | [510041](https://fix.lcs.dynamics.com/Issue/Details/?bugId=510041)           | Omogućavanje funkcije Više linija ugovora nije moguće bez CDS integracije.                                                                                   |
 
 ### <a name="regulatory-updates"></a>Regulatorne ispravke
-Više informacija o regulatornim ispravkama za aplikacije za finansije i operacije potražite u članku [Regulatorne ispravke](/dynamics365/finance/localizations/regulatory-updates). Takođe se možete prijaviti na LCS i pregledati planirane regulatorne ispravke pomoću alatke za pretragu problema. Pretraga problema vam omogućava pretragu po zemlji, tipu funkcije i izdanju.
+Za informacije o regulatornim ispravkama za aplikacije za finansije i operacije, pogledajte članak [Regulatorne ispravke](/dynamics365/finance/localizations/regulatory-updates). Takođe se možete prijaviti na LCS i pregledati planirane regulatorne ispravke pomoću alatke za pretragu problema. Pretraga problema vam omogućava pretragu po zemlji, tipu funkcije i izdanju.
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

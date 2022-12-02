@@ -1,6 +1,6 @@
 ---
 title: Pregled troškova
-description: Ovaj članak pruža informacije o funkcionalnosti troškova u operacijama projekta.
+description: Ovaj članak pruža informacije o funkcionalnosti troškova u usluzi Project Operations.
 author: stsporen
 ms.date: 10/06/2020
 ms.topic: overview

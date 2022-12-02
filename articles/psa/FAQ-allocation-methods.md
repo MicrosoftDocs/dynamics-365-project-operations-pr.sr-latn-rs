@@ -1,6 +1,6 @@
 ---
 title: Metode dodele rezervacija u usluzi Project Service Automation
-description: Ovaj članak pruža informacije o različitim načinima na koje možete da rezervišete dodele.
+description: Ovaj članak pruža informacije o različitim načinima na koje možete rezervisati dodele.
 author: ruhercul
 ms.custom:
 - dyn365-projectservice
@@ -28,7 +28,7 @@ ms.locfileid: "8929185"
 
 [!include [banner](../includes/psa-now-project-operations.md)]
 
-Bilo da dodajete člana tima direktno u projekat na kartici **Tim** ili rezervišete resurs za projekat ili zahtev na tabeli rasporeda, postoji nekoliko različitih načina dodele rezervacija koje možete da koristite. Ovaj članak sadrži objašnjenja o tome kako svaki metod funkcioniše i koji metodi mogu dovesti do prebukiranih resursa.
+Bilo da dodajete člana tima direktno u projekat na kartici **Tim** ili rezervišete resurs za projekat ili zahtev na tabeli rasporeda, postoji nekoliko različitih načina dodele rezervacija koje možete da koristite. Ovaj članak objašnjava kako svaki metod funkcioniše i koji načini mogu dovesti do prebukiranja resursa.
 
 ## <a name="full-capacity"></a>Puni kapacitet 
 Metod punog kapaciteta rezerviše puni kapacitet resursa za navedene početne i krajnje datume. Na primer, ako resurs ima kalendar podešen na osam radnih sati dnevno, pet dana u sedmici, podešavanje datuma početka i završetka koji pokriva pet radnih dana rezerviše resurs na 40 časova. Rezervacija se obavlja bez obzira na preostali kapacitet resursa. Ako je resurs već rezervisan tokom tog perioda na drugim projektima, 40 časova rezervišete kao dodatne radne sate, što potencijalno dovodi do prebukiranja.

@@ -1,6 +1,6 @@
 ---
 title: Usaglašavanje resursa i dodela
-description: Ovaj članak pruža informacije o stvarnim stvarima.
+description: Ovaj članak pruža informacije o stvarnim vrednostima.
 author: ruhercul
 ms.custom:
 - dyn365-projectservice

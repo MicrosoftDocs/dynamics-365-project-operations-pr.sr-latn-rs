@@ -1,6 +1,6 @@
 ---
 title: Šta je novo u januaru 2021. – Project Operations jednostavna primena
-description: Ovaj članak pruža informacije o kvalitetnim ispravkama dostupnim u januaru 2021.
+description: Ovaj članak pruža informacije o ispravkama kvaliteta dostupnim u izdanju jednostavne primene usluge Project Operations za januar 2021.
 author: sigitac
 ms.date: 01/12/2021
 ms.topic: article
@@ -19,7 +19,7 @@ ms.locfileid: "8934291"
 
 _Odnosi se na: Jednostavna primena – od pogodbe do profakture_
 
-Ovaj članak se odnosi na sledeće Dynamics 365 Project Operations komponente i verzije:
+Ovaj članak se odnosi na sledeće komponente i verzije usluge Dynamics 365 Project Operations:
 
   - Project Operations u Dataverse okruženju verzije 4.6.0.154.
   

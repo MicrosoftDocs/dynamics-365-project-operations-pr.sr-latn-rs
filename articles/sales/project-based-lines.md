@@ -1,6 +1,6 @@
 ---
 title: Predmeti mogućnosti za poslovanje zasnovani na projektu
-description: Ovaj članak pruža informacije o radu sa redovima mogućnosti za poslovanje zasnovanim na projektu.
+description: Ovaj članak pruža informacije o radu sa predmetima mogućnosti za poslovanje zasnovanim na projektu.
 author: rumant
 ms.date: 10/01/2020
 ms.topic: article

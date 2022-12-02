@@ -1,6 +1,6 @@
 ---
 title: Šta je novo u ranom pristupu 2. talasa za 2021. – jednostavna primena aplikacije Project Operations
-description: Ovaj članak pruža informacije o funkcijama dostupnim u 2021 talasu 2 ranog pristupa izdanju project Operations lite deployment.
+description: Ovaj članak pruža informacije o funkcijama dostupnim u izdanju za rani pristup 2. talasa za 2021. aplikacije Project Operations u verziji jednostavne primene.
 author: sigitac
 ms.date: 08/10/2021
 ms.topic: article
@@ -18,7 +18,7 @@ ms.locfileid: "8924125"
 
 _Odnosi se na: Jednostavna primena – od pogodbe do profakture_
 
-Ovaj članak se odnosi na sledeće Dynamics 365 Project Operations komponente i verzije:
+Ovaj članak se odnosi na sledeće komponente i verzije usluge Dynamics 365 Project Operations:
 
   - Project Operations u Dataverse okruženju verzije 4.23.0.4
 

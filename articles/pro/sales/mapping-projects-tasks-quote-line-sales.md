@@ -1,6 +1,6 @@
 ---
 title: Mapiranje projekata i zadataka na stavku ponude zasnovane na projektu
-description: Ovaj članak pruža informacije o tome kako da mapirate projekte i zadatke u red zadatka zasnovanog na projektu.
+description: Ovaj članak pruža informacije o tome kako da mapirate projekte i zadatke u predmet zadatka zasnovanog na projektu.
 author: rumant
 ms.date: 10/05/2020
 ms.topic: article

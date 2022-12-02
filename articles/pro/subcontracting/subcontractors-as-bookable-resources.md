@@ -1,6 +1,6 @@
 ---
 title: Podešavanje podugovarača kao resursa koji mogu da se rezervišu
-description: Ovaj članak sadrži objašnjenja o tome kako da podesite i održavate resurse podizvođača koji su kreirani od korisnika i kontakata u sistemu, tako da mogu biti povezani sa podizvođačima u korporaciji Microsoft Dynamics 365 Project Operations.
+description: Ovaj članak objašnjava kako podesiti i održavati resurse podizvođača kreirane od korisnika i kontakata u sistemu, tako da se mogu povezati sa podugovorima u usluzi Microsoft Dynamics 365 Project Operations.
 author: rumant
 ms.date: 09/14/2022
 ms.topic: article

@@ -1,6 +1,6 @@
 ---
-title: Nabavka nefakturisanih materijala ili kategorija nabavki pomoću neobrađene fakture dobavljača
-description: Ovaj članak sadrži objašnjenja o tome kako da zabeleže neobrađene fakture dobavljača.
+title: Kupovima neskladištenog materijala ili kategorija nabavke koristeći fakturu dobavljača na čekanju
+description: Ovaj članak objašnjava kako da snimite fakture dobavljača na čekanju.
 author: sigitac
 ms.date: 09/13/2021
 ms.topic: article
@@ -14,29 +14,29 @@ ms.contentlocale: sr-Latn-RS
 ms.lasthandoff: 06/03/2022
 ms.locfileid: "8922009"
 ---
-# <a name="purchase-non-stocked-materials-or-procurement-categories-using-a-pending-vendor-invoice"></a>Nabavka nefakturisanih materijala ili kategorija nabavki pomoću neobrađene fakture dobavljača
+# <a name="purchase-non-stocked-materials-or-procurement-categories-using-a-pending-vendor-invoice"></a>Kupovima neskladištenog materijala ili kategorija nabavke koristeći fakturu dobavljača na čekanju
 
 _**Odnosi se na:** Project Operations za scenarije zasnovane na resursima / bez zaliha_
 
-Kako preduzeće nabavlja nenapuštene materijale ili kategorije nabavki za projekat, troškovi se mogu odmah zabeležiti u odnosu na projekat. 
+Kako kompanija nabavlja materijal koji nije na zalihama ili kategorije nabavke za projekat, troškovi se mogu odmah evidentirati u odnosu na projekat. 
 
-Na primer, preduzeće Contoso Robotics US izvodi projekat obnove opreme i potrebne su mu softverske licence. Ove licence se nabavljaju od nezavisnog dobavljača.  Koristeći Dynamics 365 Finance, službenik koji plaća račune zapisuje dokument fakture dobavljača na čekanju i pripisuje troškove licenciranja direktno u odnosu na projekat obnavljanja opreme. 
+Na primer, preduzeće Contoso Robotics US izvodi projekat obnove opreme i potrebne su mu softverske licence. Ove licence se nabavljaju od nezavisnog dobavljača.  Koristeći Dynamics 365 Finance, službenik za dugovanja evidentira dokument fakture dobavljača na čekanju i pripisuje troškove licence direktno projektu obnove opreme. 
 
 > [!IMPORTANT]
-> Pre nego što upotrebite funkcionalnost opisanu u ovom članku, pregledajte i primenite potrebne konfiguracije. Više informacija potražite u članku Omogućavanje [nefakturisanih materijala i neobrađenih faktura dobavljača](configure-materials-nonstocked.md)[i Korišćenje kategorija nabavki sa izlaznim porudžbinama projekta i neobrađenim fakturama dobavljača](configure-procurement-categories.md)
+> Pre nego što upotrebite funkcionalnost opisanu u ovom članku, pregledajte i primenite potrebne konfiguracije. Više informacija potražite u članku [Omogućavanje materijala koji nisu na zalihama i faktura dobavljača na čekanju](configure-materials-nonstocked.md) i [Korišćenje kategorija nabavki sa porudžbenicama projekta i fakturama dobavljača na čekanju](configure-procurement-categories.md)
 
 ## <a name="post-a-project-related-pending-vendor-invoice"></a>Pošaljite fakturu dobavljača na čekanju u vezi sa projektom 
 
 Fakture dobavljača na čekanju mogu se evidentirati na stranici **Fakture dobavljača na čekanju** (**Dugovanja** > **Fakture** > **Fakture dobavljača na čekanju**). Dovršite sledeće korake da biste knjižili fakturu dobavljača na čekanju u vezi sa projektom:
 
-1. Idite na fakture **za plaćanje** > **i izaberite** stavku **Novo**. 
-1. U polje **Konto fakture** izaberite dobavljača, a zatim u polje Broj **unesite** identifikaciju fakture dobavljača.
-1. Dodajte red u fakturu dobavljača, a zatim u **polju Broj artikla** izaberite nefakturisan artikal koji je nabavljen od dobavljača. Druga mogućnost je da u polju **Kategorija nabavke** izaberete kategoriju nabavke koja je kupljena od dobavljača.   
-1. Dodajte nabavljenu količinu. Sistem popunjava jediničnu cenu na osnovu konfiguracije cena artikla koja nije snabdevena. 
+1. Idite na **Dugovanja** > **Fakture** i izaberite **Novo**. 
+1. U polju **Račun fakture** izaberite dobavljača, a zatim u polje **Broj** unesite identifikaciju računa dobavljača.
+1. Dodajte red na fakturu dobavljača, a zatim u polje **Broj predmeta** izaberite artikal na zalihama koji je kupljen od dobavljača. Druga mogućnost je da u polju **Kategorija nabavke** izaberete kategoriju nabavke koja je kupljena od dobavljača.   
+1. Dodajte količinu koja je kupljena. Sistem popunjava jediničnu cenu na osnovu konfiguracije cene zaliha na zalihama. 
 1. Potvrdite ukupan iznos i ostale potrebne detalje na liniji.
-1. U detaljima reda, na kartici **Projekat** izaberite ID projekta na koji će ova stavka biti zapisana.
-1. Opcionalno: Izaberite broj aktivnosti i ažurirajte kategoriju projekta i svojstvo reda.
-1. Proknjižite fakturu dobavljača na čekanju. Kada proknjižite fakturu, sistem zapisuje sledeće informacije:
+1. Na detaljima reda, na kartici **Projekat** odaberite ID projekta na koji će se snimati ova stavka.
+1. Opciono: Izaberite broj aktivnosti i ažurirajte kategoriju projekta i svojstvo linije.
+1. Proknjižite fakturu dobavljača na čekanju. Kada se faktura knjiži, sistem evidentira sledeće informacije:
     
     - Iznos bilansa dobavljača.
     - Iznos poreza na promet.

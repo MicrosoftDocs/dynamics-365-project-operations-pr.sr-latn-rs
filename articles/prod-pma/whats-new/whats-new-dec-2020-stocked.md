@@ -1,6 +1,6 @@
 ---
 title: Šta je novo u decembru 2020. – Project Operations za scenarije zasnovane na zalihama/proizvodnji
-description: Ovaj članak pruža informacije o kvalitetnim ispravkama dostupnim u decembru 2020.
+description: Ovaj članak pruža informacije o ispravkama kvaliteta dostupnim u izdanju usluge Project Operations za decembar 2020. za scenarije zasnovane na zalihama/proizvodnji.
 author: Yowelle
 ms.date: 12/11/2020
 ms.topic: article
@@ -18,9 +18,9 @@ ms.locfileid: "8911383"
 
 _Odnosi se na: Project Operations za scenarije zasnovane na zalihama/proizvodnji_
 
-Ovaj članak se odnosi na sledeće Dynamics 365 Project Operations komponente i verzije:
+Ovaj članak se odnosi na sledeće komponente i verzije usluge Dynamics 365 Project Operations:
 
-  - Upravljanje projektima i računovodstvo u Dynamics 365 Finance okruženju verzija 10.0.15
+  - Upravljanje projektima i računovodstvo u Dynamics 365 Finance okruženju verzije 10.0.15
 
 ## <a name="quality-updates"></a>Ispravke kvaliteta
 
@@ -139,7 +139,7 @@ Ovaj članak se odnosi na sledeće Dynamics 365 Project Operations komponente i 
 
 ## <a name="regulatory-updates"></a>Regulatorne ispravke
 
-Više informacija o regulatornim ispravkama za Dynamics 365 Finance potražite u članku [Regulatorne ispravke](/dynamics365/finance/localizations/regulatory-updates). Drugi način da saznate više o regulatornim ispravkama je da se prijavite na Lifecycle Services (LCS) i pregledate planirane regulatorne ispravke pomoću alatke za pretragu problema. Pretraga problema vam omogućava pretragu po zemlji, tipu funkcije i izdanju.
+Za informacije o regulatornim ispravkama za Dynamics 365 Finance, pogledajte članak [Regulatorne ispravke](/dynamics365/finance/localizations/regulatory-updates). Drugi način da saznate više o regulatornim ispravkama je da se prijavite na Lifecycle Services (LCS) i pregledate planirane regulatorne ispravke pomoću alatke za pretragu problema. Pretraga problema vam omogućava pretragu po zemlji, tipu funkcije i izdanju.
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

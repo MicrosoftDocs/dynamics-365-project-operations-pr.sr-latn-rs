@@ -1,6 +1,6 @@
 ---
 title: Upravljanje kompetencijama resursa
-description: Ovaj članak pruža informacije o podešavanju kompetencija za projektne resurse.
+description: Ovaj članak pruža informacije o podešavanju kompetencija za resurse projekta.
 author: Yowelle
 ms.date: 09/01/2020
 ms.topic: article

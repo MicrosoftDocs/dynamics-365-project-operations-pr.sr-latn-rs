@@ -1,6 +1,6 @@
 ---
 title: Upravljanje većim brojem klijenata u stavkama ponude zasnovane na projektu – jednostavno
-description: Ovaj članak opisuje kako se upravlja sa više kupaca u redovima ponude zasnovanim na projektu.
+description: Ovaj članak opisuje kako se upravlja sa više klijenata u stavkama ponuda zasnovanim na projektu.
 author: rumant
 ms.date: 10/06/2020
 ms.topic: article

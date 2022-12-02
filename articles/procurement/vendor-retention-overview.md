@@ -1,6 +1,6 @@
 ---
 title: Pregled odlaganja obaveza prema dobavljaču
-description: Ovaj članak pruža pregled mogućnosti zadržavanja dobavljača.
+description: Ovaj članak pruža pregled mogućnosti odlaganja obaveza prema dobavljaču.
 author: sigitac
 ms.date: 10/01/2021
 ms.topic: overview

@@ -1,6 +1,6 @@
 ---
 title: Podesite i koristite plaćanja prodavcima nakon izvršene naplate
-description: Ovaj članak sadrži objašnjenja o tome kako da kreirate uslove plaćanja prilikom plaćanja (PWP) tako da možete da objavite delimične uplate dobavljača na osnovu uplata kupaca.
+description: Ovaj članak objašnjava kako kreirati uslove za plaćanje nakon izvršene naplate (PWP) tako da možete puštati delimične uplate dobavljača na osnovu plaćanja klijenata.
 author: RadhikaRS
 ms.date: 03/30/2020
 ms.topic: article

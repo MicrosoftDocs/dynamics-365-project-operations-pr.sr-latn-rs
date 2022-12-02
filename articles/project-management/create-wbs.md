@@ -1,6 +1,6 @@
 ---
 title: Kreiranje strukturne analize posla
-description: Ovaj članak sadrži objašnjenja o tome kako da kreirate strukturu analize rada (WBS) uključujući osnovne kontrole u novom interfejsu za planiranje.
+description: Ovaj članak objašnjava kako da kreirate strukturnu analizu posla (SAP) koja uključuje osnovne kontrole u novom interfejsu za planiranje.
 author: ruhercul
 ms.date: 12/16/2021
 ms.topic: article
@@ -63,7 +63,7 @@ Dovršite sledeće korake da biste uvukli ili promovisali zadatak.
 
 ### <a name="move-tasks-up-and-down"></a>Premeštanje zadataka nagore i nadole
 
-Zadaci se mogu premestiti na bilo koji nivo u strukturi radne analize na jedan od dva načina:
+Zadaci mogu da se premeste na bilo koji nivo u strukturnoj analizi posla na jedan od dva načina:
 
 - Izaberite još jedan zadatak i prevucite ga na željeno mesto.
 - Izaberite jedan ili više zadataka, kliknite desnim tasterom miša i izaberite **Iseci**, izaberite odredišnu ćeliju u rasporedu, a zatim kliknite desnim tasterom miša i izaberite **Nalepi**.
@@ -95,11 +95,11 @@ Kao administrator možete da definišete prilagođena polja na entitetu zadatka.
 
 ## <a name="staffing-attributes"></a>Atributi zaposlenih
 
-Atributima angažovanja se pristupa u polju **Resursi** u rasporedu. Možete potražiti postojeći resurs ili izaberite **Kreiraj** i u oknu **Brzo kreiranje** dodajte člana projektnog tima kao novi resurs.  Kada tražite resurs pomoću izdvajanja resursa u koordinatnoj mreži zadataka, prikazu table ili gantu, pretraga vraća postojeće članove projektnog tima ili aktivne resurse koji se mogu rezervisati.
+Atributima angažovanja se pristupa u polju **Resursi** u rasporedu. Možete potražiti postojeći resurs ili izaberite **Kreiraj** i u oknu **Brzo kreiranje** dodajte člana projektnog tima kao novi resurs.  Kada tražite resurs koristeći birač resursa u matrici koordinatne mreže zadataka, prikazu table ili gantovom dijagramu, pretraga vraća postojeće članove projektnog tima ili aktivne resurse koji se mogu knjižiti.
 
 Polja **Uloga**, **Jedinica za obezbeđivanje resursa** i **Naziv pozicije** se koriste za opisivanje potreba za angažovanjem resursa na zadatku. Ovi atributi angažovanja, zajedno sa rasporedom zadataka, koriste se za pronalaženje dostupnih resursa za obavljanje ovog zadatka.
 
-   - **Uloga**: Navedite tip resursa koji je potreban za zadatak.,
+   - **Uloga**: Navedite vrstu resursa koji je potreban za izvršavanje zadatka.
    - **Jedinica za obezbeđivanje resursa**: Navedite jedinicu iz koje treba dodeliti resurse za zadatak. Ovaj atribut utiče na procenu troškova i prodaje za zadatak ako su stope troškovi i naplate za resurs podešene na osnovu jedinica za obezbeđivanje resursa.
    - **Naziv pozicije**: Unesite ime za generički resurs koje služi kao čuvar mesta za resurs koji će na kraju obaviti posao.
 
@@ -113,16 +113,16 @@ Raspored u usluzi Project Operations možete da koristite za kreiranje odnosa pr
 
 Režim zadatka nema uticaja na ažuriranja koja se obavljaju na datum početka i završetka prethodnih/zavisnih zadataka.
 
-## <a name="understanding-the-impacts-of-duration-resource-calendars-and-project-calendars-on-tasks"></a>Razumevanje uticaja trajanja, kalendara resursa i projektnog kalendara na zadatke
-Trajanje zadatka se definiše kao broj radnih sati između vremena početka datuma početka i vremena završetka zadatka.   Projekat za web definiše jedinice mere trajanja na sledeći način:
+## <a name="understanding-the-impacts-of-duration-resource-calendars-and-project-calendars-on-tasks"></a>Razumevanje uticaja trajanja, kalendara resursa i projektnih kalendara na zadatke
+Trajanje zadatka se definiše kao broj radnih sati između vremena početka datuma početka i vremena završetka datuma završetka zadatka.   Project for the Web definiše jedinice mere trajanja na sledeći način:
 
 | **Mera trajanja** | **Količina**|
 |----------------------------------------------------|----------------------|
-| Časovi dnevno | 8 |
-| Časovi nedeljno |  40 |
-| Dani mesečno |  20 |
+| Sati dnevno | 8 |
+| Sati nedeljno |  40 |
+| Dana mesečno |  20 |
 
-Nedodeрeni zadaci se zakazali pomoću kalendara projekta. Međutim, nakon početnog dodeljivanja resursa, planiranje zadatka se ažurira tako da poštuje kalendar resursa. Naknadne promene zadatka koji ima zadatak biće regulisane [režimom zakazivanja](scheduling-modes.md) projekta. Da biste saznali više o uticaju kalendara na zadatke, pogledajte [kalendare resursa u projektu za veb i](https://techcommunity.microsoft.com/t5/project-blog/resource-calendars-in-project-for-the-web/ba-p/3269686)[Task Start Times & Your Projects!](https://techcommunity.microsoft.com/t5/project-blog/task-start-times-amp-your-projects/ba-p/3269665)
+Nedodeljeni zadaci se zakazuju pomoću kalendara projekta. Međutim, nakon početne dodele resursa, planiranje zadatka se ažurira tako da poštuje kalendar resursa. Naknadne promene zadatka koji ima dodelu biće regulisane [režimom zakazivanja](scheduling-modes.md) projekta. Da biste saznali više o uticaju kalendara na zadatke, pogledajte članke [Kalendari resursa u rešenju Project for the Web](https://techcommunity.microsoft.com/t5/project-blog/resource-calendars-in-project-for-the-web/ba-p/3269686) i [Vremena početka zadatka i vaši projekti!](https://techcommunity.microsoft.com/t5/project-blog/task-start-times-amp-your-projects/ba-p/3269665)
 
 
 ## <a name="accessibility-and-keyboard-shortcuts"></a>Pristupačnost i tasterske prečice

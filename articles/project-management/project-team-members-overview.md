@@ -1,6 +1,6 @@
 ---
 title: Članovi projektnog tima
-description: Ovaj članak pruža informacije o radu sa informacijama o članu projektnog tima, atributima i zakazivanju.
+description: Ovaj članak pruža informacije o načinu rada sa informacijama, atributima i rasporedom članova projektnog tima.
 author: ruhercul
 ms.date: 10/01/2020
 ms.topic: overview

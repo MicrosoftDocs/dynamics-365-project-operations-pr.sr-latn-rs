@@ -1,6 +1,6 @@
 ---
 title: Pregled jednostavne primene
-description: Ovaj članak pruža informacije o lite raspoređivanju Dynamics 365 Project Operations.
+description: Ovaj članak pruža informacije o jednostavnoj primeni usluge Dynamics 365 Project Operations.
 author: rumant
 ms.date: 11/02/2020
 ms.topic: overview

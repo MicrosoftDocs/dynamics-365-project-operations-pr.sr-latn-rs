@@ -1,6 +1,6 @@
 ---
 title: Pregled procesa fakturisanja
-description: Ovaj članak obezbeđuje pregled procesa fakturisanja u operacijama projekta za scenarije zasnovane na resursima/nenabavezujućim postavkama.
+description: Ovaj članak pruža pregled procesa fakturisanja u usluzi Project Operations za scenarije zasnovane na resursima/bez zaliha.
 author: sigitac
 ms.date: 01/29/2021
 ms.topic: overview
@@ -21,7 +21,7 @@ Project Operations za scenarije zasnovane na resursima/bez zaliha nudi sveobuhva
 
 ![Dijagram toka fakturisanja.](./media/invoicing-flow.png)
 
-Predmet ugovora za projekat definiše način naplate za povezane projektne transakcije. Kada menadžer projekta odobri transakcije vremena i troškova, sistem zapisuje **transakcije u entitetu "Stvarne** vrednosti projekta" i šalje informacije **modulu za upravljanje** projektima i računovodstvo u Dynamics 365 Finance. Računovođa projekta zatim pregledava i objavljuje evidenciju pomoću [Project Operations dnevnika integracije](../project-accounting/project-operations-integration-journal.md). Ovaj dnevnik sadrži važne računovodstvene detalje za stvarne podatke o projektu, kao što su naplata, grupa za porez na promet, grupa za porez na promet stavki na računu i finansijski aspekti.
+Predmet ugovora za projekat definiše način naplate za povezane projektne transakcije. Kada menadžer projekta odobri transakcije vremena i troškova, sistem evidentira transakcije u entitetu **Stvarne vrednosti projekta** i šalje informacije u modul **Upravljanje projektima i računovodstvo** u usluzi Dynamics 365 Finance. Računovođa projekta zatim pregledava i objavljuje evidenciju pomoću [Project Operations dnevnika integracije](../project-accounting/project-operations-integration-journal.md). Ovaj dnevnik sadrži važne računovodstvene detalje za stvarne podatke o projektu, kao što su naplata, grupa za porez na promet, grupa za porez na promet stavki na računu i finansijski aspekti.
 
 Menadžer projekta može pregledati nenaplaćene prodajne transakcije koristeći način naplate vremena i materijala u delu [Preostala naplata vremena i materijala](../proforma-invoicing/manage-billing-backlog.md#time-and-material-billing-backlog) i način naplate sa fiksnom cenom u delu [Kontrolne tačke sa fiksnom cenom](../proforma-invoicing/manage-billing-backlog.md#fixed-price-milestones). Ovi prikazi vam omogućavaju da filtrirate i odaberete transakcije koje treba da budu uključene u sledeći ciklus naplate, a zatim ih označite kao **Spremno za fakturisanje**.
 

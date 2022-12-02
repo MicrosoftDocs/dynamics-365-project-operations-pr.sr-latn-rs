@@ -1,6 +1,6 @@
 ---
 title: Izveštaji o troškovima i više odobravalaca
-description: Ovaj članak pruža informacije o izveštajima o troškovima koji zahtevaju odobrenje više osoba.
+description: Ovaj članak pruža informacije o izveštajima o troškovima za koje je potrebno odobrenje više osoba.
 author: suvaidya
 ms.date: 09/23/2020
 ms.topic: article

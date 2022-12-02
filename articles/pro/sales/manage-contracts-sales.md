@@ -1,6 +1,6 @@
 ---
 title: Upravljanje ugovorima za projekat
-description: Ovaj članak pruža informacije o prikazivanju ugovora zasnovanih na projektu.
+description: Ovaj članak pruža informacije o prikazu ugovora zasnovanih na projektu.
 author: rumant
 ms.date: 10/26/2020
 ms.topic: article
@@ -33,7 +33,7 @@ Spisak svih ugovora za projekat može se videti na stranici liste **Ugovori**.
 Ugovori se mogu kreirati ili izbrisati sa ove stranice liste ili stranica sa detaljima.
 
 > [!NOTE]
-> Ugovori koji imaju projekte, zadatke, procene, naloge i/ili stvarne podatke povezane sa njima ne mogu se izbrisati. 
+> Ugovori koji imaju projekte, zadatke, procene, dnevnike i/ili stvarne vrednosti povezane sa njima ne mogu se izbrisati. 
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -1,6 +1,6 @@
 ---
 title: Kreiranje prilagođenih rešenja za dimenzije cene
-description: Ovaj članak sadrži objašnjenja o tome kako da kreirate prilagođeno rešenje prilikom kreiranja prilagođenih dimenzija cena.
+description: U ovom članku se objašnjava kako se kreira prilagođeno rešenje prilikom kreiranja prilagođenih dimenzija cene.
 author: Rumant
 ms.custom:
 - dyn365-projectservice

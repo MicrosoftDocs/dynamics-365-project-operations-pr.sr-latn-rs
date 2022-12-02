@@ -1,6 +1,6 @@
 ---
 title: Konfigurisanje automatskog kreiranja fakture
-description: Ovaj članak pruža informacije o konfigurisanju i konfigurisanju automatskog kreiranja proforma faktura.
+description: Ovaj članak pruža informacije o podešavanju i konfigurisanju automatskog kreiranja predračuna.
 author: rumant
 ms.date: 04/05/2021
 ms.topic: article

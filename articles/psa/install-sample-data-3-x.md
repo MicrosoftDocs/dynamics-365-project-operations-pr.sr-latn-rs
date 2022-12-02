@@ -1,6 +1,6 @@
 ---
 title: Instaliranje probnih podataka
-description: Ovaj članak pruža informacije o instaliranju probnih podataka u automatizaciji usluge projekta.
+description: Ovaj članak pruža informacije o instaliranju uzoraka podataka u usluzi Project Service Automation.
 ms.custom: dyn365-projectservice
 ms.date: 11/08/2018
 ms.reviewer: johnmichalak

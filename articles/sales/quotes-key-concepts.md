@@ -1,6 +1,6 @@
 ---
 title: Ponude – ključni koncepti
-description: Ovaj članak pruža informacije o ponudama za projekat i ponudama za prodaju koje su dostupne u operacijama projekta.
+description: Ovaj članak pruža informacije o ponudama za projekte i ponudama za prodaju koje su dostupne u usluzi Project Operations.
 author: rumant
 ms.date: 09/18/2020
 ms.topic: article
@@ -35,7 +35,7 @@ U usluzi Dynamics 365 Project Operations postoje dve vrste ponuda – za projekt
 - **Polja i koncepti**: ponuda za prodaju ne sadrži neka polja i koncepte koji su obuhvaćeni u ponudi za projekat. U polja spadaju **Ugovorna jedinica**, **Menadžer za poslovne kontakte** i **Ime kontakta za fakturisanje**.  
 - **Tip**: Ponude za prodaju i ponude za projekte identifikuje i polje zasnovano na skupu opcija pod nazivom **Tip**. Za ponudu za prodaju, ovo polje ima vrednost **Zasnovano na stavci**. Za ponudu za projekat, ima vrednost **Zasnovano na radu**.
 
-Ovaj članak je fokusiran na detalje projektne ponude.
+Ovaj članak se fokusira na detalje ponuda projekata.
 
 Ponuda za projekat u aplikaciji Project Operations može da ima više stavki predmeta ili stavki ponude. U stvari, ponuda za projekat ima dve mreže za stavke predmeta. Jedna mreža je namenjena stavkama zasnovanim na projektu i omogućava detaljne procene. Druga mreža je namenjena stavkama zasnovanim na proizvodu i koristi jednostavnu jediničnu cenu i pristup zasnovan na količini.
 

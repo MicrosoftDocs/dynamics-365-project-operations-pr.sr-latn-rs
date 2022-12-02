@@ -1,6 +1,6 @@
 ---
 title: Prosleđivanje zahteva za resurs
-description: Ovaj članak pruža informacije o prosleđivanje zahteva za projektni resurs.
+description: Ovaj članak pruža informacije o prosleđivanju zahteva za resurs projekta.
 ms.custom:
 - dyn365-projectservice
 ms.date: 12/1/2018

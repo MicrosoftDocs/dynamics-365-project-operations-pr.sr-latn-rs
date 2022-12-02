@@ -1,6 +1,6 @@
 ---
 title: Uvoz procena za projekat u stavku ponude zasnovanu na projektu – jednostavno
-description: Ovaj članak pruža informacije o načinu uvoza procena iz projekta u red ponude.
+description: Ovaj članak pruža informacije o načinu uvoza procena iz projekta u stavku ponude.
 author: rumant
 ms.date: 10/09/2020
 ms.topic: article

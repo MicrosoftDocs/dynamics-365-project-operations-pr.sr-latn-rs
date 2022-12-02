@@ -1,6 +1,6 @@
 ---
 title: Šta je novo u oktobru 2021. – Project Operations za scenarije zasnovane na resursima/materijalima koji nisu na zalihama
-description: Ovaj članak pruža informacije o kvalitetnim ispravkama dostupnim u oktobru 2021.
+description: Ovaj članak pruža informacije o ažuriranjima kvaliteta dostupnim u izdanju Project Operations za oktobar 2021. godine za za scenarije zasnovane na resursima/materijalima koji nisu na zalihama.
 author: sigitac
 ms.date: 10/06/2021
 ms.topic: article
@@ -18,10 +18,10 @@ ms.locfileid: "8914654"
 
 *Odnosi se na: Project Operations za scenarije zasnovane na resursima / bez zaliha*
 
-Ovaj članak se odnosi na sledeće Dynamics 365 Project Operations komponente i verzije:
+Ovaj članak se odnosi na sledeće komponente i verzije usluge Dynamics 365 Project Operations:
 
    - Project Operations u Microsoft Dataverse okruženju verzije 4.25.0.91
-   - Upravljanje projektima i računovodstvo u Dynamics 365 Finance okruženju verzija 10.0.21
+   - Upravljanje projektima i računovodstvo u Dynamics 365 Finance okruženju verzije 10.0.21
 
 ## <a name="features-included-in-this-release"></a>Funkcije uključene u ovom izdanju
 
@@ -49,7 +49,7 @@ Ako naiđete na problem pri pokretanju mape, sledite uputstva u odeljku [Problem
 | Naplata i određivanje cena | 2338357 | Valuta u evidenciji korišćenja materijala mora da bude podrazumevana u odnosu na valutu projekta kada se izabere projekat. |
 | Vreme i trošak | 2414777 | Mora se omogućiti otkazivanje odobrenja ako stavka troškova ili vremena ima više od jednog pridruženog odobrenja projekta. |
 
-### <a name="project-management-and-accounting-on-dynamics-365-finance"></a>Upravljanje projektima i računovodstvo na Dynamics 365 Finance
+### <a name="project-management-and-accounting-on-dynamics-365-finance"></a>Upravljanje projektima i računovodstvo u rešenju Dynamics 365 Finance
 
 | Oblast funkcija | Referentni broj | Ispravka kvaliteta |
 | --- | --- | --- |

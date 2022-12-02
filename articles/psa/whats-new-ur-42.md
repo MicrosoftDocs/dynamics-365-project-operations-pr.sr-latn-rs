@@ -1,6 +1,6 @@
 ---
-title: Šta je novo ili promenjeno u ažuriranju automatizacije usluge projekta Izdanje 42, V3
-description: Ovaj članak navodi funkcije i ispravke koje su dostupne u izdanju Microsoft Dynamics 365 Project Service Automation Update Release 42, V3.
+title: Šta je novo ili promenjeno u izdanju 42 ispravke Project Service Automation verzije 3
+description: U ovom članku navedene su funkcije i ispravke koje su dostupne u izdanju 42 ispravke usluge Microsoft Dynamics 365 Project Service Automation verzije 3.
 author: ruhercul
 ms.custom: dyn365-projectservice
 ms.date: 04/05/2022
@@ -23,13 +23,13 @@ ms.contentlocale: sr-Latn-RS
 ms.lasthandoff: 06/03/2022
 ms.locfileid: "8912732"
 ---
-# <a name="whats-new-or-changed-in-project-service-automation-update-release-42-v3"></a>Šta je novo ili promenjeno u ažuriranju automatizacije usluge projekta Izdanje 42, V3
+# <a name="whats-new-or-changed-in-project-service-automation-update-release-42-v3"></a>Šta je novo ili promenjeno u izdanju 42 ispravke Project Service Automation verzije 3
 
 [!include [banner](../includes/psa-now-project-operations.md)]
 
 Zadovoljstvo nam je da najavimo najnoviju ispravku za aplikaciju Microsoft Dynamics 365 Project Service Automation. Ovo izdanje uključuje neka važna poboljšanja u kvalitetu, performansama i upotrebljivosti. Kompatibilna je sa sistemom Dynamics 365 9.x. Da biste se ažurirali na ovo izdanje, posetite stranicu centra administracije za Dynamics 365 mrežna rešenja i instalirajte ispravku. Za još informacija pogledajte članak [Instaliranje, ispravka ili uklanjanje željenog rešenja](/power-platform/admin/install-remove-preferred-solution).
 
-Ovaj članak navodi funkcije i ispravke koje su nove ili promenjene za ispravku za automatizaciju usluge projekta Release 42, V3. Broj izrade ove verzije je V3.10.73.61 i uglavnom je dostupna putem samostalnog ažuriranja u aprilu 2022. godine.
+U ovom članku date su funkcije koje su nove ili su promenjene u rešenju Project Service Automation u verziji 3, izdanje ispravke 42. Broj izrade ove verzije je V3.10.73.61 i uglavnom je dostupna putem samostalnog ažuriranja u aprilu 2022. godine.
 
 ## <a name="update-release-42"></a>Izdanje ispravke 42
 
@@ -39,10 +39,10 @@ Popravljeni su sledeći problemi.
 
 **Vreme i trošak**
 
-- Kada je vremenski list odbijen, korisnik koji ga je odbacio je netačno identifikovan kao **Sistem**.
-- Kada se stavke vremena uvezu, nedostaje **vrednost "Kategorija** resursa".
-- Osobe koje vrše odobravanje projekta mogu da odobre prosleđene projekte kada njihove dozvole nisu posebno podešene na "Može **da odobri"**.
+- Kada je vremenski list odbijen, korisnik koji ga je odbio je netačno identifikovan kao **Sistem**.
+- Kada se stavke vremena uvezu, nedostaje vrednost **Kategorija resursa**.
+- Osobe koje vrše odobravanje projekta mogu da odobre prosleđene projekte kada njihove dozvole nisu posebno podešene na **Može da odobri**.
 
 **Prodaja**
 
-- Kada se stvarne datoteke evidentiraju na zadacima koji nisu osnovnog nivoa, stvarni troškovi se nepravilno agregiraju.
+- Kada se stvarne vrednosti evidentiraju na zadacima koji nisu osnovnog nivoa, stvarne cene se nepravilno agregiraju.

@@ -1,6 +1,6 @@
 ---
 title: Podešavanja projekta
-description: Ovaj članak pruža informacije o postavkama upravljanja projektima.
+description: Ovaj članak pruža informacije o podešavanjima upravljanja projektima.
 author: ruhercul
 ms.custom:
 - dyn365-projectservice

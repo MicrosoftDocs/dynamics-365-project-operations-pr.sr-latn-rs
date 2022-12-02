@@ -1,6 +1,6 @@
 ---
 title: Stavke mogućnosti za poslovanje zasnovane na projektu – jednostavno
-description: Ovaj članak pruža informacije o redovima mogućnosti za poslovanje zasnovanim na projektu. (Pro)
+description: Ovaj članak pruža informacije o predmetima mogućnosti za poslovanje zasnovanim na projektu. (Pro)
 author: rumant
 ms.date: 10/01/2020
 ms.topic: article

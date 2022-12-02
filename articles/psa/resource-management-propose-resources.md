@@ -1,6 +1,6 @@
 ---
 title: Predlaganje resursa za projekte
-description: Ovaj članak pruža informacije o predlaganju projektih resursa.
+description: Ovaj članak pruža informacije o predlaganju resursa za projekte.
 author: ruhercul
 ms.custom:
 - dyn365-projectservice

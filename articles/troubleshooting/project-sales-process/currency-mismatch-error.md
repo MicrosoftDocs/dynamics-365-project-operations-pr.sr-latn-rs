@@ -1,5 +1,5 @@
 ---
-title: Greška u nepodudaranju valute
+title: Greška nepodudaranja valute
 description: Ovaj članak pruža informacije o rešavanju problema o grešci nepodudaranja valute do koje dolazi prilikom čuvanja određenih vrsta zapisa.
 author: sigitac
 ms.date: 12/09/2021
@@ -14,19 +14,19 @@ ms.contentlocale: sr-Latn-RS
 ms.lasthandoff: 06/03/2022
 ms.locfileid: "8914741"
 ---
-# <a name="currency-mismatch-error"></a>Greška u nepodudaranju valute 
+# <a name="currency-mismatch-error"></a>Greška nepodudaranja valute 
 
 _**Odnosi se na:** Project Operations za scenarije zasnovane na resursima / bez zaliha_
 
-Kada sačuvate projekat, ugovor, ponudu ili knjigovodstveni resurs, možete dobiti grešku, **posedovanje valute preduzeća se ne podudara sa valutom ugovaranja jedinice. Izaberite drugo preduzeće ili jedinicu za ugovaranje da biste nastavili**. Do ovoga je došlo zato što postoji nepodudaranje valute između valute ugovaranja za zapis i valute preduzeća u vlasništvu.
+Kada sačuvate projekat, ugovor, ponudu ili resurs koji je moguće rezervisati, možda ćete primiti grešku: **Valuta preduzeća-vlasnika ne podudara se sa valutom jedinice ugovaranja. Izaberite drugo preduzeće-vlasnika ili jedinicu ugovaranja za nastavak ugovora za projekat**. Do ovoga je došlo zato što postoji nepodudaranje valute između valute jedinice ugovaranja za zapis i valute preduzeća-vlasnika.
 
 
 ## <a name="resolution"></a>Razrešenje
 
-Da biste zaobiљli ovaj problem, uradite sledeжe:
-- Proverite valutu ugovorne jedinice za ovaj zapis. Valutu možete videti tako što ćete otvoriti zapis organizacione jedinice i proveriti vrednost na kartici **"Opšte postavke** " u polju **"Valuta** ".
-- Proverite valutu preduzeća u vlasništvu. Valutu možete videti tako što ćete u **zapisu** > **preduzeća ići** u "Srodne knjige". Dvaput kliknite na zapis knjige koji je povezan sa preduzećem i proverite vrednost na kartici Opšte postavke **u** polju Obračunska **valuta**.
+Da biste zaobilazno rešili ovaj problem, uradite sledeće:
+- Proverite valutu ugovorne jedinice za ovaj zapis. Valutu možete videti tako što ćete otvoriti zapis organizacione jedinice i proveriti vrednost na kartici **Opšti podaci** u polju **Valuta**.
+- Proverite valutu preduzeća-vlasnika. Valutu možete videti tako što ćete otići do **Srodno** > **Knjige** u zapisu preduzeća. Dvaput kliknite na zapis knjige koji je povezan sa preduzećem i proverite vrednost na kartici **Opšti podaci** u polju **Računovodstvena valuta**.
 
-Ako se valuta postavljena u jedinici za ugovaranje i zapis knjige ne podudaraju, korigujte konfiguraciju ili izaberite različite vrednosti prilikom čuvanja zapisa. Sistem zahteva da se ovi zapisi podudaraju da bi se obezbedili ispravni međukompanijski tokovi fakturisanja. Više informacija o međukompanijskim konfiguracijama potražite u članku [Kreiranje međukompanijskih transakcija](../../project-accounting/create-intercompany-transactions.md).
+Ako se valuta postavljena u jedinici za ugovaranje i zapis knjige ne podudaraju, korigujte konfiguraciju ili izaberite druge vrednosti prilikom čuvanja zapisa. Sistem zahteva da se ovi zapisi podudaraju da bi se obezbedili ispravni međukompanijski tokovi fakturisanja. Više informacija o međukompanijskim konfiguracijama potražite u članku [Kreiranje međukompanijskih transakcija](../../project-accounting/create-intercompany-transactions.md).
 
-Ako zapis preduzeća nema pridruženi zapis knjige, to ukazuje na to da prilikom podešavanja okruženja nedostaje konfiguracija. Konfiguraciju mora da ispravi administrator sistema. Administrator sistema mora da ode na konfiguracije sa dva **pisanja i zaustavi i ponovo** pokrene Mapu za dvostruko pisanje sa **početnom sinhronizacijom ove mape i to** su preduslovi. Za više informacija pogledajte [Verzije mapa sa dvostrukim upisivanjem za Project Operations](../../environment/resource-dual-write-maps.md).
+Ako zapis preduzeća nema pridruženi zapis knjige, to ukazuje da prilikom instaliranja okruženja nedostaje konfiguracija. Konfiguraciju mora da ispravi administrator sistema. Administrator sistema mora da ode na **Konfiguracije dvostrukog upisivanja** i zaustavi i ponovo pokrene **Mapu za dvostruko upisivanje u knjigu** sa početnom sinhronizacijom ove mape i njenim preduslovima. Za više informacija pogledajte [Verzije mapa sa dvostrukim upisivanjem za Project Operations](../../environment/resource-dual-write-maps.md).

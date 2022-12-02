@@ -1,6 +1,6 @@
 ---
 title: Formiranje cena za katalog proizvoda
-description: Ovaj članak pruža informacije o tome kako funkcionišu cene kataloga proizvoda u Dynamics 365 Project Service Automation (PSA).
+description: Ovaj članak pruža informacije o tome kako funkcionišu cene u katalogu proizvoda u aplikaciji Dynamics 365 Project Service Automation (PSA).
 author: rumant
 ms.custom:
 - dyn365-projectservice

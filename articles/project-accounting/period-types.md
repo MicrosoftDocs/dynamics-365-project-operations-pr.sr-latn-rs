@@ -1,6 +1,6 @@
 ---
 title: Tipovi perioda
-description: Ovaj članak pruža informacije o tome kako da podesite vrste perioda za procenu prihoda.
+description: U ovom članku pružene su informacije o tome kako da konfigurišete tipove perioda za procenu prihoda.
 author: sigitac
 ms.date: 11/16/2020
 ms.topic: article
@@ -17,12 +17,12 @@ ms.locfileid: "8930979"
 
 _**Odnosi se na:** Project Operations za scenarije zasnovane na resursima / bez zaliha_
 
-Tip perioda definiše koliko se često procenjuje prihod od projekta. Ovaj članak pruža informacije o tome kako da podesite vrste perioda za procenu prihoda. 
+Tip perioda definiše koliko se često procenjuje prihod od projekta. U ovom članku pružene su informacije o tome kako da konfigurišete tipove perioda za procenu prihoda. 
 
 ## <a name="create-and-work-with-period-types"></a>Kreiranje i rad sa tipovima perioda
 Da biste kreirali i radili sa tipovima perioda, izvršite sledeće korake:
 
-1. U okruženju Dynamics 365 Finance na vrste perioda **upravljanja projektima i** > **obračunavanja** > **procena** > **podešavanja**.
+1. U Dynamics 365 Finance okruženju, idite na **Upravljanje projektima i računovodstvo** > **Podešavanje** > **Procene** > **Tipovi perioda**.
 2. Da biste kreirali novi tip perioda, izaberite **Novo**. Unesite naziv i opis.
 3. U polju **Učestalost**, izaberite vrednost:
 

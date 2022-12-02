@@ -1,6 +1,6 @@
 ---
 title: Ispravke usluge Project Operations
-description: Ovaj članak pruža informacije o izdatim verzijama programa Dynamics 365 Project Operations.
+description: Ovaj članak pruža informacije o objavljenim verzijama usluge Dynamics 365 Project Operations.
 author: sigitac
 ms.date: 03/28/2022
 ms.topic: article
@@ -25,7 +25,7 @@ _**Odnosi se na:** Project Operations za scenarije zasnovane na resursima/bez za
 Dynamics 365 Project Operations sastoji se od dve komponente:
 
 - Project Operations u Dataverse okruženju pokriva mogućnosti od mogućnosti za poslovanje do profakture. Dataverse se koristi u jednostavnoj primeni i primeni scenarija usluge Project Operations sa resursima/bez zaliha.
-- Upravljanje projektima i računovodstvo u Dynamics 365 Finance okruženju pokriva mogućnosti upravljanja troškovima, računovodstvo projekata i priznavanje prihoda. Okruženje aplikacija za finansije i operacije se koristi u operacijama projekta za scenarije zasnovane na resursima/nenapuštene i projektne operacije za scenarije zasnovane na zalihama/proizvodnji.
+- Upravljanje projektima i računovodstvo u Dynamics 365 Finance okruženju pokriva mogućnosti upravljanja troškovima, računovodstvo projekata i priznavanje prihoda. Okruženje aplikacije za finansije i operacije se koristi u usluzi Project Operations za scenarije zasnovane na resursima/bez zaliha i usluzi Project Operations za scenarije zasnovane na zalihama/proizvodnji.
 
 ## <a name="project-operations-release-notes"></a>Napomene uz izdanje usluge Project Operations
 - Najnovije napomene uz izdanje usluge Project Operations za [resurs/koji nisu na zalihama](whats-new-july-2022-resource-based.md).
@@ -38,7 +38,7 @@ Dynamics 365 Project Operations sastoji se od dve komponente:
 | --- | --- |
 | 4.45.0.53 | 10.0.29 |
 
-Za scenario "Resurs operacija projekta/ne-snabdeven", preporučujemo da koristite dvostruku verziju orkestracije 2.3.1.15 ili noviju.
+Za Project Operations scenario resursa / bez zaliha, preporučujemo da koristite verziju orkestracije dvostrukog upisivanja 2.3.1.15 ili noviju.
 
 ## <a name="release-schedule-for-project-operations-on-dataverse-environment"></a>Raspored izdavanja za Project Operations u Dataverse okruženju
 

@@ -1,6 +1,6 @@
 ---
 title: Potvrda predračuna zasnovanog na projektu
-description: Ovaj članak pruža informacije o potvrđivanje fakture zasnovane na proforma projektu.
+description: Ovaj članak pruža informacije o potvrđivanju predračuna zasnovanog na projektu.
 author: rumant
 ms.date: 04/05/2021
 ms.topic: article

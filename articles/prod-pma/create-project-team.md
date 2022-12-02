@@ -1,6 +1,6 @@
 ---
 title: Kreiranje projektnog tima
-description: Ovaj članak pruža informacije o kreiranju i upravljanju projektnim timovima.
+description: Ovaj članak pruža informacije o tome kako da kreirate i upravljate projektnim timovima.
 author: Yowelle
 ms.date: 09/01/2020
 ms.topic: article

@@ -1,6 +1,6 @@
 ---
 title: Potvrdite ugovor za projekat
-description: Ovaj članak pruža informacije o tome kako da potvrdite ugovor u operacijama projekta.
+description: Ovaj članak pruža informacije o načinu potvrđivanja ugovora u usluzi Project Operations.
 author: rumant
 ms.date: 10/13/2020
 ms.topic: article

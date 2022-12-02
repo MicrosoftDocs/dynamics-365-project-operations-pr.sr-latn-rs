@@ -1,6 +1,6 @@
 ---
 title: Uslovna rezervacija resursa
-description: Ovaj članak pruža informacije o tome kako da provizorno zakažete ili članove tima projekta soft book.
+description: Ovaj članak pruža informacije o tome kako preliminarno ili uslovno rezervisati članove projektnog tima.
 author: ruhercul
 ms.custom:
 - dyn365-projectservice

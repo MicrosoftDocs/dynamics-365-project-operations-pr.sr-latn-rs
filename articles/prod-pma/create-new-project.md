@@ -1,6 +1,6 @@
 ---
 title: Kreirajte novi projekat
-description: Ovaj članak pruža informacije o kreiranju novog projekta.
+description: Ovaj članak pruža informacije o tome kako da kreirate nov projekat.
 author: Yowelle
 ms.date: 09/01/2020
 ms.topic: article

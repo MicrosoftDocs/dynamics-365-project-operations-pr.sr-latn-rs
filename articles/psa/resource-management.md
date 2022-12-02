@@ -1,6 +1,6 @@
 ---
 title: Matična stranica za obezbeđivanje resursa za projekat
-description: Ovaj članak pruža informacije o mogućnostima upravljanja resursima u programu Project Service Automation (PSA) za Dynamics 365.
+description: Ovaj članak pruža informacije o mogućnostima upravljanja resursima u aplikaciji Project Service Automation (PSA) za Dynamics 365.
 author: JohnPBurrows
 ms.custom:
 - dyn365-projectservice

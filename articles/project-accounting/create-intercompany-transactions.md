@@ -1,6 +1,6 @@
 ---
 title: Kreiranje transakcija među preduzećima
-description: Ovaj članak pruža informacije o kreiranju međukompanijskih transakcija.
+description: Ovaj članak pruža informacije o tome kako da kreirate transakcije među preduzećima.
 author: sigitac
 ms.date: 04/12/2021
 ms.topic: article
@@ -30,14 +30,14 @@ Kada se odobri transakcija među preduzećima, kreiraju se sledeće stvarne tran
 
 **Organizaciona jedinica** pokreće cenu, troškove jedinice za određivanje resursa i određivanje cena prodajne transakcije jedinice unutar organizacije i valutu. Ovo je važno imati na umu prilikom donošenja odluke o strukturiranju preduzeća i organizacionih jedinica u vašoj implementaciji.
 
-Kada kreirate mogućnost za poslovanje, ponudu, ugovor za projekat i evidenciju projekata, sistem proverava da li se valuta ugovorne jedinice poklapa sa računovodstvenom valutom ugovornog preduzeća. Kada nisu iste, nije moguće kreirati ove zapise. Valuta organizacione jedinice se definiše u usluzi Dynamics 365 Project Operations tako što ćete otići u **Dataverse** > **Podešavanja** > **Organizacione jedinice**. Knjigovodstvena valuta preduzeća se definiše u Dynamics 365 Finance odlaskom u Knjigu **podešavanja** > **glavne** > **knjige**. Valuta se sinhronizuje sa vašim Dataverse okruženjem pomoću mape dvostrukog upisivanja u knjige.
+Kada kreirate mogućnost za poslovanje, ponudu, ugovor za projekat i evidenciju projekata, sistem proverava da li se valuta ugovorne jedinice poklapa sa računovodstvenom valutom ugovornog preduzeća. Kada nisu iste, nije moguće kreirati ove zapise. Valuta organizacione jedinice se definiše u usluzi Dynamics 365 Project Operations tako što ćete otići u **Dataverse** > **Podešavanja** > **Organizacione jedinice**. Računovodstvena valuta preduzeća se definiše u usluzi Dynamics 365 Finance tako što ćete otići u **Glavna knjiga** > **Podešavanje glavne knjige** > **Knjiga**. Valuta se sinhronizuje sa vašim Dataverse okruženjem pomoću mape dvostrukog upisivanja u knjige.
 
 Sistem u sledećim situacijama kreira troškove jedinice za određivanje resursa i stvarne prodajne vrednosti između preduzeća:
 
   - Kada se jedinica za resurse razlikuje od jedinice za ugovaranje
   - Kada se preduzeće za resurse razlikuje od preduzeća za ugovaranje
 
-Međutim, samo transakcije koje imaju drugačije resourcing preduzeće iz ugovorne kompanije biće prebačene u Dynamics 365 Finance za dodatno knjigovodstvo.
+Međutim, samo će transakcije koje imaju drugo preduzeće za resurse koja se razlikuje od preduzeća za ugovaranje biti prenete u Dynamics 365 Finance okruženje za dodatno računovodstvo.
 
 Računovodstvo stvarnih podataka o projektu evidentira se u Project Operations dnevniku integracije u usluzi Finance. Sistem kreira sledeće stavke u glavnoj knjizi.
 

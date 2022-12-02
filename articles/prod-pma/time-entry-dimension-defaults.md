@@ -1,6 +1,6 @@
 ---
 title: Podrazumevane vrednosti finansijskih aspekata za stavke vremena projekata
-description: Ovaj članak pruža informacije o tome kako se podrazumevane finansijske dimenzije primenjuju na stavke vremena.
+description: Ovaj članak pruža informacije o tome kako se podrazumevani finansijski aspekti primenjuju na stavke vremena.
 author: stsporen
 ms.date: 01/24/2022
 ms.topic: article
@@ -17,12 +17,12 @@ ms.locfileid: "8916581"
 
 [!include [banner](../includes/banner.md)]
 
-Kada koristite finansijske dimenzije za stavke vremena projekta, podrazumevana vrednost dimenzije se procenjuje sledećim redosledom:
+Kada koristite finansijske aspekte za stavke vremena projekta, podrazumevana vrednost aspekta se procenjuje sledećim redosledom:
 
 1. Resurs
 2. Project
 3. Izvor finansiranja
 
-Na primer, ako je podrazumevana dimenzija navedena na resursu, podrazumevana vrednost se primenjuje preko podrazumevane vrednosti koja je navedena za projekat. Isto tako, ako je podrazumevana dimenzija navedena na projektu, podrazumevana vrednost se primenjuje preko podrazumevane vrednosti koja je navedena za izvor finansiranja.
+Na primer, ako je podrazumevani aspekt naveden na resursu, podrazumevana vrednost se primenjuje preko podrazumevane vrednosti koja je navedena za projekat. Slično ako je podrazumevani aspekt naveden na projektu, podrazumevana vrednost se primenjuje preko podrazumevane vrednosti koja je navedena za izvor finansiranja.
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

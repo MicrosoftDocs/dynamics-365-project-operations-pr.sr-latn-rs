@@ -1,6 +1,6 @@
 ---
 title: Bespovratna pomoć za projekat
-description: Ovaj članak sadrži objašnjenja o tome kako da kreirate ili izmenite grant.
+description: Ovaj članak objašnjava kako kreirati ili izmeniti bespovratnu pomoć.
 author: RadhikaRS
 ms.date: 04/22/2020
 ms.topic: article

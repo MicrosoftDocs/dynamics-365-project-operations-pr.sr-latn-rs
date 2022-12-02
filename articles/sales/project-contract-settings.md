@@ -1,6 +1,6 @@
 ---
 title: Podešavanja ugovora za projekat
-description: Ovaj članak pruža informacije o poljima koja utiču na redove ugovora i informacije o ugovoru koji je rezimiran na sve stavke reda.
+description: Ovaj članak pruža informacije o poljima koja utiču na predmet ugovora i informacije o ugovoru koje su sažete u svim stavkama.
 author: rumant
 ms.date: 10/20/2020
 ms.topic: article
@@ -17,7 +17,7 @@ ms.locfileid: "8921595"
 
 _**Odnosi se na:** Project Operations za scenarije zasnovane na resursima / bez zaliha_
 
-Ovaj članak pruža informacije o poljima koja se primenjuju na ceo ugovor o projektu, uključujući postavke koje utiču na sve redove ugovora. Takođe su uključene informacije o ugovoru koje su sažete u svim stavkama za pokretanje KPI-jeva projektnog ugovora.
+Ovaj članak pruža informacije o poljima koja se primenjuju na celokupan ugovor o projektu, uključujući podešavanja koja utiču na sve predmete ugovora. Takođe su uključene informacije o ugovoru koje su sažete u svim stavkama za pokretanje KPI-jeva projektnog ugovora.
 
 Sledeća tabela navodi polja na ugovoru o projektu koja su jedinstvena za Dynamics 365 Project Operations ili imaju neke važne promene u ponašanju iz naloga za prodaju u usluzi Dynamics 365 Sales.
 

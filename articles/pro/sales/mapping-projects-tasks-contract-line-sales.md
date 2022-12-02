@@ -1,6 +1,6 @@
 ---
 title: Mapiranje projekata i zadataka na predmet ugovora zasnovan na projektu – jednostavno
-description: Ovaj članak pruža informacije o dodavanju i uklanjanju projekata i zadataka u red ugovora.
+description: Ovaj članak pruža informacije o dodavanju i uklanjanju projekata i zadataka u predmet ugovora.
 author: rumant
 ms.date: 10/27/2020
 ms.topic: article

@@ -1,6 +1,6 @@
 ---
 title: Stavke proizvoda zasnovane na obračunu
-description: Ovaj članak pruža informacije o primeni cene troška na red ponude zasnovane na proizvodu.
+description: Ovaj članak pruža informacije o primeni cene koštanja na stavku ponude zasnovane na proizvodu.
 author: ruhercul
 ms.date: 10/01/2020
 ms.topic: article

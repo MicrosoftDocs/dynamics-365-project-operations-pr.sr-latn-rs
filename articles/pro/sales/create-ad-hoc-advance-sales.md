@@ -1,6 +1,6 @@
 ---
 title: Kreiranje ad-hok avansne uplate za ugovor
-description: Ovaj članak pruža informacije o kreiranju avansa ugovora po potrebi.
+description: Ovaj članak pruža informacije o kreiranju avansa za ugovor po potrebi.
 author: rumant
 ms.date: 10/26/2020
 ms.topic: article

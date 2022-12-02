@@ -1,6 +1,6 @@
 ---
 title: Upravljanje većim brojem klijenata u predmetima ugovora zasnovanim na projektu – jednostavno
-description: Ovaj članak pruža informacije o upravljanju više klijenata u redovima ugovora zasnovanim na projektu.
+description: Ovaj članak pruža informacije o upravljanju većim brojem klijenata na predmetima ugovora zasnovanim na projektu.
 author: rumant
 ms.date: 10/27/2020
 ms.topic: article

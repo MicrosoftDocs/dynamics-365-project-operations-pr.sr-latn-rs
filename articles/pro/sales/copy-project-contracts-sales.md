@@ -1,6 +1,6 @@
 ---
 title: Kopiranje ugovora za projekat
-description: Ovaj članak pruža informacije o kopiranju projektnih ugovora u projektne operacije.
+description: Ovaj članak pruža informacije o kopiranju ugovora za projekat u usluzi Project Operations.
 author: rumant
 ms.date: 10/07/2020
 ms.topic: article

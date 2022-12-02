@@ -1,6 +1,6 @@
 ---
 title: Ulazne porudžbine projekta za projekte vremena i materijala
-description: Ovaj članak sadrži objašnjenja o tome kako da kreirate ulazne porudžbine zasnovane na projektu za vremenske i materijalne projekte.
+description: Ovaj članak objašnjava kako se kreiraju ulazne porudžbine zasnovane na projektima vremena i materijala.
 author: Yowelle
 ms.date: 04/05/2019
 ms.topic: article

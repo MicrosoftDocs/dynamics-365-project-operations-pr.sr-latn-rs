@@ -1,6 +1,6 @@
 ---
 title: Šta je novo decembra 2020. – Project Operations za scenarije zasnovane na resursima/bez zaliha
-description: Ovaj članak pruža informacije o kvalitetnim ispravkama dostupnim u decembru 2020.
+description: Ovaj članak pruža informacije o ispravkama kvaliteta dostupnim u izdanju usluge Project Operations za decembar 2020. za scenarije zasnovane na resursima/bez zaliha.
 author: sigitac
 ms.date: 12/04/2020
 ms.topic: article
@@ -18,10 +18,10 @@ ms.locfileid: "9029731"
 
 _**Odnosi se na:** Project Operations za scenarije zasnovane na resursima / bez zaliha_
 
-Ovaj članak se odnosi na sledeće Dynamics 365 Project Operations komponente i verzije:
+Ovaj članak se odnosi na sledeće komponente i verzije usluge Dynamics 365 Project Operations:
 
 - Project Operations u Dataverse okruženju verzije 4.5.0.134
-- Upravljanje projektima i računovodstvo u Dynamics 365 Finance okruženju verzija 10.0.15
+- Upravljanje projektima i računovodstvo u Dynamics 365 Finance okruženju verzije 10.0.15
 
 Za informacije o načinu ažuriranja na ovo izdanje pogledajte članak [Ažuriranje usluge Project Operations u Finance okruženju](ur5-nonstocked-installation.md).
 
@@ -61,12 +61,12 @@ Sledeće funkcije su uključene u ovom izdanju:
 | Planiranje i praćenje projekta | 2057197          | Kopija procene reda sa referencom zadatka nije podržana                                                                                                     |
 | Planiranje i praćenje projekta | 2060687          | Upozorenje o vremenskoj zoni sada nestaje nakon određenog vremena                                                                                                      |
 | Upravljanje resursima           | 1832887          | Podrazumevani ID kategorije resursa mora biti statičan kako bi se osiguralo ponavljanje učitavanja podataka za Dataverse i Finance okruženja                                                 |
-| Vreme i trošak              | 2081793          | **Ime kategorije troškova** mora biti mapirano u polje opisa **kategorije "Troškovi** " u aplikacijama za finansije i operacije                                                  |
+| Vreme i trošak              | 2081793          | **Naziv kategorije troškova** mora biti mapirano u polje **Opis kategorije troškova** u aplikacijama za finansije i operacije                                                  |
 | Vreme i trošak              | 2034882          | Dugme **Novo** se prikazuje dva puta na komandnoj traci za stavke vremena kada je instalirana usluga Dynamics 365 Field Service                                          |
 | Vreme i trošak              | 2056028          | Ažuriranje stranice **Uređivanje vremena** tako da uključuje stavku vremena                                                                                                              |
 | Vreme i trošak              | 1983747          | Grafikon stavke vremena prikazuje dodatne podatke                                                                                                                   |
 
-### <a name="project-management-and-accounting-in-dynamics-365-finance"></a>Upravljanje projektima i računovodstvo u Dynamics 365 Finance
+### <a name="project-management-and-accounting-in-dynamics-365-finance"></a>Upravljanje projektima i računovodstvo u rešenju Dynamics 365 Finance
 
 | Oblast funkcija                        | Referentni broj | Ispravka kvaliteta                                                                                                                                                                                                                                                   |
 |-------------------------------------|------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
@@ -106,7 +106,7 @@ Sledeće funkcije su uključene u ovom izdanju:
 | Putovanje i trošak                | [513845](https://fix.lcs.dynamics.com/Issue/Details/?bugId=513845)            | Tok posla automatskog knjiženja izveštaja o troškovima je završen, ali faktura nije proknjižena                                                                                                                                                                                          |
 
 ### <a name="regulatory-updates"></a>Regulatorne ispravke
-Više informacija o regulatornim ispravkama za aplikacije za finansije i operacije potražite u članku [Regulatorne ispravke](/dynamics365/finance/localizations/regulatory-updates). Takođe se možete prijaviti na LCS i pregledati planirane regulatorne ispravke pomoću alatke za pretragu problema. Pretraga problema vam omogućava pretragu po zemlji, tipu funkcije i izdanju.
+Za informacije o regulatornim ispravkama za aplikacije za finansije i operacije, pogledajte članak [Regulatorne ispravke](/dynamics365/finance/localizations/regulatory-updates). Takođe se možete prijaviti na LCS i pregledati planirane regulatorne ispravke pomoću alatke za pretragu problema. Pretraga problema vam omogućava pretragu po zemlji, tipu funkcije i izdanju.
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -1,6 +1,6 @@
 ---
 title: Procena stavke ponude zasnovane na projektu – jednostavno
-description: Ovaj članak pruža informacije o proceni ugovora zasnovanog na projektu.
+description: Ovaj članak pruža informacije o procenama predmeta ugovora zasnovanog na projektu.
 author: rumant
 ms.date: 03/30/2021
 ms.topic: article

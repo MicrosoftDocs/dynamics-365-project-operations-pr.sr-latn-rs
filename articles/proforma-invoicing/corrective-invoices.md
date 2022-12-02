@@ -1,6 +1,6 @@
 ---
 title: Korektivne fakture zasnovane na projektu
-description: Ovaj članak pruža informacije o kreiranju i potvrđivanju korektivnih faktura zasnovanih na projektu u operacijama projekta.
+description: Ovaj članak pruža informacije o tome kako da kreirate i potvrdite korektivne fakture zasnovane na projektu u usluzi Project Operations.
 author: rumant
 ms.date: 03/29/2021
 ms.topic: article

@@ -1,6 +1,6 @@
 ---
 title: Pregled preostalog fakturiranja za projekte i ugovore o projektima
-description: Ovaj članak pruža informacije o tome kako da pregledate vreme, troškove i zaostale troškove proizvoda i kako da ih označite kao spremne za fakturisanje.
+description: Ovaj članak pruža informacije o tome kako pregledati preostalo vreme, troškove i proizvode i kako ih označiti kao spremne za fakturiranje.
 author: rumant
 ms.custom: ''
 ms.author: rumant

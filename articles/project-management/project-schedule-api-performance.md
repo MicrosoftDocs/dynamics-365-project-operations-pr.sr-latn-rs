@@ -1,6 +1,6 @@
 ---
 title: Performanse API-ja za raspored projekata
-description: Ovaj članak pruža informacije o odrednicama performansi API-ja rasporeda projekta i identifikuje najbolje prakse za optimalnu upotrebu.
+description: Ovaj članak pruža informacije o referentnim vrednostima performansi API-ja za raspored projekata i identifikuje najbolje prakse za optimalnu upotrebu.
 author: ruhercul
 ms.date: 11/03/2021
 ms.topic: article
@@ -17,12 +17,12 @@ ms.locfileid: "8911199"
 
 _**Odnosi se na:** Project Operations za resurs/scenarije koji nisu zasnovani na zalihama, jednostavnu implementaciju – pogodbu o predračunima, Project for the Web_
 
-Ovaj članak pruža informacije o odrednicama performansi programskih interfejsa aplikacije Project schedule (API) i identifikuje najbolje prakse za optimizaciju korišćenja.
+Ovaj članak pruža informacije o referentnim vrednostima performansi interfejsa za programiranje aplikacija (API-ja) za raspored projekata i identifikuje najbolje prakse za optimizaciju korišćenja.
 
 ## <a name="project-scheduling-service"></a>Usluga planiranja projekta
 Usluga planiranja projekta je usluga sa više zakupaca koja se pokreće u usluzi Microsoft Azure. Dizajniran je da poboljša interakciju pružanjem brzog i tečnog iskustva kada korisnici rade na projektima. Ovo poboljšanje je postignuto prihvatanjem zahteva za promenu, njihovom obradom, a zatim odmah vraćanjem rezultata. Usluga asinhrono traje na usluzi Dataverse i ne blokira korisnike da obavljaju druge operacije.
 
-API-je za planiranje projekta oslanjaju se na uslugu zakazivanja projekta da bi pokrenuli zahteve koji su detaljnije opisani u kasnijim odeljcima ovog članka.
+API-ji za raspored projekta se oslanjaju na to da usluga planiranja projekata pokreće zahteve koji su detaljnije opisani u kasnijim odeljcima ovog članka.
 
 API-ji rasporeda projekata su dizajnirani za rad sa sledećim entitetima strukturne analize posla (SAP):
 

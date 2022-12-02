@@ -1,6 +1,6 @@
 ---
 title: Isključivanje dimenzije za određivanje cena
-description: Ovaj članak pruža informacije o tome kako da isključite dimenzije cena.
+description: Ovaj članak pruža informacije o isključivanju dimenzija za određivanje cena.
 author: rumant
 ms.date: 09/18/2020
 ms.topic: article

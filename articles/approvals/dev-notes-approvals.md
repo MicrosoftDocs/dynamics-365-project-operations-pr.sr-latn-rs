@@ -1,6 +1,6 @@
 ---
 title: Napomene programera za odobrenja
-description: Ovaj članak pruža dodatne informacije o projektantima o radu sa odobrenjima.
+description: Ovaj članak pruža dodatne informacije programera o radu sa odobrenjima.
 author: stsporen
 ms.date: 11/09/2020
 ms.topic: article

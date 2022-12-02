@@ -1,6 +1,6 @@
 ---
 title: Kopiranje projekta
-description: Ovaj članak pruža informacije o kopiranju projekata u Dynamics 365 Project Operations.
+description: U ovom članku su date informacije o kopiranju projekata u rešenju Dynamics 365 Project Operations.
 author: ruhercul
 ms.date: 03/07/2022
 ms.topic: article
@@ -26,13 +26,13 @@ Uz Dynamics 365 Project Operations, možete brzo da pravite nove projekte izboro
 - Procene troškova projekta
 - Procene materijala za projekat
 - Liste za proveru projekta
-- Kofe projekta
+- Kontejneri projekta
 
 ## <a name="project-properties"></a>Svojstva projekta
 
 Kada se projekat kopira, kopiraju se vrednosti u sledećim poljima.
 
-| Polje | Nenapušteni materijali za projektne operacije | Projektne operacije Lite | Projekat za Web |
+| Polje | Project Operations materijali koji nisu na zalihama | Project Operations jednostavna primena | Project for the Web |
 |-------|------------------------------------------|-------------------------|---------------------|
 | Imenuj | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: |
 | Opis | :heavy_check_mark: | :heavy_check_mark: | |
@@ -46,8 +46,8 @@ Kada se projekat kopira, kopiraju se vrednosti u sledećim poljima.
 | Ukupan status projekta | :heavy_check_mark: | :heavy_check_mark: | |
 | komentara | :heavy_check_mark: | :heavy_check_mark: | |
 | Procene | :heavy_check_mark: | :heavy_check_mark: | |
-| <p>Procenjeni datum početka</p><p><strong>Napomena:</strong> Ovo polje navodi datum kreiranja projekta iz kopije. | :heavy_check_mark: | :heavy_check_mark: | |
-| <p>Procenjeni datum završetka</p><p><strong>Napomena: Datum</strong> u ovom polju se koriguje na osnovu datuma početka novog projekta koji je napravljen iz kopije.</p> | :heavy_check_mark: | :heavy_check_mark: | |
+| <p>Procenjeni datum početka</p><p><strong>Napomena:</strong> Ovo polje navodi datum kada se projekat kreira iz kopije. | :heavy_check_mark: | :heavy_check_mark: | |
+| <p>Procenjeni datum završetka</p><p><strong>Napomena:</strong> Datum u ovom polju se prilagođava na osnovu datuma početka novog projekta koji je napravljen iz kopije.</p> | :heavy_check_mark: | :heavy_check_mark: | |
 | Angažovanje (časovi) | :heavy_check_mark: | :heavy_check_mark: | |
 | Procenjeni troškovi rada | :heavy_check_mark: | :heavy_check_mark: | |
 | Procenjeni iznos troškova | :heavy_check_mark: | :heavy_check_mark: | |
@@ -58,14 +58,14 @@ Kada se projekat kopira, kopiraju se vrednosti u sledećim poljima.
 
 ## <a name="work-breakdown-structure"></a>Strukturna analiza posla
 
-Kada se projekat kopira, kopira se celokupna strukturna analiza posla učitanog resursa. Imenovani resurs zamenjuje generičke resurse. Ako imenovani resursi nemaju isto radno vreme kao generički resurs, raspored će biti ponovo obračunat, a trajanje zadatka može da se promeni.
+Kada se projekat kopira, kopira se celokupna strukturna analiza posla učitanog resursa. Imenovani resurs zamenjuje generičke resurse. Ako imenovani resursi nemaju isto radno vreme kao generički resurs, raspored će se ponovo izračunati i trajanje zadatka se može promeniti.
 
 ## <a name="project-team-members"></a>Članovi projektnog tima
 
 Kada se projektni tim kopira iz izvornog projekta, kopiraju se generički resursi. Dodele generičkih resursa takođe se održavaju kao u izvornom projektu. Imenovani resursi će se pretvoriti u generičke članove tima.
 
 > [!NOTE]
-> Članovi tima i dodele se ne kopiraju u projektu za Web.
+> Članovi tima i dodele se ne kopiraju u Project for the Web.
 
 ## <a name="estimates"></a>Procene
 

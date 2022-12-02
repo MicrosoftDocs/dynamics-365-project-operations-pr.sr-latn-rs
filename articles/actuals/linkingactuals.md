@@ -1,6 +1,6 @@
 ---
-title: Poreklo transakcije - Povezivanje stvarnih podataka sa njihovim izvorom
-description: Ovaj članak sadrži objašnjenja o tome kako se koncept porekla transakcije koristi za povezivanje stvarnih podataka sa originalnim izvornim zapisima, kao što su stavka vremena, stavka troškova ili evidencije korišćenja materijala.
+title: Poreklo transakcija – povezivanje stvarnih vrednosti sa njihovim izvorom
+description: Ovaj članak objašnjava kako se koncept porekla transakcija koristi za povezivanje stvarnih vrednosti sa originalnim zapisima izvora kao što su stavka vremena, stavka troškova ili evidencija korišćenja materijala.
 author: rumant
 ms.date: 03/25/2021
 ms.topic: article
@@ -14,7 +14,7 @@ ms.contentlocale: sr-Latn-RS
 ms.lasthandoff: 06/03/2022
 ms.locfileid: "8921319"
 ---
-# <a name="transaction-origins---link-actuals-to-their-source"></a>Poreklo transakcije - Povezivanje stvarnih podataka sa njihovim izvorom
+# <a name="transaction-origins---link-actuals-to-their-source"></a>Poreklo transakcija – povezivanje stvarnih vrednosti sa njihovim izvorom
 
 _**Odnosi se na:** Project Operations za scenarije zasnovane na resursima/bez zaliha, jednostavna primena – od pogodbe do profakture_
 
@@ -22,14 +22,14 @@ Zapisi o poreklu transakcije se kreiraju da bi se povezale stvarne vrednosti sa 
 
 Sledeći primer prikazuje tipičnu obradu stavki vremena u životnom ciklusu projekta u usluzi Project Operations.
 
-> ![Obrada celih vremena u operacijama projekta.](media/basic-guide-17.png)
+> ![Obrada stavki vremena u usluzi Project Operations.](media/basic-guide-17.png)
  
-1. Prosleđivanje stavke vremena dovodi do kreiranja dva reda naloga: jedan za trošak i jedan za neosloženu prodaju.
-2. Eventualno odobravanje stavke vremena dovodi do kreiranja dve stvarne stavke: jedne za trošak i druge za neželjenu prodaju.
+1. Prosleđivanje stavke vremena uzrokuje kreiranje dve stavke u glavnoj knjizi: jedne za troškove i jedne za nenaplaćenu prodaju.
+2. Krajnje odobravanje stavke vremena uzrokuje kreiranje dve stvarne vrednosti: jedne za troškove i jedne za nenaplaćenu prodaju.
 3. Kada korisnik kreira fakturu za projekat, transakcija stavke fakture se kreira korišćenjem podataka iz stvarne vrednosti nenaplaćene prodaje.
 4. Kada je faktura potvrđena, kreiraju se dve nove stvarne vrednosti: storniranje nenaplaćene prodaje i stvarna vrednost naplaćene prodaje.
 
-Svaki događaj u ovom toku posla za obradu pokreće kreiranje zapisa u entitetu porekla transakcije da bi se izgradio trag odnosi između ovih zapisa koji se kreiraju putem stavke vremena, reda naloga, stvarnih i detalja reda fakture.
+Svaki događaj u ovom toku posla obrade pokreće kreiranje zapisa u entitetima Poreklo transakcije da bi mogli da se prate odnosi između ovih zapisa koji su kreirani u detaljima stavke vremena, stavke u glavnoj knjizi, stvarne vrednosti i stavke fakture.
 
 Sledeća tabela prikazuje zapise u entitetu Poreklo transakcije za prethodni tok posla.
 
@@ -70,8 +70,8 @@ Sledeća tabela prikazuje zapise u entitetu Poreklo transakcije za prethodni tok
 | GUID ispravljene fakture      | Faktura                  | GUID nove nenaplaćene stvarne vrednosti prodaje    | Stvarna vrednost                            |                          |
 
 
-Sledeća ilustracija prikazuje veze koje su kreirane između stvarnih i njihovih izvora na različitim događajima koristeći primer stavki vremena u operacijama projekta.
+Sledeća ilustracija prikazuje veze koje su kreirane između stvarnih vrednosti i njihovih izvora na različitim događajima koristeći primer stavki vremena u usluzi Project Operations.
 
-> ![Kako su stvarni povezani sa izvornim zapisima u operacijama projekta.](media/TransactionOrigins.png)
+> ![Kako su stvarne vrednosti povezane sa izvornim zapisima u usluzi Project Operations.](media/TransactionOrigins.png)
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

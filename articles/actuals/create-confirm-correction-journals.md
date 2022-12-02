@@ -1,6 +1,6 @@
 ---
 title: Kreiranje i potvrda dnevnika sa ispravkama
-description: Ovaj članak pruža informacije o kreiranju i potvrđivanja naloga ispravki.
+description: Ovaj članak pruža informacije o tome kako da kreirate i potvrdite dnevnik sa ispravkama.
 author: rumant
 ms.date: 09/18/2020
 ms.topic: article
@@ -24,7 +24,7 @@ ms.locfileid: "8928081"
 
 _**Odnosi se na:** Project Operations za scenarije zasnovane na resursima/bez zaliha, jednostavna primena – od pogodbe do profakture_
 
-Povremeno, stavka vremena ili troškova može biti netačno uneta. Na primer, konsultant može da izabere pogrešan datum kada kreira stavku vremena ili može da izabere pogrešan projekat kada unese trošak. Ako konsultant ne može da ažurira prosleđene stavke, bek-end administrator može direktno da ispravi stvarne stavke za projekat.
+Povremeno se može pogrešno uneti stavka vremena ili troška. Na primer, konsultant može da odabere pogrešan datum kada kreira stavke vremena ili može da izaberete pogrešan projekat prilikom unosa troška. Ako konsultant ne može da ažurira prosleđene stavke, administrator usluga u pozadini može direktno da ispravi stvarne vrednosti za projekat.
 
 ## <a name="correct-approved-time-entries"></a>Ispravne odobrene stavke vremena     
 
@@ -73,30 +73,30 @@ Obavite sledeće korake da biste ispravili jednu stavku troškova ili više njih
 
 6. Ako su ispravljene vrednosti prema očekivanju, izaberite **Potvrdi**. U dijalogu izaberite **U redu.** Ako se vrednosti ne prikazuju kako se očekuje, izaberite **Otkaži** da biste se vratili na listu **Odobreni troškovi**. Ponovite korake od 2 do 5. 
 
-7. Kada potvrdite nalog ispravki, vratite se na projekat ili projekte koje ste ažurirali da biste videli promene.
+7. Nakon što potvrdite dnevnik ispravki, vratite se na projekat ili projekte koje ste ažurirali da biste pogledali svoje izmene.
 
-8. Na stranici projekta, na kartici " **Aktuelno"** redigujte listu " **Stvarni povezani prikaz** ". Navedene su izvorne stavke i ispravljene stavke.
+8. Na stranici projekta, na kartici **Aktuelno**, pregledajte listu **Vezani prikaz stvarnih vrednosti**. Navedene su izvorne stavke i ispravljene stavke.
 
 
-## <a name="correct-approved-material-usage-logs"></a>Ispravljanje evidencija korišćenja odobrenog materijala
+## <a name="correct-approved-material-usage-logs"></a>Ispravljanje evidencija odobrenog korišćenja materijala
 
-Dovršite sledeće korake da biste ispravili jednu ili više stavki evidencije korišćenja materijala.
+Obavite sledeće korake da biste ispravili najmanje jednu stavku korišćenja materijala.
 
-1. U oblasti Prodaja **, u levom oknu za navigaciju, u okviru Transakcije** **izaberite stavku** Aktuelno **·**.
+1. U oblasti **Prodaja** u levom oknu za navigaciju, u okviru **Transakcije**, izaberite **Stvarne vrednosti**.
 
-2. U listi **Stvarne vrednosti** koristite filtere kolona da biste izabrali **klasu** transakcija materijala, tako da se prikazuju samo stvarni materijali. Koristite druge filtere kolona da biste dodatno ograničili prikazane stvarne vrednosti. Nakon što pronađete željeni skup stvarnih stavki, izaberite stvarne stavke, a zatim izaberite stavku Ispravne **stavke**. Automatski se kreira novi nalog ispravki i dodeljuje se **vrsta** korekcije materijala.
+2. Na listi **Stvarne vrednosti** koristite filtere kolona da biste izabrali klasu transakcija **Materijal**, tako da se prikazuju samo stvarne vrednosti za materijale. Koristite druge filtere kolona da biste dodatno ograničili prikazane stvarne vrednosti. Nakon što pronađete željeni skup stvarnih vrednosti, izaberite stvarne vrednosti, a zatim izaberite stavku **Ispravni unosi**. Novi dnevnik ispravki se automatski kreira, a dodeljuje se tip **Ispravka materijala**.
 
-3. Na stranici **"Novi** nalog", u **polje** Opis unesite opis korekcije. Zatim, na kartici **Korekcija** materijala, u odeljku **Nove vrednosti za materijale** izaberite polja podataka koja želite da ispravite za izabrane redove materijala. Na primer, možete da dodelite materijal drugom projektu ili da ispravite proizvod, datum materijala ili podizvođaj.
+3. Na stranici **Nova glavna knjiga**, u polju **Opis**, unesite opis za ispravku. Zatim, na kartici **Korekcija materijala**, u odeljku **Nove vrednosti za materijale** izaberite polja podataka koja želite da ispravite za izabrane redove materijala. Na primer, možete da dodelite materijal drugom projektu ili da ispravite proizvod, datum materijala ili podugovor.
 
-4. Izaberite **Pregled**. Zatim u dijalogu kliknite na dugme U **redu**.
+4. Izaberite **Pregled**. Zatim, u dijalogu izaberite **U redu**.
 
-5. Na kartici **Redovi naloga** proverite ispravke. Možete videti listu originalnih stvarnih stavki koje su povezane sa izabranim stavkama materijala koje su stornirane i ispravljenih odgovarajućih redova koji su kreirani.
+5. Na kartici **Stavke u glavnoj knjizi** proverite ispravke. Možete videti listu originalnih stvarnih vrednosti koje su povezane sa izabranim stavkama materijala koje su opozvane i sa ispravljenim odgovarajućim stavkama koje su kreirane.
 
-6. Ako su ispravljene vrednosti prema očekivanju, izaberite **Potvrdi**. Zatim u dijalogu kliknite na dugme U **redu**. Ako vrednosti nisu očekivane, kliknite na dugme "Otkaži **" da** biste se vratili na **listu "Stvarne** vrednosti". Zatim ponovite korake od 2 do 5.
+6. Ako su ispravljene vrednosti prema očekivanju, izaberite **Potvrdi**. Zatim, u dijalogu izaberite **U redu**. Ako vrednosti nisu kako se očekuje, izaberite **Otkaži** da biste se vratili na listu **Stvarne vrednosti**. Zatim ponovite korake od 2 do 5.
 
-7. Kada potvrdite nalog ispravki, vratite se na projekat ili projekte koje ste ažurirali da biste videli promene.
+7. Nakon što potvrdite dnevnik ispravki, vratite se na projekat ili projekte koje ste ažurirali da biste pogledali svoje izmene.
 
-8. Na stranici projekta, na kartici " **Aktuelno"** redigujte listu " **Stvarni povezani prikaz** ". Navedene su izvorne stavke i ispravljene stavke.
+8. Na stranici projekta, na kartici **Aktuelno**, pregledajte listu **Vezani prikaz stvarnih vrednosti**. Navedene su izvorne stavke i ispravljene stavke.
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

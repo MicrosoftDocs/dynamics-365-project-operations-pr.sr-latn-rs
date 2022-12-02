@@ -1,6 +1,6 @@
 ---
 title: Rasporedi fakturisanja na stavkama ponude zasnovane na projektu
-description: Ovaj članak pruža informacije o kreiranju rasporeda faktura i prekretnica za redove ponude.
+description: Ovaj članak pruža informacije o kreiranju rasporeda i kontrolnih tačaka fakturisanja za stavke ponude.
 author: rumant
 ms.date: 10/01/2020
 ms.topic: article

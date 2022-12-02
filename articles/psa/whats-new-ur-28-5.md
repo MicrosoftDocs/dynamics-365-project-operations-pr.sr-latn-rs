@@ -1,6 +1,6 @@
 ---
 title: Šta je novo ili promenjeno u izdanju hitne ispravke 28.5 za Project Service Automation verzije 3
-description: Ovaj članak navodi funkcije i ispravke koje su dostupne u hitnoj ispravki za ažuriranje usluge projekta Release 28.5, V3.
+description: U ovom članku su navedene funkcije i ispravke koje su dostupne u izdanju hitne ispravke 28.5 za Project Service Automation verzije 3.
 author: ruhercul
 ms.custom: dyn365-projectservice
 ms.date: 02/03/2021
@@ -29,7 +29,7 @@ ms.locfileid: "8928725"
 
 Zadovoljstvo nam je da objavimo najnovije ažuriranje za aplikaciju Project Service Automation za Dynamics 365. Ovo izdanje uključuje neka važna poboljšanja u kvalitetu, performansama i upotrebljivosti. Ovo izdanje je kompatibilno sa uslugom Dynamics 365 9.x. Da biste ažurirali ovo izdanje, posetite stranicu sa rešenjima centra za administraciju za Dynamics 365 online kako biste instalirali ispravku. Za još informacija pogledajte članak [Instaliranje, ispravka ili uklanjanje željenog rešenja](/power-platform/admin/install-remove-preferred-solution).
 
-Ovaj članak navodi funkcije i ispravke koje su nove ili promenjene za Project Service Automation V3, Update Release 28.5 Ova verzija ima broj verzije V3.10.46.87 i obično je dostupna putem samostalnog ažuriranja u januaru 2021.
+U ovom članku su navedene funkcije i ispravke koje su nove ili promenjene u izdanju ispravke 28.5 za Project Service Automation verzije 3. Ova verzija ima broj verzije V3.10.46.87 i postala je opšte dostupna putem samostalne ispravke u januaru 2021.
 
 ## <a name="update-release-285-hotfix"></a>Izdanje hitne ispravke 28.5
 

@@ -1,6 +1,6 @@
 ---
 title: Proizvodi
-description: Ovaj članak pruža informacije o katalogu proizvoda koje možete koristiti da biste kupcima pružili informacije o proizvodima i cenama koje vaša organizacija nudi.
+description: Ovaj članak pruža informacije o katalogu proizvoda koji možete koristiti za pružanje informacija kupcima o proizvodima i cenama koje nudi vaša organizacija.
 author: rumant
 ms.date: 09/18/2020
 ms.topic: article

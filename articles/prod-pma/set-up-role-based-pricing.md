@@ -1,6 +1,6 @@
 ---
 title: Postavite određivanje cene zasnovano na ulogama
-description: Ovaj članak pruža informacije o tome kako da podesite cene za određene uloge.
+description: Ovaj članak pruža informacije o tome kako da podesite određivanje cena za određene uloge.
 author: Yowelle
 ms.date: 09/01/2020
 ms.topic: article

@@ -1,6 +1,6 @@
 ---
 title: Praćenje cene projekta
-description: Ovaj članak pruža informacije o tome kako projektne operacije prate napredak u odnosu na troškove rada i troše na projekat.
+description: Ovaj članak pruža informacije o tome kako Project Operations prati napredak u odnosu na cenu rada i potrošnju na projektu.
 author: rumant
 ms.date: 03/22/2021
 ms.topic: article

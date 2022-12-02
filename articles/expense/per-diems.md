@@ -1,6 +1,6 @@
 ---
 title: Dnevnice
-description: Ovaj članak pruža informacije o pravilima dnevnici koja se koriste u upravljanju troškovima.
+description: Ovaj članak pruža informacije o pravilima dnevnica koja se koriste u upravljanju troškovima.
 author: suvaidya
 ms.date: 10/01/2020
 ms.topic: article

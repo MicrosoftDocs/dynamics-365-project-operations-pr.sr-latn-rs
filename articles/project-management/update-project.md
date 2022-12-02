@@ -1,6 +1,6 @@
 ---
 title: Kreiranje i ažuriranje projekta
-description: Ovaj članak pruža informacije o ažuriranju projekata Projektnih operacija.
+description: Ovaj članak pruža informacije o ažuriranju projekata u usluzi Project Operations.
 author: ruhercul
 ms.date: 10/20/2021
 ms.topic: article

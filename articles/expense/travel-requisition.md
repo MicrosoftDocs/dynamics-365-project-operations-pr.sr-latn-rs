@@ -1,6 +1,6 @@
 ---
 title: Zahtevi za putovanje
-description: Ovaj članak pruža informacije o trebovanju putovanja.
+description: Ovaj članak pruža informacije o zahtevima za putovanje.
 author: suvaidya
 ms.date: 10/01/2020
 ms.topic: article

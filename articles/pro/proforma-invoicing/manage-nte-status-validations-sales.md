@@ -1,6 +1,6 @@
 ---
 title: Upravljanje statusom i potvrdama koje ne smete premašiti
-description: Ovaj članak pruža informacije o proverama ograničenja koje se ne premašuju u operacijama projekta.
+description: Ovaj članak pruža informacije o ograničenjima koja se ne prekoračuju u usluzi Project Operations.
 author: rumant
 ms.date: 04/05/2021
 ms.topic: article

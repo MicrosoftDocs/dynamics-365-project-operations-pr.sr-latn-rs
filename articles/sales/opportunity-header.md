@@ -1,6 +1,6 @@
 ---
 title: Zaglavlje/rezime mogućnosti za poslovanje
-description: Ovaj članak pruža informacije o poslovima zasnovanim na projektu i redovima mogućnosti za poslovanje zasnovanim na projektu.
+description: Ovaj članak pruža informacije o pogodbama zasnovanim na projektu i stavkama mogućnosti za poslovanje zasnovanim na projektu.
 author: rumant
 ms.date: 10/01/2020
 ms.topic: article

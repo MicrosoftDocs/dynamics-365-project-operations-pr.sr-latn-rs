@@ -1,6 +1,6 @@
 ---
 title: Primena prilagođenih polja za Microsoft Dynamics 365 Project Timesheet aplikaciju za mobilne uređaje na platformama iOS i Android
-description: Ovaj članak obezbeđuje uobičajene obrasce za korišćenje proširenja za primenu prilagođenih polja.
+description: Ovaj članak pruža uobičajene obrasce za korišćenje ekstenzija za primenu prilagođenih polja.
 author: Yowelle
 ms.date: 05/29/2019
 ms.topic: article
@@ -26,7 +26,7 @@ ms.locfileid: "8913729"
 
 [!include [banner](../includes/banner.md)]
 
-Ovaj članak obezbeđuje uobičajene obrasce za korišćenje proširenja za primenu prilagođenih polja. Sledeći članci su obuhvaćeni:
+Ovaj članak pruža uobičajene obrasce za korišćenje ekstenzija za primenu prilagođenih polja. Obuhvaćeni su sledeći članci:
 
 - Različiti tipovi podataka koje prilagođeni okvir polja podržava
 - Kako na unosima vremenskog rasporeda prikazati polja samo za čitanje ili uređivanje i sačuvati vrednosti koje su obezbedili korisnici nazad u bazu podataka
@@ -35,7 +35,7 @@ Ovaj članak obezbeđuje uobičajene obrasce za korišćenje proširenja za prim
 
 ## <a name="audience"></a>Korisnici
 
-Ovaj članak je namenjen programerima koji integrišu svoja prilagođena polja u Microsoft Dynamics 365 Project Timesheet mobilnu aplikaciju koja je dostupna za Apple iOS i Google Android. Pretpostavlja se da su čitaoci upoznati sa X++ razvojem i funkcionalnošću vremenskog rasporeda projekta.
+Ovaj članak je namenjen programerima koji integrišu prilagođena polja u Microsoft Dynamics 365 Project Timesheet aplikaciju za mobilne uređaje koja je dostupna za Apple iOS i Google Android. Pretpostavlja se da su čitaoci upoznati sa X++ razvojem i funkcionalnošću vremenskog rasporeda projekta.
 
 ## <a name="data-contract--tstimesheetcustomfield-x-class"></a>Ugovor o podacima – TSTimesheetCustomField X++ klasa
 
@@ -64,7 +64,7 @@ Svojstvo **FieldBaseType** na objektu **TsTimesheetCustom** određuje tip polja 
 
 - Ako je svojstvo **stringOptions** navedeno na objektu **TSTimesheetCustomField**, ti elementi liste su jedine vrednosti koje korisnici mogu da izaberu pomoću dugmadi sa opcijama (radio dugmad).
 
-    U ovom slučaju, polje niza može delovati kao numerička vrednost u svrhu unosa korisnika. Da biste sačuvali vrednost u bazi podataka kao enum, ručno mapirajte vrednost niske na vrednost enuma pre nego što je sačuvate u bazi podataka koristeći lanac komandi (pogledajte odeljak "Korišćenje lanca komandi na TSTimesheetEntryService klasi da biste sačuvali stavku lista sa vremenom iz aplikacije nazad u bazu podataka" u kasnijem članku na primer).
+    U ovom slučaju, polje niza može delovati kao numerička vrednost u svrhu unosa korisnika. Da biste sačuvali vrednost u bazi podataka kao nabrajanje, ručno mapirajte vrednost niza na vrednost nabrajanja pre nego što je sačuvate u bazi podataka pomoću lanca komandi (kao primer, pogledajte odeljak „Upotreba lanca komandi u klasi TSTimesheetEntryService radi čuvanja stavke vremenskog rasporeda iz aplikacije nazad u bazu podataka“ kasnije u ovom članku).
 
 ### <a name="fieldextendedtype-tscustomfieldextendedtype"></a>fieldExtendedType (TSCustomFieldExtendedType)
 
@@ -106,7 +106,7 @@ Ovo svojstvo navodi oznaku koja se prikazuje pored polja u aplikaciji.
 
 ### <a name="stringoptions-list-of-strings"></a>stringOptions (List of Strings)
 
-Ovo svojstvo je primenljivo samo kada se **fieldBaseType** podesi na **Niz**. Ako je **stringOptions** postavljeno, vrednosti niza koje su dostupne za izbor preko opcionalnih dugmadi (radio dugmadi) određene su nizovima na listi. Ako nisu obezbeđene niske, dozvoljena je stavka slobodnog teksta u polju niske (pogledajte odeljak "Korišćenje lanca komandi na TSTimesheetEntryService klasi da biste sačuvali stavku lista sa vremenskim listom iz aplikacije nazad u bazu podataka" kasnije u ovom članku na primer).
+Ovo svojstvo je primenljivo samo kada se **fieldBaseType** podesi na **Niz**. Ako je **stringOptions** postavljeno, vrednosti niza koje su dostupne za izbor preko opcionalnih dugmadi (radio dugmadi) određene su nizovima na listi. Ako nisu obezbeđene niske, dozvoljen je unos slobodnog teksta u polje niske (kao primer, pogledajte odeljak „Upotrebite lanac komandi u klasi TSTimesheetEntryService da biste sačuvali stavku vremenskog rasporeda iz aplikacije nazad u bazu podataka“, kasnije u ovom članku).
 
 ### <a name="stringlength-int"></a>stringLength (int)
 

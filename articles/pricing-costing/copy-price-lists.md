@@ -1,6 +1,6 @@
 ---
 title: Kopiranje cenovnika
-description: Ovaj članak pruža informacije o kopiraju cenovnika u projektne operacije.
+description: Ovaj članak pruža informacije o načinu kopiranja cenovnika u usluzi Project Operations.
 author: rumant
 ms.date: 10/13/2020
 ms.topic: article

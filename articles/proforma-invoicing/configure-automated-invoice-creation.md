@@ -1,6 +1,6 @@
 ---
 title: Konfigurisanje automatskog kreiranja fakture
-description: Ovaj članak pruža informacije o tome kako da konfigurišete sistem za automatsko generisanje faktura.
+description: Ovaj članak pruža informacije o načinima konfigurisanja sistema za automatsko generisanje faktura.
 author: rumant
 ms.date: 10/13/2020
 ms.topic: article

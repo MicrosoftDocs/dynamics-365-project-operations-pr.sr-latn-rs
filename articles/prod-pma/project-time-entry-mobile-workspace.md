@@ -26,7 +26,7 @@ ms.locfileid: "9029685"
 
 [!include [banner](../includes/banner.md)]
 
-Ovaj članak pruža informacije o mobilnom radnom **prostoru stavke** vremena projekta. Ovaj radni prostor omogućava korisnicima da unesu u sačuvaju vreme u projektu koristeći svoj mobilni uređaj.
+Ovaj članak pruža informacije o mobilnom radnom prostoru **stavke vremena projekta**. Ovaj radni prostor omogućava korisnicima da unesu u sačuvaju vreme u projektu koristeći svoj mobilni uređaj.
 
 Ovaj mobilni radni prostor je namenjen za upotrebu zajedno sa Dynamics 365 Unified Ops aplikacijom za mobilne uređaje. 
 
@@ -82,7 +82,7 @@ Ako je za vašu organizaciju primenjena verzija 1611 sa ispravkom 3 platforme il
 
 ## <a name="download-and-install-the-mobile-app"></a>Preuzmite i instalirajte aplikaciju za mobilne uređaje
 
-Preuzmite i instalirajte mobilnu aplikaciju za finansije i operacije:
+Preuzmite i instalirajte aplikaciju za mobilne uređaje za finansije i operacije:
 
 -   [Za Android telefone](https://go.microsoft.com/fwlink/?linkid=850662)
 -   [Za iPhone uređaje](https://go.microsoft.com/fwlink/?linkid=850663)

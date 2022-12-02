@@ -1,6 +1,6 @@
 ---
 title: Uređivanje potrebe za resursom
-description: Ovaj članak pruža informacije o ažuriranju informacija o zahtevu resursa.
+description: Ovaj članak pruža informacije o tome kako da ažurirate informacije zahteva za resursima.
 author: ruhercul
 ms.date: 10/01/2020
 ms.topic: article

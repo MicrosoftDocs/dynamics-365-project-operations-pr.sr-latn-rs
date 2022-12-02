@@ -1,6 +1,6 @@
 ---
 title: Integracija fakture dobavljača
-description: Ovaj članak pruža informacije o integraciji faktura dobavljača u projektne operacije.
+description: Ovaj članak pruža informacije o integraciji fakture dobavljača u Project Operations.
 author: sigitac
 ms.date: 04/27/2021
 ms.topic: article
@@ -34,7 +34,7 @@ U Project Operations, fakture dobavljača u vezi sa projektom objavljuju se kori
      > [!NOTE]
      > Detalji o fakturi dobavljača u Dataverse se ne mogu uređivati.
 
-Podskup za PDV, podskup dobavljača i druga finansijska knjiženja zapisuje se kao primenljivo u Dynamics 365 Finance kada se proknjiži faktura dobavljača.
+Pomoćna knjiga poreza, pomoćna knjiga dobavljača i druga finansijska knjiženja evidentiraju se prema potrebi u rešenju Dynamics 365 Finance kada se faktura dobavljača objavi.
 
 ![Integracija fakture dobavljača.](media/DW7VendorInvoice.png)
 

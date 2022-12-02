@@ -1,6 +1,6 @@
 ---
 title: Podesite stope naplate za rad
-description: Ovaj članak pruža informacije o tome kako da podesite stopu naplate rada u projektno poslovanje.
+description: Ovaj članak pruža informacije o tome kako postaviti stope naplate za rad u usluzi Project Operations.
 author: rumant
 ms.date: 04/07/2021
 ms.topic: article

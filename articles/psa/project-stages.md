@@ -1,6 +1,6 @@
 ---
 title: Tipovi faza projekata
-description: Ovaj članak pruža informacije o fazama projekta.
+description: Ovaj članak pruža informacije o stvarnim fazama projekta.
 author: ruhercul
 ms.custom:
 - dyn365-projectservice

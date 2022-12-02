@@ -1,6 +1,6 @@
 ---
 title: Stavka troška (lagana verzija)
-description: Ovaj članak pruža informacije o načinu rada sa stavkom troškova u raspoređivanju lite.
+description: Ovaj članak pruža informacije o tome kako raditi sa stavkom troška u jednostavnoj primeni.
 author: stsporen
 ms.date: 11/19/2020
 ms.topic: article

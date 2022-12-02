@@ -1,6 +1,6 @@
 ---
 title: Konfigurišite naplative komponente stavke ponude
-description: Ovaj članak pruža informacije o podešavanju komponenti koje se naplaćuju i koje se ne naplaćuju u redu ponude zasnovane na projektu.
+description: Ovaj članak pruža informacije o podešavanju naplativih i nenaplativih komponenata na liniji ponude zasnovanoj na projektu.
 author: rumant
 ms.date: 03/30/2021
 ms.topic: article

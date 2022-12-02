@@ -1,6 +1,6 @@
 ---
 title: Kreiranje prilagođenih polja i entiteta kao dimenzije za određivanje cena
-description: Ovaj članak pruža informacije o kreiranju prilagođenih skupova opcija ili entiteta.
+description: Ovaj članak pruža informacije o tome kako da kreirate prilagođene skupove opcija ili entitete.
 author: rumant
 ms.date: 11/18/2020
 ms.topic: article

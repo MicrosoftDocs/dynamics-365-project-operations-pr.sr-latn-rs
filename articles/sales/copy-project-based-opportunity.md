@@ -1,6 +1,6 @@
 ---
 title: Kopiranje mogućnosti za poslovanje zasnovanih na projektu
-description: Ovaj članak pruža informacije o kopiranju mogućnosti za projektne mogućnosti u projektne operacije.
+description: Ovaj članak pruža informacije o kopiranju mogućnosti za poslovanje zasnovanih na projektu u usluzi Project Operations.
 author: rumant
 ms.date: 10/09/2020
 ms.topic: article

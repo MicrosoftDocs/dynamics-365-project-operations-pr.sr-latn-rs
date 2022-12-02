@@ -1,6 +1,6 @@
 ---
 title: Uvoz i održavanje transakcija kreditnim karticama
-description: Ovaj članak sadrži objašnjenja o načinu uvoza i održavanja transakcija kreditnim karticama vezanim za troškove. Ove transakcije se mogu podesiti tako da se automatski uvoze po redovnom rasporedu ili se mogu ručno uvesti po potrebi.
+description: Ovaj članak objašnjava kako da uvedete i održavate transakcije kreditne kartice povezane sa troškovima. Ove transakcije se mogu podesiti tako da se automatski uvoze po redovnom rasporedu ili se mogu ručno uvesti po potrebi.
 author: KimANelson
 ms.date: 01/12/2018
 ms.topic: article

@@ -1,6 +1,6 @@
 ---
 title: Podesite uloge na predlošcima strukturne analiza posla
-description: Ovaj članak pruža informacije o podešavanju informacija o ulozi u predlošcima strukture radne analize.
+description: Ovaj članak pruža informacije o postavljanju informacija o ulogama na predlošcima strukturne analize posla.
 author: Yowelle
 ms.date: 09/01/2020
 ms.topic: article

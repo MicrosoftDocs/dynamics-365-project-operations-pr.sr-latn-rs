@@ -1,6 +1,6 @@
 ---
 title: Podešavanje prilagođenih polja kao dimenzija za određivanje cena
-description: Ovaj članak pruža informacije o tome kako da podesite dimenzije cena pomoću prilagođenih polja.
+description: Ovaj članak pruža informacije o tome kako da podesite dimenzija za određivanje cena pomoću prilagođenih polja.
 author: rumant
 ms.date: 09/18/2020
 ms.topic: article
@@ -26,9 +26,9 @@ ms.locfileid: "8917593"
 
 _**Odnosi se na:** Project Operations za scenarije zasnovane na resursima/bez zaliha, jednostavna primena – od pogodbe do profakture_
 
-Pre nego što počnete, ovaj članak pretpostavlja da ste dovršili procedure u člancima, [kreirajte prilagođena polja i entitete i dodajte potrebna prilagođena polja](create-custom-fields-entities-pricing-dimensions.md)[u podešavanje cena i transakcione entitete](add-custom-fields-price-setup-transactional-entities.md). Ako niste završili te procedure, vratite se i dovršite ih, a zatim se vratite na ovaj članak. 
+Pre nego što počnete, ovaj članak pretpostavlja da ste dovršili procedure u člancima [Kreiranje prilagođenih polja i entiteta](create-custom-fields-entities-pricing-dimensions.md) i [Dodavanje obaveznih prilagođenih polja u podešavanje cena i entitete transakcije](add-custom-fields-price-setup-transactional-entities.md). Ako niste dovršili te procedure, vratite se i dovršite ih, a zatim se vratite na ovaj članak. 
 
-Ovaj članak pruža informacije o podešavanju prilagođenih dimenzija cena. Na stranici **Parametri**, na kartici **Dimenzije za određivanje cena zasnovane na iznosima**, prikazuju se zapisi u entitetima dimenzije za određivanje cena. Na mreži se na ovoj kartici podrazumevano nalaze dva reda u mreži:
+Ovaj članak pruža informacije o podešavanju prilagođenih dimenzija za određivanje cena. Na stranici **Parametri**, na kartici **Dimenzije za određivanje cena zasnovane na iznosima**, prikazuju se zapisi u entitetima dimenzije za određivanje cena. Na mreži se na ovoj kartici podrazumevano nalaze dva reda u mreži:
 
 - **msdyn_resourcecategory** (uloga)
 - **msdyn_OrganizationalUnit** (organizaciona jedinica)

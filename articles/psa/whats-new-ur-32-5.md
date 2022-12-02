@@ -1,6 +1,6 @@
 ---
 title: Šta je novo ili promenjeno u izdanju 32.5 ispravke usluge Project Service Automation verzije 3
-description: Ovaj članak navodi funkcije i ispravke koje su dostupne u izdanju za ažuriranje automatizacije usluge projekta 32.5, V3.
+description: U ovom članku date su funkcije i ispravke koje su dostupne u izdanju 32.5 ispravke za Project Service Automation u verziji 3.
 author: ruhercul
 ms.custom: dyn365-projectservice
 ms.date: 06/21/2021
@@ -29,7 +29,7 @@ ms.locfileid: "8918789"
 
 Zadovoljstvo nam je da najavimo najnoviju ispravku za aplikaciju Microsoft Dynamics 365 Project Service Automation. Ovo izdanje uključuje neka važna poboljšanja u kvalitetu, performansama i upotrebljivosti. Kompatibilna je sa sistemom Dynamics 365 9.x. Da biste se ažurirali na ovo izdanje, posetite stranicu centra administracije za Dynamics 365 mrežna rešenja i instalirajte ispravku. Za još informacija pogledajte članak [Instaliranje, ispravka ili uklanjanje željenog rešenja](/power-platform/admin/install-remove-preferred-solution).
 
-Ovaj članak navodi funkcije i ispravke koje su nove ili promenjene za V3 za automatizaciju projektne usluge, izdanje za ažuriranje 32.5. Ova verzija ima broj verzije 3.10.53.231 i opšte je dostupna putem samostalnog ažuriranja u junu 2021.
+U ovom članku date su funkcije i ispravke koje su nove ili promenjene u rešenju Project Service Automation u verziji 3, izdanje ispravke 32.5. Ova verzija ima broj verzije 3.10.53.231 i opšte je dostupna putem samostalnog ažuriranja u junu 2021.
 
 ## <a name="update-release-325"></a>Izdanje ispravke 32.5
 

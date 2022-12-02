@@ -1,6 +1,6 @@
 ---
 title: Troškovi i prihod projekta
-description: Ovaj članak pruža informacije o proceni troškova projekta i prihoda.
+description: Ovaj članak pruža informacije o proceni troškova i prihoda projekta.
 author: ruhercul
 ms.custom:
 - dyn365-projectservice

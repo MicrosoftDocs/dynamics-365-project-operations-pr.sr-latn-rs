@@ -1,6 +1,6 @@
 ---
 title: Predmet podugovora za proizvode
-description: Ovaj članak sadrži objašnjenja o tome kako da zapušite redove podizvođača za proizvode i koristite razna polja za zapisivanje nabavki proizvoda od dobavljača.
+description: Ovaj članak objašnjava kako evidentirati predmete podugovora za proizvode i koristiti različita polja za beleženje kupovine proizvoda od prodavaca.
 author: rumant
 ms.date: 09/14/2022
 ms.topic: article

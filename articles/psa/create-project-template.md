@@ -35,21 +35,21 @@ Predlošci projekta vam štede vreme ako vaše preduzeće redovno licitira za sl
 ## <a name="components-of-project-template"></a>Komponente predloška projekta
  Predložak projekta se sastoji od tri komponente:  
   
-- **Strukturna analiza posla**: Strukturna analiza posla u predlošku projekta ima isti skup elemenata kao i projekat. Možete da kreirate hijerarhiju zadataka, povežete uloge sa zadatkom, definišete atribute rasporeda, postavite zavisnosti i prikažete sve podatke u gantu. Struktura analize rada u predlošcima projekata takođe podržava režime zadataka za svaki zadatak. Prilikom kreiranja radnog rasporeda ne postoji razlika između predloška projekta i projekta.  
+- **Strukturna analiza posla**: Strukturna analiza posla u predlošku projekta ima isti skup elemenata kao i projekat. Možete da kreirate hijerarhiju zadatka, povezujete uloge sa zadatkom, definišete raspored atributa, postavljate zavisnosti i pregledate sve podatke u gantogramu. Strukturna analiza posla u predlošcima projekta takođe podržava režime zadataka za svaki zadatak. Nema razlike između predloška projekta i projekta prilikom kreiranja radnog rasporeda.  
   
 - **Procene za projekat**: Procene za projekat u predlošcima funkcionišu na isti način kao u projektima, osim što su cenovnici sa podrazumevanim cenama troškova i prodajnim cenama uvek podrazumevani cenovnici troškova i prodaje definisani u [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)] parametrima. Ostale funkcionalnosti su iste kao u projektu.  
   
 - **Formiranje projektnog tima**: Kada formirate projektni tim za predložak projekta, ne možete rezervisati imenovani resurs u predlošku. Možete da koristite **Generisanje projektnog tima** u strukturnoj analizi posla da biste generisali skup generičkih resursa. Takođe možete navesti potrebne veštine i stručnosti za generičke resurse. U predlošcima projekta nije moguće zameniti generički resurs resursom koji može da se rezerviše.  
 
 ## <a name="create-a-project-template-from-an-existing-project"></a>Kreiranje predloška projekta od postojećeg projekta
-Predložak projekta možete kreirati od projekta na sledeće načine:
+Predložak projekta možete da kreirate iz projekta na sledeće načine:
 
-- **Struktura analize rada**: Struktura analize rada u predlošku koji je izveden iz projekta kopiraće sve zadatke i zavisnosti. Kreirane dodele će biti zasnovane na generičkim članovima tima koji se dodaju projektskom timu kada se kreira predložak projekta.
+- **Strukturna analize posla**: Strukturna analiza posla u predlošku koji je izveden iz projekta kopiraće sve zadatke i zavisnosti. Kreirane dodele biće zasnovane na generičkim članovima tima koji se dodaju projektnom timu kada se kreira predložak projekta.
 - **Procene projekta**: Kada se predložak projekta kreira iz postojećeg projekta, procene iz izvornog projekta se kopiraju u predložak projekta.
-- **Članovi projektnog** tima: Kada se predložak kreira iz postojećeg projekta, svi imenovani članovi tima biće zamenjeni generičkim resursom organizacije. Održavaju se sva imena pozicija i uloge.
+- **Članovi projektnog tima**: Kada se predložak kreira iz postojećeg projekta, svi imenovani članovi tima biće zamenjeni generičkim resursom organizacije. Održavaju se svi nazivi pozicija i uloge.
 
 ## <a name="create-a-project-from-a-template"></a>Kreiranje projekta iz predloška  
- Projekat možete da kreirate od predloška na sledeće načine:  
+ Projekat iz predloška možete da kreirate na sledeće načine:  
   
 -   Kada kreirate projekat iz ponude, možete odabrati predložak projekta u obrascu za brzo kreiranje projekta.  
   

@@ -1,6 +1,6 @@
 ---
 title: Prijem stavki po narudžbenici iz zahteva za stavku
-description: Ovaj članak sadrži objašnjenja o tome kako da primite artikle iz izlazne porudžbine iz zahteva artikla.
+description: Ovaj članak objašnjava kako da primite stavke na narudžbenici iz zahteva za stavku.
 author: Yowelle
 ms.date: 08/06/2019
 ms.topic: business-process
@@ -24,7 +24,7 @@ ms.locfileid: "8929553"
 
 [!include [banner](../../includes/banner.md)]
 
-Ovaj članak sadrži objašnjenja o tome kako da primite artikle iz izlazne porudžbine iz zahteva artikla.
+Ovaj članak objašnjava kako da primite stavke na narudžbenici iz zahteva za stavku.
 
 Korišćenjem zahteva za stavku umesto transakcije sa stavkom, možete da planirate isporuku neposredno pre nego što se stavka stvarno koristi, kreirate narudžbenicu, stavku uključite u okvir trgovinskog sporazuma i uključite zahtev za stavku u planiranje proizvodnje. 
 

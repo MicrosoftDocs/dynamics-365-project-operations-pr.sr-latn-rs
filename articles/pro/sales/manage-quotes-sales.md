@@ -33,7 +33,7 @@ Lista svih ponuda za projekat može se videti na stranici liste **Ponude**.
 Ponude se mogu kreirati ili izbrisati sa ove stranice liste ili stranica sa detaljima.
 
  > [!NOTE]
- > Ponude koje imaju projekte, zadatke, procene, naloge i/ili stvarne podatke povezane sa njima ne mogu se izbrisati. Takođe, kada je ponuda zatvorena kao "Završeno" ili "Izgubljeno", ona se više ne može izbrisati ili izmeniti. 
+ > Ponude koje imaju projekte, zadatke, procene, dnevnike i/ili stvarne vrednosti povezane sa njima ne mogu se izbrisati. Takođe, kada je ponuda zatvorena kao Ostvarena ili Izgubljena, ona se više ne može izbrisati ili izmeniti. 
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -1,6 +1,6 @@
 ---
 title: Pregled upravljanja projektima
-description: Ovaj članak pruža informacije o upravljanju projektima u Dynamics 365 Project Operations.
+description: Ovaj članak pruža informacije o upravljanju projektima u usluzi Dynamics 365 Project Operations.
 author: ruhercul
 ms.date: 10/06/2020
 ms.topic: overview

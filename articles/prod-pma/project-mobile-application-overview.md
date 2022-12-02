@@ -1,6 +1,6 @@
 ---
 title: Pregled projekata aplikacija za mobilne uređaje
-description: Ovaj članak pruža opšte informacije o aplikacijama vezanim za Microsoft Dynamics 365 Project Timesheet vreme projekta za, Stavku vremena projekta i moje listove sa vremenom/listove sa vremenom koji su dostupni na mobilnom uređaju.
+description: 'Ovaj članak pruža opšte informacije o aplikacijama projekta koje se odnose na vreme: Microsoft Dynamics 365 Project Timesheet, Stavka vremena projekta i Moji vremenski rasporedi / Vremenski rasporedi, koje su dostupne na mobilnom uređaju.'
 author: Yowelle
 ms.date: 05/28/2019
 ms.topic: overview
@@ -29,15 +29,15 @@ Dostupne su tri aplikacije za mobilne uređaje koje su povezane sa vremenom proj
 
 ## <a name="project-timesheet-mobile-app"></a>Aplikacija za mobilne uređaje Project Timesheet
 
-Aplikacija za mobilne uređaje Dynamics 365 Project Timesheet omogućava korisnicima da predaju i odobre radne listove za projekte na svom mobilnom uređaju. Ova mobilna aplikacija isplivava na površinu funkcionalnosti lista sa vremenom u oblasti upravljanja projektima i knjigovodstvene Dynamics 365 Finance. Ona pomaže u poboljšanju korisničke produktivnosti i efikasnosti, a takođe pomaže u pravovremenom unosu i odobravanju vremenskih rasporeda projekata.
+Aplikacija za mobilne uređaje Dynamics 365 Project Timesheet omogućava korisnicima da predaju i odobre radne listove za projekte na svom mobilnom uređaju. Ova aplikacija za mobilne uređaje pokriva funkcionalnost vremenskog rasporeda u oblasti upravljanja projektima i računovodstva u usluzi Dynamics 365 Finance. Ona pomaže u poboljšanju korisničke produktivnosti i efikasnosti, a takođe pomaže u pravovremenom unosu i odobravanju vremenskih rasporeda projekata.
 
 ## <a name="project-time-entry-workspace"></a>Radni prostor za stavku vremena projekta
 
-Radni prostor za stavku vremena projekta omogućava korisnicima da unesu i uštede vreme u odnosu na projekat. Međutim, ne dozvoljava korisnicima da prosleđuju ili odobravaju vremenske rasporede projekata. Može se koristiti samo za unos vremena. Ovaj mobilni radni prostor namenjen je za upotrebu zajedno sa mobilnom aplikacijom za finansije i operacije.
+Radni prostor za stavku vremena projekta omogućava korisnicima da unesu i uštede vreme u odnosu na projekat. Međutim, ne dozvoljava korisnicima da prosleđuju ili odobravaju vremenske rasporede projekata. Može se koristiti samo za unos vremena. Ovaj mobilni radni prostor je namenjen za upotrebu zajedno sa aplikacijom za finansije i operacije za mobilne uređaje.
 
 ## <a name="my-timesheetstimesheets-for-my-review"></a>Moji vremenski rasporedi / Vremenski rasporedi za moj pregled
 
-Moji vremenski rasporedi (optimizovani za mobilne uređaje) i vremenski rasporedi za moj pregled (optimizovani za mobilne uređaje) čine rešenje koje omogućava zaposlenima da kreiraju, predaju i odobre vremenske rasporede projekata na mobilnom uređaju. Radnici mogu pristupiti funkcionalnosti usluge Finance putem URL adrese za aplikaciju. Ovo rešenje ne zahteva mobilnu aplikaciju za finansije i operacije.
+Moji vremenski rasporedi (optimizovani za mobilne uređaje) i vremenski rasporedi za moj pregled (optimizovani za mobilne uređaje) čine rešenje koje omogućava zaposlenima da kreiraju, predaju i odobre vremenske rasporede projekata na mobilnom uređaju. Radnici mogu pristupiti funkcionalnosti usluge Finance putem URL adrese za aplikaciju. Ovo rešenje ne zahteva aplikaciju za finansije i operacije za mobilne uređaje.
 
 ## <a name="for-more-information"></a>Za više informacija
 

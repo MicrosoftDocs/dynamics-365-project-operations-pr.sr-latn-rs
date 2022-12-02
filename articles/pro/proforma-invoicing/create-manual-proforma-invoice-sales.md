@@ -1,6 +1,6 @@
 ---
 title: Predračuni za projekat
-description: Ovaj članak pruža informacije o proforma projektne fakture u projektne operacije.
+description: Ovaj članak pruža informacije o predračunima za projekat u usluzi Project Operations.
 author: rumant
 ms.date: 04/06/2021
 ms.topic: article

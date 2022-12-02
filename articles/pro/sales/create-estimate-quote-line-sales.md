@@ -1,6 +1,6 @@
 ---
 title: Procena stavke ponude zasnovane na projektu
-description: Ovaj članak pruža informacije o kreiranju procene u redu ponude zasnovanoj na projektu.
+description: Ovaj članak pruža informacije o tome kako da kreirate procenu na stavci ponude zasnovane na projektu.
 author: rumant
 ms.date: 04/01/2021
 ms.topic: article

@@ -1,6 +1,6 @@
 ---
 title: Podešavanje kilometraže pomoću nivoa kilometraže
-description: Ovaj članak pruža informacije o kilometraži i kilometraži.
+description: Ovaj članak pruža informacije o kilometraži i nivoima kilometraže.
 author: suvaidya
 ms.date: 05/20/2021
 ms.topic: article
@@ -50,15 +50,15 @@ Funkcija **Izračunavanje kilometraže za više nivoa pređenih kilometara sa is
 
 Kada omogućite funkciju, resetujte nivoe kilometraže da pravilno odražavaju vrednost polja **Količina**. 
 
-## <a name="enable-the-mileage-totals-calculation-by-fiscal-year-feature"></a>Omogućavanje izračunavanja zbirova kilometraže pomoću fiskalna godina funkcije
+## <a name="enable-the-mileage-totals-calculation-by-fiscal-year-feature"></a>Omogućavanje izračunavanje ukupne kilometraže prema funkciji fiskalne godine
 
-Funkcija **"Kilometraža" sabira izračunavanje po fiskalna godina** omogućava novu postavku u parametrima upravljanja troškovima koja izvršava izračunavanja zbirova kilometraže za fiskalna godina umesto u kalendarskoj godini. Dovršite sledeće korake da biste omogućili ovu funkciju.
+Funkcija **Ukupno izračunavanje kilometraže po fiskalnoj godini** omogućava novu postavku u parametrima upravljanja troškovima koja obavlja izračunavanja ukupne kilometraže za fiskalnu godinu umesto u kalendarskoj godini. Dovršite sledeće korake da biste omogućili ovu funkciju.
 
 1. Idite na stavku **Radni prostori** > **Upravljanje funkcijama**.
-1. Na listi pronađite i izaberite stavku Izračunavanje **zbirova kilometraže po fiskalna godina, a zatim** kliknite na dugme Omogući **odmah**.
-1. Idite na parametre **opšteg upravljanja** > **·** > **troškovima** > **za upravljanje troškovima**.
-1. Na stranici **Parametri upravljanja troškovima** pronađite i omogućite korišćenje **fiskalna godina za zbirove kilometraže**.
+1. Na listi pronađite i izaberite **Izračunavanje ukupne kilometraže po fiskalnoj godini**, a zatim izaberite **Omogući odmah**.
+1. Idite na **Upravljanje troškovima** > **Instalacija** > **Opšti podaci** > **Parametri upravljanja troškovima**.
+1. Na stranici **Parametri upravljanja troškovima** pronađite i omogućite **Korišćenje fiskalne godine za ukupnu kilometražu**.
 
-Nakon što omogućite **korišćenje fiskalna godina za zbirove kilometraže**, zbirove kilometraže izračunavaju fiskalna godina.
+Kada omogućite **Korišćenje fiskalne godine za ukupnu kilometražu**, ukupna kilometraža se izračunava po fiskalnoj godini.
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

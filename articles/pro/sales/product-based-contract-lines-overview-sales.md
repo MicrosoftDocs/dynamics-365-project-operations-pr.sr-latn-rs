@@ -1,6 +1,6 @@
 ---
 title: Pregled predmeta ugovora zasnovanih na proizvodu – jednostavno
-description: Ovaj članak pruža informacije o redovima ugovora zasnovanim na proizvodu.
+description: Ovaj članak pruža informacije o predmetima ugovora zasnovanim na proizvodu.
 author: rumant
 ms.date: 10/07/2020
 ms.topic: overview

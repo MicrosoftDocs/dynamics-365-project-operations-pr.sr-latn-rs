@@ -26,7 +26,7 @@ ms.locfileid: "8916029"
 
 [!include [banner](../../includes/psa-now-project-operations.md)]
 
-Odeljci ovog članka pružaju informacije o promenama koje su izvršene u oblasti upravljanja resursima verzije Dynamics 365 Project Service Automation 3.x.
+Odeljci ovog članka pružaju informacije o promenama koje su izvršene u oblasti upravljanja resursima u usluzi Dynamics 365 Project Service Automation verzije 3.x.
 
 ## <a name="project-estimates"></a>Procene za projekat
 

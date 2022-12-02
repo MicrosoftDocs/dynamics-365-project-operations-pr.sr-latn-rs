@@ -1,6 +1,6 @@
 ---
 title: Formiranje cena za projekat
-description: Ovaj članak pruža informacije o načinu na koji cene funkcionišu Dynamics 365 Project Service Automation.
+description: Ovaj članak pruža informacije o načinu formiranja cena u aplikaciji Dynamics 365 Project Service Automation.
 author: rumant
 ms.custom:
 - dyn365-projectservice

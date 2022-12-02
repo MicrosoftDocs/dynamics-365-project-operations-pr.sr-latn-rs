@@ -1,6 +1,6 @@
 ---
 title: Dodeljivanje generičkih resursa koji se mogu rezervisati zadatku i projektnom timu
-description: Ovaj članak pruža informacije o rezervisanju generičkih resursa za zadatke i projektne timove.
+description: Ovaj članak pruža informacije o rezervisanju generičkih resursa za zadatke i timove projekta.
 author: JohnPBurrows
 ms.custom:
 - dyn365-projectservice

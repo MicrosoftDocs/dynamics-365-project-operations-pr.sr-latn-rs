@@ -1,6 +1,6 @@
 ---
 title: Podešavanje rasporeda avansa
-description: Ovaj članak pruža informacije o tome kako da podesite plan za zadržavanje u operacijama projekta.
+description: Ovaj članak pruža informacije o tome kako da podesite raspored avansa u usluzi Project Operations.
 author: rumant
 ms.date: 10/22/2020
 ms.topic: article

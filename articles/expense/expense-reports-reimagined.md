@@ -1,6 +1,6 @@
 ---
-title: Izveštaji o troškovima redizajnirani (sadrži video)
-description: Ovaj članak sadrži objašnjenja o redizajniranom i redizajniranom iskustvu za unos izveštaja o troškovima.
+title: Ponovno osmišljeni izveštaji o troškovima (sadrži video zapis)
+description: Ovaj članak objašnjava redizajnirano i prerađeno iskustvo za unos izveštaja o troškovima.
 author: suvaidya
 ms.date: 12/16/2021
 ms.topic: article
@@ -58,7 +58,7 @@ Da biste uključili novo iskustvo, koristite radni prostor **Upravljanje funkcij
 | Sačuvajte i dodajte nove stavke troškova | Dugmad **Sačuvaj** i **Novo** su dostupna kada se unose novi troškovi, što vam pomaže da brzo unesete stavke troškova. |
 | Bolja vidljivost na podeljene i razvrstane stavke | Razvrstane i podeljene stavke dodaju se direktno na listu troškova radi veće vidljivosti i pomoći će vam da lako utvrdite da li postoje greške. |
 | Pogledajte detalje o podkategorijama u detaljnim stavkama | Detaljne stavke nadređenog troška prikazuju oznake potkategorija u izveštaju o troškovima. Raščlanjavanje stavki omogućava vam da brzo pregledate granularne detalje.|
-|Brzo uvećavanje periodičnih troškova stavke | Redizajniran radni prostor troškova obezbeđuje mogućnost brzog artikla periodičnih troškova dodavanjem potkategorije, datuma početka i količine. Količina se odnosi na broj ponovljenih naplata tokom neprekidnog perioda. |
+|Brza podela periodičnih troškova | Redizajniran radni prostor troškova obezbeđuje mogućnost brze podele periodičnih troškova dodavanjem potkategorije, datuma početka i količine. Količina se odnosi na broj ponavljanja naplate tokom kontinuiranog perioda. |
 | Prikažite priznanice tokom razvrstavanja | Možete prikazivati priznanice tokom razvrstavanja. |
 | Izbor gotovinskog avansa | Izaberite jedan ili više gotovinskih avansa za ispunjavanje jedne transakcije troškova. |
 | Bilans gotovinskog avansa | Pregledajte bilans gotovinskog avansa u realnom vremenu kada kreirate unos troškova u odnosu na odobrene i plaćene gotovinske avanse. |

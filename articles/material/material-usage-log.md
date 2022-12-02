@@ -1,6 +1,6 @@
 ---
 title: Evidentiranje upotrebe materijala na projektima i projektnim zadacima
-description: Ovaj članak pruža informacije o tome kako da evidentirajte upotrebu materijala u odnosu na projekte i projektne zadatke.
+description: Ovaj članak pruža informacije o tome kako da evidentirate upotrebu materijala prema projektima i projektnim zadacima.
 author: rumant
 ms.date: 03/31/2021
 ms.topic: article

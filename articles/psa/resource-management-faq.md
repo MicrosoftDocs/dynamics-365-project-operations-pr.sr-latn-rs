@@ -1,6 +1,6 @@
 ---
 title: Najčešća pitanja o upravljanju resursima
-description: Ovaj članak pruža odgovore na najčešća pitanja o upravljanju resursima.
+description: Ovaj članak nudi odgovore na najčešća pitanja o upravljanju resursima.
 author: ruhercul
 ms.custom:
 - dyn365-projectservice

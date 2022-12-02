@@ -1,6 +1,6 @@
 ---
 title: Dnevnik integracije u usluzi Project Operations
-description: Ovaj članak pruža informacije o radu sa nalogom za integraciju u operacijama projekta.
+description: Ovaj članak pruža informacije o radu sa dnevnikom integracije u usluzi Project Operations.
 author: sigitac
 ms.date: 09/22/2022
 ms.topic: article
@@ -17,16 +17,16 @@ ms.locfileid: "9541095"
 
 _**Odnosi se na:** Project Operations za scenarije zasnovane na resursima / bez zaliha_
 
-Stavke vremena, troškova, naknade i materijala kreiraju **stvarne** transakcije koje predstavljaju operativni prikaz dovršenog rada u odnosu na projekat. Dynamics 365 Project Operations pruža računovođama alat za pregled transakcija i prilagođavanje računovodstvenih atributa po potrebi. Nakon završetka pregleda i prilagođavanja, transakcije se knjiže u potknjigu projekta i u glavnu knjigu. Knjigovođa može da obavlja ove aktivnosti koristeći nalog **za integraciju** operacija projekta (**Dynamics 365 Finance** > **Nalog za upravljanje i knjigovodstvene** > **naloge** > **projektnih operacija integracije**.
+Stavke vremena, troškova, naknade i materijala kreiraju transakcije **Stvarnih vrednosti** koje predstavljaju operativni prikaz na posao završen u odnosu na projekat. Dynamics 365 Project Operations pruža računovođama alat za pregled transakcija i prilagođavanje računovodstvenih atributa po potrebi. Nakon završetka pregleda i prilagođavanja, transakcije se knjiže u potknjigu projekta i u glavnu knjigu. Računovođa može da obavlja ove aktivnosti koristeći dnevnik **Project Operations integracija** (dnevnik **Dynamics 365 Finance** > **Upravljanje projektima i računovodstvo** > **Dnevnici** > **Project Operations integracija**).
 
 ![Tok dnevnika integracije.](./media/IntegrationJournal.png)
 
 ### <a name="create-records-in-the-project-operations-integration-journal"></a>Kreiranje zapisa u dnevniku integracije u usluzi Project Operations
 
-Zapisi u Project Operations dnevniku integracije kreiraju se periodičnim postupkom, **Uvoz iz pripremne tabele**. Ovaj proces možete pokrenuti tako što ćete iz **pripremne tabele Dynamics 365 Finance** > **upravljanje i knjigovodstvene** > **·** > **periodične integracije projektnih** > **operacija**. Proces možete pokrenuti interaktivno ili po potrebi konfigurisati postupak da se pokreće u pozadini.
+Zapisi u Project Operations dnevniku integracije kreiraju se periodičnim postupkom, **Uvoz iz pripremne tabele**. Možete pokrenuti ovaj proces tako što ćete otići na **Dynamics 365 Finance** > **Upravljanje projektima i računovodstvo** > **Periodično** > **Project Operations integracija** > **Uvoz iz pripremne tabele**. Proces možete pokrenuti interaktivno ili po potrebi konfigurisati postupak da se pokreće u pozadini.
 
 Kada se periodični proces pokrene, pronađu se sve stvarne vrednosti koje još nisu dodate u dnevnik integracije u usluzi Project Operations. Kreira se stavka u glavnoj knjizi za svaku stvarnu transakciju.
-Sistem grupira redove naloga u posebne naloge **na osnovu** vrednosti izabrane u jedinici perioda u polju "Integracija projektnih **operacija" (** > **Upravljanje projektima** > **·** > **finansija** i parametri obračunskog podešavanja projekta i računovodstveni parametri **,** Operacije projekta na Dynamics 365 Customer Engagement kartici). Moguće vrednosti za ovo polje uključuju:
+Sistem grupiše stavke u glavnoj knjizi u zasebne dnevnike na osnovu vrednosti izabrane u polju **Jedinica perioda u dnevniku integracije u usluzi Project Operations** (**Finance** > **Upravljanje projektima i računovodstvo** > **Podešavanje** > **Parametri upravljanja projektom i računovodstva**, kartica **Project Operations u usluzi Dynamics 365 Customer Engagement**). Moguće vrednosti za ovo polje uključuju:
 
   - **Dani**: Stvarne vrednosti su grupisane prema datumu transakcije. Zaseban dnevnik se kreira za svaki dan.
   - **Meseci**: Trenutno stanje je grupisano prema kalendarskom mesecu. Zaseban dnevnik se kreira za svaki mesec.
@@ -40,37 +40,37 @@ Stavke u glavnoj knjizi se kreiraju na osnovu stvarnih podataka o projektu. Sled
   - Polje **Vaučer** prikazuje broj vaučera za svaku stvarnu transakciju. Sekvenca brojeva vaučera se definiše na kartici **Sekvence brojeva** na stranici **Parametri upravljanja projektom i računovodstvom**. Svakom redu se dodeljuje novi broj. Kada se objavi vaučer, možete videti kako su povezani troškovi i transakcije nenaplaćene prodaje ako izaberete **Povezani vaučeri** na stranici **Transakcija vaučera**.
   - Polje **Kategorija** predstavlja projektnu transakciju i podrazumevane vrednosti na osnovu kategorije transakcije za povezanu stvarnu vrednost projekta.
     - Ako se **Kategorija transakcije** postavi u stvarnu vrednost projekta a povezana **Kategorija projekta** postoji u datom pravnom licu, podrazumevana vrednost kategorije je kategorija ovog projekta.
-    - Ako **kategorija transakcije** nije postavljena u stvarnom projektu, sistem koristi vrednost u **polju Podrazumevane vrednosti kategorije projekta** **na kartici "Operacije projekta" na kartici Dynamics 365 Customer Engagement na** **stranici "Upravljanje projektima i računovodstvenim parametrima**".
+    - Ako **Kategorija transakcije** nije postavljena u stvarnoj vrednosti projekta, sistem koristi vrednost u polju **Podrazumevane kategorije projekata** na kartici **Project Operations u usluzi Dynamics 365 Customer Engagement** na stranici **Parametri upravljanja projektom i računovodstvo**.
   - Polje **Resurs** predstavlja resurs projekta koji se odnosi na ovu transakciju. Resurs se koristi kao referenca u predlozima klijentima za projektne fakture.
-  - Podrazumevane **vrednosti polja** kursa valute iz **kursa valute** postavljene u Dynamics 365 Finance. Ako podešavanje deviznog kursa nedostaje, periodični proces **Uvoz iz pripremne tabele** neće dodati zapis u dnevnik, a poruka o grešci će biti dodata u dnevnik izvršavanja posla.
-  - Polje **Svojstvo stavke** predstavlja tip naplate u trenutnom stanju projekta. Svojstvo reda i mapiranje vrste naplate definisani su **na kartici "Operacije projekta Dynamics 365 Customer Engagement na** **stranici "Upravljanje projektima i računovodstveni parametri**".
+  - Polje **Kurs valute** uzima podrazumevane vrednosti iz skupa **Kursna lista za valute** u usluzi Dynamics 365 Finance. Ako podešavanje deviznog kursa nedostaje, periodični proces **Uvoz iz pripremne tabele** neće dodati zapis u dnevnik, a poruka o grešci će biti dodata u dnevnik izvršavanja posla.
+  - Polje **Svojstvo stavke** predstavlja tip naplate u trenutnom stanju projekta. Mapiranje svojstava linije i vrste obračuna definisano je na kartici **Project Operations u usluzi Dynamics 365 Customer Engagement** na stranici **Parametri upravljanja projektom i računovodstvom**.
 
 Samo se sledeći računovodstveni atributi mogu ažurirati u stavkama u glavnoj knjizi Project Operations integracije:
 
 - **Grupa za naplatu poreza na promet** i **Grupa za porez na promet stavki na računu**
 - **Finansijske dimenzije** (pomoću radnje **Raspodeli iznose**)
 
-Redovi naloga integracije se mogu izbrisati. Međutim, svi neproknjiženi redovi će ponovo biti umetnuti u nalog nakon što ponovo pokrenite periodični **proces** uvoza.
+Integracije stavki u glavnoj knjizi se mogu izbrisati. Međutim, sve neobjavljene stavke će se ponovo umetnuti u dnevnik nakon ponovnog pokretanja periodičnog procesa **Uvoz iz pripremne tabele**.
 
-### <a name="post-the-project-operations-integration-journal"></a>Knjiženje naloga integracije operacija projekta
+### <a name="post-the-project-operations-integration-journal"></a>Knjiženje dnevnika integracije za Project Operations
 
 Kada objavite dnevnik integracije, kreiraju se transakcije potknjige i glavne knjige projekta. One se koriste u posledičnom fakturisanju klijenata, priznavanju prihoda i finansijskom izveštavanju.
 
-Izabrani nalog integracije operacija projekta može biti proknjižen pomoću funkcije "Proknjiži" **na stranici** "Integracija operacija projekta". Svi nalozi se mogu automatski proknjižiti pokretanjem procesa u periodičnoj integraciji **operacija projekta** > **Proknjiži integraciju** > **projektnih operacija**.
+Izabrani dnevnik integracije za Project Operations može biti proknjižen koristeći **Knjiži** na stranici dnevnika integracije za Project Operations. Svi dnevnici se mogu automatski proknjižiti pokretanjem procesa **Periodično** > **Project Operations integracija** > **Proknjiži integraciju dnevnika za Project Operations**.
 
-Knjiženje se može izvršiti interaktivno ili u grupi. Imajte na kraju da će svi nalozi koji imaju više od 100 redova automatski biti proknjiženi u grupi. Za bolje performanse kada se nalozi koji imaju mnogo redova knjiže u grupi, omogućite nalog **integracije operacija projekta koristeći više funkcija grupnih zadataka** u **radnom prostoru za upravljanje** funkcijama. 
+Knjiženje se može izvršiti interaktivno ili u grupi. Imajte u vidu da će svi dnevnici koji imaju više od 100 redova automatski biti proknjiženi u grupi. Za bolje performanse kada se dnevnici koji imaju mnogo redova knjiže u grupi, omogućite funkciju **Proknjiži dnevnik integracija za Project Operations koristeći više grupnih zadataka** u radnom prostoru **Upravljanje funkcijama**. 
 
-#### <a name="transfer-all-lines-that-have-posting-errors-to-a-new-journal"></a>Prenos svih redova koji imaju greške prilikom knjiženja u novi nalog
+#### <a name="transfer-all-lines-that-have-posting-errors-to-a-new-journal"></a>Prenos svih redova koji imaju greške prilikom knjiženja u novi dnevnik
 
 > [!NOTE]
-> Da biste koristili ovu mogućnost, omogućite prenos svih **redova sa greškama u knjiženju u novu funkciju naloga integracije operacija** projekta u radnom **prostoru za** upravljanje funkcijama.
+> Da biste koristili ovu mogućnost, omogućite **Prenos svih redova sa greškama u knjiženju u novi dnevnik integracije za Project Operations** u radnom prostoru **Upravljanje funkcijama**.
 
-Ova funkcija pomaže u poboljšanju iskustva u dnevniku integracije operacija projekta. Kada je omogućeno, problemi sa dvostrukim upisivanja i problemi sa podešavanjem više ne sprečavaju knjiženje važećih naloga. Tokom knjiženja u nalog integracije operacija projekta, sistem proverava valjanost svakog reda u nalogu. Knjiži sve redove koji nemaju greške i kreira novi nalog za sve redove koji imaju greške u knjiženju.
+Ova funkcija pomaže u poboljšanju iskustva u dnevniku integracije za Project Operations. Kada je omogućeno, problemi sa dvostrukim upisivanjem i problemi sa podešavanjem više ne sprečavaju knjiženje važećih dnevnika. Tokom knjiženja u dnevnik integracije za Project Operations, sistem proverava ispravnost svakog reda u dnevniku. Knjiži sve redove koji nemaju greške i kreira novi dnevnik za sve redove koji imaju greške u knjiženju.
 
-Da biste pregledali naloge koji imaju redove greške prilikom knjiženja, idite u **nalog** \> **za integraciju projektnih** \> **operacija upravljanja** projektima i filtrirajte listu **naloga** pomoću polja Originalni nalog. Sledeća ilustracija prikazuje primer gde su na ovaj način filtrirani nalozi **u dnevniku** integracije operacija projekta.
+Da biste pregledali dnevnike koji imaju redove sa greškom prilikom knjiženja, idite u **Upravljanje projektima i računovodstvo** \> **Dnevnici** \> **Dnevnik integracije za Project Operations** i filtrirajte listu dnevnika koristeći polje **Originalni dnevnik**. Sledeća ilustracija prikazuje primer gde su na ovaj način filtrirani dnevnici na stranici **Dnevnik integracije za Project Operations**.
 
-![Originalni dnevnik prikazan na stranici "Integracija operacija projekta".](./media/transferLines-originalJournal.png)
+![Originalni dnevnik prikazan na stranici Dnevnik integracije za Project Operations.](./media/transferLines-originalJournal.png)
 
-Ako je periodična grupna obrada konfigurisana za knjiženje naloga integracije, knjiženje će biti ponovo u iskušenju, a nalozi će biti proknjiženi ako je problem sa vremenom rešen. Sve preostale dnevnike treba ručno istražiti pregledom evidencija i preduzimanjem bilo koje potrebne radnje.
+Ako je periodična grupna obrada konfigurisana za knjiženje dnevnika integracije, knjiženje će biti ponovo pokušano, a dnevnici će biti proknjiženi ako je problem tokom vremena rešen. Sve preostale dnevnike treba ručno istražiti pregledom evidencija i preduzimanjem bilo koje potrebne radnje.
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

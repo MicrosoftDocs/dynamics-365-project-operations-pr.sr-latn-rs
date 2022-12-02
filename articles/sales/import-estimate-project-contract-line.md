@@ -1,6 +1,6 @@
 ---
 title: Uvezite procenu u predmet ugovora zasnovan na projektu
-description: Ovaj članak pruža informacije o načinu uvoza procena iz projekta u red ugovora.
+description: Ovaj članak pruža informacije o načinu uvoza procena iz projekta u predmetu ugovora.
 author: rumant
 ms.date: 10/19/2020
 ms.topic: article

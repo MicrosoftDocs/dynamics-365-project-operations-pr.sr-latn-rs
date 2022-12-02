@@ -1,6 +1,6 @@
 ---
 title: Konfigurisanje internog fakturisanja između preduzeća
-description: Ovaj članak pruža informacije i primere o konfigurisanju međukompanijskog fakturisanja za projekte.
+description: Ovaj članak pruža informacije i primere o konfigurisanju internog fakturisanja između preduzeća za projekte.
 author: sigitac
 ms.date: 04/12/2021
 ms.topic: article
@@ -25,7 +25,7 @@ U sledećem primeru, Contoso Robotics USA (USPM) je pravno lice koje se zadužuj
 
 1. **Konfigurišite računovodstvo između preduzeća između pravnih lica**. Svaki par pravnih lica koja se zadužuju i pozajmljuju mora biti konfigurisan na stranici glavne knjige [Računovodstvo između preduzeća](/dynamics365/finance/general-ledger/intercompany-accounting-setup).
     
-    1. U Dynamics 365 Finance, idite na podešavanje knjiženja **glavne knjige** > **Međukompanijsko** > **knjigovodstvo**. Kreirajte zapis sa sledećim informacijama:
+    1. U usluzi Dynamics 365 Finance, idite na **Glavna knjiga** > **Podešavanje knjiženja** > **Računovodstvo između preduzeća**. Kreirajte zapis sa sledećim informacijama:
 
         - **Izvorno preduzeće** = **GBPM**
         - **Odredišno preduzeće** = **USPM**

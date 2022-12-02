@@ -1,6 +1,6 @@
 ---
 title: Ažuriranje atributa dodatnih komponenti sa novim aspektima za određivanje cena
-description: Ovaj članak pruža informacije o ažuriranju atributa dodatne komponente za dimenzije cena.
+description: Ovaj članak pruža informacije o tome kako da ažurirate atribute dodatnih komponenti za dimenzije određivanja cena.
 author: rumant
 ms.date: 11/18/2020
 ms.topic: article
@@ -15,13 +15,13 @@ ms.locfileid: "8920031"
 ---
 # <a name="update-plug-in-attributes-with-new-pricing-dimensions"></a>Ažurirajte atribute dodatnih komponenti sa novim aspektima za određivanje cena
 
-Ovaj članak pruža informacije o ažuriranju atributa dodatne komponente za dimenzije cena.
+Ovaj članak pruža informacije o tome kako da ažurirate atribute dodatnih komponenti za dimenzije određivanja cena.
 
 > [!NOTE]
-> Ovaj članak je primenljiv samo na funkcije ponude i ugovora u programu Dynamics 365 Project Operations.
+> Ovaj članak je primenljiv samo na funkcije ponude i ugovora u usluzi Dynamics 365 Project Operations.
 
 ## <a name="prerequisites"></a>Preduslovi
-Pre nego što dovršite korake iz ovog članka, morate dovršiti procedure u sledećim člancima:
+Pre nego što dovršite korake u ovom članku, morate dovršiti procedure u sledećim člancima:
 
   - [Kreiranje prilagođenih polja i entiteta](create-custom-fields-entities-pricing-dimensions.md) 
   - [Dodavanje prilagođenih polja u podešavanje cena i entitete transakcije ](add-custom-fields-price-setup-transactional-entities.md)

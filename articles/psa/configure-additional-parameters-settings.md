@@ -30,7 +30,7 @@ ms.locfileid: "8919249"
 
 [!INCLUDE[cc-applies-to-psa-app-1x-2x](../includes/cc-applies-to-psa-app-1x-2x.md)]
 
-Kada konfigurišete stavke u prethodnim člancima, potrebno je da podesite dodatne parametre projekta koje ćete koristiti za svoje projekte. Kada ste prvi put instalirali [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)], kreirali ste podešavanje parametara da prvo kreirate sve zapise potrebne kako bi [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)] funkcionisao. Sada je vreme da se vratite i konfigurišete dodatna polja za ova podešavanja.  
+Kada konfigurišete stavke u prethodnim člancima, treba da podesite dodatne parametre projekta koje ćete koristiti u projektima. Kada ste prvi put instalirali [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)], kreirali ste podešavanje parametara da prvo kreirate sve zapise potrebne kako bi [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)] funkcionisao. Sada je vreme da se vratite i konfigurišete dodatna polja za ova podešavanja.  
   
  Moraćete da konfigurišete sledeća podešavanja:  
   

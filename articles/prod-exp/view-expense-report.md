@@ -1,6 +1,6 @@
 ---
 title: Pogledajte izveštaj o troškovima iz glavne knjige ili nabavke i porekla
-description: Ovaj članak sadrži objašnjenja o tome kako da prikažete originalni izveštaj o troškovima na kojem se pojavila transakcija.
+description: Ovaj članak objašnjava kako pregledati originalni izveštaj o troškovima na kojem se pojavila transakcija.
 author: saraschi2
 ms.date: 02/26/2018
 ms.topic: article

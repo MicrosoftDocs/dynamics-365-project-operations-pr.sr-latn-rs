@@ -1,6 +1,6 @@
 ---
 title: Promene statusa na fakturi dobavljača
-description: Ovaj članak sadrži objašnjenja o prelazima stanja na fakturi dobavljača u korporaciji Microsoft Dynamics 365 Project Operations.
+description: Ovaj članak sadrži objašnjenja o prelazima statusa na fakturi dobavljača u rešenju Microsoft Dynamics 365 Project Operations.
 author: rumant
 ms.date: 03/30/2022
 ms.topic: article
@@ -17,20 +17,20 @@ ms.locfileid: "9261061"
 
 _**Odnosi se na:** Jednostavna primena – od pogodbe do profakture_
 
-Ovaj članak sadrži objašnjenja o prelazima stanja na fakturi dobavljača u korporaciji Microsoft Dynamics 365 Project Operations. Koriste se sledeće države: "Radna **verzija",** "U **pregledu", "** Potvrđeno **",** **"Na čekanju**" i "Otkazano **"**.
+Ovaj članak sadrži objašnjenja o prelazima statusa na fakturi dobavljača u rešenju Microsoft Dynamics 365 Project Operations. Koriste se sledeći statusi: **Radna verzija**, **U pregledu**, **Potvrđeno**, **Obustavljeno** i **Otkazano**.
 
-Sledeće ilustracije prikazuju državne tranzicije.
+Sledeće ilustracije prikazuju prelaze statusa.
 
-![Model tranzicije stanja podizvođaja.](../media/VI_State_Model.jpg)
+![Model prelaska statusa podugovora.](../media/VI_State_Model.jpg)
 
-Sledeća tabela sadrži objašnjenja o tome šta svaka država predstavlja u životnom ciklusu fakture dobavljača u operacijama projekta.
+Sledeća tabela sadrži objašnjenja o tome šta svaki status predstavlja u životnom ciklusu fakture dobavljača u Project Operations.
 
-| Stanje | Opis | Dozvoljeni prelazi |
+| Stanje | Opis | Dozvoljeni prelasci |
 | --- | --- | --- |
-| Radna verzija | Ovo stanje je početno stanje fakture dobavljača. Redovi i cene podležu izmenama. Faktura dobavljača u ovom stanju se može uređivati i brisati. | U toku je |
-| Pregleda se | Ovo stanje predstavlja stanje obrade fakture dobavljača. Najmanje jedan red fakture dobavljača ima status verifikacije u **toku**. | Potvrđeno, na čekanju |
-| Potvrđeno | Ovo stanje predstavlja fazu fakture dobavljača u kojoj je zatvaranje kreiralo stvarne troškove za svaki red fakture dobavljača. Sve povezane stvarne troškove koje su se podudarale sa redovima fakture dobavljača su stornirane i zamenjene stvarnim troškovima iz tih redova fakture dobavljača. Faktura dobavljača u ovom stanju ne može da se uređuje ili briše. Dugme "Otkaži" možete **koristiti** da biste otkazali potvrđenu fakturu dobavljača. Radnja "Otkaži" poništava uticaj radnje "Potvrdi". | Otkazana |
-| Na čekanju | <p>Ovo stanje predstavlja fazu fakture dobavljača u kojoj faktura dobavljača ne može da se premesti zbog problema sa fakturom ili statusom dobavljača. Faktura dobavljača u ovom stanju ne može biti potvrđena, otkazana, uređena ili izbrisana.</p><p>Radnju "Ponovo otvori" možete koristiti za premeštanje fakture dobavljača u radno **ili** in **review** stanje. Ako najmanje jedan red u fakturi dobavljača ima status provere "U **toku**" ili "**Dovršeno**", faktura dobavljača će biti ponovo otvorena u stanju **"U pregledu**". Ako svi redovi u fakturi dobavljača imaju status provere statusa "Nije započeto **", faktura** dobavljača će biti ponovo otvorena u radnoj **verziji stanja**.</p> | Radna verzija, u recenziji |
-| Otkazana | Ovo stanje predstavlja fazu podizvođača u kojoj stvarna isporuka materijala i/ili rad pomoću resursa podizvođača više nije potreban. Podizvođači u ovoj državi ne mogu da se koriste za procenu i korišćenje projekta osoblja za resurse i materijale, a takođe se ne mogu pominjati na vreme, troškove i korišćenje materijala na projektu. Podizvođači u ovom stanju ne mogu da se uređuju ili brišu. | Nijedno |
+| Radna verzija | Ovaj status je početni status fakture dobavljača. Redovi i cene podležu izmenama. Faktura dobavljača sa ovim statusom može se uređivati i izbrisati. | U obradi |
+| Pregleda se | Ovaj status predstavlja status obrade fakture dobavljača. Najmanje jedan red fakture dobavljača ima status verifikacije **U toku**. | Potvrđeno, obustavljeno |
+| Potvrđeno | Ovaj status predstavlja fazu fakture dobavljača u kojoj je aplikacija kreirala stvarne vrednosti cene za svaki red na fakturi dobavljača. Sve povezane stvarne vrednosti cena koje su se podudarale sa redovima na fakturi dobavljača su stornirane i zamenjene stvarnim vrednostima cena iz tih redova na fakturi dobavljača. Fakture dobavljača sa ovim statusom ne mogu se uređivati ili izbrisati. Možete koristiti dugme **Otkaži** da biste otkazali potvrđenu fakturu dobavljača. Radnja otkazivanja stornira uticaj radnje Potvrdi. | Otkazana |
+| Na čekanju | <p>Ovaj status predstavlja fazu fakture dobavljača u kojoj faktura dobavljača ne može da se premesti zbog problema sa fakturom ili statusom dobavljača. Faktura dobavljača u ovom statusu ne može da se potvrdi, otkaže, uredi ili izbriše.</p><p>Možete da koristite radnju Ponovo otvori da biste premestili fakturu dobavljača u status **Radna verzija** ili **U pregledu**. Ako najmanje jedan red na fakturi dobavljača ima status provere **U toku** ili **Dovršeno**, faktura dobavljača će biti ponovo otvorena u statusu **U pregledu**. Ako svi redovi na fakturi dobavljača imaju status provere **Nije započeto**, faktura dobavljača će biti ponovo otvorena u statusu **Radna verzija**.</p> | Radna verzija, U pregledu |
+| Otkazana | Ovaj status predstavlja fazu podugovora u kojoj stvarna isporuka materijala i/ili rad pomoću resursa podugovora više nije potrebna. Podugovor u ovom status ne može da se koristi za procenu i zahteve za osoblja na projektu za resurse i materijale, a takođe ne može da upućuje na vreme, troškove i korišćenje materijala na projektu. Podugovor sa ovim statusom ne može se uređivati ili izbrisati. | Nijedno |
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

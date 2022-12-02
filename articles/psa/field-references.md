@@ -1,6 +1,6 @@
 ---
 title: Dodavanje prilagođenih polja u podešavanje cena i entitete transakcije
-description: Ovaj članak pruža informacije o dodavanju prilagođenih polja u podešavanje cena i transakcionim entitetima.
+description: Ovaj članak pruža informacije o dodavanju prilagođenih polja u podešavanje cena i entitete transakcije.
 author: Rumant
 ms.custom:
 - dyn365-projectservice
@@ -27,9 +27,9 @@ ms.locfileid: "8920491"
 
 [!include [banner](../includes/psa-now-project-operations.md)]
 
-Ovaj članak pretpostavlja da ste dovršili procedure u članku Kreirajte prilagođena [polja i entitete](create-custom-fields-entities.md). Ako niste završili te procedure, vratite se i dovršite ih, a zatim se vratite na ovaj članak. 
+Ovaj članak pretpostavlja da ste dovršili procedure u članku [Kreiranje prilagođenih polja i entiteta](create-custom-fields-entities.md). Ako niste dovršili te procedure, vratite se i dovršite ih, a zatim se vratite na ovaj članak. 
 
-U ovom članku, procedure će vam pokazati kako da entitetima i elementima korisničkog interfejsa (korisničkog interfejsa) dodate potrebne reference na prilagođena polja, kao što su obrasci i prikazi.
+U ovom članku, procedure će vam pokazati kako možete da dodate zahtevane reference prilagođenog polja u entitete i elemente korisničkog interfejsa kao što su obrasci i prikazi.
 
 ## <a name="add-custom-pricing-dimension-fields"></a>Dodavanje prilagođenog polja dimenzija za određivanje cena 
 Nakon kreiranja prilagođenih polja i entiteta, sledeći korak jeste da podešavanje cena i transakcioni entiteti postanu svesni svih prilagođenih entiteta ili skupova opcija kreiranjem referentnih polja. U zavisnosti od toga da li lista dimenzija za određivanje cena uključuje dimenzije skupa opcija, dimenzije entiteta ili oboje, sledite samo korake u prilagođenim dimenzijama za određivanje cena **Prilagođene dimenzije za određivanje cena zasnovane na skupu opcija** ili **Prilagođene dimenzije za određivanje cena zasnovane na entitetu**.

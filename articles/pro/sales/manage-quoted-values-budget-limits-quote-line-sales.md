@@ -1,6 +1,6 @@
 ---
 title: Pregled stavki ponude zasnovane na projektu
-description: Ovaj članak pruža informacije o korišćenju redova ponude zasnovane na projektu za rad na projektu.
+description: Ovaj članak pruža informacije o korišćenju stavki ponude zasnovanim na projektu za rad na projektu.
 author: rumant
 ms.date: 03/30/2021
 ms.topic: overview

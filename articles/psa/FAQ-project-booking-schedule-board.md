@@ -1,6 +1,6 @@
 ---
 title: Kreiranje rezervacije u projektu iz tabele rasporeda
-description: Ovaj članak pruža informacije o kreiranju rezervacije projekta od table rasporeda.
+description: Ovaj članak pruža informacije o tome kako da kreirate rezervaciju u projektu na tabeli rasporeda.
 author: ruhercul
 ms.custom:
 - dyn365-projectservice

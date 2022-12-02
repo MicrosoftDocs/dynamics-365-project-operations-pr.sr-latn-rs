@@ -1,6 +1,6 @@
 ---
 title: Ponude – Ključni koncepti – jednostavno
-description: Ovaj članak pruža informacije o korišćenju ponuda za projekat u operacijama projekta.
+description: Ovaj članak pruža informacije o korišćenju ponuda za projekat u usluzi Project Operations.
 author: rumant
 ms.date: 10/01/2020
 ms.topic: article

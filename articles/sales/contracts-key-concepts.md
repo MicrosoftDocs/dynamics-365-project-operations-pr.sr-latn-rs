@@ -1,6 +1,6 @@
 ---
 title: Ugovori za projekat – Ključni koncepti
-description: Ovaj članak pruža informacije o ključnim konceptima projektnih ugovora u projektno poslovanje.
+description: Ovaj članak pruža informacije o ključnim konceptima ugovora za projekat u usluzi Project Operations.
 author: rumant
 ms.date: 10/07/2020
 ms.topic: article
@@ -19,11 +19,11 @@ _**Odnosi se na:** Project Operations za scenarije zasnovane na resursima / bez 
 
 
 
-Ovaj članak obezbeđuje ključne koncepte kojih treba da budete svesni pre nego što počnete da koristite projektne ugovore u Dynamics 365 Project Operations:
+U ovom članku dati su ključni koncepti kojih morate biti svesni pre nego što počnete da koristite projektne ugovore u Dynamics 365 Project Operations:
 
 ## <a name="owning-company"></a>Preduzeće-vlasnik
 
-Vlasnik preduzeća je pravno lice iz modula za upravljanje **projektima i računovodstvo** za projektno poslovanje iz Dynamics 365 Finance. Preduzeće-vlasnik predstavlja pravno lice koje će obračunati troškove i prihode nastale iz pogodbe.
+Preduzeće-vlasnik je pravno lice u modulu **Upravljanje projektima i računovodstvo** za Project Operations u usluzi Dynamics 365 Finance. Preduzeće-vlasnik predstavlja pravno lice koje će obračunati troškove i prihode nastale iz pogodbe.
 
 ## <a name="contracting-unit"></a>Jedinica ugovaranja
 

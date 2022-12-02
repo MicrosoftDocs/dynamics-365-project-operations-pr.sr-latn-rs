@@ -1,6 +1,6 @@
 ---
 title: Gotovinski avans
-description: Ovaj članak pruža informacije o gotovinskim avansima.
+description: Ovaj članak pruža informacije o akontacijama.
 author: suvaidya
 ms.date: 03/25/2021
 ms.topic: article
@@ -66,7 +66,7 @@ Pre nego što predate izveštaj o troškovima, možete da izaberete avans u goto
  
  Kada su ove funkcije omogućene:
  
-  - Za svaki red troškova možete dodati jedan ili više gotovinskih avansa.
+  - Možete dodati jedan ili više gotovinskih avansa za svaku stavku troška.
   - Dostupno stanje gotovinskog avansa vidljivo je u realnom vremenu kada se sačuva izveštaj o troškovima. Ovo vam omogućava istovremeno obrađivanje transakcija troškova i vraćanje gotovinskih transakcija.
   - Možete izabrati više gotovinskih avansa za jednu transakciju troška.
   - Podaci o sravnjenju gotovinskog avansa dostupni su pomoću upita. 

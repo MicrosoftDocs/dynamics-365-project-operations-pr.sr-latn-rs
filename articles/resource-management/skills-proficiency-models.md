@@ -1,6 +1,6 @@
 ---
 title: Veštine i certifikati
-description: Ovaj članak pruža informacije o dodavanju karakteristika veština i certifikacija resursima.
+description: Ovaj članak pruža informacije o dodavanju veština i karakteristika certifikovanja resursima.
 author: ruhercul
 ms.date: 10/01/2020
 ms.topic: article

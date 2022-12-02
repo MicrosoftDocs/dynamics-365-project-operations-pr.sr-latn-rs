@@ -1,6 +1,6 @@
 ---
 title: Kreirajte modele predviđanja za budžete projekata
-description: Ovaj članak opisuje kako se kreira model predviđanja za preostale budžete.
+description: Ovaj članak opisuje kako kreirati model predviđanja za preostale budžete.
 author: Yowelle
 ms.date: 04/24/2020
 ms.topic: article
@@ -26,7 +26,7 @@ ms.locfileid: "8916719"
 
 [!include [banner](../includes/banner.md)]
 
-Ovaj članak opisuje kako se kreira model predviđanja za preostale budžete. Projekat koji podleže budžetskoj kontroli koristi dve vrste budžeta: originalni i preostali. Kada kreirate budžet projekta, morate navesti modele predviđanja prvobitnog i preostalog budžeta koji su kreirani na stranici **Modeli predviđanja**. Budžeti projekata zasnovani na navedenim modelima kreiraju se kada dodelite budžet projekta.
+Ovaj članak opisuje kako kreirati model predviđanja za preostale budžete. Projekat koji podleže budžetskoj kontroli koristi dve vrste budžeta: originalni i preostali. Kada kreirate budžet projekta, morate navesti modele predviđanja prvobitnog i preostalog budžeta koji su kreirani na stranici **Modeli predviđanja**. Budžeti projekata zasnovani na navedenim modelima kreiraju se kada dodelite budžet projekta.
 
 > [!NOTE]
 > Model prognoze koji se koristi za kontrolu budžeta ne može da ima podmodel ili da se koristi kao podmodel.

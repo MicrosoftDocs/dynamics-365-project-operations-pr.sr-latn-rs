@@ -1,6 +1,6 @@
 ---
 title: Kreiranje rešenja za prilagođene dimenzije određivanja cena
-description: Ovaj članak pruža informacije o kreiranju rešenja za prilagođene dimenzije cena.
+description: Ovaj članak pruža informacije o tome kako da kreirate rešenja za prilagođene dimenzije određivanja cena.
 author: Rumant
 ms.date: 11/09/2020
 ms.topic: article

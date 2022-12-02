@@ -1,6 +1,6 @@
 ---
 title: Podešavanje resursa projekta
-description: Ovaj članak pruža informacije o podešavanju ili zahtevanju projektnog resursa.
+description: Ovaj članak pruža informacije o podešavanju ili zahtevanju resursa projekta.
 author: Yowelle
 ms.date: 09/01/2020
 ms.topic: article

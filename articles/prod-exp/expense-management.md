@@ -1,6 +1,6 @@
 ---
 title: Pregled upravljanja troškovima
-description: Ovaj članak pruža opšte informacije o upravljanju troškovima i veze ka dodatnim resursima. Upravljanje troškovima možete koristiti za kreiranje integrisanog toka posla u koji možete da skladištite informacije o načinu plaćanja, uvozite transakcije sa kreditnim karticama i pratite novac koji zaposleni troše kada naprave troškove za vaše preduzeće.
+description: Ovaj članak pruža opšte informacije o upravljanju troškovima i veze do dodatnih resursa. Upravljanje troškovima možete koristiti za kreiranje integrisanog toka posla u koji možete da skladištite informacije o načinu plaćanja, uvozite transakcije sa kreditnim karticama i pratite novac koji zaposleni troše kada naprave troškove za vaše preduzeće.
 author: ShylaThompson
 ms.date: 07/25/2019
 ms.topic: overview
@@ -43,7 +43,7 @@ Još informacija potražite u članku [Redizajnirani izveštaji o troškovima](E
 
 ### <a name="blogs"></a>Blogovi
 
-Mišljenja, novosti i druge informacije možete pronaći na [Microsoft Dynamics blogu 365 i](https://community.dynamics.com/b/msftdynamicsblog?c=Enterprise) blogu [Microsoft Dynamics 365 Finance - Financials](https://community.dynamics.com/365/financeandoperations/b/financials).
+Možete pronaći mišljenja, vesti i druge informacije na [Microsoft Dynamics 365 blogu](https://community.dynamics.com/b/msftdynamicsblog?c=Enterprise) i [Microsoft Dynamics 365 Finance – finansijskom blogu](https://community.dynamics.com/365/financeandoperations/b/financials).
 
 [Microsoft Dynamics Operations Partner Community blog](https://community.dynamics.com/partner/b/operationspartnercommunityblog) daje Microsoft Dynamics partnerima jedinstveni resurs gde mogu da nauče šta je novo i u trendu u odeljenju MBS Operations.
 

@@ -1,6 +1,6 @@
 ---
 title: Šta je novo u aprilu 2021. – jednostavna primena usluge Project Operations
-description: Ovaj članak pruža informacije o kvalitetnim ispravkama dostupnim u aprilu 2021.
+description: Ovaj članak pruža informacije o ispravkama kvaliteta dostupnim u jednostavnoj primeni izdanja Project Operations za april 2021. godine.
 author: sigitac
 ms.date: 04/07/2021
 ms.topic: article
@@ -18,7 +18,7 @@ ms.locfileid: "8931256"
 
 _Odnosi se na: Jednostavna primena – od pogodbe do profakture_
 
-Ovaj članak se odnosi na sledeće Dynamics 365 Project Operations komponente i verzije:
+Ovaj članak se odnosi na sledeće komponente i verzije usluge Dynamics 365 Project Operations:
 
   - Project Operations u Dataverse okruženju verzije 4.9.0.221 
 

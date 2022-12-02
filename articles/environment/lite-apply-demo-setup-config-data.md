@@ -1,6 +1,6 @@
 ---
 title: Primena demo podešavanja i podataka o konfiguraciji – jednostavno
-description: Ovaj članak pruža informacije o primeni podataka o podešavanju demonstracije i konfiguraciji za operacije projekta.
+description: Ovaj članak pruža informacije o tome kako da primenite demo podešavanja i podatke o konfiguraciji za Project Operations.
 author: sigitac
 ms.date: 01/27/2021
 ms.topic: article
@@ -8,7 +8,7 @@ ms.reviewer: johnmichalak
 ms.author: sigitac
 ms.openlocfilehash: 9a3a99c326b7ebbdfa859c3298b35e910af0eb2a
 ms.sourcegitcommit: 16c9eded66d60d4c654872ff5a0267cccae9ef0e
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: sr-Latn-RS
 ms.lasthandoff: 09/07/2022
 ms.locfileid: "9410051"
@@ -21,7 +21,7 @@ _**Jednostavna primena – od pogodbe do profakture_
 
 ## <a name="prerequisites"></a>Preduslovi
 
-Pre nego što započnete konfiguraciju, morate imati Dataverse okruženje obezbeđeno za Dynamics 365 Project Operations.
+Pre nego što započnete konfiguraciju, morate imati Dataverse okruženje predviđeno za Dynamics 365 Project Operations.
 
 
 ## <a name="instructions"></a>Uputstva

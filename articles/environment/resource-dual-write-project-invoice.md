@@ -1,6 +1,6 @@
 ---
 title: Integracija faktura projekta
-description: Ovaj članak pruža informacije o integraciji dvostrukog pisanja operacija projekta za fakturisanje klijenata.
+description: Ovaj članak pruža informacije o integraciji fakturisanja klijenta u Project Operations pomoću dvostrukog upisivanja.
 author: sigitac
 ms.date: 04/26/2021
 ms.topic: article
@@ -16,14 +16,14 @@ ms.locfileid: "9029041"
 ---
 # <a name="project-invoice-integration"></a>Integracija faktura projekta
 
-Ovaj članak pruža informacije o integraciji dvostrukog pisanja operacija projekta za fakturisanje klijenata.
+Ovaj članak pruža informacije o integraciji fakturisanja klijenta u Project Operations pomoću dvostrukog upisivanja.
 
-U Project Operations, menadžer projekta upravlja zaostatkom u fakturisanju projekata i kreira predračun za klijenta u Microsoft Dataverse. Na osnovu ove predračune, službenik za potraživanja ili knjigovođa na projektu kreira fakturu prema klijentima. Integracija sa dva pisanja obezbeđuje da se detalji proforma fakture sinhronizuju sa aplikacijama za finansiranje i operacije. Nakon što se knjiži faktura za klijenta, sistem ažurira relevantne činjenice o projektu u Dataverse sa detaljima računovodstva. Sledeća grafika daje konceptualni pregled ove integracije na visokom nivou.
+U Project Operations, menadžer projekta upravlja zaostatkom u fakturisanju projekata i kreira predračun za klijenta u Microsoft Dataverse. Na osnovu ove predračune, službenik za potraživanja ili knjigovođa na projektu kreira fakturu prema klijentima. Integracija dvostrukog pisanja osigurava da se detalji predračuna sinhronizuju sa aplikacijama za finansije i aplikacije. Nakon što se knjiži faktura za klijenta, sistem ažurira relevantne činjenice o projektu u Dataverse sa detaljima računovodstva. Sledeća grafika daje konceptualni pregled ove integracije na visokom nivou.
 
    ![Integracija faktura projekta.](./media/DW5Invoicing.png)
 
-Nakon što menadžer projekta potvrdi proforma fakturu u programu, informacije o zaglavlju proforma fakture sinhronizuju se sa finansiranjem i operacijama aplikacija pomoću mape tabele za dvostruko pisanje, Dataverse predloga **fakture projekta V2 (fakture)**. Ovo je jednosmerna integracija iz aplikacija Dataverse za finansije i operacije. Kreiranje ili brisanje predloga faktura projekta direktno u aplikacijama za finansije i operacije nije podržano.
+Nakon što menadžer projekta potvrdi predračun u Dataverse, informacije o zaglavlju predračuna se sinhronizuju sa aplikacijama za finansije i operacije koje koriste mapu tabela dvostrukog upisivanja, **Predlog projektne fakture V2 (fakture)**. Ovo je jednosmerna integracija iz usluge Dataverse u aplikacije za finansije i operacije. Kreiranje ili brisanje predloga projektnih faktura direktno u aplikacijama za finansije i operacije nije podržano.
 
-Potvrda računa u Dataverse takođe pokreće poslovnu logiku za kreiranje zapisa povezanih sa naplatom u entitetu **Stvarni podaci**. Ovi zapisi se sinhronizuju sa finansijama i operacijama koristeći mapu tabele za dvostruko pisanje, **stvarne integracije projektnih operacija (msdyn\_ stvarne).** Više informacija potražite u članku [Procene i stvarne vrednosti](resource-dual-write-estimates-actuals.md). 
+Potvrda računa u Dataverse takođe pokreće poslovnu logiku za kreiranje zapisa povezanih sa naplatom u entitetu **Stvarni podaci**. Ovi zapisi se sinhronizuju sa aplikacijama za finansije i aplikacijekkoje koriste mapu **Stvarni podaci o Project Operations integraciji (msdyn\_actuals).** Više informacija potražite u članku [Procene i stvarne vrednosti](resource-dual-write-estimates-actuals.md). 
 
 Redovi za predlog fakture za projekat kreiraju se periodičnim procesom, **Postupak uvoza obrasca**. Ovaj proces se zasniva na stvarnim detaljima fakturisane prodaje u tabeli **Priprema stvarnih podataka**. Za više informacija pogledajte [Upravljajte predlozima faktura za projekat](../invoicing/format-update-project-invoice-proposals.md#create-project-invoice-proposals). 

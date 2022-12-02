@@ -1,6 +1,6 @@
 ---
 title: Kreiranje stavki vremena
-description: Ovaj članak pruža informacije o kreiranju stavki vremena.
+description: Ovaj članak pruža informacije o tome kako da kreirate stavke vremena.
 author: rumant
 ms.custom:
 - dyn365-projectservice

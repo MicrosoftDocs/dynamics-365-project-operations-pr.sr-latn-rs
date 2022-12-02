@@ -1,6 +1,6 @@
 ---
 title: Raspored troškova istrage savezne pomoći
-description: Ovaj članak pruža informacije o rasporedu troškova federalnih nagrada.
+description: Ovaj članak pruža informacije o Rasporedu troškova istrage savezne pomoći.
 author: velofog
 ms.date: 04/2/2020
 ms.topic: article

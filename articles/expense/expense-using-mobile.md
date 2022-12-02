@@ -24,7 +24,7 @@ ms.locfileid: "8930243"
 
 _**Odnosi se na:** Project Operations za scenarije zasnovane na resursima/bez zaliha, jednostavna primena – od pogodbe do profakture_
 
-Ovaj članak pruža informacije o mobilnom radnom **prostoru za** upravljanje troškovima. Ovaj radni prostor omogućava korisnicima da nađu i otpreme priznanicu, kako bi kasnije mogli da je prilože u izveštaju o troškovima. Korisnici takođe mogu brzo da kreiraju liniju troškova koristeći priloženu priznanicu i kreiraju izveštaje o troškovima i upravljaju njima. Pored toga, davaoci odobrenja mogu da koriste mobilni radni prostor za **Upravljanje troškovima** za pregled izveštaja o troškovima koji su im dodeljeni i odobravanje ili odbijanje tih izveštaja o troškovima.
+Ovaj članak pruža informacije o mobilnom radnom prostoru za **upravljanje troškovima**. Ovaj radni prostor omogućava korisnicima da nađu i otpreme priznanicu, kako bi kasnije mogli da je prilože u izveštaju o troškovima. Korisnici takođe mogu brzo da kreiraju liniju troškova koristeći priloženu priznanicu i kreiraju izveštaje o troškovima i upravljaju njima. Pored toga, davaoci odobrenja mogu da koriste mobilni radni prostor za **Upravljanje troškovima** za pregled izveštaja o troškovima koji su im dodeljeni i odobravanje ili odbijanje tih izveštaja o troškovima.
 
 Ovaj mobilni radni prostor je namenjen za upotrebu zajedno sa Dynamics 365 Unified Ops aplikacijom za mobilne uređaje.
 
@@ -100,7 +100,7 @@ Preuzmite i instalirajte Dynamics 365 Unified Ops aplikaciju za mobilne uređaje
 
 10. Izaberite **Gotovo**.
 
-## <a name="approve-an-expense-report-by-using-the-expense-management-mobile-workspace"></a>Odobravanje izveštaja o troškovima pomoću mobilnog radnog prostora za upravljanje troškovima
+## <a name="approve-an-expense-report-by-using-the-expense-management-mobile-workspace"></a>Odobravanje izveštaja o troškovima pomoću mobilnog radnog prostora za Upravljanje troškovima
 
 1. Na mobilnom uređaju otvorite radni prostor za **Upravljanje troškovima**.
 2. **Odobrenja troškova** prikazuje broj izveštaja o troškovima koji su vam dodeljeni na odobrenje. Broj se ažurira otprilike svakih 30 minuta. Izaberite **Odobrenja troškova**.
@@ -113,7 +113,7 @@ Preuzmite i instalirajte Dynamics 365 Unified Ops aplikaciju za mobilne uređaje
 6. Unesite komentare uz odobrenje.
 7. Izaberite **Gotovo**.
 
-## <a name="create-a-new-expense-report-and-submit-it-for-approval-by-using-the-expense-management-mobile-workspace"></a>Kreiranje novog izveštaja o troškovima i njegovo prosleđivanje na odobrenje pomoću mobilnog radnog prostora za upravljanje troškovima
+## <a name="create-a-new-expense-report-and-submit-it-for-approval-by-using-the-expense-management-mobile-workspace"></a>Kreirajte novi izveštaj o troškovima i podnesite ga na odobrenje pomoću mobilnog radnog prostora za upravljanje troškovima
 
 1. Na mobilnom uređaju otvorite radni prostor za **Upravljanje troškovima**.
 2. Izaberite **Unos troškova**.
@@ -204,28 +204,28 @@ Preuzmite i instalirajte Dynamics 365 Unified Ops aplikaciju za mobilne uređaje
 
 ## <a name="frequently-asked-questions"></a>Najčešća pitanja
 
-### <a name="why-doesnt-the-expense-mobile-app-enter-the-payment-method-by-default"></a>Zašto mobilna aplikacija "Troškovi" podrazumevano ne unosi način plaćanja?
+### <a name="why-doesnt-the-expense-mobile-app-enter-the-payment-method-by-default"></a>Zašto aplikacija za mobilne uređaje Troškovi podrazumevano ne unosi način plaćanja?
 
-Organizacije mogu da prilagode podrazumevanu **postavku načina** plaćanja za svaku kategoriju troškova tokom kreiranja. Pored toga, kada podesite načine plaćanja, polje Podrazumevani način plaćanja možete podesiti **samo** na opciju "Uvoz **"**.
+Organizacije mogu da prilagode postavku **Podrazumevani način plaćanja** za svaku kategoriju troškova tokom kreiranja. Pored toga, kada podesite načine plaćanja, polje **Podrazumevani način plaćanja** možete podesiti na **Samo uvoz**.
 
-Kada **je omogućen** samo uvoz za način plaćanja, način plaćanja se podrazumevano ne unosi. Biće prazan u kategorijama troškova gde je podešen ovaj način plaćanja. Ovakvo ponašanje je dosledno i u veb iskustvu i u mobilnom iskustvu.
+Kada je omogućeno **Samo uvoz** za način plaćanja, način plaćanja se podrazumevano ne unosi. Biće prazan u kategorijama troškova gde je podešen ovaj način plaćanja. Ovakvo ponašanje je dosledno i u veb-iskustvu i u mobilnom iskustvu.
     
-Kada **uvoz nije** omogućen samo za način plaćanja, postavljena vrednost se podrazumevano unosi za kategorije troškova u kojima je podešen ovaj način plaćanja. Međutim, postoji poznati problem zbog kojeg podrazumevana vrednost nije uneta u mobilnu aplikaciju "Troškovi". Da biste zaobišli ovaj problem, ručno izaberite način plaćanja pre nego što sačuvate izveštaj o troškovima. 
+Kada **Samo uvoz** nije omogućen za način plaćanja, postavljena vrednost se podrazumevano unosi za kategorije troškova u kojima je podešen ovaj način plaćanja. Međutim, postoji poznati problem zbog kojeg se podrazumevana vrednost ne unosi u aplikaciju za mobilne uređaje Troškovi. Da biste zaobišli ovaj problem, ručno izaberite način plaćanja pre nego što sačuvate izveštaj o troškovima. 
 
-### <a name="why-cant-i-add-or-edit-financial-dimensions-in-the-expense-mobile-app"></a>Zašto ne mogu da dodam ili uredim finansijske dimenzije u mobilnoj aplikaciji "Troškovi"?
+### <a name="why-cant-i-add-or-edit-financial-dimensions-in-the-expense-mobile-app"></a>Zašto ne mogu da dodam ili uredim finansijske aspekte u aplikaciji za mobilne uređaje Troškovi?
 
-Unos dimenzija i raspodela nije podržan. Da biste zaobišli ovo ograničenje, ova polja možete podrazumevano postaviti u mobilnoj aplikaciji tako što ćete podesiti podrazumevane finansijske dimenzije po projektu ili zaposlenom.
+Unos aspekata i raspodela nije podržan. Da biste zaobišli ovo ograničenje, ova polja možete podrazumevano postaviti u mobilnoj aplikaciji tako što ćete podesiti podrazumevane finansijske aspekte po projektu ili zaposlenom.
 
-### <a name="why-do-i-sometimes-see-a-synchronization-error-in-the-expense-mobile-app"></a>Zašto ponekad vidim grešku u sinhronizaciji u mobilnoj aplikaciji "Troškovi"?
+### <a name="why-do-i-sometimes-see-a-synchronization-error-in-the-expense-mobile-app"></a>Zašto ponekad vidim grešku u sinhronizaciji u aplikaciji za mobilne uređaje Troškovi?
 
-Ako redovi troškova ne ispunjavaju zahteve smernica, a korisnik prosledi izveštaj o troškovima bez rešavanja upozorenja o smernicama, mobilni podaci se ne sinhronizuju sa serverom i dolazi do otkazivanja sinhronizacije. Svi izveštaji o troškovima koji se prosleđuju nakon neuspeha sinhronizacije ostaće u neuspelom stanju i prouzrokovati još otkazivanja sinhronizacije. Jedini način da popravite ovu situaciju je da ručno izbrišete obaveštenja o sinhronizaciji. Ovaj problem je rešen zaustavljanjem prosleđivanja izveštaja o troškovima kada upozorenja smernica nisu otklonjena, tako da se izbegnu greške u sinhronizaciji.
+Ako redovi troškova ne ispunjavaju zahteve smernica, a korisnik prosledi izveštaj o troškovima bez rešavanja upozorenja o smernicama, mobilni podaci se ne sinhronizuju sa serverom i dolazi do greške u sinhronizaciji. Svi izveštaji o troškovima koji su prosleđeni nakon greške u sinhronizaciji ostaće u statusu greške i prouzrokovaće još grešaka u sinhronizaciji. Jedini način da ispravite ovu situaciju je da ručno izbrišete obaveštenja o sinhronizaciji. Ovaj problem je rešen zaustavljanjem prosleđivanja izveštaja o troškovima kada upozorenja o smernicama nisu rešena tako da se izbegnu greške u sinhronizaciji.
 
-### <a name="why-isnt-project-and-category-validation-correctly-reflected-in-the-expense-mobile-app"></a>Zašto se provera valjanosti projekta i kategorije ne odražava ispravno u mobilnoj aplikaciji "Troškovi"?
+### <a name="why-isnt-project-and-category-validation-correctly-reflected-in-the-expense-mobile-app"></a>Zašto se provera valjanosti projekta i kategorije ne odražava ispravno u aplikaciji za mobilne uređaje Troškovi?
 
-Ova provera valjanosti trenutno nije podržana. Međutim, podrška bi mogla da bude dodata u budućnosti. 
+Ova provera valjanosti trenutno nije podržana. Međutim, podrška će možda biti dodata u budućnosti. 
 
-### <a name="what-document-types-are-supported-in-the-expense-mobile-app"></a>Koje vrste dokumenata su podržane u mobilnoj aplikaciji "Troškovi"?
+### <a name="what-document-types-are-supported-in-the-expense-mobile-app"></a>Koje vrste dokumenata su podržane u aplikaciji za mobilne uređaje Troškovi?
 
-Mobilna aplikacija "Troškovi" podržava samo slike. Trenutno ne podržava PDF-ove ili druge dokumente.
+Aplikacija za mobilne uređaje Troškovi podržava samo slike. Trenutno ne podržava PDF-ove ili druge dokumente.
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

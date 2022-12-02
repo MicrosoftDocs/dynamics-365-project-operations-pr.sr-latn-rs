@@ -1,6 +1,6 @@
 ---
 title: Članovi projektnog tima podugovaranja
-description: Ovaj članak sadrži objašnjenja o tome kako da podizvođačite članove projektnog tima u korporaciji Microsoft Dynamics 365 Project Operations.
+description: Ovaj članak objašnjava kako da podugovorite člana projektnog tima u usluzi Microsoft Dynamics 365 Project Operations.
 author: rumant
 ms.date: 9/14/2022
 ms.topic: article
@@ -17,41 +17,41 @@ ms.locfileid: "9522813"
 
 _**Odnosi se na:** Project Operations za scenarije zasnovane na resursima/bez zaliha, jednostavna primena – od pogodbe do profakture_
 
-U korporaciji Microsoft Dynamics 365 Project Operations možete odabrati da podizvođačima odvrate članove projektnog tima koji nisu u štimovanim ili osobljem.
+U usluzi Microsoft Dynamics 365 Project Operations, možete odabrati da podugovorite članove projektnog tima sa resursima ili bez njih.
 
-- Članovima projektnog tima nije dodeljen generički resurs.
-- Članovima tima sa osobljem je dodeljen imenovani resurs.
+- Članovima projektnog tima bez resursa imaju dodeljen generički resurs.
+- Članovima tima sa resursima dodeljen je imenovani resurs.
 
-Kada povežete člana projektnog tima sa redom podizvođače, sve dodele zadacima koje ima član tima biće ponovo zakazane na osnovu cenovnik nabavne cene priloženog podizvođačem.  Na kartici **Procene** na stranici **Detalji projekta** izaberite **dugme Ažuriraj cene** da biste videli ažurirane cene i/ili troškove koji su rezultat odluke o podizvođačima. 
+Kada povežete člana projektnog tima sa predmetom podugovora, za sve dodele zadacima koje član tima ima biće ponovo obračunata cena na osnovu nabavnog cenovnika priloženog podugovoru.  Na kartici **Procene** na stranici **Detalji o projektu**, izaberite dugme **Ažuriraj cene** da biste videli ažurirano određivanje cena i/ili obračun cena koji su nastali na osnovu odluke o podugovaranju. 
 
-## <a name="subcontracting-an-unstaffed-project-team-member"></a>Podizvođači neodobravanog člana projektnog tima
-Stranica **"Detalji člana tima** " ima polja podizvođača i reda podizvođača koja omogućavaju menadžeru projekta da izrazi kako bi želeli da crpi potrebne kapacitete iz podizvođača. Da biste podizvođali člana projektnog tima kao generički resurs, sledite ove korake:
+## <a name="subcontracting-an-unstaffed-project-team-member"></a>Podugovaranje člana projektnog tima bez resursa
+Stranica **Detalji o članu tima** ima polja podugovora i predmeta podugovora koja omogućavaju menadžeru projekta da izrazi kako bi želeo da povlači potrebne kapacitete iz podugovora. Da biste podugovorili člana projektnog tima kao generički resurs, pratite ove korake:
 
-1.  Odaberite podizvođaи na stranici **sa detaljima иlana** tima.
+1.  Odaberite podugovor na stranici **Detalji o članu tima**.
 
-2.  Možete da izaberete samo podizvođači sa statusom **"Radna** verzija" **ili "Potvrđeno** ". **Nije** moguće izabrati **zatvorene** ili otkazane podizvođači. 
+2.  Možete da izaberete samo podugovore sa statusom **Radna verzija** ili **Potvrđeno**. **Zatvorene** ili **Otkazane** podugovore ne možete izabrati. 
 
-3.  Polje **reda podizvođači** postaje vidljivo nakon što izaberete podizvođaи.
+3.  Polje **Predmet podugovora** postaje vidljivo nakon što izaberete podugovor.
 
-4.  U polju Red **podizvođači** možete izabrati samo redove podizvođači koji su za vreme. Ne možete izabrati redove podizvođači za trošak ili materijal.
+4.  U polju **Predmet podugovora** možete izabrati samo predmete podugovora koji su za vreme. Ne možete izabrati predmete podugovora za trošak ili materijal.
 
-5.  Uloga zapisa člana projektnog tima treba da se podudara sa ulogom u redu podizvođač. Ovim se obezbeđuje da vreme za ulogu koja se procenjuje na projektu bude ista uloga koja se kupuje u redu podizvođači. 
+5.  Uloga zapisa člana projektnog tima treba da se podudara sa ulogom u predmetu podugovora. Ovim se obezbeđuje da vreme za ulogu koja se procenjuje na projektu bude ista uloga koja se kupuje u predmetu podugovora. 
 
-Kada je generički član tima povezan sa redom podizvođač i podizvođač, **polje "Vrsta radnika**" u redu generičkog člana tima biće ažurirano u "**Radnik po ugovoru** **" i "Validnost podizvođače"** će biti postavljeno na "Važeće **"**.
+Kada je član generičkog tima povezan sa podugovorom i predmetom podugovora, polje **Vrsta radnika** u redu člana generičkog tima biće ažurirano u **Radnik po ugovoru**, a vrednost **Važenje podugovora** na **Važeće**.
 
-## <a name="subcontracting-a-staffed-project-team-member"></a>Podizvođači osoblja projektnog tima
-Kao i generički ili neodložni članovi tima, kadrovske kapacitete članova tima koji su potrebni za projekat takođe mogu biti povezani sa podizvođačima. Da biste podizvođači imenovali člana projektnog tima, sledite ove korake:
+## <a name="subcontracting-a-staffed-project-team-member"></a>Podugovaranje člana projektnog tima u resursima
+Kao i generički ili članovi tima bez resursa, kapacitet članova tima u resursima koji je potreban za projekat takođe može biti povezani sa podugovorom. Da biste podugovorili imenovanog člana projektnog tima pratite ove korake:
 
-1.  Uverite se da je imenovani resurs podešen kao tip knjigovodstvenog resursa po ugovoru. Takođe, uverite se da se polje **Dobavljač** u knjigovodstvenom resursu podudara sa dobavljačem u podizvođačem koji ste izabrali. 
+1.  Uverite se da je imenovani resurs podešen kao tip resursa koji je moguće rezervisati sa vrstom radnika po ugovoru. Takođe, uverite se da se polje **Dobavljač** u resursu koji je moguće rezervisati podudara sa dobavljačem u podugovoru koji ste izabrali. 
 
-2.  Podizvođači možete da izaberete samo u statusu Radne **verzije** **ili Potvrđeno**. **Nije** moguće izabrati **zatvorene** ili otkazane podizvođači. 
+2.  Možete da izaberete samo podugovore u statusu **Radna verzija** ili **Potvrđeno**. **Zatvorene** ili **Otkazane** podugovore ne možete izabrati. 
 
-3.  Polje **reda podizvođači** postaje vidljivo nakon što izaberete podizvođaи.
+3.  Polje **Predmet podugovora** postaje vidljivo nakon što izaberete podugovor.
 
-4.  U polju Red **podizvođači** možete izabrati samo redove podizvođači koji su za vreme. Ne možete izabrati redove podizvođači za trošak ili materijal.
+4.  U polju **Predmet podugovora** možete izabrati samo predmete podugovora koji su za vreme. Ne možete izabrati predmete podugovora za trošak ili materijal.
 
-5.  Uloga zapisa člana projektnog tima treba da se podudara sa ulogom u redu podizvođač. Ovim se obezbeđuje da vreme za ulogu koja se procenjuje na projektu bude ista uloga koja se kupuje u redu podizvođači. 
+5.  Uloga zapisa člana projektnog tima treba da se podudara sa ulogom u predmetu podugovora. Ovim se obezbeđuje da vreme za ulogu koja se procenjuje na projektu bude ista uloga koja se kupuje u predmetu podugovora. 
 
-Imenovani članovi projektnog tima koji su podešeni **kao tip radnika po ugovoru resursa "Knjigovodstveni** resurs" biće pokazani sa statusom provere valjanosti podizvođaca **"Nije** važeće" ako nisu povezani sa podizvođačem. Kada je imenovani član projektnog tima povezan sa redom podizvođač i podizvođač, **polje "Vrsta** **·** **·** **radnika" u redu člana tima će biti podešeno na "Važeće".**
+Imenovani članovi projektnog tima koji su podešeni kao vrsta tipa radnika po ugovoru **Resursa koji je moguće rezervisati** biće prikazani sa statusom važenja podugovarača **Nije važeće** ako nisu povezani sa podugovorom. Kada je imenovani član projektnog tima povezan sa podugovorom i predmetom podugovora, polje **Vrsta radnika** u redu člana tima ažuriraće se u **Radnik po ugovoru**, a vrednost **Važenje podugovora** na **Važeće**.
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

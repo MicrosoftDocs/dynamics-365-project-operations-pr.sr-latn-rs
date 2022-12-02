@@ -1,6 +1,6 @@
 ---
 title: Konfigurisanje naplativih komponenti za predmet ugovora zasnovan na projektu
-description: Ovaj članak pruža informacije o tome kako da dodate komponente za naplatu redovima ugovora u operacijama projekta.
+description: Ovaj članak pruža informacije o tome kako dodati naplative komponente u predmete ugovora u usluzi Project Operations.
 author: rumant
 ms.date: 10/08/2020
 ms.topic: article

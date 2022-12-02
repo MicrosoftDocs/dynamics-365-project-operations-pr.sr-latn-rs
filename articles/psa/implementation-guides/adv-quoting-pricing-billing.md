@@ -1,6 +1,6 @@
 ---
 title: Napredno davanje ponuda, formiranje cena i obračun
-description: Ovaj članak pruža informacije o navodu, naplati i cenama u automatizaciji projektne usluge.
+description: Ovaj članak pruža informacije o davanju ponuda, naplati i formiranju cena u rešenju Project Service Automation.
 author: kfend
 ms.custom:
 - dyn365-projectservice
@@ -32,7 +32,7 @@ ms.locfileid: "8921825"
 
 Sposobnost pronalaženja pravih resursa u pravo vreme, rezervisanje tih resursa za projekte i njihovo redovno korišćenje pomaže organizacijama da ispune ciljeve u pogledu prihoda i zadovoljstva klijenata. 
 
-PDF link koji je prethodno bio u ovom članku je uklonjen i sadržaj je premešten u sledeće članke:
+PDF veza koja je prethodno bila u ovom članku uklonjena je, a sadržaj je premešten u sledeće članke:
 
 - [Davanje ponuda, formiranje cena i naplata](../quote-bill-price.md)
 - [Procesi prodaje](../basic-sales-process.md)
@@ -50,7 +50,7 @@ PDF link koji je prethodno bio u ovom članku je uklonjen i sadržaj je premešt
 - [Evidentiranje stvarnih vrednosti](../advanced-actuals.md)
 
 > [!NOTE]
-> Ovaj članak će biti uklonjen u budućoj ispravci. 
+> Ovaj članak biće uklonjen u budućoj ispravci dokumentacije. 
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

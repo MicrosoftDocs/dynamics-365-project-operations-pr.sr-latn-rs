@@ -1,6 +1,6 @@
 ---
 title: Rezervisanje imenovanih resursa koje je moguće rezervisati za projektni tim i dodeljivanje zadataka
-description: Ovaj članak pruža informacije o tome kako da rezervišete imenovane resurse za projektne timove i dodelite ih zadacima.
+description: Ovaj članak pruža informacije o tome kako da rezervišete imenovane resurse za projektne timove i dodeljujete ih zadacima.
 author: JohnPBurrows
 ms.custom:
 - dyn365-projectservice

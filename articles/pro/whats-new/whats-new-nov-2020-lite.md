@@ -1,6 +1,6 @@
 ---
 title: Šta je novo novembra 2020. – Jednostavna primena usluge Project Operations – od pogodbe do profakture
-description: Ovaj članak pruža informacije o kvalitetnim ispravkama dostupnim u novembru 2020.
+description: Ovaj članak pruža informacije o ispravkama kvaliteta dostupnim u izdanju jednostavne primene usluge Project Operations za novembar 2020. – od pogodbe do profakture.
 author: sigitac
 ms.date: 11/02/2020
 ms.topic: article

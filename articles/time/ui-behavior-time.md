@@ -1,6 +1,6 @@
 ---
 title: Ponašanje korisničkog interfejsa za stavku vremena
-description: Ovaj članak pruža informacije o ponašanju UI za unos vremena.
+description: Ovaj članak pruža informacije o ponašanju korisničkog interfejsa za stavku vremena.
 author: stsporen
 ms.date: 03/03/2021
 ms.topic: article

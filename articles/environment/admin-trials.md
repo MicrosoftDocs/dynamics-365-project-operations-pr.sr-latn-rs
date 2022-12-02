@@ -1,6 +1,6 @@
 ---
 title: Prijavite se za probnu verziju aplikacije Project Operations
-description: Ovaj članak pruža informacije o primeni probne verzije programa Dynamics 365 Project Operations.
+description: Ovaj članak pruža informacije o tome kako da primenite probnu verziju aplikacije Dynamics 365 Project Operations.
 author: ruhercul
 ms.date: 01/10/2022
 ms.topic: article
@@ -19,7 +19,7 @@ _**Odnosi se na:** Project Operations za scenarije zasnovane na resursima/nepost
 
 
 
-Ovaj članak sadrži objašnjenja o tome kako da se pretplatite na ponudu partnera za pregled i primenite Dynamics 365 Project Operations okruženje.
+Ovaj članak objašnjava kako da se pretplatite na verziju za pregled partnerske ponude i kako da primenite Dynamics 365 Project Operations okruženje.
 
 Uz novu probnu verziju aplikacije Project Operations, možete automatski primeniti bilo koji od tri podržana scenarija primene popunjavanjem upitnika koji preporučuje najbolji pristup primene. Ovaj članak pruža informacije o tome kako da:
 
@@ -86,18 +86,18 @@ Pre nego što započnete, prijavite se u pregledaču pomoću korisničkog radnog
  
   Kada se obezbeđivanje dovrši, status vašeg okruženja je **Spremno**. Obezbeđivanje okruženja uključuje primenu demo podataka.
  
-4.  Izaberite odgovarajuće Microsoft Dataverse URL adrese i URL adrese aplikacija za finansije i operacije da biste proverili valjanost primene.
+4.  Izaberete odgovarajuću Microsoft Dataverse URL adresu i URL adrese aplikacija za finansije i operacije za proveru primene.
 
 ## <a name="configuring-dual-write"></a>Konfigurisanje dvostrukog upisivanja
-- Da biste konfigurisali bezbednosne uloge za dvostruko pisanje, pogledajte ažuriranje [bezbednosnih postavki za operacije projekta u programu Dataverse](resource-provision-new-environment.md#update-security-settings-on-project-operations-on-dataverse).
-- Da biste pristupili konfiguraciji dvostrukog upisivača, dođite do instance finansiranja i operacija, a zatim se krećite **do dualnog pisanja** > **upravljanja podacima**.
-- Da biste konfigurisali mape sa dva pisanja, pogledajte mape [dvostrukog pisanja "Pokreni operacije projekta"](resource-provision-new-environment.md#run-project-operations-dual-write-maps).
+- Da biste konfigurisali bezbednosne uloge za dvostruko upisivanje, pogledajte [Ažuriranje bezbednosnih postavki za Project Operations u programu Dataverse](resource-provision-new-environment.md#update-security-settings-on-project-operations-on-dataverse).
+- Da biste pristupili konfiguraciji dvostrukog upisivanja, idite do instance finansija i operacija, a zatim idite do **Upravljanje podacima** > **Dvostruko upisivanje**.
+- Da biste konfigurisali mape dvostrukog upisivanja, pogledajte [Pokretanje mapa dvostrukog upisivanja za Project Operations](resource-provision-new-environment.md#run-project-operations-dual-write-maps).
 
 ## <a name="assign-licenses"></a>Dodela licenci
 
 Trebaće vam administrativni pristup Microsoft 365 portalu vaše organizacije da biste izvršili sledeće korake.
 
-1. Idite u [Microsoft 365 administrativni centar](https://portal.office.com/) da biste dodelili licence korisnicima.
+1. Idite u [Microsoft 365 centar administracije](https://portal.office.com/) da biste dodelili licence korisnicima.
 
    ![Početna stranica centra administracije](./media/14AdminPortal.png)
 
@@ -117,7 +117,7 @@ Sledeći resursi pružaju korisne smernice dok započinjete svoje putovanje sa a
 
 ## <a name="frequently-asked-questions"></a>Najčešća pitanja
 
-### <a name="what-if-i-require-alm-or-elm-for-my-finance-and-operations-apps-environment"></a>Šta ako zahtevam ALM ili ELM za okruženje aplikacija za finansije i operacije?
+### <a name="what-if-i-require-alm-or-elm-for-my-finance-and-operations-apps-environment"></a>Šta ako mi je potreban ALM ili ELM za okruženje aplikacija za finansije i operacije?
 
 - Za partnere kojima su potrebne pune mogućnosti upravljanja životnim ciklusom okruženja, pogledajte [Zahtev za licencu za Sandbox partnera](https://experience.dynamics.com/requestlicense) da biste pregledali novu ponudu partnera. 
 - Za partnere koji traže više informacija o pravima interne upotrebe, pogledajte [Pogodnosti oblaka i softvera za prava interne upotrebe (microsoft.com](https://partner.microsoft.com/membership/internal-use-software).
@@ -125,7 +125,7 @@ Sledeći resursi pružaju korisne smernice dok započinjete svoje putovanje sa a
 ### <a name="can-i-extend-my-trial-beyond-30-days"></a>Mogu li produžiti probni period duže od 30 dana?
 Da biste produžili probni period, dovršite sledeće korake.
 
-1. U Administrativnom **Microsoft 365 centru idite** na **naplatu** > **Vaši proizvodi**.
+1. U **Microsoft 365 centru administracije**, idite na **Naplata** > **Vaši proizvodi**.
 2. Izaberite **Dynamics 365 Project Operations (CE) – Probna verzija za pregled**.
 3. U odeljku **Datum isteka**, izaberite **Produži datum**.
 

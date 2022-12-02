@@ -1,6 +1,6 @@
 ---
 title: Podešavanje cenovnika
-description: Ovaj članak pruža informacije o tome kako da podesite cenovnike troškova i prodaje.
+description: Ovaj članak pruža informacije o tome kako da podesite cene i cenovnike.
 author: rumant
 ms.date: 10/20/2020
 ms.topic: article

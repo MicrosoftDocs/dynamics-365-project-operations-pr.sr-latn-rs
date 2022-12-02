@@ -1,6 +1,6 @@
 ---
 title: Isključivanje dimenzije za određivanje cena
-description: Ovaj članak prikazuje kako se posireću dimenzije cena u rešenju projektne usluge.
+description: Ovaj članak pokazuje kako se podešavaju dimenzije za određivanje cena u rešenju Project Service.
 author: Rumant
 ms.custom:
 - dyn365-projectservice

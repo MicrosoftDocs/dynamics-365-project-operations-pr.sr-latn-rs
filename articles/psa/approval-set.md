@@ -1,6 +1,6 @@
 ---
 title: Skupovi odobrenja u aplikaciji Project Service Automation
-description: Ovaj članak pruža informacije o skupu odobravanja, zahtevima i podskupovima tih operacija.
+description: Ovaj članak pruža informacije o skupu odobrenja, zahtevima i podskupovima tih operacija.
 author: stsporen
 manager: tfehr
 ms.date: 05/28/2021

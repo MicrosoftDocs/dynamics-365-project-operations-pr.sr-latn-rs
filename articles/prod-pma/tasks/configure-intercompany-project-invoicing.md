@@ -1,6 +1,6 @@
 ---
 title: Konfigurisanje fakturisanja međukompanijskih projekata
-description: Ovaj članak prikazuje kako da podesite fakturisanje projekta između dva preduzeća u vašoj organizaciji.
+description: Ovaj članak pokazuje kako da podesite fakturisanje projekata između dve kompanije u vašoj organizaciji.
 author: Yowelle
 ms.date: 07/29/2019
 ms.topic: business-process
@@ -25,7 +25,7 @@ ms.locfileid: "8916627"
 
 [!include [banner](../../includes/banner.md)]
 
-Ovaj članak prikazuje kako da podesite fakturisanje projekta između dva preduzeća u vašoj organizaciji. Ovaj zadatke koristi USSI skup podataka.
+Ovaj članak pokazuje kako da podesite fakturisanje projekata između dve kompanije u vašoj organizaciji. Ovaj zadatke koristi USSI skup podataka.
 
 1. U oknu za navigaciju idite na **Moduli > Dugovanja > Prodavci > Svi prodavci**.
 2. Na listi **Svi prodavci** pronađite i izaberite željeni zapis.

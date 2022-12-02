@@ -1,6 +1,6 @@
 ---
 title: Ispravka računovodstva na radnim verzijama predloga faktura za projekat
-description: Ovaj članak sadrži objašnjenja o tome kako se koriguju informacije vezane za računovodstvo u predlogu radne fakture.
+description: Ovaj članak objašnjava kako da prilagodite računovodstvene informacije u radnoj verziji predloga fakture.
 author: sigitac
 ms.date: 01/05/2022
 ms.topic: article
@@ -19,7 +19,7 @@ _**Odnosi se na:** Project Operations za scenarije zasnovane na resursima / bez 
 
 *Operativne detalje* za fakture projekata vodi menadžer projekta na predračunu. Ovi detalji uključuju odluku o radnom vremenu, troškovima, materijalima ili kontrolnim tačkama koje se moraju fakturisati, cenama i primeni iznosa avansa i akontacija. Kada potvrdite originalni predračun, možete prilagoditi operativne detalje kreiranjem i potvrđivanjem [korektivnog predračuna](../proforma-invoicing/corrective-invoices.md).
 
-*Računovodstveni detalji* za fakture projekata se održavaju u dokumentu fakture prema kupcu. Ovi detalji uključuju obračun poreza na promet i finansijske dimenzije koje se primenjuju na fakturi. Ovaj članak pruža detalje o tome kako se ovi računovodstveni detalji mogu korigovati na nacrtu predloga fakture projekta.
+*Računovodstveni detalji* za fakture projekata se održavaju u dokumentu fakture prema kupcu. Ovi detalji uključuju obračun poreza na promet i finansijske dimenzije koje se primenjuju na fakturi. Ovaj članak pruža detalje o tome kako se ovi računovodstveni detalji mogu prilagoditi u radnoj verziji predloga fakture projekta.
 
 ## <a name="adjust-sales-tax"></a>Prilagođeni porez na promet
 
@@ -29,11 +29,11 @@ Podrazumevane grupe za obračun poreza na promet i grupe poreza na promet stavki
 
 ### <a name="header-dimensions"></a>Dimenzije zaglavlja
 
-Podrazumevano, finansijske dimenzije fakture su izvedene iz zapisa neželjenih transakcija projekta koji se fakturiše. Međutim, postavke sistema vam omogućava da koristite finansijske dimenzije u zaglavlju predloga faktura projekta za knjiženje salda kupaca. Da biste omogućili ovu funkcionalnost, na kartici **"** **·** **Finansije" na stranici "Upravljanje projektima i računovodstvenim parametrima" izaberite stavku Dozvoli ažuriranje dimenzija** projekta za potraživanja.
+Podrazumevano, finansijske dimenzije fakture se izvode iz zapisa nenaplaćenih transakcija projekta koji se fakturišu. Međutim, postavke sistema vam omogućavaju da koristite finansijske dimenzije u zaglavlju predloga faktura za projekat za knjiženje salda klijenata. Da biste omogućili ovu funkcionalnost, izaberite **Dozvoli ažuriranja za dimenzije projekta za potraživanja** na kartici **Finansije** na stranici **Upravljanje projektima i računovodstvenim parametrima**.
 
-Finansijske dimenzije u zaglavljima faktura se mogu uređivati pre knjiženja fakture. Na stranici **Predlog fakture projekta** prebacite se u prikaz **zaglavlja**, a zatim uredite vrednosti na kartici **Finansijske dimenzije**.
+Finansijske dimenzije u zaglavljima faktura se mogu uređivati pre knjiženja fakture. Na stranici **Predlog fakture za projekat** pređite u prikaz **Zaglavlje**, a zatim uredite vrednosti na kartici **Finansijske dimenzije**.
 
-Prikaz **zaglavlja** je dostupan tek kada administrator sistema omogući korišćenje predloga fakture **projekta i obrazaca naloga faktura sa funkcijom prikaza zaglavlja** i redova u **radnom prostoru za upravljanje** funkcijama. Ova funkcija zahteva ispravku finansija 10.0.25 ili noviju.
+Prikaz **Zaglavlje** je dostupno samo nakon što administrator sistema omogući funkciju **Koristi predlog fakture za projekat i fakturiši obrasce dnevnika sa prikazom zaglavlja i redova** u radnom prostoru **Upravljanje funkcijama**. Ova funkcija zahteva ispravku finansija 10.0.25 ili noviju.
 
 ### <a name="line-dimensions"></a>Dimenzije reda
 

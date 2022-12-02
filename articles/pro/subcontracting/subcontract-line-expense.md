@@ -1,6 +1,6 @@
 ---
 title: Predmeti podugovora za kategorije troškova
-description: Ovaj članak sadrži objašnjenja o tome kako da zapušite redove podizvođača za troškove i koristite polja da biste zapisali nabavku vremena od dobavljača.
+description: Ovaj članak objašnjava kako evidentirati predmete podugovora za trošak i koristiti polja za beleženje vremena kupovine od prodavaca.
 author: rumant
 ms.date: 09/14/2022
 ms.topic: article

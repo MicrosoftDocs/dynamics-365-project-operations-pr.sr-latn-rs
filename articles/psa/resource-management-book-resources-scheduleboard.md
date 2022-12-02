@@ -1,6 +1,6 @@
 ---
 title: Korišćenje tabele rasporeda za rezervisanje resursa za projekte
-description: Ovaj članak pruža informacije o tome kako rezervisati resurse.
+description: Ovaj članak pruža informacije o tome kako da rezervišete resurse.
 author: ruhercul
 ms.custom:
 - dyn365-projectservice

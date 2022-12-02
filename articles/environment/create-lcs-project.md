@@ -1,6 +1,6 @@
 ---
 title: Započnite novi LCS projekat
-description: Ovaj članak pruža informacije o kreiranju novog projekta u LCS-u za vaše okruženje za projektne operacije.
+description: Ovaj članak pruža informacije o kreiranju novog projekta u LCS-u za vaše Project Operations okruženje.
 author: stsporen
 ms.date: 10/01/2020
 ms.topic: article
@@ -27,7 +27,7 @@ Koristite Lifecycle Services (LCS) da biste upravljali Dynamics 365 Project Oper
   ![Izbor tipa LCS projekta.](./media/create-lcs-1.png)
 
 5. Imenujte projekat. 
-6. Izaberite **finansije i operacije** kao ime proizvoda i izaberite industriju i metodologiju. 
+6. Izaberite **Finansije i operacije** kao naziv proizvoda i izaberite delatnost i metodologiju. 
 7. Izaberite **Kreiraj**.
 
 ![Kreiranje LCS projekta.](./media/create-lcs-2.png)

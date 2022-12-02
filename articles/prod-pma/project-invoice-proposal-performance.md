@@ -1,6 +1,6 @@
 ---
 title: Performanse predloga projektnih faktura
-description: Ovaj članak pruža informacije o poboljšanju performansi predloga faktura projekta.
+description: Ovaj članak pruža informacije o poboljšanjima performansi predloga projektnih faktura.
 author: Yowelle
 ms.date: 06/16/2021
 ms.topic: article

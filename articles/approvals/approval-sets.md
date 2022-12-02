@@ -1,6 +1,6 @@
 ---
 title: Skupovi odobrenja
-description: Ovaj članak sadrži objašnjenja o tome kako se radi sa skupovima odobravanja, zahtevima i podskupovima tih operacija.
+description: Ovaj članak objašnjava kako se radi sa skupovima odobrenja, zahtevima i podskupovima tih operacija.
 author: stsporen
 ms.date: 02/01/2022
 ms.topic: article
@@ -26,17 +26,17 @@ Odobrenja koja su u redu za obradu vidljiva su u prikazu **Odobrenja obrade**. S
 
 Polje **Trajanje skupa odobrenja** evidentira broj pokušaja obrade skupa pre nego što se označi kao neuspešan.
 
-Skupovi odobravanja se obrađuju kroz periodičnu aktivaciju na osnovu Cloud Flow-a **·** **pod imenom Project Service - Periodično planiranje skupova odobravanja projekta**. Ovo se nalazi u rešenju nazvanom **"** Operacije **projekta"**. 
+Skupovi odobrenja se obrađuju kroz periodičnu aktivaciju zasnovanog na **Toku u oblaku** pod nazivom **Project Service – Periodično zakazujte skupove odobrenja projekta**. Ovo se nalazi u **Rešenju** nazvanom **Project Operations**. 
 
 Uverite se da je tok aktiviran dovršavanjem sledećih koraka.
 
 1. Kao administrator, prijavite se na [flow.microsoft.com](https://powerautomate.microsoft.com).
 2. U gornjem desnom uglu prebacite se na okruženje koje koristite za Dynamics 365 Project Operations.
-3. Izaberite **rešenja** da biste nabrajali rešenja koja su instalirana u okruženju.
-4. Sa liste rešenja izaberite stavku Operacije **projekta**.
-5. Promenite filter iz "Sve **"** u tokove **oblaka**.
-6. Proverite da li **je tok projekta – periodično planiranje skupova odobravanja** projekta podešen na " **Dalje"**. Ako nije, izaberite tok, a zatim izaberite **Uključi**.
-7. Proverite da li se obrada odvija svakih pet minuta tako što ćete pregledati listu **sistemskih** poslova u oblasti "Postavke **"** u okviru okruženja "Operacije Dataverse projekta".
+3. Izaberite **Rešenja** da biste naveli rešenja koja su instalirana u okruženju.
+4. Sa liste rešenja izaberite stavku **Project Operations**.
+5. Promenite filter iz **Sve** u **Tokovi u oblaku**.
+6. Proverite da li je tok **Project Service – Periodično zakazivanje skupova odobrenja projekta** postavljen na **Uključeno**. Ako nije, izaberite tok, a zatim izaberite **Uključi**.
+7. Proverite da li se obrada odvija svakih pet minuta tako što ćete pregledati listu **Sistemski poslovi** u oblasti **Postavke** u okviru Project Operations Dataverse okruženja.
 
 ## <a name="failed-approvals-and-approval-sets"></a>Neuspela odobrenja i skupovi odobrenja
 Prikaz **Neuspela odobrenja** sadrži sva odobrenja koja zahtevaju intervenciju korisnika. Otvorite povezane evidencije skupova odobrenja da biste identifikovali uzrok neuspeha.

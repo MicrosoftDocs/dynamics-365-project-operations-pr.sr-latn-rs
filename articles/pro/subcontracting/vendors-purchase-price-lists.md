@@ -1,6 +1,6 @@
 ---
 title: Upravljanje cenovnikom za kupovinu i cenovnikom dobavljača u usluzi Project Operations
-description: Ovaj članak pruža informacije koje će vam pomoći da kreirate i održavate podatke o dobavljaču i cenovnike nabavne cene za podizvođač.
+description: Ovaj članak pruža informacije koje će vam pomoći da kreirate i održavate podatke o dobavljačima i cenovnike za kupovinu za podugovaranje.
 author: rumant
 ms.date: 08/02/2021
 ms.topic: article

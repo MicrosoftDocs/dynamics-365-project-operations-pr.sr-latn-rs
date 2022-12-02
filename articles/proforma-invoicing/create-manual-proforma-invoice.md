@@ -1,6 +1,6 @@
 ---
 title: Predračuni
-description: Ovaj članak pruža informacije o proforma fakturama u operacijama projekta.
+description: Ovaj članak pruža informacije o predračunima u usluzi Project Operations.
 author: rumant
 ms.date: 04/05/2021
 ms.topic: article
@@ -84,7 +84,7 @@ Kada kreirate radnu verziju fakture za projekat, na fakturu se prenose sve nenap
 Izaberite **Potvrdi** da biste potvrdili fakturu. Radnja potvrde ne može da se opozove. Kada izaberete **Potvrdi**, sistem podešava fakturu kao samo za čitanje i kreira stvarne vrednosti naplaćene prodaje iz svakog detalja stavke fakture za svaku stavku fakture. Ako detalj stavke fakture upućuje na stvarne vrednosti nenaplaćene prodaje, sistem takođe stornira stvarnu vrednost nenaplaćene prodaje. (Bilo koji detalj stavke fakture koji je kreiran iz stavke vremena ili troškova upućuje na stvarnu vrednost nenaplaćene prodaje.) Sistemi za integraciju glavne knjige mogu koristiti ovo storniranje da bi opozvali tekući rad na projektu u računovodstvene svrhe.
 
 > [!NOTE]
-> Potvrđene proforma fakture i srodni zapisi kao što su redovi fakture i detalji reda fakture ne mogu se uređivati ili brisati. 
+> Potvrđeni predračuni i srodni zapisi kao što su redovi na fakturi i detalji reda na fakture ne mogu se uređivati ili brisati. 
 
 ### <a name="correct-a-confirmed-invoice"></a>Ispravljanje potvrđene fakture
 

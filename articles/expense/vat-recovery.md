@@ -1,6 +1,6 @@
 ---
 title: Povraćaj PDV u upravljanju troškovima
-description: Ovaj članak sadrži objašnjenja o tome kako se primaju povraćaji sredstava za transakcije poreza na dodatu vrednost (PDV).
+description: Ovaj članak objašnjava kako da dobijete povraćaj sredstava za prihvatljive transakcije poreza na dodatu vrednost (PDV).
 author: suvaidya
 ms.date: 10/10/2020
 ms.topic: article

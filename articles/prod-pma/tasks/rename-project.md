@@ -24,7 +24,7 @@ ms.locfileid: "8683877"
 
 [!include [banner](../../includes/banner.md)]
 
-Faze projekta mogu poslužiti kao putokaz kroz životni ciklus projekta. Faze projekta koje želite da uključite u svoje projekte možete da definišete u oblasti Faza projekta na stranici Upravljanje projektom i računovodstveni parametri. Dynamics 365 Finance obezbeđuje pet unapred definisanih faza projekta i tri korisnički definisane faze. Možete da ažurirate ime faze projekta koju koristite za praćenje napretka projekata. Takođe možete da navedete imena za korisnički definisana imena statusa. Ovaj zadatak pokazuje kako da preimenujete ili izmenite fazu projekta i koristi USSI skup podataka.
+Faze projekta mogu poslužiti kao putokaz kroz životni ciklus projekta. Faze projekta koje želite da uključite u svoje projekte možete da definišete u oblasti Faza projekta na stranici Upravljanje projektom i računovodstveni parametri. Dynamics 365 Finance pruža pet unapred definisanih faza projekta i tri faze koje definiše korisnik. Možete da ažurirate ime faze projekta koju koristite za praćenje napretka projekata. Takođe možete da navedete imena za korisnički definisana imena statusa. Ovaj zadatak pokazuje kako da preimenujete ili izmenite fazu projekta i koristi USSI skup podataka.
 
 1. Idite na Upravljanje projektima i računovodstvo > Podešavanje > Upravljanje projektom i računovodstveni parametri.
 2. Kliknite na karticu Faza projekta.

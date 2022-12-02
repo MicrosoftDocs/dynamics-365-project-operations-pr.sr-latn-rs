@@ -1,6 +1,6 @@
 ---
 title: Promene entiteta, kontrola i korisničkog interfejsa (Project Service Automation 3.x)
-description: Ovaj članak opisuje promene rešenja za automatizaciju Microsoft Dynamics projektne usluge 3.x.
+description: Ovaj članak opisuje promene rešenja za Microsoft Dynamics Project Service Automation 3.x.
 author: makk
 ms.custom:
 - dyn365-projectservice

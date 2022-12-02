@@ -32,14 +32,14 @@ ms.locfileid: "8919203"
 
 Načini i tehnologije izveštavanja u ovoj aplikaciji mogu vam pomoći da utvrdite stanje svojih projekata i odredite kada trebate da preduzmete korektivne mere. 
 
-PDF link koji je prethodno bio u ovom članku je uklonjen i sadržaj je premešten u sledeće članke:
+PDF veza koja je prethodno bila u ovom članku uklonjena je, a sadržaj je premešten u sledeće članke:
 
 - [Matična stranica za izveštavanje](../reports-reporting-dynamics-365-project-service.md)
 - [Kontrolne table](../reports-dashboards.md)
 - [Rad sa Project Service Automation modelom podataka](../reports-working-project-service-data-model.md)
 
 > [!NOTE]
-> Ovaj članak će biti uklonjen u budućoj ispravci. 
+> Ovaj članak biće uklonjen u budućoj ispravci dokumentacije. 
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

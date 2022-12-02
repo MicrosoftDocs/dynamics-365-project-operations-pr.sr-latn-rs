@@ -1,6 +1,6 @@
 ---
 title: Upravljanje predračunom za projekat
-description: Ovaj članak pruža informacije o načinu rada sa proforma pro projektne fakture.
+description: Ovaj članak pruža informacije o načinu rada sa predračunima u projektu.
 author: rumant
 ms.date: 04/05/2021
 ms.topic: article

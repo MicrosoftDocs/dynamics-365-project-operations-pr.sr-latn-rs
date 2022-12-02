@@ -1,6 +1,6 @@
 ---
 title: Kreiranje ponuda za projekat iz mogućnosti za poslovanje
-description: Ovaj članak pruža informacije o kreiranju ponude projekta od mogućnosti za poslovanje.
+description: Ovaj članak pruža informacije o kreiranju ponude za projekat iz mogućnosti za poslovanje.
 author: rumant
 ms.date: 10/01/2020
 ms.topic: article

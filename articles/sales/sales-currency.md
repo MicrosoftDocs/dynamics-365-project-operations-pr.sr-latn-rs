@@ -1,6 +1,6 @@
 ---
 title: Valuta
-description: Ovaj članak pruža informacije o tome kako da dodate i uklonite tipove valuta u operacijama projekta.
+description: Ovaj članak pruža informacije o tome kako da dodate i uklonite tipove valuta u Project Operations.
 author: rumant
 ms.date: 09/18/2020
 ms.topic: article

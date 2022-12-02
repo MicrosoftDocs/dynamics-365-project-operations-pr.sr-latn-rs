@@ -1,6 +1,6 @@
 ---
 title: Šta je novo u avgustu 2021. – Project Operations za scenarije zasnovane na resursima / bez zaliha
-description: Ovaj članak pruža informacije o kvalitetnim ispravkama dostupnim u avgustu 2021.
+description: Ovaj članak pruža informacije o ispravkama kvaliteta dostupnim u izdanju za avgust 2021. usluge Project Operations za scenarije zasnovane na resursima / bez zaliha.
 author: sigitac
 ms.date: 08/11/2021
 ms.topic: article
@@ -18,10 +18,10 @@ ms.locfileid: "8912303"
 
 *Odnosi se na: Project Operations za scenarije zasnovane na resursima / bez zaliha*
 
-Ovaj članak se odnosi na sledeće Dynamics 365 Project Operations komponente i verzije:
+Ovaj članak se odnosi na sledeće komponente i verzije usluge Dynamics 365 Project Operations:
 
    - Project Operations u Microsoft Dataverse okruženju verzije 4.13.0.152.
-   - Upravljanje projektima i računovodstvo u Dynamics 365 Finance okruženju verzija 10.0.20.
+   - Upravljanje projektima i računovodstvo u Dynamics 365 Finance okruženju verzije 10.0.20.
 
 ## <a name="features-included-in-this-release"></a>Funkcije uključene u ovom izdanju
 
@@ -54,7 +54,7 @@ Ako naiđete na problem pri pokretanju mape, sledite uputstva u odeljku [Problem
 | Vreme i trošak | 2336884 | Dugme za unos vremena **Kopiraj sedmicu** mora raditi ne samo za trenutnog korisnika. |
 
 
-### <a name="project-management-and-accounting-on-dynamics-365-finance"></a>Upravljanje projektima i računovodstvo na Dynamics 365 Finance
+### <a name="project-management-and-accounting-on-dynamics-365-finance"></a>Upravljanje projektima i računovodstvo u rešenju Dynamics 365 Finance
 
 | Oblast funkcija | Referentni broj | Ispravka kvaliteta |
 | --- | --- | --- |

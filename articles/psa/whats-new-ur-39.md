@@ -1,6 +1,6 @@
 ---
-title: Šta je novo ili promenjeno u ažuriranju automatizacije projektne usluge Izdanje 39, V3
-description: Ovaj članak navodi funkcije i ispravke koje su dostupne u izdanju Microsoft Dynamics 365 Project Service Automation Update Release 39, V3.
+title: Šta je novo ili promenjeno u izdanju 39 ispravke Project Service Automation verzije 3
+description: U ovom članku navedene su funkcije i ispravke koje su dostupne u izdanju 39 ispravke usluge Microsoft Dynamics 365 Project Service Automation verzije 3.
 author: ruhercul
 ms.custom: dyn365-projectservice
 ms.date: 01/20/2022
@@ -23,13 +23,13 @@ ms.contentlocale: sr-Latn-RS
 ms.lasthandoff: 06/03/2022
 ms.locfileid: "8922469"
 ---
-# <a name="whats-new-or-changed-in-project-service-automation-update-release-39-v3"></a>Šta je novo ili promenjeno u ažuriranju automatizacije projektne usluge Izdanje 39, V3
+# <a name="whats-new-or-changed-in-project-service-automation-update-release-39-v3"></a>Šta je novo ili promenjeno u izdanju 39 ispravke Project Service Automation verzije 3
 
 [!include [banner](../includes/psa-now-project-operations.md)]
 
 Zadovoljstvo nam je da najavimo najnoviju ispravku za aplikaciju Microsoft Dynamics 365 Project Service Automation. Ovo izdanje uključuje neka važna poboljšanja u kvalitetu, performansama i upotrebljivosti. Kompatibilna je sa sistemom Dynamics 365 9.x. Da biste se ažurirali na ovo izdanje, posetite stranicu centra administracije za Dynamics 365 mrežna rešenja i instalirajte ispravku. Za još informacija pogledajte članak [Instaliranje, ispravka ili uklanjanje željenog rešenja](/power-platform/admin/install-remove-preferred-solution).
 
-Ovaj članak navodi funkcije i ispravke koje su nove ili promenjene za ispravku za automatizaciju usluge projekta Release 39, V3. Ova verzija ima broj verzije V3.10.60.170 i opšte je dostupna putem samo-ispravke u januaru 2022. godine.
+U ovom članku date su funkcije koje su nove ili su promenjene u rešenju Project Service Automation u verziji 3, izdanje ispravke 39. Ova verzija ima broj verzije V3.10.60.170 i opšte je dostupna putem samo-ispravke u januaru 2022. godine.
 
 ## <a name="update-release-39"></a>Izdanje ispravke 39
 
@@ -39,7 +39,7 @@ Popravljeni su sledeći problemi.
 
 **Opšte**
 
-- Napravljeno je nekoliko poboljšanja na mapi lokacije za arapsko prevođenje.
+- Napravljeno je nekoliko poboljšanja na mapi lokacija za arapsko prevođenje.
 
 **Upravljanje projektima**
 
@@ -47,6 +47,6 @@ Popravljeni su sledeći problemi.
 
 **Prodaja**
 
-- Vlasnik cenovnik ugovora **projekta je** netačan kada se cenovnik automatski kreira. 
-- Efekat datuma cenovnka nije ispoštovan kada se cenovnik primeni na parametar projekta.
+- Vlasnik **Cenovnika ugovora projekta** je netačan kada se cenovnik automatski kreira. 
+- Važenje datuma cenovnika nije ispoštovan kada se cenovnik primeni na parametar projekta.
 - Jedinica za ugovaranje možda nema ispravnu podrazumevanu vrednost prilikom uređivanja dve odvojene ponude.

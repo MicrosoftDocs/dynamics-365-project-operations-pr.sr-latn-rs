@@ -1,6 +1,6 @@
 ---
 title: Potvrda fakture dobavljača za projekat
-description: Ovaj članak sadrži objašnjenja o tome kako da potvrdite fakturu dobavljača projekta u korporaciji Microsoft Dynamics 365 Project Operations i finansijski uticaj potvrde fakture dobavljača projekta.
+description: Ovaj članak objašnjava kako da potvrdite fakturu dobavljača na projektu u rešenju Microsoft Dynamics 365 Project Operations i finansijski uticaj potvrde fakture dobavljača na projektu.
 author: rumant
 ms.date: 03/30/2022
 ms.topic: article
@@ -17,17 +17,17 @@ ms.locfileid: "9261530"
 
 _**Odnosi se na:** Jednostavna primena – od pogodbe do profakture_
 
-Nakon što ste verifikovali sve redove na fakturi dobavljača u korporaciji Microsoft, možete Dynamics 365 Project Operations koristiti radnju "Potvrdi" da biste potvrdili fakturu dobavljača.
+Nakon što ste verifikovali sve stavke na fakturi dobavljača u rešenju Microsoft Dynamics 365 Project Operations, možete da koristite radnju Potvrdi da biste potvrdili fakturu dobavljača.
 
-Kada u fakturi **dobavljača** izaberete opciju "Potvrdi", dešava se sledeće ponašanje:
+Kada na fakturi dobavljača izaberete **Potvrdi**, dolazi do sledećeg ponašanja:
 
-1. Stanje fakture dobavljača se ažurira u **Potvrđeno**.
-2. Potvrđena faktura dobavljača i povezani zapisi postaju samo za čitanje i ne mogu se uređivati ili brisati.
-3. Ako neki trošak upućuje na red fakture dobavljača kao deo procesa podudaranja, sve stvarne cene koje su povezane sa referentnim redom fakture dobavljača će biti stornirane.
-4. Nove stvarne troškove se kreiraju korišćenjem informacija u redu fakture dobavljača.
-5. Nakon potvrde fakture dobavljača, više ne možete kreirati korektivne naloge, opoziv stavki procesa ili otkazati odobravanje originalnog vremena, troškova ili materijalnih stvarnih stavki koje su stornirane.
+1. Status fakture dobavljača se ažurira na **Potvrđeno**.
+2. Potvrđena faktura dobavljača i povezani zapisi postaju samo za čitanje i nije ih moguće uređivati ili brisati.
+3. Ako neka stvarna vrednost cene upućuje na stavku na fakturi dobavljača kao deo procesa podudaranja, sve stvarne vrednosti cene koje su povezane sa stavkom na fakturi dobavljača biće stornirane.
+4. Nove stvarne vrednosti cene se kreiraju korišćenjem informacija u stavci na fakturi dobavljača.
+5. Nakon potvrde fakture dobavljača, više ne možete kreirati korektivne naloge, opozive stavki vremena obrade ili otkazati odobrenje prvobitnog vremena, troškova ili materijalnih stvarnih vrednosti koje su stornirane.
 
 > [!NOTE]
-> Ako bilo koji red u fakturi dobavljača ima status verifikacije koji nije **dovršen**, faktura dobavljača ne može biti potvrđena.
+> Ako bilo koji red na fakturi dobavljača ima status verifikacije koji nije **Dovršen**, faktura dobavljača ne može biti potvrđena.
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

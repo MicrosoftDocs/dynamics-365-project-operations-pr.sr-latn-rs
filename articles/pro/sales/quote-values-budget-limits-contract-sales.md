@@ -1,6 +1,6 @@
 ---
 title: Rezime informacija o ponudi za projekat – jednostavno
-description: Ovaj članak pruža informacije o informacijama i postavkama koje se odnose na ponude projekata i utiču na njih. (Sales)
+description: Ovaj članak pruža informacije o informacijama i podešavanjima koji se odnose na ponude za projekte i utiču na njih. (Sales)
 author: rumant
 ms.date: 10/01/2020
 ms.topic: article

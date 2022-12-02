@@ -1,6 +1,6 @@
 ---
 title: Sinhronizacija kapaciteta resursa
-description: Ovaj članak pruža informacije o tome kako da sinhronizujete kapacitet resursa u kalendarima i projektima.
+description: Ovaj članak pruža informacije o tome kako sinhronizovati kapacitet resursa u kalendarima i projektima.
 author: Yowelle
 ms.date: 09/01/2020
 ms.topic: article

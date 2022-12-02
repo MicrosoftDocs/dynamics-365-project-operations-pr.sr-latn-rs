@@ -1,6 +1,6 @@
 ---
 title: Prenos budžeta projekata na kraj fiskalne godine
-description: Ovaj članak pruža informacije o načinu prenosa preostalih iznosa budžeta u buduće godine i kreiranje detalja dnevnika budžeta.
+description: Ovaj članak daje informacije o tome kako preneti preostale iznose budžeta u buduće godine i stvoriti detalje budžetskog registra.
 author: Yowelle
 ms.date: 03/23/2020
 ms.topic: article

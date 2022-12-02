@@ -1,6 +1,6 @@
 ---
 title: Pregled odobrenja
-description: Ovaj članak pruža informacije o radu sa odobrenjima u operacijama projekta.
+description: Ovaj članak pruža informacije o radu sa odobrenjima u usluzi Project Operations.
 author: stsporen
 ms.date: 03/31/2021
 ms.topic: overview

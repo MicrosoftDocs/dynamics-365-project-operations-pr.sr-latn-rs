@@ -1,6 +1,6 @@
 ---
 title: Koncepti finansijske procene
-description: Ovaj članak pruža informacije o finansijskim procenama projekata u projektno poslovanje.
+description: Ovaj članak pruža informacije o finansijskim procenama projekata u usluzi Project Operations.
 author: rumant
 ms.date: 03/22/2021
 ms.topic: overview

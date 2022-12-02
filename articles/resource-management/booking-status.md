@@ -1,6 +1,6 @@
 ---
 title: Statusi rezervacija
-description: Ovaj članak pruža vezu ka informacijama o tome kako da podesite statuse rezervacija za projektne operacije.
+description: Ovaj članak pruža vezu do informacija o tome kako da podesite statuse rezervacija za uslugu Project Operations.
 author: ruhercul
 ms.date: 11/05/2020
 ms.topic: article

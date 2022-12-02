@@ -1,6 +1,6 @@
 ---
 title: Kreiranje predloška za radne sate
-description: Ovaj članak opisuje kako se kreira predložak radnih sati u usluzi projekta.
+description: Ovaj članak opisuje kako da kreirate predloške za radne sate u aplikaciji Project Service.
 author: ruhercul
 ms.custom:
 - dyn365-projectservice

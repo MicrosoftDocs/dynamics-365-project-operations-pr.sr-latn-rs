@@ -1,6 +1,6 @@
 ---
 title: Podešavanje troškova rada – jednostavno
-description: Ovaj članak pruža informacije o tome kako da podesite stope troškova rada u projektnog poslovanja.
+description: Ovaj članak pruža informacije o tome kako postaviti stope za troškove rada u usluzi Project Operations.
 author: rumant
 ms.date: 10/12/2020
 ms.topic: article

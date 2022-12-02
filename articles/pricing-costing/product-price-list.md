@@ -1,6 +1,6 @@
 ---
 title: Cenovnici proizvoda
-description: Ovaj članak pruža informacije o cenovnicima u kataloškim cenama koje se koriste za ponude za projekat i ugovore.
+description: Ovaj članak pruža informacije o cenovnicima u kataloškim cenama koji se koriste za ponude za projekat i ugovore.
 author: rumant
 ms.date: 04/05/2021
 ms.topic: article

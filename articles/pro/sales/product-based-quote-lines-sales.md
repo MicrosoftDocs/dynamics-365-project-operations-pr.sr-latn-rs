@@ -1,6 +1,6 @@
 ---
 title: Pregled stavki ponude zasnovane na proizvodu – jednostavno
-description: Ovaj članak pruža informacije o radu sa redovima ponude zasnovanim na proizvodu.
+description: Ovaj članak pruža informacije o radu sa stavkama ponude zasnovanim na proizvodu.
 author: rumant
 ms.date: 10/30/2020
 ms.topic: overview

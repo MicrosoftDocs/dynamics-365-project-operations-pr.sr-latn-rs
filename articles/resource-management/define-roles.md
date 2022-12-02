@@ -1,6 +1,6 @@
 ---
 title: Definisanje uloga
-description: Ovaj članak pruža vezu ka informacijama o podešavanju kategorija resursa koji se mogu rezervisati.
+description: Ovaj članak pruža vezu do informacija o tome kako podesiti kategorije knjigovodstvenih resursa.
 author: ruhercul
 ms.date: 11/05/2020
 ms.topic: article

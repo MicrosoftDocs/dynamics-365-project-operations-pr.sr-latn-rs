@@ -1,6 +1,6 @@
 ---
 title: Prikaz primene usluge Project Operations za scenarije zasnovane na resursima/bez zaliha
-description: Ovaj članak pruža informacije o vrsti primene, operacijama projekta za scenarije zasnovane na resursima/ne-zalihama.
+description: Ovaj članak pruža informacije o tipu primene, Project Operations za scenarije zasnovane na resursima/bez zaliha.
 author: rumant
 ms.date: 11/02/2020
 ms.topic: overview
@@ -31,7 +31,7 @@ Tip primene, Dynamics 365 Project Operations za scenarije zasnovane na resursima
 - Prepoznavanje prihoda projekta
 - Proširivost kroz Power Platform
 
-Ovaj tip primene obezbeđuje proširenje na funkcionalnost koju obezbeđuju Dynamics 365 Finance i Dynamics 365 Supply Chain Management aplikacije.
+Ovaj tip primene pruža proširenje funkcionalnosti koju obezbeđuju aplikacije Dynamics 365 Finance i Dynamics 365 Supply Chain Management.
 
 Ovu primenu treba da odaberete u očekivanju da će Project Operations koristiti puni životni ciklus projekta koji uključuje sledeće zahteve:
 

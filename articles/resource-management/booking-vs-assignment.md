@@ -1,6 +1,6 @@
 ---
 title: Rezervacije u odnosu na dodele
-description: Ovaj članak pruža informacije o razlikama između rezervisanja resursa i dodeljivanje resursa.
+description: Ovaj članak pruža informacije o razlikama između rezervisanja resursa i dodeljivanja resursa.
 author: ruhercul
 ms.date: 01/08/2021
 ms.topic: article

@@ -1,6 +1,6 @@
 ---
 title: Kretanje kroz korisnički interfejs
-description: Ovaj članak pruža informacije o upravljanju projektima u dynamics 365 projektnim operacijama.
+description: Ovaj članak pruža informacije o upravljanju projektima u usluzi Dynamics 365 Project operations.
 author: ruhercul
 ms.date: 10/05/2020
 ms.topic: article

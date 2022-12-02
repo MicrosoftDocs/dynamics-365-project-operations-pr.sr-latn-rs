@@ -1,6 +1,6 @@
 ---
 title: Šta je novo u martu 2021. – Project Operations za scenarije zasnovane na resursima/bez zaliha
-description: Ovaj članak pruža informacije o kvalitetnim ispravkama dostupnim u martu 2021.
+description: Ovaj članak pruža informacije o ispravkama kvaliteta dostupnim u izdanju usluge Project Operations za mart 2021. za scenarije zasnovane na resursima/bez zaliha.
 author: sigitac
 ms.date: 03/03/2021
 ms.topic: article
@@ -18,10 +18,10 @@ ms.locfileid: "9028289"
 
 _**Odnosi se na:** Project Operations za scenarije zasnovane na resursima / bez zaliha_
 
-Ovaj članak se odnosi na sledeće Dynamics 365 Project Operations komponente i verzije:
+Ovaj članak se odnosi na sledeće komponente i verzije usluge Dynamics 365 Project Operations:
 
 - Project Operations u Dataverse okruženju verzije 4.8.0.91 
-- Upravljanje projektima i računovodstvo na Dynamics 365 Finance okruženju verzija 10.0.16 
+- Upravljanje projektima i računovodstvo u Dynamics 365 Finance okruženju verzije 10.0.16 
 
 ## <a name="quality-updates"></a>Ispravke kvaliteta
 
@@ -42,13 +42,13 @@ Ovaj članak se odnosi na sledeće Dynamics 365 Project Operations komponente i 
 | Vreme i trošak | 2148910 | Ispravljen je problem sa prikazom stranice **Izmena unosa** na mreži **Stavka vremena**. |
 | Vreme i trošak | 2159798 | Pojačane su kontrole kako bi se osiguralo da se odobreni unosi troškova ne mogu uređivati. |
 
-### <a name="project-management-and-accounting-on-dynamics-365-finance"></a>Upravljanje projektima i računovodstvo na Dynamics 365 Finance
+### <a name="project-management-and-accounting-on-dynamics-365-finance"></a>Upravljanje projektima i računovodstvo u rešenju Dynamics 365 Finance
 
 Dodatne informacije potražite u odeljku [Šta je novo u januaru 2021. – Project Operations za scenarije zasnovane na resursima/bez zaliha](whats-new-jan-2021-resource-based.md).
 
 ## <a name="regulatory-updates"></a>Regulatorne ispravke
 
-Više informacija o regulatornim ispravkama za aplikacije za finansije i operacije potražite u članku [Regulatorne ispravke](/dynamics365/finance/localizations/regulatory-updates). Drugi način da saznate više o regulatornim ispravkama je da se prijavite na LCS i pregledate planirane regulatorne ispravke pomoću alatke za pretragu problema. Pretraga problema vam omogućava pretragu po zemlji, tipu funkcije i izdanju.
+Za informacije o regulatornim ispravkama za aplikacije za finansije i operacije, pogledajte članak [Regulatorne ispravke](/dynamics365/finance/localizations/regulatory-updates). Drugi način da saznate više o regulatornim ispravkama je da se prijavite na LCS i pregledate planirane regulatorne ispravke pomoću alatke za pretragu problema. Pretraga problema vam omogućava pretragu po zemlji, tipu funkcije i izdanju.
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

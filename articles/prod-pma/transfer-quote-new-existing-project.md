@@ -1,6 +1,6 @@
 ---
 title: Prenesite ponudu u projekat
-description: Ovaj članak pruža informacije o tome kako da prenesete citat u novi ili postojeći projekat.
+description: Ovaj članak pruža informacije o tome kako preneti ponudu u novi ili postojeći projekat.
 author: kfend
 ms.date: 05/28/2020
 ms.topic: article

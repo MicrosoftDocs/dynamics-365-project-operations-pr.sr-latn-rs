@@ -1,6 +1,6 @@
 ---
 title: Sinhronizovanje projektnih ugovora i projekata direktno iz usluge Project Service Automation sa uslugom Finance
-description: Ovaj članak opisuje predložak i osnovne zadatke koji se koriste za sinhronizaciju ugovora i projekata projekta direktno Microsoft Dynamics 365 Project Service Automation iz Dynamics 365 Finance.
+description: Ovaj članak opisuje predložak i osnovne zadatke koji se koriste za sinhronizaciju ugovora o projektu i projekta direktno iz usluge Microsoft Dynamics 365 Project Service Automation u Dynamics 365 Finance.
 author: Yowelle
 ms.date: 12/17/2020
 ms.topic: article
@@ -27,7 +27,7 @@ ms.locfileid: "8933877"
 
 
 
-Ovaj članak opisuje predložak i osnovne zadatke koji se koriste za sinhronizaciju ugovora i projekata projekta direktno Dynamics 365 Project Service Automation iz Dynamics 365 Finance.
+Ovaj članak opisuje predložak i osnovne zadatke koji se koriste za sinhronizaciju ugovora o projektu i projekta direktno iz usluge Dynamics 365 Project Service Automation u Dynamics 365 Finance.
 
 > [!NOTE] 
 > Ako koristite Enterprise Edition 7.3.0, morate instalirati KB 4074835.
@@ -120,15 +120,15 @@ Kada se primeni rešenje integracije usluge Project Service Automation sa Financ
 
 ## <a name="power-query"></a>Power Query
 
-Koristite Microsoft Power Query za Excel da biste filtrirali podatke ako su ispunjeni sledeći uslovi:
+Koristite Microsoft Power Query for Excel za filtriranje podataka ako su ispunjeni sledeći uslovi:
 
 - Imate ulazne porudžbine u usluzi Dynamics 365 Sales.
 - Imate više organizacionih jedinica u usluzi Project Service Automation i te organizacione jedinice biće mapirane u više pravnih lica u usluzi Finance.
 
-Ako morate da koristite Power Query, sledite ova uputstva:
+Ako morate da koristite Power Query, pratite ove smernice:
 
 - Predložak Projekti i ugovori (iz PSA u Fin and Ops) ima podrazumevani filter koji uključuje samo ulazne porudžbine tipa **Radni predmet (msdyn\_ordertype = 192350001)**. Ovaj filter vam garantuje da se ugovori o projektu neće kreirati za ulazne porudžbine u usluzi Finance. Ako kreirate sopstveni obrazac, morate dodati ovaj filter.
-- Kreirajte Power Query filter koji uključuje samo organizacije ugovora koje bi trebalo da budu sinhronizovane sa pravnim limom skupa kontegracione veze. Na primer, ugovori o projektu koje imate sa ugovornom organizacionom jedinicom Contoso US treba da se sinhronizuju sa pravnim licem USSI, ali ugovori o projektu koje imate sa ugovornom organizacionom jedinicom Contoso Global treba da se sinhronizuju sa pravnim licem USMF. Ako ne dodate ovaj filter u mapiranje zadataka, svi ugovori o projektu biće sinhronizovani sa pravnim licem koje je definisano za skup veza, bez obzira na organizacionu jedinicu ugovora.
+- Napravite Power Query filter koji uključuje samo ugovorne organizacije koje treba sinhronizovati sa pravnim licem skupa integracionih veza. Na primer, ugovori o projektu koje imate sa ugovornom organizacionom jedinicom Contoso US treba da se sinhronizuju sa pravnim licem USSI, ali ugovori o projektu koje imate sa ugovornom organizacionom jedinicom Contoso Global treba da se sinhronizuju sa pravnim licem USMF. Ako ne dodate ovaj filter u mapiranje zadataka, svi ugovori o projektu biće sinhronizovani sa pravnim licem koje je definisano za skup veza, bez obzira na organizacionu jedinicu ugovora.
 
 ## <a name="template-mapping-in-data-integration"></a>Mapiranje predložaka u usluzi Data Integration
 

@@ -1,6 +1,6 @@
 ---
 title: Šta je novo ili promenjeno u usluzi Project Operations u julu 2021. za scenarije zasnovane na zalihama/proizvodnji
-description: Ovaj članak pruža informacije o kvalitetnim ispravkama dostupnim u izdanju projektnih operacija u julu 2021.
+description: Ovaj članak pruža informacije o ispravkama kvaliteta dostupnim u izdanju za jul 2021. usluge Project Operations za scenarije zasnovane na zalihama/proizvodnji.
 author: andchoi
 ms.date: 07/01/2021
 ms.topic: article
@@ -18,9 +18,9 @@ ms.locfileid: "9028857"
 
 _**Odnosi se na:** Project Operations za scenarije zasnovane na zalihama/proizvodnji_
 
-Ovaj članak se odnosi na sledeće Dynamics 365 Project Operations komponente i verzije:
+Ovaj članak se odnosi na sledeće komponente i verzije usluge Dynamics 365 Project Operations:
 
-- Upravljanje projektima i računovodstvo u Dynamics 365 Finance okruženju verzija 10.0.20
+- Upravljanje projektima i računovodstvo u Dynamics 365 Finance okruženju verzije 10.0.20
  
 ### <a name="quality-updates"></a>Ispravke kvaliteta
                                                                                                                                                                                   
@@ -64,7 +64,7 @@ Ovaj članak se odnosi na sledeće Dynamics 365 Project Operations komponente i 
 | Putovanje i trošak                  | [523557](https://fix.lcs.dynamics.com/Issue/Details/?bugId=523557) | Alatka **Resetovanje statusa dokumenta troškova** bi trebalo da resetuje status izveštaja o troškovima na **radnu verziju** ako tok posla ne bude pronađen. 
 
 ### <a name="regulatory-updates"></a>Regulatorne ispravke
-Više informacija o regulatornim ispravkama za aplikacije za finansije i operacije potražite u članku [Regulatorne ispravke](/dynamics365/finance/localizations/regulatory-updates). Takođe se možete prijaviti u Lifecycle Services (LCS) i pregledati planirane regulatorne ispravke pomoću alatke za pretragu problema. Pretraga problema vam omogućava pretragu po zemlji, tipu funkcije i izdanju.
+Za informacije o regulatornim ispravkama za aplikacije za finansije i operacije, pogledajte članak [Regulatorne ispravke](/dynamics365/finance/localizations/regulatory-updates). Takođe se možete prijaviti u Lifecycle Services (LCS) i pregledati planirane regulatorne ispravke pomoću alatke za pretragu problema. Pretraga problema vam omogućava pretragu po zemlji, tipu funkcije i izdanju.
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

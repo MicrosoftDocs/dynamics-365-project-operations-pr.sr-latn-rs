@@ -44,7 +44,7 @@ Neki ugovori o projektu navode da više strana deli odgovornost za finansiranje 
 -   Projekat puta sufinansiraju dve opštine.
 -   Projekt mosta finansira se iz državnih grantova i privatne korporacije.
 
-U Dynamics 365 Finance možete da podelite naplatu za jednu transakciju ili ceo projekat na više kupaca, grantova ili organizacija. 
+U usluzi Dynamics 365 Finance, možete da podelite naplatu za jednu transakciju ili ceo projekat između više klijenata, grantova ili organizacija. 
 
 U projektima koji imaju više donatora, sve strane koje doprinose finansiranju naprednog projekta finansiranja nazivaju se izvorima finansiranja. Nakon što se klijent, organizacija ili grant definiše kao izvor finansiranja, može se dodeliti jednom ili više pravila finansiranja. Pravila finansiranja sadrže kriterijume koji određuju način na koji se troškovi dodeljuju različitim izvorima finansiranja za projekat. 
 

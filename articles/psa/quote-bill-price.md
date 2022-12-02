@@ -1,6 +1,6 @@
 ---
 title: Matična stranica za davanje ponuda, formiranje cena i naplatu
-description: Ovaj članak pruža informacije o navodu, cenama i naplati.
+description: Ovaj članak pruža informacije o davanju ponuda, formiranju cena i naplati.
 author: rumant
 ms.author: rumant
 ms.custom:
@@ -33,7 +33,7 @@ ms.locfileid: "8926747"
 
 Davanje ponuda, formiranje cena i naplata su funkcije koje koriste i male i velike organizacije. Razumevanjem načina njihovog funkcionisanja u aplikaciji, organizacije mogu lakše prilagoditi konfiguracije.
 
-Sledeći članci pružaju više informacija o funkcionalnosti citiranja, određivanja cena i naplate u PSA:
+Sledeći članci pružaju više informacija o funkcionalnostima davanja ponuda, formiranja cena i naplate u aplikaciji PSA:
 
 - [Proces prodaje](basic-sales-process.md)
 - [Stavke ponude](basic-quote-lines.md)

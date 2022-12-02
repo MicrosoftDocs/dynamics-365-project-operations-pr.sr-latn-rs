@@ -1,6 +1,6 @@
 ---
 title: Prihvatanje ili odbijanje predloženog resursa projekta
-description: Ovaj članak pruža informacije o tome kako da odobrite ili odbijete predloženi projektni resurs.
+description: Ovaj članak pruža informacije o tome kako da odobrite ili odbijete predloženi resurs projekta.
 ms.custom:
 - dyn365-projectservice
 ms.date: 12/07/2018
@@ -30,7 +30,7 @@ ms.locfileid: "8916213"
 
 [!INCLUDE[cc-applies-to-psa-app-3.x](../includes/cc-applies-to-psa-app-3x.md)]
 
-Ovaj članak pruža informacije o tome kako da odobrite ili odbijete predloženi projektni resurs.
+Ovaj članak pruža informacije o tome kako da odobrite ili odbijete predloženi resurs projekta.
 
 Kada menadžer resursa predloži imenovani resurs za popunjavanje zahteva za generički resurs za projekat, polje **Status zahteva** za generičkog člana tima biće ažurirano na **Potreban je pregled**. Zahtev će biti upućen menadžeru projekta na odobravanje ili odbijanje.
 

@@ -1,6 +1,6 @@
 ---
 title: Interni troškovi u okviru preduzeća
-description: Ovaj članak pruža informacije o načinu korišćenja međukompanijskih troškova za dodeljivanje troškova radnika pravnom licu za koje je rad obavljen.
+description: Ovaj članak pruža informacije o načinu korišćenja troškova u okviru preduzeća za dodeljivanje troškova radnika pravnom licu za koje je posao obavljen.
 author: suvaidya
 ms.date: 07/08/2021
 ms.topic: article

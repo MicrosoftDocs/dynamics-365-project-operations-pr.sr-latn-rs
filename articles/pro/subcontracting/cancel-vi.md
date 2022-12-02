@@ -1,6 +1,6 @@
 ---
 title: Otkazivanje fakture dobavljača za projekat
-description: Ovaj članak sadrži objašnjenja o tome kako da otkažete fakturu dobavljača projekta u korporaciji Microsoft Dynamics 365 Project Operations i finansijski uticaj otkazivanja fakture dobavljača projekta.
+description: Ovaj članak objašnjava kako da otkažete fakturu dobavljača na projektu u rešenju Microsoft Dynamics 365 Project Operations i finansijski uticaj otkazivanja fakture dobavljača na projektu.
 author: rumant
 ms.date: 03/30/2022
 ms.topic: article
@@ -17,17 +17,17 @@ ms.locfileid: "9261108"
 
 _**Odnosi se na:** Jednostavna primena – od pogodbe do profakture_
 
-Nakon potvrde fakture dobavljača, ona se ne može uređivati ili brisati. Ako je došlo do greške u fakturi dobavljača koja je potvrđena, možete koristiti radnju "Otkaži" da biste stornličili uticaj fakture dobavljača i kreirali novu fakturu dobavljača.
+Nakon potvrde fakture dobavljača, ne možete je uređivati ili brisati. Ako je došlo do greške u fakturi dobavljača koja je potvrđena, možete koristiti radnju „Otkaži“ da biste stornirali uticaj fakture dobavljača i kreirali novu fakturu dobavljača.
 
-Kada u fakturi **dobavljača** izaberete opciju "Otkaži", dešava se sledeće ponašanje:
+Kada na fakturi dobavljača izaberete **Otkaži**, dolazi do sledećeg ponašanja:
 
-1. Stanje fakture dobavljača se ažurira u **Otkazano**.
-2. Otkazana faktura dobavljača i povezani zapisi postaju samo za čitanje i ne mogu se uređivati ili brisati.
-3. Sve stvarne cene koje su kreirane na osnovu redova fakture dobavljača kao deo potvrde fakture dobavljača su stornirane.
-4. Ako su neki stvarni troškovi bili povezani sa redovima fakture dobavljača kao deo procesa podudaranja, originalna potvrda fakture dobavljača ih je stornnula. Tokom otkazivanja fakture dobavljača, ti troškovi se ponovo kreiraju. Poreklo ukazuju na stavke vremena, troškova ili korišćenja materijala.
-5. Nakon otkazivanja fakture dobavljača, možete ponovo kreirati korektivne naloge, obraditi opozive stavki vremena i otkazati odobravanje originalnog vremena, troškova ili materijalnih stvarnih stavki.
+1. Status fakture dobavljača se ažurira na **Otkazano**.
+2. Otkazana faktura dobavljača i povezani zapisi postaju samo za čitanje i nije ih moguće uređivati ili brisati.
+3. Sve stvarne vrednosti cene koje su kreirane na osnovu redova na fakturi dobavljača kao deo potvrde fakture dobavljača se storniraju.
+4. Ako su neke stvarne vrednosti cene bile povezane sa redovima na fakturi dobavljača kao deo procesa podudaranja, potvrda prvobitne fakture dobavljača ih je stornirala. Tokom otkazivanja fakture dobavljača, te stvarne vrednosti cene se ponovo kreiraju. Poreklo ukazuju na stavke vremena, troškova ili korišćenja materijala.
+5. Nakon otkazivanja fakture dobavljača, opet možete kreirati korektivne naloge, opozive stavki vremena obrade i otkazati odobrenje prvobitnog vremena, troškova ili materijalnih stvarnih vrednosti.
 
 > [!NOTE]
-> Samo potvrđene fakture dobavljača projekta mogu biti otkazane. Fakture dobavljača u drugim državama se ne mogu otkazati.
+> Samo potvrđene fakture prodavaca za projekat mogu da budu otkazane. Fakture dobavljača u drugim statusima se ne mogu otkazati.
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

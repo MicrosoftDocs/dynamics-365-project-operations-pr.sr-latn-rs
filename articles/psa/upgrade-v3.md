@@ -1,6 +1,6 @@
 ---
 title: Napomene o nadogradnji – Microsoft Dynamics 365 Project Service Automation verzije 2.x ili 1.x na verziju 3
-description: Ovaj članak pruža informacije o razmatranjima koja morate da izvršite prilikom nadogradnje sa verzije 2.x ili 1.x na verziju 3.
+description: Ovaj članak pruža informacije o činjenicama koje morate uzeti u obzir prilikom nadogradnje aplikacije Project Service Automation sa verzije 2.x ili 1.x na verziju 3.
 ms.prod: ''
 ms.custom:
 - dyn365-projectservice
@@ -40,7 +40,7 @@ U aplikaciji Project Service Automation verzije 2 i 1, dodeljivanja zadataka su 
 
 U verziji 3 aplikacije Project Service Automation, osnovna šema dodeljivanja resursa koji se mogu rezervisati zadacima je promenjena. Zadatak stavke je zastareo i postoji direktni 1:1 odnos između zadatka u **entitetu zadatka** i člana tima u entitetu **Dodela resursa**. Zadaci koji su dodeljeni članu projektnog tima sada se skladište direktno u entitetu Dodela resursa.  
 
-Ove promene utiču na nadogradnju svih postojećih projekata koji imaju dodele resursa za imenovane resurse koji se mogu rezervisati i generičke resurse u timu projekta. Ovaj članak obezbeđuje razmatranja koja će vam biti potrebna da uzmete u obzir za svoje projekte kada izvršite nadogradnju na verziju 3. 
+Ove promene utiču na nadogradnju svih postojećih projekata koji imaju dodele resursa za imenovane resurse koji se mogu rezervisati i generičke resurse u timu projekta. Ovaj članak obezbeđuje činjenice koje treba uzeti u obzir za projekte prilikom nadogradnje na verziju 3. 
 
 ### <a name="tasks-assigned-to-named-resources"></a>Zadaci su dodeljeni imenovanim resursima
 Ako koristite osnovni entitet zadatka, zadaci u verziji 2 i 1 dozvoljavaju članovima tima da prikazuju ulogu koja nije njihova podrazumevana definisana uloga. Na primer, Dunja Nikolić, kojoj je podrazumevano dodeljena uloga menadžera programima, može biti dodeljen zadatku sa ulogom programera. U verziji 3, uloga imenovanog člana tima je uvek podrazumevana, tako da svaki zadatak koji je dodeljen Dunji Nikolić koristi Dunjinu podrazumevanu ulogu menadžera programima.

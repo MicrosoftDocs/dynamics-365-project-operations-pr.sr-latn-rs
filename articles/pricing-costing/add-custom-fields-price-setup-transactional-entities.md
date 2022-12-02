@@ -1,6 +1,6 @@
 ---
 title: Dodavanje obaveznih prilagođenih polja u podešavanje cena i entitete transakcije
-description: Ovaj članak pruža informacije o tome kako da entitetima i obrascima i prikazima dodate potrebne reference na prilagođena polja.
+description: Ovaj članak pruža informacije o tome kako treba dodati potrebne reference prilagođenih polja u entitete i u obrasce i prikaze.
 author: rumant
 ms.date: 09/18/2020
 ms.topic: article
@@ -26,9 +26,9 @@ ms.locfileid: "8926057"
 
 _**Odnosi se na:** Project Operations za scenarije zasnovane na resursima/bez zaliha, jednostavna primena – od pogodbe do profakture_
 
-Ovaj članak pretpostavlja da ste dovršili procedure u članku, kreirajte prilagođena [polja i entitete koji će se koristiti kao dimenzije cena](create-custom-fields-entities-pricing-dimensions.md). Ako niste završili te procedure, vratite se i dovršite ih, a zatim se vratite na ovaj članak. 
+Ovaj članak pretpostavlja da ste dovršili procedure u članku [Kreiranje prilagođenih polja i entiteta koji se koriste kao dimenzije za određivanje cena](create-custom-fields-entities-pricing-dimensions.md). Ako niste dovršili te procedure, vratite se i dovršite ih, a zatim se vratite na ovaj članak. 
 
-U ovom članku, procedure će vam pokazati kako da entitetima i elementima korisničkog interfejsa (korisničkog interfejsa) dodate potrebne reference na prilagođena polja, kao što su obrasci i prikazi.
+U ovom članku, procedure će vam pokazati kako možete da dodate zahtevane reference prilagođenog polja u entitete i elemente korisničkog interfejsa kao što su obrasci i prikazi.
 
 ## <a name="add-custom-pricing-dimension-fields"></a>Dodavanje prilagođenog polja dimenzija za određivanje cena 
 Nakon kreiranja prilagođenih polja i entiteta, sledeći korak jeste da podešavanje cena i transakcioni entiteti postanu svesni svih prilagođenih entiteta ili skupova opcija kreiranjem referentnih polja. U zavisnosti od toga da li lista dimenzija za određivanje cena uključuje dimenzije skupa opcija, dimenzije entiteta ili oboje, sledite samo korake u prilagođenim dimenzijama za određivanje cena **Prilagođene dimenzije za određivanje cena zasnovane na skupu opcija** ili **Prilagođene dimenzije za određivanje cena zasnovane na entitetu**.

@@ -1,6 +1,6 @@
 ---
 title: Upisivanje za pretplatu na verziju za pregled – jednostavno
-description: Ovaj članak pruža informacije o tome kako da se pretplatite i primenite Project Operations lite deployment - dogovor za proforma fakturisanje.
+description: Ovaj članak pruža informacije o tome kako da se pretplatite i primenite uslugu Project Operations jednostavna primena – od pogodbe do profakture.
 author: sigitac
 ms.date: 07/02/2021
 ms.topic: article
@@ -15,7 +15,7 @@ ms.locfileid: "9410093"
 ---
 # <a name="sign-up-for-a-preview-subscription---lite"></a>Upisivanje za pretplatu na verziju za pregled – jednostavno 
 
-Ovaj članak sadrži objašnjenja o tome kako da se pretplatite na probnu ponudu Dynamics 365 Project Operations i rasporedite raspoređivanje lite - dogovor sa proforma fakturisanjem.
+Ovaj članak objašnjava kako da se pretplatite na ponudu probne verzije i primeniti Dynamics 365 Project Operations jednostavnu primenu – od pogodbe do profakture.
 
 > [!NOTE]
 > Ovaj postupak će se promeniti u predstojećim izdanjima usluge Project Operations.
@@ -43,14 +43,14 @@ Pre nego što započnete, uverite se da ste prijavljeni u pregledač sa korisni�
 > Trebaće vam administrativni pristup Microsoft 365 portalu vaše organizacije da biste izvršili sledeće korake.
 
 
-1. Idite [Microsoft 365 u administrativni](https://portal.office.com/) centar da biste dodelili licence korisnicima.
+1. Idite u [Microsoft 365 centar administracije](https://portal.office.com/) da dodelite licence svojim korisnicima.
 2. Na stranici **Aktivni korisnici**, izaberite korisnike kojima želite da dodelite licencu.
 3. Proverite da li je izabrana licenca za **Dynamics 365 Project Operations**. 
 4. Izaberite **Sačuvaj promene**.
 
 ## <a name="create-a-new-dataverse-environment"></a>Napravite novo Dataverse okruženje
 
-1. Obezbedite novo okruženje za primenu Dataverse operacija projekta sledeći uputstva u članku, [Dataverse model primene](lite-deployment.md). Kada odaberete tip okruženja, obavezno koristite **probnu verziju (zasnovano na pretplati)**.
+1. Obezbedite novo okruženje za primenu usluge Project Operations Dataverse prateći uputstva u članku [Model primene za Dataverse](lite-deployment.md). Kada odaberete tip okruženja, obavezno koristite **probnu verziju (zasnovano na pretplati)**.
 
   ![Novo okruženje.](./media/19CreateEnvironment.png)
 
@@ -63,9 +63,9 @@ Pre nego što započnete, uverite se da ste prijavljeni u pregledač sa korisni�
 
 ![Instaliranje rešenja.](./media/21InstallSolution.png)
 
-## <a name="set-up-demo-data"></a>Podešavanje demo podataka
+## <a name="set-up-demo-data"></a>Konfigurisanje demonstracionih podataka
 
-Podesite demo podatke tako što ćete slediti uputstva u članku, primenite [podatke o podešavanju demonstracije i konfiguraciji](lite-apply-demo-setup-config-data.md).
+Konfigurišite demonstracione podatke prateći uputstva u članku [Primenite demo podešavanja i podataka o konfiguraciji](lite-apply-demo-setup-config-data.md).
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

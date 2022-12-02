@@ -1,6 +1,6 @@
 ---
 title: Upravljanje predlozima projektnih faktura
-description: Ovaj članak pruža detalje o obradi faktura okrenutih ka kupcima pomoću projektnih operacija za scenarije zasnovane na resursima/ nefakturisanju.
+description: Ovaj članak pruža detalje o obradi faktura za klijente pomoću usluge Project Operations za resurs/scenarije koji nisu zasnovani na zalihama.
 author: sigitac
 ms.date: 04/12/2021
 ms.topic: article
@@ -22,7 +22,7 @@ Predloge projektnih faktura može obrađivati odeljenje za obračun kada su ispu
   - Menadžer projekta potvrdi predračun u usluzi Microsoft Dataverse.
   - Sve nenaplaćene transakcije prodaje vremena i materijala obuhvaćene predračunom su proknjižene pomoću Dynamics 365 **Project Operations** dnevnik integracije.
 
-Koristite sledeće korake da biste dovršili predlog fakture projekta u Dynamics 365 Finance.
+Koristite sledeće korake da biste dovršili predlog fakture za projekat u usluzi Dynamics 365 Finance.
 
 1. Pregledajte informacije o naplati za transakcije vremena i materijala i objavite **Project Operations dnevnik integracije**.
 2. Pregledajte informacije o naplati za kontrolne tačke naplate sa fiksnom cenom.

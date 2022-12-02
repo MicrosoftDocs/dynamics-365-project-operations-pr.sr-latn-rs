@@ -1,6 +1,6 @@
 ---
 title: Prikaz naplative ukupne iskorišćenosti resursa
-description: Ovaj članak pruža informacije o prikazu iskorišćenosti resursa.
+description: Ovaj članak pruža informacije o prikazu ukupne iskorišćenosti resursa.
 author: ruhercul
 ms.custom:
 - dyn365-projectservice

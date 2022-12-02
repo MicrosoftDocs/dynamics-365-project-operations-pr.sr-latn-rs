@@ -1,6 +1,6 @@
 ---
 title: Verzije mape dvostrukog upisivanja za Project Operations
-description: Ovaj članak obezbeđuje listu mapa sa dvostrukim pisanjem koje su potrebne za Dynamics 365 Project Operations.
+description: Ovaj članak pruža spisak mapa dvostrukog upisivanja potrebnih za Dynamics 365 Project Operations.
 author: sigitac
 ms.date: 07/01/2021
 ms.topic: article
@@ -30,7 +30,7 @@ Sledeće mape su neophodni preduslovi za Project Operations rešenje. Obavezno p
 | Klijenti V3 (poslovni kontakti) | Nije potrebno za rezervisanje. |
 | Prodavci V2 (msdyn_vendors) | Nije potrebno za rezervisanje. |
 
-1. Na listi mapa odaberite mapu Glavna knjiga **(msdyn\__ledgers)** sa svim preduslovima i označite polje za potvrdu **Početna sinhronizacija**. U polju **Master za početnu** sinhronizaciju izaberite **aplikacije "Finansije"** i "Operacije" za mapu knjige i sve preduslovne mape. Izaberite **Pokreni**.
+1. Na listi mapa odaberite mapu Glavna knjiga **(msdyn\__ledgers)** sa svim preduslovima i označite polje za potvrdu **Početna sinhronizacija**. U polju **Master za početnu sinhronizaciju**, izaberite **Aplikacije za finansije i operacije** i za mapu glavne knjige i za sve preduslovne karte. Izaberite **Pokreni**.
 
 ![Sinhronizacija mape glavne knjige.](media/DW6.png)
 
@@ -46,7 +46,7 @@ Sledeće mape su neophodne za Project Operations rešenje. Navedene su verzije m
 | Zaglavlja projektnih ugovora (nalozi za prodaju) | 1.0.0.1 | Nije potrebno za rezervisanje. ||
 | Predmeti ugovora projekta (salesorderdetails) | 1.0.0.0 | Nije potrebno za rezervisanje. ||
 | Izvor finansiranja projekata (msdyn_projectcontractsplitbillingrules) | 1.0.0.2 | Nije potrebno za rezervisanje. ||
-| Tabela integracije projekata za procene materijala (msdyn\_ estimatelines) | 1.0.0.0 | Nije potrebno za rezervisanje. ||
+| Tabela integracije projekta za procene materijala (msdyn\__estimatelines) | 1.0.0.0 | Nije potrebno za rezervisanje. ||
 | Predlozi faktura projekta V2 (fakture) | 1.0.0.3 | Nije potrebno za rezervisanje. ||
 | Project Operations stvarne vrednosti integracije (msdyn_actuals) | 1.0.0.15 | Nije potrebno za rezervisanje. |10.0.29 ili noviji|
 | Kontrolne tačke predmeta ugovora za integraciju sa uslugom Project Operations (msdyn_contractlinescheduleofvalues) | 1.0.0.4 | Nije potrebno za rezervisanje. ||

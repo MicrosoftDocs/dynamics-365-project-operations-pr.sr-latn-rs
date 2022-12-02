@@ -1,6 +1,6 @@
 ---
 title: Resursi za predmete podugovora
-description: Ovaj članak sadrži objašnjenja o tome kako da navedete namenske resurse koje dobavljač obezbeđuje za određeni red podizvođač za vreme.
+description: Ovaj članak objašnjava kako navesti namenske resurse koje prodavac obezbeđuje za određeni predmet podugovora za vreme.
 author: rumant
 ms.date: 09/14/2022
 ms.topic: article

@@ -1,6 +1,6 @@
 ---
 title: Deaktiviranje cenovnika
-description: Ovaj članak sadrži objašnjenja o tome kako se deaktiviraju ili uklanjaju neisklinoviti ili stari cenovnici.
+description: Ovaj članak objašnjava kako da deaktivirate ili uklonite neiskorišćene ili stare cenovnike.
 author: rumant
 ms.date: 03/19/2021
 ms.topic: article

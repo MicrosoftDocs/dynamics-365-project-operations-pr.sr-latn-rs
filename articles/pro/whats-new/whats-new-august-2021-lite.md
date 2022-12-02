@@ -1,6 +1,6 @@
 ---
 title: Šta je novo u avgustu 2021. – Project Operations jednostavna primena
-description: Ovaj članak pruža informacije o kvalitetnim ispravkama dostupnim u avgustu 2021.
+description: Ovaj članak pruža informacije o ispravkama kvaliteta dostupnim u izdanju usluge Project Operations jednostavna primena za avgust 2021. godine.
 author: sigitac
 ms.date: 08/10/2021
 ms.topic: article
@@ -18,7 +18,7 @@ ms.locfileid: "8922055"
 
 _Odnosi se na: Jednostavna primena – od pogodbe do profakture_
 
-Ovaj članak se odnosi na sledeće Dynamics 365 Project Operations komponente i verzije:
+Ovaj članak se odnosi na sledeće komponente i verzije usluge Dynamics 365 Project Operations:
 
   - Project Operations u Dataverse okruženju verzije 4.13.0.152
 

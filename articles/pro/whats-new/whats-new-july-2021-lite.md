@@ -1,6 +1,6 @@
 ---
 title: Šta je novo u julu 2021. – Project Operations jednostavna primena
-description: Ovaj članak pruža informacije o kvalitetnim ispravkama dostupnim u julu 2021.
+description: Ovaj članak pruža informacije o ispravkama kvaliteta dostupnim u izdanju usluge Project Operations jednostavna primena za jul 2021. godine.
 author: sigitac
 ms.date: 07/07/2021
 ms.topic: article
@@ -18,7 +18,7 @@ ms.locfileid: "8914005"
 
 _Odnosi se na: Jednostavna primena – od pogodbe do profakture_
 
-Ovaj članak se odnosi na sledeće Dynamics 365 Project Operations komponente i verzije:
+Ovaj članak se odnosi na sledeće komponente i verzije usluge Dynamics 365 Project Operations:
 
   - Project Operations u Dataverse okruženju verzije 4.12.0.148 ili 4.12.0.152.
 

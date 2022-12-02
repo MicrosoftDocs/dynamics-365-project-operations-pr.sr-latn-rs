@@ -1,6 +1,6 @@
 ---
 title: Eliminisanje procene za projekat
-description: Ovaj članak pruža informacije o eliminisanju procene projekta nakon dovršavanja.
+description: Ovaj članak pruža informacije o eliminisanju procene projekta nakon što je završena.
 author: Yowelle
 ms.date: 05/26/2020
 ms.topic: article

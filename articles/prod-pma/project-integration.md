@@ -26,7 +26,7 @@ ms.locfileid: "8685002"
 
 [!include [banner](../includes/banner.md)]
 
-Planiranje i održavanje rasporeda projekta može biti složeno, pa menadžeri projekata moraju da koriste alate koji im pomažu u upravljanju ovim zadatkom. Integracija sa uslugom Microsoft Project Client pruža podršku za otvaranje i upravljanje strukturne analize posla na projektu. Menadžer projekta može da objavi sve promene u Dynamics 365 Finance strukture projektnog rada.
+Planiranje i održavanje rasporeda projekta može biti složeno, pa menadžeri projekata moraju da koriste alate koji im pomažu u upravljanju ovim zadatkom. Integracija sa uslugom Microsoft Project Client pruža podršku za otvaranje i upravljanje strukturne analize posla na projektu. Menadžer projekta može objaviti sve promene na strukturnoj analizi posla Dynamics 365 Finance projekta.
 
 > [!NOTE]
 > Ako koristite ispravku iz jula (verzija 10.0.4), morate instalirati KB 4054797 i 4055884.
@@ -39,7 +39,7 @@ Da biste omogućili integraciju sa uslugom Microsoft Project Client, potrebno je
 •   Kliknite na **Otvori**, a zatim kliknite na **Pokreni** kada to bude zatraženo.
 
 ## <a name="open-and-edit-an-existing-draft-work-breakdown-structure-in-microsoft-project-client"></a>Otvorite i uredite postojeću probnu verziju strukturne analize posla u programu Microsoft Project Client
-Ako projekat u Dynamics 365 Finance već ima kreiranu strukturu analize rada, struktura analize rada može da se otvori u aplikaciji Microsoft Project Client ako je struktura radne analize u radnom statusu. Da biste otvorili stranicu **Projekat**, kliknite na vezu **Otvori u programu Microsoft Project** na kartici **Plan**. Ova stranica se takođe može otvoriti iz aplikacije Microsoft Project Client klikom na **Otvori** na kartici **Microsoft Dynamics 365**. Izaberite **Pravno lice** i **Projekat** sa liste.
+Ako projekat u usluzi Dynamics 365 Finance već ima kreiranu strukturnu analizu posla, strukturna analiza posla može se otvoriti u aplikaciji Microsoft Project Client ako je strukturna analiza posla u statusu radne verzije. Da biste otvorili stranicu **Projekat**, kliknite na vezu **Otvori u programu Microsoft Project** na kartici **Plan**. Ova stranica se takođe može otvoriti iz aplikacije Microsoft Project Client klikom na **Otvori** na kartici **Microsoft Dynamics 365**. Izaberite **Pravno lice** i **Projekat** sa liste.
 
 > [!NOTE]
 > Ako koristite Internet Explorer kao pregledač, moraćete da kliknete na **Sačuvaj** da biste je ručno otvorili sa lokacije na koju se datoteka preuzima. Ili kliknite na **Sačuvaj i otvori** da biste otvorili datoteku u programu Microsoft Project Client. Nemojte da preimenujete naziv datoteke prilikom čuvanja.

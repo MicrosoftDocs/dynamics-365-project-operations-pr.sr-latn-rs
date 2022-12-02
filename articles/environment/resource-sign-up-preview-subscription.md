@@ -1,6 +1,6 @@
 ---
 title: Prijavljivanje za pretplate na verziju za pregled usluge Project Operations za scenarije resursa / bez zaliha
-description: Ovaj članak pruža informacije o tome kako da se pretplatite i primenite operacije projekta za scenarije zasnovane na ponovnom korišćenju/nenabavezivo.
+description: Ovaj članak pruža informacije o načinu pretplate i primene usluge Project Operations za scenarije zasnovane na resursima / bez zaliha.
 author: sigitac
 ms.date: 07/02/2021
 ms.topic: article
@@ -19,7 +19,7 @@ _**Odnosi se na:** Project Operations za scenarije zasnovane na resursima / bez 
 
 
 
-Ovaj članak sadrži objašnjenja o tome kako da se pretplatite na probnu ponudu i primenite okruženje projektnih operacija za scenarije zasnovane na resursima/nenapuštenicima.
+Ovaj članak objašnjava kako da se pretplatite na ponudu probne verzije i primeniti Project Operations okruženje za scenarije zasnovane na resursima / bez zaliha.
 
 ## <a name="prerequisites"></a>Preduslovi
 - Korisnik koji primeni verziju za pregled mora da ima globalna administratorska prava u Azure zakupcu. Zakupca možete kreirati tokom prvog iskorišćavanja ponude. 
@@ -40,7 +40,7 @@ Pre nego što započnete, uverite se da ste prijavljeni u pregledač sa korisni�
 
   Videćete da je ponuda za potvrdu uspešno iskorišćena.
 
-### <a name="dynamics-365-finance-preview-trial"></a>Dynamics 365 Finance pregleda
+### <a name="dynamics-365-finance-preview-trial"></a>Probna verzija Dynamics 365 Finance verzije za pregled
 
 Idite na [probnu verziju za pregled usluge Dynamics 365 for Finance](https://aka.ms/trypoche) i ponovite korake iz prethodnog odeljka sa ponudom, Prijavite se za okruženje koje se hostuje u oblaku.  
 
@@ -49,7 +49,7 @@ Idite na [probnu verziju za pregled usluge Dynamics 365 for Finance](https://aka
 > [!IMPORTANT]
 > Trebaće vam administrativni pristup Microsoft 365 portalu vaše organizacije da biste izvršili sledeće korake.
 
-1. Idite [Microsoft 365 u administrativni](https://portal.office.com/) centar da biste dodelili licence korisnicima.
+1. Idite u [Microsoft 365 centar administracije](https://portal.office.com/) da dodelite licence svojim korisnicima.
 
 2. Na stranici **Aktivni korisnici**, izaberite korisnike kojima želite da dodelite licencu.
 
@@ -60,19 +60,19 @@ Idite na [probnu verziju za pregled usluge Dynamics 365 for Finance](https://aka
 
 ## <a name="start-a-new-project-in-lcs"></a>Započnite novi projekat u LCS
 
-Kreirajte novi LCS projekat kao što je opisano u članku, Započnite [novi projekat u LCS-u](create-lcs-project.md)
+Napravite novi LCS projekat kako je opisano u članku [Započnite novi projekat u LCS](create-lcs-project.md)
 
 ## <a name="add-an-azure-subscription-to-an-lcs-project"></a>Dodajte Azure pretplatu u LCS projekat
 
-Da biste dovršili ovaj zadatak, sledite korake u članku, [dodajte Azure pretplatu na LCS projekat](resource-add-azure-subscription-lcs-project.md).
+Da biste dovršili ovaj zadatak, sledite korake u članku [Dodavanje Azure pretplate u LCS projekat](resource-add-azure-subscription-lcs-project.md).
 
 ## <a name="deploy-finance-demo-environment-with-project-operations-for-resourcenon-stocked-scenarios"></a>Primenite Finance demo okruženje sa uslugom Project Operations za scenarije resursa / bez zaliha
 
-Sledite smernice u članku, obezbedite [novo okruženje da biste](resource-provision-new-environment.md) dovršili primenu. Koristite tip primene [demo okruženje](/dynamics365/fin-ops-core/dev-itpro/deployment/deploy-demo-environment) za pregled. 
+Sledite smernice u članku [Obezbeđenje novog okruženja](resource-provision-new-environment.md) da biste završili primenu. Koristite tip primene [demo okruženje](/dynamics365/fin-ops-core/dev-itpro/deployment/deploy-demo-environment) za pregled. 
 
 ## <a name="install-cds-setup-and-configuration-data"></a>Instalirajte podatke o podešavanju i konfiguraciji CDS
 
-Instalirajte podatke o podešavanju i konfiguraciji CDS-a kao što je opisano u članku, Podesite [i primenite podatke o konfiguraciji u programu Common Data Service](resource-apply-pro-setup-config-data.md).
+Instalirajte podatke o podešavanju i konfiguraciji CDS kako je opisano u članku [Podesite i primenite podatke o konfiguraciji u usluzi Common Data Service](resource-apply-pro-setup-config-data.md).
 Dovršite ovaj korak tek nakon što se primeni demo okruženje usluge Finance i demo podaci budu spremni.
 
 

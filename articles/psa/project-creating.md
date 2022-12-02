@@ -1,6 +1,6 @@
 ---
 title: Rasporedi projekata
-description: Ovaj članak pruža informacije o kreiranju rasporeda.
+description: Ovaj članak pruža informacije o tome kako da kreirate raspored.
 author: ruhercul
 ms.custom:
 - dyn365-projectservice

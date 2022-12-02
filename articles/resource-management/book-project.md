@@ -1,6 +1,6 @@
 ---
 title: Rezervisanje za projekat
-description: Ovaj članak pruža informacije o rezervisanju resursa za projekat.
+description: Ovaj članak pruža informacije o rezervisanju resursa u projekat.
 author: ruhercul
 ms.date: 01/24/2022
 ms.topic: article
@@ -55,7 +55,7 @@ Kada menadžer resursa treba da rezerviše resurs direktno za projekat, može da
     - Trajanje
    
    > [!NOTE]
-   > Trenutno ne Dynamics 365 Project Operations podržava tablu rasporeda.   
+   > Trenutno Dynamics 365 Project Operations ne podržava tablu rasporeda.   
 
 ## <a name="book-from-the-project-form"></a>Rezervacija iz obrasca Projekat
 

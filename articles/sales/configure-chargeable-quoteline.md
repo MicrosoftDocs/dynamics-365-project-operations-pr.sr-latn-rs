@@ -1,6 +1,6 @@
 ---
 title: Konfigurisanje naplativim komponentama stavke ponude zasnovane na projektu
-description: Ovaj članak pruža informacije o uključenim komponentama ponude koje se naplaćuju, naplaćuju i koje se ne naplaćuju u redovima ponude zasnovane na projektu.
+description: Ovaj članak pruža informacije o uključenim, naplativim i nenaplativim komponentama na stavkama ponuda zasnovanih na projektu.
 author: rumant
 ms.date: 11/18/2020
 ms.topic: article

@@ -1,6 +1,6 @@
 ---
 title: Prilagođavanje sedmične stavke vremena
-description: Ovaj članak pruža informacije o primeni prilagođenih poslovnih pravila koja podržavaju prakse organizacije.
+description: Ovaj članak pruža informacije o tome kako implementirati prilagođena poslovna pravila koja podržavaju prakse organizacije.
 author: stsporen
 ms.custom:
 - dyn365-projectservice
@@ -46,7 +46,7 @@ Odeljak **Dimenzije** prikazuje, kao nazive kolona, sve dimenzije za koje se vre
 - Tip
 - Status stavke
 
-Odeljak **Dimenzije** ne dozvoljava unutrašnje uređivanje. Ovaj odeljak je podržan prikazom koji omogućava da se prilagođena polja dodaju u mrežu sedmičnih stavki vremena. Više informacija o dodavanju prilagođenih polja potražite u odeljku "Protenzibilnost" u ovom članku.
+Odeljak **Dimenzije** ne dozvoljava unutrašnje uređivanje. Ovaj odeljak je podržan prikazom koji omogućava da se prilagođena polja dodaju u mrežu sedmičnih stavki vremena. Informacije o dodavanju prilagođenih polja potražite u odeljku „Proširivost“ kasnije u ovom članku.
 
 ### <a name="duration"></a>Trajanje
 Odeljak Trajanje prikazuje dane u nedelji kao zaglavlja kolona. Ovaj odeljak omogućava unutrašnje uređivanje. Nakon što se kreira red za stavku vremena koji ima odgovarajuće dimenzije, korisnici mogu unutra brzo uneti količinu vremena koju su utrošili za te dimenzije.

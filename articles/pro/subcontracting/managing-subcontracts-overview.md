@@ -1,6 +1,6 @@
 ---
 title: Upravljanje podugovorima u aplikaciji Project Operations
-description: Ovaj članak pruža pregled procesa upravljanja podizvođačima sa kraja na kraj obično u organizacijama zasnovanim na projektu.
+description: Ovaj članak pruža pregled procesa upravljanja podizvođačima od početka do kraja obično u projektnim organizacijama.
 author: rumant
 ms.date: 09/14/2022
 ms.topic: overview
@@ -18,7 +18,7 @@ ms.locfileid: "9522343"
 
 _**Odnosi se na:** Project Operations za scenarije zasnovane na resursima/bez zaliha, jednostavna primena – od pogodbe do profakture_
 
-Ovaj članak pruža pregled procesa upravljanja podizvođačima sa kraja na kraj u organizacijama zasnovanim na projektu. Podugovaranje usluga obično sledi nakon toka poslovnog procesa koji je prikazan na sledećem dijagramu.
+Ovaj članak pruža pregled procesa upravljanja podizvođačima od početka do kraja u projektnim organizacijama. Podugovaranje usluga obično sledi nakon toka poslovnog procesa koji je prikazan na sledećem dijagramu.
 
 ![Tok procesa podugovaranja](../media/SubcontractingProcessFlow.png)
 
@@ -45,7 +45,7 @@ Predmet podugovora može da se zasniva na količini ili na poslu.
 
 Kada je predmet podugovora **zasnovan na količini**, količina koja se kupuje na predmetu podugovarača za vreme, troškove ili materijal može se koristiti na bilo kojem projektu.
 
-Kada je predmet podugovora **zasnovan na poslu**, predmet podugovora se preslikava na posao koji predstavlja čvor u planu projekta. Vrednost predmeta podugovora je zbir svih komponenti koje su potrebne za isporuku tog dela posla. Oni su modelirani kao detalji o predmetima podugovora i mogu biti skup vremena, troškova ili materijala. Za predmet podugovora zasnovan na poslu, predmet podugovora je takođe posvećen jednom projektu. Operacije projekta ne podržavaju ove tipove podizvođači.
+Kada je predmet podugovora **zasnovan na poslu**, predmet podugovora se preslikava na posao koji predstavlja čvor u planu projekta. Vrednost predmeta podugovora je zbir svih komponenti koje su potrebne za isporuku tog dela posla. Oni su modelirani kao detalji o predmetima podugovora i mogu biti skup vremena, troškova ili materijala. Za predmet podugovora zasnovan na poslu, predmet podugovora je takođe posvećen jednom projektu. Ovi tipovi podugovora trenutno nisu podržani u rešenju Project Operations.
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]
 

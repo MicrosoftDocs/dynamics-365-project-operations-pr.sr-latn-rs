@@ -1,6 +1,6 @@
 ---
 title: Konfigurisanje računovodstva za naplative projekte
-description: Ovaj članak pruža informacije o računovodstvenim opcijama za projekte koji se mogu naplatiti.
+description: Ovaj članak pruža informacije o računovodstvenim opcijama za naplative projekte.
 author: sigitac
 ms.date: 04/05/2021
 ms.topic: article

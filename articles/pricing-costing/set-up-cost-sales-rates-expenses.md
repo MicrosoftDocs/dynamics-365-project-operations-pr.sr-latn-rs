@@ -1,6 +1,6 @@
 ---
 title: Podešavanje stopa cena i prodaje za troškove
-description: Ovaj članak pruža informacije o tome kako da podesite cene troškova i prodaje za kategorije transakcija i troškova.
+description: Ovaj članak pruža informacije o tome kako da postavite stope cena i prodaje za kategorije transakcija i troškova.
 author: rumant
 ms.date: 04/07/2021
 ms.topic: article

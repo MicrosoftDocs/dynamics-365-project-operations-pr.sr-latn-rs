@@ -1,6 +1,6 @@
 ---
 title: Korišćenje postojećeg polja u usluzi Project Service kao dimenzije za određivanje cena
-description: Ovaj članak pruža informacije o korišćenju postojećih polja Projekt servisa kao dimenzija cena.
+description: Ovaj članak pruža informacije o korišćenju postojećih Project Service polja kao dimenzija za određivanje cena.
 author: Rumant
 ms.custom:
 - dyn365-projectservice

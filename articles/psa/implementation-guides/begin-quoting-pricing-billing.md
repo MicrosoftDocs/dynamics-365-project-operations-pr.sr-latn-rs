@@ -1,6 +1,6 @@
 ---
 title: Osnovni vodič za davanje ponuda, formiranje cena i naplatu
-description: Ovaj članak pruža veze ka informacijama o osnovnim citatima, cenama i naplati u automatizaciji projektne usluge.
+description: Ovaj članak pruža veze ka informacijama o osnovama davanja ponuda, formiranja cena i naplate u aplikaciji Project Service Automation.
 author: kfend
 ms.custom:
 - dyn365-projectservice
@@ -32,7 +32,7 @@ ms.locfileid: "8910831"
 
 Sposobnost pronalaženja pravih resursa u pravo vreme, rezervisanje tih resursa za projekte i njihovo redovno korišćenje pomaže organizacijama da ispune ciljeve u pogledu prihoda i zadovoljstva klijenata. 
 
-PDF link koji je prethodno bio u ovom članku je uklonjen i sadržaj je premešten u sledeće članke:
+PDF veza koja je prethodno bila u ovom članku uklonjena je, a sadržaj je premešten u sledeće članke:
 
 - [Davanje ponuda, formiranje cena i naplata](../quote-bill-price.md)
 - [Procesi prodaje](../basic-sales-process.md)
@@ -50,7 +50,7 @@ PDF link koji je prethodno bio u ovom članku je uklonjen i sadržaj je premešt
 - [Evidentiranje stvarnih vrednosti](../advanced-actuals.md)
 
 > [!NOTE]
-> Ovaj članak će biti uklonjen u budućoj ispravci. 
+> Ovaj članak biće uklonjen u budućoj ispravci dokumentacije. 
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

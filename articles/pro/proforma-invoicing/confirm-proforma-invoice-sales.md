@@ -1,6 +1,6 @@
 ---
 title: Potvrda predračuna za projekat
-description: Ovaj članak pruža informacije o potvrđivanje proforma projektnih faktura u projektne operacije.
+description: Ovaj članak pruža informacije o potvrđivanju predračuna za projekat u usluzi Project Operations.
 author: rumant
 ms.date: 04/05/2021
 ms.topic: article

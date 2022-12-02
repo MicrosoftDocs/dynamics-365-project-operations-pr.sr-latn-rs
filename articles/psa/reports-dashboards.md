@@ -1,6 +1,6 @@
 ---
 title: Kontrolne table
-description: Ovaj članak pruža informacije o kontrolnim tablama za izveštavanje koje su uključene u program Dynamics 365 Project Service Automation.
+description: Ovaj članak pruža informacije o kontrolnim tablama za izveštavanje koje su uključene u Dynamics 365 Project Service Automation.
 author: ruhercul
 ms.custom:
 - dyn365-projectservice

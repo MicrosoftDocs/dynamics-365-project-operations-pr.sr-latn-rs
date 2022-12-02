@@ -1,6 +1,6 @@
 ---
 title: Otkazivanje prethodno odobrenih stavki vremena i troškova
-description: Ovaj članak pruža informacije o tome kako da otkažete odobreno vreme projekta i transakciju troškova.
+description: Ovaj članak pruža informacije o tome kako se otkazuje odobreno vreme projekta i transakcija troškova.
 author: rumant
 ms.custom:
 - dyn365-projectservice

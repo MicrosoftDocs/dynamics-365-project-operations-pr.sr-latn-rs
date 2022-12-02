@@ -1,6 +1,6 @@
 ---
 title: Objavljivanje izveštaja o troškovima
-description: Ovaj članak sadrži objašnjenja o tome kako se knjiže izveštaji o troškovima.
+description: Ova j članak objašnjava kako se objavljuju izveštaji o troškovima.
 author: ramagadu
 ms.date: 08/12/2022
 ms.topic: article
@@ -30,15 +30,15 @@ Da biste proknjižili izveštaj o troškovima, na stranici **Odobreni izveštaji
 
 Takođe možete istovremeno proknjižiti sve izveštaje o troškovima na listi. Izaberite sve izveštaje o troškovima, a zatim izaberite **Knjiži**.
 
-## <a name="enable-the-ability-to-post-expense-liability-in-vendor-currency-for-cash-payment-method-feature"></a>Omogućavanje funkcije "Mogućnost knjiženja odgovornosti troškova" u valuti dobavljača za funkciju načina plaćanja gotovinom
+## <a name="enable-the-ability-to-post-expense-liability-in-vendor-currency-for-cash-payment-method-feature"></a>Omogućite mogućnost funkcije knjiženja odgovornosti za troškove u valuti dobavljača za način plaćanja gotovinom
 
-Mogućnost **knjiženja odgovornosti troškova u valuti dobavljača za funkciju načina plaćanja gotovinom** omogućava knjiženje izveštaja o troškovima u valuti dobavljača za način plaćanja gotovinom.
+Funkcija **Mogućnost knjiženja odgovornosti za troškove u valuti dobavljača** omogućava knjiženje izveštaja o troškovima u valuti dobavljača za način plaćanja gotovinom.
 
-Trenutno, kada prosleđujete gotovinske troškove, izveštaji o troškovima se knjiže u računovodstvenoj valuti. Zbog konverzije iznosa između valute transakcije, knjigovodstvene valute i valute dobavljača, netačan iznos se plaća dobavljačima ako datum transakcije i stvarni datum plaćanja imaju različite kurseve valuta.
+Trenutno, kada prosleđujete gotovinske troškove, izveštaji o troškovima se knjiže u računovodstvenoj valuti. Zbog konverzije iznosa između valute transakcije, knjigovodstvene valute i valute dobavljača, netačan iznos se plaća dobavljačima ako datum transakcije troška i stvarni datum plaćanja imaju različite devizne kurseve.
 
-Ova funkcija će osigurati da saldo dobavljača bude zapisan u valuti dobavljača kada se proknjiži izveštaj o troškovima.
+Ova funkcija će osigurati da saldo dobavljača bude evidentiran u valuti dobavljača kada se proknjiži izveštaj o troškovima.
 
 1. Idite na stavku **Radni prostori** \> **Upravljanje funkcijama**.
-2. Na listi pronađite i izaberite Mogućnost knjiženja **odgovornosti troškova u valuti dobavljača za način plaćanja gotovinom, a zatim** izaberite omogući **odmah**.
+2. Na listi pronađite i izaberite **Mogućnost knjiženja odgovornosti za troškove u valuti dobavljača** za način plaćanja gotovinom, a zatim izaberite **Omogući odmah**.
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -1,6 +1,6 @@
 ---
 title: Predmeti podugovora za vreme
-description: Ovaj članak sadrži objašnjenja o tome kako da zakažete redove podizvođač za vreme i zapušite nabavku vremena od dobavljača.
+description: Ovaj članak objašnjava kako snimiti predmete podugovora za vreme i evidentirati kupovinu vremena od prodavaca.
 author: rumant
 ms.date: 09/14/2022
 ms.topic: article

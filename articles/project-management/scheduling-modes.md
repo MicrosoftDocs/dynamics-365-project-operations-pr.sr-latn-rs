@@ -1,6 +1,6 @@
 ---
 title: Režimi planiranja
-description: Ovaj članak pruža informacije o režimima zakazivanja.
+description: Ovaj članak pruža informacije o režimima planiranja.
 author: ruhercul
 ms.date: 05/28/2021
 ms.topic: article
@@ -38,7 +38,7 @@ Kada definišete režim zakazivanja projekta, postavljate jednu od ovih vrednost
 | Zadatak fiksnog angažovanja    | Trajanje je preračunato. | Jedinice se preračunavaju.    | Trajanje je preračunato. |
 | Zadatak fiksnog trajanja  | Napor se preračunava.   | Napor se preračunava.    | Jedinice se preračunavaju.   |
 
-Za više informacija o implikacijama datog režima pogledajte [Promenite tip zadatka za tačnije raspoređivanje](https://support.microsoft.com/en-us/office/change-the-task-type-for-more-accurate-scheduling-b0b969ad-45bc-4e9e-8967-435587548a72). U članku se umesto napora **koristi** termin **Rad**.
+Za više informacija o implikacijama datog režima pogledajte [Promenite tip zadatka za tačnije raspoređivanje](https://support.microsoft.com/en-us/office/change-the-task-type-for-more-accurate-scheduling-b0b969ad-45bc-4e9e-8967-435587548a72). U članku se pojam **Posao** koristi umesto **Napor**.
 
 ## <a name="change-the-organizations-scheduling-mode"></a>Promenite režim zakazivanja organizacije
 

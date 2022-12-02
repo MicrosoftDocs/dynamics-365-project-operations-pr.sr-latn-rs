@@ -1,6 +1,6 @@
 ---
 title: Procena predmeta ugovora za projekat
-description: Ovaj članak pruža informacije o procenama u redu ugovora o projektu.
+description: Ovaj članak pruža informacije o procenama na predmetu ugovora za projekat.
 author: rumant
 ms.date: 10/27/2020
 ms.topic: article

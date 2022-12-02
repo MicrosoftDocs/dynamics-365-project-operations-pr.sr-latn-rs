@@ -1,6 +1,6 @@
 ---
 title: Šta je novo ili promenjeno u aplikaciji Project Service Automation u verziji 3.x talasu 1 za 2020. godinu
-description: Ovaj članak pruža informacije o tome šta je novo i promenjeno u programu Project Service Automation verzija 3 wave 1 2020.
+description: U ovom članku date su informacije o tome šta je novo i šta se promenilo u rešenju Project Service Automation u verziji 3 talasu 1 za 2020.
 ms.custom:
 - dyn365-projectservice
 ms.date: 05/15/2020
@@ -28,7 +28,7 @@ ms.locfileid: "8928633"
 
 [!include [banner](../includes/psa-now-project-operations.md)]
 
-Članak naglašava ključna razmatranja nadogradnje prilikom prelaska na najnovije izdanje Project Service Automation (PSA) verzije 3.x talasa 1 2020.
+Članak ističe ključne činjenice koje treba uzeti u obzir prilikom nadogradnje kada prelazite na najnovije izdanje rešenja Project Service Automation (PSA) verzije 3.x talasa 1 za 2020.
 
 ## <a name="time-entry"></a>Stavka vremena
 Iskustvo stavke vremena je prošireno kako bi isporučilo mogućnosti produžetka stavke vremena u više scenarija klijenata. Ovo obuhvata mogućnost dodavanja tipova stavki, koji sada pokreću određeno ponašanje na osnovu naziva plana polja **Podešavanja stavke vremena**, prikazano kao **Izvor vremena**. Novo rešenje, pod nazivom „Time, Expense, Statusing, and Approvals“ (TESA) je dodat kako bi bila podržana ova funkcionalnost.

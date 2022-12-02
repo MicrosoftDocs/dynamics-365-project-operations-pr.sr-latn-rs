@@ -1,6 +1,6 @@
 ---
 title: Upravljanje potencijalnim klijentima – jednostavno
-description: Ovaj članak pruža informacije o upravljanju potencijalnim klijentima zasnovanim na projektu (pro).
+description: Ovaj članak pruža informacije o upravljanju potencijalnim klijentima zasnovanim na projektu (Pro).
 author: rumant
 ms.date: 10/01/2020
 ms.topic: article

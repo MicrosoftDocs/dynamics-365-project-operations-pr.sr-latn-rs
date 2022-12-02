@@ -1,6 +1,6 @@
 ---
 title: Šta je novo ili promenjeno u izdanju 13 ispravke Project Service Automation verzije 3
-description: Ovaj članak pruža informacije o tome šta je novo u izdanju za ažuriranje automatizacije usluge projekta Release 13, V3.
+description: Ovaj članak pruža informacije o tome šta je novo u izdanju ispravke 13 za Project Service Automation u verziji 3.
 author: ruhercul
 ms.custom: dyn365-projectservice
 ms.date: 02/04/2020
@@ -29,7 +29,7 @@ ms.locfileid: "8930703"
 
 Sa zadovoljstvo najavljujemo najnoviju ispravku za aplikaciju Dynamics 365 Project Service Automation (PSA). Ovo izdanje uključuje neka važna poboljšanja u kvalitetu, performansama i upotrebljivosti. Ovo izdanje je kompatibilno sa uslugom Dynamics 365 9.x. Da biste ažurirali ovo izdanje, posetite centar za administraciju za Dynamics 365 online i idite do stranice sa rešenjima kako biste instalirali ispravku. Za još informacija pogledajte članak [Instaliranje, ispravka ili uklanjanje željenog rešenja](/power-platform/admin/install-remove-preferred-solution).
 
-Ovaj članak navodi funkcije i ispravke koje su nove ili promenjene za V3 automatizaciju usluge projekta, izdanje za ažuriranje 13. Ova verzija ima broj verzije V3.10.3.18 i dostupna je prema sledećem planu:
+U ovom članku date su funkcije koje su nove ili su promenjene u rešenju Project Service Automation u verziji 3, izdanje ispravke 13. Ova verzija ima broj verzije V3.10.3.18 i dostupna je prema sledećem planu:
 
 - **Opšta dostupnost (samo-ispravka):** novembar 2019. godine
 - **automatska ispravka:** decembar 2019. godine

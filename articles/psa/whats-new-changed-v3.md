@@ -1,6 +1,6 @@
 ---
 title: Šta je novo ili promenjeno u aplikaciji Project Service Automation verzije 3
-description: Ovaj članak pruža informacije o tome šta je novo i promenjeno u verziji 3.
+description: U ovom članku date su informacije o tome šta je novo i šta se promenilo u rešenju Project Service Automation verzije 3.
 ms.custom:
 - dyn365-projectservice
 ms.date: 11/28/2018
@@ -32,7 +32,7 @@ ms.locfileid: "8926609"
 
 
 
-Ovaj članak pruža informacije o promenama u korisničkom interfejsu (korisničkom interfejsu), funkcionalnosti i terminologiji u automatizaciji projektne usluge između verzije 2 ili verzije 1 i verzije 3.
+Ovaj članak pruža informacije o promenama korisničkog interfejsa, funkcionalnosti i terminologije u aplikaciji Project Service Automation između verzije 2 ili verzije 1 i verzije 3.
 
 ## <a name="project-scheduling"></a>Zakazivanje projekta
 Raspored projekta, koji je u prethodnim verzijama bio poznat pod nazivom strukturna analiza posla (SAP), preimenovan je u raspored, a njemu se pristupa klikom na karticu **Raspored**. 
@@ -150,7 +150,7 @@ Kada imate dodele zadataka za resurs bez rezervisanja (nedostatak rezervacije), 
 Ovaj odeljak pruža informacije o promenama vremena, troškova i odobrenja u verziji 3 aplikacije Project Service Automation. Kao deo rešenja Dynamics 365 Project Service Automation, funkcija **Stavka vremena** je osvežena da bi iskoristila okvir objedinjenog interfejsa. To omogućava isporuku konzistentnog, jedinstvenog korisničkog interfejsa koji sledi prilagodljiv dizajn za optimalni pregled na bilo kojoj veličini ekrana ili uređaju. 
 
 ### <a name="landing-page"></a>Odredišna stranica
-Iskustvo neproširive prilagođene stavke vremena zastarelo je u verziji 3. Umesto toga, sada postoji proširivo i dostupno iskustvo uklopljene mreže. Funkcionalnosti za stavku vremena možete pristupiti pomoću mape sajta sa leve strane. Zbog ove promene više nećete moći odjednom da unosite vreme za jednu sedmicu. Umesto toga, moraćete da kreirate stavku vremena za svaki dan u mreži. Nakon kreiranja nekoliko stavki, korisnici mogu masovno da kreiraju vremenske stavke sa funkcijom Kopiraj **objašnjene** kasnije u ovom članku. 
+Iskustvo neproširive prilagođene stavke vremena zastarelo je u verziji 3. Umesto toga, sada postoji proširivo i dostupno iskustvo uklopljene mreže. Funkcionalnosti za stavku vremena možete pristupiti pomoću mape sajta sa leve strane. Zbog ove promene više nećete moći odjednom da unosite vreme za jednu sedmicu. Umesto toga, moraćete da kreirate stavku vremena za svaki dan u mreži. Nakon kreiranja nekoliko stavki, korisnici mogu grupno da kreiraju stavke vremena pomoću funkcije za **kopiranje** koja je objašnjena kasnije u ovom članku. 
 
 ![Odredišna stranica stavke vremena.](media/time-entry-landing-page-07.png)
  

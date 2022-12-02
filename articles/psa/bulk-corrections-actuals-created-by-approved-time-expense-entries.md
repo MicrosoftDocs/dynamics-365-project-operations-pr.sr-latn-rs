@@ -1,6 +1,6 @@
 ---
 title: Masovne ispravke trenutnog stanja kreiranog odobrenim stavkama vremena i troška
-description: Ovaj članak sadrži objašnjenja o tome kako administrator može da izvrši pojedinačne ili masovne korekcije prethodno odobrenog vremena ili stavki troškova ako naplata nije dovršena.
+description: Ovaj članak objašnjava kako administrator može da izvrši pojedinačne ili masovne ispravke prethodno odobrenih stavki vremena ili troška ukoliko naplata nije potpuna.
 author: rumant
 ms.date: 04/02/2020
 ms.topic: article
@@ -28,7 +28,7 @@ ms.locfileid: "8916306"
 
 Povremeno se može pogrešno uneti stavka vremena ili troška. Na primer, konsultant može da odabere pogrešan datum prilikom kreiranja stavke vremena ili može da prenese brojeve prilikom unosa troška. Ako konsultant ne može da obavi ažuriranja prosleđenih stavki, administrator može direktno da ispravi stavku za projekat.
 
-Da biste dovršili procedure iz ovog članka, biće vam potrebne administratorske dozvole.
+Da biste dovršili procedure u ovom članku, trebaće vam dozvole administratora.
 
 ## <a name="correct-approved-time-entries"></a>Ispravne odobrene stavke vremena     
 

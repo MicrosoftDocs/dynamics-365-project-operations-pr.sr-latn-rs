@@ -1,6 +1,6 @@
 ---
 title: Upravljanje predračunom zasnovanim na projektu
-description: Ovaj članak pruža informacije o načinu upravljanja i rada sa proforma fakturama zasnovanim na projektu.
+description: Ovaj članak pruža informacije o načinu upravljanja i rada sa fakturama zasnovanim na predračunima za projekat.
 author: rumant
 ms.date: 04/05/2021
 ms.topic: article

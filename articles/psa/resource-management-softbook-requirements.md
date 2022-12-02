@@ -1,6 +1,6 @@
 ---
 title: Potrebe za uslovnim rezervisanjem
-description: Ovaj članak pruža informacije o zahtevima za meko rezervisane knjige.
+description: Ovaj članak pruža informacije o tome kako da rezervišete resurse prema potrebama za uslovnim rezervisanjem.
 author: ruhercul
 ms.custom:
 - dyn365-projectservice

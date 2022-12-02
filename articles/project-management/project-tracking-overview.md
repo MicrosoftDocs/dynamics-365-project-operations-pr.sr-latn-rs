@@ -1,6 +1,6 @@
 ---
 title: Praćenje angažovanja u projektu
-description: Ovaj članak pruža informacije o tome kako pratiti napore projekta i tok rada.
+description: Ovaj članak pruža informacije o tome kako da pratite angažovanje u projektu i napredak posla.
 author: ruhercul
 ms.date: 02/15/2022
 ms.topic: overview
@@ -17,7 +17,7 @@ ms.locfileid: "8929277"
 
 _**Odnosi se na:** Project Operations za scenarije zasnovane na resursima/bez zaliha, jednostavna primena – od pogodbe do profakture_
 
-Potreba da se prati napredak u odnosu na raspored razlikuje se od delatnosti do delatnosti. Neke delatnosti obavljaju praćenje na najdetaljnijem nivou, dok druge to rade na višem nivou. Ovaj članak prikazuje kako se planira da bi se ispunili zahtevi vaše organizacije.
+Potreba da se prati napredak u odnosu na raspored razlikuje se od delatnosti do delatnosti. Neke delatnosti obavljaju praćenje na najdetaljnijem nivou, dok druge to rade na višem nivou. Ovaj članak pokazuje kako obaviti zakazivanje da biste ispunili potrebe svoje organizacije.
 
 ## <a name="effort-tracking-view"></a>Prikaz za praćenje angažovanja
 
@@ -46,7 +46,7 @@ Angažovanje na rezimiranim zadacima ili zadacima kontejnera može se ponovno pr
 - Podređeni zadaci na koje ovo utiče, sve do čvorova lista, imaju ponovno izračunato preostalo angažovanje i procenat napretka na osnovu EAC vrednosti. To rezultira novom projekcijom odstupanja od angažovanja na zadatku. 
 - Ponovo se izračunavaju EAC-ovi rezimiranih zadataka sve do osnovnog čvora.
 - Odobreni napor na zadatku rezimea je zbir odobrenih napora za sve podređene zadatke, kao i odobreni napor u zadatku rezimea.
-- Preostali napori na zadatku rezimea su zbir preostalih napora za sve podređene zadatke umanjeni za odobreni napor u zadatku rezimea.
+- Preostali napor zadatka rezimea je zbir preostalih napora za sve podređene zadatke, manje odobreni napor u zadatku rezimea.
 
 ## <a name="project-status-summary"></a>Rezime statusa projekta
 

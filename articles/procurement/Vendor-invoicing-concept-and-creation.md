@@ -1,6 +1,6 @@
 ---
-title: Kreiranje faktura dobavljača
-description: Ovaj članak opisuje koncept faktura dobavljača i objašnjava kako da ih kreirate u korporaciji Microsoft Dynamics 365 Project Operations.
+title: Kreiranje faktura prodavca
+description: Ovaj članak opisuje koncept faktura dobavljača i objašnjava kako da ih kreirate u usluzi Microsoft Dynamics 365 Project Operations.
 author: suvaidya
 ms.date: 9/12/2022
 ms.topic: article
@@ -13,91 +13,91 @@ ms.contentlocale: sr-Latn-RS
 ms.lasthandoff: 09/13/2022
 ms.locfileid: "9475482"
 ---
-# <a name="create-vendor-invoices"></a>Kreiranje faktura dobavljača
+# <a name="create-vendor-invoices"></a>Kreiranje faktura prodavca
 
 _**Odnosi se na:** Project Operations za scenarije zasnovane na resursima / bez zaliha_
 
-Da biste koristili funkcionalnost opisanu u ovom članku, **morate omogućiti da se omogući obrada stvarnih podataka podizvođača pomoću operacija projekta za scenarije zasnovane na resursima** u **radnom prostoru za** upravljanje funkcijama.
+Da biste koristili funkcionalnost opisanu u ovom članku, morate omogućiti funkciju **Omogući obradu stvarnih vrednosti podugovora pomoću rešenja Project Operations scenarije zasnovane na resursima** u radnom prostoru **Upravljanje funkcijama**.
 
-Fakturisanje dobavljača u korporaciji Microsoft Dynamics 365 Project Operations može se koristiti za zapisivanje troškova isporuka usluga i/ili materijala na projektu koji su dovršili dobavljači.
+Fakturisanje dobavljača u usluzi Microsoft Dynamics 365 Project Operations može se koristiti za evidentiranje cena za isporuke usluga i/ili materijala na projektu koji su dovršili dobavljači.
 
-Kada se servisi i/ili materijali podubeđuju dobavljaču, podizvođač predstavlja ugovorni ugovor sa tim dobavljačem. Kako dobavljač isporučuje usluge ili kako se materijali primaju i koriste na projektnim zadacima, troškovi se beleže na projektu. Dobavljač zatim periodično šalje fakture. Te fakture se proveravaju i podudaraju sa troškovima koji su zabeleženi na projektu. Nakon završetka procesa verifikacije, faktura dobavljača se potvrđuje i oslobađa za plaćanje.
+Kada se usluge i/ili materijali podugovaraju sa prodavcem, podugovor predstavlja ugovorni sporazum sa tim prodavcem. Kako dobavljač isporučuje usluge ili kako se materijali primaju i koriste na projektnim zadacima, cene se beleže na projektu. Dobavljač zatim periodično šalje fakture. Te fakture se proveravaju i podudaraju sa cenama koje su zabeležene na projektu. Nakon završetka procesa verifikacije, faktura prodavca se potvrđuje i pušta za plaćanje.
 
-## <a name="scenarios-for-use"></a>Scenariji za upotrebu
+## <a name="scenarios-for-use"></a>Scenariji upotrebe
 
-Fakture dobavljača u operacijama projekta mogu se koristiti za podršku dva različita scenarija:
+Fakture dobavljača u rešenju Project Operations mogu se koristiti za podršku dva različita scenarija:
 
-- Klijenti koriste puna iskustva podizvođanja.
-- Klijenti ne koriste kompletna iskustva podizvođanja, ali žele da imaju jedinstven prikaz troškova za projekte u operacijama projekta.
+- Klijenti koriste puna iskustva podugovaranja.
+- Klijenti ne koriste potpuna iskustva podugovaranja, ali žele da imaju jedinstven prikaz cena na projektima u rešenju Project Operations.
 
-### <a name="customers-use-the-full-subcontracting-experiences"></a>Klijenti koriste kompletna iskustva podizvođanja
+### <a name="customers-use-the-full-subcontracting-experiences"></a>Klijenti koriste puna iskustva podugovaranja
 
-Iskustva sa fakturom dobavljača obezbeđuju način provere vremenskih stavki, korišćenja materijala i stavki troškova koje referencuju komponente podizvođačima i uporećuju ih sa redovima fakture dobavljača. Ovaj proces se može koristiti za proveru tačnosti redova fakture dobavljača. Nakon dovršavanja procesa verifikacije i potvrde fakture dobavljača, sistem stornira stvarne stavke koje su zapisane odobrenim evidencijama vremena, troškova i korišćenja materijala, a zatim kreira nove stvarne troškove korišćenjem redova fakture dobavljača.
+Iskustva sa fakturom dobavljača obezbeđuju način provere unosa vremena, korišćenja materijala i stavki troškova koje su reference za komponente podugovora i podudaraju ih sa redovima na fakturi dobavljača. Ovaj proces se može koristiti za proveru tačnosti redova na fakture dobavljača. Nakon dovršavanja procesa verifikacije i potvrde fakture dobavljača, sistem stornira stvarne vrednosti koje su evidentirane odobrenim evidencijama vremena, troškova i korišćenja materijala, a zatim kreira nove stvarne vrednosti za cenu korišćenjem redova na fakturi dobavljača.
 
-### <a name="customers-dont-use-the-full-subcontracting-experiences-but-want-to-have-a-unified-view-of-costs-on-projects-in-project-operations"></a>Klijenti ne koriste kompletna iskustva podizvođanja, ali žele da imaju jedinstven prikaz troškova projekata u projektne operacije
+### <a name="customers-dont-use-the-full-subcontracting-experiences-but-want-to-have-a-unified-view-of-costs-on-projects-in-project-operations"></a>Klijenti ne koriste potpuna iskustva podugovaranja, ali žele da imaju jedinstven prikaz cena na projektima u rešenju Project Operations
 
-Ako pratite proces podizvođače u sistemu nezavisnog proizvođača, troškove iz tog sistema nezavisnih proizvođača možete zapisati u operacije projekta kreiranjem faktura dobavljača koje ne upućuju na podizvođače. Na taj način menadžeri projekata mogu da imaju jedinstven, objedinjen prikaz svih troškova na datom projektu.
+Ako pratite proces podugovora u sistemu nezavisnog proizvođača, cene iz sistema tog nezavisnog proizvođača možete evidentirati u rešenju Project Operations kreiranjem faktura dobavljača koje ne upućuju na podugovore. Na taj način menadžeri projekata mogu da imaju jedinstven, objedinjen prikaz svih cena na datom projektu.
 
-## <a name="create-vendor-invoices-in-project-operations"></a>Kreiranje faktura dobavljača u projektne operacije
+## <a name="create-vendor-invoices-in-project-operations"></a>Kreiranje faktura dobavljača u rešenju Project Operations
 
-Fakture dobavljača se kreiraju u Dynamics 365 Finance, pomoću modula **"Konta za plaćanje**". Fakture dobavljača ne možete kreirati direktno u Dataverse.
+Fakture dobavljača se kreiraju u sistemu Dynamics 365 Finance korišćenjem modula **Dugovanja**. Fakture dobavljača ne možete kreirati direktno u usluzi Dataverse.
 
 ### <a name="set-up-vendor-invoice-verification"></a>Podešavanje provere fakture dobavljača
 
-Ako je faktura dobavljača namenjena podizvođačima Dataverse u programu, **potreban je parametar Ručna verifikacija od strane premijera**. Postavka opcije određuje da li faktura dobavljača treba automatski da bude potvrđena ili Dataverse zahteva ručnu potvrdu. Zaglavlje svake fakture dobavljača projekta uključuje opciju istog imena. Podrazumevano, opcija u zaglavlju svih faktura dobavljača projekta postavljena je na vrednost koju ste ovde postavili. Međutim, vrednost možete ažurirati po potrebi u zaglavlju pojedinačnih faktura dobavljača.
+Ako je faktura dobavljača namenjena za podugovor u usluzi Dataverse, morate da omogućite parametar **Ručna verifikacija od strane PM-a**. Postavka opcije određuje da li faktura dobavljača treba automatski da bude potvrđena u usluzi Dataverse ili zahteva ručnu potvrdu. Zaglavlje svake fakture dobavljača na projektu uključuje opciju istog imena. Podrazumevano, opcija u zaglavlju svih faktura dobavljača na projektu postavljena je na vrednost koju ste ovde postavili. Međutim, vrednost možete ažurirati po potrebi u zaglavlju pojedinačnih faktura dobavljača.
 
-Ako je opcija postavljena na "Da", **faktura** dobavljača koja je kreirana u "Finansije" i sinhronizovana sa statusom Dataverse "Radna verzija" ima **status "Radna** verzija". Faktura zatim mora biti proverena i verifikovana od strane menadžera projekta i potvrđena, pre nego što se obradi i proknjiži na određena konta projekta i knjige u finansijama.
+Ako je opcija postavljena na **Da**, faktura dobavljača koja je kreirana u Finansijama i sinhronizovana sa uslugom Dataverse ima status **Radna verzija**. Faktura zatim mora biti proverena i verifikovana od strane projektnog menadžera, kao i potvrđena, pre nego što se obradi i proknjiži na određena konta projekta i glavne knjige u Finansijama.
 
-Ako je opcija podešena na "Ne **·**", faktura dobavljača se automatski potvrđuje. Nije potrebna dalja akcija.
+Ako je opcija podešena na **Ne**, faktura dobavljača se automatski potvrđuje. Nije potrebna dodatna radnja.
 
-Da biste podesili proveru fakture dobavljača, sledite ove korake.
+Da biste podesili verifikaciju fakture dobavljača, pratite ove korake.
 
-1. U oblasti Finansije idite na Upravljanje projektima **i računovodstveno podešavanje** \> **projekta** \> **upravljanja i računovodstvenih parametara.**
-1. Na kartici **"** Finansije" postavite **opciju "Ručno verifikacija od strane premijera** **·**" ako smernice preduzeća zahtevaju verifikaciju faktura dobavljača podizvođača. Ako verifikacija od strane menadžera projekta nije obavezna, ostavite Dataverse poruku skup opcija na "Ne **"**. Postavka će podrazumevano biti korišćena na stranici fakture dobavljača **na čekanju**.
+1. U Finansijama, idite na **Upravljanje projektima i računovodstvo** \> **Podešavanje** \> **Upravljanje projektom i računovodstveni parametri**.
+1. Na kartici **Finansije** postavite opciju **Ručno verifikacija od strane PM-a** na **Da** ako smernice preduzeća zahtevaju verifikaciju faktura dobavljača podizvođača. Ako verifikacija od strane projektnog menadžera nije obavezna u usluzi Dataverse, ostavite skup opcija na **Ne**. Postavka će podrazumevano biti korišćena na stranici **Fakture dobavljača na čekanju**.
 
 > [!NOTE]
-> Fakture dobavljača koje su kreirane za podizvođača Dataverse mogu se ispravno obraditi samo ako **je opcija "Ručno verifikacija od strane premijera** " podešena na "Da **"**. Stvarne vremenske, materijalne i troškovne troškove koje kreiraju podizvođači mogu se ručno podudarati sa redovima fakture dobavljača od strane menadžera projekta samo ako je ova opcija podešena na "Da **"**.
+> Fakture dobavljača koje su kreirane za podizvođače u usluzi Dataverse mogu se ispravno obraditi samo ako je opcija **Ručno verifikacija od strane PM-a** podešena na **Da**. Stvarne vrednosti za cene za vreme, materijal i troškove koje kreiraju podizvođači mogu se ručno podudarati sa redovima na fakturi dobavljača od strane projektnog menadžera samo ako je ova opcija podešena na **Da**.
 
-### <a name="set-up-a-procurement-integration-account-for-vendor-invoices"></a>Podešavanje konta integracije nabavke za fakture dobavljača
+### <a name="set-up-a-procurement-integration-account-for-vendor-invoices"></a>Podesite nalog za integraciju nabavki za fakture dobavljača
 
-Kada se faktura dobavljača proknjiži u "Finansije za projektne operacije " – Integrisano okruženje (nenapušteno), finansije se knjiže na konto integracije sa nabavkama. Sistem generiše stvarne stvari za proknjiženu Dataverse fakturu. Ove stvarne stvari se knjiže u "Finansije" korišćenjem naloga za integraciju projekata. Knjiženje naloga integracije projekta knjiži stvarni trošak i storni konto integracije sa nabavkama.
+Kada se faktura dobavljača proknjiži u rešenju Finance for Project Operations – Integrisano okruženje (koji nisu na zalihama), finansije se knjiže na konto integracije sa nabavkama. Sistem generiše stvarne vrednosti u usluzi Dataverse za proknjiženu fakturu. Ove stvarne vrednosti se knjiže u Finansijama korišćenjem dnevnika za integraciju projekata. Knjiženjem u dnevnika integracije projekta knjiži se stvarna vrednost cene i stronira konto integracije nabavki.
 
-Da biste podesili konto integracije nabavke za fakture dobavljača, sledite ove korake.
+Da biste podesili konto za integraciju nabavki za fakture dobavljača, pratite ove korake.
 
-1. U oblasti Finansije idite na Upravljanje projektima **i računovodstveno podešavanje** \> **projekta** \> **upravljanja i računovodstvenih parametara.**
-1. Na kartici **Projektne operacije na Dynamics 365 kartici angažovanje kupaca** izaberite konto **integracije** \> **nabavki materijala.**
+1. U Finansijama, idite na **Upravljanje projektima i računovodstvo** \> **Podešavanje** \> **Upravljanje projektom i računovodstveni parametri**.
+1. Na kartici **Project Operations u usluzi Dynamics 365 Customer Engagement**, izaberite **Materijali** \> **Konto integracije nabavki**.
 
-### <a name="create-and-post-subcontract-vendor-invoices"></a>Kreiranje i knjiženje faktura dobavljača podizvođači
+### <a name="create-and-post-subcontract-vendor-invoices"></a>Kreiranje i knjiženje faktura klijenta podugovora
 
-Kada službenik koji plaća račune primi fakturu od podizvođača, nova faktura se kreira u oblasti "Finansije".
+Kada službenik za dugovanja primi fakturu od podizvođača, nova faktura se kreira u oblasti Finansijama.
 
-1. U oblasti "Finansije" idite na fakture **za isplate** \> **na čekanju.** \> **·**
-1. U oknu **za radnje** izaberite stavku Novo **da** biste kreirali fakturu dobavljača.
-1. U zaglavlju fakture, u polju Konto **fakture** izaberite stavku **Podizvođač**.
+1. U Finansijama idite na **Dugovanja** \> **Fakture** \> **Fakture dobavljača na čekanju**.
+1. U **Oknu Radnje** izaberite **Novo** da biste kreirali fakturu dobavljača.
+1. U zaglavlju fakture, u polju **Konto fakture** izaberite stavku **Podizvođač**.
 1. Izaberite datum fakture.
-1. Na kartici **"** Zaglavlje" postavite opciju **"Ručno verifikacija od strane** premijera" na opciju "Da **"**. Podrazumevana postavka ove opcije potiče sa stranice "Upravljanje **projektima i računovodstvenim parametrima** ". Međutim, ona se može promeniti na nivou fakture dobavljača.
-1. Na brzoj **kartici Red** fakture izaberite stavku Dodaj **red da biste** kreirali red fakture dobavljača.
-1. Izaberite kategoriju nabavke koja je kreirana za redove podizvođači i unesite jediničnu cenu, jedinicu mere i količinu.
-1. U odeljku Redovi fakture dobavljača, na **kartici** Projekat izaberite projekat u koji podizvođač deli fakturu podizvođača.
-1. Izaberite kategoriju projekta. Može biti bilo koje vrste stavke "Artikal **", "** Troškovi **", "** Materijali **"** ili "Časovi **"**.
-1. Izaberite ulogu samo ako je izabrana kategorija projekta tipa "Sat **·**".
-1. Kliknite na **dugme Proknjiži** da biste proknjižili fakturu dobavljača.
+1. Na kartici **Zaglavlje** postavite opciju **Ručna verifikacija od strane PM-a je potrebna** na **Da**. Podrazumevana postavka ove opcije potiče sa stranice **Upravljanje projektima i računovodstveni parametri**. Međutim, ona se može promeniti na nivou fakture dobavljača.
+1. Na brzoj kartici **Stavka fakture** izaberite **Dodaj red** da biste kreirali red na fakturi dobavljača.
+1. Izaberite kategoriju nabavke koja je kreirana za predmete podugovora i unesite jediničnu cenu, jedinicu mere i količinu.
+1. U odeljku Predmeti fakture dobavljača, na kartici **Projekat** izaberite projekat za koji podizvođač deli fakturu podizvođača.
+1. Izaberite kategoriju projekta. Može biti bilo koji tip: **Stavka**, **Trošak**, **Materijali** ili **Sati**.
+1. Izaberite ulogu samo ako je izabrana kategorija projekta tipa **Sat**.
+1. Kliknite na **Proknjiži** da biste proknjižili fakturu dobavljača.
 
-Druga mogućnost je da kreirate fakturu dobavljača tako što ćete ići na fakture **za plaćanje** \> **·** \> **Otvoriti fakture dobavljača** i izabrati stavku **Novo.**
+Druga mogućnost je da kreirate fakturu dobavljača tako što ćete ići na **Dugovanja** \> **Fakture** \> **Otvorene fakture dobavljača** i izabrati **Novo**.
 
-Kada se faktura dobavljača proknjiži, ona postaje dostupna za Dataverse proveru i obradu menadžera projekta.
+Kada se faktura dobavljača proknjiži, ona postaje dostupna u usluzi Dataverse za proveru i obradu od strane projektnog menadžera.
 
-## <a name="vendor-invoice-processing-in-dataverse"></a>Obrada fakture dobavljača u Dataverse
+## <a name="vendor-invoice-processing-in-dataverse"></a>Obrada fakture dobavljača u usluzi Dataverse
 
-U fakturi dobavljača koja je kreirana u Dataverse programu, neke vrednosti polja potiиu iz fakture dobavljača koja je zapisana u "Finansije". Druge vrednosti su podrazumevane vrednosti koje potiиu iz podizvoрaиa.
+U fakturi dobavljača koja je kreirana u usluzi Dataverse, neke vrednosti polja potiču iz fakture dobavljača koja je evidentirana u Finansijama. Druge vrednosti su podrazumevane vrednosti koje potiču iz podugovora.
 
-Sledeća polja i srodni zapisi biće kopirani iz podizvođača u zaglavlje fakture dobavljača:
+Sledeća polja i povezani zapisi biće kopirani iz podugovora u zaglavlje fakture dobavljača:
 
 - Valuta
 - Jedinica ugovaranja
 - Uslovi plaćanja
 
-U redovima fakture dobavljača, operacije projekta koriste sledeće vrednosti polja da bi uneli podrazumevanu referencu reda podizvođači i podizvođači:
+U stavkama na fakturi dobavljača, Project Operations koristi sledeće vrednosti polja za unos podrazumevani podugovor i referencu na predmet podugovora:
 
 - Klasa transakcije
 - Uloga
@@ -107,6 +107,6 @@ U redovima fakture dobavljača, operacije projekta koriste sledeće vrednosti po
 - Zadatak
 
 > [!NOTE]
-> Redovi podizvođanja fiksne cene nisu podržani u operacijama projekta.
+> Predmeti podugovora sa fiksnom cenom nisu podržani u Project Operations.
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

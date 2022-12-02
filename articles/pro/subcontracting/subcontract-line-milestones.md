@@ -1,6 +1,6 @@
 ---
 title: Kontrolne tačke predmeta podugovora
-description: Ovaj članak sadrži objašnjenja o tome kako da kreirate i održite raspored faktura zasnovan na prekretnici za podizvođač sa dobavljačem.
+description: Ovaj članak objašnjava kako da kreirate i održavate raspored faktura zasnovan na kontrolnim tačkama za podugovor sa prodavcem.
 author: rumant
 ms.date: 09/14/2022
 ms.topic: article

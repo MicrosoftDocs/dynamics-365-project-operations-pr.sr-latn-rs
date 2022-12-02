@@ -1,6 +1,6 @@
 ---
 title: Metodi cene za dovršetak
-description: Ovaj članak pruža informacije o metodama korišćenim za izračunavanje troškova za dovršavanje projekta.
+description: Ovaj članak pruža informacije o metodama koje se koriste za izračunavanje cene za dovršetak projekta.
 author: sigitac
 ms.date: 11/16/2020
 ms.topic: article
@@ -17,7 +17,7 @@ ms.locfileid: "8920307"
 
 _**Odnosi se na:** Project Operations za scenarije zasnovane na resursima / bez zaliha_
 
-Ovaj članak pruža informacije o metodama korišćenim za izračunavanje troškova za dovršavanje projekta. Postoji više metoda pomoću kojih možete izračunati cene za dovršetak projekta. 
+Ovaj članak pruža informacije o metodama koje se koriste za izračunavanje cene za dovršetak projekta. Postoji više metoda pomoću kojih možete izračunati cene za dovršetak projekta. 
 
 Kada kreirate procenu za projekat, na stranici **Kreiranje procene**, u polju **Metod cene za dovršetak**, možete izabrati jedan od sledećih metoda cene za dovršetak.
 

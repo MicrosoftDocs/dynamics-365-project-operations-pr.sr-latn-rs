@@ -1,6 +1,6 @@
 ---
 title: Performanse planiranja resursa za projekat
-description: Ovaj članak pruža informacije o tome kako da poboljšate performanse planiranje resursa za veliki broj projekata.
+description: Ovaj članak pruža informacije o tome kako poboljšati performanse planiranja resursa za veliki broj projekata.
 author: Yowelle
 ms.date: 08/31/2020
 ms.topic: article

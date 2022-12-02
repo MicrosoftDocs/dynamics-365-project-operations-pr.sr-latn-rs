@@ -17,26 +17,26 @@ ms.locfileid: "8930381"
 
 _**Odnosi se na:** Project Operations za scenarije zasnovane na resursima/bez zaliha, jednostavna primena – od pogodbe do profakture_
 
-Član projektnog tima koji prosledi stavku vremena, troškova ili korišćenja materijala može da opozove tu stavku nakon što je odobrena. Proces opoziva ima dva glavna koraka:
+Član projektnog tima koji prosleđuje stavku vremena, troška ili korišćenja materijala može je opozvati nakon što je odobrena. Proces opoziva ima dva glavna koraka:
 
 1. Podnosilac zahteva opozivanje.
-2. Osoba koja vrši odobravanje odobrava zahtev za opoziv.
+2. Davalac odobrenja odobrava zahtev za opoziv.
 
 ## <a name="request-a-recall"></a>Zatražite opozivanje
 
-Sledite ove korake da biste zatražili opoziv odobrenog vremena, troškova ili stavki korišćenja materijala.
+Pratite ove korake da biste zatražili opoziv odobrenih stavki vremena, troškova ili korišćenja materijala.
 
-1. Sledite jedan od ovih koraka, u zavisnosti od tipa stavke koju želite da opozovete:
+1. Pratite jedan od ovih koraka, u zavisnosti od vrsta stavke koju želite da opozovete:
 
-    - Za stavke vremena idite na **"Projekti** \> **moja stavka** \> **radnog** vremena" i izaberite sve stavke vremena za određenu kombinaciju projekta i zadatka. Alternativno, u mreži odaberite pojedinačne ćelije za vreme za određeni datum i projekat.
-    - Za stavke troškova idite na "**Projekti** \> **moji troškovi** \> **rada"** i izaberite red za opozvanu stavku troškova.
-    - Za stavke korišćenja materijala idite u "**Projects** \> **My Work** \> **Material Using Log**" i izaberite red za opozvanu stavku korišćenja materijala.
+    - Za stavke vremena idite na **Projekti** \> **Moj posao** \> **Stavka vremena** i izaberite sve stavke za određenu kombinaciju projekta i zadatka. Alternativno, u mreži odaberite pojedinačne ćelije za vreme za određeni datum i projekat.
+    - Za stavke troškova idite na **Projekti** \> **Moj posao** \> **Troškovi** i izaberite red za stavku troška za opoziv.
+    - Za stavke korišćenja materijala idite na **Projekti** \> **Moj posao** \> **Evidencija korišćenja materija** i izaberite red za stavku korišćenja materijala za opoziv.
 
-2. Izaberite **Opozovi**. Pojavljuje se dijalog za potvrdu. Ako su izabrane stavke vremena, troškova ili korišćenja materijala već odobrene, od vas će biti zatraženo da unesete razlog opoziva.
+2. Izaberite **Opozovi**. Pojavljuje se dijalog za potvrdu. Ako su odabrane stavke vremena, troškova ili korišćenja materijala već odobrene, od vas će se tražiti da unesete razlog opoziva.
 3. Unesite razlog opoziva, a zatim izaberite **U redu** da potvrdite operaciju. Sistem šalje osobi koja je odobrila stavke zahtev za odobrenje opoziva.
 
 > [!IMPORTANT]
-> Ne možete kreirati zahtev za opoziv za odobreno vreme, trošak ili stavku korišćenja materijala koja je već fakturisana kupcu. Ako pokušate, dobićete poruku u kojoj se navodi da stavka vremena, troškova ili korišćenja materijala ne može biti opozvana jer je već fakturisana. U tom slučaju možete zatražiti opoziv stavke samo ako se korektivna faktura koristi za izdavanje kompletnog kredita ili povraćaja novca kupcu u originalnoj fakturi.
+> Ne možete da kreirate zahtev za opoziv za odobrenu stavku vremena, troškova ili korišćenja materijala koja je već fakturisana klijentu. Ako pokušate, dobićete poruku u kojoj stoji da se stavka vremena, troška ili korišćenja materijala ne može opozvati jer je već fakturisana. U tom slučaju, možete zahtevati opoziv stavke samo ako se korektivna faktura koristi za izdavanje kompletnog kredita ili povraćaja novca klijentu u originalnoj fakturi.
 
 ## <a name="approve-or-reject-a-recall-request"></a>Odobravanje ili odbacivanje zahteva za opoziv
 
@@ -52,7 +52,7 @@ Sledite ove korake da biste odobrili ili odbacili zahtev za opoziv.
     Ako ste izabrali **Odbaci**, zahtev za opoziv je odbijen.
 
 > [!IMPORTANT]
-> Kada opoziv bude odobren, baš kao i kada je to zahtevano, sistem proverava da li postoji bilo kakva aktivnost fakturisanja u vremenu, troškovima ili stavkama korišćenja materijala. Ako je stavka već fakturisana ili se ona na radnoj fakturi odnosi na radnu verziju fakture, osoba koja vrši odobravanje dobija poruku o grešci u kojoj se navodi da vreme ili trošak ne mogu biti odobreni za opoziv jer je već fakturisan. U ovom slučaju, osoba koja vrši odobravanje može da odobri opoziv samo ako se korektivna faktura koristi za izdavanje kompletnog kredita ili povraćaja novca kupcu u originalnoj fakturi.
+> Kada se opoziv odobri, kao i u slučaju njegovog zahtevanja, kada se opoziv odobri, sistem proverava da li ima bilo kakvih aktivnosti fakturisanja u stavkama vremena, troškova ili korišćenja materijala. Ako je stavka već fakturisana ili je u radnoj verziji fakture, davalac odobrenja će primiti poruku o grešci u kojoj stoji da se opoziv vremena ili troška ne može odobriti jer je već fakturisan. U tom slučaju, davalac odobrenja možete odobriti opoziv stavke samo ako se korektivna faktura koristi za izdavanje kompletnog kredita ili povraćaja novca klijentu u originalnoj fakturi.
 
 ## <a name="impact-of-a-recall-request"></a>Efekat zahteva za opoziv
 
@@ -60,9 +60,9 @@ Kada se odobrenje opozove, postoji i operativni i finansijski uticaj.
 
 ### <a name="operational-impact"></a>Operativni uticaj
 
-Ako je zahtev za opoziv odobren, zapis odobrenja označava se kao **Odbačen**. Status stavke se menja u "Vraćeno" ili **·** "Odbijeno **·**", u zavisnosti od toga da li se radi o stavci vremena ili o trošku ili korišćenju materijala.
+Ako je zahtev za opoziv odobren, zapis odobrenja označava se kao **Odbačen**. Status stavke se menja u **Vraćena** ili **Odbačena**, u zavisnosti da li je to stavka vremena, troškova ili korišćenja materijala.
 
-Član projektnog tima može da pregleda stavke, uredi, a zatim ponovo zatvori stavke ili da u potpunosti izbriše stavke.
+Član projektnog tima može pregledati stavke, uređivati i zatim ponovo prosleđivati stavke ili ih u potpunosti brisati.
 
 Ako se zahtev za opoziv odbaci, status stavke ostaje **Odobrena** i stavku ne može da uređuje član projektnog tima niti davalac odobrenja za projekat.
 
@@ -79,14 +79,14 @@ Ako se zahtev za opoziv odbaci, nema finansijskog uticaja na projekat.
 
 ## <a name="changes-to-time-entry-records"></a>Promene zapisa stavke vremena
 
-Sledeća ilustracija prikazuje promene do kojih dolazi za odobrene stavke vremena i odgovarajuće zapise odobravanja kada budu opozvane.
+Sledeća ilustracija prikazuje promene koje se dešavaju za odobrene stavke vremena i odgovarajuće zapise odobrenja kada su opozvani.
 
-![Prelazi stanja vremenskog ulaska.](media/TimeEntryStateTransitions.png)
+![Promene statusa stavke vremena.](media/TimeEntryStateTransitions.png)
 
-## <a name="changes-to-expense-and-material-usage-entry-records"></a>Promene zapisa stavki troškova i korišćenja materijala
+## <a name="changes-to-expense-and-material-usage-entry-records"></a>Promene zapisa stavke troškova i korišćenja materijala
 
-Sledeća ilustracija prikazuje promene do kojih dolazi za odobrene stavke troškova i korišćenja materijala i odgovarajuće zapise o odobravanju kada budu opozvane.
+Sledeća ilustracija prikazuje promene koje se dešavaju za odobrene stavke troškova i korišćenja materijala i odgovarajuće zapise odobrenja kada su opozvani.
 
-![Prelazi stanja unosa troškova.](media/ExpenseEntryStateTransitions.png)
+![Promene statusa stavke troškova.](media/ExpenseEntryStateTransitions.png)
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

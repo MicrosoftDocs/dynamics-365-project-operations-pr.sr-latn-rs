@@ -1,6 +1,6 @@
 ---
 title: Stavke ponuda zasnovane na proizvodu
-description: Ovaj članak pruža informacije o redovima ponude zasnovanim na proizvodu.
+description: Ovaj članak pruža informacije o stavkama ponuda zasnovanim na proizvodu.
 author: rumant
 ms.custom:
 - dyn365-projectservice

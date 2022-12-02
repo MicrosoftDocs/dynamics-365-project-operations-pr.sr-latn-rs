@@ -1,6 +1,6 @@
 ---
 title: Upravljanje složenim jedinicama, kao što su stavke ponude zasnovane na proizvodu po korisniku mesečno – jednostavno
-description: Ovaj članak pruža informacije o upravljanju složenim jedinicama za redove ponude zasnovane na proizvodu.
+description: Ovaj članak pruža informacije o upravljanju složenim jedinicama za stavke ponude zasnovane na proizvodu.
 author: rumant
 ms.date: 10/06/2020
 ms.topic: article

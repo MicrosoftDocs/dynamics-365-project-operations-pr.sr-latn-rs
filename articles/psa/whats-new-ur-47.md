@@ -1,6 +1,6 @@
 ---
-title: Šta je novo ili promenjeno u ažuriranju automatizacije projektne usluge Release 47, V3
-description: Ovaj članak navodi funkcije i ispravke koje su dostupne u izdanju Microsoft Dynamics 365 Project Service Automation Update Release 47, V3.
+title: Šta je novo ili promenjeno u izdanju 47 ispravke Project Service Automation verzije 3
+description: U ovom članku navedene su funkcije i ispravke koje su dostupne u izdanju 47 ispravke usluge Microsoft Dynamics 365 Project Service Automation verzije 3.
 author: ruhercul
 ms.custom: dyn365-projectservice
 ms.date: 09/14/2022
@@ -23,13 +23,13 @@ ms.contentlocale: sr-Latn-RS
 ms.lasthandoff: 09/14/2022
 ms.locfileid: "9477288"
 ---
-# <a name="whats-new-or-changed-in-project-service-automation-update-release-47-v3"></a>Šta je novo ili promenjeno u ažuriranju automatizacije projektne usluge Release 47, V3
+# <a name="whats-new-or-changed-in-project-service-automation-update-release-47-v3"></a>Šta je novo ili promenjeno u izdanju 47 ispravke Project Service Automation verzije 3
 
 [!include [banner](../includes/psa-now-project-operations.md)]
 
 Zadovoljstvo nam je da najavimo najnoviju ispravku za aplikaciju Microsoft Dynamics 365 Project Service Automation. Ovo izdanje uključuje neka važna poboljšanja u kvalitetu, performansama i upotrebljivosti. Kompatibilna je sa sistemom Dynamics 365 9.x. Da biste se ažurirali na ovo izdanje, posetite stranicu centra administracije za Dynamics 365 mrežna rešenja i instalirajte ispravku. Za još informacija pogledajte članak [Instaliranje, ispravka ili uklanjanje željenog rešenja](/power-platform/admin/install-remove-preferred-solution).
 
-Ovaj članak navodi funkcije i ispravke koje su nove ili promenjene za ispravku za automatizaciju usluge projekta Release 45, V3. Ova verzija ima broj verzije V3.10.78.8 i obično je dostupna putem samostalnog ažuriranja u julu 2022.
+U ovom članku date su funkcije koje su nove ili su promenjene u rešenju Project Service Automation u verziji 3, izdanje ispravke 45. Ova verzija ima broj verzije 3.10.78.8 i opšte je dostupna putem samostalnog ažuriranja u julu 2022.
 
 ## <a name="update-release-47"></a>Izdanje ispravke 47
 
@@ -38,4 +38,4 @@ Ovaj članak navodi funkcije i ispravke koje su nove ili promenjene za ispravku 
 Popravljeni su sledeći problemi.
 
 **Upravljanje resursima**
-- Provera valjanosti je ažurirana da bi se osiguralo da korisnici ne mogu da izazovu izuzetak bez reference kada pokušavaju da kreiraju člana projektnog tima bez resursa **koji se može rezervisati**.
+- Provera valjanosti je ažurirana da bi se osiguralo da korisnici ne mogu da pokreću izuzetak bez reference kada pokušavaju da kreiraju člana projektnog tima bez **Resursa koji je moguće rezervisati**.

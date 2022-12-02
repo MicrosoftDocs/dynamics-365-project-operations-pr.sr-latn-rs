@@ -1,6 +1,6 @@
 ---
 title: Fakturisanje dobavljača – koncept i kreiranje
-description: Ovaj članak opisuje koncept faktura dobavljača, scenarija za korišćenje i kako se kreiraju fakture dobavljača u korporaciji Microsoft Dynamics 365 Project Operations.
+description: Ovaj članak opisuje koncept faktura prodavca, scenarije korišćenja i kako da kreirate fakture dobavljača u usluzi Microsoft Dynamics 365 Project Operations.
 author: rumant
 ms.date: 03/25/2022
 ms.topic: article
@@ -17,57 +17,57 @@ ms.locfileid: "9261961"
 
 _**Odnosi se na:** Jednostavna primena – od pogodbe do profakture_
 
-Fakturisanje dobavljača u korporaciji Microsoft Dynamics 365 Project Operations može se koristiti za zapisivanje troškova isporuka usluga i/ili materijala na projektu od strane dobavljača.
+Fakturisanje prodavaca u usluzi Microsoft Dynamics 365 Project Operations može se koristiti za evidentiranje cena za isporuke usluga i/ili materijala na projektu od strane dobavljača.
 
-Kada se servisi i/ili materijali podubeđuju dobavljaču, podizvođač predstavlja ugovorni ugovor sa tim dobavljačem. Dok dobavljač isporučuje usluge ili se materijali primaju i koriste na projektnim zadacima, troškovi se beleže na projektu. Dobavljač povremeno šalje fakture koje se proveravaju i podudaraju sa troškovima koji su zapisani u projektu. Nakon završetka procesa verifikacije, faktura dobavljača se potvrđuje i oslobađa za plaćanje.
+Kada se usluge i/ili materijali podugovaraju sa prodavcem, podugovor predstavlja ugovorni sporazum sa tim prodavcem. Kako prodavac isporučuje usluge ili kako se materijali primaju i koriste na projektnim zadacima, cene se beleže na projektu. Periodično, prodavac šalje fakture koje se proveravaju i podudaraju sa cenama koje su zabeležene na projektu. Nakon završetka procesa verifikacije, faktura prodavca se potvrđuje i pušta za plaćanje.
 
-## <a name="scenarios-for-use"></a>Scenariji za upotrebu
+## <a name="scenarios-for-use"></a>Scenariji upotrebe
 
-Fakture dobavljača u operacijama projekta mogu se koristiti za podršku dva različita scenarija.
+Fakture prodavaca u rešenju Project Operations mogu se koristiti za podršku dva različita scenarija.
 
-### <a name="customers-use-the-full-subcontracting-experiences"></a>Klijenti koriste kompletna iskustva podizvođanja
+### <a name="customers-use-the-full-subcontracting-experiences"></a>Klijenti koriste puna iskustva podugovaranja
 
-Iskustva sa fakturom dobavljača obezbeđuju način provere i podudaranja stavki vremena, korišćenja materijala i stavki troškova koje referencuju komponente podizvođačima sa redovima fakture dobavljača. Ovaj proces se može koristiti za proveru tačnosti redova fakture dobavljača. Nakon završetka procesa verifikacije i potvrde fakture dobavljača, zatvaranje će stornirati stvarne stavke koje su zapisane odobrenim evidencijama vremena, troškova i korišćenja materijala i kreirati nove stvarne troškove korišćenjem redova fakture dobavljača.
+Iskustva sa fakturom dobavljača obezbeđuju način provere i podudaranja stavki vremena, korišćenja materijala i stavki troškova koje su reference za komponente podugovora sa redovima na fakturi dobavljača. Ovaj proces se može koristiti za proveru tačnosti redova na fakture dobavljača. Nakon dovršavanja procesa verifikacije i potvrde fakture dobavljača, aplikacija će stornirati stvarne vrednosti koje su evidentirane odobrenim evidencijama vremena, troškova i korišćenja materijala, a zatim kreirati nove stvarne vrednosti za cenu korišćenjem redova na fakturi dobavljača.
 
-### <a name="customers-dont-use-the-full-subcontracting-experiences-but-want-to-have-a-unified-view-of-costs-on-projects-in-project-operations"></a>Klijenti ne koriste kompletna iskustva podizvođanja, ali žele da imaju jedinstven prikaz troškova projekata u projektne operacije
+### <a name="customers-dont-use-the-full-subcontracting-experiences-but-want-to-have-a-unified-view-of-costs-on-projects-in-project-operations"></a>Klijenti ne koriste potpuna iskustva podugovaranja, ali žele da imaju jedinstven prikaz cena na projektima u rešenju Project Operations
 
-Ako pratite proces podizvođače u sistemu nezavisnog proizvođača, troškove iz tog sistema nezavisnih proizvođača možete zapisati u operacije projekta kreiranjem faktura dobavljača koje ne upućuju na podizvođače. Na taj način menadžeri projekata mogu imati jedinstven, jedinstven prikaz svih troškova na datom projektu.
+Ako pratite proces podugovora u sistemu nezavisnog proizvođača, cene iz sistema tog nezavisnog proizvođača možete evidentirati u rešenju Project Operations kreiranjem faktura dobavljača koje ne upućuju na podugovore. Na taj način menadžeri projekata mogu da imaju jedinstven, objedinjen prikaz svih cena na datom projektu.
 
-## <a name="creation-of-vendor-invoices-in-project-operations"></a>Kreiranje faktura dobavljača u projektne operacije
+## <a name="creation-of-vendor-invoices-in-project-operations"></a>Kreiranje faktura dobavljača u rešenju Project Operations
 
-Fakture dobavljača se mogu kreirati na dva načina:
+Fakture dobavljača mogu da se kreiraju na dva načina:
 
 - Sa stranice sa listom faktura dobavljača ili stranice sa detaljima za jednu fakturu dobavljača
-- Sa stranice liste podizvođači ili stranice sa detaljima za jedan podizvođaи
+- Sa stranice liste podugovora ili stranice sa detaljima za jedan podugovor
 
-### <a name="creation-from-the-vendor-invoice-list-page-or-details-page"></a>Kreiranje sa stranice sa listom faktura dobavljača ili stranicom sa detaljima
+### <a name="creation-from-the-vendor-invoice-list-page-or-details-page"></a>Kreiranje sa stranice sa listom faktura dobavljača ili stranice sa detaljima
 
-1. Idite na **fakture dobavljača** \> **za nabavku**.
-2. Na stranici sa listom faktura dobavljača ili stranici sa detaljima za jednu fakturu dobavljača izaberite stavku **Novo da** biste kreirali novu fakturu dobavljača.
+1. Idite na **Nabavka** \> **Fakture dobavljača**.
+2. Na stranici sa listom faktura dobavljača ili stranici sa detaljima za jednu fakturu dobavljača izaberite stavku **Novo** da biste kreirali novu fakturu dobavljača.
 
-Fakture dobavljača koje su kreirane na ovaj način takođe mogu da upućuju na podizvođaи.
+Fakture dobavljača koje su kreirane na ovaj način takođe mogu da upućuju na podugovor.
 
-### <a name="creation-from-the-subcontract-list-page-or-details-page"></a>Kreiranje sa stranice liste podizvođaka ili stranice sa detaljima
+### <a name="creation-from-the-subcontract-list-page-or-details-page"></a>Kreiranje sa stranice sa listom podugovora ili stranice sa detaljima
 
-1. Idite na **podizvođače** \> **nabavke.**
-2. Izaberite jedan ili više podizvođači.
-3. Na stranici liste podizvođači ili stranici sa detaljima za jedan podizvođaи izaberite stavku **Kreiraj fakturu dobavljača da** biste kreirali novu fakturu dobavljača.
+1. Idite na **Nabavka** \> **Podugovori**.
+2. Izaberite najmanje jedan podugovor.
+3. Na stranici sa listom podugovora ili stranici sa detaljima za jedan podugovor, izaberite stavku **Kreiraj fakturu dobavljača** da biste kreirali novu fakturu dobavljača.
 
-Nova faktura dobavljača u **statusu** radne verzije kreira se za svaki izabrani podizvođaи.
+Nova faktura dobavljača u statusu **Radna verzija** kreira se za svaki izabrani podugovor.
 
-Fakture dobavljača koje kreirate na ovaj način uvek upućuju na podizvođaи u zaglavlju fakture dobavljača. Svaki red u podizvođačem koji ima način fakturisanja vremena i materijala prouzrokovaće kreiranje reda u fakturi dobavljača. Svaki red u podizvođačem koji ima metod fakturisanja fiksne cene prouzrokovaće kreiranje reda u fakturi dobavljača za svaku prekretnicu reda podizvođače koja ima status "Spremno **za fakturisanje"**.
+Fakture dobavljača koje kreirate na ovaj način uvek upućuju na podugovor u zaglavlju fakture dobavljača. Svaki predmet podugovora koji ima način obračuna Vreme i materijal prouzrokovaće kreiranje reda a fakturi dobavljača. Svaki predmet podugovora koji ima način obračuna Fiksna cena prouzrokovaće kreiranje reda na fakturi dobavljača za svaku kontrolnu tačku predmeta podugovora koja ima status **Spremno za fakturisanje**.
 
-Sledeća polja i srodni zapisi biće kopirani iz podizvođača u zaglavlje fakture dobavljača:
+Sledeća polja i povezani zapisi biće kopirani iz podugovora u zaglavlje fakture dobavljača:
 
-- Dobavljača.
+- Dobavljač.
 - Srodni cenovnici će biti kopirani u fakturu dobavljača kao cenovnici.
 - Valuta.
-- Jedinica za ugovaranje.
+- Jedinica ugovaranja.
 - Uslovi plaćanja.
 
-Za redove podizvođača vremena i materijala, sledeća polja i srodni zapisi biće kopirani iz reda podizvođača u red fakture dobavljača:
+Za predmete podugovora Vreme i materijal, sledeća polja i srodni zapisi biće kopirani iz predmeta podugovora u red fakture dobavljača:
 
-- Reference reda podizvođaka i podizvođači
+- Podugovor i reference predmeta podugovora
 - Klasa transakcije
 - Uloga
 - Kategorija transakcije
@@ -76,11 +76,11 @@ Za redove podizvođača vremena i materijala, sledeća polja i srodni zapisi bi�
 - Zadatak
 - Resurs koji može da se rezerviše
 
-Za redove podizvođača fiksne cene, sledeća polja će biti kopirana iz reda podizvođača i prekretnice reda podizvođača u red fakture dobavljača:
+Za predmete podugovora Fiksna cena, sledeća polja biće kopirana iz predmeta podugovora i kontrolne tačke predmeta podugovora u red fakture dobavljača:
 
-- Reference reda podizvođaka i podizvođači.
-- Klasa transakcije. Podrazumevano, vrednost će biti **Prekretnica**.
-- Prekretničko ime i iznos biće kopirani sa povezane prekretnice podizvođačka reda.
-- Korisnik će moći da izabere projekat i zadatak u redu fakture dobavljača.
+- Podugovor i reference predmeta podugovora.
+- Klasa transakcije. Podrazumevano, vrednost će biti **Kontrolna tačka**.
+- Naziv i iznos kontrolne tačke biće kopirani sa povezanom kontrolnom tačkom predmeta podugovora.
+- Korisnik će moći da izabere projekat i zadatak u redu na fakturi dobavljača.
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -1,6 +1,6 @@
 ---
 title: Kreirajte i primenite uslove zadržavanja plaćanja prodavca
-description: Ovaj članak pruža informacije o tome kako da podesite i održite uslove zadržavanja za uplate dobavljačima.
+description: Ovaj članak pruža informacije o tome kako podesiti i održavati uslove zadržavanja za plaćanja prodavaca.
 author: Yowelle
 ms.date: 05/26/2020
 ms.topic: article

@@ -1,6 +1,6 @@
 ---
 title: Avansi i ugovori zasnovani na avansnim uplatama
-description: Ovaj članak pruža informacije o modelima ugovaranja zasnovanim na vlasnicima i napretku u projektnom poslovanju.
+description: Ovaj članak pruža informacije o ugovornim modelima i napretku zasnovanim na odbitku u usluzi Project Operations.
 author: rumant
 ms.date: 10/20/2020
 ms.topic: article

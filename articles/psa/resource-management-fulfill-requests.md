@@ -1,6 +1,6 @@
 ---
 title: Ispunjavanje potreba za resursima
-description: Ovaj članak pruža informacije o tome kako da ispunite zahteve resursa.
+description: Ovaj članak pruža informacije o tome kako da ispunite potreba za resursima.
 author: ruhercul
 ms.custom:
 - dyn365-projectservice

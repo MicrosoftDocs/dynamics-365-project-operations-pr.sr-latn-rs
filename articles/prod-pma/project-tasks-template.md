@@ -1,6 +1,6 @@
 ---
-title: Sinhronizuj projektne zadatke direktno iz automatizacije projektnih usluga u finansije i operacije
-description: Ovaj članak opisuje predložak i osnovni zadatak koji se koristi za sinhronizaciju projektnog zadatka direktno iz Microsoft Dynamics 365 Project Service Automation Dynamics 365 Finance.
+title: Sinhronizovanje zadataka projekata direktno iz usluge Project Service Automation sa finansijama i operacijama
+description: Ovaj članak opisuje predložak i osnovni zadatak koji se koriste za sinhronizaciju projektnih zadataka direktno iz usluge Microsoft Dynamics 365 Project Service Automation u Dynamics 365 Finance.
 author: Yowelle
 ms.date: 07/20/2018
 ms.topic: article
@@ -21,11 +21,11 @@ ms.contentlocale: sr-Latn-RS
 ms.lasthandoff: 06/18/2022
 ms.locfileid: "9028378"
 ---
-# <a name="synchronize-project-tasks-directly-from-project-service-automation-to-finance-and-operations"></a>Sinhronizuj projektne zadatke direktno iz automatizacije projektnih usluga u finansije i operacije
+# <a name="synchronize-project-tasks-directly-from-project-service-automation-to-finance-and-operations"></a>Sinhronizovanje zadataka projekata direktno iz usluge Project Service Automation sa finansijama i operacijama
 
 [!include[banner](../includes/banner.md)]
 
-Ovaj članak opisuje predložak i osnovni zadatak koji se koristi za sinhronizaciju projektnog zadatka direktno iz Dynamics 365 Project Service Automation Dynamics 365 Finance.
+Ovaj članak opisuje predložak i osnovni zadatak koji se koriste za sinhronizaciju projektnih zadataka direktno iz usluge Dynamics 365 Project Service Automation u Dynamics 365 Finance.
 
 > [!NOTE]
 > - Integracija projektnih zadataka, kategorije transakcija troškova, procene sati, procene troškova i zaključavanje funkcionalnosti dostupni su u verziji 8.0.
@@ -67,11 +67,11 @@ Da bi moglo da dođe do sinhronizacije projektnih zadataka, morate sinhronizovat
 
 ## <a name="power-query"></a>Power Query
 
-Microsoft za Excel morate da Power Query koristite za filtriranje podataka ako je ovaj uslov ispunjen:
+Morate koristiti Microsoft Power Query za Excel za filtriranje podataka ako je ispunjen ovaj uslov:
 
 - U projektnom zadatku imate zapise specifične za resurse.
 
-Ako morate da koristite Power Query, sledite ovo uputstvo:
+Ako morate da koristite Power Query, sledite ove smernice:
 
 - Predložak projektnih zadataka (iz PSA u Fin and Ops) ima podrazumevani filter koji iz projektnog zadatka isključuje zapise specifične za resurse postavljanjem filtera na **IsLineTask** na **Netačno**. Ako kreirate sopstveni obrazac, morate dodati ovaj filter.
 

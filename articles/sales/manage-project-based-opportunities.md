@@ -1,6 +1,6 @@
 ---
 title: Upravljanje mogućnostima za poslovanje zasnovanim na projektima
-description: Ovaj članak pruža informacije o načinu rada sa mogućnostima koje se odnose na projekte.
+description: Ovaj članak pruža informacije o tome kako raditi sa mogućnostima koje su povezane sa projektima.
 author: rumant
 ms.date: 10/21/2020
 ms.topic: article
@@ -19,7 +19,7 @@ _**Odnosi se na:** Project Operations za resurs/scenarije koji nisu zasnovani na
 
 Projektne kompanije obično imaju svoje operacije isporuke raširene u više zemalja i geografskih područja. Troškovi izvršenja i isporuke projekta mogu se razlikovati u zavisnosti od toga koja lokacija ili odeljenje upravlja isporukom. Zauzvrat, ovo može uticati na marže pogodbe. Pružanje projektnih usluga obično uključuje velike količine ljudskih resursa, znatne troškove putovanja, materijalne troškove i druge troškove.
 
-Mogućnosti zasnovane na projektima u usluzi Dynamics 365 Project Operations dizajnirane su pomoću proširenja za Dynamics 365 Sales. Članak pruža detalje o različitim poljima i poslovnoj logici uključenoj u dodatnu funkcionalnost koju preduzeća zasnovana na projektu zahtevaju za upravljanje mogućnostima zasnovanim na projektu.
+Mogućnosti zasnovane na projektima u usluzi Dynamics 365 Project Operations dizajnirane su pomoću proširenja za Dynamics 365 Sales. Ovaj članak pruža detalje o različitim poljima i poslovnoj logici uključenoj u dodatnu funkcionalnost koja je potrebna kompanijama zasnovanim na projektima kako bi upravljale mogućnostima zasnovanim na projektima.
 
 ## <a name="view-all-project-based-opportunities"></a>Prikažite sve mogućnosti za poslovanje zasnovane na projektima
 

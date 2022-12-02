@@ -1,6 +1,6 @@
 ---
 title: Definisanje veština i stručnosti
-description: Ovaj članak pruža informacije o tome kako da podesite modele stručnosti za ocenjvanje resursa.
+description: Ovaj članak pruža informacije o tome kako da podesite veštine i modele stručnosti za ocenu resursa.
 author: ruhercul
 ms.date: 09/23/2020
 ms.topic: article

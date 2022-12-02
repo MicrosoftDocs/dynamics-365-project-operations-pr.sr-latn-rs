@@ -1,6 +1,6 @@
 ---
 title: Upravljanje zaostalima naplatama za projekat
-description: Ovaj članak pruža informacije o različitim prikazima dostupnim za korišćenje prilikom upravljanja zaostalim naplatama za projekte.
+description: Ovaj članak pruža informacije o raznim prikazima koji se mogu koristiti prilikom upravljanja zaostalim obračunima na projektima.
 author: rumant
 ms.date: 10/26/2020
 ms.topic: article

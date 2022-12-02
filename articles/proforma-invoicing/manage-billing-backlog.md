@@ -1,6 +1,6 @@
 ---
 title: Upravljanje zaostalim obračunima
-description: Ovaj članak pruža informacije o tome kako da prikažete i radite sa zaostalom naplatom u operacijama projekta.
+description: Ovaj članak pruža informacije o tome kako da prikažete i radite sa zaostalim naplatama u usluzi Project Operations.
 author: rumant
 ms.date: 04/05/2021
 ms.topic: article

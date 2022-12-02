@@ -1,6 +1,6 @@
 ---
 title: Korišćenje resursa koji može da se rezerviše kao aspekta za određivanje cena
-description: Ovaj članak pruža informacije o korišćenju knjigovodstvenog resursa kao dimenzije cena.
+description: Ovaj članak pruža informacije o tome kako da koristite resurs koji se može rezervisati kao dimenzije za određivanje cena.
 author: Rumant
 ms.date: 11/18/2020
 ms.topic: article
@@ -17,10 +17,10 @@ ms.locfileid: "8914833"
 
  _**Odnosi se na:** Project Operations za scenarije zasnovane na resursima/bez zaliha, jednostavna primena – od pogodbe do profakture_ 
 
-Ovaj članak pruža informacije o korišćenju knjigovodstvenog resursa kao dimenzije cena. Ako je vaša strategija određivanja cena podešena tako da svaki resurs koji možete rezervirati mora da ima određenu cenu ili stopu troškova, koristite resurs koji možete rezervirati kao dimenziju formiranja cena.
+Ovaj članak pruža informacije o tome kako da koristite resurs koji se može rezervisati kao dimenzije za određivanje cena. Ako je vaša strategija određivanja cena podešena tako da svaki resurs koji možete rezervirati mora da ima određenu cenu ili stopu troškova, koristite resurs koji možete rezervirati kao dimenziju formiranja cena.
 
 ## <a name="prerequisites"></a>Preduslovi
-Pre nego što dovršite procedure u ovom članku, morate imati novo rešenje dimenzije cena za vašu organizaciju. Ako ih već niste kreirali, pogledajte [Kreiranje prilagođenih polja i entiteta](../pricing-costing/create-custom-fields-entities-pricing-dimensions.md).
+Pre nego što dovršite procedure u ovom članku, morate da imate novo rešenje dimenzije za formiranje cena za organizaciju. Ako ih već niste kreirali, pogledajte [Kreiranje prilagođenih polja i entiteta](../pricing-costing/create-custom-fields-entities-pricing-dimensions.md).
 
 ## <a name="add-the-bookable-resource-field-to-forms-and-views"></a>Dodavanje polja Resurs koji se može rezervisati u obrasce i prikaze
 Da bi polje **Resurs koji se može rezervisati** bilo vidljivo u rešenju dimenzija formiranja cena, morate da dodate polje svim obrascima i prikazima kao entitet.

@@ -1,6 +1,6 @@
 ---
 title: Uvoz procena za projekat u stavku ponude za projekat
-description: Ovaj članak pruža informacije o uvozu procena iz projekta u red ponude projekta.
+description: Ovaj članak pruža informacije o uvozu procena iz projekta u stavku ponude za projekat.
 author: rumant
 ms.date: 10/09/2020
 ms.topic: article

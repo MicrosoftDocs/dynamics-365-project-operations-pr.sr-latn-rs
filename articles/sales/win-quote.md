@@ -1,6 +1,6 @@
 ---
 title: Zatvaranje ponude
-description: Ovaj članak pruža informacije o zatvaranju ponuda u operacijama projekta.
+description: Ovaj članak pruža informacije o zatvaranju ponuda u usluzi Project Operations.
 author: rumant
 ms.date: 10/01/2020
 ms.topic: article

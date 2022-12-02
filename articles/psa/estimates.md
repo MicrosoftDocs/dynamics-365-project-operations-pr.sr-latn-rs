@@ -1,6 +1,6 @@
 ---
 title: Procene
-description: Ovaj članak pruža informacije o procenama u Dynamics 365 Project Service Automation.
+description: Ovaj članak pruža informacije o procenama u aplikaciji Dynamics 365 Project Service Automation.
 author: rumant
 ms.custom:
 - dyn365-projectservice

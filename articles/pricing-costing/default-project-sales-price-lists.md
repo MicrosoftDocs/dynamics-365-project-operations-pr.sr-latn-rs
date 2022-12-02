@@ -1,6 +1,6 @@
 ---
 title: Podrazumevani cenovnici
-description: Ovaj članak pruža informacije o podrazumevanim cenovničima prodaje i troškova u operacijama projekta.
+description: Ovaj članak pruža informacije o podrazumevanim prodajnim i cenovnicima troškova u usluzi Project Operations.
 author: rumant
 ms.date: 09/01/2022
 ms.topic: article
@@ -25,7 +25,7 @@ Svaka projektna ponuda i ugovor u usluzi Dynamics 365 Project Operations sadrži
 Sistem dovršava sledeći postupak da bi utvrdio koji će se cenovnik podrazumevati za ponudu za projekat:
 
 1. Sistem pregleda cenovnike koji su priloženi cenovnicima projektata poslovnih kontakata. 
-1. Ako nema priloženih cenovnika projekta uz zapis konta, sistem gleda prodajne cenovnike priložene parametrima projekta koji se podudaraju sa valutom ponude za projekat.
+1. Ako uz evidenciju poslovnih kontakata nisu priloženi cenovnici projekata, sistem pregleda prodajne cenovnike koji su priloženi uz parametre projekta koji odgovaraju valuti ponude za projekat.
 1. Dalje, sistem proverava datum stupanja na snagu cenovnika koji se podudaraju sa opsegom datuma ponude za projekat. Konkretno, datum pravljenja ponude.
 1. Ako postoji više cenovnika koji su na snazi na datum projektne ponude, svi cenovnici se podrazumevaju na projektnoj ponudi.
 1. Ako nijedan cenovnik nije na snazi za datum projektne ponude, ne postoji podrazumevani projektni cenovnik projektne ponude. Na ponudi projekta pojaviće se poruka upozorenja. U poruci se navodi da pošto ne postoje priloženi cenovnici projekata, neće biti određena cena za procenjeni i stvarni rad i troškove na projektu.
@@ -41,38 +41,38 @@ Sistem dovršava sledeći postupak da bi utvrdio koji će se cenovnik podrazumev
 
 ## <a name="cost-price-lists"></a>Cenovnici troškova
 
-Cenovnici troškova ne podrazumevaju nijedan entitet u usluzi Project Operations. Određivanje cenovnik troška koji će se koristiti za troškove projekta uvek se obavlja po transakciji. Sistem dovršava sledeći postupak da bi utvrdio koji će se cenovnik koristiti za cene projekta:
+Cenovnici troškova ne podrazumevaju nijedan entitet u usluzi Project Operations. Određivanje cenovnika troškova koji će se koristiti za troškove projekta vrši se uvek po transakciji. Sistem dovršava sledeći postupak da bi utvrdio koji će se cenovnik koristiti za cene projekta:
 
-1. Sistem gleda cenovnike koji su priloženi jedinici ugovaranja projekta.
-1. Zatim sistem posmatra efekat datuma cenovnika koji se podudaraju sa datumom dolaznog konteksta procene ili stvarnog konteksta.
+1. Sistem pregleda cenovnike koji su priloženi ugovornoj organizacionoj jedinici projekta.
+1. Zatim sistem pregleda datum stupanja na snagu cenovnika koji se podudaraju sa datumom konteksta dolazne procene ili konteksta stvarne vrednosti.
 
-    - *Kontekst procene* se odnosi na bilo koji od tri konteksta procene u projektnom radu:
+    - *Kontekst procene* odnosi se na bilo koji od tri konteksta procene u usluzi Project Operations:
 
         - Linija procene za projekat
         - Detalj stavke ponude
         - Detalj predmeta ugovora
 
-    - *Stvarni kontekst* se odnosi na bilo koji od tri izvora za stvarne u operacijama projekta:
+    - *Kontekst stvarne vrednosti* odnosi se na bilo koji od tri izvora za stvarne vrednosti u usluzi Project Operations:
 
-       - Redovi naloga stavki koji su ručno kreirani ili korektivni redovi naloga koji su kreirani u korektivnom nalogu
-       - Redovi naloga koji se kreiraju tokom prosleđivanja evidencija vremena, troškova ili korišćenja materijala
+       - Unos redova stavke knjiženja u glavnoj knjizi koji su ručno kreirani ili korektivne stavke knjiženja u glavnoj knjizi koji su kreirani u korektivnom dnevniku
+       - Stavke u glavnoj knjizi koje se kreiraju tokom prosleđivanja evidencija vremena, troškova ili korišćenja materijala
        - Detalj stavke fakture
 
-    Kada se operacije projekta podudaraju sa efektivnošću datuma dolaznog reda naloga ili detalja reda fakture *u stvarnom* kontekstu, on koristi polje "Datum **transakcije** ".
+    Kada Project Operations podudara važenje datuma dolazne stavke u glavnoj knjizi ili detalju reda fakture u *kontekstu stvarne vrednosti*, on koristi polje **Datum transakcije**.
 
-    - Ako je više cenovnika efikasno za datum konteksta dolazne procene ili stvarnog konteksta, bira se poslednji kreirani cenovnik.
-    - Ako nijedan cenovnik nije priložen jedinici ugovaranja projekta, sistem gleda cenovnike troškova koji su priloženi parametrima projekta koji odgovaraju valuti projekta.
+    - Ako više cenovnika važe za datum u kontekstu dolaznoj proceni ili kontekstu stvarne vrednosti, bira se poslednje kreirani cenovnik.
+    - Ako uz projektnu jedinicu ugovorne organizacione jedinicu nije priložen nijedan cenovnik, sistem gleda cenovnike koštanja koji su priloženi uz parametre projekta koji odgovaraju valuti ponude za projekat.
 
 ## <a name="enable-multi-currency-cost-price-list"></a>Omogući cenovnik troškova u više valuta
 
-Ovu postavku možete pronaći u **podešavanjima** \> **Parametara.** Podrazumevana vrednost je **Ne**.
+Ovu postavku možete pronaći u **Postavke** \> **Parametri**. Podrazumevana vrednost je **Ne**.
 
-Kada je ova postavka omogućena (to jest, vrednost je postavljena na **"Da**"), sistem se ponaša na sledeći način:
+Kada je ova postavka omogućena (to jest, kada je vrednost postavljena na **Da**), sistem se ponaša na sledeći način:
 
-- Omogućava da cenovnici troškova u bilo kojoj valuti budu povezani sa organizacionom jedinicom. Na primer, cenovnik troška u valuti EUR može biti priložen organizacionoj jedinici u USD valuti. Sistem će nastaviti da proverava da li cenovnici troškova koji su priloženi organizacionoj jedinici nemaju efekat preklapanja datuma.
-- Potvrđuje da cenovnici troškova koji su priloženi parametrima projekta nemaju efekat preklapanja datuma, čak i ako imaju različite valute. Ovo ponašanje se razlikuje od podrazumevanog ponašanja (to jest ponašanja kada je vrednost postavljena na vrednost "Ne **"**). U podrazumevanom ponašanju, samo cenovnici troškova koji imaju istu **valutu** proveravaju se za efekat datuma koji se ne preklapa.
-- Za kontekst dolazne transakcije određuje cenovnik troškova samo na osnovu efektivnosti datuma. Ovo ponašanje se razlikuje od podrazumevanog ponašanja, gde sistem bira cenovnik troškova koji se podudara i sa valutom projekta i sa efektivnošću datuma.
+- Omogućava da cenovnici koštanja u bilo kojoj valuti budu povezani sa organizacionom jedinicom. Na primer, cenovnik koštanja u valuti EUR može biti priložen organizacionoj jedinici u valuti USD. Sistem će nastaviti da proverava da li cenovnici koštanja koji su priloženi organizacionoj jedinici nemaju efekat preklapanja datuma.
+- Potvrđuje da cenovnici koštanja koji su priloženi parametrima projekta nemaju efekat preklapanja datuma, čak i ako imaju različite valute. Ovo ponašanje se razlikuje od podrazumevanog ponašanja (to jest ponašanja kada je vrednost postavljena na **Ne**). U podrazumevanom ponašanju, samo cenovnici koštanja koji imaju **istu** valutu proveravaju se za efekat datuma koji se ne preklapa.
+- Za kontekst dolazne transakcije, određuje cenovnik koštanja samo na osnovu važenja datuma. Ovo ponašanje se razlikuje od podrazumevanog ponašanja, gde sistem bira cenovnik koštanja koji se podudara i sa valutom projekta i sa važenjem datuma.
 
-Zbog ovih promena u ponašanju, kupci Projektnih operacija će moći da održe globalni cenovnik troškova koji će biti relevantan za celu kompaniju. Neće morati da imaju cenovnike u svakoj valuti poslovanja. Globalni cenovnik će imati efekat datuma i omogućiće podešavanje stope troškova u bilo kojoj valuti za određenu kombinaciju vrednosti dimenzija cena. Valuta cenovnik troška se koristi samo za unos podrazumevanih vrednosti prilikom kreiranja **cena uloga,** cena kategorija **i** zapisa artikala **cenovnik**. Neće se koristiti za određivanje cenovnka.
+Zbog ovih promena u ponašanju, Project Operations klijenti će moći da održavaju globalni cenovnik koštanja koji će biti relevantan za celo preduzeće. Neće morati da imaju cenovnike u svakoj valuti poslovanja. Globalni cenovnik će imati važenje datuma i omogućiće podešavanje stopa cena u bilo kojoj valuti za određenu kombinaciju vrednosti dimenzija određivanja cena. Valuta cenovnika koštanja se koristi samo za unos podrazumevanih vrednosti prilikom kreiranja zapisa stavki **Cena uloga**, **Cena kategorija** i **Cenovnik**. Neće se koristiti za određivanje cenovnika.
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

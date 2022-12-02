@@ -1,6 +1,6 @@
 ---
 title: Kalendar stavke vremena
-description: Ovaj članak pruža informacije o korišćenju kalendara vremenskih stavki.
+description: Ovaj članak pruža informacije o tome kako da koristite kalendar stavke vremena.
 author: rumant
 ms.custom:
 - dyn365-projectservice

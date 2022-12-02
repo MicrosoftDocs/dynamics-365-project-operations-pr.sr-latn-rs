@@ -94,7 +94,7 @@ Nakon što se **ProcessRunner** pokrene, on poziva **ProcessRunCaller**, obezbe�
 Posao grupne obrade za kreiranje faktura je periodični posao. Ako se ova grupna obrada pokreće više puta, kreira se više instanci posla i izazivaju greške. Zbog toga bi trebalo samo jednom da pokrenete grupnu obradu i trebalo bi da je ponovo pokrenete samo ako prestane da radi.
 
 > [!NOTE]
-> Paketno fakturisanje u Project Service Automation pokreće se samo za predmete projektnih ugovora koji su konfigurisani rasporedima faktura. Predmet ugovora sa načinom naplate uz fiksnu cenu mora da ima konfigurisane kontrolne tačke. Predmet ugovora za projekat sa načinom naplate vremena i materijala treba da uspostavi raspored faktura na osnovu datuma. Informacije o podešavanju frekvencija fakturisanja u kontekstu projekta koji se zasniva na redu ponude, navedene su u redovima članka, [ponuda i ponuda](basic-quote-lines.md#invoice-schedule). Isto se odnosi i na predmet ugovora zasnovan na projektu.      
+> Paketno fakturisanje u Project Service Automation pokreće se samo za predmete projektnih ugovora koji su konfigurisani rasporedima faktura. Predmet ugovora sa načinom naplate uz fiksnu cenu mora da ima konfigurisane kontrolne tačke. Predmet ugovora za projekat sa načinom naplate vremena i materijala treba da uspostavi raspored faktura na osnovu datuma. Informacije o postavljanju frekvencija fakturiranja u kontekstu projekta koji se zasniva na stavki ponude nalaze se u članku [Ponude i stavke ponuda](basic-quote-lines.md#invoice-schedule). Isto se odnosi i na predmet ugovora zasnovan na projektu.      
  
 ### <a name="edit-a-draft-psa-invoice"></a>Uređivanje radne verzije PSA fakture
 

@@ -43,7 +43,7 @@ Alatke za upravljanje projektima u aplikaciji PSA pomažu vam da lako izvršavat
 - Predviđajte potrebe za resursima za projekte u kanalu.
 - Uspešno isporučujte projekte praćenjem napretka i troškova korišćenja.
 
-Sledeći članci pružaju informacije koje će pomoći menadžerima projekta da procene rad, procene troškove projekta i prognoziraju zahteve resursa pomoću alatki koje su podržane u PSA:
+Sledeći članci pružaju informacije koje će pomoći menadžerima projekata da procene posao, troškove projekta i potrebe za resursima koristeći alatke koje su podržane u aplikaciji PSA:
 
 - [Kreiranje rasporeda](project-creating.md)
 - [Procenjivanje troškova i prihoda za projekat](project-estimating.md)

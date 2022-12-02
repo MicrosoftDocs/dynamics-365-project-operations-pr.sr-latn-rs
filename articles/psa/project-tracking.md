@@ -1,6 +1,6 @@
 ---
 title: Napredak projekta i troškovi korišćenja
-description: Ovaj članak pruža informacije o praćenju napretka projekta i potrošnje troškova.
+description: Ovaj članak pruža informacije o praćenju napretka projekta i troškova korišćenja.
 author: ruhercul
 ms.custom:
 - dyn365-projectservice
@@ -30,7 +30,7 @@ ms.locfileid: "8921779"
 
 [!INCLUDE[cc-applies-to-psa-app-3.x](../includes/cc-applies-to-psa-app-3x.md)]
 
-Potreba da se prati napredak u odnosu na raspored razlikuje se od delatnosti do delatnosti. Neke delatnosti obavljaju praćenje na najdetaljnijem nivou, dok druge to rade na višem nivou. Ovaj članak prikazuje kako se planira da bi se ispunili zahtevi vaše organizacije.
+Potreba da se prati napredak u odnosu na raspored razlikuje se od delatnosti do delatnosti. Neke delatnosti obavljaju praćenje na najdetaljnijem nivou, dok druge to rade na višem nivou. Ovaj članak pokazuje kako obaviti zakazivanje da biste ispunili potrebe svoje organizacije.
 
 ## <a name="effort-tracking-view"></a>Prikaz za praćenje angažovanja
 

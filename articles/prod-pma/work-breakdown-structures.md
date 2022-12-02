@@ -35,7 +35,7 @@ Stepen detalja u SAP-u zavisi od nivoa tačnosti koji je potreban u procenama i 
 
 Suprotno tome, projekti u delatnostima kao što su mediji i oglašavanje, softver i IT infrastruktura imaju tendenciju da budu jedinstveni, a produktivnost je relativna spram iskustva i kompetencije pojedinca koji izvršava zadatak. Stoga ove delatnosti koriste SAP kako bi dobile približnu veličinu projekta, a ne da detaljno prate napredak tog projekta. 
 
-Izgradnja SAP je intenzivan proces koji se obično radi tokom dužeg perioda i koji zahteva saradnju i informacije širokog spektra ljudi. Ovaj članak opisuje kako možete da koristite poboljšanja WBS-a da biste ispunili svoje zahteve za procene i praćenje.
+Izgradnja SAP je intenzivan proces koji se obično radi tokom dužeg perioda i koji zahteva saradnju i informacije širokog spektra ljudi. Ovaj članak opisuje kako možete da koristite SAP poboljšanja da biste zadovoljili svoje zahteve za procene i praćenje.
 
 ## <a name="prerequisites-for-creating-a-wbs"></a>Preduslovi za kreiranje SAP
 Da biste kreirali SAP, morate biti u stanju da kreirate raspored rada i procenite troškove rada.
@@ -166,7 +166,7 @@ Finance ima tri prikaza za SAP projekta: prikaz planiranja, prikaz praćenja nap
 
 ### <a name="planning-view"></a>Prikaz planiranja
 
-Prikaz planiranja prikazuje planiranu ili osnovnu procenu rasporeda i informacije o troškovima. Iako ne postoje funkcije za praćenje verzije i osnovne linije za SAP projekta, vrednosti u ovom prikazu namenjene su predstavljanju osnovne verzije. Odeljci za procenu rasporeda i procenu troškova ovog članka opisuju ovaj prikaz i način na koji se koristi za kreiranje WBS-a.
+Prikaz planiranja prikazuje planiranu ili osnovnu procenu rasporeda i informacije o troškovima. Iako ne postoje funkcije za praćenje verzije i osnovne linije za SAP projekta, vrednosti u ovom prikazu namenjene su predstavljanju osnovne verzije. Odeljci Procena rasporeda i Procena troškova ovog članka opisuju ovaj prikaz i kako se koristi za kreiranje SAP.
 
 ### <a name="effort-tracking-view"></a>Prikaz za praćenje angažovanja
 

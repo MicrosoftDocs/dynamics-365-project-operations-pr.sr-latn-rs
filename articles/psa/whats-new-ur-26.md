@@ -1,6 +1,6 @@
 ---
 title: Šta je novo ili promenjeno u izdanju 26 ispravke Project Service Automation verzije 3
-description: Ovaj članak navodi funkcije i ispravke koje su dostupne u okviru ažuriranja za automatizaciju usluge projekta Release 26, V3.
+description: U ovom članku date su funkcije i ispravke koje su dostupne u izdanju 26 ispravke za Project Service Automation verzije 3.
 author: ruhercul
 ms.custom: dyn365-projectservice
 ms.date: 01/12/2021
@@ -29,7 +29,7 @@ ms.locfileid: "8928817"
 
 Zadovoljstvo nam je da objavimo najnovije ažuriranje za aplikaciju Project Service Automation za Dynamics 365. Ovo izdanje uključuje neka važna poboljšanja u kvalitetu, performansama i upotrebljivosti. Ovo izdanje je kompatibilno sa uslugom Dynamics 365 9.x. Da biste ažurirali ovo izdanje, posetite stranicu sa rešenjima centra za administraciju za Dynamics 365 online kako biste instalirali ispravku. Za još informacija pogledajte članak [Instaliranje, ispravka ili uklanjanje željenog rešenja](/power-platform/admin/install-remove-preferred-solution).
 
-Ovaj članak navodi funkcije i ispravke koje su nove ili promenjene za ispravku za automatizaciju usluge projekta Izdanje 26, V3. Ova verzija ima broj verzije V3.10.44.59 i generalno je dostupna putem samostalnog ažuriranja u decembru 2020.
+U ovom članku date su funkcije koje su nove ili su promenjene u rešenju Project Service Automation u verziji 3, izdanje ispravke 26. Ova verzija ima broj verzije V3.10.44.59 i generalno je dostupna putem samostalnog ažuriranja u decembru 2020.
 
 ## <a name="update-release-26"></a>Izdanje ispravke 26
 

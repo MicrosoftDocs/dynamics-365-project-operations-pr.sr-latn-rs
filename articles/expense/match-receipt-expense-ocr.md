@@ -1,6 +1,6 @@
 ---
 title: Snimite priznanicu pomoću usluge OCR
-description: Ovaj članak pruža informacije o optičkoj obradi prepoznavanja znakova (OCR) za prijeme.
+description: Ovaj članak pruža informacije o obradi priznanica pomoću optičkog prepoznavanja znakova (OCR).
 author: suvaidya
 ms.date: 11/10/2021
 ms.topic: article
@@ -52,7 +52,7 @@ Da biste stvorili trošak ili uporedili trošak sa priznanice, izvršite sledeć
 
 ## <a name="installation"></a>Instalacija
 
-Da biste koristili ove napredne mogućnosti troškova, instalirajte programski dodatak "Usluga upravljanja troškovima Microsoft Dynamics " za 365 finansija i uključite funkcije u instanci. Programskom dodatku možete pristupiti iz svog projekta u usluzi Microsoft Dynamics Lifecycle Services (LCS).
+Da biste koristili ove napredne mogućnosti troškova, instalirajte programski dodatak Usluga upravljanja troškovima za Microsoft Dynamics 365 Finance i uključite funkcije u vašoj instanci. Programskom dodatku možete pristupiti iz svog projekta u usluzi Microsoft Dynamics Lifecycle Services (LCS).
 
 1. Prijavite se na LCS i otvorite željeno okruženje.
 2. Idi na stavku **Svi detalji**.
@@ -93,10 +93,10 @@ Dostupnost ove funkcije u različitim regionima navedena je u sledećoj tabeli. 
 | CAN    | Da                               |
 | Ujedinjeno Kraljevstvo     | Da                               |
 | AUS    | Da                               |
-| EU     | Delimično. Samo engleske potvrde. |
+| EU     | Delimično. Samo potvrde na engleskom. |
 | Azija   | No                                |
 | Japan  | No                                |
-| Africi | No                                |
+| Afrika | No                                |
 
 **Gde odlaze moje priznanice?**
 

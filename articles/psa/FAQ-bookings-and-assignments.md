@@ -1,6 +1,6 @@
 ---
 title: Rezervacije resursa i kako su one povezane sa dodelom zadataka
-description: Ovaj članak pruža informacije o tome kako da upravljate imenovanim resursima, rezervacijama resursa i dodelama zadataka i kako se oni međusobno odnose.
+description: Ovaj članak pruža informacije o tome kako upravljati imenovanim resursima, rezervacijama resursa i dodelama zadataka, kao i kakav je njihov međusobni odnos.
 author: ruhercul
 ms.custom:
 - dyn365-projectservice

@@ -1,6 +1,6 @@
 ---
-title: Plaćanje prilikom plaćanja uplatama dobavljača
-description: Ova tema objašnjava kako se koristi scenario plaćanja prilikom plaćanja (PWP).
+title: Plaćanje prodavcima nakon izvršene naplate
+description: Ova tema objašnjava kako se koristi scenario plaćanja nakon izvršene naplate (PWP).
 author: mukumarm
 ms.date: 08/18/2022
 ms.topic: article
@@ -14,48 +14,48 @@ ms.contentlocale: sr-Latn-RS
 ms.lasthandoff: 09/16/2022
 ms.locfileid: "9525391"
 ---
-# <a name="pay-when-paid-vendor-payments"></a>Plaćanje prilikom plaćanja uplatama dobavljača
+# <a name="pay-when-paid-vendor-payments"></a>Plaćanje prodavcima nakon izvršene naplate
 
 _**Odnosi se na:** Project Operations za scenarije zasnovane na resursima / bez zaliha_
 
-Ova tema objašnjava kako se koristi scenario plaćanja prilikom plaćanja (PWP).
+Ova tema objašnjava kako se koristi scenario plaćanja nakon izvršene naplate (PWP).
 
-## <a name="create-a-purchase-order-that-has-pwp-terms"></a>Kreiranje izlazne porudžbine koja ima PWP uslove
+## <a name="create-a-purchase-order-that-has-pwp-terms"></a>Kreiranje porudžbenice koja ima PWP uslove
 
-Kada proknjižite fakturu od dobavljača, ako dobavljač podleže odredbama PWP, ti uslovi se prikazuju u redovima izlazne porudžbine (PO). Da biste kreirali porudžbenicu koja sadrži uslove za PWP, sledite ove korake.
+Kada knjižite fakturu od prodavca, ako je dobavljač podložan uslovima za PWP, ti uslovi su prikazani na linijama porudžbenice (PO). Da biste kreirali porudžbenicu koja sadrži uslove za PWP, sledite ove korake.
 
-1. U Microsoft Dynamics 365 Finance sledite jedan od ovih koraka:
+1. U usluzi Microsoft Dynamics 365 Finance, pratite jedan od ovih koraka:
 
-    - Idite na **Nabavka i poreklo** \> **Porudžbenice** \> **Sve porudžbenice**. U oknu radnji, izaberite **Novo**. U dijalogu **Kreiranje izlazne porudžbine** izaberite dobavljača za koga su podešeni PWP uslovi za projekat, unesite druge potrebne informacije, a zatim kliknite na dugme U **redu**.
-    - Idite na **Upravljanje projektima i računovodstvo** \> **Projekti** \> **Svi projekti**. U oknu za radnje, na kartici **Upravljanje** izaberite stavku Zadatak **stavke**. Izaberite izlaznu porudžbinu. Izaberite dobavljača za koje su U projektu podešeni PWP uslovi, a zatim kliknite na dugme U **redu**.
+    - Idite na **Nabavka i poreklo** \> **Porudžbenice** \> **Sve porudžbenice**. U oknu radnji, izaberite **Novo**. U dijalogu **Kreiranje porudžbenice** izaberite dobavljača za koga su podešeni PWP uslovi za projekat, unesite druge potrebne informacije, a zatim izaberite **U redu**.
+    - Idite na **Upravljanje projektima i računovodstvo** \> **Projekti** \> **Svi projekti**. U oknu Radnji na kartici **Upravljanje** izaberite **Zadatak stavke**. Izaberite porudžbenicu. Izaberite prodavca za kog su PWP uslovi konfigurisani u projektu, pa izaberite **U redu**.
 
-2. Na stranici **Izlazna porudžbina**, na brzoj kartici **Redovi izlazne porudžbine** izaberite stavku Dodaj **red da biste** kreirali red izlazne porudžbine.
+2. Na stranici **Porudžbenica**, na brzoj kartici **Redovi na porudžbenici** izaberite **Dodaj red** da biste kreirali red porudžbenice.
 3. Izaberite broj artikla ili kategoriju nabavke i unesite ostale potrebne detalje. Pregledajte detalje reda PO za dobavljača.
 
     Opcija **Plati nakon plaćanja** je automatski izabrana, a vrednost u **Procenat praga za PWP** se automatski kopira iz polja **Procenat praga za PWP** na stranici **Projekti**.
 
-4. Ako ne želite da primenite uslove za PWP na prodavca za liniju porudžbenice, obrišite opciju **Plati nakon plaćanja**. U ovom slučaju, polje **procenta PWP praga** za PO red biće vraćeno na **0** (nula).
-5. Na stranici Izlazna porudžbina **, u oknu za radnje, na kartici Nabavka** **izaberite stavku Potvrdi da** **biste potvrdili izlaznu porudžbinu.**
-6. U oknu za radnje, na kartici Faktura **izaberite** stavku Faktura **da** biste generisali fakturu za izlaznu porudžbinu.
+4. Ako ne želite da primenite uslove za PWP na prodavca za liniju porudžbenice, obrišite opciju **Plati nakon plaćanja**. U ovom slučaju, polje **Procenat praga za PWP** za red porudžbenice biće vraćeno na **0** (nulu).
+5. Na stranici **Porudžbenica**, u oknu radnji na kartici **Nabavka** izaberite **Potvrdi** da biste potvrdili porudžbenicu.
+6. U oknu radnji, na kartici **Faktura** izaberite **Faktura** da biste generisali fakturu za porudžbenicu.
 
-## <a name="create-a-project-invoice-proposal"></a>Kreiranje predloga fakture projekta
+## <a name="create-a-project-invoice-proposal"></a>Kreiranje predloga za fakture za projekat
 
-Predlozi za projektnu fakturu se koriste za kreiranje projektne fakture za kupca. U PWP scenariju, uplate dobavljača zavise od plaćanja kupaca u skladu sa PWP postavkama. Međutim, postoje opcije koje vam omogućava da uplate bez plaćanja kupca oslobodite onako kako zahtevate. Da biste kreirali fakturu projekta za kupca, sledite ove korake.
+Predlozi za fakture projekta se koriste za kreiranje faktura projekta za klijenta. U PWP scenariju, plaćanja prodavcima zavise od plaćanja klijenata u skladu sa PWP postavkama. Međutim, postoje opcije koje vam omogućavaju da realizujete uplate bez plaćanja klijenta kako zahtevate. Da biste kreirali fakturu za projekat za klijenta, pratite ove korake.
 
-1. U aplikacijama za angažovanje klijenata idite **na Project** \> **Projects** i izaberite projekat.
-2. Na kartici **"Stvarne** datoteke" izaberite stvarni red koji generiše PO koji ima vrstu transakcije **"Nekontrolisana** prodaja". Zatim izaberite opciju **Spremno za fakturu**.
-3. Idite na **ugovor** \> **o projektu** \> **prodaje** i izaberite ugovor o projektu.
-4. U oknu za radnje izaberite stavku Faktura **da** biste generisali fakturu kupca.
-5. U oblasti "Finansije" idite na prozor **Upravljanje projektima i računovodstvo** \> **Periodični** \> **uvoz iz pripremne tabele** i kliknite na dugme U **redu** da biste generisali nalog za integraciju operacija projekta.
-6. Idite na **predlog projektnog menadžmenta** \> **i knjigovodstvenih** \> **faktura projekta** i **izaberite stavku Proknjiži** da biste proknjižili predlog fakture koji je generisan za projekat.
+1. U Customer Engagement aplikacijama, idite na stavku **Projekti** \> **Projekti** i izaberite projekat.
+2. Na kartici **Stvarne vrednosti** izaberite stvarni red kog generiše porudžbenica i koji ima tip transakcije **Nenaplaćena prodaja**. Zatim izaberite **Spremno za fakturisanje**.
+3. Idite na **Prodaja** \> **Prodaja** \> **Projektni ugovor**, pa izaberite projektni ugovor.
+4. Na oknu radnji izaberite **Faktura** da biste generisali fakturu za klijenta.
+5. U Finansijama, idite na **Upravljanje projektima i računovodstvo** \> **Periodično** \> **Uvoz iz pripremne tabele** i izaberite **U redu** da biste generisali dnevnika Project Operations integracije.
+6. Idite na **Upravljanje projektom i računovodstvo** \> **Fakture za projekat** \> **Predlog fakture za projekat** i **Proknjiži** da biste proknjižili predlog fakture koji je generisan za projekat.
 
 ## <a name="update-a-customer-payment-and-pay-the-vendor"></a>Ažurirajte uplatu klijenta i platite prodavcu
 
-Kada dobavljač dovrši svoj rad na projektu i pošalje vam fakturu, morate pregledati status projekta i fakture kupaca da biste utvrdili da li su ispunjeni uslovi PWP projekta. Ako su ispunjeni uslovi za PWP za dobavljača, možete da odredite koje redove na fakturi dobavljača treba da platite na osnovu uplata klijenata za projekat. Ako odlučite da platite prodavcu iako uslovi za PWP nisu ispunjeni, možete zameniti uslove za PWP na stranici **Faktura prodavca sa plaćanjem nakon uplate**.
+Kada prodavac dovrši svoj posao na projektu i pošalje vam fakturu, morate pregledati status projekta i fakture klijenata da biste utvrdili da li su uslovi za PWP ispunjeni za projekat. Ako su ispunjeni uslovi za PWP za dobavljača, možete da odredite koje redove na fakturi dobavljača treba da platite na osnovu uplata klijenata za projekat. Ako odlučite da platite prodavcu iako uslovi za PWP nisu ispunjeni, možete zameniti uslove za PWP na stranici **Faktura prodavca sa plaćanjem nakon uplate**.
 
-1. U okviru Finansije idite na **Project management i knjigovodstvene** \> **·** \> **projekte** Svi projekti i izaberite projekat.
-2. U oknu za radnje izaberite **stavku Kontrola**, a zatim izaberite **fakture dobavljača** da biste prikaželi sve fakture dobavljača koje su generisane za projekat.
+1. U odeljku „Finansije“ idite na **Upravljanje projektima i računovodstvo** \> **Projekti** \> **Svi projekti** i izaberite projekat.
+2. U oknu Radnje izaberite **Kontrola**, a zatim izaberite **Fakture dobavljača** da biste prikazali sve fakture dobavljača koje su generisane za projekat.
 3. Na stranici **Faktura prodavca sa plaćanjem nakon uplate**, u polje za pretragu unesite vrednosti da biste pronašli fakturu dobavljača koju želite da pregledate, a zatim izaberite **Pretraga**.
-4. Izaberite opciju **Plati kada se** plati da biste prikazali samo PWP fakture.
-5. Na brzoj **kartici Redovi fakture** dobavljača izaberite redove koje želite da oslobodite za plaćanje.
-6. Izaberite uplatu **dobavljača za izdavanje**. Opcija **Plaćanje posle uplate** se briše, a vrednost polja **Spremno za plaćanje** se menja u **Da**.
+4. Izaberite opciju **Plati kada vam plate** da biste prikazali samo PWP fakture.
+5. Na brzoj kartici **Redovi faktura prodavaca** izaberite redove koje želite da pustite za plaćanje.
+6. Izaberite **Pusti uplatu za dobavljača**. Opcija **Plaćanje posle uplate** se briše, a vrednost polja **Spremno za plaćanje** se menja u **Da**.

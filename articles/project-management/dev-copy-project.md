@@ -1,6 +1,6 @@
 ---
 title: Razvijte predloške projekata pomoću opcije za kopiranje projekata
-description: Ovaj članak pruža informacije o kreiranju predložaka projekta pomoću prilagođene radnje projekta Kopiranje.
+description: Ovaj članak pruža informacije o tome kako kreirati predloške projekata pomoću prilagođene radnje Kopiranje projekta.
 author: stsporen
 ms.date: 03/10/2022
 ms.topic: article
@@ -25,40 +25,40 @@ Kada odaberete **Kopiraj projekat**, status ciljnog projekta se ažurira. Korist
 
 ### <a name="name"></a>Imenuj 
 
-msdyn\_ CopyProjectV3
+msdyn\_CopyProjectV3
 
 ### <a name="input-parameters"></a>Ulazni parametri
 
 Postoje tri ulazna parametra:
 
-- **ReplaceNamedResources** ili **ClearTeamsAndAssignments** – Postavite samo jednu od opcija. Ne postavljaj oba.
+- **ReplaceNamedResources** ili **ClearTeamsAndAssignments** – Postavite samo jednu od opcija. Ne postavljajte obe.
 
-    - **\{"ReplaceNamedResources":true\}** – Podrazumevano ponašanje za projektne operacije. Svi imenovani resursi se zamenjuju generičkim resursima.
-    - **\{"ClearTeamsAndAssignments":true\}** – Podrazumevano ponašanje za Projekat za Web. Svi zadaci i članovi tima su uklonjeni.
+    - **\{"ReplaceNamedResources":true\}** – podrazumevano ponašanje za rešenje Project Operations. Bilo koji imenovani resurs zamenjuje generičke resurse.
+    - **\{"ClearTeamsAndAssignments":true\}** – Podrazumevano ponašanje za rešenje Project for the Web. Svi zadaci i članovi tima su uklonjeni.
 
-- **SourceProject** – Referenca entiteta izvornog projekta iz kojeg treba kopirati. Ovaj parametar ne može biti bez vrednosti.
-- **Cilj** – Referenca entiteta ciljnog projekta u koji treba kopirati. Ovaj parametar ne može biti bez vrednosti.
+- **SourceProject** – Referenca entiteta izvornog projekta iz kog se kopira. Ovaj parametar ne može biti bez vrednosti.
+- **Cilj** – Referenca entiteta ciljnog projekta u koji se kopira. Ovaj parametar ne može biti bez vrednosti.
 
-Sledeća tabela obezbeđuje rezime tri parametra.
+Sledeća tabela daje rezime tri parametra.
 
 | Parametar                | Tip             | Vrednost                 |
 |--------------------------|------------------|-----------------------|
-| ZameniNamedResources    | Boolean          | **Tačno ili** netačno **·** |
-| ClearTeamsAndAssignments | Boolean          | **Tačno ili** netačno **·** |
+| ReplaceNamedResources    | Boolean          | **Tačno** ili **Netačno** |
+| ClearTeamsAndAssignments | Boolean          | **Tačno** ili **Netačno** |
 | SourceProject            | Referentni entitet | Izvorni projekat    |
 | Cilj                   | Referentni entitet | Ciljni projekat    |
 
-Više podrazumevanih vrednosti radnji potražite u članku [Korišćenje Radnji sa Web API-ja](/powerapps/developer/common-data-service/webapi/use-web-api-actions).
+Za više podrazumevanih radnji pogledajte [Korišćenje veb API radnji](/powerapps/developer/common-data-service/webapi/use-web-api-actions).
 
 ### <a name="validations"></a>Provere valjanosti
 
-Sledeće provere valjanosti su završene.
+Sledeće provere valjanosti su obavljene.
 
 1. Null proverava i preuzima izvorne i ciljne projekte kako bi potvrdio postojanje oba projekta u organizaciji.
 2. Sistem proverava da li je ciljni projekat važeći za kopiranje verifikacijom sledećih uslova:
 
-    - Ne postoji prethodna aktivnost na projektu (uključujući izbor kartice " **Zadaci** ") i projekat je novokreiran.
-    - Ne postoji prethodna kopija, nije zahtevan uvoz na ovom projektu, a projekat nema status "Neuspešno **·**".
+    - Ne postoji prethodna aktivnost na projektu (uključujući izbor kartice **Zadaci**) i projekat je novokreiran.
+    - Ne postoji prethodna kopija, nije zahtevan uvoz na ovom projektu, a projekat nema status **Neuspešno**.
 
 3. Operacija se ne poziva pomoću HTTP-a.
 
@@ -68,7 +68,7 @@ Kada je akcija pozvana, **Kopiraj projekat** pogledaće prikaz projekta **Kopira
 
 ### <a name="example"></a>Primer
 
-Sledeći primer prikazuje kako se naziva copyProjectV3 **prilagođena** radnja sa skupom **parametara RemoveNamedResources**.
+Sledeći primer pokazuje kako da pozovete prilagođenu radnju **CopyProjectV3** pomoću skupa parametara **removeNamedResources**.
 
 ```C#
 {

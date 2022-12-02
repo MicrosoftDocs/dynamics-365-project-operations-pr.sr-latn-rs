@@ -1,6 +1,6 @@
 ---
 title: Početna stranica za izveštavanje
-description: Ovaj članak pruža informacije o izveštavanju u Dynamics 365 Project Service Automation.
+description: Ovaj članak pruža informacije o izveštavanju u aplikaciji Dynamics 365 Project Service Automation.
 author: ruhercul
 ms.custom:
 - dyn365-projectservice
@@ -47,7 +47,7 @@ Microsoft Power BI i Dynamics 365 zajedno pružaju moćan način rada sa podacim
 
 
 ## <a name="additional-resources"></a>Dodatni resursi
-Više informacija o izveštavanju u PSA potražite u sledećim člancima:
+Za više informacija o izveštavanju u aplikaciji PSA, pogledajte sledeće članke:
 
 - [Rad sa Project Service modelom podataka](reports-working-project-service-data-model.md)
 - [Kontrolne table](reports-dashboards.md)

@@ -1,6 +1,6 @@
 ---
 title: Šta je novo decembra 2020. – Jednostavna primena usluge Project Operations – od pogodbe do profakture
-description: Ovaj članak pruža informacije o kvalitetnim ispravkama dostupnim u decembru 2020.
+description: Ovaj članak pruža informacije o ispravkama kvaliteta dostupnim u izdanju jednostavne primene usluge Project Operations za decembar 2020. – od pogodbe do profakture.
 author: sigitac
 ms.date: 12/07/2020
 ms.topic: article
@@ -18,7 +18,7 @@ ms.locfileid: "8924079"
 
 _**Odnosi se na:** Jednostavna primena – od pogodbe do profakture_
 
-Ovaj članak se odnosi na sledeće Dynamics 365 Project Operations komponente i verzije:
+Ovaj članak se odnosi na sledeće komponente i verzije usluge Dynamics 365 Project Operations:
 
   - Project Operations u Dataverse okruženju verzije 4.5.0.134 
 

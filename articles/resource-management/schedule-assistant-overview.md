@@ -1,6 +1,6 @@
 ---
 title: Pregled pomoćnika za zakazivanje
-description: Ovaj članak pruža informacije o radu sa pomoćnikom za planiranje za rezervisane resurse.
+description: Ovaj članak pruža informacije o radu sa pomoćnikom za planiranje radi rezervisanja resursa.
 author: ruhercul
 ms.date: 10/01/2020
 ms.topic: overview

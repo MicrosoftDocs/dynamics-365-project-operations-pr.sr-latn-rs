@@ -1,6 +1,6 @@
 ---
 title: Rad sa ličnim troškovima u izveštaju o troškovima
-description: Ovaj članak pruža informacije o načinu rada sa ličnim troškovima zaposlenih tokom putovanja u poslovne svrhe.
+description: Ovaj članak pruža informacije o načinu rada sa ličnim troškovima koje su ostvarili zaposlen na poslovnim putovanjima.
 author: suvaidya
 ms.date: 05/11/2021
 ms.topic: article

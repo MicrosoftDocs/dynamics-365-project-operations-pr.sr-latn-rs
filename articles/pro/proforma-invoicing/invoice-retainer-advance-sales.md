@@ -1,6 +1,6 @@
 ---
 title: Fakturisanje avansne uplate ili avansa
-description: Ovaj članak pruža informacije o tome kako da fakturišete prodavca ili avans u operacijama projekta.
+description: Ovaj članak pruža informacije o tome kako da fakturišete odbitak ili avans u usluzi Project Operations.
 author: rumant
 ms.date: 10/20/2020
 ms.topic: article

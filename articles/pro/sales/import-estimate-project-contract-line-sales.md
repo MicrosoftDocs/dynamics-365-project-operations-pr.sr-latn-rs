@@ -1,6 +1,6 @@
 ---
 title: Uvoz procene u predmet ugovora zasnovan na projektu – jednostavno
-description: Ovaj članak pruža informacije o uvozu finansijskih procena iz projekta u red ugovora.
+description: Ovaj članak pruža informacije o uvozu finansijskih procena iz projekta u predmet ugovora.
 author: rumant
 ms.date: 10/19/2020
 ms.topic: article

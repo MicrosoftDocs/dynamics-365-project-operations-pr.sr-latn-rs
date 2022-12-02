@@ -1,6 +1,6 @@
 ---
 title: Veštine i modeli stručnosti
-description: Ovaj članak pruža informacije o načinu korišćenja modela veština i stručnosti.
+description: Ovaj članak pruža informacije o tome kako da koristite veštine i modele stručnosti.
 author: ruhercul
 ms.custom:
 - dyn365-projectservice

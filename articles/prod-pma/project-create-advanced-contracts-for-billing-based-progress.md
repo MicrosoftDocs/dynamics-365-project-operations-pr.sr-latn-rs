@@ -1,6 +1,6 @@
 ---
 title: Kreirajte napredne ugovore za naplatu na osnovu napretka
-description: Ovaj članak sadrži objašnjenja o tome kako da kreirate projektne ugovore tako da možete da generišete fakture za kupce na osnovu procenta dovršenog rada.
+description: Ovaj članak objašnjava kako se kreiraju projektni ugovori tako da možete generisati fakture za klijente na osnovu procenta završenog posla.
 author: RadhikaRS
 ms.date: 03/26/2020
 ms.topic: article
@@ -25,9 +25,9 @@ ms.locfileid: "8913683"
 # <a name="create-advanced-contracts-for-billing-based-on-progress"></a>Kreirajte napredne ugovore za naplatu na osnovu napretka
 [!include [banner](../includes/banner.md)]
 
-Ovaj članak sadrži objašnjenja o tome kako da kreirate projektne ugovore tako da možete kreirati fakture za kupce na osnovu procenta dovršenog rada. Iznosi faktura se automatski izračunavaju za budžetske kategorije posla koje ste postavili za projekat. Vreme na fakturi se postavlja kada pregovarate sa klijentom o ugovoru o projektu.
+Ovaj članak objašnjava kako se kreiraju projektni ugovori tako da možete kreirati fakture za klijente na osnovu procenta završenog posla. Iznosi faktura se automatski izračunavaju za budžetske kategorije posla koje ste postavili za projekat. Vreme na fakturi se postavlja kada pregovarate sa klijentom o ugovoru o projektu.
 
-Koristite procedure iz ovog članka da biste podesili ugovor, pridruženi projekat i pravila naplate koja izračunavaju iznose fakture za kategorije rada koje ste podesili za projekat.
+Koristite procedure u ovom članku za postavljanje ugovora, pridruženog projekta i pravila obračuna koji izračunavaju iznose faktura za budžetske kategorije posla koje ste postavili za projekat.
 
 Nakon što napravite ugovor i projekat, možete da podesite detalje o projektu. Na primer, možete definisati aktivnosti i dodeliti radnike projektu.
 

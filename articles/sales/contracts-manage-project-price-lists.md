@@ -1,6 +1,6 @@
 ---
 title: Upravljanje cenovnicima projekata u ugovorima za projekat
-description: Ovaj članak pruža informacije o upravljanju cenovnicima projekta u ugovorima o projektu.
+description: Ovaj članak pruža informacije o upravljanju cenovnicima za projekat na ugovorima za projekat.
 author: rumant
 ms.date: 03/30/2021
 ms.topic: article

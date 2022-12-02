@@ -1,6 +1,6 @@
 ---
 title: Šta je novo u septembru 2021. – Project Operations za resurs/scenarije koji nisu zasnovani na zalihama
-description: Ovaj članak pruža informacije o kvalitetnim ispravkama dostupnim u septembru 2021.
+description: Ovaj članak pruža informacije o ažuriranjima kvaliteta dostupnim u izdanju Project Operations za septembar 2021. godine za za scenarije zasnovane na resursima/materijalima koji nisu na zalihama.
 author: sigitac
 ms.date: 09/12/2021
 ms.topic: article
@@ -18,10 +18,10 @@ ms.locfileid: "8923389"
 
 *Odnosi se na: Project Operations za scenarije zasnovane na resursima / bez zaliha*
 
-Ovaj članak se odnosi na sledeće Dynamics 365 Project Operations komponente i verzije:
+Ovaj članak se odnosi na sledeće komponente i verzije usluge Dynamics 365 Project Operations:
 
    - Project Operations u Microsoft Dataverse okruženju verzije 4.14.0.99.
-   - Upravljanje projektima i računovodstvo u Dynamics 365 Finance okruženju verzija 10.0.20.
+   - Upravljanje projektima i računovodstvo u Dynamics 365 Finance okruženju verzije 10.0.20.
 
 ## <a name="project-operations-dual-write-maps-updates"></a>Ažuriranja mapa dvostrukog upisivanja za Project Operations
 
@@ -45,7 +45,7 @@ Ako naiđete na problem pri pokretanju mape, sledite uputstva u odeljku [Problem
 | Naplata i određivanje cena | 2385802 | Otklonjena je greška koja se javlja sa negativnim stvarnim satima kada se ukupni iznosi projekta osveže. |
 | Naplata i određivanje cena | 2389675 | Poboljšano ponašanje potvrde predračuna. Entitet sa dugotrajnim poslovima mora uzeti u obzir aktivnosti potrebne za upisivanje rezultata potvrde za računovodstvo. |
 
-### <a name="project-management-and-accounting-in-dynamics-365-finance"></a>Upravljanje projektima i računovodstvo u Dynamics 365 Finance
+### <a name="project-management-and-accounting-in-dynamics-365-finance"></a>Upravljanje projektima i računovodstvo u rešenju Dynamics 365 Finance
 
 | Oblast funkcija | Referentni broj | Ispravka kvaliteta |
 | --- | --- | --- |

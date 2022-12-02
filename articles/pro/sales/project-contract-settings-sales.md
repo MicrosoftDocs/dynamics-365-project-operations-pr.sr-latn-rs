@@ -1,6 +1,6 @@
 ---
 title: Podešavanja ugovora za projekat – jednostavno
-description: Ovaj članak pruža informacije o poljima koja utiču na redove ugovora i informacije o ugovoru koji je rezimiran na sve stavke reda.
+description: Ovaj članak pruža informacije o poljima koja utiču na predmet ugovora i informacije o ugovoru koje su sažete u svim stavkama.
 author: rumant
 ms.date: 03/08/2022
 ms.topic: article
@@ -17,7 +17,7 @@ ms.locfileid: "8917087"
 
 _**Odnosi se na:** Jednostavna primena – od pogodbe do profakture_
 
-Ovaj članak pruža informacije o poljima koja se primenjuju na ceo ugovor o projektu, uključujući postavke koje utiču na sve redove ugovora. Takođe su uključene informacije o ugovoru koje su sažete u svim stavkama za pokretanje KPI-jeva projektnog ugovora.
+Ovaj članak pruža informacije o poljima koja se primenjuju na celokupan ugovor o projektu, uključujući podešavanja koja utiču na sve predmete ugovora. Takođe su uključene informacije o ugovoru koje su sažete u svim stavkama za pokretanje KPI-jeva projektnog ugovora.
 
 Sledeća tabela navodi polja na ugovoru o projektu koja su jedinstvena za Dynamics 365 Project Operations ili imaju neke važne promene u ponašanju iz naloga za prodaju u usluzi Dynamics 365 Sales.
 
@@ -35,11 +35,11 @@ Sledeća tabela navodi polja na ugovoru o projektu koja su jedinstvena za Dynami
 Sledeći KPI-jevi su dostupni na kartici **Izvršenje ugovora** projektnog ugovora. 
 
 >[!NOTE]
->Svi iznosi na kartici " **Performanse** ugovora" su izraženi u podrazumevanoj valuti okruženja.
+>Svi iznosi na kartici **Performanse ugovora** izraženi su u podrazumevanoj valuti okruženja.
 
 | Polje | Lokacija | Opis |
 | --- | --- | --- |
-| Vrednost ugovora | Ukupan ugovor | Ukupna vrednost ugovora o projektu.|
+| Vrednost ugovora | Ukupan ugovor | Ukupna vrednost projektnog ugovora.|
 | Naplaćeni iznos | Ukupan ugovor | Zbir iznosa na svim fakturama po ovom ugovoru.|
 | Nastali troškovi | Ukupan ugovor | Zbir svih stvarnih troškova evidentiranih na svim projektima koji su mapirani sa ugovorom. |
 | Bruto marža | Ukupan ugovor | Naplaćeni iznos – Troškovi nastali do datuma/Naplaćeni iznos |

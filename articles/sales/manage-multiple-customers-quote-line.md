@@ -1,6 +1,6 @@
 ---
 title: Upravljanje sa više klijenata u stavkama ponude zasnovane na projektu
-description: Ovaj članak pruža informacije o načinu upravljanja više kupaca u redovima ponude zasnovanim na projektu.
+description: Ovaj članak pruža informacije o tome kako da upravljate sa više klijenata u stavkama ponude zasnovane na projektu.
 author: rumant
 ms.date: 10/06/2020
 ms.topic: article

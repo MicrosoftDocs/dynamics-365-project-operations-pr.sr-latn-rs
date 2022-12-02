@@ -1,6 +1,6 @@
 ---
 title: Integracija upravljanja troškovima
-description: Ovaj članak pruža informacije o integraciji izveštaja o troškovima u operacijama projekta pomoću dvostrukog pisanja.
+description: Ovaj članak pruža informacije o integraciji upravljanja troškovima u Project Operations pomoću dvostrukog upisivanja.
 author: sigitac
 ms.date: 04/28/2021
 ms.topic: article
@@ -18,19 +18,19 @@ ms.locfileid: "9528022"
 
 _**Odnosi se na:** Project Operations za scenarije zasnovane na resursima / bez zaliha_
 
-Ovaj članak pruža informacije o integraciji izveštaja o troškovima u operacije projekta potpuno [raspoređivanje troškova](../expense/expense-overview.md) pomoću dvostrukog pisanja.
+Ovaj članak pruža informacije o integraciji upravljanja izveštajima u Project Operations [punoj primeni troškova](../expense/expense-overview.md) pomoću dvostrukog upisivanja.
 
 ## <a name="expense-categories"></a>Kategorije troškova
 
-U potpunom raspoređivanju troškova kategorije troškova se kreiraju i održavaju u aplikacijama za finansije i operacije. Da biste kreirali novu kategoriju troškova, izvršite sledeće korake:
+U punoj primeni troškova, kategorije troškova se kreiraju i održavaju u aplikacijama za finansije i operacije. Da biste kreirali novu kategoriju troškova, izvršite sledeće korake:
 
-1. U Microsoft Dataverse kreirajte kategoriju **Transakcija**. Integracija sa dva pisanja će sinhronizovati ovu kategoriju transakcije sa aplikacijama za finansiranje i operacije. Za više informacija pogledajte [Konfigurišite kategorije projekata](/dynamics365/project-operations/project-accounting/configure-project-categories) i [Integracija podataka za podešavanje i konfiguraciju usluge Project Operations](resource-dual-write-setup-integration.md). Kao rezultat ove integracije, sistem kreira četiri deljena zapisa kategorija u aplikacijama za finansije i operacije.
+1. U Microsoft Dataverse kreirajte kategoriju **Transakcija**. Integracija dvostrukog pisanja sinhronizovaće ovu kategoriju transakcije sa aplikacijama za finansije i operacije. Za više informacija pogledajte [Konfigurišite kategorije projekata](/dynamics365/project-operations/project-accounting/configure-project-categories) i [Integracija podataka za podešavanje i konfiguraciju usluge Project Operations](resource-dual-write-setup-integration.md). Kao rezultat ove integracije, sistem kreira četiri zapisa deljene kategorije u aplikacijama za finansije i operacije.
 2. U Finance idite na **Upravljanje troškovima** > **Podesi** > **Deljene kategorije** i izaberite zajedničku kategoriju sa klasom transakcije **Trošak**. Podesite parametar **Može se koristiti u troškovima** na **Tačno** i definišite vrstu troškova koje ćete koristiti.
 3. Koristeći ovaj deljeni zapis o kategoriji, kreirajte novu kategoriju troškova odlaskom na **Upravljanje troškovima** > **Podesi** > **Kategorije troškova** i odaberite **Novo**. Kada je zapis sačuvan, dvostruko upisivanje koristi mapu tabele, **Entitet izvoza kategorija projektnih troškova Project Operations integracije (msdyn\_expensecategories)** za sinhronizaciju ovog zapisa sa Dataverse.
 
   ![Integracija kategorija troškova.](./media/DW6ExpenseCategories.png)
 
-Kategorije troškova u aplikacijama za finansije i operacije su specifične za preduzeće ili pravno lice. Postoje zasebne, odgovarajuće evidencije specifične za pravno lice u Dataverse. Kada menadžer projekta proceni troškove, ne može da odabere kategorije troškova stvorene za projekat koji je u vlasništvu druge kompanije od kompanije koja je vlasnik projekta na kojem rade. 
+Kategorije troškova u aplikacijama za finansije i operacije su specifične za kompaniju ili pravno lice. Postoje zasebne, odgovarajuće evidencije specifične za pravno lice u Dataverse. Kada menadžer projekta proceni troškove, ne može da odabere kategorije troškova stvorene za projekat koji je u vlasništvu druge kompanije od kompanije koja je vlasnik projekta na kojem rade. 
 
 ## <a name="expense-reports"></a>Izveštaji o troškovima
 

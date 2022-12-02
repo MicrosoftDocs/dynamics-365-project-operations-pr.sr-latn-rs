@@ -1,6 +1,6 @@
 ---
 title: Šta je novo novembra 2020. – Project Operations za scenarije zasnovane na zalihama/proizvodnji
-description: Ovaj članak pruža informacije o kvalitetnim ispravkama dostupnim u novembru 2020.
+description: Ovaj članak pruža informacije o ispravkama kvaliteta dostupnim u izdanju usluge Project Operations za novembar 2020. za scenarije zasnovane na proizvodnji.
 author: sigitac
 ms.date: 10/15/2020
 ms.topic: article
@@ -23,7 +23,7 @@ Za informacije o ispravkama uključenim u ovu ispravku, prijavite se na Lifecycl
 
 ## <a name="regulatory-updates"></a>Regulatorne ispravke
 
-Više informacija o regulatornim ispravkama za Dynamics 365 aplikacije za finansije i operacije potražite u članku [Regulatorne ispravke](/dynamics365/finance/localizations/regulatory-updates). Takođe se možete prijaviti na LCS i pregledati planirane regulatorne ispravke pomoću alatke za pretragu problema. Pretraga problema vam omogućava pretragu po zemlji, tipu funkcije i izdanju.
+Za informacije o regulatornim ispravkama za Dynamics 365 aplikacije za finansije i operacije pogledajte članak [Regulatorne ispravke](/dynamics365/finance/localizations/regulatory-updates). Takođe se možete prijaviti na LCS i pregledati planirane regulatorne ispravke pomoću alatke za pretragu problema. Pretraga problema vam omogućava pretragu po zemlji, tipu funkcije i izdanju.
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

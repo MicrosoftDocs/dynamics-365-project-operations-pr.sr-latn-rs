@@ -1,6 +1,6 @@
 ---
 title: Pregled režima upravljanja resursima
-description: Ovaj članak pruža informacije o funkcionalnosti upravljanja resursima u programu Dynamics 365 Project Operations.
+description: U ovom članku date su informacije o funkciji upravljanja resursima u usluzi Dynamics 365 Project Operations.
 author: ruhercul
 ms.date: 10/01/2020
 ms.topic: overview
@@ -38,7 +38,7 @@ Za organizacije kojima je potrebna fleksibilnost u raspodeli resursa, hibridni r
 
 ![Hibridni režim.](./media/resource-management-hybrid.png)
 
-Pored podržanog procesa centralnog režima, pogledajte sledeće članke za upravljanje svim ostalim podržanim tokovima rezervacija u hibridnom režimu:
+Pored podržanog procesa centralnog režima, pogledajte sledeće članke da biste upravljali svim ostalim podržanim tokovima rezervacija u hibridnom režimu:
 
 Rezervisanje resursa direktno u projektu:
 - [Rezervisanje imenovanih resursa koje je moguće rezervisati za projektni tim i dodeljivanje zadataka](/dynamics365/project-service/assign-named-bookable-resource)

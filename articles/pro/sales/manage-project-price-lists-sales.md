@@ -1,6 +1,6 @@
 ---
 title: Upravljanje cenovnicima projekata u ponudama za projekat
-description: Ovaj članak pruža informacije o radu sa cenovnicima projekta u ponudama.
+description: Ovaj članak pruža informacije o radu sa cenovnicima za projekat u ponudama.
 author: rumant
 ms.date: 03/30/2021
 ms.topic: article

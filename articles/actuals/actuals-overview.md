@@ -1,6 +1,6 @@
 ---
 title: Trenutno stanje
-description: Ovaj članak pruža informacije o radu sa stvarnim podacima korporacije Microsoft Dynamics 365 Project Operations.
+description: Ovaj članak pruža informacije o tome kako se radi sa stvarnim podacima u usluzi Microsoft Dynamics 365 Project Operations.
 author: rumant
 ms.date: 02/22/2022
 ms.topic: overview
@@ -24,20 +24,20 @@ ms.locfileid: "8924815"
 
 _**Odnosi se na:** Project Operations za scenarije zasnovane na resursima/bez zaliha, jednostavna primena – od pogodbe do profakture_
 
-Trenutno stanje predstavlja pregledani i odobreni finansijski i vremenski raspored projekta. One se kreiraju kada se odobre stavke vremena, troškova i korišćenja materijala, stavke naloga i fakture.
+Trenutno stanje predstavlja pregledani i odobreni finansijski i vremenski raspored projekta. Kreiraju se kada se odobravaju vreme, trošak, kao i stavke korišćenja materijala, stavke dnevnika i fakture odobravaju.
 
 > [!IMPORTANT]
-> Stvarne stvari ne bi trebalo uređivati ili brisati iz sistema. U suprotnom, finansijski integritet i bilo kakva integracija sa drugim finansijskim i računovodstvenim sistemima mogla bi da bude nepovoljno pogođena. Microsoft Dynamics 365 Project Operations vam omogućava da koristite reverziju i zamenu stvarnih stvari za uređivanje stvarnih stvari na različitim tačkama životnog ciklusa poslovnog procesa vaših projekata.
+> Stvarne vrednosti ne bi trebalo uređivati niti brisati iz sistema. U suprotnom, to bi moglo imati negativan uticaj na finansijski integritet i bilo kakvu integraciju sa drugim finansijskim i računovodstvenim sistemima. Microsoft Dynamics 365 Project Operations vam omogućava da koristite preokretanje i zamenu stvarnih vrednosti za uređivanje stvarnih vrednosti tokom različitih tačaka u životnom ciklusu poslovnog procesa u vašim projektima..
 
 ## <a name="recording-actuals-based-on-project-events"></a>Evidentiranje stvarnih vrednosti na osnovu događaja u projektu
 
-Operacije projekta zapisuje finansijske transakcije do kojih dolazi tokom životnog ciklusa angažovanja projekta kao stvarne. Stvaranje stvarnih stvari na različitim događajima u životnom ciklusu varira, u zavisnosti od toga da li angažovanje projekta koristi model naplate vremena i materijala ili model naplate fiksne cene, kao i da li je u fazi pretpristupne prodaje ili je u internom projektu.
+Project Operations beleži finansijske transakcije koje se dešavaju tokom životnog ciklusa angažovanja na projekta kao stvarne vrednosti. Kreiranje stvarnih vrednosti na različitim događajima u životnom ciklusu varira, u zavisnosti od toga da li angažovanje na projektu koristi model naplate prema vremenu i materijalu ili model naplate po fiksnoj ceni, kao i da li je u fazi pretpristupne prodaje ili je u internom projektu.
 
-Sledeći članci sadrže objašnjenja o uticaju na tabelu "Stvarne stvari" na različite događaje za različite varijacije:
+Sledeći članci objašnjavaju uticaj na tabelu „Stvarne vrednosti“ na različitim događajima za različite varijacije:
 
-- [Stvarni uticaj u vremenu i angažovanju materijala](ActualsonTM.md)
-- [Stvarni uticaj na angažovanje fiksne cene](ActualonFP.md)
-- [Stvarni uticaj u pred-prodajnoj fazi angažovanja](ActualonPreSales.md)
-- [Stvarni uticaj na interni projekat](ActualonInternal.md)
+- [Uticaj stvarnih vrednosti u angažovanju u pogledu vremena i materijala](ActualsonTM.md)
+- [Uticaj stvarnih vrednosti na angažovanje po fiksnoj ceni](ActualonFP.md)
+- [Uticaj stvarnih vrednosti u pretprodajnoj fazi angažovanja](ActualonPreSales.md)
+- [Uticaj stvarnih vrednosti za interni projekat](ActualonInternal.md)
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

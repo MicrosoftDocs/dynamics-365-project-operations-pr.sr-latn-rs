@@ -1,6 +1,6 @@
 ---
 title: Konfigurisanje standardne cene rada i troškova
-description: Ovaj članak sadrži objašnjenja o tome kako da podesite standardne troškove rada i troškove za projekat.
+description: Ovaj članak objašnjava kako da postavite standardnu cenu rada i troškove projekta.
 author: Yowelle
 ms.date: 08/02/2019
 ms.topic: business-process
@@ -25,7 +25,7 @@ ms.locfileid: "8919555"
 
 [!include [banner](../../includes/banner.md)]
 
-Ovaj članak sadrži objašnjenja o tome kako da podesite standardne troškove rada i troškove za projekat. Ovaj zadatke koristi USSI skup podataka.
+Ovaj članak objašnjava kako da postavite standardnu cenu rada i troškove projekta. Ovaj zadatke koristi USSI skup podataka.
 
 1. U oknu za navigaciju, idite na **Moduli > Upravljanje projektima i računovodstvo > Podešavanje > Cene > Cena koštanja (sat)**.
 2. Izaberite **Novo**.

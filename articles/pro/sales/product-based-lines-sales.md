@@ -1,6 +1,6 @@
 ---
 title: Stavke mogućnosti za poslovanje zasnovane na proizvodu – jednostavno
-description: Ovaj članak pruža informacije o stavkama predmeta mogućnosti za poslovanje zasnovanim na proizvodu u operacijama projekta.
+description: Ovaj članak pruža informacije o stavkama predmeta mogućnosti za poslovanje zasnovanim na proizvodu u usluzi Project Operations.
 author: rumant
 ms.date: 10/01/2020
 ms.topic: article

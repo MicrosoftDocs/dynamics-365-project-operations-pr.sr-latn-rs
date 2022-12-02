@@ -1,6 +1,6 @@
 ---
 title: Pregled sravnjenja resursa
-description: Ovaj članak pruža informacije koje će vam pomoći da obezbedite usklađivanje rezervacija resursa i dodela za projekte.
+description: Ovaj članak pruža informacije koje će vam pomoći da osigurate usklađivanje rezervacija resursa i zadataka za projekte.
 author: ruhercul
 ms.date: 01/08/2021
 ms.topic: overview
