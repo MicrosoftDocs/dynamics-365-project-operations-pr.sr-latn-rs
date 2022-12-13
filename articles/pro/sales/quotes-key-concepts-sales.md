@@ -1,17 +1,17 @@
 ---
-title: Ponude – Ključni koncepti – jednostavno
+title: Koncepti jedinstveni za ponude za projekat
 description: Ovaj članak pruža informacije o korišćenju ponuda za projekat u usluzi Project Operations.
 author: rumant
 ms.date: 10/01/2020
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: a8c2f009b7a0bebbf6a49bf942dd19f97205072e
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: 7f0a33f1d7d77f3b5aebfdcf8e6aeb14072cd596
+ms.sourcegitcommit: e0cbbe7c6f03d4978134405cf04bd8bc1d019f65
 ms.translationtype: MT
 ms.contentlocale: sr-Latn-RS
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8916995"
+ms.lasthandoff: 12/05/2022
+ms.locfileid: "9825911"
 ---
 # <a name="concepts-unique-to-project-quotes"></a>Koncepti jedinstveni za ponude za projekat
 
@@ -82,9 +82,13 @@ Rasporedi za fakturisanje su specifični za svaku stavku ponude i takođe su opc
 
 Project Operations ponude se grade na Dynamics 365 Sales ponudama. Međutim, postoje neke važne razlike u funkcionalnosti kojih bi trebalo da budete svesni:
 
-- Radnje **Koriguj** i **Aktiviraj** nisu podržane.
+
 - Project Operations ponude imaju dve različite vrste stavki. Jedna je za projekte, a druga za proizvode.
 - Project Operations ponude imaju sopstveni obrazac i elemente korisničkog interfejsa, poslovna pravila, poslovnu logiku u dodatnim komponentama i skripte na strani klijenta koje ih čine jedinstvenim u odnosu na ponuda usluge Sales.
+- Ponude za prodaju vam omogućavaju da priložite više porudžbina ponudi za prodaju. U projektne operacije samo jedan ugovor o projektu može biti priložen ponudi za projekat.
+- Kada osvojite ponudu za prodaju, povezana prilika može ostati otvorena. Kada vam odobre ponudu za projekat, biće zatvorena povezana mogućnost za poslovanje.
+- Ponuda za prodaju ne uključuje neka polja i koncepte koji su uključeni u ponudu projekta. U polja spadaju **Ugovorna jedinica**, **Menadžer za poslovne kontakte** i **Ime kontakta za fakturisanje**.  
+- **Tip**: Ponude za prodaju i ponude za projekte identifikuje i polje zasnovano na skupu opcija pod nazivom **Tip**. Za ponudu za prodaju, ovo polje ima vrednost **Zasnovano na stavci**. Za ponudu za projekat, ima vrednost **Zasnovano na radu**.
 
 Iz ovih razloga nije preporučljivo naizmenično koristiti Sales ponudu i Project Operations ponudu.
 

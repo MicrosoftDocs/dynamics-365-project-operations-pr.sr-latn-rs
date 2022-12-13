@@ -1,27 +1,27 @@
 ---
-title: Rasporedi fakturisanja na stavkama ponude zasnovane na projektu
+title: Rasporedi faktura u redovima ponude projekta
 description: Ovaj članak pruža informacije o kreiranju rasporeda i kontrolnih tačaka fakturisanja za stavke ponude.
 author: rumant
 ms.date: 10/01/2020
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: b1e431bc3586f9fef7a01348555e4ee4e06cc66c
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: 98006cc2857f01298054c4f0e70781bf4b8b474b
+ms.sourcegitcommit: e0cbbe7c6f03d4978134405cf04bd8bc1d019f65
 ms.translationtype: MT
 ms.contentlocale: sr-Latn-RS
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8918329"
+ms.lasthandoff: 12/05/2022
+ms.locfileid: "9825771"
 ---
-# <a name="invoice-schedules-on-project-based-quote-lines"></a>Rasporedi fakturisanja na stavkama ponude zasnovane na projektu
+# <a name="invoice-schedules-on-project-quote-lines"></a>Rasporedi faktura u redovima ponude projekta
 
-_**Odnosi se na:** Project Operations za resurs/scenarije koji nisu zasnovani na zalihama, laganu primenu – od pogodbe do profakture_
+_**Odnosi se na:** Project Operations za scenarije zasnovane na resursima/bez zaliha, jednostavna primena – od pogodbe do profakture_
 
-Stavka ponude zasnovane na projektu daje mogućnost izražavanja rasporeda fakturisanja. Ovo je opcionalno tokom faze ponude, jer aplikacija ne podržava fakturisanje projekta kada je vezano za stavku ponude. Fakturisanje je dozvoljeno samo nakon ostvarenja ponude. Jedini posledični uticaj kreiranja rasporeda fakturisanja tokom faze ponude je taj što se ovaj raspored fakturisanja kopira u predmet ugovora zasnovanog na projektu. Ako tokom faze ponude ne napravite raspored za fakturisanje, to ćete moći da uradite u predmetu ugovora zasnovanom na projektu.
+Red ponude projekta daje mogućnost izražavanja rasporeda faktura. Ovo je opcionalno tokom faze ponude, jer aplikacija ne podržava fakturisanje projekta kada je vezano za stavku ponude. Fakturisanje je dozvoljeno samo nakon ostvarenja ponude. Jedini posledični uticaj kreiranja rasporeda fakturisanja tokom faze ponude je taj što se ovaj raspored fakturisanja kopira u predmet ugovora zasnovanog na projektu. Ako tokom faze ponude ne napravite raspored za fakturisanje, to ćete moći da uradite u predmetu ugovora zasnovanom na projektu.
 
 Sve u svemu, svrha rasporeda za fakturisanje je da omogući automatsko kreiranje radnih verzija faktura za predmet ugovora zasnovanog na projektu. 
 
-## <a name="create-a-time-and-material-invoice-schedule-for-a-project-based-quote-line"></a>Napravite raspored za fakturisanje za vreme i materijal za stavku ponude zasnovane na projektu
+## <a name="create-a-time-and-material-invoice-schedule-for-a-project-quote-line"></a>Kreiranje rasporeda vremena i materijalne fakture za red ponude za projekat
 
 Kada je za stavku ponude zasnovane na projektu izabran način naplate „Vreme i materijal“, sistem generiše raspored za fakturisanje zasnovan na datumu. Da biste automatski generisali raspored za fakturisanje na osnovu datuma, izvršite sledeće korake.
 
@@ -36,7 +36,7 @@ Kada je za stavku ponude zasnovane na projektu izabran način naplate „Vreme i
     - **Datum isključivanja transakcije** se postavlja na dan pre **datuma pokretanja fakturisanja**.
     - **Status pokretanja** se automatski podešava na **Nije pokrenuto**. Kada se posao automatskog kreiranja fakture pokrene za određeni datum pokretanja fakture, ažuriraće ovo polje na **Pokretanje uspešno** ili **Pokretanje nije uspelo**.
 
-## <a name="create-a-fixed-price-invoice-schedule-for-a-project-based-quote-line"></a>Napravite raspored za fakturisanje za fiksnu cenu za stavku ponude zasnovane na projektu
+## <a name="create-a-fixed-price-invoice-schedule-for-a-project-quote-line"></a>Kreiranje rasporeda faktura fiksne cene za red ponude za projekat
 
 Kada stavka ponude zasnovane na projektu ima način naplate **Fiksno**, sistem kreira raspored za fakturisanje zasnovan na kontrolnim tačkama. Dovršite sledeće korake da biste automatski generisali ovaj raspored za fiksni skup kontrolnih tačaka koje su podjednako raspoređene za kalendarski period.
 

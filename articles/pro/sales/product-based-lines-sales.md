@@ -1,24 +1,24 @@
 ---
-title: Stavke mogućnosti za poslovanje zasnovane na proizvodu – jednostavno
-description: Ovaj članak pruža informacije o stavkama predmeta mogućnosti za poslovanje zasnovanim na proizvodu u usluzi Project Operations.
+title: Redovi mogućnosti za poslovanje proizvoda
+description: Ovaj članak pruža informacije o stavkama reda mogućnosti za poslovanje proizvoda u operacijama projekta.
 author: rumant
 ms.date: 10/01/2020
 ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: 2e19b371c6e821aecce38d64392db9c027b17106
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: 22dd55854f6ab6014021fb073ebed8d4d8b7b4c7
+ms.sourcegitcommit: e0cbbe7c6f03d4978134405cf04bd8bc1d019f65
 ms.translationtype: MT
 ms.contentlocale: sr-Latn-RS
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8917133"
+ms.lasthandoff: 12/05/2022
+ms.locfileid: "9825028"
 ---
-# <a name="product-based-opportunity-lines---lite"></a>Stavke mogućnosti za poslovanje zasnovane na proizvodu – jednostavno
+# <a name="product-opportunity-lines"></a>Redovi mogućnosti za poslovanje proizvoda
 
 _**Odnosi se na:** Jednostavna primena – od pogodbe do profakture_
 
-Predmeti mogućnosti za poslovanje zasnovani na proizvodu su stavke u mogućnosti za poslovanje. Ove različite stavke porudžbina nalaze se na eventualnoj fakturi koja se daje klijentu. Faktura ne uključuje nijednu drugu dodatnu uslugu. Povezana potrošnja i korišćenje se ne prate na zadacima bilo kojih povezanih projekata.
+Redovi mogućnosti za poslovanje proizvoda su stavke reda u prilici koje ne upućuju na projekat. Ove različite stavke porudžbina nalaze se na eventualnoj fakturi koja se daje klijentu. Faktura ne uključuje nijednu drugu dodatnu uslugu. Povezana potrošnja i korišćenje se ne prate na zadacima bilo kojih povezanih projekata.
 
 Stavke zasnovane na proizvodima mogu biti artikli iz kataloga ili ručno dodati proizvodi. Većina funkcionalnosti predmeta mogućnosti za poslovanje zasnovanih na proizvodu prati funkcionalnost koju pruža aplikacija Dynamics 365 Sales. Za više informacija o predmetima mogućnosti za poslovanje zasnovanim na proizvodu, pogledajte [Dodavanje proizvoda u mogućnost za poslovanje](/dynamics365/sales-enterprise/add-products-opportunity).
 

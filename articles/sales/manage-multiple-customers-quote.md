@@ -1,23 +1,23 @@
 ---
-title: Upravljanje sa više klijenata na ponudi za projekat
+title: Upravljanje sa više klijenata u ponudi zasnovanoj na projektu
 description: Ovaj članak pruža informacije o radu sa ponudama koje uključuju više klijenata koji će finansirati projekat.
 author: rumant
 ms.date: 10/01/2020
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: 16cd07527fddd093748a18c1f7c900c8b32be85d
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: 7b9c82ababdb9a588a0d28cae60a49d0594378d9
+ms.sourcegitcommit: e0cbbe7c6f03d4978134405cf04bd8bc1d019f65
 ms.translationtype: MT
 ms.contentlocale: sr-Latn-RS
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8928219"
+ms.lasthandoff: 12/05/2022
+ms.locfileid: "9825166"
 ---
-# <a name="manage-multiple-customers-on-a-project-quote"></a>Upravljanje sa više klijenata na ponudi za projekat
+# <a name="manage-multiple-customers-on-a-project-based-quote"></a>Upravljanje sa više klijenata u ponudi zasnovanoj na projektu
 
-_**Odnosi se na:** Project Operations za resurs/scenarije koji nisu zasnovani na zalihama, laganu primenu – od pogodbe do profakture_
+_**Odnosi se na:** Project Operations za scenarije zasnovane na resursima / bez zaliha_
 
-Ponude za projekte podržavaju scenario kada predlog uključuje više klijenata koji će finansirati pogodbu. Na kartici **Rezime** ponude nalazi se polje **Potencijalni klijent**, koje identifikuje primarnog klijenta u pogodbi. Drugi klijenti za pogodbu mogu se podesiti na kartici **Klijenti** ponude za projekat.
+Ponude zasnovane na projektu podržavaju scenario u kojem predlog uključuje više klijenata koji će finansirati posao. Na kartici **Rezime** ponude nalazi se polje **Potencijalni klijent**, koje identifikuje primarnog klijenta u pogodbi. Drugi klijenti za pogodbu mogu se podesiti na kartici **Klijenti** ponude za projekat.
 
 Svi klijenti ponude na kartici **Klijenti** ponude za projekat podrazumevano su klijenti stavke ponude u svakoj **novoj** stavci ponude zasnovane na projektu kreiranoj za ponudu. Sve postojeće stavke ponude zasnovane na projektu neće naslediti nove zapise klijenata ponude kreirane nakon njih.
 

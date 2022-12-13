@@ -1,19 +1,19 @@
 ---
-title: Upravljanje sa više klijenata na ugovorima za projekat
-description: Ovaj članak pruža informacije o načinu upravljanja većim brojem klijenata na projektnom ugovoru.
+title: Upravljanje više klijenata po ugovorima zasnovanim na projektu
+description: Ovaj članak pruža informacije o upravljanju više klijenata po ugovoru zasnovanom na projektu.
 author: rumant
 ms.date: 11/18/2020
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: 78ee117c1068e7af4674cc3b21e1055fd05bb43a
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: 1aae178830d7b671c33295ca6d2910ee4be2f8dd
+ms.sourcegitcommit: e0cbbe7c6f03d4978134405cf04bd8bc1d019f65
 ms.translationtype: MT
 ms.contentlocale: sr-Latn-RS
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8928357"
+ms.lasthandoff: 12/05/2022
+ms.locfileid: "9825396"
 ---
-# <a name="manage-multiple-customers-on-project-contracts"></a>Upravljanje sa više klijenata na ugovorima za projekat
+# <a name="manage-multiple-customers-on-project-based-contracts"></a>Upravljanje više klijenata po ugovorima zasnovanim na projektu
 
 Ovaj članak pruža informacije o načinu upravljanja većim brojem klijenata na projektnom ugovoru. Projektni ugovor možete koristiti kada je za finansiranje pogodbe potreban sporazumni ugovor za više klijenata. Na stranici **Projektni ugovor**, kartica **Rezime** sadrži informacije o primarnom klijentu za pogodbu. Ostali klijenti koji učestvuju u pogodbi mogu biti dodati na kartici **Klijenti**.
 

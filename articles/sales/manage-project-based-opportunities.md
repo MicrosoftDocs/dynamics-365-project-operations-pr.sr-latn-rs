@@ -1,21 +1,21 @@
 ---
-title: Upravljanje mogućnostima za poslovanje zasnovanim na projektima
+title: Upravljanje mogućnostima za poslovanje za projekat
 description: Ovaj članak pruža informacije o tome kako raditi sa mogućnostima koje su povezane sa projektima.
 author: rumant
 ms.date: 10/21/2020
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: 29e5a2c91186021eee9bb23aba3d42228fcd9381
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: 56eba38476dd5b49f0043eee5d411d51f9bf56b8
+ms.sourcegitcommit: e0cbbe7c6f03d4978134405cf04bd8bc1d019f65
 ms.translationtype: MT
 ms.contentlocale: sr-Latn-RS
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8933233"
+ms.lasthandoff: 12/05/2022
+ms.locfileid: "9825349"
 ---
-# <a name="manage-project-based-opportunities"></a>Upravljanje mogućnostima za poslovanje zasnovanim na projektima
+# <a name="manage-project-opportunities"></a>Upravljanje mogućnostima za poslovanje za projekat
 
-_**Odnosi se na:** Project Operations za resurs/scenarije koji nisu zasnovani na zalihama, laganu primenu – od pogodbe do profakture_
+_**Odnosi se na:** Project Operations za scenarije zasnovane na resursima/bez zaliha, jednostavna primena – od pogodbe do profakture_
 
 Projektne kompanije obično imaju svoje operacije isporuke raširene u više zemalja i geografskih područja. Troškovi izvršenja i isporuke projekta mogu se razlikovati u zavisnosti od toga koja lokacija ili odeljenje upravlja isporukom. Zauzvrat, ovo može uticati na marže pogodbe. Pružanje projektnih usluga obično uključuje velike količine ljudskih resursa, znatne troškove putovanja, materijalne troškove i druge troškove.
 

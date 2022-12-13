@@ -1,19 +1,19 @@
 ---
-title: Kreiranje rasporeda fakturisanja za predmet ugovora zasnovan na projektu – jednostavno
+title: Kreiranje rasporeda faktura u redu ugovora projekta
 description: Ovaj članak pruža informacije o kreiranju rasporeda faktura i kontrolnih tačaka.
 author: rumant
 ms.date: 10/26/2020
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: 403b993c3f61ca5f0fb1bac45331aa0613d16439
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: 1a6d0647ee012212a74a674cfa4e995d0e375b77
+ms.sourcegitcommit: e0cbbe7c6f03d4978134405cf04bd8bc1d019f65
 ms.translationtype: MT
 ms.contentlocale: sr-Latn-RS
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8921135"
+ms.lasthandoff: 12/05/2022
+ms.locfileid: "9824738"
 ---
-# <a name="create-invoice-schedules-on-a-project-based-contract-line---lite"></a>Kreiranje rasporeda fakturisanja za predmet ugovora zasnovan na projektu – jednostavno
+# <a name="create-invoice-schedules-on-a-project-contract-line"></a>Kreiranje rasporeda faktura u redu ugovora projekta
 
 _**Odnosi se na:** Jednostavna primena – od pogodbe do profakture_
 

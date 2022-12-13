@@ -1,23 +1,23 @@
 ---
-title: Mapiranje projekata i zadataka na predmet ugovora zasnovan na projektu – jednostavno
+title: Mapiranje projekata i zadataka na predmet ugovora za projekat
 description: Ovaj članak pruža informacije o dodavanju i uklanjanju projekata i zadataka u predmet ugovora.
 author: rumant
 ms.date: 10/27/2020
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: c8075e3161acd904969f964e5ab32dfe04edc4b6
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: 45118bb5a36203a3121a5f7ada0992d2c2491a4a
+ms.sourcegitcommit: e0cbbe7c6f03d4978134405cf04bd8bc1d019f65
 ms.translationtype: MT
 ms.contentlocale: sr-Latn-RS
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8932543"
+ms.lasthandoff: 12/05/2022
+ms.locfileid: "9825076"
 ---
-# <a name="map-projects-and-tasks-to-a-project-based-contract-line"></a>Mapiranje projekata i zadataka na predmet ugovora zasnovanog na projektu 
+# <a name="map-projects-and-tasks-to-a-project-contract-line"></a>Mapiranje projekata i zadataka na predmet ugovora za projekat 
 
 _**Odnosi se na:** Jednostavna primena – od pogodbe do profakture, Project Operations za scenarije zasnovane na resursima / bez zaliha_
 
-U predmetima ugovora zasnovanim na projektu, možete mapirati određene zadatke u projektu na predmet ugovora.
+U redovima ugovora o projektu možete mapirati određene zadatke u projektu do reda ugovora.
 
 Kada mapirate određene zadatke na predmet ugovora, način naplate, opcije naplativosti, ograničenja koja se ne prelaze i klijenti definisani na predmetu ugovora biće primenljivi samo na te određene zadatke.
 
@@ -25,7 +25,7 @@ Ako imate scenario u kojem je jedna faza projekta, na primer faza prototipa, fik
 
 Sve ostale faze u strukturnoj analizi posla na projektu (SAP) mogu se povezati sa predmetom ugovora zasnovanom na vremenu i materijalu.
 
-## <a name="associate-tasks-to-project-based-contract-lines"></a>Povezivanje zadataka sa predmetima ugovora zasnovanim na projektu
+## <a name="associate-tasks-to-project-contract-lines"></a>Povezivanje zadataka sa redovima ugovora o projektu
 
 Zadaci se mogu povezati sa predmetima ugovora sa kartice **Naplativi zadaci** na stranici **Predmet ugovora** ili sa kartice **Obračun zadataka** na stranici **Projekat**.
 

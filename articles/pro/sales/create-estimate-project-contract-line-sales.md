@@ -1,32 +1,32 @@
 ---
-title: Procena stavke ponude zasnovane na projektu – jednostavno
+title: Procena reda projec ugovora
 description: Ovaj članak pruža informacije o procenama predmeta ugovora zasnovanog na projektu.
 author: rumant
 ms.date: 03/30/2021
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: 8b4379cc5822d08b55623f0f3d4d49791af90927
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: 86872aa58067f55243fa19dc865971f76660f594
+ms.sourcegitcommit: e0cbbe7c6f03d4978134405cf04bd8bc1d019f65
 ms.translationtype: MT
 ms.contentlocale: sr-Latn-RS
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8914419"
+ms.lasthandoff: 12/05/2022
+ms.locfileid: "9824785"
 ---
-# <a name="estimate-a-projectbased-contract-line---lite"></a>Procena stavke ponude zasnovane na projektu – jednostavno
+# <a name="estimate-a-project-contract-line"></a>Procena predmeta ugovora za projekat
 
 _**Odnosi se na:** Jednostavna primena – od pogodbe do profakture_
 
-U usluzi Dynamics 365 Project Operations, predmet ugovora zasnovan na projektu sadrži detalje koji pomažu u proceni troškova i potencijalnog prihoda od posla koji se odnosi na isporuku predmeta ugovora.
+U Dynamics 365 Project Operations cilju, red ugovora o projektu ima detalje koji pomažu u proceni troškova i potencijalnog prihoda posla koji je uključen u isporuku ugovora.
 
-Da biste procenili predmet ugovora zasnovan na projektu, idite na karticu **Detalji predmeta ugovora** za **Predmet ugovora** zasnovan na projektu.  Postoje dva načina da kreirate procenu direktno na predmetu ugovora zasnovanom na projektu:
+Da biste procenili red ugovora o projektu, idite na karticu " **Detalji reda ugovora** " u redu ugovora zasnovanom **na projektu**.  Postoje dva načina da kreirate procenu direktno na predmetu ugovora zasnovanom na projektu:
 
    - Kreirajte procenu direktno u predmetu ugovora ručnim dodavanjem detalja predmeta ugovora.
    - Kreirajte projekat i plan projekta, a zatim povežite projekat i zadatke sa predmetom ugovora o projektu. Ovo omogućava proces pomoću kojeg možete da uvezete procenu plana projekta u predmet ugovora na osnovu komponenti uključenih u predmet ugovora.
 
 ## <a name="create-an-estimation-directly-on-a-projectbased-contract-line"></a>Kreiranje procene direktno na predmetu ugovora zasnovanom na projektu
 
-Da biste kreirali procenu direktno na predmetu ugovora zasnovanom na projektu, sledite ove korake:
+Da biste kreirali procenu direktno na redu ugovora o projektu, sledite ove korake:
 
 1. Idite na predmet ugovora i izaberite karticu **Detalji predmeta ugovora**. Redovi koje kreirate na ovoj kartici sažeti su i prikazani kao **Ugovorena vrednost** za ovaj **Predmet ugovora**. 
 2. U podformi **Detalji predmeta ugovora**, izaberite **Novi detalj predmeta ugovora**. Otvara se klizač za brzo kreiranje. Sledeća polja su dostupna na stranici **Detalji predmeta ugovora**.

@@ -1,21 +1,21 @@
 ---
-title: Uvoz procene u predmet ugovora zasnovan na projektu – jednostavno
+title: Uvoz procena iz projekta u predmet ugovora za projekat
 description: Ovaj članak pruža informacije o uvozu finansijskih procena iz projekta u predmet ugovora.
 author: rumant
 ms.date: 10/19/2020
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: d6e3bdfeb1ea9de32d6712ac5671be39c243702a
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: 73ae0ccbb5372c9dfbc28ac154094c89add0913d
+ms.sourcegitcommit: e0cbbe7c6f03d4978134405cf04bd8bc1d019f65
 ms.translationtype: MT
 ms.contentlocale: sr-Latn-RS
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8924217"
+ms.lasthandoff: 12/05/2022
+ms.locfileid: "9824692"
 ---
-# <a name="import-an-estimate-to-a-project-based-contract-line---lite"></a>Uvoz procene u predmet ugovora zasnovan na projektu – jednostavno
+# <a name="import-estimates-from-a-project-to-a-project-contract-line"></a>Uvoz procena iz projekta u predmet ugovora za projekat
 
-_**Odnosi se na:** Jednostavna primena – od pogodbe do profakture_
+_**Primenjuje:** Lite deployment - deal to proforma invoicing, Project Operations for resource/non-stocked based scenarios_ _
 
 U usluzi Dynamics 365 Project Operations možete da uvozite procene iz projekta u predmet ugovora zasnovan na projektu.
 

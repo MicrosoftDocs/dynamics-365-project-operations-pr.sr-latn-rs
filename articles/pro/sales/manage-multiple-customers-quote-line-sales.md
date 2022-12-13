@@ -1,23 +1,23 @@
 ---
-title: Upravljanje većim brojem klijenata u stavkama ponude zasnovane na projektu – jednostavno
-description: Ovaj članak opisuje kako se upravlja sa više klijenata u stavkama ponuda zasnovanim na projektu.
+title: Upravljanje više kupaca u redovima ponude projekta
+description: Ovaj članak opisuje kako se upravlja sa više kupaca u redovima ponude projekta.
 author: rumant
 ms.date: 10/06/2020
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: fbd0c17de3de8dc4cd84860851fb5837b86586cd
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: 70007499ea61e7d81df071cc6d003896d721555b
+ms.sourcegitcommit: e0cbbe7c6f03d4978134405cf04bd8bc1d019f65
 ms.translationtype: MT
 ms.contentlocale: sr-Latn-RS
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8927805"
+ms.lasthandoff: 12/05/2022
+ms.locfileid: "9824456"
 ---
-# <a name="manage-multiple-customers-on-project-based-quote-lines---lite"></a>Upravljanje većim brojem klijenata u stavkama ponude zasnovane na projektu – jednostavno
+# <a name="manage-multiple-customers-on-project-quote-lines"></a>Upravljanje više kupaca u redovima ponude projekta
 
 _**Odnosi se na:** Jednostavna primena – od pogodbe do profakture_
 
-Stavke ponude zasnovane na projektu podržavaju scenarije gde svaka stavka ponude ima listu klijenata koji je plaćaju. Ova lista klijenata na stavci ponude zasnovane na projektu može biti ista kao lista klijenata na ponudi. Možete i da promenite listu klijenata da bude drugačija. Kada se ostvari ponuda za projekat, lista klijenata na stavci ponude zasnovane na projektu se kopira u odgovarajući predmet ugovora zasnovan na projektu da bi se kreirao eventualni ugovor o projektu. Klijenti na osnovu ponude zasnovane na projektu kopiraju se u ugovor za projekat.
+Redovi ponude projekta podržavaju scenarije u kojima svaki red ponude ima listu kupaca koji je plaćaju. Ova lista klijenata na stavci ponude zasnovane na projektu može biti ista kao lista klijenata na ponudi. Možete i da promenite listu klijenata da bude drugačija. Kada se ostvari ponuda za projekat, lista klijenata na stavci ponude zasnovane na projektu se kopira u odgovarajući predmet ugovora zasnovan na projektu da bi se kreirao eventualni ugovor o projektu. Klijenti na osnovu ponude zasnovane na projektu kopiraju se u ugovor za projekat.
 
 Kada fakturišete eventualni ugovor za projekat, lista klijenata u predmetu ugovora zasnovanog na projektu ima prioritet nad listom u ugovoru za projekat. Lista klijenata na projektnom ugovoru koristi se samo za podrazumevana podešavanja na novim predmetima ugovora o projektu.
 

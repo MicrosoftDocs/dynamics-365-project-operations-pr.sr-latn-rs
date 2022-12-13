@@ -1,21 +1,21 @@
 ---
-title: Procena stavke ponude zasnovane na projektu
-description: Ovaj članak pruža informacije o tome kako da kreirate procenu na stavci ponude zasnovane na projektu.
+title: Procena stavke ponude za projekat
+description: Ovaj članak pruža informacije o kreiranju procene u redu ponude projekta.
 author: rumant
 ms.date: 04/01/2021
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: 2a8aa2971431cd1f2082c8fc80db1438be185f5b
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: bac3a3fa2d14c857edfb469a005406c346c8dbf6
+ms.sourcegitcommit: e0cbbe7c6f03d4978134405cf04bd8bc1d019f65
 ms.translationtype: MT
 ms.contentlocale: sr-Latn-RS
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8914373"
+ms.lasthandoff: 12/05/2022
+ms.locfileid: "9826005"
 ---
-# <a name="estimating-a-project-based-quote-line"></a>Procena stavke ponude zasnovane na projektu
+# <a name="estimate-a-project-quote-line"></a>Procena stavke ponude za projekat
 
-_**Odnosi se na:** Jednostavna primena – od pogodbe do profakture_
+_**Odnosi se na:** Jednostavna primena – od pogodbe do profakture, Project Operations za scenarije zasnovane na resursima / bez zaliha_
 
 Stavka ponude zasnovana na projektu sadrži detalje koji pomažu u proceni troškova i potencijalnog prihoda od posla koji se odnosi na isporuku stavke ponude.
 
@@ -24,7 +24,7 @@ Da biste procenili stavku ponude zasnovanu na projektu, u stavci ponude zasnovan
 - Ručno kreirajte procenu direktno na stavci ponude koristeći detalje stavke ponude. 
 - Kreirajte projekat i plan projekta, a zatim povežite projekat i zadatke na projektu sa stavkom ponude. Biće omogućen postupak uvoza procena iz projektnog plana u stavku ponude na osnovu informacija koje ste obezbedili.
 
-## <a name="create-estimates-directly-on-a-project-based-quote-line"></a>Kreiranje procena direktno u stavci ponude zasnovane na projektu
+## <a name="create-estimates-directly-on-a-project-quote-line"></a>Kreiranje procena direktno u redu ponude za projekat
 
 Da biste kreirali procenu u stavci ponude zasnovanoj na projektu, izaberite karticu **Detalj stavke ponude**. Stavka koju kreirate na ovoj kartici rezimiraće navedenu vrednost za ovu stavku ponude. 
 
@@ -68,8 +68,7 @@ Valuta detalja stavke ponude za podrazumevane vrednosti cene iz cenovnika ugovor
 
 Proračuni isplativosti pretvaraju iznos na detaljima stavki ponude za cenu i prodaju u osnovnu valutu okruženja kako bi se prijavila ukupna procenjena marža u ponudi.
 
-> [!NAPOMENA
-> > Greške u zaokruživanju valuta i promenjene marže mogu se desiti zbog nedostatka efektivnih deviznih kurseva za datum. Koristite ove proračune samo na ugovorima za projekat, jer su to približne vrednosti i nisu stvarno zakonsko ili drugo izveštavanje koje zahteva veću preciznost zaokruživanja i svest o efektivnosti datuma za devizne kurseve.
+> [! Note greške u zaokruživanju valute i promenjene marže mogu da se jave zbog nedostatka datuma efektivnog kursa valute. Koristite ove proračune samo na ugovorima za projekat, jer su to približne vrednosti i nisu stvarno zakonsko ili drugo izveštavanje koje zahteva veću preciznost zaokruživanja i svest o efektivnosti datuma za devizne kurseve.
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]
